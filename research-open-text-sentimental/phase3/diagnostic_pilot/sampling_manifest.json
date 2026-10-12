@@ -1,0 +1,44 @@
+{
+  "purpose": "Codebook feasibility pilot; not a prevalence estimate or independent test set",
+  "seed": 20261007,
+  "source_v2_sha256": "287995b6b8b529c145591108d9a77f88f1e515185d38810910066ffba21fa781",
+  "eligible_reddit_s2_troubleshooting_development_posts": 1658,
+  "pilot_n": 50,
+  "quotas": [
+    {
+      "source_pool": "phase1_gold_file",
+      "has_body": false,
+      "n": 4
+    },
+    {
+      "source_pool": "phase1_gold_file",
+      "has_body": true,
+      "n": 4
+    },
+    {
+      "source_pool": "oct5_query_gds",
+      "has_body": false,
+      "n": 4
+    },
+    {
+      "source_pool": "oct5_query_gds",
+      "has_body": true,
+      "n": 8
+    },
+    {
+      "source_pool": "oct5_query_tps",
+      "has_body": false,
+      "n": 2
+    },
+    {
+      "source_pool": "oct5_query_tps",
+      "has_body": true,
+      "n": 28
+    }
+  ],
+  "review_text_sha256": "ef0040da1482e8df6a54e1c1d425ba4f3689f8d70ce4eafba3d56cb52399b7ab",
+  "mapping_sha256": "f8a27654cdb0d7bd68e856cd23acbc1e65d7695445c4d065a3f78309c787131a",
+  "reserved_test_used": false,
+  "stack_overflow_excluded": true,
+  "labels_filled": false
+}

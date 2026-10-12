@@ -1,0 +1,130 @@
+{
+  "tests_read": false,
+  "population": "reddit_url_s2_2050",
+  "incident_terms": [
+    "error",
+    "bug",
+    "bugs",
+    "fix",
+    "fixed",
+    "crash",
+    "crashed",
+    "install",
+    "installation",
+    "broken",
+    "issue",
+    "issues",
+    "problem",
+    "problems",
+    "dependency",
+    "dependencies",
+    "config",
+    "configuration"
+  ],
+  "discontent_terms": [
+    "hate",
+    "hates",
+    "hated",
+    "annoying",
+    "annoyed",
+    "frustrating",
+    "frustrated",
+    "disappointed",
+    "disappointment",
+    "useless",
+    "terrible",
+    "awful",
+    "worst",
+    "stupid",
+    "garbage",
+    "trash",
+    "ridiculous",
+    "sucks",
+    "horrible"
+  ],
+  "excluded_from_historical_mask": [
+    "update",
+    "upgrade"
+  ],
+  "exclusion_reason": "Collection is already restricted to software-update discussion.",
+  "by_class": {
+    "troubleshooting": {
+      "incident_only": {
+        "n": 1124,
+        "mean_compound": -0.06037784697508897
+      },
+      "discontent_only": {
+        "n": 33,
+        "mean_compound": -0.2749878787878788
+      },
+      "both": {
+        "n": 134,
+        "mean_compound": -0.22779402985074626
+      },
+      "neither": {
+        "n": 367,
+        "mean_compound": 0.0018621253405994556
+      },
+      "n": 1658
+    },
+    "other_update": {
+      "incident_only": {
+        "n": 124,
+        "mean_compound": 0.3551
+      },
+      "discontent_only": {
+        "n": 13,
+        "mean_compound": -0.22283076923076922
+      },
+      "both": {
+        "n": 30,
+        "mean_compound": 0.056240000000000005
+      },
+      "neither": {
+        "n": 225,
+        "mean_compound": 0.1478368888888889
+      },
+      "n": 392
+    }
+  },
+  "identifiers_written": false,
+  "verbatim_text_written": false,
+  "development_s2_comment_presence_by_domain_and_class": [
+    {
+      "domain": "reddit.com",
+      "s2_target": 0,
+      "has_nonempty_comment": false,
+      "n": 155
+    },
+    {
+      "domain": "reddit.com",
+      "s2_target": 0,
+      "has_nonempty_comment": true,
+      "n": 237
+    },
+    {
+      "domain": "reddit.com",
+      "s2_target": 1,
+      "has_nonempty_comment": false,
+      "n": 1098
+    },
+    {
+      "domain": "reddit.com",
+      "s2_target": 1,
+      "has_nonempty_comment": true,
+      "n": 560
+    },
+    {
+      "domain": "stackoverflow.com",
+      "s2_target": 0,
+      "has_nonempty_comment": false,
+      "n": 2
+    },
+    {
+      "domain": "stackoverflow.com",
+      "s2_target": 1,
+      "has_nonempty_comment": false,
+      "n": 28
+    }
+  ]
+}

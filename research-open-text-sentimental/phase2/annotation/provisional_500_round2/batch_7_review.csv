@@ -1,0 +1,1370 @@
+﻿review_id,subreddit,title,post_body,discussion_context,text_availability,proposed_about_software,proposed_update_related,proposed_discussion_type,proposed_confidence,proposed_reason,decision,final_about_software,final_update_related,final_discussion_type,reviewer_note,reviewed_at,source_url
+B7-001,Android,Android's March Canary update is live and here's everything we've spotted so far,,"[1:reply] Wow, finally bringing back the separate mobile data and wifi toggles from Android 11. Insane that it took this long for common sense to click again.
+[2:reply] If this change is not optional, meaning they keep a merged Internet tile, this change is as bad as it was back then merging them. To me one tile makes more sense for toggles I rarely touch but want to have accessible quickly. Others need both. Please give us options Google.
+[3:reply] Now we can make tiles smaller since A16 I'm less bothered, as we can fit both into one original tile space, that was my main issue with separating them again - unifying them opened up another toggle space which I'd desperately wanted. The tiles were huge and we only had a choice…
+[4:reply] I want to know what's new ""underhood"" - like Android 17 new camera lenses smooth transitions in Pixel
+[5:reply] Honest question but what is the use case?",title_plus_comments,yes,yes,other,medium,The post appears to discuss software without a clear troubleshooting or chiefly critical purpose.,,,,,,,https://reddit.com/r/Android/comments/1rz3tji/androids_march_canary_update_is_live_and_heres/
+B7-002,immich,Issues switching from 1.139.4,I'm having issues updating. And don't know what to do. If I upgrade immich then the data ase isn't compatible.,"[1:reply] You should read through the release notes one by one from where you are and slowly update to versions with breaking changes. So find the next release from yours that has a breaking change, make those changes and pull that release. Keep doing that till you reach the current relea…
+[2:reply] It’s not going to be a fun process. You’re like a year behind in updates. You need to identify all the breaking changes that apply to you and ideally upgrade through each one at a time and verify it’s working after each. Enjoy your weekend and make sure you have a working DB bac…
+[3:reply] This is the way if you want to avoid starting over entirely. And while 1.139.4 is quite old, you really don’t have to go through THAT many versions because once you’ve made it to v2 you should be able to jump straight to v3 (ofc read the v3 release notes). Within v2 there should…
+[4:reply] Another option, viability depends upon your specific situation, is that you can move the photos out, start fresh and then import with Immich go.
+[5:reply] By that point I would just backup the library, net new install and import the old library with Immich-go",title_body_comments,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/immich/comments/1uyi9ub/issues_switching_from_11394/
+B7-003,Fedora,Fedora 44 + T480 -&gt; Intermittent Screen dimming,"I've used Fedora on my T480 since Fedora 38 without Issues. My particular device has a slight burnt-in display from the reseller.
+
+After I updated from Fedora 43 KDE spin to Fedora 44 KDE spin, I've noticed the display would get oscillating dimming. Going from, say, 95% to 100% brightness multiple times a second (without displaying any popups or anything)
+
+At first I thought this was the display backlight kicking the bucket after all these years. But I connected to a monitor, and had the exact same behavior, which leads me to believe it's software.
+
+Anyone else seeing this behavior? and if so, what can I do to at least try to find out what happened? Could this be Fedora Specific, or be related to Linux in general?
+
+  
+I updated my system a couple of times, so I can't use the Fedora 43 Kernel anymore","[1:reply] It sounds like you're looking for help. Please note that r/Fedora is not an official support channel for the Fedora Project.
+
+For best results, be sure to include all relevant details in your post, such as your Fedora edition, version, and hardware specs. You can edit your origi…",title_body_comments,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/Fedora/comments/1v2e8ro/fedora_44_t480_intermittent_screen_dimming/
+B7-004,chrome,Is there a way to disable the + for ai features on google chrome search bar?,,"[1:reply] Thank you for your submission to /r/Chrome! We hope you'll find the help you need. Once you've found a solution to your issue, please comment ""**!solved**"" under this comment to mark the post as solved. Thanks!
+
+
+*I am a bot, and this action was performed automatically. Please […
+[2:OP] Like I do NOT want to be seeing that stupid + dropdown menu whenever I am searching for anything, and also to disable search with google lens feature thing
+[3:reply] Had this issue pop up after doing all the flags stuff the other month.  So this time I asked Gemini and the following worked for me:
+________________________________
+
+Option 1: The Quick Right-Click
+If you see a specific icon in the URL bar (like a small Lens or Gemini icon), yo…
+[4:reply] Tasto destro con il mouse sulla omnibox/ barra degli indirizzi e nel menù contestuale dovrebbe esserci un opzione per disattivare l'AI Mode.
+[5:reply] Search chrome flags, itll take you to a thing, search ai mode then disable everything that you dont want on",title_plus_comments,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/chrome/comments/1rk4t40/is_there_a_way_to_disable_the_for_ai_features_on/
+B7-005,chrome,Chrome keeps muting my Discord calls,Think I finally have the right sub. I've noticed this problem a few days ago but every time I try to play any sort of audio in chrome while in a discord call it mutes the audio from the discord call? I tried playing video on Firefox and it works perfectly fine in a discord call. I cannot figure out what the issue is. Was there a recent update that might be causing this?,"[1:reply] Thank you for your submission to /r/Chrome! We hope you'll find the help you need. Once you've found a solution to your issue, please comment ""**!solved**"" under this comment to mark the post as solved. Thanks!
+
+
+*I am a bot, and this action was performed automatically. Please […",title_body_comments,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/chrome/comments/1v1fapb/chrome_keeps_muting_my_discord_calls/
+B7-006,ios,iPhone 11 Pro won’t start after restart – possible storage or iOS issue,"I have an iPhone 11 Pro. Three days ago, due to a lack of storage space, I deleted one app and then decided to restart the phone. After that, it stopped turning on — the Apple logo appears, then the screen goes black, and the logo shows up again. The battery is charged.
+
+I tried updating it through iTunes on my laptop (Windows 10). The software update on the laptop completed, but there was no progress bar or loading screen on the phone.
+
+The next day, a technician tried to restore the phone using 3uTools and RedBOOT. In RedBOOT, they selected the standard repair option with data preservation, and I even paid for a premium firmware (iOS 26, about 9 GB).
+
+After that, a loading bar appeared under the Apple logo on the phone, it completed fully, and then the message “Swipe up” appeared. I entered my passcode, and the “Restoring data” process started — it took about 30 minutes.
+
+When it finished, the “Swipe up” message appeared again. After entering the passcode, the phone shows a white screen with a black Apple logo and a loading bar for about 2 seconds, then the screen goes black, the logo appears again, and after 30 seconds it once again shows “Swipe up.”
+
+This keeps repeating endlessly. Restarting doesn’t help. I think the problem might be caused by the full storage or an error during the iOS installation.
+
+Is there anything that can be done to turn on the phone without losing data?",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/ios/comments/1ouwvxt/iphone_11_pro_wont_start_after_restart_possible/
+B7-007,Android,Pixel phones in the US are finally getting this hotspot upgrade unlocked,,"[1:reply] Just recently found out that service providers in Canada can disable the hotpot feature on your phone unless you pay a monthly subscription
+[2:reply] As an Australian i have always found it crazy that in the US and Canada that they lock down your hotspots.  Mobile data is still being used, it shouldn't matter if you are hot spotting to another device.  so stupid.
+[3:reply] In the US this was common for years, then most plans allowed use, but most still meter it differently.  Eg, unlimited data, but 15gb/mo for hotspot.  It varies.  I've had Canadian mobile plans, but never unlimited (eg Fizz 10gb/mo regardless of use), so not sure if in that case…
+[4:reply] TL;Dclickbait
+
+
+6GHz freq, as reported on another reddit thread https://www.reddit.com/r/GooglePixel/comments/1p188pw/6ghz_hotspot_may_be_coming_to_us_showing_in_beta/
+[5:reply] This is true of American phones, too. Stupidly, it also applies to sharing your WiFi connection, even though no cell towers are used. This means that if you can't reach your carrier's servers, like on a cruise or flight, you can't share your Wi-Fi connection to create a personal…",title_plus_comments,yes,yes,other,medium,The post appears to discuss software without a clear troubleshooting or chiefly critical purpose.,,,,,,,https://reddit.com/r/Android/comments/1p1gzjd/pixel_phones_in_the_us_are_finally_getting_this/
+B7-008,firefox,Weird issue with webradio since 152.0. update,"Hope someone can help here. Ever since the 152.0. update, my sister has the problem that the one [webradio (80s80s)](https://www.80s80s.de/) she likes to listen to doesn't work anymore on Firefox (Win 11 PC). The weirdest thing is that a strange (broken?) mini player appeared out of nowhere which was never before there on the spot where normally the name of the radio channel would be (see pics). Said player seems to not even work or would stuck when trying to use it. The webradio is also now slower and would sometimes stuck in a neverending loading when she wants to change the radio channel. She needs to refresh the site again in order to make it work again. It also happens in Nightly as well and seems to be a Firefox issue only since on Edge, the very same webradio works perfectly fine and also doesn't have that weird player thing at all. Mind you, before the 152.0. update, it worked fine and there was also no player.
+
+Anyone having an idea what this is and how to fix it? Is there something she needs to change over at config:about to make work again? Or is this some weird bug which appeared with the 152.0. update? 
+
+Already tried to:
+
+\- Remove the player via a filter from UBO (the player is gone, however the site still acts weird and slow)
+
+\- Using the Google Mask (didn't work, issue remains)
+
+\- Disabling add-ons (also didn't work)
+
+\- Updating to the lastest update (still same problem with 152.0.2)
+
+  
+I know this is more of a niche thing, but I would be grateful for anyhelp of how to fix this. Thanks.","[1:OP] About switching genres, the loading problem happens when she's longer on one radio channel and then wants to change. Instead of start playing the other radio channel, it would load forever and only works when refreshing the site. Just happened again a few minutes ago. 
+
+Is there…
+[2:reply] Site works the same in Nightly, current (v152) and v147 for me, albeit that broken progress/seek bar thing does only seem to appear in current/nightly (and not in v147). There's possibly some javascript performing feature checks (at a guess) to determine whether to display the p…",title_body_comments,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/firefox/comments/1udn7b2/weird_issue_with_webradio_since_1520_update/
+B7-009,transformers,DNA Design DK-80 HasLab Omega Prime Upgrade Kit,,"[1:reply] I love recent DNA designs upgrades, but this feels almost like its fixing issues no one had. 
+
+
+That said better hands and super duper mode is pretty sweet.
+[2:reply] There’s too much shit on me?
+[3:reply] Haslab omega prime needed the upgrade on the Chest pc. Too many cq issues there
+[4:reply] The re designed chest okay that could be really good for people who aren’t in a market where Hasbro can get the replacement out. Those gap fillers for the sliding parts in the chest….yeah I don’t love those. They are designed that way and with a small amount of lubricant to allo…
+[5:reply] That's the original version from 2001 that you're thinking of, this is a new version from 2025.",title_plus_comments,no,no,na,medium,The saved text appears outside software scope or is too vague to classify reliably.,,,,,,,https://reddit.com/r/transformers/comments/1qqmkro/dna_design_dk80_haslab_omega_prime_upgrade_kit/
+B7-010,transformers,Transformers Retro G1 Seaspray,"He's finally here!
+
+You don't realize literally how much bigger he is than his previous fig until they're side by side. 
+
+Aside from his feet being a lil finicky fitting together for his alt mode he's definitely a needed upgrade.","[1:reply] I like the previous figure a great deal, but the new one does look better. Double the price better? Maybe.
+[2:reply] I didn't notice the stark difference in yellows until i received the new version. It's a definite improvement!
+[3:OP] Exactly!
+[4:OP] Double the size too though.
+[5:reply] Beautiful",title_body_comments,no,no,na,medium,The saved text appears outside software scope or is too vague to classify reliably.,,,,,,,https://reddit.com/r/transformers/comments/1nw5x83/transformers_retro_g1_seaspray/
+B7-011,linuxquestions,what did i just do...,"I did the thing you're not supposed to do and didn't look before typing Y...  
+And i think it just removed like my whole system even tho i tried to just remove 3 packages that i had just installed...
+
+I was downloading Anki, from the (what i can tell) official website, and it told me to download these packages as a prerequisite, but then i double checked the website on virustotal and it had -30 in community score, so i kinda panicked tried to remove the packages...
+
+My computer is still running fine, file search, cinnamon etc, but i'm not turning it off. what's the best way to save this?
+
+    The following packages will be REMOVED:blueman bluez-cups cinnamon cinnamon-dbg cinnamon-settings-daemon codecolord cpdb-backend-cups cups cups-browsed cups-core-drivers cups-filterscups-filters-core-drivers default-jre-headless ecryptfs-utilsevolution-data-server fcitx-frontend-qt5 fcitx-module-quickphrase-editor5fcitx5 fcitx5-chinese-addons fcitx5-config-qt fcitx5-frontend-allfcitx5-frontend-qt5 fcitx5-module-pinyinhelper fcitx5-modules fcitx5-pinyinfcitx5-pinyin-gui fcitx5-table fingwit fprintd gir1.2-camel-1.2gir1.2-ecal-2.0 gir1.2-edataserver-1.2 gir1.2-xreader gnome-calendargnome-control-center gnome-disk-utility gnuplot-qt gstreamer1.0-plugins-badgvfs gvfs-backends gvfs-daemons gvfs-fuse hplip krita kwayland-integrationlibblockdev-crypto3 libcamel-1.2-64t64 libcupsfilters2t64libebackend-1.2-11t64 libebook-1.2-21t64 libebook-contacts-1.2-4t64libecal-2.0-3 libecryptfs1 libedata-book-1.2-27t64 libedata-cal-2.0-2t64libedataserver-1.2-27t64 libedataserverui-1.2-4t64libedataserverui4-1.0-0t64 libfcitx-qt5-1 libfcitx5-qt1 libfprint-2-2libgdal34t64 libkf5completion5 libkf5configgui5 libkf5crash5libkf5guiaddons-bin libkf5guiaddons5 libkf5itemviews5 libkf5kdcraw5libkf5waylandclient5 libkf5widgetsaddons5 libkf5windowsystem5 libkseexprui4libmlt++7 libmlt7 libnss3 libopencv-contrib406t64 libopencv-highgui406t64libopencv-imgcodecs406t64 libpam-fingwit libpam-fprintd libpoppler-cpp0t64libpoppler-glib8t64 libpoppler-qt5-1t64 libpoppler134 libppd2libqscintilla2-qt5-15 libqt5designer5 libqt5gui5t64 libqt5help5libqt5multimedia5 libqt5multimediaquick5 libqt5opengl5t64libqt5printsupport5t64 libqt5quick5 libqt5quickwidgets5 libqt5svg5libqt5waylandclient5 libqt5waylandcompositor5 libqt5webenginecore5libqt5webenginewidgets5 libqt5widgets5t64 libqt5x11extras5libreoffice-base-core libreoffice-calc libreoffice-core libreoffice-drawlibreoffice-gnome libreoffice-gtk3 libreoffice-impress libreoffice-writerlibsane1 libsrtp2-1 libvolume-key1 libxcb-cursor0 libxcb-xinerama0libxmlsec1t64-nss libxreaderdocument3 libxreaderview3 mint-meta-cinnamonmint-meta-codecs nemo nemo-dbg nemo-fileroller nemo-preview octaveopenjdk-21-jre-headless opera-stable poppler-utils printer-driver-c2espprinter-driver-gutenprint printer-driver-hpcups printer-driver-splixpython3-pyqt5 python3-uno qml-module-qtmultimedia qml-module-qtquick2qt5-gtk-platformtheme qt5-gtk2-platformtheme qt5-style-plugin-cleanlooksqt5-style-plugin-motif qt5-style-plugin-plastique qt5-style-pluginsqtwayland5 sane-utils simple-scan spotify-client steam-launchersteam-libs-amd64 thingy udisks2 vlc vlc-plugin-qt vlc-plugin-skins2wine-stable wine-stable-amd64 winehq-stable xreader xreader-dbgThe following NEW packages will be installed:foomatic-filters0 upgraded, 1 newly installed, 160 to remove and 4 not upgraded.Need to get 92,2 kB of archives.After this operation, 2 854 MB disk space will be freed.Do you want to continue? [Y/n] yGet:1 http://ftp.acc.umu.se/ubuntu noble/universe amd64 foomatic-filters amd64 4.0.17-16 [92,2 kB]Fetched 92,2 kB in 0s (824 kB/s)Preconfiguring packages ...(Reading database ... 1073910 files and directories currently installed.)Removing blueman (2.4.4+mint2+xia) ...Removing bluez-cups (5.72-0ubuntu5.5) ...Removing cinnamon-dbg (6.6.7+zena) ...Removing mint-meta-cinnamon (2025.12.15+mint22.3) ...Removing cinnamon (6.6.7+zena) ...dpkg: warning: while removing cinnamon, directory '/usr/lib/python3/dist-packages/cinnamon' not empty so not removedRemoving cinnamon-settings-daemon (6.6.3+zena) ...Removing code (1.116.0-1776214182) ...Removing gnome-control-center (1:46.7-0ubuntu0.24.04.4) ...Removing colord (1.4.7-1build2) ...Removing cpdb-backend-cups (2.0~b5-0ubuntu6) ...Removing printer-driver-splix (2.0.0+svn315-7fakesync1ubuntu1) ...Removing hplip (3.23.12+dfsg0-0ubuntu5) ...Removing printer-driver-hpcups (3.23.12+dfsg0-0ubuntu5) ...Removing cups-browsed (2.0.0-0ubuntu10.3) ...Removing printer-driver-gutenprint (5.3.4.20220624T01008808d602-1build4) ...Removing cups (2.4.7-1.2ubuntu7.9) ...Removing cups-core-drivers (2.4.7-1.2ubuntu7.9) ...dpkg: cups-filters: dependency problems, but removing anyway as you requested:printer-driver-pxljr depends on cups-filters | foomatic-filters; however:Package cups-filters is to be removed.Package foomatic-filters is not installed.Package cups-filters which provides foomatic-filters is to be removed.printer-driver-m2300w depends on cups-filters | foomatic-filters; however:Package cups-filters is to be removed.Package foomatic-filters is not installed.Package cups-filters which provides foomatic-filters is to be removed.printer-driver-foo2zjs depends on cups-filters | foomatic-filters; however:Package cups-filters is to be removed.Package foomatic-filters is not installed.Package cups-filters which provides foomatic-filters is to be removed.printer-driver-pxljr depends on cups-filters | foomatic-filters; however:Package cups-filters is to be removed.Package foomatic-filters is not installed.Package cups-filters which provides foomatic-filters is to be removed.printer-driver-m2300w depends on cups-filters | foomatic-filters; however:Package cups-filters is to be removed.Package foomatic-filters is not installed.Package cups-filters which provides foomatic-filters is to be removed.printer-driver-foo2zjs depends on cups-filters | foomatic-filters; however:Package cups-filters is to be removed.Package foomatic-filters is not installed.Package cups-filters which provides foomatic-filters is to be removed.Removing cups-filters (2.0.0-0ubuntu4.1) ...Selecting previously unselected package foomatic-filters.(Reading database ... 1065007 files and directories currently installed.)Preparing to unpack .../foomatic-filters_4.0.17-16_amd64.deb ...Unpacking foomatic-filters (4.0.17-16) ...(Reading database ... 1065036 files and directories currently installed.)Removing cups-filters-core-drivers (2.0.0-0ubuntu4.1) ...Removing default-jre-headless (2:1.21-75+exp1) ...Removing ecryptfs-utils (111-6ubuntu3) ...Removing evolution-data-server (3.52.3-0ubuntu1.2) ...Removing fcitx-frontend-qt5:amd64 (1.2.7-2build13) ...Removing fcitx-module-quickphrase-editor5:amd64 (1.2.7-2build13) ...Removing fcitx5-chinese-addons (5.1.3-1build3) ...Removing fcitx5-table:amd64 (5.1.3-1build3) ...Removing fcitx5-module-pinyinhelper:amd64 (5.1.3-1build3) ...Removing fcitx5-config-qt (5.1.4-1) ...Removing fcitx5-frontend-all (5.1.7-1build3) ...Removing fcitx5-frontend-qt5 (5.1.4-1build5) ...Removing fcitx5-pinyin-gui:amd64 (5.1.3-1build3) ...Removing fingwit (1.0.8+zena) ...Removing libpam-fprintd:amd64 (1.94.3-1) ...Removing libpam-fingwit (1.0.8+zena) ...Removing fprintd (1.94.3-1) ...Removing gir1.2-ecal-2.0:amd64 (3.52.3-0ubuntu1.2) ...Removing gir1.2-edataserver-1.2:amd64 (3.52.3-0ubuntu1.2) ...Removing gir1.2-camel-1.2:amd64 (3.52.3-0ubuntu1.2) ...Removing nemo-preview (6.6.0+zena) ...Removing gir1.2-xreader (4.6.3+zena) ...Removing gnome-calendar (46.1-1mint2+zara) ...Removing gnome-disk-utility (46.0-1ubuntu3) ...Removing gnuplot-qt (6.0.0+dfsg1-1ubuntu3) ...Removing mint-meta-codecs (2025.12.15+mint22.3) ...Removing gstreamer1.0-plugins-bad:amd64 (1.24.2-1ubuntu4) ...Removing gvfs-backends (1.54.4-0ubuntu1~24.04.2) ...Removing gvfs-fuse (1.54.4-0ubuntu1~24.04.2) ...Removing krita (1:5.2.2+dfsg-2build8) ...Removing kwayland-integration:amd64 (4:5.27.11-0ubuntu3) ...Removing libedataserverui4-1.0-0t64:amd64 (3.52.3-0ubuntu1.2) ...Removing libedataserverui-1.2-4t64:amd64 (3.52.3-0ubuntu1.2) ...Removing printer-driver-c2esp (27-11ubuntu7) ...Removing libppd2:amd64 (2:2.0.0-0ubuntu4.1) ...Removing libcupsfilters2t64:amd64 (2.0.0-0ubuntu7.2) ...Removing libedata-cal-2.0-2t64:amd64 (3.52.3-0ubuntu1.2) ...Removing libebook-1.2-21t64:amd64 (3.52.3-0ubuntu1.2) ...Removing libedata-book-1.2-27t64:amd64 (3.52.3-0ubuntu1.2) ...Removing libebackend-1.2-11t64:amd64 (3.52.3-0ubuntu1.2) ...Removing libebook-contacts-1.2-4t64:amd64 (3.52.3-0ubuntu1.2) ...Removing libecal-2.0-3:amd64 (3.52.3-0ubuntu1.2) ...Removing libecryptfs1:amd64 (111-6ubuntu3) ...Removing libedataserver-1.2-27t64:amd64 (3.52.3-0ubuntu1.2) ...Removing libfcitx-qt5-1:amd64 (1.2.7-2build13) ...Removing libfcitx5-qt1:amd64 (5.1.4-1build5) ...Removing libfprint-2-2 (1:1.94.7+tod1-0ubuntu5~24.04.6) ...Removing libkf5completion5:amd64 (5.115.0-0ubuntu5) ...Removing libkf5configgui5:amd64 (5.115.0-0ubuntu5) ...Removing libkf5crash5:amd64 (5.115.0-0ubuntu5) ...Removing libkf5guiaddons-bin (5.115.0-0ubuntu5) ...Removing libkf5guiaddons5:amd64 (5.115.0-0ubuntu5) ...Removing libkf5itemviews5:amd64 (5.115.0-0ubuntu5) ...Removing libkf5kdcraw5:amd64 (23.08.5-0ubuntu3) ...Removing libkf5waylandclient5:amd64 (4:5.115.0-0ubuntu5) ...Removing libkf5widgetsaddons5:amd64 (5.115.0-0ubuntu4) ...Removing libkf5windowsystem5:amd64 (5.115.0-0ubuntu4) ...Removing libkseexprui4:amd64 (4.0.4.0-6ubuntu4) ...Removing steam-libs-amd64 (1:1.0.0.85) ...Removing steam-launcher (1:1.0.0.85) ...Removing libpoppler-cpp0t64:amd64 (24.02.0-1ubuntu9.8) ...Removing xreader-dbg (4.6.3+zena) ...Removing thingy (1.2.4) ...Removing xreader (4.6.3+zena) ...Removing /usr/bin/evince symbolic link.Removing libxreaderview3 (4.6.3+zena) ...Removing libxreaderdocument3 (4.6.3+zena) ...Removing winehq-stable (11.0.0.0~noble-1) ...Removing simple-scan (46.0-0ubuntu2.1mint1+zena) ...Removing libpoppler-qt5-1t64:amd64 (24.02.0-1ubuntu9.8) ...Removing python3-uno (4:24.2.7-0ubuntu0.24.04.4) ...Removing libreoffice-writer (4:24.2.7-0ubuntu0.24.04.4) ...Removing nemo-fileroller (6.6.0+zena) ...Removing octave (8.4.0-1build5) ...Removing libqscintilla2-qt5-15:amd64 (2.14.1+dfsg-1build3) ...Removing python3-pyqt5 (5.15.10+dfsg-1build6) ...Removing libqt5designer5:amd64 (5.15.13-1) ...Removing libqt5webenginewidgets5:amd64 (5.15.16+dfsg-3) ...Removing libqt5quickwidgets5:amd64 (5.15.13+dfsg-1ubuntu0.1) ...Removing opera-stable (130.0.5847.41) ...Removing qml-module-qtmultimedia:amd64 (5.15.13-1) ...Removing qml-module-qtquick2:amd64 (5.15.13+dfsg-1ubuntu0.1) ...Removing libqt5help5:amd64 (5.15.13-1) ...Removing libqt5multimediaquick5:amd64 (5.15.13-1) ...Removing libqt5multimedia5:amd64 (5.15.13-1) ...Removing libqt5printsupport5t64:amd64 (5.15.13+dfsg-1ubuntu1) ...Removing vlc (3.0.20-3build6) ...Removing vlc-plugin-skins2:amd64 (3.0.20-3build6) ...Removing vlc-plugin-qt:amd64 (3.0.20-3build6) ...Removing qtwayland5:amd64 (5.15.13-1) ...Removing libqt5waylandclient5:amd64 (5.15.13-1) ...Removing libqt5waylandcompositor5:amd64 (5.15.13-1) ...Removing libqt5webenginecore5:amd64 (5.15.16+dfsg-3) ...Removing qt5-style-plugins:amd64 (5.0.0+git23.g335dbec-6build5) ...Removing qt5-style-plugin-plastique:amd64 (5.0.0+git23.g335dbec-6build5) ...Removing qt5-style-plugin-motif:amd64 (5.0.0+git23.g335dbec-6build5) ...Removing libqt5x11extras5:amd64 (5.15.13-1) ...Removing libreoffice-calc (4:24.2.7-0ubuntu0.24.04.4) ...Removing libreoffice-base-core (4:24.2.7-0ubuntu0.24.04.4) ...Removing libreoffice-impress (4:24.2.7-0ubuntu0.24.04.4) ...Removing libreoffice-draw (4:24.2.7-0ubuntu0.24.04.4) ...Removing libreoffice-gnome (4:24.2.7-0ubuntu0.24.04.4) ...Removing libreoffice-gtk3 (4:24.2.7-0ubuntu0.24.04.4) ...Removing libsrtp2-1:amd64 (2.5.0-3build1) ...Removing libxcb-cursor0:amd64 (0.1.4-1build1) ...Removing nemo-dbg (6.6.3+zena) ...Removing openjdk-21-jre-headless:amd64 (21.0.10+7-1~24.04) ...Removing qt5-gtk-platformtheme:amd64 (5.15.13+dfsg-1ubuntu1) ...Removing qt5-gtk2-platformtheme:amd64 (5.0.0+git23.g335dbec-6build5) ...Removing qt5-style-plugin-cleanlooks:amd64 (5.0.0+git23.g335dbec-6build5) ...Removing sane-utils (1.2.1-7build4) ...Removing spotify-client (1:1.2.84.476.ga1ff6607) ...Removing fcitx5-pinyin:amd64 (5.1.3-1build3) ...Removing fcitx5 (5.1.7-1build3) ...Removing fcitx5-modules:amd64 (5.1.7-1build3) ...Removing libcamel-1.2-64t64:amd64 (3.52.3-0ubuntu1.2) ...Removing wine-stable (11.0.0.0~noble-1) ...Removing wine-stable-amd64 (11.0.0.0~noble-1) ...Removing libsane1:amd64 (1.2.1-7build4) ...Removing libpoppler-glib8t64:amd64 (24.02.0-1ubuntu9.8) ...Removing libreoffice-core (4:24.2.7-0ubuntu0.24.04.4) ...Removing nemo (6.6.3+zena) ...Removing poppler-utils (24.02.0-1ubuntu9.8) ...Removing libqt5quick5:amd64 (5.15.13+dfsg-1ubuntu0.1) ...Removing libxmlsec1t64-nss:amd64 (1.2.39-5build2) ...Removing gvfs:amd64 (1.54.4-0ubuntu1~24.04.2) ...Removing gvfs-daemons (1.54.4-0ubuntu1~24.04.2) ...Removing udisks2 (2.10.1-6ubuntu1.3) ...Removing libblockdev-crypto3:amd64 (3.1.1-1ubuntu0.1) ...Removing libvolume-key1:amd64 (0.3.12-7build2) ...Removing libmlt7:amd64 (7.22.0-1build6) ...Removing libmlt++7:amd64 (7.22.0-1build6) ...Removing libopencv-contrib406t64:amd64 (4.6.0+dfsg-13.1ubuntu1) ...Removing libopencv-highgui406t64:amd64 (4.6.0+dfsg-13.1ubuntu1) ...Removing libopencv-imgcodecs406t64:amd64 (4.6.0+dfsg-13.1ubuntu1) ...Removing libgdal34t64:amd64 (3.8.4+dfsg-3ubuntu3) ...Removing libpoppler134:amd64 (24.02.0-1ubuntu9.8) ...Removing libqt5opengl5t64:amd64 (5.15.13+dfsg-1ubuntu1) ...Removing libqt5svg5:amd64 (5.15.13-1) ...Removing libqt5widgets5t64:amd64 (5.15.13+dfsg-1ubuntu1) ...Removing libnss3:amd64 (2:3.98-1ubuntu0.1) ...Removing libqt5gui5t64:amd64 (5.15.13+dfsg-1ubuntu1) ...Removing libxcb-xinerama0:amd64 (1.15-1ubuntu2) ...Setting up foomatic-filters (4.0.17-16) ...Creating config file /etc/foomatic/filter.conf with new versionProcessing triggers for desktop-file-utils (0.27-2build1) ...Processing triggers for hicolor-icon-theme (0.17-2) ...Processing triggers for gnome-menus (3.36.0-1.1ubuntu3) ...Processing triggers for mate-menus (1.26.1+mint1) ...Processing triggers for libc-bin (2.39-0ubuntu8.7) ...Processing triggers for man-db (2.12.0-4build2) ...Processing triggers for libglib2.0-0t64:amd64 (2.80.0-6ubuntu3.8) ...Processing triggers for libglib2.0-0t64:i386 (2.80.0-6ubuntu3.8) ...Processing triggers for libreoffice-common (4:24.2.7-0ubuntu0.24.04.4) ...Processing triggers for dbus (1.14.10-4ubuntu4.1) ...Processing triggers for shared-mime-info (2.4-4) ...Processing triggers for udev (255.4-1ubuntu8.15) ...Processing triggers for libvlc-bin:amd64 (3.0.20-3build6) ...Processing triggers for mailcap (3.70+nmu1ubuntu1) ...The following packages will be REMOVED:The following packages will be REMOVED:
+
+    sudo apt remove libxcb-xinerama0 libxcb-cursor0 libnss3
+    Reading package lists... Done
+    Building dependency tree... Done
+    Reading state information... 
+
+[Middle omitted for workbook cell. Full saved body is in B7-011.txt.]
+
+er-cpp0t64
+    libpoppler-glib8t64 libpoppler-qt5-1t64 libpoppler134 libppd2
+    libqscintilla2-qt5-15 libqt5designer5 libqt5gui5t64 libqt5help5
+    libqt5multimedia5 libqt5multimediaquick5 libqt5opengl5t64
+    libqt5printsupport5t64 libqt5quick5 libqt5quickwidgets5 libqt5svg5
+    libqt5waylandclient5 libqt5waylandcompositor5 libqt5webenginecore5
+    libqt5webenginewidgets5 libqt5widgets5t64 libqt5x11extras5
+    libreoffice-base-core libreoffice-calc libreoffice-core libreoffice-draw
+    libreoffice-gnome libreoffice-gtk3 libreoffice-impress libreoffice-writer
+    libsane1 libsrtp2-1 libvolume-key1 libxcb-cursor0 libxcb-xinerama0
+    libxmlsec1t64-nss libxreaderdocument3 libxreaderview3 mint-meta-cinnamon
+    mint-meta-codecs nemo nemo-dbg nemo-fileroller nemo-preview octave
+    openjdk-21-jre-headless opera-stable poppler-utils printer-driver-c2esp
+    printer-driver-gutenprint printer-driver-hpcups printer-driver-splix
+    python3-pyqt5 python3-uno qml-module-qtmultimedia qml-module-qtquick2
+    qt5-gtk-platformtheme qt5-gtk2-platformtheme qt5-style-plugin-cleanlooks
+    qt5-style-plugin-motif qt5-style-plugin-plastique qt5-style-plugins
+    qtwayland5 sane-utils simple-scan spotify-client steam-launcher
+    steam-libs-amd64 thingy udisks2 vlc vlc-plugin-qt vlc-plugin-skins2
+    wine-stable wine-stable-amd64 winehq-stable xreader xreader-dbg
+    
+    The following NEW packages will be installed:
+    foomatic-filters
+    0 upgraded, 1 newly installed, 160 to remove and 4 not upgraded.
+    Need to get 92,2 kB of archives.
+    After this operation, 2 854 MB disk space will be freed.
+    Do you want to continue? [Y/n] y
+    Get:1 http://ftp.acc.umu.se/ubuntu noble/universe amd64 foomatic-filters amd64 4.0.17-16 [92,2 kB]
+    Fetched 92,2 kB in 0s (824 kB/s)
+    Preconfiguring packages ...
+    (Reading database ... 1073910 files and directories currently installed.)
+    Removing blueman (2.4.4+mint2+xia) ...
+    Removing bluez-cups (5.72-0ubuntu5.5) ...
+    Removing cinnamon-dbg (6.6.7+zena) ...
+    Removing mint-meta-cinnamon (2025.12.15+mint22.3) ...
+    Removing cinnamon (6.6.7+zena) ...
+    dpkg: warning: while removing cinnamon, directory '/usr/lib/python3/dist-package
+    s/cinnamon' not empty so not removed
+    Removing cinnamon-settings-daemon (6.6.3+zena) ...
+    Removing code (1.116.0-1776214182) ...
+    Removing gnome-control-center (1:46.7-0ubuntu0.24.04.4) ...
+    Removing colord (1.4.7-1build2) ...
+    Removing cpdb-backend-cups (2.0~b5-0ubuntu6) ...
+    Removing printer-driver-splix (2.0.0+svn315-7fakesync1ubuntu1) ...
+    Removing hplip (3.23.12+dfsg0-0ubuntu5) ...
+    Removing printer-driver-hpcups (3.23.12+dfsg0-0ubuntu5) ...
+    Removing cups-browsed (2.0.0-0ubuntu10.3) ...
+    Removing printer-driver-gutenprint (5.3.4.20220624T01008808d602-1build4) ...
+    Removing cups (2.4.7-1.2ubuntu7.9) ...
+    Removing cups-core-drivers (2.4.7-1.2ubuntu7.9) ...
+    dpkg: cups-filters: dependency problems, but removing anyway as you requested:
+    printer-driver-pxljr depends on cups-filters | foomatic-filters; however:
+    Package cups-filters is to be removed.
+    Package foomatic-filters is not installed.
+    Package cups-filters which provides foomatic-filters is to be removed.
+    printer-driver-m2300w depends on cups-filters | foomatic-filters; however:
+    Package cups-filters is to be removed.
+    Package foomatic-filters is not installed.
+    Package cups-filters which provides foomatic-filters is to be removed.
+    printer-driver-foo2zjs depends on cups-filters | foomatic-filters; however:
+    Package cups-filters is to be removed.
+    Package foomatic-filters is not installed.
+    Package cups-filters which provides foomatic-filters is to be removed.
+    printer-driver-pxljr depends on cups-filters | foomatic-filters; however:
+    Package cups-filters is to be removed.
+    Package foomatic-filters is not installed.
+    Package cups-filters which provides foomatic-filters is to be removed.
+    printer-driver-m2300w depends on cups-filters | foomatic-filters; however:
+    Package cups-filters is to be removed.
+    Package foomatic-filters is not installed.
+    Package cups-filters which provides foomatic-filters is to be removed.
+    printer-driver-foo2zjs depends on cups-filters | foomatic-filters; however:
+    Package cups-filters is to be removed.
+    Package foomatic-filters is not installed.
+    Package cups-filters which provides foomatic-filters is to be removed.
+    Removing cups-filters (2.0.0-0ubuntu4.1) ...
+    Selecting previously unselected package foomatic-filters.
+    (Reading database ... 1065007 files and directories currently installed.)
+    Preparing to unpack .../foomatic-filters_4.0.17-16_amd64.deb ...
+    Unpacking foomatic-filters (4.0.17-16) ...
+    (Reading database ... 1065036 files and directories currently installed.)
+    Removing cups-filters-core-drivers (2.0.0-0ubuntu4.1) ...
+    Removing default-jre-headless (2:1.21-75+exp1) ...
+    Removing ecryptfs-utils (111-6ubuntu3) ...
+    Removing evolution-data-server (3.52.3-0ubuntu1.2) ...
+    Removing fcitx-frontend-qt5:amd64 (1.2.7-2build13) ...
+    Removing fcitx-module-quickphrase-editor5:amd64 (1.2.7-2build13) ...
+    Removing fcitx5-chinese-addons (5.1.3-1build3) ...
+    Removing fcitx5-table:amd64 (5.1.3-1build3) ...
+    Removing fcitx5-module-pinyinhelper:amd64 (5.1.3-1build3) ...
+    Removing fcitx5-config-qt (5.1.4-1) ...
+    Removing fcitx5-frontend-all (5.1.7-1build3) ...
+    Removing fcitx5-frontend-qt5 (5.1.4-1build5) ...
+    Removing fcitx5-pinyin-gui:amd64 (5.1.3-1build3) ...
+    Removing fingwit (1.0.8+zena) ...
+    Removing libpam-fprintd:amd64 (1.94.3-1) ...
+    Removing libpam-fingwit (1.0.8+zena) ...
+    Removing fprintd (1.94.3-1) ...
+    Removing gir1.2-ecal-2.0:amd64 (3.52.3-0ubuntu1.2) ...
+    Removing gir1.2-edataserver-1.2:amd64 (3.52.3-0ubuntu1.2) ...
+    Removing gir1.2-camel-1.2:amd64 (3.52.3-0ubuntu1.2) ...
+    Removing nemo-preview (6.6.0+zena) ...
+    Removing gir1.2-xreader (4.6.3+zena) ...
+    Removing gnome-calendar (46.1-1mint2+zara) ...
+    Removing gnome-disk-utility (46.0-1ubuntu3) ...
+    Removing gnuplot-qt (6.0.0+dfsg1-1ubuntu3) ...
+    Removing mint-meta-codecs (2025.12.15+mint22.3) ...
+    Removing gstreamer1.0-plugins-bad:amd64 (1.24.2-1ubuntu4) ...
+    Removing gvfs-backends (1.54.4-0ubuntu1~24.04.2) ...
+    Removing gvfs-fuse (1.54.4-0ubuntu1~24.04.2) ...
+    Removing krita (1:5.2.2+dfsg-2build8) ...
+    Removing kwayland-integration:amd64 (4:5.27.11-0ubuntu3) ...
+    Removing libedataserverui4-1.0-0t64:amd64 (3.52.3-0ubuntu1.2) ...
+    Removing libedataserverui-1.2-4t64:amd64 (3.52.3-0ubuntu1.2) ...
+    Removing printer-driver-c2esp (27-11ubuntu7) ...
+    Removing libppd2:amd64 (2:2.0.0-0ubuntu4.1) ...
+    Removing libcupsfilters2t64:amd64 (2.0.0-0ubuntu7.2) ...
+    Removing libedata-cal-2.0-2t64:amd64 (3.52.3-0ubuntu1.2) ...
+    Removing libebook-1.2-21t64:amd64 (3.52.3-0ubuntu1.2) ...
+    Removing libedata-book-1.2-27t64:amd64 (3.52.3-0ubuntu1.2) ...
+    Removing libebackend-1.2-11t64:amd64 (3.52.3-0ubuntu1.2) ...
+    Removing libebook-contacts-1.2-4t64:amd64 (3.52.3-0ubuntu1.2) ...
+    Removing libecal-2.0-3:amd64 (3.52.3-0ubuntu1.2) ...
+    Removing libecryptfs1:amd64 (111-6ubuntu3) ...
+    Removing libedataserver-1.2-27t64:amd64 (3.52.3-0ubuntu1.2) ...
+    Removing libfcitx-qt5-1:amd64 (1.2.7-2build13) ...
+    Removing libfcitx5-qt1:amd64 (5.1.4-1build5) ...
+    Removing libfprint-2-2 (1:1.94.7+tod1-0ubuntu5~24.04.6) ...
+    Removing libkf5completion5:amd64 (5.115.0-0ubuntu5) ...
+    Removing libkf5configgui5:amd64 (5.115.0-0ubuntu5) ...
+    Removing libkf5crash5:amd64 (5.115.0-0ubuntu5) ...
+    Removing libkf5guiaddons-bin (5.115.0-0ubuntu5) ...
+    Removing libkf5guiaddons5:amd64 (5.115.0-0ubuntu5) ...
+    Removing libkf5itemviews5:amd64 (5.115.0-0ubuntu5) ...
+    Removing libkf5kdcraw5:amd64 (23.08.5-0ubuntu3) ...
+    Removing libkf5waylandclient5:amd64 (4:5.115.0-0ubuntu5) ...
+    Removing libkf5widgetsaddons5:amd64 (5.115.0-0ubuntu4) ...
+    Removing libkf5windowsystem5:amd64 (5.115.0-0ubuntu4) ...
+    Removing libkseexprui4:amd64 (4.0.4.0-6ubuntu4) ...
+    Removing steam-libs-amd64 (1:1.0.0.85) ...
+    Removing steam-launcher (1:1.0.0.85) ...
+    Removing libpoppler-cpp0t64:amd64 (24.02.0-1ubuntu9.8) ...
+    Removing xreader-dbg (4.6.3+zena) ...
+    Removing thingy (1.2.4) ...
+    Removing xreader (4.6.3+zena) ...
+    Removing /usr/bin/evince symbolic link.
+    Removing libxreaderview3 (4.6.3+zena) ...
+    Removing libxreaderdocument3 (4.6.3+zena) ...
+    Removing winehq-stable (11.0.0.0~noble-1) ...
+    Removing simple-scan (46.0-0ubuntu2.1mint1+zena) ...
+    Removing libpoppler-qt5-1t64:amd64 (24.02.0-1ubuntu9.8) ...
+    Removing python3-uno (4:24.2.7-0ubuntu0.24.04.4) ...
+    Removing libreoffice-writer (4:24.2.7-0ubuntu0.24.04.4) ...
+    Removing nemo-fileroller (6.6.0+zena) ...
+    Removing octave (8.4.0-1build5) ...
+    Removing libqscintilla2-qt5-15:amd64 (2.14.1+dfsg-1build3) ...
+    Removing python3-pyqt5 (5.15.10+dfsg-1build6) ...
+    Removing libqt5designer5:amd64 (5.15.13-1) ...
+    Removing libqt5webenginewidgets5:amd64 (5.15.16+dfsg-3) ...
+    Removing libqt5quickwidgets5:amd64 (5.15.13+dfsg-1ubuntu0.1) ...
+    Removing opera-stable (130.0.5847.41) ...
+    Removing qml-module-qtmultimedia:amd64 (5.15.13-1) ...
+    Removing qml-module-qtquick2:amd64 (5.15.13+dfsg-1ubuntu0.1) ...
+    Removing libqt5help5:amd64 (5.15.13-1) ...
+    Removing libqt5multimediaquick5:amd64 (5.15.13-1) ...
+    Removing libqt5multimedia5:amd64 (5.15.13-1) ...
+    Removing libqt5printsupport5t64:amd64 (5.15.13+dfsg-1ubuntu1) ...
+    Removing vlc (3.0.20-3build6) ...
+    Removing vlc-plugin-skins2:amd64 (3.0.20-3build6) ...
+    Removing vlc-plugin-qt:amd64 (3.0.20-3build6) ...
+    Removing qtwayland5:amd64 (5.15.13-1) ...
+    Removing libqt5waylandclient5:amd64 (5.15.13-1) ...
+    Removing libqt5waylandcompositor5:amd64 (5.15.13-1) ...
+    Removing libqt5webenginecore5:amd64 (5.15.16+dfsg-3) ...
+    Removing qt5-style-plugins:amd64 (5.0.0+git23.g335dbec-6build5) ...
+    Removing qt5-style-plugin-plastique:amd64 (5.0.0+git23.g335dbec-6build5) ...
+    Removing qt5-style-plugin-motif:amd64 (5.0.0+git23.g335dbec-6build5) ...
+    Removing libqt5x11extras5:amd64 (5.15.13-1) ...
+    Removing libreoffice-calc (4:24.2.7-0ubuntu0.24.04.4) ...
+    Removing libreoffice-base-core (4:24.2.7-0ubuntu0.24.04.4) ...
+    Removing libreoffice-impress (4:24.2.7-0ubuntu0.24.04.4) ...
+    Removing libreoffice-draw (4:24.2.7-0ubuntu0.24.04.4) ...
+    Removing libreoffice-gnome (4:24.2.7-0ubuntu0.24.04.4) ...
+    Removing libreoffice-gtk3 (4:24.2.7-0ubuntu0.24.04.4) ...
+    Removing libsrtp2-1:amd64 (2.5.0-3build1) ...
+    Removing libxcb-cursor0:amd64 (0.1.4-1build1) ...
+    Removing nemo-dbg (6.6.3+zena) ...
+    Removing openjdk-21-jre-headless:amd64 (21.0.10+7-1~24.04) ...
+    Removing qt5-gtk-platformtheme:amd64 (5.15.13+dfsg-1ubuntu1) ...
+    Removing qt5-gtk2-platformtheme:amd64 (5.0.0+git23.g335dbec-6build5) ...
+    Removing qt5-style-plugin-cleanlooks:amd64 (5.0.0+git23.g335dbec-6build5) ...
+    Removing sane-utils (1.2.1-7build4) ...
+    Removing spotify-client (1:1.2.84.476.ga1ff6607) ...
+    Removing fcitx5-pinyin:amd64 (5.1.3-1build3) ...
+    Removing fcitx5 (5.1.7-1build3) ...
+    Removing fcitx5-modules:amd64 (5.1.7-1build3) ...
+    Removing libcamel-1.2-64t64:amd64 (3.52.3-0ubuntu1.2) ...
+    Removing wine-stable (11.0.0.0~noble-1) ...
+    Removing wine-stable-amd64 (11.0.0.0~noble-1) ...
+    Removing libsane1:amd64 (1.2.1-7build4) ...
+    Removing libpoppler-glib8t64:amd64 (24.02.0-1ubuntu9.8) ...
+    Removing libreoffice-core (4:24.2.7-0ubuntu0.24.04.4) ...
+    Removing nemo (6.6.3+zena) ...
+    Removing poppler-utils (24.02.0-1ubuntu9.8) ...
+    Removing libqt5quick5:amd64 (5.15.13+dfsg-1ubuntu0.1) ...
+    Removing libxmlsec1t64-nss:amd64 (1.2.39-5build2) ...
+    Removing gvfs:amd64 (1.54.4-0ubuntu1~24.04.2) ...
+    Removing gvfs-daemons (1.54.4-0ubuntu1~24.04.2) ...
+    Removing udisks2 (2.10.1-6ubuntu1.3) ...
+    Removing libblockdev-crypto3:amd64 (3.1.1-1ubuntu0.1) ...
+    Removing libvolume-key1:amd64 (0.3.12-7build2) ...
+    Removing libmlt7:amd64 (7.22.0-1build6) ...
+    Removing libmlt++7:amd64 (7.22.0-1build6) ...
+    Removing libopencv-contrib406t64:amd64 (4.6.0+dfsg-13.1ubuntu1) ...
+    Removing libopencv-highgui406t64:amd64 (4.6.0+dfsg-13.1ubuntu1) ...
+    Removing libopencv-imgcodecs406t64:amd64 (4.6.0+dfsg-13.1ubuntu1) ...
+    Removing libgdal34t64:amd64 (3.8.4+dfsg-3ubuntu3) ...
+    Removing libpoppler134:amd64 (24.02.0-1ubuntu9.8) ...
+    Removing libqt5opengl5t64:amd64 (5.15.13+dfsg-1ubuntu1) ...
+    Removing libqt5svg5:amd64 (5.15.13-1) ...
+    Removing libqt5widgets5t64:amd64 (5.15.13+dfsg-1ubuntu1) ...
+    Removing libnss3:amd64 (2:3.98-1ubuntu0.1) ...
+    Removing libqt5gui5t64:amd64 (5.15.13+dfsg-1ubuntu1) ...
+    Removing libxcb-xinerama0:amd64 (1.15-1ubuntu2) ...
+    Setting up foomatic-filters (4.0.17-16) ...
+    Creating config file /etc/foomatic/filter.conf with new version
+    Processing triggers for desktop-file-utils (0.27-2build1) ...
+    Processing triggers for hicolor-icon-theme (0.17-2) ...
+    Processing triggers for gnome-menus (3.36.0-1.1ubuntu3) ...
+    Processing triggers for mate-menus (1.26.1+mint1) ...
+    Processing triggers for libc-bin (2.39-0ubuntu8.7) ...
+    Processing triggers for man-db (2.12.0-4build2) ...
+    Processing triggers for libglib2.0-0t64:amd64 (2.80.0-6ubuntu3.8) ...
+    Processing triggers for libglib2.0-0t64:i386 (2.80.0-6ubuntu3.8) ...
+    Processing triggers for libreoffice-common (4:24.2.7-0ubuntu0.24.04.4) ...
+    Processing triggers for dbus (1.14.10-4ubuntu4.1) ...
+    Processing triggers for shared-mime-info (2.4-4) ...
+    Processing triggers for udev (255.4-1ubuntu8.15) ...
+    Processing triggers for libvlc-bin:amd64 (3.0.20-3build6) ...
+    Processing triggers for mailcap (3.70+nmu1ubuntu1) ...The following packages will be REMOVED:",,title_and_body; body shortened in workbook,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/linuxquestions/comments/1sogtbx/what_did_i_just_do/
+B7-012,godot,Bestiary layout update,,"[1:reply] shader_type spatial;
+render_mode wireframe;
+[2:reply] Any tips/videos on how you did this?? I like the wireframe look a lot for the model view, and would love to implement something similar for a project I'm working on!
+[3:OP] Yes, you can either apply a wireframe shader on your model or use the wireframe debug view of the subviewport if you use one : )
+[4:reply] Are you switching LODs? Pretty cool effect
+[5:OP] Yes, I'm just changing the LODs range of the subviewport displaying the model lol",title_plus_comments,unclear,yes,na,low,The saved text appears outside software scope or is too vague to classify reliably.,,,,,,,https://reddit.com/r/godot/comments/1qzew1k/bestiary_layout_update/
+B7-013,Ubiquiti,Sudden Local Network DNS (AGH) Issues (Default Network Only) - Need help Troubleshooting,"I have a recent issue where when I connect to my Default newtork (wifi or ethernet), I have no internet.  This is because the device cannot reach my AdGuard Home DNS servers running on the same Default network.  I can ping any other device on the network and external to the network using IP's but I cannot ping either Raspberry Pi running AGH from the device.  The quickest fix I found is to ssh into another network device and then ssh into the Pi's and ping the device in question, which it succeeds in doing. After this the device works fine.
+
+  
+I have troubleshooted extensively using AI but feel I'm getting nowhere and am slipping into the typical AI solutions rabbit hole, that often ends in breaking things worse than they were.  The reason for posting here is it ""feels"" like a network issue and not a Pi issue, but I could be wrong.
+
+Following is the information as it stands: 
+
+* Network Gateway: UDMP
+* Network App Version: 10.2.105
+* Unifi OS Version: 5.0.16
+* 2x Raspberry Pi 2 W: running (trixie), Kernel: Linux 6.12.47+rpt-rpi-v8
+* Issue began after I updated the Pi's and Unifi, however I don't recall what in Unifi was undated, and since I did both at basically the same time I don't know which cause the issue.
+* Only affects the Default Network, my IoT network has no issues even through both specify the 2 Pi's as the DNS servers.  I use a zone policy to allow IoT to access the Pi's which are on the Default network.
+* Things I have tried/checked via AI recommendations:
+   * disabled power\_save on wifi on both pi's 
+   * disabled tailscale on both pi's
+   * ensured Proxy ARP is disabled in Unifi
+   * disabling IGMP snooping in Unifi
+
+This is outside my understanding and I'm not finding any similar problems online.  I am looking for ideas of how to troubleshoot the issue.  I'm used to being able to see logs and find issues that way but here I see nothing in logs and am not quite sure to ""see"" what is happening and why only the two DNS IP's can be seen until they ping the device.",,title_and_body,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/Ubiquiti/comments/1scck6e/sudden_local_network_dns_agh_issues_default/
+B7-014,LangChain,[Remote] Help me build a fintech chatbot,,"[1:reply] I've done exactly that. You'll spend about 10% of your time building the chat bot and 90% of the time integrating with what you need to.
+[2:reply] Fullstack AI Engineer at a LA based AI startup with 4+ YoE.
+
+Built multiple AI chatbots. Here is the [demo video](https://www.loom.com/share/77db6ae56c0e426bbf290b3b84df4609?sid=6060cdcb-0a1d-4c2e-ab69-4e1b38939509) of a chatbot I was building couple of months ago.
+
+Also made a…
+[3:reply] I worked on a personal finance chatbot about a year ago. The SOTA has changed a lot since then, but I can help you. I think it’s actually easier now than it was a year ago. Happy to help, feel free to DM me",title_plus_comments,yes,no,other,low,The post appears to discuss software without a clear troubleshooting or chiefly critical purpose.,,,,,,,https://reddit.com/r/LangChain/comments/1nmyt5v/remote_help_me_build_a_fintech_chatbot/
+B7-015,applehelp,Does this require a trip to the phone store?,"i am looking for some guidance of how to solve this issue. I have an iPhone 16. I  delete all of my text messages regularly and also clear them from my recently deleted folder, and I am still stuck with 7.25 GB in the other category. if you swipe to the second photo, there is nothing in the other category for me to delete. I have tried powering down my phone and turning it back on and making sure my phone is updated to the most recent update. I am not the most tech savvy person, so any help would be greatly appreciated!",,title_and_body,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/applehelp/comments/1szvqkz/does_this_require_a_trip_to_the_phone_store/
+B7-016,transformers,The rumors are true...,,"[1:reply] ""Behold... Galvatron!""
+[2:reply] That’s what happens when you pack a weak recolor with one of the hottest leaders ever
+
+This is gonna be aotp razorclaw and studio series nemesis in a few years
+[3:reply] You know, I always thought Armada Megs should've *stayed* Megatron, even after the power-up.
+
+At the same time, Energon Megatron should've been Galvatron from the beginning, since he had been reborn.
+[4:reply] Honestly a great recolor, for that price cant beat it. Very fun figure too
+[5:reply] Nemesis prime for sure, Razorclaw I'm not sure about. Everywhere I go the only one I can find is nemesis all the other ones are gone, even big convoy.",title_plus_comments,no,no,na,medium,The saved text appears outside software scope or is too vague to classify reliably.,,,,,,,https://reddit.com/r/transformers/comments/1pqr5xu/the_rumors_are_true/
+B7-017,Huawei,Harmony 6.1 Notifications not working?,I upgraded to Harmony 6.1 last night and everything seems to work flawlessly except I dont get any notifications even when they are all turned on? Both Huawei and EasyAbroad Apps,,title_and_body,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/Huawei/comments/1st01rr/harmony_61_notifications_not_working/
+B7-018,chrome,"After upgrading to 138, Chrome ignoring all colors using colors from the operating system (I am using high contrast theme).",,,title_only,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/chrome/comments/1llpj03/after_upgrading_to_138_chrome_ignoring_all_colors/
+B7-019,enterprise,Archer the only one to never violate the prime directive,,"[1:reply] Because there wasn't one.
+[2:reply] ThatsTheJoke.gif
+[3:reply] Best Captain, fight me
+[4:reply] I would lose on purpose. The man is a gem.
+[5:reply] They did kind of eldue to what they should do IF there was one.",title_plus_comments,yes,no,other,low,The post appears to discuss software without a clear troubleshooting or chiefly critical purpose.,,,,,,,https://reddit.com/r/enterprise/comments/1nuto07/archer_the_only_one_to_never_violate_the_prime/
+B7-020,aws,Anyone else seeing Karpenter / EC2 API rate limits (503 RequestLimitExceeded) in us-east-1?,"For the past 2 hours, our Karpenter setup hasn't been able to create new nodes in **us-east-1**.
+
+We are consistently hitting AWS API rate limits and getting 503 errors. Other regions are working perfectly as intended. Is anyone else hitting this right now, or did AWS change something under the hood?
+
+The errors we're seeing:
+
+    launching nodeclaim, creating instance, creating nodeclaim, getting launch template configs, getting launch templates, describing launch templates, operation error EC2: DescribeLaunchTemplates, https response error StatusCode: 503, RequestID: xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx, api error RequestLimitExceeded: Request limit exceeded.
+    
+    failed to get rate limit token, retry quota exceeded, 1 available, 5 requested
+
+edit: they just updated their [service health page](https://health.aws.amazon.com/health/status):
+
+    Increased Launch Template API Error Rates
+    Jul 06 5:45 AM PDT We are investigating increased error rates when calling EC2 Launch Template APIs in US-EAST-1 Region. During this time, affected customers may experience errors when creating, modifying, or referencing launch templates. Other AWS services that rely on launch templates may also be impacted. We will provide another update by 6:30 AM PDT or sooner, if we have additional information to share.","[1:reply] same here
+
+on multiple accounts even without eks on them
+[2:reply] who come not half the devops in the world are in this thread?  
+are we just unlucky
+[3:OP] ~~saw~~ **~~this message~~** ~~in the notification center (not through the~~ [~~health center~~](https://health.aws.amazon.com/health/status)~~)~~  
+edit: [https://health.aws.amazon.com/health/status](https://health.aws.amazon.com/health/status) now shows the error
+[4:reply] Just hit the public status page.
+[5:reply] Yeah I've seen some failures on various different EC2 APIs. Seems like something's not 100% working right now.",title_body_comments,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/aws/comments/1uovv17/anyone_else_seeing_karpenter_ec2_api_rate_limits/
+B7-021,rust,"Hey guys I have an idea for what you could actually re-write, instead of the 7567th vim clone","You know how printing on linux sucks?
+
+Well, what if I told you the entirety of linux printing is reliant on the good will and ""skill"" of one guy.
+
+Anyway, he periodically changes some format and refuses to support old formats for some reason, so if you have an old format your only solution is to downgrade the package.
+
+He updated `gutenprint`, which works with `CUPS` (why does printing rely on 75 random programs? It's the unix wae?) after several years only to break compatibility with the old driver format. And now he doesn't want to fix it. Sounds good, right? Like someone who should be in charge of a fundamental functionality of an OS.
+
+Anyway, you could re-write this and make it actually good. I know you are itching to re-write anything in Rust, so why not something that would actually be useful if it was made correctly, and would be welcomed into the system immediately as a sane alternative.
+
+Thanks for listening to my TED talk. I'm open for any ad-hominems you have now.","[1:reply] Sorry I have train autism not printer autism
+[2:reply] Alright,  I'm on it. I just finished building the guessing game on the rust book. I'm problem ready right
+[3:reply] It sounds like you care enough to be perfectly placed to do this work.
+[4:reply] you could have worded this so much better
+[5:reply] I still have no idea what you're proposing to rewrite. Do you want to rewrite CUPS? I've never heard of gutenprint. Admittedly I haven't printed anything from Linux in years.",title_body_comments,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/rust/comments/1nwz1cr/hey_guys_i_have_an_idea_for_what_you_could/
+B7-022,chrome,Won’t allow me to turn off safe search??,"I don’t browse using chrome since it sucks (Firefox and Brave are better), but I do use it for Lens. For context, I was able to use Lens no problem and safe search was off on my old phone. But I upgrade to a new phone a few months ago and this is the first time I’ve used chrome since upgrading and it’s straight up just saying no and I can’t even turn safe search off. I’m not on my work's WiFi, I’m at home. I searched settings but didn’t find anything. I was originally not logged into my Google account, but I logged into it and it still gave me the same thing, and my Google account is over 18 years. And this is my own personal phone",,title_and_body,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/chrome/comments/1t0dobj/wont_allow_me_to_turn_off_safe_search/
+B7-023,chrome,Chrome running on background. Can't terminate the task. What's happening??,,"[1:reply] Thank you for your submission to /r/Chrome! We hope you'll find the help you need. Once you've found a solution to your issue, please comment ""**!solved**"" under this comment to mark the post as solved. Thanks!
+
+
+*I am a bot, and this action was performed automatically. Please […
+[2:OP] More info... Laptop is running windows 10, task can't be killed (the operation is not valid for this process error)
+[3:reply] Step one to troubleshoot anything: disable ALL extensions and see if it makes a difference.
+[4:reply] I noticed the same thing. I open two tabs and have 18-38 processes going.",title_plus_comments,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/chrome/comments/1npqevt/chrome_running_on_background_cant_terminate_the/
+B7-024,ios,There should be an option to show local time in iMessage conversations.,,"[1:reply] As you can see by the image this person shared their location therefore the local time is displayed. This is not a privacy issue and is actually a good idea
+[2:reply] Good idea! [https://www.apple.com/feedback/](https://www.apple.com/feedback/)
+[3:OP] Yup! That’s the idea. Also, happy cake day!
+[4:reply] Back when you used to sit down at a computer to send instant messages, you could be ""available"" or ""away"" or set a custom status that everyone would see under your name on their buddy list. These statuses disappeared when everything went mobile because your phone was always on y…
+[5:reply] It's just frustrating because there's no acknowledgement or indication of whether a suggestion is ever reviewed or approved. It feels like sending feedback into a void.",title_plus_comments,yes,no,other,low,The post appears to discuss software without a clear troubleshooting or chiefly critical purpose.,,,,,,,https://reddit.com/r/ios/comments/1py4066/there_should_be_an_option_to_show_local_time_in/
+B7-025,immich,Cant upgrade from v2.5.6_1.11.16 to v2.6.3_1.14.5 on TrueNAS,"I keep getting an error saying that the app must be in a stopped state, even though the app is in a stopped state.
+
+https://preview.redd.it/vuh14yrc5xrg1.png?width=1593&amp;format=png&amp;auto=webp&amp;s=54a7938a38ce3fc842c5957c66ca7ec83b930541",,title_and_body,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/immich/comments/1s6mjfu/cant_upgrade_from_v256_11116_to_v263_1145_on/
+B7-026,chrome,Remote access bug with cursor,"Hi everyone, got an issue with the remote desktop app. When the person remotes in, they get that little pop up saying “sharing screen” that green and white pop up, normally the person that remotes in can move that box, however interacting with that box at all right now causes the person remoting in to lock up, whats happening from the other pov is when the person clicks the box to move it, it freezes their cursor in place on the box, so when they try to move it on their screen, it seems to move but they can’t interact with anything, thats because the cursor is actually frozen on the box, the bandaid fix is to simply not interact with the box and it disappears after a few seconds. However if the person who is getting remoted into, moves the mouse, it brings back that popup which if clicked on, causes the whole problem. Is this because of an update? I hope this is fixed soon or if there is a fix i get it here in this chat. I currently can’t find a fix to it. If anyone needs more details let me know and i will provide them.","[1:reply] Thank you for your submission to /r/Chrome! We hope you'll find the help you need. Once you've found a solution to your issue, please comment ""**!solved**"" under this comment to mark the post as solved. Thanks!
+
+
+*I am a bot, and this action was performed automatically. Please […",title_body_comments,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/chrome/comments/1usshtr/remote_access_bug_with_cursor/
+B7-027,PLC,what is the solution for this error in Bechkoff twincat3 when i try to start the tsm,,"[1:OP] Resolved by uninstalling and installing the CNC Export TF5210
+[2:reply] The TwinCAT 3 ""Win32 Error 2"" typically occurs because the TwinCAT System Service cannot locate its own executable or a required driver file, often due to an incomplete installation, a corrupted registry path, or an overzealous antivirus program quarantining the TcSysSrv.exe fil…
+[3:OP] how to check on windows service manager
+[4:OP] Thanks for the info",title_plus_comments,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/PLC/comments/1rw0z9g/what_is_the_solution_for_this_error_in_bechkoff/
+B7-028,applehelp,Verification loop on one app,"I updated an app today, and when I logged in to the app, it asks me to log in to my Apple account. After a while I have to switch apps, but when I reenter the app, it asks me again to sign into my Apple account. I tried power cycling my device, I tried reinstalling the app. Nothing seems to work and it wiped all my progress through the app.  What’s going on and How do I fix this bug?
+
+Also, this only happens with one app. None others, but reinstalling the app didn’t clear the problem",,title_and_body,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/applehelp/comments/1sob7df/verification_loop_on_one_app/
+B7-029,rust,Learn WGPU updated to 27.0!,,"[1:reply] Amazing stuff, thanks for making this great resource!
+[2:OP] Glad to help!
+[3:reply] It's really amazing to see your commitment towards keeping 'Learn WGPU' up to date. There are far too many once great resources out there, that, while remaining top search results or getting continuously recommended, are frustrating to use because they fall behind library versio…",title_plus_comments,yes,yes,other,low,The post appears to discuss software without a clear troubleshooting or chiefly critical purpose.,,,,,,,https://reddit.com/r/rust/comments/1nxic49/learn_wgpu_updated_to_270/
+B7-030,Bitcoin,5 years ago today,,"[1:reply] love how he looks like he just emerged from the bitcoin rabbit hole
+[2:reply] Sayloe needs a successor that'll carry on buying bitcoin
+[3:reply] His stock is up 1300% over 5 years. Who is he scamming?
+[4:reply] Nah bitcoin won't fail
+[5:reply] This is gold lol",title_plus_comments,no,no,na,medium,The saved text appears outside software scope or is too vague to classify reliably.,,,,,,,https://reddit.com/r/Bitcoin/comments/1op2x91/5_years_ago_today/
+B7-031,windows,Windows Vista was released 19 years ago today. Here's the Windows Website from that date.,,"[1:reply] I miss the simplicity.
+[2:reply] While XP is my favorite Windows I still think Windows Vista along with 7 are the best looking versions of Windows made with all the nice transparency and consistency almost all elements of the UI felt good to look and even the animations were solid. It's really a style that has…
+[3:reply] That crisp Verdana font still looks good today. Somebody got something very right when they designed that font.
+[4:reply] Despite all of the growing pains with Vista (file transfers, UAC, dropping DirectSound audio so my $200 SoundBlaster sound card turned into 2.0 channels) it was actually a breath of fresh air for me. I was so tired of Windows XP - the look and the insecure design of it.
+[5:reply] Dumbass Windows uses hated new security features, the new GUI and start menu. They wanted their Windows XP back. 
+
+Before you comment, check how many bitching about Windows 11 now.",title_plus_comments,yes,no,other,low,The post appears to discuss software without a clear troubleshooting or chiefly critical purpose.,,,,,,,https://reddit.com/r/windows/comments/1qr9b4a/windows_vista_was_released_19_years_ago_today/
+B7-032,Fedora,DLSS not working in the Witcher 3 Remastered using the Steam,"https://preview.redd.it/8x488cfbrhsh1.png?width=1892&amp;format=png&amp;auto=webp&amp;s=b897943e84882057340d50715ddc6243fdd8d1ac
+
+I’m using the following hardware and software:
+
+* **Laptop:** ASUS TUF Gaming A15 FA507NV
+* **CPU:** Ryzen 5 7535HS
+* **GPU:** RTX 4060 Laptop GPU (NVIDIA)
+* **RAM:** 16 GB
+* **OS:** Fedora 44 KDE
+
+After witcher 3 remastered update i cant use dlss anymore. Do you have any suggestion?","[1:reply] The game detects Proton/Wine and disables NVIDIA Streamline. This community patch changes that check.
+
+1. Close the game and download [`w3_proton_patch.py`](https://gist.github.com/gabrielmaialva33/33ebb2542f0513d55100b22aa2149ff5).
+2. In Terminal, run a dry run with the full pa…
+[2:reply] It sounds like you're looking for help. Please note that r/Fedora is not an official support channel for the Fedora Project.
+
+For best results, be sure to include all relevant details in your post, such as your Fedora edition, version, and hardware specs. You can edit your origi…
+[3:reply] Do you have dlss issues in any other games? Or just the Witcher? 
+
+I don't own it so I can't test it but dlss works in all the games I use it for with my 4070S
+
+Knowing if it's game specific or just over all issue can help narrow it down
+
+But at face value seems like something t…
+[4:OP] i can use dlss in other games. also yesterday i was able to use dlss in witcher 3 but after the remastered update dlss stopped working in witcher 3
+[5:reply] PROTON\_HIDE\_NVIDIA\_GPU=0 PROTON\_ENABLE\_NVAPI=1 PROTON\_NVIDIA\_LIBS=1 WINEDLLOVERRIDES=""version=n,b;winmm=n,b;nvcuda=n,b"" %command% --launcher-skip -disablemods
+
+Launch option",title_body_comments,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/Fedora/comments/1wtetua/dlss_not_working_in_the_witcher_3_remastered/
+B7-033,neovim,"🌟 tiny-glimmer.nvim update: reusable library, improved API, event callbacks, looping animations...",,"[1:reply] animation isn't intrusive. straight to my bucketlist
+[2:reply] OP doesn't mention what the plugin does, so, from the README:
+&gt; A Neovim plugin that adds smooth, customizable animations to text operations like yank, paste, search, undo/redo, and more.
+[3:reply] Been using your plugin since the initial release. Love it!
+[4:reply] Looks awesome. This has a lot of potential to help pairing partners follow better what is changing. Will try later. 👍
+[5:reply] Not only do I enjoy the visual flair for its own sake, but I also value the additional visual indicators of change that help my aging eyeballs see what's going on.  Your work is appreciated.",title_plus_comments,yes,yes,other,medium,The post appears to discuss software without a clear troubleshooting or chiefly critical purpose.,,,,,,,https://reddit.com/r/neovim/comments/1ooxu8t/tinyglimmernvim_update_reusable_library_improved/
+B7-034,sysadmin,"Put off the Entra ID Connect Upgrade until the last possible second i.e. today? Hoping autoupgrade'll save you the manual effort but it won't trigger? Have I got a protip for you: start the config wizard, exit the wizard, clear (with save, duh.) the application event log, wait a minute","Had a hunch after the wizard trace logs showed error 400 repeatedly for health connect trying to upload it's copy. It eventually skipped it, but that didn't make the upgrade trigger. Cleared the log, and the first new entry is msiexec staging the upgrade.
+
+(And no I wasn't the one who put it off.)","[1:reply] Its absurd that you have to login with an administrator account to do the upgrade. I spent way longer than I would like to admit trying to upgrade it and it turns out it was failing because it couldn't prompt me for Azure authentication because I was running it elevated and not…
+[2:reply] Does something break/expire today/soon?
+[3:reply] Despite the option being enabled I have yet to see Entra ID Connect automatically update itself.
+[4:reply] Today really is the deadline. Microsoft says Entra Connect Sync stops working after September 30, 2026 if it is below version 2.5.79.0. Nice catch on the event log behavior. After the upgrade stages, I would still confirm the installed version, review the Microsoft Entra Connect…
+[5:reply] Yeah, entra connect sync below a certain version bricks",title_body_comments,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/sysadmin/comments/1wuc7vt/put_off_the_entra_id_connect_upgrade_until_the/
+B7-035,firefox,"Firefox 149.0, See All New Features, Updates and Fixes",,"[1:reply] Now that Firefox has most of the missing features(Profiles,split view, tab groups,etc.), I hope they focus on performance and Mobile browsers. Mobile counterparts need some serious attention(performance issues, missing features,battery drain, etc.).
+[2:reply] The VPN offering *""is part of a progressive roll out.""* 
+
+
+Let's see how many Redditors noticed that part of the Release Notes. I'll get the popcorn.
+[3:reply] This is the most exciting Firefox update changelog I've seen in a while. I like the direction that Firefox development has been going in recently. I especially love the new artwork and mascot.
+[4:reply] &gt; I hope they focus on performance
+
+Do you have any performance issues? I'm running 148.0.2 and my Firefox is very fast with no performance issues at all.
+[5:reply] It's youtube that's fucking with firefox users not the other way around",title_plus_comments,yes,yes,other,medium,The post appears to discuss software without a clear troubleshooting or chiefly critical purpose.,,,,,,,https://reddit.com/r/firefox/comments/1s2d096/firefox_1490_see_all_new_features_updates_and/
+B7-036,applehelp,Need urgent advice on iCloud,"3 months ago I was on on public beta 3 of ios 27. I created a backup of my iPhone 13 on iCloud and restored the phone to same version of ios . While restoring data an error or unable to load backup files kept popping up again and again.  
+I contacted apple support multiple times and after false promises of escalating the complaint , an executive shared personal experience of same issue on beta version and the issue getting resolved after he updated to stable version and thus asked me to wait for stable version release of ios 27 . I trusted apple support and patiently waited for 15th September for stable version to release .  
+After updating to stable version , I again tried restoring the data on setup page and surprisingly the issue was still there . I tried contacting apple support everyday but each time they just lodged a new complaint and falsely promised to escalate . After calling them everyday one fine day a kind Apple support executive promised me to look into this and update . She called me a few times to get some details and then she calls me to tell me that the engineering team has reverted and the reply was that my backup file is  CORRUPTED !!  
+I was so infuriated , angry and panicked cuz I just didn’t know what to do at this point . I requested her to look into some ways to extract the data but she had no clue . I have suffered immense financial , emotional and mental loss and distress on the last 3 months because the data was extremely important to me and I trusted apple it being a billion dollar company and such great products and services .  
+I’ve no idea what to do but just know that I’ve to somehow get access to my data again or I’ll  
+Be done for life . The backup file exists on iCloud and I can see it in my iCloud page in settings . It also says 188 gb occupied of 200 out of which 168 gb is the backup file !  
+Someone pls help me out ! I’ll Be grateful forever 🙏🙏","[1:reply] Well beta software is beta for a reason. To test bugs. Never use beta on your main device. If the backup is corrupted, and won’t restore, there’s most likely nothing to do.
+[2:reply] That’s been known to happen on many iPhones running beta software.  When you install a beta build of iOS you are agreeing to the terms and conditions, one of which is backup corruption.  I would never run beta software on my main device. 
+
+When you go to iCloud.com do you see an…
+[3:reply] \&gt; the data was extremely important to me and I trusted apple it being a billion dollar company
+
+Unfortunately you learned important lessons the hard way. Don’t run beta software unless you need to (and understand the risks when you do), retain valuable data in apps you can b…",title_body_comments,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/applehelp/comments/1wxnj7p/need_urgent_advice_on_icloud/
+B7-037,AndroidQuestions,The 'define' option in Google Chrome disappeared after the last update and I can't find the settings for it.,"I really liked having that option to highlight a word in an article, click define, and get the definition. The thing is, I don't know the name of the secondary app that opens when you choose 'define' from Chrome so maybe that's where I'm missing it? I've Googled it seven different ways and it just says if it's not there on the initial pop up, click the three dots, but it's not there either. Can anyone help me figure out how to get this feature back, please?",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/AndroidQuestions/comments/1u7qqf6/the_define_option_in_google_chrome_disappeared/
+B7-038,Ubuntu,Successful Upgrade to 26.04.1 (with glitches),"I completed the upgrade from 24.04.&lt;latest - I forget if it was .5 or .6)&gt; to 26.04.1 on my primary desktop system.  The upgrade was going fine but by the end I had a few 'glitches' with detailed warnings it might not be stable.  But, I have booted to 26.04.1, did some manual cleanup (because the automated upgrade stopped before this step), and all of the apps I use are running OK.
+
+During the upgrade, I received two warning messages that 'update-info' failed with an 'exit status 2' but the upgrade continued unfazed, or so I thought.
+
+At the end of the install phase, I got a dreaded message that the 'upgrade aborted' with additional detail about possibly being unstable, etc.  I closed the window and rebooted.  I was greeted with the Ubuntu 26.04.1 boot screen, logged in, and saw the normal window I saw with 24.  And, the journal app I have set to start at boot time to a specific workspace (of 8 I normally have running) popped up as expected.
+
+I also got the message about registering this system on Ubuntu One Pro (which I have been using for a few years).  I tried the code shown on the app and it showed an error indicating the code was wrong or something else failed (helpful!).  I tried using the token on the web page and through the 'sudo' command.  The attempt to register via 'sudo' gave the message that this system was already registered and I can see the green checkmark on the livepatch icon, so I must be good with Ubuntu One Pro.
+
+Since the upgrade didn't fully complete, exiting before the cleanup step, I decided to try this on my own using 'sudo apt autoremove --dry-run' and saw a list of packages no longer needed or used on 26 (I recall some from a successful upgrade on a laptop I own).  I ran the command without the simulated option (removed --dry-run) and all but three packages were successfully removed.
+
+I could not upgrade or remove 'install-info' (remember this from the upgrade?), 'ubuntu-standard', and 'info' through autoremove so I need to do more research before the next steps.
+
+I rebooted and all but two Gnome extensions are working as expected.  The 'weather' and 'uptime' extensions I was using are no longer supported.  I removed these and found and installed replacements.  (Why doesn't the extension manager let me filter to only extensions compatible with my new version of Gnome?)
+
+I tried all of my needed apps and all are working well.
+
+Outside of the issues with the three packages not removed, I am upgraded!  (BTW, I didn't time this effort but even with my manual steps, I'm sure it required no more than an hour.)
+
+**UPDATE 10 Minutes later:**
+
+Running 'sudo dpkg --configure -a' showed me the three packages and the errors.  A little research directed me to look at '/etc/environment' for syntax or other errors.  I updated this file years ago in an attempt to fix a warning message from QT applications I wrote.
+
+The errors reported for 'install-info', 'info', and 'ubuntu-standard' were fixed when I commented a line in my '/etc/environment' file to remove the 'export QT\_QPA\_PLATFORM=wayland'.
+
+Rerunning 'sudo dpkg --configure -a' ended with no errors.  All is good!",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/Ubuntu/comments/1wyazqw/successful_upgrade_to_26041_with_glitches/
+B7-039,MacOS,"When you are forced to use Windows, what MacOS feature do you miss the most?","For me, it is using the space bar to preview a file. I find myself trying to do that all the time with Windows, and it just drives me nuts each time it fails to work!","[1:reply] Command + spacebar for spotlight search
+[2:reply] The Preview app is underrated.
+[3:reply] https://learn.microsoft.com/en-us/windows/powertoys/run
+
+You’re welcome. ☺️
+[4:reply] Spotlight, but also spacebar to preview files without having to open them
+[5:reply] I had a “disagreement” with a friend of my FIL a while back — he’s an old-school embedded software programmer and dyed-in-the-wool Apple-hater. 
+
+He was complaining about how much Adobe charges for Acrobat Pro when he only needed basic editing features, and I told him that he co…",title_body_comments,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/MacOS/comments/1nt732d/when_you_are_forced_to_use_windows_what_macos/
+B7-040,AndroidQuestions,How to turn off volume up/down vibrations on Samsung Fold 6,"Around a month ago I got an update, ever since that update, whenever I put my volume up or down using the side button, it makes a light vibration. I can't seem to figure out how to turn that off. Any help? Thanks!","[1:reply] Settings.
+[2:OP] I can't seem to be able to find the correct setting",title_body_comments,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/AndroidQuestions/comments/1uhkb6o/how_to_turn_off_volume_updown_vibrations_on/
+B7-041,godot,true.,,"[1:reply] Every abandoned project was an opportunity to learn for the next one, don't be sad that you dropped, be happy about what you learned from it
+[2:reply] But why delete it? There is decent coding and solutions in there.
+[3:reply] You started with a shit-ton of obfuscated JS? Well there's your problem!
+[4:reply] That's very true. I started countless rpg maker games and didn't finish any. Then I was able to release one. I had learned so much from my previous projects. I was not able to finish it either, started other projects and now I'm making my own game to sell. All those ideas and ho…
+[5:reply] I’ve never abandoned a project! I just started working on another. I’ll work on them again…. eventually…..",title_plus_comments,no,no,na,low,The saved text appears outside software scope or is too vague to classify reliably.,,,,,,,https://reddit.com/r/godot/comments/1q2vxs7/true/
+B7-042,Android,Google Pixel Watch Update - October 2025 (Wear OS 6),,"[1:reply] I hope this allows Facer watch faces to be installed!
+[2:reply] it does. i installed facer right after the update installed on my PW3
+[3:reply] I read in another thread the watch 1 is just delayed but it's still getting it.
+[4:reply] I like it. Material 3 Expressive theming is a welcome addition and I like that it's not tied to the watch face colors. New notifications feel easier to read, and all the buttons are nice and clearly defined. It's way easier to enter my passcode. 
+
+Also they finally fixed the bri…
+[5:reply] Seems like the „Pixel Watch 1“, won't receive, while the older released „Galaxy Watch 4“ will receive it, even later and with more security updates most likely.",title_plus_comments,yes,yes,other,medium,The post appears to discuss software without a clear troubleshooting or chiefly critical purpose.,,,,,,,https://reddit.com/r/Android/comments/1o1tctu/google_pixel_watch_update_october_2025_wear_os_6/
+B7-043,homeautomation,After 3.2.4.4 update,After I receive E340 Doorbell update 3.2.4.4 Battery never dropped below 99%  any one else received 3.2.4.4 and notice Battery charging improved?,,title_and_body,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/homeautomation/comments/1s1eof9/after_3244_update/
+B7-044,Ubiquiti,Plex app (only) buffering on Google TV after Ubiquity firmware update.,"I have a Ubiquity Dream Machine Pro. Two days ago, I installed the most recent network firmware update.
+
+Plex app on Google TV now very slow and buffering to the point where most shows will not play.
+
+I updated the Plex server app on my NAS and reinstalled the Plex app on my Google TV. I also rebooted my NAS, the TV and the router. The issue remains.
+
+I know for certain this is a Plex for Andriod app issue because all of the other streaming apps on the Google TV play with no issues. Furthermore, there are no post router upgrade issues with any of my Amazon firesticks on all other TVs.
+
+Anyone else have this issue?
+
+I will also post this in the Plex forum, but all of the afermentioned troubleshooting steps point to the Plex for Android app as the culprit.",,title_and_body,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/Ubiquiti/comments/1swdgn7/plex_app_only_buffering_on_google_tv_after/
+B7-045,Android,Upvote this issue to get JPEG XL back into Chrome again,,"[1:reply] I think JXL is the most versatile image format out of all the current ones, [I created a small table to compare it to others in some key features](https://www.reddit.com/r/Android/comments/z11ofm/comment/ixceoja/?context=3).
+
+It not being supported is Google trying to paddle and…
+[2:reply] You're misremembering, there was never a selection. You got whatever the site put into the img tag since forever.
+[3:reply] JPEG XL - Progressive loading is a cool concept/feature not gonna lie.
+[4:reply] It won't get into chrome mate.
+
+google controls the web and they dont like JPEG-XL for some odd reason.
+[5:reply] They don't like it because they can't control it.",title_plus_comments,yes,yes,other,low,The post appears to discuss software without a clear troubleshooting or chiefly critical purpose.,,,,,,,https://reddit.com/r/Android/comments/1nngrep/upvote_this_issue_to_get_jpeg_xl_back_into_chrome/
+B7-046,typescript,"Pipetype: TypeScript Unions, JavaScript Bitwise Operators, and My Favorite Failed Experiment",,"[1:reply] Good stuff. Always cool to see someone pushing the boundaries of what a schema can do, and what a schema even means.
+[2:reply] [deleted]
+[3:OP] The reason to use bigint and bits was to be able to use the \`|\` pipe operator (bitwise or). Using strings would not allow for that.
+[4:reply] This was a great read. Thanks for sharing!
+[5:reply] That's nice. This makes me wonder again, do bigint masks optimize themselves to «smallint» masks if we fit in, or should we use two separate versions depending on how many flags we are planning to use?
+
+This thought comes to me because I want to experiment with my own context/de…",title_plus_comments,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/typescript/comments/1nqu3ag/pipetype_typescript_unions_javascript_bitwise/
+B7-047,raspberry_pi,My Raspberry Pi 5 only boots with April 2024 firmware. How to stop it from auto-updating?,"Hi everyone,
+
+I have a Raspberry Pi 5 that is giving me a big headache. I found that it only works and boots correctly when I use the EEPROM firmware version from April 20, 2024.
+
+If I use any newer firmware, the Pi fails to boot and gives 9 green LED flashes.
+
+The problem is: Every time I flash the working April 2024 version and reboot, the Pi automatically updates itself back to the new (broken) version!
+
+What I have tried:
+
+ \* I tried to change the settings to stop the update.
+
+ \* I tried to delete the update files from the boot folder.
+
+ \* I tried to ""freeze"" the configuration.
+
+But nothing works. On every reboot, the Pi ""heals"" itself by installing the new firmware that doesn't work for my board.
+
+My question:
+
+Is there a way to permanently lock the April 2024 firmware and stop the Raspberry Pi 5 from ever updating its EEPROM again?
+
+
+
+&gt; *  UPDATE: 
+I found the SMOKING GUN, and it’s a warning to everyone!
+&gt; I went back to the AliExpress store where I bought this unit and found a recent review from another buyer with the exact same 9-flash issue. It turns out this seller is likely 'harvesting' original RAM chips and replacing them with lower-quality/off-spec RAM. This explains everything:
+&gt;  Why it worked for 5 months: Older firmware (April 2024) has more relaxed RAM timings.
+&gt;  Why it fails now: Newer EEPROM updates introduce stricter, official RAM training/timings that these 'swapped' chips simply cannot handle.
+&gt;  The Scams: These boards might have the 8GB resistor in place and look 'new'.
+&gt; WARNING to all buyers: If your Pi 5 works on old firmware but 'dies' after an update, you might be a victim of a hardware-swapping scam. Always buy from official resellers or check the RAM branding/physical condition immediately upon arrival.
+&gt; Lesson learned: The 'Self-Healing' firmware was actually a 'Truth-Teller'—it exposed the fake hardware.""",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/raspberry_pi/comments/1sag0z9/my_raspberry_pi_5_only_boots_with_april_2024/
+B7-048,comfyui,ComfyUI Desktop keeps crashing [Help],"Hi everyone, I use the desktop version of Comfyfui. I've lost count of how many times this has happened. I did a fresh install and it worked fine for a week or two, received a few updates, and continued to work fine. Then an update arrived and it crashed. When I run the program, I can't see the interface; it just says ""Starting Comfyfui."" I think the previous version reserved the locations of software files and their extensions, such as models, lora, etc. After this issue, the model files are no longer deleted, but ComfyUI continues to crash after a certain period of time. Is this a problem everyone is experiencing, or is there something I'm missing or unaware of? I'm tired of this happening over and over again. How do I set it up to prevent this from happening again?
+
+https://preview.redd.it/2gsqokqz4gyf1.png?width=1303&amp;format=png&amp;auto=webp&amp;s=25ebd87a8a1f816feed5ca65563624fd9e389e2a",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/comfyui/comments/1oku5gq/comfyui_desktop_keeps_crashing_help/
+B7-049,transformers,Nothing but aisles of those godforsaken RC Optimus Primes and Swapticons,,"[1:reply] Yep, only two stores near me, no deluxe two packs, and no $5 Blokees either.
+[2:reply] How it feels seeing all the posts about it and living in Europe.
+[3:reply] They had the deal online.  They will also randomly substitute stuff for different two packs, so get ready to gamble if you order from them online.
+[4:reply] I think a bunch of Walmarts only put them out today, and not in the toy aisle, but in one of the mid-main aisle yellow doorbuster deal thingies, not even necessarily near the toys.  At least, I saw zero at my normal Walmart yesterday but found some down the way and around the co…
+[5:reply] By the time I added them to my cart they were sold out",title_plus_comments,no,no,na,medium,The saved text appears outside software scope or is too vague to classify reliably.,,,,,,,https://reddit.com/r/transformers/comments/1p9j5n0/nothing_but_aisles_of_those_godforsaken_rc/
+B7-050,applehelp,UPDATE: iPhone 14 Camera not working after iOS 26.3.1 update,So I updated my iPhone 14 to the IOS 26 and both cameras stopped working. I lived without my camera for 2 weeks. I was about to buy the new iPhone 17 but I called Verizon. Verizon’s tech support was able to declare it a software issue and actually was able to replace my iPhone 14 for free! They shipped me a new one and I shipped back my old one.,,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/applehelp/comments/1sg3w3c/update_iphone_14_camera_not_working_after_ios/
+B7-051,Android,"Nova Launcher gets surprise update following last month's shutdown, but there's a catch",,"[1:reply] This isn't a surprise when you remember that the date where apps targeting Android 13 or below stop appearing on the Play Store for devices running 14 or above **tomorrow** (UTC) \[see this [support page](https://support.google.com/googleplay/android-developer/answer/11926878?hl…
+[2:reply] I've been using Nova for over a decade. I don't need new features. I don't want new features. I just want my phone to look the same and be the same forever. I have too much shit going on in my life outside of phones and stuff  to learn a new thing. Nova is perfect and I hope to…
+[3:reply] I've moved on. All people are doing is delaying the inevitable. A launcher is too important to keep using something that is dead in the water. I say this being a very very very VERY happy Nova user since Oct 15, 2013 2:24:50 PM EDT.
+
+I'm happy with what I moved to. It allowed me…
+[4:reply] I would move on, but I cannot find a launcher that will let me lay out my homescreen the same as Nova does. So I will stick with Nova till it becomes unviable.
+[5:reply] In your camp. It ain't broke. Don't need a fix. I have my home screen, the bottom bar, the animations, the widgets, the swipe actions, the app folders...all configured and exactly the way I like it. I hope it stays compatible with future OS versions",title_plus_comments,yes,yes,other,medium,The post appears to discuss software without a clear troubleshooting or chiefly critical purpose.,,,,,,,https://reddit.com/r/Android/comments/1okggsd/nova_launcher_gets_surprise_update_following_last/
+B7-052,transformers,Nexus Prime becomes a torso for other combiners,,"[1:reply] Nexus is one of my favorite primes.  The toy’s concept is cool in theory, but given that recent full combiner teams go over $200 just to get them, no one other than dedicated collectors will make the most of this figure.  Bruticus will be the only modern generations combiner I’l…
+[2:reply] Im getting Nexus to finish the Primes but idk if I'm willing to get other combiner members just to use him to the fullest. Kinda disappointed he wasnt his own combiner and not reliant on other figures.
+[3:reply] I was hoping he'd maybe go the Amalgamous route and be a lot of smaller vehicles that'd transform into robot parts.
+[4:reply] I just hope a third party company makes an upgrade so I don’t have to take apart other combiners to enjoy that feature 🤷‍♂️
+[5:reply] This whole toy has become the things I was the most afraid of - frame combiner and is a regular look robot dude like TFO (and even based on it). Wish it was more of the COP design.
+
+Hopefully it works with all them not just Superion and I can see the combined mode having the COP…",title_plus_comments,no,no,na,medium,The saved text appears outside software scope or is too vague to classify reliably.,,,,,,,https://reddit.com/r/transformers/comments/1qricoq/nexus_prime_becomes_a_torso_for_other_combiners/
+B7-053,Android,Evleaks says Galaxy S26 Ultra will get more than four color options,,"[1:reply] Daring today aren't we, Samsung?
+[2:reply] Just give me a bigger battery please
+[3:reply] Who cares?
+[4:reply] Well yeah, like there always is through the Samsung website, lol
+[5:reply] Somebody stop them before someone gets hurt!",title_plus_comments,no,no,na,low,The saved text appears outside software scope or is too vague to classify reliably.,,,,,,,https://reddit.com/r/Android/comments/1qiy4fa/evleaks_says_galaxy_s26_ultra_will_get_more_than/
+B7-054,rust,Advent of Code 2025 - Solution for Day 1,,"[1:reply] Small [FYI](https://www.reddit.com/r/adventofcode/wiki/faqs/copyright/inputs/)
+[2:OP] Huh, interesting. I'm going to remove the puzzle input. But I am curious, why would sharing it be prohibited?
+[3:OP] I hear a lot of fuzz about this Advent of Code thingy. So I thought I'd give it a try.
+
+I don't know if people are interested in solutions, but here's mine for day 1. Written in Rust of course.
+
+https://github.com/Rismosch/advent_of_code_2025",title_plus_comments,yes,no,other,medium,The post appears to discuss software without a clear troubleshooting or chiefly critical purpose.,,,,,,,https://reddit.com/r/rust/comments/1pbp7rl/advent_of_code_2025_solution_for_day_1/
+B7-055,chrome,Chrome Bookmarks Gone After Installing New Windows,"My windows was lagging so I decided to give it a new life and reinstall the whole system, I took care about everything that was on my drive but forgot about Chrome extensions because I thought by having synchronization enabled I could just restore them with 2 clicks... but the bookmarks that were restored are from my phone and not from my PC. Is there any way I can access those bookmarks again? I had really important information there ;/","[1:reply] if you had two different sets of bookmarks previously (one for desktop, one for mobile) then either you didn't actually have sync turned on, or logged in to the wrong account.
+[2:reply] Unless you had two Google sync accounts, the PC bookmarks are probably gone. Next time, open Chrome's Bookmark Manager and export your bookmarks to an HTML file and then back that file up to an external drive or cloud storage.
+[3:reply] Thank you for your submission to /r/Chrome! We hope you'll find the help you need. Once you've found a solution to your issue, please comment ""**!solved**"" under this comment to mark the post as solved. Thanks!
+
+
+*I am a bot, and this action was performed automatically. Please […",title_body_comments,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/chrome/comments/1nxstb4/chrome_bookmarks_gone_after_installing_new_windows/
+B7-056,chrome,"Chrome removed ""#windows11-mica-titlebar"" from chrome://flags in the last update.","It is sad to let it go. I was very happy with the look it gave to Google Chrome, but now it's gone! I hope someday it could come back.
+
+EDIT: It's still not gone. You can enable ""#temporary-unexpire-flags-m140"" in chrome://flags to bring it back.","[1:reply] Flags usually have an ""estimated"" Chromium version in which they expire, this particular one just auto expired in version M140 https://issues.chromium.org/issues/427499162
+
+That means the feature isn't going anywhere, it's just not a top priority at this moment and nobody extend…
+[2:reply] what is it? I don't see any difference between your two screenshots
+[3:OP] Oh, thank you. I thought it was gone. I'll just leave this post here in case anyone is as confused as I was.
+[4:reply] It's only one screenshot? The bit in the box is just a magnified area of the image
+[5:reply] In Chrome Beta 142 it's gone. Enable ""#temporary-unexpire-flags-m140"" and [\#windows11-mica-titlebar](chrome://flags/#windows11-mica-titlebar) but not working.",title_body_comments,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/chrome/comments/1nwi6qc/chrome_removed_windows11micatitlebar_from/
+B7-057,Fedora,My first 5 days on Linux and I honestly can't believe I waited this long,"First of all, I am REALLY happy that I switched to Linux.
+
+It all started because of overheating problems on my Dell G3 and the RAM usage on Windows 11. It was getting so bad. I could barely open multiple apps anymore, and recently, after some updates, things got even worse. Booting up the laptop, trying to open an application, or switching between apps would sometimes cause lag or even crashes.
+
+I talked to one of my friends who also uses Linux, and they told me that Linux is great for power users. That honestly made me interested, but I was also really scared to switch.
+
+I had a lot of data on my laptop, and I didn't have enough storage to move everything to another drive. Luckily, I managed to move the important stuff, and that gave me the confidence to finally make the switch.
+
+Another reason I was scared was productivity. I use a lot of Windows apps every day — Zoom, OBS, CapCut, BlueStacks, Docker, and various other tools. I was worried that I would lose all the productivity and daily-use apps I rely on.
+
+And yeah, BlueStacks and CapCut aren't really available on Linux in the same way, so I definitely miss BlueStacks. 😂 That's probably one of the biggest things I miss after switching from Windows 11.
+
+But honestly...
+
+The performance I get from Linux is SO GOOD.
+
+The RAM usage especially shocked me. I'm just sitting here thinking, ""How is this using so little RAM?"" 😂
+
+I've installed a bunch of software already, and somehow the system still feels incredibly lightweight. Even the amount of storage the system itself takes compared to what I expected surprised me.
+
+I've also been getting into Docker and automation, and Linux feels PERFECT for that kind of stuff. For coding, I honestly don't feel like I'm missing much at all so far.
+
+That being said, I still have a few annoying issues.
+
+My touchpad feels a little buggy sometimes. Scrolling and zooming don't feel as smooth or natural as they did on Windows, and I'm still trying to figure out if there's a way to improve that.
+
+Another thing is my screen. Sometimes it flickers slightly, and I can't figure out what's causing it. It's kind of hard to explain, but when I move my mouse around different parts of the screen, the brightness seems to change slightly. It gets a little brighter in some areas and darker in others. At first I thought it might be something related to my graphics card, but honestly, I have no idea yet. 😭
+
+Fingerprint support is another thing I haven't figured out. There doesn't seem to be an option to set it up, although I don't mind typing my password. A fingerprint reader would just save me a few seconds every time. 😂
+
+It's only been about 5 days since I switched, and I'm still learning.
+
+I'm learning terminal commands every day, and whenever I get completely lost, I sometimes ask AI for help. 😂 I'm slowly starting to understand what I'm actually doing instead of blindly copying commands, though.
+
+For now, I've already installed pretty much everything I need for my daily use and coding, and I'm genuinely surprised by how little I'm missing.
+
+I also started customizing my desktop a little. I watched a tutorial and set up what I think is Breeze Dark for now. Later, I definitely want to go much deeper into customization.
+
+I feel like I still have SO much to discover — especially those hidden Linux gems, useful apps, tweaks, terminal tools, and optimizations that you only find after using Linux for a while.
+
+So yeah...
+
+It's only been 5 days, but I'm loving Linux so far.
+
+I'm really happy I finally made the switch. ❤️
+
+If you're a Linux user, what are some apps, tools, tweaks, or ""hidden gems"" you think I should try next?
+
+And if you've dealt with the touchpad issues or weird screen flickering/brightness changes I mentioned, I'd love to hear how you fixed them!
+
+  
+YESS I USED AI TO CORRECT MY GRAMMAR CUZ IT SUCKS!! SOWWWYYY","[1:reply] for your problems:
+
+disabling mouse pointer acceleration can help with the pointer feeling weird 
+
+for the screen issue its probably graphics drivers, if you have an nvidia gpu you have to install drivers manually, you can look up tutorials, theres a couple on reddit and on gith…
+[2:reply] Try Waydroid to replace Bluestacks
+[3:OP] Ummm it's KDE Plasma.
+[4:reply] &gt;My touchpad feels a little buggy sometimes. Scrolling and zooming don't feel as smooth or natural as they did on Windows, and I'm still trying to figure out if there's a way to improve that.
+
+Try looking at switching to synaptic driver which can sometimes improve responsiven…
+[5:OP] Yahhh probably it's the GPU issue...  I don't think this supports fingerprint i've tried a lot of time too",title_body_comments,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/Fedora/comments/1vspeu6/my_first_5_days_on_linux_and_i_honestly_cant/
+B7-058,Ubuntu,Any idea what's going on here?,"Software is fully updated. It'll do this constantly, then it'll stop and work fine for the rest of the day, until it feels like doing it again. Happens mostly on Youtube. Never happens with Steam, or any of my gaming apps. I also use Vivaldi, and it will crash, but not as much","[1:OP] Hardware: Intel Core i7-8700K x 12
+
+AMD Radeon RX 580
+
+32GB Predator RAM
+
+4TB SSD (2TB NVME/ 2TB SSD)
+
+Running Ubuntu 26.04 Firmware ver. P4.30
+[2:reply] Do you have a lot of things to maintain in this firefox profile? if not, then remove this folder
+
+rm -rf \~/snap/firefox
+
+DO NOT DO THIS IF THIS FIREFOX IS VERY IMPORTANT TO YOU
+[3:OP] I use Firefox as my main browser. I'm watching YouTube on it now. It will not crash for long periods of time, once you get it started. My YouTube profiles are on here, other than that nothing serious. I'll give it a try. Thank you for your reply",title_body_comments,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/Ubuntu/comments/1wv8row/any_idea_whats_going_on_here/
+B7-059,MicrosoftEdge,Microsoft Edge v145 forcing proxy / network popup – breaking Selenium (C#) automation. Any workaround?,"Hey folks,
+
+After the recent Microsoft Edge version 145 update, we’ve started facing a strange issue in our automation setup.
+
+We’re running a Selenium framework in C#, and after launching Edge, a network/proxy-related pop-up appears (attaching screenshot). This is interfering with our tests and sometimes blocking proper execution.
+
+\\### What we’ve tried:
+
+\\- Disabling proxy from Windows settings (everything is OFF)
+
+\\- Adding/removing various Edge launch arguments
+
+\\- Fixing a previous logout issue caused by one of the arguments
+
+Even though system proxy settings are clean, this popup still shows up, which makes us think it's something introduced or enforced after the Edge 145 upgrade.
+
+\\### Current situation:
+
+\\- Happens during automated runs (Selenium)
+
+\\- Seems tied to Edge startup behavior
+
+\\- Not resolved via standard proxy settings
+
+\\---
+
+\\### What I’m looking for:
+
+Has anyone else faced this after upgrading to Edge 145?
+
+\\- Any working Edge arguments to bypass this?
+
+\\- Any policy / registry / config workaround?
+
+\\- Any Selenium-specific fix?
+
+Would really appreciate any help or direction here 🙏
+
+Thanks in advance!",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/MicrosoftEdge/comments/1s488pw/microsoft_edge_v145_forcing_proxy_network_popup/
+B7-060,rustdesk,Updating ID,"Custom RustDesk host on Windows 11. Restoring a Windows build from an image, I need to change the RustDesk ID. I'm doing this by stopping the RD service, then copying a modified version of ruskdesk.toml to the location in C:\\Windows\\ServiceProfiles\\LocalService\\AppData\\Roaming\\RustDesk\\config. Basically the batch file is this, run as Administrator:
+
+net stop ""RustDesk Service""  
+copy RustDesk.toml C:\\Windows\\ServiceProfiles\\LocalService\\AppData\\Roaming\\RustDesk\\config  
+net start ""RustDesk Service""
+
+This fails because Windows needs to grant access when I reach the LocalService folder - ie. I can navigate in Explorer to C:, then Windows, then ServiceProfiles, and then LocalService, but when I go to AppData it says I don't have access and ""Click here to allow access"". Once I do that, then the batch works.
+
+Can anyone suggest another way around this?
+
+I know there's another RustDesk.toml under %userprofile% and changing that one works fine until I start the service, then it goes back to the one under C:\\Windows.","[1:reply] How often do you need to run that batch file? If only once, you could try to boot Windows in safe mode with command prompt and then run batch file.
+[2:OP] I set it up as a batch so I could do it remotely... Because of course, stopping the service knocks me offline. If I'm going to be in front of the machine to get into safe mode, I could just edit the file directly in notepad
+[3:reply] Wouldn't it be easier to not have Rustdesk installed as part of the image and then install it after you apply the image?  It would be much easier to script the install compared to changing the ID after the fact.
+[4:OP] One would think, but I've had too many issues with that with not-so-bright remote techs. If it's on the image, a new deployment will come online with the same ID, and then I can change it. Changing the ID after the fact is SUPER EASY, except for this one little issue.
+[5:reply] Can you run the batch file as System?",title_body_comments,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/rustdesk/comments/1o0mf1k/updating_id/
+B7-061,Wordpress,Wordpress fails to update - Synology NAS,,,title_only,yes,no,other,low,The post appears to discuss software without a clear troubleshooting or chiefly critical purpose.,,,,,,,https://reddit.com/r/Wordpress/comments/1ndq22a/wordpress_fails_to_update_synology_nas/
+B7-062,Android,Android 16's Desktop Mode is AWESOME [includes QPR2 updates],,"[1:reply] I know Dex (and the one for Moto) has existed for years, but it was too fragmented. There always needed to be a central power to steer the ship. Google was dragging their feet for way too long. I'm still rather shocked that Google enabled it on Pixel 10, as they have disabled it…
+[2:OP] It looks *a lot* like ChromeOS, so I would not be surprised if Android Desktop Mode **=** ChromeOS Aluminum, the upcoming Android-based ChromeOS.
+
+That is, future Android-based ChromeOS devices may simply be Android devices locked to Desktop Mode.
+[3:reply] We know. We hate it. The OneUI 8 update took Dex away and replaced it with basically this. It's complete trash in comparison. My tablet has been collecting dust with a dead battery for a good two months now.
+
+I see what they're going for, but its a half finished effort. I'm sure…
+[4:reply] I'm surprised they didn't show graphical Linux apps. Is it not supported in desktop mode? That's actually a feature that Dex doesn't have.
+[5:reply] This is far from DEX (pre OneUI 8)",title_plus_comments,yes,yes,other,medium,The post appears to discuss software without a clear troubleshooting or chiefly critical purpose.,,,,,,,https://reddit.com/r/Android/comments/1pmrrxj/android_16s_desktop_mode_is_awesome_includes_qpr2/
+B7-063,firefox,updated UI has made most right click options invisible,I can't tell what does what anymore,"[1:reply] Address me.
+[2:reply] No
+[3:reply] r/addressme or r/Derailedbydetails
+[4:reply] hahaha sometimes
+[5:reply] I would do the same if I was forced to render a context menu for a photo like that.",title_body_comments,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/firefox/comments/1wvw54d/updated_ui_has_made_most_right_click_options/
+B7-064,PowerToys,Mouse without Borders XP &lt;-&gt; 10,"Does anyone know what version of Mouse without Borders can be used to link a Windows XP SP3 system (upgrade not possible, controls expensive hardware and is only in a local network) and Windows 10 IoT?
+
+I have tried [2.1.0.8](http://2.1.0.8), that seems to work on XP, but crashes most of the time on Windows 10.
+
+I have tried [2.1.0.8](http://2.1.0.8) on the XP side, and the current version on Windows 10, but they can not verify the key and warn that only identical versions should be used.
+
+Any advice (except of upgrading that XP system, which is NOT possible)?",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/PowerToys/comments/1p140wf/mouse_without_borders_xp_10/
+B7-065,android,Build for Android -&gt; TypeError: Cannot read property &#39;EventEmitter&#39; of undefined,"I'm building an application on React Native, it hasn't been updated for several years, so I'm replacing some libraries. According to the guide https://react-native-community.github.io/upgrade-helper / has already migrated for compatibility with xcode 26.1. Now there is a problem that after a successful build, the application crashes into an error with EventEmmiter, I assume that this is due to incompatibility of versions of outdated dependencies. Looking at my ""package.json"" can you tell me what exactly needs to be updated? enter image description here ""dependencies"": { ""@expo/vector-icons"": ""^13.0.0"", ""@gluestack-ui/themed-native-base"": ""^0.1.108"", ""@react-native-aria/button"": ""^0.2.10"", ""@react-native-aria/checkbox"": ""^0.2.10"", ""@react-native-aria/dialog"": ""^0.0.5"", ""@react-native-aria/focus"": ""^0.2.9"", ""@react-native-aria/interactions"": ""^0.2.16"", ""@react-native-aria/menu"": ""^0.2.15"", ""@react-native-aria/overlays"": ""^0.3.15"", ""@react-native-aria/radio"": ""^0.2.10"", ""@react-native-aria/slider"": ""^0.2.10"", ""@react-native-aria/switch"": ""^0.2.4"", ""@react-native-aria/toggle"": ""^0.2.11"", ""@react-native-aria/utils"": ""^0.2.12"", ""@react-native-async-storage/async-storage"": ""^1.18.2"", ""@react-native-community/datetimepicker"": ""^7.3.0"", ""@react-native/new-app-screen"": ""0.81.5"", ""@react-navigation/bottom-tabs"": ""^6.5.8"", ""@react-navigation/material-bottom-tabs"": ""^6.2.16"", ""@react-navigation/native"": ""^6.1.7"", ""@react-navigation/stack"": ""^6.3.17"", ""@reduxjs/toolkit"": ""^2.0.0"", ""axios"": ""^1.4.0"", ""expo-font"": ""^11.4.0"", ""lodash"": ""^4.17.21"", ""moment"": ""^2.29.4"", ""react"": ""19.1.0"", ""react-dom"": ""19.1.0"", ""react-move"": ""^6.5.0"", ""react-native"": ""0.81.5"", ""react-native-chart-kit"": ""^6.12.0"", ""react-native-easy-grid"": ""^0.2.2"", ""react-native-encrypted-storage"": ""^4.0.3"", ""react-native-gesture-handler"": ""^2.28.0"", ""react-native-image-picker"": ""^5.6.0"", ""react-native-keychain"": ""^8.1.1"", ""react-native-paper"": ""^5.8.0"", ""react-native-permissions"": ""^3.8.3"", ""react-native-raw-bottom-sheet"": ""^2.2.0"", ""react-native-reanimated"": ""^3.19.3"", ""react-native-restart"": ""^0.0.27"", ""react-native-safe-area-context"": ""^5.5.2"", ""react-native-screens"": ""^4.14.0"", ""react-native-star-rating-widget"": ""^1.7.2"", ""react-native-svg"": ""^15.12.1"", ""react-native-touch-id"": ""^4.4.1"", ""react-native-uuid"": ""^2.0.1"", ""react-native-vector-icons"": ""^9.2.0"", ""react-redux"": ""^9.0.0"", ""redux"": ""^5.0.0"", ""redux-axios-middleware"": ""^4.0.1"" }, ""devDependencies"": { ""@babel/core"": ""^7.25.2"", ""@babel/preset-env"": ""^7.25.3"", ""@babel/runtime"": ""^7.25.0"", ""@react-native-community/cli"": ""20.0.0"", ""@react-native-community/cli-platform-android"": ""20.0.0"", ""@react-native-community/cli-platform-ios"": ""20.0.0"", ""@react-native-community/eslint-config"": ""^3.2.0"", ""@react-native/babel-preset"": ""0.81.5"", ""@react-native/eslint-config"": ""0.81.5"", ""@react-native/metro-config"": ""0.81.5"", ""@react-native/typescript-config"": ""0.81.5"", ""@tsconfig/react-native"": ""^3.0.2"", ""@types/jest"": ""^29.5.13"", ""@types/react"": ""^19.1.0"", ""@types/react-native-vector-icons"": ""^6.4.13"", ""@types/react-redux"": ""^7.1.25"", ""@types/react-test-renderer"": ""^19.1.0"", ""babel-jest"": ""^29.5.0"", ""babel-plugin-inline-import"": ""^3.0.0"", ""babel-plugin-module-resolver"": ""^5.0.0"", ""eslint"": ""^8.43.0"", ""eslint-plugin-jsdoc"": ""^46.3.0"", ""eslint-plugin-react"": ""^7.32.2"", ""eslint-plugin-react-hooks"": ""^4.6.0"", ""jest"": ""^29.6.3"", ""metro-react-native-babel-preset"": ""0.76.7"", ""prettier"": ""^2.8.8"", ""react-native-cli"": ""^2.0.1"", ""react-native-gradle-plugin"": ""^0.71.19"", ""react-test-renderer"": ""19.1.0"", ""reactotron-react-native"": ""^5.0.3"", ""typescript"": ""^5.8.3"" }, ""jest"": { ""preset"": ""react-native"" }, ""engines"": { ""node"": "">=20"" }",,title_and_body,yes,no,other,low,The post appears to discuss software without a clear troubleshooting or chiefly critical purpose.,,,,,,,https://stackoverflow.com/questions/79825481/build-for-android-typeerror-cannot-read-property-eventemitter-of-undefined
+B7-066,Bitcoin,My posted meme to this community from six years ago is now irony and inverse lol,,"[1:reply] I actually remember this.
+[2:reply] Keep dreaming, will never get there
+[3:reply] Once it’s back to $20k next year, I’m buying the dip.
+[4:OP] lol 😆
+[5:reply] thats actually lower than my current average 😆",title_plus_comments,no,no,na,medium,The saved text appears outside software scope or is too vague to classify reliably.,,,,,,,https://reddit.com/r/Bitcoin/comments/1pische/my_posted_meme_to_this_community_from_six_years/
+B7-067,chrome,Chromium based apps freezing while scrolling with videos playing.,"This issue is already reported on [issues.chromium.org](http://issues.chromium.org)
+
+See the following issue ID: [https://issues.chromium.org/483903180](https://issues.chromium.org/483903180), if you are also having problems please click on the +1 right here.
+
+[Click on the +1 if you are also having issues.](https://preview.redd.it/mbshk4z9s4jg1.png?width=1384&amp;format=png&amp;auto=webp&amp;s=e09998bdbe7d2a17efd82b4cf800bc0a2e7606f2)
+
+While scrolling through social media, basically where allot of videos are playing while i am scrolling the app tends to freeze up totally. Allowing me not to click anything, It happens randomly and i don't know how to force it.
+
+The weird thing is that the browser is still active because i'm not getting the ""App is not responding"" and the browser going gray. It's just there and will come back if you give it 30 seconds. All other apps including Discord that is using chromium stays functional.
+
+One way to fix it temporary is by double clicking the top bar of the app causing it to resize, restoring the app instantly.
+
+The browser was working fine before but recently it happened to be freezing like this.
+
+What I have tried to fix it:
+
+Driver Rollback from 591.86 (NVIDIA) to 591.44
+
+DDU.
+
+BIOS Update.
+
+NVCleanstall with the recommended settings.
+
+GPU Switching. (Yes it happens on 2 of my GPUS)
+
+uninstalling the latest windows security updates including KB5074109
+
+Reinstalling windows.
+
+What fixed it for now:
+
+Disabling Hardware Acceleration, not really the fix i'm happy to stay with.
+
+
+
+Does anyone know why this happens?",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/chrome/comments/1r36623/chromium_based_apps_freezing_while_scrolling_with/
+B7-068,react,&lt;Activity /&gt; in React 19.2,"What use cases would your projects have for &lt;Activity /&gt;?
+
+From the docs:
+
+&lt;Activity&gt; lets you break your app into “activities” that can be controlled and prioritized.
+
+You can use Activity as an alternative to conditionally rendering parts of your app:
+
+```
+// Before
+{isVisible &amp;&amp; &lt;Page /&gt;}
+
+// After
+&lt;Activity mode={isVisible ? 'visible' : 'hidden'}&gt;
+  &lt;Page /&gt;
+&lt;/Activity&gt;
+
+```
+In React 19.2, Activity supports two modes: visible and hidden.
+
+- hidden: hides the children, unmounts effects, and defers all updates until React has nothing left to work on.
+
+- visible: shows the children, mounts effects, and allows updates to be processed normally.
+
+This means you can pre-render and keep rendering hidden parts of the app without impacting the performance of anything visible on screen.
+
+You can use Activity to render hidden parts of the app that a user is likely to navigate to next, or to save the state of parts the user navigates away from. This helps make navigations quicker by loading data, css, and images in the background, and allows back navigations to maintain state such as input fields.","[1:reply] React is changing so much.  I haven’t used it like 3 years I don’t recognize a ton of this stuff.
+[2:reply] I have some expensive screens to toggle on and off rapidly in an app—this seems nice for that! Thanks!
+[3:reply] Seems like a really nice shortcut for stuff that took manual management before. Activity is kind of an awful name, but naming stuff is hard, so whatever, it's memorable at least.
+[4:reply] React barely had a update (I think 2 years) between 18 and 19.
+[5:reply] You can use it to prerender routes, for example",title_body_comments,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/react/comments/1nxcbv9/activity_in_react_192/
+B7-069,chrome,Any chance Chrome will finally fix their Dark Mode for Web Content in 2026?!,,"[1:reply] ""Same here! I hope they implement a true dark mode for Gmail web, Sheets, and Docs... And I'm hoping for an OLED dark mode, not just a gray interface.""
+[2:OP] I mean, what's that?
+
+https://preview.redd.it/pn0bhwkew7bg1.png?width=364&amp;format=png&amp;auto=webp&amp;s=5fe464fafa12d94554e3297be545f76161fc8c32
+[3:reply] nope.
+[4:reply] If it was easy, they would have done so by now.
+[5:OP] It was easy, since it worked well for years. they obviously broke something several months ago and didn't bother repairing it.",title_plus_comments,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/chrome/comments/1q37ef7/any_chance_chrome_will_finally_fix_their_dark/
+B7-070,Ubiquiti,Got mine in go get it,,"[1:reply] I have email notifications set up and never received anything. So I check after seeing this post and they’re sold out, amazing!
+[2:reply] The observations I've read from others here is that the restock notifications only get sent to a number of people, probably based on the stock quantity and when you signed up. 
+
+For that reason, I run changedetection.io at home and have it set to check once every few minutes. I…
+[3:reply] annnnnd....it's gone...
+[4:reply] Was able to snag it!!! Cant wait. 
+
+Love the fanboying of Unifi products.. in the span of the last 10 minutes ive gotten 3 notifications, a call from my boss, and a text from my friend that it was back in stock. was about to make a post here myself.
+[5:OP] It's back in stock",title_plus_comments,no,no,na,low,The saved text appears outside software scope or is too vague to classify reliably.,,,,,,,https://reddit.com/r/Ubiquiti/comments/1s1l8mf/got_mine_in_go_get_it/
+B7-071,neovim,denols stopped attaching to buffers automatically,"After doing an update, I think, denols stopped attaching to javascript/typescript buffers automatically, and I have to start it manually with `vim.lsp.start({ name = ""denols"", cmd = {""deno"", ""lsp""}, root_dir = vim.fn.getcwd()})`. After that everything works as normal, but having to do that for every buffer is cumbersome.
+
+My question is: how can I debug this issue?
+
+The lsp logs at debug level shows nothing at all (since the lsp isn't started presumably). Doing `:LspInfo` shows for denols:
+
+    - ⚠️ WARNING Unknown filetype 'javascript.jsx'.
+    - ⚠️ WARNING Unknown filetype 'typescript.tsx'.
+    - denols:
+      - capabilities: {
+          textDocument = {
+            completion = {
+              completionItem = {
+                commitCharactersSupport = false,
+                deprecatedSupport = true,
+                documentationFormat = { ""markdown"", ""plaintext"" },
+                insertReplaceSupport = true,
+                insertTextModeSupport = {
+                  valueSet = { 1 }
+                },
+                labelDetailsSupport = true,
+                preselectSupport = false,
+                resolveSupport = {
+                  properties = { ""documentation"", ""detail"", ""additionalTextEdits"", ""command"", ""data"" }
+                },
+                snippetSupport = true,
+                tagSupport = {
+                  valueSet = { 1 }
+                }
+              },
+              completionList = {
+                itemDefaults = { ""commitCharacters"", ""editRange"", ""insertTextFormat"", ""insertTextMode"", ""data"" }
+              },
+              contextSupport = true,
+              insertTextMode = 1
+            }
+          }
+        }
+      - cmd: { ""deno"", ""lsp"" }
+      - cmd_env: {
+          NO_COLOR = true
+        }
+      - filetypes: javascript, javascriptreact, javascript.jsx, typescript, typescriptreact, typescript.tsx
+      - handlers: {
+          [""textDocument/definition""] = &lt;function 1&gt;,
+          [""textDocument/references""] = &lt;function 1&gt;,
+          [""textDocument/typeDefinition""] = &lt;function 1&gt;
+        }
+      - on_attach: &lt;function @/home/user/.local/share/nvim/lazy/nvim-lspconfig/lsp/denols.lua:113&gt;
+      - root_dir: &lt;function @/home/user/.local/share/nvim/lazy/nvim-lspconfig/lsp/denols.lua:78&gt;
+      - settings: {
+          deno = {
+            enable = true,
+            suggest = {
+              imports = {
+                hosts = {
+                  [""https://deno.land""] = true
+                }
+              }
+            }
+          }
+        }
+
+There are no `root_markers` but adding them doesn't help. Fixing the warning by overriding `filetypes` also doesn't help.
+
+In the meantime I just added a filetype autocmd, but I'd like to know how I can fix it.",,title_and_body,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/neovim/comments/1qz9g52/denols_stopped_attaching_to_buffers_automatically/
+B7-072,Ubiquiti,Udm update 5.0.16 probably breaks SFP - no internet,"UDM pro max : Software update to 5.0.16 yesterday at 03.37 a.m local time , after few hours lost all AP’s u7 lites along with internet connection. We have a mikrotik Main router  and the udm configured to dhcp relay , connected via two sfp+ ports. 
+
+Resolved after restarting both devices and the shadow (secondary udm).
+
+Issue repeated today. Resolved after forcing to all 4 sfp+ modules to ignore Rx Errors . Two sfp ports per udm.
+The ports within udm were up and showed  no errors displayed. Udm was reachable from wan side.
+
+A Hypothesis here could be that UDM updated something in the SFP - auto-negotiation or
+flow control and the SFP configured for LAN port at 
+Mikrotik sees crc errors / lost frames or sth
+, doesnt drop the link but data routing stalled (couldnt ping the udm , lost APs) . So maybe a temporary forwarding stall (deadlock) in the UDM because it did not fully crash but  the sfp port for LAN stopped processing  traffic. The link reset (SFP port change on MikroTik) restored operation, indicating a state-related issue rather than a permanent failure.
+
+
+
+ In theory could be reversed losing internet access to udm but being pingable from lan devices and APs should be ok.
+
+
+
+Nevertheless, for one month now (installation is new) we didnt had issue.
+Thus wanted to gather feedback here, we cant be alone and this is way serious but i guess common , also please advise how fast Ubiquity releases a new version if anyone faced it in the past .",,title_and_body,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/Ubiquiti/comments/1rzrun1/udm_update_5016_probably_breaks_sfp_no_internet/
+B7-073,chrome,Chrome bug is back - reverts back to the top of the new tab page when coming back,"Hi, maybe it is just me, but the. latest update reverted a bug where you open a new tab on Android, scroll through the feed, find an arrival to read, click on it. once done, hit the back button, and instead of going back to the position on the screen you were on, it defaults to the top of the new tab window ( with the shortcuts and search bar). they fixed a couple of months ago, but it just came back after the latest update.",,title_and_body,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/chrome/comments/1sgg1l6/chrome_bug_is_back_reverts_back_to_the_top_of_the/
+B7-074,Fedora,Unable to update to fedora 43 if you have wine installed,,"[1:reply] There is also a second one related to wine [https://bugzilla.redhat.com/show\_bug.cgi?id=2404874](https://bugzilla.redhat.com/show_bug.cgi?id=2404874)
+[2:reply] The bright side of it is that dnf blocks the whole transaction instead of leaving your system in a half-updated state. Much better than what I observed a few times on other distros.
+[3:reply] I had the same issue, I ended up removing the problematic packages and the upgrade went through.
+[4:reply] sudo dnf remove wine-core
+[5:reply] Is it possible to re-install wine after the update to 43?  
+I need wine for some old HAM-Software.",title_plus_comments,yes,yes,other,low,The post appears to discuss software without a clear troubleshooting or chiefly critical purpose.,,,,,,,https://reddit.com/r/Fedora/comments/1oi3veh/unable_to_update_to_fedora_43_if_you_have_wine/
+B7-075,debian,Bluetooth stopped working after 6.12.88 kernel update,"I'm using Debian 13 and after the system updated to kernel version 6.12.88, my Bluetooth stopped working.
+
+It shows `Bluetooth: hci0: Failed to send wmt func ctrl (-22)`  error during bootup.
+
+I tried all common troubleshooting and it didn't work.
+
+After switching to Kernel 6.12.86, it works fine.  
+I'm using Mediatek Wi-Fi 6 7921 adaptor.
+
+Is anyone else facing this issue?
+
+EDIT: Kernel 6.12.90 update fixes this issue. Just install the update and this issue will go away.","[1:reply] https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=1136884
+[2:OP] Thanks for confirming. I'm glad I'm not alone with this issue.Hope they fix it soon.
+[3:reply] Someone knows if they already fixed it?
+[4:reply] yay not just me. this is annoying af. booting into 6.12.86 confirmed fix for me too
+[5:reply] Yes and can confirm switching to 6.12.86 continues to work",title_body_comments,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/debian/comments/1thdt80/bluetooth_stopped_working_after_61288_kernel/
+B7-076,Splunk,"I am a complete beginner to Splunk Enterprise. I don't know why I am getting this error when i launch the enterprise. I went searching Google and everywhere, but i am not able to fix. Can anyone help me with this issue?",https://preview.redd.it/h2hejcxgt7rf1.png?width=1811&amp;format=png&amp;auto=webp&amp;s=b185b2e798230d42461e0c319d55617a1ff06ae9,"[1:reply] Hey, don’t worry – Splunk can be confusing at first. That error usually happens if the service didn’t start properly or the ports are blocked. Try restarting Splunk from the command line (splunk restart) and check the logs under $SPLUNK\_HOME/var/log/splunk for more details. Als…
+[2:reply] I hate to say it, but ask ChatGPT. It will help you work through the troubleshooting.
+
+But generally speaking
+1) is the service running?
+2) are you using the right protocol?
+3) check the Splunk dir under var/log/splunk/ and review web.log and Splunkd.log for insights.
+
+Also, dro…
+[3:reply] From the answers you got this probably is the best advice, I could add little details. 
+
+I don't do windows but should be almost same.
+
+Have you started the service by example:
+
+From powershell, C:\\Program files\splunk\bin\splunk start
+
+? If you didnt, that would be the reason…
+[4:reply] Install the linux version on windows, it's much better.
+
+[https://learn.microsoft.com/en-us/windows/wsl/install](https://learn.microsoft.com/en-us/windows/wsl/install)
+[5:reply] Did you enable SSL? If so, https, else http. Might just be that",title_body_comments,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/Splunk/comments/1npu9vw/i_am_a_complete_beginner_to_splunk_enterprise_i/
+B7-077,applehelp,13 pro max when i updated my iphone to ios 26 it keeps dropping weekly before that i was using iphone 8 plus and it never dropped like this,,"[1:reply] Why did u update? Everyone’s having the same issue all the way up till iPhone 16 series
+[2:OP] did everyones drop weekly like me ?
+[3:reply] Most users choose to replace an iPhone battery as soon the capacity falls below 80%. It should not be surprising that the capacity will continue to decrease as you use the phone; the battery doesn’t regenerate. If you plan to keep using the phone for a couple more years it makes…",title_plus_comments,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/applehelp/comments/1r14hme/13_pro_max_when_i_updated_my_iphone_to_ios_26_it/
+B7-078,Bazzite,Input remapper broken after update,"After updating Bazzite, Input Remapper is stuck at Starting Injection. Running it command line, it looks like it's having problems serializing an object.
+
+* input-remapper: 2.1.1
+* python-evdev: 1.9.1 
+
+Any idea on how to fix this?  
+Thanks
+
+    23:51:50.675909 31886 service DEBUG global_uinputs.py:150: Target ""keyboard"" already exists
+    Exception while handling inputremapper.Control.start_injecting()
+    Traceback (most recent call last):
+      File ""/usr/lib/python3.14/site-packages/pydbus/registration.py"", line 82, in call_method
+        result = method(*parameters, **kwargs)
+      File ""/usr/lib/python3.14/site-packages/inputremapper/daemon.py"", line 530, in start_injecting
+        injector.start()
+        ~~~~~~~~~~~~~~^^
+      File ""/usr/lib64/python3.14/multiprocessing/process.py"", line 121, in start
+        self._popen = self._Popen(self)
+                      ~~~~~~~~~~~^^^^^^
+      File ""/usr/lib64/python3.14/multiprocessing/context.py"", line 224, in _Popen
+        return _default_context.get_context().Process._Popen(process_obj)
+               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+      File ""/usr/lib64/python3.14/multiprocessing/context.py"", line 300, in _Popen
+        return Popen(process_obj)
+      File ""/usr/lib64/python3.14/multiprocessing/popen_forkserver.py"", line 35, in __init__
+        super().__init__(process_obj)
+        ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+      File ""/usr/lib64/python3.14/multiprocessing/popen_fork.py"", line 20, in __init__
+        self._launch(process_obj)
+        ~~~~~~~~~~~~^^^^^^^^^^^^^
+      File ""/usr/lib64/python3.14/multiprocessing/popen_forkserver.py"", line 47, in _launch
+        reduction.dump(process_obj, buf)
+        ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+      File ""/usr/lib64/python3.14/multiprocessing/reduction.py"", line 60, in dump
+        ForkingPickler(file, protocol).dump(obj)
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+    _pickle.PicklingError: Can't pickle local object &lt;class 'ctypes.CDLL.__init__.&lt;locals&gt;._FuncPtr'&gt;
+    when serializing dict item '_FuncPtr'
+    when serializing ctypes.CDLL state
+    when serializing ctypes.CDLL object
+    when serializing dict item 'dll'
+    when serializing tuple item 0
+    when serializing inputremapper.injection.global_uinputs.UInput state
+    when serializing inputremapper.injection.global_uinputs.UInput object
+    when serializing dict item 'keyboard'
+    when serializing dict item 'devices'
+    when serializing inputremapper.injection.global_uinputs.GlobalUInputs state
+    when serializing inputremapper.injection.global_uinputs.GlobalUInputs object
+    when serializing dict item 'global_uinputs'
+    when serializing inputremapper.injection.mapping_handlers.mapping_parser.MappingParser state
+    when serializing inputremapper.injection.mapping_handlers.mapping_parser.MappingParser object
+    when serializing dict item 'mapping_parser'
+    when serializing inputremapper.injection.injector.Injector state
+    when serializing inputremapper.injection.injector.Injector object
+    Traceback (most recent call last):
+      File ""/usr/lib/python3.14/site-packages/inputremapper/gui/user_interface.py"", line 254, in &lt;lambda&gt;
+        ""clicked"", lambda *_: self.controller.start_injecting()
+                              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+      File ""/usr/lib/python3.14/site-packages/inputremapper/gui/controller.py"", line 673, in start_injecting
+        if not self.data_manager.start_injecting():
+               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+      File ""/usr/lib/python3.14/site-packages/inputremapper/gui/data_manager.py"", line 569, in start_injecting
+        if self._daemon.start_injecting(self.active_group.key, self.active_preset.name):
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File ""/usr/lib/python3.14/site-packages/pydbus/proxy_method.py"", line 102, in __call__
+        raise error
+      File ""/usr/lib/python3.14/site-packages/pydbus/proxy_method.py"", line 97, in __call__
+        result = instance._bus.con.call_sync(*call_args)
+    gi.repository.GLib.GError: g-io-error-quark: GDBus.Error:unknown.PicklingError: Can't pickle local object &lt;class 'ctypes.CDLL.__init__.&lt;locals&gt;._FuncPtr'&gt; (36)
+    23:51:56.249551 41473 GUI DEBUG controller.py:783: Closing Application",,title_and_body,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/Bazzite/comments/1oivtg0/input_remapper_broken_after_update/
+B7-079,Ubiquiti,UCG Fiber suricata issues,"I've been having issues with my ucg fiber. I tried searching and couldn't find anything relating to my issue. Since last year Nov/Dec I noticed odd behaviors like unknown ips and mac addresses. So I put what could go into recovery and reinstalled the firmware on all my unifi devices and reset what couldnt.   I ran my network for most of this year with hardly any of my servers, iot or other devices just to monitor it. Everything seemed fine. 
+
+  Within the last month I spun up zeek and wazuh on proxmox with zeek monitoring a mirror port on the aggregation switch. Wazuh ingesting ucg syslog. The mirror connection kept breaking causing high packet losses. Kept fixing it and it kept breaking. These packet losses was being logged by zeek. But I also got split routing alerts. I had twingate  running so didn't think much of it. Then the wazuh logs showed suricata kept failing and never really ran. It couldn't update because of oom failures. Disable it and it updated.  I reenabled it but still kept failing. 
+
+The logs also showed ipv6 activities. Even though I have ipv6 off. I know link local is still active. But it shouldn't be moving data the way it was. I saw ip addresses on my default network that I didn't create. Random MAC addresses not created by me or proxmox. But all on the default network that I ran nothing on. The Point is. The oddities I saw in the logs should have thrown alerts. But never did. Only alert I ever saw was multiple devices with the same ip. 
+
+I'm new to this. I'm learning as I go. I've reset. Put into recovery to flash firmware. But still having issues. But should I just get a new gateway. I did put a ticket in a few days ago asking the same thing. Not with this much detail.",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/Ubiquiti/comments/1tcy4df/ucg_fiber_suricata_issues/
+B7-080,Android,"Snapdragon 6s Gen 4 announced with updated CPU and GPU, 144Hz display support",,"[1:reply] Can we reset the naming convention?
+[2:reply] Sure. The future Snapdragon 6s gen5 is now the first of the new line: DragonSnap 1x Plus mini A.
+
+It will be succeeded by the DragonSnap 3A Plus micro A, which has a higher clock but a completely different architecture. It no longer supports the same codecs and uses a different…
+[3:reply] Yay with more rebadged shit
+[4:reply] It's A78, just rebrand of 6 gen 3, and they don't use A715 and A710, they are expensive and offer nothing over A78
+[5:reply] &gt; 4x performance cores at up to 2.4 GHz and 4x efficiency cores at 1.8GHz.
+
+&gt; claims of 36% improved CPU 
+
+The 6s Gen 3 was 4x 2.3ghz A78/4x 2ghz A55 so they must finally be moving to newer arm cores likely 4x A715 and 4x A510",title_plus_comments,yes,yes,other,medium,The post appears to discuss software without a clear troubleshooting or chiefly critical purpose.,,,,,,,https://reddit.com/r/Android/comments/1of2cig/snapdragon_6s_gen_4_announced_with_updated_cpu/
+B7-081,Ubuntu,Why we’re saying goodbye to “Software &amp; Updates” - Desktop,,"[1:reply] &gt;Advanced users can still manage repositories, keys, or update policies exactly as before using apt and configuration files.
+
+And with that Ubuntu became a little less user-friendly.
+[2:reply] Are the devs cooking up any other UI solution? Must exist right?
+[3:reply] To be fair I've never used that app. I always do updates with terminal",title_plus_comments,yes,yes,other,low,The post appears to discuss software without a clear troubleshooting or chiefly critical purpose.,,,,,,,https://reddit.com/r/Ubuntu/comments/1r356c5/why_were_saying_goodbye_to_software_updates/
+B7-082,comfyui,SM89 kernel is not available,"Hi. After yesterday update i started getting error in terminal during every generation. Few hour before everything was fine....  
+I asked LLM for help. He responded with pytorch and tritons wheels update. Did that and still getting error.
+
+Has anyone encountered this before and has a way to fix it?",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/comfyui/comments/1sosvvx/sm89_kernel_is_not_available/
+B7-083,chrome,Weird popup after updating Chrome,,,title_only,yes,yes,general_dissatisfaction,low,The post appears mainly critical without an active repair purpose; check for a concrete problem report.,,,,,,,https://reddit.com/r/chrome/comments/1mmn51c/weird_popup_after_updating_chrome/
+B7-084,transformers,Got them!,,"[1:reply] Holy shit she didn't gut OP.
+
+He actually lived
+[2:reply] Jesus christ man, You ROBBED that guy. There's a shitton of valuable stuff in here.
+[3:reply] They posted earlier, $100 for two bins of formers!
+[4:reply] How much did you pay for all this ?
+[5:reply] Oh my! What a find! Those Super Wings figures are really what make the value here!",title_plus_comments,no,no,na,medium,The saved text appears outside software scope or is too vague to classify reliably.,,,,,,,https://reddit.com/r/transformers/comments/1oyy0a5/got_them/
+B7-085,Bitcoin,TRUE,,"[1:reply] Buying Bitcoin with other people's money is great.... until you run out of other people's money. And the price goes below your average purchase price. Mark my words, one day Michael Saylor will be despised by this community. When it happens, it will be the last great buying oppo…
+[2:reply] He has set up the loans in such a way they cannot liquidate MSTR but they can force him to sell his coins. Imagine having to offload 641k of Bitcoin onto the market and what it would do to the price. Sheesh!
+[3:reply] He has to keep pushing it because MSTR is literally paying hundred millions just to be able to continue holding bitcoin. IF bitcoin doesn't continue to go up, the lenders are going to come knocking and they will kick the door down. If they have to dump bitcoin to cover their not…
+[4:reply] Mstr has underperformed Bitcoin by 45% over the last year
+[5:reply] Remind me! 10 years
+
+  
+you could totally be right...I hope not, but you could",title_plus_comments,no,no,na,medium,The saved text appears outside software scope or is too vague to classify reliably.,,,,,,,https://reddit.com/r/Bitcoin/comments/1oqw3rs/true/
+B7-086,Ubuntu,Recent Chrome issue in Ubuntu,"I'm currently using Ubuntu recently I faced an isssue in chrome after update, what ever I search the page is not loading and the favicon is coming like this .what to do I even delete all the chrome related packages and chrome and reinstalled but the issue is continuing... Can anyone know what is the cause or how to correct it","[1:reply] any issue to other browser in your ubuntu
+[2:OP] No, firefox and brave are working fine",title_body_comments,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/Ubuntu/comments/1ujjuvl/recent_chrome_issue_in_ubuntu/
+B7-087,chrome,Right clicking on misspelled words crashes tab,,"[1:reply] Does the reload button work?
+
+Status\_access\_violation errors can be caused by a myriad things unfortunately. It's unlikely that the update is the problem. The usual trawling exercise is necessary ...
+
+**Restart your computer**: Restarting your computer can help fix the issue.…
+[2:OP] It stopped happening and all I did was game and watch youtube for a few hours, I haven't even closed the browser. 
+
+Only thing I can think of that changed is I closed a tab with an 8hr video, possible that chrome just ate too much ram and started freaking out over autocorrect.
+[3:reply] Thank you for your submission to /r/Chrome! We hope you'll find the help you need. Once you've found a solution to your issue, please comment ""**!solved**"" under this comment to mark the post as solved. Thanks!
+
+
+*I am a bot, and this action was performed automatically. Please […
+[4:reply] is there anything in chrome://crashes ?",title_plus_comments,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/chrome/comments/1nq4ygb/right_clicking_on_misspelled_words_crashes_tab/
+B7-088,transformers,Battlestar Ultra Magnus and Micromaster Minimus Ambus by @NickOnRipple,,"[1:reply] Star Optimus Prime?
+[2:reply] Omg this art style is so cool. Although for a sec i thought the bottom left picture was him sitting down away from the camera contemplating life.
+[3:reply] Was almost hoping for a BSG reference with that title...
+[4:reply] Now Star Ultra Magnus
+[5:reply] That’s actually a really good idea for a Star Optimus Prime Selects exclusive retool 👍🏻",title_plus_comments,no,no,na,medium,The saved text appears outside software scope or is too vague to classify reliably.,,,,,,,https://reddit.com/r/transformers/comments/1pqdgky/battlestar_ultra_magnus_and_micromaster_minimus/
+B7-089,MacOS,I didn't read anything before upgrading. What on earth is this? Can this be removed?,,"[1:reply] Pretty cool, right? Now open Dictionary, look up a word and scroll down.
+
+https://preview.redd.it/6y2twxjhg7eg1.png?width=1664&amp;format=png&amp;auto=webp&amp;s=78792c2617c8a12e0785b3072654ee8e48f4b035
+[2:OP] I'm just confused how anyone decided this was a good decision. All that fancy glass-like effect and transparency is one thing... but this kind of crap just baffles the mind.
+[3:reply] Upgrade to macos sequoia and you will be happy
+[4:reply] Liquid Ass.
+[5:reply] Yeah, this is hot, indefensible garbage, lol. I don't know how this got approved.",title_plus_comments,yes,yes,other,low,The post appears to discuss software without a clear troubleshooting or chiefly critical purpose.,,,,,,,https://reddit.com/r/MacOS/comments/1qgpe4s/i_didnt_read_anything_before_upgrading_what_on/
+B7-090,linuxquestions,Redstar OS gaming,"Hey all, I am currently daily driving redstarOS 3.0 and I want to game on steam, but I did a fucky wucky with the fedora drivers for nvidia and everything runs like dogshit (even dwarf fortress somehow)! 
+
+It is beyond me to fix that properly, since I tried to update it with the standard dnf but I think i broke something else, how would I go about making it game ready in a workaround way?","[1:reply] Maybe Kim could help?
+[2:reply] RedStarOS is outdated and you need a new kernel,libraries,packages,dependencies...
+[3:reply] Why is a trans person sending their data to one of the most oppressive regimes in the world?
+[4:reply] ...this is for laughs... Right?
+[5:reply] You're currently sending your data to one or two",title_body_comments,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/linuxquestions/comments/1wsg3pa/redstar_os_gaming/
+B7-091,Ubiquiti,Latest update broke my Wifi,"Has anyone else had problem with the latest update to Unifi and Network application? 
+
+I had a perfectly good running setup with a Cloud Gateway and 3 AC lite APs, after the update there was no wifi at all. All APs simply had status of disconnected.
+
+Only thing that changed was an auto update in the middle of the night.",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/Ubiquiti/comments/1s0ibrv/latest_update_broke_my_wifi/
+B7-092,Ubiquiti,Unifi Protect Alerts Not Alerting and Workaround,"I was struggling to get the Unifi Alerts to trigger correctly.  Test Alerts *did* come through my iPhone with no issues.  I came across this post [https://www.reddit.com/r/Ubiquiti/comments/1li7qfm/alarm\_not\_alerting/](https://www.reddit.com/r/Ubiquiti/comments/1li7qfm/alarm_not_alerting/) but it's locked so I can't respond to it.
+
+1. First, goto  **Alarm Manager**
+
+https://preview.redd.it/jwvcv8rrwq3h1.png?width=48&amp;format=png&amp;auto=webp&amp;s=9eee026fbb105cb84a8aedba5c34b60c7e971bec
+
+2. Click ""*Create New*"" under **Alarm Profiles**
+
+https://preview.redd.it/of9vzvk8tq3h1.png?width=290&amp;format=png&amp;auto=webp&amp;s=64abef986996e3b90da137d7b8fe85006c231eea
+
+3. Enter a name for the Alarm Profile and select the Name/Trigger(s) you want to include in the profile.  **Save** the Alarm Profile.
+
+https://preview.redd.it/yweym4j4uq3h1.png?width=1183&amp;format=png&amp;auto=webp&amp;s=4ffbd935dec34abd31cbd0dfc00846b9a5099f15
+
+4.  Now, you *should* see ""Arm Site"" text at the top of the ***Protect*** menu dashboard.
+
+https://preview.redd.it/gqu29t2juq3h1.png?width=336&amp;format=png&amp;auto=webp&amp;s=946bce5225c4fecc71200ff09fdf9c9063344c2b
+
+5.  Click it and it will update to ""Armed"".   Test your alarms, they should work now.
+
+https://preview.redd.it/8mxrerb5rq3h1.png?width=348&amp;format=png&amp;auto=webp&amp;s=eae75ad8fc83cdd006a246d8382804dd1fc7385d
+
+Hope this helps someone else!
+
+  
+**\*\*Edit / Update \*\***
+
+Can also set the alarm to be a **Critical Alert**, if the alert does get delivered to your phone with this setting enabled, it's likely an issue with the apps Notification settings set to **Scheduled Delivery** vs **Immediate Delivery**.
+
+https://preview.redd.it/wpevx1bers3h1.png?width=1484&amp;format=png&amp;auto=webp&amp;s=68f035f0df034ac5dc75f369d69b0acf43174d07
+
+https://preview.redd.it/6bj47bngrs3h1.png?width=1206&amp;format=png&amp;auto=webp&amp;s=0a8ccd84f94f31cc1799416848be392962ffcaa2","[1:reply] Hello!  Thanks for posting on r/Ubiquiti!
+
+This subreddit is here to provide unofficial technical support to people who use or want to dive into the world of Ubiquiti products.  If you haven’t already been descriptive in your post, please take the time to edit it and add as many…
+[2:reply] This did NOT work for me unfortunately. I created a new alarm to detect a person near my doorbell camera AND a line crossing within 5 seconds. I walked in front of the camera several times. The alarm was not triggered and I get no notification. Interestingly, when playing back t…
+[3:reply] I’m having issues with my alerts, it all of a sudden stopped working, perhaps there is a larger issue?
+[4:OP] u/mrsolitonwave , I added 2 additional images to the original post above. Does the notification work if it is set to a ""Critical Alert""?",title_body_comments,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/Ubiquiti/comments/1tpipgv/unifi_protect_alerts_not_alerting_and_workaround/
+B7-093,Ubiquiti,What kind of drive did we get on UCK G2 Plus? Refurbished?,What kind of drive did we get on UCK G2 Plus? Refurbished? This issue appeared after the latest OS update like… 2weeks ago? Just what did the devs pushed that destroyed the HDD? Is it the code that Microsoft pushed that borked windows?,"[1:reply] I got that error two weeks ago. I formatted the drive again and everything is fine.
+[2:OP] Thanks. Will try this workaround.
+[3:reply] Had this happen with a Dream Wall's SD card after the Dream Wall experienced a bad memory contention issue in version 5.0.x builds of the firmware. Formatting it fixed things right up since the drive itself was working fine.
+
+As for the hard drives that come with the CloudKeys,…
+[4:reply] Hello!  Thanks for posting on r/Ubiquiti!
+
+This subreddit is here to provide unofficial technical support to people who use or want to dive into the world of Ubiquiti products.  If you haven’t already been descriptive in your post, please take the time to edit it and add as many…
+[5:reply] My friend got one with broken drive. It lasted 15 minutes. The replacement unit he got 2 months later was equally broken, didn't work from start. Then we asked for a working drive so he didn't have to send a tin can back and forth and wait for months. Did the request on Sunday,…",title_body_comments,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/Ubiquiti/comments/1u3aicq/what_kind_of_drive_did_we_get_on_uck_g2_plus/
+B7-094,firefox,Alpenglow broken after Nova Update,"Hello, I saw that after upgrading to Nova, the compact sidebar has a solid purple in the background without extending the theme as it once did. Does anyone know if it's a bug that they're going to fix or that has already been fixed in later versions or if Alpenglow has been completely abandoned?",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/firefox/comments/1wxe55j/alpenglow_broken_after_nova_update/
+B7-095,applehelp,mysterious microphone icon,"I have this red microphone icon at the bottom right of a single chat on WhatsApp. The person to whom this chat belongs was unauthorized on my cell phone. I have since updated WhatsApp and kept completely closing and opening the app. But nothing changes. I see the profile picture too, so she won't have blocked me. I have already started and stopped the recording. That didn't help either. What could that be?",,title_and_body,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/applehelp/comments/1swzm74/mysterious_microphone_icon/
+B7-096,applehelp,"M4 Pro MacBook Pro screen stays black after deep sleep, but keyboard lights up and music plays. Anyone know what's causing this?","Hey everyone,
+
+I’m running into a repeating issue with my M4 Pro MacBook Pro and want to see if anyone knows what might be causing it or if you've experienced something similar.
+
+The Exact Symptoms:
+
+ It only happens after the laptop has been put to sleep for some time (prolonged sleep). It never happens while I am actively using the machine.
+
+ When I try to wake the Mac up, the built-in screen stays completely pitch black.
+
+ However, the keyboard backlight lights up perfectly, meaning the machine is receiving power and is awake in the background.
+
+ If I press the ⁠Spacebar⁠, whatever music/media I had open starts playing normally through the speakers.
+
+ The External Display Test: While the internal screen was black today, I plugged the Mac into an external monitor via HDMI/USB-C. The external monitor instantly displayed my desktop perfectly, while the built-in laptop screen remained dead black.
+
+What I’ve Tried So Far:
+
+1. Standard Power Button: Pressing or quickly holding the power button to sleep/wake does nothing when it's stuck like this.
+2. The Only Temporary Fix: The only way to get the screen back is pressing ⁠Control + Command + Power Button⁠ to force a hardware restart. Once it reboots, the built-in screen works perfectly fine again.
+3. Software Update: I updated to the latest version of macOS today, but it just happened for a 4th time right after the update finished.
+4. Apple Diagnostics: I ran the on-board Apple Diagnostics (holding power on boot), and it passed completely with zero errors found.
+
+My standard Apple Limited Warranty is expiring in exactly one month, and I have an appointment booked at the Genius Bar this Friday.
+
+Since the core system passes diagnostics and outputs fine to an external monitor, does anyone know exactly what hardware component or specific fault causes this behavior upon waking? Trying to gather as much info as possible before I head into the service center.
+
+Thanks!",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/applehelp/comments/1udmdnt/m4_pro_macbook_pro_screen_stays_black_after_deep/
+B7-097,Wordpress,Wordpress auto-updated for the first time despite auto-update not being enabled?,"Hello, 
+
+I need your help. A suddenly got a new core wordpress update, despite it not being enabled in the Updates Dashboard. This has never happened before. 
+
+My thought was some sort of security update, since they can't be disabled in Update Dashboard, but I am not sure. Activity Log and Wordfence log seem to be without a problem.
+
+As I understand, this can happen, I did not check wpconfig for AUTOMATIC\_UPDATER\_DISABLED yet. So, is this a thing that just happens? 
+
+Thank you very much","[1:reply] Yep, this can happen. Even if auto-updates are disabled in the dashboard, WordPress automatically applies critical security updates by default. It doesn’t mean your settings are broken, it’s just to protect your site. If you want full control, you can define AUTOMATIC\_UPDATER\_…
+[2:reply] Yes. This is a thing that happens. It's happened to me several times. Despite the fact that I deactivated it.
+[3:reply] Yes, WordPress sometimes forces minor or security updates even if auto-updates are off. Check wp-config to confirm, but it’s normal and safe.
+[4:reply] WordPress 6.8.3 was just released, and it is a security update. 
+
+At the same time, older versions got security backports as well for the same problems. 
+
+It's a relatively minor security update, but it is a security update. And yes, those override any settings in the dashboard…
+[5:reply] WordPress core updates aren’t applied automatically unless you’ve turned them on somewhere.  
+The only places that can trigger a “silent” update are:
+
+1. **wp‑config.php** – the constants `AUTOMATIC_UPDATER_DISABLED` or `WP_AUTO_UPDATE_CORE`.// Prevent any core auto‑updates defi…",title_body_comments,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/Wordpress/comments/1nx29vh/wordpress_autoupdated_for_the_first_time_despite/
+B7-098,homeassistant,Config not found,"Every so often, my instance bricks itself. I notice it's not functioning properly. I go to the app/browser to troubleshoot and I start to get errors. Pages don't want to load, can't access settings, dashboards, devices, etc. When I'm able to, I try to reboot the whole system from the 3 dots on the settings page. That is usually when I get a ""can't find the config, check logs for details"" error. Looking at the logs doesn't help, just says it can't find the config file which is odd, cause I see the file via samba share. I usually ignore the error and reboot anyway (or unplug and plug the system if I can't access the settings page) and let it do its thing. After a couple mins, the system is back up and running as if nothing was ever wrong.
+
+This has been happening for a few months every couple of weeks, so I don't think an update will fix it.
+
+
+My setup:
+
+HAOS Core 2026.4.1
+
+Supervisor 2026.03.2
+
+Pi 5 8GB w/ official Pi power supply
+
+Crucial P3 PCIe Gen3 NVMe 500GB SSD
+
+No SD card
+
+Argon NEO 5 M.2 NVME PCIE Case
+
+Hardwired with static IP
+
+
+Any ideas as to what's wrong?",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/homeassistant/comments/1sed5x4/config_not_found/
+B7-099,firefox,Anybody else get the Firefox exe directly on the desktop after the 145 update? Normally it is a shortcut.,,"[1:reply] Yes, Release notes for 145.0 explain why.
+
+
+For most Windows users, the existing desktop shortcut for launching Firefox has been replaced with the desktop launcher, a small program that will launch Firefox if it is installed, but if it is not installed will prompt the user to in…
+[2:reply] See the last entry in the new section of the release notes:
+
+[https://www.firefox.com/en-US/firefox/145.0/releasenotes/](https://www.firefox.com/en-US/firefox/145.0/releasenotes/)
+[3:reply] That sounds like a very specific use case. I think it's a solution for a non existing problem, but whatever.
+[4:reply] I truly hope this is not the start of a new awful convention
+[5:reply] that's actually a new feature, instead of doing a lnk shortcut it uses an exe that launches Firefox, installs it if firefox isn't installed and the best feature of all, no shortcut little icon",title_plus_comments,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/firefox/comments/1oum7kl/anybody_else_get_the_firefox_exe_directly_on_the/
+B7-100,immich,This was driving me crazy! I have 2 servers that felt broken smh,,"[1:reply] Huge relief here - just set up my first server Monday night and was banging my head against the wall trying to figure out why it wasn’t working today :-)
+At least I know how to view the logs now…
+[2:reply] This is probably the issue where UI takes forever to load in some scenarios?
+[3:reply] Golden rule: If it works, don't touch it. If you need to update, wait for a few weeks until others test the release.
+
+Thank you, dear community of pathfinders, for existing and taking all the risks 😄
+[4:OP] Essentially the new update pop up for 2.3.0 made the webui loop. So you couldn't access your Immich webui. You have to update to 2.3.1 to fix the issue.
+[5:reply] Why can’t I understand what he means? What is the actual issue for servers on 2.2.3?",title_plus_comments,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/immich/comments/1p1t93s/this_was_driving_me_crazy_i_have_2_servers_that/

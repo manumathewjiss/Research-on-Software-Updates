@@ -1,0 +1,10 @@
+# Cursor follow-up: validation and label-review preparation
+
+Read `SENIOR_REVIEW.md`, `PROTOCOL.md`, `DATA_AUDIT.md`, and the saved results. Preserve all experiment_v1 inputs and results. Write follow-up work under `phase3/experiment_v1/followup/`. Do not rerun, overwrite, retune, or rescore the reserved test.
+
+1. Prepare a simple review table for Manu containing the 48 records in `results/label_quality_flags.jsonl` plus the three conflicting exact-text records `1wxl2u9`, `1wxl3ma`, `1wxl35m`. Deduplicate IDs. Include ID, title, body, existing scope/type label, flag reason, and blank columns for `keep_or_change`, `new_label`, `reason`. Do not fill human decisions. Link back to the original source record. Keep the material easy to read; do not change source labels.
+2. Audit exact and near-duplicate groups **within development**. Document normalization and grouping thresholds, count groups/rows and conflicting labels, and save IDs. Treat similarity as a review flag, not automatically the same discussion. Verify group construction from text only, without using target labels.
+3. Recalculate **development-only** out-of-fold metrics for the already chosen title+body TF-IDF logistic regression (`C=4`, threshold 0.588 or the exact saved threshold) with groups held together across folds. Fit vectorization inside each training fold. Use the same grouped folds for majority and fixed keyword baselines. Report macro-F1, both class F1s, confusion matrices, source/text-availability breakdowns, and the difference from the original row-wise validation. This is a sensitivity analysis, not a fresh selection round.
+4. Clearly explain that the original reserved-test score remains the v1 result and is not rerun. If corrected development metrics fall substantially, recommend a new untouched test set for a future confirmatory study. Do not claim that the follow-up repaired the reserved test or that the 48 flags were human reviewed.
+
+Deliver `followup/LABEL_REVIEW.*`, `followup/GROUP_AUDIT.md`, `followup/GROUPED_VALIDATION.md`, and reproducible code. End with a short list of exact decisions Manu must make.

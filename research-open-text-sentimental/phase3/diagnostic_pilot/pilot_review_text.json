@@ -1,0 +1,252 @@
+[
+  {
+    "pilot_id": "D20261007-001",
+    "title": "Qwen edit images looking like this since updating Comfy",
+    "post_body": ""
+  },
+  {
+    "pilot_id": "D20261007-002",
+    "title": "iOS app won’t show content",
+    "post_body": "Do I have to update? I’m having update problems, otherwise it runs, so I really have to? Or is or possibly not working because something else?"
+  },
+  {
+    "pilot_id": "D20261007-003",
+    "title": "Vscode very laggy after update 2025/07/22",
+    "post_body": ""
+  },
+  {
+    "pilot_id": "D20261007-004",
+    "title": "Logitech MX mouse volume buttons delayed after Mac wakes from sleep (used to be instant)",
+    "post_body": "Not sure if this is a macOS issue or Logitech issue.\n\nYesterday:\n\n* When my Macbook wakes from sleep and I unlock it,\n* Pressing volume down on my Logitech MX mouse works instantly\n\nNow (after macOS update + restart):\n\n* After waking and unlocking,\n* First press on volume button does nothing\n* After a few seconds, pressing again works normally\n\nSo it feels like there's a delay before the button mapping becomes active again.\n\nNotes:\n\n* Mouse itself is already connected and working (cursor moves immediately)\n* Only the custom button (volume) is delayed\n* Using Logi Options+\n* Mouse is from the MX series (e.g. MX Master / MX Anywhere)\n\nWhat I’ve already tried:\n\n* Reinstalled and Updated Logi Options+\n* Restarted Mac\n* Checked and re-enabled Accessibility + Input Monitoring permissions\n* Confirmed Logi Options+ is running in background / login items\n\nHas anyone else experienced this after a macOS update or found a fix?\n\nWould appreciate any insights 🙏"
+  },
+  {
+    "pilot_id": "D20261007-005",
+    "title": "Computer not sleeping?",
+    "post_body": "I've been using Fedora KDE since 44 dropped. Had a few issues but I worked them out. After recent update however my computer won't sleep. I can shut it down but when I try sleep, the screen goes blank but tower won't shut down. After several seconds the screen comes back to system login screen. Has anyone heard of this? Not sure where to start troubleshooting."
+  },
+  {
+    "pilot_id": "D20261007-006",
+    "title": "Print to PDF no longer works in headless mode with edge 141 ( post 2 Oct)",
+    "post_body": ""
+  },
+  {
+    "pilot_id": "D20261007-007",
+    "title": "Everything is logged out after update",
+    "post_body": ""
+  },
+  {
+    "pilot_id": "D20261007-008",
+    "title": "[Help] only corner of monitor displaying workspace",
+    "post_body": "After updating kde fedora one of my monitors is displaying very off center. Note where the cursor is in relation to right click. This seems to correlate with one specific port on my graphics card (5070) as swapping around cables swaps which monitor has the issue. This issue doesn't occur on the login/boot screen, or when I boot into windows. Changing monitor resolution/orientation doesn't fix it either. Any advice would be greatly appreciated."
+  },
+  {
+    "pilot_id": "D20261007-009",
+    "title": "Shortcuts",
+    "post_body": "Has anyone else run into this issue? Ever since iOS 26.3, when you update to a newer version of shortcut, it still gives you the choice to replace the prior version, but when you choose that option it downloads the newest version, but doesn’t override the current version. So in turn you have two versions of the same shortcut."
+  },
+  {
+    "pilot_id": "D20261007-010",
+    "title": "FF 145 title bar not displayed (Windows)",
+    "post_body": "Firefox 145 (release version, not beta/developer) is available. Upon upgrading, I noticed that the title bar (at least in Windows) is gone. It's also annoying not to have window controls (minimize, resize/restore, close) available.\n\nPeople who don't display the title bar by default won't (I think) see a problem. For people who (like me) do, there is a fix (or two).\n\n 1. You can customize the toolbar (right-click in the tab bar or menu bar (if you have it enabled) to turn off the title bar. The window controls will appear in the tab bar (or menu bar, if that's enabled). Re-enabling the title bar restores the title bar, but only for the current session.\n 2. Turn off the title bar and leave it off (at least until the bug is patched).\n\nHTH"
+  },
+  {
+    "pilot_id": "D20261007-011",
+    "title": "windows 10 update turned dell laptop into a brick",
+    "post_body": "Last security update on Jan 13th broke my laptop.\n\nEvery program keeps freezing and doesn't do anything. Even when I open task manager it may run for a minute but soon it will freeze, and can't even end task.\n\nOnly thing that is working is my browser. Yesterday I managed to reinstall windows using a USB and it was working again. While i was away, it forced an update and once again the same issues arise. \n\nlaptop is too old to install 11, and going to try and reinstall windows again. \n\nThere a way  I can turn off the windows 10 update before this happens again? Don't know if there is a patch to address this soon.\n\nDell inspiron 15 7559"
+  },
+  {
+    "pilot_id": "D20261007-012",
+    "title": "OrcaSlicer crashes at specifically 80% after newest update?",
+    "post_body": "Hello, everyone. For full clarification, my computer is running plain Arch Linux on KDE/Wayland using a GTX 1070, running the custom Nvidia-580xx drivers installed via the AUR using Paru (sorry, that's kind of a mouthful). \n\nI do 3D printing and use OrcaSlicer as my slicing program, and everything was working perfectly fine on this setup, but a few days ago, I upgraded Orca to the latest version. Everything still works properly, there are no signs of stuttering while using it, but whenever I go to slice an object, it always crashes at specifically 80% to the point where it briefly stalls my entire computer.\n\nI've already tried another full system upgrade, I've tried reinstalling the program, I've made sure I'm not slicing corrupt or overly complex objects, and I've tried using other slicers (Cura, specifically), and they don't have any issues like this. For that, I wanted to ask if anyone had any recommendations on what I can try or check to repair this? \n\nAlternatively, I kind of feel like this may have been a bad installation or version update, so would it be possible to downgrade to the previous version? \n\nThank you in advance!!"
+  },
+  {
+    "pilot_id": "D20261007-013",
+    "title": "Anyone else having Edge not switching up to 1080p on netflix?",
+    "post_body": "Been watching netflix on Edge - Windows 10 for years, without issues. Always worked 1080p. Last time i used it was 6 weeks ago, wanted to watch sg yesterday and it's stuck on 720p. Same today. No config, hardware, or settings were changed, just the usual windows and edge updates. Wondering if anyone had a similar issue recently?"
+  },
+  {
+    "pilot_id": "D20261007-014",
+    "title": "Wordpress fails to update - Synology NAS",
+    "post_body": ""
+  },
+  {
+    "pilot_id": "D20261007-015",
+    "title": "How to recover the tab groups after the update",
+    "post_body": "I had grouped tabs before the update today and now they’re gone. The only thing I can recover was the recent tabs I was using. They were literally there when I booted up the laptop and now it’s gone."
+  },
+  {
+    "pilot_id": "D20261007-016",
+    "title": "Can't access my WireGuard tunnel anymore after updating Flint 2 firmware",
+    "post_body": "Hi everyone,\n\nI'm having some problems with my Wireguard tunnel after updating Flint's 2 firmware to 4.11.0.\n\nI have a UGREEN 4800 Plus NAS at home where I run Docker and I share my NAS' drive through SMB . At my business I use a Flint 2 router and I have installed the WireGuard app on a Mac Mini M4 so I can map the NAS' drive on my Mac.\n\nIt has been working flawlessly for months until around 5-10 days ago, when I believe I updated the Flint 2 firmware, and now WireGuard stopped working on any device that connects to my business wifi. The client shows the tunnel as active, but wg-easy shows no handshake and no bytes in or out. SMB and Docker services are unreachable.\n\nI'm getting the same result on an iPhone, but if I turn off wifi and switch to 4G the tunnel works perfectly again. If I switch back to the Flint's 2 wifi it goes back to unreachable.  \nToday I also noticed that WhatsApp media won't download on the business WiFi, while WhatsApp and normal websites work (I mean, I can visit websites and I can chat through WhatsApp, but I can't download files from WhatsApp).\n\nI'm pretty sure something changed after updating to the newest firmware but I can't figure out what is it and how to get it working again. Theoretically the router's configuration is the same as before, but somehow some things are not working as they did before. If I'm not mistaken I was using 4.8.99 beta before, but I'm not 100% sure.\n\nAny insights or any help to make it work again?\n\nThank you so much in advance!"
+  },
+  {
+    "pilot_id": "D20261007-017",
+    "title": "Nead help in mongoose crasing again and again",
+    "post_body": "I recently update to latest version of ubuntu and am getting issue with mongoose actually i start the mongose and then after some time it automatically stop and it creating problem so i havr to connect to db again and again please anyone help"
+  },
+  {
+    "pilot_id": "D20261007-018",
+    "title": "Chrome tab error and cant open",
+    "post_body": "**\"For some reason, after updating Chrome to the latest version, when I open Chrome and use it, after a short while I can’t open any new tabs. I’ve tried disabling all extensions but the issue still happens. It’s like the browser loses connection and can’t open new tabs, even though my internet is completely normal. I can fix it by closing and reopening Chrome, but it’s really annoying and inconvenient. Does anyone know how to fix this?\"**"
+  },
+  {
+    "pilot_id": "D20261007-019",
+    "title": "Upgraded Play Console from Individual to Organization, but Payments Profile is still stuck on Individual. How do I fix this for corporate tax?",
+    "post_body": "Hi everyone,\n\nI recently upgraded our Google Play Developer Account from an **Individual** account to an **Organization** account.\n\nWe went through the entire rigorous verification process. Our company is **fully verified** by Google. All our company documents, registry information, DUNS number, and organization details have passed checks and are 100% verified. Under \"Developer account\" in Play Console, the account type officially shows as **Organization** with our corporate legal details.\n\nHowever, we ran into a major block when trying to submit our US Tax Info (W-8BEN-E) for corporate tax/withholding purposes:\n\n1. The linked **Google Payments Profile** is still stuck as an **Individual** profile under my personal name (which was created when we first set up the account as individual).\n2. Because the payments profile is of type \"Individual\", the tax form is asking me to verify my personal name and only gives me the option to submit a personal **W-8BEN** form.\n3. We absolutely need all app payouts to go to our company bank account and be filed under our company's corporate tax ID (Foreign TIN / PAN) as company income, not personal income.\n4. The Play Console settings do not allow us to edit the account type of the payments profile or unlink/switch the payments profile ourselves since it's already verified.\n\n**Important:** Creating a new developer account is NOT an option for us. We have active apps/users and absolutely need to use this specific account.\n\nSeriously, if our company identity is 100% verified as an Organization, why does Google keep the linked payments profile locked as an Individual? Why does Google even allow you to upgrade your developer account type if it leaves you in this broken, half-migrated tax nightmare?\n\nHas anyone gone through this exact scenario after upgrading their account?\n\n* Did you have to contact Google Play Support to manually unlink the individual payments profile? If so, how long did it take them to resolve?\n* Is there any self-service workaround in the payments center that doesn't involve creating a brand new developer account?\n\nAny advice or experience with this would be highly appreciated. Thanks!"
+  },
+  {
+    "pilot_id": "D20261007-020",
+    "title": "Did something break with the most recent Daisy UI?",
+    "post_body": "so I just made a completely fresh next js app, its got the latest versions of tailwind, daisy ui, and scss. thats it.\n\nthe homepage is a blank page, and I got rid of all the stuff that nextjs has on the default install. \n\nI go to make a button, and even though the theme is supposed to have rounded corners, they are shark 90s with an inset border. what on earth did I do wrong??\n\nthis is literally all im doing btw\n\nhttps://preview.redd.it/dzxnwpqezbtf1.png?width=678&amp;format=png&amp;auto=webp&amp;s=dc5c180882b72ca7b49ec7f2c0286c50d7f806ae"
+  },
+  {
+    "pilot_id": "D20261007-021",
+    "title": "Debian won’t boot",
+    "post_body": "this started happening right after I was installing updates. I am pretty new to Linux and have no clue on how to fix this"
+  },
+  {
+    "pilot_id": "D20261007-022",
+    "title": "OpenClaw No Longer Executes Remote Admin Tasks After Update – Stuck in Permission Loop",
+    "post_body": "I had set up OpenClaw as an admin agent on a Pi 5, from where it could manage a web server on another Pi 5. That worked great and was actually my main use case for OpenClaw.\n\nNow I recently ran into OAuth issues with OpenAI again and updated to the latest version—and since then it just doesn’t do it anymore. Instead, I’m stuck in endless discussions with the agent about permissions, and I simply can’t get it to perform the job the way it used to.\n\nDo you have any ideas what might have changed? Or is there an alternative agent for the Pi 5 that I could use for this?"
+  },
+  {
+    "pilot_id": "D20261007-023",
+    "title": "Browser Suddenly Doesn't Support Enhanced Streaming",
+    "post_body": "I just started having this issue today. Using the same laptop and browser (Chrome) that I have been using for over a year, and when I pulled up my site today I got the:\n\n&gt;Unable to Stream: Your browser doesn't support Enhanced encoding. Please use mobile app or change Encoding settings.\n\nIs anyone aware of a breaking change that would have caused this?\n\nEdit: I do see that my cameras updated to 5.2.84 yesterday, but am not seeing something in the release notes that points to the issue."
+  },
+  {
+    "pilot_id": "D20261007-024",
+    "title": "Screenshots are very dark for some reason",
+    "post_body": "I just updated to ios26 (not beta) and my screenshots of pictures I take are extremely dark, I have HDR on and went through almost everything. Its weird cause if I screenshot the screenshot its not dark anymore, so it seems like screenshotting the iphone taken picture corrupts it somehow"
+  },
+  {
+    "pilot_id": "D20261007-025",
+    "title": "Upgrading to PHP 8.3 causing pages to disappear?",
+    "post_body": ""
+  },
+  {
+    "pilot_id": "D20261007-026",
+    "title": "The 'define' option in Google Chrome disappeared after the last update and I can't find the settings for it.",
+    "post_body": "I really liked having that option to highlight a word in an article, click define, and get the definition. The thing is, I don't know the name of the secondary app that opens when you choose 'define' from Chrome so maybe that's where I'm missing it? I've Googled it seven different ways and it just says if it's not there on the initial pop up, click the three dots, but it's not there either. Can anyone help me figure out how to get this feature back, please?"
+  },
+  {
+    "pilot_id": "D20261007-027",
+    "title": "2.0 version timeline?",
+    "post_body": "Hi, got this message after updating. Cant seem to find any timeline settings under advanced. Can anyone help?"
+  },
+  {
+    "pilot_id": "D20261007-028",
+    "title": "do they just genuinely hate sidebar + tab group users? (lost all my tab groups)",
+    "post_body": "woke up this morning to find all my tab groups gone on both my work laptop and home computer.\n\nthis has cost me maybe an hour's worth of work just trying to get them back.\n\n  \nI basically had my life in there, all the tabs that I needed that I could open up without a worry in the world. Should I have backed them up? Probably, but this should never have been a worry in the first place. I love Firefox, I love the privacy and ad blockers, but this genuinely makes me want to go back to Chrome because I would rather be tracked and bombarded with ads than feel this helpless.\n\nThere were links in those tab groups that I haven't opened in weeks and can't find without a hassle, that I didn't need until I urgently needed them - gone. My day to day workflow - gone. Now when I come home, all the links and websites I often use when I want to relax on my home PC - gone.\n\nThe worst part is \\*I can't even find where to open tab groups unless I swap to horizontal tab mode.\\*\n\nHorizontal tabs? There's that downwards \"v\" that opens \\*Recent Tab Groups\\*. I can't even see the full list anymore. But swap to Sidebar/Vertical tabs,  I don't even get that. The button vanishes. There used to be one on the top right, but that doesn't work anymore.\n\nWhat in the absolute shit is this clusterfuck of a UI update? I don't even mind the UI changes, but you messed with my layout. My tabs are gone. My trust is gone. I can't even put into words the helplessness I felt when I couldn't even figure out how to open my tab groups. I've come to depend on it, and now that they're gone, I just cannot function. I'm really not even being dramatic here! I depend on those obscure tabs being a click away to do my job, and to rebuild those groups is going to take WEEKS, just to find all the ones I lost because I don't even remember half of them.\n\nLuckily I could recover some of them from sessionstore-backups and the wonderful Jefferson Scher's Session Scrounger, but it's an old backup.\n\n  \nI never once considered moving away from Firefox but this is so devastating that I just might.\n\n  \nAnybody who can help me find the damn tab group menu, or know a trick to recovering them?"
+  },
+  {
+    "pilot_id": "D20261007-029",
+    "title": "UPS Worldship error \"Internal Application Error\"",
+    "post_body": "We are noticing on several UPS WorldShip stations \"Internal Application Error\" after applying the latest update. These are all stations running V29 (2026) and just applied the latest update. Anyone else having this issue?"
+  },
+  {
+    "pilot_id": "D20261007-030",
+    "title": "Constantly mistyping and getting autocorrected (badly) on iOS 26",
+    "post_body": "There is something up with this version, since updating my texting has become atrocious and I have to edit and retype constantly.\n\nIt can't just be me, something feels way off. Is there anything I can do to fix it? Anyone else experiencing this?"
+  },
+  {
+    "pilot_id": "D20261007-031",
+    "title": "Why isn't Firefox distributed as a Flatpak?",
+    "post_body": "Since the philosophy behind Fedora Atomic is to keep only the essentials in the base system using rpm-ostree, why is Firefox installed by default instead of being provided as a Flatpak?\n\nI don't like the Fedora-packaged version of Firefox, mainly because the fedora.org start page bug causes my custom settings to be reset after some updates.\n\nWhat is the difference between removing the package with rpm-ostree uninstall and using rpm-ostree override? \n\nWhich approach is recommended if I want to remove the rpm-ostree version completely, as if it had never been installed?"
+  },
+  {
+    "pilot_id": "D20261007-032",
+    "title": "PSA: Recompiling ODEX caches after updates can improve the performance by a lot",
+    "post_body": "Long story short, my Galaxy S21+ went through 4 major system updates from Android 11 to Android 15. The system itself runs some basic cache rebuilding tasks after updates, during the \"optimizing apps\" screen, however, this doesn't apply to all of the installed apps. This can result in old ODEX caches being used even after major version upgrades. More info on what ODEX is available here: \n\n[https://source.android.com/docs/core/ota/ab/ab\\_faqs#what-is-system\\_other](https://source.android.com/docs/core/ota/ab/ab_faqs#what-is-system_other)\n\n[https://source.android.com/docs/core/runtime/dex-format](https://source.android.com/docs/core/runtime/dex-format)\n\nSo, I gave it a try to rebuild them manually and in my case the changes are noticeable in app launch times and overall system responsiveness.\n\n  \n**What you need:**\n\n\\- [ADB platform tools](https://developer.android.com/tools/releases/platform-tools) set up\n\n\\- USB debugging enabled\n\n  \nOnce that's done, running the following command in a command prompt / terminal will force the system to rebuild the ODEX caches for every single installed app. \n\n`adb shell pm compile -a -f -m speed-profile`\n\n  \n**Note:** This is going to take a long time depending on the number of installed apps, the specifications of your phone, etc. **Be patient!** This is likely the reason why it's not executed by default after system upgrades.\n\nAfter it's done, reboot your phone and enjoy! :)"
+  },
+  {
+    "pilot_id": "D20261007-033",
+    "title": "Ubuntu 26.04 App Center problem",
+    "post_body": "https://preview.redd.it/p3u0zf9pucxg1.png?width=2294&amp;format=png&amp;auto=webp&amp;s=730edb3ca7fb214c85e047033dc7a669f8854ac2\n\nAfter fresh installing Ubuntu 26.04, when I open the App Center, it keeps as in the screen capture (yes, that black rectangle is supposed to be the App Center). At first, after that, the network adapter used to lose connection, but after installing the r8168-dkms, the internet conection problem was gone. I still have the black window when I open the App center and then,  if I open anything related to video (like youtube) it becomes laggy or unresponsive. \n\nOther thing to keep in mind is that, when I tried to play The Witcher 3 from steam, graphics where laggy in the intro screen, and no graphics, only menu boxes in the menu screen. Sometimes the game started well but the game crashed when loading a savegame. My solution was changing to GE-PROTON (which works lika a charm). \n\nSo my thoughts is that it could be due a something with the graphics driver. I own an RX6500XT 4GB. \n\nIs there any solution for this? Or maybe I'll have to wait to get an update that corrects this kind of problems?"
+  },
+  {
+    "pilot_id": "D20261007-034",
+    "title": "Chrome unresponsive when using after Win 11 update",
+    "post_body": ""
+  },
+  {
+    "pilot_id": "D20261007-035",
+    "title": "Latest update broke my Wifi",
+    "post_body": "Has anyone else had problem with the latest update to Unifi and Network application? \n\nI had a perfectly good running setup with a Cloud Gateway and 3 AC lite APs, after the update there was no wifi at all. All APs simply had status of disconnected.\n\nOnly thing that changed was an auto update in the middle of the night."
+  },
+  {
+    "pilot_id": "D20261007-036",
+    "title": "No iMessage notifications",
+    "post_body": "After I updated to IOS 27, I don’t get any iMessage notifications. Even thought silent mode is off, and dnd is off, I still don’t get them. Anyone know why?"
+  },
+  {
+    "pilot_id": "D20261007-037",
+    "title": "Failing to load 50 bookmarks at once",
+    "post_body": "I have a bookmarks folder which used to have 30+ links and i sometimes would select to open all of them at once. Now it is around 50. 3-4 months ago it would work. But now it fails to load half of them with that new error page with a fox image and saying Server not found. When i try again it of course loads the page. Did i hit some limit of simultaneous tabs loading that i don't know about? Or is it some new issue after the latest updates?"
+  },
+  {
+    "pilot_id": "D20261007-038",
+    "title": "fedora failing to boot after unlocking disk",
+    "post_body": "I dualbooted fedora kde and windows 11 onto my computer, i have been using both of them fine with almost no issues for about a two or three months now. recently i saw that there was a new update for gnome and many other applications, i installed the update and it told me in order to finish the update it needed the computer to restart. I restarted my computer, unlocked the disk encryption, waited for around 4-5 minutes on the fedora loading screen. after this it said „warning: /dev/disk/by-uuid/etc does not exist”. I have tried to run an older version of the kernel, i tried to identify the drive with blkid (it was not identified). Windows and fedora are both dualbooted to the same drive but windows does not have an issue, so i figure it is not a physical issue with the drive, would anyone have any advice or ideas on what to do next?\n\nupdate: solved the issue, there was an issue regenerating the intramfs, my camera, and an issue with the nvidia drivers not downloading correctly"
+  },
+  {
+    "pilot_id": "D20261007-039",
+    "title": "Just did ios 26.2.1 software update on my iphone 16, and now I get this, anyone know a fix?",
+    "post_body": ""
+  },
+  {
+    "pilot_id": "D20261007-040",
+    "title": "RDP Plus: “The number of connections to this computer is limited”",
+    "post_body": "&amp;#x200B;\n\nI’ve tried pretty much every fix I could find online — changing the GPO to Unlimited, Not Configured, and Disabled, as well as changing the relevant registry settings, but nothing has worked.\n\nI’m only trying to have one RDP session to a user on my own computer. It worked fine for about a week or two and suddenly stopped working after I updated my laptop today."
+  },
+  {
+    "pilot_id": "D20261007-041",
+    "title": "Zooz 800 USB Dongle Failure",
+    "post_body": "At my wits end trying to troubleshoot what's wrong. Updated my HA firmware yesterday and all of my z Wave connections went unavailable. Repairing sensors has been inconsistent at best, and I'm getting dropped commands even at close range. \n\nThe little blue LED on the USB stick is gone as well, won't light up under any circumstance. Software is up to date, I've power cycled everything. Is this toast and causing all my issues?\n\nThanks for the help"
+  },
+  {
+    "pilot_id": "D20261007-042",
+    "title": "Can't upgrade to 44",
+    "post_body": "I'm on Fedora KDE 43, and I wanna update to 44, but I can't see any option to do so in the discover app. It says my system is up to date, even tho the system info shows im one fedora 43. Anybody know what's up?"
+  },
+  {
+    "pilot_id": "D20261007-043",
+    "title": "Anyone been seeing problems with services starting on boot Windows 2016 recently?",
+    "post_body": "Howdy,\n\nAfter the February or March Windows Update cycle on Windows 2016 I noticed that services have been failing to automatically start after reboot. Has anyone else been experiencing this or am I just lucky? I haven't really had time to dig into it and mostly just have to login to the server (after Windows updates) and restart everything manually. I'm going to start digging into it now but I just wanted to ask if this is something anybody else has seen? Everything had been working flawlessly up until a month or two ago.\n\nI also noticed that the Windows Search Service is crashing constantly beginning on March 12th after the March 10 updates."
+  },
+  {
+    "pilot_id": "D20261007-044",
+    "title": "Let's scooby doo this!",
+    "post_body": "Hello! I've been playing this game on my macbook air M1 2020, and I've noticed periodic lag after upgrading from Sequoia to Tahoe. I'm near certain this lag is due to me upgrading to Tahoe.\n\nBefore you guys point of Wi-Fi, I connected to an xfinity hotspot and I got the exact same pattern. Yes, Wi-Fi could be the issue, but I doubt it. This pattern never happened when I was Sequoia and started immediately after going to Tahoe. If I was getting weird lag, I would just refresh and it would be fixed. They're reasons why I had to upgrade to Tahoe though, so downgrading isn't an option for me. Do any of you guys have solutions?\n\nI didn't really do much to solve the issue because I have no clue what to do and what could be the exact problem (I'm suspecting Tahoe). I refreshed a lot of times and it still shows this pattern (3-8 seconds of stable 36 ping, then slowly builds up to 125 then drops in the matter of 1-3 seconds).\n\nYou may be wondering how I have 530 fps when the M1's refresh rate is 60 Hz. I run the game on a client by running this on my terminal:\n\nopen -a \"HaxBall Client\" --args --disable-frame-rate-limit\n\nDisabling the frame rate drains battery faster (I believe). Disabling frame rate might seem like the issue, but please note that it was running flawlessly on Sequoia.\n\nPlease help y'all I'm a noob when it comes to tech. Feel free to ask questions and I'll try answering to my best ability."
+  },
+  {
+    "pilot_id": "D20261007-045",
+    "title": "Updating on Unraid",
+    "post_body": "I installed immich a while ago with spaceinvaders tutorial. Installation happend with the community apps on unraid. That means I am stuck with Version 1.142.1 and can´t update to a newer version. I really don´t want to miss the new features.\n\nWhat´s the best way to get the newest version? Is a complete clean installation necessary?"
+  },
+  {
+    "pilot_id": "D20261007-046",
+    "title": "Firefox crashed twice in 1h since last update",
+    "post_body": "Anyone having the same issue ? Nothing special browsing reddit with only 2 tabs opened then freeze then crash"
+  },
+  {
+    "pilot_id": "D20261007-047",
+    "title": "Anyone else still having Face ID issues after 27.0.1?",
+    "post_body": "I am using a 17 Pro Max which wasn’t supposed to be one of the affected devices anyways. Since I updated to iOS 27 Face ID randomly freezes. It works about 50% of the time. \n\nWas excited for 27.0.1 but it didn’t fix anything for me."
+  },
+  {
+    "pilot_id": "D20261007-048",
+    "title": "Chromebook not updating to the new update that fixes CVE-2025-6554",
+    "post_body": ""
+  },
+  {
+    "pilot_id": "D20261007-049",
+    "title": "Nodes are not joining after upgrading eks to v1.33",
+    "post_body": ""
+  },
+  {
+    "pilot_id": "D20261007-050",
+    "title": "Chrome is down. Several websites are unreachable such as AI websites and almost every other including educational services and several social platforms like reddit. Only YouTube is accessible and X is accessible but acts like no internet. I guess it happened after the recent update.",
+    "post_body": "https://preview.redd.it/sjih97wbr08h1.png?width=2406&amp;format=png&amp;auto=webp&amp;s=525bfddb65d9eaf5eee363e13eea63ecda3f397a"
+  }
+]

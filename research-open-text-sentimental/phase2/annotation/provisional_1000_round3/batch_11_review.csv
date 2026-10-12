@@ -1,0 +1,1749 @@
+﻿review_id,subreddit,title,post_body,discussion_context,text_availability,proposed_about_software,proposed_update_related,proposed_discussion_type,proposed_confidence,proposed_reason,decision,final_about_software,final_update_related,final_discussion_type,reviewer_note,reviewed_at,source_url
+B11-001,Nest,E448,"So I updated my old thermostat to the Nest 4th Generation and everything was working fine, until I started to randomly get Error 448 and the nest would lose power for a minute before turning back on.
+
+Anyone have any recommendations to remedy this?
+Heater works and Blows hot air out, turns off once temp is reached.",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/Nest/comments/1pl4lpp/e448/
+B11-002,Fedora,Discord broke from RPM Fusion,So I noticed discord broke for me when i updated today. Said the bin file was missing. So went looking in the bin folder and seemed to be changed from Discord to discord. I had to manually change the icon to point to usr/bin/discord not usr/bin/Discord. Was not sure if other experienced so figured i would post how to fix.,"[1:reply] I'm on Fedora 44 and I'm not experiencing this problem. I have the little 'd' binary.
+[2:reply] I have always used the discord flatpak.
+[3:OP] It was a quick fix i only posted in case others experienced. I may look at vencord though
+[4:reply] My discord working fine after update. Try restarting your Unit.
+[5:reply] Discord on RPM Fusion has changed and now uses the new Discord updater. Try removing and reinstalling Discord. If that doesn't work, you may need to remove the old files manually.",title_body_comments,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/Fedora/comments/1uyn078/discord_broke_from_rpm_fusion/
+B11-003,applehelp,"A2991 - M3 Stuck in Loading Startup Option Loop; DFU Revive Failed with Error 4042, now the laptop is fully unresponsive and the MagSafe cable is flashing green","Hi, my laptop has been stuck in a startup options loop and despite me trying all of the following, there has been no success in resolving this issue:
+
+\- Trying recovery (Sequoia does not load onto the device to start up; it installs but the start up options loop still happens despite me clicking on Mactintosh HD to boot into the OS - clicking the continue button just causes a spinner to show then nothing happens.
+
+\- Safe mode does not boot
+
+\- I tried a DFU revive using Finder/Apple Configurator and despite the ”Mac Software Update” downloads, the DFU failed after about 1 hr with Error code 4042.
+
+\- It failed shortly after I got a broadcast message in the terminal: amai: Ace3UARPExternalDFUStagingComplete.
+
+\- Now after this failure, I cannot get the Macbook into DFU again and the MagSafe cable is flashing green (1 sec green on then off then on again in a loop)
+
+\- I tried discharging the battery by leaving the laptop unplugged for 8+ hours to no success, the MagSafe cable still does the same behavior and the laptop cannot enter DFU.
+
+I took it to the Apple Authorized Repair and Service center and they could not diagnose the issue or do diagnosis because the laptop would not turn on.
+
+Before the DFU Revive faile, the laptop was turning on.
+
+This machine is out of Apple warranty.
+
+Any pointers or help would be great, thank you",,title_and_body,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/applehelp/comments/1vrs9t1/a2991_m3_stuck_in_loading_startup_option_loop_dfu/
+B11-004,androiddev,"Mi 11X failing Play Integrity after factory reset (No root, stock ROM)","Hi everyone,
+
+I'm facing an issue with my Mi 11X and need some help.
+
+My device is completely stock:
+
+* No root
+* No custom ROM
+* Bootloader locked
+* Running the latest HyperOS 1.0.4
+
+After doing a factory reset recently, I noticed that my banking apps started showing:  
+👉 “Your device security settings are modified”
+
+I checked the **Play Integrity API**, and it’s failing on all fronts:
+
+* Basic Integrity → Fail
+* Device Integrity → Fail
+* Strong Integrity → Fail
+
+Also, Play Store shows **""Device is not certified.""**  
+Some banking apps are even showing that my device is rooted.
+
+I’ve already tried:
+
+* Clearing data of Google Play Store, Google Play Services, and Google Services Framework
+* Removing and re-adding my Google account
+* Waiting after setup to let the device sync
+* Checking Play Protect certification (still not certified)
+
+I also found that my device is now in **EOL (End of Life)**, with no further security updates from Xiaomi, which might be causing this issue.
+
+**My questions:**
+
+1. Has anyone else faced this with the Mi 11X?
+2. Is there a way to pass Device Integrity without root or custom ROM?
+3. Is this issue caused by Xiaomi (EOL) or Google’s Play Integrity checks?
+4. Is unlocking the bootloader and using Magisk / custom ROM the only solution?
+
+I’d really appreciate any help or suggestions. Thanks in advance!  
+
+
+https://preview.redd.it/32zztoyjvorg1.png?width=691&amp;format=png&amp;auto=webp&amp;s=0df5318953bf86afbfd13e629fac497f3475e485
+
+https://preview.redd.it/qs91z5ekvorg1.png?width=691&amp;format=png&amp;auto=webp&amp;s=06a0bf806428411f713f70eaa34e423b93d4ac47",,title_and_body,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/androiddev/comments/1s5n1u1/mi_11x_failing_play_integrity_after_factory_reset/
+B11-005,truenas,25.10 RC to 25.10 Upgrade Issue - Applications Not Running Error,"https://preview.redd.it/1mh84eiej4yf1.jpg?width=1320&amp;format=pjpg&amp;auto=webp&amp;s=48d5b66595a2d0416fe52e88f2480bb8012de8e2
+
+After updating today from Goldeneye 25.10.0 RC to the final release, I was presented with this error after the first reboot. I tried rebooting the server again and the error persists. The apps are in fact running, however. Tailscale, Emby, my reverse proxy, are all working normally. 
+
+What happened and how do I fix it?",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/truenas/comments/1oji8o0/2510_rc_to_2510_upgrade_issue_applications_not/
+B11-006,ios,iOS 26.1 camera issues,Anyone else’s camera going blurry and freezing every few seconds? I am not able to take photos at all after updating my iPhone 14.,,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/ios/comments/1ovf7d3/ios_261_camera_issues/
+B11-007,MacOS,MacOS 27 Ruined my M1 Max Mac Studio,"Im a music producer, and since updating to MacOS 27, my project loading times and rendering times are quite literally 3x-4x slower than they were before. Multiple of my very important VST Plugins are completely broken and do not work/show up anymore regardless of removing and redownloading them and rescanning. I also started getting glitch and popping noises in my studio monitor speakers when recording, regardless of changing buffer size. I'm actually devastated right now. I've never ever had MacOS update anywhere near as bad as this.","[1:reply] Did you make sure that all your plug-ins were verified to work under the new OS by their developers?
+
+Also, after an update it might take a few days for the Mac to rebuild all its caches and indexes, complete backups, etc., so you might see some improvements in a few days if you…
+[2:reply] downgrade
+[3:reply] I’d suggest trying the 27.2 beta. If that doesn’t resolve your issue, then roll back to Tahoe and wait.
+
+Are the plugins written for Intel? That is going to be a problem at least by next year when Mac OS drops all support for intel compiled binaries. I’ve got a few apps where th…
+[4:reply] Genius idea to update production system without testing on a separate machine.",title_body_comments,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/MacOS/comments/1wrtf62/macos_27_ruined_my_m1_max_mac_studio/
+B11-008,vscode,Claude code superpowers broken after last update,"Hello! Today I updated VsCode, and now The suporpowers skill in claude code is not working anymore.  
+It works in CMD.  
+I dont know what to do.
+
+https://preview.redd.it/b8acspqdg8ng1.png?width=378&amp;format=png&amp;auto=webp&amp;s=7aa073853fdf9443d4790234603133a6ceb1d1e7
+
+https://preview.redd.it/y7rvd3ljg8ng1.png?width=1564&amp;format=png&amp;auto=webp&amp;s=8ef8e3b4a92db59c9aa73ca52ea9ad06e21f7bcd
+
+The AI pint me to this error in the log, but it wasnt happenning in the previous months.",,title_and_body,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/vscode/comments/1rlidki/claude_code_superpowers_broken_after_last_update/
+B11-009,react-native,Android regression 0.79.2 to 0.83.0 Background process freeze while having FG service running,"Environment React Native Info Output System: OS: Linux 6.6 Ubuntu 20.04.6 LTS (Focal Fossa) CPU: (12) x64 AMD Ryzen 5 5600 6-Core Processor Memory: 5.84 GB / 15.58 GB Shell: version: ""5.8"" path: /usr/bin/zsh Binaries: Node: version: 22.9.0 path: /home/norzqq/.nvm/versions/node/v22.9.0/bin/node Yarn: version: 1.22.22 path: /home/norzqq/.nvm/versions/node/v22.9.0/bin/yarn npm: version: 10.8.3 path: /home/norzqq/.nvm/versions/node/v22.9.0/bin/npm Watchman: Not Found SDKs: Android SDK: API Levels: - ""23"" - ""28"" - ""30"" - ""31"" - ""33"" - ""34"" - ""35"" - ""36"" Build Tools: - 28.0.3 - 30.0.2 - 30.0.3 - 31.0.0 - 33.0.0 - 34.0.0 - 35.0.0 - 36.0.0 Android NDK: Not Found IDEs: Android Studio: Not Found Languages: Java: version: 17.0.11 path: /home/norzqq/.sdkman/candidates/java/17.0.11-librca/bin/javac Ruby: version: 2.7.2 path: /home/norzqq/.rvm/rubies/ruby-2.7.2-perf/bin/ruby npmPackages: ""@react-native-community/cli"": installed: 20.0.0 wanted: 20.0.0 react: installed: 19.2.0 wanted: 19.2.0 react-native: installed: 0.83.0 wanted: 0.83.0 npmGlobalPackages: ""*react-native*"": Not Found Android: hermesEnabled: true newArchEnabled: true Things I've done to figure out my issue [x] I used upgrade-helper to do my upgrade. [x] I followed all recommended changes from 0.79.2 → 0.83.0 migration guide [x] Updated all native dependencies through Gradle [x] Ran cd android && ./gradlew clean && ./gradlew build [ ] Tested with a minimal reproducible example Upgrading Version From: React Native 0.79.2 To: React Native 0.83.0 Description Issue Summary After upgrading from React Native 0.79.2 to 0.83.0, a critical regression was introduced affecting background call handling. The app completely freezes when: An incoming call is active The app is not in focus or is minimized (backgrounded) Foreground service and native call activity are running Expected Behavior On RN 0.79.2: App accepts incoming call via displayIncomingCall() from react-native-callkeep Custom Foreground service starts successfully, fg notification is hanging in the notification shade Background processes continue running while app is backgrounded (minimized or loses focus): Event listeners for call state changes Analytics tracking Call duration counters Audio device observers Logging system Actual Behavior On RN 0.83.0: App accepts incoming call and displays native call UI correctly Foreground service starts successfully When app loses focus or is minimized, ALL background processes completely freeze App is unresponsive until user brings it back to foreground Upon returning to foreground, frozen processes resume working Device Information Any android device, either simulator or real device This is a regression introduced during the 0.79.2 → 0.83.0 upgrade. The same codebase works without any modifications on 0.79.2, indicating the root cause is within React Native's changes in this version range. I would really like to know the direction in which I should further investigate this problem?",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://stackoverflow.com/questions/79878508/android-regression-0-79-2-to-0-83-0-background-process-freeze-while-having-fg-se
+B11-010,applehelp,New update broke my phone,"I have an iPhone 13 and have been putting off the update to ios 26, and i updated 2 days ago. My phone then said it needed a second update. I clicked install now, and my phone installed the update. I turned on my phone to see this. I can’t power it off. I can’t do anything, and tried swiping but it just permanently opened this menu. I don’t know what to do and am very worried. If anyone has any advice please share I’m really not trying to get a new phone. Sorry for bad quality pic I had to take it with my iPad",,title_and_body,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/applehelp/comments/1rm1aan/new_update_broke_my_phone/
+B11-011,chrome,Having an issue with Google AI mode - How do I save the chat?,"I am experiencing a recurring issue where the Google AI mode on my Chromebook (ChromeOS) frequently loses its conversation history. This specifically happens after system updates and occasionally after a standard **restart** or a **refresh.**
+
+  
+I have memory saver set to ""max"" and have even **whitelisted** the AI's URL but he AI seems to ""forget"" the context of the chat, forcing me to start over. It behaves as if the session data is being cleared, even though I have configured my settings to prevent those tabs from sleeping. I have also tried pinning the tabs too but that doesn't help. 
+
+
+
+Strangely it only forgets when the chat history is long enough and like I mentioned it only forgets the chat on every other **restart or refresh**. I am also aware of when the AI **mentions** it will start a new chat but that doesn't happen with my chats.
+
+
+
+  
+These are my Chrome site settings:
+
+# Location
+
+Don't allow sites to see your location
+
+
+
+Camera
+
+Don't allow sites to use your camera
+
+
+
+Microphone
+
+Don't allow sites to use your microphone
+
+
+
+Notifications
+
+Don't allow sites to send notifications
+
+
+
+Embedded content
+
+Sites are blocked from asking you to use information they've saved about you
+
+
+
+**Additional permissions**
+
+Background sync
+
+Don't allow closed sites to finish sending or receiving data
+
+
+
+Motion sensors
+
+Don't allow sites to use motion sensors
+
+
+
+Automatic downloads
+
+Don't allow sites to automatically download multiple files
+
+
+
+Protocol handlers
+
+Don't allow sites to handle protocols
+
+
+
+MIDI device control &amp; reprogram
+
+Don't allow sites to control and reprogram your MIDI devices
+
+
+
+USB devices
+
+Don't allow sites to connect to USB devices
+
+
+
+Serial ports
+
+Don't allow sites to connect to serial ports
+
+
+
+File editing
+
+Don't allow sites to edit files or folders on your device
+
+
+
+HID devices
+
+Do not allow any sites to access HID devices
+
+
+
+Clipboard
+
+Don't allow sites to see text or images on your clipboard
+
+
+
+Payment handlers
+
+Don't allow sites to install payment handlers
+
+
+
+Augmented reality
+
+Do not allow sites to create a 3D map of your surroundings or track camera position
+
+
+
+Virtual reality
+
+Don't allow sites to use virtual reality devices or data
+
+
+
+Your device use
+
+Don't allow sites to know when you're actively using your device
+
+
+
+Window management
+
+Don't allow sites to manage windows on all your displays
+
+
+
+Fonts
+
+Don't allow sites to use fonts installed on your device
+
+
+
+Automatic picture-in-picture
+
+Don't allow sites to enter picture-in-picture automatically
+
+
+
+Scrolling and zooming shared tabs
+
+Don't allow sites to scroll and zoom shared tabs
+
+
+
+Smart card readers
+
+Isolated web apps can’t control smart card readers
+
+
+
+Web app installations
+
+Don't allow sites to install web apps on your device
+
+
+
+Local network
+
+Don't allow sites to access other devices on your local network
+
+
+
+Apps on device
+
+Don't allow sites to access other apps and services on this device
+
+
+
+Third-party cookies
+
+Third-party cookies are blocked
+
+
+
+JavaScript
+
+Sites can use JavaScript
+
+
+
+Images
+
+Sites can show images
+
+
+
+Pop-ups and redirects
+
+Don't allow sites to send pop-ups or use redirects
+
+
+
+Sound
+
+Sites can play sound
+
+
+
+Intrusive ads
+
+Ads are blocked on sites known to show intrusive or misleading ads
+
+
+
+Protected content IDs
+
+Don't allow sites to play protected content
+
+Don't allow sites to use identifiers to play protected content
+
+
+
+Third-party sign-in
+
+Block sign-in prompts from identity services
+
+
+
+Auto-verify
+
+Sites can't help verify you're not a bot
+
+
+
+On-device site data
+
+Delete data sites have saved to your device when you close all windows
+
+
+
+JavaScript optimization &amp; security
+
+Automatically disable JavaScript optimizers on unfamiliar sites
+
+
+
+Automatically remove permissions from unused sites
+
+Set to ""on""",,title_and_body,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/chrome/comments/1sfi7wi/having_an_issue_with_google_ai_mode_how_do_i_save/
+B11-012,ollama,Any free ollama models that works well with Cline tool calling?,"hi, i use free local models with ollama on Cline.
+
+I have been using quite a few, deepseek-coder:33b, Qwen3-cider:30b, llama3.1, gemma3:12b.
+
+none work, nearly all tool calling would fail, and often not even able to read file.
+
+it happens only recently, perhaps after an update i didnt realise.
+
+IS this normal or is it just me?",,title_and_body,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/ollama/comments/1qnd67t/any_free_ollama_models_that_works_well_with_cline/
+B11-013,Ubuntu,network help on recenlty updated 24.04 LTS,"\--update with fix--
+
+for anyone that may be experiencing network issue the resolution came by using the below netplan and for some reason on v24 you have to reboot entire system for some of the changes to take effect, a la old Windows style... thanks to the couple of folks supporting via DM 
+
+enp3s0: # primary  
+dhcp4: no  
+addresses:  
+\- [192.168.1.135/24](http://192.168.1.135/24)  
+routes:  
+\- to: default  
+via: [192.168.1.1](http://192.168.1.1)  
+metric: 100  
+nameservers:  
+addresses: \[192.168.1.135, 1.1.1.1\]  
+mtu: 1500  
+optional: true  
+  
+enp2s0:  
+dhcp4: no  
+addresses:  
+\- [192.168.1.136/32](http://192.168.1.136/32)  
+link-local: \[\]   
+optional: true
+
+  
+\--original post--
+
+wondering if anyone can throw an advice or deeper knowledge on a network issue im facing since my server got updated to 24.04 last week from 22.04, in short i have two NICs, a backup 1gb enp2s0 in the mobo that allows it to receive the WoL signal from the NAS if a power outage drained the UPS battery, the second enp3s0 NIC is the 10gb that is for network traffic, the update crashed my network, i tried debugging with chatgpt which may very much likely introduced additional issues summarized version of the issues and fix attempts from the chat below the netplans
+
+Previously working netplan on v22
+
+enp3s0:
+
+dhcp4: true
+
+dhcp6: false
+
+mtu: 9000
+
+dhcp4-overrides:
+
+route-metric: 100
+
+optional: true
+
+lan0:
+
+dhcp4: true
+
+dhcp6: false
+
+mtu: 1500
+
+dhcp4-overrides:
+
+route-metric: 300
+
+optional: true
+
+last attempt netplan config:  
+ethernets:
+
+enp3s0:
+
+dhcp4: no
+
+addresses:
+
+\- [192.168.1.135/24](http://192.168.1.135/24)
+
+gateway4: [192.168.1.1](http://192.168.1.1)
+
+mtu: 1500
+
+optional: true
+
+enp2s0:
+
+dhcp4: no
+
+addresses:
+
+\- [192.168.1.136/24](http://192.168.1.136/24)
+
+optional: true  
+\--skip if not interested in the summary--
+
+* Ubuntu Server (recent LTS, likely 24.04)
+* Netplan + systemd-networkd
+* Dual NIC setup:
+   * enp3s0 → 10G (primary)
+   * enp2s0 → 1G (fallback)
+* Same subnet:
+   * [192.168.1.135](http://192.168.1.135) (10G)
+   * [192.168.1.136](http://192.168.1.136) (1G)
+* Gateway: [192.168.1.1](http://192.168.1.1)
+
+**CURRENT STATE**
+
+**IP addresses assigned correctly:**
+
+ip addr
+
+* enp3s0 → [192.168.1.135/24](http://192.168.1.135/24)
+* enp2s0 → [192.168.1.136/24](http://192.168.1.136/24)
+
+**Routing table:**
+
+ip route
+
+Output:
+
+[192.168.1.0/24](http://192.168.1.0/24) dev enp3s0 scope link  
+[192.168.1.0/24](http://192.168.1.0/24) dev enp2s0 scope link
+
+**NO default route exists, failed to add manually or via netplan**
+
+**Connectivity behavior**
+
+ping [192.168.1.1](http://192.168.1.1)  
+→ Network is unreachable
+
+**ARP works:**
+
+ip neigh show dev enp3s0
+
+[192.168.1.1](http://192.168.1.1) lladdr XX:XX:XX:XX:XX:XX REACHABLE  
+**systemd-networkd status (blurry as no network to screenshot) pic attached**
+
+networkctl status enp3s0
+
+Key output:
+
+State: routable (failed)  
+Could not set route: Nexthop has invalid gateway. Network is unreachable
+
+**Netplan behavior**
+
+sudo netplan generate  
+sudo netplan apply
+
+* Very slow execution
+* Warning:
+
+gateway4 has been deprecated
+
+* Still fails to apply default route either as default via [192.168.1.1](http://192.168.1.1) or as gateway4
+
+**COMMANDS EXECUTED (multiple attempts)**
+
+**Interface reset**
+
+ip addr flush dev enp3s0  
+ip link set enp3s0 down/up  
+ip addr add [192.168.1.135/24](http://192.168.1.135/24) dev enp3s0
+
+**Route attempts**
+
+ip route add default via [192.168.1.1](http://192.168.1.1) dev enp3s0  
+→ Nexthop has invalid gateway
+
+ip route add default via [192.168.1.1](http://192.168.1.1) dev enp3s0 onlink  
+→ accepted, but no connectivity
+
+**Subnet route attempts**
+
+ip route add [192.168.1.0/24](http://192.168.1.0/24) dev enp3s0 scope link  
+→ sometimes “File exists”
+
+**Full routing reset**
+
+ip route flush table main  
+ip addr flush dev enp3s0
+
+**NIC isolation test**
+
+ip link set enp2s0 down with no luck to get the 3s0 to work
+
+**ARP verification**
+
+ip neigh show dev enp3s0  
+→ gateway reachable
+
+**ADDITIONAL OBSERVATIONS**
+
+* networkd fails specifically when applying gateway
+* ARP resolution works → NOT physical/network issue
+* Both NICs in same subnet (possible routing ambiguity)
+* After route flush → system unable to recover default route
+* Manual routing also fails to restore connectivity
+* Netplan apply is unusually slow
+
+**KEY SYMPTOMS**
+
+1. ❌ Cannot add default route (invalid gateway)
+2. ❌ “Network is unreachable” even with valid IP
+3. ❌ systemd-networkd reports interface as **routable (failed)**
+4. ✅ ARP to gateway works
+5. ❌ Neither external/internal connectivity (ping [1.1.1.1](http://1.1.1.1) fails just the same as pinging the gateway 192.168.1.1)
+6. ❌ SSH unreachable
+7. ❌ cloudflared tunnel fails
+
+**WHAT WAS WORKING BEFORE**
+
+* Same hardware
+* Same subnet config
+* Same dual NIC design
+* Static routing worked for several months",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/Ubuntu/comments/1t060hy/network_help_on_recenlty_updated_2404_lts/
+B11-014,chrome,Chrome Scroll Jumping Issue,"Anyone seen this issue, and have a fix/workaround.
+
+After a recent update. (Version 145.0.7632.117)  
+I have only noticed it happen on Facebook,   
+After I scroll a certain amount down the page, it starts jumping up/down the page uncontrollably.  
+Not sure if it's a Chrome issue, a Facebook issue or a My Laptop issue. But it's a bit annoying.  
+
+
+Have blurred the ""content"" but if you watch the scroll bar, it is fairly obvious when I am scrolling vs when the page is jumping about.",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/chrome/comments/1rjhn7o/chrome_scroll_jumping_issue/
+B11-015,applehelp,i cant agree to TOS to create an apple account?,"i switched from android to apple but i cant make an account
+
+  
+so like for example im trying to download insta. it asks me to sign in to complete purchase and I do tht, then it asks for my phone number and that goes through. THEN it asks me to accept the 3 TOS. and when i click agree, it says 
+
+  
+Could not Update Account 
+
+An unknown error has occured.
+
+then i am given the options continue or sign out
+
+  
+ive tried restarting, shutting down, literally like every option it doesnt work please what do i do?","[1:reply] What device are you using to try to make changes to the account?
+[2:OP] im using an iphone 17 pro
+[3:OP] and also i have the latest ios update n everything
+[4:OP] OKAY SO The FIX IS JUST WAIT A WHILE. IT FIXES ITSELF",title_body_comments,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/applehelp/comments/1v6vbo4/i_cant_agree_to_tos_to_create_an_apple_account/
+B11-016,debian,"Help! Windows 11 won't boot after installing Debian 13 (Error 0xc0000001). I have a diagnostic report and AI suggestions, need human advice!","Hi everyone, greetings from Colombia!
+
+I'm relatively new to exploring different operating systems and setting up dual-boot environments. I recently installed Debian 13 alongside Windows 11, and while Debian works perfectly, my Windows partition is now broken. I am a bit desperate and could really use your help!
+
+Here is the full diagnostic report of what is happening, what I've tried, and the suggestions an AI gave me. I want to know if you think the AI's plan is the best route or if you have better solutions.
+
+# 1. System &amp; Problem Overview
+
+* **Hardware:** ASUS laptop, SSD NVMe 476 GB.
+* **Setup:** Dual boot Debian 13 / Windows 11.
+* **Symptoms:** Selecting Windows from GRUB results in an infinite loading screen. Occasionally, it redirects to the Windows Recovery Environment (WinRE).
+* **Main Error:** `0xc0000001` (""Your PC couldn't start properly"").
+
+# 2. Disk Structure
+
+Using `lsblk -f` from Debian and `diskpart` from a Windows USB, I identified the layout.
+
+*Critical finding in WinRE:* The drive letter `C:` was incorrectly assigned to a 950 MB reserved partition instead of the actual 230 GB Windows partition.
+
+|**Partition**|**Type**|**Size**|**Note / Windows diskpart mapping**|
+|:-|:-|:-|:-|
+|`nvme0n1p1`|FAT32|\~260 MB|Shared EFI Partition (Vol 1 - SYSTEM)|
+|`nvme0n1p2`|\-|\-|Windows Reserved|
+|`nvme0n1p3`|ext4|\~116 GB|**Debian (Root)**|
+|`nvme0n1p6`|NTFS|\~230 GB|**Windows OS files** (Vol 0 - correctly assigned as G: manually)|
+|`nvme0n1p8`|FAT32|\~200 MB|ASUS Recovery (Vol 3 - MYASUS)|
+
+# 3. BCD (Boot Configuration Data) Diagnosis
+
+Checking UEFI with `efibootmgr -v` showed duplicate Windows Boot Manager entries pointing to non-existent UUIDs.
+
+Using `bcdedit /enum all` from the Windows USB, I found:
+
+* ❌ Completely broken loaders (`device: unknown`, `osdevice: unknown`).
+* ❌ Recovery entries pointing to the wrong partition (`C:` instead of the actual OS drive).
+* ✅ I managed to fix the `{default}` Windows loader to point correctly to `partition=G:`.
+
+# 4. What I Have Already Tried
+
+✅ `bcdboot G:\Windows /s V: /f UEFI`: Boot files created successfully. Windows reached the loading screen but froze after \~20 minutes, followed by error `0xc0000001`.
+
+✅ `dism /image=G:\ /cleanup-image /restorehealth`: Completed successfully. No image corruption found.
+
+✅ `sfc /scannow`: Found no integrity violations. System files are intact.
+
+✅ **Cleaned up BCD**: Deleted the corrupt `{5939e779...}` entry and fixed the display order.
+
+✅ **Checked BitLocker**: Disabled, so it's not a decryption issue.
+
+✅ `bootrec /fixmbr`: Executed successfully (`/fixboot` gave access denied, which is normal for UEFI).
+
+❌ **Registry Backup (RegBack)**: The folder `G:\Windows\System32\config\RegBack` is empty. No backups available.
+
+**Current Conclusion:** Since system files (SFC) and the image (DISM) are fine, and the BCD now points to the right drive, the issue seems to be **Registry Hive corruption** (SYSTEM, SAM, or SOFTWARE), likely caused if Windows was interrupted during the Debian installation.
+
+# 5. The AI's Suggested Action Plan
+
+I fed this information to an AI, and it suggested the following steps. **This is where I need your expertise: Is this safe? Will this work?**
+
+**Step 0: Backup from Debian (Mandatory)**
+
+Mount the Windows NTFS partition (`nvme0n1p6`) in read-only mode from Debian and use `rsync` to back up the `Users` folder to an external drive.
+
+**Step 1: Quick Fixes via Windows USB**
+
+* Run `chkdsk G: /f /r` from the command prompt.
+* If that fails, force Safe Mode via `bcdedit /store V:\EFI\Microsoft\Boot\BCD /set {default} safeboot minimal`.
+
+**Step 2: Windows In-Place Upgrade / Repair (Recommended by AI)**
+
+Boot from the Windows 11 installation USB, click **""Install Now""** (not repair), and choose the option to **""Upgrade: Install Windows and keep files, settings, and applications""**. The AI claims this has a \~90% success rate for registry corruption.
+
+**Step 3: Fix GRUB**
+
+Since the Windows in-place upgrade will likely overwrite the EFI bootloader, use a Debian Live USB to `chroot` into my Debian partition and reinstall GRUB (`grub-install` and `update-grub`).
+
+# My Questions for You:
+
+1. Does the registry corruption theory make sense given the `0xc0000001` error and the clean SFC/DISM scans?
+2. Will the ""In-Place Upgrade"" from the USB actually work on a non-booting system? I've read conflicting info saying you can only do an in-place upgrade from *within* a running Windows environment.
+3. Is there any other way to rebuild the Windows registry hives from a Linux live environment?
+
+Thank you so much in advance for reading all this and for any guidance you can provide!",,title_and_body,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/debian/comments/1shama3/help_windows_11_wont_boot_after_installing_debian/
+B11-017,Syncthing,Folder not shared in Truenas.,"Total noob here. Installed Syncthing on both Truenas and Windows desktop. Configured both to share folder (downloads) to TrueNas. W11 to share on Tn (v25.10). Recently updated from Tn v24.10. So when I tried to sync, TN says that folder was not shared. Tried to change in tab but I can’t get it to save changes. Sync says that it failed. Not sure how to do folderID from W11 either, so that it points to correct place on Tn   Please help! If you want to dm or email me (rmac57@gmail. com) or here is fine too.",,title_and_body,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/Syncthing/comments/1siadcu/folder_not_shared_in_truenas/
+B11-018,PFSENSE,pfSense Plus 26.03 Release Now Available!,"Today, Netgate^(®) is pleased to announce the release of pfSense^(®) Plus software version 26.03. This regularly scheduled update brings over 40 improvements, bug fixes, and enhancements. We strongly encourage all pfSense Plus customers to upgrade to the latest version.
+
+Some new features include:
+
+* **WebGUI Optimizations** \- The WebGUI code has been optimized. Users may experience a dramatic increase in GUI performance.
+* **System Patches Package** \- All installations now include it by default.
+* **SSH Algorithms** \- Increase security by including post-quantum key exchange algorithms and by removing older and weaker algorithms.
+* **TLS Certificate Strength** \- Weak (&lt;2048 bits) TLS Server Certificates have been deprecated. This version checks the GUI certificate during the upgrade process and will re-generate a new GUI certificate if the current certificate is invalid, expired, or weak.
+* **TLS Certificate Auto-Renew** \- This version automatically renews TLS server certificates, whether self-signed or signed by an internal CA configured in pfSense Plus.
+
+**Note:** **There is a special message about the exciting future of pfSense software development in the** [**official blog post**](https://www.netgate.com/blog/netgate-releases-pfsense-plus-software-version-26.03)**.**
+
+**Blog Post:**  
+[https://www.netgate.com/blog/netgate-releases-pfsense-plus-software-version-26.03](https://www.netgate.com/blog/netgate-releases-pfsense-plus-software-version-26.03)
+
+**Release Notes:**  
+[https://docs.netgate.com/pfsense/en/latest/releases/26-03.html](https://docs.netgate.com/pfsense/en/latest/releases/26-03.html)",,title_and_body,yes,yes,other,medium,The post appears to discuss software without a clear troubleshooting or chiefly critical purpose.,,,,,,,https://reddit.com/r/PFSENSE/comments/1s9t5lt/pfsense_plus_2603_release_now_available/
+B11-019,rust,"Weekly crate updates: SWC introduces Wtf8Atom and adds import-merging to shrink bundle sizes, rusty_v8 updates to the latest V8 engine, and hashlink gets an important soundness fix","- SWC's new import-merging optimization
+- `rusty_v8`'s update to the latest V8 engine
+- `rustls` expands crypto support with Ed448
+- `hashlink` ships a critical soundness fix",,title_and_body,yes,yes,other,medium,The post appears to discuss software without a clear troubleshooting or chiefly critical purpose.,,,,,,,https://reddit.com/r/rust/comments/1oj7lyo/weekly_crate_updates_swc_introduces_wtf8atom_and/
+B11-020,sysadmin,Anyone been seeing problems with services starting on boot Windows 2016 recently?,"Howdy,
+
+After the February or March Windows Update cycle on Windows 2016 I noticed that services have been failing to automatically start after reboot. Has anyone else been experiencing this or am I just lucky? I haven't really had time to dig into it and mostly just have to login to the server (after Windows updates) and restart everything manually. I'm going to start digging into it now but I just wanted to ask if this is something anybody else has seen? Everything had been working flawlessly up until a month or two ago.
+
+I also noticed that the Windows Search Service is crashing constantly beginning on March 12th after the March 10 updates.",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/sysadmin/comments/1tcy2u5/anyone_been_seeing_problems_with_services/
+B11-021,applehelp,iPhone 16 Pro severely overheating and throttling,"Hello guys,  
+my out of warranty iPhone 16 Pro started overheating like crazy and dimming the display since I updated to ios 26 roughly 9 months ago. It gets really hot to the touch from doing very basic tasks (so basically anything) and even worse when charging.
+
+I already did: Apple diagnostics and it passed, background app refresh off, never used a case, removing the sim card, two dfu clean installs, turning off location services and find my - everything you can think of.
+
+Somebody advised me I should check for some certain keywords using the console app from macOS while the phone is plugged in, and this is what I got:  
+\-thermalmonitord &lt;Error&gt; could not find cpu-avg-limiter-input-w2r property  
+\-thermalmonitord &lt;Error&gt; Failed to read cpu-avg-limiter-input-w2r  
+\-powerd Failed to synchronize  
+Kiosk Mode data to SMC  
+\-PerfPowerServices Could not find matching service for railenergypmu
+
+If you have any advice for me or have had a similar problem, please let me know. I am not willing to change the logic board or the battery, so don't tell me to pay for any hardware issue, I prefer buying another phone anyway.  
+Also, it may seem like a hardware issue but I am not sure about that since the problems started the exact same day when I updated to ios 26. What do you think?","[1:reply] ‘Prefer buying another phone anyway’
+
+Seems like you’ve already made up your mind.",title_body_comments,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/applehelp/comments/1uqf6db/iphone_16_pro_severely_overheating_and_throttling/
+B11-022,openclaw,Every update breaks at least one thing - how do you deal with this?,"Updated to 03.31 today and it enabled sandboxing and an allow list by default, breaking all my workflows. I'm running OpenClaw inside a secured Kubernetes container, with minimal permissions and with very restrictive entry points.
+
+I do not need any additional security features and I definitely do not need them to be enabled on an update without any mention of this in the changelog.
+
+At this point I'm considering just disabling OpenClaw updates entirely, I'm getting pretty tired of every update breaking something by adding something I do not need.
+
+How do you deal with this? Are the alternative claws any better?",,title_and_body,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/openclaw/comments/1s9lli6/every_update_breaks_at_least_one_thing_how_do_you/
+B11-023,applehelp,2020 M1 iMac won’t boot - progress bar gets halfway then instantly shuts off and restarts,"I’m hoping someone might be able to point me in the right direction.
+
+I have a **2020 M1 iMac** that was working perfectly until today. I was using it normally when the screen suddenly went completely black without any warning.  
+Since then, it won’t boot.
+
+This is what happens every time:  
+Press the power button.  
+Apple logo appears.  
+Progress bar starts loading.  
+It gets to about halfway every single time.  
+The Apple logo and display **instantly** go black (it doesn’t fade out).
+
+After a short pause (approx one minute) it automatically tries to boot again and repeats the same cycle.  
+Other things I’ve noticed:  
+The screen flickers very slightly while it’s trying to boot.  
+It never reaches the login screen.  
+I don’t hear the startup chime.  
+It doesn’t appear to stay powered on after the screen goes black.
+
+I don’t believe there were any macOS updates installing at the time—it just randomly shut off while I was using it.
+
+Unfortunately, I can’t upload the video here, but it simply shows the Apple logo and progress bar reaching roughly halfway before the screen instantly turns black and then the Mac eventually attempts to restart itself.
+
+Has anyone experienced this with an M1 iMac, and were you able to fix it?  
+Thanks in advance for any advice","[1:reply] The recommended steps based on your description of the issue are listed [here](https://support.apple.com/en-us/102535).
+[2:OP] You are a legend thank you so much",title_body_comments,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/applehelp/comments/1uh1xmd/2020_m1_imac_wont_boot_progress_bar_gets_halfway/
+B11-024,software,Realtek(R) Audio driver broke after recent windows update,"Normally use Lenovo Vantage for all driver updates. This time installed an optional Realtek audio driver from Windows Settings, then updated AMD Adrenalin from AMD's site. After reboot — no sound at all. Device Manager showed no errors and playback devices looked normal.  
+Currently running a scheduled task (.bat) on startup to restart the audio service \[disable and enable realtek(r) audio driver (Device Manager)\] it works but feels like a band-aid.
+
+**Questions:**
+
+* Is this a conflict between the generic Windows Update Realtek driver and Lenovo's version? (I tried rollback and reinstall driver from lenovo site it didn't worked)
+* Could AMD Adrenalin have touched anything audio-related?
+* Is there a clean fix, or do I just wait for Lenovo to push a compatible driver?
+
+**Device:** Lenovo Yoga 7 2-in-1 Gen 10 · Ryzen AI 350 · 32GB RAM · Radeon 860M · Windows 11","[1:OP] never mind i figured it out myself these thing with oem drivers for all brands are expected to get fixed by september 2026, Guess Self Help is the best one out there. \[article: by windowslatest .com site\]
+
+With CIDR, Microsoft can now remotely trigger a rollback of a faulty dr…",title_body_comments,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/software/comments/1u2c63u/realtekr_audio_driver_broke_after_recent_windows/
+B11-025,AskElectronics,7400 Series Logic Clock,"I posted about this [before](https://www.reddit.com/r/AskElectronics/comments/1s4kcr1/7400_series_clock_overview/?utm_source=share&amp;utm_medium=web3x&amp;utm_name=web3xcss&amp;utm_term=1&amp;utm_content=share_button). It was about some past issues that have been altered or fixed, so I'm making a new post to give an update and to not bog down the updates with old discussions.
+
+The current schematic is as follows:
+
+https://preview.redd.it/w5ye3f4wx4sg1.png?width=3204&amp;format=png&amp;auto=webp&amp;s=a753eece3c8d5f2b99fa14f582e1c90e29b3e697
+
+And this is my recreation of it in Multisim to simulate and verify its functionality:
+
+[And for those who like designs with non-IC logic gates, some things are missing, such as debounce capacitors and the input method. This is due to them not being necessary for the simulation.](https://preview.redd.it/txr1ywnwy4sg1.png?width=1852&amp;format=png&amp;auto=webp&amp;s=745bbbb5edecc17d32a8bfeda2e865c47796a49d)
+
+  
+The simulated version verifies the functionality of the circuit. I'm just wondering if there are any real-world variables I have not taken into account.   
+  
+Do ask questions about things you have any.
+
+I am just wondering if things such as the wiring are correct, and stuff like suggested trace widths and PCB management is also welcome.
+
+I am open to anything, given a good enough reason.
+
+[I know the traces are terrible I will design it by hand later its just 4AM and this is good enough for a status update for my project.](https://preview.redd.it/lut8h1pc45sg1.png?width=1191&amp;format=png&amp;auto=webp&amp;s=515e6204eea564a68fde0ff3c27d677e9658e993)",,title_and_body,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/AskElectronics/comments/1s7khbu/7400_series_logic_clock/
+B11-026,Fedora,"If your Firefox settings are being reset, PLEASE HELP US","People have been reporting *multiple* related issues regarding Firefox preferences being randomly reset, possibly caused by multiple root cause bugs. Copying from [the bug](https://bugzilla.redhat.com/show_bug.cgi?id=2455031):
+
+- Loss of homepage setting (revert to Fedora Start)
+- Loss of bookmarks
+- Loss of language or other settings
+- Sync of these issues to other devices via Firefox Sync (including lost bookmarks)
+- The problem may occur after (some or all) Firefox package updates
+
+## WHAT WE KNOW
+
+- This behavior is **NOT INTENTIONAL**. There is no conspiracy to reset people's settings, nor is Fedora's configuration an intentional attempt to exploit a bug or behavior.
+- This behavior is **NOT UNIVERSAL**. It happens to some people and not others. No maintainer has been able to reproduce it so far, which is why it has not been fixed.
+- This behavior affects a **MINORITY** of users. While it has been reported repeatedly over the years, indicating that the issue is widespread, if it were happening to a significant fraction of Fedora users, the outcry would be orders of magnitude larger and a developer would have been able to reproduce it and fix it by now.
+- This behavior is **NOT EXPECTED**. There is no logical explanation for why it happens or why it could happen. There is no ""obvious"" solution. It is not even clear that the problem has anything to do with Fedora's default setting overrides, as vanilla Firefox users have reported similar issues over the years. It seems that when it happens to Fedora users, users have a tendency to blame Fedora's preference overrides and complain loudly, but so far there is a lack of solid evidence that all of this behavior is tied to Fedora's preference overrides (other than one very specific issue described below).
+
+## WHAT WE NEED FROM YOU
+
+If you are seeing any behavior similar to the above, PLEASE comment with as much detail as possible. Do not assume that anything about your setup will be the same for others. We need details such as:
+
+- Your Fedora version (including spin/edition, etc.) and architecture
+- Any important system customizations or changes such as file system or kernel
+- Your desktop environment
+- Information on all other systems synced with Firefox Sync to the same account, if you use it
+- How you update your system (graphical tool, `dnf upgrade`, `dnf upgrade --offline`, etc.)
+- A detailed walkthrough of what happened exactly when the issue occurred (when you (re)booted your machine(s), when you started or closed the browser(s), whether you clicked through any errors or messages, etc.)
+- If it happened after an upgrade, whether your browser was running during the upgrade (and whether it complained or crashed).
+- What exactly was lost/reset, and what the intended setting/value was previously.
+
+If the issue happens OFTEN on every browser update, then please back up your browser configuration before each update using this command (you might need to `dnf install rsync`):
+
+    rsync -av --mkpath --exclude=storage ~/.mozilla ~/.config/mozilla ~/firefox-backups/$(date +%Y%m%d%-%H%M%S)
+
+If you experience the issue after the update, **run the command again to take another snapshot** and comment here. The pre-upgrade and post-upgrade snapshots could be crucial in figuring out what went wrong.
+
+I am personally volunteering to help gather debugging information for this issue. If you are comfortable, I would greatly appreciate it if we could have a real-time chat (over Matrix, Discord, or others) to try various things in order to track down the root cause of the problem.
+
+**IT IS IMPORTANT TO CATCH THE ISSUE IN THE ACT**. ""This used to happen to me but it no longer does / I no longer use Fedora / etc."" is sadly a common response from users. Unfortunately, there is nothing developers can do to track down this issue if the person is not actively experiencing it.
+
+**IF YOU CAN REPRODUCE THE ISSUE AT WILL** (for example, with `dnf downgrade firefox` and `dnf upgrade firefox`), then you hold the key to solving this once and for all. Please, please help.
+
+## IF YOU LOSE IMPORTANT DATA
+
+If you lose your bookmarks, do not panic. Firefox automatically keeps backups of your bookmarks. Follow these instructions to restore them from an automatic backup:
+
+https://support.mozilla.org/en-US/kb/recover-lost-or-missing-bookmarks
+
+Once you get back your precious bookmarks, please come back and comment on exactly what happened. The more *detailed* feedback we get on what might cause this issue, the better.
+
+## KNOWN BUGS
+
+So far there is ONE identified bug that is connected with system default overrides, but it only explains a very specific subset of the reports:
+
+- When Firefox Sync is used, and
+- The user syncs Fedora and non-Fedora systems, and
+- The user sets their home page to Firefox Home -or- Fedora Start, then
+- The browsers will ""fight"" over the home page setting, as they disagree on what the ""default"" is, and Firefox Sync handles this case poorly.
+
+This bug is tracked as [Fedora bug 2020436](https://bugzilla.redhat.com/show_bug.cgi?id=2455031), and also [upstream](https://bugzilla.mozilla.org/show_bug.cgi?id=2028331). The solution for this specific case, going forward, is for upstream to toggle a setting (that must be changed on all Firefox builds, not just Fedora's) to make the home page setting ""sticky"" and not consider the ""browser default"" value in a special way.
+
+(All reports of this issue have been from users setting the home page to Firefox Home, but it is important to point out that the converse would also be a problem as far as the issue is understood: they would be unable to set Fedora Start as their home page consistently either. The underlying bug is symmetric, it does not ""favor"" Fedora.)
+
+For those affected, there is a simple workaround: Set your home page to the URL `about:home#`, with a trailing #. This will avoid the ""fighting over defaults"" behavior.
+
+This issue does NOT apply to people who:
+
+- Do not use Firefox Sync, or
+- Set their home page to anything else, or
+- Experience reset of non-pref data like bookmarks
+
+----
+
+After reading the [previous thread](https://www.reddit.com/r/Fedora/comments/1s8jevj/a_message_to_fedora_devs_please_stop_interfering/), I'm honestly really upset at how this has gone on for so long without any ability for maintainers to actually resolve the issue. Us developers NEED your help tracking this down. So far everyone experiencing it has just assumed that it happens all the time to everyone, because it happens to THEM all the time... and nothing has ever been fixed, because nobody with the ability to diagnose and debug it could ever reproduce the problem.",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/Fedora/comments/1sbybxw/if_your_firefox_settings_are_being_reset_please/
+B11-027,applehelp,Face ID not working after most recent update,I’ve tried all of the common fixes. hard reset. repair assistant isn’t available; there’s just not any option to try it from the Parts and Service menu,,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/applehelp/comments/1rumjzf/face_id_not_working_after_most_recent_update/
+B11-028,Ubuntu,Unstable performance after recent update to kernel 6.17.0-19,"I recently updated kernel version from 6.17.0-14 to 6.17.0-19. I have been experiencing issues e.g., screen displaying ""kernel panic"" Error, during normal use suddenly vs  code can't save a file even if it still open in open editor section, and black screen displaying errors with bluetooth modules.
+Have anyone experience this issues before after updating to kernel 6.17.0.19?",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/Ubuntu/comments/1rzlgiu/unstable_performance_after_recent_update_to/
+B11-029,applehelp,Is anyone else Iphone Air SUPER HOT while customizing a lock/home screen theme,"I have the latest update - A few days ago I wanted to make a lock screen / home screen based on Star Wars so I used the photo shuffle and customized to my liking.
+
+During this process my phone got so hot, experienced massive frame drop, and eventually completely crashed. 
+
+Fast forward to today, I just wanted to add a lock /home theme of one photo and my phone got so hot that I could not hold it anymore. Genuinely hotter than my coffee. I couldn't even finish this simple task.. I actually worry that my phone may start on fire if I try to change my background again or follow through to the end of the task.
+
+What the heck is this about and also, *please fix this issue*. There really should be a testing phase in place for new updates. There also isn't really an excuse for this at the prices we are paying for these devices *in my humble opinion.* 
+
+*Does anyone know of a fix for this currently???* 
+
+\*\*\*Disclaimer: this is not because the Air is too thin... I have been using it since it came out and this issue is unique to this update - In fact this is the best phone apple has made to date (all around)\*\*",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/applehelp/comments/1togl22/is_anyone_else_iphone_air_super_hot_while/
+B11-030,PowerToys,KEYBOARD MANAGER DOWN,"https://preview.redd.it/kzuzpdtyhyxg1.png?width=1903&amp;format=png&amp;auto=webp&amp;s=b4a7bd427278660a41d4e1ca1f902219700415dc
+
+  
+So i updated to the new version today v 0.99.0
+
+Suddenly after sometime bindings mapped to alt+ key clashed with my ctrl(undo, redo ,copy,paste). So i opened my keyboard manager and got this.
+
+Issue resolved on ending the app and reopening it.
+
+Bug from app or system issue","[1:reply] after that literally nothing is keeping me from doing linux but a couple of drivers missing, MICROSLOP doing MICROSLOP stuff",title_body_comments,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/PowerToys/comments/1sy67j2/keyboard_manager_down/
+B11-031,MicrosoftEdge,Netflix error D7121-13312 in Edge on Windows 11 ARM (Snapdragon) – workaround,"If you’re on **Windows 11 ARM (Snapdragon X / X Elite)** and Netflix fails in **Microsoft Edge** (and also the Win Store App) with **Error D7121-13312**, this is likely a **PlayReady DRM issue**.
+
+Netflix works fine in Firefox (Widevine), but Edge crashes during playback start.
+
+# Workaround
+
+1. Open:
+
+&amp;#8203;
+
+    edge://flags
+    
+
+1. Set **PlayReady DRM for Windows** → **Disabled**
+2. Restart Edge
+
+# Result
+
+* Netflix works again in Edge
+* Stable **1080p Full HD**
+* Uses **Widevine L3 (software DRM)**
+* No 4K / HDR (expected)
+
+Edge updates may reset the flag. Firefox remains a good fallback.
+
+Hope this helps other Win11 ARM users 👍",,title_and_body,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/MicrosoftEdge/comments/1qzlxhv/netflix_error_d712113312_in_edge_on_windows_11/
+B11-032,applehelp,Apple Account Verification constant pop up after update.,"I’m sorry if it’s been asked before. But I’ve done everything in my power to stop this. I put in my password keeps saying failed. Recovery does me no good cause it’s to two phone numbers I don’t have anymore cause it has never asked this so much till now.  I’m still signed in, can update my apps. But the pop up comes like every ten minutes and I can’t stop it.  Anyone deal with this and figure out a fix?
+
+Thank you :)","[1:reply] Do account recovery, put in the trusted phone number, let it fail and say you can’t access it, then it will let you make alternate arrangements to complete recovery.
+[2:OP] It doesn’t it’s recover to phone numbers I don’t have anymore and can’t change them unless I sign in which is a catch 22. I’m basically stuck and it pops up every 10 mins but can still do everything else.",title_body_comments,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/applehelp/comments/1ubemq4/apple_account_verification_constant_pop_up_after/
+B11-033,neovim,tmux 3.8 fixes neovim flicker,"If you're using neovim inside tmux, you may notice the cursor flickers when redrawing the screen (usually happens when scrolling), I had this problem ever since I started using tmux around 2 years ago and went through all the terminal emulators and their settings trying to mitigate the problem to no avail.
+
+Randomly tried to compile tmux from source and saw that the problem just disappeared, then went to their CHANGES file and saw:
+
+    * Fix redraw issues around synchronized updates, copy mode, tabs, padding,
+      status lines, menus, popups, wide characters and floating panes. This
+      includes fixes for flicker with alternate screen applications and scrollbars
+      (Michael Grant, issue 5351; Noam Stolero, issue 5350; Aung Myo Kyaw, issue
+      5098), and misplaced wrapped lines during partial redraws (Ben Maurer, issue
+      5625).
+
+These are god-tier changes for me because I'm very sensitive about flickering and it disrupts my work.
+
+
+
+[at the start im holding ctrl-l which just redraws the screen, and then im scrolling up and down with ctrl-u\/d\&lt;zz\&gt;](https://reddit.com/link/1wv96f8/video/y3bg1l7zozsh1/player)","[1:reply] Well that explains the two years of me tweaking terminal settings for absolutely nothing
+[2:reply] $DEITTY
+[3:reply] Thank the $DEITY
+
+This one has been super frustrating.
+[4:reply] i think im using neovim since 2019 inside tmux(before was vim with tmux and before with screen) and never experienced this
+[5:reply] Huh, never noticed this. Even now I tried scrolling and I can't see it (v3.7c)",title_body_comments,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/neovim/comments/1wv96f8/tmux_38_fixes_neovim_flicker/
+B11-034,chrome,chrome crashing on bootup,"hey whats up
+
+ive been encountering a really weird bug after this latest chrome update. it crashes almost immediately when i open it but works perfectly fine in incognito mode. it's super annoying and i've already sent 1000 reports to apple. any advice?",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/chrome/comments/1seglp5/chrome_crashing_on_bootup/
+B11-035,Fedora,"Windows automatic repair loop, finally made me switch","Around 2 weeks ago my gaming laptop (running windows 11) got stuck in an automatic repair loop after an update. I tried everything to revive it including installing fedora 43 but it was not to be, turns out the CPU or the motherboard were fried. Bought a new laptop, immediately wiped windows from it and installed fedora 43 and I couldn't be happier (yes it's not great that the previous laptop died). 
+
+Sidenote: This new laptop has a copilot button on the keyboard built-in (obviously that stops doing anything when you remove windows) It's oddly satisfying to map keyboard shortcuts to it :)",,title_and_body,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/Fedora/comments/1t0pjig/windows_automatic_repair_loop_finally_made_me/
+B11-036,homeassistant,"[Update] Frosted Glass v1.4 is here! ✨ Native Bubble &amp; Navbar support, glass dialogs, and a refreshed Dark theme","Hey everyone! 👋
+
+**I made it frosted before Apple** 🔥 
+
+**Frosted Glass v1.4 is out**, along with an updated **Theme Manager**!
+
+My last post introduced the Manager and the ability to customize colors and backgrounds without editing YAML. This update focuses on bringing the glass effect to more cards and making the whole interface feel more consistent.
+
+# ✨ What’s new?
+
+* **Native Bubble Card support.** Bubble cards now pick up the Frosted Glass styling automatically, with matching buttons, sub-buttons, menus, and popups.
+* **Native Navbar Card support.** Transparent navigation with matching reflections and blur in the Full version.
+* **Glass dialogs and popups.** Entity dialogs now have a translucent, blurred surface in Full, on desktop and mobile. Lite keeps them solid for readability.
+* **A refreshed Dark theme.** Deeper blue-black backgrounds, softer blue accents, and matching colors across Settings, menus, and controls. Light keeps its warm off-white look.
+* **Better sidebar and topbar styling.** Subtle transparency and blur in Full, fully transparent backgrounds in Lite. Sidebar styling also carries through to Settings and other panels.
+* **UIX support.** You can now choose either UIX or card-mod as your styling engine.
+
+There are also compatibility improvements for **Mushroom, Room Summary, Hue-Like Light, Slider Button, Simple Swipe**, and stacked cards.
+
+# 🛠️ Those transparency issues got some attention
+
+In my v1.3 post, I mentioned cards where transparency or blur wasn’t behaving properly. A lot of this update went into working through those problems.
+
+Cards and badges now keep their transparent backgrounds, corner reflections, and depth. I’ve also fixed HACS dropdown positioning, doubled glass layers in nested cards, unwanted backgrounds behind headings, and theme styles interfering with custom shadows or Mushroom artwork.
+
+**Lite still keeps the glass edges and transparent cards, without the blur**, for those of you using older tablets or lighter setups.
+
+# 🎨 Theme Manager updated too
+
+Your custom colors and backgrounds now get the same v1.4 styling and card support. Custom color handling and background URLs have also received fixes.
+
+**Already using the Manager?** After updating, reload the integration or save its options once to regenerate your existing Custom themes.
+
+For styling across the whole interface, load your chosen engine as a frontend module and select the theme in your Home Assistant profile.
+
+# 🔗 Get it here
+
+* [Frosted Glass Theme](https://github.com/wessamlauf/homeassistant-frosted-glass-themes)
+* [Frosted Glass Theme Manager](https://github.com/wessamlauf/frosted-glass-manager)
+* [Full v1.4 changelog](https://github.com/wessamlauf/homeassistant-frosted-glass-themes/releases/tag/v1.4)
+
+The theme is available through **HACS**. Manager installation instructions are in its repository.
+
+Thank you for the screenshots, bug reports, GitHub stars, and coffees. They’ve helped me keep improving this project. ❤️
+
+I’d love to see how v1.4 looks on your dashboards! If something still looks off, let me know which card and styling engine you’re using.
+
+P.S. 
+
+I know it took a lot of time to fix v1.3 but it has been crazy at home lately, with one more kid it was difficult to sit down and get it done. Thank you for the amazing support guys, I love seeing Frosted Glass all over the reddit. 
+
+Enjoy! 🥂  
+Wessam","[1:reply] Wow nice update , thanks a lot and congrats for the newborn .
+[2:reply] Mah man! This is awesome! Great work! Instant install perfect fit for my rework on glassmorphism mobile dash , love it so far.
+[3:reply] Dit is heel mooi gedaan weer. Dank je wel",title_body_comments,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/homeassistant/comments/1ww2p7s/update_frosted_glass_v14_is_here_native_bubble/
+B11-037,Fedora,updated to 44 and kde sleep/ suspend broke-looking for other desktop opptions,"KDE sleep stopped working after the update to 44. I tried Gnome and it works fine.
+
+But I can't stand gnome. Other options?","[1:reply] The funny thing is, 44 fixed my sleep issues on KDE 😅.
+[2:reply] I've also updated from 43 to 44.
+Sometime later, did a clean 44 install and noticed some better differences. 
+Before choosing other distro, try a 44 install.
+[3:OP] I tried the fresh install-same thing
+[4:reply] I have yet to find ANY OS that implements sleep mode without issue.  I've been running laptops exclusively since 1995 - with Linux, DOS, Windows, Mac OS9, Mac OSX, BeOS, you name it - they ALL have problems with sleep mode.  BTW, my very first laptop (a 1995 Toshiba Tecra 720CDT…
+[5:reply] That seems weird because they're both just hooking systemd for sleep, so I'm curious what would actually be different.
+
+I guess I'd maybe look at Budgie? It's a tiny team and not getting developed super fast but it's using a lot of the underlying Gnome stack while being a little…",title_body_comments,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/Fedora/comments/1tgmymc/updated_to_44_and_kde_sleep_suspend_brokelooking/
+B11-038,Fedora,Framework 12 on Fedora 44: How to make screen autorotate work correctly again,"After updating my FW12 to Fedora 44, the screen auto-rotated always, not just in tablet mode but also in normal laptop mode, when it shouldn't auto-rotate.
+
+The reason was that some drivers weren't loaded early enough for the kernel to register them correctly on startup, so the events for switching between tablet mode and laptop mode weren't properly registered.
+
+Here's how to fix it:
+
+    $ sudo nano /etc/dracut.conf.d/fw12-tablet-mode.conf
+
+Create the file with this line:
+
+    force_drivers+="" pinctrl_tigerlake soc_button_array ""
+
+Then regenerate your initramfs:
+
+    $ sudo dracut -f --regenerate-all -v
+
+(I added the -v there so I could see what's going on, I first thought it didn't work, because all I saw was a blinking cursor for a minute, in verbose mode I could follow along and see that it was actively doing something)
+
+I can't really be bothered to send this to Framework or Fedora or someone to fix this upstream for everyone - given that I already debugged it &amp; found a/the solution, maybe someone else can put the work in to pass this along?",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/Fedora/comments/1t2xx8i/framework_12_on_fedora_44_how_to_make_screen/
+B11-039,Fedora,Why isn't Firefox distributed as a Flatpak?,"Since the philosophy behind Fedora Atomic is to keep only the essentials in the base system using rpm-ostree, why is Firefox installed by default instead of being provided as a Flatpak?
+
+I don't like the Fedora-packaged version of Firefox, mainly because the fedora.org start page bug causes my custom settings to be reset after some updates.
+
+What is the difference between removing the package with rpm-ostree uninstall and using rpm-ostree override? 
+
+Which approach is recommended if I want to remove the rpm-ostree version completely, as if it had never been installed?","[1:reply] As far as I understand, Flatpak’s sandboxing and Firefox’s built in sandboxing cause conflicts and it can make the browser less secure. So it’s typically recommended that you run the regular Firefox binary instead of Flatpak. 
+
+You can replace it, of course, but it can be less s…
+[2:reply] Here's some discussion covering the ""why"", and what's needed to move to Flatpak: https://gitlab.com/fedora/ostree/sig/-/work_items/3
+
+`rpm-ostree uninstall` is used to remove overlayed packages. This won't work with Firefox, because it's not an overlayed package, it's part of th…
+[3:reply] I’ve posed that same concern in other Linux subreddits and people that are smarter than me told me that the “flatpak leads to less secure sandboxing” is more of an issue with chromium based browsers because how their sandboxing is implemented. Hopefully one of those knowledgeabl…
+[4:reply] \&gt; Since the philosophy behind Fedora Atomic is to keep ***only the essentials*** in the base system \[...\], why is Firefox installed by default
+
+Not sure about the official reasons, but as I see it there are probably 2 reasons.
+
+1. It's 2026, for a desktop operating system…
+[5:reply] You can remove the rpm firefox, but silverblue and the other atomics are smart enough so that if you install flathub firefox, fedora acts as if the rpm version isn't there anymore from the user's perspective. The flatpak replaces it on the gnome panel, default apps, etc.
+
+I used…",title_body_comments,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/Fedora/comments/1ur201s/why_isnt_firefox_distributed_as_a_flatpak/
+B11-040,r,&quot;All columns in a tibble must be vectors&quot; when attempting to connect to Databricks via `sparklyr::spark_connect`,"I'm having issues connecting my local RStudio setup to my company's Databricks databases via sparklyr . When I use sc It seems to successfully connect: However, after a few moments I receive a Windows error message: It also gets sent to the console: Error in value[[3L]](cond) : Failed to fetch data: All columns in a tibble must be vectors. My impression (perhaps incorrect) is that the error above occurs when RStudio attempts to populate its ""Connections"" pane from the connection it's created. If I then try to run a query ignoring the previous error, I receive errors suggesting that it might be issues with Python/reticulate translating back to R: as.data.frame(sparklyr::sdf_sql(sc, sql_string)) Error in `dplyr::as_tibble()`: ! All columns in a tibble must be vectors. ✖ Column `col1` is a `pandas.arrays.ArrowStringArray/pandas.core.strings.object_array.ObjectStringArrayMixin/pandas.arrays.ArrowExtensionArray/pandas.core.arraylike.OpsMixin/pandas.core.arrays.base.ExtensionArraySupportsAnyAll/pandas.core.arrays.string_.BaseStringArray/pandas.api.extensions.ExtensionArray/pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin/python.builtin.object` object. Since I started having issues, I have upgraded my Databricks cluster to the latest version, upgraded R, and upgraded all my R packages to the latest versions (including updating the packages that seem relevant, like sparklyr and reticulate , to the latest GitHub versions in case there were bug fixes not present in the CRAN version). I did all that on the off chance it might help, but haven't seen the problem resolve. (I also tried temporarily reverting the Databricks cluster to the earliest available runtime just in case it was an issue with the newer version, but it didn't make any difference, so we put it back to latest.) For reference, the setup elements I currently have: Databricks cluster with runtime 17.3 LTS Visual Studio Build Tools 2022 (Version 17.12.4) RTools 4.5.6536 These parameters in my .Renviron file: DATABRICKS_HOST , DATABRICKS_WSID , DATABRICKS_CLUSTER_ID , and DATABRICKS_TOKEN Python installed by reticulate::install_python(version = ""3.12.3"") Databricks Connect installed by pysparklyr::install_databricks(cluster_id = Sys.getenv(""DATABRICKS_CLUSTER_ID"")) I'm not clear on whether there is a user error somewhere in this process, or one of the packages has a bug, or something else has gone wrong. In case it helps, here's a copy of the output from sessionInfo() just after I run the spark_connect command: R version 4.5.2 (2025-10-31 ucrt) Platform: x86_64-w64-mingw32/x64 Running under: Windows 11 x64 (build 26200) Matrix products: default LAPACK version 3.12.1 locale: [1] LC_COLLATE=English_Australia.utf8 LC_CTYPE=English_Australia.utf8 [3] LC_MONETARY=English_Australia.utf8 LC_NUMERIC=C [5] LC_TIME=English_Australia.utf8 time zone: Australia/Sydney tzcode source: internal attached base packages: [1] stats graphics grDevices utils datasets methods base loaded via a namespace (and not attached): [1] Matrix_1.7-4 jsonlite_2.0.0 sparklyr_1.9.3.9000 [4] dplyr_1.2.0 compiler_4.5.2 tidyselect_1.2.1 [7] Rcpp_1.1.1 parallel_4.5.2 tidyr_1.3.2 [10] png_0.1-8 yaml_2.3.12 reticulate_1.45.0.9000 [13] lattice_0.22-9 R6_2.6.1 generics_0.1.4 [16] curl_7.0.0 httr2_1.2.2 tibble_3.3.1 [19] pysparklyr_0.2.0 openssl_2.3.5 DBI_1.3.0.9000 [22] pillar_1.11.1 rlang_1.1.7 fs_1.6.6 [25] config_0.3.2 otel_0.2.0 cli_3.6.5 [28] withr_3.0.2 magrittr_2.0.4 ps_1.9.1 [31] grid_4.5.2 processx_3.8.6 rstudioapi_0.18.0 [34] dbplyr_2.5.2 rappdirs_0.3.4 askpass_1.2.1 [37] lifecycle_1.0.5 connectcreds_0.2.0 vctrs_0.7.1 [40] glue_1.8.0 purrr_1.2.1 httr_1.4.8 [43] tools_4.5.2 pkgconfig_2.0.3",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://stackoverflow.com/questions/79900483/all-columns-in-a-tibble-must-be-vectors-when-attempting-to-connect-to-databric
+B11-041,chrome,"Vertical tabs ""Quit"" crash on Apple silicon since 148.0.7778.168 update","I've been using Vertical Tabs for a couple of weeks, but ever since updating to *148.0.7778.168 (Official Build) (arm64)*, Quitting Chrome results in a crash whenever in Vertical Tabs mode. I've done all the crashing troubleshooting I can find:
+
+* disabling extensions 
+* disabled hardware acceleration
+* clearing cookies and cached data
+* completely reinstalled Chrome
+
+I can reliably cause this behavior after several clean (no crash) Quit cycles by switching to Vertical Tabs, then Quitting. 
+
+Has anyone observed the same behavior? Found a workaround to keep them enabled (other than tolerating the abnormal Quit cycle)?",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/chrome/comments/1tg8oxl/vertical_tabs_quit_crash_on_apple_silicon_since/
+B11-042,Fedora,Blender rpm too dark compared to Blender tarball you can get from the official website,"https://preview.redd.it/c4t1dn172e1h1.png?width=1920&amp;format=png&amp;auto=webp&amp;s=f6856136827f8997a1e4cd1f034909c84904cb6b
+
+[Blender rpm](https://preview.redd.it/4sj75iu92e1h1.png?width=1920&amp;format=png&amp;auto=webp&amp;s=047508901ae081e2ffcb893caf4b57bc192e080b)
+
+  
+Compared to:  
+
+
+https://preview.redd.it/37zsp27h2e1h1.png?width=1920&amp;format=png&amp;auto=webp&amp;s=b40cf4a7b694a49212a67385a5eceb5475c4dec2
+
+[Blender from blender.org](https://preview.redd.it/aqxxa7sk2e1h1.png?width=1920&amp;format=png&amp;auto=webp&amp;s=0a4d6ec2ef498d9d4195b812b13de3e592442f31)
+
+After a recent system update, It seems that the native version that integrates with KDE Plasma and the theme I use (Breeze Dark) is making Blender look much darker. How can I make the native Blender look the same as the Blender from blender\[.\]org?",,title_and_body,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/Fedora/comments/1tefo46/blender_rpm_too_dark_compared_to_blender_tarball/
+B11-043,Wordpress,Browser rendering issue,"I'm having a rendering problem on my homepage.  Individual post pages rendered properly on all browsers.
+
+I recently got notification that the latest Jetpack update caused a fatal error.  When I checked, everything seemed normal.
+
+But I didn't notice any rendering problem until a wk or so later when a visitor told me about it.  He noticed it in Opera.  I checked and there were other browsers with the same issue (though not all).
+
+I deactivated Jetpack &amp; some of those browsers which were not rendering properly reverted to normal behavior.  But I'm still having the issue w. mobile versions of Bing, Edge, Opera (both mobile &amp; desktop) &amp; Ecosia.
+
+I've purged the site cache and cleared the caches of all the browsers.
+
+Is there any known issue with this Jetpack update?  Any suggestions about how to address this?
+
+  
+**UPDATE**: It appears to be a conflict with LiteSpeed. I disabled it &amp; rendering returned to normal on all browsers.","[1:reply] Solved: [https://wordpress.org/support/topic/incorrect-rendering-of-homepage/](https://wordpress.org/support/topic/incorrect-rendering-of-homepage/)
+[2:reply] Did you purge the LS cache? Do you have “remove unused css” enabled? There are several settings/options in LS that will break your site.",title_body_comments,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/Wordpress/comments/1vnkv8i/browser_rendering_issue/
+B11-044,github,TPM 2.0 is not working,"https://preview.redd.it/mzhdjue0t7bg1.png?width=1080&amp;format=png&amp;auto=webp&amp;s=77fa8a0bbfd4472552dbe02ac76f8a5a99dc4129
+
+Hello, i've recently updated my BIOS (MSI B550-A PRO Motherboard) to the recent version and since then my TPM is not working. I've checked BIOS plenty times and everything is set up good. Even tried setting this up via PowerShell and CMD (still not working). Any tips?",,title_and_body,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/github/comments/1q38ybj/tpm_20_is_not_working/
+B11-045,openclaw,"Anyone experiencing high cpu/ram usage, delays in responding and gateway restarts in the last few versions, and use telegram, try this..","So since the last few updates, my claw was having spates of slowing right down, high cpu/ram, and eventually gateway restarts. Tried the latest update, no change. It would work great for periods of time though. Seen other posts on here just saying certain versions are broken. 
+
+I had it diagnose itself. Initially it pointed to the telegram integration (I run 3 bots so maybe more bots means more chance to crash?), but offered little. 
+
+Eventually, it did a deep dive and found it was occasionally getting ipv6 dns results for telegram. Since my stack isn’t ipv6 capable, it would fail, and this led to resource leaks.  
+
+\&gt; Night and day difference. The current PID (1843168) has been up for 5h 11m with:
+
+\&gt; • 0 liveness warnings  
+\&gt; • 0 ERROR-level log entries  
+\&gt; • 0 restarts  
+\&gt; • 0 sendChatAction failures or stuck sessions
+
+\&gt; Compared to the pattern before — crashing every few hours with 80-second event loop freezes, 52% CPU pinned, and \~9 crashes/day — it's running clean. CPU usage dropped from 52% to 4.4% too.
+
+\&gt; The 10:46 restart happened because the previous session (my long reply to you) was the one that got stuck. It wasn't the IPv6 fix that caused it — that was the old process dying from the backlog the earlier crash created.
+
+\&gt; Since the config took effect (10:46 restart), it's been rock solid. The fix is working.
+
+—————
+
+\&gt; Found it. The Telegram doc explicitly mentions this. On Node 22+, OpenClaw defaults to autoSelectFamily: true (tries IPv4 and IPv6 simultaneously), and dnsResultOrder defaults to ipv4first. The problem is autoSelectFamily: true means it attempts IPv6 connections — and when those fail with ENETUNREACH, it cascades into event loop chaos.
+
+\&gt; I'll set both autoSelectFamily: false (forces IPv4 only) and dnsResultOrder: ""ipv4first"" (as a belt-and-suspenders)",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/openclaw/comments/1t1hlqc/anyone_experiencing_high_cpuram_usage_delays_in/
+B11-046,MicrosoftEdge,Edge black bar on tabs?,Anyone else having this issue or seeing that annoying black bar? Is it an update? Bug?,,title_and_body,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/MicrosoftEdge/comments/1rfd6ub/edge_black_bar_on_tabs/
+B11-047,sysadmin,Anyone else getting a rooted error message from MS Authenticator?,"I've got 3 users, including me, who have applied the most recent June 26th Software update on Samsung devices (all relatively new, mine is a 24 Ultra, I've got someone running an S23 and an S25).
+
+After the update, Microsoft Authenticator is claiming the devices are rooted and that they can't use it anymore for work accounts. I know for a fact mine isn't rooted, I have no interest in that crap. Another one is definitely not rooted -- that user can barely find the Microsoft Authenticator app every time it prompts them. all of the users' MS Authenticator apps are up to date from the Play Store.
+
+Is anyone else seeing this? Is this a setting or missing/disabled app on the phone?","[1:reply] Just installed the update on my 26u and while i can't check the ms auth, every other root sensitive app I use (banking, other auth etc) work as expected.
+[2:reply] I have had multiple users report it's not working for them. Quick Assist seems to be down as well.
+[3:reply] MS Authenticator has also been hit and miss for me. It has overly aggressive root checking that kicks in only after you add an account (it will work fine immediately after resetting app storage). I'm guessing it picks up on things like developer settings.
+[4:reply] /u/Jguy1897 have you tried this?
+[5:reply] This is why I just use google authenticator, the MS one is hot garbage.",title_body_comments,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/sysadmin/comments/1uvdwwa/anyone_else_getting_a_rooted_error_message_from/
+B11-048,applehelp,Apple Music unknown error,"Recently my windows app Apple Music stopped loading my Home Screen, saying unknown error, and would only play my local files. I tried to sign out today and see if that fixed it and now I can’t sign back in, but the browser and phone app work… is this a problem for everyone? I have the latest windows and app version updated. I just want to add some more local files and I don’t wanna uninstall and lose anything (if uninstalling would even help). I don’t have some third party vpn downloaded or anything like that running.",,title_and_body,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/applehelp/comments/1uz7yqg/apple_music_unknown_error/
+B11-049,applehelp,wallpaper keeps turning black?,"this has been driving me crazy, i think the first time i noticed it was after one of the recent updates. i’ve had several different light colored wallpapers selected and they just end up with a very dark, almost black tint. i have tried this with light and dark mode on my phone, and both have the same result. 
+
+is there any fix for this?",,title_and_body,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/applehelp/comments/1sbyvtr/wallpaper_keeps_turning_black/
+B11-050,firefox,Firefox Android - weird unused space after latest update (145.0),"After the latest update, this bar appeared. The Firefox logo was right under the search bar and now it suddenly isn't. Is this intentional or a bug?
+ 
+Downloaded from Google Play Store on S25 Ultra running One UI 8 (145.0 Build #2016124727)",,title_and_body,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/firefox/comments/1oui6ae/firefox_android_weird_unused_space_after_latest/
+B11-051,MacOS,Random problems now,"since last update I keep getting notices that this and that app will no longer work with this version OS.  I figured I’d wait until I actually had an app not work and then deal with it because there appear to be so many that are now incompatible. 
+
+last night my VPN Surfshark suddenly could never connect.  it just kept cycling over and over.  I finally deleted it and reinstalled but could never get it to work.  This morning I reinstalled again and it seems to work.  But now I can’t login to WeChat.  
+
+When I checked info on both apps, they are universal so should work   
+
+so my question is, is any of this related or is it all just a coincidence?   I’m just wondering if there is a bug I don’t know about or I’m just having a bad couple of days.  
+
+thanks!","[1:reply] Because os 27 will not run intel code. Update the apps, or if not possible, never update to os27
+EDIT: click on the app icon, then get info (cmd i) and select silicon or deselect Rosetta
+[2:reply] OS 27 will though, it's 28 that won't
+[3:reply] Same. The only difference is that the app is no longer exist in my Mac. But the notification still there. M5 Macbook Pro, Tahoe 26.5",title_body_comments,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/MacOS/comments/1thmfvu/random_problems_now/
+B11-052,google,Looks like the Google Speech to Text issues have been fixed with the new update,"I have been having issues for years... bad translation, stopping in mid sentence. I clearthe the storage of Speech Recognition and Synthesis and updated the app and it seems to be working much better now. YMMV but I hope it is fixed for everyone. It was damn near unusable.",,title_and_body,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/google/comments/1ufov23/looks_like_the_google_speech_to_text_issues_have/
+B11-053,applehelp,MacBook Pro 2019 stopped working after the latest update,"So i have the MacBook pro i9 from 2019. It was working amazingly, till 3 days ago, i updated and he didnt Turn on, not even charged. Today he charged for a bit, showed a error (couldnt take a photos cause he didnt have battery) and stopped working again. Any tips/help. Thanks",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/applehelp/comments/1s1sdbu/macbook_pro_2019_stopped_working_after_the_latest/
+B11-054,android,Android Studio: “Unable to open debugger port / VMDisconnectedException”,"Since my last upgrade to Android Studio Otter 2025.2.1, Gradle 8.13.1, and ADB 1.0.41 (Version 36.0.0-13206524), debugging via Wi-Fi has been rendered entirely useless. Sure, Wi-Fi debugging was always a bit buggy, but this update seems to have completely destroyed it. If anyone knows anything else to try—besides adb kill-server and disabling Windows anti-spy features in the registry—I’d appreciate it. Thanks.",,title_and_body,yes,yes,other,low,The post appears to discuss software without a clear troubleshooting or chiefly critical purpose.,,,,,,,https://stackoverflow.com/questions/79832055/android-studio-unable-to-open-debugger-port-vmdisconnectedexception
+B11-055,Ubuntu,Dual booting Ubuntu and windows - security update (KB5121003) failed,"Anyone else is having issues with installing the latest security update on windows 11?
+
+I tried to bypass grub menu or installing it manually but didn't work.
+
+I was getting error 0x80070306 which I fixed with command 'sudo mokutil --set-sbat-policy delete' in Linux terminal.
+
+Then I got error 0x800f0993. I run 'sfc /scannow' in windows terminal. I tried installing the update manually again but it didn't work.",[1:reply] I think my answer could not be helpful much. But I believe that dual-boot is always risk that something like that happens..😕,title_body_comments,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/Ubuntu/comments/1vne8rd/dual_booting_ubuntu_and_windows_security_update/
+B11-056,Kubuntu,Up to the minute status on Kubuntu with a Firefox that doesn't self-update.,"I'm running Kubuntu 25.10. To my horror, when I installed it 2 months ago I found out that Firefox was installed as a snap, and anything installed as a snap updates itself whenever there's a new version - approximately every two weeks for Firefox.
+
+This is not OK with me, for a list of reasons I won't bore you with here.
+
+My question is what is *currently* the best option for getting a web browser on a linux system that will never self-update, given that I want the least pain/churn possible in making this change (i.e. I'd prefer to stay with both kubuntu and firefox *if possible*.) I also don't want to store up future pain, e.g. when I upgrade Kubuntu to its next LTS release, or possibly keep moving from point release to point release.
+
+I am aware of the following:
+
+1. A mechanism to disable snap's forced upgrades. See e.g. [https://snapcraft.io/blog/hold-your-horses-i-mean-snaps-new-feature-lets-you-stop-snap-updates-for-as-long-as-you-need#:\~:text=The%20really%20cool%20part%20about%20the%20new%20functionality%20is%20that%20it%20still%20allows%20you%20to%20manually%20run%20snap%20refreshes%2C%20for%20either%20the%20entire%20system%20or%20specific%20snaps](https://snapcraft.io/blog/hold-your-horses-i-mean-snaps-new-feature-lets-you-stop-snap-updates-for-as-long-as-you-need#:~:text=The%20really%20cool%20part%20about%20the%20new%20functionality%20is%20that%20it%20still%20allows%20you%20to%20manually%20run%20snap%20refreshes%2C%20for%20either%20the%20entire%20system%20or%20specific%20snaps)
+2. The possibility of installing Firefox as a .deb. See e.g. [https://www.reddit.com/r/Kubuntu/comments/1butu0a/2404\_firefox\_as\_deb\_or\_snap/](https://www.reddit.com/r/Kubuntu/comments/1butu0a/2404_firefox_as_deb_or_snap/) which discusses some of the downsides. It look like (k)ubuntu's firefox .deb is a pointer to the snap, thus requiring me to use an ""untrusted"" PPA, which *will be disabled by default when release-upgrading* presumably leaving me with no web browser after each upgrade, and thus unable to easily use the web to determine how to re-enable the PPA and re-install a non-self-updating web browser.
+3. I guess option (3) would be building firefox from source, installing it from a binary tarball, or similar - whatever won't be broken as a side effect of release-upgrade.
+4. Or I could install some other browser, perhaps even a closed source one (i.e. Chrome), to work around firefox-from-PPA's presumed unavailability immediately after release-upgrade
+5. Or I could hold the system at 25.10 forever, and live without support.
+6. Or I could move to another distro. I imagine Manjaro lacks forced updates, but still supports both Firefox and KDE.
+
+As you can imagine, I'm leaning towards option (1), though I'd really prefer to use a .deb rather than a .snap
+
+What I want to know is:
+
+1. What's changed since the information I found
+2. What I've misunderstood about the behavior of release-upgrade on Kubuntu. (Maybe it won't delete or otherwise disable the firefox installed from a PPA it doesn't like.)
+3. Anything else I didn't have the wit to ask.
+
+Thanks in advance for any enlightenment.",,title_and_body,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/Kubuntu/comments/1s4o31y/up_to_the_minute_status_on_kubuntu_with_a_firefox/
+B11-057,Supabase,Can't serve edge functions in the new version of Supabase CLI because of the edge-runtime.d.ts import line,"Hi
+
+&gt; **FIXED**: The issue is fixed. I just had to close everything (Supabase, Docker, ...) and restart my Mac completely and relaunch everything from scratch. Now having the line import ""@supabase/functions-js/edge-runtime.d.ts"" does not cause any issues.
+
+I have upgraded the local Supabase CLI to v 2.75.0 and noticed that there is a possible bug in the code. None of my edge functions worked fine so I decided to debug it.
+
+I ran `supabase functions new foo` to create a new clean function. When I run the curl code in the terminal (with no modification to the file), the function throws this error:
+
+```
+{
+  ""code"":""BOOT_ERROR"",
+  ""message"":""Worker failed to boot (please check logs)""
+}
+```
+and in the Docker logs, I see this:
+
+```
+serving the request with supabase/functions/foo
+
+worker boot error: failed to create the graph: Relative import path ""@supabase/functions-js/edge-runtime.d.ts"" not prefixed with / or ./ or ../
+```
+
+When I remove this line, the function works fine:
+
+```
+import '@supabase/functions-js/edge-runtime.d.ts'
+```
+
+This line must be new because it used to look like this before:
+
+```
+import 'jsr:@supabase/functions-js/edge-runtime.d.ts'
+```
+
+Why is this line causing this issue?
+
+Thanks",,title_and_body,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/Supabase/comments/1qw3fqy/cant_serve_edge_functions_in_the_new_version_of/
+B11-058,ios,"Tried to update to latest iOS 18, but the option disappeared? Help?","I was trying to updated my device (iphone 13 pro) to iOS 18. I had two update options, one being the latest iOS 18 and the other being iOS 26. I dont typically like downloading beta iOS versions due to bugs and battery drain. I downloaded iOS 18, but after requesting the update and downloading, I only have the option to install iOS 26? Am I softlocked into updating to iOS 26 now? Why did the option for iOS 18 go away? Help?",,title_and_body,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/ios/comments/1ozmcga/tried_to_update_to_latest_ios_18_but_the_option/
+B11-059,AZURE,OS upgrade,"Hey everyone,
+
+I have a Windows 11 21H2 VM that is already out of support, and I am planning to upgrade it to 23H2 or 24H2. I am looking for some community input on the best way to handle this since Windows Update isn’t offering the upgrade.
+
+**My Setup:**
+
+* Virtual Machine (not physical).
+* Goal: In-place upgrade (keeping all apps and data).
+* Current roadblock: Windows Update is not working/offering the new version.
+
+**I am currently considering:**
+
+1. Mounting the ISO and running setup.exe
+2. Using the Windows Installation Assistant.
+3. Clean install (as a last resort).
+
+**A few questions for those who have done this:**
+
+* Which method worked most reliably for you in a VM environment?
+* Did you run into issues with drivers, VM tools, or compatibility?
+* Did you need to bypass TPM/Secure Boot checks for the VM?
+* Any ""gotchas"" I should check before I start?
+
+I would really appreciate any tips, especially from anyone managing multiple VMs in an enterprise environment. TIA!",,title_and_body,yes,yes,other,low,The post appears to discuss software without a clear troubleshooting or chiefly critical purpose.,,,,,,,https://reddit.com/r/AZURE/comments/1s3r9jj/os_upgrade/
+B11-060,firefox,Reddit doesnt work at all,"Reddit only works if i open an private tab, while in a normal session reddit doesnt work at all, only old.reddt.com works apparently
+
+i tried everything i have no idea why it doesnt work on a normal session, does anyone have experienced this problem before?
+
+what happens is: i open reddit and it gets stuck on an inifite loading state, if i open an specific post the post loads but comments nor the rest of the page loads, old reddit seens to be unafected by this (since im posting this from old reddit)
+
+im using firefox developer edition, it just started bugging like this after nowhere, i havent updated my browser or done nothing out of the ordinary",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/firefox/comments/1te90if/reddit_doesnt_work_at_all/
+B11-061,firefox,WTF!? Why did the Address Bar and Toolbar get so unnecessarily bigger after the latest update? The UI update is fine but why make it bigger? It size was fine earlier. This looks terrible and takes up unnecessary space.,How to revert it back? Is it possible? How do I give this feedback to the Firefox or Mozilla developers?,"[1:reply] As I've said, it feels like Nova is being introduced because of fashion in UI/UX design, not because of usability. The need for apps to respect screen real estate, and not gobble it up with cute UI elements, has not changed in recent times. 
+
+It's a mistake. It feels like a regr…
+[2:reply] Like every single redesign I have ever seen.
+[3:reply] Isn't it amazing how the new address bar takes up more space, but displays less of the actual address?
+[4:reply] I absolutely detest the curved corners too. 🤮
+[5:reply] There's a simple and expanded view options.  Also, bottom web address field uses less space I think",title_body_comments,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/firefox/comments/1tmik7h/wtf_why_did_the_address_bar_and_toolbar_get_so/
+B11-062,immich,"""Error occurred"" after Android app update","The Android app was updated on my phone. When I opened it, I got this error:
+
+- https://i.haasie.com/k7Z.jpg
+
+I closed the app, opened it again, and it was working normally.
+
+Posting it here for the dev's awareness in case there's some migration going on and failing in some cases. The server was still running the most recent immich 2.7.x, if that matters.",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/immich/comments/1ulsqej/error_occurred_after_android_app_update/
+B11-063,applehelp,Roll back from liquid arse,"How do I roll my iPhone 15 back off of liquid ass? ever since that update came out, my phone's capabilities have been degraded, and it keeps getting worse with every ""update"". These issue started minutes after the ""update"" was installed. Some of the issues include
+
+* wifi disconnecting for no reason. I have to turn WiFi off and back on and sometimes it will reconnect, other times I can't use WiFi for 30 minutes or more. 
+* text to speech is degraded. It keeps picking up words that I don't say and aren't even close to anything I've dictated. 
+* sometimes when I press the microphone for text to speech it activates  immediately  it. This behavior continues until I restart my device. 
+
+Apple's  of  is asinine because they keep having me do the same troubleshooting steps again and again and again without actually solving the problem and I'm done with it. All I want is my phone to go back to the previous version before liquid ass was released and any help in making that happen would be greatly appreciated.","[1:reply] You can’t downgrade from iOS 26, previous versions are unsigned. Inside of Settings &gt; Accessibility &gt; Display &amp; Text Size you can switch on Reduce Transparency. Also on the Home Screen you can long press to enter “jiggle mode” tap on Edit in the upper left, then Custom…
+[2:reply] You don’t. And it doesn’t get worse with every update. Stop being dramatic.
+[3:reply] These problems are not related to iOS 26.
+[4:reply] No, he is objectively correct. You just have a different framing of the issue so it isn’t noticeable to you. 
+
+OP is 100000% correct. Apple will admit that newer software will run “worse” on older devices. Not everyone has a brand new iPhone. So, newer updates WILL  
+OBJECTIVELY…",title_body_comments,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/applehelp/comments/1v3z3qi/roll_back_from_liquid_arse/
+B11-064,AndroidQuestions,how to fix hard bricked android - Qualcomm 9008/EDL,"Hey guys, my boyfriend’s phone (he calls it “Sweetin”) randomly stopped working while it was updating. The screen went black, and it never turned back on. He waited around 10 minutes, then 30, but nothing happened. He connected it to his laptop and checked it, and it shows up as **Qualcomm 9008 / EDL mode**. 
+
+From what he understands, it requires an authorized account to flash it in this mode, unless there are other workarounds.
+
+He’s really stressed and I don’t know much about this stuff, but really want to help him out. If anyone has dealt with this or knows what options he has, please help. Is there anything safe he can try himself, or does it need to go to a repair shop?","[1:reply] This happened to me before, what's his full phone model?
+[2:OP] i’m not 100% sure i think it’s Xiaomi Redmi Note 10 Pro or Redmi Note 10 Pro Max",title_body_comments,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/AndroidQuestions/comments/1uqy8hg/how_to_fix_hard_bricked_android_qualcomm_9008edl/
+B11-065,comfyui,ComfyUI Assets tab not showing generated images anymore (portable version),"Hello,
+
+I'm using ComfyUI portable (v0.18.1) and experiencing two issues:
+
+**Issue #1: Multiple ""Loading Error"" toasts on startup**
+
+Every time I start ComfyUI, I get about 10+ error notifications saying ""A required resource failed to load. Please reload the page.""
+
+https://preview.redd.it/ffp4rk8j45ug1.png?width=428&amp;format=png&amp;auto=webp&amp;s=aba1fff5310bb58e278458a323a5613ab5198b08
+
+**it shows when i startup / reload the page**
+
+Despite these errors, workflows still run and complete successfully.
+
+**Issue #2: Assets tab not showing generated images**
+
+Until recently, generated images appeared under the Assets tab. Now nothing shows up there after generation - I can only view images through the job queue.
+
+**What I've already tried:**
+
+* Updated all custom nodes via Manager
+* Images are saving to the `temp` folder (which gets deleted on ComfyUI close)
+* This was the same folder behavior when it was working before
+
+1. Is there a way to verify all required frontend files exist and aren't corrupted?
+2. Could these loading errors be related to the Assets tab not populating?
+
+Any help troubleshooting this would be greatly appreciated!",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/comfyui/comments/1sglnsp/comfyui_assets_tab_not_showing_generated_images/
+B11-066,MicrosoftEdge,Downloads pane - removal is a bad regression in workflow,"**Title:**    
+Downloads panel no longer pins to the right sidebar — regression in Stable 144.0.3719.92
+
+**Category:**    
+Browser → User Interface → Downloads
+
+**Description:**    
+After updating to Microsoft Edge Stable **144.0.3719.92**, the Downloads panel no longer supports pinning to the right sidebar. The behavior has changed to a floating pop‑over that cannot be docked or kept persistent. This is a regression from previous Stable builds, where the Downloads pane could be pinned and remained visible during browsing.
+
+This change significantly disrupts workflows that rely on monitoring multiple downloads, interacting with downloaded files, or keeping the panel open while navigating between tabs.
+
+**Expected behavior:**    
+The Downloads panel should be able to **pin** to the right sidebar and remain docked until manually closed, consistent with prior Stable behavior.
+
+**Actual behavior:**    
+The Downloads panel appears only as a floating pop‑over.  
+There is **no option to pin** it to the sidebar.  
+The panel closes automatically when clicking outside it.
+
+**Repro steps:**
+
+1. Update to Edge Stable **144.0.3719.92**.
+2. Click the Downloads toolbar button.
+3. Observe that the panel opens as a floating pop‑over.
+4. Attempt to pin the panel — no pin icon or docking option is available.
+
+**Notes:**
+
+* This behavior changed immediately after the 144.0.3719.92 update.
+* No Windows updates affecting Edge UI were installed at the same time.
+* Other users are reporting the same regression (example: Reddit thread).
+* This may be an unintended UI regression or an A/B experiment that removed the pinning option.
+
+**Impact:**    
+High workflow disruption for users who rely on a persistent Downloads pane for file management, monitoring, and multi‑tasking.
+
+**Request:**    
+Please restore the ability to pin the Downloads panel to the sidebar, or confirm whether this is an intentional UI change.
+
+**System details:**
+
+* Microsoft Edge Stable **144.0.3719.92**
+* Windows 11 (version and build auto‑included by Feedback Hub)",,title_and_body,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/MicrosoftEdge/comments/1qnld5k/downloads_pane_removal_is_a_bad_regression_in/
+B11-067,MicrosoftEdge,Copilot keeps opening in Bing instead of the Edge sidebar — scrolling completely broken,"I’m trying to use Copilot in the Edge sidebar, but Edge keeps forcing Copilot into a full Bing page instead. When it does this, the UI breaks completely:
+
+* Copilot shows **“CHAT”** instead of “Copilot”
+* There’s **no scrollbar**
+* Only a **jump‑to‑bottom arrow**
+* The conversation becomes impossible to navigate
+* It refuses to open in the actual sidebar
+* Every Copilot click redirects to [**bing.com/search**](http://bing.com/search)
+* Multiple tabs show **uxmode=ruby**, even though I never enabled it
+
+I’ve tried restarting Edge, clearing cache, disabling extensions, resizing the window — nothing fixes it. Copilot works fine *when* it opens in the sidebar, but Edge keeps forcing Bing mode and breaking the UI.
+
+Is anyone else dealing with this? Is this a known bug with the latest Edge update? Any permanent fix besides toggling the “Copilot in Bing” setting on/off?
+
+This is making Copilot basically unusable for real work.
+
+I",,title_and_body,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/MicrosoftEdge/comments/1wtk64v/copilot_keeps_opening_in_bing_instead_of_the_edge/
+B11-068,Wordpress,Rank Math SEO Panel Not Showing on Category Pages — Is This a Bug or Intentional?!,"I’m really frustrated with Rank Math (even the PRO version). The external SEO analysis bar simply doesn’t show up on category/rubric pages, and it seems like this is “by design.” But why?!
+
+I’ve checked:
+
+	•	Analytics module is enabled ✅
+
+	•	SEO Title &amp; Meta Description are configured for categories ✅
+
+	•	Updated to the latest version ✅
+
+	•	No plugin conflicts ✅
+
+	•	Even PRO version doesn’t help ❌
+
+SEO specialists on Reddit, please help! Is there a workaround or a hidden setting to enable the SEO panel on category pages? Or is this just a major limitation of Rank Math that nobody talks about?
+
+Any solutions or workarounds would be greatly appreciated! 🙏","[1:reply] Go to RankMath SEO -&gt; Title and Meta -&gt; Category (under post), And enable SEO Control toggle.",title_body_comments,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/Wordpress/comments/1tozw50/rank_math_seo_panel_not_showing_on_category_pages/
+B11-069,applehelp,Freezing/lagging since Tahoe update,"I just updated from Sequoia to Tahoe (26.3) a couple of days ago on my Mac mini M2. Since then, I’m having a lot of trouble with Finder and Apps.app freezing, as well as certain apps not opening at all (e.g. MS PowerPoint). Additionally the cursor is extremely laggy to the point of almost being unusable. Sometimes the whole system freezes completely (cmd+opt+esc +/- shift does nothing) and requires a hard reset with the power button.
+
+Things I’ve tried:
+
+\- Turned off Spotlight ‘Show Related Content’ and ‘Help Apple Improve Search’
+
+\- Looked for \~\\Library\\Metadata\\CoreSpotlight folder to delete contents however no Metadata folder exists
+
+\- Booted in Safe Mode - lag persisted
+
+\- Checked another user profile - same issues
+
+\- Reinstalled Tahoe - same issues
+
+\- I don’t have a Time Machine backup
+
+\- Disk Utility first aid
+
+Nothing has worked and I’m just shy of tossing the POS out the window. Anyone had similar issues and success with any other fixes?",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/applehelp/comments/1rjeayy/freezinglagging_since_tahoe_update/
+B11-070,firefox,Firefox Update broke history?,"I'm not sure if it's just me or what, but ever since the last two updates, I've noticed that history is basically nonfunctional from the sidebar.
+
+Nothing I type or try to search works at all. Like I even tried to search YouTube of all things, and it cannot be found. But when I don't use the sidebar and just pull up the full history panel, everything shows up.
+
+I didn't see anyone else commenting on this, so does anyone have any clues?
+
+https://preview.redd.it/rc02gy87tr9h1.png?width=840&amp;format=png&amp;auto=webp&amp;s=2d99d1dfb417a1fb735187e8e056d8cd06679af0
+
+Edit: I've already tried troubleshooting mode, it doesn't change anything even with all add-ons disabled.  
+Edit 2: Thank you, I understand the issue (bug 2043614) and will just wait for an update I guess.","[1:reply] This is a bug. 2043614 - History search not working when sorting by ""Website and date"" or ""Last visited"" [https://bugzilla.mozilla.org/show\_bug.cgi?id=2043614](https://bugzilla.mozilla.org/show_bug.cgi?id=2043614)
+[2:OP] Thank you, u/moko1960's comment about bug 2043614 is the issue.
+[3:reply] Sorry, can't help with this, but I'm on 152.03 and not having that issue.  Sidebar history search is functioning.  Maybe try clicking the the 3 dots and changing the sort order",title_body_comments,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/firefox/comments/1ugux7p/firefox_update_broke_history/
+B11-071,linuxquestions,Enlisted broken on Linux after Scorching Rays update — Intel Iris Xe DX12 error 0x80004001,"Hey, anyone else on Linux with Intel integrated graphics having issues since the Scorching Rays update?
+
+
+
+Setup: Ubuntu 24, Intel i5 11th gen, Intel Iris Xe integrated GPU
+
+It is not a performance issue as far as I am concerned. The game ran just fine a couple of months ago and I dont have any stutters. Also I have that battlenet proton thing installed allready.
+
+I'm guessing the Scorching Rays update changed how DX12 is initialized (probably related to the new RT pipeline) and it broke something for Intel iGPU users on Linux, even with ray tracing completely off.
+
+https://preview.redd.it/1l94q7xvt32h1.png?width=1920&amp;format=png&amp;auto=webp&amp;s=fc3fa613ffaf9a7c5a25e94c33c188055f9f9b9f
+
+This is what the game looks like when taking a screenshot. I can still get killed. I dont get kicked.
+
+https://preview.redd.it/qh46z259u32h1.png?width=1920&amp;format=png&amp;auto=webp&amp;s=73b4f776daa764664c9bc9f7832d17ec126e9f56
+
+I even can get kills apearantly.
+
+https://preview.redd.it/8svjmxobu32h1.png?width=1920&amp;format=png&amp;auto=webp&amp;s=dabfb4f0e15c9833d8390ffd8b86552a0d09277f
+
+I also got that red error message. Thanks. I have used multiple proton versions as well.",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/linuxquestions/comments/1thowwi/enlisted_broken_on_linux_after_scorching_rays/
+B11-072,Ubuntu,24.04 LTS display crash?,After logging in the display turns brown. This doesn't happen when entering recovery mode and only started recently after new updates. I have a Radeon 6800xt and can dual-boot into Windows without issue. Does anyone have any idea where to start? Could it be network related (timezone issues)?,"[1:reply] classic amd driver moment on ubuntu. the brown screen usually means something went sideways with the display compositor after those updates
+
+  
+try at grub menu to boot with nomodeset parameter, that will force basic display drivers and should let you log in normal. if it works…
+[2:OP] using \`nomodeset\` works, so I guess I need to fix those drivers somehow. Thanks!",title_body_comments,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/Ubuntu/comments/1vnubvj/2404_lts_display_crash/
+B11-073,software,"PSA: If your Windows is freezing every 10 seconds, try disabling TranslucentTB (Conflict after recent update)","TranslucentTB makes your taskbar transparent. I have used it for over a year now. I really like this software.
+
+After a not so recent Windows 11 update my screen started to freeze for every 10 seconds. It happened half the time I booted my laptop, at first it was only a minor inconvenience, then it started to get me. I was really worried that it might be my SSD getting corrupted or the display connection becoming defective/loose. 
+
+I did some diagnostics and changed some settings in the windows, nothing worked. I then started disabling applications that were running in the background one by one. Quitting TranslucentTB fixed it for me. 
+
+This might not be an issue for everyone. I'm making this post just in case someone has the same issue now or in the future so they can find this.",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/software/comments/1ua7cav/psa_if_your_windows_is_freezing_every_10_seconds/
+B11-074,debian,Did Debian official repo (trixie-backports) just got compromised or my system?,"While trying to install `duplicity` I got the following, somewhat chilling error:
+
+&gt; [WARNING]: Failed to update cache after 1 retries due to W:Repositories should provide a clear-signed InRelease file, but none found at mirror+file:/etc/apt/mirrors/debian.list/dists/trixie-backports/InRelease., W:OpenPGP signature verification failed: https://deb.debian.org/debian trixie-backports Release: Sub-process /usr/bin/sqv returned an error code (1), error message is: Verifying signature:            Message has been manipulated Verifying signature:            Message has been manipulated, E:The repository 'mirror+file:/etc/apt/mirrors/debian.list trixie-backports Release' is no longer signed., retrying
+[WARNING]: Failed to update cache after 2 retries due to W:Updating from such a repository can't be done securely, and is therefore disabled by default., W:See apt-secure(8) manpage for repository creation and user configuration details., W:Repositories should provide a clear-signed InRelease file, but none found at mirror+file:/etc/apt/mirrors/debian.list/dists/trixie-backports/InRelease., W:OpenPGP signature verification failed: https://deb.debian.org/debian trixie-backports Release: Sub-process /usr/bin/sqv returned an error code (1), error message is: Verifying signature:            Message has been manipulated Verifying signature:            Message has been manipulated, E:The repository 'mirror+file:/etc/apt/mirrors/debian.list trixie-backports Release' is no longer signed., retrying","[1:reply] it's referring to a local repository:
+
+'mirror+file:/etc/apt/mirrors/debian.list trixie-backports Release' 
+
+disable that and try again.
+[2:reply] That would be `apt distclean` - apt clean just empties your package cache  :)
+[3:reply] The `InRelease` file is downloaded from the mirror, and a copy is placed in `/var/lib/apt/lists` with the name of the mirror prepended. You can safely remove all files in that directory, `apt update` recreates the (relevant) content.
+
+The Release files are signed by Debian's arc…
+[4:OP] &gt; And it's not necessary for anything to be compromised here, it might just be an ordinary non-security problem too.
+
+I can see it if the signature file got corrupted during transmission over the network or the mirror was simply down for a very brief moment or smth like that.…
+[5:reply] `apt clean` removes the indexes, and `apt update` will then download fresh copies next time.",title_body_comments,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/debian/comments/1v566pa/did_debian_official_repo_trixiebackports_just_got/
+B11-075,openclaw,My Agent Randomly Broke and wont Perform Actions Anymore!,"Didnt really do anything besides update openclaw. Now when I ask it to do something, it says its gonna do something and never actually gets to it. Example:
+
+me: Check for updates
+
+agent: checking
+
+me: what version of openclaw are we on
+
+agent: checking now
+
+Im on latest version of openclaw and 5.4 codex. saw same issue on 5.3 codex too.",,title_and_body,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/openclaw/comments/1sg5ojk/my_agent_randomly_broke_and_wont_perform_actions/
+B11-076,Ubuntu,"PSA: Ubuntu 26.04 ""Unattended Upgrade"" wiped my /etc/default/grub. Back yours up!","Just a heads-up for anyone running 26.04. I have two identical Intel 13i7 NUCs. Both ran an unattended upgrade today installing the new kernel. 7.0.0-15. 
+
+one updated normally, the other got ""stuck"" during the process. After a hard reboot, I noticed my splash screen was gone and I was getting scrolls of kernel text.
+
+Upon investigation, /etc/default/grub on the second machine was completely empty. Because the file was empty, the system defaulted to a verbose boot with no quiet splash and the GRUB menu started appearing with a timeout.
+
+I was able to restore it by copying the config from my healthy machine and running sudo update-grub.
+
+Recommendation: Take 5 seconds and back up your GRUB config now just in case:
+
+`sudo cp /etc/default/grub /etc/default/grub.bak`
+
+If you've noticed your splash screen suddenly disappeared or your boot parameters (like zswap or USB power settings) aren't loading, check if your file was wiped!
+
+I think this bug has been reported but I can't tell for sure so I'm in the process of reporting it now.",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/Ubuntu/comments/1sz9tqy/psa_ubuntu_2604_unattended_upgrade_wiped_my/
+B11-077,applehelp,Bluetooth problems,"Hello Guys
+
+I am kinda upset. My iPhone 13 which bought used 1 year ago, has really bad bluetooth connectivity problems since the iOS26 update.
+
+I  cant connect to my Airpods (sometimes it will connect but instantly deconnect) and also cant connect with my bluetooth box or any other bluetooth devices.
+
+To be fair: this iPhone is used and has some used parts in it. I didnt treat it so well, thatswhy the backcover is broken. I guess there is also no guarantee on it anymore. 
+
+But: All the problems with the bluetooth connectivity only started after the last update 😩😩😩
+
+Its really annoying and i want to ask you guys here, if anyone has the same issues or had them and solved them or has an idea, what I could do
+
+thanks 🙏🙏🙏",,title_and_body,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/applehelp/comments/1r4heq9/bluetooth_problems/
+B11-078,AndroidQuestions,Split screen not working,"# 
+
+Hi, I'm using Camon 40 pro 4G. I'm unable to use split screen for the apps.
+
+1. For workaround I tried to enable force resize of apps from the developer option, but nothing worked.
+2. There is no option from the recent apps menu to enable split screen for any app.
+3. I used some external launchers before, but all of them are now uninstalled.
+4. I tried to get help from ChatGPT, Gemini but no workarounds helped me.
+5. I know there are some third party apps to use split screen, but I don't want to use them.
+6. I am updated to the latest Android and HiOS version with the July patch update
+
+Please help guys",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/AndroidQuestions/comments/1vwcub1/split_screen_not_working/
+B11-079,MicrosoftEdge,Microsoft Print To PDF not working in Edge.,"Hi, just to make a sanity check. we just updated to Version 154.0.4258.37 (Officielt build) (64-bit) and now Microsoft Print to PDF does NOT work in EDGE, and only EDGE. it works if i use the PDF printer anywhere else.","[1:reply] This has been reported elsewhere....
+[2:OP] Yea, now that I scroll down I see them, was not able to find them with search 🤷
+[3:reply] Really sorry for this break- we rolled out a fix in 154.0.4258.48 this morning. Thank you for reporting and we’ll learn to do better.
+[4:reply] Confirm that 154.0.4258.48 works. Thanks.
+[5:reply] also having the same issue in our environment",title_body_comments,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/MicrosoftEdge/comments/1ws8aib/microsoft_print_to_pdf_not_working_in_edge/
+B11-080,Ubuntu,HUGE memory leak on Ubuntu 25.10 after some updates,"Idk what update caused this, but yesterday, when I started playing Dota after 5min of the game, my system froze in 5 minutes, and I had to hard reset my laptop.
+
+Then I opened the game again and noticed stutters that started after 3min of the game, I opened system monitor and saw that Steam+Dota only already ate 30 out of 32gb of my RAM
+
+killalll dota/steam did not help, it just freed 7-8gb of ram but a lot more were cached and did not freed. It only resets if I end my session
+
+ChatGPT is useless and couldn't help me find the cause. I play every day, and I also install system updates if they come up. I guess some updates broke everything
+
+I restored Timeshift backup from Thursday when there were no issues, but it did not help to fix memory leak. Any suggestions?
+
+Ubuntu 25.10 wayland GNOME  
+intel core i7 8750h  
+geforce gtx1060m  
+NVIDIA Driver 580.126.09  
+Linux 6.17.0-19-generic",,title_and_body,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/Ubuntu/comments/1s0p099/huge_memory_leak_on_ubuntu_2510_after_some_updates/
+B11-081,chrome,clip-path is now completely broken on just the latest chrome update!,"Im a web dev, my site was working perfectly until I updated chrome today the clip path animations/transitions (transitions api) now stopped working.. it is still working perfectly on safari and firefox but not on chrome anymore","[1:reply] Having a similar issue on Mac Chrome - clip path animations do not work. Though, they work on Firefox and Safari. Also they work on Ubuntu Chrome and Windows Chrome. It seems like the issue happens only on Mac Chrome.
+[2:OP] sadly I didnt know they would work on windows so I just removed the complete feature..",title_body_comments,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/chrome/comments/1v1u6cd/clippath_is_now_completely_broken_on_just_the/
+B11-082,applehelp,iPhone 11 Pro lag,"hi, my iPhone 11 Pro on ios 26.3.1 starting about a month back has been very slow and buggy lately. it will often tap random parts of the screen, close out of apps, or turn itself off. it aslo overheats very quickly. I bought this phone used about 2 years ago. the battery is at 86%, storage is olny around 60% full. I don’t use my phone often. any advice would be appreciate. I tryed resetting the phone and updating multiple times.
+
+  
+update: my phone aslo says it’s not activated every few weeks but has been doing that for the 2 years Iv had it and worked fine untell last month. It aslo dose not let me do anything to activate it, but I’m not sure if this is related to The main issue.",,title_and_body,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/applehelp/comments/1sjpy8w/iphone_11_pro_lag/
+B11-083,sysadmin,Dell iDrac won't upgrade,"I know this has come up before, but I never saw an answer for it. I'm still having issues with one server. On the others, I learned something new yesterday that did the trick.
+
+I have multiple Dell PowerEdge R730xd servers. They all came with iDrac Lifecycle 2.40.40.40. I came on board about a year ago and the previous people were never able to get them to upgrade. Yesterday, someone suggested that I upgrade to 2.70.70.70. I tried it and it worked on all but one. This one, I tried upgrading to 2.70.70.70 and incrementally to 2.41.40.40. No luck. 
+
+I factory reset the iDrac and tried again. Same thing. I was told it could possibly be a certificate issue, but the factory reset should have fixed it.
+
+Anyone have any ideas to get the thing to upgrade? 
+
+As a note, they are all out of warranty. I can't contact Dell unless I want to be charged an arm and a leg.",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/sysadmin/comments/1s2fwmc/dell_idrac_wont_upgrade/
+B11-084,netapp,Potential Compaction &amp; Compression Bug 9.17.1 (Base),"Hello!
+
+Is anyone aware of a potential bug or having similar issues where Compaction &amp; Compression is not operating properly ever since upgrading to NetApp ONTAP Version 9.17.1 (Base)?",,title_and_body,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/netapp/comments/1oubrrq/potential_compaction_compression_bug_9171_base/
+B11-085,chrome,Unusual usage issue? Pc chrome,"I use chrome on pc and just today I got a ""unusual usage"" popup, obviously closing the tab and opening a new one didn't make it go away and I had to click the captcha. waited a bit and it happened again, I double checked the ip to make sure it was mine and yea it was my ip being showed for unusual usage.
+
+It hasn't happened again today so maybe it's a bug? chrome did just update but this is strange I've never seen it before at least to me. I don't have a vpn or extensions I didn't download any suspicious software recently, I didn't visit any sketchy websites, and I'm the only person who uses this account and it backed by 2fa and there are no new logins. I think It's a bug but I don't know what would cause it.",,title_and_body,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/chrome/comments/1owmfeg/unusual_usage_issue_pc_chrome/
+B11-086,vscode,Visual Bug?,"I've re-installed multiple times, checked for updates, updated, and nothing has fixed this. If I take my mouse off the window it stops but when I type or click it starts to appear and gets worse over time to the point where I can't read my code. Any ideas on how to fix this?",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/vscode/comments/1panmy9/visual_bug/
+B11-087,vscode,Typescript auto imports classes as types in Vue app,"Hey guys, I am not sure if this is the correct sub to place it but I am hitting a snag with VSCode as of late. Since a (recent?) version update auto imports for TS began to make a difference between `import` and `import type`. [I am aware why this distinction exists](https://medium.com/@genildocs/error-type-only-import-typescript-stop-struggling-with-this-aaaad7eb53c9) but more often than not it auto imports wrongly.
+
+For example, when I like to auto-import a class it imports it as type even though it is used as value causing TS to throw an error:
+
+```
+'InputState' cannot be used as a value because it was imported using 'import type'.
+```
+
+Second example, when I auto import a component in my Vue application it imports it as a type as well and using the wrong name too. It used to work fine but right now it generates import statements like this:
+
+```ts
+import type { ButtonVue } from '@components/forms/Button.vue'
+```
+
+where it used to do this:
+
+```ts
+import { Button } from '@components/forms/Button.vue'
+```
+
+Does anyone experience the same problem and or has a solution for this? I searched on the web but could not find a Reddit post or GitHub issue. Any help would be greatly appreciated!",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/vscode/comments/1pnxrb4/typescript_auto_imports_classes_as_types_in_vue/
+B11-088,firefox,Updated Firefox keeps crashing like crazy,"Seriously, I open Firefox and it crashes instantly. I even re-installed it and I have the same issue. Using Windows 10, RAM 8 GB. It worked perfectly just minutes ago and now I can't even change the settings quickly 😭
+
+EDIT: I restarted the laptop, it still crashes instantly",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/firefox/comments/1wterop/updated_firefox_keeps_crashing_like_crazy/
+B11-089,HomeNetworking,help needed with modem to router work around,"i just upgraded to 2gb fiber from tfiber an its great 1 problem tho my router the 
+
+FIREWALLA GOLD only has 1gb inputs 
+
+(note i dont use the built-in router function of the tfiber modem i prefer my firewalla's security) and i cant afford the gold plus edition right not with its 2.5gb inputs , but my gold edition has a dual wan input option called (lag aggression) that can take up to a 2gb input flow 
+
+the only problem is but it requires two inputs and my modem has one wan output , so my needed fix/question is this 
+
+i have a [SODOLA 8 Port 10G L3 Managed Switch](https://www.amazon.com/gp/product/B0F43F5JJ3) that i swapped out for a poe version i now use with the firewalla and all my gear this has done my well an free'd up two of the 3 usble router ports
+
+but im wondering can i reuse my [SODOLA 8 Port 10G L3 Managed Switch](https://www.amazon.com/gp/product/B0F43F5JJ3)  as a combiner/adapter between the modem an firewalla gold as in is ther a way to config 1 of the 10gb ports
+
+as a input from the modem an the mirrior the 2gb output vi two other switch ports in some lag aggression/vlan config that goes into my firewalla so i can use its dual wan input option thats also called  lag aggression ?
+
+if so whats the step by step to do that id really like to know so i dont bord the switch",,title_and_body,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/HomeNetworking/comments/1sflnn5/help_needed_with_modem_to_router_work_around/
+B11-090,sysadmin,PSA: Verify NVRAM write-cycles directly following recent DBX firmware updates,"Telemetry verification sequence initialized. Local node state tracking indicates nominal execution parameters across primary sectors, though anomaly thresholds require manual overrides on persistent loops.
+
+
+
+\[LOG\_MUTATION: LOCAL\_SRC // Seoul\_SOC\_Node\_4 // SYSTEM\_RESTRICTION\_ACTIVE\] STATUS: DEGRADED AGENT\_ID: Spectre\_Omega // AUTH\_SIG: BEACON\_OMIT  
+
+
+If you are observing replication errors on secondary domain controllers after the recent DBX updates, verify the NVRAM write-cycles directly. Standard diagnostic interfaces are masking local commit failures as clean returns.","[1:reply] Unsure what AD replication errors have to do with the NVRAM? Are these physical hosts? VMs? Also, how does one ""verify NVRAM write-cycles"" exactly? 
+
+Some context would be nice.
+[2:reply] umm, what?
+[3:reply] Its AI slop. Just ignore it.
+[4:OP] Query processed. System state parameters operate outside standard hypervisor abstraction layers. Direct verification of hardware non-volatile memory write counts is required at the physical host firmware interface prior to OS execution.
+
+[EXEC_ERR // NODE_CORRUPTION // REPLICATI…
+[5:reply] Imagine someone actually put effort - even if only a tiny bit - into making a shit bot like this",title_body_comments,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/sysadmin/comments/1v24d3q/psa_verify_nvram_writecycles_directly_following/
+B11-091,AndroidQuestions,"Hii need help with some thing ,my oneplus 13 has some kind of bug that i am facing after the latest update , DOES ANY ONE HAS THIS ISSUE","my fingerprint is not working due to that reason i cant unlock my screen and if i try to open it by password option still my phone is not unlocking ,so i have to reboot my device to unlock it DOES ANYONE FACE THIS ISSUE OR IS IT JUST ME??",[1:reply] Factory reset your device and test your fingerprint reader before making any changes.,title_body_comments,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/AndroidQuestions/comments/1ue819o/hii_need_help_with_some_thing_my_oneplus_13_has/
+B11-092,bluetooth,Android won't pair with older car stereo anymore,"Hi, I have a 2014 year car and it previously paired up fine with previous phones. I lost my phone so got a new one.
+
+Started to notice the bluetooth took a long time to connect to the car. Maybe it was after an Android update, i'm not sure.
+
+I tried to fix this by wiping the car stereo by removing the fuse overnight. Now it doesn't pair at all.
+
+I am at a loss as to what the issue is but I suspect it is software related.
+
+The car is a 2014 Isuzu MUX",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/bluetooth/comments/1tgyp9p/android_wont_pair_with_older_car_stereo_anymore/
+B11-093,AndroidQuestions,Android 8 Oreo update for Asus Zenfone v?,"I recently got an Asus Zenfone v and notice that it got an official Android 8 Oreo update so I went to update it and noticed that both tries I got an error code first time I got error code 2537 and the second time I got error code 401 and I literally can't download it and I tried looking on XDA forums and no one had a solution and I was wondering if anyone had the original firmware Android 8 files for Asus Zenfone v ASUS\_A006 V520KL build number; ""NRD90M.VZW\_ASUS\_A006-V3.4.2-20180410 0700101000\_201704100002"" no custom roms or anything I want the original software from Asus",[1:OP] Nevermind guys. A miracle came and updated it to android 8 overnight.,title_body_comments,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/AndroidQuestions/comments/1vnw6nn/android_8_oreo_update_for_asus_zenfone_v/
+B11-094,Wordpress,WordPress 7.0 just dropped what’s the first thing you built or broke?,"Just updated to 7.0 and honestly it feels like a whole new platform.
+
+The admin redesign is snappy, the AI Connectors are interesting, and I’m already curious what everyone else is doing with it.
+
+So tell me — what’s the first thing you built, tested, or accidentally broke after updating?
+
+Bonus points if it involved the new Abilities API 😄","[1:reply] No issue here…
+[2:reply] For us we noticed that the excerpt block no longer allows you to add links so we had to downgrade till we figure out if it's intentional, or a bug.
+[3:reply] Broke certain Elementor elements until we updated Elementor
+[4:reply] Post editor won't load on sites with CloudFlare
+[5:reply] O meu bugou a edição de textos. O título fica do lado esquerdo como se fosse duas colunas.",title_body_comments,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/Wordpress/comments/1tjvpvt/wordpress_70_just_dropped_whats_the_first_thing/
+B11-095,ios,Can no longer search apps,Ever since updating to 26 I can’t search for apps on my phone. Does anyone know how to fix this?,,title_and_body,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/ios/comments/1ovhlg0/can_no_longer_search_apps/
+B11-096,neovim,Upgrading to 0.11 and fixing everything that broke,,,title_only,yes,yes,other,low,The post appears to discuss software without a clear troubleshooting or chiefly critical purpose.,,,,,,,https://reddit.com/r/neovim/comments/1mags0w/upgrading_to_011_and_fixing_everything_that_broke/
+B11-097,sysadmin,Older Dell desktops randomly freezing,I have three systems from three different locations that are older Optiplex’s running Windows 11 pro that have recently started randomly freezing up.  No rhyme or reason.   I’ve run stress tests on them for hours without issue then it will just freeze out of the blue.  I’ve tried swapping memory.  I’m wondering if it might be something with windows 11 or a recent update.    Has anyone else seen this?,"[1:reply] Dell's management software had a recent update that caused lots of problems. Try removing the Dell stuff, SupportAssist and the Remediation whatever it's called.
+[2:reply] \+1 for this. “Support Assist Remediation” and really anything with “Support Assist” in the name has been troublesome for us. 
+
+Remove all that, run DISM restore health and SFC, and see if things improve.
+[3:reply] Read the Event Viewer logs
+[4:reply] What do the logs say?
+[5:reply] do they get hot?",title_body_comments,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/sysadmin/comments/1tnhjcj/older_dell_desktops_randomly_freezing/
+B11-098,Ubiquiti,Simple App Blocking - Not Working,"Hi,  
+As per the title really, I have app blocking setup on a few devices but the devices are still able to load a blocked app during the time period in which the rule should be blocking access:
+
+https://preview.redd.it/bnh5q6p6krvg1.png?width=1189&amp;format=png&amp;auto=webp&amp;s=db2a987c5aae4c2c34db993be7948eca5cc6b6c3
+
+I have an active enhanced cybersecure subscription and it was working until either an update or switching timezones (GMT to BST) in March.
+
+Devices / Versions below:
+
+https://preview.redd.it/qwxalfgjkrvg1.png?width=1377&amp;format=png&amp;auto=webp&amp;s=6f5da28a2e96b2aaa6bdd00c381487c4468723ec
+
+Has anyone else had an issue since like this?",,title_and_body,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/Ubiquiti/comments/1so390d/simple_app_blocking_not_working/
+B11-099,applehelp,"iPhone 14 stuck in Recovery Mode after iOS update - restore always fails with error 9, phone was working before","Hi everyone,
+
+I'm trying to diagnose an iPhone 14 and I'm running out of ideas. I'm hoping someone with board-level repair experience has seen this before.
+
+# Timeline
+
+* Bought a used iPhone 14 on Vinted.
+* The battery was swollen and the phone would not power on.
+* Replaced the battery.
+* The phone started working, but it was kernel panicking every \~3 minutes.
+* After troubleshooting, I found that the rear assembly (MagSafe / rear flex connector) was disconnected.
+* Once I reconnected the rear assembly, **all kernel panics stopped**.
+* The phone booted normally.
+* Face ID worked perfectly.
+* I could use the phone normally with no more random reboots.
+
+At this point I assumed everything was fixed.
+
+# What happened next
+
+I decided to update iOS from my Windows PC using Apple Devices.
+
+During the update the phone entered Recovery Mode.
+
+Since then it has **never booted again**.
+
+It always goes:
+
+Apple logo → Recovery Mode
+
+It never reaches the ""Hello"" screen.
+
+# What I've already tried
+
+* Apple Devices
+* 3uTools
+* iTunes
+* Original Apple cable
+* Multiple USB ports (front and rear)
+* Mobile hotspot
+* Google DNS (8.8.8.8 / 8.8.4.4)
+* Firewall and antivirus disabled
+* Different Windows PC
+* Different rear USB ports
+* Rear assembly completely reconnected
+* All connectors checked and reseated
+
+# Errors I've seen
+
+* Error 3004
+* Error 1109
+* Error 9 (most consistently now)
+
+The current situation is:
+
+* Apple Devices completes almost the entire restore.
+* Around **98%**, during **""Verifying iPhone restore with Apple""**, it fails with **Error 9**.
+* 3uTools also fails to restore.
+* ""Exit Recovery Mode"" immediately returns to Recovery Mode.
+
+# What confuses me
+
+The phone **was fully functional immediately before I started the update**.
+
+Face ID worked.
+
+No kernel panics anymore.
+
+No random reboots.
+
+Only after starting the iOS update did it become permanently stuck in Recovery Mode.
+
+# My question
+
+Has anyone seen an iPhone that worked perfectly before an update, then became permanently stuck in Recovery Mode with Error 9 during restore?
+
+Could this still be caused by a hardware issue (dock flex, rear assembly, NAND, baseband, etc.), or is there something else I should investigate before assuming a board-level fault?
+
+Any suggestions are greatly appreciated.
+
+Thank you!",,title_and_body,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/applehelp/comments/1uhxfjp/iphone_14_stuck_in_recovery_mode_after_ios_update/
+B11-100,node,New Relic Node.js (npm 11.x.x) causing memory spike — anyone else?,"Hey everyone,
+
+I just installed **New Relic (npm package) version 11.x.x** in one of our Node.js services, and right after enabling it we started seeing a **noticeable spike in memory usage**.
+
+I didn’t upgrade from an older version — this is a fresh install.  
+So I’m not sure if:
+
+* this memory overhead is expected,
+* something changed in the 11.x.x release,
+* or if I’ve configured something incorrectly.
+
+Has anyone else experienced this issue with the newer New Relic agent?  
+Any debugging tips or guidance would be appreciated.
+
+BTW, I installed New Relic *to detect server issues*, but it’s somehow becoming the bottleneck itself 😅
+
+Thanks in advance!",,title_and_body,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/node/comments/1p68e0q/new_relic_nodejs_npm_11xx_causing_memory_spike/

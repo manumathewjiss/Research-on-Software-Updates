@@ -1,0 +1,212 @@
+{
+  "input_sha256": "30d6a3dc78c7fd3999dcaf0649b7544a912b3d9dc1899e26ed12a36ac5407d47",
+  "method": "5-fold StratifiedGroupKFold, seed 42, exact/near duplicate groups; fixed title+body TF-IDF logistic regression C=4, balanced class weights, threshold 0.5877137791150834",
+  "no_tuning": true,
+  "reserved_test_scored": false,
+  "fresh_test_scored": false,
+  "important_comparison_limit": "The audited population and duplicate-group folds differ from the historical v2 run; score differences are not same-fold paired effects.",
+  "results": {
+    "mixed": {
+      "n": 2166,
+      "class_counts": {
+        "troubleshooting": 1761,
+        "other_update": 405
+      },
+      "fixed_tfidf_lr": {
+        "n": 2166,
+        "support": {
+          "other_update_0": 405,
+          "troubleshooting_1": 1761
+        },
+        "accuracy": 0.9021237303785781,
+        "balanced_accuracy": 0.844743096304709,
+        "macro_f1": 0.8408467985110321,
+        "class_0_other_update": {
+          "precision": 0.7314148681055156,
+          "recall": 0.7530864197530864,
+          "f1": 0.7420924574209246
+        },
+        "class_1_troubleshooting": {
+          "precision": 0.9428244711263579,
+          "recall": 0.9363997728563316,
+          "f1": 0.9396011396011396
+        },
+        "confusion_matrix_labels_[0,1]": [
+          [
+            305,
+            100
+          ],
+          [
+            112,
+            1649
+          ]
+        ],
+        "average_precision_troubleshooting": 0.9840829168035151,
+        "precision_at_10": 1.0,
+        "precision_at_20": 1.0
+      },
+      "majority": {
+        "n": 2166,
+        "support": {
+          "other_update_0": 405,
+          "troubleshooting_1": 1761
+        },
+        "accuracy": 0.8130193905817175,
+        "balanced_accuracy": 0.5,
+        "macro_f1": 0.4484339190221543,
+        "class_0_other_update": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "class_1_troubleshooting": {
+          "precision": 0.8130193905817175,
+          "recall": 1.0,
+          "f1": 0.8968678380443086
+        },
+        "confusion_matrix_labels_[0,1]": [
+          [
+            0,
+            405
+          ],
+          [
+            0,
+            1761
+          ]
+        ]
+      },
+      "keyword": {
+        "n": 2166,
+        "support": {
+          "other_update_0": 405,
+          "troubleshooting_1": 1761
+        },
+        "accuracy": 0.7405355493998154,
+        "balanced_accuracy": 0.6959345489725955,
+        "macro_f1": 0.6508006994932805,
+        "class_0_other_update": {
+          "precision": 0.3815987933634992,
+          "recall": 0.6246913580246913,
+          "f1": 0.4737827715355805
+        },
+        "class_1_troubleshooting": {
+          "precision": 0.8988689288090486,
+          "recall": 0.7671777399204998,
+          "f1": 0.8278186274509803
+        },
+        "confusion_matrix_labels_[0,1]": [
+          [
+            253,
+            152
+          ],
+          [
+            410,
+            1351
+          ]
+        ]
+      },
+      "oof_predictions_file": "post_audit_mixed_oof.jsonl"
+    },
+    "reddit_only": {
+      "n": 2136,
+      "class_counts": {
+        "troubleshooting": 1733,
+        "other_update": 403
+      },
+      "fixed_tfidf_lr": {
+        "n": 2136,
+        "support": {
+          "other_update_0": 403,
+          "troubleshooting_1": 1733
+        },
+        "accuracy": 0.9030898876404494,
+        "balanced_accuracy": 0.8460113774504259,
+        "macro_f1": 0.8430668812811563,
+        "class_0_other_update": {
+          "precision": 0.7378640776699029,
+          "recall": 0.7543424317617866,
+          "f1": 0.7460122699386503
+        },
+        "class_1_troubleshooting": {
+          "precision": 0.9425754060324826,
+          "recall": 0.9376803231390652,
+          "f1": 0.9401214926236622
+        },
+        "confusion_matrix_labels_[0,1]": [
+          [
+            304,
+            99
+          ],
+          [
+            108,
+            1625
+          ]
+        ],
+        "average_precision_troubleshooting": 0.9823968617577381,
+        "precision_at_10": 1.0,
+        "precision_at_20": 1.0
+      },
+      "majority": {
+        "n": 2136,
+        "support": {
+          "other_update_0": 403,
+          "troubleshooting_1": 1733
+        },
+        "accuracy": 0.8113295880149812,
+        "balanced_accuracy": 0.5,
+        "macro_f1": 0.44791935900749547,
+        "class_0_other_update": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "class_1_troubleshooting": {
+          "precision": 0.8113295880149812,
+          "recall": 1.0,
+          "f1": 0.8958387180149909
+        },
+        "confusion_matrix_labels_[0,1]": [
+          [
+            0,
+            403
+          ],
+          [
+            0,
+            1733
+          ]
+        ]
+      },
+      "keyword": {
+        "n": 2136,
+        "support": {
+          "other_update_0": 403,
+          "troubleshooting_1": 1733
+        },
+        "accuracy": 0.7387640449438202,
+        "balanced_accuracy": 0.6942764809227963,
+        "macro_f1": 0.649930684461571,
+        "class_0_other_update": {
+          "precision": 0.3820395738203957,
+          "recall": 0.6228287841191067,
+          "f1": 0.47358490566037736
+        },
+        "class_1_troubleshooting": {
+          "precision": 0.8972278566599053,
+          "recall": 0.7657241777264858,
+          "f1": 0.8262764632627646
+        },
+        "confusion_matrix_labels_[0,1]": [
+          [
+            251,
+            152
+          ],
+          [
+            406,
+            1327
+          ]
+        ]
+      },
+      "oof_predictions_file": "post_audit_reddit_only_oof.jsonl"
+    }
+  }
+}

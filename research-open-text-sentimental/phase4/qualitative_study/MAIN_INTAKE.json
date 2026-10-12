@@ -1,0 +1,51 @@
+{
+  "status": "descriptive_intake_and_qualitative_synthesis_complete",
+  "source_sha256": {
+    "A": "2df49763093f78c4ef4c6e7d5755debc622d500b50af14481546d9d01f651780",
+    "B": "024cd641e4ae137f4fcbf9538e984d0bb33853d3679e6265c3f8b207209c9a47"
+  },
+  "cases": 30,
+  "same_action": 21,
+  "different_action": 9,
+  "reviewer_a_actions": {
+    "A": 16,
+    "B": 7,
+    "C": 1,
+    "D": 5,
+    "cannot_assess": 1
+  },
+  "reviewer_b_actions": {
+    "A": 11,
+    "B": 10,
+    "C": 5,
+    "D": 4
+  },
+  "action_pairs": {
+    "A|A": 10,
+    "A|B": 3,
+    "A|C": 3,
+    "B|A": 1,
+    "B|B": 6,
+    "C|C": 1,
+    "D|B": 1,
+    "D|D": 4,
+    "cannot_assess|C": 1
+  },
+  "different_action_case_ids": [
+    "Q003",
+    "Q005",
+    "Q007",
+    "Q009",
+    "Q012",
+    "Q018",
+    "Q022",
+    "Q023",
+    "Q028"
+  ],
+  "answer_text_identical_across_reviewers": 0,
+  "limitations": [
+    "two_reviewers_purposeful_cases",
+    "no_correct_action_key",
+    "independence_and_outside_lookup_are_user_reported_not_file_verifiable"
+  ]
+}

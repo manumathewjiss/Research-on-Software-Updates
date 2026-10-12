@@ -1,0 +1,49 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "releasetrain-sentiment"
+version = "0.2.1"
+description = "Scores sentiment per comment in a Reddit discussion thread, flagging author replies vs. community responses, to measure sentiment divergence over time."
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.9"
+authors = [
+    { name = "Manu Mathew Jiss" },
+]
+keywords = ["sentiment-analysis", "reddit", "software-updates", "vader", "release-engineering"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering :: Information Analysis",
+    "Topic :: Text Processing :: Linguistic",
+]
+dependencies = [
+    "vaderSentiment>=3.3.2",
+]
+
+[project.scripts]
+releasetrain-sentiment = "releasetrain_sentiment.cli:main"
+
+[project.optional-dependencies]
+classify = ["scikit-learn>=1.3", "joblib>=1.3"]
+fetch = ["requests>=2.28"]
+dev = ["pytest>=7.0", "scikit-learn>=1.3", "joblib>=1.3", "requests>=2.28"]
+
+[project.urls]
+Homepage = "https://github.com/SE4CPS/releasetrain-sentiment"
+Repository = "https://github.com/SE4CPS/releasetrain-sentiment"
+Issues = "https://github.com/SE4CPS/releasetrain-sentiment/issues"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/releasetrain_sentiment"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

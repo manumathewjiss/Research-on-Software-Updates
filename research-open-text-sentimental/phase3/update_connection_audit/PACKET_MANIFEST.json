@@ -1,0 +1,19 @@
+{
+  "seed": 20261008,
+  "source_disagreements_sha256": "dfad13d60b190280f624c3e8fdc26b3e59b65bab2d3331ea9700e30b5eaccfaf",
+  "source_candidate_screen_sha256": "96d6f4e706a923f28985a94f3acc3b3710559a4cdc350b913457e2a6bcf70d3b",
+  "source_frame_n": 728,
+  "source_flagged_n": 208,
+  "source_unflagged_n": 520,
+  "disagreement_packet_n": 22,
+  "disagreement_overlap_with_source_frame_n": 14,
+  "flagged_already_in_disagreement_packet_n": 4,
+  "unflagged_already_in_disagreement_packet_n": 10,
+  "targeted_packet_n": 254,
+  "targeted_flagged_n": 204,
+  "targeted_random_unflagged_n": 50,
+  "random_unflagged_frame_n": 510,
+  "targeted_previous_labels_hidden": true,
+  "targeted_source_group_hidden": true,
+  "no_master_merge": true
+}

@@ -99,3 +99,7 @@ temp/
 tmp/
 output/
 results/
+
+# Installed package trees (not project source)
+vendor/
+vendor_dvc/

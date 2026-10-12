@@ -1,0 +1,1826 @@
+﻿review_id,subreddit,title,post_body,discussion_context,text_availability,proposed_about_software,proposed_update_related,proposed_discussion_type,proposed_confidence,proposed_reason,decision,final_about_software,final_update_related,final_discussion_type,reviewer_note,reviewed_at,source_url
+B14-001,firefox,Can we have the 2009 icon as an option too?,"When implementing the icon change feature (awesome!), they initially made a mistake. In place of the ""Retro 2004"" icon, they initially added the one from 2009, which has a distinctively glossier, punchier look compared to the darker 2004 one. [This was pointed out and subsequently addressed in a recent update, replacing it with the correct 2004 icon...](https://bugzilla.mozilla.org/show_bug.cgi?id=2059325)
+
+...But I personally liked the 2009 icon much better. It looks nicer and stands out much better against Windows' taskbar. It's a bummer that it's not available anymore. Definitely would be better to have both options. I'm not familiar with Bugzilla, so I'm not sure if I should file the suggestion there or if this kind of idea goes on Mozilla Connect.
+
+[2004 logo](https://preview.redd.it/7c7qcxu6zcsh1.png?width=960&amp;format=png&amp;auto=webp&amp;s=9ef5440252a6e8447acf6b82f6509d4890201614)
+
+[2009 logo that was accidentally labelled as the 2004 icon and then replaced](https://preview.redd.it/a0j1hyx8zcsh1.png?width=512&amp;format=png&amp;auto=webp&amp;s=0feec5385a35f7aa29b40301f6d63912ae4b5090)","[1:OP] You can, I just thought it'd be good as an option as well.
+[2:reply] I'll take a Kit icon, pls.
+[3:OP] There is one! It's marked as a special unlockable icon.
+
+[According to this article you need to set Firefox to default and pin it to the taskbar to unlock it.](https://ubuntuhandbook.org/index.php/2026/08/firefox-154-0-app-icons/)
+[4:reply] I'm confused. Can't you just download the image and set it as the icon yourself? It works on Windows and Linux.
+
+(The option is great, but I mean... you can do it yourself.)
+[5:reply] Yes it needs to be added to the roster",title_body_comments,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/firefox/comments/1wswla9/can_we_have_the_2009_icon_as_an_option_too/
+B14-002,debian,From Arch to Debian!,"After 5-6 years of Arch (with KDE), I finally moved to Debian (with Xfce).
+
+What I appreciated about Arch (and KDE):
+
+1. Rolling release: I could use the latest version of the kernel, Gradle (I'm an Android dev) and other tools where being on the latest version matters.
+
+2. Extensive Wiki and documentation: Arch wiki is just great.
+
+3. AUR: makes installing packages that aren't in the official repos easier, it's like a book of recipes, and it's literally got everything you could imagine.
+
+4. Customizability: this is where KDE excels, versatile and everything is configurable.
+
+5. KDE Connect: made my life easier all these years, thanks!
+
+What I didn't like about Arch (and KDE):
+
+1. Rolling release (yes, again): not necessarily because it's bad, I just happen to live in a 3rd world country where internet is very limited and slow (how fuckin lucky for me I guess), so I would update once every 5-6 months and that breaks stuff, and sometimes you need to install a simple package, but because you haven't updated in a while, you need to update the repos, and then the package ends up forcing you to update the whole system anyway because of problems with partial updates and dependencies. Again, this is not on Arch, I blame this on geography.
+
+2. KDE is a bit heavy: compared to Xfce, and comes with a ton of preinstalled apps, many of them were actually useful, but I ended up going through the app list and debloating as if I was using Windows.
+
+3. The community: arch elitism is real, and it is a bit toxic, but it's tolerable when you've been using arch for a long time.
+
+If you reached this point, thanks for reading! And I would appreciate a KDE Connect alternative that works with Xfce, I know you can set up KDE Connect on Xfce anyway but I don't wanna bring the whole Qt suite, I would rather have something light and GTK based. If you know a name drop it in the comments, thanks again! :)","[1:reply] So now you use Debian, btw.
+[2:reply] Debian and Xfce here... Great call
+[3:reply] Kde connect is a direct link to your linux system. I have a shoulder injury currently and am unable to normally use a mouse and a keyboard. With kde connect I can use my phone as a full on remote control for mouse and keyboard, and I can work on my system for instance from bed b…
+[4:reply] Excellent choice, Debian with Xfce is a very solid choice and I've been using it daily for the past 4 years, and I've tried both Arch and KDE before and think they're pretty great too, just not for me on a long-term basis.
+[5:OP] Damn I'm gonna miss saying I use arch btw. 😂",title_body_comments,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/debian/comments/1wvy6vc/from_arch_to_debian/
+B14-003,sysadmin,Intune clients stop checking in,"We are a shop using assigned access through intune to turn regular laptops and mini-pcs into hardened thinclients. This takes place as part of the autopilot process which is pushed using automated device enrollment (zero-touch). For the past year we randomly encounter devices that have stopped reporting to intune and so their compliance checks start to fail. From the local client kicking off a sync from the settings -&gt; accounts section is successful, but intune never updates the device status or reports that a sync ever happened. Manually running a compliance check from the client exhibits the same behavior on the console side. The devices don't have users actually logging into them, so the only way to fix the issue is fresh start/reset and kick off the autopilot process again. Has anyone encountered similar issues of aware of any fix that doesn't require a full reset?",,title_and_body,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/sysadmin/comments/1sozncf/intune_clients_stop_checking_in/
+B14-004,comfyui,SaveVideo Node Error After Updating to Comfy 0.3.76,,"[1:reply] Just noticed this myself.
+
+Since the Flux 2 update, comfyUI updates = breaks things.
+
+I know it's free, but jeez how about they just test like one or two workflows? I was on my second workflow and yep, it's broken.",title_plus_comments,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/comfyui/comments/1pcgb5y/savevideo_node_error_after_updating_to_comfy_0376/
+B14-005,Fedora,Fedora 44 KDE Plasma 6.7 - apps fail to retrieve passwords from KWallet.,"As in title, after 6.7 update various apps fail to retrieve data from kwallet. I cannot connect to my WiFi when key is stored in kwallet (ie it asks for  password, but fail to connect if one is provided). VPN at least has connected when password was provided, but it cannot remember it and ask for it at every connection. Neochat didn't even found my matrix account. 
+
+Good thing is, both KWallet manager and Falkon show all the passwords stored.  
+Anyone else has experienced similar situation?",[1:reply] Same problem,title_body_comments,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/Fedora/comments/1u91hgs/fedora_44_kde_plasma_67_apps_fail_to_retrieve/
+B14-006,MicrosoftEdge,What's going on here?,"Edge has been having this bug since yesterday, after it was updated",,title_and_body,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/MicrosoftEdge/comments/1ouajfe/whats_going_on_here/
+B14-007,Wordpress,Odd alignment issue after 2025 theme update,"Gutenberg only - no page builders.  
+I have a backup, but would like to figure this out -
+
+I'm working on a site and have Columns containing two smaller columns - the one on the left contains a featured image, and the one on the right contains a short description.
+
+Template is for a single item post.
+
+I had it set up so that the image in the left column, remaining in its original aspect, would fill its column horizontally or vertically scale (maintaining aspect ratio) to no more than 75% VH.
+
+This ends up in a Query loop. It's basically a bunch of artwork with descriptions. However, after the update, I'm getting some layout issues that look like the bottom image, with a big gap between the artwork and the text. So, I'm trying to figure out what's causing the gap.
+
+I do have some CSS set up, but I haven't changed this &amp; it's been working for months.
+
+Let me know what other additional info I can add here that might help. Hoping this is a fairly known or easy thing to fix.
+
+Not sure how to troubleshoot this - any suggestions appreciated!
+
+Thank you!
+
+https://preview.redd.it/2blhmhop4tkh1.png?width=1052&amp;format=png&amp;auto=webp&amp;s=95b201b9e43efd792c419de2c81abc022c336c8a","[1:reply] Inspect the rendered wrapper before changing the image. In DevTools, select the large empty area and check which element owns its height, min-height, margin, padding, gap, or aspect-ratio. Theme updates can change block wrapper CSS even when your custom CSS is untouched. I would…
+[2:reply] One thing worth checking that's separate from Sergei\_Tiden's list: WordPress core's own block-library stylesheet sets a default margin (margin: 0 0 1em 0) on the &lt;figure&gt; wrapping an Image block. Themes usually zero this out or override it in their own CSS, and it's easy…
+[3:reply] Right click &gt; Inspect. 
+
+Layouts are built with code. We can’t help without seeing the site and its code.",title_body_comments,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/Wordpress/comments/1vuvcue/odd_alignment_issue_after_2025_theme_update/
+B14-008,applehelp,24hr screen time and sleep focus problems relating to aod,"Hi guys, I’m looking for some help here. 
+
+Devices : aws11, ip15pm, both on 26.4. 
+
+Problem 1: 
+
+This has been a few weeks now and I can’t find an answer for. I have my sleep schedule on clock and health app setup to start at 2230. 
+
+Before, at 2230 it’ll turn on sleep focus and thus turn off aod on both my devices and if I turn sleep focus off, the aod will turn back on. 
+
+Now, if I turn off sleep focus after 2230, aod will not turn back on for the watch but turns on for the iPhone. Besides that, my watch will have the sleep mode watch face, where you have to click the crown to go to the normal watch face.
+
+Also now, if I turn on sleep focus after the sleep schedule ended, aod doesn’t turn off on my watch but does turn off on the iPhone. 
+
+I’ve tried deleting and setting up my sleep schedule, turn off and on some settings, checked my sleep focus mode but nothing helped. Funny thing is, it started happening on a random day and I don’t remember touching any settings. After a week, I updated to 26.4 hoping it’ll fix it but no. 
+
+Problem 2:
+
+My iPhone is showing crazy amount of screen time for settings and some websites I don’t remember visiting. My apple watch also told me I had 24 hours screen time on it. 
+
+Hopefully you guys can help, TIA!",,title_and_body,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/applehelp/comments/1sjxsed/24hr_screen_time_and_sleep_focus_problems/
+B14-009,linuxquestions,[need support] NMDeviceGeneric wifi mt7921,"Wifi worked for the net installer once, but I switched to ethernet for re-installation of OS at one point. It did work on debian 13.4 flawlessly.
+
+
+
+firmware is active (checked with lspci)
+
+MediaTek MT7921
+
+
+
+wpa\_supplicant is active
+
+network manager is active
+
+rfkill list shows that nothing is blocked at all
+
+
+
+==================================================================================================================
+
+$ nmcli device status
+
+DEVICE  TYPE      STATE       CONNECTION
+
+enp3s0  ethernet  connected   Wired connection 1
+
+wlp2s0  wifi      unmanaged   --
+
+
+
+$ sudo nmcli dev connect wlp2s0
+
+Error: Failed to add/activate new connection: Device class NMDeviceGeneric had no complete\_connection method
+
+
+
+$ lspci -k | grep -A 3 -i network
+
+Network controller: MEDIATEK Corp. MT7921 802.11ax PCIe Wireless Network Adapter \[Filogic 330\]
+
+Subsystem: Lite-On Communications Inc Device 3802
+
+Kernel driver in use: mt7921e
+
+Kernel modules: mt7921e
+
+
+
+$ sudo modprobe -r mt7921e &amp;&amp; sudo modprobe mt7921e
+
+$ sudo dmesg | tail -40 | grep -i ""mt7921\\|wifi\\|wlp""
+
+\[ 5670.495015\] mt7921e 0000:02:00.0: ASIC revision: 79610010
+
+\[ 5670.586349\] mt7921e 0000:02:00.0: HW/SW Version: 0x8a108a10, Build Time: 20260224110909a
+
+\[ 5670.636122\] mt7921e 0000:02:00.0: WM Firmware Version: \_\_\_\_010000, Build Time: 20260224110949
+
+\[ 5671.505907\] mt7921e 0000:02:00.0 wlp2s0: renamed from wlan0
+
+
+
+$ nmcli device status
+
+DEVICE  TYPE      STATE         CONNECTION
+
+enp3s0  ethernet  connected     Wired connection 1
+
+wlp2s0  wifi      unmanaged     --
+
+
+
+$ sudo nmcli device set wlp2s0 managed yes
+
+$ nmcli device status
+
+DEVICE  TYPE      STATE         CONNECTION
+
+lo      loopback  connected (externally)  lo
+
+enp3s0  ethernet  unavailable   --
+
+wlp2s0  wifi      unavailable   --
+
+
+
+$ nmcli device show wlp2s0
+
+GENERAL.DEVICE:   wlp2s0
+
+GENERAL.TYPE:     wifi
+
+GENERAL.HWADDR:   14:5A:FC:68:D6:E9
+
+GENERAL.MTU:      1500
+
+GENERAL.STATE:    20 (unavailable)
+
+GENERAL.CONNECTION: --
+
+
+
+$ iw dev wlp2s0 info
+
+Interface wlp2s0
+
+ifindex 6
+
+wdev 0x300000001
+
+addr 14:5a:fc:68:d6:e9
+
+type managed
+
+wiphy 3
+
+
+
+$ nmcli radio wifi on
+
+$ sudo nmcli device wifi rescan ifname wlp2s0
+
+Error: Device 'wlp2s0' is not a Wi-Fi device.
+
+
+
+$ nmcli device wifi list
+
+(no output)
+
+
+
+$ sudo ip link set wlp2s0 up
+
+$ sudo iw dev wlp2s0 scan
+
+command failed: Network is down (-100)
+
+
+
+$ cat /etc/NetworkManager/NetworkManager.conf
+
+\[main\]
+
+plugins=keyfile
+
+
+
+\[keyfile\]
+
+unmanaged-devices=none
+
+
+
+$ ls /etc/NetworkManager/conf.d/
+
+(empty)
+
+
+
+$ ls /usr/lib/NetworkManager/conf.d/
+
+wifi-mac-addr.conf
+
+(no unmanaged-devices entries)
+
+
+
+$ systemctl status wpa\_supplicant
+
+$ journalctl -u NetworkManager | tail -30
+
+System info:
+
+
+
+Fedora (minimal/Sway install)
+
+Kernel: (basically the latest from fedora. I installed yesterday, updated today)
+
+Wi-Fi adapter: MediaTek MT7921 802.11ax PCIe (mt7921e driver)
+
+
+
+
+
+ \---------------------------------------
+
+ \---------------------------------------
+
+
+
+Key observations:
+
+
+
+Wi-Fi works on a Fedora live USB and previously worked on Debian
+
+Driver loads and firmware initialises cleanly in dmesg
+
+nmcli device show reports type as wifi, but nmcli device wifi rescan says ""not a Wi-Fi device""
+
+NMDeviceGeneric error suggests NM never promotes the interface to a proper Wi-Fi device internally
+
+wpa\_supplicant installed and activated, no change
+
+==================================================================================================================",,title_and_body,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/linuxquestions/comments/1tk55v6/need_support_nmdevicegeneric_wifi_mt7921/
+B14-010,MicrosoftEdge,Solution for a stuttery and buggy edge?,"After the update from a week ago I think, my browser has been signing me out of youtube and google constantly. It's very stuttery and laggy no matter what page or how many tabs I have open. I've got a good hardware wise so it's not that. I've had hardware acceleration disabled since I built my machine, removed all my extensions, repaired the installation and tried a few other things. Anyone has any ideas?","[1:reply] Solution may be here: [https://learn.microsoft.com/en-us/answers/questions/5887558/almost-every-google-owned-website-stops-working-on](https://learn.microsoft.com/en-us/answers/questions/5887558/almost-every-google-owned-website-stops-working-on)
+[2:reply] I don't know how to solve the problem with YouTube and Google, but I'm wondering what the performance is like with hardware acceleration enabled.
+
+I'm also wondering why you've always kept it disabled because that can make the browser stutter and laggy. It's not a guarantee to m…
+[3:OP] I'll try enabling it and restarting and see what happens lol. I'm about to install any other browser I'm just over this lol",title_body_comments,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/MicrosoftEdge/comments/1up663t/solution_for_a_stuttery_and_buggy_edge/
+B14-011,Fedora,Curl error (28): timeout was reached,"I just installed fresh Fedora 43 with KDE and wanted to run sudo dnf upgrade for the first time, but after a few seconds got an error.
+
+https://preview.redd.it/rq3g951x7rqg1.png?width=807&amp;format=png&amp;auto=webp&amp;s=d0d7b14d23762c4d8802014724390cdbde02e677",,title_and_body,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/Fedora/comments/1s1b1pl/curl_error_28_timeout_was_reached/
+B14-012,arduino,I keep getting an error when trying to upload to Nano Every - avrdude: jtagmkII_close(): bad response to sign-off command:,"I'm trying to upload a sketch that was working perfectly well on my Mega but now I want to use it on a Nano Every board and I keep getting this error:
+
+    Sketch uses 1774 bytes (3%) of program storage space. Maximum is 49152 bytes.
+
+    Global variables use 22 bytes (0%) of dynamic memory, leaving 6122 bytes for local variables. Maximum     
+    is 6144 bytes.       
+                                        
+    avrdude: jtagmkII_initialize(): Cannot locate ""flash"" and ""boot"" memories in description
+    avrdude: jtagmkII_reset(): bad response to reset command: RSP_ILLEGAL_MCU_STATE
+    avrdude: initialization failed, rc=-1
+         Double check connections and try again, or use -F to override
+         this check.
+
+    avrdude: jtagmkII_close(): bad response to sign-off command: RSP_ILLEGAL_MCU_STATE
+
+    Failed uploading: uploading error: exit status 1
+
+I am sure I have the Every board connected and recognised (on Port 6, which was working with the Mega). I just made sure everything was updated and restarted the machine. But the error persists.
+
+Anyone know what to do (Win 10)?
+
+I turned verbose output on and got this:
+
+    Cannot perform port reset: 1200-bps touch: opening port at 1200bps: Serial port busy
+
+    avrdude: Version 6.3-20190619
+        
+         System wide configuration file is ""C:  
+    \Users\******\AppData\Local\Arduino15\packages\arduino\tools\avrdude\6.3.0-arduino17/etc/avrdude.conf""
+
+         Using Port                    : COM6
+         Using Programmer              : jtag2updi
+         Overriding Baud Rate          : 115200
+  
+    avrdude: ser_open(): can't open device ""\\.\COM6"": Access is denied.
+
+    avrdude done.  Thank you.
+
+    ""C:\Users\***\AppData\Local\Arduino15\packages\arduino\tools\avrdude\6.3.0-arduino17/bin/avrdude"" ""-CC:  
+  
+    \Users\****\AppData\Local\Arduino15\packages\arduino\tools\avrdude\6.3.0-arduino17/etc/avrdude.conf"" -v -  
+    V -patmega4809 -cjtag2updi -PCOM6  -b115200 -e -D ""-Uflash:w:C:
+
+    \Users\****\AppData\Local\arduino\sketches\1EC40D06C18DD17666F72BD9762C37B5/  
+    AdafruitCommonAnodeRGBLED.txt.ino.hex:i"" ""-Ufuse2:w:0x01:m"" ""-Ufuse5:w:0xC9:m"" ""-Ufuse8:w:0x00:m"" 
+    {upload.extra_files}
+
+    Failed uploading: uploading error: exit status 1","[1:reply] avrdude: ser\_open(): can't open device  
+""\\\\.\\COM6"": Access is denied.
+
+Well, that would be a problem.
+
+Take a screenshot of your Device Manager with the COM port section open.
+
+Take another screenshot of the properties page of whatever you think you have connected to COM6.…
+[2:OP] All the COM pots look OK. I was using COM6 five minutes before this with the Mega. 
+
+Uninstalled (including registry) Arduino and reinstalled. It says a Nano Every is connected to COM6.
+
+I did a fresh install of Arduino IDE on a different Win 10 PC and exactly the same thing hap…
+[3:OP] I have some shots showing the Nano every connected to COM2.And the device manager agreeing. I tried COM2 after failing on COM6. Doesn't help:
+
+It still gives the error and usually hangs indefinitely whilst saying ""uploading"":
+
+https://www.reddit.com/media?url=https%3A%2F%2Fi.red…",title_body_comments,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/arduino/comments/1ubmwe9/i_keep_getting_an_error_when_trying_to_upload_to/
+B14-013,github,GitHub Copilot just broke its own value prop for serious builders,"I don’t usually post like this, but this one deserves some noise.
+
+My team and I are heavy users of GitHub Copilot—not casual autocomplete, but full-on agent workflows, multi-step builds, iterative dev loops. The way these tools are *supposed* to be used.
+
+We’ve each been paying roughly **$100–$150/month per person** between premium access and usage budgets.
+
+And now?
+
+We’re getting hard stopped mid-week with:
+
+Let that sink in.
+
+We are actively paying customers, with budgets set, and we’re getting locked out of coding entirely for multiple days.
+
+# The real problem
+
+This isn’t just “limits exist.” I get that compute isn’t free.
+
+The problem is:
+
+* The limits are **weekly throttles**, not tied cleanly to what you pay
+* They apply **across all models** (switching models does nothing)
+* There’s **no clear visibility** into what you’ve used vs what triggered the cutoff
+* And worst of all—**it kills flow mid-build**
+
+This isn’t just annoying. It fundamentally breaks the product.
+
+# The part that makes zero sense
+
+If I hit a limit, fine—**charge me more**.
+
+That’s literally why I set a budget.
+
+Instead:
+
+* I *can’t* continue working
+* I *can’t* pay to continue working
+* And I *can’t even upgrade*, because premium signups are restricted right now
+
+So the system is basically:
+
+That might work for casual users.
+
+It does not work for teams actually building things.
+
+# This kills the exact users you should want
+
+Agent workflows are the future. Everyone knows this.
+
+But those workflows:
+
+* burn tokens fast
+* run long sessions
+* iterate constantly
+
+In other words—the **most valuable, most committed users** are now the ones getting rate-limited the hardest.
+
+That’s backwards.
+
+# What we’re doing
+
+We’re canceling across the team.
+
+Not out of spite—just because this setup doesn’t make sense anymore.
+
+If I’m going to deal with:
+
+* unpredictable limits
+* mid-project lockouts
+* no way to scale usage
+
+I’d rather just move to direct API workflows or other tools where:
+
+* I understand the cost
+* I control the usage
+* and I don’t get shut down mid-session
+
+# Final thought
+
+I actually like Copilot. This isn’t a “Copilot sucks” post.
+
+This is:
+
+If the goal is to support real builders using agentic workflows, this isn’t it.
+
+EDIT: Yes this post was generated by ai. I’m not denying it at all. I get the irony but who cares? I use AI for like 10-15 hours a day. I am not the best writer. I love leaning on this technology because it helps me articulate my thoughts and solve problems. That is really why I am frustrated. I love the speed and efficiency by which I can move alongside AI, and to have that switched up on me is really frustrating.",,title_and_body,yes,no,general_dissatisfaction,low,The post appears mainly critical without an active repair purpose; check for a concrete problem report.,,,,,,,https://reddit.com/r/github/comments/1sujbjv/github_copilot_just_broke_its_own_value_prop_for/
+B14-014,applehelp,Mac Book Pro 2016 touch bar No touch bar needs a critical update,a MBP I got to repair has a failing touchbar that works rarely however the issue is it needs a critical update to work and I don't care about the touch bar but it only works in a very laggy safe mode normal brings up the critical update required is there any workaround to use it fully w/o the touchbar,,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/applehelp/comments/1s4chdh/mac_book_pro_2016_touch_bar_no_touch_bar_needs_a/
+B14-015,MicrosoftEdge,YouTube Going to Full Screen Laggy on Edge,"Hello, quick question- Whenever I go into YouTube and play a video, if its in the regular player it runs just fine, but whenever I go into Fullscreen mode it starts lagging really badly.
+
+What is going wrong? I've tried turning off hardware acceleration and turning it back on but nothing seems to be working. I've even tried removing some of my extensions to see if they were causing the problem, but they aren't.  
+Going into F11 Mode, the player upscales and runs just fine too! But still, whenever I hit Fullscreen mode it still just becomes laggy all of a sudden.
+
+I've started going and watching YouTube in Chrome instead because it bothers me so much. Does anyone else have this problem? Has anything worked for you? Tysm
+
+Edit: SOLVED  
+Go into Windows Settings, find Windows Update -&gt; and install the newest update. Update your drivers too if you have any updates available for them. This should fix the YouTube playback issue.  
+As far as I'm aware, the edge settings don't really matter.",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/MicrosoftEdge/comments/1nxatky/youtube_going_to_full_screen_laggy_on_edge/
+B14-016,linuxquestions,Random crash help,im having issues with linux im on nobara and recently upgraded to 44 ever since my upgrade in witch my pc froze and i hat to shut it down i have been having issues firefox getting slow and freezeing steam thring error bottles says wine has crash and vlc not out puting audio im having error after error should i reinstall,"[1:reply] What errors are you getting?
+
+It's impossible for anyone to help you with vague information like its slow and I get errors.
+[2:OP] a pop up in teh bottom right of my screen saying part of x application has crashed an then a long file path that does nothing when i click on it and sometimes they are silent crashes its just constant and undeterminable what is going to crash and when",title_body_comments,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/linuxquestions/comments/1vssxng/random_crash_help/
+B14-017,chrome,"""Listen to this page"" (Read Aloud) option completely missing from Chrome Android menu","Hi everyone,
+
+I am looking for some clarification regarding the **""Listen to this page"" (Read Aloud)** feature on Chrome for Android.
+
+The option has completely disappeared from my three-dot menu, and I can no longer use it on any website. It is not just grayed out—the button is entirely gone.
+
+Is anyone else experiencing this issue after recent updates? Has Google temporarily removed this feature, or is this a known bug?
+
+Thanks in advance for any information!
+
+Oppo A9",,title_and_body,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/chrome/comments/1ufk2o0/listen_to_this_page_read_aloud_option_completely/
+B14-018,homeassistant,Zooz 800 USB Dongle Failure,"At my wits end trying to troubleshoot what's wrong. Updated my HA firmware yesterday and all of my z Wave connections went unavailable. Repairing sensors has been inconsistent at best, and I'm getting dropped commands even at close range. 
+
+The little blue LED on the USB stick is gone as well, won't light up under any circumstance. Software is up to date, I've power cycled everything. Is this toast and causing all my issues?
+
+Thanks for the help","[1:reply] Blue LED being dead is usually a pretty clear sign the dongle itself bit the dust. Had a similar issue with mine last year where everything was working fine until a firmware update, then suddenly nothing would stay connected and the status light was gone
+
+  
+You can try a differ…
+[2:reply] While the blue light isn't a good sign and most likely means it's dead. Have you tried restoring a backup just to verify?
+[3:OP] Whats odd is that it is still recognized in HA and some sensors still play ball with it. But I'm assuming you think it's degrading and will be fully disfunctional soon?
+
+Appreciate the input
+[4:OP] Can't find my backup unfortunately. Only a couple sensors so not a big system in the first place
+[5:reply] Did you unplug the stick and plug it back in? And there is a recovery guide just search for zwave stick recovery. You might be able to fix it.",title_body_comments,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/homeassistant/comments/1u1sfxa/zooz_800_usb_dongle_failure/
+B14-019,applehelp,"AirTags disappeared from Find My, AirPods show stale locations, “following you” alerts from my own AirTags — Apple Engineering case open for 2 months","I’m posting to see if anyone has experienced something similar because Apple Engineering has had an open case on this issue for about two months and still hasn’t found a resolution.  
+The issue appears to be tied to my Apple ID, Find My account, or encrypted iCloud data rather than any specific device. My AirTags disappeared from the Items tab in Find My, but my wife can still see all of the shared AirTags normally on her account. At the same time, my AirPods can be connected to my iPhone and sitting right next to me, yet Find My will show them as “Last Seen” several hours ago.
+
+I’m also receiving “AirTag Found Moving With You” notifications for AirTags that actually belong to me. It seems as though Find My no longer properly recognizes ownership of devices associated with my account.  
+What makes this especially strange is that the behavior follows me across multiple devices. The same problems occur on both my iPhone and iPad. Earlier in the process I was also receiving warnings that not all encrypted iCloud data was syncing.
+
+Because my wife can still see the shared AirTags while I cannot, it doesn’t seem like the AirTags themselves have failed. It also doesn’t seem like it’s a hardware issue with my iPhone because the same behavior occurs on multiple devices. The combination of missing AirTags, stale AirPods locations, ownership recognition problems, and encrypted iCloud sync warnings makes it feel like something is broken on the account side of Find My rather than on any individual device.
+
+I’ve gone through extensive troubleshooting with Apple, including restarts, software updates, resetting settings, verifying Find My configuration, collecting logs, and working with multiple senior advisors. Apple eventually escalated the case to Engineering, and their most recent update is that they are still investigating and currently have no resolution or ETA.
+
+The issue has become more than just an annoyance because I rely heavily on AirTags. I’ve taken multiple trips during the last two months and haven’t been able to use them to track luggage. I also use AirTags daily for my car keys and wallet, so several products that I specifically purchased for the Find My ecosystem have effectively become unusable.  
+Has anyone seen anything similar involving AirTags disappearing from Find My, AirPods showing stale locations while connected, ownership issues with your own AirTags, or encrypted iCloud sync problems affecting Find My? If so, did Apple eventually fix it on the backend, or was there a workaround that helped?
+
+I’m especially interested in hearing from anyone who had a problem that appeared to be tied to their Apple ID or Find My account rather than the AirTags themselves.",,title_and_body,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/applehelp/comments/1ua4eb9/airtags_disappeared_from_find_my_airpods_show/
+B14-020,Android,"GrapheneOS: Android 17 QPR1 was released for Pixels on September 15. It has a regression in the Pixel kernel driver tree causing stuttering, lag and outright freezes under memory pressure. It impacts GrapheneOS too since we updated the firmware/drivers but we fixed it for our release today.",,"[1:reply] Lmfao thank you Shitxel users for beta testing AI slop code from GooglSlop (tm).
+[2:reply] as a former pixel 9 pro xl user i agree with you
+[3:reply] Yeah this issue is hitting me hard.
+[4:reply] I really hope they fix this in the October update because it's the last update ever for Pixel 6/7 series devices.
+[5:reply] Time for the off-ramp for us Pixel 6 users to GrapheneOS! 
+
+Now to figure out how to properly migrate our data...",title_plus_comments,yes,yes,other,low,The post appears to discuss software without a clear troubleshooting or chiefly critical purpose.,,,,,,,https://reddit.com/r/Android/comments/1wwxqe6/grapheneos_android_17_qpr1_was_released_for/
+B14-021,homeassistant,Home Assistant won't start after update,"I did both a core and operating system update last night and now home assistant will not start.  I'm running on a Canakit RasberryPi.   I have access to the CLI through a USB cable and keyboard.   I can gracefully shut it down, but when I unplug it and plug it back in, it takes forever to start.  I will also add that I recently installed HAOS so that I could have integration to Hubitat and ""HAOS boot partition"" seems to be adding significant time to the HA startup and eventually fails to mount HAOS boot partition.  HAOS overlay partition also fails.  I'm 15 minute into the startup and it keeps trying to start things with HAOS and failing.   Any tips?","[1:reply] Restore from backup ...
+[2:reply] SD Card would be the first thought. Most people outgrow the RPi very quickly and move to something else. Used thin client (check it can run Linux) or an USFF is what most move to. Then restore the backup to it.
+[3:reply] Check if you are able to read the contents of the sd card on a computer. 
+
+Mine died about 3 weeks ago. The card was fried and I lost everything. 
+
+Tried to restore from a backup to a new card, but that was a no-go! No backups had been performed! :-(
+[4:reply] I had trouble when my storage approached the 2GB free minimum.",title_body_comments,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/homeassistant/comments/1v1n7gy/home_assistant_wont_start_after_update/
+B14-022,applehelp,Error transferring data from iCloud,"I got a new iPhone and I was trying to set up my account, everything was fine until I had to update to iOS 27 which I did, then I got this message and I can’t do anything now because if I click on “try again” I just keep getting the same message, and if I click on “other options” it gets stuck in another message that says “updating iCloud settings” 
+
+Any idea on how to fix this? It’s been more than an hour now since I got stuck here",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/applehelp/comments/1wvje7l/error_transferring_data_from_icloud/
+B14-023,applehelp,Earpiece issue on iphone 15,"earpiece issue not working on any apps after updating to ios 26.5.2 
+
+was completely working before i just want to know if i'm the only one",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/applehelp/comments/1v0a88y/earpiece_issue_on_iphone_15/
+B14-024,chrome,"Live Chat Input Bug: Placeholder text ""Chat.."" not disappearing when typing. (PC - Windows 10 - Chrome)","Recently, I've been having this weird glitch in YouTube Live Chat using chrome. When I start typing, the ""Chat..."" placeholder text doesn't disappear, causing my text to overlap with it (as seen in the screenshot). Because of this, I can't send any messages and I have to refresh the page every single time.
+
+I've tried:
+
+* Updating Chrome/Edge to the latest version.
+* Disabling Hardware Acceleration.
+* Resetting browser settings.
+
+The issue persists on both Chrome and Edge. Any fix for this?",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/chrome/comments/1swboh2/live_chat_input_bug_placeholder_text_chat_not/
+B14-025,AndroidQuestions,6GB “Other” storage stuck on Samsung Galaxy M20 (32GB) — nothing is reducing it anymore.,"&amp;#x200B;
+
+Hey guys! I’m stuck with \~6.3GB “Other” storage on my Samsung Galaxy M20 (3GB RAM &amp; 32GB Internal storage), and it just won’t go down anymore no matter what I do.
+
+I’ve already tried almost everything basic, so please don’t repeat the usual stuff 😅 
+
+● Here's what hat I already did- 
+
+1. I regularly clear cache &amp; storage data of heavy apps (Facebook, Instagram, YouTube, Play Store, Google Play Services etc) 
+
+2. I'm using lite apps like Facebook Lite &amp; Instagram Lite already to save space. 
+
+3. Cleared system cache (recovery mode wipe cache partition). 
+
+4. Checked full storage breakdown in settings. 
+
+5. Manually cleaned Android/data and Android/obb folders. 
+
+6. Tried moving apps to SD card (most apps don’t allow it anymore). 
+
+7. No cleaner/booster apps used. 
+
+8. Absolutely no unnecessary apps or media content downloaded on the phone. 
+
+9. Rare downloads from any website using browsers.(no big media/files) 
+
+10. No WhatsApp heavy usage 
+
+11. Haven't performed factory reset since last few years. 
+
+The issue is even after all that, “Other” stays locked at \~6GB+ and doesn’t move at all.
+
+I currently have around 6GB of free space &amp; 6GB+ storage lost in 'Other' catagory. 
+
+●No software update is pending, device is using the latest version.
+
+●Device- Samsung Galaxy M20, OneUI Core 2.0 running on Android version 10. Latest security patch February 1, 2023. 
+
+■ My question is has anyone actually fixed stubborn “Other” storage like this on older Samsung phones (like Galaxy M20) without factory reset?
+
+If yes — how &amp; what actually worked? 
+
+Thanks in advance!",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/AndroidQuestions/comments/1syyj9o/6gb_other_storage_stuck_on_samsung_galaxy_m20/
+B14-026,Ubiquiti,UDP Pro behind reverse proxy: solved,"Posting this in case it helps anyone else avoid the many hours I put into figuring this out.
+
+I run a reverse proxy with local DNS in my homelab. My UDM dashboard can be accessed on my network as https://udm.example.com. A Unifi update about 2-3 months ago broke that setup and resulted in all pages only loading the header bar. Going through unifi.ui.com worked fine, as did switching to direct IP address.
+
+If you have a similar setup and you're experiencing this, the issue is that Unifi added strict websocket origin validation to the nginx config earlier this year. The solution is to whitelist your domain name by SSHing into the router and adding two simple config files (substitute your own host and domain name, of course):
+
+    echo 'https://udp.example.com  $http_origin;' &gt; /data/unifi-core/config/http/cors-origin-proxy.conf
+    echo 'https://udp.example.com  ""true"";' &gt; /data/unifi-core/config/http/cors-credentials-proxy.conf   
+
+I've named them -proxy here but you can use any suffix you want. Nginx will import any files fitting the pattern cors-origin-\*.conf and cors-credentials-\*.conf.
+
+One you reload nginx with `nginx -s reload` everything should be happy again.",,title_and_body,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/Ubiquiti/comments/1s6vxgi/udp_pro_behind_reverse_proxy_solved/
+B14-027,linuxquestions,Discord causes heavy stuttering and force reboot when share screening on Fedora,"Whenever I share my screen in discord after  around 5 minutes my entire computer stutters and force reboots after a minute or two. Closing the share screen does not fix the issue. When booting an CPU error shows up for a bit and the computer boots like normal. I noticed that the RAM usually spikes when this happens, so I downloaded an application to force close the program that uses too much RAM when around 15gb is being used. This did not do anything. I have had a similar issue appear before when I played the game The Finals but no screen share was involved and this only happened once. This has been happening for a while over multiple kernel updates, and even after updating to the new Fedora version.
+
+I am using an AMD CPU and GPU with the latest kernel and Fedora version on Wayland.
+
+Any help is appreciated!",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/linuxquestions/comments/1v3ftvg/discord_causes_heavy_stuttering_and_force_reboot/
+B14-028,firefox,"Since the recent Firefox update, it's no longer possible to log in to some websites","Since the recent Firefox 152.0 and 152.0.1 updates, it's no longer possible to log in to the popular website [https://www.wallapop.com/](https://www.wallapop.com/) using the ""Log in with email"" method.
+
+The following attempts have been made:
+
+1. A clean reinstall of Firefox and trying to log in using the default Firefox browser without changing settings or installing extensions, devices PC Windows and Smartphone Android, (unsuccessful).
+2. Also tried with the latest version of Firefox ESR 140 Windows, all default settings and no extensions, (unsuccessful).
+3. Contacting Wallapop support, they suggest using a Chromium-based web browser (it is indeed possible to log in using Edge or Brave, so this is a temporary solution).
+
+It also appears that other users have reported similar login errors on other websites in the last two weeks:
+
+* [https://www.reddit.com/r/firefox/comments/1u92k3m/after\_update\_on\_ff\_esr\_115370esr\_cant\_login\_on/](https://www.reddit.com/r/firefox/comments/1u92k3m/after_update_on_ff_esr_115370esr_cant_login_on/)
+* [https://www.reddit.com/r/firefox/comments/1u4myfi/fastly\_blocks\_account\_login/](https://www.reddit.com/r/firefox/comments/1u4myfi/fastly_blocks_account_login/)
+* [https://www.reddit.com/r/firefox/comments/1u4jgzk/cant\_login\_into\_facebook\_while\_using\_firefox/](https://www.reddit.com/r/firefox/comments/1u4jgzk/cant_login_into_facebook_while_using_firefox/)
+* [https://www.reddit.com/r/firefox/comments/1ubuxcj/nightly\_now\_starting\_at\_account\_login/](https://www.reddit.com/r/firefox/comments/1ubuxcj/nightly_now_starting_at_account_login/)
+
+Is this a known issue?","[1:reply] just logged in without any problems on wallapop with email
+[2:reply] Does it work in Private Window mode?
+[3:OP] Could you please tell me what device, operating system, and Firefox version you're using? Thanks.
+[4:reply] I don't know anything about Wallapop because I'm not from the US but if I had to hazard a guess, it would be that it's how Firefox is handling the login process in terms of passing on the request, possibly to another server and Firefox is blocking that for security reasons.
+
+I'l…
+[5:reply] Yup, can't log into Reddit or Twitch here.",title_body_comments,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/firefox/comments/1ucj8qk/since_the_recent_firefox_update_its_no_longer/
+B14-029,raspberry_pi,Rpi 5 won't get updated files even after reiniaging multiple times,I tried the latest version of trixe 64 bit and it still did nothing. I tried bookwork and same thing. I kind of need the sudonuodate tonisntall steamlink. Sometimes thebtoolbar didn't even show although I did find you can do ctrl alt t but that still doesn't change the feac that I don't have steam slon and Im getting segmentation errors on all sudo commands. So what am inmissing,"[1:reply] A dictionary, I think.
+[2:reply] RAM corrupt, maybe both in Pi and OP?
+[3:reply] More drugs my friend.
+[4:reply] sheesh... what is this post?
+[5:reply] Start with a decent SD Card - I use SanDisk extreme A2 / V30 cards 32 or 64GB are fine
+
+The use the Pi imager and add the 64-bit Raspberry Pi OS (not the Lite version) and complete the optional items (user name / pi name etc) Do not remove the SD Card till the screen has imaged…",title_body_comments,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/raspberry_pi/comments/1u4ffv8/rpi_5_wont_get_updated_files_even_after/
+B14-030,chrome,After Chrome update any video doesn't show up if HDR is turned on unless something else is selected on the screen; same issue in Edge.,"I have reinstalled video drivers 2, switched from Studio to Game Ready.  
+Nothing works!
+
+Video of the issue is here:  
+[https://youtu.be/-55Wy8TjlVE](https://youtu.be/-55Wy8TjlVE)
+
+Any help would be greatly appreciated.  
+I haven't uninstalled Chrome yet as I doubt it would fix anything being that Edge is also messed up the same way!",,title_and_body,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/chrome/comments/1o33fpa/after_chrome_update_any_video_doesnt_show_up_if/
+B14-031,chrome,Google Lens keeps opening on the LEFT side of my screen — how do I move it to the right?,"Hey everyone,
+
+Not sure if I accidentally changed a setting or if this is some new update, but Google Lens is opening on the **left side of my screen**, and it’s honestly really annoying since it covers stuff I actually need.
+
+I’d prefer it to open on the **right side instead**, but I can’t find any setting to change the position.
+
+Has anyone else run into this?  
+Is there a way to move it, or is it just fixed by default?
+
+Any help would be appreciated 🙏
+
+https://preview.redd.it/hnxoen4taqsg1.png?width=823&amp;format=png&amp;auto=webp&amp;s=c273aed0844b60e181985e87330cc425ff64ad01",,title_and_body,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/chrome/comments/1saakby/google_lens_keeps_opening_on_the_left_side_of_my/
+B14-032,linuxquestions,Kile Segmentation fault on Fedora 44,"I haven't been able to open Kile the last couple days. I think it might've been after I updated my system, but I'm not sure (I didn't test directly after, and noticed it only recently). When trying to run Kile, it always just segmentation faults.
+
+    user@fedora:~$ kile
+    KCrash: Application 'kile' crashing... crashRecursionCounter = 2
+    Segmentation fault         (core dumped) kile
+
+I've tried reinstalling Kile, but it didn't work. Since everything was up to date, I figured it was a bug in Kile itself, but a fresh Fedora 44 VM doesn't have the same issue, so I don't think that's it. I've deleted all configs that I can think of, but it still does not solve the issue. In my desperation I tried to use a debugger and backtrace, which mentioned Okular, so I tried reinstlaling that too, but that also didn't work.
+
+Any suggestions?","[1:OP] I was going to reply saying that I don't think I should report it as a bug, since it isn't present in a fresh VM, but after writing that I do realize that sounds stupid. I unfortunately can't give instructions on how to reproduce, but I will make a post there regardless. Thank y…
+[2:reply] [https://docs.fedoraproject.org/en-US/quick-docs/bugzilla-file-a-bug/](https://docs.fedoraproject.org/en-US/quick-docs/bugzilla-file-a-bug/)",title_body_comments,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/linuxquestions/comments/1vx7e0u/kile_segmentation_fault_on_fedora_44/
+B14-033,immich,"Yet again, updated to the latest Immich yesterday, and its screwy.","The android app is now stuck checking for new assets non-stop for hours.
+
+It only cleared the notification after I opened the Immich app (previous versions when things like this got stuck trying to search/upload new photos sucked the battery and killed the phone within a couple of hours for me)
+
+They really need to have an option of 'Dont bug me to update to the new version, because this version works and the next one has a 99% chance of having a major issue!' tick box in the android app.",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/immich/comments/1ootmx9/yet_again_updated_to_the_latest_immich_yesterday/
+B14-034,software,help!,"[getting same error from last 3 days, i also updated to new version but nothing happens!](https://preview.redd.it/o51v2jxpo9mg1.png?width=398&amp;format=png&amp;auto=webp&amp;s=81d97748ca306ac07b6674d33a57d53a7b8aa72d)",,title_and_body,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/software/comments/1rh7w8u/help/
+B14-035,homeassistant,Anyone getting Ecovacs integration authentication errors all a sudden?,"Just started getting this. There are no new updates and nothing on the system has changed. Says I need to update to latest version. Thanks
+
+  
+call to [https://gl-us-api.ecovacs.com/v1/private/us/EN/C7QXDODL/global\_e/1.6.3/google\_play/1/user/login](https://gl-us-api.ecovacs.com/v1/private/us/EN/C7QXDODL/global_e/1.6.3/google_play/1/user/login) failed with {'code': '1013', 'msg': 'Please update to the latest version to continue.', 'time': 1784208218200, 'data': None, 'success': False}","[1:reply] Yeah, it's been an issue for the past week or so. Waiting on a fix.
+[2:reply] Yes, Ecovacs is now implementing email 2fa when logging in and/or changes their authentication flow. A fixed is being discussed.
+[3:OP] Thanks for the quick update all
+[4:reply] Mine kicked it too, same error. tried relinking and it just loops back to the update message
+
+  
+seems like they broke something on their end, classic ecovacs",title_body_comments,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/homeassistant/comments/1v3nfrl/anyone_getting_ecovacs_integration_authentication/
+B14-036,linux,Linux development is being outpaced by the rapid evolution of PC hardware.,"**First off, please don't crucify me.** Even though I’m about to drop some critical thoughts on my experience with Linux—specifically Fedora—I want to make it clear: I actually love and respect it. I’m glad Linux exists (and by ""Linux,"" I mean the distros, not just the kernel). I respect the open-source philosophy and the fact that so many brilliant people pour their time into its development.
+
+Despite what my title might suggest, Linux has evolved massively since its inception. In some ways, I think it has actually outpaced Windows and macOS. Yet, there are still moments where that progress feels invisible. I suspect the reason is that as Linux evolves, so does the underlying hardware.
+
+For context, here are my current **specs**:
+
+* **CPU:** Intel Core Ultra 7 265K
+* **Mobo:** MSI Z890 GAMING PLUS WIFI
+* **RAM:** Patriot Viper Venom 32GB (2x16GB DDR5)
+* **GPU:** PNY GeForce RTX 5070
+* **Storage:** WD PC SN530 256GB NVMe + MSI SPATIUM M461 4TB NVMe
+
+So, what’s the issue? I’ve been following Linux distros since the Windows XP days. Ever since then, my plan was always to eventually switch and make a distro my primary OS. Why? Because I’ve always been fascinated by it. I love the UNIX philosophy, and there’s something cool about being the ""outsider"" who goes against the grain.
+
+Unfortunately, despite my best intentions and a solid mid-level technical background, I keep hitting these weird, annoying bugs. I end up spending more time fixing things than actually enjoying the system. It’s like a snowball effect—you fix one issue, and another pops up. That’s not what I want from an OS, so I always end up crawling back to Windows, feeling a weird sense of relief.
+
+People talk a lot of trash about Windows, and sure, it has its issues and forced ideologies. But for me, it’s never been so broken that it radically hindered my work or gaming. Have I run into bugs on Windows? Of course. But they’ve always been mild enough to ignore until an update, or easy enough to fix by just rolling back a driver. Usually, the solutions are simple and well-documented. On Linux? Not so much.
+
+I feel like 99% of the Windows ""horror stories"" just don’t apply to me. Maybe I’m lucky, or maybe I just pick parts that play nice together. It could also be that I don’t mess with the system files; I just install my apps and games from trusted sources and keep the bloat to a minimum.
+
+My point is, over the years, as my PC went through various hardware upgrades, I’ve been taking shots at Linux a few times a year. I’ll install it on a USB drive (a full persistent install, not just a Live ISO) or directly onto an SSD just to see if the OS has finally reached the point where I can use it as my daily driver. Unfortunately, every single time, I’m faced with the same reality: even though the UI looks sleeker and the version numbers keep climbing, I’m still running into the same—or very similar—bugs in 2026 that I dealt with back in the early 2000s during the XP era.
+
+What inspired me to write this post was my latest attempt this week. I decided to install Fedora 43 on my rig. Before going all-in, I actually did a ""dry run"" earlier this month. I installed Fedora on a USB drive as a full system, updated it, installed the NVIDIA drivers and all my essential apps. Everything seemed to work flawlessly, so I figured I was finally ready to wipe Windows 11 and move over to the SSD for good.
+
+Well, boy was I wrong. Here’s what went down this past Tuesday when it actually came time to install the system:
+
+1. **The Setup:** I wipe both SSDs (250GB for the system on Btrfs, 4TB for storage on EXT4). I install Fedora 43 Workstation. I reboot, create my user account, set the password, and the desktop appears. Everything is smooth so far. I run the updates, reboot to finish the process, and that’s where the first nightmare starts.
+2. **THE PROBLEM:** After the update, the system hangs right at the start of the boot sequence (at the spinning loading wheel). I can’t even see what’s failing because it freezes so fast that the system doesn't even respond to the ESC key. I left it there for an hour—nothing. I reinstalled the OS from scratch, updated again, and the exact same thing happened.
+3. **THE FIX:** Turns out, the open-source NVIDIA driver (Nouveau) got nuked by the update. So, yet another fresh install. This time, I skip the initial update, enable the RPMFusion repos, and install the proprietary NVIDIA drivers. Is that the end of it? Not a chance. A new challenger appears.
+4. **THE PROBLEM:** No audio. I use a Topping DX3 Pro DAC (the non-Plus version) which has always worked flawlessly on every OS, including Linux. Ironically, the audio was working perfectly *before* I installed the NVIDIA drivers.
+5. **THE FIX:** Since I had to do it anyway, I ran a full system update, and that actually fixed the sound. At this point, I’m thinking: ""Okay, the system is up, I have a display, I have sound—it’s all downhill from here. I’m finally set."" Ha! Yeah, right. Enter the next disaster.
+6. **THE PROBLEM:** Opening the webcam caused a total system freeze. I was just getting ready to ""polish"" the setup, install my apps, and log into my accounts, but I decided to check if my Lenovo FHD webcam was working (which, again, has never given me issues on any OS). Well, wanting to use my camera was clearly a mistake. The system locked up instantly. After a reboot, trying to start the camera again caused another hard freeze.
+7. **THE SOLUTION:** Clearly, Linux doesn't want me. I’m back on Windows 11. The OS and app installation was completely stress-free. I’m back to my digital life, and finally, there’s peace. Sure, those ""legendary"" Windows bugs might be out there somewhere, but I’m not feeling them. Yeah, Windows is spying on me, I’m forced to use an online account, AI is being shoved down my throat, and Microsoft is ""evil."" But you know what? The system actually works. It doesn't force me to waste my time fixing errors that shouldn't even exist in the first place.
+
+Even though I’ve been focusing on Fedora here, since it was my most recent attempt, these issues aren't exclusive to it. Over the years, I’ve hopped through quite a few distros—Ubuntu, Debian, Mandriva (the good old days), openSUSE, and a handful of niche ones. I think the root causes of these problems are twofold. First, Linux definitely handles older hardware better; the drivers simply have more time to mature. Brand-new hardware, despite manufacturer support, just doesn't seem to ""click"" with the system yet.
+
+The other issue is that every distro feels like a patchwork of uncoordinated projects from various developers. In my opinion, Linux lacks a mechanism to ""paper over"" or camouflage minor bugs the way Windows does.
+
+I know there are people out there who have the privilege of enjoying a seamless Linux experience, and honestly, I’m jealous. But over the years, I’ve realized that while *I* want Linux, Linux just doesn’t seem to want *me*.
+
+I’m increasingly convinced that Linux just isn't built for PCs with such diverse hardware configurations. In my view, Linux would work perfectly if it targeted a specific or limited set of specs—kind of like how Apple or Google does it. It should be built from the ground up by a single team, much like ChromeOS.
+
+At least, that’s how it looks from my perspective.
+
+*(Note: This post was translated from Polish to English using Gemini AI).*",,title_and_body,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/linux/comments/1qm3mrc/linux_development_is_being_outpaced_by_the_rapid/
+B14-037,MicrosoftEdge,Scrolling lag while video is in frame,"I’m having some issues with scrolling when there are videos playing on pages. I'm using Windows 11 24H2, with NVIDIA RTX 4070, a 144hz monitor and latest Edge update. Scrolling on YouTube, Twitch or any pages with videos causes intermittent stuttering.  
+Some workarounds, like changing the ANGLE backend, have mostly fixed the issue, but I still notice lag on heavy pages. I even tried a fresh Windows install with no browser extensions, same problem.",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/MicrosoftEdge/comments/1ntec01/scrolling_lag_while_video_is_in_frame/
+B14-038,MicrosoftEdge,"Their latest update added a frame around the whole browser, which shows up even in F11 fullscreen.  How do I get rid of it?","The biggest problem I have with the frame is that it renders the mouse scrollwheel completely useless if my mouse pointer is on the right edge of the screen--as in, it no longer works.  This is particularly annoying when I want to scroll through a website without the mouse triggering animations or ads along the way, like when scrolling through the YouTube homepage or subscriptions page.
+
+The frame was originally something that was part of their ""new look"" that did the rounded corners thing, and I was always so glad they allowed it to be disabled.
+
+EDIT:  Enabling rounded corners fixes the problem with the mouse.  But now one has to deal with the rounded corners and it still has the borders.  You can get rid of the borders by using F11 fullscreen when rounded corners is enabled.",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/MicrosoftEdge/comments/1qkytig/their_latest_update_added_a_frame_around_the/
+B14-039,AndroidQuestions,Please HELP ME. Did Honor ban apps that use Accessibility Services in the new MagicOS update?!,"Hey everyone. Since the latest MagicOS update on my Honor 400, I can no longer enable screen dimming apps (like Darker). The option to allow restricted settings is completely missing from the app settings, and it's gone from Accessibility as well.
+
+Did Honor completely block apps that draw over other apps / use accessibility services with this update, or is there a workaround?
+
+Please, does anyone have a solution? Without this, it’s impossible for me to look at the screen. WTF, is this really true? Isn't the UI change enough, now you're going to block and lock down all options just like an iPhone? This is ridiculous.","[1:reply] it shouldn't be the case. maybe they have moved the permission to a different area. i'm using 200 pro. everything is working. honor has an extra dim feature in the settings. maybe you can enable that. try enabling developer options &amp; check if there are any settings available…
+[2:reply] This is stock Android's ""Restricted settings"" (added in Android 13) kicking in, not necessarily Honor-specific. Try: App info &gt; 3-dot menu (top right) &gt; ""Allow restricted settings"". If that option isn't there at all, MagicOS may have hidden it entirely for sideloaded apps…
+[3:OP] Yes, I know, thank you. That’s exactly what they disabled with the latest update for certain apps. They simply blocked access for some apps from the Play Store, and they had done something similar before as well. I’ve had Android 16 for months now, so it is something Honor did.…
+[4:OP] It’s not even on the list of apps that are allowed to manage deeper settings. I know, I have Ultra Dark Mode enabled and the white point reduced, but even that isn’t enough for me because I have an autoimmune disease that affects my vision and I’m extremely sensitive to light an…",title_body_comments,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/AndroidQuestions/comments/1uwpisw/please_help_me_did_honor_ban_apps_that_use/
+B14-040,homeassistant,Meross MS605 loses connection,"Hi,
+
+I bought two MS605 units a couple of months ago, and for about the last month they’ve been randomly losing connection.
+
+I started troubleshooting, resetting them, reinstalling Home Assistant completely, and even buying the HA ZBT-2 Matter antenna because I thought the issue was that. After two days of troubleshooting, I finally got everything working again, but only for about 12 hours.
+
+Today, both devices are unavailable again and have lost connection.
+
+They’re still on the same firmware that worked fine before, no new updates have been installed.
+
+I’m honestly going a bit crazy trying to figure this out. Has anyone else experienced this problem or found a solution?",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/homeassistant/comments/1s1v1tf/meross_ms605_loses_connection/
+B14-041,chrome,Chrome continuously crashing on MacOs,"Hello everyone, I’m a support technician looking for guidance on an issue involving Google Chrome crashing on macOS Sequoia and Tahoe.
+
+So far, I’ve tried the following troubleshooting steps:
+
+	•	Updating Chrome to the latest version (multiple versions tested, issue persists)
+
+	•	Enabling Chrome’s memory saver
+
+	•	Disabling hardware acceleration
+
+	•	Completely removing Chrome and all related files, then reinstalling it from the official source
+
+	•	Creating a new Chrome user profile
+
+The issue appears to be affecting multiple users within our environment and occurs very randomly like opening a new tab, screen sharing in a meeting, etc.This behavior has not happened on Windows systems.
+
+If anyone has encountered this behavior or has additional troubleshooting suggestions, I’d really appreciate the help. Thank you.",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/chrome/comments/1qhmdus/chrome_continuously_crashing_on_macos/
+B14-042,applehelp,Can’t see messages from yesterday,"I got the new update and I can’t see some messages from yesterday, there is a lock and it says encrypted. How can I see my old message conversations ?","[1:reply] What phone do you have, and what update do you mean? iOS 26.5.1 released a week ago for the iPhone Air and for phones from the 17 series. In comparison 26.5 was made publicly available the second week of May.
+[2:OP] iPhone 14, 26.5 update",title_body_comments,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/applehelp/comments/1u2oezy/cant_see_messages_from_yesterday/
+B14-043,MacOS,macOS 26 Touch-bar broken,"My Touch Bar has been going full strobo now for a few months and I don’t know what to do anymore. It’s super annoying especially when using my Mac in a darker room. 
+
+I tried 
+(a) Killing the touchbar process (instantly restarts)
+(b) Writing a script that auto kills the process (super hacky and doesn’t stop the flickering)
+(c) Disabling the touchbar in the macOS settings (doesn’t stop the flickering) 
+
+
+I’m on the public MacOS 26.2 version but had this behaviour across all the latest versions. 
+
+If anybody knows a fix I would be super grateful. I don’t want to upgrade my Mac yet as I anticipate the MBP redesign next year.",,title_and_body,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/MacOS/comments/1pmggv2/macos_26_touchbar_broken/
+B14-044,applehelp,My first (and last) Apple impression,"Sorry for such a long post, but I wanted you to see it the same way as I did.
+
+tldr at the end.  
+Also sorry for alternating between czech/eng language in the screenshots, I was playing around with apple intelligence so I occasionally switched mac’s language for it to work.  
+  
+So after being a Windows and Android user my whole life, I wanted to give a chance to “the other side” and bought a macbook air m4.  
+I wanted something reliable, light and with a long lasting battery for my possible upcoming travel so I could do my work on the go. Mac seemed perfect for that.  
+  
+1. The first impression  
+I loved the way it looked when I unboxed it, a really beautiful device. I powered it on and the classic Hello screen came up.  
+I was then prompted with logging in or creating an Apple ID. As I didn’t have any I wanted to create one. I filled in all the required info and found a free good looking address (which was kinda hard as a lot of them with my name, as I wanted it to sound a bit more professional, are already taken). I then had to fill in my phone number and fill in the code that came as SMS. I did that aaaand…. got an error “There was a problem creating your new Apple ID. Your account cannot be created at this time” Whut?  
+
+
+https://preview.redd.it/q5pz3jpo4b1h1.png?width=986&amp;format=png&amp;auto=webp&amp;s=76d80b72f5ad87ff6c66c3641d585d66b9d9301f
+
+I tried it again and again to no avail. I then skipped it and tried it in the settings once the whole thing booted up to the desktop, still the same issue.  
+I had to google around to find out that I should update my software and try it then.  
+That worked and after installing the new Tahoe version, it let me create my Apple ID.  
+I guess it makes sense to want the user to have the latest OS version before leting them create a new ID, but why THE HELL is it not written there? Why this loose error message?  
+Anyway, I then continued trying the new mac out.   
+  
+
+
+2. iMessage  
+  
+I wanted to text my brother (long time Apple user) cause he’d lose his mind if I texted him as a blue bubble. But I couldn't. I imported my contacts from google (which was cool tho, I just logged into my google account in the settings and contacts and calendar events were right there). I tried texting my few other friends. 2 of them no problem.  
+1 of them I had to manually enter his phone number, because otherwise he showed up green (although the same exact number was in the saved contact).  
+So I tried manually entering my brother's number. Still nothing. His name was either red (contact) or green (manually entered phone num.).  
+I had to text him for his icloud mail to be able to communicate with him. Weird how this functions with how praised imessage is. And no he has no other phones or numbers.  
+  
+3. Account action required
+
+Day two of me owning this machine, I get a notification from the settings app that an action is required with my apple account.  
+I click on it and it wanted me enter my password again. Weird, I thought, but entered it.  
+“Unknown error”.... what? I try again. “Unknown error”.   
+
+
+https://preview.redd.it/cavw78ke4b1h1.png?width=665&amp;format=png&amp;auto=webp&amp;s=55e969f018f6c1beca3d07b6459bdaeea9e16e18
+
+The fuck is this machines problem.  
+So I had to google again, cause really? Unknown error? What amateurish error is that? Users should never get this kind of error because then, you know, knows shit about what's wrong. At least provide me with some number I can reference tho god damn it.  
+So back to googling AGAIN.  
+  
+I came across a few reddit posts, each having a slightly different issue than me, but the advice was to go on [https://account.apple.com/](https://account.apple.com/) and to try to log in there.
+
+https://preview.redd.it/tuuq2w6f4b1h1.png?width=376&amp;format=png&amp;auto=webp&amp;s=463b364e14e81aac940288b4c944b4020afe9d82
+
+Well. Great? The hell is this.Another advice was to go to the [https://iforgot.apple.com/](https://iforgot.apple.com/) and try to reset my password. Into the “Email or phone number” input field I enter my phone number.  
+
+
+https://preview.redd.it/jnnf6uag4b1h1.png?width=325&amp;format=png&amp;auto=webp&amp;s=c25277996420cce80af1ecc9399aa6420988e703
+
+wtf. I tried the email then.  
+That works and this is what I get:  
+
+
+https://preview.redd.it/ydbts3zg4b1h1.png?width=574&amp;format=png&amp;auto=webp&amp;s=66f30e3e196f179f8f7d067a176f337904439632
+
+What is this? security reasons? Like was someone already trying to get into my account or what? I didn’t even use it for nothing yet, I had it for a literal day. It was just created and that's it.  
+Anyway I clicked the unlock account. It wanted my account and my phone number again.   
+Then I got this
+
+https://preview.redd.it/7fsfw8jh4b1h1.png?width=698&amp;format=png&amp;auto=webp&amp;s=973fe0c5fe56b8c0be726e5de7ce5262d11b8deb
+
+Essentially “thanks for wanting your account back! we’ll check it and then contact you on THE EMAIL YOU JUST LOST ACCESS TO LOL”  
+The FUCK is this? This is the praised Apple company, marvel of engineering? Really? WTF?  
+  
+Anyways I wait. I try to reset my password here and there again as I DON'T HAVE ANY OTHER WAY OF KNOWING if my request is processed already or not. And mind you, this was the SECOND day of me owning this expensive device so I sure as hell was impatient.
+
+To no luck, I always got the “acc not valid or supported” message.  
+I even tried the Unlock Account way again. And I entered it again and got to the same screen again. The only difference was that now they included a message saying basically “We are still working on it”.  
+  
+Okay I gave up for the day. I tried it the next day, roughly after 24h.  
+
+
+https://preview.redd.it/mr83ik2i4b1h1.png?width=683&amp;format=png&amp;auto=webp&amp;s=994b9c7474efd44ead681ea48460634ee296a2d2
+
+WHAT. IS. THIS.  
+Like really, at this point I’m exhausted. I googled again and found a lot of posts saying that if this is the message you’re seeing, then say goodbye to that account cause it’s gone for good and that you have to create a new one. Many people confirm that that’s exactly what they got from Apple support.  
+That can’t be right, right? Like this account existed FOR A DAY. How could it be locked out forever without any reason or warning?  
+I wanted to call the support (as that’s the only way of contacting them in the 21st century), but they were closed by that time and I had to wait another day… sigh.  
+By the way, navigating their support websites is also a nightmare. No info for my problem, just constant links to other pages that are either dead end (error or “ur acc is locked”), or it’s in a loop. I had to GOOGLE their support phone number as I cound’t fucking find it on the website.  
+  
+4. Contacting support and resolution  
+So the next day I called them. Explained the problem into detail and the support guy was very nice about it, but clueless about what or why it happened.  
+He wanted my apple ID and my (this time different) email where he can send me info.  
+He said that he himself doesn’t have rights to see a lot of things so he’ll advance this up and I have to wait for another 2 days to get some results. So I waited, as that’s what I was doing most of the time with this device anyway.  
+  
+After 2 days I get the arranged call and he says basically the same thing. “Security reasons” but doesn’t know any specific info, just this generic bullshit. He says that the only way now is to log out from my Mac - which you can’t do on your own ofc as it’s linked to a locked account and you have to fill out some forms and, you guessed it, WAIT SOME MORE so they can unlock it.  
+Then create a new account and use that.  
+  
+But WHY IN THE HOLIEST FUCK would I do that. WHO would guarantee me that I won’t create a new account, fill it with important info/photos/emails and stuff and then LOSE IT randomly because of “Security reasons” without any further info or way to get it back. Like how this can be a multibillion company? How can so many people put trust in this god awful support of their?   
+  
+Am at a loss of words really. Sorry to get all heated up but I am angry, believe that.  
+I’m returning this piece of shit back to the store and never touching apple again, cause I guess there is no way of believing them again.
+
+Does anybony know HOW this could have happened? What weird security lock I could have triggered?
+
+  
+
+
+TL;DR  
+I bought a MacBook Air M4 as a longtime Windows/Android user expecting a smooth “it just works” experience, but instead spent days dealing with broken Apple ID creation, random account locks, vague error messages, confusing recovery flows, and support that couldn’t even explain what happened. The hardware is great, but the whole Apple account ecosystem completely killed my trust in the platform.",,title_and_body,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/applehelp/comments/1tdx88m/my_first_and_last_apple_impression/
+B14-045,chrome,Managed by your organization,"Starting today im getting a message on my chrome browser ""Managed by your organization"".
+
+This was not there yesterday. im using a personal account. I have not installed any extensions or changed anything in chrome for a few months now. Updated chrome to the latest version when i saw the ""Managed by your organization"" text but this did not help.
+
+I see other people are having this message too, so i guess its a bug. But does anyone have a solution to this?",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/chrome/comments/1or0zmy/managed_by_your_organization/
+B14-046,AndroidQuestions,Why can't I update my phone since December?,"My wife and I each have the Galaxy A53 5G and we live in the United States. We both have been completely unable to update our phones since December the 19th. When attempting to check for any updates, we've both been getting this popup since our last update in December:
+
+""**Couldn't download update - Unable to update the software. A network or server error occurred. Try again later""**
+
+Our software information is:
+
+One UI version 8.0
+
+Android version 16
+
+Android security patch level - December 1, 2025
+
+We know it's not an internet connectivity issue because we go online with no problem and have a strong wifi signal. Our phones have been restarted numerous times and cache cleared numerous times as a part of routine maintenance, but the issue persists. I've tried researching this issue online but can't really find much of any information on this. The A53 was released in 2022. Did Galaxy or Android stop support for this model without our knowledge? I can't figure out what else it could be. Any ideas would be much appreciated, thank you!",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/AndroidQuestions/comments/1rk2sik/why_cant_i_update_my_phone_since_december/
+B14-047,MacOS,Finally new update MacOS 26.1 that seems to fix all rotten Tahoe bugs,"After months, finally, I think I won't reset my mac
+
+  
+Have you updated? 
+
+https://preview.redd.it/ron8ez9c97zf1.png?width=914&amp;format=png&amp;auto=webp&amp;s=461b04145cca7e8f48970ee52ea5dbee7840ac91",,title_and_body,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/MacOS/comments/1oo20ol/finally_new_update_macos_261_that_seems_to_fix/
+B14-048,chrome,Refresh all tabs not working anymore,"Hey, what's going on with new update, i update my google chrome today (143.0.7499.4) , i used to select all open tabs for exemple 10 or even 3 tabs, before when you select those tabs and press refresg (F5), it refresh all those tab, somehow i notice rn, it only refresh the current tab and ignoring others selected tabs, mean i should visite/enter each tab and press F5",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/chrome/comments/1pdjyds/refresh_all_tabs_not_working_anymore/
+B14-049,homeassistant,Impossible to change the colour of Zigbee light groups using the UI,"**Coordinator:** SONOFF Zigbee 3.0 USB Dongle Plus V2 (ZBDongle-E)  
+**Coordinator firmware:** EmberZNet / EZSP 7.4.4.0 build 0  
+**Zigbee integration:** ZHA  
+**Home Assistant:** Latest stable  
+**Installation:** Home Assistant Container (Docker)  
+**Host:** Raspberry Pi5 / Ubuntu 24.04  
+**Coordinator connection:** USB (`/dev/ttyUSB0`)
+
+I am quite new to home assistant, so any help would be appreciated,
+
+Recently because of popcorn effect I changed all my light groups from HA to native zigbee groups.
+
+Anyway, On a **single** zigbee bulb, it works flawlessly. I can drag the slider around and I can even see the light changing colour in real time as I drag the slider. This is with both **colour** and **colour temperature**. interestingly, brightness doesn't behave this way? I need to physically let go of my finger for the brightness to set. It does not change in real time. Anyway, the moment I try to control a zigbee group? Nope.
+
+For any zigbee group, of any size. yes even just 2 bulbs - if I try and change the **colour temperature**, or **colour** by dragging the slider around? Zigbee INSTANTLY rate limits me screaming ""**ZIGBEE\_MAX\_MESSAGE\_LIMIT\_REACHED**"". It is essentially **impossible** to change the colour or temperature using the UI. This happens on **any** zigbee light group of **any** size and seems to be when changing specifically colour temperature or colour. Brightness is okay... because it doesn't update the bulb with the UI in real time... But that's a separate issue! I would actually LIKE the brightness to change as I drag the slider around! why doesn't it? I digress. it is literally **impossible** to use the UI to change colour on zigbee groups.
+
+I'm not really sure what do do? I'm already on the latest firmware for my dongle, and home assistant is also the latest version.
+
+I don't want to start learning **zigbee2mqtt** and waste a whole day migrating my entire network when I don't even know if that will fix it.  
+I don't want to do that if it won't even fix the issue.  
+I would be more inclined to just buy a different dongle (if that would fix it) but I don't even know if that would!
+
+Please if anyone has any idea what's going on please clue me in  
+This is driving me insane haha",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/homeassistant/comments/1vz6c25/impossible_to_change_the_colour_of_zigbee_light/
+B14-050,android,How do I make AGP Upgrade Assistant offer other versions?,"I am brand new to Android and have been following the official walkthrough-style tutorials. I am on the second one, Build a simple app with text composables . Everything is fine with the code itself. The only difference is I am using IntelliJ Ultimate instead of standalone Android Studio. I recently tried to build by clicking ""Build & Refresh"" in the Design pane. It failed with 18 issues were found when checking AAR metadata: Dependency 'androidx.core:core-ktx:1.17.0' requires Android Gradle plugin 8.9.1 or higher. This build currently uses Android Gradle plugin 8.6.0-alpha07. [17 other errors similar to the above, all saying 8.6.0-alpha07 isn't enough] I read a ton of advice about modifying project settings files and upgrading gradle with .\gradlew.bat wrapper --gradle-version 8.14.3 but none of it helped. I do see a folder named 8.14.3 in my .gradle, so I know it's there, just not being called by IntelliJ. I've reverted the settings to what I think is the original state of the tutorial at the start of step 5, ""Add a new text element"". I have managed to figure out so far that I need to use the AGP Upgrade Assistant in IntelliJ (Tools > Android > AGP Upgrade Assistant...). When I open it, it says ""Upgrade Android Gradle Plugin from version 8.6.0-alpha07 to"" and then a dropdown... but the only option in the dropdown is ""8.6.0-alpha07"". The info panel says ""Up-to-date for Android Gradle Plugin version 8.6.0-alpha07"". Clicking ""Refresh"" doesn't add more versions. I just updated IntelliJ itself and it changed nothing. There are lots of search results for what to do if running the upgrade assistant causes errors but I couldn't find a single useful one for adding version options to the tool itself. [EDIT: I discovered a file called gradle/libs.versions.toml that starts with [versions] agp = ""8.6.0-alpha07"" that seemed promising. Changing the agp value to 8.14.3 just changed the error, unfortunately: Build file '...\HappyBirthday\build.gradle.kts' line: 2 Plugin [id: 'com.android.application', version: '8.14.3', apply: false] was not found in any of the following sources: * Try: > Run with --stacktrace option to get the stack trace. > Run with --info or --debug option to get more log output. > Run with --scan to get full insights. > Get more help at https://help.gradle.org . BUILD FAILED in 1s ] Am I at least on the right track? What else do I need to do here?",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://stackoverflow.com/questions/79892557/how-do-i-make-agp-upgrade-assistant-offer-other-versions
+B14-051,Ubiquiti,"IOS Network App, cant get to settings","maybe 6 months or so after an update, when using the Network App on an iphone, the app itself works fine but if you click the cog icon to get to the settings of my UDMP, it never resolves. The screen just stays blackm i can navigate back to the home screen and it works fine. All other functions are fine too but this limits access when not on site where I can pull up the web page from a computer.
+
+  
+I verified this is the same on wifi or when I have wifi urned off (I.E. data plan). so that removed any firewall or port issues, is anyone else having similar issue?",,title_and_body,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/Ubiquiti/comments/1s20t5l/ios_network_app_cant_get_to_settings/
+B14-052,chrome,Chrome crashes immediately upon launch,"My situation would be best shown through the video I took, but this doesn't allow it. 
+
+The problem is in the title. Basically, I can no longer open the app because of this. Been doing it for while, but it managed to stay open after 5 or so crashes. This morning I updated the app, and now no matter what I do, I can't get it to stay open. 
+
+Any idea what causes this and how will I be able to fix it? As stated before, the app is on the latest version. I tried clearing the cache and restarting my phone. The only thing I did not dare and don't really wanna try out was uninstalling and then reinstalling it, since I have a few tabs open with things I most likely wouldn't be able to find again. 
+
+Thanks in advance for the help!",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/chrome/comments/1oxqf7g/chrome_crashes_immediately_upon_launch/
+B14-053,Fedora,Fedora 43 Waking While Suspended on Laptop,"Hello all, as the post says I've been having issues with my laptop waking while it's suspended and the lid is closed. It's been causing my battery to just completely drain overnight.
+
+What would happen is 10-20 minutes after suspending, the laptop would just wake and stay awake.
+
+I'm running Fedora 43 on an Asus Zephyrus G16, specifically the model with the Ryzen AI 9 and RTX 4070. I actually had an Asus Pro Art P16 before this with the same version of Fedora and I wasn't having that issue there.
+
+How I've tried to fix it:  
+\- disabling network manager wake up  
+\- disabling wakeup on USB  
+\- Installing Nvidia Drivers (I normally wouldn't install them since it drains my battery pretty fast)  
+\- Installing asusctl and supergfxctl
+
+If anyone has had any experiences similar to mine and/or a solution that would be greatly appreciated. Thank you!
+
+Edit: I just updated the Asus BIOS, will report if it fixes!  
+Edit 2: It did not fix it :(",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/Fedora/comments/1s1m3t1/fedora_43_waking_while_suspended_on_laptop/
+B14-054,firefox,"""Save Video As"" not working after new update?","Happening for anyone else? I tried it in different browsers and it works but on Firefox nothing happens, my file explorer (Finder since I'm on Mac) doesn't even come up. Only started happening after the update","[1:reply] I’d try Troubleshoot Mode first, and if that doesn’t help, check Firefox’s download settings and permissions. Could also be a bug in the latest version.",title_body_comments,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/firefox/comments/1wxso8y/save_video_as_not_working_after_new_update/
+B14-055,applehelp,SO many issue afetr updating to Tahoe 26.3.,"Before going out yesterday I decided to update my brand new Macbook Air M4. Since opening my laptop today and finishing this update I’ve had so many problems. My iCloud stopped syncing, my Keychain password isnt working for any services and my Apple account has completely disappeared from my settings.
+
+I saw the ‘Update Apple Account Settings’ in Settings, where my Apple account would normally be and press ‘Continue’ and it loads for a second before doing absolutely nothing. I press the iCloud option in Settings and again, nothing happens. My apps that were linked to my Account arent responding and all the new widgety things on my homescreen dont do anything. I have been trying to fix this for about 3 hours now and am about to cry. Please help.",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/applehelp/comments/1r66xbs/so_many_issue_afetr_updating_to_tahoe_263/
+B14-056,applehelp,strange lagging from apps,"recently (maybe 2 days ago) my instagram started lagging, and not in just any way. When I scroll for reels and like it, it suddenly freezes for unknown reasons. I wouldn't say it's some kind of performance issues on my phone since it's only like this on instagram. Now, so is my youtube, when I like a shorts, a few seconds later the video becomes mute for a quick second.
+
+I do have an iphone 13 but my battery health is pretty good. I definitely started seeing some setbacks after updating to ios 18, especially on my camera, it takes too long for the camera to actually load for some reason. At this point, I want to go back to ios 17.",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/applehelp/comments/1r5i2ms/strange_lagging_from_apps/
+B14-057,linuxquestions,Debian 13 won't be loaded by UEFI after Windows 11 updated to new secure boot certs... why is this?,"Okay so I was running Debian 13 with secure boot enabled for past several months with no issues. Yesterday I installed Windows 11 on another SSD and obviously Windows updated to the new 2023 secure boot certificates during its routine updates. Windows boot without issues.
+
+But now the UEFI firmware refuses to load Debian 13's grub bootloader, saying ""Secure boot violation"". No other details given.
+
+Why is this? As far as I can see, grub was signed with the old 2011 MS certificates. Does that mean that installing the newer 2023 certificates invalidates the 2011 ones?
+
+So how can I ""resign"" grub with the new 2023 certificates so that my UEFI can boot Debian? Of course initially I can turn off secure boot to get into Debian but I don't want to have to toggle secure boot off &amp; on repeatedly to switch between Debian and Windows 11. I want Debian's grub or shim or whatever to be signed by the new MS certs so I can keep secure boot enabled for both OSes.
+
+How to do that? Any help or explanation appreciated!","[1:reply] On [Debian's wiki page about the SecureBoot certification updates](https://wiki.debian.org/SecureBoot/CAChanges), they maintain that UEFI specification says certificate expiration dates should not be enforced. However, as far as I see, that was [a recent proposed change to the U…
+[2:reply] GRUB is not signed with the Microsoft certificate, it's signed with a Debian cert. It's the boot shim that uses Microsoft certs and then hands off to the Debian-signed GRUB.
+
+From what I see, the new shim signed with both sets of Microsoft certs (version 6.1) is only in sid and…
+[3:reply] I think this is the reason for your current issues.
+https://directaccess.richardhicks.com/2025/12/04/windows-secure-boot-uefi-certificates-expiring-june-2026/
+
+I am not sure what you can do to mitigate it. I have secure boot entirely disabled and I stopped dual booting, but that…
+[4:reply] &gt;obviously Windows updated to the new 2023 secure boot certificates during its routine updates
+
+The normal case is that the certificate update adds new certificates, but the old certificates are still present. Those updates are usually delivered by the platform vendor, not by…
+[5:reply] &gt;the old certificates have expired, which would explain why they no longer work.
+
+No, expiration will not affect validation. Signed binaries continue to validate forever, as long as the CA is present.
+
+The expiration of a certificate only stops compliant tools from signing ne…",title_body_comments,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/linuxquestions/comments/1ugx88h/debian_13_wont_be_loaded_by_uefi_after_windows_11/
+B14-058,firefox,Update to v152 broke the search in the search bar in a private mode. How to fix?,"Before the update I was able to use the search bar in the centre of the page. After the update the search automatically moves to the address line (awesomebar) when trying to enter something there. I hate it. How can it be fixed?
+
+In the normal mode it works as expected: I'm selecting the search window and can enter a search word there, but in the private mode it doesn't. It worked fine until today (when I agreed to the update :( )",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/firefox/comments/1u9jzyl/update_to_v152_broke_the_search_in_the_search_bar/
+B14-059,immich,Can't fix update.,,,title_only,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/immich/comments/1liut7m/cant_fix_update/
+B14-060,homeassistant,Music Assistant -  Sonos players missing after update,"As most of you know, there was an update with Music Assistant recently - where Spotify connection broke. I had scripts set up to queue, shuffle and play playlists. However after the update, the scripts successful ran (doesn't error out) on HA, but nothing happens. i.e. it doesn't play.
+
+So when I tried to see is it something wrong with the ""Targets"" in ""Music Assistant: Play media"", the target I previously had was still there (1st screenshot). But when I clicked on ""Add target"" I couldn't find any players, although in Music Assistant and under Devices in HA I can see the Players (both Sonos and Music Assistant). 
+
+https://preview.redd.it/t991d5dn5plh1.png?width=854&amp;format=png&amp;auto=webp&amp;s=a97771e39a23b983f04044ad6cf27dec29780825
+
+Frustrated, I simply clicked on Reset to Defaults in Music Assistant for Player providers (see 2nd screenshots for steps), this solved it for me and I can see the players again when I clicked on Targets.
+
+https://preview.redd.it/fi3v7mfo5plh1.png?width=2134&amp;format=png&amp;auto=webp&amp;s=fc327242b27d7decf4792388276467a9ab2cc8ef","[1:reply] man the sonos + MA combo has been a headache since that update, glad the reset to defaults did the trick though. i’ve been putting off messing with my own setup because it feels like every other week something breaks the player discovery",title_body_comments,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/homeassistant/comments/1vytbv0/music_assistant_sonos_players_missing_after_update/
+B14-061,applehelp,Accessibility issue with the new iOS,"Hi, my phone just updated to iOS 26.3.
+
+I can’t remember what version I was on before, but I’m dyslexic and regularly use the built-in screen reader to have text read aloud to me. Some text can’t be selected normally — like captions on images or text embedded in pictures.
+
+What I used to do was take a screenshot. The phone would automatically detect the text, let me select what I needed, and read it aloud. While it was reading, I could close and delete the screenshot, and it would continue reading in the background. That made everything feel seamless.
+
+For example, if I was reading a short story posted as an image, I would zoom in, screenshot the text, start the read-aloud function, then close the screenshot and look at the artwork while it read. As it finished one section, I’d already have the next part ready to go. It became second nature.
+
+Now, with the latest update, if I close the screenshot, the reading stops after one or two words. I have to stay inside the screenshot the entire time, which is really frustrating.
+
+If I’m reading something longer (like 300–400 words) and instinctively close and delete the screenshot like I used to, it barely gets started before stopping. Then I have to take another screenshot and restart it from the beginning.
+
+This used to be smooth and built into my routine, and now it’s made accessibility much harder. Has anyone else noticed this, or found a fix? I’d really love to see this changed back.",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/applehelp/comments/1rj8pn7/accessibility_issue_with_the_new_ios/
+B14-062,AndroidQuestions,Need help picking new Android phone and wireless provider....,"Because I've had Android, specifically Samsung devices I think it's too late in the game for me to switch to Apple. I currently have the S25 Ultra and it's infuriating me to no end, some of it is Samsung's fault and some of the blame is on Android. The updates can really screw up your saved notifications. In fact I just realized that I can't find my Samsung earbud (the left one fell out in shallow water at the beach a few years ago). When I went to use the Find app, the last known location was from February. The settings I had to inform me when I leave it behind or it was found were turned off. Can't find the info now but almost certain I read that this or other problems I've been having happen from an update.
+
+Anyway I'm with AT&amp;T right now and I hate them. Their voicemail is garbage (archived a voicemail my cousin left and there's nothing in archives anymore. He passed away last August.) You can never get the right help and are always needing to self diagnose your phone. I like everything the Ultra offers (S Pen, S26 has privacy screen, great camera) but I don't know if I need such an expensive phone. 
+
+Looked at the Motorola and Samsung foldable phones and they didn't get great reviews. I would be curious to try one of em out if they are good phones but they're sold out at Verizon (who I wanted to move to because I never had call or connection issues). 
+
+I owe money on current phone and a Galaxy watch 6 classic. I recently removed my watch plan because the watch hasn't worked in its entirety in a long while. Screen would get frozen so Id try to restart it. But that button is just above the call emergency button. And it called 911 instead but the dispatcher couldn't hear me cuz the mic also hasn't been working for awhile. AT&amp;T said that I could get service suspended because I don't have a watch data line anymore. Bet if you lose your watch, they'd still make you keep the line. I don't mind leaving at&amp;t high and dry with the balance because I need to claim bankruptcy anyway. 
+
+Being my situation is a bit tangled I don't know what to do/get. My service could be shut off tomorrow. I can get the S26 Ultra, would need to put down $500 + tax prior. I would be getting a $200 Verizon card, my monthly bill would go from approximately $160 to about $90. Was thinking of taking the difference and putting it away to pay myself back the $500 down payment. Know it sounds stupid but I don't have a lot of options being cheaper ones I like are sold out or don't have enough storage (current phone is 512 GB).
+
+Any advice, maybe from people who've been in same/similar situation? No matter how much Android frustrates me when it does things like change settings without me knowing, I feel more comfortable staying with it. Would be nervous transferring data from Android to Apple in case some files get lost. 
+
+I know I typed a lot so if I don't get a lot of replies, I understand. I'm just so confused right now and it's clearly showing LOL","[1:reply] ""Need to claim bankruptcy anyway"" but need new stuff. Why don't I understand this kind of thinking? Why not sort out financials first and after that start living that dream with all new shiny devices?
+[2:reply] Agreed, OP should be consulting /r/personalfinance to see if bankruptcy is the right choice.  And either way, it sounds like finances are bad enough that OP should be sticking to whatever is cheapest for the next few years.  If the Ultra is affordable to repair, do so.  Then bac…
+[3:OP] You missed something. It's not about getting new, it's about possibly not having any service soon and needing a new carrier. But their offers are all different, confusing. Friend said go some place where they'll pay your phone off. Well there's not many that are right now and I…",title_body_comments,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/AndroidQuestions/comments/1v29uu7/need_help_picking_new_android_phone_and_wireless/
+B14-063,Ubiquiti,Constant Disconnections on U7 Pro IoT VLAN,"Hey everyone!
+
+Was looking for some help regarding my IoT devices constantly disconnecting and reconnecting. I'm not sure if it's U7 Pro related (I know this model has had copious issues since launch, but maybe after the dozen updates it's had, maybe that's no longer an issue?) or LIFX products themselves.. but as you can see from the photos, my smart lights constantly disconnect and reconnect citing WPA Authentication Failure, DHCP Timeout and straight up Authentication Failure.
+
+Some notes:
+
+* It's the cleanest channel I can use in my area (but using other ones in the past hasn't helped)
+* IoT devices from other manufacturers don't have issues
+* It was incredibly painful getting them set up in the first place (connected and remained stable on my previous Netgear router)
+* I am running Ad Block via the Content Filter via Cybersecure
+* I have Gateway mDNS Proxy and IGMP Snooping enabled for the IoT network
+
+Would love some help!
+
+Thank you!","[1:reply] Hello!  Thanks for posting on r/Ubiquiti!
+
+This subreddit is here to provide unofficial technical support to people who use or want to dive into the world of Ubiquiti products.  If you haven’t already been descriptive in your post, please take the time to edit it and add as many…",title_body_comments,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/Ubiquiti/comments/1u7uvrg/constant_disconnections_on_u7_pro_iot_vlan/
+B14-064,Ubuntu,"Ubuntu 26.04 + XP-Pen Deco 01 V2: Stylus works in GNOME but not in Krita, Clip Studio Paint, Discord, or XWayland applications","Hello everyone,
+
+I'm trying to diagnose an issue that appeared immediately after upgrading to Ubuntu 26.04 LTS (Resolute). I'm posting here to see if anyone with a similar setup has experienced the same problem.
+
+# Hardware
+
+* HP Omen 16 laptop
+* NVIDIA GPU (Driver 580.159.03)
+* XP-Pen Deco 01 V2
+* Dual-monitor setup:
+   * Internal laptop display (2560x1440)
+   * External TV (1920x1080)
+* GNOME on Wayland
+
+# What happened
+
+Immediately after upgrading to Ubuntu 26.04, several graphical issues appeared:
+
+* HiDPI scaling behaved differently.
+* Some legacy applications displayed extremely tiny UI elements and text.
+* GRUB changed appearance and scaling.
+* My XP-Pen stylus stopped working correctly in several applications.
+
+# Current behavior
+
+# Works correctly
+
+* GNOME desktop
+* Ubuntu Settings
+* Tablet calibration
+* Pressure sensitivity
+* Tilt detection
+* Firefox
+* libinput
+
+# Does NOT work correctly
+
+* Krita
+* Clip Studio Paint (running through Wine)
+* Discord
+* XP-Pen Tablet application
+
+In these applications, the stylus may move the cursor, but clicks, drawing input, pressure, or stylus interaction are either missing or partially broken.
+
+# Tests performed
+
+# Hardware verification
+
+The tablet is detected correctly by Ubuntu.
+
+Using:
+
+    libinput debug-events
+    
+
+I can see:
+
+* TIP down
+* TIP up
+* pressure values
+* tilt values
+
+The stylus is clearly working at the kernel/libinput level.
+
+# XP-Pen driver testing
+
+Tested with:
+
+* XP-Pen Driver 4.0.7
+* XP-Pen Driver 4.0.15
+
+No meaningful difference.
+
+I also completely stopped the XP-Pen driver:
+
+    pkill -f PenTablet
+    
+
+Then unplugged and reconnected the tablet.
+
+Result:
+
+* GNOME still detects the tablet.
+* Krita still fails.
+* Clip Studio still fails.
+
+This suggests the issue is not caused exclusively by the XP-Pen driver.
+
+# XWayland testing
+
+This was the most interesting result.
+
+Running:
+
+    xev
+    
+
+Results:
+
+* Mouse generates events normally.
+* Stylus generates no events at all.
+* No movement events.
+* No button events.
+* No pressure-related events.
+
+However, GNOME itself still receives stylus input correctly.
+
+This seems to indicate:
+
+Stylus → libinput → Wayland → OK
+
+Stylus → XWayland → Broken
+
+# Mutter update
+
+I manually upgraded:
+
+* mutter-common
+* mutter-common-bin
+* libmutter-18-0
+* gir1.2-mutter-18
+
+From:
+
+50.1-0ubuntu2.1
+
+To:
+
+50.1-0ubuntu2.2
+
+No change.
+
+# Session information
+
+    echo $XDG_SESSION_TYPE
+    
+
+Output:
+
+    wayland
+    
+
+    echo $WAYLAND_DISPLAY
+    
+
+Output:
+
+    wayland-0
+    
+
+    echo $XDG_CURRENT_DESKTOP
+    
+
+Output:
+
+    ubuntu:GNOME
+    
+
+# Additional observations
+
+* Everything worked correctly before upgrading to Ubuntu 26.04.
+* The issue appeared immediately after the upgrade.
+* Krita fails even with the XP-Pen driver disabled.
+* Clip Studio fails even with the XP-Pen driver disabled.
+* GNOME and Firefox continue to receive stylus input correctly.
+
+# Current hypothesis
+
+At this point, the issue appears to be related to one of the following:
+
+* Wayland
+* XWayland
+* Mutter
+* GNOME 50
+* Interaction between NVIDIA and tablet input under Ubuntu 26.04
+
+The tablet itself appears to be fully functional, but some applications are no longer receiving stylus events correctly after the upgrade.
+
+Has anyone with Ubuntu 26.04, GNOME, NVIDIA, XP-Pen, Huion, or Wacom hardware experienced similar behavior?Ubuntu 26.04 + XP-Pen Deco 01 V2: Stylus works in GNOME but not in Krita, Clip Studio Paint, Discord, or XWayland applicationsHello everyone,I'm trying to diagnose an issue that appeared immediately after upgrading to Ubuntu 26.04 LTS (Resolute). I'm posting here to see if anyone with a similar setup has experienced the same problem.HardwareHP Omen 16 laptop  
+  
+NVIDIA GPU (Driver 580.159.03)  
+  
+XP-Pen Deco 01 V2  
+  
+Dual-monitor setup:  
+  
+Internal laptop display (2560x1440)  
+  
+External TV (1920x1080)  
+  
+GNOME on WaylandWhat happenedImmediately after upgrading to Ubuntu 26.04, several graphical issues appeared:HiDPI scaling behaved differently.  
+  
+Some legacy applications displayed extremely tiny UI elements and text.  
+  
+GRUB changed appearance and scaling.  
+  
+My XP-Pen stylus stopped working correctly in several applications.Current behaviorWorks correctlyGNOME desktop  
+  
+Ubuntu Settings  
+  
+Tablet calibration  
+  
+Pressure sensitivity  
+  
+Tilt detection  
+  
+Firefox  
+  
+libinputDoes NOT work correctlyKrita  
+  
+Clip Studio Paint (running through Wine)  
+  
+Discord  
+  
+XP-Pen Tablet applicationIn these applications, the stylus may move the cursor, but clicks, drawing input, pressure, or stylus interaction are either missing or partially broken.Tests performedHardware verificationThe tablet is detected correctly by Ubuntu.Using:libinput debug-events  
+I can see:TIP down  
+  
+TIP up  
+  
+pressure values  
+  
+tilt valuesThe stylus is clearly working at the kernel/libinput level.XP-Pen driver testingTested with:XP-Pen Driver 4.0.7  
+  
+XP-Pen Driver 4.0.15No meaningful difference.I also completely stopped the XP-Pen driver:pkill -f PenTablet  
+Then unplugged and reconnected the tablet.Result:GNOME still detects the tablet.  
+  
+Krita still fails.  
+  
+Clip Studio still fails.This suggests the issue is not caused exclusively by the XP-Pen driver.XWayland testingThis was the most interesting result.Running:xev  
+Results:Mouse generates events normally.  
+  
+Stylus generates no events at all.  
+  
+No movement events.  
+  
+No button events.  
+  
+No pressure-related events.However, GNOME itself still receives stylus input correctly.This seems to indicate:Stylus → libinput → Wayland → OKStylus → XWayland → BrokenMutter updateI manually upgraded:mutter-common  
+  
+mutter-common-bin  
+  
+libmutter-18-0  
+  
+gir1.2-mutter-18From:50.1-0ubuntu2.1To:50.1-0ubuntu2.2No change.Session informationecho $XDG\_SESSION\_TYPE  
+Output:wayland  
+echo $WAYLAND\_DISPLAY  
+Output:wayland-0  
+echo $XDG\_CURRENT\_DESKTOP  
+Output:ubuntu:GNOME  
+Additional observationsEverything worked correctly before upgrading to Ubuntu 26.04.  
+  
+The issue appeared immediately after the upgrade.  
+  
+Krita fails even with the XP-Pen driver disabled.  
+  
+Clip Studio fails even with the XP-Pen driver disabled.  
+  
+GNOME and Firefox continue to receive stylus input correctly.Current hypothesisAt this point, the issue appears to be related to one of the following:Wayland  
+  
+XWayland  
+  
+Mutter  
+  
+GNOME 50  
+  
+Interaction between NVIDIA and tablet input under Ubuntu 26.04The tablet itself appears to be fully functional, but some applications are no longer receiving stylus events correctly after the upgrade.Has anyone with Ubuntu 26.04, GNOME, NVIDIA, XP-Pen, Huion, or Wacom hardware experienced similar behavior or has a probable solution?","[1:reply] As a graphic designer who's been wrestling with wayland tablet issues for ages, this screams XWayland input forwarding getting borked in the upgrade. The fact that native wayland apps work but anything through XWayland dies is like watching my workflow crumble in real time
+
+  
+C…",title_body_comments,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/Ubuntu/comments/1u3i4f1/ubuntu_2604_xppen_deco_01_v2_stylus_works_in/
+B14-065,chrome,New tab redirect and similar extensions doesn't work anymore in incognito mode since Chrome 145 update,"Hello,
+
+Extensions such as New Tab Redirect no longer work in private browsing mode (it is enabled in the settings) since the update to Chrome 145 (no problem on versions 144 and below). Regardless of the link added to open automatically each time a tab is opened (google.com in my case), it only displays the classic incognito mode page as if the extension is not enabled. Are other people experiencing the same problem? I have several computers running the latest version of Windows 11 and the problem occurs on all of them.
+
+Thank you.",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/chrome/comments/1r6tqf0/new_tab_redirect_and_similar_extensions_doesnt/
+B14-066,applehelp,"Windows → Mac M5 migration failed (Migration Assistant stuck on ""Connecting to your Mac"")","Hi everyone,
+
+I just got a MacBook Pro M5 running macOS Tahoe, and I'm trying to migrate my data from a Windows PC using Windows Migration Assistant.
+
+The issue is the following:
+
+On the Windows PC, Migration Assistant displays ""Connecting to your Mac..."", stays there for several minutes, and then eventually fails.
+
+On the Mac, the loading spinner keeps spinning indefinitely. The security code never appears.
+
+I've already checked pretty much everything:
+
+✅ Windows 10 (my PC doesn't meet the hardware requirements for Windows 11, so upgrading isn't possible).
+
+✅ Latest version of Windows Migration Assistant 3.0.2.1 downloaded from Apple's website.
+
+✅ macOS Tahoe fully up to date.
+
+✅ Both devices are on the same local network (verified by their IP addresses).
+
+✅ They can ping each other successfully.
+
+✅ Windows network profile is set to Private.
+
+✅ Windows Firewall temporarily disabled.
+
+✅ No third-party antivirus installed.
+
+✅ Bonjour Service is installed and running.
+
+✅ Bluetooth Low Energy is available (Bluetooth 5.3 USB adapter recognized by Windows).
+
+✅ I tried Ethernet (PC) → Wi-Fi (Mac), which Apple says is supported.
+
+✅ I also enabled File Sharing on the Mac.
+
+Despite all of this, the connection never completes. Both devices appear to detect each other, but they get stuck before the security code is displayed.
+
+Has anyone experienced this issue with a Mac M5 running macOS Tahoe?
+
+If so:
+
+How did you get Migration Assistant to work?
+
+Is this a known bug or is there a specific workaround?
+
+I've already spent several hours troubleshooting this without any success, so I'd really appreciate any suggestions.
+
+Thanks in advance!",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/applehelp/comments/1uzgdak/windows_mac_m5_migration_failed_migration/
+B14-067,immich,OCR Job is already running error,"\--Problem Solved
+
+Hello Guys,
+
+This morning I updated to v2.2.0 and I was going to start OCR workflow but nothing happened. In logs (I attached both ML server and Immich server logs) noticed that, my NextDNS was blocking the .cn top domain. I remove that rule and restart the Immich but now when I click OCR-&gt;All in jobs, it says ""Job is already running (Immich Server Error)"". In my current logs OCR Job is not active as well as in the UI.
+
+What can I do at this point? Thanks already.
+
+  
+Edit: Guys for me problem solved. Things that you can do, if you're facing with the same problem:
+
+\- I was using CloudFlare Tunnel and in my web panel settings cache option was enabled. First purge every cache and disable the caching.
+
+\- Clear your browser cookies then login again.",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/immich/comments/1okrv64/ocr_job_is_already_running_error/
+B14-068,MicrosoftEdge,Background tab/window forcing itself to the front: help,"I need help after this latest update to my work computer. It stays at the office so when I came back in today it had already auto updated, which isn't out of the ordinary. When I went to check out a client a little later, it froze, and I had to end up completing it via my phone because the computer had to be reset. The reason it froze is the problem I need fixed: we have Pandora playing in the background for calm music in the building, and with this new update, every time a new song plays, the tab forces itself to the front even if I'm actively doing something on a different window. Is there some kind of setting I can change to fix this? I can't have it freeze on clients repeatedly during checkout but the building also needs the music.","[1:reply] So, Pandora steals focus when the next song starts. To me, this sounds like some kind of a Pandora setting. I don't have Pandora, but I doubt that Edge is designed to do this. I can play SiriusXM in Edge all day without it stealing focus, but yeah it's not Pandora so I don't kno…",title_body_comments,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/MicrosoftEdge/comments/1u1esh5/background_tabwindow_forcing_itself_to_the_front/
+B14-069,Supabase,Is the CLI v2.119.0 image bad or is it just me? CLI v2.119.0 does not run on my machine,"Hi
+
+I just upgraded the CLI from 2.118.0 to 2.119.0 (`brew upgrade supabase`) yesterday and since then, no Supabase project starts. Even a brand new project after `supabase init` wouldn't start. 
+
+I fed the error to AI and this is the summary but I'm not sure if it's just me or the actual docker image is bad. Anyone else having the same issue?
+
+---
+
+This is **not a problem with your project**. It’s a broken Studio Docker image that CLI **2.119.0** started pulling.
+
+## Root cause
+
+CLI 2.119.0 pins Studio to:
+
+`public.ecr.aws/supabase/studio:2026.09.28-sha-5e59b60`
+
+That image’s `/app/apps/studio/package.json` is **0 bytes**. Node then fails with `ERR_INVALID_PACKAGE_CONFIG` when it runs `node apps/studio/server.js`, health checks fail, and the CLI stops everything.
+
+The previous image used by 2.118.0 (`2026.09.14-sha-4dd8a95`) has a valid ~8KB `package.json`. That’s why a brand-new empty project fails the same way.
+
+## Workarounds
+
+**1. Fastest if you don’t need Studio UI right now:**
+```bash
+supabase start --exclude studio
+```
+
+**2. Recommended: roll back CLI to 2.118.0** (Homebrew):
+```bash
+brew unlink supabase
+curl -fsSL -o /tmp/supabase_2.118.0.tar.gz \
+  https://github.com/supabase/cli/releases/download/v2.118.0/supabase_2.118.0_darwin_arm64.tar.gz
+tar -xzf /tmp/supabase_2.118.0.tar.gz -C /tmp
+sudo mv /tmp/supabase /usr/local/bin/supabase   # or put it somewhere on your PATH
+supabase --version   # expect 2.118.0
+supabase start
+```
+
+Or pin via npm/npx if you prefer that install path:
+```bash
+npx supabase@2.118.0 start
+```
+
+**3. Temporary config change** (keeps 2.119.0, no Studio):
+```toml
+[studio]
+enabled = false
+```
+
+## Notes
+
+- Re-pulling / pruning Docker won’t fix this — the published image itself is bad.
+- Current `2.120.0-beta` still pins the same Studio tag, so beta likely won’t help yet.
+- Watch for a fixed Studio image or CLI release that moves off `2026.09.28-sha-5e59b60`.
+
+I can roll you back to 2.118.0 or apply the Studio exclude if you want.","[1:reply] Hi!  I checked with our engineering team, and here's how to fix that:
+
+Your local copy of the image is probably corrupted, which can happen after an interrupted pull or when Docker runs out of disk space. Re-pulling should fix it, and you don't need to roll back the CLI:
+
+    su…",title_body_comments,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/Supabase/comments/1wvq5kw/is_the_cli_v21190_image_bad_or_is_it_just_me_cli/
+B14-070,firefox,How do I use tab groups on Android? I'm on the latest release,"Release notes say they've added tab groups and I updated but can't see tab groups, am I missing something?","[1:OP] when I put one tab on top of another, they just switch places. I can't form groups.
+
+also damn, I really wanted this feature and it's saf it's half baked. I especially liked the gesture on chrome where you could swipe on the tab view or address bar to switch tabs and looks like…
+[2:reply] Drag and drop one tab onto another. There should be clear visual indicators that it's what you're doing. If there aren't, perhaps the feature hasn't reached you yet. 
+
+The feature is extremely half-baked (you can't Open Link In Tab Group like in Chrome and its forks, and it take…",title_body_comments,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/firefox/comments/1v2mnkg/how_do_i_use_tab_groups_on_android_im_on_the/
+B14-071,sysadmin,Size of a Windows ISO after slipstreaming Windows updates,"This is my first post in here and my question is undoubtedly quite naive. That is the case because it is my first time doing that kind of work so please bear with me.
+
+I have an ISO file that contains Windows 11 IoT Enterprise LTSC among others and what I want to do is create another ISO file that contains that Windows version with the relevant Windows updates already applied.
+
+The Windows version that the initial ISO file contains is 10.0.26100.1 (24H2) and the intention is to update it to 10.0.26100.8457. To do this, I have downloaded KB5089549 from https://catalog.update.microsoft.com. This thing consists of two .msu files, one with a size of roughly 500 MB, the other of roughly 5 GB.
+
+Then, I have applied these updates by using the PowerShell Cmdlets `Mount-WindowsImage`, `Add-WindowsPackage`, `Repair-WindowsImage` and `Dismount-WindowsImage`. This has all worked and I have successfully used the resulting ISO file to install Windows 11, which resulted in an installation with the expected version 10.0.26100.8457.
+
+What surprised me quite a bit is that the resulting ISO file is almost double the size of the original ISO file (8.3 GB instead of 4.3 GB). This is the case even though I use the command
+
+    $windowsImage | Repair-WindowsImage -StartComponentCleanup -ResetBase$windowsImage
+
+which, to the best of my knowledge, should strip out superseded components from my created image.
+
+Here's my naive question: Is that almost doubled size something to be expected or did my cleanup approach fail somehow?",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/sysadmin/comments/1texbyk/size_of_a_windows_iso_after_slipstreaming_windows/
+B14-072,homelab,"DS412+ (DSM 6.2.4-25556) — SSH rejects ALL users/passwords/keys, but DSM web/SMB/AFP work fine. Root cause seems to be /etc/shadow not syncing. Fixable without reinstall?","please help yall this is NOT working. I spent 3+ hours for ZERO change.
+
+
+
+**Setup:** DS412+, DSM 6.2.4-25556 Update 8 (genuine unit, `unique=synology_cedarview_412+`). SSH enabled in Control Panel → Terminal &amp; SNMP. My user is in the `administrators` group.
+
+**Symptom:** Every SSH login is rejected — `Permission denied (publickey,password)` — for *every* account (my admin user, `admin`, and `root`), with *both* password and key auth. Meanwhile the same accounts log in fine via DSM web UI, SMB, and AFP. No 2FA. Auto Block list is empty.
+
+**Things I ruled out (all verified correct):**
+
+* `sshd_config` is permissive and valid: `PubkeyAuthentication yes`, `PasswordAuthentication yes`, `PermitRootLogin yes`, `StrictModes no`, correct `AuthorizedKeysFile`, no `AllowUsers`/`DenyUsers`/`AuthorizedKeysCommand`
+* SSH key is byte-perfect (server-side fingerprint matches client), correct file/dir ownership and perms
+* Account is valid, not expired, has a hash present in `/etc/shadow`, exists in `/etc/passwd`
+* AppArmor isn't confining sshd; no denials
+* Rebooted; toggled SSH off/on in DSM (regenerates config) — no change
+
+**Two real anomalies I found:**
+
+1. The `sshd` **privilege-separation user was missing** from `/etc/passwd` entirely (I recreated it — didn't fix auth on its own).
+2. **The** `/etc/shadow` **hash does not match the actual password.** I set a known password via `synouser --setpw` (returned success), then verified with `python crypt` against the stored `$6$` hash → **NOMATCH**. So Synology isn't writing the real password into `/etc/shadow`, which is what SSH's `pam_unix` checks. That appears to explain why every password is rejected.
+
+Older DSM logs also show missing system CGI files (`update.cgi`, `dnscfg.cgi`, `sysinfo.cgi`) after an update months ago — so the system partition may be partly damaged.
+
+**Questions:**
+
+1. Has anyone seen Synology stop syncing passwords to `/etc/shadow`? What causes it / how do you repair the sync properly (vs. just hand-editing `/etc/shadow`)?
+2. The DS412+ is on its final DSM version, so Manual Update refuses to reinstall (won't go to same/older version). **Is there a supported way to do a repair/reinstall of the same DSM version** (forced recovery mode, etc.) on EOL hardware without wiping data?
+3. Any cleaner fix than manually writing a hash into `/etc/shadow`?
+
+Thanks!",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/homelab/comments/1ucn7w6/ds412_dsm_62425556_ssh_rejects_all/
+B14-073,Supabase,Self-hosted recent Storage schema migration error,"In the most recent update to self-hosted, I rebooted the stack and got the following error:
+
+""Hashes don't match for migrations:  
+  
+0002-storage-schema.sql  
+0006-change-column-name-in-get-size.sql  
+0009-fix-search-function.sql  
+00010-search-files-search-function.sql  
+0038-iceberg-catalog-flag-on-buckets.sql  
+0039-add-search-v2-sort-support.sql  
+0040-fix-prefix-race-conditions-optimized.sql  
+0048-iceberg-catalog-ids.sql  
+  
+This means that the scripts have changed since it was applied.""
+
+Has anyone else gotten this? Just want to know if I'm the only one or not at this stage. Thanks!",,title_and_body,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/Supabase/comments/1qweiqf/selfhosted_recent_storage_schema_migration_error/
+B14-074,MicrosoftEdge,Latest version update 150.0.4078.48,"Finally version update 150 is here so I expected some new stuff in this browser. But WTF. I get to see the new features screen as always after a version update, but all features are way old and already in Edge! Stuff like read mode. No new features at all! Is this a bug or something? There must be something new, especially since it's milestone 150 version, right?","[1:reply] It seems everybody is complaining about the ""bloat"" ... and here you are complaining about the lack of new features ...
+[2:reply] [Here](https://learn.microsoft.com/en-us/deployedge/microsoft-edge-relnote-stable-channel#version-1500407848-july-2-2026-stable) is what's new in the update.
+[3:reply] **Version 150.0.4078.48 (July 2, 2026)**    
+**macOS Compatibility:** Last version to support macOS 12 (Monterey). Starting with version 151, macOS 13 (Ventura) or later will be required.
+
+**Workspaces:** Migration to V2 architecture, with data now using the Edge sync service. T…
+[4:reply] Has anybody's refresh button got smaller? Why do the Edge developers keep constantly diddling with the UI? If it's not broken do not fix it.
+[5:reply] the list of extensions on the extension shortcut is needlessly larger, each extension now takes more than double the space for no reason. it's a scrolling nightmare for smaller screens",title_body_comments,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/MicrosoftEdge/comments/1um3gok/latest_version_update_1500407848/
+B14-075,chrome,"""Aw, snap!"" never ending issue","I updated my phone 2 days ago and ever since then every chrome page that I open gets the ""Aw, snap!"" error. I can't even log into my accounts because clicking on a link in the Gmail app does the same thing. My phone is brand new, not even a week old and I already tried everything. Deleted all my data from the app twice, cleared cache, restarted my phone, force stopped the app and yet nothing works. I really don't want to start using another browser since I'm so used to Chrome. Does anyone know how to fix this?",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/chrome/comments/1pttotg/aw_snap_never_ending_issue/
+B14-076,Dell,"Dell Command | Update ""Application Error"" Enterprise Deployment","We are deploying Dell Command | Update across all Dell machines in our fleet.  We saw the .NET requirement was changing from 8.x to 10.0.8+ with the Dell Command | Update 5.7.1 update, so we pre-deployed 10.0.10 to all machines before pushing the 5.7.1 update.  
+
+Since the 5.7.1 update, ALL machines have failed to run DCU properly. When checking for updates through the GUI, it consistently fails with the generic error **""Application Error.  An unexpected error occurred during the last action, the operation was aborted""**. DCU-CLU.exe works fine, but the GUI ALWAYS fails.
+
+I don't see anything in event viewer that indicates the cause of the crash and can't find anything in any other log.
+
+  
+This is across all machines regardless of model
+
+https://preview.redd.it/jys9apgb35kh1.png?width=994&amp;format=png&amp;auto=webp&amp;s=0860a2a802bd10fb92e104ad79433cd5ec7393f9","[1:reply] We had a lot of problems when upgrading DCU with the DellClientManagement Service becoming either Stopped or even Disabled.
+
+In the end, we had to force uninstall DCU then reinstall from scratch - upgrading ""over the top"" would always cause issues.
+
+  
+In the end we fixed everyt…
+[2:OP] Just did a clean install / re-install and there's no change.  This also happens on newly imaged machines
+[3:reply] Hi there!
+We are from the Dell Social media support team.
+Thank you for the detailed information. We understand the impact this can have when deploying Dell Command Update at a larger scale, especially when the CLI functions correctly but the GUI consistently fails across multip…
+[4:OP] I removed all traces of DCU i could find and i get the same result",title_body_comments,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/Dell/comments/1vrpz9m/dell_command_update_application_error_enterprise/
+B14-077,applehelp,New iPhone stuck in recovery mode,"Just upgraded to 17 pro max from 15 pro, did the iCloud recovery process after backing the 15 up, but the new phone is stuck in the recovery process, but will not load/download anything and cannot access anything in apple account. Only thing I can think of after numerous restarts is to wipe and start from scratch again, any advice?",,title_and_body,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/applehelp/comments/1t1gpvh/new_iphone_stuck_in_recovery_mode/
+B14-078,homelab,Proxmox 9.1.9 VLANS Will Not Function,"Hi Everyone,
+
+I've spent maybe 5 hours today banging my head against the wall watching Youtube videos, reading forum posts and more and for the life of me I can't get Proxmox to recognize my VLANs. I'm trying to move from VMWare to Proxmox.
+
+**Setup**
+
+Cisco Nexus 3K in a colocated home lab I have a Dell R330 that ran VMWare with the same exact switch config without issues.
+
+**Switch configuration**
+
+interface PO4  
+description Server02  
+switchport mode trunk  
+switchport trunk allowed vlan 102,777
+
+NIC name is NIC2
+
+VLAN 777 - Management [10.43.255.0/24](http://10.43.255.0/24)  
+VLAN 102 - Internet - Public IP range /29
+
+**Proxmox Settings**
+
+vmbro0 is correctly linked to NIC2 and keeping the management IP of [10.43.255.11](http://10.43.255.11) assigned to vmbr0 I can access and successfully get out to the internet.
+
+On vmbro0 I enabled VLAN aware and set the VLAN IDs as 102 777 and successfully saved.
+
+If I create a linux VLAN for example vmbr0.777 and add the management IP and gateway and erase it from vmbr0 and save I lose connectivity to the management and have to jump in via iDRAC. The only way to fix it putting the address and gateway back in vmbr0. I also tried setting the native vlan to 777 after this change and it didn't make a difference the management IP was still unreachable until moved back to vmbr0.
+
+I also created vmbr1 with no vlan aware as I intended to use OPNSense
+
+I confirmed the proxmox server from the shell could successfully ping the gateway of VLAN 102
+
+**VM Settings**
+
+At first I created an OPNSense VM assigned vmbr0 with VLAN 102 and a second nic as vmbr1. I assigned everything and configured everything and the test VM I created a linux mint live CD I got assigned the internal IP address from the DHCP pool but couldn't reach the internet no matter what I tried.
+
+After banging my head for so many hours I just focused on test VM and when I use vmbr0 and do nothing I get an IP from VLAN 777 but if I tag it with VLAN 102 and manually assign the public IP information and gateway I get nothing I can't ping the gateway IP or the internet (4.2.2.2)
+
+I also tried creating a linux bridge vmbr0.102 not assigning an IP address and tagging as VLAN 102 no changes in behavior on the test CD. I've rebooted, I've disconnected and reconnected the NIC and I've tried changing from paravirio to like E1000 or VXNET again to no avail.
+
+At this point I'm wondering if I should be using OVS or whatever its called as in VMWare I was using switch groups. The server being able to communicate on VLAN 102 tells me that its not a routing or connectivity issue but VMs from within Proxmox have no connectivity.
+
+I'm at my wits end I really want to move off of VMWare and on to proxmox but this is bothering me to no end. While searching the web for answers I did come across a recent post on proxmox's forums [https://forum.proxmox.com/threads/proxmox-9-1-and-vlans-stopped-working.180268/](https://forum.proxmox.com/threads/proxmox-9-1-and-vlans-stopped-working.180268/)
+
+While the thread talks about 9.1 and upgrading to 9.1.5 I'm already on latest 9.1.9 and I'm about ready to try a clean version of 9.0 but I suspect it isn't going to help.
+
+https://preview.redd.it/zzy2gpgwlgxg1.png?width=420&amp;format=png&amp;auto=webp&amp;s=952f981bfc8a74cb27ca02d45f3536b15cb9ca46
+
+I appreciate any assistance and thank you for reading my lengthy post.",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/homelab/comments/1svx0o5/proxmox_919_vlans_will_not_function/
+B14-079,applehelp,iPhone 17 pro airdrop keeps failing?,"Hi guys, I have the 17 pro and it just got the most recent update. I'm trying to airdrop pictures for work from my phone to iMac and it keeps saying airdrop failed. It won't let me send any pictures. I've tried, turning my phone on and off, turning the Bluetooth/wifi on and off, and setting the airdrop receiving settings as everyone for 10 minutes. Please help!! Thanks!","[1:reply] What’s your iMac? Which of [these](https://support.apple.com/en-us/108054) is it and what’s the macOS version?
+[2:OP] I have the 24in, 2024, 2 ports. OS 15.7.4",title_body_comments,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/applehelp/comments/1v3nplc/iphone_17_pro_airdrop_keeps_failing/
+B14-080,applehelp,require face id for apps option stopped working,"so i updated my iphone 15 to the latest ios (26.5.2) because require face id doesnt work and i thought that was the problem. it started working, and now i opened an app that i had locked with face id and it doesnt work anymore, when i tried to add it back, the option dissapeared and i can’t find a way to add it back, any help?",,title_and_body,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/applehelp/comments/1uotj3l/require_face_id_for_apps_option_stopped_working/
+B14-081,comfyui,ComfyUI Manager is empty/broken in Stability Matrix – Tips?,"Hi everyone. I’m using Stability Matrix with ComfyUI, and I’ve just hit a wall after a clean reinstall. This has been a total nightmare. Here is exactly what happened:
+​The Initial Issue: After a fresh reinstall, the ComfyUI Manager was completely missing from the interface.
+​Attempt 1: I downloaded the ZIP and installed it manually into the custom\_nodes folder. It didn't work; it wouldn't show up in the UI at all.
+​Attempt 2: I renamed the folder and changed the security setting from ""normal"" to ""weak"" in the config .ini file.
+
+
+​The Result: The Manager button finally appeared in the UI, but it was useless. It doesn't show any nodes to install or update. The lists are completely empty and it just shows red text (fetch errors), as if it can't connect to the database.
+
+
+​No Console Errors: I checked the Stability Matrix console and logs, but there were no Git errors or missing path warnings. Everything looked ""normal"" in the log, which makes it even more frustrating. Even after manually checking the environment, the Manager just refuses to fetch the node list.
+​Because of this, every workflow I load is full of red (missing) nodes, and I have no way to auto-install them. I spent 5 hours straight trying to fix this until I finally gave up and deleted ComfyUI.
+
+
+​The first time I installed it months ago, everything was flawless and worked on the first try. Now, I completely understand why so many people hate ComfyUI.
+​P.S.: I’m sure there’s a simple solution for many of you, but after 5 hours, I just don’t have the energy anymore. Honestly, it wouldn't be surprising if I end up uninstalling Stability Matrix as well. Does anyone know why the Manager would show up but remain completely empty within Stability Matrix?",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/comfyui/comments/1s4wkdl/comfyui_manager_is_emptybroken_in_stability/
+B14-082,Fedora,My main monitor is not working for some reason,"https://preview.redd.it/2n758whu3z0h1.png?width=462&amp;format=png&amp;auto=webp&amp;s=36f2da3d2144864424402a731e7595ef275d2e0c
+
+I am very new to fedora and linux in general with hardly any uptime at all just an FYI. My monitor that I want to use as my main one is just not working. It is being detected and everything by fedora and just not turning on at all. It does work with my PS5 and works with my windows drive (I have a fedora ssd and a windows ssd) so I am just super confused. I am running KDE plasma if that helps.
+
+Attached is a screen shot of my settings. The monitor I want to use is the Samsung one and even though it is enabled it just is a black screen. It could be a monitor itself issue (I am able to move my mouse over and stuff) and not fedora but I just have zero idea.
+
+EDIT: I updated Fedora and the monitor displayed the Fedora update bar thingy and so I know for a damn fact that I am being tricked somehow.
+
+https://preview.redd.it/qvn5867ohy0h1.png?width=1027&amp;format=png&amp;auto=webp&amp;s=6f020efac2442f0fbefae0c43deda266b28ececc",,title_and_body,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/Fedora/comments/1tca5bj/my_main_monitor_is_not_working_for_some_reason/
+B14-083,homelab,Idk if this counts as homelab but I made myself a dedicated iPod sync station!,"Took a 2011 Mac mini and ported all my music onto it , seems that the latest Apple Mac OS glass update is starting to break song rating syncing etc, so I finally built the bullet and cobbled this together!
+
+Mac OS Frozen in time!","[1:OP] I modded it with sd card and battery upgrade after I heard the HDD make scary noises
+[2:reply] How quaint... I have a suggestion for the next project: make a printer out of a vintage IBM Selectric typewriter, like they did in the olden days... 
+
+https://preview.redd.it/e1uae7isl53h1.png?width=1920&amp;format=png&amp;auto=webp&amp;s=b56c4abdc0b36edfc97560d8880447d04928d5cd
+[3:reply] is your ipod original or have you modded it to ssd/sd card?
+[4:OP] Noooo 😭😭
+
+XDD",title_body_comments,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/homelab/comments/1tmogag/idk_if_this_counts_as_homelab_but_i_made_myself_a/
+B14-084,sysadmin,What do you use to analyze slow startup after windows update?,"So we had 24H2 take over machines that had 23H2 and we're running into a few really frustrating issues.
+
+1. Lenovo laptops suffering from high CPU usage and stuttering and burning up anyone who is using it on their laps. Start menus lagging (like search is screwed)  
+2. Desktops which have memory leaks hitting 100% memory usage before disk paging kicks in and takes out the machine as it freezes up
+
+I tried latest firmware, drivers, etc and yielded nothing. The only common thread is all the stuff is 12th gen hardware or newer but only the laptops have P and E core while the desktops are P only.
+
+Has anyone faced this or got any recommended methods to identify the faulty bit?
+
+Also noticed the PC gets stuck at ""please wait"" for almost double the time on power up when on the domain network.","[1:reply] Sounds like a software bug. You looked at task manager to see what's eating to your CPU cycles?
+[2:reply] Does it persist if you reimage?
+
+Process explorer and the sys internal suite in general has multiple tools you can use.
+[3:reply] I've just given up at this point, Windows is very slow and start menu takes it's sweet time fairly often.
+
+Other than that, sysinternals' autoruns can trim the cruft quite well.
+
+I tend to just ""let them settle"" for a few boots...
+[4:OP] That's the thing, nothing sticks out to the amount that we are seeing. On desktop, nothing open and 8GB gone like that on a 16GB machine. 32GB is just as bad only takes longer.
+[5:reply] Went through this exact hell with our fleet of ThinkPad T14s Gen3s. Booted into safe mode with networking and the stuttering completely stopped, so i knew it wasn't hardware. Windows performance recorder is your friend here. run it from a command prompt with the boot scenario fl…",title_body_comments,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/sysadmin/comments/1uh561m/what_do_you_use_to_analyze_slow_startup_after/
+B14-085,artifactory,Upgrade path for Artifactory 7.77.11 - all upgrade attempts have failed (schema errors),"I have taken over responsibility for my org's internal artifactory server which has been around about a decade or so. My experience with artifactory specifically is quite minimal though I do have 30 years of Linux experience and about 24 years of working with various java apps. I have a ""pro"" license, though last I heard that doesn't come with any actual formal support so am trying the community for any ideas. Currently it runs 7.77.11(for this testing I am using a local MariaDB 11.8.5), and the documentation made it sound like upgrading was super simple so I just decided to go at it(upgrade to latest version) in production, that blew up and after 3 hours I rolled back. A couple of days ago I built a nonprod system and made copies of the DB and the artifactory repo(~260k artifacts around 1.5TB). I am using the tarball distribution of artifactory on Ubuntu 24.04 with Java 17. I do see the docs explicitly state for artifactory 7.x the user can jump to the latest version without intermediate jumps. I tried going to the latest version and just got tons of SQL/schema/migration errors, so I thought try a more conservative upgrade path(I restore from backups and go back to the original version each time I test). I've been trying for about 6 hours now all attempts have failed. I can go from 7.77.11 to 7.77.17 without an issue, in case it is useful the md_database_migrations table in the DB shows 51 rows with the most recent being v051_md_fil_qualifiers_delete_cascade.sql If I try to go from there to either 7.84.10 or 7.84.23, I get different errors, regarding unable to create a projects table that already: 2026-08-26T17:09:10.767Z [jfac ][ERROR] [2043437a33563bda] [o.f.c.i.c.DbMigrate:296 ] [Catalina-utility-2 ] - Migration of schema `artifactorydb` to version 7.103.1 - Create projects v2 table failed! Please restore backups and roll back database and code! 2026-08-26T17:09:10.776Z [jfac ][ERROR] [2043437a33563bda] [.s.d.u.AccessJdbcHelperImpl:81] [Catalina-utility-2 ] - Could not initialize database: org.flywaydb.core.internal.dbsupport.FlywaySqlScriptException: Migration V7_103_1__Create_projects_v2_table.sql failed ------------------------------------------------------- SQL State : 42S01 Error Code : 1050 Message : Table 'access_projects' already exists Location : db/mysql/migration/V7_103_1__Create_projects_v2_table.sql (/file:/data/artifactory-pro-7.84.10/app/artifactory/tomcat/webapps/access/WEB-INF/lib/access-server-core-7.106.9.jar!/db/mysql/migration/V7_103_1__Create_projects_v2_table.sql) Line : 1 Statement : CREATE TABLE access_projects ( id BIGINT, project_key VARCHAR(255) NOT NULL, name VARCHAR(255) NOT NULL, description VARCHAR(255) NOT NULL, created BIGINT NOT NULL, modified BIGINT NOT NULL, storage_quota_bytes BIGINT, storage_quota_soft_limit BOOLEAN DEFAULT 0, storage_quota_disable_email_notification BOOLEAN DEFAULT 0, CONSTRAINT access_projects_pk PRIMARY KEY (id) ) (java stack trace follows) Following that failure I checked the md_database_migrations table again and still showed what appeared to be the same 51 rows. So I hoped maybe that was just a bug or something so I decided to try the next version - Going from 7.77.17 to 7.98.19 initially I got an odd schema error it was trying to create a table that already existed. 2026-08-26T19:22:47.275Z [jfmd ] [INFO ] [ ] [database_bearer.go:160 ] [main ] - Db connection driver::mysql and kerberosAuth::false [database] 2026-08-26T19:22:47.277Z [jfmd ] [INFO ] [ ] [database_bearer.go:175 ] [main ] - Connecting to (db config: {mysql jdbc:mysql://127.0.0.1/artifactorydb?characterEncoding=UTF-8&elideSetAutoCommits=true&useSSL=false}) [database] 2026-08-26T19:22:47.290Z [jfmd ] [INFO ] [ ] [migrator.go:63 ] [main ] - Applying migration files [database] 2026-08-26T19:22:47.291Z [jfmd ] [INFO ] [ ] [migrator.go:172 ] [main ] - Migration lock table created or is already present [database] 2026-08-26T19:22:47.291Z [jfmd ] [INFO ] [ ] [migration_lock_manager.go:49 ] [main ] - Trying to acquire migration lock for na-nonprod-artifactory-01.atl01.mydomain.com [database] 2026-08-26T19:22:47.294Z [jfmd ] [INFO ] [ ] [migration_lock_manager.go:70 ] [main ] - Migration lock acquired for na-nonprod-artifactory-01.atl01.mydomain.com [database] 2026-08-26T19:22:47.296Z [jfmd ] [INFO ] [ ] [migrator.go:142 ] [main ] - Applying 1 migrations files [database] 2026-08-26T19:22:47.297Z [jfmd ] [WARN ] [ ] [migrator.go:246 ] [main ] - This error occurred when upgrading the database : 'Error 1050 (42S01): Table 'md_version_repo_stats' already exists'. [database] 2026-08-26T19:22:47.297Z [jfmd ] [WARN ] [ ] [migrator.go:247 ] [main ] - The failing statement is 'CREATE TABLE md_version_repo_stats ( repo_id BIGINT NOT NULL, version_id BIGINT NOT NULL, download_count BIGINT NOT NULL, last_downloaded BIGINT NOT NULL, remote_last_downloaded BIGINT NOT NULL, PRIMARY KEY (repo_id, version_id), CONSTRAINT md_version_repo_stats_repos_fk FOREIGN KEY (repo_id) REFERENCES md_repos (id), CONSTRAINT md_version_repo_stats_versions_fk FOREIGN KEY (version_id) REFERENCES md_versions (id) );'. [database] 2026-08-26T19:22:47.297Z [jfmd ] [WARN ] [ ] [migrator.go:248 ] [main ] - Your database is in an unexpected state or there is a temporary failure. [database] 2026-08-26T19:22:47.298Z [jfmd ] [WARN ] [ ] [migrator.go:250 ] [main ] - Once the problem is fixed you will need to do the upgrade by executing the following queries (in this order) then start the service : [database] 2026-08-26T19:22:47.298Z [jfmd ] [WARN ] [ ] [migrator.go:255 ] [main ] - 'INSERT INTO md_database_migrations (id,applied_at) VALUES (?,?)' with these parameters : [v052_md_version_repo_stats.sql 1787772167] [database] 2026-08-26T19:22:47.298Z [jfmd ] [ERROR] [ ] [migrator.go:239 ] [main ] - Migration v052_md_version_repo_stats.sql failed ! Rollback to latest successful migration. Err: Error 1050 (42S01): Table 'md_version_repo_stats' already exists. Panic : [database] 2026-08-26T19:22:47.298Z [jfmd ] [INFO ] [ ] [migration_lock_manager.go:76 ] [main ] - Trying to release lock owned by: na-nonprod-artifactory-01.atl01.mydomain.com [database] 2026-08-26T19:22:47.299Z [jfmd ] [INFO ] [ ] [migration_lock_manager.go:90 ] [main ] - Released lock owned by node na-nonprod-artifactory-01.atl01.mydomain.com [database] 2026-08-26T19:22:47.299Z [jfmd ] [ERROR] [ ] [application.go:99 ] [main ] - Could not execute database migrations Error 1050 (42S01): Table 'md_version_repo_stats' already exists So I run this SQL: INSERT INTO md_database_migrations (id,applied_at) VALUES (""v052_md_version_repo_stats.sql"",1787772167); Following that update I checked the md_database_migrations table again and showed 52 rows, with the one I just added being the new one. So I restarted again, and got a familiar error regarding the projects table again(though no raw SQL logged). I ran tcpdump and captured the app inserting a row into the access_schema_version table. 2026-08-26T19:29:00.324Z [jfac ] [ERROR] [fe6310db5cbe7173] [.s.d.u.AccessJdbcHelperImpl:87] [main ] - Could not initialize database: org.flywaydb.core.api.FlywayException: Detected failed migration to version 7.103.1 (Create projects v2 table) at org.flywaydb.core.internal.info.MigrationInfoImpl.validate(MigrationInfoImpl.java:218) at org.flywaydb.core.internal.info.MigrationInfoServiceImpl.validate(MigrationInfoServiceImpl.java:327) at org.flywaydb.core.internal.command.DbValidate$2.call(DbValidate.java:174) [..] (lots of java stack traces saying the same thing) I'm no DBA, I don't even play one on TV but I poked around in the DB (this is a nonprod system after all), and decided to try to trick artifactory into skipping that by doing this query (rank 63 is V7_103_1__Create_projects_v2_table.sql ) update access_schema_version set success = ""1"" where installed_rank = ""63""; Then ran into the same issue with rank 65 ( V7_104_1__Alter_projects_v2_table.sql ) and rank 67 ( V7_104_3__Environments_table.sql ), and 69 ( V7_105_1__Projects_resources_table.sql ), and as I write this I am continuing down this path.. these are things that already exist in the DB. Each time I override, I restart, and artifactory inserts a new row into that table and then fails because the DB already has that info, then I stop it, update the row and restart, and repeat again.. (minor update: looking further I do see the SQL files in app/access/tomcat/webapps/access/WEB-INF/lib/access-server-core-7.128.13.jar so I suppose for now will just manually step through things) No idea why this is happening.. unsure if the person who setup/maintained this over the past decade ran into similar issues or not, I tried a bunch of web searches but came up with nothing.",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://stackoverflow.com/questions/79998471/upgrade-path-for-artifactory-7-77-11-all-upgrade-attempts-have-failed-schema
+B14-086,firefox,Twitter notifications doesnt works after latest update.,"Hi Twitter notifications stopped working after latest firefox update only i have this problem? after turning on notis says unsupported browser
+
+https://preview.redd.it/o3v8m041j08g1.png?width=1305&amp;format=png&amp;auto=webp&amp;s=8cdd77d2920892e5eaf843ba911ce42669c6beff",,title_and_body,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/firefox/comments/1ppzit7/twitter_notifications_doesnt_works_after_latest/
+B14-087,comfyui,MCWW Update: Comfy Wrapper,"2 weeks ago I released my alternative UI project for comfy UI as beta version. Now it's still in beta, but a log of things were updated. The most noticeable for users are videos support and improved UI. Thanks to early testers, a lot of critical bugs were fixed. But the project is still in beta phase because some planned features are not implemented yet
+
+Minimalistic Comfy Wrapper WebUI: [github](https://github.com/light-and-ray/Minimalistic-Comfy-Wrapper-WebUI)
+
+Key features:
+
+1. You only need to set proper titles in format `&lt;Label:category[/tab]:sortRowNumber[/sortColNumber]&gt; other args`, and the UI will automatically add this workflow
+2. Can work as a Comfy extension (icon on toolbar), or as a standalone server
+3. Queues are much better them queues in ComfyUI
+4. Stability - everything you do is saved into browser local storage, so you don't need to worry about closing or restarting your tab or entire browser
+5. Easy to use on a smartphone
+
+In the screenshots I marked with the same colors relationship between titles of nodes and elements inside UI
+
+In general - if you have working workflows in Comfy and want to use them in a compact not node based UI, and you find projects like SwarmUI or ViewComfy overengineered - this project is for you",,title_and_body,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/comfyui/comments/1ojbit5/mcww_update_comfy_wrapper/
+B14-088,homeassistant,Scheduler Card start time and end time fields completely broken,"With the middle section selected, the start time should be 9:00 AM and the end time should be 9:30 PM, but it's showing nothing at all in the hours field and 3 in the minutes field, not even 03, just 3. I also can't type anything in the hour field and can only type 1-9 in the minutes field. I can still set the time with by dragging the bar, but I can't see what time I'm setting with any accuracy. 
+
+This is occurring on both existing schedules and when I try to make a new schedule. 
+
+This did NOT start after an update, it just started out of nowhere.
+
+I tried uninstalling and reinstalling the scheduler card and scheduler component, but that had no effect on the issue.
+
+The [scheduler.storage](http://scheduler.storage) file in config/.storage seems to be fine, the times are all displayed there.
+
+Any suggestions?",,title_and_body,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/homeassistant/comments/1sb2ggs/scheduler_card_start_time_and_end_time_fields/
+B14-089,firefox,Experiencing memory leaks on desktop.,"For the past couple weeks I've been experiencing major memory leaks on desktop, out of nowhere firefox will begin eating up all my memory and my system starts slowing to a crawl by the time it hits ~70GB (96GB total memory). It even happens when I'm not actively doing anything, it's happened while I've been asleep. Has there been a recent update that could be causing this / what steps do I need to do to track down what's causing this and fix it?","[1:reply] You can check shift + esc (about:processes) to see which tab or process is responsible for the memory usage. 
+If at all possible by the time you notice the leak you can open a tab, go to about:memory and run&amp;save a measurement.
+[2:OP] thanks, I'll try and look the next time it's happening.",title_body_comments,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/firefox/comments/1vrxnj6/experiencing_memory_leaks_on_desktop/
+B14-090,sysadmin,Weird issue: Windows 11 build 26200.8457 trying to download and install 26100.8246 update,"Not sure what's going on, it keeps trying to download and install KB5083769(26100.8246). The computer is on 26200 build and with the latest May security update.  And then run into error. Anyone else has seen this kind of issue?",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/sysadmin/comments/1td07b1/weird_issue_windows_11_build_262008457_trying_to/
+B14-091,applehelp,Lost Voicemails with OS update…again…,"Hi all,
+
+Did anyone else have saved voicemails disappear after the last OS update? I’ve checked the Deleted Folder, double checked the Filtering, tried Airplane mode etc. Verizon apparently does not store voicemails in their system if Visual Voicemail is activated 😑 I was hopeful with the OS bug fix update tonight that it would fix it, but it did not. I’ve had this happen before, but they came back after a bug fix update. Any suggestions?",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/applehelp/comments/1r4d1gv/lost_voicemails_with_os_updateagain/
+B14-092,applehelp,Phone Screen Glitch With No Clear Source,"Hi! I’m finally reaching out to this subreddit as some cursory googling has not helped me with my issue. 
+
+I have an iPhone 15 that I got about a year ago after using my previous one for almost 8 years. It still seems to be in visibly good condition overall and besides a few regular drops that happen every now and then in day to day life, it’s had no intense trauma, cracks, dents, etc.
+
+I haven’t updated it to the newest iOS version in awhile as I’m not a fan of the mirror UI update and heard about issues with storage and battery usage following the update. I regularly don’t like to update apps in a similar way if the UI changes are ones that I know will make it more difficult for me to use, and there aren’t any downsides to not updating. (Will touch back on this later)
+
+A few months ago, my screen randomly started glitching out while I was going to work. It looked like the screen was breaking or dying, with flickering bright green horizontal lines across the face of the screen. When I turned my phone off, they went away, and when I turned them back on they’d be gone with no issues present with the rest of the screen. However, the issue would come back sporadically, with random amounts of time in between. 
+
+The first time it happened, shutting off my phone for five minutes before turning it back on seemed to fix it, and I didn’t have the issue for several months. Now in the last few weeks, it’s started happening again much more frequently, and shutting off my phone now does nothing, the screen glitch often even lingering on the black screen until the power is fully off.
+
+I haven’t gotten many pictures of it since it happens infrequently and won’t show up in screenshots, but I had my sister take one the other day so I could show other people.
+
+I plan to back up my phone in case it is a legitimate failure of some kind, but I’ve also heard it could be something caused by me being on an older operating system. Though I’m not fully sure why it would be appearing like this.
+
+It’s become very difficult to navigate as I don’t know how long the glitches will last when they show up, or what’s causing them. And I can’t really use my phone when they’re happening as they interfere with so much of the screen.
+
+Does anyone know what this might be and how I can fix it? If it’s as simple as updating the OS I’ll do it, but I’d really rather not use the new UI if I don’t have to. I’m also open to going to Apple support in person, but wanted to ask here in case the internet had any specific insight beforehand.
+
+Thank you in advance to anyone who replies!","[1:reply] It’s a hardware issue. You’ll either need to call Apple to arrange a repair, or visit an authorized service provider.
+[2:OP] Thank you! I’ll definitely try to get in contact with a local apple shop.",title_body_comments,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/applehelp/comments/1urb8pl/phone_screen_glitch_with_no_clear_source/
+B14-093,chrome,Chrome is slowing my system down,"This just started happening today.  There has been a noticeable slowdown with my system.  Lag on my keyboard and mouse.  Etc.  Open task manager and it's chrome eating a huge chunk of my memory.  Even when I don't' have it open.  I turned off hardware acceleration.  Turned on memory saver.  Etc.  Still happening, though a bit less.  Did something change?  Is it a bug, has there been an update?  I've used chrome religiously for....i dunno, since it came out.  But this is obnoxious and borderline unusable.  I now can't have youtube open and running while trying to type.  Anything.  And I have a decently beefy gaming computer.  This has never been an issue until today.  Haven't downloaded anything new, did a virus scan and was clean.","[1:reply] Check Chrome's own task manager (Shift + ESC)
+[2:reply] Thank you for your submission to /r/Chrome! We hope you'll find the help you need. Once you've found a solution to your issue, please comment ""**!solved**"" under this comment to mark the post as solved. Thanks!
+
+
+*I am a bot, and this action was performed automatically. Please […",title_body_comments,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/chrome/comments/1tj5tef/chrome_is_slowing_my_system_down/
+B14-094,Fedora,"GNOME Wayland: mouse buttons stop working system-wide, pointer movement still works, logout fixes it","**System:**
+
+* Fedora 44 / Ultramarine
+* GNOME 50 Wayland
+* Ryzen 7 9800X3D
+* ASUS X870 motherboard
+* Radeon RX 9070 XT
+
+**Problem:**
+
+Intermittently, during gameplay, all mouse button input stops working in the entire GNOME session. If the mouse button is held down when the issue occurs, it remains held down indefinitely.
+
+In Pop!\_OS 24.04 I never had the bug when running X11, it only occured in Wayland. On Fedora 43 and 44 I only have Wayland available. I suspect this is somewhere between libinput and applications, but I don't know whether this is Mutter, Wayland, or something else. 
+
+Symptoms:
+
+* Cursor movement works.
+* Keyboard works.
+* Left/right/middle mouse buttons stop working everywhere.
+* Firefox, terminal, desktop, etc. all affected.
+* Logging out and back in fixes it.
+
+Issue has occured during gameplay of:
+
+* Counter-Strike 2 (native Linux)
+* StarCraft II (Proton)
+
+Troubleshooting:
+
+* Multiple mice tested.
+* Two mice connected simultaneously; both fail at the same time.
+* Deactivated my second monitor, now just using a single monitor.
+* `evtest` shows correct button press/release events while the bug is active.
+* `libinput debug-events` also shows correct events.
+* BIOS updated to latest version
+* Reproduced across:
+   * Pop!\_OS 24.04 (GNOME 46)
+   * Fedora 43 (GNOME 49)
+   * Fedora 44 (GNOME 50)
+   * Linux kernels 6.x and 7.x
+
+The only recovery found so far is logging out. 
+
+I am happy to provide additional logs or run debugging commands if someone can suggest what information would be useful to collect when the bug is active.
+
+Any suggestions as far as other things to try when the bug is active to recover besides logging out is also very welcome!
+
+As mentioned, this has occured across installs and versions, but I'm currently on:  
+Linux 7.1.4-202.fc44.x86\_64  
+mutter-50.3-2.fc44.x86\_64  
+gnome-shell-50.3-1.fc44.x86\_64","[1:reply] It sounds like you're looking for help. Please note that r/Fedora is not an official support channel for the Fedora Project.
+
+For best results, be sure to include all relevant details in your post, such as your Fedora edition, version, and hardware specs. You can edit your origi…
+[2:reply] logging out fixes it seems to be GNOME Shell/Mutter input state getting wedged rather than the mouse hardware itself.
+
+There are troubleshooting info here which might help:
+https://docs.fedoraproject.org/en-US/quick-docs/troubleshooting-wayland-problems/",title_body_comments,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/Fedora/comments/1v4i22r/gnome_wayland_mouse_buttons_stop_working/
+B14-095,chrome,"Just got on my PC, Chrome updated to version 138 and broke my extensions.",,,title_only,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/chrome/comments/1lub1ng/just_got_on_my_pc_chrome_updated_to_version_138/
+B14-096,applehelp,"Photos from 2018 missing and ""Recently Deleted"" folder acting strange after update","I’m really stressed out and hoping someone here has seen this before. I just discovered that several photos and videos were in my ""Recently Deleted"" folder even though I never deleted them.
+
+Even weirder:
+
+* **Uncropped images:** The photos in the deleted folder are ""uncropped""—they reverted to their original versions, losing the edits I worked hard on.
+* **Missing Photos:** I noticed at least 2 very important photos from 2018 are completely missing from my library now.
+* **New Face ID Lock:** My ""Recently Deleted"" and ""Hidden"" folders are suddenly locked behind Face ID (I don't remember turning this on).
+* **Notes App:** My Notes have also been randomly disappearing/reappearing lately.
+
+I haven't changed any settings recently. Is this a known iCloud syncing bug or a sign of a bigger issue? How can I get my 2018 photos back if they aren't in the trash?
+
+**Device:** iPad Pro **Version:** 18.5",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/applehelp/comments/1r52276/photos_from_2018_missing_and_recently_deleted/
+B14-097,PFSENSE,Did anybody have VOIP issues after upgrading from 25.07.1 to 25.11.1?,"**SOLVED!!!!**
+
+System &gt; Advanced &gt; Networking - then scroll down and check the box to ""Disable hardware checksum offload."" Then save and reboot the box.
+
+This is on an (admittedly aging) physical Netgate SG4860.
+
+Original post below...
+
+\----------------
+
+We're having a very strange issue and it seems to have started shortly after upgrading pfsense from 25.07.1 to 25.11.1, but we can't absolutely pinpoint the firewall as the cause. I've seen nothing mentioned in the Patches package or anything in the changelogs.
+
+Our firewall shows no dropped packets, but our SIP provider says they aren't receiving a second acknowledgment which is triggering us to receive a 401 unauthorized error. But the weirdest part is just how intermittent it is... doesn't seem to be every call, increased odds of successful dialing out when you add a country-code (1-555-555-5555 vs. 555-555-5555), but still not 100% success rate. Attempted calls don't even show up in the server log, it's as if the call was never placed (3rd party hosted Switchvox PBX).
+
+We've been working with the VOIP provider for days but have come up empty handed. My only next step is looking like just trying to upgrade pfSense to 26.03 and see if the problem miraculously goes away.
+
+But has anybody else had a lick of trouble with 25.11.1?",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/PFSENSE/comments/1sqtues/did_anybody_have_voip_issues_after_upgrading_from/
+B14-098,immich,Error ECONNREFUSED after updating to v1.137.0,,,title_only,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/immich/comments/1mf57jz/error_econnrefused_after_updating_to_v11370/
+B14-099,Dell,Memory Integrity (HVCI) won’t turn on for Valorant — no incompatible drivers showing,"I’m trying to enable **Memory Integrity (HVCI)** on my **Dell G5 5500 laptop** because **Valorant’s Vanguard** requires it, but Windows keeps saying there are **incompatible drivers**.
+
+When I click **“Review incompatible drivers”** or **“Scan again”**, **nothing appears**. The list is completely empty.
+
+Here’s what I’ve already tried:
+
+* Updated **Windows** to the latest version
+* Updated **all drivers** through **Dell SupportAssist**
+* Deleted `dddriver64Dcsa.sys` (a driver some people said causes this issue)
+* Restarted and rechecked several times
+
+Even after that, **Memory Integrity still won’t turn on**, and Windows doesn’t show any conflicting drivers.
+
+Has anyone managed to fix this issue or find hidden incompatible drivers? Any steps I might be missing would be great to know.
+
+https://preview.redd.it/qq1jdmgr7izf1.png?width=1919&amp;format=png&amp;auto=webp&amp;s=36a20c64c80f6caa47ff1e07c2acb86e10729f4c
+
+https://preview.redd.it/3uuo1ynp7izf1.png?width=1917&amp;format=png&amp;auto=webp&amp;s=39e02d53ce6f6acda8e07b8447e99b0943a6883b",,title_and_body,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/Dell/comments/1opfck8/memory_integrity_hvci_wont_turn_on_for_valorant/
+B14-100,ios,iOS 26 Update Broke Texting,"Any help with this would be greatly appreciated. Like the title says, when I downloaded the iOS 26 update earlier this week it completely wrecked my texting (iPhone 16 pro). My texts struggle to send and I'm not receiving a lot of incoming messages. It seems worse with group messages. I did a bunch of research and in trying to troubleshoot things, did the following: hard reset phone; soft reset phone; turned iMessage, RCS messaging, and MMS messaging off then back on; reset my network settings; signed out then back into my apple account; and even tried removing and re-adding my number from iMessage so there wasn't a duplicate listed. This had mixed success but I was still having some trouble.
+
+This morning I saw that iOS 26.2 was available so I downloaded it hoping it would have the needed bug fixes, and it seems to have completely undone all of my troubleshooting. I have gone through all of the same steps again today, and once again, it acts like it's working properly but then I'm missing texts from a group that I know has several new messages in it. Texting is such a key function of cell phones and I'm baffled as to what else I could possibly do to fix this. Any suggestions or tips?? I'm about ready to go mad from these issues! TIA to any suggestions.",,title_and_body,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/ios/comments/1pqv0b8/ios_26_update_broke_texting/

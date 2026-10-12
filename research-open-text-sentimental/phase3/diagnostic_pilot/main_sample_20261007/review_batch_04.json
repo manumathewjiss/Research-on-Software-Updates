@@ -1,0 +1,252 @@
+[
+  {
+    "sample_id": "M20261007-151",
+    "title": "Chrome is unable to check for updates",
+    "post_body": "I have tried to uninstall it and after reinstalling also, I am getting this error. If anyone knows how to fix it, please let me know."
+  },
+  {
+    "sample_id": "M20261007-152",
+    "title": "I can't run Ace-Step 1.5 XL on Comfy!?",
+    "post_body": "Hey everyone,\nI’m trying to run the newly released ACE-Step 1.5 XL model using the native ComfyUI V1 Desktop App, but I'm hitting a wall with the architecture sizes.\n\nModels from https://huggingface.co/Comfy-Org/ace_step_1.5_ComfyUI_files/blob/main/split_files/diffusion_models/acestep_v1.5_xl_turbo_bf16.safetensors.\n\nAnd Q8 GUFF variant.\n\nMy Specs:\n8GB VRAM\n16GB System RAM\nComfyUI Desktop App (Latest update)\n\nThe Problem:\nOriginally, ComfyUI threw an error because its internal code (supported_models.py) hardcodes the ACE-Step hidden size to 2048 (from the standard 2B model), but the new XL 4B model has a hidden size of 2560.\nI went into the ComfyUI source code and manually changed hidden_size: 2560 and intermediate_size: 9728. This fixed the Decoder! However, it immediately threw a new error for the Encoders.\nIt turns out the XL model is a bit of a Frankenstein: The Decoder is 2560, but the Lyric/Timbre Encoders and Tokenizer are still 2048! Because ComfyUI's internal AceStepConditionGenerationModel seems to use a single hidden size variable to build the entire architecture, fixing the decoder breaks the encoder, and vice versa.\nHas anyone successfully written a patch or custom loader for this mixed-size architecture? I’d love to get this running!"
+  },
+  {
+    "sample_id": "M20261007-153",
+    "title": "Antigravity is not working with any model after the update.",
+    "post_body": "https://preview.redd.it/qpdjy3scio3g1.jpg?width=311&amp;format=pjpg&amp;auto=webp&amp;s=e0c77efde39dc4b33181eb685cab71cf1e077baf\n\nSince I updated today, none of the models work anymore. I'm tired and fed up with this!!!!  \nIs this happening to anyone else? There's nothing on the internet, they're only talking about the launch of this! Ahhhhhhhhhhhh"
+  },
+  {
+    "sample_id": "M20261007-154",
+    "title": "What is this thin line above my bookmarks and how do I get rid of it?",
+    "post_body": "I literally just updated Chrome to 146.0.7680.154 and now this shows up for some reason."
+  },
+  {
+    "sample_id": "M20261007-155",
+    "title": "Reverted back to 2026.4.23, again",
+    "post_body": "Upgraded to 4.26 yesterday. It was slower but seems to be up and running. But today, almost all timed reports went missing and a lot of no responding and messaging error, network connection lost and channel went offline. I decided to go back to 4.23, again, since 4.24 and 4.25 are even worse than 4.26. And finally, everything seeed to be fine. Reports are coming in normally again."
+  },
+  {
+    "sample_id": "M20261007-156",
+    "title": "I have a problem with my ipad",
+    "post_body": "lately my ipad can't scroll up or down and sometimes even sideways after i updated to ios 26. so does anyone have any tips to fix it?"
+  },
+  {
+    "sample_id": "M20261007-157",
+    "title": "Recent Chrome issue in Ubuntu",
+    "post_body": "I'm currently using Ubuntu recently I faced an isssue in chrome after update, what ever I search the page is not loading and the favicon is coming like this .what to do I even delete all the chrome related packages and chrome and reinstalled but the issue is continuing... Can anyone know what is the cause or how to correct it"
+  },
+  {
+    "sample_id": "M20261007-158",
+    "title": "The 'define' option in Google Chrome disappeared after the last update and I can't find the settings for it.",
+    "post_body": "I really liked having that option to highlight a word in an article, click define, and get the definition. The thing is, I don't know the name of the secondary app that opens when you choose 'define' from Chrome so maybe that's where I'm missing it? I've Googled it seven different ways and it just says if it's not there on the initial pop up, click the three dots, but it's not there either. Can anyone help me figure out how to get this feature back, please?"
+  },
+  {
+    "sample_id": "M20261007-159",
+    "title": "Updated to 2.3.1 and Lost a bunch",
+    "post_body": "As the title says. One of my albums lost all of the pictures that were uploaded from my laptop but not the ones syncing with my iPhone."
+  },
+  {
+    "sample_id": "M20261007-160",
+    "title": "UTR appearing in Client Devices",
+    "post_body": "I used to see UTR under web UI like [https://youtu.be/v8XLXjM-XW4?t=1177](https://youtu.be/v8XLXjM-XW4?t=1177), around 19:35/24:49 as well but now everything is updated to the latest stable version, UTR no long showing under web UI but still in iOS app.\n\nEach start/teleporting creates a UTR record, and I used to make it a \"fixed\" IP to [192.169.2.1](http://192.169.2.1) but since I cannot see it from \"proper way\" other than iOS app, so I cannot tell why it behaviors like this and flooding my list."
+  },
+  {
+    "sample_id": "M20261007-161",
+    "title": "Casaos and immich V2",
+    "post_body": "I installed casaos yesterday on a old pc to store my photos. I want to end the relationship with Google foto.\n\nBut then I saw that the only version who has the new 2.xx version was the one \"without\" machine learning. That feature is something I want.\n\nSo how do I update to the newest version? Is it one version at the time or will there be a fix in casaos. I'm new to this but have seen that people struggle with this as well"
+  },
+  {
+    "sample_id": "M20261007-162",
+    "title": "Battery percentage for dualshock controllers gone after today's updates",
+    "post_body": "after today's update my Sony DualShock controllers stopped showing battery percentages\n\nAnyone else have this problem? Solutions or anyone know what broke it?"
+  },
+  {
+    "sample_id": "M20261007-163",
+    "title": "MacOS 26 - Python/Node.js debugging not working?",
+    "post_body": "Not sure if I'm going crazy or what else is going on, but sometime in the past couple of weeks my projects have become undebugabble. Here's what I mean:\n\nI've been on PTO for a couple of weeks and I had everything working fine before I left. During this period, my machine got updated with MacOS 26. I've also updated everything to the latests versions in terms of vscode and extensions, etc.\n\nAnd now, I'm unable to debug my python code. The app (Azure Function apps) are starting just fine and are running as expected, but the debugger continuously throws an error with ECONNREFUSED afterwards.\n\nI've already tried using the latest versions of the libs, updating to latest versions of python and pip, pre-release versions of the python extensions and even VS Code Insiders, but the result is always the same.. What gives?  \nOddly enough, another C# (dotnet core) app runs and debugs just fine as expected, but not my python nor node apps\n\nAnyone also having issues with debugging??"
+  },
+  {
+    "sample_id": "M20261007-164",
+    "title": "OpenClaw No Longer Executes Remote Admin Tasks After Update – Stuck in Permission Loop",
+    "post_body": "I had set up OpenClaw as an admin agent on a Pi 5, from where it could manage a web server on another Pi 5. That worked great and was actually my main use case for OpenClaw.\n\nNow I recently ran into OAuth issues with OpenAI again and updated to the latest version—and since then it just doesn’t do it anymore. Instead, I’m stuck in endless discussions with the agent about permissions, and I simply can’t get it to perform the job the way it used to.\n\nDo you have any ideas what might have changed? Or is there an alternative agent for the Pi 5 that I could use for this?"
+  },
+  {
+    "sample_id": "M20261007-165",
+    "title": "USB devices stopped working after update to 26.1 official",
+    "post_body": "I've just installed the 26.1 update on my M4 MacBook Pro, and my USB devices have all stopped working.\n\nI've got an LG screen, which still works over USB-C into the Mac, but the StreamDeck plugged and the Dell dock plugged into the screen no longer works, and the Logitech webcam plugged into the dock no longer works.\n\nEverything was fine under 26.0.1.\n\nI have changed the Allow Accessories to connect option to \"Always Ask\", but it's not popping anything up when I disconnect and reconnect devices.\n\nI've tried connecting devices directly to the mac to see if it helps, but still nothing.\n\nAny advice would be greatly appreciated!\n\nSorted it!\n\nDisconnect all USB devices, power cycle the dell hub and the monitor, plug everything back in and accept the pop-ups to allow them to connect.\n\nBit of a mission, and I don't know why the update broke it in the first place, but everything is working again."
+  },
+  {
+    "sample_id": "M20261007-166",
+    "title": "iPhone 14 Pro Max ultra wide not working after latest iOS update",
+    "post_body": "After updating, my ultrawide became unavailable in my camera. My phone claimed my camera wasn’t Apple genuine even though I never got it changed. Is this a software bug I need to just wait out?"
+  },
+  {
+    "sample_id": "M20261007-167",
+    "title": "Oracle Linux didn't restore all my RAIDed partitions after upgrade - legacy_async_del_gendisk error (Solved)",
+    "post_body": "I upgraded my Oracle Linux 9 server today which included an update to the UEK kernel from 5.15.0-321.202.5.1.el9uek to 5.15.0-321.202.5.2.el9uek and an update mdadm, going from 4.4-2.0.1.el9.x86_64 to 4.4-4.0.1.el9_7.x86_64.\n\nThis update failed to assemble some of my RAID partitions, with the error:\n    mdadm: Can't open /sys/module/md_mod/parameters/legacy_async_del_gendisk\n\nLooks like the big O failed to properly incorporate some patches into their \"unbreakable\" (sic) kernel.\n\nThe fix for me was to boot into the newest RHCK kernel on the system, 5.14.0-687.5.3.el9_8.x86_64.  Once I did that, all my filesystems were available and everything's running as expected again."
+  },
+  {
+    "sample_id": "M20261007-168",
+    "title": "Stupid Wifi Headache with Samsung Phones",
+    "post_body": "After this last Samsung update, all the S24 Ultras won't hold onto our wifi.  I've tried just about everything to get this working, but I am at a loss.  It' snot a signal issue, there are 2x U7 AP in the house.\n\nNo other wifi is having any issues, even ones that were problematic before stabilized once I solved a few stupid network set up issues trying to fix this.\n\nThe phones will connect and work, but will get unstable and disconnect at a random point in time.  Sometimes, it'll refuse to reconnect until I forget the network and re-add it.\n\nI've isolated the wifi to just one band, starting with 6, now at 2.4, and they are still disconnecting.\n\nI've heard that this last Samsung OS screwed up wifi, but I have not verified this, other than my issues.\n\nHas anyone heard of anything like this?"
+  },
+  {
+    "sample_id": "M20261007-169",
+    "title": "Anyone having issues with audio output devices after updating to Fedora 44 on Thinkpad X1C?",
+    "post_body": "Both speaker and headphone jack not working after update."
+  },
+  {
+    "sample_id": "M20261007-170",
+    "title": "z-image Lora Loader no longer works since the last update",
+    "post_body": "Does anyone else have the issue that the z-image lora loader no longer works since the update? The loader actually comes from CRT nodes. All other CRT nodes work.  \n  \nThe strange thing is, it worked before the update. Afterwards, it no longer works. I reinstalled it, even on an older version, but it still doesn't work. All dependencies are running fine. log is clean. already cloned, pulled, reinstalled it, etc.  \n  \nIs there another Loader that works with Z-Image?"
+  },
+  {
+    "sample_id": "M20261007-171",
+    "title": "Immich is unusable",
+    "post_body": "Post update, i literally cannot use immich.\n\nAll photos just show as error loading image, some images load but the thumbnails don’t, some uploads say they are duplicates.\n\nI just tried to download a photo that i took on my phone :("
+  },
+  {
+    "sample_id": "M20261007-172",
+    "title": "Realme GT 8 Pro Ghost Touch/Freezing",
+    "post_body": "I received my new Realme GT 8 Pro, but from the first use, the screen seems to have a double input (ghost touch) sometimes. Also, sometimes when clicking on icons or scrolling through apps or screens, the screen freezes. To restart it, I have to click again or wait 1-2 seconds.\n\nWhy does it do this? Is it a software issue that can be fixed, or is it hardware?\n\nI tried resetting it to factory settings again after the update, thinking it had created software conflicts, but nothing."
+  },
+  {
+    "sample_id": "M20261007-173",
+    "title": "Tabs constantly crashing since updating to 151.0 (with zero such issues before this update)",
+    "post_body": "Since updating to 151.0 - I'm getting tabs crashing constantly on a number of sites. To where my browser feels nigh-unusable. Can't recall a single tab crash issue prior to this update, including the day and night prior where I used all the same usual sites heavily. It was clear something from the update broke things on my end (that it wasn't hardware failure related, etc.)\n\nNewest crash report below:\nhttps://crash-stats.mozilla.org/report/index/5df060d9-5e86-41d9-ae7d-10beb0260521\n\nFrom doing some research into it, seems that this newest Firefox release enabled \"libz-rs-sys\" by default, which has been a known crash issue for folks with Intel Raptor Lake chipsets. However I'd installed the fixed chipset BIOS/microcode before ever using this PC, preventing the over-voltage degradation that folks experienced by running them prior to the microcode fixes. And by keeping my BIOS up to date with any new updates since, I have zero issues with any other software, apps, or games right now.\n\nMozilla bug threads on the subject:\nhttps://bugzilla.mozilla.org/show_bug.cgi?id=1950764\nhttps://bugzilla.mozilla.org/show_bug.cgi?id=2017549\n\nIs there a way to simply disable this in settings? Else I won't be able to use my Firefox for the time being with how consistent the crashes seem to be. It sounds like they are working on reverting or finding a code workaround for this, but until another vendored update releases: it feels like I'm out of luck. I love Firefox and normally it's my only browser, but until I can remedy this: I'll likely have to use Edge or Brave since they also support uBlock fully."
+  },
+  {
+    "sample_id": "M20261007-174",
+    "title": "Word stopped working",
+    "post_body": "Hi. I'm running Catalina 10.15.8. on my old 27-inch IMac (don't think I can update to a newer OS as far as I know). I guess the latest word update ended functionality on macs running old OS...does anyone know of a workaround for this? My job is basically all in word and I have to edit docs, old docs get updated, etc... Thanks!"
+  },
+  {
+    "sample_id": "M20261007-175",
+    "title": "Remote dashboard totally broken after latest update",
+    "post_body": "If you go to [unifi.ui.com](http://unifi.ui.com) and try to go into the Network application nothing populates and there's a ton of CORS errors in the console please fix.\n\nUnifi Network app on the phone works. So does going to the console directly via local IP. Remote access no worky. Screenshot cropped for privacy"
+  },
+  {
+    "sample_id": "M20261007-176",
+    "title": "DLSS not working in the Witcher 3 Remastered using the Steam",
+    "post_body": "https://preview.redd.it/8x488cfbrhsh1.png?width=1892&amp;format=png&amp;auto=webp&amp;s=b897943e84882057340d50715ddc6243fdd8d1ac\n\nI’m using the following hardware and software:\n\n* **Laptop:** ASUS TUF Gaming A15 FA507NV\n* **CPU:** Ryzen 5 7535HS\n* **GPU:** RTX 4060 Laptop GPU (NVIDIA)\n* **RAM:** 16 GB\n* **OS:** Fedora 44 KDE\n\nAfter witcher 3 remastered update i cant use dlss anymore. Do you have any suggestion?"
+  },
+  {
+    "sample_id": "M20261007-177",
+    "title": "ComfyUi breaks on Mac M4 ?",
+    "post_body": "I just updated ComfyUi which used to load well earlier on Mac M4 Max. The ComfyUi server doesn't start now. Does this happen to anyone else? Even when I uninstall this and install fresh from DMG - it doesn't finish the installation gracefully at all."
+  },
+  {
+    "sample_id": "M20261007-178",
+    "title": "iOS 26, iPhone 17 pro max, Bluetooth issues",
+    "post_body": "It seems that with every iOS 26 update, I get more and more Bluetooth disconnects.  I have my phone nearby or even in my pocket and my Bluetooth glasses will just drop the connection.  It seems to me that with every 26 updates this becomes more frequent.   \nAnyone else having this?"
+  },
+  {
+    "sample_id": "M20261007-179",
+    "title": "Help - Upgraded to latest immich, but not working",
+    "post_body": "I am running immich on Docker on my unraid server. I remember I was on version 3.0 something and updated it to the latest version along with the postgres update.  It doesnt work anymore.. Attached are the container settings and the logs. Postgres wont start. Please help.\n\nhttps://preview.redd.it/vkoxo4bnbeeh1.jpg?width=838&amp;format=pjpg&amp;auto=webp&amp;s=ab37ca7eb557ac2d5ceaba02532d224d680e93ba\n\nhttps://preview.redd.it/n50bb4xhbeeh1.jpg?width=726&amp;format=pjpg&amp;auto=webp&amp;s=f557f8067255d5d53dac59abcccda4d036e23d6f\n\nhttps://preview.redd.it/s3vdtvkcbeeh1.png?width=1357&amp;format=png&amp;auto=webp&amp;s=ca6ce41db94266e554542562b94141a55ba6f5c2\n\nhttps://preview.redd.it/xyic9xkcbeeh1.png?width=1357&amp;format=png&amp;auto=webp&amp;s=c5ce141f1c95c2e5f299e8be1c85b2d7f833a4a0"
+  },
+  {
+    "sample_id": "M20261007-180",
+    "title": "Nobara boot options when updating",
+    "post_body": "Hello, every time i boot my nobara pc, i get this screen where i can choose? which version I can boot to. When i installed it it originally showed 2 versions, with the linux kernel version being different. Now after an update i now have 3 options to boot to. My question:\n1. what happens if I don't boot into the newest version?\n2. Does this take away storage from my device? I mean after a few updates will the system be just full of old updates?\n3. and if 2. is true, how can i delete them and are there negative consequences?\n\nThanks for the help in advance"
+  },
+  {
+    "sample_id": "M20261007-181",
+    "title": "Problems with RemoteApp after recent Windows Updates",
+    "post_body": "Had a call this morning with a customer whose RemoteApp connections were not working. On each login, all users of the customer recieved a \"Remote Desktop Services is currently busy\" error. Regular RDP connections worked fine. Did the standard troubleshooting things (server reboot etc.), which did nothing.\n\nI then tried to uninstall recent Windows Updates on our Windows Server 2019: After uninstalling both KB5099538 (2026-07 Cumulative Update) and KB5094123 (2026-06 Cumulative Update), the RemoteApp connections started to work again.\n\nHas anyone experienced anything similar? If so, are there other workarounds instead of uninstalling the updates?"
+  },
+  {
+    "sample_id": "M20261007-182",
+    "title": "v150.0   \"Awaiting location permission\" keeps appearing",
+    "post_body": "Just updated to v150.0\n\nEvery time I start Firefox, a popup for \"awaiting location permission\" appears and Firefox opens up the Windows settings at the location permissions. It's incredibly annoying.\n\nHow do I stop it? I don't want to supply my location.\n\nedit: I think it may be because my home page is set to google and I've already granted it location permission, but I don't see why Firefox needs permissions in my settings. It didn't before."
+  },
+  {
+    "sample_id": "M20261007-183",
+    "title": "Newest iOS Update broke my iPhone 15 plus",
+    "post_body": "the touchscreen doesnt work but Touch to Wake does somehow. I force restarted many times… any ideas"
+  },
+  {
+    "sample_id": "M20261007-184",
+    "title": "No celluar after update? Stuck on activating.",
+    "post_body": "I recently let my Iphone 15 Pro Max update overnight to IOS 26.6. When i woke up the phone no longer had cellular. I figured at first maybe it was my cellular provider but it is not. I have another number on the account and the number is working just fine. I've completely wiped the phone and attempted to reinstall the Esim but it just get stuck on \"activating\". I've wiped all Esim's from the phone, thinking maybe one got stuck on the backend. My modem firmware has numbers. Very confused as what to do next. I'm planning on taking it to a cell phone repair place but I want to do everything I can before it comes to that. I currently have my Esim on my old iphone 13 Pro Max."
+  },
+  {
+    "sample_id": "M20261007-185",
+    "title": "Anyone with a solution?? iPhone error 100",
+    "post_body": "I'm actually stressing so so much right now, I have no backup of my iPhone and I wanted to update it, so I got the Ipsw file and updated on my Mac. It got error 100 like this and stayed on the progress bar fully filled. It shut off as soon as I unplugged and got in recovery mode, I tried updating again with same IPSW and I got the exact same error and iPhone screen. I had like 2-3 GB storage left before which is why I used a Mac to update it, I am actually so scared right now, is there literally anyone who's faced this and hopefully found a solution?? I also tried apple Configurator revive which showed me the exact same error with the phone showing the same filled progress bar, I'm so scared rn, is it hopeless do I have to restore or has anyone had this issue and managed to fix ??? I thought it'd just be a simple update now I'm actually so sad, it's a iPhone SE"
+  },
+  {
+    "sample_id": "M20261007-186",
+    "title": "After the latest Edge update, my browser closes multiple times during league of legends client/game",
+    "post_body": "When the game loads the edge closes by itself. What can I do about this man? It only happened after the latest Edge update"
+  },
+  {
+    "sample_id": "M20261007-187",
+    "title": "Urgent- My website went down after PhP update- critical error message-Pls help",
+    "post_body": ""
+  },
+  {
+    "sample_id": "M20261007-188",
+    "title": "Use uv with Python 3.14 and IIS sites",
+    "post_body": "After the upgrade to Python 3.14, there's no longer the concept of a \"system-wide\" Python. Therefore, when you create a virtual environment, the hardlinks (if they are really hardlinks) point to `%LOCALAPPDATA%\\Python\\pythoncore-3.14-64\\python.exe`. The problem is that if you have a virtual environment for an IIS website, e.g. spanandeggs.example.com, this will by default run with the virtual user IISAPPPOOL\\spamandeggs.example.com. And that user most certainly doesn't have access to your personal `%LOCALAPPDATA%` directory. So, if you try to run the site, you'll get this error:\n\n`did not find executable at '«%LOCALAPPDATA%»\\Python\\pythoncore-3.14-64\\python.exe': Access is denied.`\n\nTo make this work I've had to:\n\n1. Download python to a separate directory (`uv python install 3.14 --install-dir C:\\python\\`)\n2. Sync the virtual environment with the new Python version: `uv sync --upgrade --python C:\\Python\\cpython-3.14.0-windows-x86_64-none\\`)\n\nFor completeness, where's an example web.config to make a site run natively under IIS (this assumes there's an app.py). I'm not 100% sure that all environment variables are required:\n\n    &lt;?xml version=\"1.0\" encoding=\"UTF-8\"?&gt;\n    &lt;configuration&gt;\n        &lt;system.webServer&gt;\n            &lt;modules runAllManagedModulesForAllRequests=\"true\" /&gt;\n            &lt;handlers&gt;\n                &lt;clear/&gt;\n                &lt;add name=\"httpPlatformHandler\" path=\"*\" verb=\"*\" modules=\"httpPlatformHandler\" resourceType=\"Unspecified\" requireAccess=\"Script\" /&gt;\n            &lt;/handlers&gt;\n            &lt;httpPlatform processPath=\".\\.venv\\Scripts\\python.exe\" arguments=\"-m flask run --port %HTTP_PLATFORM_PORT%\"&gt;\n                &lt;environmentVariables&gt;\n                    &lt;environmentVariable name=\"SERVER_PORT\" value=\"%HTTP_PLATFORM_PORT%\" /&gt;\n                    &lt;environmentVariable name=\"PYTHONPATH\" value=\".\" /&gt;\n                    &lt;environmentVariable name=\"PYTHONHOME\" value=\"\" /&gt;\n                    &lt;environmentVariable name=\"VIRTUAL_ENV\" value=\".venv\" /&gt;\n                    &lt;environmentVariable name=\"PATH\" value=\".venv\\Scripts\" /&gt;\n                &lt;/environmentVariables&gt;\n            &lt;/httpPlatform&gt;\n        &lt;/system.webServer&gt;\n    &lt;/configuration&gt;"
+  },
+  {
+    "sample_id": "M20261007-189",
+    "title": "Browser rendering issue",
+    "post_body": "I'm having a rendering problem on my homepage.  Individual post pages rendered properly on all browsers.\n\nI recently got notification that the latest Jetpack update caused a fatal error.  When I checked, everything seemed normal.\n\nBut I didn't notice any rendering problem until a wk or so later when a visitor told me about it.  He noticed it in Opera.  I checked and there were other browsers with the same issue (though not all).\n\nI deactivated Jetpack &amp; some of those browsers which were not rendering properly reverted to normal behavior.  But I'm still having the issue w. mobile versions of Bing, Edge, Opera (both mobile &amp; desktop) &amp; Ecosia.\n\nI've purged the site cache and cleared the caches of all the browsers.\n\nIs there any known issue with this Jetpack update?  Any suggestions about how to address this?\n\n  \n**UPDATE**: It appears to be a conflict with LiteSpeed. I disabled it &amp; rendering returned to normal on all browsers."
+  },
+  {
+    "sample_id": "M20261007-190",
+    "title": "My Bluetooth and WIFI options disappeared after new drivers update",
+    "post_body": "I was playing Fortnite when my headphones disconnected from my Bluetooth. At first I thought it was dead, but they still had battery left, then when I tried to connect them again, my Bluetooth option vanished when i pulled up the menu on the bottom right on the hot bar. I thought it was just a bug so I restarted my pc, then when I went to check again, my Bluetooth and WIFI options vanished.\n\nI check my AMD software and I see my chipset drivers need updated, I do that but it gets stuck at 26% then stops and says \"chipset could not be installed on your pc\" and it gave me \"error 1603\" I looked it up and tried clean installing my drivers and manually installing the new drivers from here: [AMD Ryzen™ Chipset Driver Release Notes 8.07.16.1035](https://www.amd.com/en/resources/support-articles/release-notes/RN-RYZEN-CHIPSET-8-07-16-1035.html) I tried this at least 6 times and still nothing.\n\nThen tried reinstalling the AMD software, and anything else you could think of and nothing worked. Right now it says my drivers are updated to the latest version, but my Bluetooth and WIFI options are still gone from the hot bar menu.\n\nCan anyone help me on this please? 🙏"
+  },
+  {
+    "sample_id": "M20261007-191",
+    "title": "JetEngine Shortcode Breaking Site After Elementor Update",
+    "post_body": ""
+  },
+  {
+    "sample_id": "M20261007-192",
+    "title": "Mac Tahoe 26.2 ruined my Desktop",
+    "post_body": "Hi! I updated Tahoe 26.2 about 2 days ago and my desktop turned into this mess 🫠\n\nIt used to be all put together in folders and now I can’t seem to fix it….\n\nAnybody know what to do?\n\nEdit:  \n1. I did not take the photo or selfie with facetime on!!!! Its a widget of my photo album and **it's not even me on the photo**, its a random photo I used for a project.   \n2. Idk why this happened either and given the fact that everything was always stacked I did not realized how much shit I had on my desktop lol, definitely cleaning it this weekend.    \n3. Thanks to everyone that helped ☺️ i really do appreciated it :)))"
+  },
+  {
+    "sample_id": "M20261007-193",
+    "title": "Are KJNodes 'Set/Get' nodes missing for anyone else after the latest update?",
+    "post_body": "Hey everyone,\n\nI recently updated ComfyUI and KJNodes to the latest version, but now I can't find the `Set` and `Get` nodes in the search list anymore.\n\nIf I load my old workflows, these nodes show up with a red **\"frontend\\_only\"** error and don't work.\n\nI actually checked my `custom_nodes/ComfyUI-KJNodes` folder, and the `setgetnodes.js` file is clearly there. So the file exists, but ComfyUI just refuses to load it.\n\nIs anyone else experiencing this? Is this a known issue with the new ComfyUI frontend update? It seems like a compatibility issue, but I wanted to check if there's a quick fix or if I just need to migrate to 'Use Everywhere'.\n\nThanks in advance!"
+  },
+  {
+    "sample_id": "M20261007-194",
+    "title": "Having problem with location services after recent update",
+    "post_body": "Hey everyone,\n\nI play on many fantasy sports websites that need to verify your location and for many years I have had no problems using Chrome for this.\n\nNow after a recent chrome update, I can no longer verify my location, and when I click on ALLOW FOR THIS SITE or whatever, it tells me that location services is blocked.\n\nI honestly don't think I ever needed to turn on Location Services in Windows in the past to verify my location, it was enough to just tell Chrome to ALLOW it in the Privacy and Security location settings.\n\nDo I really need to turn on Location Services in Windows to verify my location, or is this just a bug with the recent chrome update?\n\nInteresting that with Microsoft Edge I can verify my location with Location Services turned off in Windows, so this is a clue that the recent Chrome Update is messing things up.\n\n  \nWhat do you suggest?\n\nThanks for the help."
+  },
+  {
+    "sample_id": "M20261007-195",
+    "title": "What happen to my Chrome?",
+    "post_body": "After I updated, I couldn't search normally; it got stuck as shown in the image. I cleared the cache, but nothing happened. This has been going on for a month. And i use Firefox and it fine. So what happen to my Chrome?"
+  },
+  {
+    "sample_id": "M20261007-196",
+    "title": "Health and fitness app not in sync",
+    "post_body": "**Health and fitness apps are not communicating possible software issue**\n\nI have an iPhone 15, recently updated to the newest version. My fitness app use to track my activity, steps, etc. it no longer tracks anything. It has something to do with my health app, but I can’t determine how to fix it. I have paired and unpaired my Apple Watch 8 series 3times only to determine it’s the app on my phone! I’d go get a new phone, but with the issue being the app it won’t necessarily fix it. \n\nMy Fitness app does not show up as an app that my Health app sends information to, but It used to. I have checked all the settings. I have paired unpaired paired and unpaired an Apple Watch. My Fitness app shows absolutely no activity. My Health app does show activity and all of the settings are turned on the way they should be except for one place: it’s my understanding that the Fitness app should show as something that can read data from the Health app or vice versa but it’s not there and there’s no way for me to make it turn it on or edit that."
+  },
+  {
+    "sample_id": "M20261007-197",
+    "title": "Dashboard endless \"disconnected (1006)\" loop on WSL",
+    "post_body": "**Environment:**\n\n* OS: Windows / WSL2\n* OpenClaw Gateway: `v2026.4.24`\n\n**Symptoms:** When you start the gateway and run `openclaw dashboard`, you get a tokenized URL to access the control UI. However, when you open it in your browser, the dashboard drops the connection and throws a `disconnected (1006): no reason` error.\n\nThe UI then endlessly flashes between the login screen and the dashboard as it attempts to re-authenticate with the backend over and over again.\n\n**My Band-Aid (AI enabled IDE's solution):** I let Antigravity loose on the problem and it's solution was disabling the bonjour plugin in my config file. I didn't need it so I didn't fight back. Gemini carried on and on about WSLs \"Hyper-V network\" and how it was \"notoriously bad\" at handling multicast traffic. I'm not wrinkle brained enough to call it out for lying or not.\n\n`\"plugins\": {`  \n`\"entries\": {`  \n`\"bonjour\": {`  \n`\"enabled\": false`  \n`},`  \n`...`  \n`}`  \n  `}`\n\n  \nNot sure if anyone else had a similar issue during the latest update or a cleaner fix."
+  },
+  {
+    "sample_id": "M20261007-198",
+    "title": "Visual Issues with Version 145.0.3800.82 (Official build) (64-bit)",
+    "post_body": "I've noticed on Windows 11 (latest version of 11 with all patches and updates) and Ubuntu (latest version with all patches and updates) that the top of the browser, on a New Tab page, has a \"white line\" artifact between the header of Edge and the page area. Anyone else seeing this?\n\nAlso - on Ubuntu, Edge steadfastly refuses to save the Appearance that you choose. If you choose Dark, it will reset to Light as soon as you exit the browser.\n\nhttps://preview.redd.it/1adjygahnpmg1.png?width=550&amp;format=png&amp;auto=webp&amp;s=4d56a9ade2759ca9b2955c59dc9aeb56995a2c5c"
+  },
+  {
+    "sample_id": "M20261007-199",
+    "title": "Can't use the new Android app with the latest server version",
+    "post_body": "Ever since I updated my server version to the latest version (2.6.3) from 2.5.6, I have been unable to use the latest Android app. Timeline not showing. Pictures not uploading. Re-installing the old app version (2.56) fixed the issue. Web access is somehow totally fine.\n\nThe log shows \"Error in runInIsolateGentle  for remote-sync\". I've googled it and got even more confused. I've tried restarting and reinstalling the container. I'm running Immich on Docker Desktop (windows) with Cloudflare tunnel.\n\nHas anyone run into this issue?"
+  },
+  {
+    "sample_id": "M20261007-200",
+    "title": "Error loading image cr2 and arw",
+    "post_body": "I have some canon cr2 and sony arw raw files that do not load and does not generate thumbnails. I can download the files and can view it on my computer so the files are not corrupted in any way. Is there a way to make these work? I do have some arw files previously that works, but since updating and uploading I can't get them to work the same way."
+  }
+]

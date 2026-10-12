@@ -1,0 +1,18 @@
+{
+  "imported_utc": "2026-10-07T04:05:16.978012+00:00",
+  "reviewed_workbook": "Phase2_Provisional_500_Reviewed.xlsx",
+  "sha256": "656daf0aea4af97cb2a3f9ed1ef0610b4767ded1311c68033557c1f2e4d57530",
+  "decisions": {
+    "accept": 314,
+    "revise": 182,
+    "uncertain": 4
+  },
+  "resolved": 496,
+  "unresolved_ids": [
+    "B2-027",
+    "B5-018",
+    "B5-081",
+    "B5-100"
+  ],
+  "note": "Manu reviewed proposals; no independent blinded agreement is implied. Four uncertain posts remain unlabeled. Review dates were blank in the submitted workbook."
+}

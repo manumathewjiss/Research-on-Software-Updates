@@ -1,0 +1,30 @@
+{
+  "n_candidates_after_dedup_and_text_filter": 3362,
+  "by_source_pool": {
+    "phase1_gold_file": 542,
+    "oct5_query_tps": 2370,
+    "oct5_query_gds": 450
+  },
+  "by_stratum": {
+    "orig_gold_tps": 69,
+    "orig_gold_gds_other": 283,
+    "orig_audit_hard": 20,
+    "orig_likely_out_of_scope": 146,
+    "orig_news_announce": 13,
+    "orig_gold_gds_techish": 6,
+    "orig_gold_gds_rantish": 5,
+    "new_tps_ordinary": 891,
+    "new_tps_keyword_ambiguous": 267,
+    "new_tps_keyword_common": 1212,
+    "new_gds_ordinary": 427,
+    "new_gds_techish_no_keyword": 6,
+    "new_gds_rantish": 14,
+    "new_gds_news": 3
+  },
+  "by_text_availability": {
+    "title_body_comments": 1011,
+    "title_plus_comments": 449,
+    "title_and_body": 1725,
+    "title_only": 177
+  }
+}

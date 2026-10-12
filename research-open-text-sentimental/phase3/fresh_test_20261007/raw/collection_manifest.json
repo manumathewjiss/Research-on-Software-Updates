@@ -1,0 +1,78 @@
+{
+  "collected_at_utc": "2026-10-07T21:19:37.481790+00:00",
+  "description": "Broad predicted-update-related candidate pool; predictions are not human labels",
+  "pages": [
+    {
+      "page": 1,
+      "url": "https://releasetrain.io/api/reddit/query/update-related?isLabeled=false&isUpdateRelated=true&limit=500&page=1",
+      "file": "update_related_page_01.json",
+      "server_date": "Wed, 07 Oct 2026 21:18:46 GMT",
+      "sha256": "d28aebc45e237fbf0d93348d4aeebd0344ed2cf9cf40242f2c5280d0c757ecd0",
+      "n": 500,
+      "reported_total": 3718
+    },
+    {
+      "page": 2,
+      "url": "https://releasetrain.io/api/reddit/query/update-related?isLabeled=false&isUpdateRelated=true&limit=500&page=2",
+      "file": "update_related_page_02.json",
+      "server_date": "Wed, 07 Oct 2026 21:18:49 GMT",
+      "sha256": "64f25edaa9cd2ce651ab6deae992b94a210b68807e1f06e16701dafc41f4a535",
+      "n": 500,
+      "reported_total": 3718
+    },
+    {
+      "page": 3,
+      "url": "https://releasetrain.io/api/reddit/query/update-related?isLabeled=false&isUpdateRelated=true&limit=500&page=3",
+      "file": "update_related_page_03.json",
+      "server_date": "Wed, 07 Oct 2026 21:19:01 GMT",
+      "sha256": "6970f7abc09159e71b4a7b728904da0634c626a9961215a334c70d511390eae7",
+      "n": 500,
+      "reported_total": 3718
+    },
+    {
+      "page": 4,
+      "url": "https://releasetrain.io/api/reddit/query/update-related?isLabeled=false&isUpdateRelated=true&limit=500&page=4",
+      "file": "update_related_page_04.json",
+      "server_date": "Wed, 07 Oct 2026 21:19:12 GMT",
+      "sha256": "a55bcf6fe56492c8104c046769cfbaf68240cb9e05efb16a58fa0987aaf90e75",
+      "n": 500,
+      "reported_total": 3718
+    },
+    {
+      "page": 5,
+      "url": "https://releasetrain.io/api/reddit/query/update-related?isLabeled=false&isUpdateRelated=true&limit=500&page=5",
+      "file": "update_related_page_05.json",
+      "server_date": "Wed, 07 Oct 2026 21:19:15 GMT",
+      "sha256": "5feee7f9aaddacf9c86d0bce1b6ce3c0d2e1da050a028cd0b26081dd4faf6faa",
+      "n": 500,
+      "reported_total": 3718
+    },
+    {
+      "page": 6,
+      "url": "https://releasetrain.io/api/reddit/query/update-related?isLabeled=false&isUpdateRelated=true&limit=500&page=6",
+      "file": "update_related_page_06.json",
+      "server_date": "Wed, 07 Oct 2026 21:19:23 GMT",
+      "sha256": "007045cb4f0e7b70c6989a39f8837584c8ba547dfe8b497ffd9f5ce9aea5bff7",
+      "n": 500,
+      "reported_total": 3718
+    },
+    {
+      "page": 7,
+      "url": "https://releasetrain.io/api/reddit/query/update-related?isLabeled=false&isUpdateRelated=true&limit=500&page=7",
+      "file": "update_related_page_07.json",
+      "server_date": "Wed, 07 Oct 2026 21:19:31 GMT",
+      "sha256": "89d8eb6d04c7aee9030ac2e6396e7f041bfbc7ab58d80b400a8a950dadf37f82",
+      "n": 500,
+      "reported_total": 3718
+    },
+    {
+      "page": 8,
+      "url": "https://releasetrain.io/api/reddit/query/update-related?isLabeled=false&isUpdateRelated=true&limit=500&page=8",
+      "file": "update_related_page_08.json",
+      "server_date": "Wed, 07 Oct 2026 21:19:34 GMT",
+      "sha256": "cd0e856206a0e360f070fbe45e3d431babc9225d780bf7958b4616d189b4945b",
+      "n": 218,
+      "reported_total": 3718
+    }
+  ]
+}

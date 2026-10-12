@@ -1,0 +1,14 @@
+{
+  "tests_read": false,
+  "identifiers_written": false,
+  "current_reddit_url_title_body_mean_compound": {
+    "technical_troubleshooting": {"n": 1658, "s2_target": 1, "mean": -0.0644},
+    "other": {"n": 324, "s2_target": 0, "mean": 0.2491},
+    "general_dissatisfaction": {"n": 68, "s2_target": 0, "mean": -0.068}
+  },
+  "historical_corrected_labels_full_file_means": {
+    "note": "Saved trajectory means, including 205 title-only author tracks. Not recomputed for the figure.",
+    "author": {"technical_problem_statement": 0.0091, "general_dissatisfaction": 0.1911},
+    "community": {"technical_problem_statement": 0.1683, "general_dissatisfaction": 0.194}
+  }
+}

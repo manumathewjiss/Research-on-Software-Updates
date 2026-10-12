@@ -1,0 +1,19 @@
+{
+  "source_workbook": "Adjudicate_22_Differences_Completed.xlsx",
+  "source_workbook_sha256": "b3a43c0c0b647bdd291fa7743cf2febda305e4ac337143fa07bb56e128f5e937",
+  "source_workbook_preserved": true,
+  "followup_source": "Manu chat clarification, 2026-10-07",
+  "followup_changes": {
+    "A022": {
+      "update_related": "no",
+      "status": "reconfirmed"
+    },
+    "A049": {
+      "update_related": "yes",
+      "status": "changed from workbook"
+    }
+  },
+  "resolved_decision_count": 22,
+  "master_updated": false,
+  "model_retrained": false
+}

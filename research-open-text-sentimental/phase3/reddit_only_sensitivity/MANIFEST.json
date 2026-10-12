@@ -1,0 +1,135 @@
+{
+  "code_version": "reddit-only-sensitivity-v1",
+  "script": "/Users/manumathewjiss/Documents/Research-on-Software-Updates/research-open-text-sentimental/phase3/reddit_only_sensitivity/run_reddit_only_sensitivity.py",
+  "git_head": "2a578690c80bff3af302fa23fa0d0837fd13100c",
+  "created_utc": "2026-10-08T02:12:23.278973+00:00",
+  "inputs": {
+    "development_v2": "/Users/manumathewjiss/Documents/Research-on-Software-Updates/research-open-text-sentimental/phase3/revised_development_v2/development_v2.jsonl",
+    "development_v2_sha256": "287995b6b8b529c145591108d9a77f88f1e515185d38810910066ffba21fa781",
+    "phase2_master": "/Users/manumathewjiss/Documents/Research-on-Software-Updates/research-open-text-sentimental/phase2/combined_dataset/master_records.json",
+    "phase2_master_sha256": "1c5942868a756f20673651ffd0257d895195ee1e290cf9c32871e84c6150287a",
+    "saved_grouped_reference": "/Users/manumathewjiss/Documents/Research-on-Software-Updates/research-open-text-sentimental/phase3/diagnostic_results/analysis.json",
+    "saved_grouped_reference_sha256": "2d2f9f2dd795552e968e7d7956d80cd6f1b575511e0671dfd2197551aa21d53b"
+  },
+  "outputs": {
+    "development_reddit_only": "/Users/manumathewjiss/Documents/Research-on-Software-Updates/research-open-text-sentimental/phase3/reddit_only_sensitivity/development_reddit_only.jsonl",
+    "development_reddit_only_sha256": "b7d74126a4be50ebdcc06fa68e9537c3150f186c8f1f63125a44f91733f91118"
+  },
+  "domain_verification": {
+    "method": "Join revised development reddit_id to phase2 master url; host from URL, not ID prefix",
+    "domain_counts_in_v2": {
+      "reddit.com": 3121,
+      "stackoverflow.com": 30
+    },
+    "non_reddit_n": 30,
+    "all_non_reddit_ids_start_with_so_": true,
+    "non_reddit_without_so_prefix": [],
+    "so_prefix_with_reddit_domain": [],
+    "non_reddit_ids": [
+      "so_79817412",
+      "so_79816904",
+      "so_79878508",
+      "so_79861524",
+      "so_79836335",
+      "so_79842660",
+      "so_79837478",
+      "so_79995039",
+      "so_79960431",
+      "so_79998471",
+      "so_79998278",
+      "so_79972174",
+      "so_79918271",
+      "so_79924550",
+      "so_79833616",
+      "so_79830590",
+      "so_79835694",
+      "so_79892557",
+      "so_79900483",
+      "so_79825956",
+      "so_79842964",
+      "so_79825481",
+      "so_79981765",
+      "so_79979989",
+      "so_79830722",
+      "so_79978115",
+      "so_79818856",
+      "so_79832055",
+      "so_79850076",
+      "so_79850944"
+    ],
+    "non_reddit_s2_class_counts": {
+      "1": 28,
+      "0": 2
+    },
+    "non_reddit_source_counts": {
+      "oct5_query_tps": 25,
+      "oct5_query_gds": 5
+    }
+  },
+  "exclusions_applied": {
+    "non_reddit_domains": [
+      "stackoverflow.com"
+    ],
+    "near_duplicate_ids_excluded_from_s2_modeling_only": [
+      "1t0wme9",
+      "1wrqch6"
+    ],
+    "note": "Uncertain-review IDs were already absent from revised development v2. Near-duplicate IDs remain in the Reddit snapshot file and are excluded only from the S2 modeling population, matching the v2 modeling rule."
+  },
+  "population": {
+    "snapshot_rows": 3121,
+    "s2_modeling_n": 2050,
+    "s2_class_counts": {
+      "troubleshooting_1": 1658,
+      "other_update_0": 392
+    },
+    "s2_source_counts": {
+      "oct5_query_tps": 1561,
+      "oct5_query_gds": 289,
+      "phase1_gold_file": 200
+    },
+    "snapshot_source_counts": {
+      "oct5_query_tps": 2243,
+      "phase1_gold_file": 536,
+      "oct5_query_gds": 342
+    }
+  },
+  "model": {
+    "text": "title_body",
+    "estimator": "TfidfVectorizer word 1-2 grams + LogisticRegression",
+    "C": 4.0,
+    "threshold": 0.5877137791150834,
+    "class_weight": "balanced",
+    "folds": "StratifiedGroupKFold n_splits=5 shuffle random_state=42",
+    "grouping": "exact normalized title+body union Jaccard char-5gram >= 0.92 (run_followup.audit_within_dev)",
+    "vectorizer_fit": "inside each training fold only",
+    "keyword_baseline": "run_experiment.TROUBLE_RE / keyword_predict",
+    "settings_not_retuned": true,
+    "reserved_test_used": false,
+    "fresh_test_used": false
+  },
+  "grouping_on_reddit_s2": {
+    "n_multi_post_groups": 32,
+    "n_posts_in_multi_post_groups": 66
+  },
+  "dataset_flow": [
+    {
+      "stage": "revised_development_v2 all rows",
+      "n_rows": 3151,
+      "reddit": 3121,
+      "non_reddit": 30,
+      "s2_modeling_n": 2080,
+      "s2_troubleshooting_1": 1686,
+      "s2_other_update_0": 394
+    },
+    {
+      "stage": "reddit-only snapshot all rows",
+      "n_rows": 3121,
+      "reddit": 3121,
+      "non_reddit": 0,
+      "s2_modeling_n": 2050,
+      "s2_troubleshooting_1": 1658,
+      "s2_other_update_0": 392
+    }
+  ]
+}

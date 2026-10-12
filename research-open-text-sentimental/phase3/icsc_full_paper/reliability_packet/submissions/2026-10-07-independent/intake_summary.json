@@ -1,0 +1,59 @@
+{
+  "provenance": "Manu reports that both reviewers completed separate first passes without discussing posts or seeing each other's answers before both files were saved. The file contents alone cannot verify the process; earlier corpus exposure remains possible.",
+  "status": "validated_reported_independent_first_passes_not_merged",
+  "n": 200,
+  "source_sha256": {
+    "A": "f63537632750e097656bd919a23b06213abf72241eef9c4905a11f96f986a846",
+    "B": "7bd18a4af4d20259867e247850af180514b183dd8e840aea770414cfc498b040"
+  },
+  "categorical_differences_between_files": {},
+  "rows_with_different_reason_text": 200,
+  "about_software": {
+    "yes": 181,
+    "no": 18,
+    "unclear": 1
+  },
+  "update_related": {
+    "yes": 138,
+    "no": 62
+  },
+  "discussion_type": {
+    "other": 51,
+    "technical_troubleshooting": 118,
+    "na": 19,
+    "general_dissatisfaction": 12
+  },
+  "confidence": {
+    "high": 96,
+    "medium": 78,
+    "low": 26
+  },
+  "prior_phase2_label_differences_on_enriched_sample": {
+    "discussion_type": 20,
+    "update_related": 13,
+    "about_software": 3
+  },
+  "detail_present_counts_among_agreed_troubleshooting": {
+    "software_product": 91,
+    "identifiable_release": 43,
+    "environment": 67,
+    "specific_symptom": 105,
+    "reproduction_context": 54,
+    "error_evidence": 31,
+    "attempted_remedy": 31,
+    "help_request": 76
+  },
+  "detail_unclear_counts_among_agreed_troubleshooting": {
+    "software_product": 0,
+    "identifiable_release": 0,
+    "environment": 0,
+    "specific_symptom": 0,
+    "reproduction_context": 0,
+    "error_evidence": 12,
+    "attempted_remedy": 0,
+    "help_request": 0
+  },
+  "master_changed": false,
+  "test_labels_changed": false,
+  "independent_agreement_available_under_user_report": true
+}

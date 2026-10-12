@@ -1,0 +1,4502 @@
+[
+  {
+    "test_id": "T20261007-001",
+    "reddit_id": "1s0z6t1",
+    "created_utc": "2026-03-22T22:21:13",
+    "subreddit": "applehelp",
+    "url": "https://reddit.com/r/applehelp/comments/1s0z6t1/call_ended_when_not_in_a_call/",
+    "has_body": true,
+    "assigned_to": "both"
+  },
+  {
+    "test_id": "T20261007-002",
+    "reddit_id": "1wzj34j",
+    "created_utc": "2026-10-07T00:43:02",
+    "subreddit": "applehelp",
+    "url": "https://reddit.com/r/applehelp/comments/1wzj34j/label_printers_not_connecting_to_mac/",
+    "has_body": true,
+    "assigned_to": "A"
+  },
+  {
+    "test_id": "T20261007-003",
+    "reddit_id": "1wzte9w",
+    "created_utc": "2026-10-07T10:50:43",
+    "subreddit": "AndroidQuestions",
+    "url": "https://reddit.com/r/AndroidQuestions/comments/1wzte9w/adaptive_connectivity_option_disappeared_in/",
+    "has_body": true,
+    "assigned_to": "B"
+  },
+  {
+    "test_id": "T20261007-004",
+    "reddit_id": "1swynlt",
+    "created_utc": "2026-04-27T09:30:03",
+    "subreddit": "Ubuntu",
+    "url": "https://reddit.com/r/Ubuntu/comments/1swynlt/just_upgraded_to_ubuntu_2604_wow/",
+    "has_body": true,
+    "assigned_to": "A"
+  },
+  {
+    "test_id": "T20261007-005",
+    "reddit_id": "1p6zodi",
+    "created_utc": "2025-11-26T05:36:28",
+    "subreddit": "comfyui",
+    "url": "https://reddit.com/r/comfyui/comments/1p6zodi/terrible_comfyui_frontend_lags/",
+    "has_body": true,
+    "assigned_to": "B"
+  },
+  {
+    "test_id": "T20261007-006",
+    "reddit_id": "1sbkhfg",
+    "created_utc": "2026-04-03T17:46:39",
+    "subreddit": "HomeNetworking",
+    "url": "https://reddit.com/r/HomeNetworking/comments/1sbkhfg/upgrade_my_router/",
+    "has_body": true,
+    "assigned_to": "A"
+  },
+  {
+    "test_id": "T20261007-007",
+    "reddit_id": "1uvghgd",
+    "created_utc": "2026-07-13T16:30:07",
+    "subreddit": "AndroidQuestions",
+    "url": "https://reddit.com/r/AndroidQuestions/comments/1uvghgd/thinking_about_upgrading_from_iphone_13_to_pixel/",
+    "has_body": true,
+    "assigned_to": "B"
+  },
+  {
+    "test_id": "T20261007-008",
+    "reddit_id": "1uxol8s",
+    "created_utc": "2026-07-16T01:18:49",
+    "subreddit": "MicrosoftEdge",
+    "url": "https://reddit.com/r/MicrosoftEdge/comments/1uxol8s/web_layout_issues/",
+    "has_body": true,
+    "assigned_to": "both"
+  },
+  {
+    "test_id": "T20261007-009",
+    "reddit_id": "1wro1v0",
+    "created_utc": "2026-09-27T16:06:40",
+    "subreddit": "applehelp",
+    "url": "https://reddit.com/r/applehelp/comments/1wro1v0/windows_apple_device_app_unable_to_see_iphone/",
+    "has_body": true,
+    "assigned_to": "B"
+  },
+  {
+    "test_id": "T20261007-010",
+    "reddit_id": "1wzhgr1",
+    "created_utc": "2026-10-06T23:24:53",
+    "subreddit": "linux",
+    "url": "https://reddit.com/r/linux/comments/1wzhgr1/fedora_and_ubuntu_need_a_stable_rolling_release/",
+    "has_body": true,
+    "assigned_to": "both"
+  },
+  {
+    "test_id": "T20261007-011",
+    "reddit_id": "1uld6qt",
+    "created_utc": "2026-07-02T09:17:00",
+    "subreddit": "chrome",
+    "url": "https://reddit.com/r/chrome/comments/1uld6qt/new_cpu_performance_setting_in_v150/",
+    "has_body": true,
+    "assigned_to": "A"
+  },
+  {
+    "test_id": "T20261007-012",
+    "reddit_id": "1ww1onp",
+    "created_utc": "2026-10-02T18:43:26",
+    "subreddit": "firefox",
+    "url": "https://reddit.com/r/firefox/comments/1ww1onp/get_the_bookmarks_bar_back/",
+    "has_body": true,
+    "assigned_to": "B"
+  },
+  {
+    "test_id": "T20261007-013",
+    "reddit_id": "1pg3n1a",
+    "created_utc": "2025-12-06T23:46:38",
+    "subreddit": "comfyui",
+    "url": "https://reddit.com/r/comfyui/comments/1pg3n1a/text_processing_speed_degradation_after_the_update/",
+    "has_body": true,
+    "assigned_to": "A"
+  },
+  {
+    "test_id": "T20261007-014",
+    "reddit_id": "1sa2btc",
+    "created_utc": "2026-04-02T00:26:16",
+    "subreddit": "applehelp",
+    "url": "https://reddit.com/r/applehelp/comments/1sa2btc/mom_lost_photos_after_ios_update_with_icloud/",
+    "has_body": true,
+    "assigned_to": "B"
+  },
+  {
+    "test_id": "T20261007-015",
+    "reddit_id": "1wzhm3h",
+    "created_utc": "2026-10-06T23:32:02",
+    "subreddit": "Ubiquiti",
+    "url": "https://reddit.com/r/Ubiquiti/comments/1wzhm3h/ubiquiti_dream_machine_beast_hardware_upgrade/",
+    "has_body": true,
+    "assigned_to": "B"
+  },
+  {
+    "test_id": "T20261007-016",
+    "reddit_id": "1prt0qp",
+    "created_utc": "2025-12-21T00:27:08",
+    "subreddit": "MicrosoftEdge",
+    "url": "https://reddit.com/r/MicrosoftEdge/comments/1prt0qp/is_there_any_way_to_get_the_top_bar_section_back/",
+    "has_body": true,
+    "assigned_to": "A"
+  },
+  {
+    "test_id": "T20261007-017",
+    "reddit_id": "1u92v2i",
+    "created_utc": "2026-06-18T10:43:46",
+    "subreddit": "MicrosoftEdge",
+    "url": "https://reddit.com/r/MicrosoftEdge/comments/1u92v2i/edge_randomly_cannot_open_google_and_various_pages/",
+    "has_body": true,
+    "assigned_to": "A"
+  },
+  {
+    "test_id": "T20261007-018",
+    "reddit_id": "1ujwmlz",
+    "created_utc": "2026-06-30T18:03:12",
+    "subreddit": "applehelp",
+    "url": "https://reddit.com/r/applehelp/comments/1ujwmlz/ipad_pro_m5_weird_non_linear_volume_curve/",
+    "has_body": true,
+    "assigned_to": "A"
+  },
+  {
+    "test_id": "T20261007-019",
+    "reddit_id": "1wzqp3v",
+    "created_utc": "2026-10-07T07:56:05",
+    "subreddit": "AndroidQuestions",
+    "url": "https://reddit.com/r/AndroidQuestions/comments/1wzqp3v/s23u_this_mornings_samsung_update_has_bricked_my/",
+    "has_body": true,
+    "assigned_to": "A"
+  },
+  {
+    "test_id": "T20261007-020",
+    "reddit_id": "1ww7ncy",
+    "created_utc": "2026-10-02T22:52:56",
+    "subreddit": "applehelp",
+    "url": "https://reddit.com/r/applehelp/comments/1ww7ncy/macos_2671_update/",
+    "has_body": true,
+    "assigned_to": "B"
+  },
+  {
+    "test_id": "T20261007-021",
+    "reddit_id": "1pgm1hu",
+    "created_utc": "2025-12-07T16:07:49",
+    "subreddit": "django",
+    "url": "https://reddit.com/r/django/comments/1pgm1hu/just_upgraded_from_django_526_to_60_admin_sidebar/",
+    "has_body": true,
+    "assigned_to": "B"
+  },
+  {
+    "test_id": "T20261007-022",
+    "reddit_id": "1wzpiv8",
+    "created_utc": "2026-10-07T06:39:30",
+    "subreddit": "linuxquestions",
+    "url": "https://reddit.com/r/linuxquestions/comments/1wzpiv8/linux_mint_223_system_freezes_when_opening/",
+    "has_body": true,
+    "assigned_to": "B"
+  },
+  {
+    "test_id": "T20261007-023",
+    "reddit_id": "1pgrgeb",
+    "created_utc": "2025-12-07T19:39:26",
+    "subreddit": "chrome",
+    "url": "https://reddit.com/r/chrome/comments/1pgrgeb/problem_with_bookmarks_that_i_have_stored_in/",
+    "has_body": true,
+    "assigned_to": "A"
+  },
+  {
+    "test_id": "T20261007-024",
+    "reddit_id": "1u328yc",
+    "created_utc": "2026-06-11T15:27:41",
+    "subreddit": "sysadmin",
+    "url": "https://reddit.com/r/sysadmin/comments/1u328yc/new_start_menu_can_someone_test_something_out/",
+    "has_body": true,
+    "assigned_to": "B"
+  },
+  {
+    "test_id": "T20261007-025",
+    "reddit_id": "1nws1hj",
+    "created_utc": "2025-10-03T06:54:58",
+    "subreddit": "Nest",
+    "url": "https://reddit.com/r/Nest/comments/1nws1hj/need_some_help_cannot_delete_a_nest_outdoor_cam/",
+    "has_body": true,
+    "assigned_to": "A"
+  },
+  {
+    "test_id": "T20261007-026",
+    "reddit_id": "1uzr1eg",
+    "created_utc": "2026-07-18T09:11:56",
+    "subreddit": "homeassistant",
+    "url": "https://reddit.com/r/homeassistant/comments/1uzr1eg/reviews_of_the_shelly_wall_display_xl/",
+    "has_body": true,
+    "assigned_to": "A"
+  },
+  {
+    "test_id": "T20261007-027",
+    "reddit_id": "1rl9vab",
+    "created_utc": "2026-03-05T06:07:52",
+    "subreddit": "Fedora",
+    "url": "https://reddit.com/r/Fedora/comments/1rl9vab/cannot_reduce_the_size_of_this_panel/",
+    "has_body": true,
+    "assigned_to": "B"
+  },
+  {
+    "test_id": "T20261007-028",
+    "reddit_id": "1wu6nfe",
+    "created_utc": "2026-09-30T14:37:54",
+    "subreddit": "Ubiquiti",
+    "url": "https://reddit.com/r/Ubiquiti/comments/1wu6nfe/how_to_get_2gig_to_my_client_pcs_both_wirelessly/",
+    "has_body": true,
+    "assigned_to": "A"
+  },
+  {
+    "test_id": "T20261007-029",
+    "reddit_id": "1pozty5",
+    "created_utc": "2025-12-17T15:45:38",
+    "subreddit": "debian",
+    "url": "https://reddit.com/r/debian/comments/1pozty5/forced_hp_telemetry_made_me_mad_enough_to_delete/",
+    "has_body": true,
+    "assigned_to": "B"
+  },
+  {
+    "test_id": "T20261007-030",
+    "reddit_id": "1uh0rbc",
+    "created_utc": "2026-06-27T11:50:46",
+    "subreddit": "homeassistant",
+    "url": "https://reddit.com/r/homeassistant/comments/1uh0rbc/node_red_or_native_ha_for_building_automations/",
+    "has_body": true,
+    "assigned_to": "B"
+  },
+  {
+    "test_id": "T20261007-031",
+    "reddit_id": "1qzqzhg",
+    "created_utc": "2026-02-09T01:35:20",
+    "subreddit": "chrome",
+    "url": "https://reddit.com/r/chrome/comments/1qzqzhg/how_to_change_colour_of_right_click_menu_in/",
+    "has_body": true,
+    "assigned_to": "B"
+  },
+  {
+    "test_id": "T20261007-032",
+    "reddit_id": "1r3fqzy",
+    "created_utc": "2026-02-13T04:35:44",
+    "subreddit": "applehelp",
+    "url": "https://reddit.com/r/applehelp/comments/1r3fqzy/my_apps_arent_working_after_updating/",
+    "has_body": true,
+    "assigned_to": "B"
+  },
+  {
+    "test_id": "T20261007-033",
+    "reddit_id": "1pk1vaf",
+    "created_utc": "2025-12-11T16:28:47",
+    "subreddit": "Wordpress",
+    "url": "https://reddit.com/r/Wordpress/comments/1pk1vaf/wp_admin_not_loading_white_screen/",
+    "has_body": true,
+    "assigned_to": "B"
+  },
+  {
+    "test_id": "T20261007-034",
+    "reddit_id": "1sh7quw",
+    "created_utc": "2026-04-10T00:49:57",
+    "subreddit": "linuxquestions",
+    "url": "https://reddit.com/r/linuxquestions/comments/1sh7quw/some_themes_turned_light_mode_despite_being_dark/",
+    "has_body": true,
+    "assigned_to": "both"
+  },
+  {
+    "test_id": "T20261007-035",
+    "reddit_id": "1vxfm74",
+    "created_utc": "2026-08-24T21:09:42",
+    "subreddit": "Fedora",
+    "url": "https://reddit.com/r/Fedora/comments/1vxfm74/simcity_2013_runs_very_bad_on_laptop_very_new_to/",
+    "has_body": true,
+    "assigned_to": "B"
+  },
+  {
+    "test_id": "T20261007-036",
+    "reddit_id": "1rlvhmr",
+    "created_utc": "2026-03-05T22:12:42",
+    "subreddit": "Wordpress",
+    "url": "https://reddit.com/r/Wordpress/comments/1rlvhmr/widget_options_plugin_security_advisory/",
+    "has_body": true,
+    "assigned_to": "both"
+  },
+  {
+    "test_id": "T20261007-037",
+    "reddit_id": "1sy5lo0",
+    "created_utc": "2026-04-28T16:00:37",
+    "subreddit": "Ubuntu",
+    "url": "https://reddit.com/r/Ubuntu/comments/1sy5lo0/upgrade_from_2510_to_2604_lts_on_vmware/",
+    "has_body": true,
+    "assigned_to": "B"
+  },
+  {
+    "test_id": "T20261007-038",
+    "reddit_id": "1uu49zf",
+    "created_utc": "2026-07-12T03:38:28",
+    "subreddit": "applehelp",
+    "url": "https://reddit.com/r/applehelp/comments/1uu49zf/my_facetimes_not_being_received/",
+    "has_body": true,
+    "assigned_to": "B"
+  },
+  {
+    "test_id": "T20261007-039",
+    "reddit_id": "1u4uypu",
+    "created_utc": "2026-06-13T16:13:38",
+    "subreddit": "firefox",
+    "url": "https://reddit.com/r/firefox/comments/1u4uypu/browser_at_100_cpu_usage_while_downloading_files/",
+    "has_body": true,
+    "assigned_to": "A"
+  },
+  {
+    "test_id": "T20261007-040",
+    "reddit_id": "1s2fq5b",
+    "created_utc": "2026-03-24T14:43:08",
+    "subreddit": "github",
+    "url": "https://reddit.com/r/github/comments/1s2fq5b/does_anyone_know_why_this_preinstalljs_files/",
+    "has_body": true,
+    "assigned_to": "B"
+  },
+  {
+    "test_id": "T20261007-041",
+    "reddit_id": "1nv1pk7",
+    "created_utc": "2025-10-01T07:22:13",
+    "subreddit": "chrome",
+    "url": "https://reddit.com/r/chrome/comments/1nv1pk7/after_updating_to_latest_version_from_playstore/",
+    "has_body": false,
+    "assigned_to": "A"
+  },
+  {
+    "test_id": "T20261007-042",
+    "reddit_id": "1x0031t",
+    "created_utc": "2026-10-07T15:50:31",
+    "subreddit": "PFSENSE",
+    "url": "https://reddit.com/r/PFSENSE/comments/1x0031t/unable_to_upgrade_beyond_245_1/",
+    "has_body": true,
+    "assigned_to": "B"
+  },
+  {
+    "test_id": "T20261007-043",
+    "reddit_id": "1sttneq",
+    "created_utc": "2026-04-23T19:59:50",
+    "subreddit": "vscode",
+    "url": "https://reddit.com/r/vscode/comments/1sttneq/update_vs_codium_on_fedora/",
+    "has_body": true,
+    "assigned_to": "B"
+  },
+  {
+    "test_id": "T20261007-044",
+    "reddit_id": "1s6qg9e",
+    "created_utc": "2026-03-29T09:19:32",
+    "subreddit": "applehelp",
+    "url": "https://reddit.com/r/applehelp/comments/1s6qg9e/macos_tahoe_264_2_monitors_fullscreen_issue/",
+    "has_body": true,
+    "assigned_to": "B"
+  },
+  {
+    "test_id": "T20261007-045",
+    "reddit_id": "1wvsc7n",
+    "created_utc": "2026-10-02T12:19:58",
+    "subreddit": "firefox",
+    "url": "https://reddit.com/r/firefox/comments/1wvsc7n/how_to_disable_firefox_157_round_corners/",
+    "has_body": true,
+    "assigned_to": "B"
+  },
+  {
+    "test_id": "T20261007-046",
+    "reddit_id": "1uhmmgc",
+    "created_utc": "2026-06-28T03:43:34",
+    "subreddit": "Ubuntu",
+    "url": "https://reddit.com/r/Ubuntu/comments/1uhmmgc/anyone_had_any_issues_with_kernel_update/",
+    "has_body": true,
+    "assigned_to": "A"
+  },
+  {
+    "test_id": "T20261007-047",
+    "reddit_id": "1vmk671",
+    "created_utc": "2026-08-12T17:09:01",
+    "subreddit": "PHP",
+    "url": "https://reddit.com/r/PHP/comments/1vmk671/why_are_canadian_timezones_are_gone_in_php_85/",
+    "has_body": true,
+    "assigned_to": "both"
+  },
+  {
+    "test_id": "T20261007-048",
+    "reddit_id": "1oq4rg0",
+    "created_utc": "2025-11-06T17:14:13",
+    "subreddit": "chrome",
+    "url": "https://reddit.com/r/chrome/comments/1oq4rg0/new_chrome_pip_by_google/",
+    "has_body": true,
+    "assigned_to": "B"
+  },
+  {
+    "test_id": "T20261007-049",
+    "reddit_id": "1rxzx6r",
+    "created_utc": "2026-03-19T13:07:03",
+    "subreddit": "MacOS",
+    "url": "https://reddit.com/r/MacOS/comments/1rxzx6r/folders_totally_rearranged_after_macos_tahoe_2631/",
+    "has_body": true,
+    "assigned_to": "both"
+  },
+  {
+    "test_id": "T20261007-050",
+    "reddit_id": "1ui14ap",
+    "created_utc": "2026-06-28T16:04:58",
+    "subreddit": "applehelp",
+    "url": "https://reddit.com/r/applehelp/comments/1ui14ap/how_to_login_into_apple_id_without_original_phone/",
+    "has_body": true,
+    "assigned_to": "A"
+  },
+  {
+    "test_id": "T20261007-051",
+    "reddit_id": "1ovhqlb",
+    "created_utc": "2025-11-12T21:15:28",
+    "subreddit": "ios",
+    "url": "https://reddit.com/r/ios/comments/1ovhqlb/ios_26_update/",
+    "has_body": true,
+    "assigned_to": "B"
+  },
+  {
+    "test_id": "T20261007-052",
+    "reddit_id": "1oqeu5u",
+    "created_utc": "2025-11-06T23:41:44",
+    "subreddit": "chrome",
+    "url": "https://reddit.com/r/chrome/comments/1oqeu5u/chrome_very_quickly_bogs_down_my_pc_with_plenty/",
+    "has_body": true,
+    "assigned_to": "B"
+  },
+  {
+    "test_id": "T20261007-053",
+    "reddit_id": "1wuv49o",
+    "created_utc": "2026-10-01T09:41:37",
+    "subreddit": "linuxquestions",
+    "url": "https://reddit.com/r/linuxquestions/comments/1wuv49o/my_entire_userspace_config_got_destroyed_out_of/",
+    "has_body": true,
+    "assigned_to": "A"
+  },
+  {
+    "test_id": "T20261007-054",
+    "reddit_id": "1pdlr9e",
+    "created_utc": "2025-12-04T00:40:10",
+    "subreddit": "ollama",
+    "url": "https://reddit.com/r/ollama/comments/1pdlr9e/recent_update_shows_scrollbar_rail/",
+    "has_body": false,
+    "assigned_to": "A"
+  },
+  {
+    "test_id": "T20261007-055",
+    "reddit_id": "1oo1rp5",
+    "created_utc": "2025-11-04T08:04:20",
+    "subreddit": "MicrosoftEdge",
+    "url": "https://reddit.com/r/MicrosoftEdge/comments/1oo1rp5/strange_rendering_font_awesome_icons_on_1420359553/",
+    "has_body": true,
+    "assigned_to": "B"
+  },
+  {
+    "test_id": "T20261007-056",
+    "reddit_id": "1o85cov",
+    "created_utc": "2025-10-16T12:53:29",
+    "subreddit": "Slack",
+    "url": "https://reddit.com/r/Slack/comments/1o85cov/view_one_workspace_at_a_time_in_enterprise_org/",
+    "has_body": true,
+    "assigned_to": "A"
+  },
+  {
+    "test_id": "T20261007-057",
+    "reddit_id": "1omwx9h",
+    "created_utc": "2025-11-02T23:56:57",
+    "subreddit": "MicrosoftEdge",
+    "url": "https://reddit.com/r/MicrosoftEdge/comments/1omwx9h/my_edge_just_updated_why_does_everything_look/",
+    "has_body": true,
+    "assigned_to": "A"
+  },
+  {
+    "test_id": "T20261007-058",
+    "reddit_id": "1ubx7pe",
+    "created_utc": "2026-06-21T18:21:26",
+    "subreddit": "homeassistant",
+    "url": "https://reddit.com/r/homeassistant/comments/1ubx7pe/os_180_update_issues_with_studio_code_server_ssh/",
+    "has_body": true,
+    "assigned_to": "both"
+  },
+  {
+    "test_id": "T20261007-059",
+    "reddit_id": "1oj5qwi",
+    "created_utc": "2025-10-29T14:17:15",
+    "subreddit": "MicrosoftEdge",
+    "url": "https://reddit.com/r/MicrosoftEdge/comments/1oj5qwi/how_to_remove_ms_edge_borders_on_home_screen/",
+    "has_body": true,
+    "assigned_to": "A"
+  },
+  {
+    "test_id": "T20261007-060",
+    "reddit_id": "1tp65bm",
+    "created_utc": "2026-05-27T13:49:00",
+    "subreddit": "software",
+    "url": "https://reddit.com/r/software/comments/1tp65bm/worktop_desktop_profiles_for_windows_now_with/",
+    "has_body": true,
+    "assigned_to": "B"
+  },
+  {
+    "test_id": "T20261007-061",
+    "reddit_id": "1pms2l3",
+    "created_utc": "2025-12-14T23:16:49",
+    "subreddit": "chrome",
+    "url": "https://reddit.com/r/chrome/comments/1pms2l3/weird_issue_with_chrome_reloading_my_tabs_but/",
+    "has_body": true,
+    "assigned_to": "A"
+  },
+  {
+    "test_id": "T20261007-062",
+    "reddit_id": "1v2ebko",
+    "created_utc": "2026-07-21T10:17:20",
+    "subreddit": "MacOS",
+    "url": "https://reddit.com/r/MacOS/comments/1v2ebko/macos_265_updates_both_2651_2652_killing_my/",
+    "has_body": true,
+    "assigned_to": "B"
+  },
+  {
+    "test_id": "T20261007-063",
+    "reddit_id": "1sbdaxs",
+    "created_utc": "2026-04-03T13:14:58",
+    "subreddit": "Ubiquiti",
+    "url": "https://reddit.com/r/Ubiquiti/comments/1sbdaxs/options_for_25gb_after_udm/",
+    "has_body": true,
+    "assigned_to": "B"
+  },
+  {
+    "test_id": "T20261007-064",
+    "reddit_id": "1wz4tb1",
+    "created_utc": "2026-10-06T15:00:15",
+    "subreddit": "AndroidQuestions",
+    "url": "https://reddit.com/r/AndroidQuestions/comments/1wz4tb1/android_update_one_ui_90/",
+    "has_body": true,
+    "assigned_to": "both"
+  },
+  {
+    "test_id": "T20261007-065",
+    "reddit_id": "1skb0ln",
+    "created_utc": "2026-04-13T13:34:59",
+    "subreddit": "applehelp",
+    "url": "https://reddit.com/r/applehelp/comments/1skb0ln/what_to_do_if_phone_lost_forever_icloud_password/",
+    "has_body": true,
+    "assigned_to": "both"
+  },
+  {
+    "test_id": "T20261007-066",
+    "reddit_id": "1uyhqpu",
+    "created_utc": "2026-07-16T22:37:14",
+    "subreddit": "Android",
+    "url": "https://reddit.com/r/Android/comments/1uyhqpu/google_has_locked_down_adb_too_now/",
+    "has_body": true,
+    "assigned_to": "A"
+  },
+  {
+    "test_id": "T20261007-067",
+    "reddit_id": "1oubbvg",
+    "created_utc": "2025-11-11T14:48:41",
+    "subreddit": "MicrosoftEdge",
+    "url": "https://reddit.com/r/MicrosoftEdge/comments/1oubbvg/is_mailto_handling_gone/",
+    "has_body": true,
+    "assigned_to": "B"
+  },
+  {
+    "test_id": "T20261007-068",
+    "reddit_id": "1ot5ri4",
+    "created_utc": "2025-11-10T05:39:27",
+    "subreddit": "angular",
+    "url": "https://reddit.com/r/angular/comments/1ot5ri4/fastest_way_to_upgrade_from_angular_13_to_20_for/",
+    "has_body": true,
+    "assigned_to": "both"
+  },
+  {
+    "test_id": "T20261007-069",
+    "reddit_id": "1wvp6jc",
+    "created_utc": "2026-10-02T09:18:53",
+    "subreddit": "firefox",
+    "url": "https://reddit.com/r/firefox/comments/1wvp6jc/where_is_everybody_seeing_the_new_changes/",
+    "has_body": true,
+    "assigned_to": "A"
+  },
+  {
+    "test_id": "T20261007-070",
+    "reddit_id": "1tpe7l2",
+    "created_utc": "2026-05-27T18:28:36",
+    "subreddit": "openclaw",
+    "url": "https://reddit.com/r/openclaw/comments/1tpe7l2/umbrel_openclaw_update_agent_dead/",
+    "has_body": true,
+    "assigned_to": "B"
+  },
+  {
+    "test_id": "T20261007-071",
+    "reddit_id": "1rld7js",
+    "created_utc": "2026-03-05T09:29:43",
+    "subreddit": "Fedora",
+    "url": "https://reddit.com/r/Fedora/comments/1rld7js/wifi_and_ethernet_cards_misbehaving/",
+    "has_body": true,
+    "assigned_to": "B"
+  },
+  {
+    "test_id": "T20261007-072",
+    "reddit_id": "1ub592x",
+    "created_utc": "2026-06-20T19:29:17",
+    "subreddit": "SecurityCamera",
+    "url": "https://reddit.com/r/SecurityCamera/comments/1ub592x/tiandy_nvr_bypass_firmware_upgrade_need_help/",
+    "has_body": true,
+    "assigned_to": "B"
+  },
+  {
+    "test_id": "T20261007-073",
+    "reddit_id": "1t12ntd",
+    "created_utc": "2026-05-01T19:03:11",
+    "subreddit": "homeassistant",
+    "url": "https://reddit.com/r/homeassistant/comments/1t12ntd/does_the_latest_version_of_home_assistant_have_a/",
+    "has_body": true,
+    "assigned_to": "B"
+  },
+  {
+    "test_id": "T20261007-074",
+    "reddit_id": "1u9vag8",
+    "created_utc": "2026-06-19T07:26:17",
+    "subreddit": "homeassistant",
+    "url": "https://reddit.com/r/homeassistant/comments/1u9vag8/philips_hue_bulb_fw_updates/",
+    "has_body": true,
+    "assigned_to": "A"
+  },
+  {
+    "test_id": "T20261007-075",
+    "reddit_id": "1wv2tfw",
+    "created_utc": "2026-10-01T15:42:28",
+    "subreddit": "sysadmin",
+    "url": "https://reddit.com/r/sysadmin/comments/1wv2tfw/welp_win_11_is_officially_too_big_for_even_a/",
+    "has_body": true,
+    "assigned_to": "B"
+  },
+  {
+    "test_id": "T20261007-076",
+    "reddit_id": "1tdhxot",
+    "created_utc": "2026-05-15T01:39:58",
+    "subreddit": "linux",
+    "url": "https://reddit.com/r/linux/comments/1tdhxot/a_new_allinone_editor_is_in_development/",
+    "has_body": true,
+    "assigned_to": "B"
+  },
+  {
+    "test_id": "T20261007-077",
+    "reddit_id": "1pu7vpe",
+    "created_utc": "2025-12-23T23:05:38",
+    "subreddit": "Dell",
+    "url": "https://reddit.com/r/Dell/comments/1pu7vpe/new_aurora_monitor_wont_turn_off_and_pc_wont/",
+    "has_body": true,
+    "assigned_to": "A"
+  },
+  {
+    "test_id": "T20261007-078",
+    "reddit_id": "1rzvi9k",
+    "created_utc": "2026-03-21T16:16:05",
+    "subreddit": "chrome",
+    "url": "https://reddit.com/r/chrome/comments/1rzvi9k/chromes_whats_new_page_gives_wrong_navigation/",
+    "has_body": true,
+    "assigned_to": "both"
+  },
+  {
+    "test_id": "T20261007-079",
+    "reddit_id": "1ug3556",
+    "created_utc": "2026-06-26T10:35:25",
+    "subreddit": "firefox",
+    "url": "https://reddit.com/r/firefox/comments/1ug3556/after_updating_lost_the_fifa_score_widget/",
+    "has_body": true,
+    "assigned_to": "B"
+  },
+  {
+    "test_id": "T20261007-080",
+    "reddit_id": "1ui31wd",
+    "created_utc": "2026-06-28T17:21:31",
+    "subreddit": "cachyos",
+    "url": "https://reddit.com/r/cachyos/comments/1ui31wd/i_have_2_issues_after_the_last_kernel_update/",
+    "has_body": true,
+    "assigned_to": "B"
+  },
+  {
+    "test_id": "T20261007-081",
+    "reddit_id": "1tcq36e",
+    "created_utc": "2026-05-14T06:47:02",
+    "subreddit": "homeassistant",
+    "url": "https://reddit.com/r/homeassistant/comments/1tcq36e/202651_companion_app_opens_home_assistant_in/",
+    "has_body": true,
+    "assigned_to": "A"
+  },
+  {
+    "test_id": "T20261007-082",
+    "reddit_id": "1uyjz0c",
+    "created_utc": "2026-07-17T00:11:13",
+    "subreddit": "chrome",
+    "url": "https://reddit.com/r/chrome/comments/1uyjz0c/chrome_update_wiped_all_my_data_10_years_lost/",
+    "has_body": true,
+    "assigned_to": "A"
+  },
+  {
+    "test_id": "T20261007-083",
+    "reddit_id": "1pzkt16",
+    "created_utc": "2025-12-30T15:22:01",
+    "subreddit": "MacOS",
+    "url": "https://reddit.com/r/MacOS/comments/1pzkt16/problem_with_odyssey_g95sd_monitor_after_updating/",
+    "has_body": true,
+    "assigned_to": "A"
+  },
+  {
+    "test_id": "T20261007-084",
+    "reddit_id": "1pdsveq",
+    "created_utc": "2025-12-04T06:28:29",
+    "subreddit": "MicrosoftEdge",
+    "url": "https://reddit.com/r/MicrosoftEdge/comments/1pdsveq/the_padding_between_bookmarks_bar_icons_became/",
+    "has_body": true,
+    "assigned_to": "A"
+  },
+  {
+    "test_id": "T20261007-085",
+    "reddit_id": "1wy6com",
+    "created_utc": "2026-10-05T11:41:39",
+    "subreddit": "vscode",
+    "url": "https://reddit.com/r/vscode/comments/1wy6com/python_venv_update_without_restarting/",
+    "has_body": true,
+    "assigned_to": "A"
+  },
+  {
+    "test_id": "T20261007-086",
+    "reddit_id": "1ujrjnd",
+    "created_utc": "2026-06-30T14:56:53",
+    "subreddit": "Ubiquiti",
+    "url": "https://reddit.com/r/Ubiquiti/comments/1ujrjnd/latest_osnetwork_cant_detect_resolved_outages/",
+    "has_body": true,
+    "assigned_to": "B"
+  },
+  {
+    "test_id": "T20261007-087",
+    "reddit_id": "1wznn74",
+    "created_utc": "2026-10-07T04:43:29",
+    "subreddit": "chrome",
+    "url": "https://reddit.com/r/chrome/comments/1wznn74/just_a_heads_up_if_you_use_passkeys_and_you_have/",
+    "has_body": true,
+    "assigned_to": "both"
+  },
+  {
+    "test_id": "T20261007-088",
+    "reddit_id": "1szdmah",
+    "created_utc": "2026-04-29T22:21:30",
+    "subreddit": "Bazzite",
+    "url": "https://reddit.com/r/Bazzite/comments/1szdmah/44_stable_btop_is_not_showing_gpu_anymore/",
+    "has_body": true,
+    "assigned_to": "B"
+  },
+  {
+    "test_id": "T20261007-089",
+    "reddit_id": "1oll3s9",
+    "created_utc": "2025-11-01T11:07:07",
+    "subreddit": "MicrosoftEdge",
+    "url": "https://reddit.com/r/MicrosoftEdge/comments/1oll3s9/edge_is_losing_its_identity_and_turning_into/",
+    "has_body": true,
+    "assigned_to": "A"
+  },
+  {
+    "test_id": "T20261007-090",
+    "reddit_id": "1tptuly",
+    "created_utc": "2026-05-28T05:10:00",
+    "subreddit": "Wordpress",
+    "url": "https://reddit.com/r/Wordpress/comments/1tptuly/wp_70_update_plugin_page_wpforms_issue/",
+    "has_body": true,
+    "assigned_to": "A"
+  },
+  {
+    "test_id": "T20261007-091",
+    "reddit_id": "1wzzmn0",
+    "created_utc": "2026-10-07T15:32:47",
+    "subreddit": "Wordpress",
+    "url": "https://reddit.com/r/Wordpress/comments/1wzzmn0/column_gap_disappeared_in_wpbakery/",
+    "has_body": true,
+    "assigned_to": "B"
+  },
+  {
+    "test_id": "T20261007-092",
+    "reddit_id": "1svfxyz",
+    "created_utc": "2026-04-25T15:57:51",
+    "subreddit": "Ubiquiti",
+    "url": "https://reddit.com/r/Ubiquiti/comments/1svfxyz/doorbell_constantly_losea_wifi_connection/",
+    "has_body": true,
+    "assigned_to": "A"
+  },
+  {
+    "test_id": "T20261007-093",
+    "reddit_id": "1tkledz",
+    "created_utc": "2026-05-22T14:56:01",
+    "subreddit": "homeassistant",
+    "url": "https://reddit.com/r/homeassistant/comments/1tkledz/smlight_ultima_zwave_addon_card_no_communication/",
+    "has_body": true,
+    "assigned_to": "both"
+  },
+  {
+    "test_id": "T20261007-094",
+    "reddit_id": "1uuv4ia",
+    "created_utc": "2026-07-12T23:34:43",
+    "subreddit": "AZURE",
+    "url": "https://reddit.com/r/AZURE/comments/1uuv4ia/azure_for_students_disabled_without_credit_or/",
+    "has_body": true,
+    "assigned_to": "B"
+  },
+  {
+    "test_id": "T20261007-095",
+    "reddit_id": "1owrtk9",
+    "created_utc": "2025-11-14T09:18:07",
+    "subreddit": "immich",
+    "url": "https://reddit.com/r/immich/comments/1owrtk9/im_becoming_independent/",
+    "has_body": true,
+    "assigned_to": "A"
+  },
+  {
+    "test_id": "T20261007-096",
+    "reddit_id": "1tfotmi",
+    "created_utc": "2026-05-17T12:57:32",
+    "subreddit": "openclaw",
+    "url": "https://reddit.com/r/openclaw/comments/1tfotmi/timeout_problems_gpt_models/",
+    "has_body": true,
+    "assigned_to": "both"
+  },
+  {
+    "test_id": "T20261007-097",
+    "reddit_id": "1svd6o7",
+    "created_utc": "2026-04-25T14:08:18",
+    "subreddit": "Ubiquiti",
+    "url": "https://reddit.com/r/Ubiquiti/comments/1svd6o7/looking_for_first_unifi_system_but_want_it_to/",
+    "has_body": true,
+    "assigned_to": "B"
+  },
+  {
+    "test_id": "T20261007-098",
+    "reddit_id": "1svl2go",
+    "created_utc": "2026-04-25T19:14:00",
+    "subreddit": "homeassistant",
+    "url": "https://reddit.com/r/homeassistant/comments/1svl2go/ha_ui_isnt_accessible_through_browser_after_update/",
+    "has_body": true,
+    "assigned_to": "B"
+  },
+  {
+    "test_id": "T20261007-099",
+    "reddit_id": "1wv43sr",
+    "created_utc": "2026-10-01T16:30:46",
+    "subreddit": "AZURE",
+    "url": "https://reddit.com/r/AZURE/comments/1wv43sr/experience_with_xaml_builds_in_azure_devops_2020/",
+    "has_body": true,
+    "assigned_to": "B"
+  },
+  {
+    "test_id": "T20261007-100",
+    "reddit_id": "1s2apw7",
+    "created_utc": "2026-03-24T11:07:13",
+    "subreddit": "applehelp",
+    "url": "https://reddit.com/r/applehelp/comments/1s2apw7/iphone_16_pro_max_face_id_front_camera_issues/",
+    "has_body": true,
+    "assigned_to": "A"
+  },
+  {
+    "test_id": "T20261007-101",
+    "reddit_id": "1u1lahp",
+    "created_utc": "2026-06-09T23:21:44",
+    "subreddit": "linuxquestions",
+    "url": "https://reddit.com/r/linuxquestions/comments/1u1lahp/fedora_44_no_sound_from_an_audio_output_unless_i/",
+    "has_body": true,
+    "assigned_to": "B"
+  },
+  {
+    "test_id": "T20261007-102",
+    "reddit_id": "1u2nqfw",
+    "created_utc": "2026-06-11T03:30:43",
+    "subreddit": "Ubuntu",
+    "url": "https://reddit.com/r/Ubuntu/comments/1u2nqfw/just_upgraded_to_2604lts/",
+    "has_body": true,
+    "assigned_to": "both"
+  },
+  {
+    "test_id": "T20261007-103",
+    "reddit_id": "1rltv45",
+    "created_utc": "2026-03-05T21:12:02",
+    "subreddit": "homeassistant",
+    "url": "https://reddit.com/r/homeassistant/comments/1rltv45/kajplats_gu10_575lm_white_spectrum_and_hue/",
+    "has_body": true,
+    "assigned_to": "B"
+  },
+  {
+    "test_id": "T20261007-104",
+    "reddit_id": "1sci78a",
+    "created_utc": "2026-04-04T19:24:45",
+    "subreddit": "Fedora",
+    "url": "https://reddit.com/r/Fedora/comments/1sci78a/fedoda_43_kinoite_wifi_not_turning_on/",
+    "has_body": true,
+    "assigned_to": "A"
+  },
+  {
+    "test_id": "T20261007-105",
+    "reddit_id": "1teji22",
+    "created_utc": "2026-05-16T04:41:07",
+    "subreddit": "ollama",
+    "url": "https://reddit.com/r/ollama/comments/1teji22/do_not_update_codex_to_version_2651331313_2867/",
+    "has_body": true,
+    "assigned_to": "both"
+  },
+  {
+    "test_id": "T20261007-106",
+    "reddit_id": "1tic4lz",
+    "created_utc": "2026-05-20T05:29:26",
+    "subreddit": "Ubiquiti",
+    "url": "https://reddit.com/r/Ubiquiti/comments/1tic4lz/new_unifi_access_update/",
+    "has_body": true,
+    "assigned_to": "A"
+  },
+  {
+    "test_id": "T20261007-107",
+    "reddit_id": "1p6djoh",
+    "created_utc": "2025-11-25T14:16:48",
+    "subreddit": "comfyui",
+    "url": "https://reddit.com/r/comfyui/comments/1p6djoh/comfyui_update_and_templates_issue/",
+    "has_body": true,
+    "assigned_to": "both"
+  },
+  {
+    "test_id": "T20261007-108",
+    "reddit_id": "1wwwjkt",
+    "created_utc": "2026-10-03T20:02:28",
+    "subreddit": "firefox",
+    "url": "https://reddit.com/r/firefox/comments/1wwwjkt/classic_dark_theme_before_157/",
+    "has_body": true,
+    "assigned_to": "B"
+  },
+  {
+    "test_id": "T20261007-109",
+    "reddit_id": "1tjof74",
+    "created_utc": "2026-05-21T15:42:36",
+    "subreddit": "Fedora",
+    "url": "https://reddit.com/r/Fedora/comments/1tjof74/issue_with_usb_devices_only_being_recognized/",
+    "has_body": true,
+    "assigned_to": "A"
+  },
+  {
+    "test_id": "T20261007-110",
+    "reddit_id": "1wyr8g9",
+    "created_utc": "2026-10-06T02:26:51",
+    "subreddit": "firefox",
+    "url": "https://reddit.com/r/firefox/comments/1wyr8g9/pdfs_disappearingtab_going_blank_with_firefox_in/",
+    "has_body": true,
+    "assigned_to": "B"
+  },
+  {
+    "test_id": "T20261007-111",
+    "reddit_id": "1nf4keo",
+    "created_utc": "2025-09-12T14:21:21",
+    "subreddit": "Strapi",
+    "url": "https://reddit.com/r/Strapi/comments/1nf4keo/dashboard_taking_long_to_load_on_server/",
+    "has_body": true,
+    "assigned_to": "A"
+  },
+  {
+    "test_id": "T20261007-112",
+    "reddit_id": "1v5pfct",
+    "created_utc": "2026-07-24T21:58:21",
+    "subreddit": "comfyui",
+    "url": "https://reddit.com/r/comfyui/comments/1v5pfct/comfy_deleted_all_of_my_models_after_an_update/",
+    "has_body": true,
+    "assigned_to": "B"
+  },
+  {
+    "test_id": "T20261007-113",
+    "reddit_id": "1puwg7t",
+    "created_utc": "2025-12-24T20:22:29",
+    "subreddit": "chrome",
+    "url": "https://reddit.com/r/chrome/comments/1puwg7t/uppdated_chrome_and_its_increadibly_laggy/",
+    "has_body": true,
+    "assigned_to": "A"
+  },
+  {
+    "test_id": "T20261007-114",
+    "reddit_id": "1ss8hmk",
+    "created_utc": "2026-04-22T02:25:41",
+    "subreddit": "MicrosoftEdge",
+    "url": "https://reddit.com/r/MicrosoftEdge/comments/1ss8hmk/sidebar_suddenly_disappeared_while_using_opened/",
+    "has_body": true,
+    "assigned_to": "A"
+  },
+  {
+    "test_id": "T20261007-115",
+    "reddit_id": "1ugeb20",
+    "created_utc": "2026-06-26T18:06:45",
+    "subreddit": "smarthome",
+    "url": "https://reddit.com/r/smarthome/comments/1ugeb20/can_1st_generation_droplet_sensor_be_updated_with/",
+    "has_body": false,
+    "assigned_to": "B"
+  },
+  {
+    "test_id": "T20261007-116",
+    "reddit_id": "1pep8e3",
+    "created_utc": "2025-12-05T07:48:06",
+    "subreddit": "chrome",
+    "url": "https://reddit.com/r/chrome/comments/1pep8e3/address_bar_appears_on_bottom_when_i_start_typing/",
+    "has_body": true,
+    "assigned_to": "both"
+  },
+  {
+    "test_id": "T20261007-117",
+    "reddit_id": "1u7riwf",
+    "created_utc": "2026-06-16T21:57:58",
+    "subreddit": "chrome",
+    "url": "https://reddit.com/r/chrome/comments/1u7riwf/the_define_option_in_google_chrome_disappeared/",
+    "has_body": true,
+    "assigned_to": "both"
+  },
+  {
+    "test_id": "T20261007-118",
+    "reddit_id": "1wz5udv",
+    "created_utc": "2026-10-06T15:40:22",
+    "subreddit": "sysadmin",
+    "url": "https://reddit.com/r/sysadmin/comments/1wz5udv/new_job_post_phishing_scam/",
+    "has_body": true,
+    "assigned_to": "A"
+  },
+  {
+    "test_id": "T20261007-119",
+    "reddit_id": "1uwovtg",
+    "created_utc": "2026-07-14T23:24:26",
+    "subreddit": "bluetooth",
+    "url": "https://reddit.com/r/bluetooth/comments/1uwovtg/samsung_tablet_bluetooth_range_suddenly_not_even/",
+    "has_body": true,
+    "assigned_to": "A"
+  },
+  {
+    "test_id": "T20261007-120",
+    "reddit_id": "1piacp0",
+    "created_utc": "2025-12-09T15:30:26",
+    "subreddit": "chrome",
+    "url": "https://reddit.com/r/chrome/comments/1piacp0/when_i_close_one_tab_itll_also_close_the_next_tab/",
+    "has_body": true,
+    "assigned_to": "B"
+  },
+  {
+    "test_id": "T20261007-121",
+    "reddit_id": "1rkwr8v",
+    "created_utc": "2026-03-04T20:35:08",
+    "subreddit": "Fedora",
+    "url": "https://reddit.com/r/Fedora/comments/1rkwr8v/importing_gpg_keys_during_upgrades/",
+    "has_body": true,
+    "assigned_to": "A"
+  },
+  {
+    "test_id": "T20261007-122",
+    "reddit_id": "1s8g3lq",
+    "created_utc": "2026-03-31T06:54:33",
+    "subreddit": "AndroidQuestions",
+    "url": "https://reddit.com/r/AndroidQuestions/comments/1s8g3lq/banking_app_unable_to_proceed_not_because_of/",
+    "has_body": true,
+    "assigned_to": "B"
+  },
+  {
+    "test_id": "T20261007-123",
+    "reddit_id": "1szeyf7",
+    "created_utc": "2026-04-29T23:17:09",
+    "subreddit": "HomeNetworking",
+    "url": "https://reddit.com/r/HomeNetworking/comments/1szeyf7/10grj45_unlink_16port_poe_switch/",
+    "has_body": true,
+    "assigned_to": "B"
+  },
+  {
+    "test_id": "T20261007-124",
+    "reddit_id": "1wzoe5j",
+    "created_utc": "2026-10-07T05:28:13",
+    "subreddit": "applehelp",
+    "url": "https://reddit.com/r/applehelp/comments/1wzoe5j/macbook_air_m4_charge_limit_not_working_after/",
+    "has_body": true,
+    "assigned_to": "B"
+  },
+  {
+    "test_id": "T20261007-125",
+    "reddit_id": "1ub5cdv",
+    "created_utc": "2026-06-20T19:33:03",
+    "subreddit": "rustdesk",
+    "url": "https://reddit.com/r/rustdesk/comments/1ub5cdv/weird_rustdesk_request_from_my_own_macbook/",
+    "has_body": true,
+    "assigned_to": "B"
+  },
+  {
+    "test_id": "T20261007-126",
+    "reddit_id": "1s5nx2a",
+    "created_utc": "2026-03-28T02:11:24",
+    "subreddit": "applehelp",
+    "url": "https://reddit.com/r/applehelp/comments/1s5nx2a/mac_os_264_on_m4_air_computer_deleted_files/",
+    "has_body": true,
+    "assigned_to": "B"
+  },
+  {
+    "test_id": "T20261007-127",
+    "reddit_id": "1wvt4yf",
+    "created_utc": "2026-10-02T12:58:20",
+    "subreddit": "firefox",
+    "url": "https://reddit.com/r/firefox/comments/1wvt4yf/new_ui_looks_great_but_any_tips_for_performance/",
+    "has_body": true,
+    "assigned_to": "A"
+  },
+  {
+    "test_id": "T20261007-128",
+    "reddit_id": "1wz53yg",
+    "created_utc": "2026-10-06T15:11:32",
+    "subreddit": "firefox",
+    "url": "https://reddit.com/r/firefox/comments/1wz53yg/update_just_messed_up_my_sidebar_wasting_tons_of/",
+    "has_body": true,
+    "assigned_to": "A"
+  },
+  {
+    "test_id": "T20261007-129",
+    "reddit_id": "1qhcgvt",
+    "created_utc": "2026-01-19T18:33:47",
+    "subreddit": "rust",
+    "url": "https://reddit.com/r/rust/comments/1qhcgvt/update_rapidrs_v040_phase_3_complete_jobs/",
+    "has_body": true,
+    "assigned_to": "B"
+  },
+  {
+    "test_id": "T20261007-130",
+    "reddit_id": "1pndvnt",
+    "created_utc": "2025-12-15T17:47:40",
+    "subreddit": "MacOS",
+    "url": "https://reddit.com/r/MacOS/comments/1pndvnt/cant_access_details_of_connection_not_private/",
+    "has_body": true,
+    "assigned_to": "B"
+  },
+  {
+    "test_id": "T20261007-131",
+    "reddit_id": "1oxbeo4",
+    "created_utc": "2025-11-14T23:00:15",
+    "subreddit": "MicrosoftEdge",
+    "url": "https://reddit.com/r/MicrosoftEdge/comments/1oxbeo4/gray_bar_at_bottom_of_browser/",
+    "has_body": true,
+    "assigned_to": "A"
+  },
+  {
+    "test_id": "T20261007-132",
+    "reddit_id": "1pzfiug",
+    "created_utc": "2025-12-30T11:14:09",
+    "subreddit": "MacOS",
+    "url": "https://reddit.com/r/MacOS/comments/1pzfiug/safari_tab_dragging_ui_behavior_in_macos_26/",
+    "has_body": true,
+    "assigned_to": "A"
+  },
+  {
+    "test_id": "T20261007-133",
+    "reddit_id": "1v4bhoy",
+    "created_utc": "2026-07-23T11:42:57",
+    "subreddit": "raspberry_pi",
+    "url": "https://reddit.com/r/raspberry_pi/comments/1v4bhoy/rpi_connect_from_mobile_browser/",
+    "has_body": true,
+    "assigned_to": "A"
+  },
+  {
+    "test_id": "T20261007-134",
+    "reddit_id": "1rkharb",
+    "created_utc": "2026-03-04T09:45:54",
+    "subreddit": "Ubiquiti",
+    "url": "https://reddit.com/r/Ubiquiti/comments/1rkharb/anleitung_unifi_protect_kamera_in_synology/",
+    "has_body": true,
+    "assigned_to": "A"
+  },
+  {
+    "test_id": "T20261007-135",
+    "reddit_id": "1v1cx07",
+    "created_utc": "2026-07-20T05:54:25",
+    "subreddit": "MicrosoftEdge",
+    "url": "https://reddit.com/r/MicrosoftEdge/comments/1v1cx07/microsoft_edge_keeps_automatically_logging_me_out/",
+    "has_body": true,
+    "assigned_to": "B"
+  },
+  {
+    "test_id": "T20261007-136",
+    "reddit_id": "1wydgxo",
+    "created_utc": "2026-10-05T16:43:49",
+    "subreddit": "opencode",
+    "url": "https://reddit.com/r/opencode/comments/1wydgxo/opencode_ignores_local_configuration_after_update/",
+    "has_body": true,
+    "assigned_to": "A"
+  },
+  {
+    "test_id": "T20261007-137",
+    "reddit_id": "1spu67r",
+    "created_utc": "2026-04-19T14:16:40",
+    "subreddit": "Ubiquiti",
+    "url": "https://reddit.com/r/Ubiquiti/comments/1spu67r/upgraded_ucg_ultra_to_max_now_need_wifi_device/",
+    "has_body": true,
+    "assigned_to": "B"
+  },
+  {
+    "test_id": "T20261007-138",
+    "reddit_id": "1tisocq",
+    "created_utc": "2026-05-20T17:30:15",
+    "subreddit": "sysadmin",
+    "url": "https://reddit.com/r/sysadmin/comments/1tisocq/apple_id_2fa_calls_not_coming_through_on/",
+    "has_body": true,
+    "assigned_to": "B"
+  },
+  {
+    "test_id": "T20261007-139",
+    "reddit_id": "1td7j6w",
+    "created_utc": "2026-05-14T18:51:52",
+    "subreddit": "Fedora",
+    "url": "https://reddit.com/r/Fedora/comments/1td7j6w/home_and_alt_key_suddenly_switched/",
+    "has_body": true,
+    "assigned_to": "A"
+  },
+  {
+    "test_id": "T20261007-140",
+    "reddit_id": "1sxbmfz",
+    "created_utc": "2026-04-27T18:06:38",
+    "subreddit": "AndroidQuestions",
+    "url": "https://reddit.com/r/AndroidQuestions/comments/1sxbmfz/ever_since_the_latest_update_my_cellphone_keeps/",
+    "has_body": true,
+    "assigned_to": "B"
+  },
+  {
+    "test_id": "T20261007-141",
+    "reddit_id": "1udmrwh",
+    "created_utc": "2026-06-23T16:58:01",
+    "subreddit": "Wordpress",
+    "url": "https://reddit.com/r/Wordpress/comments/1udmrwh/imagify_deploying_a_full_claude_payload_with_the/",
+    "has_body": true,
+    "assigned_to": "B"
+  },
+  {
+    "test_id": "T20261007-142",
+    "reddit_id": "1ubiw0a",
+    "created_utc": "2026-06-21T06:40:24",
+    "subreddit": "applehelp",
+    "url": "https://reddit.com/r/applehelp/comments/1ubiw0a/mac_to_iphone_photos_app/",
+    "has_body": true,
+    "assigned_to": "both"
+  },
+  {
+    "test_id": "T20261007-143",
+    "reddit_id": "1oj6qvp",
+    "created_utc": "2025-10-29T14:56:21",
+    "subreddit": "Android",
+    "url": "https://reddit.com/r/Android/comments/1oj6qvp/coloros_on_x_your_oppocoloros16_update_schedule/",
+    "has_body": false,
+    "assigned_to": "A"
+  },
+  {
+    "test_id": "T20261007-144",
+    "reddit_id": "1sbg85l",
+    "created_utc": "2026-04-03T15:10:12",
+    "subreddit": "MicrosoftEdge",
+    "url": "https://reddit.com/r/MicrosoftEdge/comments/1sbg85l/extensions_are_gone_as_a_result_of_new_update/",
+    "has_body": true,
+    "assigned_to": "B"
+  },
+  {
+    "test_id": "T20261007-145",
+    "reddit_id": "1r2e9vq",
+    "created_utc": "2026-02-12T00:09:19",
+    "subreddit": "applehelp",
+    "url": "https://reddit.com/r/applehelp/comments/1r2e9vq/iphone_17_flashlight_wont_turn_on_ios_263/",
+    "has_body": true,
+    "assigned_to": "B"
+  },
+  {
+    "test_id": "T20261007-146",
+    "reddit_id": "1ww73zd",
+    "created_utc": "2026-10-02T22:27:33",
+    "subreddit": "Ubiquiti",
+    "url": "https://reddit.com/r/Ubiquiti/comments/1ww73zd/protect_73_teleport_adoption_feature_concern/",
+    "has_body": true,
+    "assigned_to": "A"
+  },
+  {
+    "test_id": "T20261007-147",
+    "reddit_id": "1wwayed",
+    "created_utc": "2026-10-03T01:37:18",
+    "subreddit": "firefox",
+    "url": "https://reddit.com/r/firefox/comments/1wwayed/youtube_is_incredibly_slow_after_the_new_update/",
+    "has_body": true,
+    "assigned_to": "B"
+  },
+  {
+    "test_id": "T20261007-148",
+    "reddit_id": "1o1ek2a",
+    "created_utc": "2025-10-08T16:00:06",
+    "subreddit": "MicrosoftEdge",
+    "url": "https://reddit.com/r/MicrosoftEdge/comments/1o1ek2a/remove_copilot_icon_from_toolbar/",
+    "has_body": true,
+    "assigned_to": "B"
+  },
+  {
+    "test_id": "T20261007-149",
+    "reddit_id": "1wwrv22",
+    "created_utc": "2026-10-03T16:47:23",
+    "subreddit": "linuxquestions",
+    "url": "https://reddit.com/r/linuxquestions/comments/1wwrv22/getting_optimus_working_after_kubuntu_2604_update/",
+    "has_body": true,
+    "assigned_to": "B"
+  },
+  {
+    "test_id": "T20261007-150",
+    "reddit_id": "1r1e2kh",
+    "created_utc": "2026-02-10T21:38:50",
+    "subreddit": "applehelp",
+    "url": "https://reddit.com/r/applehelp/comments/1r1e2kh/i_updated_an_application_and_the_files_i_use_it/",
+    "has_body": true,
+    "assigned_to": "B"
+  },
+  {
+    "test_id": "T20261007-151",
+    "reddit_id": "1uks427",
+    "created_utc": "2026-07-01T17:26:35",
+    "subreddit": "homelab",
+    "url": "https://reddit.com/r/homelab/comments/1uks427/is_the_fun_over_already/",
+    "has_body": true,
+    "assigned_to": "B"
+  },
+  {
+    "test_id": "T20261007-152",
+    "reddit_id": "1s98sag",
+    "created_utc": "2026-04-01T03:08:10",
+    "subreddit": "AndroidQuestions",
+    "url": "https://reddit.com/r/AndroidQuestions/comments/1s98sag/bcc_text/",
+    "has_body": true,
+    "assigned_to": "A"
+  },
+  {
+    "test_id": "T20261007-153",
+    "reddit_id": "1s497re",
+    "created_utc": "2026-03-26T14:36:23",
+    "subreddit": "homelab",
+    "url": "https://reddit.com/r/homelab/comments/1s497re/my_upgraded_homelab_corner/",
+    "has_body": true,
+    "assigned_to": "B"
+  },
+  {
+    "test_id": "T20261007-154",
+    "reddit_id": "1oyyj7d",
+    "created_utc": "2025-11-16T22:01:06",
+    "subreddit": "Syncthing",
+    "url": "https://reddit.com/r/Syncthing/comments/1oyyj7d/new_sync_setup_windows_11_to_truenas_scale_not/",
+    "has_body": true,
+    "assigned_to": "B"
+  },
+  {
+    "test_id": "T20261007-155",
+    "reddit_id": "1wtonfl",
+    "created_utc": "2026-09-29T22:49:42",
+    "subreddit": "PowerToys",
+    "url": "https://reddit.com/r/PowerToys/comments/1wtonfl/longpress_xbox_button_stopped_opening_task_view/",
+    "has_body": true,
+    "assigned_to": "A"
+  },
+  {
+    "test_id": "T20261007-156",
+    "reddit_id": "1te87au",
+    "created_utc": "2026-05-15T20:28:54",
+    "subreddit": "Fedora",
+    "url": "https://reddit.com/r/Fedora/comments/1te87au/browser_window_locations_screen_and_desktop_are/",
+    "has_body": true,
+    "assigned_to": "B"
+  },
+  {
+    "test_id": "T20261007-157",
+    "reddit_id": "1q57zr6",
+    "created_utc": "2026-01-06T03:50:00",
+    "subreddit": "comfyui",
+    "url": "https://reddit.com/r/comfyui/comments/1q57zr6/am_i_the_only_one_who_started_running_out_of/",
+    "has_body": true,
+    "assigned_to": "B"
+  },
+  {
+    "test_id": "T20261007-158",
+    "reddit_id": "1sc98il",
+    "created_utc": "2026-04-04T13:27:02",
+    "subreddit": "MicrosoftEdge",
+    "url": "https://reddit.com/r/MicrosoftEdge/comments/1sc98il/massive_power_draw_20w30w_and_stuttering_on_edge/",
+    "has_body": true,
+    "assigned_to": "B"
+  },
+  {
+    "test_id": "T20261007-159",
+    "reddit_id": "1tkjv0p",
+    "created_utc": "2026-05-22T14:00:29",
+    "subreddit": "applehelp",
+    "url": "https://reddit.com/r/applehelp/comments/1tkjv0p/new_phone_cant_set_it_up/",
+    "has_body": true,
+    "assigned_to": "B"
+  },
+  {
+    "test_id": "T20261007-160",
+    "reddit_id": "1wsuqev",
+    "created_utc": "2026-09-28T23:45:16",
+    "subreddit": "Ubiquiti",
+    "url": "https://reddit.com/r/Ubiquiti/comments/1wsuqev/what_do_you_do_when_support_no_longer_responds_to/",
+    "has_body": true,
+    "assigned_to": "A"
+  },
+  {
+    "test_id": "T20261007-161",
+    "reddit_id": "1uwr49u",
+    "created_utc": "2026-07-15T01:01:43",
+    "subreddit": "applehelp",
+    "url": "https://reddit.com/r/applehelp/comments/1uwr49u/iphone_se_apps_removed_on_restart/",
+    "has_body": true,
+    "assigned_to": "A"
+  },
+  {
+    "test_id": "T20261007-162",
+    "reddit_id": "1ulfopd",
+    "created_utc": "2026-07-02T11:33:13",
+    "subreddit": "homeassistant",
+    "url": "https://reddit.com/r/homeassistant/comments/1ulfopd/help_matter_over_thread_devices_do_not_reconnect/",
+    "has_body": true,
+    "assigned_to": "A"
+  },
+  {
+    "test_id": "T20261007-163",
+    "reddit_id": "1r30kux",
+    "created_utc": "2026-02-12T18:03:50",
+    "subreddit": "chrome",
+    "url": "https://reddit.com/r/chrome/comments/1r30kux/ever_since_updating_chrome_to_v145_group_tab/",
+    "has_body": true,
+    "assigned_to": "B"
+  },
+  {
+    "test_id": "T20261007-164",
+    "reddit_id": "1uywics",
+    "created_utc": "2026-07-17T11:03:49",
+    "subreddit": "applehelp",
+    "url": "https://reddit.com/r/applehelp/comments/1uywics/passwords_not_synching_over_icloud_to_windows/",
+    "has_body": true,
+    "assigned_to": "A"
+  },
+  {
+    "test_id": "T20261007-165",
+    "reddit_id": "1rxpacu",
+    "created_utc": "2026-03-19T03:14:54",
+    "subreddit": "openclaw",
+    "url": "https://reddit.com/r/openclaw/comments/1rxpacu/hitting_my_oauth_api_limit_with_53codex/",
+    "has_body": true,
+    "assigned_to": "B"
+  },
+  {
+    "test_id": "T20261007-166",
+    "reddit_id": "1uxkt7b",
+    "created_utc": "2026-07-15T22:37:35",
+    "subreddit": "applehelp",
+    "url": "https://reddit.com/r/applehelp/comments/1uxkt7b/iphone_16_not_recognizing_usb_c_devices/",
+    "has_body": true,
+    "assigned_to": "both"
+  },
+  {
+    "test_id": "T20261007-167",
+    "reddit_id": "1ov15cy",
+    "created_utc": "2025-11-12T09:56:38",
+    "subreddit": "windows",
+    "url": "https://reddit.com/r/windows/comments/1ov15cy/made_a_windows_system_tray_calendar_that_syncs/",
+    "has_body": true,
+    "assigned_to": "A"
+  },
+  {
+    "test_id": "T20261007-168",
+    "reddit_id": "1wtoe2w",
+    "created_utc": "2026-09-29T22:38:07",
+    "subreddit": "homeassistant",
+    "url": "https://reddit.com/r/homeassistant/comments/1wtoe2w/mac_mini_intel/",
+    "has_body": true,
+    "assigned_to": "B"
+  },
+  {
+    "test_id": "T20261007-169",
+    "reddit_id": "1swtyrb",
+    "created_utc": "2026-04-27T05:00:02",
+    "subreddit": "Ubuntu",
+    "url": "https://reddit.com/r/Ubuntu/comments/1swtyrb/updated_finally_to_2604_lts_and_its_amazing_in/",
+    "has_body": true,
+    "assigned_to": "B"
+  },
+  {
+    "test_id": "T20261007-170",
+    "reddit_id": "1pfi9wd",
+    "created_utc": "2025-12-06T06:20:25",
+    "subreddit": "vscode",
+    "url": "https://reddit.com/r/vscode/comments/1pfi9wd/vs_code_insiders_unusable_have_to_uninstall/",
+    "has_body": true,
+    "assigned_to": "A"
+  },
+  {
+    "test_id": "T20261007-171",
+    "reddit_id": "1s5uwkc",
+    "created_utc": "2026-03-28T08:31:41",
+    "subreddit": "chrome",
+    "url": "https://reddit.com/r/chrome/comments/1s5uwkc/cursor_appears_large_with_orange_and_blue_shading/",
+    "has_body": true,
+    "assigned_to": "B"
+  },
+  {
+    "test_id": "T20261007-172",
+    "reddit_id": "1urwgme",
+    "created_utc": "2026-07-09T17:10:46",
+    "subreddit": "Ubiquiti",
+    "url": "https://reddit.com/r/Ubiquiti/comments/1urwgme/where_is_network_backup_in_version_10/",
+    "has_body": true,
+    "assigned_to": "A"
+  },
+  {
+    "test_id": "T20261007-173",
+    "reddit_id": "1wvshqa",
+    "created_utc": "2026-10-02T12:27:32",
+    "subreddit": "Ubiquiti",
+    "url": "https://reddit.com/r/Ubiquiti/comments/1wvshqa/current_25_setup_to_10_gig_please_review/",
+    "has_body": true,
+    "assigned_to": "A"
+  },
+  {
+    "test_id": "T20261007-174",
+    "reddit_id": "1tp94hr",
+    "created_utc": "2026-05-27T15:33:57",
+    "subreddit": "software",
+    "url": "https://reddit.com/r/software/comments/1tp94hr/any_recommendations_on_a_remote_desktop_app_for/",
+    "has_body": true,
+    "assigned_to": "both"
+  },
+  {
+    "test_id": "T20261007-175",
+    "reddit_id": "1r2rsnd",
+    "created_utc": "2026-02-12T12:11:20",
+    "subreddit": "Wordpress",
+    "url": "https://reddit.com/r/Wordpress/comments/1r2rsnd/elementor_plugin_not_updating/",
+    "has_body": true,
+    "assigned_to": "both"
+  },
+  {
+    "test_id": "T20261007-176",
+    "reddit_id": "1v2eojr",
+    "created_utc": "2026-07-21T10:36:47",
+    "subreddit": "MicrosoftEdge",
+    "url": "https://reddit.com/r/MicrosoftEdge/comments/1v2eojr/updates_disable_sideloaded_extensions/",
+    "has_body": true,
+    "assigned_to": "A"
+  },
+  {
+    "test_id": "T20261007-177",
+    "reddit_id": "1ub120n",
+    "created_utc": "2026-06-20T16:37:08",
+    "subreddit": "firefox",
+    "url": "https://reddit.com/r/firefox/comments/1ub120n/firefox_vpn_disappeared_now_i_have_to_pay_for_it/",
+    "has_body": true,
+    "assigned_to": "A"
+  },
+  {
+    "test_id": "T20261007-178",
+    "reddit_id": "1uc1myo",
+    "created_utc": "2026-06-21T21:22:07",
+    "subreddit": "chrome",
+    "url": "https://reddit.com/r/chrome/comments/1uc1myo/chromecast_issue_on_m1_mac_pro/",
+    "has_body": true,
+    "assigned_to": "both"
+  },
+  {
+    "test_id": "T20261007-179",
+    "reddit_id": "1qk48w5",
+    "created_utc": "2026-01-22T19:31:50",
+    "subreddit": "MacOS",
+    "url": "https://reddit.com/r/MacOS/comments/1qk48w5/updating_to_tahoe_cleared_out_my_desktop_folder/",
+    "has_body": true,
+    "assigned_to": "A"
+  },
+  {
+    "test_id": "T20261007-180",
+    "reddit_id": "1sb414z",
+    "created_utc": "2026-04-03T04:46:01",
+    "subreddit": "linuxquestions",
+    "url": "https://reddit.com/r/linuxquestions/comments/1sb414z/keyboard_turns_on_and_off_occasionally_with_high/",
+    "has_body": true,
+    "assigned_to": "B"
+  },
+  {
+    "test_id": "T20261007-181",
+    "reddit_id": "1thov23",
+    "created_utc": "2026-05-19T14:35:34",
+    "subreddit": "Ubiquiti",
+    "url": "https://reddit.com/r/Ubiquiti/comments/1thov23/siadc09_with_protect/",
+    "has_body": true,
+    "assigned_to": "B"
+  },
+  {
+    "test_id": "T20261007-182",
+    "reddit_id": "1s3axh4",
+    "created_utc": "2026-03-25T13:35:41",
+    "subreddit": "ios",
+    "url": "https://reddit.com/r/ios/comments/1s3axh4/edit_option_gone_from_imessage_after_update/",
+    "has_body": true,
+    "assigned_to": "A"
+  },
+  {
+    "test_id": "T20261007-183",
+    "reddit_id": "1utbn1z",
+    "created_utc": "2026-07-11T05:49:41",
+    "subreddit": "Wordpress",
+    "url": "https://reddit.com/r/Wordpress/comments/1utbn1z/wp_701_slow_query_issue/",
+    "has_body": true,
+    "assigned_to": "both"
+  },
+  {
+    "test_id": "T20261007-184",
+    "reddit_id": "1sch2dp",
+    "created_utc": "2026-04-04T18:39:57",
+    "subreddit": "PFSENSE",
+    "url": "https://reddit.com/r/PFSENSE/comments/1sch2dp/nat_forwarding_stopped_working_after_upgrade_to/",
+    "has_body": true,
+    "assigned_to": "B"
+  },
+  {
+    "test_id": "T20261007-185",
+    "reddit_id": "1onz6me",
+    "created_utc": "2025-11-04T05:23:18",
+    "subreddit": "vscode",
+    "url": "https://reddit.com/r/vscode/comments/1onz6me/how_i_built_a_clean_sandbox_for_vs_code_on_macos/",
+    "has_body": true,
+    "assigned_to": "B"
+  },
+  {
+    "test_id": "T20261007-186",
+    "reddit_id": "1wylgru",
+    "created_utc": "2026-10-05T21:54:13",
+    "subreddit": "comfyui",
+    "url": "https://reddit.com/r/comfyui/comments/1wylgru/how_to_make_disapear_this_in_toolbar_see_screen/",
+    "has_body": true,
+    "assigned_to": "B"
+  },
+  {
+    "test_id": "T20261007-187",
+    "reddit_id": "1p3s1xd",
+    "created_utc": "2025-11-22T12:28:17",
+    "subreddit": "comfyui",
+    "url": "https://reddit.com/r/comfyui/comments/1p3s1xd/how_to_disable_floating_toolbar_over_current_node/",
+    "has_body": true,
+    "assigned_to": "B"
+  },
+  {
+    "test_id": "T20261007-188",
+    "reddit_id": "1vzn2dl",
+    "created_utc": "2026-08-27T07:25:56",
+    "subreddit": "applehelp",
+    "url": "https://reddit.com/r/applehelp/comments/1vzn2dl/apple_account_compromised/",
+    "has_body": true,
+    "assigned_to": "A"
+  },
+  {
+    "test_id": "T20261007-189",
+    "reddit_id": "1rwyld2",
+    "created_utc": "2026-03-18T08:55:30",
+    "subreddit": "MicrosoftEdge",
+    "url": "https://reddit.com/r/MicrosoftEdge/comments/1rwyld2/dont_upgrade_to_version_146workspaces_have/",
+    "has_body": true,
+    "assigned_to": "A"
+  },
+  {
+    "test_id": "T20261007-190",
+    "reddit_id": "1rybyb2",
+    "created_utc": "2026-03-19T20:48:29",
+    "subreddit": "applehelp",
+    "url": "https://reddit.com/r/applehelp/comments/1rybyb2/son_lost_iphone_doesnt_know_his_account_password/",
+    "has_body": true,
+    "assigned_to": "B"
+  },
+  {
+    "test_id": "T20261007-191",
+    "reddit_id": "1s7rdd9",
+    "created_utc": "2026-03-30T13:59:20",
+    "subreddit": "Ubiquiti",
+    "url": "https://reddit.com/r/Ubiquiti/comments/1s7rdd9/low_ccq/",
+    "has_body": true,
+    "assigned_to": "A"
+  },
+  {
+    "test_id": "T20261007-192",
+    "reddit_id": "1v2j26h",
+    "created_utc": "2026-07-21T13:51:09",
+    "subreddit": "firefox",
+    "url": "https://reddit.com/r/firefox/comments/1v2j26h/many_plugins_and_personal_bars_on_macos/",
+    "has_body": true,
+    "assigned_to": "both"
+  },
+  {
+    "test_id": "T20261007-193",
+    "reddit_id": "1tedg2v",
+    "created_utc": "2026-05-15T23:57:33",
+    "subreddit": "sysadmin",
+    "url": "https://reddit.com/r/sysadmin/comments/1tedg2v/if_you_have_pdfxchange_editor_please_be_careful/",
+    "has_body": true,
+    "assigned_to": "A"
+  },
+  {
+    "test_id": "T20261007-194",
+    "reddit_id": "1tk1y3i",
+    "created_utc": "2026-05-21T23:44:43",
+    "subreddit": "firefox",
+    "url": "https://reddit.com/r/firefox/comments/1tk1y3i/any_way_to_remove_gemini_banners_from_the_homepage/",
+    "has_body": true,
+    "assigned_to": "both"
+  },
+  {
+    "test_id": "T20261007-195",
+    "reddit_id": "1s5yj6p",
+    "created_utc": "2026-03-28T12:04:34",
+    "subreddit": "Fedora",
+    "url": "https://reddit.com/r/Fedora/comments/1s5yj6p/no_grub_after_update/",
+    "has_body": true,
+    "assigned_to": "both"
+  },
+  {
+    "test_id": "T20261007-196",
+    "reddit_id": "1svxlz1",
+    "created_utc": "2026-04-26T04:33:32",
+    "subreddit": "applehelp",
+    "url": "https://reddit.com/r/applehelp/comments/1svxlz1/battery_life_ded_after_upgrading/",
+    "has_body": true,
+    "assigned_to": "A"
+  },
+  {
+    "test_id": "T20261007-197",
+    "reddit_id": "1wzdrpj",
+    "created_utc": "2026-10-06T20:44:54",
+    "subreddit": "Wordpress",
+    "url": "https://reddit.com/r/Wordpress/comments/1wzdrpj/wpml_gravity_forms_version_mismatch/",
+    "has_body": true,
+    "assigned_to": "A"
+  },
+  {
+    "test_id": "T20261007-198",
+    "reddit_id": "1t2ht9g",
+    "created_utc": "2026-05-03T10:29:12",
+    "subreddit": "applehelp",
+    "url": "https://reddit.com/r/applehelp/comments/1t2ht9g/would_it_be_worth_taking_my_1_year_old_apple/",
+    "has_body": true,
+    "assigned_to": "A"
+  },
+  {
+    "test_id": "T20261007-199",
+    "reddit_id": "1syerzi",
+    "created_utc": "2026-04-28T21:24:41",
+    "subreddit": "Fedora",
+    "url": "https://reddit.com/r/Fedora/comments/1syerzi/fedora_44_gnome_cant_login_to_microsoft_account/",
+    "has_body": true,
+    "assigned_to": "B"
+  },
+  {
+    "test_id": "T20261007-200",
+    "reddit_id": "1q14jlx",
+    "created_utc": "2026-01-01T13:45:53",
+    "subreddit": "neovim",
+    "url": "https://reddit.com/r/neovim/comments/1q14jlx/c_code_not_properly_highlighted/",
+    "has_body": true,
+    "assigned_to": "both"
+  },
+  {
+    "test_id": "T20261007-201",
+    "reddit_id": "1s4i0a5",
+    "created_utc": "2026-03-26T19:55:30",
+    "subreddit": "Fedora",
+    "url": "https://reddit.com/r/Fedora/comments/1s4i0a5/been_daily_driving_fedora_kde_for_1_month_and_it/",
+    "has_body": true,
+    "assigned_to": "A"
+  },
+  {
+    "test_id": "T20261007-202",
+    "reddit_id": "1umwdpo",
+    "created_utc": "2026-07-04T01:53:04",
+    "subreddit": "applehelp",
+    "url": "https://reddit.com/r/applehelp/comments/1umwdpo/macbook_wont_sleep_after_inactivity/",
+    "has_body": true,
+    "assigned_to": "A"
+  },
+  {
+    "test_id": "T20261007-203",
+    "reddit_id": "1vq6n9t",
+    "created_utc": "2026-08-16T19:46:49",
+    "subreddit": "Fedora",
+    "url": "https://reddit.com/r/Fedora/comments/1vq6n9t/fedora_kde_wayland_after_last_system_update/",
+    "has_body": true,
+    "assigned_to": "both"
+  },
+  {
+    "test_id": "T20261007-204",
+    "reddit_id": "1tmx1hb",
+    "created_utc": "2026-05-25T03:27:55",
+    "subreddit": "Wordpress",
+    "url": "https://reddit.com/r/Wordpress/comments/1tmx1hb/disable_the_resize_handle_metabox/",
+    "has_body": true,
+    "assigned_to": "A"
+  },
+  {
+    "test_id": "T20261007-205",
+    "reddit_id": "1ozn3pc",
+    "created_utc": "2025-11-17T17:53:02",
+    "subreddit": "ios",
+    "url": "https://reddit.com/r/ios/comments/1ozn3pc/delete_imessages_forever/",
+    "has_body": true,
+    "assigned_to": "B"
+  },
+  {
+    "test_id": "T20261007-206",
+    "reddit_id": "1qgpnyz",
+    "created_utc": "2026-01-19T00:49:27",
+    "subreddit": "chrome",
+    "url": "https://reddit.com/r/chrome/comments/1qgpnyz/when_i_switch_tabs_on_chrome_app_it_automatically/",
+    "has_body": true,
+    "assigned_to": "both"
+  },
+  {
+    "test_id": "T20261007-207",
+    "reddit_id": "1sv7ap5",
+    "created_utc": "2026-04-25T09:16:16",
+    "subreddit": "Fedora",
+    "url": "https://reddit.com/r/Fedora/comments/1sv7ap5/fedora_44_in_software_app_updates/",
+    "has_body": true,
+    "assigned_to": "A"
+  },
+  {
+    "test_id": "T20261007-208",
+    "reddit_id": "1wz6kme",
+    "created_utc": "2026-10-06T16:08:57",
+    "subreddit": "homeassistant",
+    "url": "https://reddit.com/r/homeassistant/comments/1wz6kme/update_advice_after_falling_off_the_update/",
+    "has_body": true,
+    "assigned_to": "B"
+  },
+  {
+    "test_id": "T20261007-209",
+    "reddit_id": "1qzh0u2",
+    "created_utc": "2026-02-08T18:43:30",
+    "subreddit": "openclaw",
+    "url": "https://reddit.com/r/openclaw/comments/1qzh0u2/kimi_19m_update_structuring_multiple_models_in/",
+    "has_body": true,
+    "assigned_to": "both"
+  },
+  {
+    "test_id": "T20261007-210",
+    "reddit_id": "1wz5gg6",
+    "created_utc": "2026-10-06T15:25:11",
+    "subreddit": "MicrosoftEdge",
+    "url": "https://reddit.com/r/MicrosoftEdge/comments/1wz5gg6/edge_doesnt_open_after_26h2_update/",
+    "has_body": true,
+    "assigned_to": "B"
+  },
+  {
+    "test_id": "T20261007-211",
+    "reddit_id": "1uope0g",
+    "created_utc": "2026-07-06T06:32:09",
+    "subreddit": "MicrosoftEdge",
+    "url": "https://reddit.com/r/MicrosoftEdge/comments/1uope0g/context_menu_and_popups_ui_spacing_suddenly_got/",
+    "has_body": true,
+    "assigned_to": "B"
+  },
+  {
+    "test_id": "T20261007-212",
+    "reddit_id": "1u1szpu",
+    "created_utc": "2026-06-10T05:24:55",
+    "subreddit": "chrome",
+    "url": "https://reddit.com/r/chrome/comments/1u1szpu/while_opening_a_new_chrome_window/",
+    "has_body": true,
+    "assigned_to": "B"
+  },
+  {
+    "test_id": "T20261007-213",
+    "reddit_id": "1wty098",
+    "created_utc": "2026-09-30T06:52:17",
+    "subreddit": "firefox",
+    "url": "https://reddit.com/r/firefox/comments/1wty098/firefox_what_is_going_on_with_your_design_do_you/",
+    "has_body": true,
+    "assigned_to": "A"
+  },
+  {
+    "test_id": "T20261007-214",
+    "reddit_id": "1u3rt27",
+    "created_utc": "2026-06-12T10:45:40",
+    "subreddit": "AndroidQuestions",
+    "url": "https://reddit.com/r/AndroidQuestions/comments/1u3rt27/latest_update_june_2026_uk/",
+    "has_body": true,
+    "assigned_to": "B"
+  },
+  {
+    "test_id": "T20261007-215",
+    "reddit_id": "1pd7xv8",
+    "created_utc": "2025-12-03T15:55:03",
+    "subreddit": "chrome",
+    "url": "https://reddit.com/r/chrome/comments/1pd7xv8/why_did_this_inactive_tabs_thing_suddenly/",
+    "has_body": true,
+    "assigned_to": "B"
+  },
+  {
+    "test_id": "T20261007-216",
+    "reddit_id": "1vyq6vv",
+    "created_utc": "2026-08-26T07:33:33",
+    "subreddit": "linuxquestions",
+    "url": "https://reddit.com/r/linuxquestions/comments/1vyq6vv/sddm_keeps_disappearing/",
+    "has_body": true,
+    "assigned_to": "both"
+  },
+  {
+    "test_id": "T20261007-217",
+    "reddit_id": "1ptvksm",
+    "created_utc": "2025-12-23T14:41:07",
+    "subreddit": "vscode",
+    "url": "https://reddit.com/r/vscode/comments/1ptvksm/vscode_blank_terminal_for_powershell_git_bash/",
+    "has_body": true,
+    "assigned_to": "both"
+  },
+  {
+    "test_id": "T20261007-218",
+    "reddit_id": "1oimbe6",
+    "created_utc": "2025-10-28T21:39:12",
+    "subreddit": "truenas",
+    "url": "https://reddit.com/r/truenas/comments/1oimbe6/gpt_header_corruption_after_upgrading_to_truenas/",
+    "has_body": true,
+    "assigned_to": "both"
+  },
+  {
+    "test_id": "T20261007-219",
+    "reddit_id": "1u6t6h4",
+    "created_utc": "2026-06-15T20:58:45",
+    "subreddit": "applehelp",
+    "url": "https://reddit.com/r/applehelp/comments/1u6t6h4/no_internetdata_connection/",
+    "has_body": true,
+    "assigned_to": "both"
+  },
+  {
+    "test_id": "T20261007-220",
+    "reddit_id": "1sdwp94",
+    "created_utc": "2026-04-06T11:53:52",
+    "subreddit": "applehelp",
+    "url": "https://reddit.com/r/applehelp/comments/1sdwp94/iphone_13_camera_not_recognized_or_working/",
+    "has_body": true,
+    "assigned_to": "B"
+  },
+  {
+    "test_id": "T20261007-221",
+    "reddit_id": "1x018mx",
+    "created_utc": "2026-10-07T16:33:57",
+    "subreddit": "tauri",
+    "url": "https://reddit.com/r/tauri/comments/1x018mx/just_updated_my_desktop_companion_app_lutin/",
+    "has_body": true,
+    "assigned_to": "B"
+  },
+  {
+    "test_id": "T20261007-222",
+    "reddit_id": "1vtjv0q",
+    "created_utc": "2026-08-20T13:41:40",
+    "subreddit": "HomeNetworking",
+    "url": "https://reddit.com/r/HomeNetworking/comments/1vtjv0q/lenovo_legion_unable_to_detect_6g_wifi_network/",
+    "has_body": true,
+    "assigned_to": "B"
+  },
+  {
+    "test_id": "T20261007-223",
+    "reddit_id": "1wyzdu8",
+    "created_utc": "2026-10-06T10:44:50",
+    "subreddit": "sysadmin",
+    "url": "https://reddit.com/r/sysadmin/comments/1wyzdu8/windows_server_2022_ntfs_access_works_via_smb_and/",
+    "has_body": true,
+    "assigned_to": "A"
+  },
+  {
+    "test_id": "T20261007-224",
+    "reddit_id": "1wzd9wb",
+    "created_utc": "2026-10-06T20:25:24",
+    "subreddit": "firefox",
+    "url": "https://reddit.com/r/firefox/comments/1wzd9wb/change_sidebar_layout_after_new_update/",
+    "has_body": true,
+    "assigned_to": "B"
+  },
+  {
+    "test_id": "T20261007-225",
+    "reddit_id": "1u4f7v5",
+    "created_utc": "2026-06-13T02:46:05",
+    "subreddit": "PFSENSE",
+    "url": "https://reddit.com/r/PFSENSE/comments/1u4f7v5/netgate2100_reconfigure_after_updating_switch/",
+    "has_body": true,
+    "assigned_to": "B"
+  },
+  {
+    "test_id": "T20261007-226",
+    "reddit_id": "1qyw2ug",
+    "created_utc": "2026-02-08T01:52:03",
+    "subreddit": "openclaw",
+    "url": "https://reddit.com/r/openclaw/comments/1qyw2ug/newest_update_too_much_security/",
+    "has_body": true,
+    "assigned_to": "A"
+  },
+  {
+    "test_id": "T20261007-227",
+    "reddit_id": "1ojfol4",
+    "created_utc": "2025-10-29T20:29:25",
+    "subreddit": "truenas",
+    "url": "https://reddit.com/r/truenas/comments/1ojfol4/what_are_the_consequences_of_not_updating/",
+    "has_body": true,
+    "assigned_to": "A"
+  },
+  {
+    "test_id": "T20261007-228",
+    "reddit_id": "1wtyxke",
+    "created_utc": "2026-09-30T07:51:24",
+    "subreddit": "firefox",
+    "url": "https://reddit.com/r/firefox/comments/1wtyxke/am_i_the_only_one_having_issues_with_youtube/",
+    "has_body": true,
+    "assigned_to": "B"
+  },
+  {
+    "test_id": "T20261007-229",
+    "reddit_id": "1o0e3ah",
+    "created_utc": "2025-10-07T12:59:30",
+    "subreddit": "LibreWolf",
+    "url": "https://reddit.com/r/LibreWolf/comments/1o0e3ah/pinned_tab_randomly_disappearing/",
+    "has_body": true,
+    "assigned_to": "A"
+  },
+  {
+    "test_id": "T20261007-230",
+    "reddit_id": "1sd89id",
+    "created_utc": "2026-04-05T16:37:53",
+    "subreddit": "applehelp",
+    "url": "https://reddit.com/r/applehelp/comments/1sd89id/iphone_14_shuts_off_intermittently_after_most/",
+    "has_body": true,
+    "assigned_to": "both"
+  },
+  {
+    "test_id": "T20261007-231",
+    "reddit_id": "1rl8cek",
+    "created_utc": "2026-03-05T04:48:24",
+    "subreddit": "openclaw",
+    "url": "https://reddit.com/r/openclaw/comments/1rl8cek/duplicate_message_on_telegram/",
+    "has_body": true,
+    "assigned_to": "B"
+  },
+  {
+    "test_id": "T20261007-232",
+    "reddit_id": "1ogekjw",
+    "created_utc": "2025-10-26T07:36:39",
+    "subreddit": "chrome",
+    "url": "https://reddit.com/r/chrome/comments/1ogekjw/issues_with_memory_usage/",
+    "has_body": true,
+    "assigned_to": "B"
+  },
+  {
+    "test_id": "T20261007-233",
+    "reddit_id": "1t1zrfc",
+    "created_utc": "2026-05-02T19:46:05",
+    "subreddit": "Wordpress",
+    "url": "https://reddit.com/r/Wordpress/comments/1t1zrfc/wordpress_elementor_issue_images_not_visible_v69/",
+    "has_body": true,
+    "assigned_to": "both"
+  },
+  {
+    "test_id": "T20261007-234",
+    "reddit_id": "1s88z4x",
+    "created_utc": "2026-03-31T00:57:58",
+    "subreddit": "linuxquestions",
+    "url": "https://reddit.com/r/linuxquestions/comments/1s88z4x/luks_and_bios_update/",
+    "has_body": true,
+    "assigned_to": "A"
+  },
+  {
+    "test_id": "T20261007-235",
+    "reddit_id": "1rxm4uw",
+    "created_utc": "2026-03-19T00:54:49",
+    "subreddit": "applehelp",
+    "url": "https://reddit.com/r/applehelp/comments/1rxm4uw/unable_to_hide_running_apps_in_mac/",
+    "has_body": true,
+    "assigned_to": "B"
+  },
+  {
+    "test_id": "T20261007-236",
+    "reddit_id": "1shplmj",
+    "created_utc": "2026-04-10T15:20:52",
+    "subreddit": "aws",
+    "url": "https://reddit.com/r/aws/comments/1shplmj/recent_aws_cli_s3streaming_change/",
+    "has_body": true,
+    "assigned_to": "A"
+  },
+  {
+    "test_id": "T20261007-237",
+    "reddit_id": "1qq4scw",
+    "created_utc": "2026-01-29T10:13:30",
+    "subreddit": "MicrosoftEdge",
+    "url": "https://reddit.com/r/MicrosoftEdge/comments/1qq4scw/high_cpu_usage_battery_drain_on_recent_updates/",
+    "has_body": true,
+    "assigned_to": "B"
+  },
+  {
+    "test_id": "T20261007-238",
+    "reddit_id": "1tp8ka3",
+    "created_utc": "2026-05-27T15:14:46",
+    "subreddit": "Ubiquiti",
+    "url": "https://reddit.com/r/Ubiquiti/comments/1tp8ka3/dream_machines_offline/",
+    "has_body": true,
+    "assigned_to": "B"
+  },
+  {
+    "test_id": "T20261007-239",
+    "reddit_id": "1tjj752",
+    "created_utc": "2026-05-21T12:36:27",
+    "subreddit": "Wordpress",
+    "url": "https://reddit.com/r/Wordpress/comments/1tjj752/custom_html_not_visualizing_since_70_update/",
+    "has_body": true,
+    "assigned_to": "B"
+  },
+  {
+    "test_id": "T20261007-240",
+    "reddit_id": "1scx420",
+    "created_utc": "2026-04-05T07:13:12",
+    "subreddit": "openclaw",
+    "url": "https://reddit.com/r/openclaw/comments/1scx420/getting_the_same_reply_three_times_a_row_on/",
+    "has_body": true,
+    "assigned_to": "B"
+  },
+  {
+    "test_id": "T20261007-241",
+    "reddit_id": "1u6j910",
+    "created_utc": "2026-06-15T15:07:22",
+    "subreddit": "Wordpress",
+    "url": "https://reddit.com/r/Wordpress/comments/1u6j910/monster_insights_phishing_attempt/",
+    "has_body": true,
+    "assigned_to": "A"
+  },
+  {
+    "test_id": "T20261007-242",
+    "reddit_id": "1ui1g4g",
+    "created_utc": "2026-06-28T16:17:56",
+    "subreddit": "Ubiquiti",
+    "url": "https://reddit.com/r/Ubiquiti/comments/1ui1g4g/where_have_historical_wifi_experience_graph_gone/",
+    "has_body": true,
+    "assigned_to": "A"
+  },
+  {
+    "test_id": "T20261007-243",
+    "reddit_id": "1vn29y1",
+    "created_utc": "2026-08-13T05:58:26",
+    "subreddit": "MicrosoftEdge",
+    "url": "https://reddit.com/r/MicrosoftEdge/comments/1vn29y1/browser_doesnt_load_any_web_page_on_android/",
+    "has_body": true,
+    "assigned_to": "A"
+  },
+  {
+    "test_id": "T20261007-244",
+    "reddit_id": "1phz6z4",
+    "created_utc": "2025-12-09T05:18:08",
+    "subreddit": "google",
+    "url": "https://reddit.com/r/google/comments/1phz6z4/re_drive_file_naming_moving_files_mystery_solved/",
+    "has_body": true,
+    "assigned_to": "B"
+  },
+  {
+    "test_id": "T20261007-245",
+    "reddit_id": "1r3162w",
+    "created_utc": "2026-02-12T18:25:06",
+    "subreddit": "chrome",
+    "url": "https://reddit.com/r/chrome/comments/1r3162w/openingmovingclosing_tabs_became_smoother/",
+    "has_body": true,
+    "assigned_to": "both"
+  },
+  {
+    "test_id": "T20261007-246",
+    "reddit_id": "1ovopr9",
+    "created_utc": "2025-11-13T02:03:28",
+    "subreddit": "MicrosoftEdge",
+    "url": "https://reddit.com/r/MicrosoftEdge/comments/1ovopr9/what_happened_to_the_bottom_bar_after_updating_to/",
+    "has_body": false,
+    "assigned_to": "B"
+  },
+  {
+    "test_id": "T20261007-247",
+    "reddit_id": "1s3qgi9",
+    "created_utc": "2026-03-25T23:04:16",
+    "subreddit": "comfyui",
+    "url": "https://reddit.com/r/comfyui/comments/1s3qgi9/what_happened_to_all_the_popular_templates/",
+    "has_body": true,
+    "assigned_to": "A"
+  },
+  {
+    "test_id": "T20261007-248",
+    "reddit_id": "1u8e7j3",
+    "created_utc": "2026-06-17T15:58:44",
+    "subreddit": "firefox",
+    "url": "https://reddit.com/r/firefox/comments/1u8e7j3/can_no_longer_delete_additional_search_engines/",
+    "has_body": true,
+    "assigned_to": "both"
+  },
+  {
+    "test_id": "T20261007-249",
+    "reddit_id": "1r771kz",
+    "created_utc": "2026-02-17T14:11:51",
+    "subreddit": "applehelp",
+    "url": "https://reddit.com/r/applehelp/comments/1r771kz/unable_to_access_ipad_diagnostics/",
+    "has_body": true,
+    "assigned_to": "both"
+  },
+  {
+    "test_id": "T20261007-250",
+    "reddit_id": "1ul9hec",
+    "created_utc": "2026-07-02T05:41:34",
+    "subreddit": "homelab",
+    "url": "https://reddit.com/r/homelab/comments/1ul9hec/25gbe_on_board_is_faster_than_10gbe_pcie_nic_why/",
+    "has_body": true,
+    "assigned_to": "A"
+  },
+  {
+    "test_id": "T20261007-251",
+    "reddit_id": "1srnw1j",
+    "created_utc": "2026-04-21T13:36:15",
+    "subreddit": "homeassistant",
+    "url": "https://reddit.com/r/homeassistant/comments/1srnw1j/bewässerungsautomatisierung/",
+    "has_body": true,
+    "assigned_to": "A"
+  },
+  {
+    "test_id": "T20261007-252",
+    "reddit_id": "1wxhto1",
+    "created_utc": "2026-10-04T15:03:07",
+    "subreddit": "applehelp",
+    "url": "https://reddit.com/r/applehelp/comments/1wxhto1/my_screen_glitches_sometimes_i_dont_know_why/",
+    "has_body": true,
+    "assigned_to": "B"
+  },
+  {
+    "test_id": "T20261007-253",
+    "reddit_id": "1s0a6qg",
+    "created_utc": "2026-03-22T02:38:13",
+    "subreddit": "applehelp",
+    "url": "https://reddit.com/r/applehelp/comments/1s0a6qg/calendar_events_not_showing_on_iphone_but_on/",
+    "has_body": true,
+    "assigned_to": "B"
+  },
+  {
+    "test_id": "T20261007-254",
+    "reddit_id": "1sdnf0p",
+    "created_utc": "2026-04-06T03:12:52",
+    "subreddit": "Ubiquiti",
+    "url": "https://reddit.com/r/Ubiquiti/comments/1sdnf0p/upgraded_my_dad_today_more_on_the_comments/",
+    "has_body": false,
+    "assigned_to": "A"
+  },
+  {
+    "test_id": "T20261007-255",
+    "reddit_id": "1vzybm6",
+    "created_utc": "2026-08-27T16:09:53",
+    "subreddit": "applehelp",
+    "url": "https://reddit.com/r/applehelp/comments/1vzybm6/m1_air_8gb128gb_after_6_years_could_an_external/",
+    "has_body": true,
+    "assigned_to": "A"
+  },
+  {
+    "test_id": "T20261007-256",
+    "reddit_id": "1x06d0z",
+    "created_utc": "2026-10-07T19:53:19",
+    "subreddit": "applehelp",
+    "url": "https://reddit.com/r/applehelp/comments/1x06d0z/iphone_11_ios_2701_or_2671_update_issues/",
+    "has_body": true,
+    "assigned_to": "both"
+  },
+  {
+    "test_id": "T20261007-257",
+    "reddit_id": "1pf3djb",
+    "created_utc": "2025-12-05T18:54:47",
+    "subreddit": "chrome",
+    "url": "https://reddit.com/r/chrome/comments/1pf3djb/chrome_graphic_glitch_when_exiting_fullscreen/",
+    "has_body": true,
+    "assigned_to": "A"
+  },
+  {
+    "test_id": "T20261007-258",
+    "reddit_id": "1ry36u4",
+    "created_utc": "2026-03-19T15:16:28",
+    "subreddit": "Ubiquiti",
+    "url": "https://reddit.com/r/Ubiquiti/comments/1ry36u4/starlink_updates_and_my_ucg_fiber_goes_offline/",
+    "has_body": true,
+    "assigned_to": "A"
+  },
+  {
+    "test_id": "T20261007-259",
+    "reddit_id": "1seqh7z",
+    "created_utc": "2026-04-07T08:51:59",
+    "subreddit": "Fedora",
+    "url": "https://reddit.com/r/Fedora/comments/1seqh7z/grub_theme_problem/",
+    "has_body": true,
+    "assigned_to": "A"
+  },
+  {
+    "test_id": "T20261007-260",
+    "reddit_id": "1tczgpt",
+    "created_utc": "2026-05-14T14:13:39",
+    "subreddit": "MicrosoftEdge",
+    "url": "https://reddit.com/r/MicrosoftEdge/comments/1tczgpt/colorful_background/",
+    "has_body": true,
+    "assigned_to": "both"
+  },
+  {
+    "test_id": "T20261007-261",
+    "reddit_id": "1sa70q7",
+    "created_utc": "2026-04-02T04:01:59",
+    "subreddit": "HomeNetworking",
+    "url": "https://reddit.com/r/HomeNetworking/comments/1sa70q7/upgraded_my_network_really_not_satisfied_with_the/",
+    "has_body": true,
+    "assigned_to": "B"
+  },
+  {
+    "test_id": "T20261007-262",
+    "reddit_id": "1rlbay0",
+    "created_utc": "2026-03-05T07:31:14",
+    "subreddit": "applehelp",
+    "url": "https://reddit.com/r/applehelp/comments/1rlbay0/new_update_verify_id_in_australia/",
+    "has_body": true,
+    "assigned_to": "both"
+  },
+  {
+    "test_id": "T20261007-263",
+    "reddit_id": "1o80l5t",
+    "created_utc": "2025-10-16T08:22:17",
+    "subreddit": "MicrosoftEdge",
+    "url": "https://reddit.com/r/MicrosoftEdge/comments/1o80l5t/edge_incessantly_opening_sign_in_to_your_account/",
+    "has_body": true,
+    "assigned_to": "B"
+  },
+  {
+    "test_id": "T20261007-264",
+    "reddit_id": "1tkn5wx",
+    "created_utc": "2026-05-22T15:57:30",
+    "subreddit": "Ubiquiti",
+    "url": "https://reddit.com/r/Ubiquiti/comments/1tkn5wx/upgraded_to_gig_internet_are_my_unifi_ac_lites/",
+    "has_body": true,
+    "assigned_to": "B"
+  },
+  {
+    "test_id": "T20261007-265",
+    "reddit_id": "1thllky",
+    "created_utc": "2026-05-19T12:34:10",
+    "subreddit": "Wordpress",
+    "url": "https://reddit.com/r/Wordpress/comments/1thllky/anyone_using_peepso_free_on_wordpress_any_recent/",
+    "has_body": true,
+    "assigned_to": "A"
+  },
+  {
+    "test_id": "T20261007-266",
+    "reddit_id": "1s47hhx",
+    "created_utc": "2026-03-26T13:28:30",
+    "subreddit": "Ubiquiti",
+    "url": "https://reddit.com/r/Ubiquiti/comments/1s47hhx/unvr_pro_stacked_child_out_of_date_ssh_says_we/",
+    "has_body": true,
+    "assigned_to": "A"
+  },
+  {
+    "test_id": "T20261007-267",
+    "reddit_id": "1s8vfok",
+    "created_utc": "2026-03-31T18:18:23",
+    "subreddit": "applehelp",
+    "url": "https://reddit.com/r/applehelp/comments/1s8vfok/since_the_last_ios_update_the_space_taken_by/",
+    "has_body": true,
+    "assigned_to": "B"
+  },
+  {
+    "test_id": "T20261007-268",
+    "reddit_id": "1wz0x9f",
+    "created_utc": "2026-10-06T12:09:16",
+    "subreddit": "firefox",
+    "url": "https://reddit.com/r/firefox/comments/1wz0x9f/moved_from_edge_to_firefox_the_small_stuff_is/",
+    "has_body": true,
+    "assigned_to": "A"
+  },
+  {
+    "test_id": "T20261007-269",
+    "reddit_id": "1wzhfgn",
+    "created_utc": "2026-10-06T23:23:13",
+    "subreddit": "linuxquestions",
+    "url": "https://reddit.com/r/linuxquestions/comments/1wzhfgn/right_side_ctrl_shift_and_alt_not_working_remote/",
+    "has_body": true,
+    "assigned_to": "A"
+  },
+  {
+    "test_id": "T20261007-270",
+    "reddit_id": "1ov80q0",
+    "created_utc": "2025-11-12T15:21:56",
+    "subreddit": "tails",
+    "url": "https://reddit.com/r/tails/comments/1ov80q0/should_i_factory_reset_laptop/",
+    "has_body": true,
+    "assigned_to": "A"
+  },
+  {
+    "test_id": "T20261007-271",
+    "reddit_id": "1u1t5ok",
+    "created_utc": "2026-06-10T05:34:00",
+    "subreddit": "chrome",
+    "url": "https://reddit.com/r/chrome/comments/1u1t5ok/chrome_keeps_switching_me_back_to_another_virtual/",
+    "has_body": true,
+    "assigned_to": "B"
+  },
+  {
+    "test_id": "T20261007-272",
+    "reddit_id": "1wzgkh1",
+    "created_utc": "2026-10-06T22:43:03",
+    "subreddit": "Ubuntu",
+    "url": "https://reddit.com/r/Ubuntu/comments/1wzgkh1/users_not_showing_on_gdm_login_screen_after/",
+    "has_body": true,
+    "assigned_to": "both"
+  },
+  {
+    "test_id": "T20261007-273",
+    "reddit_id": "1s4pmis",
+    "created_utc": "2026-03-27T00:55:41",
+    "subreddit": "chrome",
+    "url": "https://reddit.com/r/chrome/comments/1s4pmis/chrome_on_windows_11_updated_erased_all_log_ins/",
+    "has_body": true,
+    "assigned_to": "B"
+  },
+  {
+    "test_id": "T20261007-274",
+    "reddit_id": "1otjo7j",
+    "created_utc": "2025-11-10T17:15:53",
+    "subreddit": "indesign",
+    "url": "https://reddit.com/r/indesign/comments/1otjo7j/is_there_some_way_to_make_indesign_files/",
+    "has_body": true,
+    "assigned_to": "A"
+  },
+  {
+    "test_id": "T20261007-275",
+    "reddit_id": "1s4el2l",
+    "created_utc": "2026-03-26T17:49:41",
+    "subreddit": "networking",
+    "url": "https://reddit.com/r/networking/comments/1s4el2l/meraki_wireless_ap_stop_broadcasting_randomy/",
+    "has_body": true,
+    "assigned_to": "A"
+  },
+  {
+    "test_id": "T20261007-276",
+    "reddit_id": "1uil5f1",
+    "created_utc": "2026-06-29T07:02:15",
+    "subreddit": "firefox",
+    "url": "https://reddit.com/r/firefox/comments/1uil5f1/yt_comments_not_loading/",
+    "has_body": true,
+    "assigned_to": "B"
+  },
+  {
+    "test_id": "T20261007-277",
+    "reddit_id": "1tk3m72",
+    "created_utc": "2026-05-22T00:58:08",
+    "subreddit": "homeassistant",
+    "url": "https://reddit.com/r/homeassistant/comments/1tk3m72/best_practice_routine_to_follow_after_updates/",
+    "has_body": true,
+    "assigned_to": "A"
+  },
+  {
+    "test_id": "T20261007-278",
+    "reddit_id": "1rulkso",
+    "created_utc": "2026-03-15T18:25:50",
+    "subreddit": "MicrosoftEdge",
+    "url": "https://reddit.com/r/MicrosoftEdge/comments/1rulkso/video_goes_black_in_edge_when_switching_tabs_only/",
+    "has_body": true,
+    "assigned_to": "A"
+  },
+  {
+    "test_id": "T20261007-279",
+    "reddit_id": "1wxhd8k",
+    "created_utc": "2026-10-04T14:43:21",
+    "subreddit": "firefox",
+    "url": "https://reddit.com/r/firefox/comments/1wxhd8k/bookmark_sidebar_too_wide_ive_tried_to_make_it/",
+    "has_body": true,
+    "assigned_to": "A"
+  },
+  {
+    "test_id": "T20261007-280",
+    "reddit_id": "1u6ban7",
+    "created_utc": "2026-06-15T09:08:23",
+    "subreddit": "chrome",
+    "url": "https://reddit.com/r/chrome/comments/1u6ban7/turning_off_the_highlighting_toolbar_appearing/",
+    "has_body": true,
+    "assigned_to": "both"
+  },
+  {
+    "test_id": "T20261007-281",
+    "reddit_id": "1uumdf0",
+    "created_utc": "2026-07-12T17:50:53",
+    "subreddit": "Ubiquiti",
+    "url": "https://reddit.com/r/Ubiquiti/comments/1uumdf0/swap_out/",
+    "has_body": true,
+    "assigned_to": "A"
+  },
+  {
+    "test_id": "T20261007-282",
+    "reddit_id": "1ui6bit",
+    "created_utc": "2026-06-28T19:28:15",
+    "subreddit": "firefox",
+    "url": "https://reddit.com/r/firefox/comments/1ui6bit/downgrade_firefox/",
+    "has_body": true,
+    "assigned_to": "both"
+  },
+  {
+    "test_id": "T20261007-283",
+    "reddit_id": "1u9xzzw",
+    "created_utc": "2026-06-19T10:09:26",
+    "subreddit": "Fedora",
+    "url": "https://reddit.com/r/Fedora/comments/1u9xzzw/im_moving_to_fedora_and_twm/",
+    "has_body": true,
+    "assigned_to": "A"
+  },
+  {
+    "test_id": "T20261007-284",
+    "reddit_id": "1t18y1k",
+    "created_utc": "2026-05-01T23:07:09",
+    "subreddit": "Fedora",
+    "url": "https://reddit.com/r/Fedora/comments/1t18y1k/need_clarification_regarding_steam_versions_on/",
+    "has_body": true,
+    "assigned_to": "B"
+  },
+  {
+    "test_id": "T20261007-285",
+    "reddit_id": "1p4l002",
+    "created_utc": "2025-11-23T11:59:13",
+    "subreddit": "immich",
+    "url": "https://reddit.com/r/immich/comments/1p4l002/hdd_vs_ssd_after_newest_update/",
+    "has_body": true,
+    "assigned_to": "B"
+  },
+  {
+    "test_id": "T20261007-286",
+    "reddit_id": "1tgzbcf",
+    "created_utc": "2026-05-18T19:59:47",
+    "subreddit": "linux",
+    "url": "https://reddit.com/r/linux/comments/1tgzbcf/just_upgraded_my_random_access_memory_and_trying/",
+    "has_body": false,
+    "assigned_to": "A"
+  },
+  {
+    "test_id": "T20261007-287",
+    "reddit_id": "1ufibf7",
+    "created_utc": "2026-06-25T18:28:44",
+    "subreddit": "firefox",
+    "url": "https://reddit.com/r/firefox/comments/1ufibf7/why_would_i_need_firefox_to_start_with_my_computer/",
+    "has_body": true,
+    "assigned_to": "A"
+  },
+  {
+    "test_id": "T20261007-288",
+    "reddit_id": "1u21fhi",
+    "created_utc": "2026-06-10T12:56:01",
+    "subreddit": "AndroidQuestions",
+    "url": "https://reddit.com/r/AndroidQuestions/comments/1u21fhi/samsung_oneui_80_lost_access_to_folders_with/",
+    "has_body": true,
+    "assigned_to": "A"
+  },
+  {
+    "test_id": "T20261007-289",
+    "reddit_id": "1tkbk55",
+    "created_utc": "2026-05-22T07:21:39",
+    "subreddit": "firefox",
+    "url": "https://reddit.com/r/firefox/comments/1tkbk55/any_way_to_remove_this_logo_via_config_latest/",
+    "has_body": true,
+    "assigned_to": "A"
+  },
+  {
+    "test_id": "T20261007-290",
+    "reddit_id": "1rydkso",
+    "created_utc": "2026-03-19T21:50:22",
+    "subreddit": "Ubiquiti",
+    "url": "https://reddit.com/r/Ubiquiti/comments/1rydkso/unifi_network_no_longer_supported_without_unifi_os/",
+    "has_body": true,
+    "assigned_to": "A"
+  },
+  {
+    "test_id": "T20261007-291",
+    "reddit_id": "1un8wo9",
+    "created_utc": "2026-07-04T13:19:25",
+    "subreddit": "applehelp",
+    "url": "https://reddit.com/r/applehelp/comments/1un8wo9/older_imac_advice/",
+    "has_body": true,
+    "assigned_to": "B"
+  },
+  {
+    "test_id": "T20261007-292",
+    "reddit_id": "1ww18fy",
+    "created_utc": "2026-10-02T18:25:58",
+    "subreddit": "firefox",
+    "url": "https://reddit.com/r/firefox/comments/1ww18fy/private_browsing_mode_triggers_google_recaptcha/",
+    "has_body": true,
+    "assigned_to": "A"
+  },
+  {
+    "test_id": "T20261007-293",
+    "reddit_id": "1ws847m",
+    "created_utc": "2026-09-28T07:33:04",
+    "subreddit": "applehelp",
+    "url": "https://reddit.com/r/applehelp/comments/1ws847m/clear_ipados_storage/",
+    "has_body": true,
+    "assigned_to": "B"
+  },
+  {
+    "test_id": "T20261007-294",
+    "reddit_id": "1tpsbb6",
+    "created_utc": "2026-05-28T03:55:00",
+    "subreddit": "Ubiquiti",
+    "url": "https://reddit.com/r/Ubiquiti/comments/1tpsbb6/unvr_not_performing_capture_of_motion_since/",
+    "has_body": true,
+    "assigned_to": "B"
+  },
+  {
+    "test_id": "T20261007-295",
+    "reddit_id": "1udoz0s",
+    "created_utc": "2026-06-23T18:17:02",
+    "subreddit": "Adobe",
+    "url": "https://reddit.com/r/Adobe/comments/1udoz0s/what_the_actual_freedom_of_speech_adobe/",
+    "has_body": true,
+    "assigned_to": "both"
+  },
+  {
+    "test_id": "T20261007-296",
+    "reddit_id": "1wtjt9p",
+    "created_utc": "2026-09-29T19:36:13",
+    "subreddit": "Dell",
+    "url": "https://reddit.com/r/Dell/comments/1wtjt9p/dell_latitude_limit_charging_to_80/",
+    "has_body": true,
+    "assigned_to": "A"
+  },
+  {
+    "test_id": "T20261007-297",
+    "reddit_id": "1ukmarm",
+    "created_utc": "2026-07-01T13:51:19",
+    "subreddit": "applehelp",
+    "url": "https://reddit.com/r/applehelp/comments/1ukmarm/what_to_do_when_both_phones_are_bricked/",
+    "has_body": true,
+    "assigned_to": "B"
+  },
+  {
+    "test_id": "T20261007-298",
+    "reddit_id": "1ub7oqv",
+    "created_utc": "2026-06-20T21:12:19",
+    "subreddit": "Fedora",
+    "url": "https://reddit.com/r/Fedora/comments/1ub7oqv/wifi_issues_on_intel_macbook_air/",
+    "has_body": true,
+    "assigned_to": "both"
+  },
+  {
+    "test_id": "T20261007-299",
+    "reddit_id": "1tnnbtf",
+    "created_utc": "2026-05-25T22:00:44",
+    "subreddit": "applehelp",
+    "url": "https://reddit.com/r/applehelp/comments/1tnnbtf/iphone_17_265_speed_issues/",
+    "has_body": true,
+    "assigned_to": "A"
+  },
+  {
+    "test_id": "T20261007-300",
+    "reddit_id": "1u92k3m",
+    "created_utc": "2026-06-18T10:26:36",
+    "subreddit": "firefox",
+    "url": "https://reddit.com/r/firefox/comments/1u92k3m/after_update_on_ff_esr_115370esr_cant_login_on/",
+    "has_body": true,
+    "assigned_to": "A"
+  },
+  {
+    "test_id": "T20261007-301",
+    "reddit_id": "1v5a4ij",
+    "created_utc": "2026-07-24T12:34:33",
+    "subreddit": "Ubiquiti",
+    "url": "https://reddit.com/r/Ubiquiti/comments/1v5a4ij/u6_enterprise_and_iphone_13_pro_disconnect/",
+    "has_body": true,
+    "assigned_to": "both"
+  },
+  {
+    "test_id": "T20261007-302",
+    "reddit_id": "1sagaz3",
+    "created_utc": "2026-04-02T12:41:31",
+    "subreddit": "applehelp",
+    "url": "https://reddit.com/r/applehelp/comments/1sagaz3/macbook_air_2020_intel_qs/",
+    "has_body": true,
+    "assigned_to": "A"
+  },
+  {
+    "test_id": "T20261007-303",
+    "reddit_id": "1wzzw0l",
+    "created_utc": "2026-10-07T15:42:45",
+    "subreddit": "AndroidQuestions",
+    "url": "https://reddit.com/r/AndroidQuestions/comments/1wzzw0l/youtube_playback_id_error/",
+    "has_body": true,
+    "assigned_to": "both"
+  },
+  {
+    "test_id": "T20261007-304",
+    "reddit_id": "1wzty4k",
+    "created_utc": "2026-10-07T11:22:30",
+    "subreddit": "networking",
+    "url": "https://reddit.com/r/networking/comments/1wzty4k/3702i_stuck_in_initiated_on_mobility_express/",
+    "has_body": true,
+    "assigned_to": "A"
+  },
+  {
+    "test_id": "T20261007-305",
+    "reddit_id": "1uxwn11",
+    "created_utc": "2026-07-16T08:16:08",
+    "subreddit": "opencode",
+    "url": "https://reddit.com/r/opencode/comments/1uxwn11/where_is_planning_mode_now/",
+    "has_body": true,
+    "assigned_to": "A"
+  },
+  {
+    "test_id": "T20261007-306",
+    "reddit_id": "1vs97h1",
+    "created_utc": "2026-08-19T02:08:09",
+    "subreddit": "applehelp",
+    "url": "https://reddit.com/r/applehelp/comments/1vs97h1/lost_iphone_cant_access_my_icloud/",
+    "has_body": true,
+    "assigned_to": "both"
+  },
+  {
+    "test_id": "T20261007-307",
+    "reddit_id": "1qkky1u",
+    "created_utc": "2026-01-23T07:59:31",
+    "subreddit": "chrome",
+    "url": "https://reddit.com/r/chrome/comments/1qkky1u/tab_scrollings_gone_need_help_extensions/",
+    "has_body": true,
+    "assigned_to": "B"
+  },
+  {
+    "test_id": "T20261007-308",
+    "reddit_id": "1tezuuw",
+    "created_utc": "2026-05-16T17:23:43",
+    "subreddit": "applehelp",
+    "url": "https://reddit.com/r/applehelp/comments/1tezuuw/my_apple_watch_series_8_45mm_is_faulty/",
+    "has_body": true,
+    "assigned_to": "A"
+  },
+  {
+    "test_id": "T20261007-309",
+    "reddit_id": "1tkhxdz",
+    "created_utc": "2026-05-22T12:45:27",
+    "subreddit": "chrome",
+    "url": "https://reddit.com/r/chrome/comments/1tkhxdz/unable_to_launch_chrome_you_can_have_up_to_5/",
+    "has_body": true,
+    "assigned_to": "B"
+  },
+  {
+    "test_id": "T20261007-310",
+    "reddit_id": "1x05wgs",
+    "created_utc": "2026-10-07T19:32:58",
+    "subreddit": "firefox",
+    "url": "https://reddit.com/r/firefox/comments/1x05wgs/prevented_from_saving_jpegs/",
+    "has_body": true,
+    "assigned_to": "A"
+  },
+  {
+    "test_id": "T20261007-311",
+    "reddit_id": "1wrfa1e",
+    "created_utc": "2026-09-27T08:55:39",
+    "subreddit": "comfyui",
+    "url": "https://reddit.com/r/comfyui/comments/1wrfa1e/comfyui_doesnt_offload_on_ram_anymore/",
+    "has_body": true,
+    "assigned_to": "A"
+  },
+  {
+    "test_id": "T20261007-312",
+    "reddit_id": "1vvv6lz",
+    "created_utc": "2026-08-23T02:37:09",
+    "subreddit": "applehelp",
+    "url": "https://reddit.com/r/applehelp/comments/1vvv6lz/looking_for_a_macos_default_wallpaper_japanese/",
+    "has_body": true,
+    "assigned_to": "B"
+  },
+  {
+    "test_id": "T20261007-313",
+    "reddit_id": "1oq0819",
+    "created_utc": "2025-11-06T14:22:17",
+    "subreddit": "MicrosoftEdge",
+    "url": "https://reddit.com/r/MicrosoftEdge/comments/1oq0819/sudden_audio_and_video_lag/",
+    "has_body": true,
+    "assigned_to": "A"
+  },
+  {
+    "test_id": "T20261007-314",
+    "reddit_id": "1u3831z",
+    "created_utc": "2026-06-11T18:59:10",
+    "subreddit": "HomeNetworking",
+    "url": "https://reddit.com/r/HomeNetworking/comments/1u3831z/need_help_with_the_networking_part_of_my_homelab/",
+    "has_body": true,
+    "assigned_to": "A"
+  },
+  {
+    "test_id": "T20261007-315",
+    "reddit_id": "1thxg7u",
+    "created_utc": "2026-05-19T19:24:47",
+    "subreddit": "homeassistant",
+    "url": "https://reddit.com/r/homeassistant/comments/1thxg7u/disable_keyboard_shortcuts_on_ios_mobile_app/",
+    "has_body": true,
+    "assigned_to": "A"
+  },
+  {
+    "test_id": "T20261007-316",
+    "reddit_id": "1sbcgde",
+    "created_utc": "2026-04-03T12:38:39",
+    "subreddit": "applehelp",
+    "url": "https://reddit.com/r/applehelp/comments/1sbcgde/critical_software_update_should_i_be_worried/",
+    "has_body": true,
+    "assigned_to": "both"
+  },
+  {
+    "test_id": "T20261007-317",
+    "reddit_id": "1tcq6ja",
+    "created_utc": "2026-05-14T06:52:13",
+    "subreddit": "chrome",
+    "url": "https://reddit.com/r/chrome/comments/1tcq6ja/address_bar_keeps_opening/",
+    "has_body": true,
+    "assigned_to": "A"
+  },
+  {
+    "test_id": "T20261007-318",
+    "reddit_id": "1v2tcdf",
+    "created_utc": "2026-07-21T19:55:29",
+    "subreddit": "MicrosoftEdge",
+    "url": "https://reddit.com/r/MicrosoftEdge/comments/1v2tcdf/edge_hijacked_by_organization/",
+    "has_body": true,
+    "assigned_to": "B"
+  },
+  {
+    "test_id": "T20261007-319",
+    "reddit_id": "1pozu5x",
+    "created_utc": "2025-12-17T15:45:51",
+    "subreddit": "Dell",
+    "url": "https://reddit.com/r/Dell/comments/1pozu5x/support_assist_show_updates_but_cant_click_on_them/",
+    "has_body": true,
+    "assigned_to": "A"
+  },
+  {
+    "test_id": "T20261007-320",
+    "reddit_id": "1wwygqh",
+    "created_utc": "2026-10-03T21:26:03",
+    "subreddit": "firefox",
+    "url": "https://reddit.com/r/firefox/comments/1wwygqh/latest_firefox_speed_in_latest_oct_26_update/",
+    "has_body": true,
+    "assigned_to": "both"
+  },
+  {
+    "test_id": "T20261007-321",
+    "reddit_id": "1t0ay2u",
+    "created_utc": "2026-04-30T22:21:19",
+    "subreddit": "tails",
+    "url": "https://reddit.com/r/tails/comments/1t0ay2u/cant_open_password_file_after_update/",
+    "has_body": true,
+    "assigned_to": "both"
+  },
+  {
+    "test_id": "T20261007-322",
+    "reddit_id": "1umfs1y",
+    "created_utc": "2026-07-03T14:20:36",
+    "subreddit": "immich",
+    "url": "https://reddit.com/r/immich/comments/1umfs1y/unraid_immich_300_postgresql_immich/",
+    "has_body": true,
+    "assigned_to": "A"
+  },
+  {
+    "test_id": "T20261007-323",
+    "reddit_id": "1s4emhe",
+    "created_utc": "2026-03-26T17:51:06",
+    "subreddit": "applehelp",
+    "url": "https://reddit.com/r/applehelp/comments/1s4emhe/is_it_really_mandatory_to_update_to_264/",
+    "has_body": true,
+    "assigned_to": "A"
+  },
+  {
+    "test_id": "T20261007-324",
+    "reddit_id": "1rz3yxe",
+    "created_utc": "2026-03-20T18:20:05",
+    "subreddit": "Ubiquiti",
+    "url": "https://reddit.com/r/Ubiquiti/comments/1rz3yxe/network_102_where_is_the_revert_option/",
+    "has_body": true,
+    "assigned_to": "B"
+  },
+  {
+    "test_id": "T20261007-325",
+    "reddit_id": "1pi5mqx",
+    "created_utc": "2025-12-09T11:59:51",
+    "subreddit": "comfyui",
+    "url": "https://reddit.com/r/comfyui/comments/1pi5mqx/this_new_comfyui_version_is_so_bad_i_literally/",
+    "has_body": true,
+    "assigned_to": "B"
+  },
+  {
+    "test_id": "T20261007-326",
+    "reddit_id": "1udk0xz",
+    "created_utc": "2026-06-23T15:17:50",
+    "subreddit": "firefox",
+    "url": "https://reddit.com/r/firefox/comments/1udk0xz/after_manually_updating_to_latest_patch_firefox/",
+    "has_body": false,
+    "assigned_to": "both"
+  },
+  {
+    "test_id": "T20261007-327",
+    "reddit_id": "1s9h7b4",
+    "created_utc": "2026-04-01T10:56:46",
+    "subreddit": "applehelp",
+    "url": "https://reddit.com/r/applehelp/comments/1s9h7b4/unable_to_tell_if_iphone_is_charging_when_dead/",
+    "has_body": true,
+    "assigned_to": "B"
+  },
+  {
+    "test_id": "T20261007-328",
+    "reddit_id": "1wzavps",
+    "created_utc": "2026-10-06T18:53:36",
+    "subreddit": "firefox",
+    "url": "https://reddit.com/r/firefox/comments/1wzavps/firefox_froze_the_whole_pc_is_this_happening_for/",
+    "has_body": true,
+    "assigned_to": "B"
+  },
+  {
+    "test_id": "T20261007-329",
+    "reddit_id": "1pp00wf",
+    "created_utc": "2025-12-17T15:52:58",
+    "subreddit": "chrome",
+    "url": "https://reddit.com/r/chrome/comments/1pp00wf/print_preview_is_very_slow_in_chrome_14307499401/",
+    "has_body": true,
+    "assigned_to": "B"
+  },
+  {
+    "test_id": "T20261007-330",
+    "reddit_id": "1sur0n5",
+    "created_utc": "2026-04-24T20:20:10",
+    "subreddit": "sysadmin",
+    "url": "https://reddit.com/r/sysadmin/comments/1sur0n5/secureboot_update_on_dell_vmware_esxi_7_hosts/",
+    "has_body": true,
+    "assigned_to": "A"
+  },
+  {
+    "test_id": "T20261007-331",
+    "reddit_id": "1v63s5s",
+    "created_utc": "2026-07-25T09:36:04",
+    "subreddit": "applehelp",
+    "url": "https://reddit.com/r/applehelp/comments/1v63s5s/mac_resetting_constantly/",
+    "has_body": true,
+    "assigned_to": "both"
+  },
+  {
+    "test_id": "T20261007-332",
+    "reddit_id": "1vpy9bu",
+    "created_utc": "2026-08-16T14:18:48",
+    "subreddit": "AndroidQuestions",
+    "url": "https://reddit.com/r/AndroidQuestions/comments/1vpy9bu/troubles_with_forwarding_text_messages_to_email/",
+    "has_body": true,
+    "assigned_to": "A"
+  },
+  {
+    "test_id": "T20261007-333",
+    "reddit_id": "1oiknrb",
+    "created_utc": "2025-10-28T20:35:09",
+    "subreddit": "firefox",
+    "url": "https://reddit.com/r/firefox/comments/1oiknrb/wtf_firefox_i_dont_want_to_restart_right_this/",
+    "has_body": true,
+    "assigned_to": "both"
+  },
+  {
+    "test_id": "T20261007-334",
+    "reddit_id": "1wzf5wc",
+    "created_utc": "2026-10-06T21:41:21",
+    "subreddit": "HomeNetworking",
+    "url": "https://reddit.com/r/HomeNetworking/comments/1wzf5wc/cant_get_matter_devices_to_work_on_homekit_going/",
+    "has_body": true,
+    "assigned_to": "A"
+  },
+  {
+    "test_id": "T20261007-335",
+    "reddit_id": "1uxujuz",
+    "created_utc": "2026-07-16T06:15:52",
+    "subreddit": "linuxquestions",
+    "url": "https://reddit.com/r/linuxquestions/comments/1uxujuz/debian_13_updates_causes_change_in_mpv_application/",
+    "has_body": true,
+    "assigned_to": "both"
+  },
+  {
+    "test_id": "T20261007-336",
+    "reddit_id": "1u98qpt",
+    "created_utc": "2026-06-18T15:04:14",
+    "subreddit": "Fedora",
+    "url": "https://reddit.com/r/Fedora/comments/1u98qpt/will_sway112_land_fedora_44/",
+    "has_body": true,
+    "assigned_to": "A"
+  },
+  {
+    "test_id": "T20261007-337",
+    "reddit_id": "1qxnjq8",
+    "created_utc": "2026-02-06T17:13:20",
+    "subreddit": "immich",
+    "url": "https://reddit.com/r/immich/comments/1qxnjq8/immich_doesnt_produce_memories_although_there_are/",
+    "has_body": true,
+    "assigned_to": "B"
+  },
+  {
+    "test_id": "T20261007-338",
+    "reddit_id": "1tf0zfc",
+    "created_utc": "2026-05-16T18:05:52",
+    "subreddit": "Fedora",
+    "url": "https://reddit.com/r/Fedora/comments/1tf0zfc/just_updated_to_f44_workstation/",
+    "has_body": true,
+    "assigned_to": "A"
+  },
+  {
+    "test_id": "T20261007-339",
+    "reddit_id": "1tct54u",
+    "created_utc": "2026-05-14T09:37:57",
+    "subreddit": "Ubuntu",
+    "url": "https://reddit.com/r/Ubuntu/comments/1tct54u/questing_to_resolute_updates_are_enabled_although/",
+    "has_body": true,
+    "assigned_to": "A"
+  },
+  {
+    "test_id": "T20261007-340",
+    "reddit_id": "1nxy0gw",
+    "created_utc": "2025-10-04T16:08:55",
+    "subreddit": "MicrosoftEdge",
+    "url": "https://reddit.com/r/MicrosoftEdge/comments/1nxy0gw/whats_wrong_with_the_latest_edge_version/",
+    "has_body": true,
+    "assigned_to": "A"
+  },
+  {
+    "test_id": "T20261007-341",
+    "reddit_id": "1vukrpi",
+    "created_utc": "2026-08-21T16:13:58",
+    "subreddit": "AskElectronics",
+    "url": "https://reddit.com/r/AskElectronics/comments/1vukrpi/msi_pro_mp242_monitor_shows_artifacts_at_random/",
+    "has_body": true,
+    "assigned_to": "B"
+  },
+  {
+    "test_id": "T20261007-342",
+    "reddit_id": "1pmtril",
+    "created_utc": "2025-12-15T00:35:30",
+    "subreddit": "MicrosoftEdge",
+    "url": "https://reddit.com/r/MicrosoftEdge/comments/1pmtril/edge_goes_to_blank_page_for_any_user_that_logs_in/",
+    "has_body": true,
+    "assigned_to": "both"
+  },
+  {
+    "test_id": "T20261007-343",
+    "reddit_id": "1ti4cbj",
+    "created_utc": "2026-05-19T23:39:05",
+    "subreddit": "firefox",
+    "url": "https://reddit.com/r/firefox/comments/1ti4cbj/permanent_scrollbar_on_homepage/",
+    "has_body": true,
+    "assigned_to": "B"
+  },
+  {
+    "test_id": "T20261007-344",
+    "reddit_id": "1ugzman",
+    "created_utc": "2026-06-27T10:50:07",
+    "subreddit": "applehelp",
+    "url": "https://reddit.com/r/applehelp/comments/1ugzman/non_apple_bluetooth_earpods_glitching_after/",
+    "has_body": true,
+    "assigned_to": "A"
+  },
+  {
+    "test_id": "T20261007-345",
+    "reddit_id": "1rxwtq5",
+    "created_utc": "2026-03-19T10:31:18",
+    "subreddit": "MicrosoftEdge",
+    "url": "https://reddit.com/r/MicrosoftEdge/comments/1rxwtq5/youtube_videos_lagging_crazy_after_latest_update/",
+    "has_body": true,
+    "assigned_to": "A"
+  },
+  {
+    "test_id": "T20261007-346",
+    "reddit_id": "1rupd01",
+    "created_utc": "2026-03-15T20:49:20",
+    "subreddit": "Fedora",
+    "url": "https://reddit.com/r/Fedora/comments/1rupd01/dim_option_borked_after_update/",
+    "has_body": true,
+    "assigned_to": "B"
+  },
+  {
+    "test_id": "T20261007-347",
+    "reddit_id": "1syeoph",
+    "created_utc": "2026-04-28T21:21:02",
+    "subreddit": "Fedora",
+    "url": "https://reddit.com/r/Fedora/comments/1syeoph/is_fedora_44_actually_out/",
+    "has_body": true,
+    "assigned_to": "A"
+  },
+  {
+    "test_id": "T20261007-348",
+    "reddit_id": "1ue4c36",
+    "created_utc": "2026-06-24T05:13:59",
+    "subreddit": "firefox",
+    "url": "https://reddit.com/r/firefox/comments/1ue4c36/latest_update_removed_option_to_quickly_force/",
+    "has_body": true,
+    "assigned_to": "B"
+  },
+  {
+    "test_id": "T20261007-349",
+    "reddit_id": "1s9x4pe",
+    "created_utc": "2026-04-01T20:55:04",
+    "subreddit": "Dell",
+    "url": "https://reddit.com/r/Dell/comments/1s9x4pe/dell_why_do_you_insist_on_tripping_yourself_up/",
+    "has_body": true,
+    "assigned_to": "A"
+  },
+  {
+    "test_id": "T20261007-350",
+    "reddit_id": "1sfjndi",
+    "created_utc": "2026-04-08T05:11:08",
+    "subreddit": "applehelp",
+    "url": "https://reddit.com/r/applehelp/comments/1sfjndi/trying_to_transfer_to_new_iphone_17_without/",
+    "has_body": true,
+    "assigned_to": "B"
+  },
+  {
+    "test_id": "T20261007-351",
+    "reddit_id": "1uf6y0v",
+    "created_utc": "2026-06-25T11:06:50",
+    "subreddit": "applehelp",
+    "url": "https://reddit.com/r/applehelp/comments/1uf6y0v/iphone_13_pro_keeps_restarting_itself/",
+    "has_body": true,
+    "assigned_to": "A"
+  },
+  {
+    "test_id": "T20261007-352",
+    "reddit_id": "1v59cun",
+    "created_utc": "2026-07-24T12:00:27",
+    "subreddit": "applehelp",
+    "url": "https://reddit.com/r/applehelp/comments/1v59cun/delete_compromised_apple_idaccount_connected_to/",
+    "has_body": true,
+    "assigned_to": "both"
+  },
+  {
+    "test_id": "T20261007-353",
+    "reddit_id": "1uwdags",
+    "created_utc": "2026-07-14T16:17:00",
+    "subreddit": "MicrosoftEdge",
+    "url": "https://reddit.com/r/MicrosoftEdge/comments/1uwdags/cannot_set_google_to_be_default_search_engine/",
+    "has_body": true,
+    "assigned_to": "A"
+  },
+  {
+    "test_id": "T20261007-354",
+    "reddit_id": "1tq02ny",
+    "created_utc": "2026-05-28T10:53:30",
+    "subreddit": "Wordpress",
+    "url": "https://reddit.com/r/Wordpress/comments/1tq02ny/am_i_the_only_one_lost_with_the_new_elementor_ui/",
+    "has_body": true,
+    "assigned_to": "A"
+  },
+  {
+    "test_id": "T20261007-355",
+    "reddit_id": "1okc4bj",
+    "created_utc": "2025-10-30T21:22:31",
+    "subreddit": "chrome",
+    "url": "https://reddit.com/r/chrome/comments/1okc4bj/chrome_no_synchronizing_since_2_days/",
+    "has_body": true,
+    "assigned_to": "A"
+  },
+  {
+    "test_id": "T20261007-356",
+    "reddit_id": "1rxbn6y",
+    "created_utc": "2026-03-18T18:16:39",
+    "subreddit": "Ubiquiti",
+    "url": "https://reddit.com/r/Ubiquiti/comments/1rxbn6y/udm_pro_intermittently_goes_unreachable_anyone/",
+    "has_body": true,
+    "assigned_to": "A"
+  },
+  {
+    "test_id": "T20261007-357",
+    "reddit_id": "1n7ryh0",
+    "created_utc": "2025-09-03T21:44:25",
+    "subreddit": "netapp",
+    "url": "https://reddit.com/r/netapp/comments/1n7ryh0/using_psfileexe_to_close_locks_when_scripting_for/",
+    "has_body": true,
+    "assigned_to": "B"
+  },
+  {
+    "test_id": "T20261007-358",
+    "reddit_id": "1q7aejs",
+    "created_utc": "2026-01-08T12:22:24",
+    "subreddit": "Android",
+    "url": "https://reddit.com/r/Android/comments/1q7aejs/samsung_refusing_to_replace_green_line_riddled/",
+    "has_body": true,
+    "assigned_to": "A"
+  },
+  {
+    "test_id": "T20261007-359",
+    "reddit_id": "1v52rr7",
+    "created_utc": "2026-07-24T06:02:29",
+    "subreddit": "applehelp",
+    "url": "https://reddit.com/r/applehelp/comments/1v52rr7/im_from_the_us_but_ios_new_update_is_asking_me_to/",
+    "has_body": false,
+    "assigned_to": "both"
+  },
+  {
+    "test_id": "T20261007-360",
+    "reddit_id": "1uip92j",
+    "created_utc": "2026-06-29T10:58:51",
+    "subreddit": "AndroidQuestions",
+    "url": "https://reddit.com/r/AndroidQuestions/comments/1uip92j/i_need_help_to_update_my_old_tablet/",
+    "has_body": true,
+    "assigned_to": "B"
+  },
+  {
+    "test_id": "T20261007-361",
+    "reddit_id": "1r5stez",
+    "created_utc": "2026-02-15T22:58:27",
+    "subreddit": "chrome",
+    "url": "https://reddit.com/r/chrome/comments/1r5stez/chrome_slow_and_unresponsive/",
+    "has_body": true,
+    "assigned_to": "A"
+  },
+  {
+    "test_id": "T20261007-362",
+    "reddit_id": "1owj037",
+    "created_utc": "2025-11-14T01:17:31",
+    "subreddit": "vscode",
+    "url": "https://reddit.com/r/vscode/comments/1owj037/latex_on_vscode_how_is_the_copilot_autocomplete/",
+    "has_body": true,
+    "assigned_to": "A"
+  },
+  {
+    "test_id": "T20261007-363",
+    "reddit_id": "1olpguj",
+    "created_utc": "2025-11-01T14:39:11",
+    "subreddit": "immich",
+    "url": "https://reddit.com/r/immich/comments/1olpguj/ios_app_update_cant_find_in_app_store/",
+    "has_body": true,
+    "assigned_to": "B"
+  },
+  {
+    "test_id": "T20261007-364",
+    "reddit_id": "1wyx3tr",
+    "created_utc": "2026-10-06T08:16:48",
+    "subreddit": "Ubuntu",
+    "url": "https://reddit.com/r/Ubuntu/comments/1wyx3tr/26041_lts_i_have_to_login_after_locking_the_screen/",
+    "has_body": true,
+    "assigned_to": "B"
+  },
+  {
+    "test_id": "T20261007-365",
+    "reddit_id": "1pneh94",
+    "created_utc": "2025-12-15T18:10:21",
+    "subreddit": "ios",
+    "url": "https://reddit.com/r/ios/comments/1pneh94/ui_stutter_when_closing_apps/",
+    "has_body": true,
+    "assigned_to": "A"
+  },
+  {
+    "test_id": "T20261007-366",
+    "reddit_id": "1qr489b",
+    "created_utc": "2026-01-30T12:34:07",
+    "subreddit": "immich",
+    "url": "https://reddit.com/r/immich/comments/1qr489b/i_lost_my_env_and_dockercomposeyml_files/",
+    "has_body": true,
+    "assigned_to": "both"
+  },
+  {
+    "test_id": "T20261007-367",
+    "reddit_id": "1wyhdr2",
+    "created_utc": "2026-10-05T19:12:08",
+    "subreddit": "ollama",
+    "url": "https://reddit.com/r/ollama/comments/1wyhdr2/what_happens_to_deepseek/",
+    "has_body": true,
+    "assigned_to": "B"
+  },
+  {
+    "test_id": "T20261007-368",
+    "reddit_id": "1tckhc1",
+    "created_utc": "2026-05-14T02:13:16",
+    "subreddit": "AndroidQuestions",
+    "url": "https://reddit.com/r/AndroidQuestions/comments/1tckhc1/messenger_colour_help/",
+    "has_body": true,
+    "assigned_to": "A"
+  },
+  {
+    "test_id": "T20261007-369",
+    "reddit_id": "1wzpzio",
+    "created_utc": "2026-10-07T07:08:40",
+    "subreddit": "applehelp",
+    "url": "https://reddit.com/r/applehelp/comments/1wzpzio/i_messed_up_trying_to_recover_my_old_ipad_air/",
+    "has_body": true,
+    "assigned_to": "A"
+  },
+  {
+    "test_id": "T20261007-370",
+    "reddit_id": "1u4y4r2",
+    "created_utc": "2026-06-13T18:19:20",
+    "subreddit": "MicrosoftEdge",
+    "url": "https://reddit.com/r/MicrosoftEdge/comments/1u4y4r2/using_my_face_for_ai_generation_without_permission/",
+    "has_body": true,
+    "assigned_to": "A"
+  },
+  {
+    "test_id": "T20261007-371",
+    "reddit_id": "1wudy62",
+    "created_utc": "2026-09-30T19:13:57",
+    "subreddit": "chrome",
+    "url": "https://reddit.com/r/chrome/comments/1wudy62/apparently_chromes_new_update_wont_work/",
+    "has_body": true,
+    "assigned_to": "both"
+  },
+  {
+    "test_id": "T20261007-372",
+    "reddit_id": "1uwckkw",
+    "created_utc": "2026-07-14T15:51:44",
+    "subreddit": "firefox",
+    "url": "https://reddit.com/r/firefox/comments/1uwckkw/after_the_automatic_update_i_cant_load_the_new/",
+    "has_body": true,
+    "assigned_to": "both"
+  },
+  {
+    "test_id": "T20261007-373",
+    "reddit_id": "1sw1dec",
+    "created_utc": "2026-04-26T07:58:06",
+    "subreddit": "Ubuntu",
+    "url": "https://reddit.com/r/Ubuntu/comments/1sw1dec/hilfe/",
+    "has_body": true,
+    "assigned_to": "A"
+  },
+  {
+    "test_id": "T20261007-374",
+    "reddit_id": "1sg2d3d",
+    "created_utc": "2026-04-08T19:09:30",
+    "subreddit": "Dell",
+    "url": "https://reddit.com/r/Dell/comments/1sg2d3d/xps_16_issues/",
+    "has_body": true,
+    "assigned_to": "A"
+  },
+  {
+    "test_id": "T20261007-375",
+    "reddit_id": "1soyv0q",
+    "created_utc": "2026-04-18T14:18:34",
+    "subreddit": "AndroidQuestions",
+    "url": "https://reddit.com/r/AndroidQuestions/comments/1soyv0q/need_help_poco_f5_pro_touch_only_working_stable/",
+    "has_body": true,
+    "assigned_to": "A"
+  },
+  {
+    "test_id": "T20261007-376",
+    "reddit_id": "1pdlkds",
+    "created_utc": "2025-12-04T00:31:47",
+    "subreddit": "immich",
+    "url": "https://reddit.com/r/immich/comments/1pdlkds/issue_connecting_with_local_webui_after_upgraded/",
+    "has_body": true,
+    "assigned_to": "B"
+  },
+  {
+    "test_id": "T20261007-377",
+    "reddit_id": "1urrhpv",
+    "created_utc": "2026-07-09T14:13:30",
+    "subreddit": "Ubuntu",
+    "url": "https://reddit.com/r/Ubuntu/comments/1urrhpv/all_icons_changed_to_this_black_and_white_theme/",
+    "has_body": true,
+    "assigned_to": "B"
+  },
+  {
+    "test_id": "T20261007-378",
+    "reddit_id": "1nzu0ke",
+    "created_utc": "2025-10-06T20:14:49",
+    "subreddit": "immich",
+    "url": "https://reddit.com/r/immich/comments/1nzu0ke/slow_syncing/",
+    "has_body": true,
+    "assigned_to": "B"
+  },
+  {
+    "test_id": "T20261007-379",
+    "reddit_id": "1sbmlib",
+    "created_utc": "2026-04-03T19:04:12",
+    "subreddit": "AndroidQuestions",
+    "url": "https://reddit.com/r/AndroidQuestions/comments/1sbmlib/android_chrome_and_firefox_have_no_sound/",
+    "has_body": true,
+    "assigned_to": "B"
+  },
+  {
+    "test_id": "T20261007-380",
+    "reddit_id": "1nzew7s",
+    "created_utc": "2025-10-06T10:01:35",
+    "subreddit": "chrome",
+    "url": "https://reddit.com/r/chrome/comments/1nzew7s/how_to_exclude_the_page_context_in_search_google/",
+    "has_body": true,
+    "assigned_to": "B"
+  },
+  {
+    "test_id": "T20261007-381",
+    "reddit_id": "1rz3vgz",
+    "created_utc": "2026-03-20T18:16:36",
+    "subreddit": "applehelp",
+    "url": "https://reddit.com/r/applehelp/comments/1rz3vgz/macbook_pro_rebooting_when_closing_the_lid/",
+    "has_body": true,
+    "assigned_to": "B"
+  },
+  {
+    "test_id": "T20261007-382",
+    "reddit_id": "1wuatz1",
+    "created_utc": "2026-09-30T17:17:41",
+    "subreddit": "MicrosoftEdge",
+    "url": "https://reddit.com/r/MicrosoftEdge/comments/1wuatz1/edge_losing_logins_and_tab_group_placements/",
+    "has_body": true,
+    "assigned_to": "both"
+  },
+  {
+    "test_id": "T20261007-383",
+    "reddit_id": "1rig7px",
+    "created_utc": "2026-03-02T02:05:50",
+    "subreddit": "chrome",
+    "url": "https://reddit.com/r/chrome/comments/1rig7px/chrome_on_macbook_pro_fullscreen_video_creates_a/",
+    "has_body": true,
+    "assigned_to": "B"
+  },
+  {
+    "test_id": "T20261007-384",
+    "reddit_id": "1s5rs9o",
+    "created_utc": "2026-03-28T05:25:49",
+    "subreddit": "applehelp",
+    "url": "https://reddit.com/r/applehelp/comments/1s5rs9o/iphone_will_not_update_or_restore/",
+    "has_body": true,
+    "assigned_to": "B"
+  },
+  {
+    "test_id": "T20261007-385",
+    "reddit_id": "1wzh1l8",
+    "created_utc": "2026-10-06T23:04:41",
+    "subreddit": "firefox",
+    "url": "https://reddit.com/r/firefox/comments/1wzh1l8/solutions_to_reverting_the_dedicated_pin_area/",
+    "has_body": true,
+    "assigned_to": "both"
+  },
+  {
+    "test_id": "T20261007-386",
+    "reddit_id": "1puo9m0",
+    "created_utc": "2025-12-24T14:11:49",
+    "subreddit": "comfyui",
+    "url": "https://reddit.com/r/comfyui/comments/1puo9m0/zimagecontrolnet_issue/",
+    "has_body": true,
+    "assigned_to": "A"
+  },
+  {
+    "test_id": "T20261007-387",
+    "reddit_id": "1wxik3b",
+    "created_utc": "2026-10-04T15:34:11",
+    "subreddit": "applehelp",
+    "url": "https://reddit.com/r/applehelp/comments/1wxik3b/authy_286x_doesnt_need_a_pin_to_unlock_after/",
+    "has_body": true,
+    "assigned_to": "both"
+  },
+  {
+    "test_id": "T20261007-388",
+    "reddit_id": "1sylufs",
+    "created_utc": "2026-04-29T02:27:27",
+    "subreddit": "HomeNetworking",
+    "url": "https://reddit.com/r/HomeNetworking/comments/1sylufs/be88u_fast_on_wifi_5_devices_slow_on_wifi_7/",
+    "has_body": true,
+    "assigned_to": "B"
+  },
+  {
+    "test_id": "T20261007-389",
+    "reddit_id": "1rlpdba",
+    "created_utc": "2026-03-05T18:27:25",
+    "subreddit": "homelab",
+    "url": "https://reddit.com/r/homelab/comments/1rlpdba/noctua_mod_t640/",
+    "has_body": true,
+    "assigned_to": "A"
+  },
+  {
+    "test_id": "T20261007-390",
+    "reddit_id": "1o2wvr6",
+    "created_utc": "2025-10-10T10:08:44",
+    "subreddit": "Slack",
+    "url": "https://reddit.com/r/Slack/comments/1o2wvr6/issues_on_ubuntu_22_after_upgrading_to_v446101/",
+    "has_body": true,
+    "assigned_to": "B"
+  },
+  {
+    "test_id": "T20261007-391",
+    "reddit_id": "1wyapu7",
+    "created_utc": "2026-10-05T14:58:14",
+    "subreddit": "firefox",
+    "url": "https://reddit.com/r/firefox/comments/1wyapu7/macos_battery_drain/",
+    "has_body": true,
+    "assigned_to": "A"
+  },
+  {
+    "test_id": "T20261007-392",
+    "reddit_id": "1rumvpu",
+    "created_utc": "2026-03-15T19:15:14",
+    "subreddit": "Ubiquiti",
+    "url": "https://reddit.com/r/Ubiquiti/comments/1rumvpu/udm_pro_se_on_5016_network_10293_packetloss_being/",
+    "has_body": true,
+    "assigned_to": "B"
+  },
+  {
+    "test_id": "T20261007-393",
+    "reddit_id": "1tp7w43",
+    "created_utc": "2026-05-27T14:51:28",
+    "subreddit": "Ubiquiti",
+    "url": "https://reddit.com/r/Ubiquiti/comments/1tp7w43/connection_blackouts_in_one_specific_network/",
+    "has_body": true,
+    "assigned_to": "B"
+  },
+  {
+    "test_id": "T20261007-394",
+    "reddit_id": "1oi42ha",
+    "created_utc": "2025-10-28T08:40:32",
+    "subreddit": "firefox",
+    "url": "https://reddit.com/r/firefox/comments/1oi42ha/opinion_on_my_extension/",
+    "has_body": true,
+    "assigned_to": "B"
+  },
+  {
+    "test_id": "T20261007-395",
+    "reddit_id": "1nwgw8y",
+    "created_utc": "2025-10-02T21:38:57",
+    "subreddit": "MicrosoftEdge",
+    "url": "https://reddit.com/r/MicrosoftEdge/comments/1nwgw8y/weird_glitch_i_noticed_today/",
+    "has_body": true,
+    "assigned_to": "B"
+  },
+  {
+    "test_id": "T20261007-396",
+    "reddit_id": "1umubcr",
+    "created_utc": "2026-07-04T00:11:35",
+    "subreddit": "AndroidQuestions",
+    "url": "https://reddit.com/r/AndroidQuestions/comments/1umubcr/apps_getting_completely_killed_after_swiping_it/",
+    "has_body": true,
+    "assigned_to": "A"
+  },
+  {
+    "test_id": "T20261007-397",
+    "reddit_id": "1tiw4lr",
+    "created_utc": "2026-05-20T19:26:10",
+    "subreddit": "firefox",
+    "url": "https://reddit.com/r/firefox/comments/1tiw4lr/something_happen_to_the_build_in_vpn/",
+    "has_body": true,
+    "assigned_to": "B"
+  },
+  {
+    "test_id": "T20261007-398",
+    "reddit_id": "1vv1khm",
+    "created_utc": "2026-08-22T03:43:28",
+    "subreddit": "Fedora",
+    "url": "https://reddit.com/r/Fedora/comments/1vv1khm/fedora_kinoite_kernel_718_719_video_issues/",
+    "has_body": true,
+    "assigned_to": "A"
+  },
+  {
+    "test_id": "T20261007-399",
+    "reddit_id": "1wyy9vx",
+    "created_utc": "2026-10-06T09:35:56",
+    "subreddit": "applehelp",
+    "url": "https://reddit.com/r/applehelp/comments/1wyy9vx/location_keeps_jumping/",
+    "has_body": true,
+    "assigned_to": "B"
+  },
+  {
+    "test_id": "T20261007-400",
+    "reddit_id": "1uaxxud",
+    "created_utc": "2026-06-20T14:26:01",
+    "subreddit": "linuxquestions",
+    "url": "https://reddit.com/r/linuxquestions/comments/1uaxxud/cant_move_icons_between_monitors_cachyoskde_plasma/",
+    "has_body": true,
+    "assigned_to": "both"
+  },
+  {
+    "test_id": "T20261007-401",
+    "reddit_id": "1s4wizb",
+    "created_utc": "2026-03-27T06:34:56",
+    "subreddit": "networking",
+    "url": "https://reddit.com/r/networking/comments/1s4wizb/10g_interface_link_between_the_fortinet_and_cisco/",
+    "has_body": true,
+    "assigned_to": "B"
+  },
+  {
+    "test_id": "T20261007-402",
+    "reddit_id": "1p0gmgn",
+    "created_utc": "2025-11-18T16:34:19",
+    "subreddit": "whatsapp",
+    "url": "https://reddit.com/r/whatsapp/comments/1p0gmgn/wtf_is_wrong_with_whatsapp_new_update/",
+    "has_body": true,
+    "assigned_to": "A"
+  },
+  {
+    "test_id": "T20261007-403",
+    "reddit_id": "1tgwzxh",
+    "created_utc": "2026-05-18T18:53:05",
+    "subreddit": "linuxquestions",
+    "url": "https://reddit.com/r/linuxquestions/comments/1tgwzxh/kernel_update_to_latest_version_of_16044_lts/",
+    "has_body": true,
+    "assigned_to": "both"
+  },
+  {
+    "test_id": "T20261007-404",
+    "reddit_id": "1tnupve",
+    "created_utc": "2026-05-26T03:19:54",
+    "subreddit": "homeassistant",
+    "url": "https://reddit.com/r/homeassistant/comments/1tnupve/media_playerplay_media_with_announcetrue_no/",
+    "has_body": true,
+    "assigned_to": "A"
+  },
+  {
+    "test_id": "T20261007-405",
+    "reddit_id": "1ukwyh6",
+    "created_utc": "2026-07-01T20:23:54",
+    "subreddit": "firefox",
+    "url": "https://reddit.com/r/firefox/comments/1ukwyh6/tabs_constantly_reloading_ios/",
+    "has_body": true,
+    "assigned_to": "both"
+  },
+  {
+    "test_id": "T20261007-406",
+    "reddit_id": "1rrrw2l",
+    "created_utc": "2026-03-12T14:14:21",
+    "subreddit": "sysadmin",
+    "url": "https://reddit.com/r/sysadmin/comments/1rrrw2l/samsung_galaxy_book_laptops_screwd_over_a_windows/",
+    "has_body": true,
+    "assigned_to": "B"
+  },
+  {
+    "test_id": "T20261007-407",
+    "reddit_id": "1uvk63x",
+    "created_utc": "2026-07-13T18:39:57",
+    "subreddit": "applehelp",
+    "url": "https://reddit.com/r/applehelp/comments/1uvk63x/m1_ipad_pro_129_display_suddenly_turns_graywashed/",
+    "has_body": true,
+    "assigned_to": "A"
+  },
+  {
+    "test_id": "T20261007-408",
+    "reddit_id": "1wte8w8",
+    "created_utc": "2026-09-29T16:08:43",
+    "subreddit": "SQL",
+    "url": "https://reddit.com/r/SQL/comments/1wte8w8/oracle_plsql_can_logdriven_housekeeping_create_a/",
+    "has_body": true,
+    "assigned_to": "both"
+  },
+  {
+    "test_id": "T20261007-409",
+    "reddit_id": "1wx7p9v",
+    "created_utc": "2026-10-04T05:31:17",
+    "subreddit": "firefox",
+    "url": "https://reddit.com/r/firefox/comments/1wx7p9v/after_upgrading_to_v157_any_time_i_download_a/",
+    "has_body": true,
+    "assigned_to": "B"
+  },
+  {
+    "test_id": "T20261007-410",
+    "reddit_id": "1otm7l4",
+    "created_utc": "2025-11-10T18:46:42",
+    "subreddit": "chrome",
+    "url": "https://reddit.com/r/chrome/comments/1otm7l4/get_rid_of_bar_above_keyboard_in_chrome_in_ios/",
+    "has_body": true,
+    "assigned_to": "B"
+  },
+  {
+    "test_id": "T20261007-411",
+    "reddit_id": "1wxed0m",
+    "created_utc": "2026-10-04T12:20:21",
+    "subreddit": "vscode",
+    "url": "https://reddit.com/r/vscode/comments/1wxed0m/new_updated_ui_for_vscode_github_copilot_screws/",
+    "has_body": true,
+    "assigned_to": "B"
+  },
+  {
+    "test_id": "T20261007-412",
+    "reddit_id": "1r4yu05",
+    "created_utc": "2026-02-14T23:09:51",
+    "subreddit": "applehelp",
+    "url": "https://reddit.com/r/applehelp/comments/1r4yu05/iphone_17_pro_max_preso_em_loop_de_inicialização/",
+    "has_body": true,
+    "assigned_to": "A"
+  },
+  {
+    "test_id": "T20261007-413",
+    "reddit_id": "1u5w1dp",
+    "created_utc": "2026-06-14T20:37:20",
+    "subreddit": "MicrosoftEdge",
+    "url": "https://reddit.com/r/MicrosoftEdge/comments/1u5w1dp/new_update_settings_lost/",
+    "has_body": true,
+    "assigned_to": "B"
+  },
+  {
+    "test_id": "T20261007-414",
+    "reddit_id": "1shs888",
+    "created_utc": "2026-04-10T16:53:59",
+    "subreddit": "homeassistant",
+    "url": "https://reddit.com/r/homeassistant/comments/1shs888/kioskmode_hacs_update_made_my_yaml_stop_working/",
+    "has_body": true,
+    "assigned_to": "B"
+  },
+  {
+    "test_id": "T20261007-415",
+    "reddit_id": "1sylmx5",
+    "created_utc": "2026-04-29T02:17:52",
+    "subreddit": "Fedora",
+    "url": "https://reddit.com/r/Fedora/comments/1sylmx5/f43_users_are_unable_to_log_in_after_upgrading_to/",
+    "has_body": true,
+    "assigned_to": "both"
+  },
+  {
+    "test_id": "T20261007-416",
+    "reddit_id": "1p9yxod",
+    "created_utc": "2025-11-29T20:28:37",
+    "subreddit": "Supabase",
+    "url": "https://reddit.com/r/Supabase/comments/1p9yxod/supabase_local_dev_environment/",
+    "has_body": true,
+    "assigned_to": "both"
+  },
+  {
+    "test_id": "T20261007-417",
+    "reddit_id": "1qlljx5",
+    "created_utc": "2026-01-24T12:18:35",
+    "subreddit": "MicrosoftEdge",
+    "url": "https://reddit.com/r/MicrosoftEdge/comments/1qlljx5/all_open_tabs_just_gone_and_even_history_is/",
+    "has_body": true,
+    "assigned_to": "both"
+  },
+  {
+    "test_id": "T20261007-418",
+    "reddit_id": "1sadzfv",
+    "created_utc": "2026-04-02T10:47:53",
+    "subreddit": "AndroidQuestions",
+    "url": "https://reddit.com/r/AndroidQuestions/comments/1sadzfv/i_cannot_manage_to_disable_google_chats_smart/",
+    "has_body": true,
+    "assigned_to": "A"
+  },
+  {
+    "test_id": "T20261007-419",
+    "reddit_id": "1sz5ahz",
+    "created_utc": "2026-04-29T17:20:11",
+    "subreddit": "AndroidQuestions",
+    "url": "https://reddit.com/r/AndroidQuestions/comments/1sz5ahz/audio_keeps_polling_every_1030_seconds/",
+    "has_body": true,
+    "assigned_to": "A"
+  },
+  {
+    "test_id": "T20261007-420",
+    "reddit_id": "1tp4ad8",
+    "created_utc": "2026-05-27T12:36:16",
+    "subreddit": "applehelp",
+    "url": "https://reddit.com/r/applehelp/comments/1tp4ad8/why_are_iphone_alarms_going_off_on_my_watch/",
+    "has_body": true,
+    "assigned_to": "both"
+  },
+  {
+    "test_id": "T20261007-421",
+    "reddit_id": "1tf27ms",
+    "created_utc": "2026-05-16T18:52:28",
+    "subreddit": "Ubiquiti",
+    "url": "https://reddit.com/r/Ubiquiti/comments/1tf27ms/data_scrubbing_added_to_unas/",
+    "has_body": true,
+    "assigned_to": "B"
+  },
+  {
+    "test_id": "T20261007-422",
+    "reddit_id": "1wwrxar",
+    "created_utc": "2026-10-03T16:50:07",
+    "subreddit": "AndroidQuestions",
+    "url": "https://reddit.com/r/AndroidQuestions/comments/1wwrxar/am_i_able_to_completely_turn_off_the_alarm_volume/",
+    "has_body": true,
+    "assigned_to": "B"
+  },
+  {
+    "test_id": "T20261007-423",
+    "reddit_id": "1sqzpvi",
+    "created_utc": "2026-04-20T19:19:18",
+    "subreddit": "applehelp",
+    "url": "https://reddit.com/r/applehelp/comments/1sqzpvi/air_m4_speaker_issue/",
+    "has_body": true,
+    "assigned_to": "A"
+  },
+  {
+    "test_id": "T20261007-424",
+    "reddit_id": "1sgs0i0",
+    "created_utc": "2026-04-09T14:57:54",
+    "subreddit": "applehelp",
+    "url": "https://reddit.com/r/applehelp/comments/1sgs0i0/question_about_airpods_3/",
+    "has_body": true,
+    "assigned_to": "both"
+  },
+  {
+    "test_id": "T20261007-425",
+    "reddit_id": "1uwxrs4",
+    "created_utc": "2026-07-15T06:31:20",
+    "subreddit": "chrome",
+    "url": "https://reddit.com/r/chrome/comments/1uwxrs4/chrome_taking_too_much_space_on_screen/",
+    "has_body": true,
+    "assigned_to": "B"
+  },
+  {
+    "test_id": "T20261007-426",
+    "reddit_id": "1onts4x",
+    "created_utc": "2025-11-04T00:59:37",
+    "subreddit": "MacOS",
+    "url": "https://reddit.com/r/MacOS/comments/1onts4x/new_liquid_glass_option_clear_or_tinted_in_261/",
+    "has_body": true,
+    "assigned_to": "B"
+  },
+  {
+    "test_id": "T20261007-427",
+    "reddit_id": "1u2nh1u",
+    "created_utc": "2026-06-11T03:17:26",
+    "subreddit": "firefox",
+    "url": "https://reddit.com/r/firefox/comments/1u2nh1u/windows_11_desktop_how_to_reduce_size_of_extra/",
+    "has_body": true,
+    "assigned_to": "both"
+  },
+  {
+    "test_id": "T20261007-428",
+    "reddit_id": "1s2bxxu",
+    "created_utc": "2026-03-24T12:09:03",
+    "subreddit": "HomeNetworking",
+    "url": "https://reddit.com/r/HomeNetworking/comments/1s2bxxu/bq16_router_incredibly_unstable_after_new/",
+    "has_body": true,
+    "assigned_to": "both"
+  },
+  {
+    "test_id": "T20261007-429",
+    "reddit_id": "1uyhf8o",
+    "created_utc": "2026-07-16T22:23:57",
+    "subreddit": "Ubiquiti",
+    "url": "https://reddit.com/r/Ubiquiti/comments/1uyhf8o/protect_update_bricked_cameras/",
+    "has_body": true,
+    "assigned_to": "B"
+  },
+  {
+    "test_id": "T20261007-430",
+    "reddit_id": "1tokbv6",
+    "created_utc": "2026-05-26T21:08:35",
+    "subreddit": "sysadmin",
+    "url": "https://reddit.com/r/sysadmin/comments/1tokbv6/winget_some_apps_are_not_showing_updates_even/",
+    "has_body": true,
+    "assigned_to": "B"
+  },
+  {
+    "test_id": "T20261007-431",
+    "reddit_id": "1urgeyk",
+    "created_utc": "2026-07-09T04:58:09",
+    "subreddit": "Ubuntu",
+    "url": "https://reddit.com/r/Ubuntu/comments/1urgeyk/so_frustrated_rn/",
+    "has_body": true,
+    "assigned_to": "both"
+  },
+  {
+    "test_id": "T20261007-432",
+    "reddit_id": "1szyr79",
+    "created_utc": "2026-04-30T15:07:32",
+    "subreddit": "Ubuntu",
+    "url": "https://reddit.com/r/Ubuntu/comments/1szyr79/remmina_wont_connect_to_system_upgraded_to_2604/",
+    "has_body": true,
+    "assigned_to": "A"
+  },
+  {
+    "test_id": "T20261007-433",
+    "reddit_id": "1wtkwf5",
+    "created_utc": "2026-09-29T20:17:19",
+    "subreddit": "Fedora",
+    "url": "https://reddit.com/r/Fedora/comments/1wtkwf5/gnome_file_picker/",
+    "has_body": true,
+    "assigned_to": "both"
+  },
+  {
+    "test_id": "T20261007-434",
+    "reddit_id": "1uww2d4",
+    "created_utc": "2026-07-15T04:59:52",
+    "subreddit": "software",
+    "url": "https://reddit.com/r/software/comments/1uww2d4/timeguage_v11_is_here_get_time_perspective_from/",
+    "has_body": true,
+    "assigned_to": "B"
+  },
+  {
+    "test_id": "T20261007-435",
+    "reddit_id": "1uqgqjb",
+    "created_utc": "2026-07-08T03:10:38",
+    "subreddit": "homeassistant",
+    "url": "https://reddit.com/r/homeassistant/comments/1uqgqjb/matter_server_state_changes_no_longer_recognized/",
+    "has_body": true,
+    "assigned_to": "A"
+  },
+  {
+    "test_id": "T20261007-436",
+    "reddit_id": "1vmk2r5",
+    "created_utc": "2026-08-12T17:05:40",
+    "subreddit": "AndroidQuestions",
+    "url": "https://reddit.com/r/AndroidQuestions/comments/1vmk2r5/my_phone_is_randomly_doing_things_and_im_not_sure/",
+    "has_body": true,
+    "assigned_to": "A"
+  },
+  {
+    "test_id": "T20261007-437",
+    "reddit_id": "1nw5r04",
+    "created_utc": "2025-10-02T14:44:44",
+    "subreddit": "MicrosoftEdge",
+    "url": "https://reddit.com/r/MicrosoftEdge/comments/1nw5r04/win_11_25h2_edge_update_win32wacapewaml/",
+    "has_body": true,
+    "assigned_to": "both"
+  },
+  {
+    "test_id": "T20261007-438",
+    "reddit_id": "1sex257",
+    "created_utc": "2026-04-07T14:08:51",
+    "subreddit": "smarthome",
+    "url": "https://reddit.com/r/smarthome/comments/1sex257/reolink_d340w_intermittent_remote_access_could/",
+    "has_body": true,
+    "assigned_to": "both"
+  },
+  {
+    "test_id": "T20261007-439",
+    "reddit_id": "1ukelsn",
+    "created_utc": "2026-07-01T07:16:15",
+    "subreddit": "chrome",
+    "url": "https://reddit.com/r/chrome/comments/1ukelsn/chrome_version_1500787147/",
+    "has_body": true,
+    "assigned_to": "B"
+  },
+  {
+    "test_id": "T20261007-440",
+    "reddit_id": "1nxt7zv",
+    "created_utc": "2025-10-04T12:54:04",
+    "subreddit": "MicrosoftEdge",
+    "url": "https://reddit.com/r/MicrosoftEdge/comments/1nxt7zv/edge_141_tahoe_2fa/",
+    "has_body": true,
+    "assigned_to": "A"
+  },
+  {
+    "test_id": "T20261007-441",
+    "reddit_id": "1rly6ly",
+    "created_utc": "2026-03-05T23:59:17",
+    "subreddit": "Ubiquiti",
+    "url": "https://reddit.com/r/Ubiquiti/comments/1rly6ly/ubiquiti_waps_and_voip/",
+    "has_body": true,
+    "assigned_to": "B"
+  },
+  {
+    "test_id": "T20261007-442",
+    "reddit_id": "1vqd2hv",
+    "created_utc": "2026-08-17T00:17:44",
+    "subreddit": "applehelp",
+    "url": "https://reddit.com/r/applehelp/comments/1vqd2hv/imessage_continues_to_activate_and_deactivate/",
+    "has_body": true,
+    "assigned_to": "B"
+  },
+  {
+    "test_id": "T20261007-443",
+    "reddit_id": "1s0lp5s",
+    "created_utc": "2026-03-22T13:30:46",
+    "subreddit": "PLC",
+    "url": "https://reddit.com/r/PLC/comments/1s0lp5s/eclipse_4diac_31_released/",
+    "has_body": true,
+    "assigned_to": "A"
+  },
+  {
+    "test_id": "T20261007-444",
+    "reddit_id": "1wuwzmw",
+    "created_utc": "2026-10-01T11:30:30",
+    "subreddit": "applehelp",
+    "url": "https://reddit.com/r/applehelp/comments/1wuwzmw/macbook_pro_m5_display_flickering_local_dimming/",
+    "has_body": true,
+    "assigned_to": "B"
+  },
+  {
+    "test_id": "T20261007-445",
+    "reddit_id": "1wtyymf",
+    "created_utc": "2026-09-30T07:53:08",
+    "subreddit": "firefox",
+    "url": "https://reddit.com/r/firefox/comments/1wtyymf/firefox_new_1570_update_memory_usage/",
+    "has_body": true,
+    "assigned_to": "A"
+  },
+  {
+    "test_id": "T20261007-446",
+    "reddit_id": "1wz1abm",
+    "created_utc": "2026-10-06T12:27:34",
+    "subreddit": "firefox",
+    "url": "https://reddit.com/r/firefox/comments/1wz1abm/firefox_crashes/",
+    "has_body": true,
+    "assigned_to": "B"
+  },
+  {
+    "test_id": "T20261007-447",
+    "reddit_id": "1ww0k3s",
+    "created_utc": "2026-10-02T17:59:42",
+    "subreddit": "firefox",
+    "url": "https://reddit.com/r/firefox/comments/1ww0k3s/system_theme_auto_gone_in_version_157/",
+    "has_body": true,
+    "assigned_to": "B"
+  },
+  {
+    "test_id": "T20261007-448",
+    "reddit_id": "1ww6ouq",
+    "created_utc": "2026-10-02T22:08:37",
+    "subreddit": "firefox",
+    "url": "https://reddit.com/r/firefox/comments/1ww6ouq/upload_file_dialog_no_longer_remembers_folders/",
+    "has_body": true,
+    "assigned_to": "both"
+  },
+  {
+    "test_id": "T20261007-449",
+    "reddit_id": "1wwjbjk",
+    "created_utc": "2026-10-03T09:49:31",
+    "subreddit": "firefox",
+    "url": "https://reddit.com/r/firefox/comments/1wwjbjk/firefox_suddenly_stopped_saving_any_browser_data/",
+    "has_body": true,
+    "assigned_to": "B"
+  },
+  {
+    "test_id": "T20261007-450",
+    "reddit_id": "1wz244q",
+    "created_utc": "2026-10-06T13:06:14",
+    "subreddit": "firefox",
+    "url": "https://reddit.com/r/firefox/comments/1wz244q/firefoxs_new_update_is_using_a_lot_of_ram/",
+    "has_body": true,
+    "assigned_to": "both"
+  },
+  {
+    "test_id": "T20261007-451",
+    "reddit_id": "1ueqsu4",
+    "created_utc": "2026-06-24T21:37:14",
+    "subreddit": "Fedora",
+    "url": "https://reddit.com/r/Fedora/comments/1ueqsu4/fedora_being_slow_after_the_update/",
+    "has_body": true,
+    "assigned_to": "B"
+  },
+  {
+    "test_id": "T20261007-452",
+    "reddit_id": "1pdyujr",
+    "created_utc": "2025-12-04T12:33:16",
+    "subreddit": "transformers",
+    "url": "https://reddit.com/r/transformers/comments/1pdyujr/dna_dk70_for_scrapper_and_bonecrusher/",
+    "has_body": true,
+    "assigned_to": "A"
+  },
+  {
+    "test_id": "T20261007-453",
+    "reddit_id": "1uixjpl",
+    "created_utc": "2026-06-29T16:35:01",
+    "subreddit": "firefox",
+    "url": "https://reddit.com/r/firefox/comments/1uixjpl/problems_with_firefox_stuttering/",
+    "has_body": true,
+    "assigned_to": "A"
+  },
+  {
+    "test_id": "T20261007-454",
+    "reddit_id": "1u6po2h",
+    "created_utc": "2026-06-15T18:53:34",
+    "subreddit": "applehelp",
+    "url": "https://reddit.com/r/applehelp/comments/1u6po2h/software_update_query/",
+    "has_body": true,
+    "assigned_to": "both"
+  },
+  {
+    "test_id": "T20261007-455",
+    "reddit_id": "1pm0ni9",
+    "created_utc": "2025-12-14T00:37:19",
+    "subreddit": "comfyui",
+    "url": "https://reddit.com/r/comfyui/comments/1pm0ni9/comfyui_wan_only_produces_garbage/",
+    "has_body": true,
+    "assigned_to": "B"
+  },
+  {
+    "test_id": "T20261007-456",
+    "reddit_id": "1v1ngel",
+    "created_utc": "2026-07-20T14:40:11",
+    "subreddit": "Python",
+    "url": "https://reddit.com/r/Python/comments/1v1ngel/cyber_security_wants_us_to_use_the_latest_version/",
+    "has_body": true,
+    "assigned_to": "both"
+  },
+  {
+    "test_id": "T20261007-457",
+    "reddit_id": "1ulozeb",
+    "created_utc": "2026-07-02T17:38:22",
+    "subreddit": "Fedora",
+    "url": "https://reddit.com/r/Fedora/comments/1ulozeb/need_help/",
+    "has_body": true,
+    "assigned_to": "B"
+  },
+  {
+    "test_id": "T20261007-458",
+    "reddit_id": "1vozmof",
+    "created_utc": "2026-08-15T10:44:45",
+    "subreddit": "applehelp",
+    "url": "https://reddit.com/r/applehelp/comments/1vozmof/m1_pro_2021_fault/",
+    "has_body": true,
+    "assigned_to": "A"
+  },
+  {
+    "test_id": "T20261007-459",
+    "reddit_id": "1usfeg8",
+    "created_utc": "2026-07-10T06:20:21",
+    "subreddit": "opencode",
+    "url": "https://reddit.com/r/opencode/comments/1usfeg8/is_opencode_becoming_worse/",
+    "has_body": true,
+    "assigned_to": "both"
+  },
+  {
+    "test_id": "T20261007-460",
+    "reddit_id": "1qvc3db",
+    "created_utc": "2026-02-04T02:25:47",
+    "subreddit": "google",
+    "url": "https://reddit.com/r/google/comments/1qvc3db/how_to_make_the_tabs_and_addresses_bar_hide_at/",
+    "has_body": true,
+    "assigned_to": "B"
+  },
+  {
+    "test_id": "T20261007-461",
+    "reddit_id": "1sxcfs9",
+    "created_utc": "2026-04-27T18:35:18",
+    "subreddit": "homelab",
+    "url": "https://reddit.com/r/homelab/comments/1sxcfs9/my_small_48tb_lowpower_nas_24w_avg_omvjellyfin/",
+    "has_body": true,
+    "assigned_to": "A"
+  },
+  {
+    "test_id": "T20261007-462",
+    "reddit_id": "1oohlcp",
+    "created_utc": "2025-11-04T20:00:16",
+    "subreddit": "MacOS",
+    "url": "https://reddit.com/r/MacOS/comments/1oohlcp/photos_menu_bar/",
+    "has_body": true,
+    "assigned_to": "A"
+  },
+  {
+    "test_id": "T20261007-463",
+    "reddit_id": "1r41jax",
+    "created_utc": "2026-02-13T21:21:09",
+    "subreddit": "software",
+    "url": "https://reddit.com/r/software/comments/1r41jax/the_touch_indicator_turns_on_by_itself/",
+    "has_body": true,
+    "assigned_to": "B"
+  },
+  {
+    "test_id": "T20261007-464",
+    "reddit_id": "1wuceqi",
+    "created_utc": "2026-09-30T18:16:04",
+    "subreddit": "firefox",
+    "url": "https://reddit.com/r/firefox/comments/1wuceqi/dark_mode_gone/",
+    "has_body": true,
+    "assigned_to": "B"
+  },
+  {
+    "test_id": "T20261007-465",
+    "reddit_id": "1v58ds4",
+    "created_utc": "2026-07-24T11:13:12",
+    "subreddit": "bluetooth",
+    "url": "https://reddit.com/r/bluetooth/comments/1v58ds4/bluetooth_keeps_disconnecting_on_my_iphone/",
+    "has_body": true,
+    "assigned_to": "A"
+  },
+  {
+    "test_id": "T20261007-466",
+    "reddit_id": "1up7g8w",
+    "created_utc": "2026-07-06T19:24:41",
+    "subreddit": "Fedora",
+    "url": "https://reddit.com/r/Fedora/comments/1up7g8w/bluetooth_cant_detect_battery_in_game_controllers/",
+    "has_body": true,
+    "assigned_to": "A"
+  },
+  {
+    "test_id": "T20261007-467",
+    "reddit_id": "1tdrrui",
+    "created_utc": "2026-05-15T10:03:47",
+    "subreddit": "Fedora",
+    "url": "https://reddit.com/r/Fedora/comments/1tdrrui/wifi_connected_but_no_internet_after_yesterday/",
+    "has_body": true,
+    "assigned_to": "both"
+  },
+  {
+    "test_id": "T20261007-468",
+    "reddit_id": "1sd4by5",
+    "created_utc": "2026-04-05T13:58:43",
+    "subreddit": "HomeNetworking",
+    "url": "https://reddit.com/r/HomeNetworking/comments/1sd4by5/help_choosing_outdoor_ap_for_front_back_yard_with/",
+    "has_body": true,
+    "assigned_to": "B"
+  },
+  {
+    "test_id": "T20261007-469",
+    "reddit_id": "1sz133s",
+    "created_utc": "2026-04-29T14:51:56",
+    "subreddit": "Fedora",
+    "url": "https://reddit.com/r/Fedora/comments/1sz133s/issue_with_screentime_limit_on_fedora_workstation/",
+    "has_body": true,
+    "assigned_to": "A"
+  },
+  {
+    "test_id": "T20261007-470",
+    "reddit_id": "1uupyt5",
+    "created_utc": "2026-07-12T20:04:32",
+    "subreddit": "neovim",
+    "url": "https://reddit.com/r/neovim/comments/1uupyt5/unwanted_background_padding_around_floating/",
+    "has_body": true,
+    "assigned_to": "A"
+  },
+  {
+    "test_id": "T20261007-471",
+    "reddit_id": "1wwoxj6",
+    "created_utc": "2026-10-03T14:42:28",
+    "subreddit": "firefox",
+    "url": "https://reddit.com/r/firefox/comments/1wwoxj6/all_native_tab_groups_lost_after_upgrade_to_new/",
+    "has_body": true,
+    "assigned_to": "A"
+  },
+  {
+    "test_id": "T20261007-472",
+    "reddit_id": "1ooagoi",
+    "created_utc": "2025-11-04T15:40:45",
+    "subreddit": "MacOS",
+    "url": "https://reddit.com/r/MacOS/comments/1ooagoi/making_dock_translucent_in_macos_tahoe_261/",
+    "has_body": true,
+    "assigned_to": "A"
+  },
+  {
+    "test_id": "T20261007-473",
+    "reddit_id": "1tilfj5",
+    "created_utc": "2026-05-20T13:16:57",
+    "subreddit": "sysadmin",
+    "url": "https://reddit.com/r/sysadmin/comments/1tilfj5/windows_update_hotpatch_and_cumulative/",
+    "has_body": true,
+    "assigned_to": "B"
+  },
+  {
+    "test_id": "T20261007-474",
+    "reddit_id": "1v2i4m8",
+    "created_utc": "2026-07-21T13:14:53",
+    "subreddit": "firefox",
+    "url": "https://reddit.com/r/firefox/comments/1v2i4m8/does_anyone_know_how_to_put_the_hamburger_menu/",
+    "has_body": true,
+    "assigned_to": "both"
+  },
+  {
+    "test_id": "T20261007-475",
+    "reddit_id": "1wys0jb",
+    "created_utc": "2026-10-06T03:08:00",
+    "subreddit": "firefox",
+    "url": "https://reddit.com/r/firefox/comments/1wys0jb/rightclick_menu_text_not_appearing/",
+    "has_body": true,
+    "assigned_to": "A"
+  },
+  {
+    "test_id": "T20261007-476",
+    "reddit_id": "1uenlyg",
+    "created_utc": "2026-06-24T19:38:06",
+    "subreddit": "applehelp",
+    "url": "https://reddit.com/r/applehelp/comments/1uenlyg/unrecognized_trusted_phone_number_keeps/",
+    "has_body": true,
+    "assigned_to": "A"
+  },
+  {
+    "test_id": "T20261007-477",
+    "reddit_id": "1r546tz",
+    "created_utc": "2026-02-15T03:26:44",
+    "subreddit": "MicrosoftEdge",
+    "url": "https://reddit.com/r/MicrosoftEdge/comments/1r546tz/why_does_my_64bit_w10_pros_edge_web_browser_keep/",
+    "has_body": true,
+    "assigned_to": "B"
+  },
+  {
+    "test_id": "T20261007-478",
+    "reddit_id": "1wzfmvh",
+    "created_utc": "2026-10-06T22:01:26",
+    "subreddit": "applehelp",
+    "url": "https://reddit.com/r/applehelp/comments/1wzfmvh/mac_opens_video_files_but_wont_play_them/",
+    "has_body": true,
+    "assigned_to": "both"
+  },
+  {
+    "test_id": "T20261007-479",
+    "reddit_id": "1p1x24d",
+    "created_utc": "2025-11-20T07:30:14",
+    "subreddit": "immich",
+    "url": "https://reddit.com/r/immich/comments/1p1x24d/rehashing_over_and_over_again/",
+    "has_body": true,
+    "assigned_to": "both"
+  },
+  {
+    "test_id": "T20261007-480",
+    "reddit_id": "1wymc22",
+    "created_utc": "2026-10-05T22:31:27",
+    "subreddit": "firefox",
+    "url": "https://reddit.com/r/firefox/comments/1wymc22/cant_sort_the_history_sidebar_by_visit_count/",
+    "has_body": true,
+    "assigned_to": "A"
+  },
+  {
+    "test_id": "T20261007-481",
+    "reddit_id": "1su0d2e",
+    "created_utc": "2026-04-24T00:31:31",
+    "subreddit": "linuxquestions",
+    "url": "https://reddit.com/r/linuxquestions/comments/1su0d2e/microstutters_happening_on_dual_boot_with_windows/",
+    "has_body": true,
+    "assigned_to": "A"
+  },
+  {
+    "test_id": "T20261007-482",
+    "reddit_id": "1pfyta0",
+    "created_utc": "2025-12-06T20:14:02",
+    "subreddit": "react",
+    "url": "https://reddit.com/r/react/comments/1pfyta0/security_check_recommended_cve202555182_please/",
+    "has_body": true,
+    "assigned_to": "B"
+  },
+  {
+    "test_id": "T20261007-483",
+    "reddit_id": "1pse6x5",
+    "created_utc": "2025-12-21T19:02:47",
+    "subreddit": "comfyui",
+    "url": "https://reddit.com/r/comfyui/comments/1pse6x5/someone_could_help_so_i_would_not_go_crazy_qwen/",
+    "has_body": true,
+    "assigned_to": "both"
+  },
+  {
+    "test_id": "T20261007-484",
+    "reddit_id": "1uug04x",
+    "created_utc": "2026-07-12T13:48:59",
+    "subreddit": "Wordpress",
+    "url": "https://reddit.com/r/Wordpress/comments/1uug04x/twitter_embeds_stopped_working_after_forced/",
+    "has_body": true,
+    "assigned_to": "A"
+  },
+  {
+    "test_id": "T20261007-485",
+    "reddit_id": "1vzghbu",
+    "created_utc": "2026-08-27T01:45:23",
+    "subreddit": "MicrosoftEdge",
+    "url": "https://reddit.com/r/MicrosoftEdge/comments/1vzghbu/found_a_way_to_remove_edges_permanent_borders/",
+    "has_body": true,
+    "assigned_to": "both"
+  },
+  {
+    "test_id": "T20261007-486",
+    "reddit_id": "1wz5myw",
+    "created_utc": "2026-10-06T15:32:04",
+    "subreddit": "chrome",
+    "url": "https://reddit.com/r/chrome/comments/1wz5myw/tabs_got_lost_after_update/",
+    "has_body": true,
+    "assigned_to": "both"
+  },
+  {
+    "test_id": "T20261007-487",
+    "reddit_id": "1vrlu3u",
+    "created_utc": "2026-08-18T10:56:06",
+    "subreddit": "Fedora",
+    "url": "https://reddit.com/r/Fedora/comments/1vrlu3u/monitor_flickering/",
+    "has_body": true,
+    "assigned_to": "B"
+  },
+  {
+    "test_id": "T20261007-488",
+    "reddit_id": "1s577ip",
+    "created_utc": "2026-03-27T15:23:40",
+    "subreddit": "Fedora",
+    "url": "https://reddit.com/r/Fedora/comments/1s577ip/easy_effects_left_channel/",
+    "has_body": true,
+    "assigned_to": "A"
+  },
+  {
+    "test_id": "T20261007-489",
+    "reddit_id": "1ufnvzq",
+    "created_utc": "2026-06-25T21:57:35",
+    "subreddit": "PowerToys",
+    "url": "https://reddit.com/r/PowerToys/comments/1ufnvzq/microsoftcmdpaluiexe_using_excess_cpu_since/",
+    "has_body": true,
+    "assigned_to": "A"
+  },
+  {
+    "test_id": "T20261007-490",
+    "reddit_id": "1wtlxb8",
+    "created_utc": "2026-09-29T20:57:16",
+    "subreddit": "Ubuntu",
+    "url": "https://reddit.com/r/Ubuntu/comments/1wtlxb8/how_to_recover_firefox_data_from_backup_file/",
+    "has_body": true,
+    "assigned_to": "B"
+  },
+  {
+    "test_id": "T20261007-491",
+    "reddit_id": "1s9f1pq",
+    "created_utc": "2026-04-01T08:54:55",
+    "subreddit": "debian",
+    "url": "https://reddit.com/r/debian/comments/1s9f1pq/newbie_moving_to_linux_from_windows_11/",
+    "has_body": true,
+    "assigned_to": "A"
+  },
+  {
+    "test_id": "T20261007-492",
+    "reddit_id": "1tjn91y",
+    "created_utc": "2026-05-21T15:03:34",
+    "subreddit": "MicrosoftEdge",
+    "url": "https://reddit.com/r/MicrosoftEdge/comments/1tjn91y/alternatives_for_the_edge_sidebar/",
+    "has_body": true,
+    "assigned_to": "both"
+  },
+  {
+    "test_id": "T20261007-493",
+    "reddit_id": "1wzux3x",
+    "created_utc": "2026-10-07T12:13:26",
+    "subreddit": "applehelp",
+    "url": "https://reddit.com/r/applehelp/comments/1wzux3x/workout_plans_since_ios_upgrade/",
+    "has_body": true,
+    "assigned_to": "A"
+  },
+  {
+    "test_id": "T20261007-494",
+    "reddit_id": "1ogv114",
+    "created_utc": "2025-10-26T20:27:48",
+    "subreddit": "MicrosoftEdge",
+    "url": "https://reddit.com/r/MicrosoftEdge/comments/1ogv114/managed_by_your_organization/",
+    "has_body": true,
+    "assigned_to": "A"
+  },
+  {
+    "test_id": "T20261007-495",
+    "reddit_id": "1sswt0t",
+    "created_utc": "2026-04-22T20:11:21",
+    "subreddit": "applehelp",
+    "url": "https://reddit.com/r/applehelp/comments/1sswt0t/ipad_10_annoying_power_issues/",
+    "has_body": true,
+    "assigned_to": "A"
+  },
+  {
+    "test_id": "T20261007-496",
+    "reddit_id": "1vp8cuh",
+    "created_utc": "2026-08-15T17:13:40",
+    "subreddit": "MicrosoftEdge",
+    "url": "https://reddit.com/r/MicrosoftEdge/comments/1vp8cuh/edge_keeps_resurrecting_deleted_favourites/",
+    "has_body": true,
+    "assigned_to": "both"
+  },
+  {
+    "test_id": "T20261007-497",
+    "reddit_id": "1tkbgay",
+    "created_utc": "2026-05-22T07:16:05",
+    "subreddit": "Ubiquiti",
+    "url": "https://reddit.com/r/Ubiquiti/comments/1tkbgay/migration_woes/",
+    "has_body": true,
+    "assigned_to": "both"
+  },
+  {
+    "test_id": "T20261007-498",
+    "reddit_id": "1sdo2p9",
+    "created_utc": "2026-04-06T03:45:10",
+    "subreddit": "applehelp",
+    "url": "https://reddit.com/r/applehelp/comments/1sdo2p9/downgrading_from_ios_264_to_263_from_iphone_13/",
+    "has_body": true,
+    "assigned_to": "A"
+  },
+  {
+    "test_id": "T20261007-499",
+    "reddit_id": "1ww1zoy",
+    "created_utc": "2026-10-02T18:55:28",
+    "subreddit": "firefox",
+    "url": "https://reddit.com/r/firefox/comments/1ww1zoy/vertical_container_tabs_look_super_cluttered/",
+    "has_body": true,
+    "assigned_to": "B"
+  },
+  {
+    "test_id": "T20261007-500",
+    "reddit_id": "1u4sw5c",
+    "created_utc": "2026-06-13T14:49:04",
+    "subreddit": "MicrosoftEdge",
+    "url": "https://reddit.com/r/MicrosoftEdge/comments/1u4sw5c/icons_are_not_showing_in_favourites_and_shortcut/",
+    "has_body": true,
+    "assigned_to": "both"
+  }
+]

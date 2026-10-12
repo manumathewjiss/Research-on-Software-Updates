@@ -1,0 +1,48 @@
+{
+  "status": "case_selection_prepared_not_approved_for_external_distribution",
+  "source_hashes": {
+    "phase3/icsc_full_paper/reliability_packet/submissions/2026-10-07-independent/development_after_independent_review.jsonl": "cef1b165a3150aa74dfc05cc3634988dc4e6926bfb57afdec5236f2f571729fd",
+    "phase2/combined_dataset/master_records.json": "1c5942868a756f20673651ffd0257d895195ee1e290cf9c32871e84c6150287a",
+    "phase3/experiment_v1/data/reserved_test.jsonl": "e2023221e3e3acddbe5bf11df1a24674ad2c24cea9af9886e67535a0c8a1b5dd",
+    "phase3/fresh_test_20261007/frozen_joint_labels/all_500_reviewed.jsonl": "b9ad1898ac7b160a6382e35d6387fdf548a1d06cd0c252981d57ad2c736f804f"
+  },
+  "selected_main": 30,
+  "selected_pilot": 6,
+  "main_type_counts": {
+    "technical_troubleshooting": 20,
+    "other": 6,
+    "general_dissatisfaction": 4
+  },
+  "main_community_counts": {
+    "MacOS": 1,
+    "homeassistant": 3,
+    "applehelp": 3,
+    "vscode": 2,
+    "ios": 2,
+    "chrome": 3,
+    "firefox": 1,
+    "sysadmin": 3,
+    "truenas": 1,
+    "Fedora": 2,
+    "debian": 2,
+    "linuxquestions": 1,
+    "Wordpress": 1,
+    "mysql": 1,
+    "Android": 1,
+    "whatsapp": 1,
+    "opencode": 1,
+    "openwrt": 1
+  },
+  "unique_ids": 36,
+  "reserved_id_overlap": 0,
+  "fresh_id_overlap": 0,
+  "selected_duplicate_pairs": [],
+  "selected_to_test_duplicate_pairs": [],
+  "packet_source_sha256": "d9569effc63c6790d4a9707b053aa41ae29d5111791181f7d74bebe3c5e0e6c6",
+  "case_selection_sha256": "adabcdae0fcc66614cde47c08238de8133715c6c0f6340039d247c9906d913c5",
+  "manual_gates": [
+    "privacy_and_text_fidelity_review",
+    "institutional_human_study_determination",
+    "Reddit_ReleaseTrain_text_sharing_permission"
+  ]
+}

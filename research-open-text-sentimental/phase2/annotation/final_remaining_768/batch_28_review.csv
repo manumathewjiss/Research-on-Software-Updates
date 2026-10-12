@@ -1,0 +1,990 @@
+﻿review_id,subreddit,title,post_body,discussion_context,text_availability,proposed_about_software,proposed_update_related,proposed_discussion_type,proposed_confidence,proposed_reason,decision,final_about_software,final_update_related,final_discussion_type,reviewer_note,reviewed_at,source_url
+B28-001,Wordpress,TAGDIV NEWSPAPER THEME --- tagdiv editor not working,"Anyone out there using Tagdiv Newspaper theme please review
+
+  
+Recently upgraded to most recent version of Wordpress and updated Newspaper theme.    Now we cannot use Tagdiv to edit.    Getting very strange errors when we inspect.    
+
+  
+Any ideas on how to fix? 
+
+https://preview.redd.it/00g6sscf8bfg1.png?width=1209&amp;format=png&amp;auto=webp&amp;s=e78fe3727fee4441e8793e3fbb1e196a7a0a6c81",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/Wordpress/comments/1qlou7s/tagdiv_newspaper_theme_tagdiv_editor_not_working/
+B28-002,MicrosoftEdge,"Edge on MacOS after update 149.0.4022.80, high GPU usage","Hi all, just seeing if anyone else is having this issue.  
+  
+I have a Mac with an M5 chip, just for understanding of performance, and I was using Edge just fine, tiny CPU/GPU most of the time, just as I would expect. After the latest update though to 149.0.4022.80, just idle it is using 45-65% GPU all the time in Edge, just sitting with nothing but an empty tab, no extensions even enabled.
+
+Really odd, not sure what kind of bug was introduced, but it is a bad one, I can't use the browser in this state. I could reinstall too, but that is not exactly the first option I would expect to go to. So seeing if I am alone with this problem first. Thanks!","[1:reply] Yes, I have observed high GPU usage.
+[2:reply] Same here, heating up my otherwise fine Macbook Air M4.
+[3:reply] Simply disabling Transparent in Appearance solves the problem.
+[4:OP] Thanks, I will try, that is insane though!
+[5:reply] M5 Pro here, same issue. Edge version 149.0.4022.98, Tahoe 26.5.1",title_body_comments,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/MicrosoftEdge/comments/1uejzrz/edge_on_macos_after_update_1490402280_high_gpu/
+B28-003,applehelp,Face ID not working properly after latest update,"Hi all,
+
+I have updated to ios 27 a week ago and I have been facing issue with face id since then.
+
+The Face ID doesn’t work immediately, it works after 3-4 failed attempts. Doesn’t work until I try different angles and then find a perfect one.
+
+Is anyone else facing similar issue? Is there any fix to this
+
+Device- iPhone 16",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/applehelp/comments/1wy2a7n/face_id_not_working_properly_after_latest_update/
+B28-004,AndroidQuestions,Stuck on the map screen when trying to add a new place/location on Facebook - anyone know a fix?,"I've been trying to create a custom/new location on Facebook for months now, but every single time I reach the step to drop the pin or confirm the location on the map, the app completely hangs or gets stuck.
+
+​At first, I thought it was just a temporary bug with the build, but after numerous app updates over the past few months, the issue is still persistent.
+
+​Things I’ve already tried:
+
+​Updating the app to the latest version
+
+​Relaunching the app
+
+​Waiting it out across multiple versions
+
+​Has anyone encountered this specific freeze on the map screen and found a workaround? Could this be related to location permissions, an account restriction, or a known issue with the mobile app where I should just use desktop instead?
+
+​Any advice would be massively appreciated!",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/AndroidQuestions/comments/1wwft1n/stuck_on_the_map_screen_when_trying_to_add_a_new/
+B28-005,applehelp,"Reset my iphone 14 pro, am not getting 2FA texts or phone calls from Apple.","Few days ago I decided to update my 14 pro on ios 18 due to system cache being 70 gb (thanks apple), tried to update while keeping data and that failed mid update so phone was stuck in recovery mode, had to reset from fresh with backup which worked great I have access to the phone, however it prompts me to log back into icloud.
+
+  
+When I try to do they claim to send a text to my correct phone number which I never receive, I try the phone call option which does not work either, all other 2fa calls and texts work from other companies. I contacted carrier they said its all good tried all possible fixes even re installed e sim to no avail.
+
+  
+Phone is practically half usable and I dont have access to my whatsapp which is a business necessity. Any ideas? im giving apple a call later but something tells me they arent going to be much help.","[1:reply] Whatsapp has a desktop app.
+
+Log into your account.apple.com and confirm the number works. If that fails you can get ahold of Apple account support and they'll run you through the reset process.
+[2:OP] they ask me for a qr code off my phone for desktop whatsapp :/, number is correct based on the first account recovery question on the apple site which asks for trusted phone number",title_body_comments,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/applehelp/comments/1uh1bqw/reset_my_iphone_14_pro_am_not_getting_2fa_texts/
+B28-006,sysadmin,I’m going to blow my head clean off because of Windows Update,"Is there some kind of book or course or something that will let me defeat this DEMON once and for all? I can’t take it anymore.
+
+Install error, update failed, “Windows update has failed” - just a little window that appears after it took 3 hours to “install” an update. 23h2 PC not being offered 25h2 update. Windows 10 not being offered Windows 11 (they meet the requirements). Progress bars stuck all the time only to fail after like 3 hours. Like it works sometimes, but I genuinely never know if it will work or not or how long it will take.
+
+I legit don’t understand how you deal with this trash. Is it just so bad or am I missing something because if this is just “like it is” I swear I’m going to start learning exclusively Linux idgfa.",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/sysadmin/comments/1s7oemc/im_going_to_blow_my_head_clean_off_because_of/
+B28-007,PLC,"Why is every PLC/Automation software a buggy, bloated mess?","In my experience, I have yet to encounter a software that doesn't take an unexplainable amount of time to load. Or have a random exception error with no explanation. Or outright just closing randomly. Or stopped working after a Windows update. Or updating the software introduces new bugs. Or the installation software fails for some mysterious reason. Or having to install 6 different software for being able to use the brand (looking at you, Schneider).
+
+I have experience with Schneider, Mitsubishi, and Siemens. And all suffer from similar issues.","[1:reply] Because it's low volume highly complex embedded systems software... These are engineering tools with fairly complex dependencies on different drivers, OS versions, etc because they ""create"" embedded software for highly reliable systems. With all of that in mind, you'll encounter…
+[2:reply] Because fixing bugs that happens 2% of the time or making things faster are not a business priorities when the customer don't have the choice to use the software.
+[3:reply] In my experience, despite these issues they are still quite good (speaking of TIA and studio 5000) When they are up and running they work quite well.
+[4:reply] After dealing a lot with Rockwell’s Connected Components Workbench and FT Design Workbench for the Micro800 controllers, I take back any hate towards TIA Portal and especially Studio 5000.
+
+This cheap software makes me hate my job sometimes, but at least it runs fine once on the…
+[5:reply] Don’t forget long service life and need for backwards compatibility. No customer is going to tolerate a compatibility-breaking update. 
+
+On the flip side for the vendor this means some level of customer lock-in. They can get recurring revenue if they add features without breakin…",title_body_comments,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/PLC/comments/1ujrm1o/why_is_every_plcautomation_software_a_buggy/
+B28-008,ios,Anybody else having issues w/ sites that have bottom navigation links on safari after updating to iOS 26?,The navigation bar is at the bottom and it moves to the center of the screen when youre scrolling up but goes back go normal when you’re scrolling down. Its been really bugging me.,,title_and_body,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/ios/comments/1oyya0b/anybody_else_having_issues_w_sites_that_have/
+B28-009,redis,Issue upgrading Redis cluster from 7.0.9 to 7.2.0: Slaves marked as failed during failover,,,title_only,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/redis/comments/1klgbni/issue_upgrading_redis_cluster_from_709_to_720/
+B28-010,Fedora,Computer not sleeping?,"I've been using Fedora KDE since 44 dropped. Had a few issues but I worked them out. After recent update however my computer won't sleep. I can shut it down but when I try sleep, the screen goes blank but tower won't shut down. After several seconds the screen comes back to system login screen. Has anyone heard of this? Not sure where to start troubleshooting.",,title_and_body,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/Fedora/comments/1tgl1yg/computer_not_sleeping/
+B28-011,typescript,Why is tsc reporting far fewer errors than VSCode for the same project and Typescript version?,"I have Typescript installed as a dev dependency in my Node project, and when I run `tsc --noEmit`, it does not report most of the errors (*these are actual type errors, not lint errors!*) I'm seeing for the same project in VSCode, although they both use the same tsconfig. I have also verified that VSCode is using the workspace Typescript version.
+
+I'm using Typescript version 5.9.2, and the latest VSCode version 1.105.1 (Universal) on a MacBook Air M1.
+
+***More Details:***
+
+When I run tsc, here is the only output:
+
+`&gt; tsc --noEmit --pretty`
+
+`source/server/_auth.ts:159:53 - error TS1005: '?' expected.`
+
+`159 type AuthorizationCtx&lt;M extends R extends StdRecord = StdRecord&gt; = {`
+
+`Found 1 error in source/server/_auth.ts:159`
+
+But in vscode, in addition to the above error, see errors like these (there are more, more than 30 type errors in all so far):
+
+* `Type '""unauthorized""' is not assignable to type '""bad-input"" | ""malformed-input"" | ""no-connection"" | ""access-denied"" | ""not-found"" | ""conflict"" | ""time-out"" | ""resources-exhausted"" | ""not-implemented"" | ""runtime"" | ""internal"" | ""general""'.`
+* `This comparison appears to be unintentional because the types '""create"" | ""update"" | ""delete"" | ""from""' and '""find""' have no overlap.`
+* `Type '({ entity: string; methods: ""create""[]; roles: (""agent"" | ""admin"")[]; fieldsAllowed: string[]; fieldsDenied: string[]; entities?: undefined; } | { entity: string; methods: ""update""[]; roles: (""agent"" | ""admin"")[]; fieldsAllowed: string[]; fieldsDenied: string[]; entities?: undefined; } | ... 11 more ... | { ...; })[]' is not assignable to type 'AuthorizationRule[]'. Type '{ entity: string; methods: ""create""[]; roles: (""agent"" | ""admin"")[]; fieldsAllowed: string[]; fieldsDenied: string[]; entities?: undefined; } | { entity: string; methods: ""update""[]; roles: (""agent"" | ""admin"")[]; fieldsAllowed: string[]; fieldsDenied: string[]; entities?: undefined; } | ... 11 more ... | { ...; }' is not assignable to type 'AuthorizationRule'. Type '{ entities: string[]; methods: ""delete""[]; roles: ""admin""[]; entity?: undefined; fieldsAllowed?: undefined; fieldsDenied?: undefined; }' is not assignable to type 'AuthorizationRule'. Type '{ entities: string[]; methods: ""delete""[]; roles: ""admin""[]; entity?: undefined; fieldsAllowed?: undefined; fieldsDenied?: undefined; }' is not assignable to type '{ entity: string; methods: StorageAction[]; roles: (AuthRoleCode | ""record-owner"" | ""public"")[]; fieldsAllowed?: string[] | undefined; fieldsDenied?: string[] | undefined; }'. Types of property 'entity' are incompatible. Type 'undefined' is not assignable to type 'string'.`
+
+
+
+***I am unable to post images directly here, so please see:*** 
+
+[https://i.sstatic.net/oJfNZc0A.png](https://i.sstatic.net/oJfNZc0A.png)
+
+[https://i.sstatic.net/JpaY3Da2.png](https://i.sstatic.net/JpaY3Da2.png)
+
+[https://i.sstatic.net/Kno1bOpG.png](https://i.sstatic.net/Kno1bOpG.png)",,title_and_body,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/typescript/comments/1oc9gso/why_is_tsc_reporting_far_fewer_errors_than_vscode/
+B28-012,sysadmin,Disable automatic office updates for one device,"So one of our locations uses a software that doesn't work well with the newest version of Office. Obviously, the company that makes this software should fix this, but this might take a while. Until then, I am trying to revert it for this device to the 2607 version as a temporary measure. I created a setup with an XML file that installs the 2607 version, thinking this would be enough. When I restart the device however, it updates automatically. It seems this needs to be turned off first.
+
+This is where microsoft gets very frustrating, as it is not giving me a lot of feedback what is causing the auto update in the first place. Any guide I follow mentions 3 different ways this could be done:
+
+**Method 1: Use the ""Disable automatic updates"" option on the local device**
+
+When opening outlook and then clicking on **file &gt; Office Account &gt; update options &gt; Disable updates**, absolutely nothing happens. the updates don't get disabled, nor do I get a message stating why it doesn't work. I checked event viewer, but there is no error visible.
+
+  
+**Method 2: Use Intune Configuration policy**
+
+In intune at **Devices &gt; Configurations**, we have a policy for updating office automatically. I made a new group and added the device and useraccount of this specific user, and then set this group as ""Excluded"" under this policy. Sadly it doesn't work. at a reboot, office still updates itself to 2608.
+
+**Method 3: Office 365 admin**
+
+Yet another new microsoft platform. I keep getting referred to this platform, but I can't seem to change anything here. I can find the device in question and read out which version of office it has and via which update channel it goes, but I cannot change anything. Navigating to the update channels themselves, I also seem to not be able to change anything about it. 
+
+My microsoft account has global administrator and office apps administrator permissions. 
+
+  
+Does anyone know how to make this work?","[1:reply] Not sure you can stop Outlook updating in isolation. We had a similar issue with Sage200 where it needed a specific version to be compatible. The XML blocked updates to Office in its entirety.
+[2:reply] You could modify the install so it looks to a network share for updates and then only put the installed version on that share so it never sees any further updates but still gives you an easy way to push an update when you need to.
+
+https://learn.microsoft.com/en-us/microsoft-365…
+[3:reply] your intune exclusion is probably losing to cloud update: microsoft's doc for it says cloud update takes priority over other management tools, so if a cloud update profile is active in [config.office.com](http://config.office.com), intune's update settings won't hold that device…
+[4:reply] Your XML is probably still carrying the update settings, and the Intune exclusion likely isn't winning because there's usually another source (a GPO, the Office Apps policy in Config Profiles, or the Apps admin center). Set &lt;Updates Enabled=""FALSE"" /&gt; in your configuration…
+[5:reply] After Office is installed, you can change the update ring by running the clicktorun.exe that is in the programs files location.
+
+Not sure if you can fully disable updates this way but it is worth looking into.
+
+Otherwise, I think you will need to redeploy Office using the Office…",title_body_comments,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/sysadmin/comments/1wux78v/disable_automatic_office_updates_for_one_device/
+B28-013,Fedora,Fedora issues on my laptop,"Hello, i recently installed fedora on my laptop lenovo, it worked fine for 1 month, but after i started installing updates to fedora 43 whenever i click install there is a bug that says i lack in memory, then i go to terminal and do some cleaning, and then i install, restart all fine, then later on new updates with same update pop up and that happened to me 4 times already. I don't do heavy use of this laptop since i have desktop Pc where i do the hard work, and i don't have heavy programs except for Blender so idk how i have low memory issue.
+
+Im new to fedora so i don't know whats going on.
+
+Also another issue is that occasionally whole computer freezes and i have to do hard restart on restart button, and when it restarts it opens black screen with some message that looks like terminal and it stays that way, then i hold button again to restart again and it turns on normally without that terminal. Some other bugs happen like when i open some programs it starts clicking in weird places without me moving mouse or pad. Im generally satisfied with how it looks, it's just i don't know what could be cause for these bugs i use KDE as desktop environment.
+
+Do you know some good programs for fedora that clean cash and unnecessary stuff, without me typing commands in terminal?
+
+Here are computer specs if it helps
+
+Hardware: 12x Intel core i7-9750H Cpu 2.60GHZ
+Memory: 16gib of RAM 
+Processor: 1: Intel UHD 630 integrated, Nvidia geforse gtx 1050 discrete
+IdeaPad L340 gaming Lenovo",,title_and_body,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/Fedora/comments/1se4jaz/fedora_issues_on_my_laptop/
+B28-014,linux,Fedora + Tumbleweed vs Leap + Debian,"All right folks. I am sharing my experience here. I am a Linux advocate and want things to improve, so I will give you the ugly and the nice.
+
+We had a discussion some days ago regarding rolling vs stable releases. Many fanatically argued that rolling releases are far better security wise. 
+
+I ditched Windows 11 because I was fed up with constant problems, slow performance and all the privacy nightmare. 
+
+I used to run Tumbleweed and Fedora at the beginning but I had several issues. My main laptop is a Lenovo Yoga Pro 7 14MH9 and my backup machine a ThinkPad T14s Gen3.
+
+My use case is Libreoffice calc with Macros, browsing and running automation scripts in python. Nothing fancy. 
+
+So the last 6 months I was running Debian 13 and Opensuse Leap with the latest Libreoffice version.
+
+Zero problems. Everything smooth and nice. It was a dream!
+
+After the discussion here, I said damm give rolling releases a chance. 
+
+I installed Tumbleweed on the Yoga. Disaster. I could not get rid of the black screen after login. No chance.
+
+I said OK, this is why Fedora is here.
+
+I installed Fedora. Latest drivers. Runs smoothly. Latest software. It feels fast! 
+
+Offcourse I get an update every day. Never mind, I will suck it up. Today was the third day. Update notification, I clicked it. I worked 4 hours. Then I did the restart to install the update. The result: I cannot login to my system. It freezes on the login screen. 
+
+I mean, you guys that use rolling releases, how do you cope? It cannot be than on a relative new laptop both Tumbleweed and Fedora break.
+
+Thus, I will switch back to stable distros. At least I have one working laptop with Leap on it. 
+
+Stable releases are for people who want a stable and secure system to work. Rolling releases are fun to drive but not for production. 
+
+Period.","[1:reply] &gt;Offcourse I get an update every day. Never mind, I will suck it up.
+
+Fun fact. You don't have to update every day. I'm on a rolling release (both Fedora and Arch) and update once a month when I have time for it.
+
+Haven't run into any issues. I even had a recent computer I ha…
+[2:OP] I run Plasma as well. I update it because this what you are supposed to do on a rolling release.
+[3:reply] On newer hardware (7840hs, rtx4060), I haven't ever faced a problematic update on fedora. It might be an older-hardware only thing? 
+
+EDIT: Looking up the laptops you mentioned, they don't seem to be that old. Not sure what to make of this then.
+[4:OP] Look up the model my friend. It does not even have a dedicated graphic card. Just an intel i7
+[5:reply] I have been daily driving Fedora for over 2 years now. Neither do I get enough updates to have to do them daily (I keep to once a week), and only time the system broke was self inflicted. I did not have as much luck with Arch. Or Ubuntu and any of it's derivatives, for that matt…",title_body_comments,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/linux/comments/1ultnn8/fedora_tumbleweed_vs_leap_debian/
+B28-015,chrome,Why does Chrome keep splitting my bookmarks between 1 big bookmark tab and subtrees?,"So I’m getting kind of a weird issue. Chrome updated for me a couple of days ago and switched my bookmarks between ones stored on my google account and ones that are only stored locally (I don’t have sync on). All was fine until a couple of days ago when I restarted Chrome, but this time my bookmarks reverted back to being only in 1 big bookmark tab and not seperated into subtrees. After this happened, Chrome would always freeze around after 5 minutes of use and needing me to use task manager to close it. It would keep doing this until eventually reverting my bookmarks back into subtrees where it stopped freezing. I’m getting this issue again now, however it has been over an hour of me opening and reclosing without my bookmarks going into subtrees and my browser keeps crashing. I’m at a loss for what to do to fix this.","[1:reply] Thank you for your submission to /r/Chrome! We hope you'll find the help you need. Once you've found a solution to your issue, please comment ""**!solved**"" under this comment to mark the post as solved. Thanks!
+
+
+*I am a bot, and this action was performed automatically. Please […
+[2:reply] It's possible that your bookmarks got corrupted. Try this: export your current bookmarks by going in ""chrome://bookmarks"" in case anything goes wrong. Then go on ""%LOCALAPPDATA%\\Google\\Chrome\\User Data\\Default"" and rename ""Bookmarks"" to ""Former bookmarks"" and ""Bookmarks.bak""…",title_body_comments,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/chrome/comments/1ur2sno/why_does_chrome_keep_splitting_my_bookmarks/
+B28-016,rustdesk,"4k remote access is unreadable.... even using ""good image quality""","It was OK, but now i can't read anything after the 1.4.3 update.  
+Nothing works properly to improve the image quality... whatever the mode, it is bad.  
+Anyone found a workaround or how to solve the issue... ?  
+(i open the 4k remote session on a 4k screen).  
+Thx.",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/rustdesk/comments/1ougoug/4k_remote_access_is_unreadable_even_using_good/
+B28-017,applehelp,Forgot apple watch password and my update is pending,"so , i turned on my apple watch after a months   
+and boom i dont remember the password  
+but then i thought well i can just reset it or change the password from the apple watch on my iphone but theres a new update and apparently we cant use any apple watch app features until we update it but to update apple watch you need to freaking unlock it but i dont know the passcode  
+so i cant do anything and i m stuck   
+the only option i have is to use various passcodes
+
+what to do?","[1:reply] You can reset it.
+
+[If you forgot your Apple Watch passcode](https://support.apple.com/en-us/108348)",title_body_comments,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/applehelp/comments/1tnxfog/forgot_apple_watch_password_and_my_update_is/
+B28-018,applehelp,iPad seemingly stuck on restore screen after updates failed using Apple Devices app,"My iPad had gotten a bit of water damage last night and was working fine afterwards, though today it was stuck on the recovery support screen. Tried doing the button combinations and power button to boot into recovery mode but nothing has worked. Plugged it into my laptop to use Apple Device ass as support page has said but the updates failed multiple times. As a last ditch, I tried restoring it but now my iPad is seemingly stuck on the restore bar. Any help is appreciated! The model is also an iPad Pro
+
+Forgot to mention, Apple Devices said the restore option didn’t go through all the way, but the iPad screen still shows the restore progress bar","[1:reply] \&gt; was working fine afterwards
+
+iPads are not rated for water resistance. The iPad should have been fully powered off and left in front of a fan blowing cool air directly into the charging connector. Because this action was not taken, the iPad may have succumbed to corrosion…
+[2:OP] Definitely what I feared, is it still serviceable even if it’s currently stuck on the restore screen?",title_body_comments,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/applehelp/comments/1wsrifq/ipad_seemingly_stuck_on_restore_screen_after/
+B28-019,Fedora,Computer freezes at motherboard logo after update,"This is a new one for me. I'm on Fedora 43 and saw there was a system update ready to deploy so I went ahead and did it. The computer rebooted, installed the update, rebooted again and now I'm stuck at my motherboard logo. This is with Linux Kernel 6.19.9. The only way to fix it is by disabling Secure Boot. Any way to fix this? Thanks.
+
+Edit 1: I've now tried rolling back to kernel 6.19.8 and 6.17.1 and the system still won't boot with Secure Boot enabled.
+
+Edit 2: Someone else beat me too this bug. https://www.reddit.com/r/Fedora/comments/1s47frn/comment/ocl155k/?utm_source=share&amp;utm_medium=web3x&amp;utm_name=web3xcss&amp;utm_term=1&amp;utm_content=share_button
+
+Update: Sphetan seems to have found the solution. If you disable your custom grub theme you should be able to boot into Fedora with Secure Boot enabled.",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/Fedora/comments/1s4av8q/computer_freezes_at_motherboard_logo_after_update/
+B28-020,immich,Android client seems to overwhelm the backend,"I think I've been using immich for a while now. `env` says `you can pin this to a specific version like ""v1.71.0""`. I was recently on version `1.123.0` and migrated from an old (2010) PC (SSD was taped to the case, HDD was external via usb) to a mini-PC NAS (SSD and a zfs pool of 2 HDDs in RAID1).
+
+Restored a backup from B2 and everything went almost perfect. For some unknown reason when I connected the Android app to the new server, it literally died in I/O. Became unresponsive to the point where I couldn't `ssh`. After 1.5 days of debugging the issue went away. I assumed the thumbnails didn't restore correctly so the server silently kept failing and regenerating them. At some point it resolved itself and proceeded to work better than ever.
+
+Now I upgraded to v3.2.4 and it worked great (in browser). I followed up with an upgrade of the Android clients and unfortunately the server is again crawling to a halt. I assume the issue will again resolve itself but does anyone know what might be happening?
+
+The issue seems to come and go as I randomly scroll through the main timeline. That's why I suspect thumbnails. Admin jobs are at 0 so no clue there. I don't remember seeing anything obvious from the `immich_server` logs. CPU and RAM usage is mostly low, it certainly spikes on I/O (according to `iostat`). Note, I never experienced this on the old external disk connected via usb.
+
+I'm suspecting immich because it's the only service along with backrest atm. They were the first thing I migrated and the issues appeared when Android client connected.
+
+--
+Btw kudos to the dev team. I'm a dev myself and you make it look easy.
+
+EDIT-1: postgres is on SSD. Only the library (uploaded images) is on HDD.  
+EDIT-2: I didn't change versions between the old and the new server. Upgrade to v3.2.4 happened later. Problem was observed on both old and new version. Old version ""fixed"" itself after 1.5 days, new version renewed the problem.","[1:reply] Where is your postgres database stored? If it’s on the hard drives it needs to be on the ssd where Immich is installed. The data needs to be on the HDD raid array.
+[2:OP] postgres is on SSD. Only the library (uploaded images) is on HDD.",title_body_comments,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/immich/comments/1wukdrx/android_client_seems_to_overwhelm_the_backend/
+B28-021,Ubiquiti,"Seriously, my UniFi Camera got broken. Can't adopt even after hard reset.","https://preview.redd.it/ta1jwqt7ctdh1.png?width=1292&amp;format=png&amp;auto=webp&amp;s=b0f32a3358b9ba1f94ca4dc51ad62a016acb8e18
+
+https://preview.redd.it/hh79kl26dtdh1.png?width=1184&amp;format=png&amp;auto=webp&amp;s=ec4068d77f97749340890b2c4db88209a7696278
+
+https://preview.redd.it/3ooo1n3vdtdh1.png?width=2224&amp;format=png&amp;auto=webp&amp;s=253bf29fe0c0f4bad6733d18bc36fbdbe97c602c
+
+Seriously, my UniFi Camera got broken trying to add to UNVR Instant. Can't adopt even after hard reset. Manual recovery does not even work and always throws a login error even after hard reset! Good lord. Restoring them just show as offline while in network they, they are listed as if online. Are these hardware now bricked? Searching this issue seems to be reported since long ago. Re-adoption does not even show in the network lists. Can't even manually pull the camera firmware update!","[1:reply] Can you SSH into the camera?
+[2:reply] Hello!  Thanks for posting on r/Ubiquiti!
+
+This subreddit is here to provide unofficial technical support to people who use or want to dive into the world of Ubiquiti products.  If you haven’t already been descriptive in your post, please take the time to edit it and add as many…
+[3:reply] Seriously?
+[4:OP] Yes seriously. -Achmed
+[5:OP] I haven’t tried. I only tried the web ui with manual recovery code",title_body_comments,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/Ubiquiti/comments/1uz47yq/seriously_my_unifi_camera_got_broken_cant_adopt/
+B28-022,applehelp,MacBook Pro M1 won't charge properly after Sequoia upgrade,"I'll drag myself to the Apple Store ASAP if I have to, but I'm trying to avoid the trip.
+
+I have a 16"" MacBook Pro M1. I was running macOS 15.7.3. Immediately after upgrading to macOS 15.7.7 (from the moment the machine started up post-upgrade) charging went haywire. Two distinct symptoms:
+
+**MagSafe is effectively dead.** When I connect the MagSafe cable to the 140W charger the laptop came with, the amber light on the connector comes on as you'd expect, but the battery indicator in the menu bar never shows that it's plugged in and the laptop never actually charges. The connector seems to be electrically engaged enough that the LED lights, but nothing beyond that. (And I can connect a USB-C cable to the adapter and use it to charge other things; the plug isn't the issue.)
+
+**USB-C only works when the machine is powered off.** Plugging in via any of the three USB-C ports while the machine is on does nothing (battery indicator in menu bar doesn't show that it's plugged in and it doesn't charge). However, if I power it off and plug in via USB-C (I've used a 65W USB-C charger from a Thinkpad) it charges. So, yeah, I have a way to charge the machine, but only when it's off. I'd really prefer to be able to use it when it's charging.
+
+This pattern seems to have hit others after Sequoia updates (see [this Apple Discussions thread](https://discussions.apple.com/thread/255762368?sortBy=rank)) but the fixes there didn't work for me. What I've tried so far with no success:
+
+* Booted into recovery mode and tried the reserve battery drain procedure from the thread above
+* Full shutdown, disconnect power for a minute, reconnect (the Apple Silicon ""SMC reset"" equivalent)
+* Upgrade to Tahoe
+* DFU Revive from another Mac
+* Checking that the recovery mode itself recognizes a charger (it doesn't, with either MagSafe or USB-C)
+
+Any ideas? I'm going to be very unhappy if Apple forces me to pay to fix this when their OS update appears to be what caused my laptop to forget how to charge properly.",,title_and_body,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/applehelp/comments/1tmo2h7/macbook_pro_m1_wont_charge_properly_after_sequoia/
+B28-023,chrome,Chrome profile keep crashing at opening,"Since update one of my chrome profile keeps crashing at opening, I've uninstalled chrome, updated, remove profile appdata and it's still crashing
+
+Is anyone experiencing the same issue?",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/chrome/comments/1s4ag0c/chrome_profile_keep_crashing_at_opening/
+B28-024,comfyui,Teacache alternative?,"After about six months of not using comfy/flux/etc., I decided to play around and came up with the terrible idea of ​​updating. It turns out that after the update, my workflows are missing, and my most important workflow doesn't work with Teacache. I've tried installing and reinstalling, but nothing works. Teacache still doesn't work, so I'm asking if there's an alternative to Teacache? I use flux1devnsfwunlockedp16\_v30Q80Gguf",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/comfyui/comments/1tdqzbi/teacache_alternative/
+B28-025,chrome,"New update for Chrome broken, just gives me a grayscreen.",,,title_only,yes,yes,general_dissatisfaction,low,The post appears mainly critical without an active repair purpose; check for a concrete problem report.,,,,,,,https://reddit.com/r/chrome/comments/1mimca3/new_update_for_chrome_broken_just_gives_me_a/
+B28-026,unsloth,Can I downgrade the bundled llama.cpp?,"So I have issues since the last update. My PC keeps freezing. Everything points to llama.cpp, so I built it on my own. I thought the latest version might be good for me, but unfortunately going forward does not help. So I went back a month and built a one month old llama.cpp. This seems to be stable, but still testing. 🤞
+
+What bugs me is that unsloth has its own llama.cpp fork and I am not sure whether I should use the fork or safe to use the mainline? I assume unsloth has its own improvements and fixes that might also need for stability.
+
+So my question is that if I'd like to stay on the bundled version then can I downgrade it? I did not find any option for that in the app and did not find the previous version on the cache dir of unsloth.
+
+UPDATE: The older llama.cpp brought back this previous RAM issue :( [https://www.reddit.com/r/unsloth/comments/1wgztdb/qwen3827bgguf\_eats\_my\_ram\_but\_i\_have\_enough\_vram/](https://www.reddit.com/r/unsloth/comments/1wgztdb/qwen3827bgguf_eats_my_ram_but_i_have_enough_vram/)","[1:reply] There's a setting where you can point to a folder containing your llama.cpp version. If it's empty it uses the default version.
+[2:OP] Yes, I know. That is what I am using right now. But where are the bundled versions? Should I build it on my own or download the pre-built binaries? Is the bundled (forked) version even better in any means?",title_body_comments,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/unsloth/comments/1wws0mf/can_i_downgrade_the_bundled_llamacpp/
+B28-027,homelab,$5 OptiPlex 7050 Micro Update - It Works!,"Last week I posted about a [OptiPlex 7050 Micro ](https://www.reddit.com/r/homelab/comments/1rt0uiv/insane_thrift_find_yesterday_got_a_power_adapter/)I got from a thrift store for $5, yesterday my power adapter arrived and I tested it and the system works! It does indeed have an i7-7700T, and it had a mostly fresh install of Windows 11 Pro (last used December 18th based on last update check) but I wasn't going to use/trust that of course so I securely erased the SSD and reinstalled Windows 11 to do some testing. See link at the bottom for more pics as well as screenshots
+
+I blew out of the bulk of the dust before I even first turned the system on. I ran CDI and the SSD has a lot of usage, I also ran CDM and the SSD got too hot and seemingly throttled (there was also an SSD temp sensor that was too high even at idle). I ran Cinebench R15 as well and got a score of 703 (multicore). For stress testing I used Prime 95 Blend + Furmark at the same time. Aside from the SSD the temps were good, ambient was 25C.
+
+After that I went to do a repaste as well as swap out the CMOS battery and put a heatsink on the SSD. The CPU had an excess of thermal paste and was white in color, it wasn't dry at all so was seemingly still good. I cleaned that up and then took out the old CMOS battery which measured 3.076V meaning it'd still be good for a little while but I wanted to put a fresh battery in so that's what I did (new battery measured around 3.275V). Next I took out the SSD and found a thermal pad underneath that was leaking oil so I removed it and got the oil mostly cleaned up and attached a heatsink to the SSD. Unfortunately the heatsink causes fitment issues with the 2.5"" drive caddy, I managed to fit the caddy but I don't think a 2.5"" drive is going to fit. Lastly I applied some ARCTIC MX-7 to the CPU and put the heatsink back on
+
+SSD temps were much better but write speeds were still low, I ran CDM again and the write speeds were a bit better but not what I was expecting. This may be normal but I can't find a spec sheet for the SK hynix PC401. As for CPU temps there was no improvement with the MX-7, ambient was slightly higher at 25C-26C (mostly 26C) so that explains any higher temps you see but it's within margin of error either way. I'm still glad I repasted as now I know I'm good for a long time
+
+From here I'll be tinkering for a while, I plan to test some games in Windows (Valorant for example even though I don't play it, as well as Minecraft and other easy to run titles) to see just how far the integrated graphics can go. After that I'll ditch Windows and tinker with various Linux distros, do more gaming &amp; some emulation, game servers, media streaming, etc. Eventually I may run this system 24/7, a DNS adblocker and Uptime Kuma are 2 services I for sure want to use and I'll very likely find more services I'll want to run (I have yet to dive into homelabbing but I have ran game servers before)
+
+More pics of the system as well as screenshots of temps and other info can be seen here - [https://imgur.com/a/FrZ82J3](https://imgur.com/a/FrZ82J3)",,title_and_body,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/homelab/comments/1ryep9w/5_optiplex_7050_micro_update_it_works/
+B28-028,debian,Even rolling snapshot back wouldn't fix black screen,"Hi all, i'm lost noob, nothing makes sense for me rn with debian and propietary driver. So, from installation - Debian stable kde with 6.12.94 kernel installed at first from live boot, updates, added some essentials for me, also contrib, non-free and installed timeshift. Okay, stuff works, snapshot created, update 2 and got 6.12.95, snapshot created reboot. On 6.12.95, nstallation of nvidia drivers from nvidia docs official guideline, (i updated initramfs for newer kernel). Reboot, got working nvidia drivers, so snapshot created, installing rest of stuff for me, almost all from discover, outside of steam - for it added i386 architecture, updated, intalling steam from apt - got prompted to install 32bit nvidia drivers and stuff so i installed, got it working so reboot, snapsot and this time after update (got 7.02.13 i think) i installed 7 days to die, played it (it worked under nvidia drivers), closed pc (wouldn't shut down so forced shutdown), and today after boot black screen - no login screen, no nothing. So i again updated initramfs, worked with a clanker a bit to fix it, didn't worked, so rolled snapshot back to before installing game - and you wouldn't guess, still black screen. I can reboot to 6.12.94 and have stuff working on noveau driver, but not on nvidia. What gives? Wtf?! Why on snapshots that it would boot and work correctly with nvidia driver is now acting in this way? And even going back with snapshots doesn't seem to work, to ones created when driver worked? What can i do? It's like 6 attempt, 6 reinstall of debian. As for timeshift, installed from discover, and clicked okay okay okay end. Just default config.
+
+Edit: Thanks for help with this! It turned out to be one stupid mistake i made, a tiny typo in grub as i typed nvidia.drm.modeset=1 instead of nvidia-drm.modeset=1 or something like that. Eighter way thanks for spending time helping with this","[1:reply] Rolling back Timeshift didn’t fix it because Timeshift restores *files*, not the boot state. Two things it does **not** do. It doesn’t change which kernel GRUB boots. After “rollback” you’re likely still booting the newest kernel, not the one from when the snapshot was takena nd…
+[2:OP] Will do, never used it before xP. But my knowledge of debian is just purely from my nas and ol laptop i used with cnc.
+[3:OP] If anything is needed, what should i post?
+[4:reply] can you submit the bug to the maintainers with the reportbug tool?
+[5:reply] You go back to an old snapshot, but is your booting initramfs image also that old, or is it much newer than the kernel image you are booting? Can you run update-initramfs -u (when running the old snapshot)?",title_body_comments,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/debian/comments/1v2pk2s/even_rolling_snapshot_back_wouldnt_fix_black/
+B28-029,homelab,HP Prodesk G3 Mini Question About SATA-to-USB Adapter Error,"Hello everyone, I hope this is the right place to ask this.
+
+I have been using these SATA-to-USB adapters on my Raspberry Pi 3 NAS to connect four 2.5"" hard drives.
+
+https://preview.redd.it/cjwoe39rg8bh1.jpg?width=1784&amp;format=pjpg&amp;auto=webp&amp;s=176ae28a9f97361febb45f46e64c0b51197093b4
+
+Now I'm trying to upgrade to an HP ProDesk 600 G3 Mini PC using the same method, but I'm having a problem with it registering the drives.
+
+[These are the ports](https://preview.redd.it/nh0f7499g8bh1.jpg?width=1200&amp;format=pjpg&amp;auto=webp&amp;s=1e37a641c17bb42d59f1fd914a12ae8f6a8dd3b0)
+
+The drives briefly show up as connected and then disconnect (see the ***dmesg*** output below), and then try to reconnect, I guess.
+
+[dmesg output](https://preview.redd.it/5v2su10ig8bh1.png?width=1477&amp;format=png&amp;auto=webp&amp;s=5b2b31e5252a9894e2693397e23ee7eb2905a989)
+
+Sometimes it shows: **""Cannot enable. Maybe the USB cable is bad?""** message. 
+
+[dmesg 2nd case](https://preview.redd.it/715vjqalg8bh1.png?width=1006&amp;format=png&amp;auto=webp&amp;s=fe9a3558047a62f514f4f953c9b182bd75681442)
+
+The drives are connected to the back of the Mini PC and are externally powered, so power isn't the issue. Sometimes they stay connected longer, and I can actually mount them through OpenMediaVault and access them. The ports on the Mini PC work fine with regular thumb drives.
+
+I've tried different ports and running the disks one at a time, and the same thing happens. I checked for BIOS updates, but it seems to already be up to date. The drives and adapters still work fine on the Raspberry Pi NAS without any problem.
+
+I do know these adapters aren't ideal, and I have an M.2-to-SATA adapter coming — this setup is just a temporary solution for now. Any ideas how to fix this? Thank you :)",[1:reply] I use something similar on my G5 800 elitedesk - no problems. It may be all about the chipset.,title_body_comments,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/homelab/comments/1unccks/hp_prodesk_g3_mini_question_about_satatousb/
+B28-030,AskElectronics,Disco Solido SSD Sata en corto circuito,"buenas noches, saludos desde venezuela, soy nuevo por acá, pero necesito opiniones y sugerencias de expertos en el tema, se algo de computadores y componentes pero no tanto, tengo un ssd pny cs900 de 240gb, lo compre en 2023, hace unos meses este año se me quemo por un error mio ensamblando de nuevo mi pc, ya que venia de actualizar piezas y paso lo que paso, conecte mal el cable de alimentación de la fuente al ssd, sin darme cuenta prendí la pc y el cable estaba mal puesto, casi que saliéndose del ssd, me di cuenta tarde, como unos 15 segundos despues de eso, dada a la ansiedad e impotencia que me dio al momento por mi estupidez, luego de apagar la computadora y desarmarlo de donde estaba (estaba suelto por que primero iba a probar antes de prender definitivamente la pc), lo toque y estaba caliente mas de lo normal y también se olia a quemado, lo destapamos, a los dias lo lleve con un técnico y me dio un diagnostico, controlador phison en corto, regulador cerámico quemado, y no se que mas, no sabia si las nand sobrevivieron, dijo que era poco probable, pero como estuve investigando y estudiando por mi cuenta pude medio resolver esta parte, pero no soy experto y no estoy seguro si es lo que vi, medí con un multímetro los capacitores de las líneas de voltaje de entrada de las memorias nand, y ambos dan lo mismo en continuidad, 4.15, no se que significa, lo estuve buscando pero no encontré nada que me de info, entonces aquí estamos, lamentablemente no soy adinerado y no cuento con los recursos económicos para mandarlo a un laboratorio especializado en este tipo de casos donde se necesita la pc3000, pero quiero saber mas, si hay posibilidades, si no las hay, si vale la pena pagar 50$ para mandarlo y diagnosticar el ssd a otra ciudad, cabe destacar, que si, estoy buscando salvar mis archivos personales, cosa que me dolio perder y me duele aun por lo importantes que son, los estaré leyendo
+
+Good evening, greetings from Venezuela. I'm new here, but I need opinions and suggestions from experts on the subject. I know a little about computers and components, but not much. I have a 240GB PNY CS900 SSD, which I bought in 2023. A few months ago, it burned out due to a mistake I made while rebuilding my PC. I had just upgraded some parts, and what happened, happened: I connected the power supply cable to the SSD incorrectly. Without realizing it, I turned on the PC, and the cable was loose, almost sticking out of the SSD. I realized too late, about 15 seconds later, due to the anxiety and frustration I felt at that moment because of my stupidity. After shutting down the computer and removing the SSD from where it was (it was loose because I was going to test it before turning the PC on for good), I touched it, and it was hotter than normal, and it also smelled burnt. We opened it up, and a few days later, I took it to a technician who gave me a diagnosis: shorted Phison controller, burnt ceramic regulator, and I don't know what else. He didn't know if the NAND flash memory had survived; he said it was unlikely. But since I've been researching and studying on my own, I was able to partially figure this out. However, I'm not an expert, and I'm not sure if what I saw was correct. I measured the capacitors on the NAND flash memory's input voltage lines with a multimeter, and both show the same continuity reading: 4.15. I don't know what that means. I've been searching, but I haven't found anything that gives me any insight. So here we are. Unfortunately, I'm not rich, and I don't have the financial resources to send it to a specialized lab that needs a PC3000. But I want to know more: if there's any chance, and if not, if it's worth paying $50 to send it to another city to have the SSD diagnosed. I should mention that I'm trying to recover my personal files, the loss of which saddened me greatly and still pains me because of their importance. I'll be waiting for your replies.
+
+https://preview.redd.it/8p8bfgw07j9h1.jpg?width=2160&amp;format=pjpg&amp;auto=webp&amp;s=547b80c1577ced87611abb30a13f36d5e23adf08
+
+https://preview.redd.it/m1u77gw07j9h1.jpg?width=2160&amp;format=pjpg&amp;auto=webp&amp;s=45454cb811d4b738e7dc0f0dad2ccbdd8c993872
+
+https://preview.redd.it/3519thw07j9h1.jpg?width=2160&amp;format=pjpg&amp;auto=webp&amp;s=28a09959bc5baec3aee8a25b9f79cb94c7052151","[1:reply] While you are welcome to post questions in your native language, questions in English are more likely to receive responses because most of our reader speak English as a first or second language. You can use this tool to translate into English - https://translate.google.com/?sl=a…
+[2:reply] **Fixing a GPU (Graphics card)?**
+
+Check the resources in our Wiki: https://old.reddit.com/r/AskElectronics/wiki/repair#wiki_gpus
+
+**You may get more specific help in r/gpurepair**
+
+
+*I am a bot, and this action was performed automatically. Please [contact the moderators of this…",title_body_comments,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/AskElectronics/comments/1ufszoj/disco_solido_ssd_sata_en_corto_circuito/
+B28-031,homelab,Warning: check your HPE branded hard drive firmware,"Greetings All,
+
+  
+I recently purchased some HPE branded ewaste hard drives, and while poking around, I discovered that several HPE hard drive models have a pending failure waiting to make life miserable.  This is by no means an exhaustive list, but the following models all have a bug in their firmware where the drive will fail when it reaches 65536 power-on hours (yeah, that's the largest 16-bit number, oops).  HPE doesn't go into detail about what ""fail"" means, but in previous incidents (like the 56,000 power-on hours limit for some SAS SSDs), the drive would reboot every 30-60 minutes, causing all sorts of problems on the host computer. Since all of these models are at least 7 years old, this is a real risk for ewaste buyers.
+
+  
+8TB SATA - MB008000GWAYL
+
+10TB SATA - MB010000GWAYN
+
+12TB SATA - MB012000GWDFE 
+
+  
+The good news is you can grab the latest firmware from HPE for free and easily update your drives.  You don't even need to create an account.  Here's where to get the new firmware:
+
+  
+\- Head over to [https://support.hpe.com](https://support.hpe.com)
+
+\- Click on Drivers and Software under Quick Links.
+
+\- Click on Find Drivers and Software.
+
+\- On the left, tick Firmware under Software Type.
+
+\- In the search field, enter your hard driver model number **in all lowercase letters** yeah, even though it's all capital on the drive and the search results are all capital, the search won't find it unless you use all lowercase.
+
+\- Click the search icon or hit return.  Note that some models don't appear in the list as you are typing, search anyway.
+
+\- Change the sort order to Date to make it easier to find the latest version.
+
+\- Click the ""Online HDD/SSD Flash Component"" entry for your environment.
+
+\- Click Download Software.
+
+There are instructions in ""Installation Instructions"" tab in the middle of the screen.","[1:reply] Good looking out, that 65536 hour bug is nasty. I got burned by something similar in an old server before and the random reboots were impossible to pin down until I checked the smart data.
+[2:reply] Here is the full advisory with a list of all the disks impacted
+https://support.hpe.com/hpesc/public/docDisplay?docId=a00160576en_us&amp;docLocale=en_US
+[3:reply] The correct title should be check your firmware regularly. All brands had at least one nasty problem fixed by firmware.
+
+But the people in charge have the insane thought of it's working don't touch it.
+[4:OP] That's fair.  I've seen this go both ways, though.  I have decommissioned hardware that had the same firmware as when it was purchased, with no problems at all.  I have also had to roll back firmware after fighting weird new problems after an upgrade.  It's fine line, especially…
+[5:reply] I would perhaps even question why the SSDs are limited to 2 bytes in that specific stat. I thought 4-byte width power-on time was standardized a long while ago.",title_body_comments,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/homelab/comments/1uq0lv5/warning_check_your_hpe_branded_hard_drive_firmware/
+B28-032,linux,Making the switch to Zorin 18.1,"What a relief to have the Windows monster off my back. I was going through all my settings this evening and ran across a setting for DNS over HTTPS in Firefox. Since I use Proton VPN, I wondered if I should select the settings Firefox was suggesting or just let Proton handle DNS issues...anyway, after Leo (Brave search engine AI) answered my questions, he had this to say about Zorin. It is a good, short read to me and I am sharing it...
+
+**Prompt:** In case anybody asks Leo, I recently wiped the SSD of my new computer and installed Zorin 18.1. It is one of the smartest moves I've made with computers since being a PC user since the late 80s. I finally have the Microsoft monster off my back. I've been going through my settings on everything since upgrading including Firefox and I came across this section. I've learned (not being a computer software expert) it is better to ask for help if you are not sure than it is to just start pushing buttons. There are places in Firefox settings where they tell you straight-out they want you to have certain settings for them and their partners. Deep down, I don't really want to share anything with anybody that I am not personally choosing. I like Firefox and have been using it for many years. Are they required by law to declare this potential conflict of interest or are they doing it of their own volition?
+
+**Co-Prompt** (Leo didn't answer the first part of the question and I edited-out his response about DNS over HTTPS): Have you had similar reports of people being happy after switching from Windows to Linux, particularly Zorin?
+
+**Response**: Yes, your experience is part of a massive, documented trend. Reports of users finding relief and satisfaction after switching from Windows to \*\*Zorin OS\*\* are ubiquitous in the Linux community, particularly following Microsoft's stricter hardware requirements for Windows 11 and the end of support for Windows 10.
+
+\### The ""Zorin Success Story"" Phenomenon
+
+Thousands of users on forums like Reddit and tech blogs describe a journey almost identical to yours: frustration with Windows updates, privacy invasions, or hardware obsolescence, followed by a ""breath of fresh air"" upon installing Zorin.
+
+\*   \*\*The ""It Just Works"" Factor:\*\* A common theme in success stories is the immediate functionality of hardware. Unlike Windows, where users often hunt for drivers, Zorin typically detects and configures Wi-Fi, graphics, and peripherals automatically upon installation.
+
+\*   \*\*Reviving Old Hardware:\*\* Many users report that Zorin (especially the ""Lite"" version) has breathed new life into older laptops that had become unusable under the weight of modern Windows versions, describing the speed difference as ""night and day.""
+
+\*   \*\*Escaping the ""Monster"":\*\* Your sentiment about getting the ""Microsoft monster off your back"" is frequently echoed. Users specifically cite relief from forced updates, telemetry, AI bloatware, and the feeling that their computer is finally a tool they control, rather than a platform for Microsoft's services.
+
+\### Why Zorin Specifically?
+
+While there are many Linux distributions, \*\*Zorin OS\*\* is uniquely positioned to capture these dissatisfied Windows users.
+
+\*   \*\*Familiarity:\*\* It is designed explicitly to mimic the Windows layout (Start menu, taskbar, system tray), drastically reducing the learning curve. Reviews often highlight that users can be productive within minutes of installing it.
+
+\*   \*\*Stability:\*\* Built on the solid foundation of Ubuntu LTS, it offers the stability that long-time Windows users crave, avoiding the ""breaking changes"" often associated with Windows feature updates.
+
+\*   \*\*Gaming &amp; Compatibility:\*\* With tools like ""Windows App Support"" (based on Wine/Proton) and the rise of Steam Deck, many users are surprised to find their favorite games and essential Windows software running smoothly, removing the last barrier to leaving Windows.
+
+\### The Verdict from the Community
+
+The consensus among recent switchers is overwhelmingly positive. Users often describe the transition not as a sacrifice, but as an upgrade in \*\*privacy, speed, and peace of mind\*\*. Your decision to wipe the SSD and go ""all in"" is a bold move that many in the community validate as the best way to fully embrace the Linux mindset, avoiding the pitfalls of dual-booting. You are definitely not alone in considering this one of the smartest moves you've made in decades of computing.",,title_and_body,yes,yes,other,low,The post appears to discuss software without a clear troubleshooting or chiefly critical purpose.,,,,,,,https://reddit.com/r/linux/comments/1ujf8xy/making_the_switch_to_zorin_181/
+B28-033,homeassistant,Can't connect to devices after changing network name,"I recently upgraded my modem (Arris SB s33v3) and router (TP-Link BE3600) on my home network, and enabled dual bands rather than the ""Smart Connect"" option. I then had two networks (2.4 GHz and 5 GHz), whereas in my previous set-up i only had one. I renamed the two networks to add the 2.4 GHz and 5 GHz suffixes.
+
+But now none of my devices that were integrated with HA are online :(. I was able to get my Govee lightstrip on the 2.4 GHz network, but not my:
+
+1. Govee Leak detector hub
+2. WLED light bulbs
+3. WiZ light bulb
+4. Wemo plugs and switches (seems like Belkin stopped supporting them, so maybe there's my answer)
+5. Shelly plug
+
+Thank you for any help!",,title_and_body,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/homeassistant/comments/1rkai3z/cant_connect_to_devices_after_changing_network/
+B28-034,Fedora,Fedora splash screen then black monitor,"I have been running an old iMac with Fedora &amp; akmods for nvidia support for several versions of Fedora.  Yesterday decided it was time to update to version 44.  Installed the update and everything was working fine.  
+
+Today all that is happening is the Fedora splash screen pops up and then the screen goes black. I can boot into the grub screen and select previous editions or the rescue option but they all do the same thing.  When it first booted I thought that something was “updating” in the back ground so I let it go for 15 to 20 mins but nothing showed up.
+
+If I interrupt the boot loader with “e” and remove rhgb quiet I can see verbose mode and it shows ok on everything (no red or errors) up until it then jumps to multiple 2x2 squares at the top of the screen but they are all garbled.  Lights on the keyboard work but I am unable to do anything.
+
+If I interrupt the boot loader with “e” and remove  
+rd.driver.blacklist=nouveau, modprobe.blacklist=nouveau, nvidia-drm.modset=1 the same thing happens.
+
+If I interrupt the boot loader with “e” and if I remove  
+rd.driver.blacklist=nouveau, modprobe.blacklist=nouveau, and change nvidia-drm.modset=1 to nouveau.modset=1 and add rd.driver.blacklist=nvdia the OS shows on the screen as multiple 2x2 pictures across the top of the screen.  I can see the mouse icon move around in the squares and lights on the keyboard are working. This does not give you much to see or to do anything.
+
+If I interrupt the boot loader with “e” and leave  
+rd.driver.blacklist=nouveau, modprobe.blacklist=nouveau and change nvidia-drm.modset=1 to 0 it boots into emergency mode but says cannot open access to console, the root is locked, press enter to continue.  This just loops over and over. 
+
+Any assistance would be greatly appreciated.",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/Fedora/comments/1tho6vf/fedora_splash_screen_then_black_monitor/
+B28-035,Fedora,Cloudflare causes log-in loop after the F44 update,If you have not been able to log into the desktop with recurrent crashes try removing cloudflare WARP as it has been causing the issue for many users. Just thought i would share here!,,title_and_body,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/Fedora/comments/1t56txp/cloudflare_causes_login_loop_after_the_f44_update/
+B28-036,AndroidQuestions,It seems I can't disable haptics when using Telegram vocals input...solutions?,"I recently upgraded to F8 pro, and as title says I want to disable haptics but while everything is off (an exemple: Whatsapp is working correctly), I used general settings from the smartphone, Telegram is stubbornly keeping the haptics on only for the little microphone used to send vocals.
+
+Is this a feature or a bug? Is there a way I can resolve this? I looked at every setting in the Telegram app but can't turn this off.",,title_and_body,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/AndroidQuestions/comments/1vxebsh/it_seems_i_cant_disable_haptics_when_using/
+B28-037,comfyui,Alternative manager for custom nodes that bypasses Comfy Registry's false-positive flags,"An alternative manager for custom nodes that uses \`git\` and the GitHub REST API directly — no [`api.comfy.org`](http://api.comfy.org), no hidden versions, no false-positive flags. Free, open source.
+
+
+
+https://preview.redd.it/z205yxsormsh1.jpg?width=919&amp;format=pjpg&amp;auto=webp&amp;s=a7e180d8bfe9e22949146effd9ed251ec8787a36
+
+https://preview.redd.it/zs8hjt8mtmsh1.jpg?width=1266&amp;format=pjpg&amp;auto=webp&amp;s=7adde139f0a3e8b50bc9b3ed67f6150fd20bea52
+
+GitHub: [https://github.com/Raykosan/ComfyUI-Custom-Node-Manager](https://github.com/Raykosan/ComfyUI-Custom-Node-Manager)
+
+\---
+
+**Why I built this**
+
+
+
+Comfy Registry's YARA-based security scanner keeps flagging legitimate node versions as `NodeVersionStatusFlagged`. Common triggers: `subprocess` calls for ffmpeg, `aiohttp` routes for widget APIs, `huggingface_hub.snapshot_download`. These are normal patterns in production ComfyUI nodes.
+
+
+
+https://preview.redd.it/d5anebtmrmsh1.jpg?width=1328&amp;format=pjpg&amp;auto=webp&amp;s=3eabc92d3ddce583d619157621da3e2ea48146ac
+
+
+
+When a version is flagged, the official ComfyUI Manager hides it from the version list. Users stay stuck on outdated versions even when authors ship critical fixes. I got tired of this, so I built a manager that doesn't care about Registry at all.
+
+
+
+**What it does**
+
+
+
+\- **Install** any node from a Git URL, optionally pinned to a tag/branch/commit
+
+
+
+https://preview.redd.it/i0tphgmyrmsh1.jpg?width=531&amp;format=pjpg&amp;auto=webp&amp;s=91889e4b43452ba073907d2d61a970d2e54a106a
+
+
+
+\- **Switch Version** — browse and switch to any tag, including flagged ones. Tags come from git ls-remote + GitHub API, not Registry
+
+
+
+https://preview.redd.it/exc0xuu3smsh1.jpg?width=526&amp;format=pjpg&amp;auto=webp&amp;s=52486daf9f321ccaed13586844f8188cb2d21814
+
+
+
+\- **Update checking** via git ls-remote (parallel, \~10s for 70+ nodes, no API rate limits)
+
+
+
+https://preview.redd.it/1zyslzo9smsh1.jpg?width=884&amp;format=pjpg&amp;auto=webp&amp;s=87e3d030929493b1c7c8536643e044296b99c326
+
+
+
+\- **Diff preview** before pulling — see commits and \`+insertions −deletions\` stats
+
+
+
+https://preview.redd.it/gckv2e5dsmsh1.jpg?width=511&amp;format=pjpg&amp;auto=webp&amp;s=684cadc1ba9bf80d91db299a473c1a8447da32bd
+
+
+
+\- **Auto-stash** — local changes are preserved before destructive operations, with a UI to restore/drop them
+
+
+
+https://preview.redd.it/h99t81opsmsh1.jpg?width=509&amp;format=pjpg&amp;auto=webp&amp;s=a144771bc7f2491466554f639570800323f248d3
+
+
+
+\- **Attach Git Remote** — if a node was installed from zip and has no .git, it detects the repo URL from pyproject.toml/metadata.json/README and initializes git without overwriting files
+
+
+
+\- **Batch updates** with checkboxes and progress log
+
+
+
+https://preview.redd.it/ltr93jyssmsh1.jpg?width=887&amp;format=pjpg&amp;auto=webp&amp;s=3dfb647bdec10b3c577f83bb5647cde3bcea75de
+
+
+
+\- **Extended version detection**: `metadata.json → pyproject.toml → __init__.py::__version__ →` [`version.py`](http://version.py) `→` [`setup.py`](http://setup.py) `→ package.json → git tag → git describe`
+
+
+
+\- **Startup bootstrap** — background scan + update check 1s after server start, so the manager opens instantly with fresh data
+
+
+
+\- **i18n**: English, 中文, Русский
+
+
+
+https://preview.redd.it/j607tzzvsmsh1.jpg?width=556&amp;format=pjpg&amp;auto=webp&amp;s=4e2da35d6b3e1f2bcc4fe453bd7349c001bed227
+
+
+
+\- **VRAM cleaner** and updates indicator in the top bar
+
+
+
+https://preview.redd.it/ct5d458xsmsh1.jpg?width=164&amp;format=pjpg&amp;auto=webp&amp;s=6ae2fcc7d850e3376a6bea7c8d1a4b1cc89f51c6
+
+
+
+**What it doesn't do**
+
+\- No Comfy Registry integration. Not for updates, not for version lists, not for anything. If you rely on Registry for discovery, this isn't a replacement for the discovery part — it's for people who already know which nodes they want and are tired of artificial restrictions.
+
+\- No auto-flagging or reporting. It just doesn't participate in that system.
+
+\- Not a ""manager"" in the discovery sense. It doesn't browse a catalog. You install what you already know you want.
+
+
+
+**Feedback welcome**
+
+If you find bugs or have feature requests — GitHub issues.","[1:reply] But, there is also [Open Manager](https://github.com/WASasquatch/open-manager-comfyui) already..  
+Why build another one?
+[2:reply] It's intentionally auto-flagged by their Rabbit analyzer. It's almost always catching actual issues, like path traversal.
+
+I prefer using git clone over a bloated UI.
+[3:OP] Fair points — let me address both separately.
+
+On the scanner: You're right that some flags catch real issues, and I'm not claiming otherwise. But there's a well-documented class of false positives that keeps coming up in Comfy-Org/ComfyUI-Manager issues and in node authors' rep…
+[4:OP] Fair question. Open Manager is a solid project, but it's solving a different problem.
+
+I took a look at it — it's a full workspace manager (nodes + models + files + resource monitor + desktop mode), and it's deeply integrated with the Comfy Registry. It even uses VirusTotal for…
+[5:reply] How do you make sure it only bypasses false-positives instead of positives?",title_body_comments,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/comfyui/comments/1wu11yz/alternative_manager_for_custom_nodes_that/
+B28-038,homeassistant,Just a reminder on memory,"I just spent all afternoon sorting out trouble with my Home Assistant install not coming back online after trying to update to version 18.0. I thought something had gone terribly wrong as the machine hosting the HAOS VM lost its NIC, and while the HA CLI came up okay, the HA Supervisor kept boot looping and was pinning the server's CPU. I couldn't even reliably watch the supervisor's docker log through the CLI because the system was running so slow as long as it was trying to run the supervisor.
+
+After hours of debugging I come to realize the VM is using all of its memory, and is essentially just hitting everything off SWAP storage. I thought 4 gigs of memory was fine for HAOS since I don't have a particularly complex config, but I guess v18 may not be okay with just 4. I bumped it to 12 gigs and pretty much everything fired up like there was never a problem.
+
+Edit: I've taken a look and the system is idling at 1.5 gigs usage. No clue why it needed more just to boot when it's using so little under normal conditions.","[1:reply] Might be worth checking if you have any integrations that got updated alongside HA and are now leaking. 4GB should handle most setups but v18 changes alone shouldn't require triple the RAM.
+[2:reply] they did do memory swap changes on this version. - it was supposed to be for the better taking into account the memory attached to the system.
+[3:reply] I thought I had a memory leak after the update - I also gave my VM 8 GB because it kept crashing and restarting rather than telling Proxmox it needed more and letting Proxmox give it since I have that option enabled.
+
+Something tells me it might be a bug, but who knows.
+[4:reply] I've had similar issues - the 6GB I've got allocated isn't enough. I've got 8GB RAM in the machine (using a few VMs and LXCs in Proxmox). Lots of things have slowed down on HA - about to upgrade RAM to 16GB
+[5:reply] interesting. I'm on proxmox with 4GB allocated and I didnt see any issues (or any notable change in memory use) after updating to 18.0 this morning, but my setup is probably simpler. Worth keeping an eye on since another comment here echoed yours.",title_body_comments,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/homeassistant/comments/1ubacr2/just_a_reminder_on_memory/
+B28-039,firefox,Firefox text colors reset on startup since last update,"Since the 152 update, whenever I launch Firefox all the text of my active tab, search bar and bookmarks becomes a light red and the settings menu becomes a light blue after a split second of being black colored (which is how it should be). This happens regardless of the theme I'm using, even with just the basic Firefox theme on.
+
+Disabling the theme in the settings fixes it immediately, and it stays fixed even if I reenable it, but then it will once again reset once I restart Firefox.
+
+I've been using Firefox for about a year with a custom userCSS file and this is the first time it ever happens to me. Anyone has any idea what the problem is and how to fix it permanently?",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/firefox/comments/1u9ckce/firefox_text_colors_reset_on_startup_since_last/
+B28-040,comfyui,Are KJNodes 'Set/Get' nodes missing for anyone else after the latest update?,"Hey everyone,
+
+I recently updated ComfyUI and KJNodes to the latest version, but now I can't find the `Set` and `Get` nodes in the search list anymore.
+
+If I load my old workflows, these nodes show up with a red **""frontend\_only""** error and don't work.
+
+I actually checked my `custom_nodes/ComfyUI-KJNodes` folder, and the `setgetnodes.js` file is clearly there. So the file exists, but ComfyUI just refuses to load it.
+
+Is anyone else experiencing this? Is this a known issue with the new ComfyUI frontend update? It seems like a compatibility issue, but I wanted to check if there's a quick fix or if I just need to migrate to 'Use Everywhere'.
+
+Thanks in advance!",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/comfyui/comments/1qlhb9q/are_kjnodes_setget_nodes_missing_for_anyone_else/
+B28-041,opencode,I think that compaction bug (Free limit gone/Subscribe to Go) is now resolved!,"Lots of people saying the free limit is reduced and hitting weird rate limit errors. 
+
+There's a new version out - 1.18.17, upgrade and start new sessions. I tried to compact with previous dead sessions but it wasn't having it. Starting a new session seemed to fix it.
+
+Lots of reports on github about this, and it seems to be that once it started a compaction loop it ran in to some error and died.","[1:reply] opencode's compaction sucks, it pretty much kills the session for me
+
+switching to DCP was a gigantic game changer for me for session consistency and longevity
+[2:reply] What’s DCP?
+[3:OP] I found it to be worse - far worse.",title_body_comments,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/opencode/comments/1vmrok1/i_think_that_compaction_bug_free_limit/
+B28-042,homeassistant,Govee Integration - Light taking 30 seconds to respond after update,"I recently (about a week ago) installed a Govee ceiling light after seeing a [review](https://www.pocnetwork.net/product-reviews/govee-21-inch-smart-ceiling-light-ultra/) on it. I thought this was my answer to everything I was looking for. I integrated it with HA using the Govee Integration (cloud-based) so that I would have full control over it, and other than some scenes not triggering from the drop-down, all features worked perfectly, and it has been awesome. 
+
+At least, until the other day, when I allowed HA to update some things, including the Govee Integration, which had an update waiting. Ever since, when I turn the light on or off via HA (via app, web GUI, physical remote linked to device commands/scenes, etc), there is around a 30-second delay before it responds. Today I saw there was yet another update for the Govee Integration, so I allowed it to update and restarted HA again, but it remains an issue. 
+
+Has anyone else run into this? Any ideas for a fix? I spent a lot of time integrating it into a dashboard for a touchscreen, as well as a remote. It was all perfect until this happened.","[1:reply] cloud integrations are a crapshoot after updates, mine did the same thing a while back. rolling back the integration to the previous version fixed it for me but i had to manually install the old files
+
+  
+if you're not comfortable with that, you can try deleting and re-adding th…
+[2:reply] Open a bug request and include logs. The developers can help you much better than we can
+[3:OP] Too bad HA doesn't have a rollback feature for specific updates like that. I don't want to scrap and re-add, in the concern that it might take whatever automations and things with it, making me have to set all of that up again. I'll give it a week or so and if the issue continue…
+[4:OP] Fascinating! I'm going to have to look into that one. Surprisingly I haven't heard about that. *Brushes beard*
+[5:reply] If you don’t already have open code ha installed, I would check it out and ask it to analyze everything for you.  I had to do a few workarounds for my Govee ceiling fan light to behave properly for automations",title_body_comments,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/homeassistant/comments/1vzi8br/govee_integration_light_taking_30_seconds_to/
+B28-043,ios,iPhone 14 Pro Max DFU Problem?,"My phone is an iPhone 14 Pro Max.
+
+After upgrading to iOS 26, the battery completely drained and shut down. When I plugged it in, I realized it wouldn't turn on at all. I tried pressing the volume up/down/power buttons, etc., but it wouldn't turn on. (I didn't even get a picture of the cable and computer, but the phone responded when I plugged it in.)
+
+
+
+After 4-5 hours of charging, I tried to try again and it did. But whenever the battery ran out or I turned it off by myself, it wouldn't come back. Today, while the update was running, it shut itself off and wouldn't turn back on. When I connected my phone to iTunes, it unknowingly recognized my phone as a 14 Pro, so I started the reset process. That's how it turned the phone back into a 14 Pro. :D
+
+
+
+I found an app called 3uTools and downloaded the latest update for the 14 Pro Max, but it gave me the error in the image. I'm not very knowledgeable about these things, and I don't know exactly what to do. I would be very grateful for any help. Thank you in advance.",,title_and_body,unclear,no,na,low,The saved text appears outside software scope or is too vague to classify reliably.,,,,,,,https://reddit.com/r/ios/comments/1ovh310/iphone_14_pro_max_dfu_problem/
+B28-044,MacOS,Tahoe 26.3.1 Display Color/Graininess Bug,"I’m running into a bug that makes the display of my 2023 MacBook Pro (M3 chip) show incorrect colors and a kind of grainy effect. This started about a week after updating to Tahoe 26.3.1. If I reboot it corrects but then after sleeping it'll revert to this distorted color view with grainy text. The grainy text is odd because it's not universal - in areas where text would be blurred as part of the liquid glass look it shows as clear and then there's other random spots throughout a page where it'll be clear, I don't quite see a pattern.
+
+Any tips to fix / diagnose the issue?
+
+The photos \[in comments\] show:
+
+1. the color distortion (and how it doesn't extend to external display as color inversion setting normally would)
+2. how certain parts of the screen are clear while others are grainy
+3. how when inverted colors is turned on the graininess goes away (and you can see other display settings)",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/MacOS/comments/1rxgzd9/tahoe_2631_display_colorgraininess_bug/
+B28-045,vscode,Overheating and High Energy Usage by VS Code,"I am on m4 pro and recently updated to Tahoe. I noticed increased battery usage and heating especially with VSCode and I am already on the latest version which has supposedly fixed the Electron bug.
+
+  
+The high usage happens when I start a server with the vscode integrated terminal. I had two vscode windows open, one had a node js server and the other had a python fastapi server. Even when I shutdown the server, the energy consumption doesn't go back down to normal, it only stops when I close vscode completely.
+
+  
+If I start the servers using regular terminal, energy usage is normal.
+
+  
+Also not sure if this is a Macos Tahoe problem or a vscode problem.
+
+  
+Has anyone else experienced this?",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/vscode/comments/1r2xf4i/overheating_and_high_energy_usage_by_vs_code/
+B28-046,applehelp,Afraid to update (horror story),"This is gonna be a little long so bear with tl;dr at bottom
+
+I have the iphone 14 pro ever since launch and it’s still on version 16.2
+
+Never bothered me until some apps started to say they needed a new ios update.
+
+Ok so I just update right? 
+
+NO
+
+Basically when I try to update it, it downloads and installs then restarts and resets as if nothing happened and it deletes the downloaded update.
+
+Tried to use a pc to force it to download and NOTHING. Doesn’t work.
+
+Then a few months back while traveling to UK on business I visited an Apple store.
+
+They tried the normal way, then they deleted installed vpns. Then they used a mac. Then they used ANOTHER mac. Another cable. Didn’t work.
+
+Then she said that they would force it by basically factory resetting and using my own backup after updating everything to get all data back.
+
+At this point I was around the 40-45 minute mark at the apple store.
+
+Anyways she did that and tried to factory reset my phone and then….. she bricked it. Basically became a paperweight. She couldn’t turn it back to what it was and couldnt update it.
+
+It was stuck in Recovery mode and there was no way to fix it. She told me that it must be a hardware issue and to fix it they need to replace the motherboard and it would cost 250-300 pounds (I don’t actually remember the quoted price might’ve been higher). 
+
+Basically buying a new phone wouldve been better but at that point I was short on money.
+
+I took my phone and after going around contemplating life and cursing my luck I found a phone shop run by pakistanis (i love pakistanis now I owe them my life). 
+
+They basically took my phone and fixed it somehow for like 80 pounds and it took them about a week. He said that they didn’t replace anything but actually fixed the motherboard.
+
+BUT. The phone is still on 16.2. They basically reverted it back to what it was.
+
+Now I try to update and the same thing as before happens. 
+
+Downloads update. Installs. Restarts. Same old version.
+
+What should I do? There are some apps I can’t use and I feel like my phone os starting to slow down.
+
+Tl;dr iphone had motherboad issues and couldn’t update. Haddware issue fixed but still can’t update on its own. Afraid to use a laptop to force it because it bricked the phone before the motherboard issue.",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/applehelp/comments/1soq5dr/afraid_to_update_horror_story/
+B28-047,firefox,Lower speed than other browsers.,"Hello everyone.
+
+  
+I'm a Chrome user, I have been using it with an older build but was forced to update it some days ago and now I can't use uBlock anymore so I'm trying Firefox and I like it because it's very customizable and themes are great compared to Chrome but I have a problem with my download/upload speed.
+
+I can get 400mbps for both download and upload doing test on Chrome but I only get 160 on Firefox. I've tried some different settings but it seems to be ""limited"" to 160 because tests never go beyond that.
+
+Is there anything I could do to try to fix that?.","[1:reply] Are you sure it's the same server you're testing the speed on?
+
+I have 1GB UP and DOWN on Firefox and on Chromium browsers, so you shouldn't be getting a HUGE difference like that unless you potentially used another server that was not good.
+[2:reply] 589 down on Chrome. 583 down on Firefox. Virtually the same.  
+And this is on 500 down connection-- so both better than I'm paying for.   
+Took a screen shot, but this sub won't let me upload.
+[3:OP] Yes, [speedtest.net](http://speedtest.net) and same server.
+[4:OP] I'm paying for 300 and get 400 on Chrome tests but speed on Firefox is really bad.",title_body_comments,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/firefox/comments/1tkxavf/lower_speed_than_other_browsers/
+B28-048,HomeNetworking,Intermittent Network Issues – eero Mesh / FTTP / PiHole Setup [Looking for Input],"SETUP
+
+ISP: TalkTalk FTTP (Openreach infrastructure, Scotland)
+
+ONT: Openreach ONT â€“ confirmed healthy, all lights normal, no alarm
+
+Mesh: 3x eero nodes (few years old, all wireless backhaul)
+
+  \- Node 1 (Primary)  Living room, connected to ONT via ethernet
+
+  \- Node 2 Kitchen, bridges signal to garden cabin
+
+  \- Node 3 Garden cabin, ethernet ports used to connect main PC and a Proxmox server
+
+DNS: PiHole on Proxmox, upstream set to Cloudflare (1.1.1.1) and Google (8.8.8.8)
+
+Affected devices: All wireless - two Pixel 9 Pros, Android TV (Stremio/YouTube), laptop on WiFi, Office PC (ethernet)
+
+\-------------------------------------------------
+
+SYMPTOMS
+
+\- Websites and apps slow to load or failing on first attempt, succeeding after multiple retrys 
+
+\- Streams slow to start, buffering mid-playback, or failing entirely
+
+\- Speed tests failing to initialise or dropping partway through
+
+\- Devices occasionally showing ""connected, no internet"" when rejoining the network
+
+\- Phones dropping to 5G mobile data despite being connected to WiFi
+
+\- Kitchen eero node observed dropping offline briefly then recovering
+
+Symptoms began a few days ago with no obvious trigger or physical changes to the setup.
+
+\-------------------------------------------------
+
+WHAT I'VE RULED OUT
+
+PiHole/DNS - Confirmed working correctly. Upstream DNS was originally Google-only; Cloudflare added as second upstream after detecting 28% packet loss to 8.8.8.8 at one point (since resolved, likely a transient routing issue).
+
+ONT/Fibre line - Physically inspected, all indicator lights healthy. FTTP so no copper line quality concerns.
+
+Network congestion - eero activity tab reviewed, usage figures normal (TV 63.9GB, PC 58GB, PS5 34.3GB over a week).
+
+Device-specific issues - Multiple device types affected rules out any single device.
+
+VPN interference - ProtonVPN was active in one browser on the office PC during some testing only. Confirmed this would not affect network-wide symptoms.
+
+WiFi signal strength - Packet loss persists even with laptop sitting directly next to the primary eero node (tested on WiFi &amp; ethernet)
+
+\-------------------------------------------------
+
+PING TEST RESULTS
+
+Note: eero is known to rate-limit ICMP to its own gateway IP (192.168.4.1) so those results may not be fully reliable.
+
+To 192.168.4.1 (gateway) via laptop WiFi next to primary node -- 15% loss
+
+To 1.1.1.1 via laptop WiFi -- 2% loss
+
+To 8.8.8.8 via laptop WiFi -- 28% loss (transient, later resolved)
+
+To 192.168.4.1 via laptop ethernet direct to primary node -- 6-28% loss (variable)
+
+To 1.1.1.1 via laptop ethernet direct to primary node -- 14% loss
+
+To 192.168.4.1 via office PC ethernet to cabin node -- 20% loss
+
+To 1.1.1.1 via office PC ethernet to cabin node -- 10% loss
+
+To 192.168.4.1 via office PC ethernet to cabin node (later test) -- 14% loss
+
+To 1.1.1.1 via office PC ethernet to cabin node (later test) -- 0% loss although this increase again later
+
+Traceroutes to both 1.1.1.1 and 8.8.8.8 showed clean hops with consistent low latency, suggesting the issue is intermittent rather than constant.
+
+\-------------------------------------------------
+
+EERO FIRMWARE
+
+\- Was on 7.14.1 when issues started
+
+\- Updated to 7.15.0 during diagnosis â€“ partial improvement but issues persist
+
+\- All three nodes confirmed on 7.15.0
+
+\- Full mesh reboot performed (all nodes unplugged simultaneously, restarted in order primary &gt; kitchen &gt; cabin)
+
+\- Kitchen node observed dropping offline briefly post-update
+
+\-------------------------------------------------
+
+CURRENT STATUS
+
+After the full mesh reboot and firmware update, performance has improved somewhat. A speed test on a phone in the garden cabin completed successfully at 88Mbps down / 28.7Mbps up - the first clean speed test in a few days although this was short lived however, as speed tests are still failing, connections are still spotty &amp; packet loss to the gateway remains variable and symptoms intermittently recur.
+
+\-------------------------------------------------
+
+QUESTIONS
+
+1. Could eero 7.15.0 (or the 7.14.1 to 7.15.0 transition) be causing this level of instability on older eero hardware (probably no more than 3yrs old)?
+
+2. Is the variable packet loss to 192.168.4.1 genuinely indicative of a problem, or is it just eero rate-limiting ICMP to its own gateway IP?
+
+3. Could the primary eero node be failing/degrading given its age, and if so what are the tell-tale signs?
+
+4. Any other diagnostics worth running before contacting eero support?","[1:OP] After plugging directly into the eero router via ethernet &amp; running a ping [1.1.1.1](http://1.1.1.1) with 500 packets I got a 23% loss however, when I bypass the eero router &amp; plug directly into the ONT I got 0% loss so it looks like it's most definitely an issue with th…
+[2:reply] If you're eero router isn't reliable for pings you're going to need another ethernet device connected to test from your wired PC. Testing anything over wireless before you have a solid network connection over wired is going to be wasted time.
+[3:OP] I've also pinged thesom eero over ethernet using a laptop connected to the main eero gateway.
+
+
+Is that what you mean?",title_body_comments,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/HomeNetworking/comments/1u1i0gl/intermittent_network_issues_eero_mesh_fttp_pihole/
+B28-049,immich,Admin Account crashes browser after upgrade to 2.3.1,"I upgraded my docker-instance from 2.2.2 to 2.3.1. Since I ran into problems, I returned to 2.2.2 by using the automatic database-dump and a fresh docker-install in version 2.2.2, according to the [docs](https://docs.immich.app/administration/backup-and-restore). That worked for my ""normal"" user, but my admin account crashes immich in my browser. I can enter my password, I am even authenticated and the frontend loads, but no pictures are shown and the website does not respond any more - the browser even tells me, the webpage stopped working. I tried different computers and browsers and deleting my local cache.
+
+The postgres container shows this warning:
+
+    2025-12-05 11:09:30.933 UTC [39] WARNING:  corrupted statistics file ""pg_stat_tmp/global.stat""
+
+Any ideas on this issue and where I could look into?",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/immich/comments/1pf2rl2/admin_account_crashes_browser_after_upgrade_to_231/
+B28-050,chrome,Something strange is happening to Google Chrome.,"Hi! Today I turned on my PC and launched Google Chrome as usual, but the account selection screen didn't appear. One account opened automatically, but it doesn't show my YouTube subscriptions or my bookmarks. I tried opening another account, but the page says error 404, and the link is duplicated in the address bar. I haven't installed anything, and I don't have any extensions other than an ad blocker. I'm mentioning this because I know there have been fraudulent updates for certain extensions. Does anyone know if this is due to a bug in the update, or could it be something more unusual? Everything looks normal on my phone in my Google accounts.","[1:reply] Thank you for your submission to /r/Chrome! We hope you'll find the help you need. Once you've found a solution to your issue, please comment ""**!solved**"" under this comment to mark the post as solved. Thanks!
+
+
+*I am a bot, and this action was performed automatically. Please […",title_body_comments,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/chrome/comments/1vs9jnd/something_strange_is_happening_to_google_chrome/
+B28-051,Fedora,/usr read-only after update,Just updated to Plasma 6.7 and I cant open any apps at all! I cant even run sudo dnf update because apparently /usr is read-only! Anyone know how to fix?,"[1:reply] Yeah my fedora install was also fucked. Had to reinstall the entire OS, did an update, now boots into a black screen. I dont know what they did, but they fucked some things up really bad.
+[2:OP] I'm never going back to Fedora after this",title_body_comments,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/Fedora/comments/1u8e2e2/usr_readonly_after_update/
+B28-052,Dell,windows 10 update turned dell laptop into a brick,"Last security update on Jan 13th broke my laptop.
+
+Every program keeps freezing and doesn't do anything. Even when I open task manager it may run for a minute but soon it will freeze, and can't even end task.
+
+Only thing that is working is my browser. Yesterday I managed to reinstall windows using a USB and it was working again. While i was away, it forced an update and once again the same issues arise. 
+
+laptop is too old to install 11, and going to try and reinstall windows again. 
+
+There a way  I can turn off the windows 10 update before this happens again? Don't know if there is a patch to address this soon.
+
+Dell inspiron 15 7559",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/Dell/comments/1qnynjc/windows_10_update_turned_dell_laptop_into_a_brick/
+B28-053,firefox,Firefox no longer auto logging into websites since update 15.2.0.1,"I've tried several ""fixes"" to no avail, clearing the cache, deleted all form data etc
+
+I still now have to manually login to every site as if for the first time, on every new session.
+
+I have to manually enter my username and password and get 2FAd every time, despite never having changed the option away from storing my usernames and pswds.
+
+Facebook is the biggest PITA of them all, giving me endless loops of captchas where it's not even possible to see the images properly, for selecting all cars, buses etc.... Even when completed correctly the captchas keep looping.
+
+Is this a know issue?
+
+Anyone else having the same problem? It's been about 4 days now. Clearing the cache seemed to help for that one session, but then the next 2 days the problem keeps recurring.
+
+Does anyone have a fix?
+
+Maybe I'll try Brave again, but last time that hogged a vast amount of system resources. And so that will be another problem that will need fixing if I try that route.
+
+I refuse to consider Edge or Chrome due to the data harvesting and lack of privacy prortections.
+
+Any other good private browsers worth considering at this point?
+
+All helpful replies appreciated.
+
+Thanks!","[1:reply] Works fine for me on android
+[2:reply] I wasn't having any issues with 152.01, and now just updated to 152.02 and all my website I was on before the update, still logged in, etc. Running in windows.
+[3:reply] From the symptoms you describe, it sounds as if cookies and site data are being routinely wiped. I don't know how because I don't know the history of your Firefox install.",title_body_comments,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/firefox/comments/1udn0h2/firefox_no_longer_auto_logging_into_websites/
+B28-054,HomeNetworking,R8000P Router IP Reservation not Working,"Have an older R8000P that works well in my situation.  Except I have one device on my WAN that I would like to reserve an IP address.  The devices does not allow me to assign an IP so it must be done by reservation.
+
+Doing some Googling I found the firmware I have installed (apparently the latest - 1.4.4.94\_1.3.56) has a bug in the reservation section.
+
+In poking around the Netgear community it appears there was a beta firmware released back in 2023 to address this but I cannot find it on the Netgear website.  And the two suggested workarounds are #1 using the browser developer tools and entering some code or #2 downgrading firmware, add the reservation, then updating firmware.  I looked at the web developer tools and what shows on my screen is nothing like what is documented and I don't see on the Netgear site where to get an older, working firmware.
+
+So was wondering if anyone here either has another fix or maybe the 'beta' firmware. Or perhaps a better subreddit to ask??
+
+Also the IP address list is not right.  My DHCP starts issuing IP's starting at 100.  So the last digit of the 4th octet is missing ????
+
+https://preview.redd.it/wi39gaueuw7h1.png?width=577&amp;format=png&amp;auto=webp&amp;s=c582bf89f003d1e1086285c1a7d82dcab74d963c
+
+Thanks","[1:reply] The Javascript in the web UI incorrectly modifies the MAC address you enter, resulting in an invalid submission.  [https://www.ifixit.com/Guide/Solved:+Netgear+Address+Reservation+-+Invalid+MAC+Address+%5BWorkaround%5D/162994](https://www.ifixit.com/Guide/Solved:+Netgear+Address…",title_body_comments,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/HomeNetworking/comments/1u8mdvf/r8000p_router_ip_reservation_not_working/
+B28-055,comfyui,[Update/Fix] Fixed Image &amp; Workflow Drag-and-Drop for Fill-Nodes on Newer ComfyUI Frontend!,"Hey everyone,
+
+If you’ve been using **Fill-Nodes** recently and noticed that dragging and dropping images or workflow files stopped working after updating to the newer ComfyUI frontend, you’re not alone!
+
+Recent updates to the ComfyUI frontend changed how node drop events are routed, which caused valid drops to silently fail. I’ve put together a patch that fixes this entirely within Fill-Nodes—no core ComfyUI modifications needed.
+
+# What this fix restores:
+
+* **Image Drops:** Dropping image files directly onto `LoadImage` / `LoadImageMask` nodes.
+* **Auto-Create Node:** Dropping images onto empty canvas space to automatically spawn a `LoadImage` node.
+* **Workflow Drops:** Dropping workflow files (JSON) directly onto empty canvas space.
+* **Metadata Loading:** Restored workflow metadata loading from PNG, WebP, AVIF, MP4, MOV, and M4V files.
+* **Cleanup:** Normalizes stale workflow media references prior to loading (like duplicated subfolder paths or leftover `rgthree` preview refs) so you don't get spammed with missing preview errors!
+
+# Where to get it:
+
+The PR has been merged into the main repository, so **you can update directly from either repo** depending on what you use:
+
+* **Official Main Repo:** filliptm/ComfyUI\_Fill-Nodes
+* **My Fork Repo:** MISEMUNJIOZONE/ComfyUI\_Fill-Nodes
+
+*(Tested and verified working on the latest ComfyUI frontend alongside extensions like Mixlab).*
+
+Hope this saves you guys some headaches! Let me know if you run into any issues. Happy generating!",[1:OP] [MISEMUNJIOZONE/ComfyUI\_Fill-Nodes: Fix image and workflow drag-and-drop on newer ComfyUI frontend](https://github.com/MISEMUNJIOZONE/ComfyUI_Fill-Nodes),title_body_comments,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/comfyui/comments/1v4hrq2/updatefix_fixed_image_workflow_draganddrop_for/
+B28-056,MicrosoftEdge,"Getting Spotify error ""playback of protected content is not enabled"" only on Edge","Randomly started getting this Spotify error on Microsoft Edge, also in incognito mode. Not sure what's happening as [open.spotify.com](http://open.spotify.com) works fine on Firefox. Anyone come across this issue before? I'm on Windows 10 Pro 22H2 19045.6691 if that helps. Many thanks
+
+Edit:
+
+Forgot to mention the following Edge settings are, turned on:  
+Allow sites to play protected content (recommended)  
+Allow identifiers for protected content (computer restart may be required)
+
+  
+EDIT 2:  
+SOLVED:  
+1. Delete %LOCALAPPDATA%\\Microsoft\\Edge\\User Data\\WidevineCdm  
+2. Go to edge://components,   
+3. Update ""Widevine Content Decryption Module""  
+4. Restart browser",,title_and_body,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/MicrosoftEdge/comments/1pqm5xc/getting_spotify_error_playback_of_protected/
+B28-057,applehelp,Anyone else still having Face ID issues after 27.0.1?,"I am using a 17 Pro Max which wasn’t supposed to be one of the affected devices anyways. Since I updated to iOS 27 Face ID randomly freezes. It works about 50% of the time. 
+
+Was excited for 27.0.1 but it didn’t fix anything for me.",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/applehelp/comments/1wvos19/anyone_else_still_having_face_id_issues_after_2701/
+B28-058,sysadmin,Hey Microsoft. Why are email bodies able to be overwritten via api?,"I got THE CALL from an elderly relative yesterday. ""Hackers are in my emails!""
+
+I thought it was just the usual empty threat email spam as usual, nope, this was full blown compromise. 
+
+There were dozens of draft emails being created and deleted every few seconds to ensure the account owner would see the activity. Same ransom message you would expect. ""We saw you doing things, we are in all your systems. All hope is lost. Give us bitcoin. 
+
+Fortunately this email address wasn't their primary mailbox. It was an old hotmail (now outlook) account they kept around forever just to keep up with whatever newsletters they were subscribed to. 
+
+Checking their account login history showed they were actively being logged in from 4 different countries. 
+
+I did the usual. Virus scan, logout from everywhere, change password, enable 2fa, delete email rules, delete app passwords. I don't think I deleted any potential passkeys, which was most likely the next issue. 
+
+At first it was just inbox \[Draft\] mail spam. Nothing was actively going out, just an annoyance. I figured let the Log Out From Everywhere run its course as it can take some time to reach further countries. 4 hours later I get a text saying the spam is ""slowing down"" only 1 draft every few min, not the 10-20 per second it was before.....Good I thought, mission accomplished. 
+
+Oh no, it got worse. 
+
+Call this morning, ""ALL MY EMAILS ARE OVERWRITTEN!""
+
+In my brain I am thinking, that is not a thing, emails are read only. They can be deleted, or copied, or forwarded, but you can't overwrite an email. Right?
+
+NO! FUCKING WRONG!
+
+I hop back into their pc, to see, yup, all their emails areoverwritten....at least the body is. An email from a year ago regarding some event ticket sis still there, same recieve date, same subject, same sender, attachment still intact, but the body of the email is now the ransom message. 
+
+I start thinking this has to be one the computer, some local html overwrite, a rouge browser plugin? Something. This is not a thing that can happen. Emails are read only. Nope. Further research and I find that sure enough Macrosorft in their infinite wisdom allows for PATCH API calls to email bodies. It was apparently meant for drafts only but it works everywhere. 
+
+[https://learn.microsoft.com/en-us/graph/api/message-update?view=graph-rest-1.0&amp;tabs=http](https://learn.microsoft.com/en-us/graph/api/message-update?view=graph-rest-1.0&amp;tabs=http)
+
+As soon as I see this I tell them, We are nuking this acocunt, sorry. I am going to close the account because I don't want it to send spam to people with your name on it. I'll move you to anywhere else. Gmail, Yahoo, AOL, don't care. 
+
+I can't get to the account settings. It prompts for authentication, says too many failed login attempts. Try to change the password, too many 2fa codes sent, try tomorow. I can see the emails. I can refresh the outlook mailbox page, but I can't get to the account settings to close the account. 
+
+I am just mad. I am mad at the damn hackers for preying on people who don't know better. I am mad at myself for missing the passkey (not sure if this is it, but it is the one thing I didn't check). I am ABSOLUTELY FURIOUS WITH FUCKING MICROSOFT. Readwrite permisisons on existing email bodies!? Fucking REALLY? You saw all the nonsense about ransomeware encrypting local files and thought, yeah let's open the door to emails too!?",,title_and_body,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/sysadmin/comments/1s4b3cv/hey_microsoft_why_are_email_bodies_able_to_be/
+B28-059,sysadmin,Anyone seeing issues with TRIM not working on Proxmox after Windows 11 OS updates May 2026?,"I already troubleshooting for a few days and gave up.  I couldn't get TRIM working on Proxmox lvm-thin.  Proxmox v9.2-1.  Windows 11 25h2, just one VM.  Windows thought it was sending TRIM commands, to release the thin space.  Proxmox thought Windows was still using that space.  I tried things from the Windows and Proxmox side, no luck.  Defrag and the powershell lines in Windows still said Windows was running TRIM, completed 100%.  Fstrim on the Proxmox side just said Windows was still using that space.  SDelete and even Gparted work will cause the Windows 11 VM to churn through more data, so Proxmox sees that eventually using all the thin space given to the Windows 11 VM.
+
+  
+I found a post saying something in the May 2026 Windows 11 OS updates broke TRIM.  Is that true?  Any workaround that actually get it working again?
+
+  
+I'm done troubleshooting it.  I moved on to exporting/importing and doing a clean proxmox LVM only install, along with resizing some VM hard drives.  I'm just curious if anyone else had seen that issue.","[1:reply] I had a similar issue on a Windows 2019 server. Ended up moving to a new virtual disk and I ""think"" it's working.
+
+Interestingly, if I ran sdelete and then trim on the original disk, proxmox would reclaim that data, but it would never reclaim any other free space. I suspected if…
+[2:reply] https://github.com/virtio-win/kvm-guest-drivers-windows/issues/1574
+
+A workaround is available.
+[3:OP] That's github post I found before.  What's the work around though?  Roll back OS updates to before May 2026?  SATA instead of Scsi for hard disk type (didn't work for me).  
+
+  
+I had other issues on my set ups.  Didn't realize what thin space meant.  Made the hard drive too lar…
+[4:OP] That's exactly what happened to me.  I let SDelete run as long as it wanted though, and then I found the VM frozen when the thin space was filled up 100% (but my vm disk was also too large to begin with).  You're saying just starting SDelete frees up something to get TRIM actual…",title_body_comments,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/sysadmin/comments/1vy1z3u/anyone_seeing_issues_with_trim_not_working_on/
+B28-060,firefox,Random freezing when deleting history pages.,"Title, for some reason, I noticed my Firefox's deleting would pause for a moment, then delete no problem, yet now, after the update? There's a huge delay and some lag then it deletes. Anyone else suffering from this?",[1:reply] Notorious Firefox problem - inefficiently handling of the SQL database,title_body_comments,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/firefox/comments/1u8c3h9/random_freezing_when_deleting_history_pages/
+B28-061,ios,26.1 frees up &gt;120GB storage,"I discovered 26.1 update was available this morning on my iPhone Air, but when I tried updating it said I was out of space! I couldn’t believe it as I thought I had tons of space but turns out over half my storage was being used by System Data. There was a bug years ago that caused a similar issue but I thought Apple had fixed that. Fortunately after updating, over 120GB of that wasted space was cleared out.
+
+Anyway my guess is that in this case the space was used by viewing spatial images, iOS likely generates temporary files for that which apparently uses huge amount of space. Hopefully this issue is resolved in this latest version..",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/ios/comments/1ooa08r/261_frees_up_120gb_storage/
+B28-062,applehelp,Logging back in from a Hello screen,"I had a NAND issue on the motherboard, had to go and ask someone to fix it. Done fixing, already updated to 26.3.1.
+
+It gave me a Hello screen and I tried the Apple Devices on my PC. I know it's not Windows but I tried. It doesnt work. I still had to try using my hotspot and it seems it needs a Wi Fi network.
+
+I did the ""trust"" on the PC and phone, it recognised the phone. Then it went on to ""deject"", repeated over and over again. It reads the phone, how I named it and all but wouldn't allow me to log in back.
+
+Is it common? What can I do now?",,title_and_body,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/applehelp/comments/1uwgyl4/logging_back_in_from_a_hello_screen/

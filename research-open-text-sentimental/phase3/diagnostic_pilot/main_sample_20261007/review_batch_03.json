@@ -1,0 +1,252 @@
+[
+  {
+    "sample_id": "M20261007-101",
+    "title": "FGO/Arknights constantly crashing",
+    "post_body": "I've been using a Samsung Galaxy A15 since 2024, But I'd say for the past 6 or so months when attempted to play FGO and Arknights my phone has moments where it'll crash during a NP (FGO) or a loading screen (Arknights) majority of the time, it's very weird to be because on my older phones these games would run with no problem with no crashes at all, I've uninstalled and reinstalled these games numerous times and it doesn't really change, I remember noticing it after installing a Arknights update for a event that many of the community found laggy. I don't really know what to do, any help would be appreciated !"
+  },
+  {
+    "sample_id": "M20261007-102",
+    "title": "Ubuntu 26.04 App Center problem",
+    "post_body": "https://preview.redd.it/p3u0zf9pucxg1.png?width=2294&amp;format=png&amp;auto=webp&amp;s=730edb3ca7fb214c85e047033dc7a669f8854ac2\n\nAfter fresh installing Ubuntu 26.04, when I open the App Center, it keeps as in the screen capture (yes, that black rectangle is supposed to be the App Center). At first, after that, the network adapter used to lose connection, but after installing the r8168-dkms, the internet conection problem was gone. I still have the black window when I open the App center and then,  if I open anything related to video (like youtube) it becomes laggy or unresponsive. \n\nOther thing to keep in mind is that, when I tried to play The Witcher 3 from steam, graphics where laggy in the intro screen, and no graphics, only menu boxes in the menu screen. Sometimes the game started well but the game crashed when loading a savegame. My solution was changing to GE-PROTON (which works lika a charm). \n\nSo my thoughts is that it could be due a something with the graphics driver. I own an RX6500XT 4GB. \n\nIs there any solution for this? Or maybe I'll have to wait to get an update that corrects this kind of problems?"
+  },
+  {
+    "sample_id": "M20261007-103",
+    "title": "Latest update has LazyVim complaining about winborder being an unknown option.",
+    "post_body": ""
+  },
+  {
+    "sample_id": "M20261007-104",
+    "title": "no sound from laptop speakers",
+    "post_body": "There's actually a lot of people having this kind of issue with the speakers not working but headphones and every other connected audio device working.\n\nThis issue has personally been pretty painless for some time, I could reboot my system and it would work for quite some time until it was'nt (completely randomly). But it has now become permanent and my speakers won't work at all... maybe after a system update.\n\n  \nI have tried reinstalling pipewire and wireplumber, checking if my sound wasnt muse in alsamixer, installing pavucontrol...\n\nLaptop : Asus Zenbook ux3405\n\nOs: Fedora 44 Workstation updated to last kernell\n\nI can agree on the fact that I'm a braindead ex-windows user and that my report is vague... I can provide any information needed if someone wants to help me resolve my issue."
+  },
+  {
+    "sample_id": "M20261007-105",
+    "title": "Codex Plugin Stuck Loading...?",
+    "post_body": "With the latest VS Code update (1.106.2) and the latest Codex Plugin (0.4.46), my plugin is just hanging. It won't load. It's forever spinning. \n\nAnyone else having these issues?"
+  },
+  {
+    "sample_id": "M20261007-106",
+    "title": "HELP ME GUYS ASAP",
+    "post_body": "Hey everyone, I'm facing a boot issue with Fedora after a kernel update today and I don't want to reinstall fedora, since I lost important data once before.\n\nSystem details:\n\nLaptop: HP Pavilion 15\n\nCPU: Intel i5 12th Gen\n\nGPU: Intel Iris Xe (integrated graphics)\n\nOS: Fedora (dual boot with Windows)\n\nWindows boots normally without any issues\n\nWhat happened: I updated Fedora today and it included a kernel update. The system was running fine before reboot. After rebooting, Fedora stopped booting.\n\nCurrent behavior:\n\nI can't see the HP logo normally.\n\nGRUB menu appears only if I esc startup and then choose fedora from there and also windows can be booted form there.\n\nWhen I select Fedora (latest kernel), screen goes completely black.\n\nNo blinking cursor, just pure black screen.\n\nSame issue happens with older kernels and even the rescue kernel.\n\nIf I escape startup and go to BIOS boot menu, I can boot Windows normally. \n\nWhat I've already tried:\n\nBooting older Fedora kernels → still black screen\n\nBooting rescue kernel → still black screen\n\nAdding nomodeset (not any more variation of parameters cause I'm scared a bit) to latest kernel parameters → still black screen\n\nSo right now:\n\nGRUB works\n\nWindows works\n\nAll Fedora kernels lead to black screen\n\nI'm suspecting this might be related to Intel graphics or kernel update issues, but I'm not sure how to proceed from here without risking data loss. \n\n\nEdit: After a day and night full of trying all solutions, I've decided to reinstall fedora and backed up my home folder for data. I think all this was caused by Intel graphics regression after update in latest kernel which then also messed up booting of older kernels as all kernels boot on same graphics stack."
+  },
+  {
+    "sample_id": "M20261007-107",
+    "title": "Firefox is blocking a mouse macro to close tabs",
+    "post_body": "Hi everyone,\n\nAfter Firefox updated yesterday, one of my Logitech mouse macros stopped working.\n\nThe macro is very simple and is only used to close browser tabs (Ctrl+W). Everything was working normally before the update, but now Firefox seems to be blocking that specific function.\n\nA few details:\n\n* The issue started immediately after the Firefox update yesterday.\n* I'm using a Logitech mouse with the macro configured through Logitech software.\n* The macro still works normally outside of Firefox.\n* I tested the same macro in other browsers (Chrome, Edge, etc.), and it closes tabs without any problem.\n* Firefox is the only browser where the tab-closing action is not working.\n* Other mouse buttons and functions appear to work as expected.\n\nHas anyone else experienced this after the latest Firefox update? Did Mozilla change something related to shortcut handling, input simulation, or macro-generated key presses?\n\nAny ideas or troubleshooting steps would be appreciated.\n\nThanks."
+  },
+  {
+    "sample_id": "M20261007-108",
+    "title": "Google Chrome update version 142 cause diagonal line bug",
+    "post_body": "Hello, \n\nI am getting diagonal lines in Next.js projects with the latest Chrome update version 142. It is appearing on some old projects and some new. Mostly appears in website footers, but not always. \n\n  \nHas this happened to anyone? \n\nMy app \"The Cool Case Converter\" which I haven't touched in many months, now has a diagonal line going across it. See screenshot.\n\nhttps://preview.redd.it/60kk67bbr2zf1.png?width=1884&amp;format=png&amp;auto=webp&amp;s=2fe3375d10fe3182a2edee100e4b39b5502ad471\n\n  \nAnd here another screenshot from a website footer. Similar diagonal line.\n\nhttps://preview.redd.it/jwszk4ag53zf1.png?width=1768&amp;format=png&amp;auto=webp&amp;s=915200167af44732a9f636da19537a2047d66fa9\n\n  \nI noticed In Google Chromes settings “System” there is an option to turn off “Use graphics acceleration when available”. This actually stops the white line bug from rendering. However this setting is turned \"ON\" be default. So this bug could be effecting most people. I need to find a better solution.\n\nMy graphics card is NVIDIA GeForce RTX 3050 OEM"
+  },
+  {
+    "sample_id": "M20261007-109",
+    "title": "GUI issue upgrading from 24.04 to 25.10",
+    "post_body": "Hi, I recently upgraded from 24.04 to 25.10 using the upgrade pop-up. I now have this annoying issue where when Dark Style is active my file explorer type windows are completely transparent but I can still see the icons and window title bars are transparent too. When I switch to \"Light\" Style I get a mix of dark and light where the file explorer windows have a dark background but modals and text editor etc have a light background. I tried upgrading to 26 now but the issue persists, anyone know what I can do to fix it?\n\nThere are other issues like apps like Slack now need to be forced to run with x11 otherwise it doesn't launch. Also noticed on the Settings app that all main section text seems cramped."
+  },
+  {
+    "sample_id": "M20261007-110",
+    "title": "Extra row of space after Chrome 140 update",
+    "post_body": ""
+  },
+  {
+    "sample_id": "M20261007-111",
+    "title": "iPhone 6S with broken home button stuck on upgrade screen and my assistive touch got disabled",
+    "post_body": "There is a passcode so I can’t connect to iTunes and restore but I know the passcode but I can’t enter it to make it past the security block"
+  },
+  {
+    "sample_id": "M20261007-112",
+    "title": "Microsoft Devs - Please fix the white line at the bottom of the window when the taskbar is set to autohide, that can cause burn in on OLED TVs and monitors - Edge update caused this months ago.",
+    "post_body": "Is this ever going to be fixed? It's been months and it's a pretty serious issue.\n\nThis white line is permanently there, covering images and anything that isn't white.\n\nEven if someone from MS acknowledges it, at least we would know it's on the radar. I switched to Edge about a year ago after being a loyal Firefox user since the beginning, and Firefox actually had exactly the same issue for a while, but they fixed it after a couple of months. You can't just break things and then leave them like that.\n\nGoing to full screen is not a fix, especially considering how slow the address bar animation is, and the fact you can't do much else when in full screen."
+  },
+  {
+    "sample_id": "M20261007-113",
+    "title": "TTS/Read Aloud Issues",
+    "post_body": "Read Aloud/Edge's TTS feature on the IOS app is not functioning properly since the latest update. The error message \"switched to offline voice due to poor internet connection\" continues to pop up. It appears to be an issue dating back to 12/1 when Microsoft changed their edge API. \n\n  \nJust wanted to share this that might explain what happened to the mobile version: [https://github.com/travisvn/edge-tts-universal/issues/19](https://github.com/travisvn/edge-tts-universal/issues/19)\n\n\n\n    ## Evidence: Microsoft API Breakage (December 2025)\n    \n    ### Timeline of Events\n    \n    **Around December 1, 2025** - Microsoft made breaking changes to their Edge TTS API:\n    - Introduced 10-minute audio limit per request\n    - Introduced 4096 byte chunk enforcement\n    - Changed authentication requirements (401 errors)\n    \n    Source: [GitHub Issue #440](https://github.com/rany2/edge-tts/issues/440) - User reported: *\"Microsoft made changes to their service around December 1, 2025... It was previously working for me, but stopped sometime on Tuesday\"* with 401 authentication errors in logs.\n    \n    **December 8, 2025** - Mass breakage reported:\n    - [Issue #442](https://github.com/rany2/edge-tts/issues/442): *\"edge-tts stopped working after functioning properly earlier in the day\"*\n    - [Issue #443](https://github.com/rany2/edge-tts/issues/443): Same NoAudioReceived error, 38 comments within hours\n    - Key quote from #442: *\"Microsoft made changes to their Edge TTS API that introduced new requirements (10-minute audio limit, 4096 byte chunk enforcement). The edge-tts 7.2.3 update attempted to handle these changes but introduced a bug.\"*\n    \n    **December 11-12, 2025** - Python `edge-tts` fixed with 4 rapid releases ([PyPI History](https://pypi.org/project/edge-tts/#history)):\n    \n    | Version | Date | Fix |\n    |---------|------|-----|\n    | 7.2.4 | Dec 11 | \"Resolve NoAudioReceived issue\" |\n    | 7.2.5 | Dec 11 | \"Setup old endpoint again with MUID support\" |\n    | 7.2.6 | Dec 11 | Switched back to macOS endpoint |\n    | 7.2.7 | Dec 12 | TypedDict update |\n    \n    Commit 3ba9fbf on Dec 11 fixed 8 issues at once: #416, #421, #436, #437, #440, #442, #443, #444\n\n\n\nhere is why it think mobile version will not work\n\n    ### Why Mobile Cannot Work with Edge TTS\n    \n    **The Fundamental Problem:**\n    - Microsoft's Edge TTS API requires the header: `Origin: chrome-extension://jdiccldimpdaibmpdkjnbmckianbfold`\n    - **Browser WebSocket API cannot set custom headers** - this is a browser security restriction\n    - Mobile Obsidian runs in a WebView (browser-like environment)\n    - No amount of code changes can fix this - it's a browser security feature"
+  },
+  {
+    "sample_id": "M20261007-114",
+    "title": "EKS with Rancher and Node Groups - does anyone has such terrible experience with it?",
+    "post_body": "I managed (or try to do so) multiple EKS clusters with Rancher (v.2.12). The clusters are created via Rancher, not imported. I encounter so many issues when updating Node Groups that I wonder if I miss sth in during my setup or it is just useless for that usecase. Issues that I found are:\n- adding node group sometimes is successful sometimes not from my point of view is not deterministic \n- changing node group does not work at all I have to create new one to update any attribute \n- there is no option to choose subnets for nodegroup - it is possible only editing directly rancher's cluster crd object eks.cuttle.io/v1/eksclusterconfig\nAny help appreciated!"
+  },
+  {
+    "sample_id": "M20261007-115",
+    "title": "My iMac 2012 is stuck after an update",
+    "post_body": "I have an iMac 2012 21.5inch, Catalina 10.15 macOs, has been slow for a while and some days it keeps shutting down, others it’s just fine. Lately i’ve tried clearing things hoping it would make it better, so there was an update pending (i think a security one) hoping it would help i let it load overnight and when i woke up it was still loading so i forced shut it down and then after a while opened it and the same thing happened again. I then opened with command+R, opened disk utility run repair disk and it said the partition map was ok, I then tried to reinstall OS X Mountain Lion but it couldn’t find any disks to install to. I run /Volumes in Terminal and it said no such file or directory. I’m scared everything on my computer is going to get lost and I don’t know what else to do or if there’s anything that i can do. If there are any tips and tricks that helped you or you know more about this please help!!🙏"
+  },
+  {
+    "sample_id": "M20261007-116",
+    "title": "Google search fails",
+    "post_body": "Recently, maybe 1-2 weeks I think, it started to happen this: I search and gives me this ( that photo ), if I click again to search, it instant works. It randomly happens but happens often.\n\nI didn't modify anything so I don't know what is causing this. \n\nI'm using ***Firefox***. I tried in other browser and this isn't happening.\n\nIs happening this to someone else or know any kind of recently update? Can someone help me to fix this or what it can create the problem?"
+  },
+  {
+    "sample_id": "M20261007-117",
+    "title": "Restore Page Box Appearing Since Last Update",
+    "post_body": "What a bunch of arse, i cant get rid of this box on my desktop, it appears everytime, saying microsoft edge close unexpectedly , option to restore page.. This has just appered in the last days and im sure there was a general update and then this appeared."
+  },
+  {
+    "sample_id": "M20261007-118",
+    "title": "Immich mobile with 2.6.1 won't access external url",
+    "post_body": "Updated to 2.6.1 yesterday, and also updated the mobile app. Now the immich app can't access my external url via cloudflare with external API keys (which haven't changed) I've tried uninstalling and reinstalling and no go. Immich has worked perfectly for a year otherwise with the exact same setup."
+  },
+  {
+    "sample_id": "M20261007-119",
+    "title": "Latest Version (141.0.7390.55) introduces bug to \"Auto Dark Mode for Web Contents\" on Windows 11",
+    "post_body": "With the update to the latest version the \"Auto Dark Mode for Web Contents\" option broke. When using the CIELAB-based inversion or selective inversion of non-image elements the results for the past few months (and still currently in other Chromium based browsers) are as seen in the second image, however Chrome is rendering the same sites since the update as seen on the first image (look at the logo and flag).\n\nI even tried to force the flag manually as a launch argument but the result are the same.\n\n\\--enable-features=WebContentsForceDark:inversion\\_method/selective\\_inversion\\_non\\_image\n\nand\n\n\\--enable-features=WebContentsForceDark:inversion\\_method/simple\\_cielab\\_based/image\\_behavior/none\n\nPlease fix this bug!"
+  },
+  {
+    "sample_id": "M20261007-120",
+    "title": "Is that warning (eos-rankmirrors) something to be worried about or nah? Update was successful, btw.",
+    "post_body": ""
+  },
+  {
+    "sample_id": "M20261007-121",
+    "title": "Can no longer search apps",
+    "post_body": "Ever since updating to 26 I can’t search for apps on my phone. Does anyone know how to fix this?"
+  },
+  {
+    "sample_id": "M20261007-122",
+    "title": "Quick Update, Fixed the chin issue, Instructions are given in the description",
+    "post_body": "Quick Update: In image crop by mask set base resolution more then 512, add 5 padding, and In pixel perfect resolution select crop and resize.   \n\n\nupdated workflow is uploaded [here](https://www.patreon.com/posts/quick-update-on-140406129?utm_medium=clipboard_copy&amp;utm_source=copyLink&amp;utm_campaign=postshare_creator&amp;utm_content=join_link)"
+  },
+  {
+    "sample_id": "M20261007-123",
+    "title": "Anyone having issue downloading the update on 5g and can’t use WiFi?",
+    "post_body": "Hug"
+  },
+  {
+    "sample_id": "M20261007-124",
+    "title": "Updated Firefox keeps crashing like crazy",
+    "post_body": "Seriously, I open Firefox and it crashes instantly. I even re-installed it and I have the same issue. Using Windows 10, RAM 8 GB. It worked perfectly just minutes ago and now I can't even change the settings quickly 😭\n\nEDIT: I restarted the laptop, it still crashes instantly"
+  },
+  {
+    "sample_id": "M20261007-125",
+    "title": "Help - fp8_e5m2_scaled no longer works on my 3090 + Wan Animate Workflows after update",
+    "post_body": "Hi all,   \nIt's been a month since I last used Comfy. Last time I used it, Wan Animate was working fine on my PC. For context, I have a 3090 and I know it has issues with fp8, so in order for Wan Animate to work on my PC and avoid the \"type fp8e4nv not supported in this architecture\" error, I used to select the \"fp8\\_e5m2\\_scaled\" quantization option in the WanVideo Model Loader node ([I got this solution from github](https://github.com/kijai/ComfyUI-WanVideoWrapper/issues/688)). BTW I have Triton and Sage attention installed.\n\nToday I opened and updated Comfy. But after the update, I started getting that same error again. I tried all quantization options but none of them work now.\n\nI downloaded Mocha to test it but I get the same error.  \nI don't know why it no longer works when it was working fine before the update.\n\nDoes any of you fellow 3000 series owners have the same issue? If so, how were you able to fix it that doesn't involve resorting to GGUF models? Thanks in advance for your feedback.\n\n  \nMy setup: RTX 3090 - 96 GB RAM - ComfyUI 0.3.71 - PyTorch version: 2.8.0+cu128\n\n\n\n[these were the settings that worked before the update. now they no longer work.](https://preview.redd.it/8nfnibw6243g1.png?width=667&amp;format=png&amp;auto=webp&amp;s=064116e0269fac2f25c9288b4ff72916d5182fd1)\n\n\n\n[this is the error I'm getting now, regardless of the settings I choose in the WanVideo Model loader node.](https://preview.redd.it/ivgtdqff243g1.png?width=1573&amp;format=png&amp;auto=webp&amp;s=1c6e139ab3574200b196ee05a2bd0213e79a75cf)"
+  },
+  {
+    "sample_id": "M20261007-126",
+    "title": "Dolphin explorer suddenly closing",
+    "post_body": "Hi, I just wanted to know if someone is experiencing the same with dolphin. I have a folder with a few pdfs, LaTex and images. When I try to open that folder, Dolphin suddenly closes, and an error raises with the typical \"dolphin suddenly closed\". Different folders like, downloads, docs, images etc, works. I've just upgraded with usual dnf upgrade yesterday and today I experienced the issue. Couple years using fedora and never experienced that."
+  },
+  {
+    "sample_id": "M20261007-127",
+    "title": "Can't access SMB share by IP (but FQDN works)",
+    "post_body": "Issue started as a Scan to SMB issue. All of a sudden, a copier/scanner could not scan to an smb folder on certain clients. No config changes were made on the copier or client, and it still works for some users but not all. Issue has now been reported at more than one office (all using Konica Minolta copiers), so now I am thinking its a Windows update issue rather than a copier issue. \n\nFor the users who do still get the scans successfully, I can browse from my computer in File Explorer to \\\\\\\\\\[theirIP\\]\\\\{sharename} as well as \\\\\\\\\\[theirFQDN\\]\\\\{sharename}\n\nBut for the users that can no longer scan, I can still browse to \\\\\\\\\\[theirFQDN\\]\\\\{sharename} just fine but attempting to do the same to \\\\\\\\\\[theirIP\\]\\\\{sharename} or just \\\\\\\\\\[theirIP\\] times out with the error \"Windows can't find \\\\\\\\\\[theirIP\\]. Check the spelling and try again\"\n\nI can ping the IP fine, and I have verified DNS is correct so its not that the FQDN is sending me to a different IP/device.\n\nIt has to be some change in Windows, likely a recent update.\n\nAnyone else experiencing this and any suggestions as to next steps?"
+  },
+  {
+    "sample_id": "M20261007-128",
+    "title": "Display issues after updating to Sequoia 15.7.3",
+    "post_body": "I am having an issue on my MBP M3, where after installing the latest Sequoia update, my Samsung 34\" G8 OLED monitor is no longer detected, and has been replaced with \"No Monitor,\" locked into a max resolution of 1280x1024. \n\nI can then add my Samsung back, but it is then forced into a Multiview, with the \"No Monitor\" display, making this completely unusable for me.  \n\nAnyone else seeing this? How do I fix this?"
+  },
+  {
+    "sample_id": "M20261007-129",
+    "title": "Stuck in a Login loop, what do I do?",
+    "post_body": "Hi there.\n\nI'm in a bit of a pickle and am hoping I could get some assistance. I'm a Linux newbie, I don't know much, and I have less-than-adequate knowledge of the terminal and its commands. I'm running GNOME 50 on Fedora 44.\n\n**THE ISSUE**\n\nThis login loop happened after I updated an extension and was prompted to log out. When I tried logging back in, I could not enter the gnome session. My best guess is something happened during that process that triggered it.\n\nFollowed some guides that said to try logging in through the TTY (Ctrl+Alt+F3) then run `gnome-shell`  . I was able to enter my gnome session, but there were things missing:\n\n* Could not run any preinstalled apps (Nautilus, Terminal, Settings), but the ones I installed like Zen and Blanket could\n* The Extensions Manager was showing no installed extensions, but they were all running (PaperWM, ChromaLeon, etc.)\n* My Gnome Tweaks were not applied (larger text, custom font)\n* The power menu only showed Log Out option, no Suspend/Restart/Power Off\n\nThe best lead I have is the photo I attached, this was the message shown when I opened the TTY after I tried to login loop.\n\nThis seems to be a user specific issue since I could login through a testuser profile I created. Still, its a bit sluggish and not as responsive as a normal session would be.\n\nAny help is much appreciated, thank you"
+  },
+  {
+    "sample_id": "M20261007-130",
+    "title": "Battery issue after update",
+    "post_body": "I have an M2 MacBook. On macOS 26, my battery cycle count was 176 and my battery health was 90%. After installing macOS 27, it gave a service warning and my battery health dropped to 78%. I reset the Mac, reverted to macOS Tahoe 26, and did a clean installation, but now my battery health shows 68%. This can't be normal. I've had the device for two years and don't use it much."
+  },
+  {
+    "sample_id": "M20261007-131",
+    "title": "Cannot complete the cron payload from this environment because I do not have workspace shell or filesystem access to XXXX",
+    "post_body": "Running cronjob as isolated from sub-agent, it worked fine yesterday after upgrade I got the error:  \nCannot complete the cron payload from this environment because I do not have workspace shell or filesystem access to\n\nOpenClaw finding:  \nFresh manual run:\n\n* job: `dfbebf5f-8a62-4882-a507-cfec6fd72c1f`\n* runId: `manual:dfbebf5f-8a62-4882-a507-cfec6fd72c1f:1779366702437:1`\n* session: `d9ec7cc5-0b6e-4ef1-9068-5e04b4637322`\n* model/runtime: `gpt-5.4-mini` via `openai-codex`\n\nWhat happened in the new session:\n\n* `toolCount` was still `1`\n* the compiled tool list still only had `message`\n* `exec` was still missing\n* `read` was still missing\n\nAny suggestion where to look?"
+  },
+  {
+    "sample_id": "M20261007-132",
+    "title": "Menu in Edge is not highlighted anymore",
+    "post_body": "Just got an Edge update to .84 but still I have the really irritating bug since the last update where when you choose the menu in the right upper corner and you see the full menu with option, there is no more coloured highlighter. You cannot see what you choose when hovering over an option.\n\nDo more ppl have this problem in Edge or am I the only one here? I haven't seen others complain about this bug before.\n\nAnd is there a fix for this bug or should we wait for an update from MS?"
+  },
+  {
+    "sample_id": "M20261007-133",
+    "title": "Can I downgrade the bundled llama.cpp?",
+    "post_body": "So I have issues since the last update. My PC keeps freezing. Everything points to llama.cpp, so I built it on my own. I thought the latest version might be good for me, but unfortunately going forward does not help. So I went back a month and built a one month old llama.cpp. This seems to be stable, but still testing. 🤞\n\nWhat bugs me is that unsloth has its own llama.cpp fork and I am not sure whether I should use the fork or safe to use the mainline? I assume unsloth has its own improvements and fixes that might also need for stability.\n\nSo my question is that if I'd like to stay on the bundled version then can I downgrade it? I did not find any option for that in the app and did not find the previous version on the cache dir of unsloth.\n\nUPDATE: The older llama.cpp brought back this previous RAM issue :( [https://www.reddit.com/r/unsloth/comments/1wgztdb/qwen3827bgguf\\_eats\\_my\\_ram\\_but\\_i\\_have\\_enough\\_vram/](https://www.reddit.com/r/unsloth/comments/1wgztdb/qwen3827bgguf_eats_my_ram_but_i_have_enough_vram/)"
+  },
+  {
+    "sample_id": "M20261007-134",
+    "title": "Why is my Apple Intelligence not working?",
+    "post_body": "after the most recent iOS update my Apple Intelligence is not working despite it being turned on. The playground app when I open it, tells me that I have to have Apple Intelligence enabled even though when I go in settings it already is. Also when I talk to Siri the edges of my phone screen don’t light up which is an indication that Apple Intelligence is not on. All this started after I updated to the latest iOS plz help."
+  },
+  {
+    "sample_id": "M20261007-135",
+    "title": "ComfyUI: Wan 2.2 Loras don't loadafter updating",
+    "post_body": "Hi, when trying to use the Load Lora nodes alongside wan 2.2 in comfyUI, it now infinitely loads (as in the progress bar stays at 0), on my 4090.\n\nIt started after I updated. Updating again with the .bat did not fix that.\n\nI know there's a million variables at play in here, and I'm not providing much. This is more a post to know if this is a well known issue, where Loras suddenly stopped working unless the uses takes another node, or uses some launch argument?\n\nLoras work for Zimage turbo, no prob. Just the wan 2.2 loras that explode the process, lol."
+  },
+  {
+    "sample_id": "M20261007-136",
+    "title": "Google Lens keeps opening on the LEFT side of my screen — how do I move it to the right?",
+    "post_body": "Hey everyone,\n\nNot sure if I accidentally changed a setting or if this is some new update, but Google Lens is opening on the **left side of my screen**, and it’s honestly really annoying since it covers stuff I actually need.\n\nI’d prefer it to open on the **right side instead**, but I can’t find any setting to change the position.\n\nHas anyone else run into this?  \nIs there a way to move it, or is it just fixed by default?\n\nAny help would be appreciated 🙏\n\nhttps://preview.redd.it/hnxoen4taqsg1.png?width=823&amp;format=png&amp;auto=webp&amp;s=c273aed0844b60e181985e87330cc425ff64ad01"
+  },
+  {
+    "sample_id": "M20261007-137",
+    "title": "Upgraded Play Console from Individual to Organization, but Payments Profile is still stuck on Individual. How do I fix this for corporate tax?",
+    "post_body": "Hi everyone,\n\nI recently upgraded our Google Play Developer Account from an **Individual** account to an **Organization** account.\n\nWe went through the entire rigorous verification process. Our company is **fully verified** by Google. All our company documents, registry information, DUNS number, and organization details have passed checks and are 100% verified. Under \"Developer account\" in Play Console, the account type officially shows as **Organization** with our corporate legal details.\n\nHowever, we ran into a major block when trying to submit our US Tax Info (W-8BEN-E) for corporate tax/withholding purposes:\n\n1. The linked **Google Payments Profile** is still stuck as an **Individual** profile under my personal name (which was created when we first set up the account as individual).\n2. Because the payments profile is of type \"Individual\", the tax form is asking me to verify my personal name and only gives me the option to submit a personal **W-8BEN** form.\n3. We absolutely need all app payouts to go to our company bank account and be filed under our company's corporate tax ID (Foreign TIN / PAN) as company income, not personal income.\n4. The Play Console settings do not allow us to edit the account type of the payments profile or unlink/switch the payments profile ourselves since it's already verified.\n\n**Important:** Creating a new developer account is NOT an option for us. We have active apps/users and absolutely need to use this specific account.\n\nSeriously, if our company identity is 100% verified as an Organization, why does Google keep the linked payments profile locked as an Individual? Why does Google even allow you to upgrade your developer account type if it leaves you in this broken, half-migrated tax nightmare?\n\nHas anyone gone through this exact scenario after upgrading their account?\n\n* Did you have to contact Google Play Support to manually unlink the individual payments profile? If so, how long did it take them to resolve?\n* Is there any self-service workaround in the payments center that doesn't involve creating a brand new developer account?\n\nAny advice or experience with this would be highly appreciated. Thanks!"
+  },
+  {
+    "sample_id": "M20261007-138",
+    "title": "Updated to the latest frame ware and my wired express 7 set as AP still will not hold a static ip VERY DISAPPOINTED STILL NO FIX",
+    "post_body": "Any one alls experience this bug"
+  },
+  {
+    "sample_id": "M20261007-139",
+    "title": "The \"listen to this page\" option stopped working.",
+    "post_body": "I use Chrome because it has a \"listen to this page\" option, but after these updates it's not working. How do I fix this?"
+  },
+  {
+    "sample_id": "M20261007-140",
+    "title": "Stuck on the map screen when trying to add a new place/location on Facebook - anyone know a fix?",
+    "post_body": "I've been trying to create a custom/new location on Facebook for months now, but every single time I reach the step to drop the pin or confirm the location on the map, the app completely hangs or gets stuck.\n\n​At first, I thought it was just a temporary bug with the build, but after numerous app updates over the past few months, the issue is still persistent.\n\n​Things I’ve already tried:\n\n​Updating the app to the latest version\n\n​Relaunching the app\n\n​Waiting it out across multiple versions\n\n​Has anyone encountered this specific freeze on the map screen and found a workaround? Could this be related to location permissions, an account restriction, or a known issue with the mobile app where I should just use desktop instead?\n\n​Any advice would be massively appreciated!"
+  },
+  {
+    "sample_id": "M20261007-141",
+    "title": "Oddity since I updated Comfy",
+    "post_body": ""
+  },
+  {
+    "sample_id": "M20261007-142",
+    "title": "Wifi won't turn on after Tahoe update (26.3.1)",
+    "post_body": "I just updated my M4 air to Tahoe 26.3.1, and it just broke my wifi.\n\nThe toggle on system settings doesn't work, if I click \"Details\" nothing happens, and clicking \"Open Wireless Diagnostics...\" also does nothing.\n\nEven booting on secure mode does nothing, the wifi also doesn't work there. The only \"workaround\" was to buy a usb/ethernet adapter and plug directly into my router, but still I can't connect to any wifi...\n\n**\\*UPDATE 2 SOLUTION\\***: After updating my macos to beta 26.4 and it still not working, I ran [apple diagnostics](https://support.apple.com/en-us/102550) and, in fact, the wi-fi was fried:\n\n\\&gt; The Wi-Fi module couldn't be detected.\n\n\\&gt; The Wi-Fi hardware has an issue. The test couldn't read the MAC address. Follow the troubleshooting steps in the repair manual.\n\nI thought it was completely over and I'd have to wait 3 months for the insurance to fix it, but when I restarted from the diagnosis, it was working again :D\n\n**\\*UPDATE 1\\***: I tried reinstalling the macos from the boot options, it bumped the version to 26.3.2 but same wifi problem.\n\nTalking with chatgpt he gave me a bunch of commands to see if \\*should\\* be working, these are some of the results:\n\n    &gt; networksetup -listallnetworkservices\n    An asterisk (*) denotes that a network service is disabled.\n    USB 10/100/1000 LAN\n    Thunderbolt Bridge\n    Wi-Fi\n    \n    &gt; networksetup -setairportpower en0 on\n    You cannot set Wi-Fi power because all AirPort network services are disabled.\n    \n    &gt; sudo networksetup -createnetworkservice \"Wi-Fi\" en0\n    Wi-Fi is already a network service name.\n    ** Error: The parameters were not valid.\n    \n    &gt; networksetup -setairportpower en0 on\n    You cannot set Wi-Fi power because all AirPort network services are disabled.\n\nAny help is appreciated\n\nhttps://preview.redd.it/6h6n8t5uevpg1.png?width=496&amp;format=png&amp;auto=webp&amp;s=167fa7edf1e96856faf8eba483b4d5ea0740197f"
+  },
+  {
+    "sample_id": "M20261007-143",
+    "title": "All models GitHub copilot disappeared and can non longer use since last (Copilot) update.",
+    "post_body": "https://preview.redd.it/f58fqopyqc6g1.png?width=477&amp;format=png&amp;auto=webp&amp;s=fb3932cca90f8f70cb2870f305e280c35f8d12dc\n\nhttps://preview.redd.it/og0z4npyqc6g1.png?width=493&amp;format=png&amp;auto=webp&amp;s=63d1a6dddbd00c5fdb2cf6a7c4ab8e9fb31a63d2\n\nHey, so I'm a student using the student plan and since the last update I have not been able to make a single request. My premium requests haven't ran out (even then I should be able to use the free models) and I am signed in.\n\n  \nIf anyone has had this problem before how did you fix it?"
+  },
+  {
+    "sample_id": "M20261007-144",
+    "title": "Is power tools broken after 133 update?",
+    "post_body": ""
+  },
+  {
+    "sample_id": "M20261007-145",
+    "title": "Some command line switches (--window-position, --window-size) not working since recent update?",
+    "post_body": ""
+  },
+  {
+    "sample_id": "M20261007-146",
+    "title": "pfsense 2.9 Telegraf broke",
+    "post_body": "Hi   \ntelegraf stopped working for me after upgrade and it seems to be same issue as \n\n[https://redmine.pfsense.org/issues/16674](https://redmine.pfsense.org/issues/16674)"
+  },
+  {
+    "sample_id": "M20261007-147",
+    "title": "What happened to chrome?",
+    "post_body": "My wallpaper, search bar, everything is just gone? Is it a new update or something? Looks very blank."
+  },
+  {
+    "sample_id": "M20261007-148",
+    "title": "Constantly crashing after update.",
+    "post_body": "Welp, whoever updated the desktop version to force Dynamic VRAM usage rather than allowing the user to set launch arguments completely derailed my ability to even generate simple 1024 x 1024 images.\n\nNow I’m lucky if I get five images out before my VAE decode gets stuck and I have to completely restart the program, lest my GPU get stuck at 100% until the heat death of the universe.\n\nThanks, devs!"
+  },
+  {
+    "sample_id": "M20261007-149",
+    "title": "New update broke my phone",
+    "post_body": "I have an iPhone 13 and have been putting off the update to ios 26, and i updated 2 days ago. My phone then said it needed a second update. I clicked install now, and my phone installed the update. I turned on my phone to see this. I can’t power it off. I can’t do anything, and tried swiping but it just permanently opened this menu. I don’t know what to do and am very worried. If anyone has any advice please share I’m really not trying to get a new phone. Sorry for bad quality pic I had to take it with my iPad"
+  },
+  {
+    "sample_id": "M20261007-150",
+    "title": "Did Chrome remove middle-click to open omnibox/address bar suggestions in a new tab?",
+    "post_body": "Until a couple of days ago, I could middle-click a suggestion in the Chrome address bar (omnibox) to open it in a new tab. Now nothing happens when I middle-click.\n\nMiddle-click still works everywhere else (like closing tabs, opening links on webpages), and it behaves the same in incognito, so it doesn’t seem to be an extension issue.\n\nWas this intentionally removed, or is this a bug in a recent update?\n\nEverything else works the same, I can close tabs with middle-click, links open on a new tab if I middle-clik on a link on a page etc."
+  }
+]

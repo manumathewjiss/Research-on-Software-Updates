@@ -1,0 +1,434 @@
+
+
+===== PAGE 1 =====
+
+Distinguishing Technical Problem Solving and
+General Discontent in Reddit Software
+Update Discussions
+Manu Mathew Jiss and Solomon Berhe
+Department of Computer Science, University of the Pacific, USA
+Email: m_jiss@u.pacific.edu, sberhe@pacific.edu
+Abstract—Reddit hosts large-scale software update discussions
+where troubleshooting requests and general frustration often
+appear together. This makes automatic interpretation difficult.
+We present a framework that separates Technical Problem
+Solving (TPS) from General Discontent (GDS) and jointly
+analyzes author-community sentiment divergence in discussion
+threads. This distinction is important because software update
+discussions often contain both actionable troubleshooting reports
+and general complaints, making it difficult for developer teams
+to quickly identify discussions that require technical attention.
+We construct a corrected TPSGDS-542 corpus (n= 542;
+86 TPS, 456 GDS) and evaluate rule-based, classical machine
+learning, and transformer models using stratified five-fold cross-
+validation. Multinomial Naive Bayes provides the best minority-
+class tradeoff, with Macro-F1= 0.659and TPS-F1= 0.463. We
+further find that TPS threads show significantly higher author-
+community sentiment divergence than GDS threads (0.371vs.
+0.287,p= 0.009). These results suggest that TPS filtering can
+help developer teams more efficiently identify troubleshooting
+discussions within large volumes of update-related feedback,
+while sentiment divergence provides additional insight into how
+communities respond to technical issues.
+Index Terms—Reddit, discourse classification, sentiment diver-
+gence, software update discussions, Technical Problem Solving,
+General Discontent, social media mining
+I. INTRODUCTION
+Social media has become one of the main places where
+people discuss products, services, and technical problems. In
+2025, global social media users reached 5.24 billion, which
+is about 63.9% of the world population [1]. Reddit is one of
+the largest discussion-based social platforms, with millions of
+active users and thousands of topic-focused communities in
+2025 [2]. Because users post quickly and interact in threads,
+Reddit provides rich real-world text data for studying how
+people react to software changes. Software update discussions
+are especially valuable because they include direct user expe-
+riences after releases. Users report bugs, installation failures,
+feature confusion, and performance drops, while others share
+workarounds and practical fixes. At the same time, many
+posts express anger, fatigue, or disappointment without clear
+technical details. This difference matters. A post that asks for
+a fix should not be treated the same as a post that mainly
+expresses frustration. In this paper, we call these two discourse
+Code and dataset: https://github.com/SE4CPS/Research-on-Software-Upd
+ates/tree/open-text-sentimental-sync/research-open-text-sentimental
+Fig. 1. Conceptual overview of TPS filtering for software update discussions.
+The framework separates troubleshooting-oriented discussions from general
+complaints, helping developer teams focus on actionable technical informa-
+tion.
+typesTechnical Problem Solving(TPS) andGeneral Discon-
+tent(GDS). By automatically identifying TPS discussions,
+developer teams can quickly locate troubleshooting reports
+and actionable feedback within large volumes of software
+update discussions, reducing the effort required to manually
+sift through general complaints.
+These discussion patterns create challenges for automated
+analysis systems that attempt to interpret user reactions consis-
+tently. Sentiment analysis has progressed from lexicon-driven
+methods to machine learning and deep learning approaches
+[3], [4]. Reddit has also been widely used for mining public
+opinion, topic patterns, and health-related or education-related
+discussions [5]–[8]. In addition, conversation-level studies
+have shown that interaction structure can reveal meaningful
+stance dynamics in online threads [9]. Technical support
+research has also shown that text classification can improve
+issue handling and response workflows [10].
+However, existing studies largely treat actionable soft-
+ware feedback and general user dissatisfaction as part of
+broader classification tasks while rarely modeling author–
+
+===== PAGE 2 =====
+
+community interaction throughout discussion threads. These
+limitations motivate a framework that jointly distinguishes
+troubleshooting-oriented discourse from general discontent
+while modeling author–community interaction over time [11].
+To address these gaps, we propose a TPS/GDS framework
+for Reddit software update discussions that combines dis-
+course classification with author–community sentiment trajec-
+tory analysis. The main contributions are:
+•Introduce TPSGDS-542, a manually corrected Reddit
+benchmark for distinguishing Technical Problem Solving
+(TPS) from General Discontent (GDS).
+•Compare rule-based, classical machine learning, and
+transformer-based approaches for TPS/GDS classifica-
+tion.
+•Propose an author–community sentiment trajectory
+framework to quantify emotional divergence throughout
+discussion threads.
+•Evaluate robustness through feature ablations, software-
+focused subreddit analysis, and independent human vali-
+dation.
+II. RELATEDWORK
+Reddit has become an important source for studying large-
+scale online discussions because of its topic-focused commu-
+nities, threaded conversations, and publicly available user in-
+teractions [5]. Prior studies have applied Reddit data to opinion
+mining, topic discovery, software support, complaint analysis,
+issue categorization, software requirements engineering, and
+sentiment analysis, demonstrating its value for understanding
+user-generated discussions across domains [3], [4], [6], [7],
+[10], [12]–[14]. However, existing studies primarily focus on
+software feedback categorization or general sentiment analysis
+rather than distinguishing troubleshooting-oriented discussions
+from general dissatisfaction or modeling author–community
+interaction.
+Conversation structure and temporal interactions provide
+information beyond isolated text analysis. Reply chains cap-
+ture stance and evidential relationships, while longitudinal
+sentiment analysis reveals how emotions evolve throughout
+online discussions [9], [11]. However, existing studies rarely
+distinguish troubleshooting-oriented software discussions from
+general user dissatisfaction or jointly analyze discourse type
+with author–community emotional interaction. Our work ad-
+dresses this gap through integrated TPS/GDS classification and
+author–community sentiment divergence analysis.
+III. METHODOLOGY
+Figure 2 presents the overall experimental workflow, which
+consists of three stages: (1) construction of a manually vali-
+dated Reddit corpus with corrected gold labels, (2) TPS/GDS
+discourse classification using rule-based and supervised learn-
+ing methods, and (3) author–community sentiment trajectory
+analysis for measuring discussion-level emotional divergence.
+A. Reddit Corpus and Gold Labels
+Software-update-related Reddit discussions were collected
+using a open source software update monitoring platform that
+provides access to Reddit posts through its API. Candidate
+threads were retrieved from TPS-oriented and GDS-oriented
+filtered pools. These platform-generated categories were used
+only for candidate retrieval and not as ground-truth labels.
+Similar Reddit-based data collection strategies have been
+adopted in prior social media mining studies [7].
+Each retrieved thread was manually reviewed and assigned
+one of two discourse labels: Technical Problem Solving (TPS)
+or General Discontent (GDS). The resulting TPSGDS-542
+corpus contains 542 Reddit threads, comprising 86 TPS and
+456 GDS discussions. Approximately 24% of the original
+platform-assigned labels differed from the manually corrected
+labels, demonstrating the limitations of heuristic filtering for
+identifying troubleshooting-oriented discussions.
+For each thread, we retained the post title, discussion
+text, and metadata required for classification and sentiment
+trajectory analysis.
+B. Text Construction for Classification
+For supervised classification, we constructed multiple text
+representations from each Reddit thread. As shown in Fig. 2,
+the primary representation,text_raw, combines the post
+title, body, and up to ten highest-scored Reddit comments to
+preserve discussion context [7], [15].
+For feature ablations, we generated title-only and title+body
+variants. Classical machine learning models used the cleaned
+text representation, whereas V ADER and RoBERTa operated
+on the original discussion text [4], [16].
+C. TPS/GDS Classification Models
+We evaluated four discourse classification approaches using
+stratified five-fold cross-validation. A majority-class baseline
+that always predicts GDS was included to quantify the effect of
+class imbalance. Logistic Regression and Multinomial Naive
+Bayes were trained using TF-IDF features with unigrams,
+bigrams, sublinear term frequency scaling, and class-balanced
+weights, following common practice in text classification [17].
+RoBERTa-base was fine-tuned ontext_rawusing a max-
+imum sequence length of 256, batch size of 8, learning
+rate of2×10 −5, and two training epochs per fold [16].
+For comparison, a rule-based V ADER baseline was applied
+totext_rawusing atechnical_firstpolicy with
+troubleshooting keywords such aserror,crash, andfix[4].
+Discussions with strongly negative sentiment but no technical
+indicators were mapped to GDS, using a neutral compound-
+score threshold of±0.15.
+D. Author–Community Trajectory Construction (C1 ′)
+To analyze interaction dynamics beyond discourse classi-
+fication, we constructed C1 ′ sentiment trajectories from the
+complete chronological Reddit comment tree contained in
+the raw API JSON data rather than the reduced TF-IDF
+representation.
+
+===== PAGE 3 =====
+
+Fig. 2. Overview of the proposed TPS/GDS analysis pipeline. Reddit software-update discussions are collected through a commercial monitoring platform,
+manually validated to obtain corrected gold labels, transformed into textual representations, and analyzed using discourse classification and author–community
+sentiment trajectory methods.
+Comments were ordered according to thecreated_utc
+timestamp and assigned V ADER compound sentiment
+scores [4]. Author-side utterances consisted of the original post
+body together with all replies written by the original submitter,
+whereas community-side utterances included all remaining
+non-empty comments.
+For both author and community trajectories, we extracted
+summary statistics including mean sentiment, sentiment trend,
+step-wise volatility, and early-versus-late sentiment shift for
+divergence analysis and feature ablation experiments. When
+no author reply was available, the sentiment score of the post
+title was used as a fallback.
+E. Sentiment Divergence and Evaluation
+Using the C1 ′ author–community sentiment trajectories,
+we quantified sentiment divergence as the absolute difference
+between the mean author and community V ADER compound
+sentiment scores [4]. Differences between TPS and GDS
+discussions were evaluated using Welch’s t-test, the Mann–
+Whitney U test, Cohen’sd, and bootstrap confidence inter-
+vals. Robustness analyses were additionally performed on a
+software-development subreddit subset. V ADER scores were
+interpreted as relative indicators of author–community emo-
+tional divergence rather than direct measures of affect [15].
+Classification performance was evaluated using stratified
+five-fold cross-validation on the 542-thread corpus with out-of-
+fold metrics including accuracy, macro-F1, TPS-F1, precision,
+recall, and PR-AUC [18]. Feature ablations compared title-
+only, title + body, full-thread TF-IDF, trajectory-enhanced, and
+subreddit-aware representations. Label reliability was assessed
+TABLE I
+CLASSIFICATION PERFORMANCE ON542LABELEDREDDIT THREADS
+(5-FOLD STRATIFIEDCV, OOF).
+Model Acc. Macro-F1 TPS-F1 TPS Prec. TPS Rec. PR-AUC
+Majority 0.841 0.457 0.000 0.000 0.000 0.159
+Naive Bayes 0.771 0.659±0.035 0.463±0.047 0.372 0.616 0.411
+Logistic Reg. 0.845 0.632±0.087 0.352±0.162 0.490 0.278 0.431
+RoBERTa-base 0.793 0.591±0.084 0.307±0.189 0.279 0.359 0.391
+V ADER rules 0.421 0.409±0.042 0.330±0.027 0.202 0.896 0.191
+on 80 stratified Reddit threads using Cohen’sκagreement
+statistic [19].
+IV. RESULTS
+A. TPS/GDS Classification Benchmark
+The rule-based V ADER baseline performs poorly overall
+despite high TPS recall (0.896). Its low TPS precision (0.202)
+indicates that many negative or technical-sounding posts are
+incorrectly classified as troubleshooting discussions. This pat-
+tern is consistent with the label-correction step, where heuristic
+API labels were often noisy.
+Among the learned models, Multinomial Naive Bayes
+achieves the strongest balance between overall performance
+and minority-class recovery, obtaining the highest Macro-F1
+(0.659) and TPS-F1 (0.463). Logistic Regression achieves
+the highest overall accuracy (0.845) but under-recovers TPS
+discussions, with TPS recall dropping to 0.278. RoBERTa-
+base does not outperform Naive Bayes in this setting, likely
+because of the relatively small TPS class and the domain-
+specific characteristics of Reddit language.
+
+===== PAGE 4 =====
+
+Fig. 3. OOF macro-F1 and TPS-F1 for four classifiers on the full corpus
+(n=542). Error bars represent fold standard deviation.
+TABLE II
+C1 ′ DIVERGENCE STATISTICS: TPSVS. GDS (FULL CORPUS).
+Measure TPS GDS Test
+Mean divergence 0.371 0.287 MWp=0.009
+Author more negative (%) 69.8 53.7p=0.006
+Cohen’sd0.33
+95% CI [0.023, 0.146]
+The Naive Bayes confusion profile indicates a recall-
+oriented classifier that identifies most TPS discussions while
+accepting additional false positives.
+B. Author Community Sentiment Divergence
+TPS discussions exhibit significantly greater author–
+community sentiment divergence than GDS discussions (Ta-
+ble II; Figs. 4 and 5).
+Original posters in TPS discussions were more often nega-
+tive than the surrounding community.
+Figure 5 shows a consistently larger author–community
+sentiment gap for TPS discussions.
+C. Feature Ablations, Robustness, and Label Validation
+We evaluate how different input representations affect
+TPS/GDS classification (Table III).
+The title-only representation (D1) achieves the best overall
+performance, outperforming the full-thread TF-IDF represen-
+tation (D3) in both Macro-F1 and TPS-F1. This suggests that
+Reddit post titles capture the strongest discriminative signal
+for distinguishing troubleshooting-oriented discussions from
+general discontent. In contrast, later comments often introduce
+unrelated conversations, humor, or repeated advice that dilute
+the discriminative power of the TF-IDF representation.
+Adding trajectory features (D4) improves TPS-F1
+(0.352→0.423), showing that author-community interactions
+complement textual features. Including subreddit metadata
+(D5) yields only marginal improvement, suggesting that model
+Fig. 4. Distribution of thread-level sentiment divergence (V ADER) for TPS
+(n=86) and GDS (n=456).
+Fig. 5. Mean running author community gap vs. normalized thread progress
+(shaded:±1.96SEM across threads).
+performance is not primarily driven by subreddit-specific
+memorization.
+Table IV shows that the primary findings remain stable
+on Tier-A software and developer subreddits, with improved
+Naive Bayes performance and a slightly larger sentiment
+divergence gap, supporting the robustness of the framework.
+To assess annotation reliability, an independent annotator
+reviewed 80 stratified Reddit threads. Agreement with the
+corrected gold labels reached 91.2%, with Cohen’sκ=0.688,
+indicating substantial agreement. Most disagreements occurred
+in borderline cases, such as update announcements or ambigu-
+ous bug-report discussions.
+Overall, the experimental results support three main find-
+ings. First, TPS/GDS discourse classification can be learned
+effectively using classical machine learning models. Sec-
+ond, TPS discussions exhibit significantly stronger author–
+community sentiment divergence than GDS discussions. Third,
+Reddit post titles provide the strongest discriminative signal
+for classification, while trajectory-based features and Tier-A
+robustness analysis further strengthen the overall conclusions.
+
+===== PAGE 5 =====
+
+TABLE III
+FEATURE ABLATIONS(LOGISTIC REGRESSION, 5-FOLDCV, OOF).
+ID Setting Macro-F1 TPS-F1
+D1 Title only0.758±0.0600.580±0.101
+D2 Title + post body 0.646±0.037 0.381±0.067
+D3 Full thread (TF-IDF) 0.632±0.087 0.352±0.162
+D4 Full thread + trajectory 0.647±0.099 0.423±0.162
+D5 Full thread + subreddit 0.633±0.070 0.400±0.111
+TABLE IV
+TIER-ASOFTWARE-SUBREDDIT ROBUSTNESS(5-FOLDCVUNLESS
+NOTED).
+Check Full (n=542) Tier-A (n=304)
+NB macro-F1 0.659 0.703
+NB TPS-F1 0.463 0.535
+Divergence∆(TPS−GDS) 0.084 0.105
+Divergence test (p) 0.009 0.012
+D1 macro-F1 0.758 0.695
+D3 macro-F1 0.632 0.622
+V. CONCLUSION
+This paper presented a labeled benchmark and empiri-
+cal study of Technical Problem Solving (TPS) and General
+Discontent (GDS) in software-update Reddit discussions us-
+ing a corrected corpus of 542 threads (86 TPS and 456
+GDS). Learned models consistently outperformed the rule-
+based V ADER baseline. Among all evaluated approaches,
+Multinomial Naive Bayes with TF-IDF achieved the best
+minority-class tradeoff, obtaining a Macro-F1 of 0.659, TPS-
+F1 of 0.463, and TPS recall of 0.62. Fine-tuned RoBERTa-base
+did not surpass this classical baseline at the current dataset
+scale.
+Beyond discourse classification, we analyzed author–
+community sentiment divergence using C1 ′ V ADER trajec-
+tories and found that TPS discussions exhibit significantly
+greater divergence than GDS discussions (0.371 vs. 0.287;
+Mann–Whitneyp= 0.009). Original posters in TPS discus-
+sions were more frequently more negative than the surrounding
+community (69.8% vs. 53.7%), and this separation remained
+consistently higher throughout most stages of thread progres-
+sion.
+Feature ablation experiments further showed that Reddit
+post titles provide the strongest discriminative signal for
+TPS/GDS classification, while trajectory-based features im-
+prove minority-class detection beyond full-thread text alone.
+Tier-A software-subreddit robustness experiments and inde-
+pendent human validation (91.2% agreement;κ= 0.688)
+further support the reliability of the proposed framework.
+Overall, the results demonstrate that troubleshooting-
+oriented and discontent-oriented software-update discussions
+can be distinguished effectively using discourse-aware NLP
+while exhibiting distinct author–community interaction dy-
+namics. Future work will expand the framework to additional
+platforms and evaluate its practical usefulness with software
+engineering teams.
+TABLE V
+HUMAN VS.GOLDTPS/GDSLABELS(n=80).
+Human TPS Human GDS
+Gold TPS10 3
+Gold GDS4 63
+Accuracy 91.2%;κ=0.688.
+REFERENCES
+[1] DataReportal, “Digital 2025: Global overview report,” 2025, accessed:
+2026-07-22. [Online]. Available: https://datareportal.com/reports/digital
+-2025-global-overview-report
+[2] Reddit, Inc., “Reddit investor relations,” 2025, accessed: 2026-07-22.
+[Online]. Available: https://investor.redditinc.com
+[3] L. Yue, W. Chen, X. Li, W. Zuo, and M. Yin, “A survey of sentiment
+analysis in social media,”Knowledge and Information Systems, vol. 60,
+no. 2, pp. 617–663, 2019.
+[4] C. J. Hutto and E. Gilbert, “Vader: A parsimonious rule-based model
+for sentiment analysis of social media text,” inProceedings of the
+International AAAI Conference on Web and Social Media, vol. 8, no. 1,
+2014, pp. 216–225.
+[5] N. Proferes, N. Jones, S. A. Gilbert, C. Fiesler, and M. Zimmer,
+“Studying reddit: A systematic overview of disciplines, approaches,
+methods, and ethics,”Social Media + Society, vol. 7, no. 2, 2021.
+[6] Y . Li, X. Wang, and H. Zhang, “Sentiment analysis and topic modeling
+of reddit discussions on online learning,”Education and Information
+Technologies, vol. 28, pp. 13 235–13 258, 2023.
+[7] J. Du, S. Preston, H. Sun, R. Shegog, R. Cunningham, J. Boom, L. Savas,
+M. Amith, and C. Tao, “Using machine learning–based approaches
+for the detection and classification of human papillomavirus vaccine
+misinformation: Infodemiology study of reddit discussions,”Journal of
+Medical Internet Research, vol. 23, no. 8, p. e26478, 2021.
+[8] A. Almeida, T. Patton, M. Conway, A. Gupta, S. A. Strathdee, and
+A. Bórquez, “The use of natural language processing methods in reddit
+to investigate opioid use: Scoping review,”JMIR Infodemiology, vol. 4,
+p. e51156, 2024.
+[9] A. Zubiaga, M. Liakata, and R. Procter, “Towards detecting rumours in
+social media,” inProceedings of the AAAI Workshop on AI for Cities,
+2015.
+[10] G. Ohata, J. Chagas, F. Oliveira, F. Araujo, and S. Fernandes, “A text
+classification methodology for technical support tickets using machine
+learning,”Applied Sciences, vol. 12, no. 3, p. 1234, 2022.
+[11] Y . Liu, X. Zhang, and H. Chen, “Longitudinal sentiment analysis with
+conversation textual data,”Information Processing and Management,
+vol. 61, no. 2, p. 103550, 2024.
+[12] S. I. Omurca and E. Ekinci, “Topic modeling based complaint analysis
+for customer feedback,”IEEE Access, vol. 9, pp. 132 129–132 141, 2021.
+[13] T. Iqbal, M. Khan, K. Taveter, and N. Seyff, “Mining reddit as a new
+source for software requirements,” in2021 IEEE 29th International
+Requirements Engineering Conference (RE), 2021, pp. 128–138.
+[14] G. Aydin and E. Aydin, “Comparative analysis of transformer-based
+and traditional machine learning models for text classification,”Applied
+Sciences, vol. 15, no. 2, p. 945, 2025.
+[15] M. Wen, D. Yang, and C. P. Rosé, “Sentiment analysis in mooc
+discussion forums: What does it tell us?” inProceedings of the 7th
+International Conference on Educational Data Mining, 2014, pp. 130–
+137.
+[16] Y . Liu, M. Ott, N. Goyal, J. Du, M. Joshi, D. Chen, O. Levy, M. Lewis,
+L. Zettlemoyer, and V . Stoyanov, “RoBERTa: A robustly optimized
+BERT pretraining approach,”arXiv preprint arXiv:1907.11692, 2019.
+[17] J.-J. Yoo and X. Hu, “Text classification using tf–idf and machine
+learning approaches,”International Journal of Database Theory and
+Application, vol. 8, no. 2, pp. 229–236, 2015.
+[18] S. Prusty, S. Patnaik, and S. K. Dash, “Skcv: Stratified k-fold cross-
+validation on machine learning classifiers for predicting cervical cancer,”
+Frontiers in Digital Health, vol. 4, p. 972421, 2022.
+[19] J. Wang, S. Yoon, and D. Lee, “A simplified interpretation of cohen’s
+kappa for classification evaluation,”Journal of Data and Information
+Quality, vol. 11, no. 4, 2019.

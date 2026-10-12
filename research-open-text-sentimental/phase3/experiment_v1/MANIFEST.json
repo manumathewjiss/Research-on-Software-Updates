@@ -1,0 +1,53 @@
+{
+  "version": "phase3-experiment-v1",
+  "source_master": "/Users/manumathewjiss/Documents/Research-on-Software-Updates/research-open-text-sentimental/phase2/combined_dataset/master_records.json",
+  "source_master_sha256": "1c5942868a756f20673651ffd0257d895195ee1e290cf9c32871e84c6150287a",
+  "files": {
+    "development.jsonl": "76a8a48b3d844968f4f52edc1f91cfc7b9d6c77c2740d9e28d656c1effe9a047",
+    "reserved_test.jsonl": "e2023221e3e3acddbe5bf11df1a24674ad2c24cea9af9886e67535a0c8a1b5dd"
+  },
+  "resolved_total": 3357,
+  "unresolved_excluded_ids": [
+    "1lp8o76",
+    "1nwclik",
+    "1nzj2ic",
+    "1q03jmr",
+    "1qozvt5"
+  ],
+  "reserved_total": 200,
+  "development_before_exact_dedup": 3157,
+  "development_after_exact_dedup": 3155,
+  "development_exact_duplicate_exclusions": [
+    {
+      "study_id": "C2-5450BF02B19F",
+      "reddit_id": "1u3zzcs",
+      "title": "Unable to log in in KDE Fedora 44 after update, getting a black screen"
+    },
+    {
+      "study_id": "C2-EF691952AEF7",
+      "reddit_id": "1so7xen",
+      "title": "Zigbee2MQTT 2.x: Home Assistant Discovery Not Working – Solution"
+    }
+  ],
+  "development_s2": {
+    "total": 2086,
+    "discussion_type": {
+      "general_dissatisfaction": 67,
+      "other": 329,
+      "technical_troubleshooting": 1690
+    }
+  },
+  "reserved_s2": {
+    "total": 159,
+    "discussion_type": {
+      "general_dissatisfaction": 9,
+      "other": 15,
+      "technical_troubleshooting": 135
+    }
+  },
+  "notes": [
+    "Only exact normalized title+body development copies matching reserved test were excluded.",
+    "Near-duplicate search and label quality checks still need to be completed before training.",
+    "Reserved test labels were jointly decided; no independent agreement claim follows."
+  ]
+}

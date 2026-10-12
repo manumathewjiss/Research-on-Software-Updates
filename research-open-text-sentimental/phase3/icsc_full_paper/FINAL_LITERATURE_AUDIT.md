@@ -1,0 +1,50 @@
+# Prewriting literature audit (2026-10-08)
+
+**Purpose:** decide what prior work actually limits our claim. This is a screened candidate set, not manuscript prose and not a claim of an exhaustive systematic review. Titles, authors, venue, year, and DOI were checked against publisher or conference pages and Crossref. Methods below were checked against accessible primary full text where marked **full**, or the publisher/conference abstract where marked **abstract**. Do not imply a full-method comparison for abstract-only items. Candidate BibTeX is in `VERIFIED_CANDIDATE_REFERENCES.bib`.
+
+## Search and selection record
+
+Searched publisher/conference pages from IEEE/ACM, Springer, Elsevier, ACL and author-hosted accepted manuscripts using combinations of: `Reddit software requirements bug reports`, `software update Reddit feedback`, `forum post issue classification`, `bug report missing information`, `post-release feedback triage`, `unseen dataset feedback classifier`, `2024 2025 2026`. Used backward references in the 2026 issue-classification mapping paper and the 2026 evidence-aware issue paper. Used OpenAlex forward-citation lists for Iqbal et al. (2021) and Tizard et al. (2019), then followed the relevant 2025/2026 items to primary pages. This is a focused search, not a reproducible systematic-review protocol; institutional-library coverage of every paywalled full text was not verified.
+
+## Closest work: read before fixing our claim
+
+| Work and evidence depth | What they did / evaluated | What it means for us |
+|---|---|---|
+| [Singh et al. 2024, *Enriching Release Notes with Reddit Feedback*](https://doi.org/10.55432/978-1-6692-0007-9_7), **full** | Professor Berhe is a coauthor. Combines Reddit feedback and release notes for software-update impact/prioritization in a clinical-ecosystem example; paper reports 900+ posts and a 5% critical/breaking-update finding. | **Mandatory closest same-lab predecessor.** Our work must explain the difference: post-level troubleshooting-purpose labels and diagnostic-field observations, not release-note enrichment, impact prediction, or update prioritization. Check whether its underlying posts/API overlap ours; the public paper alone does not establish that. |
+| [Iqbal, Khan, Taveter & Seyff 2021, *Mining Reddit as a New Source for Software Requirements*](https://doi.org/10.1109/RE51729.2021.00019), **full author PDF** | Annotated Reddit software posts into bug, feature, and irrelevant feedback; compared conventional classifiers, reporting SVM macro-F1 about 0.84 under its own setup. | Reddit software-post classification is established. Our 0.792 is a different conditional task and cannot be compared as a head-to-head method result. |
+| [Wang, Devine, Tizard, Shahamiri & Blincoe 2024, *Conversation in forums*](https://doi.org/10.1016/j.jss.2024.112108), **publisher full page** | Manually examines software-forum posts and sentence/post context, identifying feedback information missed by sentence-only analysis and thread-level progression. | Post-level context and diagnostic evidence in forums are established; our checklist is not a new information-representation method. |
+| [Zegers et al. 2025, *Irresponsibility Killed the Cat*](https://doi.org/10.1109/CHASE66643.2025.00024), **conference abstract** | Analyzes 8,350 posts from ten software-focused Reddit communities with manual analysis, classification, topics and time series; identifies accountability concerns. | Reddit software mining at scale and mixtures of technical and nontechnical concern are not new. Need full paper before detailed method comparison; abstract suffices to reject a broad novelty claim. |
+| [Wang et al. 2026, *From noisy feedback to evidence-aware issue specifications*](https://doi.org/10.1007/s10515-026-00640-x), **publisher full** | Agent-governed retrieval/generation from post-release feedback, with triage, evidence checks, and human-rated issue specifications on Firefox and VS Code ecosystems. | The phrase **“evidence-aware triage” is already associated with a more complete evaluated system**. Avoid using it as our named innovation. We measure visible fields; we do not generate or validate issue specifications. |
+| [Chaparro et al. 2017, *Detecting Missing Information in Bug Descriptions*](https://doi.org/10.1145/3106237.3106285), **full author PDF** | Manually studied nearly 3,000 formal bug reports for observed/expected behavior and reproduction steps, then detected missing information. | Our field checklist extends to informal update posts but does not invent completeness analysis or demonstrate developer usefulness. |
+| [Bo et al. 2024, *ChatBR*](https://doi.org/10.1145/3691620.3695518), **publisher/author abstract and method summary** | Fine-tunes a sentence classifier for missing bug-report components and uses ChatGPT to supply them, evaluated across six projects. | Our diagnostic study is descriptive only. It neither automatically extracts/generates fields nor validates report quality. |
+
+## Focused supporting work
+
+| Work and evidence depth | Role in the paper | Boundary |
+|---|---|---|
+| [Hassan, Bezemer & Hassan 2020, *Studying Bad Updates*](https://doi.org/10.1109/TSE.2018.2869395), **full author PDF** | Update-level motivation; app-store reviews after releases. | Different channel and outcome; not our classifier baseline. |
+| [Tizard et al. 2019, *Can a Conversation Paint a Picture?*](https://doi.org/10.1109/RE.2019.00014), **full author PDF** | Earlier software-forum requirements/data-type analysis. | Do not claim forum diagnostic content is unexplored. |
+| [Devine, Koh & Blincoe 2023, *Evaluating Software User Feedback Classifier Performance on Unseen Apps, Datasets, and Metadata*](https://doi.org/10.1007/s10664-022-10254-y), **full author PDF** | Shows cross-dataset performance can degrade even when unseen-app performance is less changed. | Supports careful fresh-set interpretation; our new-ID test is not a fully independent platform/domain transfer. |
+| [Laiq et al. 2025, *A comparative analysis of ML techniques for bug report classification*](https://doi.org/10.1016/j.jss.2025.112457), **full author PDF** | Compares nine techniques on three bug-report datasets against practical adoption factors. | Routine LR-versus-SVM-versus-transformer comparison is not novelty. |
+| [Laiq & Dobslaw 2026, *Automatic techniques for issue report classification*](https://doi.org/10.1007/s10515-026-00616-x), **publisher full** | Maps 46 issue-classification studies and flags ground-truth reliability and limited practitioner involvement. | Good field overview, not a performance baseline. It reinforces our annotation/utility limitations. |
+| [Laiq et al. 2024, *Industrial adoption of ML for invalid bug reports*](https://doi.org/10.1007/s10664-024-10502-3), **publisher full** | Real in-use industrial validation of issue filtering, adoption and drift concerns. | We cannot claim actual analyst time savings or deployment validation. |
+| [Tkalich et al. 2025, *User feedback in continuous software engineering*](https://doi.org/10.1007/s10664-024-10557-2), **publisher full** | Interviews in 13 product companies explain collection/interpretation challenges. | Motivation only; not evidence our system improves workflow. |
+| [Tang et al. 2024, *App review driven collaborative bug finding*](https://doi.org/10.1007/s10664-024-10489-x), **publisher full** | Matches app reviews and bug reports and reports developer-triaged/fixed new bugs. | Much stronger downstream validation than our study; app-review setting differs. |
+| [Roostaee et al. 2026, *CONKER*](https://doi.org/10.1016/j.infsof.2026.108056), **publisher abstract only** | Contrastive semantic retrieval for app-review bug categories. | Shows a frozen off-the-shelf embedding comparison is not a new semantic method. Obtain full text only if we choose to compare technical semantic methods in detail. |
+| [Reimers & Gurevych 2019, *Sentence-BERT*](https://doi.org/10.18653/v1/D19-1410), **ACL full** | Method citation for sentence embeddings. | Baseline foundation, not domain novelty. |
+
+The 2026 [Moodle forum-to-issue-tracker case study](https://conf.researchr.org/details/RE-2026/RE-2026-Research-Papers/12/From-Community-Forums-to-Issue-Trackers-A-Moodle-Case-Study) surfaced in forward-citation searching. It studies cross-channel traceability and stakeholder interviews, so it is useful context only if we discuss moving Reddit posts into issue trackers. It is not a close comparator for the present classifier.
+
+## What the search changes
+
+1. A general claim that we are first to mine Reddit feedback for software updates is indefensible because of Singh et al. 2024, **from Professor Berhe's own research line**.
+2. “Classify software feedback” and “detect missing bug-report details” are established tasks; our narrow difference is the explicit update-linked troubleshooting-purpose distinction and its audited test/diagnostic profile.
+3. The secondary checklist should be called **observed diagnostic fields**, not an evaluated completeness or actionability method.
+4. We cannot claim the frozen MiniLM model delivers a semantic-computing advance: its development difference from TF-IDF is uncertain and it was not taken to the fresh test.
+5. No external paper's reported F1 is directly comparable to ours without a shared dataset, label map and split. Related work should compare *tasks and evaluation designs*, not make a scoreboard.
+
+## Final literature work still appropriate
+
+- Confirm with Professor Berhe whether the 2024 Singh et al. source posts or software-update API contributed to the current corpus. If yes, document reuse and overlap; if no, state only the conceptual relationship.
+- Read the full Zegers 2025 and CONKER 2026 papers only if they are used for detailed method claims. The present abstracts are enough to constrain broad novelty.
+- During manuscript drafting, select roughly **10–14** of the most relevant references from this screened set; more references are not automatically better. Verify each citation supports its sentence.

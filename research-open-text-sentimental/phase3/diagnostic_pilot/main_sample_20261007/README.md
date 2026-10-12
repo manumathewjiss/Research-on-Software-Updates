@@ -1,0 +1,9 @@
+# Main diagnostic-detail sample
+
+The sampling frame is the 1,658 Reddit-only, S2 troubleshooting posts in the revised Phase 3 development snapshot after the two recorded near-duplicate exclusions. `build_main_sample.py` selected 250 post IDs by simple random sampling without replacement (seed 20261007). All 250 had the same inclusion probability, 250/1658. No model prediction or diagnostic-field answer was used to select them. The earlier reserved classification test and 30 Stack Overflow records are outside this frame.
+
+The sample is assigned to five 50-post batches. Batch 1 is in `Main_Diagnostic_Batch_01_50_Blank.xlsx`; the remaining `review_batch_02.json` through `review_batch_05.json` are frozen now and will be turned into review sheets in order. The reviewer workbook contains only masked IDs and saved titles/bodies. `analyst_mapping.json` contains source IDs and collection metadata and should stay separate from the reviewer while labeling. Ten posts overlap the earlier 50-post feasibility pilot by chance; their old field answers are not copied into this study.
+
+Use `../CODEBOOK_v1.0.md`. If a post is `no` or `unclear` on the troubleshooting check, leave its eight diagnostic fields blank and explain the issue. Preserve submitted workbooks unchanged. This sample can support field frequencies for the **collected, reviewed development corpus**, not all Reddit software-update posts. The initial 50-post feasibility pilot is not added to these 250 counts.
+
+After all five batches, validate decisions and notes, inspect any troubleshooting-check flags separately, report field frequencies with uncertainty intervals and missing-body sensitivity, and then perform the planned model error analysis. The separate fresh classification test still requires new data collection and human review.

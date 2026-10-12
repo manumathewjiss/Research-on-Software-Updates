@@ -1,0 +1,12 @@
+{
+  "imported_utc": "2026-10-07T15:46:31.334627+00:00",
+  "reviewed_workbook": "Phase2_Provisional_Next_1000_Reviewed.xlsx",
+  "sha256": "e16d11569fae5aa92dae51e89aca343c8fa6b663107ffa7f4232954e9fba1391",
+  "decisions": {
+    "revise": 242,
+    "accept": 758
+  },
+  "resolved": 1000,
+  "unresolved_ids": [],
+  "note": "Manu reviewed proposals; no independent blinded agreement is implied. Uncertain posts remain unlabeled. Review dates were blank in the submitted workbook."
+}

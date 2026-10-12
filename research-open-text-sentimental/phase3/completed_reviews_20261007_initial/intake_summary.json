@@ -1,0 +1,109 @@
+{
+  "manu_test": {
+    "expected_rows": 300,
+    "received_rows": 300,
+    "text_changed_ids": [],
+    "issues": [],
+    "about_software": {
+      "unclear": 7,
+      "yes": 276,
+      "no": 17
+    },
+    "update_related": {
+      "unclear": 6,
+      "yes": 208,
+      "no": 86
+    },
+    "discussion_type": {
+      "na": 24,
+      "other": 48,
+      "technical_troubleshooting": 218,
+      "general_dissatisfaction": 10
+    },
+    "sha256": "0350dc0ff8776a4ba38b7a7853feb888be98faead21b7ae854ef2bf6deb43c98"
+  },
+  "berhe_test": {
+    "expected_rows": 300,
+    "received_rows": 300,
+    "text_changed_ids": [],
+    "issues": [],
+    "about_software": {
+      "yes": 282,
+      "no": 12,
+      "unclear": 6
+    },
+    "update_related": {
+      "yes": 211,
+      "no": 84,
+      "unclear": 5
+    },
+    "discussion_type": {
+      "technical_troubleshooting": 234,
+      "na": 18,
+      "general_dissatisfaction": 6,
+      "other": 42
+    },
+    "sha256": "219a8f34b6d94342815e9570061419847ccbb458964e3742cfa734812691297c"
+  },
+  "diagnostic": {
+    "expected_rows": 250,
+    "received_rows": 250,
+    "text_changed_ids": [],
+    "issues": [],
+    "troubleshooting_check": {
+      "yes": 237,
+      "no": 4,
+      "unclear": 9
+    },
+    "notes_present_n": 19,
+    "field_counts_among_yes": {
+      "software_product": {
+        "present": 218,
+        "not_observed": 19
+      },
+      "identifiable_release": {
+        "not_observed": 115,
+        "present": 122
+      },
+      "environment": {
+        "present": 137,
+        "not_observed": 100
+      },
+      "specific_symptom": {
+        "present": 237
+      },
+      "reproduction_context": {
+        "present": 108,
+        "not_observed": 129
+      },
+      "error_evidence": {
+        "not_observed": 190,
+        "present": 40,
+        "unclear": 7
+      },
+      "attempted_remedy": {
+        "present": 118,
+        "not_observed": 119
+      },
+      "help_request": {
+        "present": 168,
+        "not_observed": 69
+      }
+    },
+    "sha256": "ed6bcab4ae4041441bd50eb893701c88b17542162132afc0fa99b36aa8f2a871"
+  },
+  "shared_test": {
+    "n": 100,
+    "same_on_all_three_label_fields": 100,
+    "same_on_each_field": {
+      "about_software": 100,
+      "update_related": 100,
+      "discussion_type": 100,
+      "confidence": 100,
+      "reason": 0
+    },
+    "same_reason_count": 0,
+    "label_disagreement_ids": [],
+    "any_difference_rows": 100
+  }
+}

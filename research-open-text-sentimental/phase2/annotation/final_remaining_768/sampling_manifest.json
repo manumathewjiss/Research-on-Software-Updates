@@ -1,0 +1,34 @@
+{
+  "created_utc": "2026-10-07T15:48:33.555357+00:00",
+  "master_sha256": "35ad360b45e8b3a6430f9bf161332458257d50865c72f0b833a53419a0f11ab4",
+  "selection_seed": 20261009,
+  "proposal_method": "development_models_v4",
+  "training_counts": {
+    "manu_assisted_review": 1994,
+    "pilot_post_discussion": 100,
+    "joint_review": 300
+  },
+  "reserved_test_training_posts": 0,
+  "model_library": "scikit-learn 1.9.1",
+  "model_inputs": "Original title, first 4000 body characters, and subreddit; no source pool, legacy label, replies, or reserved-test labels.",
+  "selection": "All 762 still-unreviewed posts from the October 5 troubleshooting-query pool, shuffled reproducibly into seven 100-post batches and one 62-post batch. Six previously uncertain cases are on a separate sheet without suggested labels.",
+  "selected_source_counts": {
+    "oct5_query_tps": 762
+  },
+  "proposal_type_counts": {
+    "technical_troubleshooting": 717,
+    "other": 31,
+    "general_dissatisfaction": 7,
+    "na": 7
+  },
+  "proposal_confidence_counts": {
+    "low": 426,
+    "medium": 336
+  },
+  "overflow_body_ids": [],
+  "unselected_after_this_batch": 0,
+  "previously_uncertain_unresolved": 6,
+  "work_remaining_if_new_posts_are_resolved": 6,
+  "work_remaining_if_every_sheet_is_resolved": 0,
+  "warning": "Automatic proposals are review aids, not confirmed labels. Assisted-review training labels were verified with visible proposals, so this is not an independent blind annotation model evaluation."
+}

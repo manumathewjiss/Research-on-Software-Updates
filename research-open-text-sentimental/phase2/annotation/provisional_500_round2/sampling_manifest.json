@@ -1,0 +1,37 @@
+{
+  "created_utc": "2026-10-07T04:07:44.956267+00:00",
+  "master_sha256": "faaf0a73352bbba8b4b4c038b893c4f52442fa04da863d7b75dadc366111e814",
+  "selection_seed": 20261007,
+  "proposal_method": "development_models_v2",
+  "training_counts": {
+    "manu_assisted_review": 496,
+    "pilot_post_discussion": 100,
+    "joint_review": 300
+  },
+  "reserved_test_training_posts": 0,
+  "model_library": "scikit-learn 1.9.1",
+  "model_inputs": "Original title, first 4000 body characters, and subreddit; no source pool, legacy label, replies, or reserved-test labels.",
+  "selection": "Random without replacement within remaining unreviewed source pools. Exhaust remaining Phase 1 and Oct 5 general-query pools; sample 200 from the larger troubleshooting-query pool.",
+  "selected_source_counts": {
+    "oct5_query_tps": 200,
+    "phase1_gold_file": 243,
+    "oct5_query_gds": 57
+  },
+  "proposal_type_counts": {
+    "technical_troubleshooting": 295,
+    "other": 108,
+    "na": 93,
+    "general_dissatisfaction": 4
+  },
+  "proposal_confidence_counts": {
+    "medium": 220,
+    "low": 280
+  },
+  "overflow_body_ids": [
+    "B7-011"
+  ],
+  "unselected_after_this_batch": 1762,
+  "previously_uncertain_unresolved": 4,
+  "work_remaining_if_this_batch_is_resolved": 1766,
+  "warning": "Automatic proposals are review aids, not confirmed labels. The 496 assisted-review training labels were verified with visible proposals, so this is not an independent blind annotation model evaluation."
+}

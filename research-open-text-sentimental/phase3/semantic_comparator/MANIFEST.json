@@ -1,0 +1,59 @@
+{
+  "code_version": "semantic-comparator-v1",
+  "git_head": "2a578690c80bff3af302fa23fa0d0837fd13100c",
+  "created_utc": "2026-10-08T05:01:18.999031+00:00",
+  "model_id": "sentence-transformers/all-MiniLM-L6-v2",
+  "model_revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+  "encoder_frozen": true,
+  "encoder_not_finetuned": true,
+  "normalize_embeddings": true,
+  "semantic_head": "LogisticRegression C=1.0 class_weight=balanced liblinear max_iter=2000 random_state=42",
+  "tfidf_comparator": "word unigrams+bigrams min_df=2 max_features=20000 sublinear_tf; LogisticRegression C=4 class_weight=balanced",
+  "text": "make_text title+body: URLs removed, lowercased, whitespace collapsed. Comments, source, subreddit, and IDs are not predictors.",
+  "outer_folds": "saved fold ids in post_audit_reddit_only_oof.jsonl",
+  "inner_folds": "3 StratifiedGroupKFold on each outer training split, seed 42, exact/near-duplicate groups",
+  "threshold_grid": [
+    0.2,
+    0.25,
+    0.3,
+    0.35,
+    0.4,
+    0.45,
+    0.5,
+    0.55,
+    0.6,
+    0.65,
+    0.7,
+    0.75,
+    0.8
+  ],
+  "threshold_rule": "maximize mean inner macro-F1; ties broken by mean inner other-update F1, then closeness to 0.5",
+  "packages": {
+    "sentence_transformers": "6.1.0",
+    "transformers": "5.19.0",
+    "torch": "2.14.1",
+    "scikit_learn": "1.9.1",
+    "numpy": "2.5.3"
+  },
+  "inputs": {
+    "development": "/Users/manumathewjiss/Documents/Research-on-Software-Updates/research-open-text-sentimental/phase3/update_connection_audit/targeted_submission/development_after_update_audit.jsonl",
+    "development_sha256": "30d6a3dc78c7fd3999dcaf0649b7544a912b3d9dc1899e26ed12a36ac5407d47",
+    "outer_folds": "/Users/manumathewjiss/Documents/Research-on-Software-Updates/research-open-text-sentimental/phase3/update_connection_audit/targeted_submission/post_audit_reddit_only_oof.jsonl",
+    "outer_folds_sha256": "859a7851da03afe9767e5c448ecf72c751c4c62b6b1d6cf0606fb74162b0c470",
+    "master_sha256": "1c5942868a756f20673651ffd0257d895195ee1e290cf9c32871e84c6150287a"
+  },
+  "tests_not_used": [
+    "159-post reserved test",
+    "344-post fresh test"
+  ],
+  "compute": {
+    "device": "cpu",
+    "encoder_load_seconds": 15.522,
+    "encode_seconds": 12.809,
+    "semantic_head_seconds": 1.024,
+    "tfidf_seconds": 5.791,
+    "wall_seconds": 49.544,
+    "platform": "macOS-27.0.1-arm64-arm-64bit-Mach-O"
+  },
+  "model_card_name": null
+}

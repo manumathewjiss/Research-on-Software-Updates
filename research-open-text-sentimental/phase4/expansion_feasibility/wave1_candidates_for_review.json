@@ -1,0 +1,585 @@
+[
+  {
+    "id": "1x0twgw",
+    "sub": "comfyui",
+    "stratum": true,
+    "worthy": false,
+    "review": true,
+    "qual": false,
+    "themes": [
+      "ai_tooling"
+    ],
+    "diag": 2,
+    "flags": [
+      "weak_software_cue"
+    ],
+    "reason": "2 diagnostic fields present",
+    "title": "ComfyUi desktop not working after win update",
+    "body": "Only me? Anyone else? 🤬\n\n  \nEDIT: turned off SAC and it's running. With the new update looks like SAC can be turned on without having to reinstall OS....so this is the only walkaround i found."
+  },
+  {
+    "id": "1x0npy3",
+    "sub": "comfyui",
+    "stratum": true,
+    "worthy": false,
+    "review": true,
+    "qual": false,
+    "themes": [
+      "ai_tooling"
+    ],
+    "diag": 3,
+    "flags": [
+      "single_strong_update_cue"
+    ],
+    "reason": "3 diagnostic fields present",
+    "title": "ComfyUI won't launch/install a new instance — pressing \"Pass &amp; Install\" does nothing",
+    "body": "Hey everyone,\n\nI haven’t used ComfyUI for over a month, and today I tried setting up a fresh instance. When I click **\"Pass &amp; Install\"**, absolutely nothing happens—no terminal pops up, no error message appears, and the process doesn't start.\n\nHas anyone run into this issue recently after an update or prolonged downtime? Any advice on how to force a reinstall or see detailed error logs would be appreciated!"
+  },
+  {
+    "id": "1x0emfp",
+    "sub": "chrome",
+    "stratum": true,
+    "worthy": false,
+    "review": true,
+    "qual": true,
+    "themes": [
+      "os_or_driver",
+      "browser"
+    ],
+    "diag": 5,
+    "flags": [
+      "single_strong_update_cue"
+    ],
+    "reason": "5 diagnostic fields present",
+    "title": "A problem with Chrome Version 155.0.8059.40 (64-bit)",
+    "body": "Hi, friends,\n\n \n\nI stuck with the Chrome after I updated to 155.0.8059.40 version under Windows 10.\n\n \n\n①.      The problem\n\n \n\nWhen I logout my Google account in Chrome, all my passwords and bookmarks in chrome disappeared.\n\nWhen I login my Google account in Chrome, all my passwords and bookmarks in chrome come back.\n\n \n\n②.      What I want to solve\n\n \n\nI would like to keep my passwords and bookmarks locally in my Chrome. The reason is, sometimes, it is quite hard for me to access to international internet, because of the firewall.\n\n \n\nAny help would be appreciated.\n\n \n\nThanks."
+  },
+  {
+    "id": "1x0305w",
+    "sub": "software",
+    "stratum": true,
+    "worthy": true,
+    "review": false,
+    "qual": true,
+    "themes": [
+      "os_or_driver"
+    ],
+    "diag": 3,
+    "flags": [],
+    "reason": "3 diagnostic fields present",
+    "title": "I built Glassline: a macOS-style menu bar and dock that replace the Windows 11 taskbar (1.0.5 just out)",
+    "body": "Hi everyone! Glassline hides the Windows 11 taskbar and Start menu and puts a menu bar at the top and a dock at the bottom, in clear glass that takes the colour of your wallpaper. When you quit it, the taskbar comes back exactly as it was. No account, no ads and no analytics in the app.\n1.0.5 is out, and it is the biggest update so far.\n\n**New in 1.0.5**\n\n\n- Tray icons in the menu bar: pick the ones you want in Settings or pin them from Control Center, then drag them into your own order.\n- Hardware readings in Control Center: processor, memory and graphics card load, with temperatures. HWiNFO or MSI Afterburner can add fan speeds.\n- Currency in Search: type \"100 usd to eur\" and get the European Central Bank's rate. The last rate is kept for when you are offline.\n- More units in Search: speed, volume, area, file sizes, connection speeds and time. Try \"100 km/h in mph\" or \"1500 mb to gb\".\n"
+  },
+  {
+    "id": "1x01rq9",
+    "sub": "androiddev",
+    "stratum": true,
+    "worthy": true,
+    "review": false,
+    "qual": false,
+    "themes": [
+      "mobile",
+      "browser"
+    ],
+    "diag": 4,
+    "flags": [],
+    "reason": "4 diagnostic fields present",
+    "title": "My first app failed Google's production access review. The second passed — here's what changed",
+    "body": "A few months ago I tried to get my first Android app into production and got rejected after the closed test.\n\nTechnically, I had enough testers. The problem was that the actual testing was pretty bad.\n\nA lot of people joined because I asked them to, but some never installed the app at all. Most of the people who did install it opened it once, registered, clicked around for a bit and never came back.\n\nThat app required an account, so I could actually see this in the login data. For almost everyone the registration date and last login date were the same. I was basically the only person regularly coming back after updates and testing new builds.\n\nGoogle rejected the production access request. The email didn't give me one exact reason, but it listed two possible ones: testers weren't engaged enough, and I hadn't followed testing best practices, including collecting feedback and making change"
+  },
+  {
+    "id": "1wzvhj6",
+    "sub": "PowerToys",
+    "stratum": true,
+    "worthy": false,
+    "review": true,
+    "qual": false,
+    "themes": [],
+    "diag": 2,
+    "flags": [
+      "weak_software_cue"
+    ],
+    "reason": "2 diagnostic fields present",
+    "title": "every update keeps switching things off",
+    "body": "the last couple updates have turned off, lightswitch, powertoys run and text extractor and powertoys run and text extractor dont work as well as they used to, i know they want you to use command palette instead but it doesnt work as well for searching for programs quickly, i turn powertoys run back on and the keyboard shortcut just outright wont work, i swear each version is getting buggier and buggier\n\nCurrently on v0.101.2362.0  (used text extractor for that from the powertoys app it copied a zero as an o)"
+  },
+  {
+    "id": "1wzv7nz",
+    "sub": "sysadmin",
+    "stratum": true,
+    "worthy": true,
+    "review": false,
+    "qual": false,
+    "themes": [
+      "os_or_driver"
+    ],
+    "diag": 2,
+    "flags": [],
+    "reason": "2 diagnostic fields present",
+    "title": "gpupdate /force applies user policies, but not computer ones.",
+    "body": "Hello, I have a really weird problem that i've been fighting with for a few days now. In our company we have 2 DCs, all was well and all the policies i set on the main DC synchronised to correct computers/users. However, starting this week, whenever i try to gpupdate /force on my PC, i get an error:\n\n\"Computer Policy could not be updated successfully. The following errors were encountered:\n\nThe processing of Group Policy failed. Windows could not determine the computer account to enforce Group Policy Settings. This may be transient. Group Policy Settings, including computer configuration, will not be enforced for this computer.\"\n\nAnd right below that \"User Policy update has completed successfully\". Which means, only the computer GPOs don't apply.\n\nWhat i tried:\n\n* Reconnecting the pc to the domain\n* Checked DNS - everything is good\n* Checked Event Viewer - only interesting thing there wa"
+  },
+  {
+    "id": "1wzohes",
+    "sub": "Wordpress",
+    "stratum": true,
+    "worthy": true,
+    "review": false,
+    "qual": false,
+    "themes": [],
+    "diag": 2,
+    "flags": [],
+    "reason": "2 diagnostic fields present",
+    "title": "contact form 7 (v6.2) crashing sites running php8.2",
+    "body": "upgrade your php or disable contact-form-7\n\n  \nWhy does it autoupdate if the php version doesn't meet its requirements?\n\nIf it must update, can't the plugin simply turn itself off if it doesn't like the php version? Why crash the site"
+  },
+  {
+    "id": "1wzne0h",
+    "sub": "comfyui",
+    "stratum": true,
+    "worthy": true,
+    "review": false,
+    "qual": true,
+    "themes": [
+      "os_or_driver",
+      "ai_tooling"
+    ],
+    "diag": 6,
+    "flags": [],
+    "reason": "6 diagnostic fields present",
+    "title": "RTX 5090 + MiniMax H3: full-system power-off no longer reproduced after updating the ComfyUI-side stack",
+    "body": "I ran into a pretty unusual MiniMax H3 / RTX 5090 failure and managed to freeze the exact workload before changing anything, so I ended up with a fairly clean A/B.\n\n**Hardware**\n\n- Ryzen 9 9950X3D\n- RTX 5090\n- ASUS ROG Strix 1200W Platinum\n- Windows 11\n\n**What the failure looked like**\n\nThis was not a normal ComfyUI crash, CUDA exception, TDR, black screen, or BSOD.\n\nOn the failing H3 workload the entire PC would instantly lose main power:\n\n- fans stopped\n- RGB went off\n- system stayed powered off\n- no bugcheck / no dump\n- no obvious WHEA or nvlddmkm event before it\n- pressing the case power button could immediately boot the PC again\n\nThe same frozen H3 shot reproduced this behavior more than once.\n\n**The weird part**\n\nNormal heavy GPU workloads were fine.\n\nI ran FurMark 2 at roughly 600 W board power for ~15 minutes at 99% GPU load with no issue.\n\nI had also previously run H3/AI workloa"
+  },
+  {
+    "id": "1wzhl1e",
+    "sub": "applehelp",
+    "stratum": true,
+    "worthy": false,
+    "review": true,
+    "qual": false,
+    "themes": [
+      "mobile"
+    ],
+    "diag": 4,
+    "flags": [
+      "single_strong_update_cue"
+    ],
+    "reason": "4 diagnostic fields present",
+    "title": "Account access and adding to iPad issues",
+    "body": "Hi folks, having a nightmare with account stuff and hoping someone can help. I'm trying to add my account to an iPad air 3, but every time I try and log in on the ipad I'm stuck in a circle of entering my account details, being sent a verification code which I enter, then being put back to the login screen with no error. This will just repeat over and over. I've updated to the latest version of iOS, tried logging in through the app store and resetting my password, no luck.\n\nFrom here I tried logging in to account.apple.com to access Apple Help, but here I'm asked for my payment card security number after entering the verification code. The security number Im entering is definitely correct (use it to pay for AppleTV) but it's saying its incorrect. So I cant log in to acces help!\n\nI dont use apple devices outside of the iPad, so not sure if this is causing issues but stuck for what to do n"
+  },
+  {
+    "id": "1wzhbua",
+    "sub": "Ubiquiti",
+    "stratum": true,
+    "worthy": false,
+    "review": true,
+    "qual": false,
+    "themes": [
+      "homelab_or_network"
+    ],
+    "diag": 2,
+    "flags": [
+      "single_strong_update_cue",
+      "weak_software_cue"
+    ],
+    "reason": "2 diagnostic fields present",
+    "title": "U7 Lite needs a physical reset after power blips — normal?",
+    "body": "Hi everyone! \n\nI inherited some U6 APs from the previous owners and could never get them working reliably, so I upgraded to a U7 Lite.\n\nI set it up through the UniFi app on my phone and have a separate Wi-Fi network for it. It works fine normally, but after power blips/outages it sometimes gets stuck on “Getting Ready” or “Pending Adoption.”\n\nThe frustrating part is I have to take the AP off the ceiling each time and physically reset it to get it working again and I've to do this 2-3 times to get it to reset and work again.\n\nIs this normal behavior for a U7 Lite, or does this point to a PoE/router/adoption setup issue?"
+  },
+  {
+    "id": "1wzf3q9",
+    "sub": "Ubiquiti",
+    "stratum": true,
+    "worthy": false,
+    "review": true,
+    "qual": false,
+    "themes": [
+      "homelab_or_network"
+    ],
+    "diag": 2,
+    "flags": [
+      "single_strong_update_cue"
+    ],
+    "reason": "2 diagnostic fields present",
+    "title": "Can't get Matter devices to work on Homekit - going insane!",
+    "body": "Hi everyone! I have a HomeKit based home with a Ubiquiti backbone: ISP ONT -&gt; UX7 -&gt; USW Ultra. I consider myself an amateur but god have I tried everything to make it work. Your help would be much, much appreciated.\n\nPretty much the title - regular stuff connects fine, Matter based devices get an instant \"pairing failed\" error. I have Aqara hardware: a G5 camera hub (PoE version, which is also a Matter hub) and a Door/window sensor.\n\nAs soon as I try to pair the camera hub via Matter to Apple Home in the Aqara app it fails instantly, per the screenshots.\n\nMy current VLAN setup is main network for my devices (that's where the Apple TV is) and the IoT VLAN (where the G5 camera is). I have IPv6 enabled, VLANs can talk to each other.\n\nIMHO the systems can see each other as per the 3rd screenshot (Home app can see the hub) but I get the same error in the screenshot, just coming from th"
+  },
+  {
+    "id": "1wz9rb5",
+    "sub": "applehelp",
+    "stratum": true,
+    "worthy": false,
+    "review": true,
+    "qual": false,
+    "themes": [
+      "mobile"
+    ],
+    "diag": 3,
+    "flags": [
+      "single_strong_update_cue"
+    ],
+    "reason": "3 diagnostic fields present",
+    "title": "The iPhone won't connect to Wi-Fi, and it freezes when Airplane Mode is turned on.",
+    "body": "Hi, I just finished repairing this iPhone 7 Plus, but it won't connect to Wi-Fi-it finds the network, but when I try to connect, it just gets stuck trying and tails. Also, the iphone freezes when I try to turn on Airplane Mode. What could be the issue?  \nThe iPhone is completely dead. I replaced the battery and screen and it worked, but it still has that problem-can you help me? I don't know if it's a software issue, but I'm going to update it to the latest iOS version using iTunes on my PC."
+  },
+  {
+    "id": "1wywdq7",
+    "sub": "linuxquestions",
+    "stratum": true,
+    "worthy": false,
+    "review": true,
+    "qual": false,
+    "themes": [
+      "os_or_driver",
+      "browser"
+    ],
+    "diag": 2,
+    "flags": [
+      "single_strong_update_cue"
+    ],
+    "reason": "2 diagnostic fields present",
+    "title": "Constant browser issues and then crashing in Ubuntu",
+    "body": "So I primarily use Microsoft edge (don't kill me, i am on dual boot and need to change os frequently so Edge's workspace feature helps a lot, no other browser provides it as of now). and I use Firefox as well.   \nBut recently if I open too many tabs or I am on a Google Meet or Zoom call my entire system just hangs. It buffers and then simply hangs forever and I have to forcefully shut down using the power key. This has happened so many times with both Edge and Firefox. Same amount of tabs I opened in Windws and my system worked smoothly.\n\nAlso the edge consumes a lot of memory and cpu but firefox is not working.\n\nIn firefox there is another issue of it crashing. Firefox itself crashes a lot, especially whenever I drag a file into it (for upload on some website or chatgpt or anything like that) basically if I drag and drop it crashes, but if I click on upload file and upload through the d"
+  },
+  {
+    "id": "1wywdfq",
+    "sub": "Ubuntu",
+    "stratum": true,
+    "worthy": false,
+    "review": true,
+    "qual": false,
+    "themes": [
+      "os_or_driver",
+      "browser"
+    ],
+    "diag": 2,
+    "flags": [
+      "single_strong_update_cue"
+    ],
+    "reason": "2 diagnostic fields present",
+    "title": "Constant browser issues and then crashing in Ubuntu",
+    "body": "So I primarily use Microsoft edge (don't kill me, i am on dual boot and need to change os frequently so Edge's workspace feature helps a lot, no other browser provides it as of now). and I use Firefox as well.   \nBut recently if I open too many tabs or I am on a Google Meet or Zoom call my entire system just hangs. It buffers and then simply hangs forever and I have to forcefully shut down using the power key. This has happened so many times with both Edge and Firefox. Same amount of tabs I opened in Windws and my system worked smoothly.\n\nAlso the edge consumes a lot of memory and cpu but firefox is not working.\n\nIn firefox there is another issue of it crashing. Firefox itself crashes a lot, especially whenever I drag a file into it (for upload on some website or chatgpt or anything like that) basically if I drag and drop it crashes, but if I click on upload file and upload through the d"
+  },
+  {
+    "id": "1wyqgfx",
+    "sub": "Ubuntu",
+    "stratum": true,
+    "worthy": true,
+    "review": false,
+    "qual": true,
+    "themes": [
+      "os_or_driver"
+    ],
+    "diag": 5,
+    "flags": [],
+    "reason": "5 diagnostic fields present",
+    "title": "Ubuntu 24.04 &gt; 26.04 LTS upgrade failed on /lib32 and left system unbootable — kernel panic + working recovery",
+    "body": "I wanted to post this in case someone else runs into the same problem and finds this through Reddit or AI and to save someone lots of time and frustrations from a known bug ([https://bugs.launchpad.net/ubuntu/+source/base-files/+bug/2131303](https://bugs.launchpad.net/ubuntu/+source/base-files/+bug/2131303)).\n\nI upgraded my system from **Ubuntu 24.04 LTS to 26.04 LTS**.  This was driven by a new pop up that appeared and figured why not as it shouldn't take too long.  Well ... The upgrade failed partway through, and after rebooting the machine wouldn't boot at all. Even trying older kernels from GRUB didn't work.\n\nI kept getting:\n\n    KERNEL PANIC!\n    VFS: Unable to mount root fs on unknown-block(0,0)\n\nBooting into older kernels would bring up the desktop but no sign-in login screen.\n\nAt first I thought the install was completely hosed.\n\nI booted from an Ubuntu Live USB (Ventoy with late"
+  },
+  {
+    "id": "1wypf4m",
+    "sub": "applehelp",
+    "stratum": true,
+    "worthy": true,
+    "review": false,
+    "qual": false,
+    "themes": [
+      "mobile"
+    ],
+    "diag": 3,
+    "flags": [],
+    "reason": "3 diagnostic fields present",
+    "title": "Iphone and iPad stuck on recovery mode",
+    "body": "I had an iPhone 11 a while ago, its power button stopped working after a while and the phone went to recovery mode I couldn't do anything to recover it I tried connecting it to my laptop and do the process as it was mentioned on the [apple.com](http://apple.com) website but nothing happened, I tried to reset it and update it from the iTunes application since these two were the only options present but it would just show me an apple logo and then go back to recovery mode. I changed phones since I got a phone from girlfriend soon after, but now after 2years the same thing is happening with my girlfriends iPad, its an iPad Air 4 and she doesn't remember dropping it or so but the iPad's power button stopped working too and its stuck in recovery mode too so I don't know how to help her as she uses this to take notes and doesn't have another iPad tried connecting it to iTunes application and f"
+  },
+  {
+    "id": "1wy3oq3",
+    "sub": "linuxquestions",
+    "stratum": true,
+    "worthy": false,
+    "review": true,
+    "qual": false,
+    "themes": [
+      "os_or_driver"
+    ],
+    "diag": 2,
+    "flags": [
+      "single_strong_update_cue"
+    ],
+    "reason": "2 diagnostic fields present",
+    "title": "Distribution for 4 GB RAM",
+    "body": "I know that this is common topic and Google exists, but as everyone knows there are dozens of options, and I'm not exactly sure what to choose. \n\nAs far as I know it all depends on desktop environment. I want something that is popular and maintained, so I think XFCE is the way to go.\n\nWhen it comes to distributions, I've first checked my favorite ones, which are Ubuntu and Solus.\n\n* Xubuntu works fine, but I don't like lack of consistency in user interface. Some applications are just GNOME applications that don't fit XFCE visual design.\n* Solus XFCE - I couldn't do much testing because it doesn't boot after installing updates. I don't want to blame the system yet since I'm testing it on virtual machine, and here odd things tend to happen. But I've noticed that changing theme only changes windows borders, without affecting anything else, which is quite odd.\n\nI'm also thinking about Pop!\\_"
+  },
+  {
+    "id": "1vpma8i",
+    "sub": "AndroidQuestions",
+    "stratum": true,
+    "worthy": true,
+    "review": false,
+    "qual": false,
+    "themes": [
+      "mobile"
+    ],
+    "diag": 2,
+    "flags": [],
+    "reason": "2 diagnostic fields present",
+    "title": "Bluetooth connection to AC200Max drops after 30 seconds on older Android tablet.",
+    "body": "&amp;#x200B;\n\nI have an AC200Max at our family cabin.\n\nWe have a tablet in another room that we use to monitor the Bluetti's SOC. We run it in offline mode and then just click the Bluetooth connection to connect the tablet to the device.\n\nThe Bluetti is directly in the next room, the devices are less than two feet away with a thin cabin wall between them.\n\nAnd also both my phone and my father's phone can connect to the AC200Max with no connection loss EVER, so it is NOT a connection issue.\n\nThe tablet is an older tablet that is running Android 8.\n\nAt EXACTLY 30 seconds the connection times out and then of course after that the data goes blank on the screen and then I in order for us to view the data on the screen we have to hit \"back\" on the menu and then reconnect to the device.\n\nThis obviously defeats the purpose of even having the tablet available, because the intention was to have th"
+  },
+  {
+    "id": "1uueif0",
+    "sub": "Fedora",
+    "stratum": true,
+    "worthy": false,
+    "review": true,
+    "qual": true,
+    "themes": [
+      "os_or_driver"
+    ],
+    "diag": 3,
+    "flags": [
+      "single_strong_update_cue"
+    ],
+    "reason": "3 diagnostic fields present",
+    "title": "Secondary Monitory Black Screen",
+    "body": "https://preview.redd.it/qxbr00ahosch1.png?width=1238&amp;format=png&amp;auto=webp&amp;s=e8dba6f925008d671eb552094c3fe586f92c49bf\n\nMy secondary monitor has starts up with a huge black patch after updating to KDE 6.7. Removing the `ksreen` config followed by restarting helps (some times). Has anyone else run into this issue? If so, how have you permanently resolved it?\n\nThis issue happens for both Wayland and X11. I don't think its a kernal issue since my NVIDIA drivers build and load cleanly for the running kernal.\n\nI am running:\n\n* Fedora, KDE Plasma 6.7, kernal `7.0.13-200.fc44.x86_64`\n* GPU: NVIDIA RTX 3070TI, driver 595.80 (`akmod-nvidia`)\n* Monitors: AOC 24G1WG4 (DisplayPort, primary) + Acer R240HY (HDMI, secondary)\n* Monitors: AOC 24G1WG4 (DisplayPort, primary) + Acer R240HY (HDMI, secondary)"
+  },
+  {
+    "id": "1uo1a0n",
+    "sub": "firefox",
+    "stratum": true,
+    "worthy": true,
+    "review": false,
+    "qual": false,
+    "themes": [
+      "os_or_driver",
+      "browser"
+    ],
+    "diag": 3,
+    "flags": [],
+    "reason": "3 diagnostic fields present",
+    "title": "My laptop restarted and now everything on Firefox is gone.",
+    "body": "I'm on Windows 11.\n\nOkay so basically, I was just listening to some music on youtube and stuff like that, suddenly my apps froze and my laptop told me that we've run into an issue and need to restart.\n\n It did that then it boots up again, I go on to open Firefox and it opens the start page, everything is blank, it also updated (since I didn't have the newest update on it). None of my bookmarks are there, my profile doesn't show up, it doesn't remember ANYTHING.\n\nIs there anything I can do and has anyone else had this issue? If nothing can be done I will just manually make it like it was before though that'll be a pain in the ass especially since I had like 50 bookmarks most of which O don't remember."
+  },
+  {
+    "id": "1uh1n9n",
+    "sub": "comfyui",
+    "stratum": true,
+    "worthy": true,
+    "review": false,
+    "qual": false,
+    "themes": [
+      "os_or_driver",
+      "ai_tooling"
+    ],
+    "diag": 3,
+    "flags": [],
+    "reason": "3 diagnostic fields present",
+    "title": "Help what is happening? Comfyui after updating big red box on Windows \"This App can't run on your PC\" and in the console, \"Access is denied\"",
+    "body": "As the title says\n\nI updated comfyUI  \nSeemed OK\n\nInstalled Triton and Sage attention  \nGot the Red Box warning, and console said if Comfy doesn't start, you need to update Nvidia drivers. So I did.  \nNow I am on the latest Nvidia drivers too  \nAnd it still won't run, big red box saying it won't, and \"Access denied\" in the console.\n\nWhat happened?\n\nI can't uninstall sage because running  \npython.exe -m pip uninstall sageattention -y\n\nGive me: Access is denied.  \nWTF"
+  },
+  {
+    "id": "1ucz1ox",
+    "sub": "firefox",
+    "stratum": true,
+    "worthy": true,
+    "review": false,
+    "qual": false,
+    "themes": [
+      "browser"
+    ],
+    "diag": 2,
+    "flags": [],
+    "reason": "2 diagnostic fields present",
+    "title": "YouTube seems to be dropping quality more often now in latest update",
+    "body": "I don't think this is an internet issue.\n\nBut I have noticed when seeking more often now, there's a brief black screen and a lot more now the quality drops from 1080p to either 480p or 360p as of the recent update. This has just started today.\n\nThe extensions I have are uBlock Origin (latest), Tampermonkey, Stylus, and Return YouTube Dislike.\n\nThis does not happen on Chrome by the way. Firefox is my primary browser and I definitely do not want to switch to Chrome over this."
+  },
+  {
+    "id": "1ucuoux",
+    "sub": "Fedora",
+    "stratum": true,
+    "worthy": true,
+    "review": false,
+    "qual": false,
+    "themes": [
+      "os_or_driver"
+    ],
+    "diag": 3,
+    "flags": [],
+    "reason": "3 diagnostic fields present",
+    "title": "[HELP] Black screen after update",
+    "body": "Update : SOLVED Thanks to u/Charming_Bison9073\n\n Very new to Linux just downloaded and installed Fedora 44 then update from Discover\n\nbut after its done i reboot then just black like this"
+  },
+  {
+    "id": "1si0nu9",
+    "sub": "immich",
+    "stratum": true,
+    "worthy": false,
+    "review": true,
+    "qual": false,
+    "themes": [],
+    "diag": 2,
+    "flags": [
+      "single_strong_update_cue",
+      "weak_software_cue"
+    ],
+    "reason": "2 diagnostic fields present",
+    "title": "Immich not loading on local IP",
+    "body": "After the recent update, Immich is not loading for me on the local IP address on web. I get the rotation flower. But its accessible through the public domain. \n\nThe only exception is the mobile app. That works well with both the local IP and public domain. \n\nAnyone else faced a similar issue, what can I do to correct that?"
+  },
+  {
+    "id": "1s2kv7x",
+    "sub": "Fedora",
+    "stratum": true,
+    "worthy": false,
+    "review": true,
+    "qual": false,
+    "themes": [
+      "os_or_driver"
+    ],
+    "diag": 2,
+    "flags": [
+      "weak_software_cue"
+    ],
+    "reason": "2 diagnostic fields present",
+    "title": "fedora boots to black screen after update",
+    "body": "yesterday i decided to update my laptop for the first time in a while, as i thought many of my packages would be outdated\n\nafter updating, i rebooted my computer and was met with an akmod build message followed by a black screen and my cursor (that i can’t move)\n\npreviously, lack of nvidia drivers had caused my computer to boot to a black screen, however this had since been sorted.\n\nif you need any more info let me know\n\nedit: i am able to boot back into my desktop thanks to u/MatchingTurret 's comment suggesting i switch to a virtual console and back :)"
+  },
+  {
+    "id": "1p1wvs5",
+    "sub": "chrome",
+    "stratum": true,
+    "worthy": false,
+    "review": true,
+    "qual": false,
+    "themes": [
+      "os_or_driver",
+      "browser"
+    ],
+    "diag": 5,
+    "flags": [
+      "single_strong_update_cue"
+    ],
+    "reason": "5 diagnostic fields present",
+    "title": "Youtube video stutters when hardware acceleration is off",
+    "body": "Since few months (or weeks) ago, when I watch a youtube video, the video stutters while audio plays flawlessly. This symptom goes away when I turn off hardware acceleration, but the problem is that I need it to be on when I watch something with friends while sharing my screen over discord or zoom (otherwise, my friends only see black screen). I've been switching it on/off depending on what site I'm on, but I know my hardware is capable of playing any videos smoothly since this symptom only happened few months ago and there was no hardware changes - this only happened after a Chrome update. I tried changing ANGLE graphics backend options but it wasn't successful. If anyone could share some suggestions, it'll be appreciated.\n\nWindows 11, Ryzen 3600, 5600 XT 6GB, DDR4 32GB"
+  },
+  {
+    "id": "1ohgmkx",
+    "sub": "Dell",
+    "stratum": true,
+    "worthy": true,
+    "review": false,
+    "qual": true,
+    "themes": [
+      "os_or_driver"
+    ],
+    "diag": 4,
+    "flags": [],
+    "reason": "4 diagnostic fields present",
+    "title": "Windows 11 and a family PC that they won’t use anymore",
+    "body": "I am looking for some help and advice from anyone that can help with my Dell Inspirion 3671 PC that apart from an upgrade to the RAM when the computer was bought (and behaved itself under Windows 10), boots ok, loads Windows 11 ok but either side of the Windows tone gives me a blank black screen for about 20-30 seconds each time.\n\nThere is also a delay in the taskbar loading once the profile loads.\n\nI have trawled the internet for solutions and tried the following (that I can remember) including:\n\n- Rebuilding and reinstalling Windows 11 from scratch.\n- Deleted and recreated the user profile.\n- Run SFC (several times !!!)\n- Run DISM (several times !!!)\n- Checked the Event viewer and found nothing.\n- Loaded windows in Safe Mode\n- Updated all of the drivers including the Graphics driver\n- Stopped the AntiMalware Service Executable from loading\n- Tried disabling all programs except Microsof"
+  },
+  {
+    "id": "1vr69o1",
+    "sub": "raspberry_pi",
+    "stratum": false,
+    "worthy": true,
+    "review": false,
+    "qual": false,
+    "themes": [
+      "os_or_driver",
+      "browser"
+    ],
+    "diag": 4,
+    "flags": [],
+    "reason": "4 diagnostic fields present",
+    "title": "2026 Aug 17 Stickied -FAQ- &amp; -HELPDESK- thread - Boot problems? Power supply problems? Display problems? Networking problems? Need ideas? Get help with these and other questions!",
+    "body": "###[Welcome to the r/raspberry_pi Helpdesk and Frequently Asked Questions!](http://f2z.net/RPi-Helpdesk-FAQ.png)\n\n[Link to last week's thread](/r/raspberry_pi/comments/1vkyrbn/2026_aug_10_stickied_faq_helpdesk_thread_boot/)\n\nHaving a hard time searching for answers to your Raspberry Pi questions? Let the r/raspberry_pi community members search for answers *for you*!^(†) Looking for help getting started with a project? Have a question that you need answered? Was it not answered last week? Did not get a satisfying answer? A question that you've only done basic research for? Maybe something you think everyone but you knows? **Ask your question in the comments on this page,** operators are standing by!\n\nThis helpdesk and idea thread is here so that the front page won't be filled with these same questions day in and day out:\n\n1. Q: What's a Raspberry Pi? What can I do with it? How powerful is"
+  },
+  {
+    "id": "1vx7gvk",
+    "sub": "software",
+    "stratum": false,
+    "worthy": true,
+    "review": false,
+    "qual": false,
+    "themes": [
+      "mobile",
+      "homelab_or_network"
+    ],
+    "diag": 3,
+    "flags": [],
+    "reason": "3 diagnostic fields present",
+    "title": "Throwaway-ish question but it's been bugging me for weeks.",
+    "body": "I built a custom fleet rental system for a car repair shop that also rents out loaner cars while customers' vehicles are being serviced. Small operation — about 15 cars, one location, maybe 5 people using it. They were doing everything on paper before, including handover forms and damage reports, which caused constant arguments with customers about whether a scratch was already there.\n\n\n\nSolo build, start to finish, running in production. I also host and operate it for them — they don't have a server or anyone who could run one.\n\n\n\nWHAT'S IN IT\n\n\n\n– Fleet dashboard, cars color-coded by availability, auto-refreshing. Doubles as a wall display in the service area and works as a phone view.\n\n– Car records: specs, mileage, fuel level, configurable statuses (available, out, cleaning, refuelling, maintenance), GPS location or manual map picker.\n\n– The main thing: multi-step handover and return"
+  },
+  {
+    "id": "1vp682p",
+    "sub": "sysadmin",
+    "stratum": false,
+    "worthy": true,
+    "review": false,
+    "qual": false,
+    "themes": [
+      "os_or_driver",
+      "homelab_or_network"
+    ],
+    "diag": 4,
+    "flags": [],
+    "reason": "4 diagnostic fields present",
+    "title": "RDP 0x904 Error Affecting Single User on Windows Server 2025 Terminal Server",
+    "body": "We are experiencing a recurring issue affecting only one user in our Proxmox environment. The setup includes three Windows Server 2025 VMs: a domain controller, a file server, and a terminal server.\n\nThe affected user connects remotely through an IPsec IKEv2 VPN from a fully updated Windows 11 Pro workstation (not domain‑joined). The VPN remains connected at all times. He authenticates using his domain credentials.\n\nAfter a few minutes of normal activity on the terminal server, the user disconnects his RDP session. When he attempts to reconnect, the RDP connection fails with error 0x904. No additional text is shown. The issue affects only the terminal server: from the same workstation, RDP connections to the other servers work normally.The user’s session on the terminal server appears correctly as “Disconnected” in the session list. However, the user cannot reconnect to it, nor start a n"
+  },
+  {
+    "id": "1wwsioc",
+    "sub": "homelab",
+    "stratum": false,
+    "worthy": true,
+    "review": false,
+    "qual": true,
+    "themes": [
+      "os_or_driver"
+    ],
+    "diag": 3,
+    "flags": [],
+    "reason": "3 diagnostic fields present",
+    "title": "Update on the $15 Cavium SNIC10E 10GbE card: prebuilt image, second-host benchmarks, and I need beta testers",
+    "body": "A month ago I posted about turning the Cavium CN6640-SNIC10E into a working dual-port 10GbE card with no vendor firmware. Here's what changed since, plus a clarification and a request.\n\nWHAT'S NEW\n\n\\- Prebuilt card image in the releases. No more building OpenWrt for hours: download the image, run install.sh.  \n\\- The host module now installs through DKMS, so it survives kernel upgrades.  \n\\- Card temperatures show up in sensors with no serial cable, plus an estimated power draw.  \n\\- Rewritten quick start, one block from git clone to a working oct0. Hardcoded paths are gone.  \n\\- Requirements fixed: \"Above 4G decoding\" is NOT needed. Secure Boot has to be off.\n\nSECOND-HOST RESULTS\n\nSame card re-measured on a different machine and peer (Dell R720 + HP NC523): 9.64 Gb/s TX and 9.93 Gb/s RX aggregate across both ports, matching the first rig. Each port alone reaches line rate, but the two t"
+  },
+  {
+    "id": "1vmygp5",
+    "sub": "comfyui",
+    "stratum": false,
+    "worthy": false,
+    "review": true,
+    "qual": true,
+    "themes": [
+      "ai_tooling"
+    ],
+    "diag": 2,
+    "flags": [
+      "single_strong_update_cue"
+    ],
+    "reason": "2 diagnostic fields present",
+    "title": "ComfyUI v0.32.0",
+    "body": "# Links\n\n- [**Official changelog**](https://docs.comfy.org/changelog#v0-32-0)\n- [**GitHub release**](https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.32.0)\n\n# New Open-Source Model Support\n\n* [**LTX 2.5**](https://links.comfy.org/docLTX2_5): Native LTX 2.5 support with STG, dual CFG, and duration prediction\n\n# Partner Node Updates\n\n* [**Qwen Image 3.0**](https://github.com/Comfy-Org/ComfyUI/pull/15327): Added Qwen-Image 3.0 and 3.0 Pro text-to-image and edit nodes\n* [**LTX 2.5**](https://github.com/Comfy-Org/ComfyUI/pull/15501): Added LTX 2.5 Text/Image/Audio to Video partner nodes\n* [**Grok Imagine Image 2.0**](https://github.com/Comfy-Org/ComfyUI/pull/15496): Added grok-imagine-image-2.0 model support\n\n# New Nodes\n\n* [**LTXV Spatio-Temporal Guidance**](https://github.com/Comfy-Org/ComfyUI/pull/15499): STG guidance for LTX video generation\n* [**LTXV Modality Guidance**](https://gith"
+  },
+  {
+    "id": "1weib1p",
+    "sub": "Android",
+    "stratum": null,
+    "worthy": true,
+    "review": false,
+    "qual": false,
+    "themes": [
+      "mobile"
+    ],
+    "diag": 4,
+    "flags": [],
+    "reason": "4 diagnostic fields present",
+    "title": "Severe Battery Drain &amp; Overheating on One UI 9 (Galaxy S25 FE). Root Cause Found: Infinite Loop in SystemJobService (WhatsApp SyncManager)",
+    "body": "*PSA: I am posting this root cause analysis to document a severe logic flaw in WhatsApp's handling of Android's WorkManager and SystemJobService background tasks. While I am open to advanced ADB workarounds, I am primarily sharing these JobScheduler dumps and battery metrics for community awareness and developer visibility, as standard tier-1 tech support (clearing cache, reinstalling) cannot fix this persisted loop.*\n\nDevice: Samsung S25 FE\n\nOneUI 8.5 - August Security Patch\n\nThere is a severe logic bug in WhatsApp's background task handling on the current One UI build. Leaving background data enabled triggers an infinite retry loop inside androidx.work.impl.background.systemjob.SystemJobService, locking the CPU and causing massive battery drain and thermal throttling. The device overheats while completely idle.\n\nUsing Device Care and Battery Historian, WhatsApp consistently shows absur"
+  }
+]

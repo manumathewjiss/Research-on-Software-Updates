@@ -1,0 +1,156 @@
+[
+  {
+    "audit_id": "A021",
+    "final_about_software": "yes",
+    "final_update_related": "no",
+    "final_discussion_type": "technical_troubleshooting",
+    "final_reason": "The author seeks diagnosis of audio routing failures; the iOS version is background and updating was only an attempted fix."
+  },
+  {
+    "audit_id": "A022",
+    "final_about_software": "yes",
+    "final_update_related": "no",
+    "final_discussion_type": "other",
+    "final_reason": "This is preventive advice about a firmware age-counter defect; the recommended update did not cause the reported defect, and the author’s reply about past upgrades is a separate anecdote."
+  },
+  {
+    "audit_id": "A033",
+    "final_about_software": "yes",
+    "final_update_related": "no",
+    "final_discussion_type": "technical_troubleshooting",
+    "final_reason": "The author identifies logs filling the disk; only another participant mentions improvements in a newer release."
+  },
+  {
+    "audit_id": "A041",
+    "final_about_software": "unclear",
+    "final_update_related": "unclear",
+    "final_discussion_type": "na",
+    "final_reason": "The title says only “upgrade to latest version,” with no product, issue, or context to establish software scope or an update–issue connection."
+  },
+  {
+    "audit_id": "A048",
+    "final_about_software": "yes",
+    "final_update_related": "yes",
+    "final_discussion_type": "technical_troubleshooting",
+    "final_reason": "The author explicitly asks whether eero 7.15.0 or the transition from 7.14.1 causes the instability, beyond merely listing an attempted firmware update."
+  },
+  {
+    "audit_id": "A049",
+    "final_about_software": "yes",
+    "final_update_related": "no",
+    "final_discussion_type": "other",
+    "final_reason": "The post shares app-submission advice: a new bundle enabled another review after the login defect was fixed, rather than an update causing or changing that defect."
+  },
+  {
+    "audit_id": "A052",
+    "final_about_software": "no",
+    "final_update_related": "no",
+    "final_discussion_type": "na",
+    "final_reason": "The saved discussion centers on Shopify leadership and its relationship with the Ruby community, not a software product, setting, or update problem."
+  },
+  {
+    "audit_id": "A053",
+    "final_about_software": "no",
+    "final_update_related": "no",
+    "final_discussion_type": "na",
+    "final_reason": "The main subject is testing and restoring a used computer; “Update” is a progress report and the software mentions are incidental."
+  },
+  {
+    "audit_id": "A061",
+    "final_about_software": "yes",
+    "final_update_related": "yes",
+    "final_discussion_type": "technical_troubleshooting",
+    "final_reason": "The author reports Fedora boot crashes immediately after updating apps and restarting, and asks for recovery help."
+  },
+  {
+    "audit_id": "A062",
+    "final_about_software": "yes",
+    "final_update_related": "yes",
+    "final_discussion_type": "other",
+    "final_reason": "The author explains a preference for Debian and explicitly recounts an Ubuntu upgrade breaking the system; the main purpose is comparison and praise, not repair."
+  },
+  {
+    "audit_id": "A071",
+    "final_about_software": "yes",
+    "final_update_related": "yes",
+    "final_discussion_type": "general_dissatisfaction",
+    "final_reason": "The author traces missing drivers to an incomplete automatic update but mainly criticizes operating-system design after recovering the laptop."
+  },
+  {
+    "audit_id": "A073",
+    "final_about_software": "yes",
+    "final_update_related": "yes",
+    "final_discussion_type": "technical_troubleshooting",
+    "final_reason": "The saved post includes an explicit flag workaround that restores the Chrome appearance option lost after updating."
+  },
+  {
+    "audit_id": "A085",
+    "final_about_software": "unclear",
+    "final_update_related": "no",
+    "final_discussion_type": "na",
+    "final_reason": "The author investigates connectivity loss without establishing a software subject; driver updating is only a tried fix, and the suspected trigger is outside line work."
+  },
+  {
+    "audit_id": "A086",
+    "final_about_software": "yes",
+    "final_update_related": "yes",
+    "final_discussion_type": "general_dissatisfaction",
+    "final_reason": "The author links the stuck Immich notification to updating, then mainly criticizes update reliability and requests an option to suppress update prompts."
+  },
+  {
+    "audit_id": "A089",
+    "final_about_software": "unclear",
+    "final_update_related": "unclear",
+    "final_discussion_type": "na",
+    "final_reason": "The vague title and generic agreement in the replies do not reveal the subject or an update connection."
+  },
+  {
+    "audit_id": "A090",
+    "final_about_software": "yes",
+    "final_update_related": "no",
+    "final_discussion_type": "technical_troubleshooting",
+    "final_reason": "The author diagnoses subtitle-triggered Edge flickering; updating appears only among attempted fixes, with no claim that it caused or changed the issue."
+  },
+  {
+    "audit_id": "A094",
+    "final_about_software": "yes",
+    "final_update_related": "yes",
+    "final_discussion_type": "technical_troubleshooting",
+    "final_reason": "The title explicitly reports Chrome failing after an update; it indicates a software failure, although the absent body leaves the symptom unspecified."
+  },
+  {
+    "audit_id": "A097",
+    "final_about_software": "yes",
+    "final_update_related": "yes",
+    "final_discussion_type": "technical_troubleshooting",
+    "final_reason": "The author explicitly reports a system-update mistake requiring reinstallation, followed by GGUF loading failures; this qualifies through the failed update process without proving the current failure’s cause."
+  },
+  {
+    "audit_id": "A102",
+    "final_about_software": "yes",
+    "final_update_related": "no",
+    "final_discussion_type": "technical_troubleshooting",
+    "final_reason": "The author shares a successful OS downgrade and older-driver workaround; no past update is identified as causing the crash, and concern about future updates is speculative."
+  },
+  {
+    "audit_id": "A106",
+    "final_about_software": "yes",
+    "final_update_related": "yes",
+    "final_discussion_type": "technical_troubleshooting",
+    "final_reason": "The author links missing system files to an earlier DSM update and suspects resulting system damage while diagnosing SSH failures."
+  },
+  {
+    "audit_id": "A107",
+    "final_about_software": "yes",
+    "final_update_related": "yes",
+    "final_discussion_type": "technical_troubleshooting",
+    "final_reason": "The author dates Maps and Compass failures to “since OS26” and requests a workaround supported by memory-limit logs."
+  },
+  {
+    "audit_id": "A112",
+    "final_about_software": "no",
+    "final_update_related": "no",
+    "final_discussion_type": "na",
+    "final_reason": "The main complaint is a teammate’s excessive generated workplace messages, rather than software behavior or a release-related problem."
+  }
+]

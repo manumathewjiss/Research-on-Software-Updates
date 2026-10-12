@@ -1,0 +1,2168 @@
+﻿review_id,subreddit,title,post_body,discussion_context,text_availability,proposed_about_software,proposed_update_related,proposed_discussion_type,proposed_confidence,proposed_reason,decision,final_about_software,final_update_related,final_discussion_type,reviewer_note,reviewed_at,source_url
+B19-001,Fedora,fix: hdmi-&gt;DP connected displays dont work after update,"after updating I found my display using an hdmi&gt;DP cable (blame amd, I dont want to but didnt have enough DP for all my panels) would not turn on, and if plugged in, one of my DP panels would flicker with kde notifications saying a new display was connected, repeatedly, every couple seconds. meanwhile the converter cable panel was just black, no signal. xrandr and others all showed it connected however, and journal showed a bunch of errors, ranging from org.kde.powerdevil errors and looping logs, to kernel amdgpu: \[drm\] Failed to setup vendor infoframe on connector HDMI-A-1
+
+reverting back to 6.18.10-200 kernel fixed it for me, 6.19 is busted, at least on my plasma setup.",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/Fedora/comments/1s9bj3r/fix_hdmidp_connected_displays_dont_work_after/
+B19-002,unRAID,Unraid 7.2.5 and Plex 1.43.1.10611-1e34174b1-ls303,"So I upgraded to 7.2.5 last night and I can't get Plex to start anymore. The logs from plex don't seem to provide anything and was curious if others are having the same issue.
+
+    text  error  warn  system  array  login  
+    
+    Connection to localhost (::1) 32400 port [tcp/*] succeeded!
+    [migrations] started
+    [migrations] no migrations found
+    ───────────────────────────────────────
+    
+          ██╗     ███████╗██╗ ██████╗
+          ██║     ██╔════╝██║██╔═══██╗
+          ██║     ███████╗██║██║   ██║
+          ██║     ╚════██║██║██║   ██║
+          ███████╗███████║██║╚██████╔╝
+          ╚══════╝╚══════╝╚═╝ ╚═════╝
+    
+       Brought to you by linuxserver.io
+    ───────────────────────────────────────
+    
+    To support LSIO projects visit:
+    https://www.linuxserver.io/donate/
+    
+    ───────────────────────────────────────
+    GID/UID
+    ───────────────────────────────────────
+    
+    User UID:    99
+    User GID:    100
+    ───────────────────────────────────────
+    Linuxserver.io version: 1.43.1.10611-1e34174b1-ls303
+    Build-date: 2026-04-27T11:11:11+00:00
+    ───────────────────────────────────────
+        
+    **** adding /dev/dri/renderD128 to group root with id 0 ****
+    **** permissions for /dev/dri/card1 are good ****
+    **** creating group groupsa2z with id 18 ****
+    **** adding /dev/dri/card0 to group groupsa2z with id 18 ****
+    Setting permissions on /transcode
+    **** Server already claimed ****
+    Docker is used for versioning skip update check
+    [custom-init] No custom files found, skipping...
+    Starting Plex Media Server. . . (you can ignore the libusb_init error)
+    [ls.io-init] done.
+    Generated new chapter thumbnails for Harry Potter and the Deathly Hallows: Part 2.
+    
+    ** Press ANY KEY to close this window **",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/unRAID/comments/1t0tyq5/unraid_725_and_plex_1431106111e34174b1ls303/
+B19-003,openwrt,What belongs in a preflight and rollback checklist for a major OpenWrt upgrade?,"A configuration backup is important, but it does not capture every reason an upgrade can fail. Custom feeds, renamed packages, opkg-to-apk changes, a resized root filesystem, device-specific partition behavior, and services that depend on extra files can all make a preserved \`/etc/config\` incomplete. A router may also appear healthy while VLANs, guest isolation, VPN routes, DDNS, multicast discovery, or rarely used firewall rules are broken.
+
+A stronger preflight could record the exact image and target, partition layout, installed package list, custom feeds, overlay files, interface and firewall state, and an off-device backup. On x86, a full disk image may be worth keeping. After upgrade, validation would cover WAN authentication, DNS and DHCP, every VLAN and SSID, WireGuard or other tunnels, port forwards, SQM, IPv6, scheduled jobs, and recovery access before the old image is discarded.
+
+What do you verify before and after a major version jump? Do you rehearse a clean restore from the sysupgrade archive, keep a spare router or boot medium, or prefer rebuilding from documented UCI commands instead of carrying configuration forward?","[1:reply] I maintain an ansible script that can setup my 6 openwrt routers from factory.
+
+It detects which one it it by Mac address, and applies the relevant config, including a bunch of custom services to push stats to a mqtt server, DHCP config, vpn config, wireless config, wds wireless…
+[2:reply] &gt;A configuration backup is important, but it does not capture every reason an upgrade can fail.
+
+That's entirely up to you. A backup captures everything in `/etc` plus whatever is listed in `/etc/sysupgrade.conf` (which you can, if necessary, edit manually). Also, you really…
+[3:reply] A configuration backup is unreliable, use a configuration script. 
+keep a spare router as openwrt doesn't actually test most models even when making model specific changes.
+[4:reply] Please share? I'd love that. I hate that openwrt has a terrible update system. I have a 3825i and I feel like each update is rolling the dice if it'll come back up without a reflash.",title_body_comments,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/openwrt/comments/1wup9pb/what_belongs_in_a_preflight_and_rollback/
+B19-004,chrome,Chrome scrolls slowly (5px per scroll) after updating to the latest version on Ubuntu,"It feels like it moves only 5px per scroll. It happens only in Google Chrome. I tried to fix it, but nothing seems to work.
+
+Anyone else facing the same issue? Your help is appreciated.
+
+https://preview.redd.it/btiym11cab5g1.png?width=701&amp;format=png&amp;auto=webp&amp;s=c71cf0bc33e2e50c7496a80bd8a18cd36fc3f053",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/chrome/comments/1peltoo/chrome_scrolls_slowly_5px_per_scroll_after/
+B19-005,Fedora,"Fedora has been my main OS for years, but recent issues have me unsure.","I've been running a Windows 11 + Fedora dual-boot setup on the same SSD since Fedora 41. Over time Fedora became my main OS, while Windows stayed around for occasional college work and rare gaming.
+
+I've had a couple of frustrating issues though. A Windows update once broke/removed GRUB, which I managed to fix.   
+  
+More recently, after updating to Fedora 44, I got stuck in a login loop. With help from Reddit I fixed it, but lost most of my customizations in the process. This made me remove my fedora installation as of now.
+
+After that, I removed Linux entirely for a while.
+
+Now I'm thinking of coming back and would like some advice:
+
+* Dual boot Fedora and Windows again?
+* Install Fedora fresh and get rid of Windows?
+* Switch to a distro with a more conservative/stable update cycle perhaps debian/ubuntu maybe?
+
+What would you do in my situation?","[1:reply] It’s been known that there will be a time where a windows update will break your linux system. Thats why i bought a new drive just for windows. It’s not Fedora’s fault though
+[2:reply] Fedora is conservative but if you keep both OS on the same SSD/hdd you would always have problems eventually. I suggest you keep dual booting and keep both fedora and windows on different drives with their own EFI partition
+[3:reply] 2 SSD’s. One OS on each. 
+
+I did this for a while for gaming. Then I started using windows less and less and just played the games that did well on Linux. Then I axed windows. I have to use windows at work so it’s a nice reminder of what I’m not missing.
+[4:reply] It looks like your issues are Windows and maybe too aggressive customizations that caused the login issue, not Fedora.
+
+In your place, I would get a second drive exclusive for Windows and maybe try a different Fedora spin.
+[5:reply] Never, and I mean never, install a Linux distro on the same physical drive as windows. Windows is notorious for destroying Linux bootloaders. If you want to switch between them, change BIOS boot priority each time instead. It's the only safe way. Separate partitions on the same…",title_body_comments,yes,yes,other,low,The post appears to discuss software without a clear troubleshooting or chiefly critical purpose.,,,,,,,https://reddit.com/r/Fedora/comments/1u4wa8c/fedora_has_been_my_main_os_for_years_but_recent/
+B19-006,MacOS,How do I remove apps from Privacy &amp; Security -&gt; Local Network list?,"How to remove apps from Local Network?
+
+For example, librewolf was uninstalled long time ago and it is still there. Chrome seems to add a new one every update.
+
+https://preview.redd.it/61uhkz8ghgsg1.png?width=835&amp;format=png&amp;auto=webp&amp;s=b8f2e22cf83c046ecee0ccf535b64b8dc4c194d8",,title_and_body,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/MacOS/comments/1s925vb/how_do_i_remove_apps_from_privacy_security_local/
+B19-007,applehelp,Iphone 16 Slow Charging Issues,"Hey guys, I have an issue with my chargers - since some update in January they've all become ""slow chargers."" I've looked it up online and they claim only USB B to USB C are they slow chargers but mine are ALL USB C to USB C.
+
+I went to bed at midnight to like 20% and now at 8am its only 45% - I can't keep doing this. I can't keep having it connected to a charger all day - like what if I go on a trip?
+
+I've cleaned for debris, made sure it wasn't optimizing the charge, restarted my phone, made sure it was all updated. And they still are all ""slow chargers.""
+
+I've had the phone - an iPhone 16 Pro - since September and September until January all of the chargers were charging normal. It's iOS 26.2.1 is the latest update.
+
+Does anyone know how to fix this?  Thanks!",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/applehelp/comments/1r21z16/iphone_16_slow_charging_issues/
+B19-008,sysadmin,KB5094126 Breaking OneDrive?,"Just noticed both my Windows 11 computers can no longer access OneDrive via Windows Explorer after todays updates.  Also the explorer files via right click on the OneDrive systray icon does nothing.
+
+The files are accessible via the web interface.
+
+Uninstalling KB5094126 returns it to normal.
+
+Desktop / Laptop very different hardware on both.
+
+  
+Looks like sync is still happening and you can manually browse to your local OneDrive folder in your user profile.","[1:reply] This issue started for us before June updates
+[2:reply] Have you checked if there's a newer OneDrive version available in the Microsoft Store? Sometimes these KB conflicts get resolved with app updates before the next patch Tuesday.
+[3:reply] This has been going on and off since late 2025
+[4:reply] Not a bug it’s a feature.
+[5:reply] Yeah, I noticed this issue too. Uninstalling KB5094126 fixed it. Same thing happened to",title_body_comments,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/sysadmin/comments/1u1ph9m/kb5094126_breaking_onedrive/
+B19-009,homeassistant,Avoid Sonoff SWV (Smart Water Valve),"I’m going to share my experience with this valve as of April 2026.
+
+The hardware quality is acceptable for €25. Everything fits well and it doesn’t leak. It doesn’t seem very water-resistant, but time will tell.
+
+My setup is:
+
+\* Raspberry Pi 4
+
+\* Sonoff ZBDongle-P (original)
+
+\* Sonoff SWV
+
+I updated the dongle from the official website to the latest 2026 version.
+
+I also updated the valve using Zigbee2MQTT OTA to the latest available version.
+
+Pairing it is a nightmare. It only half-pairs, throws errors, and doesn’t always work on the first try. Once you finally get it connected, it seems to work. You activate the valve, wait 2 seconds, and it opens. Then you walk away to place it in its final position, and it disconnects. It starts blinking. You come back to see if it reconnects, stand right next to it… nothing. No reconnection.
+
+You try to reconfigure it, but that doesn’t work either, so you have to bind it again. It disconnects at around 4 meters from the dongle at most. However, if I press the manual button on the valve, magically the status updates in Home Assistant. But if I use the switch on my dashboard, it fails. I try manual again, and the state updates instantly. Then I press the dashboard button again—nothing.
+
+Sometimes it just disconnects completely and stops responding altogether. I’ve tried adding a router, but no luck. It just refuses to behave. All of this with the latest firmware. With the original firmware, it’s even worse.
+
+As of 2026, this is not usable. Especially considering the risk of it leaving the water running and causing serious damage.
+
+A better option is to use an IKEA smart plug, which reconnects automatically and is very stable, and run a cable from inside the house to the valve (some DIY solution or a 230V valve).
+
+**This feels like a waste of money, and I’m not sure whether the issue is Home Assistant (which is possible) or Sonoff itself.**
+
+Edit: Lot of people are saying that its ok, works fine. ¿Probably it is my unit?
+
+I need more information, production date, firmware, only home assistant (no zigbeeToMqtt)
+
+Please try to force a disconnection, by distance or aluminium paper to see if it reconnects later. Mine NO.
+
+Most of people are from USA. ¿Thats the other thread model?. ¿Maybe EU are anything bad? Should be the same internals...",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/homeassistant/comments/1szu68e/avoid_sonoff_swv_smart_water_valve/
+B19-010,Ubiquiti,Switch not getting dhcp after firmware update,"I hope someone can help me. I updated a USW 24 POE switch last night that had been working fine for years, but after the update it’s stuck on [192.168.1.20](http://192.168.1.20), which I understand is the default for when it isn’t getting a dhcp address. 
+
+  
+I’ve tried resetting the switch, plugging it into other ports on my dream machine. I updated the f on everything. I don’t have anything fancy going on except a couple vlans, so I’m at a loss. 
+
+  
+Any help would be hugely appreciated. 
+
+  
+Dream Machine Pro &gt; Switch Aggregation (or direct) &gt; USW 24 POE.",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/Ubiquiti/comments/1tfndp8/switch_not_getting_dhcp_after_firmware_update/
+B19-011,applehelp,At my wits end with AppleWatch Battery Drain,"Apple Watch Series 8 (GPS + Cellular)  
+OS 26.6  
+Capacity 32GB  
+Battery Maximum Capacity 87%
+
+Since the last update. Watch doesn’t last longer than 4 hours.  
+This is occurring long after the standard (48-72 hours) afterwards where it re-downloads everything and settles.
+
+The watch does have some minor scratches and damage with the light sensor, however I do not believe these are major factors in the problem.
+
+I have done the obvious steps, (turn off background app refresh), disable optimum charging.  
+And yes I have reset the watch to cancel any stuck syncs.  
+More times than I can count  
+I have just recently been to the Genius Bar, backed up my phone and reset the software on my phone , reset the watch,  
+Set up as new.
+
+And after the initial 24 hours, it looks like the battery is lasting the normal time but then put it on another charge before bed and it goes into Uber battery drain mode.
+
+It is capable of doing a full days battery BUT some process keeps on kicking in and draining it and I have no idea what at this point or how to stop it and the Genius Bar at this point now will say the only solution will be a new watch….",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/applehelp/comments/1vn53i2/at_my_wits_end_with_applewatch_battery_drain/
+B19-012,Fedora,Checksum error during update to Fedora 44,"Hi everyone. I just tried updating to Fedora 44 via the CL, and very saw the updater throw up a warning several times “Download completed but checksum didn’t match”. With the supply chain attacks that have happened in the recent months, I have become slightly paranoid and cancelled the update. Can someone tell me if this checksum mismatch error is a danger sign or just a normal part of OS upgrades?
+
+Many thanks!",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/Fedora/comments/1sy3es0/checksum_error_during_update_to_fedora_44/
+B19-013,chrome,Chrome not syncing some things despite no issues shown in chrome://sync-internals/,"I first noticed this issue last night, when trying to send a tab to a different device, and nothing happened. I have a desktop PC, laptop, and phone that should usually sync between each other.
+
+I checked the history on my desktop PC, and apparently my laptop tab history last updated about 30 minutes prior, despite tabs having changed in that time. The laptop claimed it had been 3 hours since the ""recent tabs"" had changed on the desktop, also untrue.
+
+I tried sending tabs to my phone, which did work, but trying to send tabs to either my desktop or laptop from phone didn't. I ended up managing to resolve it by restarting Chrome on both PCs.
+
+However, this morning, it looks like the issue is back. Not as bad as it was last night, as browsing history between devices is still syncing (it wasn't last night), but once again trying to send tabs to the PCs is not working (but working when sending to mobile), and I'm unable to see the ""tabs from other devices"" in history, because it simply isn't updating.
+
+I checked chrome://sync-internals/ and everything is green. I'm using the latest stable version of Chrome on all devices. My mobile device seems pretty much unaffected by all this (aside from ""send to device"" not working on the PCs' end), it's just the Windows PCs that are having issues. Not sure if perhaps the most recent update borked something.
+
+Edit: Did a bit of further testing. Occasionally if it's been a few hours, it seems to eventually sync things itself, but it's temperamental. I've discovered it's not syncing bookmarks either, except to my mobile (which again, doesn't seem to be having any issues, at least not on the receiving end of syncing data anyway).
+
+I've tried signing in and out of my account on both my laptop and desktop. It seemed to fix it on the laptop, but not the desktop, where I once again had to reboot Chrome to resolve it. It seems like restarting Chrome does resolve it every single time at least, but at some point things just stop syncing again.
+
+I did have a similar issue to this a few years ago, but back then, there were errors and things showing as red in chrome://sync-internals/, whereas everything seems perfectly fine according to that apparently, despite me clearly having issues.
+
+The only thing that still seems to sync fine when this issue occurs is history, for some reason, but not recent tabs/tabs from other devices.
+
+I've tried searching around for this issue but I'm not finding anything, so not sure if the issue is somehow isolated to me specifically, and how to resolve it if it is. I don't want to have to reboot Chrome multiple times daily just to sync things, since this hasn't been an issue before (aside from that aforementioned time a few years back).",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/chrome/comments/1pflnaj/chrome_not_syncing_some_things_despite_no_issues/
+B19-014,immich,Immich on UNRAID 7.2.3 fails,"I'm hoping to get some help or pointers here on how to restore my Immich install.  Immich was running fine last week and I may have done an Immich docker update late last week (not sure if I opened it after) and then updated Unraid to 7.2.3 over the weekend and Immich is now not running.  I also run Plex and Audiobookshelf dockers and they are fine.
+
+I had used AlienTech42's setup as a guide and I am also running the PostgresSQL_Immich docker.  
+
+
+So far I have tried:
+
+- rebooting
+- tried Firefox, I usually use Chrome
+- disabled Docker, then reenabled it
+- reinstall docker images of Immich and PostgresSQL_Immich (I saved screenshots of the image setup and verifed they are the same settings)
+- reinstall docker images but changing the server IP to a false one and then back to correct one (saw this on a recent thread on other Unraid 7.2.3 issues)
+- changed the postgres password in both images because of the error in the log below
+
+
+Here's the log from PostgresSQL_Immich:
+
+
+    2025-12-30 17:06:34.555 PST [1] LOG:  redirecting log output to logging collector process
+    2025-12-30 17:06:34.555 PST [1] HINT:  Future log output will appear in directory ""log"".
+    2025-12-30 17:08:41.333 PST [1] LOG:  redirecting log output to logging collector process
+    2025-12-30 17:08:41.333 PST [1] HINT:  Future log output will appear in directory ""log"".
+
+    PostgreSQL Database directory appears to contain a database; Skipping initialization
+
+
+    PostgreSQL Database directory appears to contain a database; Skipping initialization
+
+
+Here's the log from Immich, the sections with PostgresError and Node.js keep repeating:
+
+    Node.js v24.11.1
+    [mod-init] Running Docker Modification Logic
+    [mod-init] Adding imagegenius/mods:universal-redis to container
+    [mod-init] imagegenius/mods:universal-redis at sha256:d79cc7c55bbb144e66370494abc938bc3ec42361fa3ac829f8eca48a9d7b1d43 has been previously applied skipping
+    [migrations] started
+    [migrations] no migrations found
+    
+    ╔═══════════════════════════════╗
+           __  _____ _____       __
+          / / |_   _/ ____|     / /
+         / /    | || |  __     / /
+        / /     | || | |_ |   / /
+       / /     _| || |__| |  / /
+      /_/     |_____\_____| /_/
+    
+      Baseimage from linuxserver.io
+    ╠═══════════════════════════════╣
+      User/Group ID:
+      User UID: 99
+      User GID: 100
+    ╚═══════════════════════════════╝
+    /usr/bin/redis-server
+    **** redis-server already installed, skipping ****
+    [custom-init] No custom files found, skipping...
+    Missing history for endpoint: Retrieve auth status
+    (node:232) ExperimentalWarning: WASI is an experimental feature and might change at any time
+    (Use `node --trace-warnings ...` to show where the warning was created)
+    /app/immich/server/node_modules/.pnpm/postgres@3.4.7/node_modules/postgres/cjs/src/connection.js:794
+        const error = Errors.postgres(parseError(x))
+                             ^
+    
+    PostgresError: password authentication failed for user ""postgres""
+        at ErrorResponse (/app/immich/server/node_modules/.pnpm/postgres@3.4.7/node_modules/postgres/cjs/src/connection.js:794:26)
+        at handle (/app/immich/server/node_modules/.pnpm/postgres@3.4.7/node_modules/postgres/cjs/src/connection.js:480:6)
+        at Socket.data (/app/immich/server/node_modules/.pnpm/postgres@3.4.7/node_modules/postgres/cjs/src/connection.js:315:9)
+        at Socket.emit (node:events:508:28)
+        at addChunk (node:internal/streams/readable:559:12)
+        at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+        at Readable.push (node:internal/streams/readable:390:5)
+        at TCP.onStreamRead (node:internal/stream_base_commons:189:23) {
+      severity_local: 'FATAL',
+      severity: 'FATAL',
+      code: '28P01',
+      file: 'auth.c',
+      line: '323',
+      routine: 'auth_failed'
+    }
+    
+    Node.js v24.11.1
+    Missing history for endpoint: Retrieve auth status
+    (node:275) ExperimentalWarning: WASI is an experimental feature and might change at any time
+    (Use `node --trace-warnings ...` to show where the warning was created)
+    /app/immich/server/node_modules/.pnpm/postgres@3.4.7/node_modules/postgres/cjs/src/connection.js:794
+        const error = Errors.postgres(parseError(x))
+                             ^
+    
+    PostgresError: password authentication failed for user ""postgres""
+        at ErrorResponse (/app/immich/server/node_modules/.pnpm/postgres@3.4.7/node_modules/postgres/cjs/src/connection.js:794:26)
+        at handle (/app/immich/server/node_modules/.pnpm/postgres@3.4.7/node_modules/postgres/cjs/src/connection.js:480:6)
+        at Socket.data (/app/immich/server/node_modules/.pnpm/postgres@3.4.7/node_modules/postgres/cjs/src/connection.js:315:9)
+        at Socket.emit (node:events:508:28)
+        at addChunk (node:internal/streams/readable:559:12)
+        at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+        at Readable.push (node:internal/streams/readable:390:5)
+        at TCP.onStreamRead (node:internal/stream_base_commons:189:23) {
+      severity_local: 'FATAL',
+      severity: 'FATAL',
+      code: '28P01',
+      file: 'auth.c',
+      line: '323',
+      routine: 'auth_failed'
+    }",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/immich/comments/1q00cg2/immich_on_unraid_723_fails/
+B19-015,AndroidQuestions,Autocorrect being really stupid and annoying &gt;:(,"With the latest update to my Samsung Galaxy S24 Ultra, the autocorrect function for text has been acting a lot more screwy. It does the usual replacements I like, like turning ""wont"" and ""im"" to ""won't"" and ""I'm"", but the problem mainly occurs when I try to correct a spelling error myself that autocorrect doesn't fix automatically.
+
+For example, say I'm trying to type the word ""Sarsaparilla"" but misspell it as ""Sarsparilla"". If I try to hit backspace until I get to the actual typo, it ends up filling in the correct word... but in the middle of the word I already typed! So it looks like this:
+
+&gt;  
+Sarsparilla|
+
+&gt;Sars|
+
+&gt;SarsSarsaparillalla|
+
+  
+If I try to backspace the newly-added word away and try again it just does it once more, sometimes twice in a row to turn a simple typo into a long string of repetitive gobbledygook. The only way to do it properly is to delete the entire word and start from scratch.
+
+The most annoying part of all of this is that it doesn't happen consistently. I've tried to make it happen on purpose to try and figure out what the issue is but half the time it just doesn't happen.",,title_and_body,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/AndroidQuestions/comments/1tduv28/autocorrect_being_really_stupid_and_annoying/
+B19-016,Fedora,no sound from laptop speakers,"There's actually a lot of people having this kind of issue with the speakers not working but headphones and every other connected audio device working.
+
+This issue has personally been pretty painless for some time, I could reboot my system and it would work for quite some time until it was'nt (completely randomly). But it has now become permanent and my speakers won't work at all... maybe after a system update.
+
+  
+I have tried reinstalling pipewire and wireplumber, checking if my sound wasnt muse in alsamixer, installing pavucontrol...
+
+Laptop : Asus Zenbook ux3405
+
+Os: Fedora 44 Workstation updated to last kernell
+
+I can agree on the fact that I'm a braindead ex-windows user and that my report is vague... I can provide any information needed if someone wants to help me resolve my issue.","[1:reply] I am having issues also with the 7.1.3-200 kernel. I have Bluetooth speakers, and it nearly deafened me after rebooting after installing that kernel. It appears that the volume controls (in KDE Plasma, for me) are not working. Meaning, the slider moves but doesn't actually chang…
+[2:reply] There is a discussion on Audio &amp; Asus Zenbook 14 ux3405MA here:
+https://discussion.fedoraproject.org/t/audio-not-working-on-asus-zenbook-14-ux3405ma/126838
+
+
+might be good to have outputs of:
+
+    wpctl status    
+    pactl list short sinks
+    lspci -nnk | grep -A3 -i audio
+[3:reply] It sounds like you're looking for help. Please note that r/Fedora is not an official support channel for the Fedora Project.
+
+For best results, be sure to include all relevant details in your post, such as your Fedora edition, version, and hardware specs. You can edit your origi…
+[4:reply] This sounds like a different issue, and it may be a Bluetooth audio volume-mapping problem. You can try creating a WirePlumber drop-in file with the following:
+
+```
+mkdir -p ~/.config/wireplumber/wireplumber.conf.d/
+cat &gt; ~/.config/wireplumber/wireplumber.conf.d/btvolume.conf…
+[5:OP] I'll look into it thanks ! 
+
+here's all of the outputs : 
+
+    PipeWire 'pipewire-0' [1.6.8, pixxelizz@fedoraLAPTOP, cookie:676834780]
+     └─ Clients:
+            33. uresourced                          [1.6.8, pixxelizz@fedoraLAPTOP, pid:3986]
+            34. WirePlumber…",title_body_comments,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/Fedora/comments/1usocjv/no_sound_from_laptop_speakers/
+B19-017,comfyui,Struggling to get Wan 2.2 running on RunPod – any advice?,"Hey everyone, I've been trying to wrap my head around RunPod + ComfyUI to use Wan 2.2. I'm interested in I2V (start frame and start/end frame), motion transfer, and sound-to-video. I'm a complete runpod-noob and can't seem to get anything working.
+
+
+
+I have a network volume for persistent model storage, with all the necessary Wan 2.2 14B FP8 models already downloaded (high noise, low noise, VAE, text encoder, CLIP vision – \~33GB total).
+
+
+
+Here's what I've tried so far:
+
+
+
+\*\*Official RunPod ComfyUI Template (comfy-ui-6.0.0)\*\*
+
+When I drag in a Wan 2.2 workflow, I get missing node errors: \`WanImageToVideo\` and \`SaveWEBM\`. I manually installed the missing custom nodes via terminal (\`ComfyUI-VideoHelperSuite\` and \`ComfyUI-WanVideoWrapper\`). This required updating ComfyUI itself via \`git pull\` because WanVideoWrapper needs a newer version than what ships with the template. After the update, ComfyUI stopped working on Port 3000 – the port the template is configured for. Switching to Port 8188 also didn't work because the RunPod proxy blocks it with a 403 error.
+
+
+
+\*\*RunPod PyTorch Template (clean install)\*\*
+
+Installed ComfyUI manually from scratch. ComfyUI runs fine locally (confirmed via \`curl localhost:8188\`), but the RunPod proxy returns 403 Forbidden on Port 8188 even though it's configured as an HTTP port. Can't access the UI at all.
+
+
+
+\*\*Root cause as I understand it:\*\*
+
+\- The official ComfyUI template is too old for Wan 2.2 custom nodes
+
+\- Updating ComfyUI breaks the template's port configuration
+
+\- The PyTorch template's proxy doesn't seem to forward Port 8188 properly
+
+
+
+I've spent 12+ hours over two days on this. Can anyone point me to a working template or setup that actually supports Wan 2.2 right now?
+
+
+
+Thanks in advance!",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/comfyui/comments/1szralz/struggling_to_get_wan_22_running_on_runpod_any/
+B19-018,homeassistant,TRADFRI bulbs no longer work with color_temp settings,"I just updated HA to 2026.3 and NodeRED to 4.1.6, but now my Tradfri bulbs (LED2004G8) no longer accept the 'color_temp' argument. Zigbee2Mqtt still exposes the color temperature setting, and the sliders on my HA cards still work fine, but all my NodeRED automations just broke. Anybody else experiencing this issue can shed a light on where to start looking?",,title_and_body,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/homeassistant/comments/1rl98km/tradfri_bulbs_no_longer_work_with_color_temp/
+B19-019,PowerToys,Quick Accent not working after update?,,,title_only,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/PowerToys/comments/1konl4a/quick_accent_not_working_after_update/
+B19-020,Fedora,Battery applet error after updating to Plasma 6.7 on Fedora 44,"https://preview.redd.it/qp54e1wcbe8h1.png?width=548&amp;format=png&amp;auto=webp&amp;s=128f3c41886e8f904e7ed1975ccef13bfb199b99
+
+Hello there. Anyone getting this error with the battery percentage applet inside the notification tray after updating to KDE Plasma 6.7? Any help would be appreciated.",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/Fedora/comments/1uaqzgr/battery_applet_error_after_updating_to_plasma_67/
+B19-021,vscode,Copilot not working on VS Code 1.109.0,"They prompted to update, and after updating, Copilot not working in VS code. How do I downgrade to previous version?",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/vscode/comments/1r2lv5z/copilot_not_working_on_vs_code_11090/
+B19-022,firefox,google unresponsive to clicks on images and tools.,"Sorry for the shitty low frame rate on the screen record and the weird cropping, but I recently made a sync account to connect it to my (now returned) phone plus my computer recently updated, and now google won't let me click anything at all. I don't know if it's a firefox or windows issue, but it's really annoying. anyone know how to fix this?","[1:OP] Before anyone says anything: yes i cleared my site cookies and signed out on any defunct devices, mouse pad seems to be working fine, but it won't let me click anything.
+[2:OP] def seems like a google thing. duckduckgo and bing work fine with no issues
+[3:reply] Do you have extensions? On google maps I am unable to properly view street view if I had one of my extensions on. 
+
+Edit: Forgot the name of the extension but one was grease monkey and the other something to do with making the page dark mode.
+[4:OP] uhhhh I think I got ublock, privacy badger, decentraleyes and dark reader on. I'm not sure about any others though. but they haven't caused me any problems with Google or YouTube in the past
+[5:reply] Do you still have the issue in Troubleshoot Mode? (Hamburger menu &gt; Help &gt; Troubleshoot Mode)",title_body_comments,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/firefox/comments/1u3iod6/google_unresponsive_to_clicks_on_images_and_tools/
+B19-023,firefox,How much storage does the Firefox updates really need?,"My office PC uses Firefox, and with how small the storage space left (109GB total, 105GB used) after all the necessary apps, you'd think it's enough to keep it running for office stuff like scans and typical file downloads from emails. I don't even keep most of the documents I downloaded, the download file was always emptied after a couple months or so.
+
+Then the PC started to stop- literally putting out error warning- that the space to even scan documents are not enough. There is 3.8GB empty storage left, where did all of it go?
+
+  
+I cleared out all the temp files, uninstall Chrome, uninstall the antivirus w/ its annoying popup ads- still no space. The Windows OS has not been updated since 2025, so that cannot be the reason. The office files are so meager they are insignificant even for the small 3GB space.
+
+Then I checked the Firefox app- that's the only app with active updates. I changed the setting to control permission for every new web update, and suddenly there is available space again!
+
+  
+So now the question: how much storage does Firefox even need for their updates? Why do you need 4GB available storage (that you don't even mention anywhere on your website or even the update details) when Google said you only need 16 to 22mb per update?  That's a lot of storage space, especially when the base app is 322mb, according to the app data. The lack of transparency is annoying- I can't be swapping PC everytime I'm scanning stuff, that's literally what this PC is for.","[1:reply] question is where the rest of the storage goes 😃 ....browsing alone uses a lot of data and thus storage, I just got up and surfed a bit and nearly 1 GB of data transferred....I don't use windows so I really don'T know where all the stuff is stored",title_body_comments,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/firefox/comments/1uam0rf/how_much_storage_does_the_firefox_updates_really/
+B19-024,chrome,"Chrome on android caches old pdf versions, making it impossible to get the latest release","Im finding when a website has a pdf up for download, and it goes through a revision and gets updated from say 1.0 to 1.1, chrome agressively defaults to a cached 1.0 version on android. 
+
+Clearing my phones full cache used to fix this, as did force downloading the pdf and opening it from my downloads folder. 
+
+Both of those things recently stopped working, and i can no longer get the latest version on mobile. 
+
+Have validated on desktop there is no issue with the website. I have a samsung s22, and everything is fully updated.
+
+How do i stop this nonsense? I need this feature for both my job and table top games i play in my spare time.","[1:reply] You can still download the PDF by long pressing the link.
+
+Also, did you try to just refresh the page while the PDF is open? Did you try clearing just Chrome's cache?
+[2:reply] Thank you for your submission to /r/Chrome! We hope you'll find the help you need. Once you've found a solution to your issue, please comment ""**!solved**"" under this comment to mark the post as solved. Thanks!
+
+
+*I am a bot, and this action was performed automatically. Please […
+[3:OP] Unfortunately as per my original post, none of those things work any longer. Not even long pressing the item and downloading it - i get the cached version even when doing that.
+
+I have already done the basics and im looking for more before i just change browsers.
+
+I did find som…",title_body_comments,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/chrome/comments/1thg8i0/chrome_on_android_caches_old_pdf_versions_making/
+B19-025,Fedora,Weird bug in FireFox anyone?,"Hey guys!
+
+I am having a weird “G-mail” issue, when I am on Fedora / KDE with Firefox I can’t type in !’s or “”’s or anything into the HTML text editor. Or the Plaintext editor..  I want to see if you guys have the same thing? Latest updates. I had a desktop that WAS working, just for fun we updated it, now its broken just like my laptop. Other special keys like @#$%\^&amp;\*() {\[ \]}’ :/?&gt;&lt;., all seem to work too, just ! and “ are filtered out and don’t come over in the keyboard into the editor. Thinking about filing a bug report but seems to be limited to G-mail on Firefox, but also different version of fire fox with the latest update. Haven't re-created it yet with other sites....
+
+I have tried.
+
+1. Resetting Firefox.
+2. Clearing out user data and staying logged out of Sync
+3. Works in a different browser (chromium)
+4. Downgrading back to a known working version 150 vs 152 after breakign it on updates
+5. Creating a different user profile and user space
+6. Adjusting keyboard settings
+7. Disabling extensions and customization
+8. Friend with similar Fedora build had the same repeatable problem. Worked &gt; updated &gt; failed &gt; rolled back &gt; same issue.
+
+That's a new one, anyone else notice this yet?
+
+  
+EDIT: Goldman7911s post was on the right track... I fixed this by going to KDE Settings &gt; Keyboard &gt; Onscreen Keyboard &gt; show popup while holding a key, and unchecked that box. Give it a go. :P","[1:reply] Test this first
+ https://www.reddit.com/r/kde/s/hp3wSC5rro
+[2:OP] Very Interesting thread. It was indeed the popup keyboard settings after digging though the options. I didn't see it the first time, but I decided to try and toggle it off. It was in settings &gt; keyboard &gt; onscreen keyboard &gt; show popup while holding a key. Interesting t…
+[3:reply] It's happening to me too! I searched all over for this earlier today and could not find anything.
+[4:OP] Goldman7911s post was on the right track... I fixed this by going to KDE Settings &gt; Keyboard &gt; Onscreen Keyboard &gt; show popup while holding a key, and unchecked that box. Give it a go.
+[5:reply] OP has pinned a [comment](https://reddit.com/r/Fedora/comments/1ud2s3n/weird_bug_in_firefox_anyone/ot8v14q/) by u/Goldman7911:
+
+&gt; Test this first
+ https://www.reddit.com/r/kde/s/hp3wSC5rro
+
+**Note from OP:** Thanks :D 
+
+^([What is Spotlight?](https://developers.reddit.com/app…",title_body_comments,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/Fedora/comments/1ud2s3n/weird_bug_in_firefox_anyone/
+B19-026,firefox,Bug Firefox,"Hello Everyone. 
+
+&amp;#x200B;
+
+I have just updated Firefox but for some reason I can't open Firefox. It's telling me that this file is missing (api-ms-crt-hea.dll) and that reinstalling might fix it. However, I have probably reinstalled Firefox 5 times in the last 10 minutes. Does anyone have an idea of how to fix it or a solution?
+
+(Fixed)
+
+I installed old games that each installed a new version of C++. Removed them and reinstalled the latest one and it started working perfectly.","[1:reply] Try reinstalling the x86 and x64 latest Visual C++ redist.  Install x86 first then x64, the x64 will probably ask to reboot:
+
+https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170#latest-supported-redistributable-version",title_body_comments,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/firefox/comments/1u999vw/bug_firefox/
+B19-027,MacOS,In MacOS 26.2 Safari turns out to be extremely slow in loading pages,"My search didn't show any results to my issue.
+
+So maybe it's just me or my setup.  
+Safari is extremely slow in loading pages since the last update to MacOS 26.2.  
+It takes quite a while until a webpage fully appears, it happens step by step from top to bottom. Only then I can start scrolling.
+
+I just wonder because same pages on firefox appear within an instant.  
+My setup is a late 2019 Intel i9 16"" MackBook Pro (32GB/1TB).
+
+Anyone having the same issue or any advice for me? Thanks.",,title_and_body,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/MacOS/comments/1povaij/in_macos_262_safari_turns_out_to_be_extremely/
+B19-028,Wordpress,[Help] Different types of version of every plugin,"Its my first time using wordpress and i HATE this that every other plugin is incompatible with the other one
+I just updated one plugin to latest version and whole site crashed and every page is showing white screen what am even supposed to do??
+
+How does this thing even work pls help because deadline is due",,title_and_body,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/Wordpress/comments/1piv7fr/help_different_types_of_version_of_every_plugin/
+B19-029,ios,What happened to the screen capture settings in 26.4.2?,"I just updated my iPad to 26.4.2 and went to change the screenshots to HDR instead of SDR, but the settings are gone.
+
+I just watched a video on it because I can’t post to Discord because of the file sizes. For some reason my screenshots are now 10 MB. They are slowly growing in size which I don’t understand. I never had a problem uploading my screenshots to discord but now I am. (Btw, I would love to know how a 3 megapixel screenshot that’s 2360x1640 is 10 MB, but a 24 megapixel 4284x5712 is 3.4 MB, but that’s not the point of this post)
+
+Picture 1 is my iPad (26.4.2), &amp; 
+
+Picture 2 is my iPhone (26.3.1 (a))
+
+Did they remove this or move it? Or is this bugged?",,title_and_body,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/ios/comments/1syb639/what_happened_to_the_screen_capture_settings_in/
+B19-030,MacOS,Issues since upgrading to 26.4: 1) First new Finder window opened with icons at 512x512    2) External drives keep remounting for no reason.,"First only happened the initial time I opened a window.  After I resized the icons, subsequent windows opened at the correct icon size.  Weird, but no big deal.
+
+The external drives constantly remounting however IS a big deal to me.  And it's not even all of them--a couple never remount and the ones that do don't always.  I have 9 externals, and say, 1, 2, 3, 5, 7, 8 remount and I unmount them.  Next time it might be 2, 3, 5, 8.  Time after 1, 2, 7, 8.  Anyone else seeing this happen?",,title_and_body,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/MacOS/comments/1s4m84c/issues_since_upgrading_to_264_1_first_new_finder/
+B19-031,MicrosoftEdge,Edge wiped all my saved user data &amp; settings after update,"I'm beyond furious.
+
+It took me a couple of days to set the browsing experience *just* right for me. Once it was done, it was all fine and dandy until I reset my computer today, which somehow meant that Edge was being updated along with the restart.
+
+Once my machine was back up and running again, I started Edge only to find all my settings are gone. My duckduckgo-style bangs don't work anymore. My tabs are gone. My extensions are disabled. Co-pilot is sitting on the sidebar button again. I'm logged out of every online service I had previously been logged in to. My theme has been reset. My default profile is still logged in and it shows that ""Sync is on"" but, clearly, something went wrong. I hit the ""re-sync"" button and nothing happens.
+
+I'm forced to set everything back to the way it was *by hand*. Microsoft is supposed to back up your data in its cloud servers for syncing, right? Well, it's not fucking working.
+
+I'd dump this garbage of a browser right now if it weren't for the fact that the browser market is full of trash.
+
+Chrome kneecapped ad-blocker extensions.
+
+Firefox can't play DRM content on Netflix, doesn't have &gt;60 Hz smooth scrolling, and randomly crashes playing YouTube videos.
+
+Brave and Opera have a ton of bloat and I frankly don't trust their in-house VPN and adblocker.
+
+Can't even use Safari since I'm on Windows OS.
+
+It pains me to my core to admit that MS Edge feels the fastest, most flexible, compatible, feature-complete, and secure browser at the moment, and it's fucking hot garbage.",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/MicrosoftEdge/comments/1prh6p8/edge_wiped_all_my_saved_user_data_settings_after/
+B19-032,homelab,APC AP7932 Communication errors,"I have a pair of APC AP7932 PDUs in my homelab rack which have been fine since I got them (I don't recall how long I've had them). However, this weekend I shut everything down to full power off to make the room quiet as I was checking for leaks in my mini split using an acoustic camera. When I powered everything back up, both PDUs flaked out. Upon booting, some, but not all outlets didn't turn on like they were supposed to, and the displays were either showing 'Er' or gibberish. Logging into the web UI, I ended up with 'Communication has been lost to the device!' Power cycling again didn't help, and the display changed from Er to gibberish on one and the opposite on the other. 
+
+  
+I found an article about issues with these PDUs and missing outlets and inaccessible web UI (didn't seem to be my issue, but figured I'd try it) and went through the process to flash to an old 2.0.2 OS version, get in through the factory backdoor, re-configure all of the settings, then upgrade back to the newer versions. No change. It booted up, initially it reported 'no errors', I told it to switch on all outlets, relays clicked and it switched most of them on, and then the communication error.
+
+I did open one up to look for anything obvious, such as swollen caps, but nothing stood out.
+
+Is this behavior anyone has seen, and if so, is there a way to fix it, or are they done?","[1:reply] Yes, I have two similar models in my colo rack, AP7940, one started the same thing as yours, ""Communication has been lost to the device!"" but would still work.  As time went on it got much worse.
+
+Now it only kinda works via the serial port, the network port might as well not ex…
+[2:OP] I haven't tried turning anyhting on or off via serial, but it sounds like we're suffering from the same issue. On both of them, the web interface 'works' but no control over outlets, and just the 'Communication has been lost', no power supply errors like I've seen others comment…",title_body_comments,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/homelab/comments/1vsyn4m/apc_ap7932_communication_errors/
+B19-033,applehelp,Restoring iPhone from iTunes backup made impossible?,"After mistakenly irreversibly deleting data from my iPhone 13, my only way of restoring the data is to load a backup from iTunes. I backed up the phone regularly, my last backup is from April 6th. After clicking ""restore"" and pasting the backup password, the phone restarts and says it's restoring, but then a certain error message appears in iTunes. Tried it multiple times but it's always this message. Translated to English, it says ""iTunes couldn't restore iPhone 'iPhone 13' because the connection to the iPhone was cut.""
+
+* It's not a bad USB cable, I tried with another cable
+* Also tried a different USB port on my PC
+* Tried updating iOS to the newest version 26.4.2, updating via iTunes via cable worked fine, afterwards restoring from backup still didn't work
+* My iTunes version 12.13.10.3 on my Windows PC is up to date
+* Even tried disabling my iPhone Code and Face ID because I was out of ideas
+* Still same error message, and always comes up a few seconds after clicking restore, right when the iPhone restarts
+* It's also not a wrong password of the iTunes backup, as I tested with an intentionally wrong password and got the ""wrong password"" error message
+
+Is there anything I can do or can I just not restore from backup?",,title_and_body,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/applehelp/comments/1sup8kg/restoring_iphone_from_itunes_backup_made/
+B19-034,Fedora,Any risk updating to Fedora 44 two days early on AMD hardware?,"Hello! I am wondering if there's any issues with Gnome 50 on the current Fedora 44. I heard they paused updates until release but I also heard all major blocker bugs are solved. 
+
+I have an AMD 5800X3D &amp; a AMD 7900 XTX.
+
+I did try updating 2 weeks ago, everything ran ok other than getting 3 startup warnings in logs.
+
+2 were related to tpm udev rules i think, they stated ""failed to resolve group 'tss'""
+
+The other was firefox.
+
+I don't rely on many exentions and all of the ones I do use are already updated for gnome 50. 
+
+Should I just wait?
+
+Or are the logs something I can ignore?
+
+Image of errors:
+
+[https://imgur.com/KY77E9O](https://imgur.com/KY77E9O)
+
+I'm thinking its all harmless? I can avoid firefox if need be.",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/Fedora/comments/1swjx2c/any_risk_updating_to_fedora_44_two_days_early_on/
+B19-035,chrome,Need Help. My Chrome keep freezing.,"Ever since the update from couple months ago my chrome keep freezing up for 5-10 seconds whenever I open a new tab.
+
+Everyday I only have a few tabs open, 1 youtube home page, 1 music stream page and google translate that's it. and when I open another tabs of youtube video, it will become unresponsive for 5-10 seconds but video still playing. It also happens when I open another page from another website as well.
+
+I have youtube premium and have no ad block. I only have 2 extensions which is Dark mode for Translate and Google Translate.
+
+I always keep Chrome up to date and I disable all sync browser data of my google account as well.
+
+Also turn off on device AI in the settings and that's it.
+
+My desktop PC has i7 11th gen and 32GB so it has plenty of RAM and very minimal background task. Only have Chrome on and Discord most of the time. 
+
+I can't find what could be the problem at all.","[1:reply] Thank you for your submission to /r/Chrome! We hope you'll find the help you need. Once you've found a solution to your issue, please comment ""**!solved**"" under this comment to mark the post as solved. Thanks!
+
+
+*I am a bot, and this action was performed automatically. Please […",title_body_comments,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/chrome/comments/1vrnknh/need_help_my_chrome_keep_freezing/
+B19-036,immich,What's wrong with my instance preview?,"When I browse my photo collection via web browser (any web browser) i see screenshots taken from my iPhone like this. It affects screenshots ONLY. And ONLY screenshot shoot after updating to server 2.3.
+
+BTW updating to that server version forced me to backup/upload my whole iPhone gallery again from scratch.
+
+If I download that picture I can see it right so this means it's not an upload or data issue. It's just how it's represented on browsers.
+
+  
+Is there an ez way to fix this?
+
+[View on any browser.](https://preview.redd.it/621b3ew0bz8g1.png?width=1409&amp;format=png&amp;auto=webp&amp;s=57c8553c19c1326b9a3c87e874b8a35cf75a52f0)
+
+[View of the same picture downloaded from my Immich server on my Mac preview app.](https://preview.redd.it/5mlelmp3bz8g1.png?width=716&amp;format=png&amp;auto=webp&amp;s=00b8ecb8e2388213d815febd81a873e31296c88b)",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/immich/comments/1ptxz1v/whats_wrong_with_my_instance_preview/
+B19-037,applehelp,iPad stuck in restore mode!,"Hi! So, some weeks ago my iPad Air 4 randomly showed the restore screen. I do not know why exactly, but I believe it may have to do with the times when updates roll out, because last time this happened was during the last update. It happened again now after my iPad had low battery and turned off, and I checked there was a recent update on May 11th.
+
+I can't force restart my iPad because the power button is sunk in and I haven't really gotten around to fixing it. I have to connect my iPad to my laptop (windows 11) which has apple devices downloaded on it to update it. I even download the update from ISPW. I had to do that last time and it took me hours to get my iPad back up without having to reset everything. Currently, I'm stuck doing the same thing again.
+
+I even downloaded softwares to force exit from restore mode, but it didn't work either :(
+
+Does anyone have an idea why this keeps happening, and if so, how to fix it? It's genuinely stressful especially since I have exams around the corner!",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/applehelp/comments/1teymdh/ipad_stuck_in_restore_mode/
+B19-038,MicrosoftEdge,Strange GAP over the top,"Hello.
+
+Another Microsoft Edge update and again some strange design changes. 
+
+After updating to version 145, some indentation appeared that cannot be fixed by disabling the rounded corners in ""edge://flags"".
+
+It might not be that noticeable when displaying regular tabs, but I use a tab group and it looks terrible.
+
+https://preview.redd.it/kmc6uj5ujwjg1.png?width=1007&amp;format=png&amp;auto=webp&amp;s=98cbf30186240937be6f12fb0aeaf478cae60309
+
+Suddenly, does anyone know how this horror can be fixed and returned to how it was.",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/MicrosoftEdge/comments/1r6i5er/strange_gap_over_the_top/
+B19-039,chrome,Chrome lagging horribly for no apparent reason,"I'm on Windows 11 and a fully updated version of Chrome (so far as I know). Starting earlier this week, Chrome has been lagging terribly to the point of crashing. I'll restart my computer and it will load pages normally for a little bit, but after a little while it becomes nearly unusable. New tabs take over 30 seconds to load and moving tabs to new windows causes the pages to crash. Additionally, minimize and maximize no longer work. I'll try to maximize one page only for it to immediately minimize again.
+
+I've troubleshot clearing browsing data, the cache, updating, turning off AI features and other high processing settings, and nothing has worked to fix this problem. Checking task manager, I have a decent amount of memory left and the CPU isn't being taxed in the slightest. The only thing I can somewhat connect to the problem is that Wikipedia pages seem especially difficult to load, though I doubt that's the root of the problem as I haven't had more than two Wikipedia tabs open at a time.
+
+Any idea what might be causing this? Is this a bugged update of Chrome?","[1:reply] I blame it on their constant attempts to curtail Ad-Blockers that work on YouTube. 
+
+For a while there, every time they Updated Chrome, my Ad-Blockers would stop working on YouTube for a while.   
+Ad-Blocking still works on other sites tho, so seems kinda sus.
+[2:reply] Thank you for your submission to /r/Chrome! We hope you'll find the help you need. Once you've found a solution to your issue, please comment ""**!solved**"" under this comment to mark the post as solved. Thanks!
+
+
+*I am a bot, and this action was performed automatically. Please […
+[3:reply] How much RAM is in use?  
+I'm stuck with 8GB and Chrome, when playing live content gets especially bad.
+
+Try: Chrome//:restart (in address bar) next time it gets unstable. Might save you from a Crash or full System Reboot.
+[4:OP] Around 4GB is being used by Chrome alone but less than 5GB is being used total. I have 8GB as well so I should have (and according to task manager, do have) 3GB of ram free. I’m not even playing live content, just standard webpages. It feel like this would be a RAM issue but my…
+[5:reply] I might be experiencing this a little bit. I switched to Edge because Chrome kept slowly becoming laggy for typing, like typing up a message here on Reddit. I have 16 GB of memory and so it's not a memory problem for me. The only way to fix it was by quitting Chrome and opening…",title_body_comments,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/chrome/comments/1v4zp08/chrome_lagging_horribly_for_no_apparent_reason/
+B19-040,vscode,'Gemini Code Assist' stopped working after upgrading google gemini account from free to pro.,"Hello,
+
+  
+My 'Gemini Code Assist' extension in vscode stopped working and started throwing error ""Client Gemini Code Assist: connection to server is erroring. write EPIPE"" after an upgrade to gemini pro. 
+
+  
+I signed out of my account google from the extension, deleted all the settings, uninstalled the extension, restarted vscode and reinstalled the extension, and the same issue persisted. 
+
+  
+Screenshot of the error.
+
+https://preview.redd.it/cyamrrsnv70g1.png?width=1492&amp;format=png&amp;auto=webp&amp;s=e7de49236bbbeba6d8692a453d03a82c96cf5e9b
+
+What do I do?
+
+  
+Thank you",,title_and_body,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/vscode/comments/1osh4pe/gemini_code_assist_stopped_working_after/
+B19-041,applehelp,iPad OS boot loop and not booting,"Hi everyone , so I have an IPad which after updating is not working anymore , it’s stuck in a boot loop. Apple logo shows on and off.   
+Thinking of taking it to Apple Store in BKC.
+
+But before that I want to know . 
+
+1. I upgraded to the ipadOS 26.5 , it was working fine   
+2. Second day when I woke up, it started to go in a boot loop  
+3. Tried flashing it using my mac and window using iTunes and 3u tools   
+4. Nothing worked, unable or may be unsuccessful to boot in to the DFU mode. 
+
+Has any one else faced the issue ?   
+I am on IPad Air 4 upgraded from 18.6 to 26.5.2",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/applehelp/comments/1uu9lab/ipad_os_boot_loop_and_not_booting/
+B19-042,applehelp,GPS completely broken after updating from iOS 16 to 26.5,"Hey guys,
+
+I recently updated my phone from iOS 16 to 26.5, and now my GPS is completely messed up on all map apps (Google &amp; Apple maps).
+
+* **The issue:** The map freezes completely whenever I lock the screen or switch to another app. When I open it again, it lags and suddenly shows my speed jumping to like 200–400 km/h just trying to catch up.
+* **What I tried:** I already reinstalled the apps, reset network/location settings, but nothing worked.
+
+Anyone else dealt with this bug on 26.5? Any quick fixes? Thanks!
+
+Iphone 12 pro max IOS 26.5 help please its been on for abt 4 months with no solutions","[1:reply] reboot
+
+press vol up button
+
+press vol down button
+
+hold power button until apple logo appears",title_body_comments,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/applehelp/comments/1uxzzyd/gps_completely_broken_after_updating_from_ios_16/
+B19-043,applehelp,Anyone with a solution?? iPhone error 100,"I'm actually stressing so so much right now, I have no backup of my iPhone and I wanted to update it, so I got the Ipsw file and updated on my Mac. It got error 100 like this and stayed on the progress bar fully filled. It shut off as soon as I unplugged and got in recovery mode, I tried updating again with same IPSW and I got the exact same error and iPhone screen. I had like 2-3 GB storage left before which is why I used a Mac to update it, I am actually so scared right now, is there literally anyone who's faced this and hopefully found a solution?? I also tried apple Configurator revive which showed me the exact same error with the phone showing the same filled progress bar, I'm so scared rn, is it hopeless do I have to restore or has anyone had this issue and managed to fix ??? I thought it'd just be a simple update now I'm actually so sad, it's a iPhone SE",,title_and_body,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/applehelp/comments/1udap2q/anyone_with_a_solution_iphone_error_100/
+B19-044,applehelp,My messages app is glitchint,"So, I’m in a group chat then has send laters (This is important). I’m the one sending the send laters as a countdown until school ends, but I have noticed something odd. Every time someone gets added removed, or someone even changes the name, the messages reverses it and adds back, removes the ones added, and changes the name back. Weird already, but theres more. My messages today turned green, and that was pretty weird, the whole group chat is full of people with Apple! How could that happen? And it makes a separate gc because I can speak in sms. No android or sms provider was added, and I talk in gcs with only apple people, and it’s blue. Every time I type in this gc, it says “encrypted“ which i also find weird. It also spreads on other group chats. I also tried deleting it, but it comes back after I delete it?? I’ve even  restarted my phone, got removed and re added, and nothing seems to work. My send laters are sometimes rcs, and i think thats whats glitching my app, but I dont know how to solve this yet, any tips? (I know this is really weird, I just hope my Iphone isn’t bugged)
+
+My iphone: A regular Iphone 14 updated to recent update with new emojis. I have had it for almost 3 years. It performs slower than my brothers, even thought we got it at the same time. My phone often lags and crashes a lot. It’s been like this for a year.
+
+TLDR: Iphone messages are glitching and I think it’s something to do with send laters. Group chats wont delete and every other gc is fine. My phone has been also buggy for the last year or so.",,title_and_body,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/applehelp/comments/1tcj2jj/my_messages_app_is_glitchint/
+B19-045,chrome,"Chrome is broken. Android. Just updated to one ui 7, that could be it.",,,title_only,yes,yes,general_dissatisfaction,low,The post appears mainly critical without an active repair purpose; check for a concrete problem report.,,,,,,,https://reddit.com/r/chrome/comments/1km37ol/chrome_is_broken_android_just_updated_to_one_ui_7/
+B19-046,google,December Security Update - Broke Wifi (Pixel 10 Pro Fold),"Unbeknownst to me, my phone either updated the latest December security update overnight or sometime this morning (Dec 5, 2025). Didn't think there was an issue till I noticed my wifi was turned off.
+
+Turned wifi on like normal (using dropdown menu), and it showed on. However it would not connect. Yes did all troubleshooting:
+
+* Rebooted phone
+* Verified airplane mode off / Even toggled airplane mode on &amp; off
+* Rebooted home router / Verified other device on my network could connect
+* Rebooted phone a few more times
+* ""Reset Bluetooth &amp; Wi-fi""
+* Tried the all of the above with phone charging and not charging
+
+Now, tried going to Internet setting, however the window take like 1-2 mins to load. Eventually it does. It then show that wifi is off, even though dropdown internet menu shows its on. When turning the wifi on from the internet menu the settings app literally crashes. Then stuck in this constant loop. See [Screenshots](https://imgur.com/a/VWY5f0r)
+
+Opened a ticket with Google, they were no help. However they let me know my phone is still under warranty and I'm going to stop by a local repair shop tomorrow. I have a feeling they won't be able to do anything as this is a SOFTWARE ISSUE!
+
+NOTE: I believe this update too broke my wireless charging capabilities with my dock. I have the **Google Pixel Stand (2nd Generation)** and woke up this morning with my phone not charging. I still have my pixel 7 pro and was able to charge just fine on the same dock, but my 10 Fold wont! When I place the fold on the dock it starts to charge but then stops, dock flashes ""white/yellow,"" then charges again. Stays stuck in this charge / no charge loop.
+
+
+
+***UPDATE: I ENDED UP FACTORY RESTTING MY PHONE, AS SUGGESTED PREVIOUSLY BY GOOGLE AGENT. THIS DID NOT FIX THE ISSUE. NOW I HAVE TO ALSO WAIT 24 HOUR BEFORE I CAN LOG BACK INTO MY GOOGLE ACCOUNT ON MY PHONE*** 😒",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/google/comments/1pficzj/december_security_update_broke_wifi_pixel_10_pro/
+B19-047,chrome,Bookmarks no longer show favicons? Here's your answer on how to fix it!,"Wonder what the hell happened when all of your bookmarks that you have saved and all of them displays the same generic gray globe favicon?
+
+Well... that is because your chrome browser has not finished updating.
+
+Open your browser &gt; click on the 3 dots &gt; Settings &gt; About Chrome &gt; Finish update.
+
+This would force chrome to finish the update and presto! Your bookmark favicons are back!
+
+  
+Hope this helps. Cheers!
+
+P.s - and no... you dont have to open all of the bookmarks. Thats just... mental.",,title_and_body,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/chrome/comments/1ovzp58/bookmarks_no_longer_show_favicons_heres_your/
+B19-048,applehelp,Find My notifications broken since iOS 18 / iOS 26 (happens with iPhones 11 Pro and 17),"Hi everyone,
+
+I'm using Find My with my AirTag and third party trackers for years and never encountered any notification problems until I updated my old iPhone 11 Pro to iOS 18.
+
+Since I updated my old iPhone to iOS 18 last year, I stopped receiving low battery push notifications for my AirTag and AirTag-like trackers. I got a new iPhone 17 with iOS 26 and the issue persisted. To make things worse, since iOS 26, the ""notify when left behind"" alerts only work sporadically (which is apparently an issue for some users with iOS 26). But I seem to be alone with the broken battery notifications.
+
+What still works:
+
+""Notify when found"" - I get them every time
+
+""Unknown AirTag moving with you""
+
+What is broken:
+
+""Notify when left behind"" only works occasionally. This affects my original AirTag, all other trackers and my AirPots Pro 3
+
+Low battery warnings stopped working completely. If I'm lucky, I see the red battery icon when I open Find my, but on some occasions they just went from near or half full to completely offline without warning and when checking, the battery was completeley empty.
+
+The only notable exception was a specific original AirTag a family member shares with me. For this one, I received a low battery warning a few days ago on both of my iPhones.
+
+I've already tried the basic troubleshooting tips:
+
+Rebooted both iPhones multiple times, tried both a ""normal"" reboot and the reset with volume up, volume down and holding the power button
+
+Reinstalled the Find my app
+
+Factory reset and repaired all my trackers
+
+Toggled Find My, location services, signifcant places and background refresh off an on (with reboots)
+
+Checked focus modes, battery saving settings, and screen time restrictions
+
+I have already contacted Apple Support about this. They mostly suggested the usual basic troubleshooting steps. However, the agent did suggest one thing I hadn't tried yet: completely turning off all screen time restrictions. I am currently testing this, though I highly doubt it will fix it since my settings are exactly the same as they were on iOS 17 when everything worked fine.
+
+Since this issue started on my old iPhone and carried over to a completely new device with a different iOS version, I guess it must be an issue tied to my Apple ID or something, rather than a hardware fault, like one of the support agents suggested, who completely ignored that I have the same problem on two different iPhones.
+
+Has anyone encountered this specific lack of battery notifications? Are there any settings / workarounds I could try except completely resetting my iPhones? Thanks!",,title_and_body,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/applehelp/comments/1uueoy4/find_my_notifications_broken_since_ios_18_ios_26/
+B19-049,linuxquestions,Disappointed with Linux - Integrated Dell Camera does not work.,"I am privacy oriented and hate the bloat that's on Windows now.  About 1.5 years ago, I bought an old Dell Latitude 7000 and installed Linux Mint on it. Mint worked well but the Dell had a lot of miles on it and the keyboard began to malfunction. So I recently upgraded and bought a used refurbished Dell Latitude 7440 (which was introduced in March 2023). The computer itself has great specs and is awesome. Before installing Linux, I updated the BIOS and Windows 11. I wanted to give Zorin OS a test drive so installed it on the machine.  After installation, I wasn't crazy about Zorin (more polished GUI but not and customizable) and more importantly the Dell Video Camera would not work with it.    
+  
+So then as my fallback, I installed Linux Mint thinking it would solve the problem but still the camera drivers don't work. I updated the kernal and drivers via the Terminal/Command Lines, still doesn't work. Spent hours researching. Apparently it's an ongoing issue with Linux on ""newer models"" with integrated Intel Cameras. Very disappointed. Can't use the HD Camera for video conferencing at all.  Have to carry and connect to an external video camera. I may just reinstall Windows 11, but already have a Window's computer. Everyone in the Linux Sphere were boasting about how the recent versions of Linux now rival Windows and make it worth the switch. However, if the drivers don't work for basic devices like the video camera etc. then why bother. Going to give up on Linux and call it a day. If anyone has a solution, please feel free to share.",,title_and_body,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/linuxquestions/comments/1rvfs8g/disappointed_with_linux_integrated_dell_camera/
+B19-050,chrome,Chrome has been sporadically crashing on Linux for a very long time now.,"It's been randomly crashing for years now. Even across different versions of OS. I think it started happening when I switched from NVidia graphics to Intel graphics some time ago. And recently I added an Arc video card, installed latest Mint. I suspect it crashes on video playing, by some ad on a web page. Sometimes a tab crashes and shows ""Aww snap"" or something like that and sometimes the entire browser vanishes. Some kind of segfault when I look in syslog.  
+I was hoping that updating both OS and browser to the latest version, but it keeps happening.  
+Kernel is 6.14.0-36-generic.  
+OS is Mint 22.2.
+
+memtest shows no memory errors. Only Chrome ever crashes.
+
+There was news about some kind of Intel graphics bug that was recently fixed and requires a later version of mesa than what you get with the regular updates through Mint. I have hope that this finally fixes it. But why is only Chrome affected?",,title_and_body,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/chrome/comments/1p85r0r/chrome_has_been_sporadically_crashing_on_linux/
+B19-051,AndroidQuestions,"Google Play won't update my game, but Aurora Store sees the latest version (same Google account)","# 
+
+Hi everyone,
+
+I'm trying to figure out a very strange Google Play issue and I'm running out of ideas.
+
+The problem appears with the game Idle Space - Ship Crafting RPG.
+
+The latest versions (1.3.26 available for around 2 Weeks/ 1.4.1 available since 2 Days) have been available and several of my clan members already have them.
+
+However, all of my devices are still stuck on 1.3.15 (10315).
+
+What ive already tested is using Multiple Google accounts, a brand new Google account created using an Austrian IP, Multiple devices:OPPO Find X9 Ultra with Android 16(bootloader locked), One Plus 12 Ultra with Android 16 (bootloader locked) and an Xiomi Mi 11 Ultra with Android 14 (this one is rooted), Cleared Google Play Store cache/data and Cleared Google Play Services cache/data.
+
+The strange Part is if im using Aurora Store with the exact same Google accounts, I can see version 1.4.1 (10405) available on Google's servers.
+
+However, installing it results in the game displaying: Get it on Google Play Store (or something like that, im not a native speaker), which seems to be caused by Play Integrity / installer verification (i read about its get called pairip).
+
+Some clan members already have 1.4.1 from Google Play with diffrent devices and diffrent locations.
+
+i know three members are located in both Germany (same as me) and Austria, so this doesn't appear to be simple country-based availability.
+
+My question is has anyone ever seen Google Play refuse to offer an update while Aurora Store can clearly see the newer version using the same Google account?
+
+Could it be a broken staged rollout or something else?
+
+Any ideas would be greatly appreciated.
+
+Thanks!","[1:reply] Okay so some of the stuff in your post isn't really adding up. Misspelling Xiaomi is one thing, but ""One Plus 12 Ultra"" isn't a thing - idk if that's still a leftover artifact from AI or what's going on there. But that's, okay, whatever...
+
+&gt;The latest versions (1.3.26 availa…
+[2:OP] i rewrote the whole thing and sry for the misspelling.  
+i got the Information from Aurora Store and my Clan Members, that 1.4.1 is the latest version.  
+If its really an limited rollout thats bad for the eco in this game, because with this update the balance system and reward s…",title_body_comments,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/AndroidQuestions/comments/1ustt69/google_play_wont_update_my_game_but_aurora_store/
+B19-052,AndroidQuestions,"I'm trying to transfer a save from stardew valley, I have two phones, both with one ui 8.5, and with the same google play system update and security update, one works and the other doesn't?","To transfer the save all I did was plug in my phone, turned on transferring files/Android auto, and on the second phone I was able to go into
+
+ android/data/com.chucklefish.stardewvalley
+
+And copy and paste the save folder and its contents successfully.
+
+On the main phone, if I go to the same file path, and copy, when I go to paste it says ""unspecified error"" and there are no contents inside the folder.
+
+I've tried using shizuku and zarchiver, which worked once before but now it doesn't.
+
+Is there a setting or something that would turn on if ""suspicious behaviour"" was detected like shizuku? As on the second phone ive never done anything of the sort.",,title_and_body,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/AndroidQuestions/comments/1vukg13/im_trying_to_transfer_a_save_from_stardew_valley/
+B19-053,applehelp,"Notes app frozen after macOS update, iCloud toggle stuck and app won’t open","My Notes app stopped responding after an update and has been stuck in the same state for over 2–3 updates. I still can’t access the app. I tried syncing my iCloud notes, but even the Notes iCloud toggle in System Settings wouldn’t switch on or off, so I haven’t been able to get it working at all.",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/applehelp/comments/1saejqe/notes_app_frozen_after_macos_update_icloud_toggle/
+B19-054,HomeNetworking,Poor Downstream Level,"Hi Everyone -
+
+  
+I'm not sure what's happening with my wifi but for the past week I've been facing random ping hikes when I play my game or when I just do work. I end up restarting the modem but nothing really changes. There hasn't been a new firmware update so I don't believe that's an issue.
+
+  
+Can anyone assist or provide an idea of what I can do to remediate this? Below is the some of the cable diagnostic info:
+
+Cable Diagnostic
+
+
+
+Status: Poor
+
+
+
+Action: 
+
+\[Downstream Power Level\]
+
+Try these actions (Click the Refresh button after each step):
+
+1) Make sure the coaxial cable is tightly connected.
+
+2) Remove any unnecessary splitters.
+
+3) Replace any required splitters.
+
+4) Contact your service provider for troubleshooting help.
+
+
+
+Internet Access: Good
+
+
+
+Downstream Status: Poor
+
+
+
+Downstream Power Level: Poor
+
+Downstream power is poor (11.6dBmV). The recommended level is between -10dBmV to 10dBmV.
+
+
+
+Downstream SNR: Good
+
+
+
+Upstream Status:  Good
+
+
+
+Upstream Power Level: Good
+
+
+
+
+
+Current time: Sat Jul 11 01:23:59 2026
+
+
+
+Startup Procedure
+
+Acquire Downstream Channel: 517750000 Hz   Locked
+
+Connectivity State:          Ok       Operational
+
+Boot State:                  Ok       Operational
+
+Security:                   Enabled   BPI+
+
+IP Provisioning Mode:       Honor MDD   honorMdd(4)","[1:reply] Yeah call your ISP and get them to fix it... 
+
+There's nothing you can do to fix it, beyond making all coax cables are tightened up.
+[2:reply] Based on the information contact cable company.
+[3:reply] They probably need to pad the signal if it’s too high(which can be done by just adding a splitter),or there is an issue with the dsnr in the cable system.  If it’s the dsnr you would need them out there to find the issue and correct it",title_body_comments,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/HomeNetworking/comments/1utcmcc/poor_downstream_level/
+B19-055,MacOS,Upgrading to Tahoe borked my Network User account,"I recently had my work computer upgraded from an old HP mini workstation to a Mac Studio and have been loving it especially with how much better Adobe products seem to run on the Mac compared to windows. But today I ran into a major issue when I finally decided to upgrade my system to Tahoe.
+
+The initial upgrade went fine and when I logged in to the local Admin account everything loaded perfectly fine, but when I tried to login to the Network User(NU) account it froze up during the initial loading/setup of the upgraded OS. I let it sit there for 5-10mins thinking maybe it was just slower to start up due to being a NU or something, but after a while of it not doing anything I forced a shutdown.
+
+When I restarted and logged in to the NU account it didn't try to rerun the initial setup, it just sent me to the desktop that now seems to be partially broken; wallpapers won't load, the widgets are just blank squares, and a lot of things just don't work correctly. I can't get most programs to run and the some that do just don't function right, like they lock up just trying to save or open a file. In the system settings it keeps giving me an error about updating my Apple ID account but nothing happens when I push the button and even trying to sign out of my Apple ID is broken.
+
+I've gone into recovery mode and reinstalled Tahoe to see if maybe that would fix the issues or at least reset the account so the initial setup would load but it didn't seem to actually change anything. I also tried removing the NU account, restarting, and adding it back in but I guess on Mac deleting an account doesn't remove all its connections as it loaded back up like nothing was different.
+
+Does Tahoe just not play nice with NU accounts or is there something I can do to fix this situation? I haven't used a Mac in at least 15yrs so any help would be appreciated.",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/MacOS/comments/1qicnbw/upgrading_to_tahoe_borked_my_network_user_account/
+B19-056,ollama,"zAi just fixed some important performance issue in GLM 5, community informed  ( and we have to wait for Ollama to hear if they have upgrade ).","https://preview.redd.it/myk6hdfbrcyg1.png?width=852&amp;format=png&amp;auto=webp&amp;s=2b45a1d65ee9da376fad6b96b0ec203dd73c9b9b
+
+  
+E-mail from zAi",,title_and_body,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/ollama/comments/1t00x2y/zai_just_fixed_some_important_performance_issue/
+B19-057,Excalidraw,[Plugin] Issues with Obsidian Excalidraw 2.15.1 - embedded notes + a particular Template + Notes corruption,"Hello all!   
+I'm sharing this post to make you aware of some issues I encountered after updating Obsidian Excalidraw plugin to version 2.15.1, and solved by reverting back to 2.15.0.
+
+**Excalidraw embedded notes:**
+
+I have Excalidraw drawings where I embed Notes like this:
+
+[Notes embedded in Excalidraw - linking to \\""Complete\\"" Header, background changed.](https://preview.redd.it/wawck2x177mf1.png?width=723&amp;format=png&amp;auto=webp&amp;s=b87c1c262a36a68e6bbbe62f1859e0df130b5b72)
+
+  
+When I work on a note and (apparently) use Enter to end line, if I return to the Excalidraw the notes are shown like this:
+
+[Notes embedded in Excalidraw - appearance changed from normal](https://preview.redd.it/uyqknpv577mf1.png?width=809&amp;format=png&amp;auto=webp&amp;s=066a6f93cdb240574f006eefba7645273701fe0a)
+
+Sometimes the appearance returns to normal after a few seconds, but often it will remain stuck in this appearance.
+
+Eventually, some notes will become corrupted, with their contents getting edited even though the Note itself is not even opened, as if the Template was getting re-pasted into the Note, like this:
+
+[Corrupted Note - Should only have #Essentials, #Complete and the text below Complete, but here seems to re-paste the template into the Note](https://preview.redd.it/rbhhqjj977mf1.png?width=1616&amp;format=png&amp;auto=webp&amp;s=966c1f050cbdab1c136403a2cada24d884f1d49c)
+
+  
+Finally, when I open a new Note and use this specific Template (called ""Story Bit Template"") via the Alt+T menu, the template doesn't appear. I have to switch tabs to another Note, then return and do it again, and only then will the template appear in the Note as intended.
+
+All of these issues disappeared after I reverted to Excalidraw version 2.15.0. I'm not sure what in 2.15.1 is causing all this, but I thought I'd make you aware of it. 
+
+Thanks for a great plugin otherwise!","[1:reply] Hey it seems this Is community plugin in obsidian that Is not managed by core excalidraw team. Can you ask in obsidian community?
+[2:OP] Oh sorry! I thought this was where to inform the Excalidraw team of things, my bad!  
+I already posted in the Obsidian subreddit, so hopefully whoever can address this issue will see it. Meantime I just reverted and will stick to the working version.  
+Thanks for letting me know!",title_body_comments,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/Excalidraw/comments/1n48mcq/plugin_issues_with_obsidian_excalidraw_2151/
+B19-058,applehelp,Unable to update WatchOS during pairing,"My Apple Watch SE2 broke a while ago so my dad today gave me his old Watch Ultra. I unlinked his account, reset the watch and paired it to my phone. I thought it was weird when it said it needed 4 hours to finish downloading the update but I thought the number would go down on its own. Fast-forward 2 hours in and it's still stuck on 4 hours remaining and I started losing my shit.
+
+I reset and unpaired the watch multiple times to no avail. It still goes back to saying that dreaded number. I tried every single trick I saw on Reddit like turning off bluetooth to get the EULA\\ToS agreement, I reset my phone's network settings, I restarted both devices and I got zero results. I also tried deleting the update files and still nothing.
+
+I'm thinking of hitting up an Apple partner store (or whatever they call them outside the US) but before I do that I wanted to ask if anyone got a fix for breaking this god awful update loop.",,title_and_body,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/applehelp/comments/1u3en5b/unable_to_update_watchos_during_pairing/
+B19-059,Dell,Found potential solution for nvlddmkm.sys crash issue in windows 11,"Recently i had this issue on my laptop with windows 11 where it froze and bsod my system because of nvlddmkm.sys issue. If you have similar issue as me like freezing etc then check the event viewer application to find what’s causing it.
+
+Potential solution:
+For me downgrading it to windows 10 worked.
+Another thing i did after downgrading to windows 10 is that i installed the gpu driver from my laptop’s website instead of nvidia app. Although the driver is old it still performs the same as the new one. (atleast in minecraft lol)
+
+But i havent tried installing that old website’s driver on windows 11 so it might work on windows 11 aswell but win 11 rolls out driver updates n all when updating it to new windows version so im sticking to windows 10 so that its assured that it wont do some bullshit update yo ruin my laptop.
+
+Sry for bad english but hope it helps you
+The laptop i have : dell g7 7588",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/Dell/comments/1ooznr3/found_potential_solution_for_nvlddmkmsys_crash/
+B19-060,google,Google Play Latest Update Crashing,"Ive already cleared data, restarted, force stop, update attempt, and please dont suggest factory reset because I already do that like 4x a year and I promise it won't fix it",,title_and_body,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/google/comments/1pnwlyw/google_play_latest_update_crashing/
+B19-061,chrome,"The ""listen to this page"" option stopped working.","I use Chrome because it has a ""listen to this page"" option, but after these updates it's not working. How do I fix this?","[1:reply] Thank you for your submission to /r/Chrome! We hope you'll find the help you need. Once you've found a solution to your issue, please comment ""**!solved**"" under this comment to mark the post as solved. Thanks!
+
+
+*I am a bot, and this action was performed automatically. Please […",title_body_comments,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/chrome/comments/1w0pg37/the_listen_to_this_page_option_stopped_working/
+B19-062,AndroidQuestions,Playstore Bug on S26,"Once i click on check on update button on playstore am not able to go back to previous page.
+
+At first i thought my playstore version is out of date and updated the playstore, 
+
+Then i thought it was my phone then i updated the phone and its still the same 
+
+Does any of u guys face the same issue ?","[1:reply] I haven't heard of that issue before.  It should be safe to clear the data of the Play Store and see if that fixes its behavior.  In the homescreen app drawer, long press on the Play Store icon and press the ℹ️.  Then go to Storage and tap Clear data.
+[2:reply] Ive cleared data back 1 week prior as well as everything mentioned.Nothing solved the problem. I shut down the phone convinced i would have to factory reset.  I had regular backups   i had also cleared the cache.  
+After a period of being off and with a fresh full charge I inten…",title_body_comments,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/AndroidQuestions/comments/1uxehqq/playstore_bug_on_s26/
+B19-063,openclaw,OpenClaw 2026.5.22: Missing OpenAI API key error after long Feishu sessions / Codex compaction fallback?,"Hi everyone,
+
+I recently updated OpenClaw to the May 22 version, and since then I’ve started seeing a recurring issue in long Feishu direct sessions.
+
+The error shown in Feishu is:
+
+&gt;
+
+At first, this looks like a missing OpenAI API key problem. But in my setup, I am using Codex OAuth, not a direct OpenAI API key.
+
+My current setup:
+
+* OpenClaw version: 2026.5.22
+* Channel: Feishu direct session
+* Runtime path: Codex OAuth
+* Models: `openai/gpt-5.5` / `openai/gpt-5.4`
+* Expected runtime: [`agentRuntime.id`](http://agentRuntime.id) `= codex`
+* No direct `OPENAI_API_KEY` configured
+* `openclaw models status` shows OpenAI via Codex is available
+
+The issue seems to happen only after a long-running session, especially after:
+
+* long conversations
+* long tasks
+* lots of tool output
+* very high context usage
+
+In one case, the old session had around 272,000 context tokens. After that, OpenClaw appeared to trigger Codex app-server compaction. The logs then showed messages similar to:
+
+* `compaction timeout`
+* `thread not found`
+* `no codex app-server thread binding`
+
+After that, the session started returning the “Missing API key” error.
+
+What’s interesting is that `/new` fixes the issue immediately. A new session works normally, which suggests that Codex OAuth itself is still valid. The problem seems to be tied to the old session after compaction / thread binding failure.
+
+My current guess is that the failure chain may look like this:
+
+large context / budget pressure  
+→ Codex app-server compaction triggered  
+→ native Codex compaction timeout  
+→ stale or missing Codex thread binding  
+→ fallback to context engine  
+→ Codex OAuth runtime mapping gets lost  
+→ request is routed to the direct OpenAI provider  
+→ missing `OPENAI_API_KEY` error is shown
+
+So the issue seems less like a user-side API key problem, and more like a runtime routing / fallback issue after long-session compaction.
+
+Has anyone else run into this after updating to the May 22 version?
+
+A few questions:
+
+1. Is this a known issue with long sessions after Codex compaction?
+2. Is there a recommended workaround other than using `/new`?
+3. Is there a way to safely rebind or recover the old session without clearing all session history?
+4. Should the fallback path preserve [`agentRuntime.id`](http://agentRuntime.id) `= codex` after native Codex compaction fails?
+5. Are there config settings for compaction timeout, context budget, or Codex app-server binding that I should check?
+
+Any suggestions would be appreciated. I can provide more logs or config details if helpful.","[1:reply] Welcome to r/openclaw
+Before posting:
+• Check the FAQ: https://docs.openclaw.ai/help/faq#faq
+• Use the right flair
+• Keep posts respectful and on-topic
+Need help fast? Discord: https://discord.com/invite/clawd
+
+
+*I am a bot, and this action was performed automatically. Please [c…
+[2:reply] disregardingb the specific issue, you should never press the context window. Find a way to manage this, like a context transfer to a new session",title_body_comments,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/openclaw/comments/1to6ve1/openclaw_2026522_missing_openai_api_key_error/
+B19-064,chrome,"Google Chrome keeps crashing every like 30ish minutes (maybe more, maybe less). And I have no clue how to fix it [Windows 11] [Latest Chrome Version] [Extensions are installed]","Like the title says, my google chrome is crashing every like 30ish minutes. It kills all of my extentions, and any new tabs i open (while in this crashed state) will say that ""aw snap google chrome crashed"".
+
+However! Weirdly enough, the tabs that were already open still work, and i can use them as normal.
+
+Take Youtube for example. Even after Chrome crashes, I can still go to any video i desire, go back to the youtube homepage, or anything (including comment and like videos). However, if i reload the tab of youtube (in this crashed state), it wont load youtube anymore.
+
+If any of you beautiful people can help me figure out how i can find/fix this issue that would be amazing!
+
+Below me is information that might help with figuring out this issue that im having. Thank you in advance, and thank you for helping!
+
+\------
+
+**Update \[Jan 19, 2026 @ 20:39 -- 4hrs after posting\]**
+
+Even after disabling all extentions, google chrome is still crashing, at this point i think a program on my computer is causing the crashing itself. Which is weird, because its only Chrome that crashes. I will try to uninstall and reinstall Google chrome to see if that fixes the issue. if its just the case that something got corrupted inside of google chrome.
+
+\------
+
+**Important (???) Information:**
+
+* **Windows Ver:** 11 Pro
+* **Chrome Ver**: 144.0.7559.60 (Official Build) (64-bit)
+* **Extentions Installed (*****and specifically enabled*****):**
+   * Adblock for Youtube
+   * Allow Copy +
+   * Control Panel For Twitter
+   * Copy History +
+   * CRX Extractor/Downloader
+   * Custom CSS Per Domain
+   * Dark Mode - Night Eye
+   * DeArrow
+   * Enhanser for Youtube
+   * Free Download Manager
+   * Nord Pass
+   * Return Youtube Dislike Button
+   * Save Image as Type
+   * Session Buddy
+   * Smart Mute
+   * SponsorBlock for Youtube
+   * Tab Suspender
+   * uBlockOrigin Lite
+   * Youtube Auto Liker
+   * Youtube No Buffer
+   * Zoom for Google Chrome
+
+*I'm adding the extentions i have installed and enabled incase it's something i have downloaded thats causing the issues. As thats what i saw on google when i tried fixing this myself prior to making this post.*
+
+\-----",,title_and_body,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/chrome/comments/1qhhf4j/google_chrome_keeps_crashing_every_like_30ish/
+B19-065,homeassistant,Zigbee2MQTT 2.x: Home Assistant Discovery Not Working – Solution,"**Platform:** Zigbee2MQTT 2.x, Home Assistant OS (HAOS), Mosquitto Broker  
+**Symptom:** Zigbee devices do not appear in Home Assistant, even though Zigbee2MQTT is running and connected to the MQTT broker.
+
+---
+
+## Setup Used
+
+This solution was developed and tested with the following distributed infrastructure:
+
+- **Home Assistant OS** runs as a **Proxmox VM**, including the **Mosquitto Broker Add-on** as the MQTT broker.
+- **Zigbee2MQTT 2.x** runs on a **separate Raspberry Pi** (hostname: `zigbeehub`), using a Sonoff Zigbee 3.0 USB Dongle Plus as the coordinator via USB.
+- Z2M connects over the network to the Mosquitto broker on the HA VM.
+- Home Assistant receives Zigbee device data exclusively via MQTT Discovery – there is no direct connection between HA and the Raspberry Pi.
+
+This architecture is a common and recommended approach, as the Zigbee coordinator can be placed physically closer to the Zigbee devices while HA runs centrally on a server.
+
+```
+Raspberry Pi (zigbeehub)
+  └── Zigbee2MQTT 2.x + Sonoff USB Dongle
+        ↕ MQTT over network (Port 1883)
+Proxmox VM
+  └── Home Assistant OS
+        └── Mosquitto Broker Add-on
+              ↕ MQTT Discovery (homeassistant/#)
+              └── Home Assistant Entities
+```
+
+---
+
+## Problem
+
+After upgrading to **Zigbee2MQTT 2.x** (tested with 2.9.2), automatic Home Assistant Discovery no longer works, even though the `configuration.yaml` contains:
+
+```yaml
+homeassistant:
+  discovery: true
+```
+
+In older versions, `discovery: true` was sufficient. In Z2M 2.x a **breaking change** was introduced: the integration now needs to be **explicitly enabled**.
+
+---
+
+## Root Cause
+
+In Z2M 2.x, a new parameter `enabled` was added to the `homeassistant` block, which defaults to `false`. Without `enabled: true`, the Discovery functionality **will not start**, even if `discovery: true` is set.
+
+This can be confirmed in the debug logs:
+
+```
+""homeassistant"":{""discovery"":true,...,""enabled"":false,...}
+```
+
+Additionally, in this specific case there was a **typo** in the `discovery_topic`:
+
+```yaml
+discovery_topic: homeassist   # ← wrong, ""ant"" was missing
+```
+
+This also prevented correct communication between Z2M and HA.
+
+---
+
+## Diagnosis
+
+### 1. Check Z2M logs for MQTT connection
+
+```bash
+sudo journalctl -u zigbee2mqtt -f --no-pager
+```
+
+Expected output when the connection is working:
+```
+Connected to MQTT server
+MQTT publish: topic 'zigbee2mqtt/bridge/state', payload '{""state"":""online""}'
+```
+
+### 2. Check whether Discovery messages are being sent
+
+```bash
+mosquitto_sub -h &lt;HA-IP&gt; -u &lt;mqtt_user&gt; -P &lt;password&gt; -t 'homeassistant/#' -v
+```
+
+If only `homeassistant/status online` appears and **no** other topics, Discovery is not active.
+
+### 3. Enable debug logging and check the config
+
+```bash
+# Temporarily set in configuration.yaml:
+advanced:
+  log_level: debug
+```
+
+Look for the following in the logs:
+```
+""homeassistant"":{""enabled"":false,...}
+```
+
+→ If `enabled: false`, that is the root cause.
+
+---
+
+## Solution
+
+### Full `homeassistant` configuration for Z2M 2.x:
+
+```yaml
+homeassistant:
+  enabled: true          # ← NEW in 2.x, must be set explicitly!
+  discovery: true
+  discovery_topic: homeassistant
+  status_topic: homeassistant/status
+  legacy_entity_attributes: false
+  legacy_triggers: false
+```
+
+### Complete working `configuration.yaml` (example):
+
+```yaml
+version: 5
+mqtt:
+  base_topic: zigbee2mqtt
+  server: mqtt://192.168.x.x:1883
+  user: mqtt_user
+  password: your_password
+  version: 4
+homeassistant:
+  enabled: true
+  discovery: true
+  discovery_topic: homeassistant
+  status_topic: homeassistant/status
+  legacy_entity_attributes: false
+  legacy_triggers: false
+serial:
+  port: /dev/ttyUSB0
+  adapter: zstack
+  baudrate: 115200
+  rtscts: false
+advanced:
+  log_level: info
+  log_output:
+    - console
+frontend:
+  enabled: true
+  port: 8080
+```
+
+### Restart Z2M:
+
+```bash
+sudo systemctl restart zigbee2mqtt
+sudo journalctl -u zigbee2mqtt -f --no-pager
+```
+
+On successful configuration, the following will appear in the logs:
+
+```
+Discovering entities to Home Assistant in 5s
+MQTT publish: topic 'homeassistant/switch/0x.../switch/config'
+MQTT publish: topic 'homeassistant/sensor/0x.../linkquality/config'
+```
+
+---
+
+## Home Assistant MQTT Integration
+
+For HA to process the Discovery messages, the **Birth Message** must be correctly configured in the MQTT integration:
+
+**Settings → Devices &amp; Services → MQTT → Gear icon → MQTT Options:**
+
+| Setting | Value |
+|---|---|
+| Enable discovery | ✅ On |
+| Discovery prefix | `homeassistant` |
+| Enable birth message | ✅ On |
+| Birth message topic | `homeassistant/status` |
+| Birth message payload | `online` |
+
+When HA starts, it automatically publishes `homeassistant/status = online`, which triggers Z2M to publish all Discovery messages.
+
+---
+
+## Checklist
+
+- [ ] `homeassistant.enabled: true` set in Z2M `configuration.yaml`
+- [ ] `homeassistant.discovery_topic: homeassistant` spelled correctly (no typos!)
+- [ ] `homeassistant.status_topic: homeassistant/status` set
+- [ ] Mosquitto Birth Message configured with topic `homeassistant/status` and payload `online`
+- [ ] Z2M restarted after configuration changes
+- [ ] Devices visible in HA under Settings → Devices &amp; Services → MQTT
+
+---
+
+## Affected Versions
+
+| Software | Version |
+|---|---|
+| Zigbee2MQTT | 2.x (breaking change vs. 1.x) |
+| Home Assistant OS | All current versions |
+| Mosquitto Broker | As HAOS Add-on |
+
+---
+
+*Created April 2026 · Based on hands-on troubleshooting · Zigbee2MQTT 2.9.2 + HAOS*",,title_and_body,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/homeassistant/comments/1so7xen/zigbee2mqtt_2x_home_assistant_discovery_not/
+B19-066,angular,Going Zoneless destroyed our CLS  (And how it was fixed),"**The Migration**
+
+We recently upgraded from Angular 20 to 21 and went fully zoneless. The app was already using signals everywhere, skeleton screens matching the final layouts and it was live with a CLS of basically 0. We expected a performance win.
+
+Instead, our CLS scores exploded. Static pages went from 0 to 0.5 and the pages with heavy signal use got a CLS of 1. Same code, same CSS, same everything, just zoneless.
+
+  
+**The Hunt**
+
+First, the CSS tweaks gave no improvement (as expected, as the styles are the same with the version that gets a perfect score).
+
+Then we looked at the router. Our pages have a shell: navbar, footer and router-outlet in the middle. The outlet starts empty, then fills based on the route. This worked fine for years, but we realized it doesn't work anymore with zoneless. The time spent when the router gets filled with content is long enough to get noticed by Lighthouse as CLS  (sometimes visible with the eye too).   
+The fix here was to delay the footer and only show it after the main content is loaded. That gave us the first win and helped to bring the CLS down on simple pages.  
+So the **signal-less pages responded to this fix, but the ""signal"" pages didn't**.
+
+  
+**The Detection Trick**
+
+Part of the story is how we detected the high CLS and managed to debug locally.
+
+Localhost development basically lied to us. When using `ng serve`  Lighthouse showed perfect scores. But the real metrics from Google Search Console were way worse.
+
+The only way to see the real problem locally: **production build + static server + realistic navigation flow**. That means, we had to build the app (`ng build`), serve it with a local static server, create a **separate static HTML page** that links to our target route, and click that link. Just a cold click from a static page, exactly like real users experience.
+
+Only by doing this we could see the real problem.
+
+**The ""Aha"" Moment**
+
+Our templates looked like this:
+
+    d = data();
+    
+    @if (d) { &lt;top-part /&gt; } @else { &lt;top-part-skeleton /&gt; }
+    
+    @if (d) { &lt;middle-part /&gt; } @else { &lt;middle-part-skeleton /&gt; }
+    
+
+  
+Our skeletons and real content had identical dimensions. Which had always been preventing CLS. But not anymore. Apparently, **zoneless operation is so slow that the browser now has enough time to see the DOM nodes being destroyed and recreated**. And not synchronized anymore, so the browser may see any possible combination of states (first block showing the real content, second showing the skeleton etc).
+
+  
+**The Fix**
+
+We needed atomic renders, that means, big ""if-else"" statements that included all or nothing. Either the entire page is skeleton, or the entire page is content. No partial states.  
+Now the scheduler treats it as one unit. One paint for skeleton, one paint for content. CLS dropped back to near zero.
+
+**The Lesson**
+
+Zoneless changes the contract. Zone.js batching was hiding a lot of template sins. With the scheduler in charge, template granularity becomes paint granularity. And never trust localhost metrics unless you're serving a production build and navigating like a real user.",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/angular/comments/1r3msuj/going_zoneless_destroyed_our_cls_and_how_it_was/
+B19-067,homeassistant,Tuya Local still broken in newest update?,I’m still running 2026.6.4. The last few updates seem to break my Tuya Local setup. So I’m trying to find out if this is still the case with the latest release before I bother with updating. Many thanks in advance!,"[1:reply] Last I checked 2026.6.4 is the current release of HA.  Are you  talking about the latest release of tuyalocal?  Have you tried localtuya yet?
+[2:reply] Updating to what?
+[3:reply] I'm running 2026.6.4 and have no problems with Tuya Local. Do you have any logs/error messages?
+[4:reply] Stuck on 2026.6.4 too, tuyalocal's been a mess for me since.
+[5:OP] Sorry. I made a typo. I’m on 2026.5.4.",title_body_comments,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/homeassistant/comments/1ufgg0s/tuya_local_still_broken_in_newest_update/
+B19-068,applehelp,Safari keeps crashing despite new updates,"Safari keeps crashing at random times despite new updates, first the ios 18 system (or ios 26 system) would detect memory pressure and then would issue a low memory warning to safari but safari usually fail to comply to the warning and because of that the same system that issued the warning would deploy the ios 18 jetsam (or ios 26 jetsam), then this jetsam would close any background apps during “fore-crashes” immediately before the “main crash”, then the user is returned to the home screen during the “aftercrash”, but in ios 18 both the fore-crashes and the main crash is caused by the ios 18 jetsam and thus the crash report that is generated during the aftercrash is known as “JetsamEvent(YearMonthDayHouMinuteSecond)” but in ios 26 only the fore-crashes are caused by the ios 26 jetsam and thus the main crash is caused by three main factors, bookmark corruption, watchdog action forced by a freeze that is caused by opening the bookmarks tab while there are too many bookmarks, or being afk in safari for too long (provided that both the auto-lock and low power mode is not enabled), but from ios 26.0 to ios 26.4 the “mobilesafari(dateandtimestamp)” crash report is only generated after the watchdog action, with the crash report generated after a crash caused by the rest of the three main crash causes being referred to as an “ExcUserFault” but all post-ios 26.4 safari crash reports have the name of “mobilesafari(dateandtimestamp)” and are less frequent, I hope that the crash is fixed",[1:reply] What is your question?,title_body_comments,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/applehelp/comments/1v5p0yq/safari_keeps_crashing_despite_new_updates/
+B19-069,Fedora,fedora update,guys did the latest fedora 44 update the bugs and general fixes one cause your kernel to delete and also grub,"[1:reply] What?
+[2:reply] Sounds aweful. Oh well, glad I'm using Silverblue 🥱
+[3:reply] Eh? Never heard of this problem and never had it. Been running Fedora for years now on several computers.
+[4:OP] i had to reinstall
+[5:reply] I've never had a Fedora update delete my kernel and grub and I have not heard of this happening as of now. Either you are not describing the issue correctly or this was not caused by a Fedora update.",title_body_comments,yes,yes,other,medium,The post appears to discuss software without a clear troubleshooting or chiefly critical purpose.,,,,,,,https://reddit.com/r/Fedora/comments/1w0n4ik/fedora_update/
+B19-070,applehelp,How to make a complain or request to Apple to fix something?,"I don’t really know where to post this but Apple Music on macOS 26.2 was perfect and I upgraded today to 26.3 and everything seems the same and maybe even snappier but when having the mini player I noticed that hovering the cursor over the close, minimize and adjust controls they don’t appear as they used to do on the 26.2 update, tho I know they are still there since you can click on them and will do the function but they don’t appear.",,title_and_body,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/applehelp/comments/1r62ytk/how_to_make_a_complain_or_request_to_apple_to_fix/
+B19-071,Fedora,Just updated fedora but after restart it got stuck on lenevo logo can someone guide me how can I fix this issue?,,"[1:reply] 1) Define: Updated  
+2) Did you upgrade or just did a dnf update?  
+3) What Fedora version?   
+4) was it dual boot?   
+5) if you press ESC in the screen with the lenovo logo do you have any message?
+[2:OP] I just updated it from software store
+3.43
+4.Yes
+5.Nop
+
+
+I am able to run windows after going in novo button menu then boot menu and selecting windows boot manager from there 
+
+But if I select fedora from there it doesn't work and it gets stuck at same lenevo logo screen",title_plus_comments,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/Fedora/comments/1sea319/just_updated_fedora_but_after_restart_it_got/
+B19-072,applehelp,advice needed with iphone 16 pro issue,"i got my current iphone (16 pro, 1 terabyte) last year in january. i don’t have apple care and my one year warranty ended on january 14th 2026. phone has had absolutely zero issues, has good battery health, doesn’t overheat etc. woke up january 17th and my phone updated overnight, everything working just fine- was getting used to the new update. plugged my phone in at some point in the day and set it down on my bed and came back to it after an hour or so to see that it was displaying a temperature too hot screen which was weird because my phone wasn’t hot at all, i hadn’t even been on it. after some googling i read that sometimes that can happen after updates and that it resolves itself. okay great- the screen went away and my phone was back to normal- then it came back. this happened back and forth for about two days. once that stopped happening my phone began to shut itself off and then power itself back on every 30-90 seconds. incredibly annoying. the temperature screen hasn’t happened since the beginning but the powering on and off has been constant. and now occasionally the bottom left corner of my screen will change colors (bright pink/blue/purple hues) phone still works just fine it’s just that this is happening. went to the apple store, they quoted me about $680 out of warranty to get it fixed. the diagnostic showed that nothing was really showing up? sensors, compass, sim, etc. which doesn’t make sense because like i said my phone is working just fine other than this issue. also incredibly frustrating as this started happening just 3 days after my warranty ended and $600 to get my phone fixed for an issue that started completely out of the blue/not my fault is insane. they said it would be a logic board replacement, meaning i would lose any locally stored data that i can’t save to the cloud conveniently. i’ve been going on with using my phone despite it being annoying as hell with it shutting on and off. 
+
+panic logs show no indication of liquid deterioration or damage from a drop- yet apple seems to act like that means nothing when i’m at an appointment with one of their “genius’s”. this phone is barely a year old, i take good care of it and i have no idea why this is happening. i’m scared to get it fixed and lose things as i don’t know what all would be gone, and i also just want to know why this started in the first place. any advice or input is appreciated!!",,title_and_body,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/applehelp/comments/1skhfo3/advice_needed_with_iphone_16_pro_issue/
+B19-073,Ubuntu,No Boot After upgrade with linux 7.0.0-15,"Hi all, this Is my First time to post a question. I have a strange problema After upgrade from 25.10 to 26.04  
+If i start with the Linux image 7.0.0-15 the computer stop tò start but if i take Linux 6.17.0-23 the syatem start normally.  
+Before to upgrade i have a Timeshift image for backup and my filesystem Is ext4  
+How i can fix tò boot with the new Linux image?  
+The error can see in the images
+
+[No boot with linux 7.0.0-15](https://preview.redd.it/tkx5apqgg41h1.jpg?width=1280&amp;format=pjpg&amp;auto=webp&amp;s=315d6864ecdd1d1f61bf6b37d04299b44fb89c32)
+
+[Boot ok with Linux 6.17.0-23](https://preview.redd.it/unxpshnlg41h1.jpg?width=1280&amp;format=pjpg&amp;auto=webp&amp;s=9339404ea6c27172050362222c6c5636a21a83cc)
+
+Thanks for the help.",,title_and_body,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/Ubuntu/comments/1td1rrg/no_boot_after_upgrade_with_linux_70015/
+B19-074,applehelp,Siri is not working when my screen is locked.,"I have an iPhone 14 pro.   
+Since the latest update (ios 26.3.1) I have not been able to use Siri when the screen is locked.   
+It works when the screen is unlocked, and it works when I hold the side key. 
+
+I have gone to setting &gt; siri &gt; allow siri when locked   
+I have gone to face id &amp; passcode &gt; siri   
+I have turned off siri and turned siri back on, even redoing the voice prompts.   
+I have done these each and turned my phone off and on again.  
+I have also done these on different days hoping that one day it would magically work. 
+
+I don't know what to do. 
+
+Please help me.",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/applehelp/comments/1sv36pd/siri_is_not_working_when_my_screen_is_locked/
+B19-075,chrome,Honor Magic V5 and news.google.com bug,"Hi guys. I switched from my Z Fold 7 a while ago to my Honor Magic V5 global version and I've noticed a very strange software bug. I usually visit news.google.com to get my news info and on my Honor device, as I scroll down the website, it tends to glitch and stop loading the additional content. The browser acts as if there is no additional content available. I have to scroll up a bit and then back down in order for it to start loading the content. I tried Samsung Internet browser and same glitch happens. If I force stop Chrome and clear cache, it seems to work fine for some time, but it always goes back to glitching and only on news.google.com. I tested the site on my Z Fold 7 and everything loads perfectly so it's only happening on my Honor Magic V5. This is a very strange bug! I'm hoping the new Magic OS 10 update will somehow fix this. It's a minor bug but it's still getting on my nerves. Anyone with any idea what on earth is going on?",,title_and_body,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/chrome/comments/1oehunp/honor_magic_v5_and_newsgooglecom_bug/
+B19-076,vscode,Oracle SQL Developer Broke After Update,,,title_only,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/vscode/comments/1lurbal/oracle_sql_developer_broke_after_update/
+B19-077,firefox,My firefox freeze completely and stay that way until it close itself,"I’ve been using Firefox for years now, but today it doesn’t work at all. And by “freeze,” I mean everything is frozen: the webpage, the tabs, my toolbar, even the button to access settings.
+
+I’ve tried closing it, restarting the computer, deleting cache and cookies, starting it in debug mode, turning off hardware acceleration, using repair mode, updated my GC chipset and even completely uninstalling it and doing a fresh install. Nothing worked.
+
+But Microsoft Edge is working perfectly fine... I'm not even sure it is Firefox fault. I have a second computer who use Firefox and it is working perfectly fine.
+
+So I don’t know what to do now. Have you guys ever had the same issue and found a solution?
+
+Thanks",,title_and_body,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/firefox/comments/1tinn60/my_firefox_freeze_completely_and_stay_that_way/
+B19-078,Fedora,Plasma 6.7 broken opacity and blur,"Since updating to Plasma 6.7, window rules set to reduce opacity often glitch, sometimes flashing fully opaque and then back to transparent. KWin glass effects and KWin better blur DX don't even work. I am on Fedora 44 but didn't experience this until Plasma 6.7. Any help, please?","[1:reply] It sounds like you're looking for help. Please note that r/Fedora is not an official support channel for the Fedora Project.
+
+For best results, be sure to include all relevant details in your post, such as your Fedora edition, version, and hardware specs. You can edit your origi…
+[2:reply] [https://bodhi.fedoraproject.org/updates/FEDORA-2026-5d22b951cf](https://bodhi.fedoraproject.org/updates/FEDORA-2026-5d22b951cf)",title_body_comments,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/Fedora/comments/1ugwljh/plasma_67_broken_opacity_and_blur/
+B19-079,applehelp,[GUIDE] Fixed iPhone Error 100 / 06A6 install_splat without losing data,"My iPhone 12 was stuck in Recovery Mode after an update failed. Finder, Apple Configurator Revive, 3uTools ""Keep + Fix Error 1110"", and attempts from both Recovery Mode and DFU all failed.
+
+The important part of the `idevicerestore` log was:
+
+    Transfer: Receiving 2348810240 bytes, writing 6018826240 bytes
+    Transfer: Failed preallocation of 6018826240 bytes for /mnt9/cryptex1/current/os.dmg
+    Transfer: Failed preallocation due to space
+    CHECKPOINT FAILURE:(FAILURE:100)
+    [0x06A6] install_splat
+
+So Error 100 was actually a **low-storage failure while creating the Cryptex SystemOS image**.
+
+What finally worked for me was increasing `MinimumSystemPartition` in the Upgrade BuildIdentity. In my case, this caused the restore to get past the low-storage/Cryptex failure that had consistently stopped at `install_splat`.
+
+I extracted the IPSW: `Example paths below, replace them with your actual IPSW and destination paths!`
+
+    mkdir -p ""/Volumes/ExternalSSD/ios-mod""
+    cd ""/Volumes/ExternalSSD/ios-mod""
+    
+    unzip -q ""/Volumes/ExternalSSD/iPhone_Restore.ipsw""
+    
+    chmod u+w BuildManifest.plist
+    cp BuildManifest.plist BuildManifest.original.plist
+
+First find the correct **Upgrade** identity:
+
+    python3 - &lt;&lt;'PY'
+    import plistlib
+    
+    x = plistlib.load(open(""BuildManifest.plist"", ""rb""))
+    
+    for i in x[""BuildIdentities""]:
+        q = i.get(""Info"", {})
+        if q.get(""DeviceClass"") == ""d53gap"":
+            print(
+                q.get(""Variant""),
+                q.get(""RestoreBehavior""),
+                q.get(""MinimumSystemPartition"")
+            )
+    PY
+
+For my iPhone 12 + beta IPSW it showed:
+
+    Developer Erase Install (IPSW) Erase 8691
+    Developer Upgrade Install (IPSW) Update 8691
+
+**Note:** My beta IPSW used `Developer Upgrade Install (IPSW)`. A stable IPSW may use `Customer Upgrade Install (IPSW)`, so check your BuildManifest output and use the matching Upgrade identity.
+
+I changed **only the Upgrade identity** from `8691` to `10078`:
+
+    python3 - &lt;&lt;'PY'
+    import plistlib
+    from pathlib import Path
+    
+    p = Path(""BuildManifest.plist"")
+    data = plistlib.loads(p.read_bytes())
+    
+    for ident in data[""BuildIdentities""]:
+        info = ident.get(""Info"", {})
+    
+        if (
+            info.get(""DeviceClass"") == ""d53gap""
+            and info.get(""Variant"") == ""Developer Upgrade Install (IPSW)""
+            and info.get(""RestoreBehavior"") == ""Update""
+        ):
+            print(""OLD:"", info[""MinimumSystemPartition""])
+            info[""MinimumSystemPartition""] = 10078
+            print(""NEW:"", info[""MinimumSystemPartition""])
+    
+    p.write_bytes(
+        plistlib.dumps(data, fmt=plistlib.FMT_XML, sort_keys=False)
+    )
+    PY
+
+Then I ran `idevicerestore` against the extracted IPSW:
+
+This assumes you already have a working build/install of `idevicerestore`.
+
+    idevicerestore \
+      --variant ""Developer Upgrade Install (IPSW)"" \
+      --logfile ""$HOME/Desktop/iphone-spacefix.log"" \
+      ""/Volumes/ExternalSSD/ios-mod""
+
+**Do NOT use** `-e` **or** `--erase` **if you are trying to preserve your data.**
+
+The key difference was that this time it successfully passed:
+
+    Checkpoint completed id: 0x6A6 (install_splat) result=0
+
+Then eventually:
+
+    Status: Restore Finished
+    DONE
+    100.0%
+
+After the restore finished, the iPhone booted into Data Recovery Mode. I let it complete the recovery process without disconnecting the phone.
+
+So in my case, this method got past the Error 100 / 06A6 Cryptex failure while preserving user data.
+
+**Important:** this is experimental and the exact `MinimumSystemPartition` value will vary by IPSW/device. Back up the original `BuildManifest.plist` and make absolutely sure you modify only the `Update/Upgrade` identity, not the Erase identity.",[1:reply] So what do you need help with exactly?,title_body_comments,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/applehelp/comments/1wsvwrm/guide_fixed_iphone_error_100_06a6_install_splat/
+B19-080,homeassistant,matter update failed :(,"UPDATE: I ended up removing the install, and rebooting, upon reboot the new version was still there but without my devices, since I only had 2 in there for testing purposes I just reset them and added them back in.  oh well. hopefully no one else has this issue.
+
+
+
+
+
+
+
+I kicked off the upgrade about 3 hours ago, still not up (running on an intel i9 9900), logs show this,  hoping it stops trying to start so I can restore a backup.
+
+    -----------------------------------------------------------
+     Please, share the above information when looking for help
+     or support in, e.g., GitHub, forums or the Discord chat.
+    -----------------------------------------------------------
+    s6-rc: info: service banner successfully started
+    s6-rc: info: service matter-server: starting
+    s6-rc: info: service matter-server successfully started
+    s6-rc: info: service legacy-services: starting
+    [10:42:39] INFO: Starting Matter Server...
+    s6-rc: info: service legacy-services successfully started
+    [10:42:39] INFO: Using 'eno1' as primary network interface.
+    [10:42:39] INFO: Successfully send discovery information to Home Assistant.
+    2026-06-23 10:42:42.684 INFO   MatterServer         Command line: --storage-path /data --port 5580 --log-level info --primary-interface eno1 --fabricid 2 --vendorid 4939 --listen-address 172.30.32.1 --listen-address 127.0.0.1
+    2026-06-23 10:42:42.687 INFO   MatterServer         Using storage drivers: kv=wal, blob=dir
+    2026-06-23 10:42:42.695 INFO   LegacyDataLoader     Loaded legacy chip.json with 1 fabric(s)
+    2026-06-23 10:42:42.697 INFO   LegacyDataLoader     Extracted fabric config: fabricId=2, vendorId=0x134b, nodeId=112233, serverId=server
+    2026-06-23 10:42:42.741 INFO   LegacyDataLoader     Loaded legacy server data from 10528330985696168928.json: 3 node(s), last_node_id=17
+    2026-06-23 10:42:42.741 INFO   LegacyDataLoader     Found most common fabric label ""Home"" (appeared in 2 node(s))
+    2026-06-23 10:42:42.741 INFO   MatterServer         Found legacy data: 1 fabric, 3 node(s), CA credentials
+    2026-06-23 10:42:42.742 INFO   ConfigStorage        Storage location: /data (Directory)
+    2026-06-23 10:42:42.803 INFO   ConfigStorage        Set config key fabricLabel to Home
+    2026-06-23 10:42:42.812 INFO   ConfigStorage        Set config key nextNodeId to 27
+    2026-06-23 10:42:42.818 INFO   ConfigStorage        Set config key wifiSsid to undefined
+    2026-06-23 10:42:42.823 INFO   ConfigStorage        Set config key wifiCredentials to &lt;redacted&gt;
+    2026-06-23 10:42:42.828 INFO   ConfigStorage        Set config key threadDataset to &lt;redacted&gt;
+    2026-06-23 10:42:42.835 INFO   ServerIdResolver     Found existing storage for server ID: server-2-134b
+    2026-06-23 10:42:42.847 INFO   CertificateAuthority Loaded stored credentials with ID 1 and ICAC with ID 2
+    2026-06-23 10:42:42.867 INFO   LegacyDataInjector   Fabric root public key unchanged. Skipping rewrite.
+    2026-06-23 10:42:42.867 INFO   LegacyDataInjector   FabricManager storage already has fabric index. Skipping update.
+    2026-06-23 10:42:42.868 INFO   LegacyDataInjector   Injecting node 1 into storage
+    2026-06-23 10:42:42.868 INFO   LegacyDataInjector   Node 1 already exists. Skipping injection.
+    2026-06-23 10:42:42.868 INFO   LegacyDataInjector   Injecting node 10 into storage
+    2026-06-23 10:42:42.868 INFO   LegacyDataInjector   Node 10 already exists. Skipping injection.
+    2026-06-23 10:42:42.868 INFO   LegacyDataInjector   Injecting node 17 into storage
+    2026-06-23 10:42:42.868 INFO   LegacyDataInjector   Node 17 already exists. Skipping injection.
+    2026-06-23 10:42:42.878 INFO   DclCertifi~teService Initialize CertificateService prod: https://on.dcl.csa-iot.org test: https://on.test-net.dcl.csa-iot.org
+    2026-06-23 10:42:42.880 INFO   DclVendorInfoService Initialize VendorInfoService source: https://on.dcl.csa-iot.org interval: 24h
+    2026-06-23 10:42:42.881 INFO   Controller~ndHandler BLE is disabled
+    2026-06-23 10:42:42.883 NOTICE WebSocketC~erHandler Starting server: matter-server/1.1.1 (matter.js/0.17.3)
+    2026-06-23 10:42:42.923 INFO   DclVendorInfoService Loaded 443 vendors from storage
+    2026-06-23 10:42:42.924 INFO   DclVendorInfoService seed: skipping vendors — storage has 443 entries &gt;= seed expectedCount 441
+    2026-06-23 10:42:42.924 INFO   DclVendorInfoService Fetching vendor information from DCL
+    2026-06-23 10:42:42.959 INFO   DclCertifi~teService Loaded 177 certificates from storage
+    2026-06-23 10:42:42.993 INFO   DclCertifi~teService seed: consumed 0 PAA certs from snapshot 2026-06-22T03:15:39.327Z
+    2026-06-23 10:42:42.995 INFO   DclCertifi~teService seed: consumed 0 CDSigner certs from snapshot 2026-06-22T03:15:39.327Z
+    2026-06-23 10:42:43.012 INFO   ServerNodeStore      Opened server-2-134b storage location: /data/server-2-134b driver: wal
+    2026-06-23 10:42:43.028 INFO   SessionManager       restoring resumption record for node u/1:11 and peer node u/1:11 for fabric id 0x02 (0x134b, ""Home"")
+    2026-06-23 10:42:43.139 INFO   BaseEventStore       Loaded volatile event store with next number 4001
+    2026-06-23 10:42:43.147 INFO   Endpoint             server-2-134b ready endpoint#: (unassigned) type: RootNode (0x16, rev 4) behaviors: 💤parts ✓index ✓accessControl ✓basicInformation ✓generalCommissioning ✓generalDiagnostics ✓administratorCommissioning ✓operationalCredentials ✓groupKeyManagement ✓commissioning ✓network 💤productDescription 💤subscriptions 💤sessions ✓events 💤controller ✓descriptor
+    2026-06-23 10:42:43.207 ERROR  ClientNode           [schema-implementation] Definition of NetworkCommissioning: There are multiple definitions of ""FeatureMap"" that cannot be differentiated by conformance
+      at filterWithConformance (/app/node_modules/@matter/model/src/logic/Scope.ts:427:23)
+      at Object.membersOf (/app/node_modules/@matter/model/src/logic/Scope.ts:183:16)
+      at createDerivedState (/app/node_modules/@matter/node/src/behavior/cluster/ClusterBehaviorType.ts:248:32)
+      at ClusterBehaviorType (/app/node_modules/@matter/node/src/behavior/cluster/ClusterBehaviorType.ts:112:20)
+      at generateDiscoveredType (/app/node_modules/@matter/node/src/node/client/PeerBehavior.ts:240:12)
+      at instrumentDiscoveredShape (/app/node_modules/@matter/node/src/node/client/PeerBehavior.ts:114:33)
+      at PeerBehavior (/app/node_modules/@matter/node/src/node/client/PeerBehavior.ts:48:20)
+      at ClientStructure.#synchronizeCluster (/app/node_modules/@matter/node/src/node/client/ClientStructure.ts:552:38)
+      at ClientStructure.loadCache (/app/node_modules/@matter/node/src/node/client/ClientStructure.ts:142:22)
+      at ClientNode.initialize (/app/node_modules/@matter/node/src/node/ClientNode.ts:105:31)
+    2026-06-23 10:42:43.350 INFO   Endpoint             server-2-134b.@1:a ready endpoint#: (unassigned) type: RootNode (0x16) behaviors: 💤parts ✓index ✓commissioning ✓network ✓descriptor ✓accessControl ✓basicInformation ✓otaSoftwareUpdateRequestor ✓generalCommissioning ✓networkCommissioning ✓generalDiagnostics ✓wiFiNetworkDiagnostics ✓administratorCommissioning ✓operationalCredentials ✓groupKeyManagement
+    2026-06-23 10:42:43.370 INFO   Endpoint             server-2-134b.@1:a.ep1 ready endpoint#: 1 type: OnOffPlugInUnit (0x010a, rev 1) behaviors: ✓descriptor ✓identify ✓groups ✓onOff
+    2026-06-23 10:42:43.503 INFO   Endpoint             server-2-134b.@1:11 ready endpoint#: (unassigned) type: RootNode (0x16) behaviors: 💤parts ✓index ✓commissioning ✓network ✓descriptor ✓administratorCommissioning ✓softwareDiagnostics ✓networkCommissioning ✓accessControl ✓basicInformation ✓localizationConfiguration ✓generalCommissioning ✓diagnosticLogs ✓generalDiagnostics ✓threadNetworkDiagnostics ✓operationalCredentials ✓groupKeyManagement ✓fixedLabel ✓userLabel ✓icdManagement
+    2026-06-23 10:42:43.520 INFO   Endpoint             server-2-134b.@1:11.ep1 ready endpoint#: 1 type: LightSensor (0x0106, rev 3) behaviors: ✓descriptor ✓identify ✓basicInformation ✓powerSource ✓illuminanceMeasurement
+    2026-06-23 10:42:43.529 INFO   Endpoint             server-2-134b.@1:11.ep2 ready endpoint#: 2 type: OccupancySensor (0x0107, rev 3) behaviors: ✓descriptor ✓identify ✓basicInformation ✓occupancySensing
+    2026-06-23 10:42:43.533 INFO   Endpoint             server-2-134b.@1:11.ep3 ready endpoint#: 3 type: OccupancySensor (0x0107, rev 3) behaviors: ✓descriptor ✓identify ✓basicInformation ✓occupancySensing
+    2026-06-23 10:42:43.536 INFO   Endpoint             server-2-134b.@1:11.ep4 ready endpoint#: 4 type: OccupancySensor (0x0107, rev 3) behaviors: ✓descriptor ✓identify ✓basicInformation ✓occupancySensing
+    2026-06-23 10:42:43.541 INFO   Endpoint             server-2-134b.@1:1 ready endpoint#: (unassigned) type: RootNode (0x16) behaviors: 💤parts ✓index ✓commissioning ✓network
+    2026-06-23 10:42:43.561 INFO   DclOtaUpdateService  Initialize OTAUpdateService prod: https://on.dcl.csa-iot.org test: https://on.test-net.dcl.csa-iot.org
+    2026-06-23 10:42:43.579 INFO   Endpoint             server-2-134b.ota-provider ready endpoint#: 1 type: OtaProvider (0x14, rev 1) behaviors: ✓otaSoftwareUpdateProvider ✓descriptor ✓softwareupdates
+    2026-06-23 10:42:43.580 INFO   CertificateAuthority Loaded stored credentials with ID 1 and ICAC with ID 2
+    2026-06-23 10:42:43.589 NOTICE FabricAuthority      Rotated NOC for fabric 1
+    2026-06-23 10:42:43.600 INFO   MatterController     Commissioned nodes migration completed.
+    2026-06-23 10:42:43.603 WARN   Commission~ontroller BLE is not enabled on this platform
+    2026-06-23 10:42:43.603 NOTICE Node                 server-2-134b going online
+    2026-06-23 10:42:43.606 INFO   ServerNetworkRuntime TCP transport enabled (incoming=true, outgoing=true)
+    2026-06-23 10:42:43.614 INFO   NetworkProfiles      Configure profile fast exchanges: 200 additionalMrpDelay: 0
+    2026-06-23 10:42:43.614 NOTICE Node                 server-2-134b is online
+    2026-06-23 10:42:43.615 INFO   FabricAccessControl  ACL List updated privilege: 5 authMode: 2 subjects: 112233 targets: null fabricIndex: 1 privilege: 3 authMode: 2 subjects:  targets: { cluster: 41, endpoint: 1, deviceType: null } fabricIndex: 1 privilege: 3 authMode: 2 subjects:  targets: { cluster: 1364, endpoint: 2, deviceType: null } fabricIndex: 1
+    2026-06-23 10:42:43.635 INFO   MdnsAdvertisement    Publishing kind: operational service: mdns:921C254000288BE0-000000000001B669._matter._tcp.local
+    2026-06-23 10:42:43.636 INFO   SoftwareUp~teManager Scheduling first OTA update check in 8m 1s
+    2026-06-23 10:42:43.643 NOTICE Controller~ndHandler Matter Controller started
+    2026-06-23 10:42:43.643 INFO   Controller~ndHandler OTA event handlers registered
+    2026-06-23 10:42:43.650 INFO   WebRtcTran~torServer initialized on endpoint=2 (id=""camera-controller"") cluster=0x554
+    2026-06-23 10:42:43.659 INFO   Endpoint             server-2-134b.camera-controller ready endpoint#: 2 type: CameraController (0x0147, rev 1) behaviors: ✓webRtcTransportRequestor ✓descriptor
+    2026-06-23 10:42:43.910 INFO   DclVendorInfoService Fetched 439 vendors from DCL
+    2026-06-23 10:42:43.927 INFO   DclVendorInfoService Stored 443 vendors
+    2026-06-23 10:42:43.929 INFO   Controller~ndHandler WebRTC callback bridge wired
+    2026-06-23 10:42:43.929 FATAL  MatterServer         Server failed to start [crashed-dependency] server-2-134b.@1:1 initialization failed
+      at Object.assertActive (/app/node_modules/@matter/general/src/util/Lifecycle.ts:48:23)
+      at Construction2.assert (/app/node_modules/@matter/general/src/util/Construction.ts:303:23)
+      at Behaviors.#backingFor (/app/node_modules/@matter/node/src/endpoint/properties/Behaviors.ts:777:41)
+      at Object.get (/app/node_modules/@matter/node/src/endpoint/properties/Behaviors.ts:849:25)
+      at ClientNode.maybeStateOf (/app/node_modules/@matter/node/src/endpoint/Endpoint.ts:229:22)
+      at &lt;anonymous&gt; (/app/node_modules/@project-chip/matter.js/src/MatterController.ts:674:31)
+      at Array.map (&lt;anonymous&gt;)
+      at BasicSet.map (/app/node_modules/@matter/general/src/util/Set.ts:90:26)
+      at Peers.map (/app/node_modules/@matter/node/src/endpoint/properties/EndpointContainer.ts:84:31)
+      at MatterController.getCommissionedNodes (/app/node_modules/@project-chip/matter.js/src/MatterController.ts:674:14)
+    2026-06-23 10:42:45.008 INFO   DclCertifi~teService All certificates up to date (177 total)","[1:reply] Did you turn off the watchdog like you were supposed to?
+[2:OP] yeah, I dont have it enabled by default, 😞",title_body_comments,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/homeassistant/comments/1udo7aj/matter_update_failed/
+B19-081,applehelp,iOS 26.x lock screen wake loop,"Hello, I have an IP13 and since I updated to iOS 26, I started noticing something weird after I wake up. When I left my phone charging over the night, the lock screen would wake up and sleep again, looping like this till morning. But today it happened again after updating to 26.4, but while not charging, I had 97% when going to sleep and 60% in the morning. 
+
+The screen was still looping and I was able to finally capture it on video. I can only post photos so this picture shows the broken UI which wakes up and turns off, looping like this till I press the wake button. If anyone wants the video, please help me with posting it here. Plus the whole iOS was little laggy since iOS 26. I was so frustrated this morning that I’ve decided to factory reset it, and the system is nice and fluid now. Still don’t know if it fixed the problem tho.",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/applehelp/comments/1s8h255/ios_26x_lock_screen_wake_loop/
+B19-082,sysadmin,Pasting screenshots into AI coding assistants: Windows → Linux VM over SSH — any clean solution?,"Spent a good while searching Google and asking AI for a solution to this — nothing clean came up. Figured I'd tap into the collective wisdom here. Please prove me wrong and tell me there's an easy solution — I would really like that!
+
+**The problem:**  
+I've been using Claude Code and Codex over SSH on my Linux VMs and keep hitting the same wall: I want to show the AI a screenshot, but there's no way to paste an image directly into the terminal.
+
+Classic example: Claude Code is helping me build a mobile app and tells me to check the App Store or Google Play for something. Then it asks me to provide a screenshot for clarification. The only workaround I've found is:
+
+* Save the screenshot locally
+* SCP it to the Linux VM
+* Copy the remote path
+* Paste the path into Claude Code so it can read the image
+
+That's a 4-step interruption for what should be Ctrl+V. And it completely kills the flow.
+
+**Things I've tried:**
+
+* xclip — fails because the remote VM has no X11/Wayland display server
+* MobaXterm — has an X11 server but clipboard images don't bridge over SSH
+* VS Code Remote SSH — works with an extension but breaks after every update
+
+**Is there a clean solution I'm missing? How are you handling this?**
+
+  
+**Edit:** A few comments suggesting ""just use xclip"" — totally valid if you're on a local machine with an X11 display. But over SSH to a headless Linux VM, xclip has nothing to read from. The clipboard lives on your local Windows/Mac machine, not on the remote server. That's exactly the gap I'm trying to bridge. Happy to be proven wrong if someone has a working setup!","[1:reply] How about just download VS code on your other computer and install the SSH plugin.
+
+It will then let you use VS code as if it was locally on the Linux VM.
+
+You can then paste screenshots etc into the AI on your main computer etc.
+
+I’ve been using this extension for years now whe…
+[2:reply] Hot take: this is not at all over-engineering. LLM security is privilege management and access management. The best way to avoid incidents with LLMs is to limit their access to what they need to do the job. If they *need* to know about a screenshot, it'll go in the drop folder-…
+[3:reply] This is probably over engineering it but.
+
+But could you not have a watcher on your windows pc that watches the screenshots folder (when you snip it auto saves)
+
+Detects new file, uses that to trigger an event that uses scp to copy it to the Linux vm.  
+Which has a watcher on th…
+[4:reply] So you try to do something that the remote doesn't have.and thinking for workaround?
+
+Have you tried to find a solution to telnet to a https server? And if you ask.for workaround?
+
+
+Use a proper IDE or live with scp
+[5:reply] i just dump screenshots to a synced folder and reference the path over ssh",title_body_comments,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/sysadmin/comments/1ugy147/pasting_screenshots_into_ai_coding_assistants/
+B19-083,Fedora,Almost broke my kinoite install today .....,"....... by trying to get fedora44 installed on another drive without booting of USB (new mb, buggy implementation incompatible with grub2, not important). Used ai as sparring partner, managed to bring kinoite to the brink: apps would not open, crashes over crashes, warnings, konsole unusable, etc ..... i thought 'that's it! it's going to implode!'. It did not, a simple restart, pristine condition. In my mind i even hear it say a short: lol!
+
+
+
+Did even a roll back, you know, just in case. I was smiling the whole time during restart! It still feels like a cheat ......
+
+  
+I did my worse, and I failed and I'm not even sorry! Kinoite is king!
+
+  
+PS: after reboot, did the usual update, and i think I saw a new plasma version ...... I might be wrong, but going to check tomorrow.",,title_and_body,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/Fedora/comments/1u8k5gi/almost_broke_my_kinoite_install_today/
+B19-084,applehelp,"cracked the back of iphone 17. no applecare +, just the limited warranty coverage. what should i do?","hi! i accidentally dropped my iphone 17 today and just noticed the glass back shattered. if i just slap a case on it will it be fine? or should i take it in to apple and get it repaired. i am working on low funds right now and cant spare $100+ to repair it if its just cosmetic damage and ill be fine without getting it fix. but also i have medical issues which make me prone to dropping stuff, and i’m afraid i’ll drop it again and it’ll get worse.
+
+i only have the limited warranty coverage. would that cover a repair like this? and if so what’s the average cost? would a 3rd party be able to fix it for cheaper ? am i still able to upgrade to applecare+? (60 day period after upgrading just expired a few days ago)",,title_and_body,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/applehelp/comments/1sk2iy5/cracked_the_back_of_iphone_17_no_applecare_just/
+B19-085,Ubuntu,is this normal in the app center?,"First time using ubuntu but it seems pretty broken so far. I managed to get the latest firefox but I had no update notification and it was on version 149?
+
+This is what I get in the app center.
+
+https://preview.redd.it/ana22fhdsbjh1.png?width=1421&amp;format=png&amp;auto=webp&amp;s=bc1fed23db061ee329fd201b83a36a94123c3ab9","[1:reply] I had the exact same issue on my PC. The fix is super simple. Just copy this into your terminal `sudo snap refresh` and enter.
+
+Let the update run, and after that, App Center should be back to working normally again.
+[2:reply] No update notification is pretty common with snap packages, App Center can get stuck like that.
+[3:reply] You can install apps in Ubuntu as snaps, flatpaks, or debs. If you use the App Store, you'll get snaps if there is a snap version. Check one of the support sites for a discussion of the pros and cons of each. Try Ask Ubuntu.
+[4:reply] [deleted]",title_body_comments,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/Ubuntu/comments/1vo4lhm/is_this_normal_in_the_app_center/
+B19-086,applehelp,is it going to work?,is ios 26.3 actually going to work also do yall think it’s going to fix my cellular data?? I still have no service ever since updating to ios 26.2 i already went to get my phone inspected they found no issues with my baseboard.,,title_and_body,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/applehelp/comments/1r2vl2i/is_it_going_to_work/
+B19-087,Fedora,System Monitor only displaying the “Name” column - Fedora 44 with KDE Plasma,"The system monitor isn't showing any columns other than the “Name” column; the columns work, but the headers are missing, with the exception of the “Name” column.
+
+
+
+I’ve already tried editing and re-adding them, but they still don’t show up.
+
+
+
+Is anyone else experiencing this bug?
+
+
+
+This is happening with the application and process display style.
+
+
+
+I don’t remember changing anything, and it seemed to be working fine until two days ago. Do I need to do something, or is this really a visual bug and something broke after an update?
+
+https://preview.redd.it/tugtjed2ge3h1.png?width=1762&amp;format=png&amp;auto=webp&amp;s=8205ec08aaf4b365b6826e45eb3f94085ed243b6
+
+https://preview.redd.it/866j1r9age3h1.png?width=1920&amp;format=png&amp;auto=webp&amp;s=7a8a42be534bab1a82ea7ecaeceb24e086e0defa
+
+https://preview.redd.it/9jh0uukdge3h1.png?width=712&amp;format=png&amp;auto=webp&amp;s=7845936b96e56544b068cfc1e68f2bd74a069bb4
+
+https://preview.redd.it/3pea382lge3h1.png?width=716&amp;format=png&amp;auto=webp&amp;s=90eaaef790b30abbf9d78b07f74c9b5b82c817e2","[1:reply] I'm running Fedora KDE edition with Plasma 6.6.5. The current version of System Monitor is also 6.6.5 and I'm experiencing the same bug you describe. I checked my PC running Nobara (based on Fedora) with KDE and it's currently at Plasma 6.6.4 with System Monitor 6.6.4. Nobara's…
+[2:OP] So it seems to be an issue with the new version of KDE / SM itself. I don't really mind the missing headers (it's just a little annoying), so I'm not going to downgrade to the previous version; this will probably be fixed soon.
+[3:reply] I noticed this after there some some update to QT6",title_body_comments,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/Fedora/comments/1tnuopb/system_monitor_only_displaying_the_name_column/
+B19-088,androiddev,"Upgraded Play Console from Individual to Organization, but Payments Profile is still stuck on Individual. How do I fix this for corporate tax?","Hi everyone,
+
+I recently upgraded our Google Play Developer Account from an **Individual** account to an **Organization** account.
+
+We went through the entire rigorous verification process. Our company is **fully verified** by Google. All our company documents, registry information, DUNS number, and organization details have passed checks and are 100% verified. Under ""Developer account"" in Play Console, the account type officially shows as **Organization** with our corporate legal details.
+
+However, we ran into a major block when trying to submit our US Tax Info (W-8BEN-E) for corporate tax/withholding purposes:
+
+1. The linked **Google Payments Profile** is still stuck as an **Individual** profile under my personal name (which was created when we first set up the account as individual).
+2. Because the payments profile is of type ""Individual"", the tax form is asking me to verify my personal name and only gives me the option to submit a personal **W-8BEN** form.
+3. We absolutely need all app payouts to go to our company bank account and be filed under our company's corporate tax ID (Foreign TIN / PAN) as company income, not personal income.
+4. The Play Console settings do not allow us to edit the account type of the payments profile or unlink/switch the payments profile ourselves since it's already verified.
+
+**Important:** Creating a new developer account is NOT an option for us. We have active apps/users and absolutely need to use this specific account.
+
+Seriously, if our company identity is 100% verified as an Organization, why does Google keep the linked payments profile locked as an Individual? Why does Google even allow you to upgrade your developer account type if it leaves you in this broken, half-migrated tax nightmare?
+
+Has anyone gone through this exact scenario after upgrading their account?
+
+* Did you have to contact Google Play Support to manually unlink the individual payments profile? If so, how long did it take them to resolve?
+* Is there any self-service workaround in the payments center that doesn't involve creating a brand new developer account?
+
+Any advice or experience with this would be highly appreciated. Thanks!","[1:reply] Please note that we also have a very active Discord server where you can interact directly with other community members!
+
+[Join us on Discord](https://discordapp.com/invite/D2cNrqX)
+
+
+*I am a bot, and this action was performed automatically. Please [contact the moderators of thi…
+[2:reply] In my company the app has stuck with the same GPay account regardless of the PlayStore account switches. We could switch the GPay legal data but neither the account type nor the ""residence"" country of the app (i.e. if the PlayStore app account was initially in EU the app will bv…",title_body_comments,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/androiddev/comments/1tnztmt/upgraded_play_console_from_individual_to/
+B19-089,homeassistant,Flickering When Activating Hue Scenes on Non Hue Bulbs via HA - Double Check Hue Bridge Updates First,"Leaving this here because I imagine in the next couple of days there’s going to be people asking what’s going on with their lights flickering when activating hue scenes via a HA automation, button press, etc.
+
+Before you get worried… double check to see if your hue hub is updating bulbs/plugs and have all those updates go through before trying to fix anything.
+
+I had a perfect storm of setting up a remote to trigger an automation and for HOURS couldn’t figure out why my bulbs were flickering on to off and a number of other annoying things.
+
+It may fix itself after your hue bulbs update.  
+I suspect they aren’t acting as repeaters anymore while updating.
+
+Here’s some other things I did:  
+\- when adding a hue scene to automations/scripts make sure to select “activate hue scene” instead of “activate scene”. There is something different in how HA treats them
+
+\- in light off automations/scripts, don’t choose turn light off and then select each individual bulb. Select the symbol that has multiple lightbulbs that is named after whatever room you have set up in home assistant
+
+\- (not new but info for those who don’t know) when using non-hue lights on the hue hub, make sure to have the scene activated more than once. I put a 15 millisecond delay between both times. Non-hue bulbs don’t receive messages the way hue bulbs do and you need to activate the scene more than once to get the brightness and colour correct.
+
+(Also as of posting this, there is no release notes but many of your bulbs and hue plugs will update to 1.163.1. I don’t know what this update adds. What I will say is that it is the slowest hue update I have had. One bulb seemed to not update since yesterday but did after I turned the power on and off as I was doing something to a light switch. So unscrew your bulb and unplug your hub if it is stuck loading the update for 24 hours).","[1:OP] I’m embarrassed to admit how many hours I put into this yesterday. I could have been doing other things.
+
+At least my automations are all cleaned up, and I now understand a lot more about how home assistant works with hue in my adventure to fix it.
+[2:reply] good looking out, that last tip about activating scenes twice for non-hue bulbs is clutch
+[3:reply] The 15ms delay and double scene activation trick for non-hue bulbs is a solid find",title_body_comments,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/homeassistant/comments/1v0atgd/flickering_when_activating_hue_scenes_on_non_hue/
+B19-090,chrome,OneTab just ruined their extension with an update and I'm genuinely upset about it,"ok so this is gonna sound dramatic but I'm lowkey having a crisis right now
+
+I've been using OneTab for like... 2 years? Maybe more? The whole point of it was dead simple - you have 47 tabs open (we've all been there), you click the icon ONCE, boom, all tabs are saved and closed. One click. That's it. That's literally why it's called OneTab.
+
+well apparently they just pushed an update and now... it doesn't do that anymore?
+
+Now when you click it, it opens this menu with options and you have to click AGAIN to actually close your tabs. They added like a dropdown menu thing with different options and completely killed the one-click workflow. 
+
+AND IT CLOSES GROUPED AND PINNED TABS TOO!
+
+I know this sounds like a small thing but honestly it's driving me insane. I was migrating to new browser to test it out, was grouping my tabs nearly an hour. then just boom, all tabs ruined.  
+  
+The beauty of OneTab was muscle memory - tab overload happening? click extension. done. I've probably done this thousands of times over the years. Now I have to think about it and click twice and my brain is NOT handling the change well lol
+
+(also it still respects pinned tabs which is good I guess, but that's not the point)
+
+**Why this matters to me:**
+
+I'm the kind of person who opens tabs for ""research"" and suddenly has 60+ tabs across 3 windows. OneTab was my panic button. My ""oh shit I need to focus"" button. My ""my laptop is dying and I need to close stuff NOW"" button. One click, everything saved, clean slate.
+
+Now it's... a menu. With options. That I have to navigate.
+
+I get that they probably wanted to add features or whatever but why mess with the core functionality that everyone uses?? If you want a menu, make it a right-click thing or add a settings option. Don't break the main use case.
+
+**My question:**
+
+Is there an alternative that does what old OneTab did? Specifically:
+
+* One click to save and close all tabs (except pinned/grouped)
+* Keeps a list of all your saved sessions
+* Can restore tabs individually or all at once
+* Doesn't require an account or sync (privacy thing)
+* Ideally free because I'm cheap
+
+I've looked at a few tab managers but they all seem way more complicated than what I need. I don't want fancy features or organization systems or AI sorting or whatever. I just want my one-click tab reset button back.
+
+anyone else using OneTab and noticed this? or am I the only one still using this extension in 2025 lol
+
+**TL;DR:** OneTab extension changed from one-click tab closing to a menu system and it's breaking my workflow. Need an alternative that just does the simple one-click save-and-close thing without extra features.",,title_and_body,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/chrome/comments/1o2jf9s/onetab_just_ruined_their_extension_with_an_update/
+B19-091,Ubiquiti,Significant lower memory usage after updating to 5.1.11,"Updated my UDM SE today to 5.1.11 and just noticed when checking Home Assistant and verifying in my UniFi app that the memory usage finally is no longer stuck at 90-95% memory usage but dropped down to 75-80% 
+
+I only am running one AP, a few switches and a G6 Entry at the moment and was quite worried about the memory usage and debating to get an UNVR (G2) to offload Protect and cameras that are yet to be installed but now with this surprise I am wondering if anyone else notices less memory usage after updating. If so I might as well save some bucks by sticking with my UDM SE with a HDD.",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/Ubiquiti/comments/1tfbgzv/significant_lower_memory_usage_after_updating_to/
+B19-092,applehelp,Can't Update my Apple Account to Sign In into Apple TV 4k (3rd Gen),"Hi everyone,
+
+I’m trying to set up my Apple TV 4K and ran into an issue when signing in with my Apple ID.
+
+I created a new account, and when I try to log in, it says I need to update the account and enable two-factor authentication. So far, so good.
+
+The problem starts when I enter my phone number. I receive the verification code via SMS, but when I enter it, it fails (the code is correct, but I get an “unknown error”). I request a new code, and it fails again. After a few attempts, I now get this message:  
+**“Verification codes cannot be sent to this phone number at this time. Try again later.”**
+
+I’ve also tried using a different phone number and e-mail, but that didn’t work either.
+
+For context, I don’t own any other Apple devices, so I can’t use alternative verification methods. I’m doing this using the Firefox browser.
+
+Has anyone experienced this? I just need an updated account so I can download apps.
+
+Any help would be appreciated.",,title_and_body,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/applehelp/comments/1sy1xbo/cant_update_my_apple_account_to_sign_in_into/
+B19-093,chrome,Does anyone else have issues with equalizer extensions recently?,"I was using Ears: Bass Boost, EQ Any Audio! (ID: nfdfiepdkbnoanddpianalelglmfooik) for years, and as it is abandonware I was expecting the changes in Manifest policy to kill it, but was able to get some use out of it with the flags that unexpire certain flags and allow legacy extensions.  A recent update, I'm not sure which one, has removed unexpiring M137 flags, and this is when this extension has become entirely unusable.  But the odd thing is, *every* EQ extension no longer works, I've tried a good ten of the ones that still comply with the Manifest changes yet none of them actually do anything when changing settings.  Did a recent chrome update change other things to where audio management via extensions no longer works?  I've also noticed that some update, again not sure which one, killed my hotkeys manager despite it also being ManifestV3, again nothing I do with it functions as intended, so I'm also wondering if any form of device management extension is becoming useless.  Is anyone else having these issues?",,title_and_body,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/chrome/comments/1nzglo0/does_anyone_else_have_issues_with_equalizer/
+B19-094,bluetooth,My Bluetooth and WIFI options disappeared after new drivers update,"I was playing Fortnite when my headphones disconnected from my Bluetooth. At first I thought it was dead, but they still had battery left, then when I tried to connect them again, my Bluetooth option vanished when i pulled up the menu on the bottom right on the hot bar. I thought it was just a bug so I restarted my pc, then when I went to check again, my Bluetooth and WIFI options vanished.
+
+I check my AMD software and I see my chipset drivers need updated, I do that but it gets stuck at 26% then stops and says ""chipset could not be installed on your pc"" and it gave me ""error 1603"" I looked it up and tried clean installing my drivers and manually installing the new drivers from here: [AMD Ryzen™ Chipset Driver Release Notes 8.07.16.1035](https://www.amd.com/en/resources/support-articles/release-notes/RN-RYZEN-CHIPSET-8-07-16-1035.html) I tried this at least 6 times and still nothing.
+
+Then tried reinstalling the AMD software, and anything else you could think of and nothing worked. Right now it says my drivers are updated to the latest version, but my Bluetooth and WIFI options are still gone from the hot bar menu.
+
+Can anyone help me on this please? 🙏","[1:reply] Try 8.08, came out like yesterday:
+
+https://www.amd.com/en/resources/support-articles/release-notes/RN-RYZEN-CHIPSET-8-08-12-551.html
+[2:OP] tried that as soon as it came out, didn't work lol",title_body_comments,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/bluetooth/comments/1vryext/my_bluetooth_and_wifi_options_disappeared_after/
+B19-095,embedded,"This is my latest project took me many months to implement,i have 1.5 yrs of experience in total been learning the past 5 years from different mentors (no matter the price) and doing side projects, i am planning to apply for a junior role wanted to know the chances i might get hired ?","**My embedded systems project: STM32 + ESP32, FreeRTOS, secure boot, AES-GCM communication, fault recovery, and secure OTA architecture(debugging tools i have used are SWD stm32 side and jtag esp32 side)**
+
+**The stm32 side has a mix of cmsis 90% of drivers and hal10 % approximately**
+
+  
+The softwarw used is stm32 cube ide  and espressif eclipse for the esp32 the native one
+
+I'm currently building an end-to-end embedded/IoT system around an **STM32F411RE and an ESP32-C6**. The idea is to separate the real-time embedded side from the networking/cloud side while also treating security, fault recovery, boot integrity, and communication reliability as first-class parts of the design rather than adding them at the end.
+
+The **STM32F411RE** is responsible for the real-time portion of the system. It runs **FreeRTOS** and interfaces with several different sensors using multiple peripherals and communication protocols.
+
+The current sensor setup includes:
+
+* BME680 over I2C
+* MPU9250 over I2C
+* MAX31865 over SPI
+* PMS5003 particulate-matter sensor over UART
+* Five DS18B20 **x 5** temperature sensors over 1-Wire
+
+The drivers use a mixture of **DMA, interrupts, semaphores, timers, UART, SPI, I2C and 1-Wire**, depending on the peripheral. Sensor acquisition is divided into FreeRTOS tasks rather than being handled through one large polling loop.
+
+I also implemented a supervision/fault-recovery architecture around the tasks.
+
+Each important subsystem produces health information/heartbeats. The watchdog is not simply refreshed unconditionally. A supervisor checks whether the expected tasks and sensors are behaving correctly before allowing the independent watchdog to be refreshed.
+
+For sensor failures, I implemented retry and escalation logic. A failed sensor can be retried several times without immediately disturbing the healthy sensors. If recovery fails, the system can escalate the failure and ultimately allow the hardware watchdog to reset the MCU.
+
+The intention is that a single peripheral fault should not immediately destroy the state of the entire application.
+
+# STM32 secure boot
+
+I also wrote a custom secure bootloader for the STM32.
+
+The bootloader verifies an **Ed25519 signature** before allowing the application firmware to execute.
+
+The signed firmware metadata contains information such as:
+
+* Firmware version
+* Firmware size
+* SHA-256 firmware hash
+* Rollback counter
+
+The basic chain is:
+
+**Firmware → SHA-256 → signed manifest → Ed25519 verification → application allowed to boot**
+
+The bootloader calculates the SHA-256 hash of the application firmware, compares it against the authenticated manifest and verifies the Ed25519 signature using the stored public key.
+
+If verification succeeds, it performs validation of the application's stack pointer/reset vector, disables or resets the relevant bootloader state, changes the vector table and jumps into the STM32 application.
+
+If verification fails, the application is not executed.
+
+I've also tested the boot process by deliberately modifying different parts of the trust chain, including:
+
+* Firmware contents
+* Manifest contents
+* Signature
+* Public key
+
+The bootloader rejects the modified images rather than jumping into them.
+
+The design also includes firmware-version/rollback information, and I've been working on hardening the key-storage and flash-protection side so that the verification mechanism itself cannot simply be modified by an attacker.
+
+# STM32 ↔ ESP32 communication
+
+The STM32 communicates with the ESP32 over **USART6**.
+
+Instead of sending plain ASCII strings between the MCUs, I designed a small binary framing protocol.
+
+The protocol includes things such as:
+
+* Magic/header bytes
+* Protocol version
+* Message type
+* Payload length
+* Sequence number
+* Payload
+* Integrity/authentication information
+* ACK/NACK responses
+
+Sequence numbers allow the two devices to associate acknowledgements with specific messages and form the basis of duplicate/replay handling.
+
+I initially brought the protocol up using plaintext test data to verify framing, parsing, sequence handling, ACKs and retransmission behaviour.
+
+After that, I integrated **AES-GCM authenticated encryption** into the STM32↔ESP32 link.
+
+So the UART connection is not simply:
+
+**STM32 → plaintext UART → ESP32**
+
+but instead conceptually:
+
+**STM32 plaintext → AES-GCM encryption/authentication → UART frame → ESP32 → authentication/decryption → plaintext**
+
+and the same concept applies in the opposite direction.
+
+AES-GCM gives both:
+
+* Confidentiality
+* Authentication/integrity
+
+If the ciphertext, authentication tag or authenticated data is modified, the receiver rejects the packet rather than passing corrupted plaintext into the application.
+
+I have tested successful encrypted communication in both directions between the STM32 and ESP32.
+
+# Replay, duplicate and retransmission handling
+
+Another part of the design is making the protocol survive unreliable communication.
+
+For example:
+
+1. STM32 sends encrypted packet with sequence/counter N.
+2. ESP32 receives and processes it.
+3. ESP32 sends an ACK.
+4. ACK is lost.
+5. STM32 retransmits packet N.
+
+The ESP32 must recognize that the packet has already been authenticated and processed.
+
+It should therefore **not execute the application action twice**, but it can resend the ACK so that the STM32 can complete the transaction.
+
+This means the transport design needs to distinguish between:
+
+* New valid packets
+* Valid retransmissions
+* Old/replayed packets
+* Authentication failures
+* Corrupted frames
+* Completely invalid protocol data
+
+I've been working on the replay-window/counter logic and especially on making sure AES-GCM nonce/counter uniqueness remains correct even across resets, since reusing a nonce with the same AES-GCM key would be a serious cryptographic failure.
+
+# ESP32 side
+
+The ESP32-C6 runs **ESP-IDF + FreeRTOS** and acts as the higher-level communications/network gateway.
+
+It handles things such as:
+
+* Wi-Fi/network connectivity
+* MQTT
+* HTTPS/TLS
+* Certificates
+* Communication with the STM32
+* Watchdog handling
+* Flash encryption
+* Cloud-facing functionality
+
+The basic architecture therefore becomes:
+
+**Sensors**  
+↓  
+**STM32 peripheral drivers / DMA / interrupts**  
+↓  
+**STM32 FreeRTOS tasks**  
+↓  
+**Telemetry aggregation / application logic**  
+↓  
+**AES-GCM authenticated UART protocol**  
+↓  
+**ESP32-C6**  
+↓  
+**MQTT / HTTPS / TLS**  
+↓  
+**Cloud/backend**
+
+This allows the STM32 to remain focused on deterministic embedded behaviour while the ESP32 handles the heavier networking stack.
+
+# Fault injection and negative testing
+
+A large part of the project has been deliberately breaking things instead of only demonstrating the happy path.
+
+I've been testing cases such as:
+
+* Disconnecting sensors
+* Sensor communication timeouts
+* Repeated peripheral failures
+* I2C recovery
+* SPI/UART communication failures
+* FreeRTOS task health failures
+* Watchdog-triggered resets
+* STM32 resets during communication
+* ESP32 resets during communication
+* Lost ACKs
+* Duplicate packets
+* Retransmissions
+* Corrupted packet contents
+* Corrupted AES-GCM authentication tags
+* Authentication/decryption failures
+* Invalid secure-boot signatures
+* Modified manifests
+* Modified firmware
+* Public-key/signature tampering
+
+The idea is that the project should not only show that encryption, secure boot or FreeRTOS work when everything is perfect.
+
+I want to be able to demonstrate what the system does when assumptions fail.
+
+For many of these tests I keep serial logs showing the failure being detected, the attempted recovery and the eventual watchdog/reset/rejection behaviour.
+
+# Cryptography
+
+Apart from AES-GCM and Ed25519, I've also worked with cryptographic building blocks such as:
+
+* SHA-256
+* CTR\_DRBG
+* Hardware/device entropy sources
+* ECDH using secp256r1
+* Key derivation from shared secrets
+
+For randomness, I experimented with collecting device-specific and runtime entropy and feeding it into a DRBG rather than using predictable counters or fixed test values as cryptographic randomness.
+
+The cryptographic work was primarily done to understand how the different pieces fit together inside a real embedded system rather than simply calling an encryption function on a buffer.
+
+# Secure OTA goal
+
+The final major part of the architecture is secure STM32 firmware updating through the ESP32.
+
+The intended flow is approximately:
+
+**Cloud/server**  
+↓ HTTPS/TLS  
+**ESP32**  
+↓ encrypted/authenticated STM32↔ESP32 protocol  
+**STM32 bootloader/update system**  
+↓  
+**Signature + hash + version/rollback verification**  
+↓  
+**New firmware accepted or rejected**
+
+The ESP32 can download firmware using its network stack, but the ESP32 should not automatically be trusted to decide whether STM32 firmware is legitimate.
+
+The STM32's own secure-boot/update trust chain should independently verify the image before executing it.
+
+So even if an invalid image reaches the STM32, it should still fail cryptographic verification.
+
+The goal is eventually to test additional cases such as:
+
+* Interrupted OTA
+* Power loss during an update
+* Corrupted firmware during transfer
+* Invalid firmware signature
+* Downgrade attempt
+* MCU reset during transfer
+* Authentication failure during an OTA packet
+* Recovery after an incomplete update
+
+Overall, the project is basically my attempt to build a relatively complete embedded system rather than an isolated sensor demo.
+
+It combines:
+
+**STM32 + ESP32-C6 + FreeRTOS + DMA + interrupts + multiple hardware buses + custom drivers + watchdog supervision + fault recovery + binary protocols + AES-GCM AEAD + secure boot + Ed25519 + SHA-256 + replay/retransmission handling + MQTT/HTTPS/TLS + flash security + secure OTA architecture + fault-injection testing.**
+
+The parts that are already working include the STM32 application/sensors, FreeRTOS architecture, watchdog/fault handling, STM32 secure boot, STM32↔ESP32 binary communication, and bidirectional AES-GCM protected communication.
+
+Some of the remaining work is mainly around fully hardening replay/nonce persistence across resets and completing the STM32 OTA/update path through the ESP32.
+
+I'm interested in feedback from people working professionally in embedded/firmware **?**
+
+  
+(The project is not completed yet,some small parts remain,once it is done i will show the serial logs that show how the system behaves normally on run time and during stress and inject fault injection and  serial logs will show how the systems deal with recovery and the diagnostics it will show?","[1:reply] I mean no offense but it looks a lot like ChatGTP generared the plan. Does looks interesting, but applying to a Junion Role of what exactly?
+
+The bootloader only will get you to the door with that encryption of the image. Maybe just add the repo to your CV as a project or commen…
+[2:reply] No prosa, show code
+
+I've seen many ""great planers"" that failed with basic programming/architectural tasks.
+[3:OP] The description of the project is ai indeed, but what does it matter anyway ?the project 80% of it works,i have serial logs and the full code on my git repository exlaining every decision on readme and diagrams also a video demo  of it working,
+
+You guys are spitting vitriol as…
+[4:reply] lots of chatgpt words
+
+where are the github repos and your resume?
+[5:OP] to be honest with you,i took different courses and payed huge amounts of money to learn those topics i explained in the project and decided to make something with the knowledge i accumulated  that is how i came up with the idea of this project
+
+Did Ai or chat help me ?
+Yes it di…",title_body_comments,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/embedded/comments/1vxvp0r/this_is_my_latest_project_took_me_many_months_to/
+B19-096,comfyui,🚀 ComfyUI_StarNodes v1.9.2 is out! ✨,"Hey folks, just pushed a fresh update of StarNodes and wanted to share what’s new . 😊
+
+**New nodes in 1.9.2:**
+
+* ⭐ **Star Stop And Go** – Lets you pause your workflow, preview results, and then decide if you want to continue, pause, or bypass, so you don’t waste time on bad runs.
+* ⭐ **Star Model Packer** – Combines split `.safetensors` model shards into one file and converts them to FP8 / FP16 / FP32 in a single, convenient node.
+* ⭐ **Star FP8 Converter** – Takes an existing `.safetensors` checkpoint and converts it to FP8 (`float8_e4m3fn`), saving it into your standard ComfyUI output models folder for easy use.
+
+https://preview.redd.it/s2j2jqlc8s5g1.png?width=2048&amp;format=png&amp;auto=webp&amp;s=c619d8c479783c67c5b3b84610bbedd77804361b
+
+On top of that, **a bunch of issues have been fixed** and the docs/versions are cleaned up so things should feel a bit smoother overall. 🧹✅
+
+You can install/update **via ComfyUI Manager** (just search for “Starnodes”)  
+or check out the full details and docs on GitHub:  
+👉 [https://github.com/Starnodes2024/ComfyUI\_StarNodes](https://github.com/Starnodes2024/ComfyUI_StarNodes)
+
+https://preview.redd.it/dvp8er7e8s5g1.png?width=1545&amp;format=png&amp;auto=webp&amp;s=04e4876dd703388928e19388d82c124c75035eb7
+
+Thanks for all the feedback and bug reports – it really helps make these nodes better for everyone. 💛",,title_and_body,yes,no,other,low,The post appears to discuss software without a clear troubleshooting or chiefly critical purpose.,,,,,,,https://reddit.com/r/comfyui/comments/1pgi50p/comfyui_starnodes_v192_is_out/
+B19-097,AndroidQuestions,"Device is A14 5G, most of my video games keep crashing after recent forced update","I followed some advices and did some tweating on developer options, some games work, some work for a bit then crashes, some completely doesnt work, how do i fix it? Also how to eeduce ram, system has been using a lot of it.",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/AndroidQuestions/comments/1s5z0rn/device_is_a14_5g_most_of_my_video_games_keep/
+B19-098,chrome,Restore Pages Bug? Anyone else experiencing?,Title - Every time I open chrome it is asking if I want to restore pages.  Seems to be a bug since the last update.  Anyone else experiencing?,,title_and_body,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/chrome/comments/1svc0qr/restore_pages_bug_anyone_else_experiencing/
+B19-099,mysql,"After running sudo apt upgrade today, I can't access mysql server","Did a run of sudo apt update &amp;&amp; sudo apt upgrade today on my Ubuntu 24.04.4 LTS laptop. Suddenly I can't access my mysql server. If I run `systemctl status mysql` I get:
+
+
+
+    Loaded: loaded (/usr/lib/systemd/system/mysql.service; enabled; preset: enabled)
+         Active: activating (start) since Thu 2026-04-02 13:59:27 EDT; 1s ago
+        Process: 18081 ExecStartPre=/usr/share/mysql/mysql-systemd-start pre (code=exited, status=0/SUCCESS)
+       Main PID: 18089 (mysqld)
+         Status: ""Server startup in progress""
+          Tasks: 27 (limit: 9296)
+         Memory: 361.7M (peak: 381.7M)
+            CPU: 676ms
+         CGroup: /system.slice/mysql.service
+                 └─18089 /usr/sbin/mysqld
+    
+
+If I enter mysql -u root -p and enter the password I get the following:
+
+\`ERROR 2002 (HY000): Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock'\`
+
+  
+Not sure what to try next. it's been running smoothly for years.",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/mysql/comments/1sap4lh/after_running_sudo_apt_upgrade_today_i_cant/
+B19-100,linuxquestions,How to limit battery charge?,"So, the question itself is pretty self explanatory, but there's a bit more to it. When I first got my laptop (Yoga 7 2-in-1 14AKP10) I installed Fedora with KDE after booting windows 11 like once. \*\*While on Fedora, I enabled an option to limit battery charge to 80%\*\* to preserve battery health. After a few months, I switched to Arch.
+
+After switching to Arch, this option still worked. My battery stopped charging at 80% and stayed there. And it was fine, like this, all the way up until kernel 7.1.9 (or was it 7.1.8? I may have updated it unknowingly since then). Anyway, after that update broke pretty much everything about my laptop (touchpad stopped working, pen was seen as a mouse, etc), including the battery charge limit, which I noticed after I left my laptop charging and got a notification I never have before - ""Battery fully charged"".  
+I ended up switching to the linux-lts kernel (6.18.46-1-lts) and now everything works except for the battery limit, which I don't know how to set. I am using Hyprland, a WM instead of a DE, so I don't exactly have access to the same button I used on Fedora to limit the charge percentage.
+
+\*\*Some extra notes\*\*: before the battery limit stopped working, I kept getting ""unexpected charge\_types: both \[Fast\] and \[Long\_Life\] are enabled"" in dmesg, photo attached from journalctl. This \*\*stopped\*\* after I got the charge limit issue (or after I switched to lts... I can't say for certain). Also, after rebooting at some point during that same time, I switched a power option in my bios from ""Battery saving"" to ""Intelligent cooling"". I tried changing it back, but nothing helped.
+
+Lastly, I tried looking up solutions, but the most popular ""set a limit using charge\_control\_start\_threshold and charge\_control\_end\_threshold"" don't work, since even when I am rooted, I get a ""permission denied"" error.
+
+I am open to pretty much any suggestions. I will report back with what issues arise with any.
+
+[fastfetch info. battery coincidentally at 80&amp;#37; lmao](https://preview.redd.it/jqk7dsp2mwlh1.png?width=1252&amp;format=png&amp;auto=webp&amp;s=e35c0cd74a95e2125ce5667c53cb375ba8e5aeb1)
+
+https://preview.redd.it/pzzm8adelwlh1.png?width=1572&amp;format=png&amp;auto=webp&amp;s=17f23602537487bb46abcbf7f265842e365c66ba
+
+[contents of BAT0 and charge\_types file](https://preview.redd.it/u4uh4t3wkwlh1.png?width=2294&amp;format=png&amp;auto=webp&amp;s=71d9a5e7e4d377d97f77e5b2938fed0796cbd8c8)
+
+[unexpected charge\_types: both \[Fast\] and \[Long\_Life\] are enabled, which STOPPED after the charge limit disappeared](https://preview.redd.it/eqhev3hmkwlh1.png?width=2880&amp;format=png&amp;auto=webp&amp;s=7ac8b27fe1c4cbd109db030933731307dd39dcf0)",[1:reply] Arch has its own issues page.,title_body_comments,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/linuxquestions/comments/1vzrgll/how_to_limit_battery_charge/

@@ -1,0 +1,252 @@
+[
+  {
+    "sample_id": "M20261007-201",
+    "title": "Chrome bug is back - reverts back to the top of the new tab page when coming back",
+    "post_body": "Hi, maybe it is just me, but the. latest update reverted a bug where you open a new tab on Android, scroll through the feed, find an arrival to read, click on it. once done, hit the back button, and instead of going back to the position on the screen you were on, it defaults to the top of the new tab window ( with the shortcuts and search bar). they fixed a couple of months ago, but it just came back after the latest update."
+  },
+  {
+    "sample_id": "M20261007-202",
+    "title": "Old iPad suddenly can’t open Home Assistant after update (Safari issue?)",
+    "post_body": "I’m running Home Assistant on an older iPad (iOS 12), and until yesterday everything worked fine in Safari.\n\nToday, it suddenly stopped loading HA completely. Safari either fails to load the page or just hangs. Other browsers don’t help much either (Puffin redirects to Google instead of opening local IP).\n\nNothing changed on the tablet itself — the only thing that likely changed is a Home Assistant update.\n\nNow I also can’t install any alternative apps because everything requires iOS 13+.\n\nHas something recently changed in Home Assistant frontend or web requirements that breaks compatibility with older Safari/WebKit?\n\nRight now my only workaround is a custom HTML dashboard using the HA API, which works — but native UI is basically dead.\n\nAnyone else seeing this or found a proper fix?"
+  },
+  {
+    "sample_id": "M20261007-203",
+    "title": "New Relic Node.js (npm 11.x.x) causing memory spike — anyone else?",
+    "post_body": "Hey everyone,\n\nI just installed **New Relic (npm package) version 11.x.x** in one of our Node.js services, and right after enabling it we started seeing a **noticeable spike in memory usage**.\n\nI didn’t upgrade from an older version — this is a fresh install.  \nSo I’m not sure if:\n\n* this memory overhead is expected,\n* something changed in the 11.x.x release,\n* or if I’ve configured something incorrectly.\n\nHas anyone else experienced this issue with the newer New Relic agent?  \nAny debugging tips or guidance would be appreciated.\n\nBTW, I installed New Relic *to detect server issues*, but it’s somehow becoming the bottleneck itself 😅\n\nThanks in advance!"
+  },
+  {
+    "sample_id": "M20261007-204",
+    "title": "Bluetooth problems",
+    "post_body": "Hello Guys\n\nI am kinda upset. My iPhone 13 which bought used 1 year ago, has really bad bluetooth connectivity problems since the iOS26 update.\n\nI  cant connect to my Airpods (sometimes it will connect but instantly deconnect) and also cant connect with my bluetooth box or any other bluetooth devices.\n\nTo be fair: this iPhone is used and has some used parts in it. I didnt treat it so well, thatswhy the backcover is broken. I guess there is also no guarantee on it anymore. \n\nBut: All the problems with the bluetooth connectivity only started after the last update 😩😩😩\n\nIts really annoying and i want to ask you guys here, if anyone has the same issues or had them and solved them or has an idea, what I could do\n\nthanks 🙏🙏🙏"
+  },
+  {
+    "sample_id": "M20261007-205",
+    "title": "Chrome is down. Several websites are unreachable such as AI websites and almost every other including educational services and several social platforms like reddit. Only YouTube is accessible and X is accessible but acts like no internet. I guess it happened after the recent update.",
+    "post_body": "https://preview.redd.it/sjih97wbr08h1.png?width=2406&amp;format=png&amp;auto=webp&amp;s=525bfddb65d9eaf5eee363e13eea63ecda3f397a"
+  },
+  {
+    "sample_id": "M20261007-206",
+    "title": "Discord broke from RPM Fusion",
+    "post_body": "So I noticed discord broke for me when i updated today. Said the bin file was missing. So went looking in the bin folder and seemed to be changed from Discord to discord. I had to manually change the icon to point to usr/bin/discord not usr/bin/Discord. Was not sure if other experienced so figured i would post how to fix."
+  },
+  {
+    "sample_id": "M20261007-207",
+    "title": "Issue with Flatpak updates, flathub and flathub-1 repos show up, with \"error updating appstream\"",
+    "post_body": "Hi all-  \nI have a VM that somehow broke the \"flathub\" repo and added a second \"flathub-1\" repo while running \"flatpak update\" a couple weeks ago. I've noticed that it hasn't actually pulled any flatpak updates down at all since this happened, and I also see \"error updating appstream, no such ref in remote flathub\" error whenever I attempt to update.\n\n\\- I'm not sure how I ended up with flathub or flathub-1 or how to fix that  \n\\- Also not sure what the \"error updating appstream\" entails or how to approach correcting that\n\nAny advice is appreciated. Here is a screenshot, let me know if I can provide any other useful info"
+  },
+  {
+    "sample_id": "M20261007-208",
+    "title": "Extremely slow traffic after updating from 2.7.xxx between vlans",
+    "post_body": "Hello, I recently updated from a long time 2.7 install to 2.8?, then 2.9.  Since then I am seeing extreme time between vlans, I only have a few mapped through pfsense and they have generally failed but can ping through at 1.2s average time.  No settings were changed aside from the update and the setup had worked for years prior.\n\nInstall is on proxmox, vm resources look good with memory maxed out.  I do not see anything in the pfsense logs but I also have no clue what I would look for.  Any assistance would be greatly appreciated."
+  },
+  {
+    "sample_id": "M20261007-209",
+    "title": "Recent update broke graphics tablet functionality",
+    "post_body": "I recently updated my system, and noticed that a bunch of applications stopped taking any input from my graphics tablet. This included Krita, Infinipaint, and Toon Boom Harmony. It also breaks whether I'm using a Wacom or Huion tablet.\n\nI was able to fix it by just running the following command:  \n`sudo dnf downgrade xorg-x11-server-Xwayland`\n\nMy intention was to upgrade again in a few days, but it's been a few days and it's still broken.  \nI would like to update to fedora 44 at some point soon, but I don't know I should until I know this package won't break my tablet.\n\nHas anyone else run into this problem? Is it still safe to upgrade to version 44?\n\nExtra info:  \nVersion: Fedora 43  \nDE: Gnome 49  \nWM: Mutter"
+  },
+  {
+    "sample_id": "M20261007-210",
+    "title": "Bar at the bottom of the chrome browser",
+    "post_body": "There's a bar blocking at the bottom of the app, disabled the app and uninstall update can temporarily solve this. But after awhile it will appear again."
+  },
+  {
+    "sample_id": "M20261007-211",
+    "title": "Stumped for the first time: The Cluster Service service terminated with the following service-specific error: A specified authentication package is unknown.",
+    "post_body": "Hi All,\n\nFor the first time in 20 years been stumped.\n\nOur Exchange SE server (WS2022 standard VM on ESXi) was updated last night . Today morning I noticed the cluster service is unable to start at all.\n\nevent ID 7024:\n\nThe Cluster Service service terminated with the following service-specific error:\n\nA specified authentication package is unknown.\n\nThe usual reboot didn't work nor did disabling AV temporarily. I even uninstalled the update, [https://support.microsoft.com/en-us/servicing/dotnetframework/microsoft-server/2022/2026/09/september-8-2026-kb5126149-cumulative-update-for-net-framework-3-5-4-8-and-4-8-1-for-windows-server](https://support.microsoft.com/en-us/servicing/dotnetframework/microsoft-server/2022/2026/09/september-8-2026-kb5126149-cumulative-update-for-net-framework-3-5-4-8-and-4-8-1-for-windows-server), and the issue persists.\n\n**Steps done:**\n\nReboot VM\n\nDisabled AV\n\nCluster validation is healthy\n\nValidated no GPO is interferring\n\nCluster logs error shown below\n\n00001434.00003b78::2026/10/01-08:07:53.134 WARN  \\[CS\\] Service CreateNodeThread Failed, (80090305)' because of 'Loading of security package failed'\n\nCurrently on a Sev A case with MS.\n\n**Edit:** Removed AV &gt; fixed a firewall rule for Exchange server to file share witness &gt; tried to force cluster to start &gt; issue persists\n\n  \n**RESOLVED**: AV removed this file a week ago C:\\\\Windows\\\\System32\\\\clusauthmgr.dll and we had to restore it. AV exclusions not working sigh"
+  },
+  {
+    "sample_id": "M20261007-212",
+    "title": "Zabbix data source broke after Upgrade",
+    "post_body": "Hello everyone, I'm having a bit of a problem.\n\nI updgraded Zabbix, Grafana, and the plugin to the latest versions, but now the Zabbix data source isn't working.\n\nEnvironment:\n\n  \nDebian 12.3.0\n\nZabbix 7.4.5\n\nGrafana 12.3.0\n\nZabbix Plugin 6.0.3\n\n\n\nError:\n\nhttps://preview.redd.it/y5pfimqyxz3g1.png?width=546&amp;format=png&amp;auto=webp&amp;s=e569f7ca6701ff51079d68122b4b6055cc889420"
+  },
+  {
+    "sample_id": "M20261007-213",
+    "title": "The entire screen is glitching and IDK why",
+    "post_body": "This keeps happening and all I remember doing is updating my laptop yesterday night. I have no Idea what the issue could be, it was perfectly fine yesterday and a little while ago. Even while typing this post I can't see what I'm doing. And it's not my entire laptop, everything else works fine. The glitched out areas keep changing and shifting around too. Please help"
+  },
+  {
+    "sample_id": "M20261007-214",
+    "title": "Fedora Linux not updating due to \"EIM-CLI\"",
+    "post_body": "Hello! I've been trying to update Fedora Linux (Fedora 43) with KDE Plasma as a security update is available, but every time I try Discover completely refuses due to... a bad GPG signature for something I didn't even know I had. Awesome sauce.  Anyways, here's the info it spat out to me:\n\n    Bad GPG signature found:\n    /var/cache/PackageKit/43/metadata/eim-43-x86_64/packages/eim-cli-0.10.5-1.x86_64.rpm could not be verified.\n    /var/cache/PackageKit/43/metadata/eim-43-x86_64/packages/eim-cli-0.10.5-1.x86_64.rpm:  digest:  SIGNATURE:  NOT OK\nApparently, this is for using an ESP-32. I uninstalled Arduino IDE, but this error *still* shows up. I'm not sure if this is a Fedora problem, Discover problem, or a Me problem, but I would like to update. Any help greatly appreciated!"
+  },
+  {
+    "sample_id": "M20261007-215",
+    "title": "Issues after upgrading to latest stable version.",
+    "post_body": "I updated to OpenClaw 2026.6.11 from a version in March since I was having issues with lossless claw requiring a newer version. Now I am having issues with compaction not working. The progress bar for tokens gets to the amount in num\\_ctx that I have set for my local model in Ollama and it just dies. Does anyone else have this as a bug or is my installation the issue?\n\n  \nBasically when context gets to about 70 percent I am not seeing Lossless Claw compact and the built in one only works if I manually do it before it gets near the limit. If it gets close it doesn't auto compact and it will go over the agent session dies and I have to make a new session or compact manually before that context is reached."
+  },
+  {
+    "sample_id": "M20261007-216",
+    "title": "7.0.0-28-generic causes shutdown/restart to hang indefinitely",
+    "post_body": "Since the update my PC:\n\nKubuntu 26.04 \nROG Strix B550-A \nR5 5600xt \nRX 7600\n\nWill not correctly shut down or restart with the newest Kernel. RGB and Fans are still on but Monitors will turn off and the shutdown/restart seems to go through without errors however nothing will happen and it will hang indefinitely until Hardware shutdown is initiated.\n\nWith 7.0.0-27-generic no such problem exists. I have made no other changes in UEFI or otherwise that should change this behavior.\n\nFor now I removed the new Kernel. Anyone with similar problem? Ideas how to fix etc?"
+  },
+  {
+    "sample_id": "M20261007-217",
+    "title": "I just updated vs code and it broke my copilot for some reason.",
+    "post_body": "https://preview.redd.it/21l6krvvbx5g1.png?width=476&amp;format=png&amp;auto=webp&amp;s=be3a8b1a7d84d327fb84ea6b5f8525958fe88aed\n\n  \nThis is the same for every model I am using.   \n`{\"message\":\"model \"qwen3-4b-instant-apply-ft\" not available\"}`  \nI dont even know what the mentioned model is. \n\n* I am using VSCode in linux (debian)\n* Extensions are all updated to latest\n* No MCP servers or tools used. just the model itself\n* Happens only on this project.\n* There is no workspace specific vscode setting\n\n&amp;#8203;\n\n    Version: 1.106.3\n    Commit: bf9252a2fb45be6893dd8870c0bf37e2e1766d61\n    Date: 2025-11-25T22:28:18.024Z\n    Electron: 37.7.0\n    ElectronBuildId: 12781156\n    Chromium: 138.0.7204.251\n    Node.js: 22.20.0\n    V8: 13.8.258.32-electron.0\n    OS: Linux x64 6.16.8+kali-amd64\n\nI dont find anything else about this online\n\n\nEdit: Guys I couldnt fix it no matter whatever I did but I just realized it was only that project which I was last working on had the issue. I even deleted the settings.json but still it was the same.\n\nSo I just copied the project to another folder, copied everything  and then it worked in that folder.\n\nIdk whatever weird but this is but I got one more reason to ditch vscode and try Antigravity"
+  },
+  {
+    "sample_id": "M20261007-218",
+    "title": "Anyone else having PTP issues on latest Unifi switch firmware?",
+    "post_body": "I run a fairly large network which includes a couple of Dante VLANs that rely on PTP. A little while after upgrading firmware, I have had various issues (surprise surprise), but the biggest and seemingly unresolvable one is that Dante clocking has gone out the window.   \nI suspect that whatever they’re trying to do with the new PTP options for the AV specific switches has messed up PTP on the others.\n\nAll devices can see each other and everything is connected - even transmitting data (on the other Dante Controller page I could see the TX/RX streams) - but there is silence because every single device has become its own clock leader due to seemingly not receiving any PTP, so they are all out of sync.\n\nThis image was taken after I isolated a significant amount of the network to try and start pinpointing the issue but it didn’t help. There are usually just over double that amount of Dante devices online and the rest were also their own clock leaders before I started isolating them."
+  },
+  {
+    "sample_id": "M20261007-219",
+    "title": "My Firefox updated and it totally borked",
+    "post_body": "I updated Firefox today on my Windows 10 machine to the latest version. Now it renders in a completely broken state."
+  },
+  {
+    "sample_id": "M20261007-220",
+    "title": "My main monitor is not working for some reason (Fedora KDE Plasma)",
+    "post_body": "https://preview.redd.it/2n758whu3z0h1.png?width=462&amp;format=png&amp;auto=webp&amp;s=36f2da3d2144864424402a731e7595ef275d2e0c\n\nI am very new to fedora and linux in general with hardly any uptime at all just an FYI. My monitor that I want to use as my main one is just not working. It is being detected and everything by fedora and just not turning on at all. It does work with my PS5 and works with my windows drive (I have a fedora ssd and a windows ssd) so I am just super confused. I am running KDE plasma if that helps.\n\nAttached is a screen shot of my settings. The monitor I want to use is the Samsung one and even though it is enabled it just is a black screen. It could be a monitor itself issue (I am able to move my mouse over and stuff) and not fedora but I just have zero idea.\n\nEDIT: I updated Fedora and the monitor displayed the Fedora update bar thingy and so I know for a damn fact that I am being tricked somehow.\n\nhttps://preview.redd.it/qvn5867ohy0h1.png?width=1027&amp;format=png&amp;auto=webp&amp;s=6f020efac2442f0fbefae0c43deda266b28ececc"
+  },
+  {
+    "sample_id": "M20261007-221",
+    "title": "Is anyone else’s Reddit profile/settings button not working on Safari after the iOS 26.5 update?",
+    "post_body": "The button at the top right with my avatar. Since the update, that button no longer works while in Safari or web app version. It continues working as before in other browsers. Anyone else having the same issue or is it something about my setup?"
+  },
+  {
+    "sample_id": "M20261007-222",
+    "title": "This appeared after the new update is this normal",
+    "post_body": "These appeared when I typed C on Google Chrome on my android I've never searched these can't find them in history and can't seem to remove them from suggestions."
+  },
+  {
+    "sample_id": "M20261007-223",
+    "title": "New mysterious buttons - can they be disabled?",
+    "post_body": "Hi. I have updated to the latest version of Chrome (142.0.7444.171) and noticed new buttons as the title says: An \"AI mode\" and an Incognito button at the start, another (possibly still \"AI mode\") button while searching. Is there any way I can remove/disable these at least (one being with Flags)?"
+  },
+  {
+    "sample_id": "M20261007-224",
+    "title": "Latest Chrome update disables all my extensions unless I open it with most used site shortcut",
+    "post_body": ""
+  },
+  {
+    "sample_id": "M20261007-225",
+    "title": "Upgrade to kernel 7.0.8-100.fc43 on F43 doesn't recognize devices",
+    "post_body": "After the latest update to f43 which brought kernel 7.0.8-100.fc43 my machine booted into the new kernel and devices weren't recognized properly neither USB nor my HDMI monitor. Booting the previous kernel (still 6.19.x) works fine. Hoping someone has seen this or can point me at the right bug to follow (or where else to report this). This is giving me PTSD from my (few) Manjaro days lol"
+  },
+  {
+    "sample_id": "M20261007-226",
+    "title": "Opening a Workspace opens all the inactive tabs on latest version",
+    "post_body": "I hope this is not a \"feature\" and is just a bug.\n\nI usually store lots of tabs on my Workspace to be used later and it was working fine before but the latest update came with a \"feature\" to load all of the inactive tabs in your Workspace. It doesn't care at all about the RAM usage, it just wants to open all of them. Older versions doesn't have this at all\n\nOSes, MS Edge versions and laptops used:\n\nLOQ 15 (Fedora 43 KDE and Windows 11): Version 146.0.3856.62 (Official build) (64-bit)  \nX1 Carbon Gen 6 (Fedora KDE 43): Version 114 (can't copy the full info because it's not with me atm)"
+  },
+  {
+    "sample_id": "M20261007-227",
+    "title": "Tahoe 26.3.1 Display Color/Graininess Bug",
+    "post_body": "I’m running into a bug that makes the display of my 2023 MacBook Pro (M3 chip) show incorrect colors and a kind of grainy effect. This started about a week after updating to Tahoe 26.3.1. If I reboot it corrects but then after sleeping it'll revert to this distorted color view with grainy text. The grainy text is odd because it's not universal - in areas where text would be blurred as part of the liquid glass look it shows as clear and then there's other random spots throughout a page where it'll be clear, I don't quite see a pattern.\n\nAny tips to fix / diagnose the issue?\n\nThe photos \\[in comments\\] show:\n\n1. the color distortion (and how it doesn't extend to external display as color inversion setting normally would)\n2. how certain parts of the screen are clear while others are grainy\n3. how when inverted colors is turned on the graininess goes away (and you can see other display settings)"
+  },
+  {
+    "sample_id": "M20261007-228",
+    "title": "Big empty space above logo since last update",
+    "post_body": "Since the last update there is now a big empty space above the logo and the icons in the hotbars now sit against the bottom of the screen. Very annoying, anyone know a fix? I already tried everything in the settings.\n\nhttps://preview.redd.it/dgundwmvxn2h1.png?width=1205&amp;format=png&amp;auto=webp&amp;s=76ffcbb49e098e73cdd9d1279340f44718b971c4"
+  },
+  {
+    "sample_id": "M20261007-229",
+    "title": "Camera app keeps closing after android update?",
+    "post_body": "Hey, I'm using a Motorola Razr 2025, and ever since the most recent android update my camera app closes as soon as I open it. any way I can fix this?\n\nEdit: I forgot to mention, apps that use my camera independently, like Instagram, work fine, but something that opens the camera app itself, like discord, will crash immediately"
+  },
+  {
+    "sample_id": "M20261007-230",
+    "title": "DNS completely broken after bad driver update - survived System Restore, Winsock reset, Network Reset, everything",
+    "post_body": "Specs:\n\n•\tMSI PRO B840-VC WIFI (MS-7E57)\n\n•\tAMD Ryzen 5 9600X\n\n•\tWindows 11 Home Version 25H2 (OS Build 26200.8457)\n\n•\tMediaTek Wi-Fi 7 MT7925 Wireless LAN Card\n\nWhat happened:\n\nClaude Code updated drivers on May 13th (attempting to update integrated GPU, I know this was a dumb move but I was overconfident). This caused a system crash on boot. Did a System Restore to a May 13th restore point which got Windows booting again, but WiFi shows “No internet, secured” ever since.\n\nWhat we’ve confirmed:\n\n•\tping 8.8.8.8 works perfectly (0% packet loss) - internet connection is physically working\n\n•\tping google.com fails - “Ping request could not find host”\n\n•\tnslookup google.com 8.8.8.8 works - DNS works when forced directly to Google\n\n•\tDNS client service (dnscache) is RUNNING\n\n•\tWcmSvc is RUNNING\n\n•\tnetstat showed nvcontainer.exe (NVIDIA) on port 53 - killed it, didn’t fix it\n\n•\tEthernet interface had Mullvad VPN leftover DNS (10.10.6.1) with metric 5 (higher priority than WiFi) - changed metric to 100, didn’t fix it\n\nWhat we’ve tried:\n\n•\tSystem Restore to May 13th\n\n•\tUninstalled and reinstalled MediaTek WiFi driver from MSI’s official support page (version 5.7.0.4669)\n\n•\tnetsh winsock reset\n\n•\tnetsh int ip reset\n\n•\tipconfig /release, /renew, /flushdns\n\n•\tSet DNS to 8.8.8.8 and 8.8.4.4 manually on all interfaces\n\n•\tUninstalled Mullvad VPN completely\n\n•\tFull Windows Network Reset (Settings → Advanced network settings → Network reset)\n\n•\tHosts file is clean (only Docker and FitGirl blocks, nothing affecting google.com)\n\nCurrent state:\n\n•\tWiFi adapter shows in Device Manager with no warning icons\n\n•\tWiFi connects to router and gets valid IP (192.168.1.82) and gateway (192.168.1.1)\n\n•\tping 8.8.8.8 works\n\n•\tping google.com fails\n\n•\tFirefox cannot load any websites\n\n•\tProblem persists on phone hotspot too - rules out router issue\n\n•\tSomething is intercepting DNS requests before they reach the configured DNS servers\n\nWhat we haven’t tried:\n\n•\tWindows in-place repair/upgrade\n\nQuestion: What is intercepting DNS at a level that survives a full Windows Network Reset? How do we find and kill it?"
+  },
+  {
+    "sample_id": "M20261007-231",
+    "title": "Revert visual update?",
+    "post_body": "My Firefox just updated to some new visuals and they look terrible. The tab section is way too large and the bookmarks are also now is some egregiously large font. Just looks terrible all the way around. Any way to revert? Can't find anything in settings."
+  },
+  {
+    "sample_id": "M20261007-232",
+    "title": "Nodes are not joining after upgrading eks to v1.33",
+    "post_body": ""
+  },
+  {
+    "sample_id": "M20261007-233",
+    "title": "[SOLVED] iPhone stuck on recovery screen after failed Finder update — \"An unknown error occurred (68). 0697.0044\" — fixed for free without restoring or losing data",
+    "post_body": "\\*\\*TL;DR:\\*\\* A failed Finder update left my iPhone 12 mini stuck on the recovery screen (cable + computer icon). The OS on the phone was actually fine — the failed update just left the phone flagged to boot into recovery. One free command (\\`irecovery -n\\`) rebooted it back to normal with all my data intact. No restore, no erase, no paid \"iOS repair\" tools.\n\n\\## What happened\n\n\\- Tried to update my iPhone 12 mini (iOS 26.5 → 26.5.2) through Finder on macOS.  \n\\- Update failed with: \\*\\*\"No se pudo actualizar tu iPhone. Ocurrió un error desconocido (68). 0697.0044\"\\*\\* (in English: \"The iPhone could not be updated. An unknown error occurred (68)\").  \n\\- After that, the phone would not boot — stuck on the recovery mode screen.  \n\\- To make it worse, I had \\*\\*no backup\\*\\* (my last Finder backup attempt had silently failed and left an empty folder).\n\nEverything online tells you to \"Restore\" at this point, which \\*\\*erases the phone\\*\\*. Don't do that yet.\n\n\\## The key insight\n\nRecovery mode ≠ broken OS. The iPhone's boot process checks an \"auto-boot\" flag in NVRAM. A failed update can leave that flag pointing at recovery mode \\*\\*even though the operating system on the phone is completely intact\\*\\*. If that's your case, you don't need to restore anything — you just need to flip the flag back and reboot.\n\n\\## The fix (macOS, free, \\~2 minutes)\n\n1. Install \\[libirecovery\\](https://github.com/libimobiledevice/libirecovery) (open source, part of the libimobiledevice project):  \n   \\`\\`\\`  \n   brew install libirecovery  \n   \\`\\`\\`  \n2. Connect the iPhone (still on the recovery screen) via USB and confirm the Mac sees it:  \n   \\`\\`\\`  \n   irecovery -q  \n   \\`\\`\\`  \n   You should see \\`MODE: Recovery\\` plus your device model.  \n3. Tell it to re-enable normal boot and restart:  \n   \\`\\`\\`  \n   irecovery -n  \n   \\`\\`\\`  \n4. The phone reboots. If the OS is intact (very likely after a \\*failed update\\*, since updates are atomic — they either fully apply or don't apply at all), it boots straight back to your old iOS version with \\*\\*all data intact\\*\\*.\n\nIf it falls back to the recovery screen instead, then the system partition really is damaged — connect to Finder and choose \\*\\*Update\\*\\* (NOT Restore). Update reinstalls iOS \\*on top of\\* your data. Restore erases. Only use Restore/DFU as an absolute last resort.\n\n\\## Back up IMMEDIATELY after it boots\n\nYou just dodged a bullet — don't retry the update without a backup. You can use Finder, or the open-source route (writes a Finder-compatible backup to a folder you control):\n\n\\`\\`\\`  \nbrew install libimobiledevice  \nidevicebackup2 backup --full \\~/iPhoneBackups  \n\\`\\`\\`\n\nVerify it actually finished (my earlier Finder backup had failed silently — an empty folder):\n\n\\`\\`\\`  \nplutil -extract SnapshotState raw \\~/iPhoneBackups/&lt;your-device-UDID&gt;/Status.plist  \n\\`\\`\\`\n\nIt must say \\`finished\\`. If it says anything else (\\`moving\\`, etc.), just re-run the backup command — it resumes instead of starting over.\n\n\\## Other things I learned the hard way\n\n\\- \\*\\*Error 68 is almost certainly a USB communication problem.\\*\\* In my case the phone later dropped off the USB bus again mid-backup with a different error. Swap the cable (charge-only cables are a classic trap), use a different port, and prefer Apple-certified cables before blaming the phone.  \n\\- \\*\\*Retry the update over-the-air instead\\*\\* (Settings → General → Software Update on the phone). It doesn't involve the Mac, the cable, or Finder at all.  \n\\- \\*\\*You cannot install \"the previous iOS version.\"\\*\\* Apple only signs the latest release (you can check what's currently signed for your model at ipsw.me). Once your phone boots, the version it's already running IS your previous working version — the failed update never got applied.  \n\\- Recovery mode \"exit\" is the same thing paid \"iOS system repair\" apps charge for. \\`irecovery -n\\` is the free, open-source version.\n\nHope this saves someone's data. Nothing here voids anything — libimobiledevice/libirecovery are the same open-source tools used by security researchers and repair shops for years."
+  },
+  {
+    "sample_id": "M20261007-234",
+    "title": "Why does verify Window open user gesture not working on Safari after iOS 18.5 update?",
+    "post_body": ""
+  },
+  {
+    "sample_id": "M20261007-235",
+    "title": "Latest update broke my Wifi",
+    "post_body": "Has anyone else had problem with the latest update to Unifi and Network application? \n\nI had a perfectly good running setup with a Cloud Gateway and 3 AC lite APs, after the update there was no wifi at all. All APs simply had status of disconnected.\n\nOnly thing that changed was an auto update in the middle of the night."
+  },
+  {
+    "sample_id": "M20261007-236",
+    "title": "Twitter notifications doesnt works after latest update.",
+    "post_body": "Hi Twitter notifications stopped working after latest firefox update only i have this problem? after turning on notis says unsupported browser\n\nhttps://preview.redd.it/o3v8m041j08g1.png?width=1305&amp;format=png&amp;auto=webp&amp;s=8cdd77d2920892e5eaf843ba911ce42669c6beff"
+  },
+  {
+    "sample_id": "M20261007-237",
+    "title": "Issue with syntax highlighting on hover after updating to 0.11",
+    "post_body": ""
+  },
+  {
+    "sample_id": "M20261007-238",
+    "title": "My Agent Randomly Broke and wont Perform Actions Anymore!",
+    "post_body": "Didnt really do anything besides update openclaw. Now when I ask it to do something, it says its gonna do something and never actually gets to it. Example:\n\nme: Check for updates\n\nagent: checking\n\nme: what version of openclaw are we on\n\nagent: checking now\n\nIm on latest version of openclaw and 5.4 codex. saw same issue on 5.3 codex too."
+  },
+  {
+    "sample_id": "M20261007-239",
+    "title": "Chrome issues after recent update, was wondering if anyone was experience same thing",
+    "post_body": "Hi Reddit, Have been experiencing issues since I download the recent update of Chrome a couple of days ago...\n\nCan load like one tab easy but if I add one more it starts to freeze out... Think it might be because they added Gemini to the tab (which honestly I don't understand why you need in the first place... Was just wondering if anyone is experiencing the same issues"
+  },
+  {
+    "sample_id": "M20261007-240",
+    "title": "xiaomi_miio, ble_monitor, and xiaomi_ble broken due to cffi update",
+    "post_body": "if anyone else has these integrations not working, here's the temporary fix from gemini:\n\n\n\n# Cause of the Error\n\nOn **July 6, 2026** (two days ago), `cffi` version `2.1.0` was released. Home Assistant's dependency manager ran during startup and upgraded the Python side of `cffi` to version `2.1.0`. However, the compiled system binary (`_cffi_backend`) packaged inside the Docker container remains at version `2.0.0`. This difference triggers the `ImportError` / version mismatch, breaking all integrations that rely on encryption libraries like `pycryptodome` or `cryptography`.\n\n# Fix Applied\n\nI updated the following files to pin the required version of `cffi` to `2.0.0` to match the compiled container backend:\n\n1. `custom_components/ble_monitor/manifest.json`: Added `\"cffi==2.0.0\"` to requirements.\n2. `custom_components/xiaomi_cloud_map_extractor/manifest.json`: Added `\"cffi==2.0.0\"` to requirements.\n3. `custom_components/thermomaven/manifest.json`: Added `\"cffi==2.0.0\"` to requirements.\n\nThis ensures that whenever the Home Assistant container runs pip at startup, it forces `cffi` back to the stable version `2.0.0` instead of letting it upgrade to `2.1.0`.\n\n# Step to Verify and Run\n\nRun these commands on your terminal at your docker host to force the reinstall inside your running container and restart Home Assistant:\n\n    Step to Verify and RunRun these commands on your terminal at poldim@Rift:/volume2/docker to force the reinstall inside your running container and restart Home Assistant:\n\n\\# 1. Force the cffi downgrade inside the homeassistant container\n\n`docker exec -it homeassistant pip install --force-reinstall --no-cache-dir cffi==2.0.0`\n\n\n\n\\# 2. Restart Home Assistant to load the correct library\n\n`docker restart homeassistant`"
+  },
+  {
+    "sample_id": "M20261007-241",
+    "title": "iOS 27: How to fix \"Listen to Page\" stuttering/freezing when the screen is off?",
+    "post_body": "Hi everyone,\n\nI’ve run into a technical issue after updating to iOS 27 and was wondering if anyone knows a workaround or a fix.\n\nI frequently use the \"Listen to Page\" feature in Safari with Siri Voice 1 (male). It worked perfectly on iOS 26, but on iOS 27, the audio starts stuttering and freezing as soon as I minimize Safari or lock the screen. This makes it almost impossible to listen to articles in the background.\n\nI’ve noticed that this is even more pronounced when Lockdown Mode is enabled. Interestingly, in Lockdown Mode, the feature starts almost instantly, whereas in normal mode, there is a few-second delay before it begins reading.\n\nI suspect it might be related to how iOS 27 handles background processes, but I'm not sure. I've attached a few videos demonstrating the issue.\n\nDoes anyone know if there are any specific settings I should change to stop this from happening? Or is this a known system bug that requires an official update?\n\nThanks in advance for any help!"
+  },
+  {
+    "sample_id": "M20261007-242",
+    "title": "Edge on iOS no longer block ads after update",
+    "post_body": "Edge updated on iOS yesterday for me and blocking ads is no longer possible, I use uBlock Origin Lite and it doesn't block anything anymore and neither does the built in Adblock Pro when I enable that.\n\nAnyone ran into the same issue and know of a fix? I tried to install Brave and built in adblocker in that worked but I don't really want to swap browser."
+  },
+  {
+    "sample_id": "M20261007-243",
+    "title": "MacOS 26.4 - broken smb-share access",
+    "post_body": "So FYI: after updating to MacOS 26.4 it is no longer possible to access my companies SMB-shares through my Mac and OVPN-connection, making it unable for me to work properly."
+  },
+  {
+    "sample_id": "M20261007-244",
+    "title": "Chrome scrolls slowly (5px per scroll) after updating to the latest version on Ubuntu",
+    "post_body": "It feels like it moves only 5px per scroll. It happens only in Google Chrome. I tried to fix it, but nothing seems to work.\n\nAnyone else facing the same issue? Your help is appreciated.\n\nhttps://preview.redd.it/btiym11cab5g1.png?width=701&amp;format=png&amp;auto=webp&amp;s=c71cf0bc33e2e50c7496a80bd8a18cd36fc3f053"
+  },
+  {
+    "sample_id": "M20261007-245",
+    "title": "Not enough space to upgrade OS?",
+    "post_body": "I'm trying to upgrade my MacOS on my personal computer. I'm getting this error message. But it looks like I have plenty of free space? Is there any work around / what am I missing? Is there any way I can at least upgrade past MacOS 12? I honestly had no idea I let it lapse this long and hadn't upgraded (thought I had automatic updates on), until I got an error message that I can't upgrade my Chrome until I move past MacOS 12. Appreciate any tips from anyone!"
+  },
+  {
+    "sample_id": "M20261007-246",
+    "title": "Weird Bluetooth issue after recent update",
+    "post_body": "Samsung S25 Ultra running Android 16. After recent update, my phone has developed a very annoying issue. When connected to any Bluetooth device, and after receiving or making a call (even declined calls), my phone will begin to continuously call itself over and over. This persists until I disconnect from Bluetooth. I can't interact with the phone app to discontent these calls, but my Bluetooth device immediately goes into \"call\" mode. Please help!"
+  },
+  {
+    "sample_id": "M20261007-247",
+    "title": "ThinkPad L15 Gen 4 - Ubuntu 24.04 freezing + NTFS partition inaccessible after BIOS update (Dual Boot with Windows 11)",
+    "post_body": "Hi everyone,\n\nI'm running Ubuntu 24.04 alongside Windows 11 (dual boot) on my ThinkPad L15 Gen 4 (21H3, purchased 2024). I'm facing some issues mainly related to Ubuntu and not sure if it's hardware or software:\n\n**Issue 1 - NTFS Partition inaccessible after BIOS update:** After updating BIOS to R24ET52W (1.35), my Windows NTFS partition (/dev/nvme0n1p8) became inaccessible from Ubuntu with error: \"wrong fs type, bad option, bad superblock\"\n\ndmesg showed: \"volume is dirty and force flag is not set\"\n\nTemporary fix: sudo ntfsfix /dev/nvme0n1p8\n\nBut this keeps happening after every reboot. Is there a permanent fix?\n\n**Issue 2 - Ubuntu freezing after BIOS update:** Before the recent BIOS update, only Windows used to freeze occasionally. But after the update 2 days ago, Ubuntu has also started freezing during use.\n\nAlso, when I restart from Windows directly into Ubuntu, the system gets stuck during boot. I have to fully shut down Windows first and then boot into Ubuntu for it to work properly.\n\nThese issues seem to get worse after OS updates or BIOS updates. Is this a known issue with Ubuntu 24.04 on ThinkPad L15 Gen 4? Could it be a driver/kernel compatibility issue with the new BIOS?\n\n**Specs:**\n\n* Model: ThinkPad L15 Gen 4 (Type 21H3)\n* RAM: 32GB\n* Ubuntu version: 24.04 LTS\n* BIOS: R24ET52W (1.35)\n* Dual boot with Windows 11\n\nStill under warranty — any help or similar experiences appreciated!"
+  },
+  {
+    "sample_id": "M20261007-248",
+    "title": "Windows Server 2025 CUs broke macOS printing: SMB dead, IPPS inconsistent, only LPD works",
+    "post_body": "Hey there,\n\n  We’re troubleshooting a print regression that surfaced **immediately after applying recent cumulative updates to a Windows Server 2025 print server**. And by recent I mean, the server received probably seven months of updates overnight. Prior to the updates, macOS printing had been stable.\n\n# Environment\n\n* Windows Server 2025 (Print Server role)\n* Large, centralized print server\n* macOS clients (Ventura / Sonoma)\n* Historically used **SMB (**`smb://server/queue`**)**\n* No macOS updates coinciding with failure\n\n# What broke\n\nAfter patching the Server 2025 print server:\n\n* **SMB printing from macOS completely stopped working**\n* Existing SMB printers fail; jobs stall, disappear, or never hit the server queue\n* Re-adding printers via SMB no longer works\n* Windows clients continue to print normally\n* Spooler remains stable; no crashes or obvious errors\n\nMultiple admins reproduced the behavior across systems, ruling out client-side drift.\n\n# LPD (port 515)\n\n* Enabling **LPD/LPR** allows macOS clients to print reliably\n* Jobs often succeed **without authentication**\n* This is obviously **not acceptable long-term** and only being considered as an emergency stopgap\n\n# IPP / IPPS testing (intended long-term path)\n\nWe pivoted to **IPP/IPPS over HTTPS**, but results have been inconsistent and difficult to troubleshoot. Server 2025 IPPS setup and documentation is almost non-existent.\n\nWhat we confirmed:\n\n* HTTPS connectivity to the print server works\n* Valid certificate chain is presented\n* IPP endpoints respond with **401 Unauthorized**, indicating IIS + auth are active\n* Ports 443 reachable; 631 on **Server 2025** doesn't appear to be protocol with IPPS\n\nWhat fails:\n\n* macOS often hangs while adding the printer\n* Printers add successfully but jobs get stuck in *waiting / paused*\n* CUPS debug logs show IPP requests being sent and connections established, but jobs later fail with broken pipe / waiting states\n* Little to no corresponding server-side spool activity\n\n# Testing details\n\n* Tested via `lpadmin` using:\n   * `https://printserver/printers/&lt;queue&gt;`\n   * `ipp://` and `ipps://` variants\n* Results were **non-deterministic**: some printers add, others hang, none actually successfully print\n* In a few cases, **direct IPP from macOS to the printer itself works**, suggesting this is specifically a **macOS → Windows Server 2025 print server** issue, not pure IPP\n\n# Current state (feels wrong, but accurate)\n\n* SMB: ❌ completely broken for macOS\n* IPPS: ⚠ technically alive but unreliable / opaque\n* LPD: ✅ consistently works, but insecure\n\n# Looking for input\n\n* Has anyone else seen **Server 2025 updates break macOS SMB printing** outright?\n* Does anyone have an existing Server 2025 print server setup where macOS and`smb://` printing maps are still working?\n* Are recent CUs tightening:\n   * SMB auth/signing in a way macOS can’t negotiate?\n   * Print security defaults impacting non-Windows clients?\n* Is **IPP/IPPS on Server 2025** actually considered production-ready for macOS today?\n* Are others quietly falling back to LPD, or moving print off Windows entirely?\n\nAt this point it’s unclear whether this is:\n\n* A regression\n* An intentional hardening change\n* Or Microsoft implicitly signaling that macOS should no longer print via Windows print servers at all\n\nIf you’ve hit this wall,  or found a **reliable IPPS setup on Server 2025 for macOS,** I’d really appreciate hearing about it. \n\nThanks!"
+  },
+  {
+    "sample_id": "M20261007-249",
+    "title": "Unstable performance after recent update to kernel 6.17.0-19",
+    "post_body": "I recently updated kernel version from 6.17.0-14 to 6.17.0-19. I have been experiencing issues e.g., screen displaying \"kernel panic\" Error, during normal use suddenly vs  code can't save a file even if it still open in open editor section, and black screen displaying errors with bluetooth modules.\nHave anyone experience this issues before after updating to kernel 6.17.0.19?"
+  },
+  {
+    "sample_id": "M20261007-250",
+    "title": "Camera G4 Instant RMA failed after firmware update",
+    "post_body": "Had to RMA my G4 instant after it suddenly developed a bright white line in the middle of the feed. \n\nReceived the replacement after about two weeks, was able to quickly adopt it. Consequently it decided to update its firmware without asking me for permission, and never returned online. Power booting changed light from solid red to fast blinking white. \n\nI am now unable to re adopt it, tried factory reset multiple times, it just won’t connect to WiFi. \n\nI have initiated another RMA request, but just wondering if this is a known issue? I expected better from Ubiquity."
+  }
+]

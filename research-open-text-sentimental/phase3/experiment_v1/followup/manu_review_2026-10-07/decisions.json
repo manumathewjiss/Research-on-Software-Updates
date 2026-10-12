@@ -1,0 +1,363 @@
+[
+  {
+    "reddit_id": "1rjfro4",
+    "decision": "keep",
+    "old_discussion_type": "technical_troubleshooting",
+    "old_s2_target": 1,
+    "reason": "The post describes an alarm that fails after iOS 26.3 and lists attempted fixes."
+  },
+  {
+    "reddit_id": "1v17vtk",
+    "decision": "keep",
+    "old_discussion_type": "general_dissatisfaction",
+    "old_s2_target": 0,
+    "reason": "The main purpose is frustration with keyboard changes; it does not ask for a practical fix."
+  },
+  {
+    "reddit_id": "1wuyax5",
+    "decision": "keep",
+    "old_discussion_type": "technical_troubleshooting",
+    "old_s2_target": 1,
+    "reason": "The author asks how to restore square Firefox tabs after an update."
+  },
+  {
+    "reddit_id": "1rm1fsa",
+    "decision": "keep",
+    "old_discussion_type": "technical_troubleshooting",
+    "old_s2_target": 1,
+    "reason": "Missing message photos and search results are concrete problems the author asks about."
+  },
+  {
+    "reddit_id": "1lsuvac",
+    "decision": "uncertain",
+    "old_discussion_type": "other",
+    "old_s2_target": 0,
+    "reason": "Only the title is saved. It does not show whether this is a how-to request, a failed upgrade, or an announcement."
+  },
+  {
+    "reddit_id": "1puf7lm",
+    "decision": "keep",
+    "old_discussion_type": "other",
+    "old_s2_target": 0,
+    "reason": "The post praises a redesigned browser extension and its new features."
+  },
+  {
+    "reddit_id": "1vspeu6",
+    "decision": "keep",
+    "old_discussion_type": "other",
+    "old_s2_target": 0,
+    "reason": "The main purpose is sharing a positive move to Linux and asking for general suggestions; the minor issues are secondary."
+  },
+  {
+    "reddit_id": "1wuwdcs",
+    "decision": "keep",
+    "old_discussion_type": "technical_troubleshooting",
+    "old_s2_target": 1,
+    "reason": "The author asks how to recover missing Firefox tab groups and find the menu."
+  },
+  {
+    "reddit_id": "1tebwdi",
+    "decision": "change",
+    "old_discussion_type": "technical_troubleshooting",
+    "old_s2_target": 1,
+    "reason": "The update broke services, but the post mainly vents and says the author will repair or replace the setup; it does not seek help.",
+    "new_s2_target": 0,
+    "new_discussion_type": "general_dissatisfaction"
+  },
+  {
+    "reddit_id": "1tfj4f4",
+    "decision": "keep",
+    "old_discussion_type": "general_dissatisfaction",
+    "old_s2_target": 0,
+    "reason": "This is a complaint about Chrome crashing after an update, without a real troubleshooting request."
+  },
+  {
+    "reddit_id": "1wu62xu",
+    "decision": "keep",
+    "old_discussion_type": "other",
+    "old_s2_target": 0,
+    "reason": "The post promotes a monitoring tool for plugin-update failures rather than troubleshooting its own site."
+  },
+  {
+    "reddit_id": "1vrquz0",
+    "decision": "keep",
+    "old_discussion_type": "other",
+    "old_s2_target": 0,
+    "reason": "This presents a ComfyUI implementation and demonstration of LTX 2.5 features."
+  },
+  {
+    "reddit_id": "1vsvieb",
+    "decision": "keep",
+    "old_discussion_type": "other",
+    "old_s2_target": 0,
+    "reason": "The post announces a beta release and describes its new features."
+  },
+  {
+    "reddit_id": "1od3glr",
+    "decision": "keep",
+    "old_discussion_type": "general_dissatisfaction",
+    "old_s2_target": 0,
+    "reason": "The main purpose is broader frustration with Linux reliability after updates."
+  },
+  {
+    "reddit_id": "1rvkxr8",
+    "decision": "keep",
+    "old_discussion_type": "general_dissatisfaction",
+    "old_s2_target": 0,
+    "reason": "This criticizes an Android toolbar redesign, with no focused repair request."
+  },
+  {
+    "reddit_id": "1qom6ds",
+    "decision": "keep",
+    "old_discussion_type": "technical_troubleshooting",
+    "old_s2_target": 1,
+    "reason": "Dell Monitor Manager stopped working after a Windows update; the author describes a specific failure."
+  },
+  {
+    "reddit_id": "1suy71k",
+    "decision": "keep",
+    "old_discussion_type": "technical_troubleshooting",
+    "old_s2_target": 1,
+    "reason": "The author asks whether the changed Chrome tab-group behavior is fixable."
+  },
+  {
+    "reddit_id": "1v17wwt",
+    "decision": "keep",
+    "old_discussion_type": "general_dissatisfaction",
+    "old_s2_target": 0,
+    "reason": "This repeats the keyboard complaint in row 2 and should receive the same label."
+  },
+  {
+    "reddit_id": "1u1hh3o",
+    "decision": "keep",
+    "old_discussion_type": "technical_troubleshooting",
+    "old_s2_target": 1,
+    "reason": "Jetpack Social lost controls after an update; the author tried fixes and asks for ideas."
+  },
+  {
+    "reddit_id": "1p03h1q",
+    "decision": "keep",
+    "old_discussion_type": "technical_troubleshooting",
+    "old_s2_target": 1,
+    "reason": "The Copilot sidebar lost memory behavior and the author asks for advice after checking settings."
+  },
+  {
+    "reddit_id": "1v5cgo7",
+    "decision": "keep",
+    "old_discussion_type": "technical_troubleshooting",
+    "old_s2_target": 1,
+    "reason": "The Ninja agent stopped working after an update; the post identifies a specific operational failure."
+  },
+  {
+    "reddit_id": "1ry5y9x",
+    "decision": "keep",
+    "old_discussion_type": "other",
+    "old_s2_target": 0,
+    "reason": "This is a retrospective account of a backend migration and its fix, not a request to diagnose an active problem."
+  },
+  {
+    "reddit_id": "1ssx48c",
+    "decision": "keep",
+    "old_discussion_type": "other",
+    "old_s2_target": 0,
+    "reason": "This announces iOS security and bug-fix releases."
+  },
+  {
+    "reddit_id": "1piv7fr",
+    "decision": "keep",
+    "old_discussion_type": "technical_troubleshooting",
+    "old_s2_target": 1,
+    "reason": "A plugin update crashed the WordPress site and the author explicitly asks for help."
+  },
+  {
+    "reddit_id": "1vtni70",
+    "decision": "keep",
+    "old_discussion_type": "other",
+    "old_s2_target": 0,
+    "reason": "This is a TrueNAS beta release announcement."
+  },
+  {
+    "reddit_id": "1pe4x00",
+    "decision": "keep",
+    "old_discussion_type": "technical_troubleshooting",
+    "old_s2_target": 1,
+    "reason": "The author asks how to turn off a specific ComfyUI interface change after updating."
+  },
+  {
+    "reddit_id": "1pt9tux",
+    "decision": "keep",
+    "old_discussion_type": "other",
+    "old_s2_target": 0,
+    "reason": "This is a completed VLAN setup guide, even though a software upgrade appears in its background."
+  },
+  {
+    "reddit_id": "1v184ol",
+    "decision": "keep",
+    "old_discussion_type": "technical_troubleshooting",
+    "old_s2_target": 1,
+    "reason": "Immich deletion sync changed after app and server updates, and the author asks for help."
+  },
+  {
+    "reddit_id": "1uhuat7",
+    "decision": "keep",
+    "old_discussion_type": "other",
+    "old_s2_target": 0,
+    "reason": "The author shares a completed engineering lesson after fixing a dependency-related bug."
+  },
+  {
+    "reddit_id": "1ry5wjh",
+    "decision": "keep",
+    "old_discussion_type": "other",
+    "old_s2_target": 0,
+    "reason": "This repeats the backend migration account in row 22 and should receive the same label."
+  },
+  {
+    "reddit_id": "1vzmdo0",
+    "decision": "keep",
+    "old_discussion_type": "other",
+    "old_s2_target": 0,
+    "reason": "This reports a Zimbra vulnerability and exploitation, rather than seeking a fix for a local failure."
+  },
+  {
+    "reddit_id": "1lrpn7u",
+    "decision": "uncertain",
+    "old_discussion_type": "technical_troubleshooting",
+    "old_s2_target": 1,
+    "reason": "“Error update” gives no product, symptom, or context to judge the discussion type."
+  },
+  {
+    "reddit_id": "1u9ea81",
+    "decision": "keep",
+    "old_discussion_type": "other",
+    "old_s2_target": 0,
+    "reason": "The post reports a patched plugin vulnerability and advises readers to update."
+  },
+  {
+    "reddit_id": "1sqptnw",
+    "decision": "keep",
+    "old_discussion_type": "other",
+    "old_s2_target": 0,
+    "reason": "This reports comparative tests of a new Qwen release; “Update 1” is also a post edit."
+  },
+  {
+    "reddit_id": "1nny826",
+    "decision": "keep",
+    "old_discussion_type": "other",
+    "old_s2_target": 0,
+    "reason": "The title is a version announcement without a troubleshooting request."
+  },
+  {
+    "reddit_id": "1vo45fq",
+    "decision": "keep",
+    "old_discussion_type": "technical_troubleshooting",
+    "old_s2_target": 1,
+    "reason": "The author asks how to restore the previous Chrome layout after an iOS update."
+  },
+  {
+    "reddit_id": "1qhzvb4",
+    "decision": "keep",
+    "old_discussion_type": "general_dissatisfaction",
+    "old_s2_target": 0,
+    "reason": "The main purpose is criticism of Pages performance after Tahoe, with no request for diagnosis or a fix."
+  },
+  {
+    "reddit_id": "1s3b7fu",
+    "decision": "keep",
+    "old_discussion_type": "other",
+    "old_s2_target": 0,
+    "reason": "This is an advisory on preparing for OpenClaw breaking changes."
+  },
+  {
+    "reddit_id": "1u4u84m",
+    "decision": "keep",
+    "old_discussion_type": "technical_troubleshooting",
+    "old_s2_target": 1,
+    "reason": "The author seeks a solution to repeated disconnections after an Ivanti upgrade."
+  },
+  {
+    "reddit_id": "1s3krfu",
+    "decision": "uncertain",
+    "old_discussion_type": "other",
+    "old_s2_target": 0,
+    "reason": "The title names a beta update but has no body to show whether it is news, praise, or a problem."
+  },
+  {
+    "reddit_id": "1oruawb",
+    "decision": "keep",
+    "old_discussion_type": "other",
+    "old_s2_target": 0,
+    "reason": "This is a vulnerability notice for a WordPress plugin."
+  },
+  {
+    "reddit_id": "1vwf4gb",
+    "decision": "keep",
+    "old_discussion_type": "other",
+    "old_s2_target": 0,
+    "reason": "The author reports an uncomplicated Fedora beta upgrade."
+  },
+  {
+    "reddit_id": "1prh6p8",
+    "decision": "keep",
+    "old_discussion_type": "technical_troubleshooting",
+    "old_s2_target": 1,
+    "reason": "The author describes lost Edge data, failed resync, and a specific sync malfunction after an update."
+  },
+  {
+    "reddit_id": "1liut7m",
+    "decision": "keep",
+    "old_discussion_type": "technical_troubleshooting",
+    "old_s2_target": 1,
+    "reason": "The title explicitly says the author cannot fix an update; this is a troubleshooting request despite thin detail."
+  },
+  {
+    "reddit_id": "1qzew1k",
+    "decision": "uncertain",
+    "old_discussion_type": "other",
+    "old_s2_target": 0,
+    "reason": "“Bestiary layout update” lacks enough context to judge whether it is an announcement, complaint, or request."
+  },
+  {
+    "reddit_id": "1wwq5fa",
+    "decision": "keep",
+    "old_discussion_type": "other",
+    "old_s2_target": 0,
+    "reason": "This announces a new CageMaker version and its changes."
+  },
+  {
+    "reddit_id": "1qm42nd",
+    "decision": "keep",
+    "old_discussion_type": "general_dissatisfaction",
+    "old_s2_target": 0,
+    "reason": "The post is primarily a rant about Eventin after an update and does not ask readers to troubleshoot it."
+  },
+  {
+    "reddit_id": "1ww2p7s",
+    "decision": "keep",
+    "old_discussion_type": "other",
+    "old_s2_target": 0,
+    "reason": "This announces the Frosted Glass v1.4 release."
+  },
+  {
+    "reddit_id": "1wxl2u9",
+    "decision": "keep",
+    "old_discussion_type": "other",
+    "old_s2_target": 0,
+    "reason": "The author asks for planning advice before an upgrade; no current software failure needs diagnosis or repair."
+  },
+  {
+    "reddit_id": "1wxl3ma",
+    "decision": "keep",
+    "old_discussion_type": "other",
+    "old_s2_target": 0,
+    "reason": "This is the same Kubernetes upgrade-planning text as rows 49 and 51, so the same label applies."
+  },
+  {
+    "reddit_id": "1wxl35m",
+    "decision": "change",
+    "old_discussion_type": "technical_troubleshooting",
+    "old_s2_target": 1,
+    "reason": "This duplicates rows 49 and 50. All three ask for upgrade-planning advice rather than fixing an existing failure.",
+    "new_s2_target": 0,
+    "new_discussion_type": "other"
+  }
+]

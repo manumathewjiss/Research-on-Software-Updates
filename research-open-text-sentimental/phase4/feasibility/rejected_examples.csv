@@ -1,0 +1,188 @@
+reddit_id,subreddit,title,original_body,rejection_reason,screening_status
+1ppznvv,debian,"All ""suspend"" targets masked but Gnome desktop login still says system will suspend","Debian 13 (gnome) upgraded from 12
+
+When I installed 12 on a server I masked all the suspend targets (sleep, suspend, hibernate, hybrid-sleep).
+
+After upgrading to 13, on the Gnome login screen I found a message saying, in effect, that the system was going to suspend ""due to inactivity"".  I don't have the exact wording as it disappeared when I moved the mouse.
+
+Checking the suspend targets I find they're still masked, and I don't think the server actually suspended.
+
+    $ sudo journalctl -b | grep -i suspend
+    Dec 17 12:00:22 debian gsd-power[2388]: Error calling suspend action: GDBus.Error:org.freedesktop.login1.SleepVerbNotSupported: Sleep verb 'suspend' is disabled by config
+    Dec 18 10:02:16 debian gsd-power[2388]: Error calling suspend action: GDBus.Error:org.freedesktop.login1.SleepVerbNotSupported: Sleep verb 'suspend' is disabled by config
+    
+    jhg@debian ~
+    $ cat /etc/systemd/sleep.conf.d/nosuspend.conf
+    [Sleep]
+    AllowSuspend=no
+    AllowHibernation=no
+    AllowSuspendThenHibernate=no
+    AllowHybridSleep=no
+    
+    jhg@debian ~
+    $ sudo systemctl status hybrid-sleep.target
+    ○ hybrid-sleep.target
+         Loaded: masked (Reason: Unit hybrid-sleep.target is masked.)
+         Active: inactive (dead)
+    
+    jhg@debian ~
+    $ sudo systemctl status hibernate.target
+    ○ hibernate.target
+         Loaded: masked (Reason: Unit hibernate.target is masked.)
+         Active: inactive (dead)
+    
+    jhg@debian ~
+    $ sudo systemctl status suspend.target
+    ○ suspend.target
+         Loaded: masked (Reason: Unit suspend.target is masked.)
+         Active: inactive (dead)
+    
+    jhg@debian ~
+    $ sudo systemctl status sleep.target
+    ○ sleep.target
+         Loaded: masked (Reason: Unit sleep.target is masked.)
+         Active: inactive (dead)
+
+Is this just a case of Gnome Desktop not knowing about all the ""do not suspend"" configuration settings?
+
+Is there yet another setting that tells Gnome Desktop not to attempt to sleep?",no author passage beyond a bare version or a generic update mention,cursor_suggestion_not_human_reviewed
+1q4dh08,comfyui,Comfyui just started locking up on the last node of any WAN video generation.,"https://preview.redd.it/ywachg9iwgbg1.png?width=235&amp;format=png&amp;auto=webp&amp;s=23a432f00570f693829e161fcf29bbff8846a8b8
+
+See pic above. This suddenly started happening ever since comfyui manager updated comfyui to 7.0. I tried a rollback and it did not fix the issue, no matter what version I set comfyui to this issue is now stuck and I have no idea how to fix this? the pic shows the ""video combine"" node but this issue happens always on whatever last node I have in a workflow, it doesn't matter what node it is, it always locks up on the last node. So if it's a ""play sound"" node it will just freeze the generation there and stay stuck ""running"" the generation and never finish. The thing is it DOES generate the video successfully and it's in my output folder but even though it gens the video it just locks up the generation flow and I have to quit entirely out of comfyui and reboot in order to start again.",no author passage beyond a bare version or a generic update mention,cursor_suggestion_not_human_reviewed
+1udo7aj,homeassistant,matter update failed :(,"UPDATE: I ended up removing the install, and rebooting, upon reboot the new version was still there but without my devices, since I only had 2 in there for testing purposes I just reset them and added them back in.  oh well. hopefully no one else has this issue.
+
+
+
+
+
+
+
+I kicked off the upgrade about 3 hours ago, still not up (running on an intel i9 9900), logs show this,  hoping it stops trying to start so I can restore a backup.
+
+    -----------------------------------------------------------
+     Please, share the above information when looking for help
+     or support in, e.g., GitHub, forums or the Discord chat.
+    -----------------------------------------------------------
+    s6-rc: info: service banner successfully started
+    s6-rc: info: service matter-server: starting
+    s6-rc: info: service matter-server successfully started
+    s6-rc: info: service legacy-services: starting
+    [10:42:39] INFO: Starting Matter Server...
+    s6-rc: info: service legacy-services successfully started
+    [10:42:39] INFO: Using 'eno1' as primary network interface.
+    [10:42:39] INFO: Successfully send discovery information to Home Assistant.
+    2026-06-23 10:42:42.684 INFO   MatterServer         Command line: --storage-path /data --port 5580 --log-level info --primary-interface eno1 --fabricid 2 --vendorid 4939 --listen-address 172.30.32.1 --listen-address 127.0.0.1
+    2026-06-23 10:42:42.687 INFO   MatterServer         Using storage drivers: kv=wal, blob=dir
+    2026-06-23 10:42:42.695 INFO   LegacyDataLoader     Loaded legacy chip.json with 1 fabric(s)
+    2026-06-23 10:42:42.697 INFO   LegacyDataLoader     Extracted fabric config: fabricId=2, vendorId=0x134b, nodeId=112233, serverId=server
+    2026-06-23 10:42:42.741 INFO   LegacyDataLoader     Loaded legacy server data from 10528330985696168928.json: 3 node(s), last_node_id=17
+    2026-06-23 10:42:42.741 INFO   LegacyDataLoader     Found most common fabric label ""Home"" (appeared in 2 node(s))
+    2026-06-23 10:42:42.741 INFO   MatterServer         Found legacy data: 1 fabric, 3 node(s), CA credentials
+    2026-06-23 10:42:42.742 INFO   ConfigStorage        Storage location: /data (Directory)
+    2026-06-23 10:42:42.803 INFO   ConfigStorage        Set config key fabricLabel to Home
+    2026-06-23 10:42:42.812 INFO   ConfigStorage        Set config key nextNodeId to 27
+    2026-06-23 10:42:42.818 INFO   ConfigStorage        Set config key wifiSsid to undefined
+    2026-06-23 10:42:42.823 INFO   ConfigStorage        Set config key wifiCredentials to &lt;redacted&gt;
+    2026-06-23 10:42:42.828 INFO   ConfigStorage        Set config key threadDataset to &lt;redacted&gt;
+    2026-06-23 10:42:42.835 INFO   ServerIdResolver     Found existing storage for server ID: server-2-134b
+    2026-06-23 10:42:42.847 INFO   CertificateAuthority Loaded stored credentials with ID 1 and ICAC with ID 2
+    2026-06-23 10:42:42.867 INFO   LegacyDataInjector   Fabric root public key unchanged. Skipping rewrite.
+    2026-06-23 10:42:42.867 INFO   LegacyDataInjector   FabricManager storage already has fabric index. Skipping update.
+    2026-06-23 10:42:42.868 INFO   LegacyDataInjector   Injecting node 1 into storage
+    2026-06-23 10:42:42.868 INFO   LegacyDataInjector   Node 1 already exists. Skipping injection.
+    2026-06-23 10:42:42.868 INFO   LegacyDataInjector   Injecting node 10 into storage
+    2026-06-23 10:42:42.868 INFO   LegacyDataInjector   Node 10 already exists. Skipping injection.
+    2026-06-23 10:42:42.868 INFO   LegacyDataInjector   Injecting node 17 into storage
+    2026-06-23 10:42:42.868 INFO   LegacyDataInjector   Node 17 already exists. Skipping injection.
+    2026-06-23 10:42:42.878 INFO   DclCertifi~teService Initialize CertificateService prod: https://on.dcl.csa-iot.org test: https://on.test-net.dcl.csa-iot.org
+    2026-06-23 10:42:42.880 INFO   DclVendorInfoService Initialize VendorInfoService source: https://on.dcl.csa-iot.org interval: 24h
+    2026-06-23 10:42:42.881 INFO   Controller~ndHandler BLE is disabled
+    2026-06-23 10:42:42.883 NOTICE WebSocketC~erHandler Starting server: matter-server/1.1.1 (matter.js/0.17.3)
+    2026-06-23 10:42:42.923 INFO   DclVendorInfoService Loaded 443 vendors from storage
+    2026-06-23 10:42:42.924 INFO   DclVendorInfoService seed: skipping vendors — storage has 443 entries &gt;= seed expectedCount 441
+    2026-06-23 10:42:42.924 INFO   DclVendorInfoService Fetching vendor information from DCL
+    2026-06-23 10:42:42.959 INFO   DclCertifi~teService Loaded 177 certificates from storage
+    2026-06-23 10:42:42.993 INFO   DclCertifi~teService seed: consumed 0 PAA certs from snapshot 2026-06-22T03:15:39.327Z
+    2026-06-23 10:42:42.995 INFO   DclCertifi~teService seed: consumed 0 CDSigner certs from snapshot 2026-06-22T03:15:39.327Z
+    2026-06-23 10:42:43.012 INFO   ServerNodeStore      Opened server-2-134b storage location: /data/server-2-134b driver: wal
+    2026-06-23 10:42:43.028 INFO   SessionManager       restoring resumption record for node u/1:11 and peer node u/1:11 for fabric id 0x02 (0x134b, ""Home"")
+    2026-06-23 10:42:43.139 INFO   BaseEventStore       Loaded volatile event store with next number 4001
+    2026-06-23 10:42:43.147 INFO   Endpoint             server-2-134b ready endpoint#: (unassigned) type: RootNode (0x16, rev 4) behaviors: 💤parts ✓index ✓accessControl ✓basicInformation ✓generalCommissioning ✓generalDiagnostics ✓administratorCommissioning ✓operationalCredentials ✓groupKeyManagement ✓commissioning ✓network 💤productDescription 💤subscriptions 💤sessions ✓events 💤controller ✓descriptor
+    2026-06-23 10:42:43.207 ERROR  ClientNode           [schema-implementation] Definition of NetworkCommissioning: There are multiple definitions of ""FeatureMap"" that cannot be differentiated by conformance
+      at filterWithConformance (/app/node_modules/@matter/model/src/logic/Scope.ts:427:23)
+      at Object.membersOf (/app/node_modules/@matter/model/src/logic/Scope.ts:183:16)
+      at createDerivedState (/app/node_modules/@matter/node/src/behavior/cluster/ClusterBehaviorType.ts:248:32)
+      at ClusterBehaviorType (/app/node_modules/@matter/node/src/behavior/cluster/ClusterBehaviorType.ts:112:20)
+      at generateDiscoveredType (/app/node_modules/@matter/node/src/node/client/PeerBehavior.ts:240:12)
+      at instrumentDiscoveredShape (/app/node_modules/@matter/node/src/node/client/PeerBehavior.ts:114:33)
+      at PeerBehavior (/app/node_modules/@matter/node/src/node/client/PeerBehavior.ts:48:20)
+      at ClientStructure.#synchronizeCluster (/app/node_modules/@matter/node/src/node/client/ClientStructure.ts:552:38)
+      at ClientStructure.loadCache (/app/node_modules/@matter/node/src/node/client/ClientStructure.ts:142:22)
+      at ClientNode.initialize (/app/node_modules/@matter/node/src/node/ClientNode.ts:105:31)
+    2026-06-23 10:42:43.350 INFO   Endpoint             server-2-134b.@1:a ready endpoint#: (unassigned) type: RootNode (0x16) behaviors: 💤parts ✓index ✓commissioning ✓network ✓descriptor ✓accessControl ✓basicInformation ✓otaSoftwareUpdateRequestor ✓generalCommissioning ✓networkCommissioning ✓generalDiagnostics ✓wiFiNetworkDiagnostics ✓administratorCommissioning ✓operationalCredentials ✓groupKeyManagement
+    2026-06-23 10:42:43.370 INFO   Endpoint             server-2-134b.@1:a.ep1 ready endpoint#: 1 type: OnOffPlugInUnit (0x010a, rev 1) behaviors: ✓descriptor ✓identify ✓groups ✓onOff
+    2026-06-23 10:42:43.503 INFO   Endpoint             server-2-134b.@1:11 ready endpoint#: (unassigned) type: RootNode (0x16) behaviors: 💤parts ✓index ✓commissioning ✓network ✓descriptor ✓administratorCommissioning ✓softwareDiagnostics ✓networkCommissioning ✓accessControl ✓basicInformation ✓localizationConfiguration ✓generalCommissioning ✓diagnosticLogs ✓generalDiagnostics ✓threadNetworkDiagnostics ✓operationalCredentials ✓groupKeyManagement ✓fixedLabel ✓userLabel ✓icdManagement
+    2026-06-23 10:42:43.520 INFO   Endpoint             server-2-134b.@1:11.ep1 ready endpoint#: 1 type: LightSensor (0x0106, rev 3) behaviors: ✓descriptor ✓identify ✓basicInformation ✓powerSource ✓illuminanceMeasurement
+    2026-06-23 10:42:43.529 INFO   Endpoint             server-2-134b.@1:11.ep2 ready endpoint#: 2 type: OccupancySensor (0x0107, rev 3) behaviors: ✓descriptor ✓identify ✓basicInformation ✓occupancySensing
+    2026-06-23 10:42:43.533 INFO   Endpoint             server-2-134b.@1:11.ep3 ready endpoint#: 3 type: OccupancySensor (0x0107, rev 3) behaviors: ✓descriptor ✓identify ✓basicInformation ✓occupancySensing
+    2026-06-23 10:42:43.536 INFO   Endpoint             server-2-134b.@1:11.ep4 ready endpoint#: 4 type: OccupancySensor (0x0107, rev 3) behaviors: ✓descriptor ✓identify ✓basicInformation ✓occupancySensing
+    2026-06-23 10:42:43.541 INFO   Endpoint             server-2-134b.@1:1 ready endpoint#: (unassigned) type: RootNode (0x16) behaviors: 💤parts ✓index ✓commissioning ✓network
+    2026-06-23 10:42:43.561 INFO   DclOtaUpdateService  Initialize OTAUpdateService prod: https://on.dcl.csa-iot.org test: https://on.test-net.dcl.csa-iot.org
+    2026-06-23 10:42:43.579 INFO   Endpoint             server-2-134b.ota-provider ready endpoint#: 1 type: OtaProvider (0x14, rev 1) behaviors: ✓otaSoftwareUpdateProvider ✓descriptor ✓softwareupdates
+    2026-06-23 10:42:43.580 INFO   CertificateAuthority Loaded stored credentials with ID 1 and ICAC with ID 2
+    2026-06-23 10:42:43.589 NOTICE FabricAuthority      Rotated NOC for fabric 1
+    2026-06-23 10:42:43.600 INFO   MatterController     Commissioned nodes migration completed.
+    2026-06-23 10:42:43.603 WARN   Commission~ontroller BLE is not enabled on this platform
+    2026-06-23 10:42:43.603 NOTICE Node                 server-2-134b going online
+    2026-06-23 10:42:43.606 INFO   ServerNetworkRuntime TCP transport enabled (incoming=true, outgoing=true)
+    2026-06-23 10:42:43.614 INFO   NetworkProfiles      Configure profile fast exchanges: 200 additionalMrpDelay: 0
+    2026-06-23 10:42:43.614 NOTICE Node                 server-2-134b is online
+    2026-06-23 10:42:43.615 INFO   FabricAccessControl  ACL List updated privilege: 5 authMode: 2 subjects: 112233 targets: null fabricIndex: 1 privilege: 3 authMode: 2 subjects:  targets: { cluster: 41, endpoint: 1, deviceType: null } fabricIndex: 1 privilege: 3 authMode: 2 subjects:  targets: { cluster: 1364, endpoint: 2, deviceType: null } fabricIndex: 1
+    2026-06-23 10:42:43.635 INFO   MdnsAdvertisement    Publishing kind: operational service: mdns:921C254000288BE0-000000000001B669._matter._tcp.local
+    2026-06-23 10:42:43.636 INFO   SoftwareUp~teManager Scheduling first OTA update check in 8m 1s
+    2026-06-23 10:42:43.643 NOTICE Controller~ndHandler Matter Controller started
+    2026-06-23 10:42:43.643 INFO   Controller~ndHandler OTA event handlers registered
+    2026-06-23 10:42:43.650 INFO   WebRtcTran~torServer initialized on endpoint=2 (id=""camera-controller"") cluster=0x554
+    2026-06-23 10:42:43.659 INFO   Endpoint             server-2-134b.camera-controller ready endpoint#: 2 type: CameraController (0x0147, rev 1) behaviors: ✓webRtcTransportRequestor ✓descriptor
+    2026-06-23 10:42:43.910 INFO   DclVendorInfoService Fetched 439 vendors from DCL
+    2026-06-23 10:42:43.927 INFO   DclVendorInfoService Stored 443 vendors
+    2026-06-23 10:42:43.929 INFO   Controller~ndHandler WebRTC callback bridge wired
+    2026-06-23 10:42:43.929 FATAL  MatterServer         Server failed to start [crashed-dependency] server-2-134b.@1:1 initialization failed
+      at Object.assertActive (/app/node_modules/@matter/general/src/util/Lifecycle.ts:48:23)
+      at Construction2.assert (/app/node_modules/@matter/general/src/util/Construction.ts:303:23)
+      at Behaviors.#backingFor (/app/node_modules/@matter/node/src/endpoint/properties/Behaviors.ts:777:41)
+      at Object.get (/app/node_modules/@matter/node/src/endpoint/properties/Behaviors.ts:849:25)
+      at ClientNode.maybeStateOf (/app/node_modules/@matter/node/src/endpoint/Endpoint.ts:229:22)
+      at &lt;anonymous&gt; (/app/node_modules/@project-chip/matter.js/src/MatterController.ts:674:31)
+      at Array.map (&lt;anonymous&gt;)
+      at BasicSet.map (/app/node_modules/@matter/general/src/util/Set.ts:90:26)
+      at Peers.map (/app/node_modules/@matter/node/src/endpoint/properties/EndpointContainer.ts:84:31)
+      at MatterController.getCommissionedNodes (/app/node_modules/@project-chip/matter.js/src/MatterController.ts:674:14)
+    2026-06-23 10:42:45.008 INFO   DclCertifi~teService All certificates up to date (177 total)",no author passage beyond a bare version or a generic update mention,cursor_suggestion_not_human_reviewed
+1sandee,MacOS,MacOS 26.4: Windows keep going full-screen,"Just upgraded from 15.7.4 to 26.4 and everything's fine, except for how my Microsoft OneNote and Word windows keep expanding to full-screen on their own every two seconds. Google Chrome and other apps do not seem to have this issue. Anyone experiencing the same thing? SOS.",removing an update passage would delete the only update connection,cursor_suggestion_not_human_reviewed
+1vx3bnu,applehelp,Apple Maps no longer suggests addresses from messages,"I use maps a lot for work, and something I’ve found very convenient is that when I get a new work order, I get a text notification with the customer’s address. When I’m scheduling appointments and planning my routes, Maps would suggest and autofill the address when I started typing any portion of it (the house number, town, etc) based on recent messages, so that I didn’t have to type out the full address from memory. Lately, I believe since the last iOS update but I’m not sure, this no longer works. Any suggestions on how I can get this feature back?",removing an update passage would delete the only update connection,cursor_suggestion_not_human_reviewed
+1si6d2u,applehelp,Screenshots are very dark for some reason,"I just updated to ios26 (not beta) and my screenshots of pictures I take are extremely dark, I have HDR on and went through almost everything. Its weird cause if I screenshot the screenshot its not dark anymore, so it seems like screenshotting the iphone taken picture corrupts it somehow",removing an update passage would delete the only update connection,cursor_suggestion_not_human_reviewed
+1uv6zpi,debian,Is it only mine or,"Everybody's PC are freezing randomly after the latest 13.6 update.
+
+
+
+After i updated my Debian 13.5 to 13.6, my pc started to randomly freeze (even when opening vim only)​ and stops at imitramfs.",shortened title+body no longer states a concrete issue,cursor_suggestion_not_human_reviewed
+1uazncd,Ubiquiti,POE budget Alert! (solved),"I had a few clients that started receiving the POE budget alert after a firmware update, so after discussing with CHATGPT, something has changed and the system looks at the total max POE allocation, and how much is left over, and how devices change their wattage after reboots or when under-load.  The system was working fine for 5 months before the update/alert- but I gave my client the options of configuring the system to ignore the Poe alert, or upgrade the switch (usw lite to usw ultra). We decided to upgrade the switch- but since the USW ULTRA power adapter is sold separately and sold out I purchased a 3rd party power supply from Amazon. I went ahead and got the 210w since there wasn’t a price difference in the 60w version- anyways all is good, just had to manually tell the switch the adapter is 210w now the alert is gone and the client is satisfied. Another option was installing Poe injectors for the heavy usage APs but I can’t fit those in the enclosure lol.",shortened title+body no longer states a concrete issue,cursor_suggestion_not_human_reviewed
+1sfy1sq,debian,Zfs and backport problems,"My zfs-Linux was pinned to backport 12 bookworm. As per the openzfs config.
+
+I did not modify it when updating bookworm to trixie.
+
+Packages stayed at 2.3.1 bpo12
+
+I changed it to trixie backport and I modified my source list to add trixie backport.
+
+After an apt update, it doesn’t want to update to the bpo13 version.
+
+Should I uninstall it?
+
+The problem lies with the 6.19 in backport which fails to compile the zfs dkms module pinned to 2.3.1 bpo12, leaving it kind of unstable with an update of kernel that cannot resume.
+
+What could be the ideal way to either come back to trixie stable for both dkms and kernel? Or bpo13 for both?
+
+  
+SOLVED: solution was that contrib was not in the sources.list",shortened title+body no longer states a concrete issue,cursor_suggestion_not_human_reviewed

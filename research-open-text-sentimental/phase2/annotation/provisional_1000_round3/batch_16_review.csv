@@ -1,0 +1,2323 @@
+﻿review_id,subreddit,title,post_body,discussion_context,text_availability,proposed_about_software,proposed_update_related,proposed_discussion_type,proposed_confidence,proposed_reason,decision,final_about_software,final_update_related,final_discussion_type,reviewer_note,reviewed_at,source_url
+B16-001,MicrosoftEdge,Edge hangs and crash after update from version 140.0.3485.94 to version 141.0.3537.57 (Official build) (64-bit),"In the menu on Edge &gt; System and Performance, when I click on Performance Edge start to hangs and crash, also hangs and crash when typing in Search settings field.
+
+Event Viewer &gt;
+
+Event 1002, Application Hang
+
+The program msedge.exe version 141.0.3537.57 stopped interacting with Windows and was closed. To see if more information about the problem is available, check the problem history in the Security and Maintenance control panel.
+
+Process ID: a68
+
+Start Time: 01dc33f058f94d21
+
+Termination Time: 7
+
+Application Path: C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe
+
+Report Id: c8c3cbb0-5a13-4bf2-8592-6429609c2984
+
+Faulting package full name:
+
+Faulting package-relative application ID:
+
+Hang type: Unknown
+
+\---
+
+edge://crashes  You have no recently reported crashes.
+
+Install, reinstall, repair, recreate User Data folder - nothing helps.
+
+Some old reports I found   [Edge was closed - Microsoft Q&amp;A](https://learn.microsoft.com/en-us/answers/questions/2401702/edge-was-closed) and [edge hangs on startup - Microsoft Q&amp;A](https://learn.microsoft.com/en-us/answers/questions/2373925/edge-hangs-on-startup)",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/MicrosoftEdge/comments/1nwkc4k/edge_hangs_and_crash_after_update_from_version/
+B16-002,linuxquestions,error 28 with new update,please help me with error 28😭,,title_and_body,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/linuxquestions/comments/1wwto4p/error_28_with_new_update/
+B16-003,homeassistant,UPDATE: EchoMuse Gains a Home Assistant App!,"[EchoMuse Home Assistant App Dashboard](https://preview.redd.it/opnmsblg1xjh1.png?width=2880&amp;format=png&amp;auto=webp&amp;s=7969891e0b233a71b758f7092191997da016e099)
+
+Busy couple of weeks since our last update. The highlights:
+
+**It's a Home Assistant add-on now.** Add the repo, hit install, enjoy the EchoMuse goodness! The standalone Docker container is still fully supported; neither one gets features the other doesn't. There's also an Early Access channel if you want builds before they're GA - use with caution as it's a separate environment to the GA channel and likely to break on the regular!
+
+**On-device wake word is live.** The Dot runs the openWakeWord model itself on its own CPU instead of streaming audio to the controller to be scored. It's been in shadow mode for a few weeks proving it agrees with the controller; as of today's firmware you can actually switch it on.
+
+**Turning the volume up doesn't sound like garbage any more.** Turns out the volume buttons were driving the codec's digital gain too high. If you ever thought EchoMuse sounded worse than stock when loud, that was why. Found and measured by u/kdkavanagh.
+
+**Barge-in works.** Talk over thinking, talk over response, talk over music and the music ducks and continues to play in the background.
+
+**Your entities aren't called ""Lounge Voice Assistant Lounge"".** HA composes the device name and entity name itself, and we were repeating the label in both. Renaming only changes the display name; entity IDs are untouched, so your automations keep working.
+
+Plus the usual pile of smaller fixes: firmware caching so a fleet update doesn't re-download the binary per device, the dashboard showing Speaking properly, wake word models now installed for every stock wake word rather than just the one selected at setup, and a lot of measurement.
+
+Thanks to everyone who's sent PRs: **@natecj** (the add-on), **@kdkavanagh** (volume/DAC, dashboard fixes), **@bboe** (tap-as-HA-event, build cleanup), **@kopiro** (streaming TTS), **@QuickMythril** (arm64 builds). Also **@finik**, **@bluescreen10**, **@NicFragale** and **@imduffy15** for open PRs I'm working through.
+
+Repo: [https://github.com/wilbowes/EchoMuse](https://github.com/wilbowes/EchoMuse)
+
+Discord: [https://discord.gg/ZxeMDhwxE](https://discord.gg/ZxeMDhwxE)","[1:reply] This is a great project, thank you so much. Alexa+ becames complelely unusable for me lately, and I wanted for ages a proper LLM hooked up, and support for multi language. It seems I finally have a path for this. 
+
+I've spent yesterday, unlocked one of my old echo dots, and made…
+[2:OP] Hey, thank you for the great feedback. Clearly still some kinks to work out in the HA App - it’s been a learning journey for me for sure. 
+
+I believe conversation continuation was already present and provided by HA, Im pretty sure as my device would have lengthy conversations wi…
+[3:reply] My wife messaged me to complain that the device left on my desk constantly interferes during her zoom meetings and tries to talk to her, even though she never said anything similar to the ""hey jarvis"" wake word , lol :) Had to instruct her to unplug it for now until I get back h…
+[4:OP] There is a mute button ya know! 😅
+
+I find Rasspy tends to be better for minimising false positives. There is a wake word trainer in the repo, I’ve trained a word myself and it works ok, you have the option to supply recordings of yourself and your family saying the wake word in…",title_body_comments,yes,yes,other,medium,The post appears to discuss software without a clear troubleshooting or chiefly critical purpose.,,,,,,,https://reddit.com/r/homeassistant/comments/1vqp5mh/update_echomuse_gains_a_home_assistant_app/
+B16-004,applehelp,iPad 8th Generation won't turn on,"Hello ! My iPad 8th Generation won't turn on and won't even show the battery thing. I've tried pressing the off and home button for 30+ seconds with no luck.
+
+Today in the afternoon, around 6 hours ago, I had been using it normally, I came back to my house and now it just won't turn on, no idea of why, though I have a suspicion.
+
+I've had this iPad since January 2021 and never had any sort of trouble with it (besides the scren protector being broken but that's entirely on me), but, around 2 days ago, I updated to iOS 26 whcih I had been avoiding for MONTHS, but, keep in mind I have 128 GB for storage and still 30 GB to spare AFTER updating, besides, everything had been working fine, no issue at all, charging normally, no type of bugs, nothing, so I'm very confused right now.
+
+It's currently 11PM so I'll leave it to charge the whole night, does anyone have any recommendation in case it doesn't turn on after, for example, a day or two? Should I take it to someone to inspect it? Could it be the battery's life considering how old my iPad is? I'd really appreaciate the help !
+
+Important to mention I do not have a back-up (because of the lack of storage I had until recently), and, logically, don't want to lose 5+ years worth of stuff.
+
+I'll wait for a response and leave a picture of my iPad attached 🙏
+
+https://preview.redd.it/vmx2ure0l68h1.png?width=900&amp;format=png&amp;auto=webp&amp;s=0ef67a18b7f2f8165ce6923332f863e6166d4912",,title_and_body,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/applehelp/comments/1u9u0k6/ipad_8th_generation_wont_turn_on/
+B16-005,applehelp,New Texas law for IOS and the update I getting on my nerves,"So I’m 16 and my Mom just gave me her old IPhone and got herself a new one. I was stoked because she was finally letting me have free range access on a phone mainly cause I graduated early and she started seeing me as more mature. So we reset the phone and set it up again it worked fine but once I realized that I needed to update it to get apps like gmail cause it need a later IOS version I updated it. When it turned back on I couldn’t use any of my apps and I was confused as to why and went to the App Store too which it told me I couldn’t use the app because I was unverified or too young smth like that. After a bit of research we found out that it was because of law Texas put out saying minors have to be on a family account in order to download and use apps not natively installed (even the ones installed before the update). We both thought it was so stupid because I’m old enough now to use the internet with no restrictions and she had my password anyways. Whatever though we tried to do it and it kept saying that there needed to be someone over 18 in the family in order to join. My Mom is 41… she’s had the apple account for OVER   15 years she should be verified. She has multiple credit and her debit card tied to the account (which is what is needed to verify your account). We tried to add me through sending the invite through messages, airdrop, and directly from my phone. None of it worked. We eventually called customer support who tried like 20 million different ways to fix it (the lady was super patient and kind thank god for that) but none of them work again. They ended up telling us that since it was a new law they must be still working on it and it may just be a bug and to wait for a new update. So we did and it still didn’t work. We’ve once again tried multiple times and it wont work. I just wanna properly be able to use my phone. Is there literally anyone else with this problem? I haven’t seen anyone else complaining about this bug.","[1:reply] Apple has [documentation](https://support.apple.com/en-us/127462) on their compliance with the law that your state legislature passed. Accepting the invite to a Family Sharing group should be fairly straightforward, as long as the organizer has the correct contact information fo…
+[2:reply] Remember who was responsible for getting this law enacted when you’re eligible to vote in 2 years.
+[3:OP] Trust me ik who it is.
+[4:OP] I did…it came out in June what are you talking about it literally says on apple’s website that it’s went into place June 4th. Also that’s not the important topic here
+[5:reply] So when you go to your settings and select Family, you are part of a family and your mom’s user name is listed as the organizer?",title_body_comments,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/applehelp/comments/1utdjo4/new_texas_law_for_ios_and_the_update_i_getting_on/
+B16-006,AndroidQuestions,Realme GT 8 Pro Ghost Touch/Freezing,"I received my new Realme GT 8 Pro, but from the first use, the screen seems to have a double input (ghost touch) sometimes. Also, sometimes when clicking on icons or scrolling through apps or screens, the screen freezes. To restart it, I have to click again or wait 1-2 seconds.
+
+Why does it do this? Is it a software issue that can be fixed, or is it hardware?
+
+I tried resetting it to factory settings again after the update, thinking it had created software conflicts, but nothing.",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/AndroidQuestions/comments/1v01op6/realme_gt_8_pro_ghost_touchfreezing/
+B16-007,Wordpress,Wordpress site showing codes,"We suddnely got our website showing codes as in the screenshot.
+
+I have already done the following troubleshooting
+
+WordPress is upgraded to the latest version  
+Upgraded to PHP 8.1  
+Upgraded WPBakery Page Builder to the latest version  
+All other plug-ins have also upgraded.  
+Backend portal is working.  
+Tried with different themes.
+
+Any idea how to fix?
+
+https://preview.redd.it/87owwtrj10ng1.png?width=1894&amp;format=png&amp;auto=webp&amp;s=6b229144ade4aa6e6314e899a725455f069e954e
+
+When Debugging is on, the errors displayed as below:
+
+  
+**Deprecated**: File class-oembed.php is **deprecated** since version 5.3.0! Use wp-includes/class-wp-oembed.php instead. in **/home1/microair/public\_html/wp-includes/functions.php** on line **6131**  
+  
+**Deprecated**: Creation of dynamic property CodelessHeaderImporter::$theme\_name is deprecated in **/home1/microair/public\_html/wp-content/themes/handel/includes/codeless\_theme\_panel/importer/codeless\_importer.php** on line **11**  
+  
+**Warning**: Cannot modify header information - headers already sent by (output started at /home1/microair/public\_html/wp-includes/functions.php:6131) in **/home1/microair/public\_html/wp-includes/functions.php** on line **7182**  
+  
+**Warning**: Cannot modify header information - headers already sent by (output started at /home1/microair/public\_html/wp-includes/functions.php:6131) in **/home1/microair/public\_html/wp-admin/admin-header.php** on line **14**",,title_and_body,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/Wordpress/comments/1rkhab6/wordpress_site_showing_codes/
+B16-008,embedded,STM32CubeIDE – “Could not verify ST device” error while launching debug (STM32F103 + ST-LINK),"Hi everyone,
+
+I’m running into an issue while trying to debug my STM32 project and would really appreciate some help.
+
+Setup:
+
+	•	IDE: STM32CubeIDE
+
+	•	MCU: STM32F103C8T6
+
+	•	Programmer/Debugger: ST‑LINK/V2
+
+	•	Debug interface: SWD
+
+Problem:
+
+When I try to run/debug the project, the launch fails with the following message:
+
+Launch terminated
+
+Could not verify ST device! Please verify that the latest version of the GDB-server is used for the connection.
+
+From the console logs I see things like:
+
+	•	ST-LINK detected
+
+	•	Target voltage \~3.28V
+
+	•	Cortex-M3 processor detected
+
+	•	GDB server starts
+
+	•	Then it fails with:
+
+GDB connection on target STM32F103CBTx.cpu not halted
+
+target needs reset
+
+Things I have already tried:
+
+	•	Disconnecting and reconnecting the ST-LINK
+
+	•	Power cycling the board
+
+	•	Updating ST-LINK firmware in CubeProgrammer
+
+	•	Trying full chip erase
+
+	•	Checking BOOT0 state (currently LOW / reset state)
+
+	•	Replugging USB and restarting the IDE
+
+Despite this, the same error keeps appearing.
+
+Questions:
+
+	1.	What could cause the “could not verify ST device” error even though the ST-LINK detects the MCU?
+
+	2.	Could this be related to NRST wiring or SWD configuration?
+
+	3.	Is there any specific setting in debug configuration or OpenOCD that I should check?
+
+Any suggestions would be really helpful. Thanks! 🙏",,title_and_body,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/embedded/comments/1rrvxk6/stm32cubeide_could_not_verify_st_device_error/
+B16-009,opencode,OpenCode v1 to v2: pinned sessions disappeared,"I just updated OpenCode from v1 to v2, and all the sessions I had pinned are no longer pinned.
+
+On top of that, I can't find any option to pin sessions anymore. The previous pinned sessions section is completely gone, and I don't see any way to pin a session from the session list either.
+
+Is pinning sessions no longer supported in v2, or is this a bug/migration issue?
+
+https://preview.redd.it/qpxcso31y0th1.png?width=1822&amp;format=png&amp;auto=webp&amp;s=497beebc407fb9bc26857b2dabd25a0eab2e340b","[1:reply] welcome to v2 😹
+[2:OP] what does that mean",title_body_comments,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/opencode/comments/1wvphky/opencode_v1_to_v2_pinned_sessions_disappeared/
+B16-010,Adobe,Latest Bridge update error (cannot open) FYI &amp; workaround,"Some of us on Win 10 can't open the latest Bridge (16.0.4). The update has a bug and it returns a weird `EnumResourceNamesA` DLL error. The solution is to uninstall and then reinstall the previous ver 16.0.3. In Creative Cloud app, go to Bridge, click the three little dots next to OPEN, uninstall, then go back to the three dots and select 'Other Versions'.",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/Adobe/comments/1up2l5c/latest_bridge_update_error_cannot_open_fyi/
+B16-011,applehelp,iPhone Upgrade Program,"Last week whilst using the Apple Store app and opening the ‘Devices‘ menu, I noticed that my iPhone XS had text below telling me that it is part of the iPhone Upgrade Program. I have owned this iPhone since December 2018 and have never enrolled onto any such program. I am also in the UK where this program has been changed to the Flexible Finance Account with Creation so no longer exists.
+
+I opened a support case with Apple and the advisor suggested I go to the nearest Apple Store to discuss this with someone and show them in person (I did send screenshots in the chat). I also tried a trade in with the iPhone which brought up a message about my iPhone XS being in the programme.
+
+In 8 years of having this device, I have never seen such an unusual message or what I believe to be a visual bug. Im not sure what to do next. I am not enrolled into any such program and have never had a loan with Apple.
+
+If someone can help in any way or advise next steps, please let me know.","[1:reply] i’m in the US and know terms and conditions can be different in different countries and such so correct me if i’m wrong;
+
+is it possible this is just a glitch because of how old your phone is? if i was in your situation in the united states, i would honestly ignore it. knowing w…",title_body_comments,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/applehelp/comments/1v06pal/iphone_upgrade_program/
+B16-012,MicrosoftEdge,How do I re-enable the sidebar in Edge version 149+? (Extremely disappointed it was removed),"I am incredibly disappointed to see that Microsoft completely removed the sidebar app list/tower in the recent update. Honestly, the sidebar was my primary reason for using Edge over other browsers, and its removal completely breaks my daily workflow.
+
+Has anyone found a reliable, permanent workaround or command-line flag to force the sidebar back on? I've seen mentions of shortcut parameters online but haven't gotten them to work consistently.
+
+Any step-by-step help to get it back would be greatly appreciated!","[1:reply] https://www.reddit.com/r/MicrosoftEdge/s/mmXPtfOdSN
+[2:reply] .",title_body_comments,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/MicrosoftEdge/comments/1v1bst0/how_do_i_reenable_the_sidebar_in_edge_version_149/
+B16-013,MacOS,Battery capacity dropped suddenly,"Hey, so like 2 months ago I updated my M3 2023 to Tahoe. My battery capacity was at 92% before I updated it and it kinda stuck at that percentage for a long time. (I got the MacBook for about 2 years now) It didn't seem to drop under 90% in the next time while using it. 
+
+After the update it dropped to 90% immediately and now I checked it again and it says 87%
+
+Do I need to worry? because before the update it didn't drop so suddenly after a short period of time like it is right now.",,title_and_body,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/MacOS/comments/1qi3vl0/battery_capacity_dropped_suddenly/
+B16-014,Wordpress,JetEngine Shortcode Breaking Site After Elementor Update,,,title_only,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/Wordpress/comments/1kul1an/jetengine_shortcode_breaking_site_after_elementor/
+B16-015,ios,New iOS update breaks flashlight notifications,I would like to personally thank Apple once again for breaking the accessibility feature to have flashlight notifications. It happened in iOS 18.7 and now again in 26.5.2.,"[1:reply] feedback.apple.com
+[2:OP] Thanks, believe me I know but the last time didn’t help.",title_body_comments,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/ios/comments/1v1n8an/new_ios_update_breaks_flashlight_notifications/
+B16-016,Ubuntu,RDP connection fails without error message due to open inactive sessions on Ubuntu 24,"I typically access a workstation via microsoft RDP, but since it was updated to Ubuntu 24 have had sporadic issues connecting (now via port 3391, if that helps). From what I've gathered, the issue is that the remote sessions don't seem to be ending properly, such that an inactive session remains open and prevents me from reconnecting at a later timepoint. 
+
+Is there a way to prevent these inactive sessions staying open so long, or a method for terminating them myself remotely? Alternatively, is it possible to reconnect to an existing open, but inactive, RDP session?",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/Ubuntu/comments/1s7yebk/rdp_connection_fails_without_error_message_due_to/
+B16-017,applehelp,ANC not working,"Hello everyone,
+
+about a year ago, I bought a pair of AirPods 4 with Active Noise Cancellation. For the first few months, everything worked perfectly — no issues at all. But after around 4–5 months, I started noticing that the noise cancellation basically stopped working. Not only that, but even the head gesture features stopped working too.
+
+I took them to the Apple Store, and they replaced both earbuds (not the charging case, only the two AirPods themselves). After that, everything was fine again… for a while.
+
+Now, a few months later — around another 4 months — I’m having exactly the same issue again with the replacement pair. The noise cancellation doesn’t seem to do anything anymore. At the beginning, I could clearly hear that slight ANC “hiss” and feel the difference when switching modes, but now it’s like they’re permanently stuck in transparency mode. Switching between modes changes absolutely nothing.
+
+Has anyone else experienced this with the AirPods 4 with Active Noise Cancellation? Is there any fix or solution? (and yes, they’re updated to the latest version)",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/applehelp/comments/1tnhqt0/anc_not_working/
+B16-018,sysadmin,Has anyone found a reliable fix for the Teams Meeting add-in for Outlook disappearing after a Teams update?,"We’re seeing this happen quite often after Teams updates, the add-in is no longer available in Outlook. Users can’t re-add it themselves because it requires admin privileges, so we end up reinstalling it manually for each user, which obviously doesn’t scale.
+
+Has anyone else run into this? If so, how did you solve it?",,title_and_body,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/sysadmin/comments/1t551x2/has_anyone_found_a_reliable_fix_for_the_teams/
+B16-019,chrome,"Chrome giving me a bunch of ""Connection Reset"" errors","This only started happening about a week ago. A bunch of websites that used to work now instantly give me this error. I mean, major websites - it most often happens on ESPN; if I haven't loaded a page there in like an hour or so, I instantly get this error message.
+
+Refreshing usually gets the page to load correctly, although sometimes it takes 3-4 tries.
+
+This didn't happen before, and I haven't added any new plugins. This is only happening on my Windows 11 laptop, and I don't think there's been an update to the OS recently, either.
+
+Is this happening to anyone else, or do you know why it might be happening?
+
+https://preview.redd.it/phl4m1wpbpqg1.png?width=1082&amp;format=png&amp;auto=webp&amp;s=683c1a139ac5fa30527fe89d641864ef4a38ab04",,title_and_body,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/chrome/comments/1s14581/chrome_giving_me_a_bunch_of_connection_reset/
+B16-020,chrome,"WTF happened to all my chrome bookmarks, they're old?",My chrome updated and the bookmarks across ALL account profiles now have bookmarks that are years old and not new ones.  Anyone else having this?  I haven't used these bookmarks in years and I never 'sync'; so it seems like it forcefully maybe synced to bookmarks from years ago and removed newer ones (maybe?).  **Any way to reverse this?**,,title_and_body,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/chrome/comments/1oqa8lh/wtf_happened_to_all_my_chrome_bookmarks_theyre_old/
+B16-021,androiddev,Emulator keeps crashing,"Emulator keeps crashing with this error all the time. This has been happening ever since I upgraded to Meerkat a while back. I am now on Otter but the issue hasn't fixed itself. 
+
+The only way out is if I delete the instance and create another one.
+
+ Anybody know what the issue could be? Thanks!
+
+https://preview.redd.it/vlgzhe7188rg1.png?width=371&amp;format=png&amp;auto=webp&amp;s=3d5fbddf3cca6c0cafc9234be3a526538c503011",,title_and_body,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/androiddev/comments/1s3hca6/emulator_keeps_crashing/
+B16-022,homeassistant,Remote Home-Assistant integration fails since update,"I'm using the Remote Home-Assistant integration to monitor a second home assistant instance at a summer cottage. It was working well for months, but since the latest Home assistant update, I am getting errors and very sporadic device info.
+
+I am using zerotier one to access the remote instance and can ssh into it over that connection.
+
+Both systems are running on HAOS and both are connected to their respective networks via ethernet.
+
+Core version is 2026.8.2. supervisor is 2026.07.5
+
+The error logs show heartbeat failures every 20s. I even tried editing the python to increase the timeout.
+
+In my old config yaml, I had an http section that I had to remove since it has been deprecated, but I believe I reconfigured it properly using the new network UI in settings.
+
+Has anyone else encountered this and have you found a resolution?",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/homeassistant/comments/1vusqbc/remote_homeassistant_integration_fails_since/
+B16-023,vscode,VS Code updated to the latest version and now keeps freezing and has an issue with Git. Anyone else is having a similar issue?,"Hi
+
+Last night VS Code updated to the latest version and ever since, it's acting up. The Git panel just goes on and on saying ""looking for Git repositories"" and I have to use the terminal to do Git commands. Also, I feel like it it became much slower than before.
+
+This is the info:
+
+```
+Version: 1.125.0 (Universal)
+Commit: 93cfdd489c3b228840d0f86ec77c3636277c93ea
+Date: 2026-06-15T22:24:03Z (3 days ago)
+Electron: 42.2.0
+ElectronBuildId: 14159160
+Chromium: 148.0.7778.97
+Node.js: 24.15.0
+V8: 14.8.178.14-electron.0
+OS: Darwin arm64 25.5.0
+```
+
+Thanks","[1:reply] See https://www.reddit.com/r/vscode/s/zugAHUyZy3
+
+Posted yesterday night with the same symptoms.
+[2:OP] Thanks. It's not just Git. The extensions dont load properly and when I save, Prettier doesn't format the document because the extensions dont load. It's a mess and clearly AI slop is now part of every day life!!!
+[3:OP] Thanks. Good to know it's not just me! How do you downgrade?
+[4:reply] Just dont use git within vscode instead use something like fork git client 
+
+But yes regression is visible",title_body_comments,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/vscode/comments/1u92kzn/vs_code_updated_to_the_latest_version_and_now/
+B16-024,openclaw,openclaw ships breaking changes every 2-3 weeks.,"13 point releases in march alone. here's how to not lose your saturday
+
+before updating
+
+ openclaw backup create --name ""pre-update-$(date +%Y%m%d)""
+
+if on docker, pin your image tag (don't use :latest):
+
+ image: openclaw/openclaw:2026.3.28
+
+after updating:
+
+ openclaw doctor --fix
+
+then test your channels, crons, and skills manually before walking away. the --fix flag catches most config migrations but not all.
+
+if something breaks: roll back to your backup and check the github issues page for your specific version before trying again.
+
+current version note (april 2026): 3.28 changed localhost auth (local connections need tokens now), skill installs fail closed on dangerous-code detections, and feishu has a config validation regression (#56942). also heartbeat.model override is broken (#58137, filed yesterday  the LiveSessionModelSwitch detection forces your heartbeat back to the primary model) and isolatedSession: true on heartbeat doesn't actually isolate (#56941). if you're on feishu hold on 3.23-2. if heartbeat cost savings matter to you, 3.23-2 might also be safer until the model override regression is fixed. this is also exactly the kind of thing that makes managed hosting attractive on betterclaw these regressions get caught during their testing before the release reaches your agent. but i realize not everyone wants to pay for that and self hosting is valid.",,title_and_body,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/openclaw/comments/1s9i05h/openclaw_ships_breaking_changes_every_23_weeks/
+B16-025,applehelp,Why is my Apple Intelligence not working?,"after the most recent iOS update my Apple Intelligence is not working despite it being turned on. The playground app when I open it, tells me that I have to have Apple Intelligence enabled even though when I go in settings it already is. Also when I talk to Siri the edges of my phone screen don’t light up which is an indication that Apple Intelligence is not on. All this started after I updated to the latest iOS plz help.",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/applehelp/comments/1sur9a8/why_is_my_apple_intelligence_not_working/
+B16-026,angular,Upgraded to Angular 19 and getting vite errors,,,title_only,yes,yes,other,low,The post appears to discuss software without a clear troubleshooting or chiefly critical purpose.,,,,,,,https://reddit.com/r/angular/comments/1kibzz0/upgraded_to_angular_19_and_getting_vite_errors/
+B16-027,openwrt,Luci-app-ddns throwing RPC error with latest update,"Anyone else?
+
+  
+`RPCError`
+
+
+
+`RPC call to luci.ddns/get_services_status failed with error -32000: Object not found`
+
+  `at handleCallReply (http://10.0.0.1/luci-static/resources/rpc.js?v=26.202.61035~8291c9f-1784858573:11:3)`","[1:reply] Updated mt6000 yesterday. I'm getting the same error. Luci ddns won't load
+[2:reply] Can you explain how to fix the typo error Thanx
+[3:reply] Don't update packages, problem solved.
+[4:reply] Did you update the individual package(s), or are you saying that you saw this error with a fresh install of the latest stable version of openwrt (25.12.5) ?
+[5:reply] Same here. There’s a typo in ddns-scripts. After fixing it manually then rerunning the post install, it works. I’ll try to submit a PR today.",title_body_comments,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/openwrt/comments/1v4ym5e/luciappddns_throwing_rpc_error_with_latest_update/
+B16-028,MicrosoftEdge,Janky Fix to the White Line Under the Address Bar,"Many of you who have 'Microsoft Edge rounded corners' disabled in edge://flags have noticed an annoying white line under the address bar (it's especially noticeable if you have a dark theme for the browser and use an extension like Dark Reader). A janky fix that has worked for me since the latest update (147.0.3912.60) is to repeatedly shutdown Edge via Task Manager and restart it until the line goes away. It usually takes around four or five restarts to get rid of the line. To prevent from having to constantly do this I recommend keeping Edge open all the time, and putting your computer to sleep or hibernation instead of shutting it down or restarting it completely.
+
+Edit: spelling and clarity
+
+Edit 2: Thanks to u/cocks2012 for pointing out that this doesn't actually remove the line, but only turns the color from white to black. I hadn't noticed since I have a dark theme for the browser and the Dark Reader extension enabled on all websites, rendering the resulting black line virtually invisible.",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/MicrosoftEdge/comments/1sikm0w/janky_fix_to_the_white_line_under_the_address_bar/
+B16-029,chrome,yahoo search button is not working some time,after a update to chrome the yahoo search button you cant click on the magnifying glass sometime i don't to clear cache but resetting the internet box works is there a yay to fix this with out  clear cache?,,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/chrome/comments/1p8exy4/yahoo_search_button_is_not_working_some_time/
+B16-030,ios,iOS App Crashes on Launch After Upgrading React Native to 0.77.3 - New Architecture Incompatibility,"I'm encountering a critical issue after upgrading my React Native app to version 0.77.3. The iOS app builds successfully in Xcode but crashes immediately upon launch. The crash appears to be related to the New Architecture (Fabric renderer) being incompatible with legacy native modules. Environment React Native: 0.77.3 iOS Simulator: iOS 18.x (on macOS 15.x) Xcode: 16.x Metro Bundler: Running locally Problem Description After upgrading from a previous React Native version to 0.77.3, the app: ✅ Builds successfully in Xcode ❌ Crashes on launch with EXC_CRASH (SIGABRT) Shows error: -[UIResponder doesNotRecognizeSelector:] in RCTComponentData createPropBlock The crash occurs during component prop setting in the legacy view manager interop layer. Crash Log Excerpt Exception Type: EXC_CRASH (SIGABRT) Exception Codes: 0x0000000000000000, 0x0000000000000000 Termination Reason: Namespace SIGNAL, Code 6, Abort trap: 6 Last Exception Backtrace: 0 CoreFoundation 0x1804c9684 __exceptionPreprocess + 160 1 libobjc.A.dylib 0x1800937cc objc_exception_throw + 72 2 CoreFoundation 0x1804deea4 +[NSObject(NSObject) instanceMethodSignatureForSelector:] + 0 3 UIKitCore 0x185c8acb4 -[UIResponder doesNotRecognizeSelector:] + 232 4 CoreFoundation 0x1804cd8e8 ___forwarding___ + 1216 5 CoreFoundation 0x1804cfe2c _CF_forwarding_prep_0 + 92 6 Scouty.debug.dylib 0x1116e9a50 __49-[RCTComponentData createPropBlock:isShadowView:]_block_invoke.44 + 388 (RCTComponentData.mm:327) ... Full crash log available here (truncated for brevity). What I've Tried Clean builds : Removed Pods , Podfile.lock , derived data, and rebuilt Metro cache : Cleared with yarn start --reset-cache Package removal : Removed react-native-mmkv , react-native-splash-screen , and react-native-charts-wrapper (suspected legacy module conflicts) New Architecture : Initially enabled by default in RN 0.77.3 Root Cause & Solution The issue stems from React Native 0.77.3 enabling the New Architecture (Fabric) by default, which is incompatible with several legacy native modules in the project. Solution Applied: Disabled New Architecture by setting RCT_NEW_ARCH_ENABLED=0 in ios/.xcode.env.local Verified Android already has newArchEnabled=false in gradle.properties Clean rebuild resolved the crash Questions Is disabling the New Architecture the recommended long-term solution for RN 0.77.3? Which packages are known to be incompatible with the New Architecture in RN 0.77.3? What's the migration path for enabling New Architecture safely? Dependencies (Relevant) react-native-mmkv: 2.12.2 (removed during troubleshooting) react-native-reanimated: 3.17.5 @shopify/react-native-skia: 1.12.4 @react-native-firebase/*: 21.14.0 Any insights or alternative solutions would be greatly appreciated! Pacakage Changes During RN Update: Updated Packages (Old Version to New Version) react : 18.2.0 to 18.3.1 react-native : 0.74.5 to 0.77.3 @shopify/flash-list : ^1.7.2 to ^1.7.4 react-native-gesture-handler : ^2.14.1 to ~2.22.0 react-native-mmkv : ^2.10.0 to 2.12.2 react-native-reanimated : ^3.15.0 to 3.17.5 react-native-safe-area-context : 3.3.2 to ~5.1.0 react-native-screens : ^3.34.0 to 4.9.1 react-native-svg : ^15.3.0 to ^15.10.1 react-native-webview : ^13.10.5 to ^13.12.4 DevDependencies Added or Updated (RN 0.77 Migration) Added: @react-native-community/cli : 16.0.3 @react-native-community/cli-platform-android : 16.0.3 @react-native-community/cli-platform-ios : 16.0.3 @react-native/babel-preset : 0.77.3 @react-native/eslint-config : 0.77.3 @react-native/metro-config : 0.77.3 @react-native/typescript-config : 0.77.3 Updated: @babel/core : ^7.20.0 to ^7.25.2 @babel/preset-env : ^7.20.0 to ^7.25.3 @babel/runtime : ^7.20.0 to ^7.25.0 @types/jest : ^29.4.0 to ^29.5.13 jest : ^29.2.1 to ^29.6.3 react-test-renderer : 18.2.0 to 18.3.1 Removed Dependency @react-native-community/datetimepicker",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://stackoverflow.com/questions/79825956/ios-app-crashes-on-launch-after-upgrading-react-native-to-0-77-3-new-architect
+B16-031,linuxquestions,Fedora splash screen then black monitor,"I have been running an old iMac with Fedora &amp; akmods for nvidia support for several versions of Fedora.  Yesterday decided it was time to update to version 44.  Installed the update and everything was working fine.  
+
+Today all that is happening is the Fedora splash screen pops up and then the screen goes black. I can boot into the grub screen and select previous editions or the rescue option but they all do the same thing.  When it first booted I thought that something was “updating” in the back ground so I let it go for 15 to 20 mins but nothing showed up.
+
+If I interrupt the boot loader with “e” and remove rhgb quiet I can see verbose mode and it shows ok on everything (no red or errors) up until it then jumps to multiple 2x2 squares at the top of the screen but they are all garbled.  Lights on the keyboard work but I am unable to do anything.
+
+If I interrupt the boot loader with “e” and remove  
+rd.driver.blacklist=nouveau, modprobe.blacklist=nouveau, nvidia-drm.modset=1 the same thing happens.
+
+If I interrupt the boot loader with “e” and if I remove  
+rd.driver.blacklist=nouveau, modprobe.blacklist=nouveau, and change nvidia-drm.modset=1 to nouveau.modset=1 and add rd.driver.blacklist=nvdia the OS shows on the screen as multiple 2x2 pictures across the top of the screen.  I can see the mouse icon move around in the squares and lights on the keyboard are working. This does not give you much to see or to do anything.
+
+If I interrupt the boot loader with “e” and leave  
+rd.driver.blacklist=nouveau, modprobe.blacklist=nouveau and change nvidia-drm.modset=1 to 0 it boots into emergency mode but says cannot open access to console, the root is locked, press enter to continue.  This just loops over and over. 
+
+Any assistance would be greatly appreciated.",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/linuxquestions/comments/1thsn3n/fedora_splash_screen_then_black_monitor/
+B16-032,applehelp,I can't turn on iMessage after Activation Lock,"After rebooting iOS 26 on my Iphone 17, activation lock was activated. After logging in, everything worked as usual, but iMessage broke. When I try to turn it on, an error appears. SMS messages for activation are sometimes sent, but iMessage still doesn't work, and in most cases, an activation error simply appears. In the iCloud settings, it says my phone number can't be used for iMessage because it requires a SIM card linked to an Apple device. Previously, everything worked fine with the same SIM card on the same device. Restarting, disabling Wi-Fi, updating to the latest iOS version, resetting network settings, using airplane mode, signing out of iCloud, and changing time zones all help. Trying to activate through the website hasn't worked, even though several days have passed.",[1:reply] You need to chat/call Apple Support. Either lookup the phone number for your region [here](https://support.apple.com/en-us/106932?choose-your-country-or-region=united-states) or navigate the online support options.,title_body_comments,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/applehelp/comments/1u8xyu0/i_cant_turn_on_imessage_after_activation_lock/
+B16-033,rustdesk,Selfhosted - connection problem,"Hi, 
+
+  
+I have a little problem with selfhosted Rustdesk. Standalone PC, fresh install of Fedora 43, updated, latest version Docker. Compose file directly from Rustdesk web. All requested ports are open. When I ry to connect to another PC I got error: failed to connect ip:21116 and rustdesk client says ""not ready"". What you think, where is the problem?",,title_and_body,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/rustdesk/comments/1p1o0yp/selfhosted_connection_problem/
+B16-034,chrome,Did Chrome remove middle-click to open omnibox/address bar suggestions in a new tab?,"Until a couple of days ago, I could middle-click a suggestion in the Chrome address bar (omnibox) to open it in a new tab. Now nothing happens when I middle-click.
+
+Middle-click still works everywhere else (like closing tabs, opening links on webpages), and it behaves the same in incognito, so it doesn’t seem to be an extension issue.
+
+Was this intentionally removed, or is this a bug in a recent update?
+
+Everything else works the same, I can close tabs with middle-click, links open on a new tab if I middle-clik on a link on a page etc.",,title_and_body,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/chrome/comments/1r35zcy/did_chrome_remove_middleclick_to_open/
+B16-035,Wordpress,CRITICAL: Major vulnerability in UiPress Lite (arbitrary code execution),"A **vulnerability in UiPress Lite** has put the security of 10,000 WordPress sites worldwide at risk. The plugin, used to customize the admin panel, contains a critical code execution error that could allow attackers to completely compromise the affected platform.
+
+# What is the vulnerability in UiPress Lite?
+
+This vulnerability, detected in **versions up to 3.5.07** , allows any authenticated user, even those with subscriber permission, to execute arbitrary code on the server.
+
+An attacker with minimal access can escalate privileges and execute commands that compromise the site's availability and integrity. This includes the ability to extract sensitive information, install malware, or take complete control of the server.
+
+# Impact on WordPress users
+
+The impact of this **vulnerability on UiPress Lite** is significant. Sites with multiple contributors are especially vulnerable, as the attack vector does not require privileges.
+
+The potential damages consist of:
+
+* **Leakage of confidential or personal data.**
+* **Redirecting the site to malicious domains.**
+* **Use of server resources for illegal activities.**
+* **Injection of backdoors or malicious scripts.**
+
+This type of vulnerability can also seriously affect a brand's reputation, as a compromised site generates distrust, can be excluded from search engines, and lead to financial losses.
+
+# How to protect your website
+
+Some recommendations to protect yourself from the **vulnerability in UiPress Lite** are:
+
+1. **Plugin update:** Ensure you have the latest version. The update fixes the vulnerability and eliminates the risk of exploitation.
+2. **User audit:** Review accounts with subscriber or higher permissions. Remove unnecessary access and strengthen login credentials.
+3. **Perimeter protection:** Implement a web application firewall that blocks attempts to execute suspicious commands or anomalous behavior patterns.
+4. **Constant monitoring:** activate monitoring systems and review activity logs. Detecting them early can prevent the attack from escalating.
+
+# What is the vulnerability in UiPress Lite?
+
+It is a security flaw in older versions of the UiPress Lite plugin for WordPress, which allows authenticated users to execute arbitrary code on the server, compromising the entire site.
+
+# Which versions of the plugin are affected?
+
+Versions of UiPress Lite up to 3.5.07 are affected. It is recommended to update to the latest available version to avoid risks.
+
+# How can I tell if my WordPress site is at risk?
+
+If you have UiPress Lite installed and it's not up to date, your site could be vulnerable. The most important thing is to review user logs for suspicious access.
+
+# What can an attacker do if they exploit this vulnerability?
+
+This type of attack allows the execution of malicious code, the installation of malware, the theft of confidential data, the redirection of traffic, or even the taking of total control of the server.
+
+Read the article at [CloudsDefense](https://www.cloudsdefense.com/vulnerabilidad-en-uipress-lite/)",,title_and_body,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/Wordpress/comments/1oruawb/critical_major_vulnerability_in_uipress_lite/
+B16-036,Ubuntu,Anyone using Ubuntu 24.04 and Opera snap?,"Mine just stop working after today update, anyone else? My system is very minimal with almost nothing else installed. I fix it with a snap revert to previous opera version, but wondering if anyone else had the same issue. If anyone else have the issue: sudo snap revert opera",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/Ubuntu/comments/1rx4dzz/anyone_using_ubuntu_2404_and_opera_snap/
+B16-037,AndroidQuestions,View in your space - AR not working. Help.,"Not sure if this is the best place to ask, but I'm desperate. Up until 2 days ago, I could for example type Tiger into Chrome and then click on view in 3D and then click on view in your space and view a 3D tiger in my space (camera used). I have since done a software update to latest version (on a Samsung s22+), and this no longer works. I updated all my google services app (webview, Ar etc), turned my phone off and on several times. cleared all my caches, and still nothing. I even tried it on my galaxy s11, which it would also previously work on,  and that too doesn't ""view in your space"". Is there something I am missing.. Please I am desperate.",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/AndroidQuestions/comments/1r0y91x/view_in_your_space_ar_not_working_help/
+B16-038,comfyui,"Updating Security Doesn't Clear ""current security level configuration"" error","So I decided to update Comfy today as well as a couple of nodes, and thus begins my nightmare. I've almost got it working again, but a couple of my nodes are broken and need updating. However, I keep getting the error:
+
+**current security level configuration, only custom nodes from the ""default channel"" can be installed.**
+
+I went into my config.ini, changed the security\_level = weak and nothing. I keep getting the same error. The node is from the WAS Node Suite.  I even tried downloading via Git and it gives me a similar error:
+
+**This action is not allowed with this security level configuration.**
+
+I'm at a loss. I've been trying to get it working for 3 hours, and about to write-off comfy because I'm so sick of nodes breaking. Any assistance will be greatly appreciated.",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/comfyui/comments/1r2zkrf/updating_security_doesnt_clear_current_security/
+B16-039,firefox,"Help needed, pages don't load.","I've been having an issue with Firefox for roughly the last two weeks that I can't seem to fix. Many web pages won't load correctly where the images don't show, or basic page doesn't seem to load for a long time.
+
+I have tried a 'Profile refresh' which didn't work. I uninstalled firefox completely, even hunting down and deleting everything firefox related from my system, and re-installed, only syncing passwords and bookmarks. No change.  Edge seems to work perfectly.
+
+Firefox 148.0.2, Windows 11 latest updates. Only extension is UBlock Origin, issue seems to persist even with it disabled. Anyone have any ideas? I migrated to firefox about a year ago to get away from Chrome and the adblocker neutering; not looking forward to moving browsers again if I can fix this.
+
+Thanks for any help.
+
+Edit: Just tried YouTube from a private window, it took roughly a minute to load. Edge had it open in the blink of an eye.  I don't know what's wrong and it's driving me slowly mad.",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/firefox/comments/1rvnabx/help_needed_pages_dont_load/
+B16-040,Wordpress,Gutenberg Image Lightbox: No exit/even WP Admin menu unclickable; f5 only escape,"Hi there! 
+
+This is happening across our website, but here's a link to a page so you can experience it for yourself:   
+[https://support.ablenetinc.com/quicktalker-freestyle/my-speech-app-is-freezing-or-not-opening/](https://support.ablenetinc.com/quicktalker-freestyle/my-speech-app-is-freezing-or-not-opening/)
+
+  
+It's a basic gutenberg image block with an ""enlarge on click"" lightbox link attached to it. When you click to enlarge now, it lighboxes, but you can't exit. Not with the 'X' nor with ESC. What's stranger still: I can't even click on my WP admin menu buttons, but I *can* still click on our HotJar rating that pops up. 
+
+It was working fine, but we just updated to 7.0, so I'm wondering if anyone else is experiencing this issue. I am also not a dev and am just a content manager, but I try to figure things out on my own before going to our developer. Thanks!","[1:reply] sounds like a z-index conflict between the lightbox overlay and your admin bar. quick check: inspect the lightbox when it's open and see if the overlay has a z-index higher than 99999 (admin bar's default). if so, you can override it in your theme's custom css with something lik…
+[2:reply] The modal is adding an '***inert***' value to the page div which is why nothing works  -  **have you cleared caches** and made sure other plugins &amp; the theme are updated?
+
+ If so and it is still not working, I'd try deleting and rebuilding the image/lightbox element. 
+
+If no…",title_body_comments,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/Wordpress/comments/1ugc7xo/gutenberg_image_lightbox_no_exiteven_wp_admin/
+B16-041,Fedora,[Fedora 44 / Wayland] Memory leaks with Explicit Sync &amp; Open Modules on RTX 5080,"Hey everyone,
+
+Although I am well awared that NVIDIA graphics cards are not fully supported on Fedora, especially on Fedora 44. I would like to share my experience with you. I actually ran into this problem even on Fedora 43.  
+I'm also not sure if anyone has reported this bug yet.  
+I just upgraded to Fedora 44 today, hoping that the new Explicit Sync protocols would finally put an end to the Wayland/Nvidia memory leaks. While the visual glitches and flickering are gone, I'm now facing a massive memory leak where the VRAM is completely orphaned after closing applications.
+
+  
+**My Setup:**
+
+* **OS:** Fedora 44 (KDE Plasma 6 / Wayland)
+* **CPU:** AMD Ryzen 7 7800X3D
+* **RAM:** 64GB DDR5 6000MT/s CL30
+* **GPU:** NVIDIA RTX 5080 16GB
+* **Driver:** 595.58.03 (Open Kernel Modules)
+
+I found a ridiculously easy way to trigger this memory leak on demand using hardware acceleration in browsers like Brave (tested with native Wayland flags enabled).
+
+1. Open a browser and load up Excel for the Web (Cloud).
+2. Start typing data into individual cells.
+3. With every new populated cell/block, the VRAM allocation aggressively spikes.
+4. Close the browser completely.
+5. The Explicit Sync boundary drops, the application dies, but the allocated VRAM is **never** released by the GPU.
+6. Only logging out and logging back in will clear the VRAM.
+
+**The Proof:** If you look at the attached nvidia-smi output, the total GPU memory usage reports over 7,5 GB used. However, if you add up the actual processes in the bottom list (kwin\_wayland, plasmashell, etc.), it barely reaches 1,5 GB. The system kernel thinks it's full, but no process owns it. The only way to flush this VRAM is to forcefully log out and restart the KWin compositor.
+
+  
+Has anyone else on the 590+ driver branch and Open Kernel Modules encountered this specific orphan leak on Fedora 44? Are there any kernel parameters that mitigate this garbage collection failure while we wait for an upstream fix?
+
+https://preview.redd.it/hfe6iq008xxg1.png?width=2560&amp;format=png&amp;auto=webp&amp;s=55958e533fab3fff96e25355854b82e53a9dbb78",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/Fedora/comments/1sxzgi0/fedora_44_wayland_memory_leaks_with_explicit_sync/
+B16-042,Fedora,Laptop speakers just stop working on f44 a few minutes after boot,"I recently upgraded from Fedora 43 to 44 and have an issue where my laptop speakers just stop working a few minutes after booting into the OS. I've literally sat here with the test dialog open clicking the ""Front Left"" and ""Front Right"" buttons and had them go from working to not working with nothing else happening.
+
+I didn't have this issue with F43 so I originally thought I had broken it during the upgrade, so reinstalled (multiple times) from scratch, then went through the post install steps (set up, drivers etc) constantly testing the speakers and ended up having them stop working at a different point each time until I realized I could login, do nothing and they'd stop working.
+
+The laptop is a Lenovo Legion Pro 7i with a 14900hx and a 4090, but this happens even before installing the 4090 drivers.  Not sure what other information here would be useful.
+
+I'm scratching my head here, anyone have any ideas?
+
+Edit to add: Sometimes sound does recover after a reboot, but only for the same short period of time. The laptop does still think it has speakers when they stop working and the headphone jack seems to stop working at the same time, though the insertion and removal of a headphone plug is still detected even when the speakers stop working
+
+Edit 2: Nope, it looks like after a few reboots the sound for the speakers and headphone jack is just broken.  USB speakers s!till work.
+
+Edit 3: Got my hardware back when I cleared the wireplumber cache and restarted that and the pipewire server (for the user). But it disappeared again after the next boot. While it was there, there was still no sound.",,title_and_body,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/Fedora/comments/1t5eadn/laptop_speakers_just_stop_working_on_f44_a_few/
+B16-043,chrome,Chrome Website Error + Mac Crashing,"I use Chrome on my Mac M4 running macOS Tahoe. Since yesterday, my mac has been randomly crashing and restarting, chrome crashes, and when I try to load websites, I get errors about 25% of the time. I attached images of the errors. the Mac has no water damage, hasn't been dropped, hasn't been left in the sun. I restarted several times, did all software updates, uninstalled and reinstalled chrome, and shut the computer down overnight. still no fixes. if anyone knows how to fix this please help!
+
+https://preview.redd.it/dt4y1q5xv1sg1.png?width=2806&amp;format=png&amp;auto=webp&amp;s=4233eb126ada6705989915babebd254861329513
+
+https://preview.redd.it/1r5jhp5xv1sg1.png?width=2888&amp;format=png&amp;auto=webp&amp;s=e9e32cbd3eb1975d60ef535131843cc0271fe17b
+
+https://preview.redd.it/pe3qhq5xv1sg1.png?width=2940&amp;format=png&amp;auto=webp&amp;s=0aadf472e3763eba2c3725dad3eaae9966270e87",,title_and_body,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/chrome/comments/1s778od/chrome_website_error_mac_crashing/
+B16-044,applehelp,"Apple support, why are they so bad with my Apple ID recovery ?","Hello, 
+
+I have been trying to updated the phone number for 2 months right now and Apple cannot do anything about it.  Just a whole process of going back and forth and doin the same thing over and over again with no real solution.
+
+Here's the story :
+
+I am trying to update the phone number for my apple account, which I don't have access to my old phone number or even my old phone. I contacted the apple support and talk to the first agents. She ask me to do an account recovery, I did it. Done, wait for a week and it's not working. It does not update my phone number once I reset my password and stuff.
+
+the second and the third one repeat the same thing, while the third one is the worst saying I don't know the process since I have been trying to tell him that it is not working. He does not even think about escalating things. 
+
+and it drag a long way to the 7/8 agent with them trying to escalate to the engineering department, but the thing is the past 2-4 agents did a lot of human errors. They said they will send the screen recording to the team, but then when I talked to another agent, they said they cannot do that. So I wasted a whole week with it and another week for another screen recording that is not fit the criteria by the engineering team. 
+
+The question is what are the standards over here ? I wasted so many weeks just for updating the phone number and so many human errors. Does the engineering team should give them the instruction what to do in detail ? why there was a human errors in escalating things. It should not happens or they have a different guideline or something ? 
+
+I don't care about my apple ID at this point and I can create a new one, but I just want something to compensate my time that I have wasted. If they want me to create a new account in the first place, I wouldn't be mad, but since the drag it a long way with so many non-sense waiting time. 
+
+This is making me so mad.",[1:reply] Is it a prepaid or VOIP number?,title_body_comments,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/applehelp/comments/1tpqiul/apple_support_why_are_they_so_bad_with_my_apple/
+B16-045,Nest,Nest Hello doorbell won’t ring inside after upgrading to Google Home App,"I unfortunately had to get some new cameras, but they only worked with the Google home app so I finally migrated against my wishes. Now when someone rings my doorbell, my indoor chime doesn’t work anymore despite the chime being turned on in settings and I even rewired it. It’s hardwired in and I asked ChatGPT first, it told me I should see “power source” somewhere in the settings but I don’t. Has anyone fixed this issue?",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/Nest/comments/1pmin9e/nest_hello_doorbell_wont_ring_inside_after/
+B16-046,chrome,Internet Elder Shakes Fist at Cloud:  Realizes Chrome Isn't the Product,"First accessed the ""Internet"" in 1988 at the age of 10, after installing a modem on the family Tandy 1000 and dialing into a local BBS from a flyer at the Radio Shack.    Text-based RPG, DARPANet, learned about programming, etc.    
+  
+1993, the graphical browser Mosaic/Netscape hits which I'm using in the high school computer labs.... then onto college in 1996 with Sun machines and then the colorful iMac G3s.    
+  
+The recent Google Chrome updates made me realize that I've been using the same simple, effective workflow for deep research/reading sessions for 30 YEARS!  
+
+The Process: 
+
+Search.   CTRL-click to open the results in a new tab.   Read through the tabs.  
+
+I can't be the only one that does this.    
+It's an efficient cognitive processing sequence.  
+Reading through Search Results is one cognitive task.       
+Scanning and Reading the individual articles is a different, second cognitive task.   
+
+\-----
+
+I'm here because, for the first time in 30 years, a browser is regularly CRASHING with just 5-6 open tabs.  
+
+I'm running a decent machine - 16G RAM;   Researched and ran all the hacks (e.g., delete extensions, task mgr, turn off AI, turn off background crap, etc)....     
+  
+A few posts in here say ""Change Your Habits"" ---  Reading List or Bookmarks.    
+  
+\--- I'm open to the concept of the ""Reading List"" feature they added -- however, there is no keyboard shortcut.  Adding to a ""reading list"" takes 5-10 seconds of navigating with a cursor and 2-3 clicks.     
+  
+\--- Bookmarks are for pages regularly visited;  Everyone has at least 10-20 bookmarks already locked in.    Adding a dozen bookmarks via the keyboard shortcut creates a long jumbled mess -- a poor UX and adds time to navigate, open the single page, read and then go back, navigate and delete the page(s).     
+  
+To keep using Chrome essentially means they (and you) are telling me to ADD TIME and MENTAL WORK.   
+
+ Why should I do that?   Brave, Firefox and Opera allows my preferred, proven workflow?   
+  
+\---------   
+EPIPHANY - I'm Old and Not the Target User 
+
+It dawned on me -- 30 years of internet... At 48, I'm older than half the population.     
+  
+I am NOT Google's target market -- and my workflow is NOT what they want to support.    
+  
+Google's financial incentives and development priorities clearly changed.   
+
+2005 to 2015 -- Delivering the \*best\* search results and winning the browser wars was critical to their consumer market share capture strategy.   
+
+Today, Google SEARCH prioritize targeted advertising, information shaping and data harvesting over delivering accurate results for optimal user experience.     
+  
+Chrome's bloat reflects a the same strategy shift -- Google is counting on the ecosystem lock-in effect and the frictionless benefits of Android, Gmail, Drive, Google Logins, etc to keep people on Chrome.    
+  
+Shape user behavior to interact with Gemini/AI instead of engaging sources directly.    
+  
+Google doesn't want users to go directly to any website.     
+  
+They want us to use Gemini, Google Assistant or whatever.   
+
+Want to vacation in Florida?  Want to buy a new bicycle?  Want to research your business ideas?    
+
+They don't want you going to 10 different websites with information hosted/owned by other companies.   
+
+Instead, interact directly with Google Gemini.  Even better if they can make you feel like the AI truly \*knows\* your preferences and needs.    Even better if you just SPEAK it into your Android device.  
+
+You don't need to go to the Delta or Hilton websites.  Google will have your information, book it for you, etc.  
+
+That's their long-game --- be the ""visa"" or the middle man on \*all\* of your life accessed and executed through via the internet.   Which, today, is the majority of our lives.     
+  
+The sales pitch is attractive until you realize that you're trusting a corporation to literally shape your world ---- and are they really going to be doing it for your best interests and benefit?   
+
+Or just like how Search has eroded, isn't it likely that they'll shape your world for their profit?  
+
+  
+None of this is new.   I'm not Mr. conspiracy sounding alarms.  
+
+
+
+Google Chrome's constant crashing converted my abstract awareness of their business model into a tangible, physical direct experience.   
+
+Chrome isn't the product.   Our data and attention isn't even the product anymore.  
+
+The product is shaping and monetizing behavior. 
+
+  
+After using Chrome for 15 years, (with Brave on the side for Youtube)  - I'm out....  
+
+All I want is a browser with the primary goal of accessing information stored elsewhere.  
+
+That's not Chrome anymore - so Brave, Mozilla and/or Opera it is.   
+
+Any other suggestions?  
+
+
+
+\*\*\*\*\*\*\*\*\*\*  
+
+
+This made me think back to the early days of the Internet   
+  
+From 93 through \~2010, I probably changed browsers at least every 2 years....  And we'd talk about it with our fellow office workers.   Our heads were popping all over the cubicles when Opera first came out.   
+
+Perhaps this rant burst forth bc I need to talk to someone about my browser change, it's been 15 years and now there's no office anymore.  
+
+  
+Any other Elderly Internet folks like me out there?    
+
+
+
+What do y'all think? 
+
+  
+\*\*\*\* 
+
+PS - Google isn't alone in their strategy and it's resulting software bloat.     
+  
+MSFT recently updated Notepad with a crapton of features, including AI.  
+
+So Dave Plummer built a 3KB version of Notepad that does what it's supposed to do.     
+[https://www.youtube.com/watch?v=OG91c7xsNMc&amp;t=32s](https://www.youtube.com/watch?v=OG91c7xsNMc&amp;t=32s)","[1:reply] &gt;a browser is regularly CRASHING with just 5-6 open tabs
+
+Something's wrong with your computer. My Chrome currently has 280 open tabs (I find open tabs were more manageable than bookmarks). Many years ago I used to use a suspender extension, but Chrome has not needed it for s…
+[2:reply] [deleted]
+[3:reply] I think you're coming at this from a faulty premise.
+
+5 or 6 tabs isn't some sort of death sentence for Chrome. That's something you likely could fix it you tried. Probably causes by extensions. Certainly not the standard experience.
+[4:reply] Embrace this idea, go with pine and gopher maybe lynx at a push!
+[5:reply] The search then CTRL-click into tabs flow is genuinely the best way to do deep reading, i do the same thing. Crashing at 5-6 tabs on 16G is definitely not normal though, something else is going on. I switched to ace browser partly because that same open-a-bunch-of-tabs habit wor…",title_body_comments,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/chrome/comments/1v17o5m/internet_elder_shakes_fist_at_cloud_realizes/
+B16-047,immich,Immich wont start after upgrade.,"Looking for some guidance. I have a older install that's been broken for a while. Ive read everything and nothing i have tired fixed. I have it installed on docker within unraid.  I get the error below have read the upgrade error. I would be ok with a start over if i could download the image database. Any advice would be very helpful. Thank you in advance. 
+
+  
+immich\_server            | \[Nest\] 7  - 06/21/2026, 7:32:46 PM   ERROR \[Microservices:DatabaseRepository\] Migrations failed: Error: Invalid upgrade path. For more information, see [https://docs.immich.app/errors/#typeorm-upgrade](https://docs.immich.app/errors/#typeorm-upgrade)
+
+  
+immich\_server            | \[Nest\] 7  - 06/21/2026, 7:34:53 PM    WARN \[Microservices:DatabaseRepository\] Migration ""1744910873969-InitialMigration"" failed","[1:reply] Did you try to upgrade across a bunch of different versions? It seems like you missed a database migration at some point. I would revert to whatever version you were running before it broke, then look through the changelogs to look at any versions where there were migrations and…
+[2:reply] Pre stable i.e 1.x.x there were breaking changes happen regularly, since 2.0.0 released in Oct 2025, we don’t have breaking changes between minor versions. In fact for the upcoming major update from 2.7.5 to 3.0.0, there is no user facing breaking changes
+
+What the users here sh…
+[3:reply] Yes, a database upgrade without migration will probably break immich. I have solved similar in other software using claude or codex to fix the migration.
+[4:OP] How do you revert?
+[5:reply] [not related]
+no offense to the awesome developers, but this software and it's upgrade path is such a nightmare each time.
+from beta to initial stable release, then 1.x to 2.x and now this. not to mention the multiple breaking changes in between .x releases. 😑
+currently I'm on s…",title_body_comments,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/immich/comments/1ubzmye/immich_wont_start_after_upgrade/
+B16-048,AndroidQuestions,GPS spoofing 10 pixel pro not working,"Hey so every GPS spoofing app no longer works for me, they all say turn on developer settings which are on. I turned them off, reset the device, turned them back on and set my mock location app, still nothing. It's my personal phone, I checked no work apps are interfering by deleting them all, deleting any work profiles and clearing encryption data and still nothing
+
+Is this the result of a new pixel update? Anyone having the same issue.","[1:reply] Google has implemented something which hides that USB Debugging is enabled. Maybe it also hides that Developer options is enabled, and the apps need to be updated to account for that.
+[2:reply] pretty sure its the android 17 qpr1 update, and roirra is right that it hides developer options too. androids own docs now say both read as off to every third party app, so a spoofer that checks before it runs will never see them on and no reset on your end fixes that. you alrea…",title_body_comments,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/AndroidQuestions/comments/1ws1hce/gps_spoofing_10_pixel_pro_not_working/
+B16-049,homeassistant,Help with ZWA-2! Using wifi mode and 1.2.0 firmware upgrade attempt broke everything.,"This morning I did an upgrade of HA to 2026.3.4 and thought I'd also take care of that ZWA-2 firmware upgrade thats been in the notifications for the past few weeks. I clicked the upgrade button, and it showed an upgrade in progress. I went to grab a coffee came back and it said it was still at the old version.
+
+Well, ever since then things have been acting flakey. I tried recovering the firmware using the zwa-2 toolbox, but chrome show's 'no compatible devices'. However I can connect to the console port and see traffic. I took the whole thing apart so I could connect GPIO0 and ground, and I still can't access the zwave toolbox.
+
+plugging in the device I can use esptool to communicate with the device, and it looks like in the logs it's expecting a newer version of zwave.js, however I have the latest v7 installed. All my devices are down and I'm really stuck, so any help would be really appreciated. THis has been very reliable since I got this set up in November.
+
+From the console logs:
+
+    
+    I (255) esp_image: segment 4: paddr=00146090 vaddr=40377b80 size[I][logger:120]:                                                                        Log initialized
+    [C][safe_mode:136]: Unsuccessful boot attempts: 1
+    [D][esp32.preferences:144]: Writing 1 items: 0 cached, 1 written, 0 failed
+    [I][app:089]: Running through setup()
+    [D][template.switch:044]:   Restored state ON
+    [D][switch:021]: 'Bluetooth Proxy' Turning ON.
+    [D][switch:064]: 'Bluetooth Proxy' &gt;&gt; ON
+    [C][wifi:624]: Starting
+    [D][wifi:636]: Loaded settings: xxx
+    [D][[D][http_request.update:072]: Network not connected, skipping update check
+    [D][select:034]: 'Bluetooth Scanner Mode' &gt;&gt; Active (1)
+    [D][wifi:1442]: Found networks:
+    [I][wifi:1413]: - 'xxx' () ▂▄▆█ Ch:11 -36dB P:0
+    [I][wifi:1413]: - 'xxx' () ▂▄▆█ Ch: 1 -45dB P:0
+
+    [D][wifi:1815]: Retry phase: INITIAL_CONNECT → SCAN_CONNECTING
+    [I][wifi:1081]: Connecting to 'xxx' () (priority 0, attempt 1/2 in phase SCAN_CONNECTING)...
+    [W][wifi_esp32:781]: Disconnected ssid='xxx' bssid= reason='Authentication Failed'
+    [W][wifi:1636]: Connecting to network failed (callback)
+    [D][wifi:1995]: Failed 'xxx' (), priority 0 → 0
+    [D][wifi:2066]: Retry attempt 2/2 in phase SCAN_CONNECTING
+    [I][wifi:1081]: Connecting to 'xxx' () (priority 0, attempt 2/2 in phase SCAN_CONNECTING)...
+    [I][wifi:1551]: Connected
+    [D][wifi:1568]: Disabling AP
+    [C][wifi:1221]:   IP Address: 192.168.0.165
+    [C][wifi:1232]:   SSID: 'xxx'
+      BSSID: 
+      Hostname: 'home-assistant-zwa-2-0e65aa'
+      Signal strength: -38 dB ▂▄▆█
+      Channel: 11
+      Subnet: 255.255.255.0
+      Gateway: 192.168.0.1
+      DNS1: 192.168.9.4
+      DNS2: 192.168.9.5
+    [W][component:429]: wifi cleared Warning flag
+    [D][api:222]: Accept 192.168.0.61
+    [W][component:429]: api cleared Warning flag
+    [W][api.connection:1650]: 'zwave-js' using outdated API 1.0, update to 1.14+
+    [D][api.connection:2440]: zwave-js (192.168.0.61): connected
+    [D][api.connection:2440]: zwave-js (192.168.0.61): disconnected
+    [W][api.connection:2446]: zwave-js (192.168.0.61): Reading failed CONNECTION_CLOSED errno=128
+    [W][component:398]: api set Warning flag: unspecified
+    E (16013) task_wdt: esp_task_wdt_reset(707): task not found
+    [D][update:021]: 'Firmware' &gt;&gt;
+      Current Version: 26.3.0
+    [D][update:027]:   Latest Version: 26.3.0
+    [D][update:030]:   Firmware URL: https://firmware.esphome.io/ha-connect-zwa-2/home-assistant-zwa-2/26.3.0/home-assistant-zwa-2-esp32s3.ota.bin
+    [D][update:033]:   Title: esphome.zwa-2-proxy
+    [D][update:035]:   Summary: ## What's Changed
+    * Bump ESPHome version to `2026.3.1` by @kbx81 in https://github.com/esphome/zwa-2/pull/24
+    
+    
+    **Full Changelog**: https://github.com/esphome/zwa-2/compare/26.1.0...26.3.0
+    [D][update:038]:   Release URL: https://github.com/esphome/zwa-2/releases/tag/26.3.0
+    [D][api:222]: Accept 192.168.0.61
+    [W][component:429]: api cleared Warning flag
+    [D][api.connection:2440]: Home Assistant 2026.2.3 (192.168.0.61): connected
+    [D][api:222]: Accept 192.168.0.61
+    [W][api.connection:1650]: 'zwave-js' using outdated API 1.0, update to 1.14+
+    [D][api.connection:2440]: zwave-js (192.168.0.61): connected
+    [D][api.connection:2440]: zwave-js (192.168.0.61): disconnected
+    [W][api.connection:2446]: zwave-js (192.168.0.61): Reading failed CONNECTION_CLOSED errno=128
+   
+this connect / disconnect just continues.
+
+Using esptool I can see the adapter, I get the same output if I ground GPIO0
+
+    % esptool --port /dev/cu.usbmodem101 --baud 111200 chip_id
+    esptool.py v4.7.0
+    Serial port /dev/cu.usbmodem101
+    Connecting...
+    Detecting chip type... ESP32-S3
+    Chip is ESP32-S3 (QFN56) (revision v0.2)
+    Features: WiFi, BLE, Embedded PSRAM 8MB (AP_3v3)
+    Crystal is 40MHz
+    MAC: 80:b5:4e:xxxx
+    Uploading stub...
+    Running stub...
+    Stub running...
+    Warning: ESP32-S3 has no Chip ID. Reading MAC instead.
+    MAC: 80:b5:4e:xxxx
+    Hard resetting via RTS pin...
+
+I rolled back to 2023.2.3 and have the same behaviour. I see the ZWA device in my esphome devices. Looking for any advice or suggestions to get this working again.",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/homeassistant/comments/1s5cimf/help_with_zwa2_using_wifi_mode_and_120_firmware/
+B16-050,Fedora,Fedora KDE freezes after plugging in external monitor into Laptop,"So up until a couple days ago I was using my external monitor with my Laptop with fedora KDE just fine. But after updates it suddenly stopped working. I don't know what to do since the other version in Grub also had this problem. When I use a USB-C hub it freezes when I plug in the monitor directly it also freezes.
+
+Edit: about a month ago systemd-modules randomly just didn't load on start up anymore. The link to the post:  [https://www.reddit.com/r/Fedora/comments/1rw8r0l/after\_updating\_systemdmodulesloadservice\_fails\_to/?utm\_source=share&amp;utm\_medium=mweb3x&amp;utm\_name=mweb3xcss&amp;utm\_term=1&amp;utm\_content=share\_button](https://www.reddit.com/r/Fedora/comments/1rw8r0l/after_updating_systemdmodulesloadservice_fails_to/?utm_source=share&amp;utm_medium=mweb3x&amp;utm_name=mweb3xcss&amp;utm_term=1&amp;utm_content=share_button)",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/Fedora/comments/1skd1qu/fedora_kde_freezes_after_plugging_in_external/
+B16-051,immich,error after update v3.0.2,"Initializing Immich v3.0.2
+
+Detected CPU Cores: 4
+
+(node:7) ExperimentalWarning: WASI is an experimental feature and might change at any time
+
+(Use \`node --trace-warnings ...\` to show where the warning was created)
+
+node:internal/process/promises:394
+
+triggerUncaughtException(err, true /\* fromPromise \*/);
+
+\^
+
+Error: getaddrinfo ENOTFOUND database
+
+at GetAddrInfoReqWrap.onlookupall \[as oncomplete\] (node:dns:122:26) {
+
+  errno: -3008,
+
+  code: 'ENOTFOUND',
+
+  syscall: 'getaddrinfo',
+
+  hostname: 'database'
+
+}
+
+Node.js v24.14.1
+
+Initializing Immich v3.0.2
+
+Detected CPU Cores: 4
+
+(node:7) ExperimentalWarning: WASI is an experimental feature and might change at any time
+
+(Use \`node --trace-warnings ...\` to show where the warning was created)
+
+node:internal/process/promises:394
+
+triggerUncaughtException(err, true /\* fromPromise \*/);
+
+\^
+
+Error: getaddrinfo ENOTFOUND database
+
+at GetAddrInfoReqWrap.onlookupall \[as oncomplete\] (node:dns:122:26) {
+
+  errno: -3008,
+
+  code: 'ENOTFOUND',
+
+  syscall: 'getaddrinfo',
+
+  hostname: 'database'
+
+}
+
+Node.js v24.14.1
+
+Initializing Immich v3.0.2
+
+Detected CPU Cores: 4
+
+(node:7) ExperimentalWarning: WASI is an experimental feature and might change at any time
+
+(Use \`node --trace-warnings ...\` to show where the warning was created)
+
+node:internal/process/promises:394
+
+triggerUncaughtException(err, true /\* fromPromise \*/);
+
+\^","[1:reply] Your database isn't running, you need to figure out why
+[2:OP] I updated it and now it doesn't work",title_body_comments,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/immich/comments/1usm8he/error_after_update_v302/
+B16-052,MicrosoftEdge,EdgeWebView2 side-by-side problems - hours trying to fix this.,"Tried opening CCleaner and was met with this. Followed every single video on youtube to fix this, nothing. Many videos and a google searches point to just ""easily"" reinstalling the edge webview program - downloading the installer and running it gets me nowhere, ""Edge webview is already installed"". 
+
+It says its installed, yet checking in control panel shows nothing on it. Youtube videos do show ""Microsoft Edge WebView2 Runtime"" installed on their devices, yet not on mine. I tried multiple versions of the installer, nothing.
+
+I get the ""side-by-side"" error randomly while doing nothing on the computer which I think means other programs are trying and failing at the same thing. 
+
+I've updated all my MC C++ Redis files, reinstalled every single program mentioned (bar edge webview obviously) and still come up with nothing. 
+
+sfc /scannow in cmd - nothing and repaired a million different programs manually - nothing. Plz help",,title_and_body,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/MicrosoftEdge/comments/1pb5zvb/edgewebview2_sidebyside_problems_hours_trying_to/
+B16-053,applehelp,"my ipad's looping on ""attempting data recovery""","https://preview.redd.it/8gyuj5y4furg1.jpg?width=563&amp;format=pjpg&amp;auto=webp&amp;s=4fa0e941a37ee3f1dd0e89a0f5ed2c720b38e633
+
+https://preview.redd.it/0z95e5y4furg1.jpg?width=563&amp;format=pjpg&amp;auto=webp&amp;s=1bb2d8e87edfd2c3e2b5bc31e694a9f023fc127d
+
+https://preview.redd.it/iw0875y4furg1.jpg?width=563&amp;format=pjpg&amp;auto=webp&amp;s=654c889e6fda8c48fac80d0d2abdd64cb0839f91
+
+so i've got this ipad mini 6th gen, my younger brother has been messing about and put the wrong pin in too many times so i updated it through my computer after having it sit for a month and now i have gone through multiple flashes with apple devices and 3utools but everytime it puts me on this recovery screen and after the progress bar finishes, it says ""data recovery failed"" and just restarts. i really don't wanna erase any of my data as i've got things that are important to me in here and no i don't have an icloud backup sadly (excuse my messy writing, im just really confused by the situation im in)",,title_and_body,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/applehelp/comments/1s6a3xn/my_ipads_looping_on_attempting_data_recovery/
+B16-054,linuxquestions,Can't switch to linux after I updated windows,"I am dual booting fedora and windows. I have been using it for some day but last night I had updated my windows then shut it down and this morning I can't seem to switch to my linux.
+
+Grub doesn't seem to show up when I boot my computer.
+
+
+
+I get the message when i boot up:
+
+""platform does not support this image
+
+failed to read header: unsupported
+
+failed to load image: unsupported
+
+start\_image() returned unsupport""","[1:reply] [https://www.supergrubdisk.org/](https://www.supergrubdisk.org/)
+[2:OP] thanks... appreciate it
+[3:reply] sounds like windows may have yoinked your EFI partition. this happens when you update windows sometimes. 
+
+boot into a live USB, mount your linux EFI partition and verify that your bootloader and such are still there. if not, reinstall them.
+[4:OP] Ok... I haven't tried anything yet since I don't have a USB now. Ill try it tomorrow.
+Thanks for the help, appreciate it",title_body_comments,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/linuxquestions/comments/1u673sk/cant_switch_to_linux_after_i_updated_windows/
+B16-055,firefox,Firefox not responding,"Guys after the update everytime I open firefox it freezes. (Not responding) (Pic 1)
+
+The ""microsoft has detected this is stuck"" message also doesn't appear when the entire application goes white screened. (Pic 2)
+
+In the taks manager I try to end the firefox task (pic3)
+
+But it just leaves like one new firefox task in its stead which I can't end with task manager either. (Pic 4)
+
+I'm not sure what to do, I have restarted my laptop multiple times but the problem persists as soon as I open firefox.
+
+My only major extension which is active on all tabs would be sideberry (which also puts tabs to sleep, releasing their memory, when they are left inactive for too long)
+
+Any idea how to fix this?","[1:OP] I think reddit ate my ""help"" flair when I added images, not sure why it's not there
+[2:reply] Oh glad to know I'm not the only one, as I was seeing people complaining only about UI decisions and not Firefox constantly crashing I thought I was alone.
+
+As I could not even open a window unless it broke my computer, I went to uninstall, it suggested me the repair option and…
+[3:OP] Could you share the steps of the repair option?",title_body_comments,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/firefox/comments/1wurhjf/firefox_not_responding/
+B16-056,applehelp,"my app limits are glitching and graying my apps, before ive even used them","so my phone has been doing this for a few months now. i will wake up, go on pinterest for a minute, and my screentime limit pops up way early. ill restart my phone and it goes away. this happens with many apps  that are kind of essential (like google) which is the main problem. usually, a few months ago, it was maybe once a week or so, but i’d restart my phone and it’d be all good. now, for about a month, it’s more than twice a day. it’s not a big deal in the grand scheme, but its very, VERY annoying to have to deal with. sometimes i have to restart my phone twice because i didn’t leave it off long enough which is annoying. i know it’s probably an iOS bug, but i have an iPhone 12, and very low storage, and i can’t afford to download the update because it requires so much of my 64 G (most of them taken up by iOS, how greedy can you get?? 😭). i’m also worried that if i get the new iOS update it won’t fix the issue and then i’ve wasted space updating. any ideas? im open to literally any POSSIBLE solution.
+
+edit: its already done it twice before 8am. 😭","[1:reply] If you want to update but do not have the local storage necessary for doing it wirelessly, you can update through a Mac or PC.
+[2:OP] thank you!!",title_body_comments,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/applehelp/comments/1vx1mbc/my_app_limits_are_glitching_and_graying_my_apps/
+B16-057,Fedora,"broadcom wifi not working on fedora kde, driver issue?","I switched to Fedora 40 KDE on my Asus laptop and now my wifi isn't showing up at all, only wired connection"" as an option in NetworkManager
+
+Ran lspci | grep -i network and it shows a Broadcom BCM43142. Already did dnf update -y, enabled RPM Fusion free/nonfree, and tried installing akmod-wl and broadcom-wl, but got an error during the akmod build I couldn't figure out. Checked rfkill list, nothing's blocked. ip link doesn't show a wlan interface either, just lo and the ethernet one.","[1:reply] Broadcom cards are just known for being a headache on linux
+[2:reply] It sounds like you're looking for help. Please note that r/Fedora is not an official support channel for the Fedora Project.
+
+For best results, be sure to include all relevant details in your post, such as your Fedora edition, version, and hardware specs. You can edit your origi…
+[3:reply] I've found Gemini a great assistant to resolve this. I described the issue and loaded relevant screenshots. Gemini replied with terminal commands. Sometimes takes a while but always get there so far.
+[4:reply] sudo dnf install broadcom-wl
+[5:reply] 40??
+
+I think you mean 44?",title_body_comments,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/Fedora/comments/1vuuvwp/broadcom_wifi_not_working_on_fedora_kde_driver/
+B16-058,linuxquestions,Newly installed fedora logging into black screen,"Hello! I need some help with my laptop.
+
+OS: Fedora workstation 43, kde plasma;
+Laptop – asus zenbook 14
+
+upd: i realised that i misses out on some important hardware info thanks to a comment. So, the laptop is asus zenbook 14 UM3402Y, it has an AMD Ryzen 7 CPU and an AMD Radeon GPU
+
+I had fedora 42 on this laptop before, and it worked completely fine untill i decided to mess around a bit and broke my system to the point where i simply couldn't update it to the newer version or install any updates in general.
+
+I didn't really have the time to do something about this these past months, and it wasn't urgent since everything else was working completely fine. But now that i finished my big projects, i decided that the easiest way to handle the problem would be to just back up my files and reinstall fedora. 
+
+After installing the OS, moving my files from the hard drive to the laptop and installing a couple of apps from discover, i started personalising my desktop. The first problem i encountered was the fact that my panel spacers just wouldn't load, they showed up as a basic widget icon. Then, i thought that i should just install the 1k+ updates that were showing up, but discover just wouldn't start for some reason. Mind you, this is the exact thing that made me reinstall the OS in the first place.
+
+After all of that, i thought that it would be a good idea to restart the laptop, and now i'm stuck with this.
+
+The thing is, the laptop does actually start, but it just shows a black screen. I can turn my keyboard lights on and off, and the little white light on the side also indicates that the laptop is running... kind of?
+
+Now, there is this weird thing in bios too, cause there used to be three boot options, and the one that is missing (i do not remember the name it had) is actually the one i put as the first in the list when installing the OS.
+
+I tried looking this problem up on forums, and used the remove rhgb workaround, but it didnt really help, now instead of just a black screen i got a black screen with a single underscore on the top left
+
+I have no idea what i did wrong and what to do now. Any advice is highly apreciated, please help 😭😭",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/linuxquestions/comments/1s03ghm/newly_installed_fedora_logging_into_black_screen/
+B16-059,linux,Finally updated my kernel today,"got around to updating my kernel today. Everything seems to be running smoothly so far,Went a lot smoother than I expected.On mint I've been dealing with a weird keyboard and mouse issue for quite a while and tried a bunch of different fixes with no luck.But switching to zorin solved the issue for now.",[1:reply] Welcome to 7.X,title_body_comments,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/linux/comments/1u66nem/finally_updated_my_kernel_today/
+B16-060,chrome,Grey screen when opening tab page,"Hi, for the past few days when I open the tab page in chrome mobile, it shows me this grey screen for a second before it loads my tabs. I noticed it started doing this after an update, there was another one after that that I thought would fix it but it didn't. Anyone else having this problem?",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/chrome/comments/1t0j5fp/grey_screen_when_opening_tab_page/
+B16-061,software,"AutoRewarder v3.2 is here! Now with Multi-Account Support, Mobile Point Collection, and a Brand New UI.","Hi everyone!
+
+First, thank you for the continued support on the previous releases. **AutoRewarder** already has **+700 downloads** and **+100 stars** on GitHub
+
+Today I'm excited to share **AutoRewarder v3.2**. While the last update focused on background automation, this version is a massive step forward in scalability and user experience. You can now seamlessly manage multiple accounts and farm mobile points, all wrapped in a new interface.
+
+**What’s new in v3.2:**
+
+* **Multi-Account Support:** Added a Guided First Setup with dedicated Edge profiles for each account.
+* **Brand New UI:** A completely redesigned, modern interface. *(A huge thanks to JeromeM for the new UI and massive help.)*
+* **Mobile point collection:** The bot can now perform searches for mobile point collection alongside PC searches.
+* **Per-account scheduling &amp; history:** You can now set schedules per account and view clear date/time/query/status tracking in the new History window.
+* **Update notifications:** The live log now surfaces GitHub release updates with direct download links so you never miss a new version.
+* **Expanded Documentation:** Added step-by-step multi-account sign-in screenshots, improved troubleshooting, and clarified runtime data locations for Windows and Linux.
+* **Fixes:** Added resilient recovery for corrupted settings or history files.
+
+The project remains 100% open source.
+
+**More info, screenshots, demo and code on GitHub:** [https://github.com/safarsin/AutoRewarder](https://github.com/safarsin/AutoRewarder)
+
+*(Note: If you plan to set up multiple profiles, I highly recommend checking out the Multiple Accounts section in the User Guide)*
+
+I'd love to hear your feedback, bug reports, or ideas for the next updates!",,title_and_body,yes,yes,other,medium,The post appears to discuss software without a clear troubleshooting or chiefly critical purpose.,,,,,,,https://reddit.com/r/software/comments/1t0wme9/autorewarder_v32_is_here_now_with_multiaccount/
+B16-062,homeassistant,File Editor: No more blinding white sidebars! I developed the new native Dark Mode.,"I got tired of the 'flashbang' effect every time I opened the File Editor at night, so I decided to fix it. The latest update (v6.0.0) includes my contribution for a full UI Dark Mode. If you like it and want to support a fellow dev, here's my link: buymeacoffee.com/mallewski. Would be a great motivation for future refinements.  
+Enjoy the dark side! 🌙
+
+Let me hear what you think.",,title_and_body,yes,yes,other,low,The post appears to discuss software without a clear troubleshooting or chiefly critical purpose.,,,,,,,https://reddit.com/r/homeassistant/comments/1sgnpxf/file_editor_no_more_blinding_white_sidebars_i/
+B16-063,homeassistant,Zigbee2mqtt issue,"I was at Ikea yesterday and they had Strybar remotes on ""sale"" about $8 each so I thought I would buy a few. When I got home I went to pair them with HA and they would not then I remembered there was an issue with ZHA. So I have been wanting to migrate to Z2M for a while but have not had the time and after reading that the best way to get the remotes into HA was Z2M I decided to disconnect my 10 ZHA devices and setup Z2M. Now Z2M shows running but when I try to go to the UI all I get is a ""502: Bad Gateway"" error. The log shows good and I just updated to HA 2026.6.3 this morning on my HA Blue. Any help would be great so I can get my lights back to working automatically. Thanks in Advance!
+
+  
+EDIT: It's about 90 minutes later, and I decided to install mosquitto on to HA, I figure I will only use this MQTT broker for Z2M and I am still getting the 502 error.","[1:reply] Just ran into this same 502 error when I migrated last month - usually means the mosquitto broker isn't playing nice with Z2M. Check if your MQTT broker is actually running and accessible, then verify the connection settings in your Z2M config match exactly what mosquitto expects
+[2:OP] Sensitive-Match1911 First Thanks for the reply. I have checked my broker, which is on a different box than HA, and it is working properly I double checked my credentials using an app on my phone, and they match the ones I used in Z2M, the only thing I am not sure how to check is…",title_body_comments,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/homeassistant/comments/1u4pt20/zigbee2mqtt_issue/
+B16-064,comfyui,Having trouble generating images using ComfyUI with zluda on amd and Windows,"Hi, I'm a first time Comfy enjoyer and finally got it to open without problems on my RX 6800xt and Windows. I used this repo [https://github.com/patientx/ComfyUI-Zluda](https://github.com/patientx/ComfyUI-Zluda)
+
+Turns out I'm kinda lost with the workflow and nodes. I was having problems using the base custom workflow for sdxl provided by the platform itself, having to disable custom nodes.  
+Now I'm using a random workflow from OpenArt.  
+I tried both w/o refiner, but I don't even know whats the refiner node for, and when (if) should I use. Anyways, everytime I tried generating images, I got a black image, I'm not sure how to fix that.
+
+My cmd was:  
+
+
+HIP\_PATH = C:\\Program Files\\AMD\\ROCm\\6.2\\
+
+HIP\_PATH\_57 = C:\\Program Files\\AMD\\ROCm\\5.7\\
+
+HIP\_PATH\_62 = C:\\Program Files\\AMD\\ROCm\\6.2\\
+
+
+
+\[INFO\] Detected Visual Studio Build Tools version: 18.0.2
+
+\[INFO\] Detected Git version: 2.47.1.windows.1
+
+\[INFO\] ComfyUI-Zluda current path: E:\\ComfyUI-Zluda\\
+
+\[INFO\] ComfyUI-Zluda current version: 2025-11-25 14:05:26 hash: de43f7b3 branch: master
+
+\[INFO\] Checking and updating to a new version if possible...
+
+\[INFO\] Already up to date.
+
+
+
+\[INFO\] AMD Software version: 25.11.1
+
+\[INFO\] ZLUDA version: 3.9.5 \[nightly build\]
+
+\[INFO\] Launching application via ZLUDA...
+
+
+
+Checkpoint files will always be loaded safely.
+
+%%% \[backported\] imported triton knobs
+
+
+
+  ::  Checking package versions...
+
+Found pydantic: 2.12.4, pydantic-settings: 2.12.0
+
+  ::  Pydantic packages are compatible, skipping reinstall
+
+Installed version of comfyui-frontend-package: 1.30.6
+
+Installed version of comfyui-workflow-templates: 0.7.9
+
+Installed version of av: 16.0.1
+
+Installed version of comfyui-embedded-docs: 0.3.1
+
+  ::  Package version check complete.
+
+
+
+  ::  ------------------------ ZLUDA -----------------------  ::
+
+  ::  Auto-detecting AMD GPU architecture for Triton...
+
+  ::  Detected GPU via Windows registry: AMD Radeon RX 6800 XT
+
+  ::  Set TRITON\_OVERRIDE\_ARCH=gfx1030
+
+  ::  Triton core imported successfully
+
+  ::  Detected Triton version: 3.4.0
+
+  ::  Enabled cuDNN
+
+  ::  Running Triton kernel test...
+
+%%% \[info\] triton/runtime/build/platform\_key: AMD64,Windows,64bit,WindowsPE
+
+  ::  Triton kernel test passed successfully
+
+  ::  Triton initialized successfully
+
+  ::  Patching ONNX Runtime for ZLUDA — disabling CUDA EP.
+
+  ::  Using ZLUDA with device: AMD Radeon RX 6800 XT \[ZLUDA\]
+
+  ::  Applying core ZLUDA patches...
+
+  ::  Initializing Triton optimizations
+
+  ::  Configuring Triton device properties...
+
+  ::  Triton device properties configured
+
+  ::  Flash attention components found
+
+  ::  AMD flash attention enabled successfully
+
+  ::  Configuring PyTorch backends...
+
+  ::  Disabled CUDA flash attention
+
+  ::  Enabled math attention fallback
+
+  ::  ZLUDA initialization complete
+
+  ::  ------------------------ ZLUDA -----------------------  ::
+
+
+
+Total VRAM 16368 MB, total RAM 32678 MB
+
+pytorch version: 2.7.0+cu118
+
+Set vram state to: NORMAL\_VRAM
+
+Device: cuda:0 AMD Radeon RX 6800 XT \[ZLUDA\] : native
+
+Enabled pinned memory 14705.0
+
+Using sub quadratic optimization for attention, if you have memory or speed issues try using: --use-split-cross-attention
+
+Python version: 3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) \[MSC v.1938 64 bit (AMD64)\]
+
+ComfyUI version: 0.3.71
+
+ComfyUI frontend version: 1.30.6
+
+\[Prompt Server\] web root: E:\\ComfyUI-Zluda\\venv\\Lib\\site-packages\\comfyui\_frontend\_package\\static
+
+Total VRAM 16368 MB, total RAM 32678 MB
+
+pytorch version: 2.7.0+cu118
+
+Set vram state to: NORMAL\_VRAM
+
+Device: cuda:0 AMD Radeon RX 6800 XT \[ZLUDA\] : native
+
+Enabled pinned memory 14705.0
+
+Skipping loading of custom nodes
+
+Context impl SQLiteImpl.
+
+Will assume non-transactional DDL.
+
+No target revision found.
+
+Starting server
+
+
+
+To see the GUI go to: [http://127.0.0.1:8188](http://127.0.0.1:8188)
+
+got prompt
+
+model weight dtype torch.float16, manual cast: None
+
+model\_type EPS
+
+Using split attention in VAE
+
+Using split attention in VAE
+
+VAE load device: cuda:0, offload device: cpu, dtype: torch.float32
+
+Requested to load SDXLClipModel
+
+loaded completely; 95367431640625005117571072.00 MB usable, 1560.80 MB loaded, full load: True
+
+CLIP/text encoder model load device: cuda:0, offload device: cpu, current: cuda:0, dtype: torch.float16
+
+Requested to load SDXL
+
+loaded completely; 11503.12 MB usable, 4897.05 MB loaded, full load: True
+
+100%|██████████████████████████████████████████████████████████████████████████████████| 25/25 \[00:33&lt;00:00,  1.34s/it\]
+
+Requested to load AutoencoderKL
+
+loaded partially: 418.18 MB loaded, lowvram patches: 0
+
+loaded completely; 361.69 MB usable, 319.11 MB loaded, full load: True
+
+E:\\ComfyUI-Zluda\\nodes.py:1594: RuntimeWarning: invalid value encountered in cast
+
+  img = Image.fromarray(np.clip(i, 0, 255).astype(np.uint8))
+
+Prompt executed in 48.95 seconds
+
+got prompt
+
+100%|██████████████████████████████████████████████████████████████████████████████████| 25/25 \[01:49&lt;00:00,  4.38s/it\]
+
+Prompt executed in 111.20 seconds
+
+got prompt
+
+Prompt executed in 0.00 seconds
+
+got prompt
+
+Prompt executed in 0.00 seconds
+
+got prompt
+
+loaded completely; 8346.05 MB usable, 1560.80 MB loaded, full load: True
+
+100%|██████████████████████████████████████████████████████████████████████████████████| 25/25 \[00:29&lt;00:00,  1.17s/it\]
+
+loaded partially: 443.20 MB loaded, lowvram patches: 0
+
+Prompt executed in 54.01 seconds
+
+got prompt
+
+100%|██████████████████████████████████████████████████████████████████████████████████| 25/25 \[01:15&lt;00:00,  3.04s/it\]
+
+Prompt executed in 77.60 seconds
+
+got prompt
+
+Using split attention in VAE
+
+Using split attention in VAE
+
+VAE load device: cuda:0, offload device: cpu, dtype: torch.float32
+
+loaded completely; 8346.05 MB usable, 1560.80 MB loaded, full load: True
+
+Compilation is in progress. Please wait...
+
+  0%|                                                                                           | 0/25 \[00:00&lt;?, ?it/s\]E:\\ComfyUI-Zluda\\venv\\Lib\\site-packages\\torchsde\\\_brownian\\brownian\_interval.py:608: UserWarning: Should have tb&lt;=t1 but got tb=14.614640235900879 and t1=14.61464.
+
+  warnings.warn(f""Should have {tb\_name}&lt;=t1 but got {tb\_name}={tb} and t1={self.\_end}."")
+
+100%|██████████████████████████████████████████████████████████████████████████████████| 25/25 \[00:29&lt;00:00,  1.20s/it\]
+
+  0%|                                                                                            | 0/5 \[00:00&lt;?, ?it/s\]E:\\ComfyUI-Zluda\\venv\\Lib\\site-packages\\torchsde\\\_brownian\\brownian\_interval.py:608: UserWarning: Should have tb&lt;=t1 but got tb=0.10288411378860474 and t1=0.102884.
+
+  warnings.warn(f""Should have {tb\_name}&lt;=t1 but got {tb\_name}={tb} and t1={self.\_end}."")
+
+100%|████████████████████████████████████████████████████████████████████████████████████| 5/5 \[00:05&lt;00:00,  1.19s/it\]
+
+Requested to load AutoencoderKL
+
+loaded partially: 418.18 MB loaded, lowvram patches: 0
+
+loaded completely; 348.98 MB usable, 319.11 MB loaded, full load: True
+
+Prompt executed in 125.47 seconds
+
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+I'm using these:
+
+ set ""COMMANDLINE\_ARGS=--auto-launch --use-quad-cross-attention --reserve-vram 0.9 --disable-all-custom-nodes --fp32-vae""
+
+Had to use --disable-all-custom-nodes cause apparently you can get errors while running with it enabled (and after I disabled it, some TRITON recognition errors got fixed);  
+I'm using --fp32-vae cause I got some VAE errors and searched in some AI chatbots and got this resolution
+
+Since I'cant upload the whole workflow, here is the link: [https://openart.ai/workflows/openart/-/Q6n55PcgIumjDRoPmPHX](https://openart.ai/workflows/openart/-/Q6n55PcgIumjDRoPmPHX)
+
+I'm trying to generate some 2d anime style images while using waiNSFWIllustrious\_v120.safetensors model  
+After oploading the worflow, I just changed the model on both nodes and the prompt
+
+Here are some info about the current state of it:
+
+https://preview.redd.it/zloesiqg9f3g1.png?width=1775&amp;format=png&amp;auto=webp&amp;s=3fa33f768a5ee250db4d05ca2127546212aed15b
+
+Can someone help me?",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/comfyui/comments/1p6ffz7/having_trouble_generating_images_using_comfyui/
+B16-065,chrome,My Favorite New Tab Extension Finally Got Updated After So Many Years,"I've been using a new tab extension called Dream Afar since 2017. Every time I opened a new tab, it gave me this brief pause. A small reset before diving into the next thing. In a browser with 47 tabs of chaos, that little moment actually helped me refocus. It made a noticeable difference in how I stay on top of things.
+
+I recommended it to friends. Some of them still use it. But I'd always have to add the caveat: ""Yeah, it hasn't been updated in years, so don't expect any new features."" Then last week, I opened Chrome and noticed something different. The interface looked... modern? Same vibe, but cleaner. Glass-like widgets. Smooth animations. I thought maybe Chrome broke something.
+
+Nope. It got a complete redesign.
+
+I've been using it for a few days now, and honestly? It feels like an unexpected Christmas gift. That excitement of unwrapping something you didn't even know you wanted, but now can't imagine going without. I find myself opening new tabs just to see the wallpaper change. I keep discovering little details in the interface that make me smile. It's been a while since a simple browser extension made me this genuinely happy, and I couldn't help but share the joy.
+
+**A Few Things I Really Liked**
+
+The core experience is still there—stunning wallpapers that make you actually pause before diving into work. The clock. The search bar. That feeling of ""okay, let's do this"" instead of immediately getting overwhelmed.
+
+But now there's so much more:
+
+**The wallpaper system got serious.** Since it pulls images from different sources, sometime the problem is that the wallpaper image is too bright to see the white font interface. Now the new version actually analyzes the brightness of each wallpaper and adjusts the text color automatically so everything stays readable. Such a small thing, but it makes a huge difference.
+
+**One-click wallpaper switch.** This sounds minor but it's a life changer for me. If I don't like the current wallpaper, I just click a button and it switches to the next one. No more being stuck with an image I'm not feeling.
+
+**The search bar is way more flexible.** You can easily switch between different search engines now, which is nice. But the part I really like is being able to select multiple engines at once—it opens all of them at the same time. Super useful when I'm comparing results or hunting for something specific.
+
+**The todo list changed my workflow.** They added a todo widget, and it's become my favorite thing. Every time I open a new tab, my tasks are right there staring at me. I used to forget to check my reminder app all the time—now I don't have to remember because it's just always there. It's like having a gentle accountability partner that shows up dozens of times a day.
+
+**The weather widget finally works.** This one's personal. The old weather widget was broken for years—I just gave up on it. Now it actually works, and it's so much better than before. Shows moon phases too, which I didn't know I wanted until I had it.
+
+Anyway, just wanted to share. If you're looking for a small tweak that keeps your tasks visible without adding another app to your workflow, might be worth checking out.
+
+[https://chromewebstore.google.com/detail/dream-afar-ai-new-tab-wit/henmfoppjjkcencpbjaigfahdjlgpegn](https://chromewebstore.google.com/detail/dream-afar-ai-new-tab-wit/henmfoppjjkcencpbjaigfahdjlgpegn)",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/chrome/comments/1puf7lm/my_favorite_new_tab_extension_finally_got_updated/
+B16-066,ios,Whatsapp Business app keeps crashing. iPhone 15 Pro running iOS 18,"Been having this issue since 3 days. Whenever i open the whatsapp business app, it freezes and closes. 
+
+Updated the app. Tried offloading the app and downloading again. Tried restarting the phone and nothing seems to work. I can't delete the app since i dont have it backed up on icloud and don't want to lose the chats
+
+I have whatsapp web logged in on my pc and have been using that since the issue started but its very inconvenient as its my primary whatsapl account for work. 
+
+The normal whatsapp seems to work fine, whats the fix and is anyone else having a similar issue?",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/ios/comments/1tf54w0/whatsapp_business_app_keeps_crashing_iphone_15/
+B16-067,applehelp,Apps I don’t use showing up on my screen time,"I’ve been having issues with the dating app Tinder showing up in my screen time, I don’t use Tinder. It’s not downloaded to my device, nor have I ever used it. This only started after the latest Apple update, iOS 27. Is anyone else having this issue or know how to fix this. I seriously don’t understand what’s going on.",[1:OP] I have a iPhone 16 plus,title_body_comments,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/applehelp/comments/1wwkpjo/apps_i_dont_use_showing_up_on_my_screen_time/
+B16-068,applehelp,MDM problem. Macbook Serial Number is linked to Organizations after full Reset.,"My macbook was used for around 4 years and decided to upgrade and handed this mac down to my wife. I do the erasing and formatting of the whole macbook via Settings. Everything went well until the setup process. When filling up Wireless Connection, a pop-up appears saying that my device is owned by Treeline Bioscience, Inc.
+
+After some research, and they said ""don't proceed"" since it will have access to the mac and can lock or disable the mac remotely.
+
+This mac is owned by me solely from new, freshly installed, not a second-hand device. I have the receipt on online marketplace when I first bought, but it doesn't have any details on the serial number. In Indonesia there is no such things as Apple Genius Bar, only official retailer whom knowledge is only selling devices.
+
+Is there any workaround around this? How could Apple design something so absurd that can randomly locked any mac because of someone across the globe mistyping a serial number?
+
+https://preview.redd.it/ugxql1m6f12h1.jpg?width=900&amp;format=pjpg&amp;auto=webp&amp;s=a9506e8c1b03edefa018c75f7f356497554681e2",,title_and_body,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/applehelp/comments/1theayn/mdm_problem_macbook_serial_number_is_linked_to/
+B16-069,firefox,Move tabs,"After the latest update i can't move my tabs anymore. Everytime if i hold a tab it will do select tab.
+
+How can i fix this?","[1:reply] &gt;latest update
+
+You mean to 152.0? If so, it *should* still be possible; I can rearrange them, both in list view and grid view.",title_body_comments,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/firefox/comments/1u9sc8e/move_tabs/
+B16-070,Dell,Dell display,I have a Dell Inspiron 5560 i7 11th generation laptop...2 months ago I upgraded it with Samsung 990 pro 1tb ssd because my laptop came with 512gb which was not enough these days...last evening my laptop display flinched a bit like display slided I got scared 😳 i turned it off....few minutes later...i opened it again it got worst... display got worse and last Page reflation remain on home page or next page slightly low 🔅 but clear reflation...i tested all dell provides it came all good...like laptop do it itself test while bóot up...but display is not working properly...in afternoon it got normal when I cleaned a bit with some vaccum cleaner or stuff i don't know but now out of sudden in evening it got worst... Since when I upgraded my ssd my laptop got warmer quickly that might have harmed my laptop...i don't know what should I do...I'm really scared i can't afford a new laptop now.....my earnings depend upon this laptop...help me what to do... anything from my side which I can do...#help me 🥹🥹,"[1:reply] It sounds like the issue could be more like the screen or display cable than the new SSD. As far as the display goes, I would suggest running the LCD self test.
+
+[How to Run LCD BIST Dell Laptop (Official Dell Tech Support) - YouTube](https://www.youtube.com/watch?si=x1KNGwxPPbA…",title_body_comments,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/Dell/comments/1uqwx73/dell_display/
+B16-071,firefox,FF Window Doesn't Maintain Size After Update,"Using 151.0.4 on a Win10 desktop PC.
+
+After updating to 151.0.4 the FF window size doesn't remain persistent when exiting and relaunching. 150.0.2 was fine. I tried Troubleshooting Mode and the issue was still present. 
+
+Windows has been shut down and restarted. No change. 
+
+Is anyone else seeing this? Is there a fix? 
+
+Thanks.","[1:reply] Same version. Just tried it. Closed and opened exactly the same. It is manually sized.
+[2:OP] Thanks for taking a look. I'm still scratching my head on this one.",title_body_comments,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/firefox/comments/1u43i9w/ff_window_doesnt_maintain_size_after_update/
+B16-072,linuxquestions,What do I tell him?,"Has anyone here ever installed Linux on a friend or relatives PC only to have them switch it back to Windows without telling you?
+
+I installed Linux on my nephews PC a few months ago. Debian 13. There was one instance where an update changed his default printer on him. I fixed that. Then another update removed his printer altogether. A simple reboot brought it back. I told him to try a reboot after an update if it happens again.
+
+Today he calls me and asks me if I have Microsoft Office... The last time I used MS Office was Office 97... I doubt that'll work on Windows 10 or 11 (I just searched to see if it does. It does work, but it would have to be installed in Windows 95 or 98 compatibility mode. That just sounds like a big ol' headache to me. And obviously it's no longer supported anymore either). Anyway, I told him MS Office won't run on Linux. That's when he told me he took the computer back to the place he bought it from and they reinstalled Windows on it and upgraded the RAM I believe.
+
+But all that said and done, I hate to say it but he's pretty much on his own if something happens to it. I know little about Windows 10 and practically nothing about 11. I can probably navigate it. But solving issues using programs I've never used before or that have changed drastically... I'd be living in Google the whole time looking for a solution. He probably knows more about Windows 10 or 11 than I ever will. I suppose I would try to help him but if I can't find a solution, what do I tell him?
+
+...If ya want my help, you should have stuck with Linux...
+
+EDIT: I forgot to mention, HE asked me to put Linux on his machine for him because I've been using nothing but Linux. He dumped Windows for the same reason everyone else is. I did not force it upon him. I even told him I'd help him with it which I did.","[1:reply] You can't force Linux on people, it just doesn't work. They have to want it. Linux is freedom but freedom isn't compulsory. 
+
+Don't let the rejection sting ruin your relationship long term haha. If something comes up you can either figure it out or you can't - don't be all ""well…
+[2:reply] Linux is not for everyone
+[3:OP] I guess I should have added that he asked me to put Linux on his machine because he knows I don't use Windows anymore.
+[4:reply] OnlyOffice works great as an M$ Office replacement, looks close to it too if you change the UI setting for the one with the colored ribbon. Give bro that and see if it shuts him up.
+[5:reply] Just tell him, you're a Linux guy and can't help with Windows problems. Or you'll be the one to perform google searches for him.",title_body_comments,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/linuxquestions/comments/1u2k5rs/what_do_i_tell_him/
+B16-073,immich,Updating on Unraid,"I installed immich a while ago with spaceinvaders tutorial. Installation happend with the community apps on unraid. That means I am stuck with Version 1.142.1 and can´t update to a newer version. I really don´t want to miss the new features.
+
+What´s the best way to get the newest version? Is a complete clean installation necessary?",,title_and_body,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/immich/comments/1oyjovo/updating_on_unraid/
+B16-074,comfyui,Live previews broken after updating,"After updating comfyui to the latest version(0.4.0), all live previews from the Ksampler and Wan Moe Ksampler nodes stopped working. Already uninstalled/ rehinstalled Video helper suite and checked all settings refering to live previews and everything is enabled.
+Since it happened on both of my pc's at the same time, i'm supposing its a client side problem. Is it working for you guys?",,title_and_body,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/comfyui/comments/1pj2m1p/live_previews_broken_after_updating/
+B16-075,chrome,Disable bookmarks tab in the new tab,"Hello. After Chrome was updated to version 148 a bookmarks tab appeared on the New Tab. Pressing Ctrl+Shift+B doesn't work of course, it works only if any website is open (but not the empty new tab).
+
+Disabling chrome://flags/#ntp-simplification-bookmark-bar seems to be obvious solution, but it doesn't work for me.",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/chrome/comments/1t5dqxj/disable_bookmarks_tab_in_the_new_tab/
+B16-076,vscode,"for the love of god, stop using AI to build vscode","There is absolutely a messed up experience from vscode in the past few months that has started to become so obvious and extremely infuriating.
+
+I just updated vscode, and right now I'm looking at around 200 different syntax colors &amp; with intellisense completely broken.
+
+Actually, it has become so predictable that whenever I get a ""Vscode has an update"" notification, I start feeling ptsd and I just avoid doing it until my system somehow updates it on its own.
+
+# vscode is an insanely large project, it needs insanely skilled developers. stop pressuring the developers to use AI to deliver faster. it's a professional software, not an AI slop generator",,title_and_body,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/vscode/comments/1s8xg08/for_the_love_of_god_stop_using_ai_to_build_vscode/
+B16-077,openclaw,I spent months building memory for my OpenClaw bot. Then I discovered the flaw,"After seeing an awesome post about the hybrid SQLite + LanceDB setup, I went and built something almost identical. I ran into a problem that approach doesn't actually solve, and it took me an embarrassingly long time to figure out why.
+
+My bot has been running on my home server for about two months. Like most of you, I spent the first few weeks explaining myself to the bot every single session. Same context, same preferences, same project structure, over and over.
+
+I warned you: this is a long post. TLDR at the bottom…
+
+**The Standard Journey (Which You've Probably Already Taken)**
+
+I won't rehash what's been posted here before, the progression from [MEMORY.md](http://MEMORY.md) to vector search is well-documented at this point. I went through it in about two weeks:
+
+**Week 1:** A fat [MEMORY.md](http://MEMORY.md) file loaded on boot. Works until it doesn't scale.
+
+**Week 2:** LanceDB for semantic recall. Suddenly the bot could ""remember"" old conversations. Felt like magic.
+
+**Week 3:** Realised that factual lookups were terrible with pure vector search. Added SQLite + FTS5 for structured facts. Now I had a proper hybrid system - fast text search for precise facts, vector search for fuzzy semantic queries.
+
+The thing is this architecture *works*. The hybrid approach is genuinely good. I'd recommend it to anyone who wants to understand the fundamentals of agent memory.
+
+But there's a flaw in it that I only discovered after it spectacularly failed on me.
+
+**The Flaw Nobody Talks About**
+
+Here's what happened. The bot and I had been working on a refactoring project for about four days. It knew the whole codebase structure, the decisions we'd made, which modules were off-limits. All of that was sitting in SQLite and LanceDB, getting injected into context at the start of each session.
+
+Then we had a long session, probably six or seven hours. Deep into it, somewhere around message 90 or so, context compaction kicked in. OpenClaw summarised the older conversation to save tokens.
+
+And suddenly the bot forgot everything. Not just the recent stuff. Everything, including the facts that had been injected from memory at session start.
+
+Here's the part that took me a while to understand: **it wasn't a failure of my memory system. It was a fundamental architectural problem.**
+
+Every approach I'd tried, [MEMORY.md](http://MEMORY.md), LanceDB, SQLite, all of them work the same way under the hood. They retrieve facts and inject them into the context window at the start of a session. But once they're in the context window, they're just tokens like everything else. When compaction runs, it summarises or drops them. The memory layer I'd spent three weeks building could be quietly destroyed by OpenClaw's own context management mid-conversation..
+
+The SQLite facts don't disappear from the database. But after compaction, the bot doesn't know to re-query them. It's working from the compressed summary, which may or may not have preserved the key details. In practice, it often doesn't.
+
+This is the distinction between *memory stored in context* and *memory stored outside context*. I'd been building the former without realising it.
+
+**What Actually Solves It**
+
+After enough frustration I went looking for solutions and found the Mem0 plugin for OpenClaw. I was sceptical, I'd built my own system and wasn't keen to replace it - but the architecture is genuinely different.
+
+Mem0 stores memories outside the context window entirely. Not in a file that gets loaded at startup. Not in a vector DB whose results get injected once and then sit in the context. *Outside* it, in an external store that gets queried fresh on every single turn.
+
+*The flow is:*
+
+1. Message comes in
+2. Mem0 does a semantic search against your full memory store
+3. Relevant memories get injected into that specific turn's context, not the whole session, just that turn
+4. After the bot responds, Mem0 extracts anything worth storing and updates the memory store
+5. Repeat next turn
+
+Because step 3 happens *every turn*, context compaction doesn't matter. Even if compaction nukes everything from turns 1-80, turn 81 still gets a fresh injection of relevant memories. The bot remembers because the system keeps telling it what to remember, not because it's hoping the summary preserved the right details.
+
+Installation took me about 30 seconds:
+
+`openclaw plugins install @ mem0/openclaw-mem0`
+
+Get an API key and add to openclaw.json:
+
+json
+
+`{ ""openclaw-mem0"": { ""enabled"": true, ""config"": { ""apiKey"": ""${MEM0_API_KEY}"", ""userId"": ""your-user-id"" } } }`
+
+That's it. Auto-recall and auto-capture are on by default.
+
+For the privacy-conscious (I see you I was also running everything local before this): there's a full self-hosted mode. Ollama for embeddings, Qdrant for vectors, Anthropic or whatever LLM you're running. No Mem0 API key needed:
+
+json
+
+`{ ""openclaw-mem0"": { ""enabled"": true, ""config"": { ""mode"": ""open-source"", ""userId"": ""your-user-id"", ""oss"": { ""embedder"": { ""provider"": ""ollama"", ""config"": { ""model"": ""nomic-embed-text"" } }, ""vectorStore"": { ""provider"": ""qdrant"", ""config"": { ""host"": ""localhost"", ""port"": 6333 } }, ""llm"": { ""provider"": ""anthropic"", ""config"": { ""model"": ""claude-sonnet-4-20250514"" } } } } } }`
+
+Fully local. Your data never leaves your machine.
+
+**Long-term vs. Short-term Memory**
+
+One thing I didn't expect: Mem0 splits memory into two scopes automatically
+
+Long-term memories are user-scoped. Your name, tech stack, project structure, past decisions - these persist across all sessions. You don't configure this; it just classifies facts as it captures them..
+
+Short-term memories are session-scoped. What you're actively debugging, temporary context, where you left off mid-task. These don't pollute your permanent store
+
+Both scopes get searched on every turn, long-term first. In practice this means the bot now has something that feels like actual context continuity rather than session-by-session briefings.
+
+**The Five Memory Tools**
+
+The plugin also gives the bot explicit tools it can use:
+
+* `memory_search` \- semantic queries across everything stored
+* `memory_store` \- explicitly save a specific fact
+* `memory_list` and `memory_get` \- retrieval
+* `memory_forget` \- deletion (GDPR-compliant if you care about that)
+
+The interesting one is `memory_store`. If the bot is mid-task and I say ""remember, we decided not to use TypeScript for this module,"" it can store that directly without waiting for auto-capture. It feels more like working with someone who's actively paying attention.
+
+**Where I Landed**
+
+I'm still running SQLite + FTS5 alongside Mem0, actually. The hybrid architecture from the previous post is still solid for structured local lookups and I like having a local database I can query directly. But I think of it as a different layer now, local reference storage - rather than the core memory system.
+
+The core memory system is Mem0, because it's the only approach I've tried where compaction genuinely doesn't matter.
+
+I'm not affiliated with Mem0 and I'm not being paid to say any of this. I was frustrated, I tried a thing, it solved the problem I had. That's the whole story.
+
+If anyone's built something better, I'd genuinely love to know - drop it in the comments.
+
+**TLDR**
+
+Spent three weeks building a hybrid SQLite + LanceDB memory system for my OpenClaw bot. It worked well until context compaction destroyed the injected memories mid-session. The fundamental problem: any memory that gets loaded into the context window can be summarised or dropped by compaction. The fix is storing memories *outside* the context window and re-injecting relevant ones fresh on every turn. Mem0 does this. 30-second install: `openclaw plugins install @ mem0/openclaw-mem0`.
+
+Self-hosted mode available if you want fully local. Happy to provide more resources in the comments.",,title_and_body,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/openclaw/comments/1s8lz7x/i_spent_months_building_memory_for_my_openclaw/
+B16-078,comfyui,Latest update broke QwenVL?,,,title_only,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/comfyui/comments/1qy4dzy/latest_update_broke_qwenvl/
+B16-079,linuxquestions,Zorin update made me unable to connect to the internet.,"I just updated Zorin through software updater.
+
+After updating, I couldn't connect to the internet. I tried uninstalling my VPN since it has a kill switch, but that didn't help.
+
+Restarting the computer didn't help either.
+
+How can I reconnect to the internet on Zorin?","[1:reply] Check what updates occurred. Could be a kernel update that causes issues. Best way would be to boot into an older kernel version and check if that resolves the issue. If so, use that kernel until a new kernel update arrives to see if that resolves it. In the bootloader (GRUB) me…
+[2:OP] Oof, sorry. Could you please elaborate a bit on how I can use GRUB and what commands I need to use to undo the update? I'm not that skilled, I picked Zorin since I was told it was out-of-the-box and hard to break...",title_body_comments,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/linuxquestions/comments/1tmj19o/zorin_update_made_me_unable_to_connect_to_the/
+B16-080,Ubiquiti,Network Application version mismatch,"I recently updated the Network Application on my CloudKey. All went fine, but I noticed something interesting: the version number at the bottom of the Settings page in the Unifi Network app (iOS) seems to be stuck on the old version. If I go to the Control Plane -&gt; Updates screen, it does show the correct version.
+
+Anybody seen this before?
+
+I already tried restarting the CloudKey and signing out and back in to the Network app.",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/Ubiquiti/comments/1sdskf5/network_application_version_mismatch/
+B16-081,applehelp,iPhone 11 Pro issues related to recent upgrade to IOS 26.4.2,"First off, not sure if this is where I should post this, but here I go...
+
+I always update my phone to the latest IOS as well as restart my phone on a weekly basis. After I did the latest update (IOS 26.4.2), I started having the following issues that I've not had before:
+
+1. At least 2-3 times a day, I receive a prompt to log in to my Outlook account.  Note my Outlook account works fine on my laptop.
+2. When I try to send photos from my iPhone to my email account, it shows that they are all unsent.  I'm unable to locate these unsent emails and there is no error message.  I'm guess the emails are being sent through Apple email since I do not have the Outlook app downloaded on my phone.  I just use the email that came with the iPhone, because I've never had an issue before.
+
+My steps are that I select the photo &gt; Select the Send to icon &gt; Select the blue mail folder &gt; Type in my address to send to laptop. Then, the email never arrives. When I click on the blue email icon folder on my phone, for a brief second, it shows me how many unsent emails I've sent and disappears.
+
+I did reach out to the Learn Microsoft Support page but have received no feedback.  I can't seem to find any online community help sites anymore like I use to when I had an issue with Microsoft.  So, I thought Reddit has always been helpful and y'all could help steer me in the right direction.",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/applehelp/comments/1t22q8z/iphone_11_pro_issues_related_to_recent_upgrade_to/
+B16-082,sysadmin,CVE-2026-73570: Zimbra SNMP RCE abused to deploy coin-miner malware,"# CVE-2026-73570: Zimbra SNMP RCE abused to deploy coin-miner malware
+
+CVE-2026-73570 is a Remote Code Execution issue in Zimbra Collaboration Suite (ZCS), related to SNMP notification/logwatch handling.
+
+In short, an unauthenticated attacker can send a crafted SMTP request and get OS command execution as the `zimbra` user when the vulnerable SNMP/logwatch components are installed and enabled.
+
+According to NVD, the issue affects Zimbra versions before 10.1.20 when SNMP is installed and SNMP notification is enabled. The Hacker News also reported active exploitation against Zimbra servers.
+
+The observed attack chain is usually:
+
+    malicious SMTP request
+    -&gt; unsafe SNMP/logwatch handling
+    -&gt; command execution as zimbra
+    -&gt; malware dropped into /dev/shm
+    -&gt; cron persistence added
+    -&gt; miner or backdoor keeps respawning
+
+# What is CVE-2026-73570?
+
+CVE-2026-73570 is an OS Command Injection vulnerability in Zimbra Collaboration Suite.
+
+The issue is in the SNMP notification/logwatch flow, where attacker-controlled input is not handled safely before being passed into system-level processing.
+
+The command runs as the `zimbra` user, not `root`. That is still serious because the `zimbra` user controls important Zimbra services, mailbox components, logs, cron jobs and runtime paths.
+
+# When is a Zimbra server at risk?
+
+A server should be checked immediately if:
+
+* It is running Zimbra Collaboration Suite.
+* It is not patched to a fixed version.
+* `zimbra-snmp` or `zimbra-net-snmp` is installed.
+* SNMP is enabled in Zimbra.
+* `zmlogswatch` or `zmswatch` is running.
+
+Quick checks:
+
+    su - zimbra -c 'zmcontrol -v'
+    dpkg -l | grep -E 'zimbra-snmp|zimbra-net-snmp'
+    su - zimbra -c 'zmprov gs $(zmhostname) zimbraServiceEnabled | grep snmp'
+    su - zimbra -c 'zmlogswatchctl status'
+    su - zimbra -c 'zmswatchctl status'
+
+If you see `zimbraServiceEnabled: snmp` and `zmlogswatch is running`, treat the server as high priority for compromise checks.
+
+# Signs of compromise
+
+In the cases observed, malware was often dropped into `/dev/shm`. This directory is a tmpfs location, writable and easy to miss during a quick investigation.
+
+Check:
+
+    ls -la /dev/shm
+    crontab -l -u zimbra
+    ps aux | grep -E 'khp|rguard|javab|idle|ksmd' | grep -v grep
+
+Common suspicious files:
+
+    /dev/shm/.khp
+    /dev/shm/.khp_ts
+    /dev/shm/.rguard
+    /dev/shm/idle
+    /dev/shm/javab
+    /dev/shm/ksmd
+
+A cron entry like this is a strong persistence indicator:
+
+    * * * * * /dev/shm/.khp
+
+# Why does the malware keep coming back?
+
+Deleting files from `/dev/shm` is usually not enough.
+
+The malware can return because:
+
+* The malicious process is still running in memory.
+* The `zimbra` crontab runs `/dev/shm/.khp` every minute.
+* `.rguard` or `idle` may protect or redeploy the payload.
+* SNMP/logwatch is still enabled, so the CVE can be exploited again.
+
+The correct order is:
+
+    stop reinfection source
+    -&gt; preserve evidence
+    -&gt; kill malware processes
+    -&gt; remove malicious cron
+    -&gt; quarantine malware files
+    -&gt; verify clean state
+    -&gt; recover Zimbra services if needed
+    -&gt; patch/upgrade Zimbra
+
+# Cleanup procedure
+
+Run the following commands as `root`. Review each command before running it on production.
+
+# Step 1: Stop the reinfection source
+
+    systemctl stop cron
+    su - zimbra -c 'zmlogswatchctl stop'
+    su - zimbra -c 'zmswatchctl stop'
+    su - zimbra -c 'zmprov ms $(zmhostname) -zimbraServiceEnabled snmp'
+
+Disabling SNMP/logwatch is the most important containment step. Do not re-enable these components before Zimbra is patched.
+
+# Step 2: Preserve malware evidence
+
+    mkdir -p /root/incident-zimbra
+    
+    cp -a /dev/shm/.khp \
+          /dev/shm/.khp_ts \
+          /dev/shm/.rguard \
+          /dev/shm/idle \
+          /dev/shm/javab \
+          /dev/shm/ksmd \
+          /root/incident-zimbra/ 2&gt;/dev/null
+    
+    crontab -l -u zimbra &gt; /root/incident-zimbra/zimbra-cron-before.txt 2&gt;&amp;1
+    ps auxf &gt; /root/incident-zimbra/ps-before.txt
+    ss -tunap &gt; /root/incident-zimbra/ss-before.txt
+    sha256sum /root/incident-zimbra/* &gt; /root/incident-zimbra/sha256.txt 2&gt;/dev/null
+
+# Step 3: Kill malware processes
+
+    pkill -9 -u zimbra -f 'khp|rguard|javab|idle|ksmd'
+
+# Step 4: Remove malicious cron
+
+    crontab -l -u zimbra | grep -v '/dev/shm/.khp' | crontab -u zimbra -
+
+# Step 5: Quarantine malware files
+
+    mkdir -p /root/quarantine-zimbra
+    
+    mv /dev/shm/.khp \
+       /dev/shm/.khp_ts \
+       /dev/shm/.rguard \
+       /dev/shm/idle \
+       /dev/shm/javab \
+       /dev/shm/ksmd \
+       /root/quarantine-zimbra/ 2&gt;/dev/null
+
+# Step 6: Start cron again
+
+    systemctl start cron
+    systemctl is-active cron
+
+Only start cron. Do not start `zmlogswatch`, `zmswatch` or SNMP before patching Zimbra.
+
+# Verify after cleanup
+
+    ls -la /dev/shm
+    crontab -l -u zimbra | grep /dev/shm
+    ps aux | grep -E 'khp|rguard|javab|idle|ksmd' | grep -v grep
+    su - zimbra -c 'zmprov gs $(zmhostname) zimbraServiceEnabled | grep snmp || echo SNMP_DISABLED'
+
+Expected result:
+
+    /dev/shm is clean
+    no cron entry calling /dev/shm/.khp
+    no suspicious javab/rguard/idle/khp/ksmd process
+    SNMP is disabled
+
+# If Zimbra MySQL or mailbox fails
+
+After malware activity or an unexpected reboot, Zimbra may show:
+
+    mailbox Stopped
+    mysql.server is not running
+    service webapp Stopped
+    zimbra webapp Stopped
+    zimbraAdmin webapp Stopped
+    zimlet webapp Stopped
+
+Check MySQL and services:
+
+    su - zimbra -c 'zmcontrol status'
+    su - zimbra -c 'mysql.server status'
+    ss -ltnp | grep 7306
+    tail -n 200 /opt/zimbra/log/mysql_error.log
+
+If MySQL is stuck in crash recovery or has a stale socket, back up relevant files first.
+
+# Backup before MySQL recovery
+
+    mkdir -p /root/zimbra-mysql-backup
+    
+    cp -a /opt/zimbra/log/mysql_error.log /root/zimbra-mysql-backup/ 2&gt;/dev/null
+    cp -a /opt/zimbra/db/data/tc.log /root/zimbra-mysql-backup/ 2&gt;/dev/null
+    cp -a /opt/zimbra/data/tmp/mysql/mysql.sock /root/zimbra-mysql-backup/ 2&gt;/dev/null
+    cp -a /opt/zimbra/db/data/ibdata1 /root/zimbra-mysql-backup/ 2&gt;/dev/null
+    cp -a /opt/zimbra/db/data/ib_logfile* /root/zimbra-mysql-backup/ 2&gt;/dev/null
+
+# Light MySQL recovery
+
+    su - zimbra -c 'zmmailboxdctl stop'
+    
+    mv /opt/zimbra/data/tmp/mysql/mysql.sock /root/zimbra-mysql-backup/mysql.sock.bak 2&gt;/dev/null
+    mv /opt/zimbra/db/data/tc.log /root/zimbra-mysql-backup/tc.log.bak 2&gt;/dev/null
+    
+    su - zimbra -c 'mysql.server start'
+    sleep 20
+    su - zimbra -c 'mysql.server status'
+    
+    su - zimbra -c 'zmmailboxdctl start'
+    sleep 40
+    su - zimbra -c 'zmcontrol status'
+
+Expected result:
+
+    mysql is running
+    mailbox Running
+    service webapp Running
+    zimbra webapp Running
+    zimbraAdmin webapp Running
+    zimlet webapp Running
+
+This is not a universal fix. Always check `/opt/zimbra/log/mysql_error.log` first.
+
+# Does this delete mail data?
+
+The malware cleanup steps do not touch mailbox data directly.
+
+Zimbra mail data is usually stored in:
+
+    /opt/zimbra/store/
+
+Zimbra database data is usually stored in:
+
+    /opt/zimbra/db/data/
+
+The MySQL recovery steps touch `tc.log` and `mysql.sock`, so back up first.
+
+# Check for JSP webshells
+
+After handling `/dev/shm`, cron and processes, also check for suspicious JSP files created by the `zimbra` user in recent days.
+
+Important paths include:
+
+    /opt/zimbra/jetty/webapps/
+    /opt/zimbra/jetty_base/webapps/
+    /tmp/
+
+Unexpected JSP/JSPX files, executable scripts, archives or recently modified web application files may indicate payload staging or webshell deployment.
+
+Check JSP/JSPX files:
+
+    find /opt/zimbra/jetty/webapps -type f \( -name ""*.jsp"" -o -name ""*.jspx"" \) -printf '%TY-%Tm-%Td %TH:%TM:%TS %p\n' | sort
+
+If suspicious JSP backdoors are found, preserve evidence first, then quarantine them from both paths:
+
+    /opt/zimbra/jetty/webapps/zimbra/
+    /opt/zimbra/jetty_base/webapps/zimbra/
+
+Evidence backup and quarantine:
+
+    TS=$(date +%Y%m%d_%H%M%S)
+    INC=/root/incident-zmmail-jsp-webshell-$TS
+    QUA=/root/quarantine-zmmail-jsp-webshell-$TS
+    
+    mkdir -p ""$INC"" ""$QUA""
+    
+    # Save list and hashes
+    find /opt/zimbra/jetty/webapps/zimbra /opt/zimbra/jetty_base/webapps/zimbra \
+      -xdev -type f \( -iname '*.jsp' -o -iname '*.jspx' \) -mtime -30 \
+      -print &gt; ""$INC/suspicious-jsp-list.txt""
+    
+    xargs -a ""$INC/suspicious-jsp-list.txt"" sha256sum &gt; ""$INC/suspicious-jsp-sha256.txt""
+    
+    # Backup samples
+    while read f; do
+      mkdir -p ""$INC/files$(dirname ""$f"")""
+      cp -a ""$f"" ""$INC/files$f""
+    done &lt; ""$INC/suspicious-jsp-list.txt""
+    
+    # Quarantine from webroot
+    while read f; do
+      mkdir -p ""$QUA$(dirname ""$f"")""
+      mv ""$f"" ""$QUA$f""
+    done &lt; ""$INC/suspicious-jsp-list.txt""
+    
+    # Verify
+    find /opt/zimbra/jetty/webapps/zimbra /opt/zimbra/jetty_base/webapps/zimbra \
+      -xdev -type f \( -iname '*.jsp' -o -iname '*.jspx' \) -mtime -30 -print
+
+Risks:
+
+* If a file is a legitimate custom JSP, removing it may affect a custom webmail function.
+* Random file names and content using `exec`, `base64`, AES or command execution are strong webshell indicators.
+* This does not affect mailbox data.
+* A restart is not always required immediately, but webmail should be verified after quarantine.
+
+# Important note: zmlogswatch/zmswatch may start again
+
+After disabling SNMP/logwatch to mitigate CVE-2026-73570, `zmlogswatch` and `zmswatch` may start again after daily logrotate or after `zmcontrol restart`.
+
+This happens because Zimbra logrotate configs often contain `postrotate` commands that restart `zmlogswatchctl` and `zmswatchctl`. Also, `logger` may still be listed in `zimbraServiceEnabled`.
+
+So after temporary mitigation, check these services periodically, especially after midnight or after restarting Zimbra.
+
+If you need a stronger temporary block before patching, back up the logrotate configs, comment the restart lines, and consider removing `logger` from `zimbraServiceEnabled`.
+
+This can prevent logwatch from starting again and reopening the attack vector, but the Admin Console may lose part of its monitoring/statistics.
+
+# Disable zmlogswatch/zmswatch so they do not auto-start
+
+Warning: disabling `logger`, `zmlogswatch` and `zmswatch` may make the Zimbra Admin Console show logger/monitoring as red, or remove some graphs/statistics.
+
+During the unpatched phase, this is an acceptable temporary trade-off to prevent logwatch from restarting automatically.
+
+After upgrading to a fixed version, restore the configuration from backup and re-enable logger if needed.
+
+# Back up Zimbra logrotate configs
+
+    cp -a /etc/logrotate.d/zimbra /etc/logrotate.d/zimbra.bak.$(date +%F-%H%M%S)
+    cp -a /opt/zimbra/conf/zmlogrotate /opt/zimbra/conf/zmlogrotate.bak.$(date +%F-%H%M%S)
+
+Open these two files:
+
+    /etc/logrotate.d/zimbra
+    /opt/zimbra/conf/zmlogrotate
+
+Find these lines, often around line 85 and 99:
+
+    su - zimbra -c ""/opt/zimbra/bin/zmlogswatchctl restart"" &gt; /dev/null 2&gt;&amp;1 || true
+    su - zimbra -c ""/opt/zimbra/bin/zmswatchctl restart"" &gt; /dev/null 2&gt;&amp;1 || true
+
+Comment them:
+
+    # su - zimbra -c ""/opt/zimbra/bin/zmlogswatchctl restart"" &gt; /dev/null 2&gt;&amp;1 || true
+    # su - zimbra -c ""/opt/zimbra/bin/zmswatchctl restart"" &gt; /dev/null 2&gt;&amp;1 || true
+
+Remove logger from enabled services:
+
+    su - zimbra -c 'zmprov ms $(zmhostname) -zimbraServiceEnabled logger'
+
+Stop current logwatch/swatch processes:
+
+    su - zimbra -c 'zmlogswatchctl stop'
+    su - zimbra -c 'zmswatchctl stop'
+    su - zimbra -c 'zmlocalconfig -e snmp_notify=no'
+
+Verify:
+
+    su - zimbra -c 'zmlogswatchctl status'
+    su - zimbra -c 'zmswatchctl status'
+    su - zimbra -c 'zmlocalconfig snmp_notify'
+    su - zimbra -c 'zmprov gs $(zmhostname) zimbraServiceEnabled | egrep ""logger|snmp"" || echo ""LOGGER_SNMP_DISABLED""'
+
+Expected result:
+
+    zmlogswatch is not running.
+    zmswatch is not running.
+    snmp_notify = no
+    LOGGER_SNMP_DISABLED
+
+# Re-enable monitoring/logger after patching
+
+Only do this after Zimbra is patched or upgraded.
+
+    su - zimbra -c 'zmprov ms $(zmhostname) +zimbraServiceEnabled logger'
+    su - zimbra -c 'zmlogswatchctl start'
+    su - zimbra -c 'zmswatchctl start'
+
+If you commented the logrotate files, open them again:
+
+    /etc/logrotate.d/zimbra
+    /opt/zimbra/conf/zmlogrotate
+
+Uncomment these lines:
+
+    su - zimbra -c ""/opt/zimbra/bin/zmlogswatchctl restart"" &gt; /dev/null 2&gt;&amp;1 || true
+    su - zimbra -c ""/opt/zimbra/bin/zmswatchctl restart"" &gt; /dev/null 2&gt;&amp;1 || true
+
+# Re-enable SNMP only after patching
+
+    su - zimbra -c 'zmprov ms $(zmhostname) +zimbraServiceEnabled snmp'
+    su - zimbra -c 'zmlocalconfig -e snmp_notify=yes'
+    su - zimbra -c 'zmswatchctl start'
+
+Verify after re-enabling:
+
+    su - zimbra -c 'zmcontrol status'
+    su - zimbra -c 'zmlogswatchctl status'
+    su - zimbra -c 'zmswatchctl status'
+    su - zimbra -c 'zmlocalconfig snmp_notify'
+    su - zimbra -c 'zmprov gs $(zmhostname) zimbraServiceEnabled | egrep ""logger|snmp""'
+
+# Post-cleanup tasks
+
+After the server is running again:
+
+* Keep SNMP/logwatch disabled until patched.
+* Monitor `/dev/shm` for 30-60 minutes.
+* Monitor the `zimbra` crontab.
+* Monitor CPU/load and outbound connections.
+* Check the mail queue.
+* Patch or upgrade Zimbra to a fixed release.
+* Only re-enable SNMP/logwatch after patching and verification.
+
+Check queue:
+
+    /opt/zimbra/common/sbin/postqueue -p | tail -n 40
+
+# Summary workflow
+
+    1. Check /dev/shm, processes and crontab.
+    2. Stop cron, zmlogswatch and zmswatch.
+    3. Disable SNMP in Zimbra.
+    4. Preserve evidence.
+    5. Kill malware processes.
+    6. Remove malicious cron.
+    7. Quarantine malware files.
+    8. Start cron again.
+    9. Verify that malware does not respawn.
+    10. Recover MySQL/mailbox if needed.
+    11. Check JSP webshells in Zimbra webapps paths.
+    12. Monitor queue and services.
+    13. Prevent zmlogswatch/zmswatch from auto-starting before patching.
+    14. Patch or upgrade Zimbra.
+    15. Re-enable logger/SNMP only after patching and verification.
+
+# References
+
+* NVD: CVE-2026-73570
+* The Hacker News: attackers exploit Zimbra SNMP flaw
+* Zimbra Security Center
+* Zimbra Security Advisories
+
+# Conclusion
+
+CVE-2026-73570 is serious because it can allow remote command execution as the `zimbra` user through SNMP notification/logwatch handling.
+
+In observed incidents, attackers dropped malware into `/dev/shm`, added cron persistence, and ran a miner or backdoor.
+
+The key point is this: do not only delete the malware file. Stop the reinfection path first.
+
+A practical response order is:
+
+    stop cron + SNMP/logwatch
+    -&gt; preserve evidence
+    -&gt; kill malware
+    -&gt; remove malicious cron
+    -&gt; quarantine payloads
+    -&gt; check JSP webshells
+    -&gt; verify clean state
+    -&gt; recover Zimbra if needed
+    -&gt; block logwatch auto-restart before patching
+    -&gt; patch/upgrade Zimbra
+
+Most important: do not re-enable SNMP/logwatch before Zimbra is patched, because that may allow the malware to return.","[1:reply] I'm honestly thinking if someone puts an open port 25 onto the internet, and leaves it unpatched.. since. checks notes.. July, with no restrictions or intermediations they should just pack the server in a box, and go home.",title_body_comments,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/sysadmin/comments/1vzmdo0/cve202673570_zimbra_snmp_rce_abused_to_deploy/
+B16-083,Ubuntu,Clipboard not working after 26.04 update,"Help me out
+I updated from 24.04 to 26.04 
+Since then the clipboard not working.
+I use un-snapd version, like i removed snap manager when i was on 24.04",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/Ubuntu/comments/1syrci1/clipboard_not_working_after_2604_update/
+B16-084,MicrosoftEdge,Can't restore tabs after update.,"After my computer had updated recently, I went to go restore the tabs I had open before but the restore tabs button wasn't there. Did anyone else experience this and maybe know how to fix it?",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/MicrosoftEdge/comments/1pipztc/cant_restore_tabs_after_update/
+B16-085,chrome,"Chrome kept crashing on YouTube, X, and Netflix. Uninstalling Avast fixed it.","Chrome kept crashing on YouTube, X, and Netflix. Uninstalling Avast fixed it.
+
+
+
+For the past few days, Chrome kept crashing whenever I used video-heavy websites like YouTube, X/Twitter, and Netflix.
+
+
+
+The errors I kept seeing were:
+
+
+
+STATUS\_ACCESS\_VIOLATION
+
+STATUS\_STACK\_BUFFER\_OVERRUN
+
+
+
+At first, I thought it was a Chrome issue, so I tried the usual fixes:
+
+
+
+\- Cleared cookies and site data
+
+\- Reset Chrome data
+
+\- Reinstalled Chrome
+
+\- Updated my GPU driver
+
+\- Turned off hardware acceleration
+
+\- Tested Incognito mode
+
+\- Tested Guest profile
+
+
+
+None of them fully fixed it.
+
+
+
+I also tried disabling Avast Web Shield / Web protection and real-time protection, so I assumed Avast was not the problem. But then I noticed that renaming chrome.exe stopped the crashes, which made me suspect that something was hooking into Chrome specifically.
+
+
+
+I checked the loaded modules with Process Explorer and found several Avast DLLs loaded into the Chrome process, including hook/script filtering related ones.
+
+
+
+After completely uninstalling Avast, the issue disappeared.
+
+
+
+So if Chrome keeps crashing on video platforms with STATUS\_ACCESS\_VIOLATION or STATUS\_STACK\_BUFFER\_OVERRUN, and normal Chrome fixes do not work, try fully uninstalling your antivirus instead of only disabling Web Shield.
+
+
+
+Disabling Avast features was not enough in my case. Full uninstall fixed it.",,title_and_body,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/chrome/comments/1tfmavk/chrome_kept_crashing_on_youtube_x_and_netflix/
+B16-086,linuxquestions,"Why is it every time I try to update my drivers, it breaks my system? [Ubuntu, NVIDIA 3080]","I have been using ubuntu for a good 6 months or so now and one common occurrence I have is that every time I attempt to update my drivers to the latest version using the ""Additional Drivers"" app, my whole system breaks and I have to revert it.
+
+For example, today I installed nividia-driver-595-open (proprietary, tested), on install and reboot, I could no longer use my keyboard, half of the settings were missing, and the setting to connect to the internet disappeared.
+
+Why is this? Am I updating my drivers incorrectly?",,title_and_body,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/linuxquestions/comments/1t1c6um/why_is_it_every_time_i_try_to_update_my_drivers/
+B16-087,Ubiquiti,"Switched to Ubiquiti, having packet loss/drops","So I recently invested in a network upgrade from an old router and modem I had to a Netgear CM3000, UCG-Ultra, Lite 8 port, and UAP 7Lite. Set everything up and seemed like no issues occurred. Randomly, I have noticed some latency and packet loss and decided to do a deeper look. Below are logs from /var/log/messages indicating what appears to be the WAN Monitoring internet verification failing against google and cloudflare DNS? Seeing other peoples post, that's my best guess at least. My ISP is Xfinity as well.
+
+I also saw [here about the WAN criteria](https://help.ui.com/hc/en-us/articles/360052548713-WAN-Failover-Load-Balancing-and-Port-Remapping-on-UniFi-Gateways) for dropping the connection:
+
+&gt;To determine if a WAN is online, UniFi performs continuous health checks using three probes:
+
+&gt;\- Ping to ping.ui.com.
+
+&gt;\- DNS resolution of [ui.com](http://ui.com) using Cloudflare (1.1.1.1).
+
+&gt;\- DNS resolution of [ui.com](http://ui.com) using Google (8.8.8.8).
+
+Looks like I am indeed failing 2/3 which makes sense why its marking my WAN as down (as indicated in the logs below):
+
+    2026-03-23T17:46:31-04:00 Cloud-Gateway-Ultra ubios-udapi-server[1325]: wan-failover-monitor-dns: wf-monitor-eth4-2-dns (73.199.x.x-&gt;1.1.1.1) has dns-monitor update: 1.1.1.1:ui.com is down (pol=any loss=100/- lat=0/- jit=0/- !dns_avail=0%)
+    2026-03-23T17:46:31-04:00 Cloud-Gateway-Ultra ubios-udapi-server[1325]: wan-failover-monitor-dns: wf-monitor-eth4-3-dns (73.199.x.x-&gt;8.8.8.8) has dns-monitor update: 8.8.8.8:ui.com is down (pol=any loss=100/- lat=0/- jit=0/- !dns_avail=0%)
+    2026-03-23T17:46:31-04:00 Cloud-Gateway-Ultra ubios-udapi-server[1325]: wan-failover-interfaces: wf-interface-eth4 (73.199.x.x) is down [UDD____]
+    2026-03-23T17:46:32-04:00 Cloud-Gateway-Ultra ubios-udapi-server[1325]: wan-failover-group-base: wf-group-1-single is down [d](eth4)
+    2026-03-23T17:46:33-04:00 Cloud-Gateway-Ultra ubios-udapi-server[1325]: wan-failover-monitor-icmp: wf-monitor-eth4-1-icmp (73.199.x.x-&gt;1.1.1.1) has dpinger update: 1.1.1.1 is down (pol=any loss=57/- lat=15228/- jit=4914/- !icmp_state=alarm)
+    2026-03-23T17:46:33-04:00 Cloud-Gateway-Ultra ubios-udapi-server[1325]: wan-failover-monitor-icmp: wf-monitor-eth4-1-icmp (73.199.x.x-&gt;8.8.8.8) has dpinger update: 8.8.8.8 is down (pol=any loss=57/- lat=13458/- jit=1839/- !icmp_state=alarm)
+    2026-03-23T17:47:02-04:00 Cloud-Gateway-Ultra ubios-udapi-server[1325]: wireguard: Client Wireguard Peer (#1) has got peer &lt;redacted&gt; 149.40.x.x:51820 (via wgclt1 0.0.0.0/0) (&lt;no description&gt;) disconnected
+    2026-03-23T17:47:02-04:00 Cloud-Gateway-Ultra ubios-udapi-server[1325]: signal-out-notifier: Sending to NET Signal-EVT_VPN-3: EVT_VPN_ClientDisconnected &lt;redacted&gt; 149.40.x.x:51820 (via wgclt1 0.0.0.0/0) on /vpn/wireguard/clients/1
+    2026-03-23T17:47:02-04:00 Cloud-Gateway-Ultra ubios-udapi-server[1325]: wan-failover-interfaces: wf-interfaces-container releases 'wgclt1' as a WAN interface
+    2026-03-23T17:47:02-04:00 Cloud-Gateway-Ultra ubios-udapi-server[1325]: wireguard-interface-controller: Setting routes for wgclt1
+    2026-03-23T17:47:02-04:00 Cloud-Gateway-Ultra ubios-udapi-server[1325]: wan-failover-monitors: wf-monitor-eth4-1 (73.199.x.x) makes resolver DNSs: 75.75.75.75, 75.75.76.76
+    2026-03-23T17:47:02-04:00 Cloud-Gateway-Ultra ubios-udapi-server[1325]: wan-failover-monitors: wf-monitor-eth4-5 (73.199.x.x) makes resolver DNSs: 75.75.75.75, 75.75.76.76
+    2026-03-23T17:47:02-04:00 Cloud-Gateway-Ultra ubios-udapi-server[1325]: wan-failover-monitors: wf-monitor-eth4-6 (73.199.x.x) makes resolver DNSs: 75.75.75.75, 75.75.76.76
+    2026-03-23T17:47:02-04:00 Cloud-Gateway-Ultra ubios-udapi-server[1325]: wan-failover-monitors: wf-monitor-eth4-4 (73.199.x.x) makes resolver DNSs: 75.75.75.75, 75.75.76.76
+    2026-03-23T17:47:02-04:00 Cloud-Gateway-Ultra ubios-udapi-server[1325]: wan-failover-monitors: wf-monitor-eth4-5 (73.199.x.x) could not resolve www.microsoft.com (a): End of file
+    2026-03-23T17:47:06-04:00 Cloud-Gateway-Ultra ubios-udapi-server[1325]: wireguard: Client Wireguard Peer (#1) has got peer &lt;redacted&gt; 149.40.x.x:51820 (via wgclt1 0.0.0.0/0) (&lt;no description&gt;) connected
+    2026-03-23T17:47:06-04:00 Cloud-Gateway-Ultra ubios-udapi-server[1325]: signal-out-notifier: Sending to NET Signal-EVT_VPN-4: EVT_VPN_ClientConnected &lt;redacted&gt; 149.40.x.x:51820 (via wgclt1 0.0.0.0/0) on /vpn/wireguard/clients/1
+    2026-03-23T17:47:06-04:00 Cloud-Gateway-Ultra ubios-udapi-server[1325]: wan-failover-interfaces: wf-interfaces-container controls 'wgclt1' as a WAN interface
+    2026-03-23T17:47:06-04:00 Cloud-Gateway-Ultra ubios-udapi-server[1325]: wireguard-interface-controller: Setting routes for wgclt1
+    2026-03-23T17:47:06-04:00 Cloud-Gateway-Ultra ubios-udapi-server[1325]: wan-failover-monitors: wf-monitor-eth4-1 (73.199.x.x) makes resolver DNSs: 75.75.75.75, 75.75.76.76
+    2026-03-23T17:47:06-04:00 Cloud-Gateway-Ultra ubios-udapi-server[1325]: wan-failover-monitors: wf-monitor-eth4-5 (73.199.x.x) makes resolver DNSs: 75.75.75.75, 75.75.76.76
+    2026-03-23T17:47:06-04:00 Cloud-Gateway-Ultra ubios-udapi-server[1325]: wan-failover-monitors: wf-monitor-eth4-6 (73.199.x.x) makes resolver DNSs: 75.75.75.75, 75.75.76.76
+    2026-03-23T17:47:06-04:00 Cloud-Gateway-Ultra ubios-udapi-server[1325]: wan-failover-monitors: wf-monitor-eth4-4 (73.199.x.x) makes resolver DNSs: 75.75.75.75, 75.75.76.76
+    2026-03-23T17:47:06-04:00 Cloud-Gateway-Ultra ubios-udapi-server[1325]: wan-failover-monitor-dns: wf-monitor-eth4-2-dns (73.199.x.x-&gt;1.1.1.1) has dns-monitor update: 1.1.1.1:ui.com is up (pol=any loss=67/100 lat=16/1500 jit=0/- dns_avail=33%)
+    2026-03-23T17:47:06-04:00 Cloud-Gateway-Ultra ubios-udapi-server[1325]: wan-failover-monitor-dns: wf-monitor-eth4-3-dns (73.199.x.x-&gt;8.8.8.8) has dns-monitor update: 8.8.8.8:ui.com is up (pol=any loss=67/100 lat=26/1500 jit=0/- dns_avail=33%)
+    2026-03-23T17:47:06-04:00 Cloud-Gateway-Ultra ubios-udapi-server[1325]: wan-failover-interfaces: wf-interface-eth4 (73.199.x.x) is up [DUU____]
+    2026-03-23T17:47:07-04:00 Cloud-Gateway-Ultra ubios-udapi-server[1325]: wan-failover-group-base: wf-group-1-single is up [u](eth4)
+    2026-03-23T17:47:09-04:00 Cloud-Gateway-Ultra mcad[2717]: udapi-cfg._udapi_lu_set_state(): Changing LU state ON -&gt; OFF (cur-inform-interval=1)
+    2026-03-23T17:47:14-04:00 Cloud-Gateway-Ultra mcad[2717]: udapi-cfg._udapi_lu_set_state(): Changing LU state OFF -&gt; ON (cur-inform-interval=23)
+    2026-03-23T17:47:14-04:00 Cloud-Gateway-Ultra mcad[2717]: udapi-cfg._udapi_lu_set_inform_interval(): Changing LU inform interval 23 -&gt; 5 (cur-state=ON)
+
+Appreciate any sort of insight or direction on how to try and get this resolved! I really never had this problem or at least never noticed until I made the switch.",,title_and_body,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/Ubiquiti/comments/1s1xabc/switched_to_ubiquiti_having_packet_lossdrops/
+B16-088,Fedora,Error updating firefox via flatpak,"`Error: While pulling app/org.mozilla.firefox/x86_64/stable from remote flathub: Decompressed delta part exceeds configured limit of 76330069 bytes`  
+`Updates complete.`  
+`error: There were one or more errors`  
+
+
+
+
+  
+Anyone know what's causing this and how to fix? or should i just wait and flatpak or fedora will fix it on it';s own?","[1:reply] flatpak update --no-static-deltas
+[2:reply] Yes, it fix issue without reinstalling!
+[3:reply] It sounds like you're looking for help. Please note that r/Fedora is not an official support channel for the Fedora Project.
+
+For best results, be sure to include all relevant details in your post, such as your Fedora edition, version, and hardware specs. You can edit your origi…
+[4:reply] I did an uninstall/reinstall to work around this issue. 
+
+    flatpak uninstall org.mozilla.firefox
+    flatpak install flathub org.mozilla.firefox
+[5:OP] Thanks man!",title_body_comments,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/Fedora/comments/1vrug4g/error_updating_firefox_via_flatpak/
+B16-089,homelab,CageMaker PRCG v0.7 :: Parametric Rack Cage/Faceplate/Enclosure Generator,"It's that time again. Time for another version update for CageMaker PRCG.
+
+This time it's a *big* one. We're talking about a near-total refactor with almost all of the source code rewritten and optimized, and the entire thing restructured to make it easier to add features and maintain. A ton of features were added but the entire thing only grew about thirty kilobytes (excluding comments).
+
+The documentation got a rewrite as well. It's no longer wiki-based, but still has coverage of literally every single setting and what it does, complete with screenshots. A copy of it comes along for the ride when downloading/cloning the repository, or [clicky linky](https://webmaka.github.io/CageMakerPRCG/index.htm) to see it on Github right now.
+
+&amp;nbsp;
+
+What does this do? [Create this](https://webmaka.github.io/CageMakerPRCG/images/intro_demo_1.png), [print this](https://webmaka.github.io/CageMakerPRCG/images/intro_demo_2.png), [rack-mount this](https://webmaka.github.io/CageMakerPRCG/images/intro_demo_3.png).
+
+&amp;nbsp;
+
+And of course the important bit:
+
+[Github repo](https://github.com/WebMaka/CageMakerPRCG) - Or, just do ""git clone https://github.com/WebMaka/CageMakerPRCG.git"" if you have git installed.
+
+CageMaker PRCG runs best in OpenSCAD. Don't have OpenSCAD? Grab that [here](https://openscad.org/).
+
+Or, [try it in a web browser](https://cagemaker.org/) thanks to the WebAssembly port of OpenSCAD, OpenSCAD Playground.
+
+&amp;nbsp;
+
+The new additions to this version:
+
+* Almost completely refactored to break up massive routines into easier-to-modify and easier-to-maintain smaller segments and subroutines. This should make codebase finalization for 1.0 significantly easier, while also making for a more robust generator overall going forward.
+
+* Added the option to selectively disable any cage side. (Requested by Github user ""Nepherim"")
+
+* Added options to expand the faceplate upward or downward to cover openings or structures. The downward setting can emulate Homeracker ""flush to bottom"" for covering reinforcing bars. (Requested by Reddit/Github user ""dekonnection"")
+
+* Added the option to shift the mounting holes on either side of the faceplate up or down relative to the center of the topmost unit on the faceplate. This can be used to flip upside-down asymmetric cages that are half-unit height multiples, such as Keystone patch panels. (Requested by Reddit/Github user ""dekonnection"")
+
+* Improved the structure of rear support cages to handle heavier weight and greater extension range without sagging. Also changed the cage generation to make horizontal support ribs mandatory when a rear support cage is generated, so as to make a more effective overlapping joint between front and rear cages for greater rigidity.
+
+* Added faceplate modifications for 88x56mm SBCs such as Raspberry Pi, or any other SBC with this footprint along with M2 mounting holes in a 49mm x 58mm pattern. These modifications include a standalone support frame for the SBC, and include horizontal as well as vertical in both left-oriented and right- oriented.
+
+* Added faceplate modifications for standard motherboard rear-panel IO shield openings, Mini-ITX motherboards, and full-height and half-height PCI slots.
+
+* Added faceplate modifications for mounting ATX, SFX, and TFX power supplies.
+
+* Added the option to generate a cage without opening a corresponding hole in the faceplate for inserting a device. Useful for creating custom rackmount enclosures when combined with faceplate modifications.
+
+* Added the option to make the back of the cage solid, which can be useful for creating custom rackmount enclosures with solid backs for mounting connectors, etc., or remove most of the back aside from two 6mm wide retention lips on both short sides.
+
+* Added the capability to place left/centered/right modifications on the back of the cage when said back is set to solid. This makes creating custom rack enclosures significantly easier by generating cutouts directly into the cage back.
+
+* Added options to remove most of any side of the cage except for its support structure, or remove the side entirely.
+
+* Added custom rack widths for 12, 14, and 16 inch racks, as well as a 12.66 inch wide, 2/3-width rack for 19 inch racks.
+
+* Added direct support for EIA-310 racks using 2020 aluminum extrusion for framing. Since these racks have a reduced internal width, conventional cages often don't fit - selecting this rack geometry sets CageMaker to be more aware of the geometry differences for this rack design.
+
+* Added support for more non-EIA-standard rack geometries, including direct support for Homeracker and MR248 rack systems.
+
+* Added the ability to set custom rack geometry for non-standard racks. Unit height, hole spacing/centers/size, and mounting reservation space are all adjustable.
+
+* Modified the faceplate generator to more accurately locate screw holes on EIA-compliant racks.
+
+* Added the option to generate screw holes for mounting instead of 5mm wide slots. This will make for better aesthetics but may cause alignment issues on racks with slightly off-spec mounting hole centers.
+
+* Added the option to place screw-hole standoffs on the bottom of the cage when its geometry is set to solid. Screw hole size and standoff height are configurable.
+
+* Added the option for faceplate ventilation grids to only generate full holes.
+
+* Changed the resolution for most sizing and offset options to half-millimeter increments instead of full-millimeter only.
+
+* Improved the retention-lip generation code to make it more reliable.
+
+* Changed behavior under ""error"" conditions - CageMaker PRCG will no longer force-correct any problems it detects, such as re-centering faceplate modifications that exceed exclusion zones. This will permit forcing a render operation when the end result will work but might have clearance issues that CageMaker PRCG doesn't like but don't pose a problem in practical application.
+
+* Added an option to suppress ""CHECK CONSOLE"" error warning for rare situations where the generated cage throws an error that doesn't actually cause issues. This should be used VERY SPARINGLY, as it can result in an unprintable cage or one that has fitment issues.
+
+* Added a greeting that appears in the console when the script runs, which also displays the maximum width for a single device that can be placed in a single cage with the current settings.
+
+* Added a logotype graphic with version number and URLs that can be disabled via option in the ""rarely changed options"" category in the Customizer.
+
+&amp;nbsp;
+
+Not a bad list of new additions for an update, IMO, but I'm biased...
+
+&amp;nbsp;
+
+## CageMaker PRCG Features
+
+### Create Widely-Compliant Rackmount Cages To Fit Any Rack System
+
+*    Generates rack faceplates that are by default designed to comply with EIA-310 standard mounting hole patterns, which is used on the vast majority of modern rack systems. Triple-hole, slotted, 1/2""-5/8""-5/8"" staggered spacing, 1.75""/44.45mm ""unit"" height, sized for #10/M5 mounting hardware.
+*    Can optionally generate cages for rack systems that don't follow EIA-310, which can be useful for custom 3D printable mini- and micro-rack systems. Simply select the system's ""unit"" size and mounting hole spacing and CageMaker automatically adjusts accordingly.
+*    Generates full width rack cages for 5"", 6"", 7"", 10"", and 19"" racks.
+*    Generates one-half-width, bolt-together cages for 10"" and 19"" racks. Mounting ears are automatically generated on one side of the cage for bolting two of them together and optionally, alignment pin holes can be added to allow the use of short lengths of filament as alignment pins.
+*    Generates one-quarter-width, one-third-width, or two-thirds-width bolt-together cages for 19"" racks. Again, mounting ears for bolting cages together are automatically added as required (and again, optionally, alignment pin holes can be added) - outer cages have a single ear on one side and inner cages have two, one on each side.
+*    Automatically adjusts height to fit the device to mount in full ""unit"" multiples by default, and half-unit multiples as an option.
+*    Full-unit cages are symmetrical by default as long as the cage proper is left to its default offsets. Half-unit cages are asymmetrical but two half-unit cages can be aligned by rotating one so its half-holes butt against its neighbor's half-holes. If it becomes necessary to ""flip"" a cage that has a half-unit-multiple height, a single option shifts the mounting holes to make this happen.
+*    Partial-width cages can be mixed-and-matched for height - attach two 1U halves to a single 2U half. (NOTE: This requires that the ""top and bottom holes only"" option NOT be used.)
+*    Enforces safe mounting by maintaining a minimum mounting clearance of 15.875mm or 5/8"" on both sides of the faceplate (on EIA-compliant racks) and warns if any aspect of the cage design intrudes into that space.
+
+### Durable Rack-Mounting For Smaller But Heavier Equipment
+
+*    Adjustable plus-profile corner-support structure for maximum rigidity with minimal material consumption.
+*    Supports devices up to 5Kg or 11 lbs. per complete cage.
+*    Defaults to 4mm thickness for all flat surfaces, but this can be increased to 5mm, 6mm, or 8mm for greater stiffness and better support for heavier gear.
+*    Optionally add faceplate reinforcing to reduce twisting/cantilevering.
+*    Optionally generate additional supports on the top and bottom of the cage.
+*    Optionally generate the top, bottom, and/or sides as solid surfaces for additional rigidity.
+*    Optionally generate a rear-mounted support sub-cage to support larger/heavier devices from both front and rear by attaching to both front and rear rack rails. The rear support cage interlocks into the back of the cage holding the device.
+
+### Loads Of Customizable Cage Options To Fit Any Device
+
+*    The back, sides, top, and bottom of the cage proper are mostly open for ventilation by default as long as the device is at least 20mm deep on any given axis. Optionally make the ""top"" and/or ""bottom"" of the cage a solid shelf and/or make the sides of the cage solid.
+*    Easily create side-by-side cages for multiple same-sized devices - enter the dimensions of one device and increase the number of devices as needed. Excellent for mounting a lot of smaller things such as tiny-form-factor SBCs or external hard drives in minimal space.
+*    Multiple cages can be gapped out from each other for better air circulation, which can be helpful for hot-running devices.
+*    Optionally add screw holes in tabs to the short edges of a cage opening, or the corners of the opening, or both, with selectable hardware sizes. Couples well with multiple-same-sized-device cages, and useful for subrack assemblies - excellent for stuffing several Raspberry Pis or other small SBCs into a rack.
+*    By default, a cage is centered both horizontally and vertically on its faceplate. Positioning can be adjusted on both axes to move a cage to the top or bottom, to either side, or a combination of both.
+*    Standoffs can be positioned on the bottom of a cage, and both height and screw diameter are configurable.
+*    Add up to three sets of add-on faceplate modifications, one on either side of the cage proper and one in the center when creating a cageless faceplate, each of which can be any one of the following:
+   *     Keystone module receptacles
+   *     Neutrik D-Series connector cutouts
+   *     Cutouts and mounting bases with M2 screw bosses for mounting 85x58 SBCs such as Raspberry Pi. These can be mounted horizontally, or vertically with the SBC's ""top""/""up"" side facing left or right.
+   *     Cable management combs in two widths and two heights.
+   *     Motherboard rear-port IO shield cutouts.
+   *     Full-height or low-profile PCI slots for PC expansion cards.
+   *     Mini-ITX motherboard backplane with IO shield cutout and low-profile PCI slot.
+   *     ATX, SFX, and TFX power supplies.
+   *     30mm, 40mm, 60mm, 80mm, 92mm, 120mm, or 140mm cooling fans
+   *     10mm, 12mm, 16mm, 19mm, or 24mm holes for things like a pushbutton or panel-mount indicator light
+   *     Fractional-DIN cutouts in 1/32- to 1/4-DIN sizes
+   *     VESA FDMI MIS-B/-C/-D/-E/-F mounting patterns up to 200mm for attaching VESA mounting brackets to the rack or the rack to VESA mounting brackets
+   *     IEC-60309 industrial power inlet cutouts for 16A and 32A inlets
+   *     IEC AC Mains sockets and outlets - C13/C14 and C19/C20 - in both screw-mount and snap-in formats.
+    *    Up to three custom cutouts of configurable diameter for round holes or height and width with optional corner rounding for rectangular.
+*    Faceplate modifications can be placed into a grid of up to 12 columns by 4 rows, space permitting.
+*    Faceplate modifications can be automatically centered between the device(s) and the edge of safe mounting area, or manually moved. Centered modifications are automatically centered vertically, and side modifications can be shifted from centerlines.
+*    Can generate a faceplate without a cage proper, with selected modifications, or as a blank.
+*    Can generate a cage with a solid faceplate, which can also have modifications mentioned above, instead of being open for front-loading a device.
+*    Optionally add a 1mm retention ""lip"" on the front of the cage to help retain the device, which is recessed into the cage by 1mm to compensate.
+*    Selectable hardware for bolt-together and split cages - both metric (M3 through M6) and US-standard/imperial (4-40 through 1/4-20) hardware are supported, including both clearance and threaded hole diameters as well as common heat-set insert sizes by their thread pitch and mounting hole diameters.
+*    Add ventilation to the faceplate of any cage. The pattern, horizontal/vertical offsets, angle, and size are independently adjustable. Ventilation can cover the whole faceplate, or be limited to either side of, or above and below, the device cage.
+*    Add ventilation grids to the top/bottom and/or sides of a device cage. The pattern, horizontal/vertical offsets, angle, and size are independently adjustable.
+
+### Create Custom Rackmount Enclosures For Small Projects
+
+*    Create a cage with solid sides and back, and with a top that includes screw tabs for attaching a lid.
+*    The rear of a cage can be made solid and accept left oriented, centered, and/or right oriented modifications just like the faceplate. Create custom enclosures with connectors both inside and outside the rack.
+
+### Custom Faceplate Generation Without Device Cages
+
+*    Create a custom faceplate without a cage, in any height from 0.5U to 5.0U in half-unit increments.
+*    Faceplates can be ventilated as well. The pattern, horizontal/vertical offsets, angle, and size are independently adjustable.
+*    Add a faceplate modification, centered on the faceplate, which can be any one of the following:
+   *    Keystone module receptacles
+   *     Neutrik D-Series connector cutouts
+   *     Cutouts and mounting bases with M2 screw bosses for mounting 85x58 SBCs such as Raspberry Pi. These can be mounted horizontally, or vertically with the SBC's ""top""/""up"" side facing left or right.
+   *     Cable management combs in two widths and two heights.
+   *     Motherboard rear-port IO shield cutouts.
+   *     Full-height or low-profile PCI slots for PC expansion cards.
+   *     Mini-ITX motherboard backplane with IO shield cutout and low-profile PCI slot.
+   *     ATX, SFX, and TFX power supplies.
+   *     30mm, 40mm, 60mm, 80mm, 92mm, 120mm, or 140mm cooling fans
+   *     10mm, 12mm, 16mm, 19mm, or 24mm holes for things like a pushbutton or panel-mount indicator light
+   *     Fractional-DIN cutouts in 1/32- to 1/4-DIN sizes
+   *     VESA FDMI MIS-B/-C/-D/-E/-F mounting patterns up to 200mm for attaching VESA mounting brackets to the rack or the rack to VESA mounting brackets
+   *     IEC-60309 industrial power inlet cutouts for 16A and 32A inlets
+   *     IEC AC Mains sockets and outlets - C13/C14 and C19/C20 - in both screw-mount and snap-in formats.
+   *     Up to three custom cutouts of configurable diameter for round holes or height and width for rectangular.
+*    Left and right side modifications from cage generation can also be placed on a custom cageless faceplate - three different mods can be used at one time.
+*    Faceplate modifications can be placed into an array or grid of up to 12 columns by 4 rows, space permitting.
+*    Faceplates can be generated as flat 2D objects for export - perfect for engraving or laser-cutting a customized faceplate.
+
+### Wide Printer Support, Including Small-Format
+
+*    Adjustable clearance setting allows for ""dialing in"" dimensions to compensate for the dimensional accuracy of the printer.
+*    Can split a cage in half for printing on smaller-volume printers - print a 10"" wide 2U tall cage within a 180mm print area. Split cages receive tabs and slots for attaching the halves together.
+*    Optionally add alignment pin holes to split cages - use small 1.75mm filament ""pegs"" to more accurately align the cage halves.
+*    Can separate the cage proper and faceplate into two components for faster printing on larger printers. Reduces print time by as much as 15% and reduces filament consumption by as much as 25%. (Separated cage should be attached to its faceplate with 1.75mm filament segments or M2 screws, and a suitable adhesive such as epoxy is used to ""weld"" the two into a single unit.)
+
+### Making Cage Design Easier Without Requiring CAD Expertise
+
+*    Includes presets for a number of popular devices - simply pick a device from a list to get a ready-to-render design for a 10"" rack without requiring any further action. Pick, render, export, slice, print, install into the rack.
+*    Includes built-in ""ruler"" for easier layout. The ruler function automatically switches off when rendering a completed cage for printing.
+*    Ruler feature provides a ""top"" indicator as well as the unit height of the generated cage.
+*    Faceplate and cage-back modifications' reservation spaces are color-coded for easier layout planning.
+*    Automatically marks estimated print height for the Z-axis when the ruler is enabled.
+*    Optionally display an outline of the build volume of the printer, to help determine whether the resulting 3D object will fit the printer's working area.
+*    Intelligent problem detection warns of size/fitment issues and overlap, in order to make sure the cage will work as a real thing before spending the time and filament to print the cage.
+*    Error messages are sent to OpenSCAD's console.
+*    Also runs in OpenSCAD Playground, a web-based port of OpenSCAD - design cages in a browser without having to install any software. OpenSCAD Playground can run in most modern browsers, including those that run on Android/iPhone.",,title_and_body,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/homelab/comments/1wwq5fa/cagemaker_prcg_v07_parametric_rack/
+B16-090,applehelp,My new iPhone 17’s WiFi lags and calls keep breaking.,"I didn’t have these issues with my iPhone 16. It’s updated to the latest the software. Is this a known problem with the iPhone 17 or just my phone?
+
+Also, some of my photos became corrupt and can only be viewed on iCloud.com after updating.",,title_and_body,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/applehelp/comments/1tpl3c7/my_new_iphone_17s_wifi_lags_and_calls_keep/
+B16-091,AndroidQuestions,How do I circumvent apps no longer compatible with my old phone?,"I bought this Samsung Note 9 when they first came out and it still works perfectly.  Good battery life, good speed, plenty of storage, no A.I. BS, etc.  However, companies are starting to intentionally make their apps no longer compatible with it.  First it was my Capital One app uninstalling itself after a mandatory update, and now I'm getting alerts that Android Auto will no longer be compatible soon.  I don't want to waste money on a new phone when mine still works like new, but I love my wireless Android Auto.  Is there some way to circumvent these compatibility issues? Not updating apps only works for so long.  
+
+Thanks in advance.","[1:reply] Depending on versiondid You thought about unlocking it and flashing custom tom?
+[2:reply] I had to upgrade from my S9 after work dropped support for that android version. The phone is now for my kids, it still works well, but I did not regret the upgrade. There is no a.i. Bs or anything like that being shoved down our throats
+[3:OP] What are you using now?
+[4:reply] Tom might press charges if you flash him.
+[5:reply] \&gt; My phone works perfectly
+
+\&gt; proceeds to describe how it doesn't work anymore
+
+That's precisely how equipment age this days: the world moved forward and old gear stays old.
+
+It's not possible to make new apps work with old OS. They've started to use new functions that a…",title_body_comments,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/AndroidQuestions/comments/1wx5dem/how_do_i_circumvent_apps_no_longer_compatible/
+B16-092,Ubiquiti,Verizon 5G Home with a Unifi Gateway Will Always Fail Auto SLA,"Several months ago after a long duration of dual WAN failover bliss, my failover WAN2 completely went offline, showing ""down"" on the UDM Pro.  Sure, the latency has always shown yellow in the dashboard, but it is a 5G connection so I just lived with it and the latency.  But then my cheap, unlimited $25/m backup WAN was useless.
+
+I started troubleshooting by rebooting the modem couple of times, placing it in different locations around the house, only to realize, it was not down after all, and actually performing amazingly fast when connected directly to my laptop.  So, I reconnected it to the WAN2 port 9 and, well, nothing.  Complete failure, again.
+
+I started researching with ChatGPT realized that the auto SLA was the culprit and created a custom SLA that wasn't great but was actually allowing the connection to appear up, at least satisfying the SLA enough to keep it a viable WAN2.
+
+So I was not happy but satisfied, until today, when Network update 10.4 exposed the SLA stats and I realized why the Verizon connection stopped working on the Unifi automatic SLA; Verizon is **blocking DNS requests to non-Verizon DNS servers**.  Two of the three monitors in the auto SLA are DNS, two of them would always fail.
+
+Knowing it worked for so long then suddenly failed, I do not know if this was the result of an update to the gateway that changed the behavior of the automatic SLA, or if this was Verizon, suddenly preventing DNS lookups to non-Verizon DNS servers.
+
+It is almost as if the auto SLA should adapt to your provider and build an auto SLA based on monitors that stand a chance of working.  Unifi already knows who your provider is and shows those great little icons in the interface, seems like they could easily do this.  
+
+It makes me wonder how many people out there that bought Verizon 5G Home and either just returned it or ditched their Unifi gateway because it wouldn't work.
+
+For the geeks out there here is what I did:
+
+Found the public IP address from WAN2 in the GUI (let's pretend it is 1.2.3.4) and SSH into the gateway.
+
+    root@UDM-Pro:~# dig google.com 1.1.1.1 -b 1.2.3.4 
+    &lt;&lt;&gt;&gt; DiG 9.16.50-Debian &lt;&lt;&gt;&gt; google.com 1.1.1.1 -b 1.2.3.4 ;; global options: +cmd ;; connection timed out; no servers could be reached 
+    
+    root@UDM-Pro:~# dig google.com 8.8.8.8 -b 1.2.3.4 
+    &lt;&lt;&gt;&gt; DiG 9.16.50-Debian &lt;&lt;&gt;&gt; google.com 1.1.1.1 -b 1.2.3.4 ;; global options: +cmd ;; connection timed out; no servers could be reached 
+
+The -b switch tells dig to use that specific source address.  I disconnected the Ethernet cable from WAN2 and connected it to my laptop.  I ran similar tests in the Terminal with the same results, but noted that the Internet and DNS resolution was working.
+
+If I did nslookups with the DHCP assigned DNS servers, it worked.  If I used a third-party DNS server, the lookups would fail.
+
+I reconnected the Verizon 5G Home modem to the gateway on WAN2 and ran additional tests using the DNS servers that the Verizon DHCP provided on my laptop.
+
+    root@UDM-Pro:~# dig google.com 198.224.159.135 -b 1.2.3.4 ; 
+    &lt;&lt;&gt;&gt; DiG 9.16.50-Debian &lt;&lt;&gt;&gt; google.com 198.224.159.135 -b 1.2.3.4 ;; global options: +cmd ;; 
+    Got answer: ;; 
+    -&gt;&gt;HEADER&lt;&lt;- opcode: QUERY, status: NOERROR, id: 16316 ;; flags: qr rd ra; QUERY: 1, ANSWER: 6, AUTHORITY: 0, ADDITIONAL: 1 ;; OPT PSEUDOSECTION: ; EDNS: version: 0, flags:; udp: 1220 ; COOKIE: 8b83d5bcd0d9b74c010000006a17cb9af853cc4897db2953 (good) ;; QUESTION SECTION: ;google.com.INA ;; 
+    ANSWER SECTION: google.com.121INA142.250.115.100 google.com.121INA142.250.115.101 
+    google.com.121INA142.250.115.139 
+    google.com.121INA142.250.115.113 
+    google.com.121INA142.250.115.138 
+    google.com.121INA142.250.115.102 ;; 
+    Query time: 30 msec ;; SERVER: 198.224.159.135#53(198.224.159.135) ;; WHEN: Wed May 27 23:59:06 CDT 2026 ;; MSG SIZE  rcvd: 163 
+
+I created a custom SLA using ping to 1.1.1.1, and two DNS monitors to the two Verizon DNS servers that were assigned in DHCP, 198.224.158.135 and 198.224.159.135 and, so far, it is very stable.
+
+Hope this helps someone else out there!","[1:reply] Personally, I'd dump the Verizon 5G and let them know the reason is for blocking internet functionality. There is NO reason for them to block using other DNS servers other than for them to track every website you visit.
+[2:reply] Hello!  Thanks for posting on r/Ubiquiti!
+
+This subreddit is here to provide unofficial technical support to people who use or want to dive into the world of Ubiquiti products.  If you haven’t already been descriptive in your post, please take the time to edit it and add as many…",title_body_comments,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/Ubiquiti/comments/1tpu962/verizon_5g_home_with_a_unifi_gateway_will_always/
+B16-093,MicrosoftEdge,Strange GAP over the top,"Hello.
+
+Another Microsoft Edge update and again some strange design changes. 
+
+After updating to version 145, some indentation appeared that cannot be fixed by disabling the rounded corners in ""edge://flags"".
+
+It might not be that noticeable when displaying regular tabs, but I use a tab group and it looks terrible.
+
+https://preview.redd.it/kmc6uj5ujwjg1.png?width=1007&amp;format=png&amp;auto=webp&amp;s=98cbf30186240937be6f12fb0aeaf478cae60309
+
+Suddenly, does anyone know how this horror can be fixed and returned to how it was.",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/MicrosoftEdge/comments/1r6i45v/strange_gap_over_the_top/
+B16-094,Wordpress,"When I am updating plugins like Elementor I get fatal errors of memory limit, why?","Should I incread memory limit, why does this happen?",,title_and_body,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/Wordpress/comments/1qsvcyv/when_i_am_updating_plugins_like_elementor_i_get/
+B16-095,Fedora,fedora failing to boot after unlocking disk,"I dualbooted fedora kde and windows 11 onto my computer, i have been using both of them fine with almost no issues for about a two or three months now. recently i saw that there was a new update for gnome and many other applications, i installed the update and it told me in order to finish the update it needed the computer to restart. I restarted my computer, unlocked the disk encryption, waited for around 4-5 minutes on the fedora loading screen. after this it said „warning: /dev/disk/by-uuid/etc does not exist”. I have tried to run an older version of the kernel, i tried to identify the drive with blkid (it was not identified). Windows and fedora are both dualbooted to the same drive but windows does not have an issue, so i figure it is not a physical issue with the drive, would anyone have any advice or ideas on what to do next?
+
+update: solved the issue, there was an issue regenerating the intramfs, my camera, and an issue with the nvidia drivers not downloading correctly","[1:reply] It’s more likely just failed to unlock due to a mistyped passphrase than corrupted disk.
+[2:reply] It looks like your uuid is missing or corrupted ‘Warning: /dev/disk/by-uuid/12c954fe-... does not exist’
+
+Only place I know where you could find it is at /etc/fstab using nano.
+[3:reply] https://www.reddit.com/r/Ubuntu/s/u12H9wG7fD
+
+Has a similar problem but with Ubuntu but the solution should be the same.
+[4:OP] nope not even close actually, when i mis type the pass phrase it tells me that it is incorrect, when i type it in this is what it brings me to. pass phrase is right or else i would not have gotten to this screen
+[5:reply] That error means you didn’t actually unlock the LUKS volume so the device doesn’t exist. 
+
+Usually it’s because you typed the wrong passphrase or your keyboard isn’t typing the character you think it is.",title_body_comments,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/Fedora/comments/1ulx8im/fedora_failing_to_boot_after_unlocking_disk/
+B16-096,immich,Issue after updating to 2.5.x,"**\[UPDATE: SOLVED\]**
+
+After updating to version 2.5.0 (now on 2.5.2), my uploaded photos show a blurred thumbnail, and when I click on them, I get a ""error loading image"" error message.
+
+https://preview.redd.it/np1jfq1cfpgg1.png?width=3204&amp;format=png&amp;auto=webp&amp;s=64466910356fff1f37550bebbc92b9dce0015522
+
+https://preview.redd.it/ej4iqnmcfpgg1.png?width=3808&amp;format=png&amp;auto=webp&amp;s=7b94182095cce7abfe187c6c45e89d8cab0f44ff
+
+The images are fine in the filesystem. I can access them in the server and open all of them fine. The external library photos are also fine, it's just the ones uploaded from my device. The photos uploaded after the update are also fine.
+
+I ran the ""Generate Thumbnails"" job, but it didn't fix the issue.
+
+Is there anything I can run to fix this?
+
+When I open one of these photos it throws a 500 error in the console for the endpoint "".../api/assets/...""",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/immich/comments/1qs5jqm/issue_after_updating_to_25x/
+B16-097,openclaw,OpenClaw No Longer Executes Remote Admin Tasks After Update – Stuck in Permission Loop,"I had set up OpenClaw as an admin agent on a Pi 5, from where it could manage a web server on another Pi 5. That worked great and was actually my main use case for OpenClaw.
+
+Now I recently ran into OAuth issues with OpenAI again and updated to the latest version—and since then it just doesn’t do it anymore. Instead, I’m stuck in endless discussions with the agent about permissions, and I simply can’t get it to perform the job the way it used to.
+
+Do you have any ideas what might have changed? Or is there an alternative agent for the Pi 5 that I could use for this?",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/openclaw/comments/1s9j8ck/openclaw_no_longer_executes_remote_admin_tasks/
+B16-098,homeassistant,Matter/Thread Broken after Update,"All of my thread devices went down after updating today. I tried deleting and reinstalling integrations, resetting devices, and reinstalling devices. I get the above errors when trying to add devices. Any clue on what I need to do? Zigbee devices still work.",,title_and_body,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/homeassistant/comments/1sarcth/matterthread_broken_after_update/
+B16-099,applehelp,Battery draining over night on iOS 26.4,"Anyone having the same issue after the latest update?
+
+Before iOS 26.4: battery drop of 2% over night
+
+After iOS 26.4: battery drop of 8% over last night (with Focus Mode on)
+
+Device: Iphone 16",,title_and_body,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/applehelp/comments/1s9rbsx/battery_draining_over_night_on_ios_264/
+B16-100,Ubiquiti,UDM full fans non responsive after update,"I am all in for Unifi devices, but this one was surprising.  
+  
+My UDM was running perfectly the whole time, until last night, around 4am (I have logs from other app on my network) (probably during upgrade or after) it stopped working. And today when I approached it, it didnt have blue ring light anymore so I restarted it and then it went full fans and never stopped.
+
+I tried restarting multiple times and going through the official documentation recovery modes and factory reset but nothing works, the same behaviour - no blue light and full fans. Please help with how to fix it, I have unifi devices installed at home and I also did them in hotels installations, but its the first time I see something failing so hard that I cannot fix it.
+
+Anyone have went through similar thing? Any solutions? On other threads I just see a similar stories but not solutions. Is it fully bricked now?",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/Ubiquiti/comments/1ssmgkz/udm_full_fans_non_responsive_after_update/

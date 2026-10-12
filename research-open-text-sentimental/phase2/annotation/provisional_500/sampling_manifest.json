@@ -1,0 +1,42 @@
+{
+  "created_utc": "2026-10-06T22:59:18.171829+00:00",
+  "selection_seed": 20261006,
+  "master_sha256": "0b8971666601ad291e7ad2d5450f00939c081506367f53d547539ec4e5813cc0",
+  "proposal_method": "development_model_plus_rules_v1",
+  "development_training_posts": 400,
+  "reserved_test_training_posts": 0,
+  "model_library": "scikit-learn 1.9.1",
+  "type_model": "Character 3-5 gram TF-IDF, balanced logistic regression; title, first 4000 body characters, and subreddit only. Simple text rules constrain scope and update fields and a few obvious news/dissatisfaction cases.",
+  "selection": "Random without replacement within each unreviewed source pool; five 100-post batches, each with 50 Phase 1, 25 Oct 5 GDS-pool, 25 Oct 5 TPS-pool posts.",
+  "quotas": {
+    "phase1_gold_file": 250,
+    "oct5_query_gds": 125,
+    "oct5_query_tps": 125
+  },
+  "counts": {
+    "selected": 500,
+    "source_pool": {
+      "phase1_gold_file": 250,
+      "oct5_query_gds": 125,
+      "oct5_query_tps": 125
+    },
+    "proposed_discussion_type": {
+      "other": 124,
+      "technical_troubleshooting": 250,
+      "na": 114,
+      "general_dissatisfaction": 12
+    },
+    "proposed_about_software": {
+      "yes": 386,
+      "unclear": 45,
+      "no": 69
+    },
+    "proposed_update_related": {
+      "yes": 331,
+      "unclear": 45,
+      "no": 124
+    }
+  },
+  "reserved_test_overlap": 0,
+  "warning": "Proposals are automated review aids, not human-confirmed labels or measured model performance. Source pool, old labels, reserved-test answers, and replies were not used to train or propose labels."
+}

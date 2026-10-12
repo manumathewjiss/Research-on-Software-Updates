@@ -1,0 +1,27 @@
+{
+  "built_at_utc": "2026-10-06T20:53:12.360939+00:00",
+  "counts": {
+    "master_posts": 3362,
+    "original_posts": 542,
+    "new_posts": 2820,
+    "review_status": {
+      "needs_phase2_review": 2962,
+      "pilot_post_discussion": 100,
+      "joint_review": 300
+    },
+    "reviewed_discussion_type": {
+      "na": 26,
+      "other": 53,
+      "general_dissatisfaction": 15,
+      "technical_troubleshooting": 306
+    },
+    "blind_review_rows": 493,
+    "strict_scope_reviewed": 274
+  },
+  "notes": [
+    "Phase 1 labels are stored only as legacy values.",
+    "The 300 new-post labels are joint decisions, not independent agreement.",
+    "The 100 pilot final values are post-discussion decisions; use the original pre-discussion report for agreement.",
+    "No phase2 labels were filled for the remaining 2962 posts: 493 old and 2469 new."
+  ]
+}

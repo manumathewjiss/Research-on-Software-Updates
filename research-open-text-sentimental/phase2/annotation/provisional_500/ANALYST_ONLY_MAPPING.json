@@ -1,0 +1,4002 @@
+[
+  {
+    "review_id": "B1-001",
+    "study_id": "C2-ADAEACD9592E",
+    "reddit_id": "1qxdaoc",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "0"
+  },
+  {
+    "review_id": "B1-002",
+    "study_id": "C2-C073081812CC",
+    "reddit_id": "1r17zak",
+    "source_pool": "oct5_query_gds",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B1-003",
+    "study_id": "C2-1A8ACE70FC15",
+    "reddit_id": "1lsuvac",
+    "source_pool": "oct5_query_gds",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B1-004",
+    "study_id": "C2-DA7199915929",
+    "reddit_id": "1otmljx",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "0"
+  },
+  {
+    "review_id": "B1-005",
+    "study_id": "C2-DB852633F08C",
+    "reddit_id": "1pqs14w",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "0"
+  },
+  {
+    "review_id": "B1-006",
+    "study_id": "C2-C5B97BA96EAD",
+    "reddit_id": "1q4kplr",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "0"
+  },
+  {
+    "review_id": "B1-007",
+    "study_id": "C2-132517705439",
+    "reddit_id": "1nokw1u",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "0"
+  },
+  {
+    "review_id": "B1-008",
+    "study_id": "C2-5BB732434940",
+    "reddit_id": "1n1lx3o",
+    "source_pool": "oct5_query_tps",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B1-009",
+    "study_id": "C2-C0BD5C5A8509",
+    "reddit_id": "1pbhgz4",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "0"
+  },
+  {
+    "review_id": "B1-010",
+    "study_id": "C2-AE55E867CA61",
+    "reddit_id": "1s20w5n",
+    "source_pool": "oct5_query_tps",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B1-011",
+    "study_id": "C2-9483100BC94F",
+    "reddit_id": "1s65hsu",
+    "source_pool": "oct5_query_gds",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B1-012",
+    "study_id": "C2-02BDC4ACF43F",
+    "reddit_id": "1pe5qzj",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "0"
+  },
+  {
+    "review_id": "B1-013",
+    "study_id": "C2-3B793A054B17",
+    "reddit_id": "1s26awy",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "0"
+  },
+  {
+    "review_id": "B1-014",
+    "study_id": "C2-CAA82A64CACE",
+    "reddit_id": "1s8zrvp",
+    "source_pool": "oct5_query_tps",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B1-015",
+    "study_id": "C2-E649E18D1447",
+    "reddit_id": "1p70hmg",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "0"
+  },
+  {
+    "review_id": "B1-016",
+    "study_id": "C2-BEADFD03FC2F",
+    "reddit_id": "1noj60v",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "0"
+  },
+  {
+    "review_id": "B1-017",
+    "study_id": "C2-EA12106B3CA7",
+    "reddit_id": "1nqqodm",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "1"
+  },
+  {
+    "review_id": "B1-018",
+    "study_id": "C2-0135DC5ED14F",
+    "reddit_id": "1oz69nr",
+    "source_pool": "oct5_query_tps",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B1-019",
+    "study_id": "C2-FC8B23C9DF3D",
+    "reddit_id": "1n4bo7c",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "1"
+  },
+  {
+    "review_id": "B1-020",
+    "study_id": "C2-1B312D7735CD",
+    "reddit_id": "1vne7av",
+    "source_pool": "oct5_query_gds",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B1-021",
+    "study_id": "C2-F29849A0283C",
+    "reddit_id": "1pjn56a",
+    "source_pool": "oct5_query_tps",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B1-022",
+    "study_id": "C2-70E71474AFCA",
+    "reddit_id": "1qhj11g",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "0"
+  },
+  {
+    "review_id": "B1-023",
+    "study_id": "C2-45C61E067D58",
+    "reddit_id": "1o0vrgp",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "1"
+  },
+  {
+    "review_id": "B1-024",
+    "study_id": "C2-97188A96C7C9",
+    "reddit_id": "1ns2nv7",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "0"
+  },
+  {
+    "review_id": "B1-025",
+    "study_id": "C2-5DF6A702CDED",
+    "reddit_id": "1petq95",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "0"
+  },
+  {
+    "review_id": "B1-026",
+    "study_id": "C2-344DD8600662",
+    "reddit_id": "1s8apbc",
+    "source_pool": "oct5_query_tps",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B1-027",
+    "study_id": "C2-B5D5CCD36583",
+    "reddit_id": "1o15qph",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "0"
+  },
+  {
+    "review_id": "B1-028",
+    "study_id": "C2-7633A87B73C3",
+    "reddit_id": "1uyg6ln",
+    "source_pool": "oct5_query_gds",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B1-029",
+    "study_id": "C2-193493F1C1A4",
+    "reddit_id": "1s47idp",
+    "source_pool": "oct5_query_tps",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B1-030",
+    "study_id": "C2-6B71F572B350",
+    "reddit_id": "1oo06jx",
+    "source_pool": "oct5_query_tps",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B1-031",
+    "study_id": "C2-AA431A2DA7EA",
+    "reddit_id": "1qr5gs0",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "0"
+  },
+  {
+    "review_id": "B1-032",
+    "study_id": "C2-8F81B7A95986",
+    "reddit_id": "1qvh12n",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "0"
+  },
+  {
+    "review_id": "B1-033",
+    "study_id": "C2-9FDCE84AA229",
+    "reddit_id": "1pgsrcs",
+    "source_pool": "oct5_query_gds",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B1-034",
+    "study_id": "C2-BF568D926C19",
+    "reddit_id": "1qqid3e",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "0"
+  },
+  {
+    "review_id": "B1-035",
+    "study_id": "C2-3259F0E9D46F",
+    "reddit_id": "1rlgq4n",
+    "source_pool": "oct5_query_tps",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B1-036",
+    "study_id": "C2-4E64A3961E12",
+    "reddit_id": "1pe31s2",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "0"
+  },
+  {
+    "review_id": "B1-037",
+    "study_id": "C2-6096A2CFF3AB",
+    "reddit_id": "1r5ymmo",
+    "source_pool": "oct5_query_tps",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B1-038",
+    "study_id": "C2-14EC615D1CE5",
+    "reddit_id": "1wximvm",
+    "source_pool": "oct5_query_tps",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B1-039",
+    "study_id": "C2-22AA0D84E79B",
+    "reddit_id": "1nzjcnc",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "0"
+  },
+  {
+    "review_id": "B1-040",
+    "study_id": "C2-89F85B1B0C20",
+    "reddit_id": "1ndnyud",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "1"
+  },
+  {
+    "review_id": "B1-041",
+    "study_id": "C2-BEFA8C786C27",
+    "reddit_id": "1mvg1mu",
+    "source_pool": "oct5_query_gds",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B1-042",
+    "study_id": "C2-D324D900DB40",
+    "reddit_id": "1o2aon2",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "0"
+  },
+  {
+    "review_id": "B1-043",
+    "study_id": "C2-54C65B8F34DD",
+    "reddit_id": "1qqi3e1",
+    "source_pool": "oct5_query_tps",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B1-044",
+    "study_id": "C2-1248E7AADB4F",
+    "reddit_id": "1s2a2y7",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "0"
+  },
+  {
+    "review_id": "B1-045",
+    "study_id": "C2-E780BE5E0555",
+    "reddit_id": "1v2tzmg",
+    "source_pool": "oct5_query_gds",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B1-046",
+    "study_id": "C2-E128D407BFB2",
+    "reddit_id": "1oubo0f",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "0"
+  },
+  {
+    "review_id": "B1-047",
+    "study_id": "C2-329B2B5AB6B8",
+    "reddit_id": "1uysn1k",
+    "source_pool": "oct5_query_tps",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B1-048",
+    "study_id": "C2-602ECD4159F0",
+    "reddit_id": "1qp0b64",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "0"
+  },
+  {
+    "review_id": "B1-049",
+    "study_id": "C2-49679755612A",
+    "reddit_id": "1ojahew",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "0"
+  },
+  {
+    "review_id": "B1-050",
+    "study_id": "C2-518500C71D23",
+    "reddit_id": "1sv9xj6",
+    "source_pool": "oct5_query_gds",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B1-051",
+    "study_id": "C2-F27F0F4644F2",
+    "reddit_id": "1qhs7lf",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "1"
+  },
+  {
+    "review_id": "B1-052",
+    "study_id": "C2-AD38DE450B82",
+    "reddit_id": "1p61q5q",
+    "source_pool": "oct5_query_gds",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B1-053",
+    "study_id": "C2-0FEA59DA7A96",
+    "reddit_id": "1ujubtp",
+    "source_pool": "oct5_query_gds",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B1-054",
+    "study_id": "C2-337E5571198D",
+    "reddit_id": "1rx7d4e",
+    "source_pool": "oct5_query_tps",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B1-055",
+    "study_id": "C2-B8726DEC1281",
+    "reddit_id": "1ommfa8",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "0"
+  },
+  {
+    "review_id": "B1-056",
+    "study_id": "C2-AFBFE9C4DA48",
+    "reddit_id": "1p3x3cx",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "0"
+  },
+  {
+    "review_id": "B1-057",
+    "study_id": "C2-7A9C99E9D72C",
+    "reddit_id": "1wsvjis",
+    "source_pool": "oct5_query_tps",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B1-058",
+    "study_id": "C2-3A8D4428264A",
+    "reddit_id": "1tgnvxz",
+    "source_pool": "oct5_query_gds",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B1-059",
+    "study_id": "C2-56BDDBC3BDB8",
+    "reddit_id": "1r66kb9",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "1"
+  },
+  {
+    "review_id": "B1-060",
+    "study_id": "C2-4403CE067E0F",
+    "reddit_id": "1p1tdpg",
+    "source_pool": "oct5_query_gds",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B1-061",
+    "study_id": "C2-81726F33F432",
+    "reddit_id": "1qkm4aw",
+    "source_pool": "oct5_query_gds",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B1-062",
+    "study_id": "C2-AE29949DB1F8",
+    "reddit_id": "1uuwgxm",
+    "source_pool": "oct5_query_gds",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B1-063",
+    "study_id": "C2-70DFF86C19BD",
+    "reddit_id": "1wuhlwy",
+    "source_pool": "oct5_query_gds",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B1-064",
+    "study_id": "C2-63F2A855EB0D",
+    "reddit_id": "1qlmb9g",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "0"
+  },
+  {
+    "review_id": "B1-065",
+    "study_id": "C2-0FE24BAD4655",
+    "reddit_id": "1lw69kp",
+    "source_pool": "oct5_query_gds",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B1-066",
+    "study_id": "C2-CAC8C201058D",
+    "reddit_id": "1qi2gw3",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "0"
+  },
+  {
+    "review_id": "B1-067",
+    "study_id": "C2-209EC27CC9AD",
+    "reddit_id": "1q2smca",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "1"
+  },
+  {
+    "review_id": "B1-068",
+    "study_id": "C2-2008CFC7F20F",
+    "reddit_id": "1kp1zj2",
+    "source_pool": "oct5_query_gds",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B1-069",
+    "study_id": "C2-30B1F7E64592",
+    "reddit_id": "1otknz2",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "0"
+  },
+  {
+    "review_id": "B1-070",
+    "study_id": "C2-E8345EFE3B56",
+    "reddit_id": "1nwaf2t",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "0"
+  },
+  {
+    "review_id": "B1-071",
+    "study_id": "C2-147FA8262D88",
+    "reddit_id": "1s27vr6",
+    "source_pool": "oct5_query_tps",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B1-072",
+    "study_id": "C2-FA9A6EF5C503",
+    "reddit_id": "1nnq16o",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "0"
+  },
+  {
+    "review_id": "B1-073",
+    "study_id": "C2-A9E4FB819086",
+    "reddit_id": "1r258fm",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "0"
+  },
+  {
+    "review_id": "B1-074",
+    "study_id": "C2-E87620799E8A",
+    "reddit_id": "1r16lhg",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "0"
+  },
+  {
+    "review_id": "B1-075",
+    "study_id": "C2-12D43EFA47EC",
+    "reddit_id": "1ux7p8c",
+    "source_pool": "oct5_query_tps",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B1-076",
+    "study_id": "C2-46809FF9FCC1",
+    "reddit_id": "1lfq29e",
+    "source_pool": "oct5_query_gds",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B1-077",
+    "study_id": "C2-5CA2FCC8FFBB",
+    "reddit_id": "1utjmzb",
+    "source_pool": "oct5_query_tps",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B1-078",
+    "study_id": "C2-D426A962C3BA",
+    "reddit_id": "1uoxgit",
+    "source_pool": "oct5_query_tps",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B1-079",
+    "study_id": "C2-27C154199092",
+    "reddit_id": "1s2zya4",
+    "source_pool": "oct5_query_tps",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B1-080",
+    "study_id": "C2-352FA96EFB1C",
+    "reddit_id": "1vua88y",
+    "source_pool": "oct5_query_gds",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B1-081",
+    "study_id": "C2-A78C0812F2F3",
+    "reddit_id": "1shy0ui",
+    "source_pool": "oct5_query_gds",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B1-082",
+    "study_id": "C2-55B83EEE16A5",
+    "reddit_id": "1s8tohs",
+    "source_pool": "oct5_query_tps",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B1-083",
+    "study_id": "C2-F6979664EF6E",
+    "reddit_id": "1nxx55q",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "0"
+  },
+  {
+    "review_id": "B1-084",
+    "study_id": "C2-741247A3E5AE",
+    "reddit_id": "1ox8dcn",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "0"
+  },
+  {
+    "review_id": "B1-085",
+    "study_id": "C2-D65FCC3CC070",
+    "reddit_id": "1nxhm28",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "0"
+  },
+  {
+    "review_id": "B1-086",
+    "study_id": "C2-873B6E552BD4",
+    "reddit_id": "1o0om20",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "0"
+  },
+  {
+    "review_id": "B1-087",
+    "study_id": "C2-2B73C6655D8F",
+    "reddit_id": "1rjyz9q",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "0"
+  },
+  {
+    "review_id": "B1-088",
+    "study_id": "C2-CB74493AF2A6",
+    "reddit_id": "1nsp6at",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "0"
+  },
+  {
+    "review_id": "B1-089",
+    "study_id": "C2-5EBF31E4D728",
+    "reddit_id": "1rm8sk4",
+    "source_pool": "oct5_query_gds",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B1-090",
+    "study_id": "C2-0BA509830B2E",
+    "reddit_id": "1p8wqlo",
+    "source_pool": "oct5_query_tps",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B1-091",
+    "study_id": "C2-9B7D4DC4D242",
+    "reddit_id": "1ofx26i",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "0"
+  },
+  {
+    "review_id": "B1-092",
+    "study_id": "C2-BF269E6FC7FE",
+    "reddit_id": "1sqsv17",
+    "source_pool": "oct5_query_tps",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B1-093",
+    "study_id": "C2-BC8CC85D1092",
+    "reddit_id": "1mn8hug",
+    "source_pool": "oct5_query_gds",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B1-094",
+    "study_id": "C2-BF309EB71E62",
+    "reddit_id": "1udhvx5",
+    "source_pool": "oct5_query_gds",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B1-095",
+    "study_id": "C2-AC5D41EE434E",
+    "reddit_id": "1ubci6u",
+    "source_pool": "oct5_query_tps",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B1-096",
+    "study_id": "C2-5F68642B73D8",
+    "reddit_id": "1r2myps",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "1"
+  },
+  {
+    "review_id": "B1-097",
+    "study_id": "C2-78EE2E5F665F",
+    "reddit_id": "1wtbj10",
+    "source_pool": "oct5_query_tps",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B1-098",
+    "study_id": "C2-C78C61D3905C",
+    "reddit_id": "1nwzkdu",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "0"
+  },
+  {
+    "review_id": "B1-099",
+    "study_id": "C2-333D1CC6ED1C",
+    "reddit_id": "1pf2id0",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "0"
+  },
+  {
+    "review_id": "B1-100",
+    "study_id": "C2-E355D85B3A8B",
+    "reddit_id": "1nk19uu",
+    "source_pool": "oct5_query_gds",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B2-001",
+    "study_id": "C2-1CB919A0AE67",
+    "reddit_id": "1upnn1z",
+    "source_pool": "oct5_query_tps",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B2-002",
+    "study_id": "C2-A7ECB8A4BB89",
+    "reddit_id": "1ozugw5",
+    "source_pool": "oct5_query_tps",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B2-003",
+    "study_id": "C2-0BBCACE51B09",
+    "reddit_id": "1q1jj3i",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "0"
+  },
+  {
+    "review_id": "B2-004",
+    "study_id": "C2-FAFEFFEA9049",
+    "reddit_id": "1pu5edz",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "0"
+  },
+  {
+    "review_id": "B2-005",
+    "study_id": "C2-38D00166C0EB",
+    "reddit_id": "1udulr0",
+    "source_pool": "oct5_query_tps",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B2-006",
+    "study_id": "C2-D37F1CFCE289",
+    "reddit_id": "1lkpwsa",
+    "source_pool": "oct5_query_gds",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B2-007",
+    "study_id": "C2-3A3AB27AAC9F",
+    "reddit_id": "1uw9fv4",
+    "source_pool": "oct5_query_tps",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B2-008",
+    "study_id": "C2-DA771E0186C1",
+    "reddit_id": "1pnjur5",
+    "source_pool": "oct5_query_gds",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B2-009",
+    "study_id": "C2-A35AF840487F",
+    "reddit_id": "1nzslca",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "0"
+  },
+  {
+    "review_id": "B2-010",
+    "study_id": "C2-3E6F30A9577A",
+    "reddit_id": "1rvkqkh",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "0"
+  },
+  {
+    "review_id": "B2-011",
+    "study_id": "C2-9421CCAAB6A9",
+    "reddit_id": "1nmx4fv",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "0"
+  },
+  {
+    "review_id": "B2-012",
+    "study_id": "C2-21102F13BD8B",
+    "reddit_id": "1u47s3p",
+    "source_pool": "oct5_query_tps",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B2-013",
+    "study_id": "C2-8357E07DDB0A",
+    "reddit_id": "1orjqw2",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "1"
+  },
+  {
+    "review_id": "B2-014",
+    "study_id": "C2-A5CDEE04B46E",
+    "reddit_id": "1s4jjrg",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "0"
+  },
+  {
+    "review_id": "B2-015",
+    "study_id": "C2-1DDCEDC31E2C",
+    "reddit_id": "1s4927w",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "1"
+  },
+  {
+    "review_id": "B2-016",
+    "study_id": "C2-8191BB7E92F9",
+    "reddit_id": "1vmjbzl",
+    "source_pool": "oct5_query_tps",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B2-017",
+    "study_id": "C2-BFEF1387A302",
+    "reddit_id": "1ovbmfw",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "0"
+  },
+  {
+    "review_id": "B2-018",
+    "study_id": "C2-DDDAB11DC78E",
+    "reddit_id": "1uml269",
+    "source_pool": "oct5_query_gds",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B2-019",
+    "study_id": "C2-C050AA2065C5",
+    "reddit_id": "1se57cb",
+    "source_pool": "oct5_query_tps",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B2-020",
+    "study_id": "C2-6D5284F42253",
+    "reddit_id": "1qwo6w8",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "0"
+  },
+  {
+    "review_id": "B2-021",
+    "study_id": "C2-CB0C0A7F0FE9",
+    "reddit_id": "1pu68lc",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "1"
+  },
+  {
+    "review_id": "B2-022",
+    "study_id": "C2-495821A5FF81",
+    "reddit_id": "1p0g3h0",
+    "source_pool": "oct5_query_tps",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B2-023",
+    "study_id": "C2-9AC2BA715784",
+    "reddit_id": "1u8m6l3",
+    "source_pool": "oct5_query_tps",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B2-024",
+    "study_id": "C2-67008C09B1FD",
+    "reddit_id": "1ovbv9c",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "0"
+  },
+  {
+    "review_id": "B2-025",
+    "study_id": "C2-C99D1AF1B53F",
+    "reddit_id": "1u8bnjr",
+    "source_pool": "oct5_query_tps",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B2-026",
+    "study_id": "C2-A7389C42C1C5",
+    "reddit_id": "1qlpwkg",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "0"
+  },
+  {
+    "review_id": "B2-027",
+    "study_id": "C2-5220A8F4DE36",
+    "reddit_id": "1nwclik",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "0"
+  },
+  {
+    "review_id": "B2-028",
+    "study_id": "C2-3A0039EA7D00",
+    "reddit_id": "1u7y2b5",
+    "source_pool": "oct5_query_gds",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B2-029",
+    "study_id": "C2-9E16B5919046",
+    "reddit_id": "1thblvg",
+    "source_pool": "oct5_query_tps",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B2-030",
+    "study_id": "C2-66F24AF2880F",
+    "reddit_id": "1qsfytg",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "0"
+  },
+  {
+    "review_id": "B2-031",
+    "study_id": "C2-17D6642637A9",
+    "reddit_id": "1u85fun",
+    "source_pool": "oct5_query_tps",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B2-032",
+    "study_id": "C2-60852E6B7548",
+    "reddit_id": "1pcjjnm",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "0"
+  },
+  {
+    "review_id": "B2-033",
+    "study_id": "C2-DC299B1BBB89",
+    "reddit_id": "1uvovyv",
+    "source_pool": "oct5_query_gds",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B2-034",
+    "study_id": "C2-6439E1D90B5D",
+    "reddit_id": "1pc3zjh",
+    "source_pool": "oct5_query_tps",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B2-035",
+    "study_id": "C2-6748CAAF2B97",
+    "reddit_id": "1qxbmsm",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "1"
+  },
+  {
+    "review_id": "B2-036",
+    "study_id": "C2-FA8911C1C713",
+    "reddit_id": "1pz6qk9",
+    "source_pool": "oct5_query_gds",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B2-037",
+    "study_id": "C2-BF8A3231B69A",
+    "reddit_id": "1ol2i0p",
+    "source_pool": "oct5_query_tps",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B2-038",
+    "study_id": "C2-7EE95A8A68EE",
+    "reddit_id": "1okqdjd",
+    "source_pool": "oct5_query_gds",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B2-039",
+    "study_id": "C2-37A041E409B2",
+    "reddit_id": "1u6yexp",
+    "source_pool": "oct5_query_tps",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B2-040",
+    "study_id": "C2-AE48A9C1AE36",
+    "reddit_id": "1oktrx2",
+    "source_pool": "oct5_query_gds",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B2-041",
+    "study_id": "C2-E928486BFC38",
+    "reddit_id": "1ufod3d",
+    "source_pool": "oct5_query_tps",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B2-042",
+    "study_id": "C2-84105CD4742F",
+    "reddit_id": "1uryfzy",
+    "source_pool": "oct5_query_gds",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B2-043",
+    "study_id": "C2-9F55A906DE39",
+    "reddit_id": "1u2p3f9",
+    "source_pool": "oct5_query_tps",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B2-044",
+    "study_id": "C2-88966572D0C5",
+    "reddit_id": "1u9kdal",
+    "source_pool": "oct5_query_gds",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B2-045",
+    "study_id": "C2-E8BC5C5B98C0",
+    "reddit_id": "1petmp0",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "0"
+  },
+  {
+    "review_id": "B2-046",
+    "study_id": "C2-8D287AAA3217",
+    "reddit_id": "1ukaero",
+    "source_pool": "oct5_query_tps",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B2-047",
+    "study_id": "C2-C90B02FA6B94",
+    "reddit_id": "1wrgdln",
+    "source_pool": "oct5_query_tps",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B2-048",
+    "study_id": "C2-DEAF9087B3F6",
+    "reddit_id": "1pbpt6w",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "0"
+  },
+  {
+    "review_id": "B2-049",
+    "study_id": "C2-149DCC902419",
+    "reddit_id": "1wxrtee",
+    "source_pool": "oct5_query_gds",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B2-050",
+    "study_id": "C2-C3752A03C428",
+    "reddit_id": "1vo45fq",
+    "source_pool": "oct5_query_gds",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B2-051",
+    "study_id": "C2-8245FA481EC0",
+    "reddit_id": "1orep9e",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "0"
+  },
+  {
+    "review_id": "B2-052",
+    "study_id": "C2-85EE6380CC4F",
+    "reddit_id": "1s2g0x7",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "0"
+  },
+  {
+    "review_id": "B2-053",
+    "study_id": "C2-5034D663357A",
+    "reddit_id": "1s078k7",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "0"
+  },
+  {
+    "review_id": "B2-054",
+    "study_id": "C2-65379BDF0107",
+    "reddit_id": "1r2mu1q",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "0"
+  },
+  {
+    "review_id": "B2-055",
+    "study_id": "C2-84D685FDD732",
+    "reddit_id": "1nwax05",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "0"
+  },
+  {
+    "review_id": "B2-056",
+    "study_id": "C2-B04F6FF94394",
+    "reddit_id": "1uwwfws",
+    "source_pool": "oct5_query_tps",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B2-057",
+    "study_id": "C2-8C48978544BA",
+    "reddit_id": "1kbi9uj",
+    "source_pool": "oct5_query_gds",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B2-058",
+    "study_id": "C2-1ADF3408D742",
+    "reddit_id": "1qkh7e8",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "0"
+  },
+  {
+    "review_id": "B2-059",
+    "study_id": "C2-ABC15F3E77E3",
+    "reddit_id": "1rkqbx4",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "1"
+  },
+  {
+    "review_id": "B2-060",
+    "study_id": "C2-45D744ACB4DE",
+    "reddit_id": "1p7su0a",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "0"
+  },
+  {
+    "review_id": "B2-061",
+    "study_id": "C2-82CC3ECE7F8C",
+    "reddit_id": "1ntioco",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "0"
+  },
+  {
+    "review_id": "B2-062",
+    "study_id": "C2-56518DF04851",
+    "reddit_id": "1wtikqa",
+    "source_pool": "oct5_query_tps",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B2-063",
+    "study_id": "C2-8E994E67A08A",
+    "reddit_id": "1s77a8t",
+    "source_pool": "oct5_query_tps",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B2-064",
+    "study_id": "C2-6DDBC4A04433",
+    "reddit_id": "1qseizq",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "0"
+  },
+  {
+    "review_id": "B2-065",
+    "study_id": "C2-610DF5932805",
+    "reddit_id": "1r6965m",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "0"
+  },
+  {
+    "review_id": "B2-066",
+    "study_id": "C2-0E6A2BDD808F",
+    "reddit_id": "1mqs290",
+    "source_pool": "oct5_query_gds",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B2-067",
+    "study_id": "C2-D6678C4DFF51",
+    "reddit_id": "1pnkifj",
+    "source_pool": "oct5_query_gds",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B2-068",
+    "study_id": "C2-EBB9D7C60520",
+    "reddit_id": "1t1j0k7",
+    "source_pool": "oct5_query_gds",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B2-069",
+    "study_id": "C2-22F83F4FC350",
+    "reddit_id": "1nxiv7z",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "1"
+  },
+  {
+    "review_id": "B2-070",
+    "study_id": "C2-8B669C2FFAD4",
+    "reddit_id": "1qs1plt",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "0"
+  },
+  {
+    "review_id": "B2-071",
+    "study_id": "C2-2BE7EFDE9461",
+    "reddit_id": "1s99w60",
+    "source_pool": "oct5_query_tps",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B2-072",
+    "study_id": "C2-55B6C40D94C9",
+    "reddit_id": "1nip2zh",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "0"
+  },
+  {
+    "review_id": "B2-073",
+    "study_id": "C2-58ADE459577C",
+    "reddit_id": "1qfb0tq",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "0"
+  },
+  {
+    "review_id": "B2-074",
+    "study_id": "C2-EA63685EBEB7",
+    "reddit_id": "1ppik3f",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "0"
+  },
+  {
+    "review_id": "B2-075",
+    "study_id": "C2-FEDD8DC734AD",
+    "reddit_id": "1noec4y",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "0"
+  },
+  {
+    "review_id": "B2-076",
+    "study_id": "C2-0AC6D1DA45BE",
+    "reddit_id": "1syw3mk",
+    "source_pool": "oct5_query_gds",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B2-077",
+    "study_id": "C2-0AA1365BE31C",
+    "reddit_id": "1ov6q1j",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "0"
+  },
+  {
+    "review_id": "B2-078",
+    "study_id": "C2-BA13D31B40DC",
+    "reddit_id": "1ljevqv",
+    "source_pool": "oct5_query_gds",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B2-079",
+    "study_id": "C2-F3E53DCB170A",
+    "reddit_id": "1pph5ph",
+    "source_pool": "oct5_query_gds",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B2-080",
+    "study_id": "C2-318B8ADE858A",
+    "reddit_id": "1p548mp",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "0"
+  },
+  {
+    "review_id": "B2-081",
+    "study_id": "C2-7A813D13B989",
+    "reddit_id": "1pjzzxl",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "0"
+  },
+  {
+    "review_id": "B2-082",
+    "study_id": "C2-F2CDE7C9F2D9",
+    "reddit_id": "1qqgefx",
+    "source_pool": "oct5_query_tps",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B2-083",
+    "study_id": "C2-B27716733B13",
+    "reddit_id": "1swhzax",
+    "source_pool": "oct5_query_gds",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B2-084",
+    "study_id": "C2-DE24200EF56D",
+    "reddit_id": "1tdm4dm",
+    "source_pool": "oct5_query_tps",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B2-085",
+    "study_id": "C2-1E94644E9D0F",
+    "reddit_id": "1p0bob2",
+    "source_pool": "oct5_query_gds",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B2-086",
+    "study_id": "C2-3EE01A3428C7",
+    "reddit_id": "1ow7vxi",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "0"
+  },
+  {
+    "review_id": "B2-087",
+    "study_id": "C2-B148637A2E1E",
+    "reddit_id": "1min7t9",
+    "source_pool": "oct5_query_gds",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B2-088",
+    "study_id": "C2-831FD6C10B2A",
+    "reddit_id": "1ntcan7",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "0"
+  },
+  {
+    "review_id": "B2-089",
+    "study_id": "C2-9E64DEF6DA19",
+    "reddit_id": "1npknf4",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "0"
+  },
+  {
+    "review_id": "B2-090",
+    "study_id": "C2-FEBFEFB3CC55",
+    "reddit_id": "1qfg43e",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "0"
+  },
+  {
+    "review_id": "B2-091",
+    "study_id": "C2-E666DBCD3085",
+    "reddit_id": "1ssr54z",
+    "source_pool": "oct5_query_gds",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B2-092",
+    "study_id": "C2-CC398DD59029",
+    "reddit_id": "1rlfl0h",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "0"
+  },
+  {
+    "review_id": "B2-093",
+    "study_id": "C2-58072BE5814C",
+    "reddit_id": "1v2ka4f",
+    "source_pool": "oct5_query_gds",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B2-094",
+    "study_id": "C2-EE7F4C54A93E",
+    "reddit_id": "1p74or4",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "0"
+  },
+  {
+    "review_id": "B2-095",
+    "study_id": "C2-5C423B1B51DF",
+    "reddit_id": "1qs9g1t",
+    "source_pool": "oct5_query_gds",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B2-096",
+    "study_id": "C2-0C17CE6038B4",
+    "reddit_id": "1nzjypu",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "0"
+  },
+  {
+    "review_id": "B2-097",
+    "study_id": "C2-A769BB1BEC9C",
+    "reddit_id": "1pp6ext",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "0"
+  },
+  {
+    "review_id": "B2-098",
+    "study_id": "C2-2E8C7022D017",
+    "reddit_id": "1pp3g78",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "0"
+  },
+  {
+    "review_id": "B2-099",
+    "study_id": "C2-4E13D3C746A5",
+    "reddit_id": "1ryessh",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "0"
+  },
+  {
+    "review_id": "B2-100",
+    "study_id": "C2-B3D5C5BF5D0E",
+    "reddit_id": "1ry5cbn",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "0"
+  },
+  {
+    "review_id": "B3-001",
+    "study_id": "C2-FA716E5DC9B6",
+    "reddit_id": "1nqvh11",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "1"
+  },
+  {
+    "review_id": "B3-002",
+    "study_id": "C2-03A09924D787",
+    "reddit_id": "1ua4emd",
+    "source_pool": "oct5_query_tps",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B3-003",
+    "study_id": "C2-C805299FEF28",
+    "reddit_id": "1phz3nr",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "0"
+  },
+  {
+    "review_id": "B3-004",
+    "study_id": "C2-0CD4EE02F616",
+    "reddit_id": "1ulp9y2",
+    "source_pool": "oct5_query_gds",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B3-005",
+    "study_id": "C2-17072A0DA094",
+    "reddit_id": "1plnbq6",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "0"
+  },
+  {
+    "review_id": "B3-006",
+    "study_id": "C2-CA0BA31C5CAD",
+    "reddit_id": "1rifybi",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "0"
+  },
+  {
+    "review_id": "B3-007",
+    "study_id": "C2-5D8C816F4C97",
+    "reddit_id": "1ozp5qj",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "1"
+  },
+  {
+    "review_id": "B3-008",
+    "study_id": "C2-6108A2CEAFF5",
+    "reddit_id": "1qojnrn",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "0"
+  },
+  {
+    "review_id": "B3-009",
+    "study_id": "C2-D36F12A31367",
+    "reddit_id": "1pfvqgd",
+    "source_pool": "oct5_query_gds",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B3-010",
+    "study_id": "C2-2F2D7008A4FE",
+    "reddit_id": "1o0dxam",
+    "source_pool": "oct5_query_gds",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B3-011",
+    "study_id": "C2-67F25E7067AE",
+    "reddit_id": "1vok17d",
+    "source_pool": "oct5_query_gds",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B3-012",
+    "study_id": "C2-B74064449B21",
+    "reddit_id": "1knf1y4",
+    "source_pool": "oct5_query_gds",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B3-013",
+    "study_id": "C2-984B04E11122",
+    "reddit_id": "1p2liee",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "0"
+  },
+  {
+    "review_id": "B3-014",
+    "study_id": "C2-5AB6C572CD0E",
+    "reddit_id": "1rivx6k",
+    "source_pool": "oct5_query_tps",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B3-015",
+    "study_id": "C2-EFC16526C190",
+    "reddit_id": "1l0uoop",
+    "source_pool": "oct5_query_gds",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B3-016",
+    "study_id": "C2-9C6AF8D9F0C2",
+    "reddit_id": "1pib08s",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "0"
+  },
+  {
+    "review_id": "B3-017",
+    "study_id": "C2-2C95EEB9DFF8",
+    "reddit_id": "1pngt1r",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "0"
+  },
+  {
+    "review_id": "B3-018",
+    "study_id": "C2-926D3DF3DBD4",
+    "reddit_id": "1rmbir6",
+    "source_pool": "oct5_query_tps",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B3-019",
+    "study_id": "C2-9B64B5026F19",
+    "reddit_id": "1lp3xs0",
+    "source_pool": "oct5_query_gds",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B3-020",
+    "study_id": "C2-C1E856CBA3C8",
+    "reddit_id": "1s4ur9e",
+    "source_pool": "oct5_query_tps",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B3-021",
+    "study_id": "C2-F6D0DCFA3760",
+    "reddit_id": "1utjzgi",
+    "source_pool": "oct5_query_tps",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B3-022",
+    "study_id": "C2-246165E2AF1F",
+    "reddit_id": "1r3x2hb",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "1"
+  },
+  {
+    "review_id": "B3-023",
+    "study_id": "C2-7E9442C478A2",
+    "reddit_id": "1phvztr",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "0"
+  },
+  {
+    "review_id": "B3-024",
+    "study_id": "C2-24B269B40FEC",
+    "reddit_id": "1q46xiy",
+    "source_pool": "oct5_query_gds",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B3-025",
+    "study_id": "C2-B32D4BE42D55",
+    "reddit_id": "1ntjtzi",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "0"
+  },
+  {
+    "review_id": "B3-026",
+    "study_id": "C2-5023BD883B60",
+    "reddit_id": "1rmcwf6",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "0"
+  },
+  {
+    "review_id": "B3-027",
+    "study_id": "C2-E9A514C7E088",
+    "reddit_id": "1wvjgnv",
+    "source_pool": "oct5_query_gds",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B3-028",
+    "study_id": "C2-5E28A959D22E",
+    "reddit_id": "1nzifki",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "0"
+  },
+  {
+    "review_id": "B3-029",
+    "study_id": "C2-2706CCA6AFD7",
+    "reddit_id": "1lw4if9",
+    "source_pool": "oct5_query_gds",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B3-030",
+    "study_id": "C2-0AAB422CED0D",
+    "reddit_id": "1np2nmm",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "1"
+  },
+  {
+    "review_id": "B3-031",
+    "study_id": "C2-89CC95BB69CD",
+    "reddit_id": "1s1yijx",
+    "source_pool": "oct5_query_tps",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B3-032",
+    "study_id": "C2-C6F365EF93B9",
+    "reddit_id": "1qmuy4i",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "0"
+  },
+  {
+    "review_id": "B3-033",
+    "study_id": "C2-FAF63E75E8C3",
+    "reddit_id": "1q521p0",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "0"
+  },
+  {
+    "review_id": "B3-034",
+    "study_id": "C2-3746D7F1DA04",
+    "reddit_id": "1uwfokf",
+    "source_pool": "oct5_query_tps",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B3-035",
+    "study_id": "C2-D2000C365995",
+    "reddit_id": "1u5sg2z",
+    "source_pool": "oct5_query_tps",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B3-036",
+    "study_id": "C2-9AF71B28AB54",
+    "reddit_id": "1nu6glg",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "0"
+  },
+  {
+    "review_id": "B3-037",
+    "study_id": "C2-1C6726F4F444",
+    "reddit_id": "1uw2ky9",
+    "source_pool": "oct5_query_tps",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B3-038",
+    "study_id": "C2-E61DBFC99040",
+    "reddit_id": "1rhlwb3",
+    "source_pool": "oct5_query_tps",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B3-039",
+    "study_id": "C2-37D9FD2E9EFB",
+    "reddit_id": "1o1cbch",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "0"
+  },
+  {
+    "review_id": "B3-040",
+    "study_id": "C2-626F65CAF5B1",
+    "reddit_id": "1tihd36",
+    "source_pool": "oct5_query_tps",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B3-041",
+    "study_id": "C2-22089D9BD119",
+    "reddit_id": "1onvuzk",
+    "source_pool": "oct5_query_tps",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B3-042",
+    "study_id": "C2-233CDDAB6D16",
+    "reddit_id": "1nt3yn3",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "0"
+  },
+  {
+    "review_id": "B3-043",
+    "study_id": "C2-C959507C0E10",
+    "reddit_id": "1nq82np",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "0"
+  },
+  {
+    "review_id": "B3-044",
+    "study_id": "C2-E6B93162904B",
+    "reddit_id": "1ow2abx",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "1"
+  },
+  {
+    "review_id": "B3-045",
+    "study_id": "C2-5D9D569746B6",
+    "reddit_id": "1nx30l4",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "1"
+  },
+  {
+    "review_id": "B3-046",
+    "study_id": "C2-6D6E0BA35F83",
+    "reddit_id": "1p1ccv4",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "1"
+  },
+  {
+    "review_id": "B3-047",
+    "study_id": "C2-85DE99EFAB5D",
+    "reddit_id": "1wwrzr6",
+    "source_pool": "oct5_query_gds",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B3-048",
+    "study_id": "C2-E9680AF08076",
+    "reddit_id": "1u9f7e6",
+    "source_pool": "oct5_query_gds",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B3-049",
+    "study_id": "C2-7227A48520D4",
+    "reddit_id": "1kerxt0",
+    "source_pool": "oct5_query_gds",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B3-050",
+    "study_id": "C2-512D35507196",
+    "reddit_id": "1npz15e",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "0"
+  },
+  {
+    "review_id": "B3-051",
+    "study_id": "C2-B831E2BD8DE7",
+    "reddit_id": "1ridipg",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "0"
+  },
+  {
+    "review_id": "B3-052",
+    "study_id": "C2-E3E541FC7107",
+    "reddit_id": "1oz5675",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "0"
+  },
+  {
+    "review_id": "B3-053",
+    "study_id": "C2-8FC6C47E3F79",
+    "reddit_id": "1kjzegx",
+    "source_pool": "oct5_query_gds",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B3-054",
+    "study_id": "C2-99F863BE80D1",
+    "reddit_id": "1o0sfq3",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "0"
+  },
+  {
+    "review_id": "B3-055",
+    "study_id": "C2-C6AE200AE53C",
+    "reddit_id": "1o0arcd",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "0"
+  },
+  {
+    "review_id": "B3-056",
+    "study_id": "C2-E905E1BA3528",
+    "reddit_id": "1nznizy",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "0"
+  },
+  {
+    "review_id": "B3-057",
+    "study_id": "C2-EBFF2660F97A",
+    "reddit_id": "1s8lap4",
+    "source_pool": "oct5_query_gds",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B3-058",
+    "study_id": "C2-48BA2437E93C",
+    "reddit_id": "1sgqjk6",
+    "source_pool": "oct5_query_tps",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B3-059",
+    "study_id": "C2-636ED64D8E8C",
+    "reddit_id": "1p2h7pk",
+    "source_pool": "oct5_query_tps",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B3-060",
+    "study_id": "C2-44B6B027A374",
+    "reddit_id": "1uddeks",
+    "source_pool": "oct5_query_gds",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B3-061",
+    "study_id": "C2-CAFF94CF91E4",
+    "reddit_id": "1udzyh7",
+    "source_pool": "oct5_query_tps",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B3-062",
+    "study_id": "C2-3FF68D7C17D4",
+    "reddit_id": "1oualta",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "1"
+  },
+  {
+    "review_id": "B3-063",
+    "study_id": "C2-D0E1F0DA4051",
+    "reddit_id": "1pnjv09",
+    "source_pool": "oct5_query_gds",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B3-064",
+    "study_id": "C2-692034502EC4",
+    "reddit_id": "1nuk7eq",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "0"
+  },
+  {
+    "review_id": "B3-065",
+    "study_id": "C2-7966C44301D6",
+    "reddit_id": "1odmjic",
+    "source_pool": "oct5_query_tps",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B3-066",
+    "study_id": "C2-747644686640",
+    "reddit_id": "1n1mncc",
+    "source_pool": "oct5_query_tps",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B3-067",
+    "study_id": "C2-629601BB6B80",
+    "reddit_id": "1nqptsb",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "1"
+  },
+  {
+    "review_id": "B3-068",
+    "study_id": "C2-6F294CAB5817",
+    "reddit_id": "1piwkia",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "0"
+  },
+  {
+    "review_id": "B3-069",
+    "study_id": "C2-C70542BD5094",
+    "reddit_id": "1r62nm3",
+    "source_pool": "oct5_query_tps",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B3-070",
+    "study_id": "C2-7A4802B91B9D",
+    "reddit_id": "1r69zno",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "0"
+  },
+  {
+    "review_id": "B3-071",
+    "study_id": "C2-804C0332A37D",
+    "reddit_id": "1t2qe0r",
+    "source_pool": "oct5_query_gds",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B3-072",
+    "study_id": "C2-4B089BBD3105",
+    "reddit_id": "1tl3rm8",
+    "source_pool": "oct5_query_tps",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B3-073",
+    "study_id": "C2-6B4845AAC912",
+    "reddit_id": "1n3dhh9",
+    "source_pool": "oct5_query_gds",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B3-074",
+    "study_id": "C2-7305E51938D5",
+    "reddit_id": "1ox9zpa",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "0"
+  },
+  {
+    "review_id": "B3-075",
+    "study_id": "C2-8F6AC3C26F68",
+    "reddit_id": "1nxiq9t",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "0"
+  },
+  {
+    "review_id": "B3-076",
+    "study_id": "C2-718160F50BC4",
+    "reddit_id": "1nodn9g",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "0"
+  },
+  {
+    "review_id": "B3-077",
+    "study_id": "C2-D986C18EC452",
+    "reddit_id": "1u6ng69",
+    "source_pool": "oct5_query_tps",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B3-078",
+    "study_id": "C2-C8F8008EBA51",
+    "reddit_id": "1pniqmm",
+    "source_pool": "oct5_query_gds",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B3-079",
+    "study_id": "C2-AE4F34A1C4C0",
+    "reddit_id": "so_79818856",
+    "source_pool": "oct5_query_tps",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B3-080",
+    "study_id": "C2-891D8453C9B0",
+    "reddit_id": "1p8r5z6",
+    "source_pool": "oct5_query_tps",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B3-081",
+    "study_id": "C2-E18060F90177",
+    "reddit_id": "1r3wa64",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "0"
+  },
+  {
+    "review_id": "B3-082",
+    "study_id": "C2-5DBD2678ADD0",
+    "reddit_id": "1o0not3",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "0"
+  },
+  {
+    "review_id": "B3-083",
+    "study_id": "C2-9C78B7DDB8A2",
+    "reddit_id": "1qqvc44",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "0"
+  },
+  {
+    "review_id": "B3-084",
+    "study_id": "C2-D1987A5F819C",
+    "reddit_id": "1nu9iny",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "0"
+  },
+  {
+    "review_id": "B3-085",
+    "study_id": "C2-E534476900E5",
+    "reddit_id": "1rzzy7w",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "0"
+  },
+  {
+    "review_id": "B3-086",
+    "study_id": "C2-E3C82086F581",
+    "reddit_id": "1ui3nra",
+    "source_pool": "oct5_query_tps",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B3-087",
+    "study_id": "C2-1B3BEF0EF32B",
+    "reddit_id": "1sz034y",
+    "source_pool": "oct5_query_tps",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B3-088",
+    "study_id": "C2-74E98C50CDA3",
+    "reddit_id": "1nq718r",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "0"
+  },
+  {
+    "review_id": "B3-089",
+    "study_id": "C2-C28617291753",
+    "reddit_id": "1k9pp61",
+    "source_pool": "oct5_query_gds",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B3-090",
+    "study_id": "C2-DF4AE2F1D47B",
+    "reddit_id": "1p8d99y",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "0"
+  },
+  {
+    "review_id": "B3-091",
+    "study_id": "C2-BCD30484F7DD",
+    "reddit_id": "1owv5cc",
+    "source_pool": "oct5_query_tps",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B3-092",
+    "study_id": "C2-1FEF0A557355",
+    "reddit_id": "1s38rsd",
+    "source_pool": "oct5_query_gds",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B3-093",
+    "study_id": "C2-FBCE6C5781D0",
+    "reddit_id": "1wsw8jg",
+    "source_pool": "oct5_query_gds",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B3-094",
+    "study_id": "C2-D3A47D18FBD2",
+    "reddit_id": "1pnapx3",
+    "source_pool": "oct5_query_gds",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B3-095",
+    "study_id": "C2-B46F6DF841E5",
+    "reddit_id": "1m7du3f",
+    "source_pool": "oct5_query_gds",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B3-096",
+    "study_id": "C2-909AC9F5B3F7",
+    "reddit_id": "1rzl7os",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "0"
+  },
+  {
+    "review_id": "B3-097",
+    "study_id": "C2-64C1E8FB2E69",
+    "reddit_id": "1pb0n21",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "1"
+  },
+  {
+    "review_id": "B3-098",
+    "study_id": "C2-BFA5FCBE06BE",
+    "reddit_id": "1omcf23",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "0"
+  },
+  {
+    "review_id": "B3-099",
+    "study_id": "C2-659A6CE0532D",
+    "reddit_id": "1ppmlq9",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "0"
+  },
+  {
+    "review_id": "B3-100",
+    "study_id": "C2-BB174B1AE94B",
+    "reddit_id": "1nny826",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "0"
+  },
+  {
+    "review_id": "B4-001",
+    "study_id": "C2-BFD73BD38C06",
+    "reddit_id": "1suj8y2",
+    "source_pool": "oct5_query_gds",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B4-002",
+    "study_id": "C2-09EECBF52DE9",
+    "reddit_id": "1pd74y8",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "1"
+  },
+  {
+    "review_id": "B4-003",
+    "study_id": "C2-144C2C312AD1",
+    "reddit_id": "1nwdr3j",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "0"
+  },
+  {
+    "review_id": "B4-004",
+    "study_id": "C2-BE1717804825",
+    "reddit_id": "1nuovbw",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "1"
+  },
+  {
+    "review_id": "B4-005",
+    "study_id": "C2-6AF2386C9049",
+    "reddit_id": "1r2523u",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "0"
+  },
+  {
+    "review_id": "B4-006",
+    "study_id": "C2-AA8366BBA4C7",
+    "reddit_id": "1nvo2fe",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "1"
+  },
+  {
+    "review_id": "B4-007",
+    "study_id": "C2-607FD4485EDC",
+    "reddit_id": "1sg1sxi",
+    "source_pool": "oct5_query_tps",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B4-008",
+    "study_id": "C2-020A4F5E2FC3",
+    "reddit_id": "1r1wg6j",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "1"
+  },
+  {
+    "review_id": "B4-009",
+    "study_id": "C2-211551044405",
+    "reddit_id": "1nx2r7j",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "0"
+  },
+  {
+    "review_id": "B4-010",
+    "study_id": "C2-829D377E6948",
+    "reddit_id": "1lwk4pm",
+    "source_pool": "oct5_query_gds",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B4-011",
+    "study_id": "C2-61444769AC87",
+    "reddit_id": "1pid486",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "0"
+  },
+  {
+    "review_id": "B4-012",
+    "study_id": "C2-7FD2F213F38F",
+    "reddit_id": "1oh2ayf",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "0"
+  },
+  {
+    "review_id": "B4-013",
+    "study_id": "C2-8CCAC79FDA6B",
+    "reddit_id": "1ozofxx",
+    "source_pool": "oct5_query_tps",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B4-014",
+    "study_id": "C2-6F7A68366D12",
+    "reddit_id": "1nwq31n",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "0"
+  },
+  {
+    "review_id": "B4-015",
+    "study_id": "C2-55AE58F0BFBE",
+    "reddit_id": "1ql2670",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "1"
+  },
+  {
+    "review_id": "B4-016",
+    "study_id": "C2-102AFB6B8F7F",
+    "reddit_id": "1r47tei",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "0"
+  },
+  {
+    "review_id": "B4-017",
+    "study_id": "C2-6C0E1B5BAFBE",
+    "reddit_id": "1sasfjw",
+    "source_pool": "oct5_query_tps",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B4-018",
+    "study_id": "C2-20CBC9F966BA",
+    "reddit_id": "1mh49dk",
+    "source_pool": "oct5_query_gds",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B4-019",
+    "study_id": "C2-2C322A5C6148",
+    "reddit_id": "1ulmf5i",
+    "source_pool": "oct5_query_gds",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B4-020",
+    "study_id": "C2-66E69956D989",
+    "reddit_id": "1vuhsoj",
+    "source_pool": "oct5_query_tps",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B4-021",
+    "study_id": "C2-DCCDE645D6FB",
+    "reddit_id": "1p2r5sf",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "0"
+  },
+  {
+    "review_id": "B4-022",
+    "study_id": "C2-BCC774394897",
+    "reddit_id": "1ur2nui",
+    "source_pool": "oct5_query_tps",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B4-023",
+    "study_id": "C2-C84EE54159F3",
+    "reddit_id": "1ovjvjg",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "0"
+  },
+  {
+    "review_id": "B4-024",
+    "study_id": "C2-0418980D7EC2",
+    "reddit_id": "1v0wxlf",
+    "source_pool": "oct5_query_gds",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B4-025",
+    "study_id": "C2-FADEC4CE849B",
+    "reddit_id": "1stqwos",
+    "source_pool": "oct5_query_gds",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B4-026",
+    "study_id": "C2-29F9523DE4A1",
+    "reddit_id": "1okf2z9",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "0"
+  },
+  {
+    "review_id": "B4-027",
+    "study_id": "C2-5F4A391D7110",
+    "reddit_id": "1qox66j",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "0"
+  },
+  {
+    "review_id": "B4-028",
+    "study_id": "C2-9E8875C36855",
+    "reddit_id": "1r3bizw",
+    "source_pool": "oct5_query_tps",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B4-029",
+    "study_id": "C2-2395F61B46EE",
+    "reddit_id": "1utrp4z",
+    "source_pool": "oct5_query_gds",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B4-030",
+    "study_id": "C2-23DF7824C9EB",
+    "reddit_id": "1p8xi84",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "0"
+  },
+  {
+    "review_id": "B4-031",
+    "study_id": "C2-E9B6F92BB13E",
+    "reddit_id": "1qi4tgl",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "0"
+  },
+  {
+    "review_id": "B4-032",
+    "study_id": "C2-81D6A44E22D7",
+    "reddit_id": "1pne73p",
+    "source_pool": "oct5_query_gds",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B4-033",
+    "study_id": "C2-3FC9DABA2B75",
+    "reddit_id": "1mckft4",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "0"
+  },
+  {
+    "review_id": "B4-034",
+    "study_id": "C2-5450BF02B19F",
+    "reddit_id": "1u3zzcs",
+    "source_pool": "oct5_query_gds",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B4-035",
+    "study_id": "C2-7DB79CE3C5B0",
+    "reddit_id": "1ppa1aq",
+    "source_pool": "oct5_query_tps",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B4-036",
+    "study_id": "C2-C969D7C4A395",
+    "reddit_id": "1oudsi3",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "0"
+  },
+  {
+    "review_id": "B4-037",
+    "study_id": "C2-F618C2CDB962",
+    "reddit_id": "1pimxca",
+    "source_pool": "oct5_query_gds",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B4-038",
+    "study_id": "C2-B2B887B22FEF",
+    "reddit_id": "1qof4q5",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "1"
+  },
+  {
+    "review_id": "B4-039",
+    "study_id": "C2-F5CB98ACBF30",
+    "reddit_id": "1nrjstu",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "0"
+  },
+  {
+    "review_id": "B4-040",
+    "study_id": "C2-F9CA20CC694B",
+    "reddit_id": "1ic38ep",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "0"
+  },
+  {
+    "review_id": "B4-041",
+    "study_id": "C2-6E6C33196F79",
+    "reddit_id": "1mnjyqj",
+    "source_pool": "oct5_query_gds",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B4-042",
+    "study_id": "C2-CA9989098301",
+    "reddit_id": "1nug3bb",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "0"
+  },
+  {
+    "review_id": "B4-043",
+    "study_id": "C2-D954D874F398",
+    "reddit_id": "1pj5f4c",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "0"
+  },
+  {
+    "review_id": "B4-044",
+    "study_id": "C2-B244A4AAAB11",
+    "reddit_id": "1u9ea81",
+    "source_pool": "oct5_query_tps",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B4-045",
+    "study_id": "C2-1F16FD977690",
+    "reddit_id": "so_79836335",
+    "source_pool": "oct5_query_tps",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B4-046",
+    "study_id": "C2-DF26C79DDAE4",
+    "reddit_id": "1pbji46",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "0"
+  },
+  {
+    "review_id": "B4-047",
+    "study_id": "C2-DAE55963866D",
+    "reddit_id": "1uxzwmm",
+    "source_pool": "oct5_query_tps",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B4-048",
+    "study_id": "C2-821A4CE23414",
+    "reddit_id": "1uqixev",
+    "source_pool": "oct5_query_gds",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B4-049",
+    "study_id": "C2-06C0231E0881",
+    "reddit_id": "1p7y4ac",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "1"
+  },
+  {
+    "review_id": "B4-050",
+    "study_id": "C2-E9073D3D5947",
+    "reddit_id": "1oj9ktc",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "0"
+  },
+  {
+    "review_id": "B4-051",
+    "study_id": "C2-119BC31437B9",
+    "reddit_id": "1vs2znw",
+    "source_pool": "oct5_query_tps",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B4-052",
+    "study_id": "C2-CC0FAB0FDEA4",
+    "reddit_id": "1pes6i4",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "0"
+  },
+  {
+    "review_id": "B4-053",
+    "study_id": "C2-700F5356C9F7",
+    "reddit_id": "1s1590l",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "0"
+  },
+  {
+    "review_id": "B4-054",
+    "study_id": "C2-0AB770745867",
+    "reddit_id": "1md507p",
+    "source_pool": "oct5_query_gds",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B4-055",
+    "study_id": "C2-9E9A64764EEC",
+    "reddit_id": "1qzzr7s",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "0"
+  },
+  {
+    "review_id": "B4-056",
+    "study_id": "C2-DA54AF1EFB31",
+    "reddit_id": "1okfwhg",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "0"
+  },
+  {
+    "review_id": "B4-057",
+    "study_id": "C2-72C331ABD05F",
+    "reddit_id": "1rka5nv",
+    "source_pool": "oct5_query_tps",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B4-058",
+    "study_id": "C2-EADF9EAE3611",
+    "reddit_id": "1sikztg",
+    "source_pool": "oct5_query_gds",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B4-059",
+    "study_id": "C2-4512125C9340",
+    "reddit_id": "1ose42w",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "1"
+  },
+  {
+    "review_id": "B4-060",
+    "study_id": "C2-F38E823574AE",
+    "reddit_id": "1tfcqxt",
+    "source_pool": "oct5_query_tps",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B4-061",
+    "study_id": "C2-9DC7496C1BFE",
+    "reddit_id": "1wrmi5d",
+    "source_pool": "oct5_query_tps",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B4-062",
+    "study_id": "C2-093F0991BCBB",
+    "reddit_id": "1qmk1ih",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "1"
+  },
+  {
+    "review_id": "B4-063",
+    "study_id": "C2-262319A7E585",
+    "reddit_id": "1uaqe9o",
+    "source_pool": "oct5_query_tps",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B4-064",
+    "study_id": "C2-D2834DD9EEAB",
+    "reddit_id": "1tnw4uz",
+    "source_pool": "oct5_query_tps",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B4-065",
+    "study_id": "C2-471A5975DD45",
+    "reddit_id": "1t4yiv7",
+    "source_pool": "oct5_query_gds",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B4-066",
+    "study_id": "C2-9120FBBA78F2",
+    "reddit_id": "1rj06fw",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "0"
+  },
+  {
+    "review_id": "B4-067",
+    "study_id": "C2-4B6D761ED6E8",
+    "reddit_id": "1r5cpj9",
+    "source_pool": "oct5_query_gds",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B4-068",
+    "study_id": "C2-10B596BBBE0F",
+    "reddit_id": "1sy3e3y",
+    "source_pool": "oct5_query_gds",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B4-069",
+    "study_id": "C2-45FBDD161106",
+    "reddit_id": "1uk9ybw",
+    "source_pool": "oct5_query_tps",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B4-070",
+    "study_id": "C2-AA8AA9277DC7",
+    "reddit_id": "1nxh6rx",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "0"
+  },
+  {
+    "review_id": "B4-071",
+    "study_id": "C2-948F00E0A819",
+    "reddit_id": "1vvvhkc",
+    "source_pool": "oct5_query_gds",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B4-072",
+    "study_id": "C2-5FD6A566F72E",
+    "reddit_id": "1kn7g7m",
+    "source_pool": "oct5_query_gds",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B4-073",
+    "study_id": "C2-B8E5EC485C47",
+    "reddit_id": "1ov99ij",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "0"
+  },
+  {
+    "review_id": "B4-074",
+    "study_id": "C2-C513A6FDFB78",
+    "reddit_id": "1rgmzbu",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "0"
+  },
+  {
+    "review_id": "B4-075",
+    "study_id": "C2-04081FEAAC6D",
+    "reddit_id": "1rip89a",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "0"
+  },
+  {
+    "review_id": "B4-076",
+    "study_id": "C2-83346A05F6E9",
+    "reddit_id": "1u3vufd",
+    "source_pool": "oct5_query_tps",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B4-077",
+    "study_id": "C2-3129B778BA45",
+    "reddit_id": "1wucsoy",
+    "source_pool": "oct5_query_tps",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B4-078",
+    "study_id": "C2-414D3D5D9547",
+    "reddit_id": "1wtqbqr",
+    "source_pool": "oct5_query_gds",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B4-079",
+    "study_id": "C2-BED36E3B3561",
+    "reddit_id": "1nxtvfr",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "0"
+  },
+  {
+    "review_id": "B4-080",
+    "study_id": "C2-2181E7C48D2B",
+    "reddit_id": "1pd252e",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "0"
+  },
+  {
+    "review_id": "B4-081",
+    "study_id": "C2-3289103301FA",
+    "reddit_id": "1texnet",
+    "source_pool": "oct5_query_tps",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B4-082",
+    "study_id": "C2-0F266165EE08",
+    "reddit_id": "1p6m6h2",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "0"
+  },
+  {
+    "review_id": "B4-083",
+    "study_id": "C2-A44FCB5A0272",
+    "reddit_id": "1tpb2t2",
+    "source_pool": "oct5_query_gds",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B4-084",
+    "study_id": "C2-E135B227FA3D",
+    "reddit_id": "so_79850944",
+    "source_pool": "oct5_query_tps",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B4-085",
+    "study_id": "C2-A7A9BF7D5B03",
+    "reddit_id": "1ouuht0",
+    "source_pool": "oct5_query_tps",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B4-086",
+    "study_id": "C2-1BC6D76A62DE",
+    "reddit_id": "1pk9ruh",
+    "source_pool": "oct5_query_gds",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B4-087",
+    "study_id": "C2-F42414F1BF7F",
+    "reddit_id": "1sv1h2z",
+    "source_pool": "oct5_query_gds",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B4-088",
+    "study_id": "C2-AF7DC220808E",
+    "reddit_id": "1s3ih7q",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "0"
+  },
+  {
+    "review_id": "B4-089",
+    "study_id": "C2-EBA343654C15",
+    "reddit_id": "1ov3lw7",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "0"
+  },
+  {
+    "review_id": "B4-090",
+    "study_id": "C2-E2A0A4BF5164",
+    "reddit_id": "1oub67k",
+    "source_pool": "oct5_query_gds",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B4-091",
+    "study_id": "C2-ABED4CD8DA52",
+    "reddit_id": "1qyyehf",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "0"
+  },
+  {
+    "review_id": "B4-092",
+    "study_id": "C2-41F1E4D9F17A",
+    "reddit_id": "1skdt9y",
+    "source_pool": "oct5_query_tps",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B4-093",
+    "study_id": "C2-919493A2CD34",
+    "reddit_id": "1pp9s46",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "0"
+  },
+  {
+    "review_id": "B4-094",
+    "study_id": "C2-3CECBF0477FE",
+    "reddit_id": "1v0xel0",
+    "source_pool": "oct5_query_tps",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B4-095",
+    "study_id": "C2-7A75EAC3079A",
+    "reddit_id": "1k970e9",
+    "source_pool": "oct5_query_gds",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B4-096",
+    "study_id": "C2-019CF0D8496A",
+    "reddit_id": "1p0od9s",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "0"
+  },
+  {
+    "review_id": "B4-097",
+    "study_id": "C2-83C3D2FA4F2B",
+    "reddit_id": "1nux0o3",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "0"
+  },
+  {
+    "review_id": "B4-098",
+    "study_id": "C2-87AC951E24B3",
+    "reddit_id": "1nvdrgv",
+    "source_pool": "oct5_query_tps",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B4-099",
+    "study_id": "C2-771AB7E32F52",
+    "reddit_id": "1nrapsb",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "0"
+  },
+  {
+    "review_id": "B4-100",
+    "study_id": "C2-C1FC54CBC328",
+    "reddit_id": "1qrykct",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "0"
+  },
+  {
+    "review_id": "B5-001",
+    "study_id": "C2-6DDA74C65655",
+    "reddit_id": "1tfzbdv",
+    "source_pool": "oct5_query_tps",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B5-002",
+    "study_id": "C2-1C85F1F4CB1A",
+    "reddit_id": "1purh8e",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "0"
+  },
+  {
+    "review_id": "B5-003",
+    "study_id": "C2-797408FB85ED",
+    "reddit_id": "1wrvnyz",
+    "source_pool": "oct5_query_gds",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B5-004",
+    "study_id": "C2-8F5D6E41D1D7",
+    "reddit_id": "1sfysw6",
+    "source_pool": "oct5_query_gds",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B5-005",
+    "study_id": "C2-06C8A36E75E2",
+    "reddit_id": "1nx0u6s",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "0"
+  },
+  {
+    "review_id": "B5-006",
+    "study_id": "C2-1DCB5C045B8C",
+    "reddit_id": "1p0cbx4",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "1"
+  },
+  {
+    "review_id": "B5-007",
+    "study_id": "C2-FA42A1D52A6A",
+    "reddit_id": "1mj94sb",
+    "source_pool": "oct5_query_gds",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B5-008",
+    "study_id": "C2-81B164DE9B98",
+    "reddit_id": "1nw1qeq",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "0"
+  },
+  {
+    "review_id": "B5-009",
+    "study_id": "C2-313592D2A69A",
+    "reddit_id": "1ozmsya",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "0"
+  },
+  {
+    "review_id": "B5-010",
+    "study_id": "C2-9F18F2E64543",
+    "reddit_id": "1rknls1",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "0"
+  },
+  {
+    "review_id": "B5-011",
+    "study_id": "C2-1C0D50877DA6",
+    "reddit_id": "1wy5au9",
+    "source_pool": "oct5_query_gds",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B5-012",
+    "study_id": "C2-B0764850BE02",
+    "reddit_id": "1ozbp5s",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "0"
+  },
+  {
+    "review_id": "B5-013",
+    "study_id": "C2-7DBE385E5FD5",
+    "reddit_id": "1s0krw7",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "0"
+  },
+  {
+    "review_id": "B5-014",
+    "study_id": "C2-81E61647C503",
+    "reddit_id": "1rlshhw",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "0"
+  },
+  {
+    "review_id": "B5-015",
+    "study_id": "C2-3C0F0766D041",
+    "reddit_id": "1s52c8t",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "1"
+  },
+  {
+    "review_id": "B5-016",
+    "study_id": "C2-9689ADF36FB1",
+    "reddit_id": "1u5zrs0",
+    "source_pool": "oct5_query_gds",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B5-017",
+    "study_id": "C2-5391DF79321C",
+    "reddit_id": "1pqkdcf",
+    "source_pool": "oct5_query_tps",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B5-018",
+    "study_id": "C2-9A4D8C174D1D",
+    "reddit_id": "1q03jmr",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "0"
+  },
+  {
+    "review_id": "B5-019",
+    "study_id": "C2-F81E28C8E4B8",
+    "reddit_id": "1uvnok7",
+    "source_pool": "oct5_query_gds",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B5-020",
+    "study_id": "C2-6E367331D841",
+    "reddit_id": "1oiwr33",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "0"
+  },
+  {
+    "review_id": "B5-021",
+    "study_id": "C2-5F17B5EAEF60",
+    "reddit_id": "1m56e9b",
+    "source_pool": "oct5_query_gds",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B5-022",
+    "study_id": "C2-BD4DB57AE095",
+    "reddit_id": "1oqupma",
+    "source_pool": "oct5_query_tps",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B5-023",
+    "study_id": "C2-9C75FF0A4830",
+    "reddit_id": "1r37e64",
+    "source_pool": "oct5_query_tps",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B5-024",
+    "study_id": "C2-6D2F5F428198",
+    "reddit_id": "1kxo7yp",
+    "source_pool": "oct5_query_gds",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B5-025",
+    "study_id": "C2-3C8FF941AAA8",
+    "reddit_id": "1sh6dx6",
+    "source_pool": "oct5_query_tps",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B5-026",
+    "study_id": "C2-385245CDAE45",
+    "reddit_id": "1phadn8",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "0"
+  },
+  {
+    "review_id": "B5-027",
+    "study_id": "C2-9D6FC6167DB1",
+    "reddit_id": "1nogcov",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "0"
+  },
+  {
+    "review_id": "B5-028",
+    "study_id": "C2-A8FF50C6FD83",
+    "reddit_id": "1ptxhd7",
+    "source_pool": "oct5_query_gds",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B5-029",
+    "study_id": "C2-06F53D3CDB99",
+    "reddit_id": "1svwxno",
+    "source_pool": "oct5_query_tps",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B5-030",
+    "study_id": "C2-8687F798B70A",
+    "reddit_id": "1vxhxtj",
+    "source_pool": "oct5_query_gds",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B5-031",
+    "study_id": "C2-1D527F5880A8",
+    "reddit_id": "1s3nt3h",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "0"
+  },
+  {
+    "review_id": "B5-032",
+    "study_id": "C2-FEF3F27EFAED",
+    "reddit_id": "1pmwjzm",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "0"
+  },
+  {
+    "review_id": "B5-033",
+    "study_id": "C2-954B9CF784DE",
+    "reddit_id": "1kgsxt1",
+    "source_pool": "oct5_query_gds",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B5-034",
+    "study_id": "C2-50DB735FDEF6",
+    "reddit_id": "1nwebdk",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "1"
+  },
+  {
+    "review_id": "B5-035",
+    "study_id": "C2-40856175B505",
+    "reddit_id": "1p5jrrd",
+    "source_pool": "oct5_query_tps",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B5-036",
+    "study_id": "C2-61137C1CFAAF",
+    "reddit_id": "1s5rpge",
+    "source_pool": "oct5_query_tps",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B5-037",
+    "study_id": "C2-EA92D8FE8671",
+    "reddit_id": "1pea9yo",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "0"
+  },
+  {
+    "review_id": "B5-038",
+    "study_id": "C2-D90D6FC377D0",
+    "reddit_id": "1pmpja4",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "0"
+  },
+  {
+    "review_id": "B5-039",
+    "study_id": "C2-D37F936CC756",
+    "reddit_id": "1u2nyz4",
+    "source_pool": "oct5_query_gds",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B5-040",
+    "study_id": "C2-97901E3387E4",
+    "reddit_id": "1nqsr52",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "0"
+  },
+  {
+    "review_id": "B5-041",
+    "study_id": "C2-74F56067D952",
+    "reddit_id": "1oog91m",
+    "source_pool": "oct5_query_gds",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B5-042",
+    "study_id": "C2-B424BD2A36BA",
+    "reddit_id": "1nu8jf9",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "1"
+  },
+  {
+    "review_id": "B5-043",
+    "study_id": "C2-059335C72C00",
+    "reddit_id": "1mgrzy6",
+    "source_pool": "oct5_query_gds",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B5-044",
+    "study_id": "C2-2839F0545C33",
+    "reddit_id": "1rytrba",
+    "source_pool": "oct5_query_tps",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B5-045",
+    "study_id": "C2-82085828151D",
+    "reddit_id": "1v1ompn",
+    "source_pool": "oct5_query_tps",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B5-046",
+    "study_id": "C2-DBC690480E5C",
+    "reddit_id": "1r0e16k",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "0"
+  },
+  {
+    "review_id": "B5-047",
+    "study_id": "C2-6E25CF15B993",
+    "reddit_id": "1l2zxcb",
+    "source_pool": "oct5_query_gds",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B5-048",
+    "study_id": "C2-0FE4E83315E9",
+    "reddit_id": "1u4wd1t",
+    "source_pool": "oct5_query_tps",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B5-049",
+    "study_id": "C2-F7526AF0566E",
+    "reddit_id": "1pp1ivu",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "1"
+  },
+  {
+    "review_id": "B5-050",
+    "study_id": "C2-FAC362B9C4B7",
+    "reddit_id": "1o07gac",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "0"
+  },
+  {
+    "review_id": "B5-051",
+    "study_id": "C2-7980C0F07D58",
+    "reddit_id": "1pakz3x",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "0"
+  },
+  {
+    "review_id": "B5-052",
+    "study_id": "C2-BE1957959988",
+    "reddit_id": "1qo2w0x",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "0"
+  },
+  {
+    "review_id": "B5-053",
+    "study_id": "C2-61FCBFFC3F4A",
+    "reddit_id": "1ng1kyr",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "0"
+  },
+  {
+    "review_id": "B5-054",
+    "study_id": "C2-6B0E0C949753",
+    "reddit_id": "1o26n9n",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "0"
+  },
+  {
+    "review_id": "B5-055",
+    "study_id": "C2-98315C03B9B2",
+    "reddit_id": "1tfcpfq",
+    "source_pool": "oct5_query_tps",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B5-056",
+    "study_id": "C2-3890BAB791F4",
+    "reddit_id": "1nw56v4",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "0"
+  },
+  {
+    "review_id": "B5-057",
+    "study_id": "C2-F9CBAC4AD53E",
+    "reddit_id": "1p03z2m",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "0"
+  },
+  {
+    "review_id": "B5-058",
+    "study_id": "C2-ECB48087DF33",
+    "reddit_id": "1nwck9t",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "0"
+  },
+  {
+    "review_id": "B5-059",
+    "study_id": "C2-29DC78CD1942",
+    "reddit_id": "1noelxs",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "0"
+  },
+  {
+    "review_id": "B5-060",
+    "study_id": "C2-E471D777CD1C",
+    "reddit_id": "1ol0ob4",
+    "source_pool": "oct5_query_tps",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B5-061",
+    "study_id": "C2-7B25D43936BB",
+    "reddit_id": "1owlg8u",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "0"
+  },
+  {
+    "review_id": "B5-062",
+    "study_id": "C2-01673B26DA6A",
+    "reddit_id": "1si6d2u",
+    "source_pool": "oct5_query_gds",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B5-063",
+    "study_id": "C2-3CCE7DC51F4B",
+    "reddit_id": "1nut2lh",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "0"
+  },
+  {
+    "review_id": "B5-064",
+    "study_id": "C2-12A2507E1A12",
+    "reddit_id": "1p9w86d",
+    "source_pool": "oct5_query_tps",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B5-065",
+    "study_id": "C2-4EA0312A70AB",
+    "reddit_id": "1rjx42f",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "0"
+  },
+  {
+    "review_id": "B5-066",
+    "study_id": "C2-30312F30623F",
+    "reddit_id": "1onnoh7",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "1"
+  },
+  {
+    "review_id": "B5-067",
+    "study_id": "C2-50427DB14F31",
+    "reddit_id": "so_79972174",
+    "source_pool": "oct5_query_gds",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B5-068",
+    "study_id": "C2-2E321DC33263",
+    "reddit_id": "1sapuwz",
+    "source_pool": "oct5_query_tps",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B5-069",
+    "study_id": "C2-B305E9BEF126",
+    "reddit_id": "1lil12r",
+    "source_pool": "oct5_query_gds",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B5-070",
+    "study_id": "C2-F63D90C11CD9",
+    "reddit_id": "1nqjtia",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "0"
+  },
+  {
+    "review_id": "B5-071",
+    "study_id": "C2-13A164EBEF3D",
+    "reddit_id": "1vrrhki",
+    "source_pool": "oct5_query_tps",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B5-072",
+    "study_id": "C2-CE4D4C880D62",
+    "reddit_id": "1p6tr4c",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "0"
+  },
+  {
+    "review_id": "B5-073",
+    "study_id": "C2-ACE8552006FD",
+    "reddit_id": "1rvjo3l",
+    "source_pool": "oct5_query_tps",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B5-074",
+    "study_id": "C2-892D0997BFA4",
+    "reddit_id": "1t1wkvz",
+    "source_pool": "oct5_query_gds",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B5-075",
+    "study_id": "C2-AC9A37C40B98",
+    "reddit_id": "1rvt5xi",
+    "source_pool": "oct5_query_tps",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B5-076",
+    "study_id": "C2-F37569DDB677",
+    "reddit_id": "1vuy55b",
+    "source_pool": "oct5_query_tps",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B5-077",
+    "study_id": "C2-61AD0E976EA5",
+    "reddit_id": "1pzd683",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "0"
+  },
+  {
+    "review_id": "B5-078",
+    "study_id": "C2-27FF6531EC0C",
+    "reddit_id": "1nw7zjt",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "0"
+  },
+  {
+    "review_id": "B5-079",
+    "study_id": "C2-0FD9AE56A2D6",
+    "reddit_id": "1ouavr1",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "0"
+  },
+  {
+    "review_id": "B5-080",
+    "study_id": "C2-20F9AC066D70",
+    "reddit_id": "1tkq10k",
+    "source_pool": "oct5_query_tps",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B5-081",
+    "study_id": "C2-662992ADD212",
+    "reddit_id": "1nzj2ic",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "1"
+  },
+  {
+    "review_id": "B5-082",
+    "study_id": "C2-325BA8FDEA20",
+    "reddit_id": "1wrtgup",
+    "source_pool": "oct5_query_tps",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B5-083",
+    "study_id": "C2-A3EDDAC0769B",
+    "reddit_id": "1ske7g5",
+    "source_pool": "oct5_query_gds",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B5-084",
+    "study_id": "C2-66AFF2D104EF",
+    "reddit_id": "1siol29",
+    "source_pool": "oct5_query_tps",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B5-085",
+    "study_id": "C2-BE94109E6479",
+    "reddit_id": "1nq6kr4",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "0"
+  },
+  {
+    "review_id": "B5-086",
+    "study_id": "C2-F1752AAF44F3",
+    "reddit_id": "1ss6oei",
+    "source_pool": "oct5_query_tps",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B5-087",
+    "study_id": "C2-D894B86BE6E3",
+    "reddit_id": "1p87dzf",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "0"
+  },
+  {
+    "review_id": "B5-088",
+    "study_id": "C2-60F643A74B0E",
+    "reddit_id": "1tp6as6",
+    "source_pool": "oct5_query_gds",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B5-089",
+    "study_id": "C2-0081304B7550",
+    "reddit_id": "1pzv0cf",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "0"
+  },
+  {
+    "review_id": "B5-090",
+    "study_id": "C2-268233E2ACF3",
+    "reddit_id": "1uck0xp",
+    "source_pool": "oct5_query_gds",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B5-091",
+    "study_id": "C2-9D65D678F861",
+    "reddit_id": "1vpzx4m",
+    "source_pool": "oct5_query_gds",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B5-092",
+    "study_id": "C2-0119A1D69912",
+    "reddit_id": "1r6xf8p",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "0"
+  },
+  {
+    "review_id": "B5-093",
+    "study_id": "C2-61F29C40336E",
+    "reddit_id": "1nuifs3",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "0"
+  },
+  {
+    "review_id": "B5-094",
+    "study_id": "C2-A507971470EF",
+    "reddit_id": "1ocwbao",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "0"
+  },
+  {
+    "review_id": "B5-095",
+    "study_id": "C2-55908AE48C70",
+    "reddit_id": "1nzlrg8",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "0"
+  },
+  {
+    "review_id": "B5-096",
+    "study_id": "C2-8522600AB82A",
+    "reddit_id": "1rvh7zm",
+    "source_pool": "oct5_query_tps",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B5-097",
+    "study_id": "C2-90A9A68C4C75",
+    "reddit_id": "1o0c3t9",
+    "source_pool": "phase1_gold_file",
+    "source_family": "phase1_542",
+    "phase1_legacy_label": "0"
+  },
+  {
+    "review_id": "B5-098",
+    "study_id": "C2-6F63396598A6",
+    "reddit_id": "1u1dods",
+    "source_pool": "oct5_query_gds",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B5-099",
+    "study_id": "C2-F219DB65C3B1",
+    "reddit_id": "1oz1k3b",
+    "source_pool": "oct5_query_tps",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  },
+  {
+    "review_id": "B5-100",
+    "study_id": "C2-7D5EBA44F2DB",
+    "reddit_id": "1mxkbjj",
+    "source_pool": "oct5_query_gds",
+    "source_family": "oct5_api",
+    "phase1_legacy_label": ""
+  }
+]

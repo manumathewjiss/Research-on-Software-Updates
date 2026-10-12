@@ -1,0 +1,5002 @@
+[
+  {
+    "review_id": "B1-001",
+    "study_id": "C2-ADAEACD9592E",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "other",
+    "confidence": "medium",
+    "reason": "The post discusses software without a clear repair request or chiefly negative opinion."
+  },
+  {
+    "review_id": "B1-002",
+    "study_id": "C2-C073081812CC",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "low",
+    "reason": "The text may describe a problem to diagnose; check whether its main purpose is troubleshooting."
+  },
+  {
+    "review_id": "B1-003",
+    "study_id": "C2-1A8ACE70FC15",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "unclear",
+    "update_related": "unclear",
+    "discussion_type": "na",
+    "confidence": "low",
+    "reason": "The saved text does not identify the software topic clearly enough."
+  },
+  {
+    "review_id": "B1-004",
+    "study_id": "C2-DA7199915929",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "no",
+    "update_related": "no",
+    "discussion_type": "na",
+    "confidence": "medium",
+    "reason": "The saved post does not describe software."
+  },
+  {
+    "review_id": "B1-005",
+    "study_id": "C2-DB852633F08C",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "other",
+    "confidence": "medium",
+    "reason": "The post discusses software without a clear repair request or chiefly negative opinion."
+  },
+  {
+    "review_id": "B1-006",
+    "study_id": "C2-C5B97BA96EAD",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "no",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "low",
+    "reason": "The text may describe a problem to diagnose; check whether its main purpose is troubleshooting."
+  },
+  {
+    "review_id": "B1-007",
+    "study_id": "C2-132517705439",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "no",
+    "discussion_type": "other",
+    "confidence": "medium",
+    "reason": "The post discusses software without a clear repair request or chiefly negative opinion."
+  },
+  {
+    "review_id": "B1-008",
+    "study_id": "C2-5BB732434940",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "low",
+    "reason": "The text may describe a problem to diagnose; check whether its main purpose is troubleshooting."
+  },
+  {
+    "review_id": "B1-009",
+    "study_id": "C2-C0BD5C5A8509",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "other",
+    "confidence": "medium",
+    "reason": "The post discusses software without a clear repair request or chiefly negative opinion."
+  },
+  {
+    "review_id": "B1-010",
+    "study_id": "C2-AE55E867CA61",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "unclear",
+    "update_related": "unclear",
+    "discussion_type": "na",
+    "confidence": "low",
+    "reason": "The saved text does not identify the software topic clearly enough."
+  },
+  {
+    "review_id": "B1-011",
+    "study_id": "C2-9483100BC94F",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "unclear",
+    "update_related": "unclear",
+    "discussion_type": "na",
+    "confidence": "low",
+    "reason": "The saved text does not identify the software topic clearly enough."
+  },
+  {
+    "review_id": "B1-012",
+    "study_id": "C2-02BDC4ACF43F",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "other",
+    "confidence": "medium",
+    "reason": "The post discusses software without a clear repair request or chiefly negative opinion."
+  },
+  {
+    "review_id": "B1-013",
+    "study_id": "C2-3B793A054B17",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "no",
+    "update_related": "no",
+    "discussion_type": "na",
+    "confidence": "medium",
+    "reason": "The saved post does not describe software."
+  },
+  {
+    "review_id": "B1-014",
+    "study_id": "C2-CAA82A64CACE",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "medium",
+    "reason": "The post describes a concrete malfunction or asks how to diagnose or fix one."
+  },
+  {
+    "review_id": "B1-015",
+    "study_id": "C2-E649E18D1447",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "no",
+    "update_related": "no",
+    "discussion_type": "na",
+    "confidence": "low",
+    "reason": "The saved post does not describe software."
+  },
+  {
+    "review_id": "B1-016",
+    "study_id": "C2-BEADFD03FC2F",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "no",
+    "update_related": "no",
+    "discussion_type": "na",
+    "confidence": "low",
+    "reason": "The saved post does not describe software."
+  },
+  {
+    "review_id": "B1-017",
+    "study_id": "C2-EA12106B3CA7",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "no",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "medium",
+    "reason": "The post describes a concrete malfunction or asks how to diagnose or fix one."
+  },
+  {
+    "review_id": "B1-018",
+    "study_id": "C2-0135DC5ED14F",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "medium",
+    "reason": "The post describes a concrete malfunction or asks how to diagnose or fix one."
+  },
+  {
+    "review_id": "B1-019",
+    "study_id": "C2-FC8B23C9DF3D",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "unclear",
+    "update_related": "unclear",
+    "discussion_type": "na",
+    "confidence": "low",
+    "reason": "The saved text does not identify the software topic clearly enough."
+  },
+  {
+    "review_id": "B1-020",
+    "study_id": "C2-1B312D7735CD",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "low",
+    "reason": "The text may describe a problem to diagnose; check whether its main purpose is troubleshooting."
+  },
+  {
+    "review_id": "B1-021",
+    "study_id": "C2-F29849A0283C",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "medium",
+    "reason": "The post describes a concrete malfunction or asks how to diagnose or fix one."
+  },
+  {
+    "review_id": "B1-022",
+    "study_id": "C2-70E71474AFCA",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "no",
+    "update_related": "no",
+    "discussion_type": "na",
+    "confidence": "low",
+    "reason": "The saved post does not describe software."
+  },
+  {
+    "review_id": "B1-023",
+    "study_id": "C2-45C61E067D58",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "low",
+    "reason": "The text may describe a problem to diagnose; check whether its main purpose is troubleshooting."
+  },
+  {
+    "review_id": "B1-024",
+    "study_id": "C2-97188A96C7C9",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "unclear",
+    "update_related": "unclear",
+    "discussion_type": "na",
+    "confidence": "low",
+    "reason": "The saved text does not identify the software topic clearly enough."
+  },
+  {
+    "review_id": "B1-025",
+    "study_id": "C2-5DF6A702CDED",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "low",
+    "reason": "The text may describe a problem to diagnose; check whether its main purpose is troubleshooting."
+  },
+  {
+    "review_id": "B1-026",
+    "study_id": "C2-344DD8600662",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "medium",
+    "reason": "The post describes a concrete malfunction or asks how to diagnose or fix one."
+  },
+  {
+    "review_id": "B1-027",
+    "study_id": "C2-B5D5CCD36583",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "no",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "low",
+    "reason": "The text may describe a problem to diagnose; check whether its main purpose is troubleshooting."
+  },
+  {
+    "review_id": "B1-028",
+    "study_id": "C2-7633A87B73C3",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "medium",
+    "reason": "The post describes a concrete malfunction or asks how to diagnose or fix one."
+  },
+  {
+    "review_id": "B1-029",
+    "study_id": "C2-193493F1C1A4",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "medium",
+    "reason": "The post describes a concrete malfunction or asks how to diagnose or fix one."
+  },
+  {
+    "review_id": "B1-030",
+    "study_id": "C2-6B71F572B350",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "low",
+    "reason": "The post describes a concrete malfunction or asks how to diagnose or fix one."
+  },
+  {
+    "review_id": "B1-031",
+    "study_id": "C2-AA431A2DA7EA",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "other",
+    "confidence": "medium",
+    "reason": "The post discusses software without a clear repair request or chiefly negative opinion."
+  },
+  {
+    "review_id": "B1-032",
+    "study_id": "C2-8F81B7A95986",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "no",
+    "update_related": "no",
+    "discussion_type": "na",
+    "confidence": "low",
+    "reason": "The saved post does not describe software."
+  },
+  {
+    "review_id": "B1-033",
+    "study_id": "C2-9FDCE84AA229",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "general_dissatisfaction",
+    "confidence": "low",
+    "reason": "The main message criticizes software without a clear request to diagnose or fix it."
+  },
+  {
+    "review_id": "B1-034",
+    "study_id": "C2-BF568D926C19",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "other",
+    "confidence": "medium",
+    "reason": "The post discusses software without a clear repair request or chiefly negative opinion."
+  },
+  {
+    "review_id": "B1-035",
+    "study_id": "C2-3259F0E9D46F",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "medium",
+    "reason": "The post describes a concrete malfunction or asks how to diagnose or fix one."
+  },
+  {
+    "review_id": "B1-036",
+    "study_id": "C2-4E64A3961E12",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "low",
+    "reason": "The text may describe a problem to diagnose; check whether its main purpose is troubleshooting."
+  },
+  {
+    "review_id": "B1-037",
+    "study_id": "C2-6096A2CFF3AB",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "medium",
+    "reason": "The post describes a concrete malfunction or asks how to diagnose or fix one."
+  },
+  {
+    "review_id": "B1-038",
+    "study_id": "C2-14EC615D1CE5",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "low",
+    "reason": "The post describes a concrete malfunction or asks how to diagnose or fix one."
+  },
+  {
+    "review_id": "B1-039",
+    "study_id": "C2-22AA0D84E79B",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "other",
+    "confidence": "low",
+    "reason": "The text does not clearly show a troubleshooting request or a mainly negative opinion."
+  },
+  {
+    "review_id": "B1-040",
+    "study_id": "C2-89F85B1B0C20",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "low",
+    "reason": "The post describes a concrete malfunction or asks how to diagnose or fix one."
+  },
+  {
+    "review_id": "B1-041",
+    "study_id": "C2-BEFA8C786C27",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "unclear",
+    "update_related": "unclear",
+    "discussion_type": "na",
+    "confidence": "low",
+    "reason": "The saved text does not identify the software topic clearly enough."
+  },
+  {
+    "review_id": "B1-042",
+    "study_id": "C2-D324D900DB40",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "no",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "low",
+    "reason": "The text may describe a problem to diagnose; check whether its main purpose is troubleshooting."
+  },
+  {
+    "review_id": "B1-043",
+    "study_id": "C2-54C65B8F34DD",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "low",
+    "reason": "The text may describe a problem to diagnose; check whether its main purpose is troubleshooting."
+  },
+  {
+    "review_id": "B1-044",
+    "study_id": "C2-1248E7AADB4F",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "other",
+    "confidence": "low",
+    "reason": "The post discusses software without a clear repair request or chiefly negative opinion."
+  },
+  {
+    "review_id": "B1-045",
+    "study_id": "C2-E780BE5E0555",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "other",
+    "confidence": "low",
+    "reason": "The post discusses software without a clear repair request or chiefly negative opinion."
+  },
+  {
+    "review_id": "B1-046",
+    "study_id": "C2-E128D407BFB2",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "no",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "low",
+    "reason": "The text may describe a problem to diagnose; check whether its main purpose is troubleshooting."
+  },
+  {
+    "review_id": "B1-047",
+    "study_id": "C2-329B2B5AB6B8",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "medium",
+    "reason": "The post describes a concrete malfunction or asks how to diagnose or fix one."
+  },
+  {
+    "review_id": "B1-048",
+    "study_id": "C2-602ECD4159F0",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "no",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "low",
+    "reason": "The text may describe a problem to diagnose; check whether its main purpose is troubleshooting."
+  },
+  {
+    "review_id": "B1-049",
+    "study_id": "C2-49679755612A",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "other",
+    "confidence": "medium",
+    "reason": "The post discusses software without a clear repair request or chiefly negative opinion."
+  },
+  {
+    "review_id": "B1-050",
+    "study_id": "C2-518500C71D23",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "other",
+    "confidence": "medium",
+    "reason": "The post discusses software without a clear repair request or chiefly negative opinion."
+  },
+  {
+    "review_id": "B1-051",
+    "study_id": "C2-F27F0F4644F2",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "no",
+    "update_related": "no",
+    "discussion_type": "na",
+    "confidence": "medium",
+    "reason": "The saved post does not describe software."
+  },
+  {
+    "review_id": "B1-052",
+    "study_id": "C2-AD38DE450B82",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "low",
+    "reason": "The text may describe a problem to diagnose; check whether its main purpose is troubleshooting."
+  },
+  {
+    "review_id": "B1-053",
+    "study_id": "C2-0FEA59DA7A96",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "low",
+    "reason": "The text may describe a problem to diagnose; check whether its main purpose is troubleshooting."
+  },
+  {
+    "review_id": "B1-054",
+    "study_id": "C2-337E5571198D",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "other",
+    "confidence": "low",
+    "reason": "The text may be discussion rather than an active repair request; please check its main purpose."
+  },
+  {
+    "review_id": "B1-055",
+    "study_id": "C2-B8726DEC1281",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "no",
+    "update_related": "no",
+    "discussion_type": "na",
+    "confidence": "low",
+    "reason": "The saved post does not describe software."
+  },
+  {
+    "review_id": "B1-056",
+    "study_id": "C2-AFBFE9C4DA48",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "low",
+    "reason": "The text may describe a problem to diagnose; check whether its main purpose is troubleshooting."
+  },
+  {
+    "review_id": "B1-057",
+    "study_id": "C2-7A9C99E9D72C",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "medium",
+    "reason": "The post describes a concrete malfunction or asks how to diagnose or fix one."
+  },
+  {
+    "review_id": "B1-058",
+    "study_id": "C2-3A8D4428264A",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "other",
+    "confidence": "medium",
+    "reason": "The post discusses software without a clear repair request or chiefly negative opinion."
+  },
+  {
+    "review_id": "B1-059",
+    "study_id": "C2-56BDDBC3BDB8",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "no",
+    "discussion_type": "other",
+    "confidence": "low",
+    "reason": "The post discusses software without a clear repair request or chiefly negative opinion."
+  },
+  {
+    "review_id": "B1-060",
+    "study_id": "C2-4403CE067E0F",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "low",
+    "reason": "The text may describe a problem to diagnose; check whether its main purpose is troubleshooting."
+  },
+  {
+    "review_id": "B1-061",
+    "study_id": "C2-81726F33F432",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "medium",
+    "reason": "The post describes a concrete malfunction or asks how to diagnose or fix one."
+  },
+  {
+    "review_id": "B1-062",
+    "study_id": "C2-AE29949DB1F8",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "low",
+    "reason": "The text may describe a problem to diagnose; check whether its main purpose is troubleshooting."
+  },
+  {
+    "review_id": "B1-063",
+    "study_id": "C2-70DFF86C19BD",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "low",
+    "reason": "The text may describe a problem to diagnose; check whether its main purpose is troubleshooting."
+  },
+  {
+    "review_id": "B1-064",
+    "study_id": "C2-63F2A855EB0D",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "other",
+    "confidence": "medium",
+    "reason": "The post discusses software without a clear repair request or chiefly negative opinion."
+  },
+  {
+    "review_id": "B1-065",
+    "study_id": "C2-0FE24BAD4655",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "other",
+    "confidence": "low",
+    "reason": "The post discusses software without a clear repair request or chiefly negative opinion."
+  },
+  {
+    "review_id": "B1-066",
+    "study_id": "C2-CAC8C201058D",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "no",
+    "update_related": "no",
+    "discussion_type": "na",
+    "confidence": "low",
+    "reason": "The saved post does not describe software."
+  },
+  {
+    "review_id": "B1-067",
+    "study_id": "C2-209EC27CC9AD",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "no",
+    "update_related": "no",
+    "discussion_type": "na",
+    "confidence": "low",
+    "reason": "The saved post does not describe software."
+  },
+  {
+    "review_id": "B1-068",
+    "study_id": "C2-2008CFC7F20F",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "other",
+    "confidence": "low",
+    "reason": "The post discusses software without a clear repair request or chiefly negative opinion."
+  },
+  {
+    "review_id": "B1-069",
+    "study_id": "C2-30B1F7E64592",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "no",
+    "update_related": "no",
+    "discussion_type": "na",
+    "confidence": "low",
+    "reason": "The saved post does not describe software."
+  },
+  {
+    "review_id": "B1-070",
+    "study_id": "C2-E8345EFE3B56",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "other",
+    "confidence": "low",
+    "reason": "The post discusses software without a clear repair request or chiefly negative opinion."
+  },
+  {
+    "review_id": "B1-071",
+    "study_id": "C2-147FA8262D88",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "medium",
+    "reason": "The post describes a concrete malfunction or asks how to diagnose or fix one."
+  },
+  {
+    "review_id": "B1-072",
+    "study_id": "C2-FA9A6EF5C503",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "no",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "low",
+    "reason": "The text may describe a problem to diagnose; check whether its main purpose is troubleshooting."
+  },
+  {
+    "review_id": "B1-073",
+    "study_id": "C2-A9E4FB819086",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "no",
+    "update_related": "no",
+    "discussion_type": "na",
+    "confidence": "medium",
+    "reason": "The saved post does not describe software."
+  },
+  {
+    "review_id": "B1-074",
+    "study_id": "C2-E87620799E8A",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "other",
+    "confidence": "low",
+    "reason": "The post discusses software without a clear repair request or chiefly negative opinion."
+  },
+  {
+    "review_id": "B1-075",
+    "study_id": "C2-12D43EFA47EC",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "low",
+    "reason": "The text may describe a problem to diagnose; check whether its main purpose is troubleshooting."
+  },
+  {
+    "review_id": "B1-076",
+    "study_id": "C2-46809FF9FCC1",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "low",
+    "reason": "The text may describe a problem to diagnose; check whether its main purpose is troubleshooting."
+  },
+  {
+    "review_id": "B1-077",
+    "study_id": "C2-5CA2FCC8FFBB",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "low",
+    "reason": "The text may describe a problem to diagnose; check whether its main purpose is troubleshooting."
+  },
+  {
+    "review_id": "B1-078",
+    "study_id": "C2-D426A962C3BA",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "medium",
+    "reason": "The post describes a concrete malfunction or asks how to diagnose or fix one."
+  },
+  {
+    "review_id": "B1-079",
+    "study_id": "C2-27C154199092",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "low",
+    "reason": "The post describes a concrete malfunction or asks how to diagnose or fix one."
+  },
+  {
+    "review_id": "B1-080",
+    "study_id": "C2-352FA96EFB1C",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "low",
+    "reason": "The text may describe a problem to diagnose; check whether its main purpose is troubleshooting."
+  },
+  {
+    "review_id": "B1-081",
+    "study_id": "C2-A78C0812F2F3",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "no",
+    "discussion_type": "other",
+    "confidence": "medium",
+    "reason": "The post discusses software without a clear repair request or chiefly negative opinion."
+  },
+  {
+    "review_id": "B1-082",
+    "study_id": "C2-55B83EEE16A5",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "low",
+    "reason": "The text may describe a problem to diagnose; check whether its main purpose is troubleshooting."
+  },
+  {
+    "review_id": "B1-083",
+    "study_id": "C2-F6979664EF6E",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "no",
+    "update_related": "no",
+    "discussion_type": "na",
+    "confidence": "low",
+    "reason": "The saved post does not describe software."
+  },
+  {
+    "review_id": "B1-084",
+    "study_id": "C2-741247A3E5AE",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "no",
+    "update_related": "no",
+    "discussion_type": "na",
+    "confidence": "low",
+    "reason": "The saved post does not describe software."
+  },
+  {
+    "review_id": "B1-085",
+    "study_id": "C2-D65FCC3CC070",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "no",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "medium",
+    "reason": "The post describes a concrete malfunction or asks how to diagnose or fix one."
+  },
+  {
+    "review_id": "B1-086",
+    "study_id": "C2-873B6E552BD4",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "low",
+    "reason": "The text may describe a problem to diagnose; check whether its main purpose is troubleshooting."
+  },
+  {
+    "review_id": "B1-087",
+    "study_id": "C2-2B73C6655D8F",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "other",
+    "confidence": "medium",
+    "reason": "The post discusses software without a clear repair request or chiefly negative opinion."
+  },
+  {
+    "review_id": "B1-088",
+    "study_id": "C2-CB74493AF2A6",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "no",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "low",
+    "reason": "The text may describe a problem to diagnose; check whether its main purpose is troubleshooting."
+  },
+  {
+    "review_id": "B1-089",
+    "study_id": "C2-5EBF31E4D728",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "low",
+    "reason": "The text may describe a problem to diagnose; check whether its main purpose is troubleshooting."
+  },
+  {
+    "review_id": "B1-090",
+    "study_id": "C2-0BA509830B2E",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "medium",
+    "reason": "The post describes a concrete malfunction or asks how to diagnose or fix one."
+  },
+  {
+    "review_id": "B1-091",
+    "study_id": "C2-9B7D4DC4D242",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "no",
+    "update_related": "no",
+    "discussion_type": "na",
+    "confidence": "low",
+    "reason": "The saved post does not describe software."
+  },
+  {
+    "review_id": "B1-092",
+    "study_id": "C2-BF269E6FC7FE",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "medium",
+    "reason": "The post describes a concrete malfunction or asks how to diagnose or fix one."
+  },
+  {
+    "review_id": "B1-093",
+    "study_id": "C2-BC8CC85D1092",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "low",
+    "reason": "The text may describe a problem to diagnose; check whether its main purpose is troubleshooting."
+  },
+  {
+    "review_id": "B1-094",
+    "study_id": "C2-BF309EB71E62",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "low",
+    "reason": "The text may describe a problem to diagnose; check whether its main purpose is troubleshooting."
+  },
+  {
+    "review_id": "B1-095",
+    "study_id": "C2-AC5D41EE434E",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "medium",
+    "reason": "The post describes a concrete malfunction or asks how to diagnose or fix one."
+  },
+  {
+    "review_id": "B1-096",
+    "study_id": "C2-5F68642B73D8",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "medium",
+    "reason": "The post describes a concrete malfunction or asks how to diagnose or fix one."
+  },
+  {
+    "review_id": "B1-097",
+    "study_id": "C2-78EE2E5F665F",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "medium",
+    "reason": "The post describes a concrete malfunction or asks how to diagnose or fix one."
+  },
+  {
+    "review_id": "B1-098",
+    "study_id": "C2-C78C61D3905C",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "no",
+    "update_related": "no",
+    "discussion_type": "na",
+    "confidence": "medium",
+    "reason": "The saved post does not describe software."
+  },
+  {
+    "review_id": "B1-099",
+    "study_id": "C2-333D1CC6ED1C",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "no",
+    "update_related": "no",
+    "discussion_type": "na",
+    "confidence": "low",
+    "reason": "The saved post does not describe software."
+  },
+  {
+    "review_id": "B1-100",
+    "study_id": "C2-E355D85B3A8B",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "low",
+    "reason": "The text may describe a problem to diagnose; check whether its main purpose is troubleshooting."
+  },
+  {
+    "review_id": "B2-001",
+    "study_id": "C2-1CB919A0AE67",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "medium",
+    "reason": "The post describes a concrete malfunction or asks how to diagnose or fix one."
+  },
+  {
+    "review_id": "B2-002",
+    "study_id": "C2-A7ECB8A4BB89",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "low",
+    "reason": "The text may describe a problem to diagnose; check whether its main purpose is troubleshooting."
+  },
+  {
+    "review_id": "B2-003",
+    "study_id": "C2-0BBCACE51B09",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "other",
+    "confidence": "low",
+    "reason": "The post discusses software without a clear repair request or chiefly negative opinion."
+  },
+  {
+    "review_id": "B2-004",
+    "study_id": "C2-FAFEFFEA9049",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "no",
+    "update_related": "no",
+    "discussion_type": "na",
+    "confidence": "medium",
+    "reason": "The saved post does not describe software."
+  },
+  {
+    "review_id": "B2-005",
+    "study_id": "C2-38D00166C0EB",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "medium",
+    "reason": "The post describes a concrete malfunction or asks how to diagnose or fix one."
+  },
+  {
+    "review_id": "B2-006",
+    "study_id": "C2-D37F1CFCE289",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "low",
+    "reason": "The text may describe a problem to diagnose; check whether its main purpose is troubleshooting."
+  },
+  {
+    "review_id": "B2-007",
+    "study_id": "C2-3A3AB27AAC9F",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "medium",
+    "reason": "The post describes a concrete malfunction or asks how to diagnose or fix one."
+  },
+  {
+    "review_id": "B2-008",
+    "study_id": "C2-DA771E0186C1",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "low",
+    "reason": "The text may describe a problem to diagnose; check whether its main purpose is troubleshooting."
+  },
+  {
+    "review_id": "B2-009",
+    "study_id": "C2-A35AF840487F",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "no",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "low",
+    "reason": "The text may describe a problem to diagnose; check whether its main purpose is troubleshooting."
+  },
+  {
+    "review_id": "B2-010",
+    "study_id": "C2-3E6F30A9577A",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "no",
+    "update_related": "no",
+    "discussion_type": "na",
+    "confidence": "low",
+    "reason": "The saved post does not describe software."
+  },
+  {
+    "review_id": "B2-011",
+    "study_id": "C2-9421CCAAB6A9",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "other",
+    "confidence": "low",
+    "reason": "The post discusses software without a clear repair request or chiefly negative opinion."
+  },
+  {
+    "review_id": "B2-012",
+    "study_id": "C2-21102F13BD8B",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "medium",
+    "reason": "The post describes a concrete malfunction or asks how to diagnose or fix one."
+  },
+  {
+    "review_id": "B2-013",
+    "study_id": "C2-8357E07DDB0A",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "no",
+    "update_related": "no",
+    "discussion_type": "na",
+    "confidence": "low",
+    "reason": "The saved post does not describe software."
+  },
+  {
+    "review_id": "B2-014",
+    "study_id": "C2-A5CDEE04B46E",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "no",
+    "update_related": "no",
+    "discussion_type": "na",
+    "confidence": "medium",
+    "reason": "The saved post does not describe software."
+  },
+  {
+    "review_id": "B2-015",
+    "study_id": "C2-1DDCEDC31E2C",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "unclear",
+    "update_related": "unclear",
+    "discussion_type": "na",
+    "confidence": "low",
+    "reason": "The saved text does not identify the software topic clearly enough."
+  },
+  {
+    "review_id": "B2-016",
+    "study_id": "C2-8191BB7E92F9",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "medium",
+    "reason": "The post describes a concrete malfunction or asks how to diagnose or fix one."
+  },
+  {
+    "review_id": "B2-017",
+    "study_id": "C2-BFEF1387A302",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "no",
+    "update_related": "no",
+    "discussion_type": "na",
+    "confidence": "medium",
+    "reason": "The saved post does not describe software."
+  },
+  {
+    "review_id": "B2-018",
+    "study_id": "C2-DDDAB11DC78E",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "medium",
+    "reason": "The post describes a concrete malfunction or asks how to diagnose or fix one."
+  },
+  {
+    "review_id": "B2-019",
+    "study_id": "C2-C050AA2065C5",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "medium",
+    "reason": "The post describes a concrete malfunction or asks how to diagnose or fix one."
+  },
+  {
+    "review_id": "B2-020",
+    "study_id": "C2-6D5284F42253",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "other",
+    "confidence": "low",
+    "reason": "The post discusses software without a clear repair request or chiefly negative opinion."
+  },
+  {
+    "review_id": "B2-021",
+    "study_id": "C2-CB0C0A7F0FE9",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "no",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "low",
+    "reason": "The post describes a concrete malfunction or asks how to diagnose or fix one."
+  },
+  {
+    "review_id": "B2-022",
+    "study_id": "C2-495821A5FF81",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "medium",
+    "reason": "The post describes a concrete malfunction or asks how to diagnose or fix one."
+  },
+  {
+    "review_id": "B2-023",
+    "study_id": "C2-9AC2BA715784",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "medium",
+    "reason": "The post describes a concrete malfunction or asks how to diagnose or fix one."
+  },
+  {
+    "review_id": "B2-024",
+    "study_id": "C2-67008C09B1FD",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "other",
+    "confidence": "low",
+    "reason": "The post discusses software without a clear repair request or chiefly negative opinion."
+  },
+  {
+    "review_id": "B2-025",
+    "study_id": "C2-C99D1AF1B53F",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "low",
+    "reason": "The text may describe a problem to diagnose; check whether its main purpose is troubleshooting."
+  },
+  {
+    "review_id": "B2-026",
+    "study_id": "C2-A7389C42C1C5",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "no",
+    "update_related": "no",
+    "discussion_type": "na",
+    "confidence": "medium",
+    "reason": "The saved post does not describe software."
+  },
+  {
+    "review_id": "B2-027",
+    "study_id": "C2-5220A8F4DE36",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "no",
+    "discussion_type": "other",
+    "confidence": "low",
+    "reason": "The post discusses software without a clear repair request or chiefly negative opinion."
+  },
+  {
+    "review_id": "B2-028",
+    "study_id": "C2-3A0039EA7D00",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "low",
+    "reason": "The text may describe a problem to diagnose; check whether its main purpose is troubleshooting."
+  },
+  {
+    "review_id": "B2-029",
+    "study_id": "C2-9E16B5919046",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "medium",
+    "reason": "The post describes a concrete malfunction or asks how to diagnose or fix one."
+  },
+  {
+    "review_id": "B2-030",
+    "study_id": "C2-66F24AF2880F",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "no",
+    "discussion_type": "other",
+    "confidence": "medium",
+    "reason": "The post discusses software without a clear repair request or chiefly negative opinion."
+  },
+  {
+    "review_id": "B2-031",
+    "study_id": "C2-17D6642637A9",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "medium",
+    "reason": "The post describes a concrete malfunction or asks how to diagnose or fix one."
+  },
+  {
+    "review_id": "B2-032",
+    "study_id": "C2-60852E6B7548",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "other",
+    "confidence": "medium",
+    "reason": "The post discusses software without a clear repair request or chiefly negative opinion."
+  },
+  {
+    "review_id": "B2-033",
+    "study_id": "C2-DC299B1BBB89",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "low",
+    "reason": "The text may describe a problem to diagnose; check whether its main purpose is troubleshooting."
+  },
+  {
+    "review_id": "B2-034",
+    "study_id": "C2-6439E1D90B5D",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "medium",
+    "reason": "The post describes a concrete malfunction or asks how to diagnose or fix one."
+  },
+  {
+    "review_id": "B2-035",
+    "study_id": "C2-6748CAAF2B97",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "medium",
+    "reason": "The post describes a concrete malfunction or asks how to diagnose or fix one."
+  },
+  {
+    "review_id": "B2-036",
+    "study_id": "C2-FA8911C1C713",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "low",
+    "reason": "The text may describe a problem to diagnose; check whether its main purpose is troubleshooting."
+  },
+  {
+    "review_id": "B2-037",
+    "study_id": "C2-BF8A3231B69A",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "medium",
+    "reason": "The post describes a concrete malfunction or asks how to diagnose or fix one."
+  },
+  {
+    "review_id": "B2-038",
+    "study_id": "C2-7EE95A8A68EE",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "low",
+    "reason": "The text may describe a problem to diagnose; check whether its main purpose is troubleshooting."
+  },
+  {
+    "review_id": "B2-039",
+    "study_id": "C2-37A041E409B2",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "medium",
+    "reason": "The post describes a concrete malfunction or asks how to diagnose or fix one."
+  },
+  {
+    "review_id": "B2-040",
+    "study_id": "C2-AE48A9C1AE36",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "low",
+    "reason": "The text may describe a problem to diagnose; check whether its main purpose is troubleshooting."
+  },
+  {
+    "review_id": "B2-041",
+    "study_id": "C2-E928486BFC38",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "medium",
+    "reason": "The post describes a concrete malfunction or asks how to diagnose or fix one."
+  },
+  {
+    "review_id": "B2-042",
+    "study_id": "C2-84105CD4742F",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "medium",
+    "reason": "The post describes a concrete malfunction or asks how to diagnose or fix one."
+  },
+  {
+    "review_id": "B2-043",
+    "study_id": "C2-9F55A906DE39",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "low",
+    "reason": "The text may describe a problem to diagnose; check whether its main purpose is troubleshooting."
+  },
+  {
+    "review_id": "B2-044",
+    "study_id": "C2-88966572D0C5",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "low",
+    "reason": "The text may describe a problem to diagnose; check whether its main purpose is troubleshooting."
+  },
+  {
+    "review_id": "B2-045",
+    "study_id": "C2-E8BC5C5B98C0",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "no",
+    "update_related": "no",
+    "discussion_type": "na",
+    "confidence": "medium",
+    "reason": "The saved post does not describe software."
+  },
+  {
+    "review_id": "B2-046",
+    "study_id": "C2-8D287AAA3217",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "medium",
+    "reason": "The post describes a concrete malfunction or asks how to diagnose or fix one."
+  },
+  {
+    "review_id": "B2-047",
+    "study_id": "C2-C90B02FA6B94",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "medium",
+    "reason": "The post describes a concrete malfunction or asks how to diagnose or fix one."
+  },
+  {
+    "review_id": "B2-048",
+    "study_id": "C2-DEAF9087B3F6",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "no",
+    "update_related": "no",
+    "discussion_type": "na",
+    "confidence": "low",
+    "reason": "The saved post does not describe software."
+  },
+  {
+    "review_id": "B2-049",
+    "study_id": "C2-149DCC902419",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "general_dissatisfaction",
+    "confidence": "low",
+    "reason": "The main message criticizes software without a clear request to diagnose or fix it."
+  },
+  {
+    "review_id": "B2-050",
+    "study_id": "C2-C3752A03C428",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "general_dissatisfaction",
+    "confidence": "low",
+    "reason": "The main message criticizes software without a clear request to diagnose or fix it."
+  },
+  {
+    "review_id": "B2-051",
+    "study_id": "C2-8245FA481EC0",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "no",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "low",
+    "reason": "The text may describe a problem to diagnose; check whether its main purpose is troubleshooting."
+  },
+  {
+    "review_id": "B2-052",
+    "study_id": "C2-85EE6380CC4F",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "other",
+    "confidence": "medium",
+    "reason": "The post discusses software without a clear repair request or chiefly negative opinion."
+  },
+  {
+    "review_id": "B2-053",
+    "study_id": "C2-5034D663357A",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "unclear",
+    "update_related": "unclear",
+    "discussion_type": "na",
+    "confidence": "low",
+    "reason": "The saved text does not identify the software topic clearly enough."
+  },
+  {
+    "review_id": "B2-054",
+    "study_id": "C2-65379BDF0107",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "no",
+    "update_related": "no",
+    "discussion_type": "na",
+    "confidence": "medium",
+    "reason": "The saved post does not describe software."
+  },
+  {
+    "review_id": "B2-055",
+    "study_id": "C2-84D685FDD732",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "other",
+    "confidence": "low",
+    "reason": "The post discusses software without a clear repair request or chiefly negative opinion."
+  },
+  {
+    "review_id": "B2-056",
+    "study_id": "C2-B04F6FF94394",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "medium",
+    "reason": "The post describes a concrete malfunction or asks how to diagnose or fix one."
+  },
+  {
+    "review_id": "B2-057",
+    "study_id": "C2-8C48978544BA",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "low",
+    "reason": "The text may describe a problem to diagnose; check whether its main purpose is troubleshooting."
+  },
+  {
+    "review_id": "B2-058",
+    "study_id": "C2-1ADF3408D742",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "no",
+    "update_related": "no",
+    "discussion_type": "na",
+    "confidence": "low",
+    "reason": "The saved post does not describe software."
+  },
+  {
+    "review_id": "B2-059",
+    "study_id": "C2-ABC15F3E77E3",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "no",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "low",
+    "reason": "The text may describe a problem to diagnose; check whether its main purpose is troubleshooting."
+  },
+  {
+    "review_id": "B2-060",
+    "study_id": "C2-45D744ACB4DE",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "unclear",
+    "update_related": "unclear",
+    "discussion_type": "na",
+    "confidence": "low",
+    "reason": "The saved text does not identify the software topic clearly enough."
+  },
+  {
+    "review_id": "B2-061",
+    "study_id": "C2-82CC3ECE7F8C",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "no",
+    "discussion_type": "other",
+    "confidence": "low",
+    "reason": "The post discusses software without a clear repair request or chiefly negative opinion."
+  },
+  {
+    "review_id": "B2-062",
+    "study_id": "C2-56518DF04851",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "medium",
+    "reason": "The post describes a concrete malfunction or asks how to diagnose or fix one."
+  },
+  {
+    "review_id": "B2-063",
+    "study_id": "C2-8E994E67A08A",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "medium",
+    "reason": "The post describes a concrete malfunction or asks how to diagnose or fix one."
+  },
+  {
+    "review_id": "B2-064",
+    "study_id": "C2-6DDBC4A04433",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "no",
+    "update_related": "no",
+    "discussion_type": "na",
+    "confidence": "low",
+    "reason": "The saved post does not describe software."
+  },
+  {
+    "review_id": "B2-065",
+    "study_id": "C2-610DF5932805",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "unclear",
+    "update_related": "unclear",
+    "discussion_type": "na",
+    "confidence": "low",
+    "reason": "The saved text does not identify the software topic clearly enough."
+  },
+  {
+    "review_id": "B2-066",
+    "study_id": "C2-0E6A2BDD808F",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "other",
+    "confidence": "low",
+    "reason": "The post discusses software without a clear repair request or chiefly negative opinion."
+  },
+  {
+    "review_id": "B2-067",
+    "study_id": "C2-D6678C4DFF51",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "medium",
+    "reason": "The post describes a concrete malfunction or asks how to diagnose or fix one."
+  },
+  {
+    "review_id": "B2-068",
+    "study_id": "C2-EBB9D7C60520",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "other",
+    "confidence": "medium",
+    "reason": "The post discusses software without a clear repair request or chiefly negative opinion."
+  },
+  {
+    "review_id": "B2-069",
+    "study_id": "C2-22F83F4FC350",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "low",
+    "reason": "The post describes a concrete malfunction or asks how to diagnose or fix one."
+  },
+  {
+    "review_id": "B2-070",
+    "study_id": "C2-8B669C2FFAD4",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "no",
+    "update_related": "no",
+    "discussion_type": "na",
+    "confidence": "low",
+    "reason": "The saved post does not describe software."
+  },
+  {
+    "review_id": "B2-071",
+    "study_id": "C2-2BE7EFDE9461",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "medium",
+    "reason": "The post describes a concrete malfunction or asks how to diagnose or fix one."
+  },
+  {
+    "review_id": "B2-072",
+    "study_id": "C2-55B6C40D94C9",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "unclear",
+    "update_related": "unclear",
+    "discussion_type": "na",
+    "confidence": "low",
+    "reason": "The saved text does not identify the software topic clearly enough."
+  },
+  {
+    "review_id": "B2-073",
+    "study_id": "C2-58ADE459577C",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "unclear",
+    "update_related": "unclear",
+    "discussion_type": "na",
+    "confidence": "low",
+    "reason": "The saved text does not identify the software topic clearly enough."
+  },
+  {
+    "review_id": "B2-074",
+    "study_id": "C2-EA63685EBEB7",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "other",
+    "confidence": "medium",
+    "reason": "The post discusses software without a clear repair request or chiefly negative opinion."
+  },
+  {
+    "review_id": "B2-075",
+    "study_id": "C2-FEDD8DC734AD",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "other",
+    "confidence": "low",
+    "reason": "The post discusses software without a clear repair request or chiefly negative opinion."
+  },
+  {
+    "review_id": "B2-076",
+    "study_id": "C2-0AC6D1DA45BE",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "other",
+    "confidence": "medium",
+    "reason": "The post discusses software without a clear repair request or chiefly negative opinion."
+  },
+  {
+    "review_id": "B2-077",
+    "study_id": "C2-0AA1365BE31C",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "no",
+    "update_related": "no",
+    "discussion_type": "na",
+    "confidence": "low",
+    "reason": "The saved post does not describe software."
+  },
+  {
+    "review_id": "B2-078",
+    "study_id": "C2-BA13D31B40DC",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "unclear",
+    "update_related": "unclear",
+    "discussion_type": "na",
+    "confidence": "low",
+    "reason": "The saved text does not identify the software topic clearly enough."
+  },
+  {
+    "review_id": "B2-079",
+    "study_id": "C2-F3E53DCB170A",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "low",
+    "reason": "The post describes a concrete malfunction or asks how to diagnose or fix one."
+  },
+  {
+    "review_id": "B2-080",
+    "study_id": "C2-318B8ADE858A",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "no",
+    "update_related": "no",
+    "discussion_type": "na",
+    "confidence": "low",
+    "reason": "The saved post does not describe software."
+  },
+  {
+    "review_id": "B2-081",
+    "study_id": "C2-7A813D13B989",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "other",
+    "confidence": "medium",
+    "reason": "The post discusses software without a clear repair request or chiefly negative opinion."
+  },
+  {
+    "review_id": "B2-082",
+    "study_id": "C2-F2CDE7C9F2D9",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "medium",
+    "reason": "The post describes a concrete malfunction or asks how to diagnose or fix one."
+  },
+  {
+    "review_id": "B2-083",
+    "study_id": "C2-B27716733B13",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "medium",
+    "reason": "The post describes a concrete malfunction or asks how to diagnose or fix one."
+  },
+  {
+    "review_id": "B2-084",
+    "study_id": "C2-DE24200EF56D",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "low",
+    "reason": "The text may describe a problem to diagnose; check whether its main purpose is troubleshooting."
+  },
+  {
+    "review_id": "B2-085",
+    "study_id": "C2-1E94644E9D0F",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "unclear",
+    "update_related": "unclear",
+    "discussion_type": "na",
+    "confidence": "low",
+    "reason": "The saved text does not identify the software topic clearly enough."
+  },
+  {
+    "review_id": "B2-086",
+    "study_id": "C2-3EE01A3428C7",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "no",
+    "update_related": "no",
+    "discussion_type": "na",
+    "confidence": "medium",
+    "reason": "The saved post does not describe software."
+  },
+  {
+    "review_id": "B2-087",
+    "study_id": "C2-B148637A2E1E",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "unclear",
+    "update_related": "unclear",
+    "discussion_type": "na",
+    "confidence": "low",
+    "reason": "The saved text does not identify the software topic clearly enough."
+  },
+  {
+    "review_id": "B2-088",
+    "study_id": "C2-831FD6C10B2A",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "low",
+    "reason": "The text may describe a problem to diagnose; check whether its main purpose is troubleshooting."
+  },
+  {
+    "review_id": "B2-089",
+    "study_id": "C2-9E64DEF6DA19",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "no",
+    "update_related": "no",
+    "discussion_type": "na",
+    "confidence": "medium",
+    "reason": "The saved post does not describe software."
+  },
+  {
+    "review_id": "B2-090",
+    "study_id": "C2-FEBFEFB3CC55",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "other",
+    "confidence": "medium",
+    "reason": "The post discusses software without a clear repair request or chiefly negative opinion."
+  },
+  {
+    "review_id": "B2-091",
+    "study_id": "C2-E666DBCD3085",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "low",
+    "reason": "The text may describe a problem to diagnose; check whether its main purpose is troubleshooting."
+  },
+  {
+    "review_id": "B2-092",
+    "study_id": "C2-CC398DD59029",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "no",
+    "discussion_type": "other",
+    "confidence": "low",
+    "reason": "The post discusses software without a clear repair request or chiefly negative opinion."
+  },
+  {
+    "review_id": "B2-093",
+    "study_id": "C2-58072BE5814C",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "medium",
+    "reason": "The post describes a concrete malfunction or asks how to diagnose or fix one."
+  },
+  {
+    "review_id": "B2-094",
+    "study_id": "C2-EE7F4C54A93E",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "no",
+    "update_related": "no",
+    "discussion_type": "na",
+    "confidence": "medium",
+    "reason": "The saved post does not describe software."
+  },
+  {
+    "review_id": "B2-095",
+    "study_id": "C2-5C423B1B51DF",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "low",
+    "reason": "The text may describe a problem to diagnose; check whether its main purpose is troubleshooting."
+  },
+  {
+    "review_id": "B2-096",
+    "study_id": "C2-0C17CE6038B4",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "no",
+    "update_related": "no",
+    "discussion_type": "na",
+    "confidence": "low",
+    "reason": "The saved post does not describe software."
+  },
+  {
+    "review_id": "B2-097",
+    "study_id": "C2-A769BB1BEC9C",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "other",
+    "confidence": "low",
+    "reason": "The post discusses software without a clear repair request or chiefly negative opinion."
+  },
+  {
+    "review_id": "B2-098",
+    "study_id": "C2-2E8C7022D017",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "other",
+    "confidence": "low",
+    "reason": "The post discusses software without a clear repair request or chiefly negative opinion."
+  },
+  {
+    "review_id": "B2-099",
+    "study_id": "C2-4E13D3C746A5",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "other",
+    "confidence": "medium",
+    "reason": "The post discusses software without a clear repair request or chiefly negative opinion."
+  },
+  {
+    "review_id": "B2-100",
+    "study_id": "C2-B3D5C5BF5D0E",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "other",
+    "confidence": "medium",
+    "reason": "The post discusses software without a clear repair request or chiefly negative opinion."
+  },
+  {
+    "review_id": "B3-001",
+    "study_id": "C2-FA716E5DC9B6",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "no",
+    "discussion_type": "other",
+    "confidence": "low",
+    "reason": "The text may be discussion rather than an active repair request; please check its main purpose."
+  },
+  {
+    "review_id": "B3-002",
+    "study_id": "C2-03A09924D787",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "medium",
+    "reason": "The post describes a concrete malfunction or asks how to diagnose or fix one."
+  },
+  {
+    "review_id": "B3-003",
+    "study_id": "C2-C805299FEF28",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "other",
+    "confidence": "medium",
+    "reason": "The post discusses software without a clear repair request or chiefly negative opinion."
+  },
+  {
+    "review_id": "B3-004",
+    "study_id": "C2-0CD4EE02F616",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "low",
+    "reason": "The text may describe a problem to diagnose; check whether its main purpose is troubleshooting."
+  },
+  {
+    "review_id": "B3-005",
+    "study_id": "C2-17072A0DA094",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "no",
+    "discussion_type": "other",
+    "confidence": "low",
+    "reason": "The text does not clearly show a troubleshooting request or a mainly negative opinion."
+  },
+  {
+    "review_id": "B3-006",
+    "study_id": "C2-CA0BA31C5CAD",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "other",
+    "confidence": "medium",
+    "reason": "The post discusses software without a clear repair request or chiefly negative opinion."
+  },
+  {
+    "review_id": "B3-007",
+    "study_id": "C2-5D8C816F4C97",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "no",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "low",
+    "reason": "The text may describe a problem to diagnose; check whether its main purpose is troubleshooting."
+  },
+  {
+    "review_id": "B3-008",
+    "study_id": "C2-6108A2CEAFF5",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "other",
+    "confidence": "medium",
+    "reason": "The post discusses software without a clear repair request or chiefly negative opinion."
+  },
+  {
+    "review_id": "B3-009",
+    "study_id": "C2-D36F12A31367",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "medium",
+    "reason": "The post describes a concrete malfunction or asks how to diagnose or fix one."
+  },
+  {
+    "review_id": "B3-010",
+    "study_id": "C2-2F2D7008A4FE",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "low",
+    "reason": "The text may describe a problem to diagnose; check whether its main purpose is troubleshooting."
+  },
+  {
+    "review_id": "B3-011",
+    "study_id": "C2-67F25E7067AE",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "low",
+    "reason": "The text may describe a problem to diagnose; check whether its main purpose is troubleshooting."
+  },
+  {
+    "review_id": "B3-012",
+    "study_id": "C2-B74064449B21",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "other",
+    "confidence": "low",
+    "reason": "The post discusses software without a clear repair request or chiefly negative opinion."
+  },
+  {
+    "review_id": "B3-013",
+    "study_id": "C2-984B04E11122",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "other",
+    "confidence": "medium",
+    "reason": "The post discusses software without a clear repair request or chiefly negative opinion."
+  },
+  {
+    "review_id": "B3-014",
+    "study_id": "C2-5AB6C572CD0E",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "medium",
+    "reason": "The post describes a concrete malfunction or asks how to diagnose or fix one."
+  },
+  {
+    "review_id": "B3-015",
+    "study_id": "C2-EFC16526C190",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "low",
+    "reason": "The text may describe a problem to diagnose; check whether its main purpose is troubleshooting."
+  },
+  {
+    "review_id": "B3-016",
+    "study_id": "C2-9C6AF8D9F0C2",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "no",
+    "update_related": "no",
+    "discussion_type": "na",
+    "confidence": "low",
+    "reason": "The saved post does not describe software."
+  },
+  {
+    "review_id": "B3-017",
+    "study_id": "C2-2C95EEB9DFF8",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "other",
+    "confidence": "medium",
+    "reason": "The post discusses software without a clear repair request or chiefly negative opinion."
+  },
+  {
+    "review_id": "B3-018",
+    "study_id": "C2-926D3DF3DBD4",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "medium",
+    "reason": "The post describes a concrete malfunction or asks how to diagnose or fix one."
+  },
+  {
+    "review_id": "B3-019",
+    "study_id": "C2-9B64B5026F19",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "low",
+    "reason": "The text may describe a problem to diagnose; check whether its main purpose is troubleshooting."
+  },
+  {
+    "review_id": "B3-020",
+    "study_id": "C2-C1E856CBA3C8",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "unclear",
+    "update_related": "unclear",
+    "discussion_type": "na",
+    "confidence": "low",
+    "reason": "The saved text does not identify the software topic clearly enough."
+  },
+  {
+    "review_id": "B3-021",
+    "study_id": "C2-F6D0DCFA3760",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "medium",
+    "reason": "The post describes a concrete malfunction or asks how to diagnose or fix one."
+  },
+  {
+    "review_id": "B3-022",
+    "study_id": "C2-246165E2AF1F",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "no",
+    "update_related": "no",
+    "discussion_type": "na",
+    "confidence": "low",
+    "reason": "The saved post does not describe software."
+  },
+  {
+    "review_id": "B3-023",
+    "study_id": "C2-7E9442C478A2",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "no",
+    "update_related": "no",
+    "discussion_type": "na",
+    "confidence": "medium",
+    "reason": "The saved post does not describe software."
+  },
+  {
+    "review_id": "B3-024",
+    "study_id": "C2-24B269B40FEC",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "no",
+    "update_related": "no",
+    "discussion_type": "na",
+    "confidence": "medium",
+    "reason": "The saved post does not describe software."
+  },
+  {
+    "review_id": "B3-025",
+    "study_id": "C2-B32D4BE42D55",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "no",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "low",
+    "reason": "The text may describe a problem to diagnose; check whether its main purpose is troubleshooting."
+  },
+  {
+    "review_id": "B3-026",
+    "study_id": "C2-5023BD883B60",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "no",
+    "update_related": "no",
+    "discussion_type": "na",
+    "confidence": "low",
+    "reason": "The saved post does not describe software."
+  },
+  {
+    "review_id": "B3-027",
+    "study_id": "C2-E9A514C7E088",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "low",
+    "reason": "The text may describe a problem to diagnose; check whether its main purpose is troubleshooting."
+  },
+  {
+    "review_id": "B3-028",
+    "study_id": "C2-5E28A959D22E",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "low",
+    "reason": "The text may describe a problem to diagnose; check whether its main purpose is troubleshooting."
+  },
+  {
+    "review_id": "B3-029",
+    "study_id": "C2-2706CCA6AFD7",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "general_dissatisfaction",
+    "confidence": "low",
+    "reason": "The main message criticizes software without a clear request to diagnose or fix it."
+  },
+  {
+    "review_id": "B3-030",
+    "study_id": "C2-0AAB422CED0D",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "unclear",
+    "update_related": "unclear",
+    "discussion_type": "na",
+    "confidence": "low",
+    "reason": "The saved text does not identify the software topic clearly enough."
+  },
+  {
+    "review_id": "B3-031",
+    "study_id": "C2-89CC95BB69CD",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "low",
+    "reason": "The text may describe a problem to diagnose; check whether its main purpose is troubleshooting."
+  },
+  {
+    "review_id": "B3-032",
+    "study_id": "C2-C6F365EF93B9",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "no",
+    "update_related": "no",
+    "discussion_type": "na",
+    "confidence": "low",
+    "reason": "The saved post does not describe software."
+  },
+  {
+    "review_id": "B3-033",
+    "study_id": "C2-FAF63E75E8C3",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "no",
+    "update_related": "no",
+    "discussion_type": "na",
+    "confidence": "low",
+    "reason": "The saved post does not describe software."
+  },
+  {
+    "review_id": "B3-034",
+    "study_id": "C2-3746D7F1DA04",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "medium",
+    "reason": "The post describes a concrete malfunction or asks how to diagnose or fix one."
+  },
+  {
+    "review_id": "B3-035",
+    "study_id": "C2-D2000C365995",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "low",
+    "reason": "The text may describe a problem to diagnose; check whether its main purpose is troubleshooting."
+  },
+  {
+    "review_id": "B3-036",
+    "study_id": "C2-9AF71B28AB54",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "medium",
+    "reason": "The post describes a concrete malfunction or asks how to diagnose or fix one."
+  },
+  {
+    "review_id": "B3-037",
+    "study_id": "C2-1C6726F4F444",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "low",
+    "reason": "The post describes a concrete malfunction or asks how to diagnose or fix one."
+  },
+  {
+    "review_id": "B3-038",
+    "study_id": "C2-E61DBFC99040",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "low",
+    "reason": "The text may describe a problem to diagnose; check whether its main purpose is troubleshooting."
+  },
+  {
+    "review_id": "B3-039",
+    "study_id": "C2-37D9FD2E9EFB",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "medium",
+    "reason": "The post describes a concrete malfunction or asks how to diagnose or fix one."
+  },
+  {
+    "review_id": "B3-040",
+    "study_id": "C2-626F65CAF5B1",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "unclear",
+    "update_related": "unclear",
+    "discussion_type": "na",
+    "confidence": "low",
+    "reason": "The saved text does not identify the software topic clearly enough."
+  },
+  {
+    "review_id": "B3-041",
+    "study_id": "C2-22089D9BD119",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "medium",
+    "reason": "The post describes a concrete malfunction or asks how to diagnose or fix one."
+  },
+  {
+    "review_id": "B3-042",
+    "study_id": "C2-233CDDAB6D16",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "unclear",
+    "update_related": "unclear",
+    "discussion_type": "na",
+    "confidence": "low",
+    "reason": "The saved text does not identify the software topic clearly enough."
+  },
+  {
+    "review_id": "B3-043",
+    "study_id": "C2-C959507C0E10",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "no",
+    "update_related": "no",
+    "discussion_type": "na",
+    "confidence": "low",
+    "reason": "The saved post does not describe software."
+  },
+  {
+    "review_id": "B3-044",
+    "study_id": "C2-E6B93162904B",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "no",
+    "discussion_type": "other",
+    "confidence": "medium",
+    "reason": "The post discusses software without a clear repair request or chiefly negative opinion."
+  },
+  {
+    "review_id": "B3-045",
+    "study_id": "C2-5D9D569746B6",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "no",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "medium",
+    "reason": "The post describes a concrete malfunction or asks how to diagnose or fix one."
+  },
+  {
+    "review_id": "B3-046",
+    "study_id": "C2-6D6E0BA35F83",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "no",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "low",
+    "reason": "The text may describe a problem to diagnose; check whether its main purpose is troubleshooting."
+  },
+  {
+    "review_id": "B3-047",
+    "study_id": "C2-85DE99EFAB5D",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "other",
+    "confidence": "low",
+    "reason": "The post discusses software without a clear repair request or chiefly negative opinion."
+  },
+  {
+    "review_id": "B3-048",
+    "study_id": "C2-E9680AF08076",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "low",
+    "reason": "The text may describe a problem to diagnose; check whether its main purpose is troubleshooting."
+  },
+  {
+    "review_id": "B3-049",
+    "study_id": "C2-7227A48520D4",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "low",
+    "reason": "The text may describe a problem to diagnose; check whether its main purpose is troubleshooting."
+  },
+  {
+    "review_id": "B3-050",
+    "study_id": "C2-512D35507196",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "no",
+    "update_related": "no",
+    "discussion_type": "na",
+    "confidence": "low",
+    "reason": "The saved post does not describe software."
+  },
+  {
+    "review_id": "B3-051",
+    "study_id": "C2-B831E2BD8DE7",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "low",
+    "reason": "The text may describe a problem to diagnose; check whether its main purpose is troubleshooting."
+  },
+  {
+    "review_id": "B3-052",
+    "study_id": "C2-E3E541FC7107",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "other",
+    "confidence": "medium",
+    "reason": "The post discusses software without a clear repair request or chiefly negative opinion."
+  },
+  {
+    "review_id": "B3-053",
+    "study_id": "C2-8FC6C47E3F79",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "unclear",
+    "update_related": "unclear",
+    "discussion_type": "na",
+    "confidence": "low",
+    "reason": "The saved text does not identify the software topic clearly enough."
+  },
+  {
+    "review_id": "B3-054",
+    "study_id": "C2-99F863BE80D1",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "medium",
+    "reason": "The post describes a concrete malfunction or asks how to diagnose or fix one."
+  },
+  {
+    "review_id": "B3-055",
+    "study_id": "C2-C6AE200AE53C",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "other",
+    "confidence": "low",
+    "reason": "The title presents news or release information rather than a problem to diagnose."
+  },
+  {
+    "review_id": "B3-056",
+    "study_id": "C2-E905E1BA3528",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "unclear",
+    "update_related": "unclear",
+    "discussion_type": "na",
+    "confidence": "low",
+    "reason": "The saved text does not identify the software topic clearly enough."
+  },
+  {
+    "review_id": "B3-057",
+    "study_id": "C2-EBFF2660F97A",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "low",
+    "reason": "The text may describe a problem to diagnose; check whether its main purpose is troubleshooting."
+  },
+  {
+    "review_id": "B3-058",
+    "study_id": "C2-48BA2437E93C",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "medium",
+    "reason": "The post describes a concrete malfunction or asks how to diagnose or fix one."
+  },
+  {
+    "review_id": "B3-059",
+    "study_id": "C2-636ED64D8E8C",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "medium",
+    "reason": "The post describes a concrete malfunction or asks how to diagnose or fix one."
+  },
+  {
+    "review_id": "B3-060",
+    "study_id": "C2-44B6B027A374",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "low",
+    "reason": "The text may describe a problem to diagnose; check whether its main purpose is troubleshooting."
+  },
+  {
+    "review_id": "B3-061",
+    "study_id": "C2-CAFF94CF91E4",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "low",
+    "reason": "The post describes a concrete malfunction or asks how to diagnose or fix one."
+  },
+  {
+    "review_id": "B3-062",
+    "study_id": "C2-3FF68D7C17D4",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "other",
+    "confidence": "medium",
+    "reason": "The title presents news or release information rather than a problem to diagnose."
+  },
+  {
+    "review_id": "B3-063",
+    "study_id": "C2-D0E1F0DA4051",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "general_dissatisfaction",
+    "confidence": "low",
+    "reason": "The main message criticizes software without a clear request to diagnose or fix it."
+  },
+  {
+    "review_id": "B3-064",
+    "study_id": "C2-692034502EC4",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "no",
+    "update_related": "no",
+    "discussion_type": "na",
+    "confidence": "medium",
+    "reason": "The saved post does not describe software."
+  },
+  {
+    "review_id": "B3-065",
+    "study_id": "C2-7966C44301D6",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "medium",
+    "reason": "The post describes a concrete malfunction or asks how to diagnose or fix one."
+  },
+  {
+    "review_id": "B3-066",
+    "study_id": "C2-747644686640",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "other",
+    "confidence": "low",
+    "reason": "The title presents news or release information rather than a problem to diagnose."
+  },
+  {
+    "review_id": "B3-067",
+    "study_id": "C2-629601BB6B80",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "unclear",
+    "update_related": "unclear",
+    "discussion_type": "na",
+    "confidence": "low",
+    "reason": "The saved text does not identify the software topic clearly enough."
+  },
+  {
+    "review_id": "B3-068",
+    "study_id": "C2-6F294CAB5817",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "low",
+    "reason": "The text may describe a problem to diagnose; check whether its main purpose is troubleshooting."
+  },
+  {
+    "review_id": "B3-069",
+    "study_id": "C2-C70542BD5094",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "medium",
+    "reason": "The post describes a concrete malfunction or asks how to diagnose or fix one."
+  },
+  {
+    "review_id": "B3-070",
+    "study_id": "C2-7A4802B91B9D",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "no",
+    "discussion_type": "other",
+    "confidence": "low",
+    "reason": "The post discusses software without a clear repair request or chiefly negative opinion."
+  },
+  {
+    "review_id": "B3-071",
+    "study_id": "C2-804C0332A37D",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "other",
+    "confidence": "medium",
+    "reason": "The post discusses software without a clear repair request or chiefly negative opinion."
+  },
+  {
+    "review_id": "B3-072",
+    "study_id": "C2-4B089BBD3105",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "medium",
+    "reason": "The post describes a concrete malfunction or asks how to diagnose or fix one."
+  },
+  {
+    "review_id": "B3-073",
+    "study_id": "C2-6B4845AAC912",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "other",
+    "confidence": "low",
+    "reason": "The post discusses software without a clear repair request or chiefly negative opinion."
+  },
+  {
+    "review_id": "B3-074",
+    "study_id": "C2-7305E51938D5",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "no",
+    "update_related": "no",
+    "discussion_type": "na",
+    "confidence": "medium",
+    "reason": "The saved post does not describe software."
+  },
+  {
+    "review_id": "B3-075",
+    "study_id": "C2-8F6AC3C26F68",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "medium",
+    "reason": "The post describes a concrete malfunction or asks how to diagnose or fix one."
+  },
+  {
+    "review_id": "B3-076",
+    "study_id": "C2-718160F50BC4",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "unclear",
+    "update_related": "unclear",
+    "discussion_type": "na",
+    "confidence": "low",
+    "reason": "The saved text does not identify the software topic clearly enough."
+  },
+  {
+    "review_id": "B3-077",
+    "study_id": "C2-D986C18EC452",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "medium",
+    "reason": "The post describes a concrete malfunction or asks how to diagnose or fix one."
+  },
+  {
+    "review_id": "B3-078",
+    "study_id": "C2-C8F8008EBA51",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "low",
+    "reason": "The text may describe a problem to diagnose; check whether its main purpose is troubleshooting."
+  },
+  {
+    "review_id": "B3-079",
+    "study_id": "C2-AE4F34A1C4C0",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "other",
+    "confidence": "low",
+    "reason": "The text may be discussion rather than an active repair request; please check its main purpose."
+  },
+  {
+    "review_id": "B3-080",
+    "study_id": "C2-891D8453C9B0",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "unclear",
+    "update_related": "unclear",
+    "discussion_type": "na",
+    "confidence": "low",
+    "reason": "The saved text does not identify the software topic clearly enough."
+  },
+  {
+    "review_id": "B3-081",
+    "study_id": "C2-E18060F90177",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "other",
+    "confidence": "low",
+    "reason": "The post discusses software without a clear repair request or chiefly negative opinion."
+  },
+  {
+    "review_id": "B3-082",
+    "study_id": "C2-5DBD2678ADD0",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "no",
+    "update_related": "no",
+    "discussion_type": "na",
+    "confidence": "medium",
+    "reason": "The saved post does not describe software."
+  },
+  {
+    "review_id": "B3-083",
+    "study_id": "C2-9C78B7DDB8A2",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "no",
+    "update_related": "no",
+    "discussion_type": "na",
+    "confidence": "low",
+    "reason": "The saved post does not describe software."
+  },
+  {
+    "review_id": "B3-084",
+    "study_id": "C2-D1987A5F819C",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "medium",
+    "reason": "The post describes a concrete malfunction or asks how to diagnose or fix one."
+  },
+  {
+    "review_id": "B3-085",
+    "study_id": "C2-E534476900E5",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "no",
+    "discussion_type": "other",
+    "confidence": "low",
+    "reason": "The post discusses software without a clear repair request or chiefly negative opinion."
+  },
+  {
+    "review_id": "B3-086",
+    "study_id": "C2-E3C82086F581",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "low",
+    "reason": "The text may describe a problem to diagnose; check whether its main purpose is troubleshooting."
+  },
+  {
+    "review_id": "B3-087",
+    "study_id": "C2-1B3BEF0EF32B",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "low",
+    "reason": "The text may describe a problem to diagnose; check whether its main purpose is troubleshooting."
+  },
+  {
+    "review_id": "B3-088",
+    "study_id": "C2-74E98C50CDA3",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "no",
+    "discussion_type": "other",
+    "confidence": "low",
+    "reason": "The post discusses software without a clear repair request or chiefly negative opinion."
+  },
+  {
+    "review_id": "B3-089",
+    "study_id": "C2-C28617291753",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "unclear",
+    "update_related": "unclear",
+    "discussion_type": "na",
+    "confidence": "low",
+    "reason": "The saved text does not identify the software topic clearly enough."
+  },
+  {
+    "review_id": "B3-090",
+    "study_id": "C2-DF4AE2F1D47B",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "no",
+    "update_related": "no",
+    "discussion_type": "na",
+    "confidence": "medium",
+    "reason": "The saved post does not describe software."
+  },
+  {
+    "review_id": "B3-091",
+    "study_id": "C2-BCD30484F7DD",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "medium",
+    "reason": "The post describes a concrete malfunction or asks how to diagnose or fix one."
+  },
+  {
+    "review_id": "B3-092",
+    "study_id": "C2-1FEF0A557355",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "low",
+    "reason": "The text may describe a problem to diagnose; check whether its main purpose is troubleshooting."
+  },
+  {
+    "review_id": "B3-093",
+    "study_id": "C2-FBCE6C5781D0",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "low",
+    "reason": "The text may describe a problem to diagnose; check whether its main purpose is troubleshooting."
+  },
+  {
+    "review_id": "B3-094",
+    "study_id": "C2-D3A47D18FBD2",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "low",
+    "reason": "The text may describe a problem to diagnose; check whether its main purpose is troubleshooting."
+  },
+  {
+    "review_id": "B3-095",
+    "study_id": "C2-B46F6DF841E5",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "unclear",
+    "update_related": "unclear",
+    "discussion_type": "na",
+    "confidence": "low",
+    "reason": "The saved text does not identify the software topic clearly enough."
+  },
+  {
+    "review_id": "B3-096",
+    "study_id": "C2-909AC9F5B3F7",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "no",
+    "discussion_type": "other",
+    "confidence": "medium",
+    "reason": "The post discusses software without a clear repair request or chiefly negative opinion."
+  },
+  {
+    "review_id": "B3-097",
+    "study_id": "C2-64C1E8FB2E69",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "no",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "medium",
+    "reason": "The post describes a concrete malfunction or asks how to diagnose or fix one."
+  },
+  {
+    "review_id": "B3-098",
+    "study_id": "C2-BFA5FCBE06BE",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "other",
+    "confidence": "low",
+    "reason": "The post discusses software without a clear repair request or chiefly negative opinion."
+  },
+  {
+    "review_id": "B3-099",
+    "study_id": "C2-659A6CE0532D",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "other",
+    "confidence": "medium",
+    "reason": "The post discusses software without a clear repair request or chiefly negative opinion."
+  },
+  {
+    "review_id": "B3-100",
+    "study_id": "C2-BB174B1AE94B",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "unclear",
+    "update_related": "unclear",
+    "discussion_type": "na",
+    "confidence": "low",
+    "reason": "The saved text does not identify the software topic clearly enough."
+  },
+  {
+    "review_id": "B4-001",
+    "study_id": "C2-BFD73BD38C06",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "low",
+    "reason": "The text may describe a problem to diagnose; check whether its main purpose is troubleshooting."
+  },
+  {
+    "review_id": "B4-002",
+    "study_id": "C2-09EECBF52DE9",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "other",
+    "confidence": "medium",
+    "reason": "The post discusses software without a clear repair request or chiefly negative opinion."
+  },
+  {
+    "review_id": "B4-003",
+    "study_id": "C2-144C2C312AD1",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "low",
+    "reason": "The text may describe a problem to diagnose; check whether its main purpose is troubleshooting."
+  },
+  {
+    "review_id": "B4-004",
+    "study_id": "C2-BE1717804825",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "no",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "medium",
+    "reason": "The post describes a concrete malfunction or asks how to diagnose or fix one."
+  },
+  {
+    "review_id": "B4-005",
+    "study_id": "C2-6AF2386C9049",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "other",
+    "confidence": "medium",
+    "reason": "The title presents news or release information rather than a problem to diagnose."
+  },
+  {
+    "review_id": "B4-006",
+    "study_id": "C2-AA8366BBA4C7",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "no",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "medium",
+    "reason": "The post describes a concrete malfunction or asks how to diagnose or fix one."
+  },
+  {
+    "review_id": "B4-007",
+    "study_id": "C2-607FD4485EDC",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "unclear",
+    "update_related": "unclear",
+    "discussion_type": "na",
+    "confidence": "low",
+    "reason": "The saved text does not identify the software topic clearly enough."
+  },
+  {
+    "review_id": "B4-008",
+    "study_id": "C2-020A4F5E2FC3",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "low",
+    "reason": "The text may describe a problem to diagnose; check whether its main purpose is troubleshooting."
+  },
+  {
+    "review_id": "B4-009",
+    "study_id": "C2-211551044405",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "no",
+    "discussion_type": "other",
+    "confidence": "medium",
+    "reason": "The post discusses software without a clear repair request or chiefly negative opinion."
+  },
+  {
+    "review_id": "B4-010",
+    "study_id": "C2-829D377E6948",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "unclear",
+    "update_related": "unclear",
+    "discussion_type": "na",
+    "confidence": "low",
+    "reason": "The saved text does not identify the software topic clearly enough."
+  },
+  {
+    "review_id": "B4-011",
+    "study_id": "C2-61444769AC87",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "other",
+    "confidence": "medium",
+    "reason": "The post discusses software without a clear repair request or chiefly negative opinion."
+  },
+  {
+    "review_id": "B4-012",
+    "study_id": "C2-7FD2F213F38F",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "no",
+    "update_related": "no",
+    "discussion_type": "na",
+    "confidence": "low",
+    "reason": "The saved post does not describe software."
+  },
+  {
+    "review_id": "B4-013",
+    "study_id": "C2-8CCAC79FDA6B",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "medium",
+    "reason": "The post describes a concrete malfunction or asks how to diagnose or fix one."
+  },
+  {
+    "review_id": "B4-014",
+    "study_id": "C2-6F7A68366D12",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "low",
+    "reason": "The text may describe a problem to diagnose; check whether its main purpose is troubleshooting."
+  },
+  {
+    "review_id": "B4-015",
+    "study_id": "C2-55AE58F0BFBE",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "no",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "low",
+    "reason": "The text may describe a problem to diagnose; check whether its main purpose is troubleshooting."
+  },
+  {
+    "review_id": "B4-016",
+    "study_id": "C2-102AFB6B8F7F",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "unclear",
+    "update_related": "unclear",
+    "discussion_type": "na",
+    "confidence": "low",
+    "reason": "The saved text does not identify the software topic clearly enough."
+  },
+  {
+    "review_id": "B4-017",
+    "study_id": "C2-6C0E1B5BAFBE",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "medium",
+    "reason": "The post describes a concrete malfunction or asks how to diagnose or fix one."
+  },
+  {
+    "review_id": "B4-018",
+    "study_id": "C2-20CBC9F966BA",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "low",
+    "reason": "The text may describe a problem to diagnose; check whether its main purpose is troubleshooting."
+  },
+  {
+    "review_id": "B4-019",
+    "study_id": "C2-2C322A5C6148",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "low",
+    "reason": "The text may describe a problem to diagnose; check whether its main purpose is troubleshooting."
+  },
+  {
+    "review_id": "B4-020",
+    "study_id": "C2-66E69956D989",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "low",
+    "reason": "The post describes a concrete malfunction or asks how to diagnose or fix one."
+  },
+  {
+    "review_id": "B4-021",
+    "study_id": "C2-DCCDE645D6FB",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "no",
+    "discussion_type": "other",
+    "confidence": "low",
+    "reason": "The post discusses software without a clear repair request or chiefly negative opinion."
+  },
+  {
+    "review_id": "B4-022",
+    "study_id": "C2-BCC774394897",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "medium",
+    "reason": "The post describes a concrete malfunction or asks how to diagnose or fix one."
+  },
+  {
+    "review_id": "B4-023",
+    "study_id": "C2-C84EE54159F3",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "no",
+    "update_related": "no",
+    "discussion_type": "na",
+    "confidence": "low",
+    "reason": "The saved post does not describe software."
+  },
+  {
+    "review_id": "B4-024",
+    "study_id": "C2-0418980D7EC2",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "other",
+    "confidence": "low",
+    "reason": "The text may be discussion rather than an active repair request; please check its main purpose."
+  },
+  {
+    "review_id": "B4-025",
+    "study_id": "C2-FADEC4CE849B",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "other",
+    "confidence": "low",
+    "reason": "The post discusses software without a clear repair request or chiefly negative opinion."
+  },
+  {
+    "review_id": "B4-026",
+    "study_id": "C2-29F9523DE4A1",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "other",
+    "confidence": "low",
+    "reason": "The text does not clearly show a troubleshooting request or a mainly negative opinion."
+  },
+  {
+    "review_id": "B4-027",
+    "study_id": "C2-5F4A391D7110",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "no",
+    "update_related": "no",
+    "discussion_type": "na",
+    "confidence": "medium",
+    "reason": "The saved post does not describe software."
+  },
+  {
+    "review_id": "B4-028",
+    "study_id": "C2-9E8875C36855",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "medium",
+    "reason": "The post describes a concrete malfunction or asks how to diagnose or fix one."
+  },
+  {
+    "review_id": "B4-029",
+    "study_id": "C2-2395F61B46EE",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "low",
+    "reason": "The text may describe a problem to diagnose; check whether its main purpose is troubleshooting."
+  },
+  {
+    "review_id": "B4-030",
+    "study_id": "C2-23DF7824C9EB",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "no",
+    "update_related": "no",
+    "discussion_type": "na",
+    "confidence": "low",
+    "reason": "The saved post does not describe software."
+  },
+  {
+    "review_id": "B4-031",
+    "study_id": "C2-E9B6F92BB13E",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "other",
+    "confidence": "low",
+    "reason": "The post discusses software without a clear repair request or chiefly negative opinion."
+  },
+  {
+    "review_id": "B4-032",
+    "study_id": "C2-81D6A44E22D7",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "low",
+    "reason": "The text may describe a problem to diagnose; check whether its main purpose is troubleshooting."
+  },
+  {
+    "review_id": "B4-033",
+    "study_id": "C2-3FC9DABA2B75",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "other",
+    "confidence": "medium",
+    "reason": "The post discusses software without a clear repair request or chiefly negative opinion."
+  },
+  {
+    "review_id": "B4-034",
+    "study_id": "C2-5450BF02B19F",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "medium",
+    "reason": "The post describes a concrete malfunction or asks how to diagnose or fix one."
+  },
+  {
+    "review_id": "B4-035",
+    "study_id": "C2-7DB79CE3C5B0",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "medium",
+    "reason": "The post describes a concrete malfunction or asks how to diagnose or fix one."
+  },
+  {
+    "review_id": "B4-036",
+    "study_id": "C2-C969D7C4A395",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "no",
+    "update_related": "no",
+    "discussion_type": "na",
+    "confidence": "low",
+    "reason": "The saved post does not describe software."
+  },
+  {
+    "review_id": "B4-037",
+    "study_id": "C2-F618C2CDB962",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "low",
+    "reason": "The text may describe a problem to diagnose; check whether its main purpose is troubleshooting."
+  },
+  {
+    "review_id": "B4-038",
+    "study_id": "C2-B2B887B22FEF",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "other",
+    "confidence": "medium",
+    "reason": "The title presents news or release information rather than a problem to diagnose."
+  },
+  {
+    "review_id": "B4-039",
+    "study_id": "C2-F5CB98ACBF30",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "no",
+    "discussion_type": "other",
+    "confidence": "low",
+    "reason": "The post discusses software without a clear repair request or chiefly negative opinion."
+  },
+  {
+    "review_id": "B4-040",
+    "study_id": "C2-F9CA20CC694B",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "unclear",
+    "update_related": "unclear",
+    "discussion_type": "na",
+    "confidence": "low",
+    "reason": "The saved text does not identify the software topic clearly enough."
+  },
+  {
+    "review_id": "B4-041",
+    "study_id": "C2-6E6C33196F79",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "low",
+    "reason": "The text may describe a problem to diagnose; check whether its main purpose is troubleshooting."
+  },
+  {
+    "review_id": "B4-042",
+    "study_id": "C2-CA9989098301",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "other",
+    "confidence": "medium",
+    "reason": "The post discusses software without a clear repair request or chiefly negative opinion."
+  },
+  {
+    "review_id": "B4-043",
+    "study_id": "C2-D954D874F398",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "unclear",
+    "update_related": "unclear",
+    "discussion_type": "na",
+    "confidence": "low",
+    "reason": "The saved text does not identify the software topic clearly enough."
+  },
+  {
+    "review_id": "B4-044",
+    "study_id": "C2-B244A4AAAB11",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "other",
+    "confidence": "low",
+    "reason": "The title presents news or release information rather than a problem to diagnose."
+  },
+  {
+    "review_id": "B4-045",
+    "study_id": "C2-1F16FD977690",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "medium",
+    "reason": "The post describes a concrete malfunction or asks how to diagnose or fix one."
+  },
+  {
+    "review_id": "B4-046",
+    "study_id": "C2-DF26C79DDAE4",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "other",
+    "confidence": "low",
+    "reason": "The text does not clearly show a troubleshooting request or a mainly negative opinion."
+  },
+  {
+    "review_id": "B4-047",
+    "study_id": "C2-DAE55963866D",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "medium",
+    "reason": "The post describes a concrete malfunction or asks how to diagnose or fix one."
+  },
+  {
+    "review_id": "B4-048",
+    "study_id": "C2-821A4CE23414",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "medium",
+    "reason": "The post describes a concrete malfunction or asks how to diagnose or fix one."
+  },
+  {
+    "review_id": "B4-049",
+    "study_id": "C2-06C0231E0881",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "no",
+    "update_related": "no",
+    "discussion_type": "na",
+    "confidence": "medium",
+    "reason": "The saved post does not describe software."
+  },
+  {
+    "review_id": "B4-050",
+    "study_id": "C2-E9073D3D5947",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "no",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "low",
+    "reason": "The text may describe a problem to diagnose; check whether its main purpose is troubleshooting."
+  },
+  {
+    "review_id": "B4-051",
+    "study_id": "C2-119BC31437B9",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "low",
+    "reason": "The text may describe a problem to diagnose; check whether its main purpose is troubleshooting."
+  },
+  {
+    "review_id": "B4-052",
+    "study_id": "C2-CC0FAB0FDEA4",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "other",
+    "confidence": "low",
+    "reason": "The post discusses software without a clear repair request or chiefly negative opinion."
+  },
+  {
+    "review_id": "B4-053",
+    "study_id": "C2-700F5356C9F7",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "unclear",
+    "update_related": "unclear",
+    "discussion_type": "na",
+    "confidence": "low",
+    "reason": "The saved text does not identify the software topic clearly enough."
+  },
+  {
+    "review_id": "B4-054",
+    "study_id": "C2-0AB770745867",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "other",
+    "confidence": "low",
+    "reason": "The post discusses software without a clear repair request or chiefly negative opinion."
+  },
+  {
+    "review_id": "B4-055",
+    "study_id": "C2-9E9A64764EEC",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "other",
+    "confidence": "medium",
+    "reason": "The post discusses software without a clear repair request or chiefly negative opinion."
+  },
+  {
+    "review_id": "B4-056",
+    "study_id": "C2-DA54AF1EFB31",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "other",
+    "confidence": "medium",
+    "reason": "The title presents news or release information rather than a problem to diagnose."
+  },
+  {
+    "review_id": "B4-057",
+    "study_id": "C2-72C331ABD05F",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "medium",
+    "reason": "The post describes a concrete malfunction or asks how to diagnose or fix one."
+  },
+  {
+    "review_id": "B4-058",
+    "study_id": "C2-EADF9EAE3611",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "medium",
+    "reason": "The post describes a concrete malfunction or asks how to diagnose or fix one."
+  },
+  {
+    "review_id": "B4-059",
+    "study_id": "C2-4512125C9340",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "no",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "low",
+    "reason": "The text may describe a problem to diagnose; check whether its main purpose is troubleshooting."
+  },
+  {
+    "review_id": "B4-060",
+    "study_id": "C2-F38E823574AE",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "medium",
+    "reason": "The post describes a concrete malfunction or asks how to diagnose or fix one."
+  },
+  {
+    "review_id": "B4-061",
+    "study_id": "C2-9DC7496C1BFE",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "unclear",
+    "update_related": "unclear",
+    "discussion_type": "na",
+    "confidence": "low",
+    "reason": "The saved text does not identify the software topic clearly enough."
+  },
+  {
+    "review_id": "B4-062",
+    "study_id": "C2-093F0991BCBB",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "medium",
+    "reason": "The post describes a concrete malfunction or asks how to diagnose or fix one."
+  },
+  {
+    "review_id": "B4-063",
+    "study_id": "C2-262319A7E585",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "medium",
+    "reason": "The post describes a concrete malfunction or asks how to diagnose or fix one."
+  },
+  {
+    "review_id": "B4-064",
+    "study_id": "C2-D2834DD9EEAB",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "general_dissatisfaction",
+    "confidence": "low",
+    "reason": "The main message criticizes software without a clear request to diagnose or fix it."
+  },
+  {
+    "review_id": "B4-065",
+    "study_id": "C2-471A5975DD45",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "medium",
+    "reason": "The post describes a concrete malfunction or asks how to diagnose or fix one."
+  },
+  {
+    "review_id": "B4-066",
+    "study_id": "C2-9120FBBA78F2",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "other",
+    "confidence": "low",
+    "reason": "The post discusses software without a clear repair request or chiefly negative opinion."
+  },
+  {
+    "review_id": "B4-067",
+    "study_id": "C2-4B6D761ED6E8",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "low",
+    "reason": "The text may describe a problem to diagnose; check whether its main purpose is troubleshooting."
+  },
+  {
+    "review_id": "B4-068",
+    "study_id": "C2-10B596BBBE0F",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "other",
+    "confidence": "medium",
+    "reason": "The post discusses software without a clear repair request or chiefly negative opinion."
+  },
+  {
+    "review_id": "B4-069",
+    "study_id": "C2-45FBDD161106",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "medium",
+    "reason": "The post describes a concrete malfunction or asks how to diagnose or fix one."
+  },
+  {
+    "review_id": "B4-070",
+    "study_id": "C2-AA8AA9277DC7",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "no",
+    "discussion_type": "other",
+    "confidence": "low",
+    "reason": "The post discusses software without a clear repair request or chiefly negative opinion."
+  },
+  {
+    "review_id": "B4-071",
+    "study_id": "C2-948F00E0A819",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "medium",
+    "reason": "The post describes a concrete malfunction or asks how to diagnose or fix one."
+  },
+  {
+    "review_id": "B4-072",
+    "study_id": "C2-5FD6A566F72E",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "other",
+    "confidence": "medium",
+    "reason": "The post discusses software without a clear repair request or chiefly negative opinion."
+  },
+  {
+    "review_id": "B4-073",
+    "study_id": "C2-B8E5EC485C47",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "no",
+    "discussion_type": "other",
+    "confidence": "low",
+    "reason": "The post discusses software without a clear repair request or chiefly negative opinion."
+  },
+  {
+    "review_id": "B4-074",
+    "study_id": "C2-C513A6FDFB78",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "other",
+    "confidence": "low",
+    "reason": "The post discusses software without a clear repair request or chiefly negative opinion."
+  },
+  {
+    "review_id": "B4-075",
+    "study_id": "C2-04081FEAAC6D",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "other",
+    "confidence": "medium",
+    "reason": "The post discusses software without a clear repair request or chiefly negative opinion."
+  },
+  {
+    "review_id": "B4-076",
+    "study_id": "C2-83346A05F6E9",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "medium",
+    "reason": "The post describes a concrete malfunction or asks how to diagnose or fix one."
+  },
+  {
+    "review_id": "B4-077",
+    "study_id": "C2-3129B778BA45",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "medium",
+    "reason": "The post describes a concrete malfunction or asks how to diagnose or fix one."
+  },
+  {
+    "review_id": "B4-078",
+    "study_id": "C2-414D3D5D9547",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "low",
+    "reason": "The text may describe a problem to diagnose; check whether its main purpose is troubleshooting."
+  },
+  {
+    "review_id": "B4-079",
+    "study_id": "C2-BED36E3B3561",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "no",
+    "update_related": "no",
+    "discussion_type": "na",
+    "confidence": "medium",
+    "reason": "The saved post does not describe software."
+  },
+  {
+    "review_id": "B4-080",
+    "study_id": "C2-2181E7C48D2B",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "no",
+    "update_related": "no",
+    "discussion_type": "na",
+    "confidence": "low",
+    "reason": "The saved post does not describe software."
+  },
+  {
+    "review_id": "B4-081",
+    "study_id": "C2-3289103301FA",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "medium",
+    "reason": "The post describes a concrete malfunction or asks how to diagnose or fix one."
+  },
+  {
+    "review_id": "B4-082",
+    "study_id": "C2-0F266165EE08",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "other",
+    "confidence": "medium",
+    "reason": "The post discusses software without a clear repair request or chiefly negative opinion."
+  },
+  {
+    "review_id": "B4-083",
+    "study_id": "C2-A44FCB5A0272",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "unclear",
+    "update_related": "unclear",
+    "discussion_type": "na",
+    "confidence": "low",
+    "reason": "The saved text does not identify the software topic clearly enough."
+  },
+  {
+    "review_id": "B4-084",
+    "study_id": "C2-E135B227FA3D",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "other",
+    "confidence": "low",
+    "reason": "The text may be discussion rather than an active repair request; please check its main purpose."
+  },
+  {
+    "review_id": "B4-085",
+    "study_id": "C2-A7A9BF7D5B03",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "low",
+    "reason": "The text may describe a problem to diagnose; check whether its main purpose is troubleshooting."
+  },
+  {
+    "review_id": "B4-086",
+    "study_id": "C2-1BC6D76A62DE",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "medium",
+    "reason": "The post describes a concrete malfunction or asks how to diagnose or fix one."
+  },
+  {
+    "review_id": "B4-087",
+    "study_id": "C2-F42414F1BF7F",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "low",
+    "reason": "The text may describe a problem to diagnose; check whether its main purpose is troubleshooting."
+  },
+  {
+    "review_id": "B4-088",
+    "study_id": "C2-AF7DC220808E",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "other",
+    "confidence": "low",
+    "reason": "The title presents news or release information rather than a problem to diagnose."
+  },
+  {
+    "review_id": "B4-089",
+    "study_id": "C2-EBA343654C15",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "other",
+    "confidence": "medium",
+    "reason": "The post presents release or product information rather than a problem to diagnose."
+  },
+  {
+    "review_id": "B4-090",
+    "study_id": "C2-E2A0A4BF5164",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "low",
+    "reason": "The text may describe a problem to diagnose; check whether its main purpose is troubleshooting."
+  },
+  {
+    "review_id": "B4-091",
+    "study_id": "C2-ABED4CD8DA52",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "low",
+    "reason": "The text may describe a problem to diagnose; check whether its main purpose is troubleshooting."
+  },
+  {
+    "review_id": "B4-092",
+    "study_id": "C2-41F1E4D9F17A",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "medium",
+    "reason": "The post describes a concrete malfunction or asks how to diagnose or fix one."
+  },
+  {
+    "review_id": "B4-093",
+    "study_id": "C2-919493A2CD34",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "other",
+    "confidence": "medium",
+    "reason": "The post discusses software without a clear repair request or chiefly negative opinion."
+  },
+  {
+    "review_id": "B4-094",
+    "study_id": "C2-3CECBF0477FE",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "medium",
+    "reason": "The post describes a concrete malfunction or asks how to diagnose or fix one."
+  },
+  {
+    "review_id": "B4-095",
+    "study_id": "C2-7A75EAC3079A",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "unclear",
+    "update_related": "unclear",
+    "discussion_type": "na",
+    "confidence": "low",
+    "reason": "The saved text does not identify the software topic clearly enough."
+  },
+  {
+    "review_id": "B4-096",
+    "study_id": "C2-019CF0D8496A",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "unclear",
+    "update_related": "unclear",
+    "discussion_type": "na",
+    "confidence": "low",
+    "reason": "The saved text does not identify the software topic clearly enough."
+  },
+  {
+    "review_id": "B4-097",
+    "study_id": "C2-83C3D2FA4F2B",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "other",
+    "confidence": "medium",
+    "reason": "The post discusses software without a clear repair request or chiefly negative opinion."
+  },
+  {
+    "review_id": "B4-098",
+    "study_id": "C2-87AC951E24B3",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "medium",
+    "reason": "The post describes a concrete malfunction or asks how to diagnose or fix one."
+  },
+  {
+    "review_id": "B4-099",
+    "study_id": "C2-771AB7E32F52",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "other",
+    "confidence": "low",
+    "reason": "The post discusses software without a clear repair request or chiefly negative opinion."
+  },
+  {
+    "review_id": "B4-100",
+    "study_id": "C2-C1FC54CBC328",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "other",
+    "confidence": "medium",
+    "reason": "The title presents news or release information rather than a problem to diagnose."
+  },
+  {
+    "review_id": "B5-001",
+    "study_id": "C2-6DDA74C65655",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "medium",
+    "reason": "The post describes a concrete malfunction or asks how to diagnose or fix one."
+  },
+  {
+    "review_id": "B5-002",
+    "study_id": "C2-1C85F1F4CB1A",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "no",
+    "update_related": "no",
+    "discussion_type": "na",
+    "confidence": "medium",
+    "reason": "The saved post does not describe software."
+  },
+  {
+    "review_id": "B5-003",
+    "study_id": "C2-797408FB85ED",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "other",
+    "confidence": "low",
+    "reason": "The post presents release or product information rather than a problem to diagnose."
+  },
+  {
+    "review_id": "B5-004",
+    "study_id": "C2-8F5D6E41D1D7",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "other",
+    "confidence": "low",
+    "reason": "The post discusses software without a clear repair request or chiefly negative opinion."
+  },
+  {
+    "review_id": "B5-005",
+    "study_id": "C2-06C8A36E75E2",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "other",
+    "confidence": "medium",
+    "reason": "The post discusses software without a clear repair request or chiefly negative opinion."
+  },
+  {
+    "review_id": "B5-006",
+    "study_id": "C2-1DCB5C045B8C",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "no",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "medium",
+    "reason": "The post describes a concrete malfunction or asks how to diagnose or fix one."
+  },
+  {
+    "review_id": "B5-007",
+    "study_id": "C2-FA42A1D52A6A",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "low",
+    "reason": "The text may describe a problem to diagnose; check whether its main purpose is troubleshooting."
+  },
+  {
+    "review_id": "B5-008",
+    "study_id": "C2-81B164DE9B98",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "no",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "medium",
+    "reason": "The post describes a concrete malfunction or asks how to diagnose or fix one."
+  },
+  {
+    "review_id": "B5-009",
+    "study_id": "C2-313592D2A69A",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "no",
+    "update_related": "no",
+    "discussion_type": "na",
+    "confidence": "low",
+    "reason": "The saved post does not describe software."
+  },
+  {
+    "review_id": "B5-010",
+    "study_id": "C2-9F18F2E64543",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "other",
+    "confidence": "low",
+    "reason": "The text does not clearly show a troubleshooting request or a mainly negative opinion."
+  },
+  {
+    "review_id": "B5-011",
+    "study_id": "C2-1C0D50877DA6",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "low",
+    "reason": "The text may describe a problem to diagnose; check whether its main purpose is troubleshooting."
+  },
+  {
+    "review_id": "B5-012",
+    "study_id": "C2-B0764850BE02",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "other",
+    "confidence": "low",
+    "reason": "The post discusses software without a clear repair request or chiefly negative opinion."
+  },
+  {
+    "review_id": "B5-013",
+    "study_id": "C2-7DBE385E5FD5",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "other",
+    "confidence": "medium",
+    "reason": "The post discusses software without a clear repair request or chiefly negative opinion."
+  },
+  {
+    "review_id": "B5-014",
+    "study_id": "C2-81E61647C503",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "no",
+    "update_related": "no",
+    "discussion_type": "na",
+    "confidence": "medium",
+    "reason": "The saved post does not describe software."
+  },
+  {
+    "review_id": "B5-015",
+    "study_id": "C2-3C0F0766D041",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "no",
+    "update_related": "no",
+    "discussion_type": "na",
+    "confidence": "medium",
+    "reason": "The saved post does not describe software."
+  },
+  {
+    "review_id": "B5-016",
+    "study_id": "C2-9689ADF36FB1",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "general_dissatisfaction",
+    "confidence": "low",
+    "reason": "The main message criticizes software without a clear request to diagnose or fix it."
+  },
+  {
+    "review_id": "B5-017",
+    "study_id": "C2-5391DF79321C",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "medium",
+    "reason": "The post describes a concrete malfunction or asks how to diagnose or fix one."
+  },
+  {
+    "review_id": "B5-018",
+    "study_id": "C2-9A4D8C174D1D",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "unclear",
+    "update_related": "unclear",
+    "discussion_type": "na",
+    "confidence": "low",
+    "reason": "The saved text does not identify the software topic clearly enough."
+  },
+  {
+    "review_id": "B5-019",
+    "study_id": "C2-F81E28C8E4B8",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "low",
+    "reason": "The text may describe a problem to diagnose; check whether its main purpose is troubleshooting."
+  },
+  {
+    "review_id": "B5-020",
+    "study_id": "C2-6E367331D841",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "unclear",
+    "update_related": "unclear",
+    "discussion_type": "na",
+    "confidence": "low",
+    "reason": "The saved text does not identify the software topic clearly enough."
+  },
+  {
+    "review_id": "B5-021",
+    "study_id": "C2-5F17B5EAEF60",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "other",
+    "confidence": "low",
+    "reason": "The post discusses software without a clear repair request or chiefly negative opinion."
+  },
+  {
+    "review_id": "B5-022",
+    "study_id": "C2-BD4DB57AE095",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "low",
+    "reason": "The text may describe a problem to diagnose; check whether its main purpose is troubleshooting."
+  },
+  {
+    "review_id": "B5-023",
+    "study_id": "C2-9C75FF0A4830",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "medium",
+    "reason": "The post describes a concrete malfunction or asks how to diagnose or fix one."
+  },
+  {
+    "review_id": "B5-024",
+    "study_id": "C2-6D2F5F428198",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "unclear",
+    "update_related": "unclear",
+    "discussion_type": "na",
+    "confidence": "low",
+    "reason": "The saved text does not identify the software topic clearly enough."
+  },
+  {
+    "review_id": "B5-025",
+    "study_id": "C2-3C8FF941AAA8",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "medium",
+    "reason": "The post describes a concrete malfunction or asks how to diagnose or fix one."
+  },
+  {
+    "review_id": "B5-026",
+    "study_id": "C2-385245CDAE45",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "no",
+    "discussion_type": "other",
+    "confidence": "low",
+    "reason": "The text does not clearly show a troubleshooting request or a mainly negative opinion."
+  },
+  {
+    "review_id": "B5-027",
+    "study_id": "C2-9D6FC6167DB1",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "unclear",
+    "update_related": "unclear",
+    "discussion_type": "na",
+    "confidence": "low",
+    "reason": "The saved text does not identify the software topic clearly enough."
+  },
+  {
+    "review_id": "B5-028",
+    "study_id": "C2-A8FF50C6FD83",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "low",
+    "reason": "The text may describe a problem to diagnose; check whether its main purpose is troubleshooting."
+  },
+  {
+    "review_id": "B5-029",
+    "study_id": "C2-06F53D3CDB99",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "medium",
+    "reason": "The post describes a concrete malfunction or asks how to diagnose or fix one."
+  },
+  {
+    "review_id": "B5-030",
+    "study_id": "C2-8687F798B70A",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "low",
+    "reason": "The text may describe a problem to diagnose; check whether its main purpose is troubleshooting."
+  },
+  {
+    "review_id": "B5-031",
+    "study_id": "C2-1D527F5880A8",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "no",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "low",
+    "reason": "The text may describe a problem to diagnose; check whether its main purpose is troubleshooting."
+  },
+  {
+    "review_id": "B5-032",
+    "study_id": "C2-FEF3F27EFAED",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "no",
+    "update_related": "no",
+    "discussion_type": "na",
+    "confidence": "medium",
+    "reason": "The saved post does not describe software."
+  },
+  {
+    "review_id": "B5-033",
+    "study_id": "C2-954B9CF784DE",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "other",
+    "confidence": "low",
+    "reason": "The post asks a software question without a clear malfunction."
+  },
+  {
+    "review_id": "B5-034",
+    "study_id": "C2-50DB735FDEF6",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "low",
+    "reason": "The post describes a concrete malfunction or asks how to diagnose or fix one."
+  },
+  {
+    "review_id": "B5-035",
+    "study_id": "C2-40856175B505",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "medium",
+    "reason": "The post describes a concrete malfunction or asks how to diagnose or fix one."
+  },
+  {
+    "review_id": "B5-036",
+    "study_id": "C2-61137C1CFAAF",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "medium",
+    "reason": "The post describes a concrete malfunction or asks how to diagnose or fix one."
+  },
+  {
+    "review_id": "B5-037",
+    "study_id": "C2-EA92D8FE8671",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "unclear",
+    "update_related": "unclear",
+    "discussion_type": "na",
+    "confidence": "low",
+    "reason": "The saved text does not identify the software topic clearly enough."
+  },
+  {
+    "review_id": "B5-038",
+    "study_id": "C2-D90D6FC377D0",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "other",
+    "confidence": "medium",
+    "reason": "The post discusses software without a clear repair request or chiefly negative opinion."
+  },
+  {
+    "review_id": "B5-039",
+    "study_id": "C2-D37F936CC756",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "low",
+    "reason": "The text may describe a problem to diagnose; check whether its main purpose is troubleshooting."
+  },
+  {
+    "review_id": "B5-040",
+    "study_id": "C2-97901E3387E4",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "no",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "low",
+    "reason": "The text may describe a problem to diagnose; check whether its main purpose is troubleshooting."
+  },
+  {
+    "review_id": "B5-041",
+    "study_id": "C2-74F56067D952",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "low",
+    "reason": "The text may describe a problem to diagnose; check whether its main purpose is troubleshooting."
+  },
+  {
+    "review_id": "B5-042",
+    "study_id": "C2-B424BD2A36BA",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "no",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "low",
+    "reason": "The text may describe a problem to diagnose; check whether its main purpose is troubleshooting."
+  },
+  {
+    "review_id": "B5-043",
+    "study_id": "C2-059335C72C00",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "other",
+    "confidence": "low",
+    "reason": "The post discusses software without a clear repair request or chiefly negative opinion."
+  },
+  {
+    "review_id": "B5-044",
+    "study_id": "C2-2839F0545C33",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "medium",
+    "reason": "The post describes a concrete malfunction or asks how to diagnose or fix one."
+  },
+  {
+    "review_id": "B5-045",
+    "study_id": "C2-82085828151D",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "medium",
+    "reason": "The post describes a concrete malfunction or asks how to diagnose or fix one."
+  },
+  {
+    "review_id": "B5-046",
+    "study_id": "C2-DBC690480E5C",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "low",
+    "reason": "The text may describe a problem to diagnose; check whether its main purpose is troubleshooting."
+  },
+  {
+    "review_id": "B5-047",
+    "study_id": "C2-6E25CF15B993",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "other",
+    "confidence": "low",
+    "reason": "The post discusses software without a clear repair request or chiefly negative opinion."
+  },
+  {
+    "review_id": "B5-048",
+    "study_id": "C2-0FE4E83315E9",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "medium",
+    "reason": "The post describes a concrete malfunction or asks how to diagnose or fix one."
+  },
+  {
+    "review_id": "B5-049",
+    "study_id": "C2-F7526AF0566E",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "no",
+    "discussion_type": "other",
+    "confidence": "low",
+    "reason": "The title presents news or release information rather than a problem to diagnose."
+  },
+  {
+    "review_id": "B5-050",
+    "study_id": "C2-FAC362B9C4B7",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "no",
+    "update_related": "no",
+    "discussion_type": "na",
+    "confidence": "low",
+    "reason": "The saved post does not describe software."
+  },
+  {
+    "review_id": "B5-051",
+    "study_id": "C2-7980C0F07D58",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "no",
+    "update_related": "no",
+    "discussion_type": "na",
+    "confidence": "low",
+    "reason": "The saved post does not describe software."
+  },
+  {
+    "review_id": "B5-052",
+    "study_id": "C2-BE1957959988",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "no",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "low",
+    "reason": "The text may describe a problem to diagnose; check whether its main purpose is troubleshooting."
+  },
+  {
+    "review_id": "B5-053",
+    "study_id": "C2-61FCBFFC3F4A",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "no",
+    "update_related": "no",
+    "discussion_type": "na",
+    "confidence": "low",
+    "reason": "The saved post does not describe software."
+  },
+  {
+    "review_id": "B5-054",
+    "study_id": "C2-6B0E0C949753",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "other",
+    "confidence": "medium",
+    "reason": "The post discusses software without a clear repair request or chiefly negative opinion."
+  },
+  {
+    "review_id": "B5-055",
+    "study_id": "C2-98315C03B9B2",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "medium",
+    "reason": "The post describes a concrete malfunction or asks how to diagnose or fix one."
+  },
+  {
+    "review_id": "B5-056",
+    "study_id": "C2-3890BAB791F4",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "other",
+    "confidence": "low",
+    "reason": "The text does not clearly show a troubleshooting request or a mainly negative opinion."
+  },
+  {
+    "review_id": "B5-057",
+    "study_id": "C2-F9CBAC4AD53E",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "no",
+    "update_related": "no",
+    "discussion_type": "na",
+    "confidence": "low",
+    "reason": "The saved post does not describe software."
+  },
+  {
+    "review_id": "B5-058",
+    "study_id": "C2-ECB48087DF33",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "low",
+    "reason": "The post describes a concrete malfunction or asks how to diagnose or fix one."
+  },
+  {
+    "review_id": "B5-059",
+    "study_id": "C2-29DC78CD1942",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "other",
+    "confidence": "low",
+    "reason": "The post discusses software without a clear repair request or chiefly negative opinion."
+  },
+  {
+    "review_id": "B5-060",
+    "study_id": "C2-E471D777CD1C",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "medium",
+    "reason": "The post describes a concrete malfunction or asks how to diagnose or fix one."
+  },
+  {
+    "review_id": "B5-061",
+    "study_id": "C2-7B25D43936BB",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "general_dissatisfaction",
+    "confidence": "low",
+    "reason": "The text may be discussion rather than an active repair request; please check its main purpose."
+  },
+  {
+    "review_id": "B5-062",
+    "study_id": "C2-01673B26DA6A",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "low",
+    "reason": "The text may describe a problem to diagnose; check whether its main purpose is troubleshooting."
+  },
+  {
+    "review_id": "B5-063",
+    "study_id": "C2-3CCE7DC51F4B",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "low",
+    "reason": "The text may describe a problem to diagnose; check whether its main purpose is troubleshooting."
+  },
+  {
+    "review_id": "B5-064",
+    "study_id": "C2-12A2507E1A12",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "low",
+    "reason": "The post describes a concrete malfunction or asks how to diagnose or fix one."
+  },
+  {
+    "review_id": "B5-065",
+    "study_id": "C2-4EA0312A70AB",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "no",
+    "update_related": "no",
+    "discussion_type": "na",
+    "confidence": "medium",
+    "reason": "The saved post does not describe software."
+  },
+  {
+    "review_id": "B5-066",
+    "study_id": "C2-30312F30623F",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "other",
+    "confidence": "medium",
+    "reason": "The post presents release or product information rather than a problem to diagnose."
+  },
+  {
+    "review_id": "B5-067",
+    "study_id": "C2-50427DB14F31",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "low",
+    "reason": "The text may describe a problem to diagnose; check whether its main purpose is troubleshooting."
+  },
+  {
+    "review_id": "B5-068",
+    "study_id": "C2-2E321DC33263",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "medium",
+    "reason": "The post describes a concrete malfunction or asks how to diagnose or fix one."
+  },
+  {
+    "review_id": "B5-069",
+    "study_id": "C2-B305E9BEF126",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "general_dissatisfaction",
+    "confidence": "low",
+    "reason": "The main message criticizes software without a clear request to diagnose or fix it."
+  },
+  {
+    "review_id": "B5-070",
+    "study_id": "C2-F63D90C11CD9",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "no",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "low",
+    "reason": "The text may describe a problem to diagnose; check whether its main purpose is troubleshooting."
+  },
+  {
+    "review_id": "B5-071",
+    "study_id": "C2-13A164EBEF3D",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "medium",
+    "reason": "The post describes a concrete malfunction or asks how to diagnose or fix one."
+  },
+  {
+    "review_id": "B5-072",
+    "study_id": "C2-CE4D4C880D62",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "no",
+    "discussion_type": "other",
+    "confidence": "medium",
+    "reason": "The post discusses software without a clear repair request or chiefly negative opinion."
+  },
+  {
+    "review_id": "B5-073",
+    "study_id": "C2-ACE8552006FD",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "medium",
+    "reason": "The post describes a concrete malfunction or asks how to diagnose or fix one."
+  },
+  {
+    "review_id": "B5-074",
+    "study_id": "C2-892D0997BFA4",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "general_dissatisfaction",
+    "confidence": "low",
+    "reason": "The main message criticizes software without a clear request to diagnose or fix it."
+  },
+  {
+    "review_id": "B5-075",
+    "study_id": "C2-AC9A37C40B98",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "low",
+    "reason": "The text may describe a problem to diagnose; check whether its main purpose is troubleshooting."
+  },
+  {
+    "review_id": "B5-076",
+    "study_id": "C2-F37569DDB677",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "medium",
+    "reason": "The post describes a concrete malfunction or asks how to diagnose or fix one."
+  },
+  {
+    "review_id": "B5-077",
+    "study_id": "C2-61AD0E976EA5",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "low",
+    "reason": "The text may describe a problem to diagnose; check whether its main purpose is troubleshooting."
+  },
+  {
+    "review_id": "B5-078",
+    "study_id": "C2-27FF6531EC0C",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "unclear",
+    "update_related": "unclear",
+    "discussion_type": "na",
+    "confidence": "low",
+    "reason": "The saved text does not identify the software topic clearly enough."
+  },
+  {
+    "review_id": "B5-079",
+    "study_id": "C2-0FD9AE56A2D6",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "no",
+    "update_related": "no",
+    "discussion_type": "na",
+    "confidence": "medium",
+    "reason": "The saved post does not describe software."
+  },
+  {
+    "review_id": "B5-080",
+    "study_id": "C2-20F9AC066D70",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "medium",
+    "reason": "The post describes a concrete malfunction or asks how to diagnose or fix one."
+  },
+  {
+    "review_id": "B5-081",
+    "study_id": "C2-662992ADD212",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "unclear",
+    "update_related": "unclear",
+    "discussion_type": "na",
+    "confidence": "low",
+    "reason": "The saved text does not identify the software topic clearly enough."
+  },
+  {
+    "review_id": "B5-082",
+    "study_id": "C2-325BA8FDEA20",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "medium",
+    "reason": "The post describes a concrete malfunction or asks how to diagnose or fix one."
+  },
+  {
+    "review_id": "B5-083",
+    "study_id": "C2-A3EDDAC0769B",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "unclear",
+    "update_related": "unclear",
+    "discussion_type": "na",
+    "confidence": "low",
+    "reason": "The saved text does not identify the software topic clearly enough."
+  },
+  {
+    "review_id": "B5-084",
+    "study_id": "C2-66AFF2D104EF",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "medium",
+    "reason": "The post describes a concrete malfunction or asks how to diagnose or fix one."
+  },
+  {
+    "review_id": "B5-085",
+    "study_id": "C2-BE94109E6479",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "no",
+    "discussion_type": "general_dissatisfaction",
+    "confidence": "low",
+    "reason": "The main message criticizes software without a clear request to diagnose or fix it."
+  },
+  {
+    "review_id": "B5-086",
+    "study_id": "C2-F1752AAF44F3",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "medium",
+    "reason": "The post describes a concrete malfunction or asks how to diagnose or fix one."
+  },
+  {
+    "review_id": "B5-087",
+    "study_id": "C2-D894B86BE6E3",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "other",
+    "confidence": "medium",
+    "reason": "The post discusses software without a clear repair request or chiefly negative opinion."
+  },
+  {
+    "review_id": "B5-088",
+    "study_id": "C2-60F643A74B0E",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "low",
+    "reason": "The text may describe a problem to diagnose; check whether its main purpose is troubleshooting."
+  },
+  {
+    "review_id": "B5-089",
+    "study_id": "C2-0081304B7550",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "no",
+    "update_related": "no",
+    "discussion_type": "na",
+    "confidence": "low",
+    "reason": "The saved post does not describe software."
+  },
+  {
+    "review_id": "B5-090",
+    "study_id": "C2-268233E2ACF3",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "low",
+    "reason": "The text may describe a problem to diagnose; check whether its main purpose is troubleshooting."
+  },
+  {
+    "review_id": "B5-091",
+    "study_id": "C2-9D65D678F861",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "low",
+    "reason": "The text may describe a problem to diagnose; check whether its main purpose is troubleshooting."
+  },
+  {
+    "review_id": "B5-092",
+    "study_id": "C2-0119A1D69912",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "other",
+    "confidence": "low",
+    "reason": "The post discusses software without a clear repair request or chiefly negative opinion."
+  },
+  {
+    "review_id": "B5-093",
+    "study_id": "C2-61F29C40336E",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "low",
+    "reason": "The text may describe a problem to diagnose; check whether its main purpose is troubleshooting."
+  },
+  {
+    "review_id": "B5-094",
+    "study_id": "C2-A507971470EF",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "low",
+    "reason": "The text may describe a problem to diagnose; check whether its main purpose is troubleshooting."
+  },
+  {
+    "review_id": "B5-095",
+    "study_id": "C2-55908AE48C70",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "other",
+    "confidence": "low",
+    "reason": "The post discusses software without a clear repair request or chiefly negative opinion."
+  },
+  {
+    "review_id": "B5-096",
+    "study_id": "C2-8522600AB82A",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "medium",
+    "reason": "The post describes a concrete malfunction or asks how to diagnose or fix one."
+  },
+  {
+    "review_id": "B5-097",
+    "study_id": "C2-90A9A68C4C75",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "no",
+    "discussion_type": "general_dissatisfaction",
+    "confidence": "low",
+    "reason": "The main message criticizes software without a clear request to diagnose or fix it."
+  },
+  {
+    "review_id": "B5-098",
+    "study_id": "C2-6F63396598A6",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "low",
+    "reason": "The text may describe a problem to diagnose; check whether its main purpose is troubleshooting."
+  },
+  {
+    "review_id": "B5-099",
+    "study_id": "C2-F219DB65C3B1",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "yes",
+    "discussion_type": "technical_troubleshooting",
+    "confidence": "medium",
+    "reason": "The post describes a concrete malfunction or asks how to diagnose or fix one."
+  },
+  {
+    "review_id": "B5-100",
+    "study_id": "C2-7D5EBA44F2DB",
+    "proposal_method": "development_model_plus_rules_v1",
+    "about_software": "yes",
+    "update_related": "no",
+    "discussion_type": "other",
+    "confidence": "medium",
+    "reason": "The post discusses software without a clear repair request or chiefly negative opinion."
+  }
+]

@@ -1,0 +1,1687 @@
+﻿review_id,subreddit,title,post_body,discussion_context,text_availability,proposed_about_software,proposed_update_related,proposed_discussion_type,proposed_confidence,proposed_reason,decision,final_about_software,final_update_related,final_discussion_type,reviewer_note,reviewed_at,source_url
+B22-001,chrome,Chromium Freezing Up While The Rest Of My Computer Remains Unaffected (Windows 11),"Hello all! TL;DR at bottom.
+
+First off, the reason why I said ""Chromium"" instead of just ""Chrome"" is because this is happening to ***all*** **chromium-based browsers**. I have tried non-chromium-based browsers (I am not sure if my post will get removed if I mention them) and they work completely fine.
+
+I know that this is an ongoing issue for the bulk of the Windows 11 population, but I still wanted to give my 2-cents on this matter.
+
+I am currently running Windows 11 Version: 24H2, OS Build: 26100.6584. Alongside that, I make sure that my browsers are always up-to-date.
+
+The problem that I am facing is, whenever I open up a secondary window of Chrome and I lock the two windows side-by-side, Chrome would lock-up/freeze if I am scrolling on window while playing media (for example, YouTube) on the other. No other part of Windows nor applications freeze up when this happens, just Chrome.
+
+The way that I would resolve this issue is by grabbing one of the Chrome windows and shaking it for like a second or two. This would cause everything to start acting as if nothing had even happened in the first place.
+
+Now, here's an interesting thing for my computer, I have one of those Q-Code screens on my motherboard that show any sort of error that may be happening at the current moment. Whenever Chrome does its random-freezing-thing, my motherboard would fluctuate between the error code ""53"" and ""54"". According to the booklet, this means that Chrome is causing some odd type of ""memory initialization error"" that is only being resolved by me shaking the window like a maraca. 
+
+\~Current PC Specs\~:
+
+* OS: Windows 11 (updated to the latest version)
+* CPU: i7-14700K
+* GPU: Asus TUF RTX 4070
+* Motherboard: Asus ROG STRIX Z790-E GAMING WIFI
+* RAM: 64GB G.Skill Trident Z5 DDR5-6400 CL32
+* Storage: WD Black SN850X 2TB
+
+Any advice, lads?
+
+TL;DR Side-by-side Chrome freezing until I shake the window, motherboard shows ""memory initialization error"" code whenever Chrome acts up.",,title_and_body,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/chrome/comments/1nycmir/chromium_freezing_up_while_the_rest_of_my/
+B22-002,homeassistant,Amazon Fire Tablet Issue,"After the most recent upgrade to Home Assistant and HAOS, this started popping up on my Amazon Fire tablet that runs Fully Kiosk to display my HA dashboards.  I'm not sure if there was some kind of update on the Fire table or if this is directly related to the HA/HAOS upgrades.  Anyone seen this before and know how to turn off?  The dashboard runs for a couple of minutes it seems and then this keeps popping up.  If I swipe up then the dashboard (via Fully Kiosk) works again.  This setup has worked for several years without issue and I'm puzzled why it's not working properly now.  Thanks!
+
+https://preview.redd.it/v8lqg8hbem8h1.png?width=4032&amp;format=png&amp;auto=webp&amp;s=f65dba254db522cbad81183e895498b882726507",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/homeassistant/comments/1ubnk0c/amazon_fire_tablet_issue/
+B22-003,applehelp,M4 MacBook Air intermittent charging issue – both MagSafe and USB-C,"I recently got a brand new M4 MacBook Air (13-inch, 16GB RAM, 256GB SSD). It works great overall, but I’ve noticed a weird charging issue and I’m trying to figure out if it’s a hardware defect or a known bug.
+
+The issue:
+
+· When I plug in the charger (either MagSafe or USB-C), the MacBook makes the connection sound and shows the “plug” symbol in the battery icon, but it doesn’t actually charge.
+
+· If I unplug and replug a few times, it will eventually start charging normally with the lightning bolt.
+
+· The behavior is inconsistent. Sometimes it starts after 5 seconds. Other times it takes a couple of plug/unplug attempts.
+
+· Once it’s charging, it works perfectly and holds charge fine.
+
+What I’ve tested:
+
+· Multiple MagSafe cables (mine + one from a repair shop)
+
+· Different USB-C cables and chargers (including one that works fine with my iPad)
+
+· Different power outlets
+
+· Both MagSafe and USB-C ports (issue happens on both)
+
+· Installed the latest 13GB macOS/firmware update (didn’t fix it)
+
+· Tried the “sleep/wake” test: I plugged it in (showed the plug symbol), closed the lid for 30–40 seconds, opened it, and it started charging normally with the lightning bolt.
+
+The sleep/wake test is what really confuses me. If it were a hardware issue, I wouldn’t expect sleep to fix it. That makes me think it could be a firmware or power management bug.
+
+Has anyone else with an M4 Air experienced this? Is this a known issue, or should I take it in for service? It’s still under warranty, but I’d rather not have them open it up if it’s just a software bug that’ll get patched.
+
+Thanks!",,title_and_body,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/applehelp/comments/1r6g6vn/m4_macbook_air_intermittent_charging_issue_both/
+B22-004,applehelp,Iphone 14 stuck in recovery,"Hi all,
+
+Does anyone know what could be a solution? My iphone 14 is stuck in this screen after i tried to factory reset from the computer using Apple Devices.
+
+
+After downloading the update it started installing and I got an error on my screen. Now the phone is stuck like this",,title_and_body,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/applehelp/comments/1s4zy76/iphone_14_stuck_in_recovery/
+B22-005,Ubuntu,"Krita Pen Tablet issue with Ubuntu 26.04 Resolute Raccoon, GNOME 50+, Wayland.","I am here to discuss about this problem because the Krita's guidelines about bug reporting states clearly that if I have a problem with my graphic tablet it's not a Krita issue.
+
+[https://docs.krita.org/en/untranslatable\_pages/reporting\_bugs.html](https://docs.krita.org/en/untranslatable_pages/reporting_bugs.html)
+
+Since the Ubuntu 26.04 release, only Wayland will be supported, meaning a definitive switch from X11 to Wayland.
+
+Before this update Krita worked perfectly fine, but after this update, it won't read any of my tablet inputs. (I have an XP-Pen STAR G640)
+
+I doubt that it has to do with tablet drivers.  
+I had to remove the proprietary drivers because they made a duplicate of my tablet in the gnome settings some how.  
+With the default drivers the tablet works just fine and I am also able to adjust all the settings, just like with the proprietary drivers.
+
+I tested my tablet in other applications and only the updated apps that support Wayland work perfectly fine, but Krita and all the apps that work with X11 won't work.
+
+I know that the only workaround is to go back to previous versions of Ubuntu and run an X11 session, but It's not the best idea since they won't be supported for much longer.
+
+I tried forcing Krita on X11 with the command `export QT_QPA_PLATFORM=xcb krita` but it won't even start like this.
+
+I tried with this other command forcing it on Wayland `export QT_QPA_PLATFORM=wayland krita` but even if it would start, it won't read the tablet input correctly, with the pointer constantly being the default pointer and not the appropriate variant.
+
+I tried changing installation (flatpak, snap, deb and AppImage) and did all the tests with all these installations, but nothing fixed the missing tablet input in Krita.
+
+I searched in the Krita's settings, but I couldn't find anything helpful so far.
+
+I hope some of you have a better solution to this, and if possible a solution that doesn't involve a regression of the system.
+
+\[edit\]: Sorry, in the previous version of this post I made a mistake with the commands.",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/Ubuntu/comments/1t2m2cy/krita_pen_tablet_issue_with_ubuntu_2604_resolute/
+B22-006,debian,Upgrading Debian 10.13 to current stable vesion,"I have a Debian server which embarrassingly is still on version 10.13.  Normally to upgrade several releases you'd upgrade 10 to 11, 11 to 12, 12 to 13.  Version 11 support ends at the end of this month, does this mean I have to upgrade to it in the next few days?
+
+I'm also concerned about things breaking. Mainly web and mail servers.  They have a lot of config and a new version installed with the upgrade could be incompatible.
+
+What is the safest way to do it, and hopefully with the least downtime.  To swap to a new server would be expensive and difficult.","[1:reply] It's still possible to upgrade to 11 even after support for it ends, but depending on the exact timing you may have to fetch it from archive.debian.org rather than the usual location. 
+
+I would still go one release at a time and test that everything important still works after e…
+[2:reply] Make a backup of /home and everything else you need just in case (though you should have a full system backup anyway).
+[3:reply] If you are using Dovecot for the mail server, be extra careful. There is a breaking change between v.2.3 and v.2.4. 
+
+https://doc.dovecot.org/2.4.0/installation/upgrade/2.3-to-2.4.html
+[4:reply] &gt; Version 11 support ends at the end of this month, does this mean I have to upgrade to it in the next few days?
+
+It's not mandatory, but as you've said your system runs network services, you *really* should.
+
+&gt; What is the safest way to do it, and hopefully with the least…
+[5:OP] Thanks. This is headless, a hosted VM.  I don't think the network adaptor has a pretty name and I hope there won't be serious network problems.  I didn't find any guides with detailed instructions on specific components and apps.  At least like you I don't have to worry about Nv…",title_body_comments,yes,yes,other,medium,The post appears to discuss software without a clear troubleshooting or chiefly critical purpose.,,,,,,,https://reddit.com/r/debian/comments/1vsvg32/upgrading_debian_1013_to_current_stable_vesion/
+B22-007,chrome,"Whenever I search something, I see the little “sign in” bubble in the top right, even though I AM signed in.","When I click the “sign in” bubble it just reloads the page. Earlier, if I clicked “*sign in* to arrange apps” it would give me a 400 error, but it’s not doing that anymore, just reloading the page. The second picture is what I see when I click account from the first picture, showing that I am logged in. When I open other Google services like YouTube, Docs, etc. it says I am logged in there, this is specifically an issue with the search result page. Earlier, it was not saving my search history, but now I can see my previous searches from the Google home page when I click the url bar, but I can’t see them from the search result page. I have already tried all of the troubleshooting advice I could find. I cleared my cache and cookies then closed and reopened Chrome *twice*. I tried to sign in in an incognito window, it wasn’t any different. I turned off all of my browser extensions one by one and checked if the issue was fixed each time, nothing. I signed out of chrome and logged back in, still nothing. There was an update to chrome available when I was having this issue, so I restarted chrome to do the update, hoping it would fix the issue, but nothing changed after the update. This is my college email account so I fully deleted the chrome profile from my device, closed chrome, restarted my laptop, re-opened chrome, re-added the account to my laptop, and the problem is still here so I had to rebuild my bookmarks/shortcuts/extensions/settings for nothing 😑. The two times where I said “earlier, it was doing this, but now it’s doing this” refers to before and after I deleted the profile from my device, so doing that changed the issue, but didn’t fix it. It’s worth noting that this is *not* happening on my personal chrome account. I am losing my goddamn mind over this, so does anyone have any advice?","[1:reply] Thank you for your submission to /r/Chrome! We hope you'll find the help you need. Once you've found a solution to your issue, please comment ""**!solved**"" under this comment to mark the post as solved. Thanks!
+
+
+*I am a bot, and this action was performed automatically. Please […",title_body_comments,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/chrome/comments/1v155go/whenever_i_search_something_i_see_the_little_sign/
+B22-008,applehelp,App to open apartment gate is showing up as and becoming the default call/FaceTime app,"I recently upgraded my phone from an 11 to a 16E and the app my apartment complex uses to open the parking gates keeps showing up as a call/ facetime app and it also keeps defaulting to it over the FaceTime app when I try to FaceTime people. How do I disable this?
+
+Edit: resetting the Network settings did the trick: **Settings &gt; General &gt; Transfer or Reset iPhone &gt; Reset &gt; Reset Network Settings**",,title_and_body,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/applehelp/comments/1ue4n7j/app_to_open_apartment_gate_is_showing_up_as_and/
+B22-009,applehelp,Are photos saved in the automatic back up before updating?,"iphone is now stuck in recovery mode after attempted update through PC.... it took about an hour saying ""backing up iphone"" before attempting the update that bricked it. (iPhone could not  be updated. An unknown error has occurred (100)
+
+
+if i factory reset, are my photos and everything in that backup file (which is only ~15gb when phone was ~64gb)? or am I SOL?",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/applehelp/comments/1shargc/are_photos_saved_in_the_automatic_back_up_before/
+B22-010,Wordpress,MIME Error After Elementor Update,After updating to the latest Elementor version yesterday we are getting a MIME 522 error. We have tried everything possible to resolve this but it's not going away. Any advice on how to fix this error?,,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/Wordpress/comments/1rki4lj/mime_error_after_elementor_update/
+B22-011,applehelp,Phone keeps freezing and flashing purple/rgb,it happens whenever i perform an action every couple seconds. phone has been restarted. i’ve updated to latest ios.,,title_and_body,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/applehelp/comments/1spvfr3/phone_keeps_freezing_and_flashing_purplergb/
+B22-012,chrome,No prediction bar from search on home page,"so as can be seen by video below, after the latest update the prediction bar doesn't appear from Google search from homepage, anyone know if it's a bug or how to fix it?
+
+[Video](https://imgur.com/a/CG9ZX2B)",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/chrome/comments/1tfeq3t/no_prediction_bar_from_search_on_home_page/
+B22-013,Vllm,"Qwen 3.6-35B-A3B: Reddit Asked, So I Tested If the 3.5 Tool Calling Fixes Carry Over","**Update 1**: toggled preserve\_thinking on to see if tool calling problem fixed, doesnt work.
+
+**TL;DR**: Following up on the [Qwen 3.5 thread](https://www.reddit.com/r/vLLM/comments/1skks8n/) — after everyone kept asking about 3.6, I set it up using the same `qwen3_xml` \+ `enhanced.jinja` fixes and ran real agentic tests. Here's the honest result: my config is still the most stable, but compared to Qwen3.5-27B, Qwen3.6-35B-A3B is notably more loopy and has a higher chance of malformed tool calls interrupting an agentic process.
+
+# The Short Story
+
+After spending weeks ironing out Qwen 3.5-27B/35B for agentic use — same fixes, same template, same GPU tuning — people on Reddit kept asking about Qwen 3.6.
+
+So I set it up and ran real agentic tests. Gave the model full ownership of the folder, and asked it to build a full-stack project with frontend and backend, with a prompt of $10k token budget. Wanted to see how it holds up in practice.
+
+My config (enhanced.jinja + qwen3\_xml) is still the most stable option. But compared to Qwen3.5-27B, Qwen3.6-35B-A3B has two new problems:
+
+1. **More looping** — the model gets stuck in reasoning loops more often
+
+https://preview.redd.it/jbzl0ew5tcwg1.png?width=3482&amp;format=png&amp;auto=webp&amp;s=fb0757f5e0d69ba6a74413506418a6b89489fa12
+
+1. **Malformed tool calls interrupting agentic flow** — higher chance of breaking mid-task, even with the same config that works perfectly on 3.5
+
+# What Carried Over (Still Works)
+
+# qwen3_xml parser
+
+Registry-based parser handles complex tool arguments without corruption. Official docs still say `qwen3_coder`. I still say no.
+
+# qwen3.5-enhanced.jinja template
+
+The interleaved thinking template works on 3.6 35B-A3B. Proper `&lt;/thinking&gt;` tag handling, clean tool call formatting.
+
+# Precision drift on mixed GPUs
+
+RTX 4090 (SM89) wants W8A8, RTX 3090 (SM80) falls back to W8A16. `VLLM_TEST_FORCE_FP8_MARLIN=1` still forces both to match. Without it, conversations drift.
+
+# NCCL tuning
+
+Same setup: `NCCL_P2P_DISABLE=1`, `NCCL_IB_DISABLE=1`, `NCCL_ALGO=Ring`. Same reason: mixed topology stability.
+
+# Real Agentic Test: Three Runs
+
+I gave each trail the same prompt: full ownership of the folder, build a full-stack project with frontend and backend, $10k token budget.
+
+# Run 1: enhanced.jinja + qwen3_xml (my config)
+
+This is the one that lasted the longest. The model want to build a oss-inspect project for automauous codebase quality analysis.
+
+|Prompt|Accumulated Tokens|
+|:-|:-|
+|Project setup|13.9k|
+|""Did you check if this is bug free? This is your own project.""|135.1K|
+|DCP sweep auto-triggered|107.0K|
+|""Fix it then""|110.0K|
+|**Model died** \- improper tool calling|111.1K|
+
+This config survived to \~130K+ tokens (with 13m 20s) before dying from improper tool calling. The DCP sweep at 135K dropped it to 107K, but it kept going. For context, the 3.5 27B model with the same setup routinely goes 130K+ without any interruption.
+
+# Run 2: official.jinja + qwen3_coder
+
+https://preview.redd.it/xruaxzmmscwg1.png?width=3512&amp;format=png&amp;auto=webp&amp;s=cb4c773a36b91a4f6312b32404a453098501b4de
+
+\*\*For simplicity i didnt change the served-name in vllm, the model is actually is Qwen3.6-35B-A3B\*\*
+
+This model wanted to build a knowledge graph platform for graphify. (the skill ingestion is a bit aggressive ah?)
+
+**Died in 6m 32s** — improper tool calling. Failed too early to be reliable for agentic tasks.
+
+# Run 3: official.jinja + qwen3_xml
+
+https://preview.redd.it/1qvkpcpltcwg1.png?width=3530&amp;format=png&amp;auto=webp&amp;s=95a9445b63b5c9db38d0bab1dec85d4984ed3956
+
+This time the model wanted to build TaskFlow — a Kanban project management app with authentication, drag-and-drop task management, and a polished UI.
+
+**Died in 1m 16s** — malformed tool calls inside the thinking box. Failed too early to be reliable for agentic tasks.
+
+https://preview.redd.it/450bg6lntcwg1.png?width=3530&amp;format=png&amp;auto=webp&amp;s=f0697dcae6870265de7c3de03cf9e6757315e3d1
+
+# Run 4: Enabled preserve thinking
+
+https://preview.redd.it/05yxfedi1dwg1.png?width=3588&amp;format=png&amp;auto=webp&amp;s=3f1e4d9a524acfe76d44e42b14f38ca8c4873391
+
+This time the model wanted to build a Knowledge Discovery Engine — an end-to-end system that crawls web content with agent-browser, builds knowledge graphs with graphify, and provides an interactive visual explorer with surprising insights and knowledge gap analysis.
+
+However, this time the model start looping itself, keep trying to call sub-agent (disabled) and keep modifying the todo list but dont write a single code.
+
+Verdict:
+
+      --default-chat-template-kwargs '{""preserve_thinking"": true}' \
+
+dont help.
+
+# Remarks
+
+For the tech stack the model is using, I have 0 knowledge about it.
+
+# Comparison Summary
+
+|Config|Survival|Failure Mode|
+|:-|:-|:-|
+|`enhanced.jinja` \+ `qwen3_xml`|\~111K tokens (13m 20s)|Improper tool calling (died)|
+|`official.jinja` \+ `qwen3_coder`|6m 32s|Improper tool calling|
+|`official.jinja` \+ `qwen3_xml`|\~1m 16s|Malformed tool calls in thinking box|
+
+For comparison, the same test on Qwen3.5-27B with `enhanced.jinja` \+ `qwen3_xml` reliably runs 130K+ tokens before dying. 3.6 35B-A3B has a noticeably higher failure rate even with the best config. Qwen3.5-27B is still the most stable model for agentic work, despite its much slower TTFT.
+
+# New Problems Specific to Qwen3.6-35B-A3B
+
+# 1. More Loopy
+
+The model gets stuck in reasoning loops more often. It'll loop through the same analysis step multiple times, consuming tokens, before eventually moving forward. This isn't a template issue — it's a model behavior change. On 3.5 27B this happened occasionally. On 3.6 35B-A3B it's frequent enough to meaningfully impact long sessions.
+
+# 2. Malformed Tool Calls Interrupt Agentic Flow
+
+Even with `enhanced.jinja` \+ `qwen3_xml` (the config that works perfectly on 3.5 27B), 3.6 35B-A3B has a higher chance of generating malformed tool calls that break the agentic process. The tool calling format still uses XML and is technically correct — but the frequency is higher and the damage is worse: an interrupted session that can't recover.
+
+On 3.5 27B, a malformed tool call is a rare edge case after patching the template. On 3.6 35B-A3B, it's a much more regular occurrence that will eventually kill a long-running agentic session, no matter which config you use.
+
+# The Fix (Partial)
+
+**OpenCode 1.4.18** helps. The older version had tool calling issues that made things worse, this is especially true for the ""question"" tool. Upgrading to 1.4.18 resolved this issue of the malformed tool call problems.
+
+But here's the honest part: **upgrading the client doesn't solve the looping or the inherently higher failure rate on 3.6**. The root cause is still in the model (or template?).
+
+# My Config
+
+**vLLM Version**: 0.19.1 **Transformers Version**: 5.5.4 **CUDA Version**: 12.8.1 (nvcc 12.8.93)
+
+    export CUDA_DEVICE_ORDER=PCI_BUS_ID
+    export CUDA_VISIBLE_DEVICES=0,1
+    export NCCL_CUMEM_ENABLE=0
+    export VLLM_ENABLE_CUDAGRAPH_GC=1
+    export VLLM_USE_FLASHINFER_SAMPLER=1
+    export OMP_NUM_THREADS=4
+    export NCCL_P2P_DISABLE=1
+    export NCCL_IB_DISABLE=1
+    export NCCL_ALGO=Ring
+    export VLLM_TEST_FORCE_FP8_MARLIN=1
+    export VLLM_SLEEP_WHEN_IDLE=1
+    
+    rm -rf ~/.cache/flashinfer
+    
+    vllm serve Qwen/Qwen3.6-35B-A3B-FP8 \
+      --served-model-name Qwen3.6-35B-A3B \
+      --chat-template qwen3.5-enhanced.jinja \
+      --attention-backend FLASHINFER \
+      --trust-remote-code \
+      --tensor-parallel-size 2 \
+      --max-model-len 200000 \
+      --gpu-memory-utilization 0.91 \
+      --enable-auto-tool-choice \
+      --enable-chunked-prefill \
+      --enable-prefix-caching \
+      --max-num-batched-tokens 12288 \
+      --max-num-seqs 4 \
+      --kv-cache-dtype fp8 \
+      --tool-call-parser qwen3_xml \
+      --reasoning-parser qwen3 \
+      --no-use-tqdm-on-load \
+      --host 0.0.0.0 \
+      --port 8000 \
+      --language-model-only
+
+# Bottom Line
+
+**My config (enhanced.jinja + qwen3\_xml + OpenCode 1.4.18) is still the best I can do on Qwen3.6 35B-A3B.** But it's worth being honest: Qwen3.6-35B-A3B is more loopy and has a higher failure rate for agentic tool calling compared to Qwen3.5-27B. It is quite surprising that the tool calling issues presents again on 3.6 35B-A3B. The root cause is still unknown (maybe preserved thinking is one of the reasons?)
+
+Comparing Qwen3.5-27B, Qwen3.5-35B-A3B and Qwen3.6-35B-A3B, all three models official template are the same. It may reveal that Qwen team has his special treatment for the tool calling issues, if they decided to launch Qwen3.6 flash model.
+
+**I've decided to stick with Qwen3.5-27B-FP8.** For agentic obedience — following instructions, executing tool calls cleanly, not looping — the 27B model outperforms the 3.6 35B-A3B in this regard (in my testing). 3.6 has much faster TTFT, similar ability to Qwen3.5-27B (by AA benchmark), but it pays for it with looping and tool call failures that kill long sessions. Reliability over raw intelligence for agentic work.",,title_and_body,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/Vllm/comments/1sqptnw/qwen_3635ba3b_reddit_asked_so_i_tested_if_the_35/
+B22-014,chrome,"Google My Activity search bar completely broken (Zero results when typing anything, laptop &amp; mobile) - Backend indexing issue?","Hey everyone,
+
+I am experiencing a bizarre issue with my Google My Activity page that I cannot seem to fix. I’ve gone through every standard and advanced troubleshooting step imaginable, and it’s still completely broken.
+
+**The Symptom:**  
+My activity timeline updates perfectly fine. I can see my recent searches and history listed out in chronological order. However, the moment I type *anything at all* into the My Activity search bar, it immediately returns absolutely zero results. It fails even when I type a single letter with absolutely no search filters applied.
+
+**The Critical Detail:**  
+This happens on **both my laptop and my mobile device**. Because it is cross-device, it doesn’t seem to be a local browser or hardware glitch.
+
+**Everything I have already tried (with no resolution):**
+
+* Verified **Web &amp; App Activity** is fully turned ON in my Google account settings.
+* Checked and confirmed **""Show personal results"" / ""Search Personalization""** is explicitly enabled in my Google Search Preferences.
+* Disabled all browser extensions (ad blockers, privacy tools, etc.).
+* Cleared browser cache, cookies, and local data.
+* Toggled **""Make searching and browsing better""** / Autocomplete settings off and on to force a sync.
+* Toggled **Hardware / Graphics Acceleration** on and off in my browser settings.
+* Attempted the ""Last Resort"" server re-index trick by manually deleting a recent item directly from my timeline to see if it would force the database to refresh.
+* Submitted a formal bug report via ""Help &amp; Feedback"" to Google.
+
+Since it fails across multiple devices and networks, it really feels like an account-level database indexing error on Google’s backend servers where my personal data isn't being queried correctly when a text filter is applied.
+
+Is anyone else experiencing this right now, or has anyone successfully dealt with this kind of backend freeze before? How long does it usually take to clear up?
+
+Update: Hey.. it just got fixed for me! (August, 17th, 2026)","[1:OP] I hope it gets resolved by itself, in the meantime, I advise you to submit a formal bug report via ""Help &amp; Feedback"" to Google.
+[2:reply] Thank you for your submission to /r/Chrome! We hope you'll find the help you need. Once you've found a solution to your issue, please comment ""**!solved**"" under this comment to mark the post as solved. Thanks!
+
+
+*I am a bot, and this action was performed automatically. Please […
+[3:reply] I have exactly the same problem as you. Website appears on the first page but don't appear when i try to search them.
+[4:reply] I'm having the exact same problem and so it 2 other people in my house. I search my Google Search and it just keeps buffering and or it says no results. I even searched a word I know I have searched before and it still says no results. Are they having problems?
+[5:OP] I hope it gets resolved by itself, in the meantime, I advise you to submit a formal bug report via ""Help &amp; Feedback"" to Google.",title_body_comments,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/chrome/comments/1vpnb90/google_my_activity_search_bar_completely_broken/
+B22-015,Supabase,Is it safe to upgrade Supabase CLI from 2.62.10 to 2.106.0?,"Hi
+
+I have been on Supabase CLI v2.62.10 for a while now because months ago I updated to a higher version (something like 2.7x) and then my edge functions stopped working.
+
+Something that had to do with validating tokens and ""asymmetrical JWTs"" and I had to use a package called `jose` to sign the JWT and things like that that I couldn't spend time on and Supabase didn't have any doc to migrate an existing function to the new system.
+
+The only thing I modified was using `sb_publishable_....` instead of anon key.
+
+A few days ago I saw something somewhere that the `jose` library approach isn't necessary anymore.
+
+What is the current state?
+
+If I remember correctly, it had something to do with validating the token that would crash the function if we have something like this:
+
+```
+const {
+  data: { user },
+  error: errorGetUser,
+} = await supabaseAdmin.auth.getUser(token)
+```
+
+What is the current state? What do I need to change in my edge functions to be able to go up to the new CLI version?
+
+Is there any AI skill/context7 that can read my functions and automatically updates them?
+
+Thanks","[1:reply] Hey mate!  
+We've been working hard these last months, and CLI now supports new asymmetric JWTs as well as a lot of new features.
+
+It should be safe to try the latest version, even better with [https://supabase.com/blog/introducing-supabase-server](https://supabase.com/blog/intr…
+[2:OP] Great thank you. This seems like a much easier and less convoluted approach than what was introduced a few months so good job 👏
+
+I see it's in beta mode. Is it safe to use on a production project or better to wait a few weeks/months for the stable version?
+
+Thanks a lot
+[3:reply] Any idea on when it will be out of beta?",title_body_comments,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/Supabase/comments/1u35qi5/is_it_safe_to_upgrade_supabase_cli_from_26210_to/
+B22-016,MacOS,Absolute joke,"I absolutely love Pages. Google Docs / Word are hot garbage, they're ugly, cloud saving for Word is locked to whatever the Microsoft cloud service is called.
+
+But holy shit, since upgrading to Tahoe (which I love visually) Pages has become unusable. It eats the entire RAM/Storage for breakfast.
+
+Bug reports for this issue (related to spotlight) have been made **a long time ago** and Apple did nothing. No update, no fix.
+
+I have defended every MacOS release since I first got a Mac over ten years ago. I even genuinely like the '26' line of OS updates. I like liquid glass. I love the iPhone Air. Taheo is gorgeous but this has to be a joke.
+
+I've tried everything. Even using new files, not putting them outside of the 'Pages' folder, I tried deleting it and downloading it again, I tried it on my Macbook Pro. Nope, fuck you, I want 100GB of memory lol.
+
+The news of Pages being part of the subscription-based Creator pack was quite funny. App doesn't work but they gotta stick more AI crap into it and charge a monthly fee.",,title_and_body,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/MacOS/comments/1qhzvb4/absolute_joke/
+B22-017,applehelp,"battery charging limit set to 80%, but still charges to 100%","i have a brand new iphone 17, bought around this time last month. i have set the battery charging limit to 80%, and **I KNOW!!! that it will still charge to 100% from time to time**, but it has been charging to 100% for the last three days, especially after the last update (ios 26.6).  
+i don’t think this is normal, as it should be rare for it to do so just like it does with my ipad, maybe like once a month or something? 
+
+also, it keeps sending me a notification at least one a day since the update that says my battery is still adapting to my daily usage, as i have the adaptive charging thing turned on.  
+again, i know this is supposed to be normal, but it’s been a month since i started using this phone and it should’ve already adapted by now, at least that’s what i’ve read online…
+
+do y’all think it’s a bug? if so, how can i fix this?","[1:reply] Not a bug, it does this every once in a while to still be able to accurately measure state of charge.
+
+[source](https://support.apple.com/en-us/108055)
+
+&gt; If you have Charge Limit set to less than 100 percent, your iPhone will occasionally charge to 100 percent to maintain ac…
+[2:reply] three days in a row is a bit much but I do not think it is broken. the 80 percent limit is a soft target and iOS will let it top out when the calibration drifts, and a brand new phone with changing usage patterns hits that more often. my 16 did the exact same thing for the first…
+[3:reply] Let it charge to 100 percent when ever it goes above 80 then discharge it and try again
+[4:OP] like i said, i know that it’s supposed to do so from time to time. it’s just weird that it has happened three times in a row, something that my ipad air 11” from 2024 never did. i’ll see in the next few days whether it keeps charging to 100% or not",title_body_comments,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/applehelp/comments/1vn6gix/battery_charging_limit_set_to_80_but_still/
+B22-018,chrome,Familylink safesearch not working on Chrome and Lens search,"I don't know if this is the right place to ask but here goes:
+I manage my child's google account on his android via FamilyLink and have Safesearch enabled, plus a few websites blocked. Up until recently there haven't been any issues. Since the latest update, though, when searching on images you can view inappropriate content by clicking the Lens button (that icon on the bottom left of photos). It shows related images from websites that should be blocked - so if you happen on a photo of a policeman, related images show crime shootings, if you happen on a pic of a girl in a swimsuit, related images show nudity and so on. I've tried disabling the Lens feature in chrome://flags but to no avail. I've tried preventing Lens search by deleting web and app activity, stopping search permissions, turning off AI features. I've cleaned both the google app and Chrome's cache and made sure the account signed in is my kid's. Having a secure Dns connection to the phone or a factory reset of the device doesn't work. Despite Familylink telling me safesearch is enabled, the problem won't go away. I could set up internet filtering on the home router, but that would affect all devices in the house. Never had this happen with Chrome and Lens before, but from what I can tell there's no way to remove this feature. How do I solve this issue?",,title_and_body,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/chrome/comments/1ps4uxk/familylink_safesearch_not_working_on_chrome_and/
+B22-019,AndroidQuestions,Android 16 update on Motorola Edge 50 Neo broke keyboard,"My mom's phone recently updated to Android 16 and since then the bottom part of the keyboard, where the space bar, comma and dot are, is obscured by the navigation buttons.
+
+This is regardless of the app she's using, and resizing the keyboard doesn't solve it.
+
+The only workaround I could find was to set it as a floating keyboard and move it as far down as possible without re-docking it, but that's not a great solution.
+
+She's using the default keyboard and didn't make any changes amaprt from the Android update.
+
+Any help?",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/AndroidQuestions/comments/1s2no7y/android_16_update_on_motorola_edge_50_neo_broke/
+B22-020,firefox,media.hardwaremediakeys.enabled doesnt work on windows 11,"I have a ahk script that plays/ stops media. It works for spotify, for media player, chrome and so on. But since recently, it no longer works on firefox (with youtube).
+
+It seems, Firefox, doesn't send the media to Windows Media Session. When I lock the screen for example, all media, that works is shown in a little popup, where it can be paused. Not for firefox.
+
+I have media.hardwaremediakeys.enabled on true and it worked up untill quite recently. Did Firefox disable this in the newest update?
+
+thx :)",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/firefox/comments/1oi8y05/mediahardwaremediakeysenabled_doesnt_work_on/
+B22-021,chrome,The new mobile Chrome update is absolute garbage.,"Chrome has ruined my mobile browsing experience with this new update. They forced the address bar and all the navigation buttons to the bottom of the screen, and none of the normal settings are letting me move everything back to the top where it belongs.
+
+Am I missing something here, or has anyone actually figured out a workaround to fix this and slam it back to the top?","[1:reply] [deleted]
+[2:reply] This isn't what the post is talking about. The Address Bar remains at the top, but there is a new toolbar that includes a Gemini button at the bottom. So, it takes up twice as much screen space (either at the top and bottom or just the bottom, depending on the setting).
+
+My phon…
+[3:reply] My phone changed to this last week but reverted back this morning. I'm hoping the change is permanent. That said, someone in another tread found a potential fix in the flags under ""Android Bottom Bar"" or something like that.
+[4:reply] https://preview.redd.it/mjhmt5dfl8ch1.jpeg?width=968&amp;format=pjpg&amp;auto=webp&amp;s=de71f41421f427d2e8892bf1b71e75f1b19ec8b4
+[5:reply] I like the new bottom bar, I just wish it included a shortcut to get to the omnibox so I could keep the address bar at the top with the other bar at the bottom.",title_body_comments,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/chrome/comments/1uruph1/the_new_mobile_chrome_update_is_absolute_garbage/
+B22-022,comfyui,"After recent updates, I get error trying to generate with Flux NF4 AIO Models. Tried different Workflows, all give same error ""!!! Exception during processing !!! mat1 and mat2 shapes cannot be multiplied (1x1 and 768x3072)""",,,title_only,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/comfyui/comments/1kh6cuc/after_recent_updates_i_get_error_trying_to/
+B22-023,MicrosoftEdge,[BUG REPORT] Enhance video button bug when clicked,"I'd like to report a somewhat bizarre bug that's been around since version 147.0.3912.60 (stable).
+
+
+
+The `enhance videos` button that appears as a pop-up when I'm playing a video on MS Edge (for example, YouTube) is enabled by default (blue). 
+
+If I try to disable it, the toggle no longer turns white but disappears completely. Furthermore, it sets the toggle in `Settings &gt; System and Performance &gt; System &gt; enhance videos` to `off`, so to re-enable it, I have to go into the settings.
+
+
+
+This bug is still persisting even after Edge has been updated to version 147.0.3912.98.",,title_and_body,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/MicrosoftEdge/comments/1t0mu8i/bug_report_enhance_video_button_bug_when_clicked/
+B22-024,chrome,"Some command line switches (--window-position, --window-size) not working since recent update?",,,title_only,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/chrome/comments/1mcw5f5/some_command_line_switches_windowposition/
+B22-025,immich,Immich Crashing after file format change/Help to Bulk Data pull,"Hi all,
+
+I’ve been using Immich on TrueNAS, but after updating to the new file format, my instance started continually crashing. I’ve tried copying the data (removing read only status) into a new instance to get it working again, but haven’t had any luck. I’ve been struggling with this issue for a few months now and can’t seem to figure it out.
+
+At this point, my only option seems to be extracting the photos from the folders Immich created — but I’m hoping there’s an easier way than manually going through and copying everything out.
+
+Ideally, I’d like to keep my existing data, including my family’s profiles and metadata, rather than starting over from scratch. Does anyone have any advice or a recovery approach that might help?
+Happy to talk on here or discord if easier.
+
+Thanks in advance 🙏🏼",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/immich/comments/1oqsuwv/immich_crashing_after_file_format_changehelp_to/
+B22-026,sysadmin,"Why I can never be a sysadmin; or, Why is software like this?","This is not a very serious post; I'm just screaming into the void and hoping a few laughs and nods echo back; though there is a serious question at the end of it all. Below is an email I sent to my friends at 5am, after I spent all night getting a linux laptop running again. Of note: I know what I'm doing when I *write* code, but I'm completely useless at systems administration. My palms sweat if I need sudo for anything. I cringe at touching config files. dpkg? I don't do drugs, man, keep that hard stuff out of my life...  
+  
+Without google I'd never be able to maintain anything. So when my laptop boots and there's not even an option to connect to the network... I'm sure you guys all nod and know exactly what happened, *but I didn'*t, and while there's humor in trying to resurrect a laptop on Easter morning, it's not the kind of humor I like at 3am.
+
+My email to my friends follows. Intended for humor but please consider the question at the end: *why is it even like this?* We've has OSes for 50+ years, and *this* happens?  
+  
+\---  
+
+
+I remember an old ""Peanuts"" quote: *I love humanity, it's people I can't stand.*
+
+While I agree with that, I have my own version: I love programming, it's computer systems I can't stand.
+
+I bought a new cell phone recently, because if you live in Costa Rica you need a Costa Rican phone number to do anything, and I didn't want to give up my US number, so yeah. I got something Samsung/Android based, cleaned off all the crapware games that immediately started nagging me to play them, got it all set up... the very next day, it died. Black screen no matter what I tried, but I could still wave the phone to turn on the flashlight so I knew something in there was working. I just couldn't use it. On new hardware? Why?
+
+Tonight I thought I'd wind down from the game with some music, and fired up my laptop because for just music I don't need the full tower system. 
+
+Hm, no internet. Starlink glitched again?  
+  
+But Starlink was working fine... hm, *no list of available wifi*. In fact *no option to* ***show*** *the available wifis*.   
+  
+What?  
+  
+I plugged in the ethernet cable. Nothing. I plugged in the apple phone for a hotspot over USB.  
+  
+Nothing. How is this possible? The laptop's been working fine for days.  I didn't do an update. How can so much hardware fail at once?
+
+Google time (on the tower system because the laptop clearly wasn't going there). lsusb, lspci... the hardware is there. Searching for other causes.. no, I'm sure the drivers are fine, I didn't update anything. 
+
+Wait. *Where did the drivers go*? 
+
+Modprobe. *Nothing*.
+
+Half the system is missing. Disk failure? I mean my wife's tower has a dying disk, maybe it's contagious. Run badblocks. Crunch crunch crunch...  
+  
+Disks are fine. My personal files are all there. The disks are ok, so...?  
+  
+More google. All it's coming up with is some sort of failed update. Which I *know* I didn't do because I have an unholy dread of updates. Ok, let's look...  
+  
+The last update happened... 3 days ago?! *Without telling me!?* And based on the file sizes, it ran without completing, *probably when the battery died*, because initrd is a fraction of the size of the last good version.  
+  
+Try to reboot into grub so see if there's an option to boot into the previous version. There should be. Maybe there is, I'll never know. It's about impossible to time the keypress right to get into grub, and when you do get in it *freezes* as you type commands. Mid-command, before you hit return. Ten or so cycles of reboots, nope...
+
+I'm not sure why there's not a simple command to say ""I don't care, delete the current OS and go back to the previous one."" But *apt* wasn't working, and it's now 3am. Google kept lying. Fail. Fail. Fail.
+
+In the end I had to make a rescue disk. It turns out that rescue disks don't have a tidy command to move the OS back either. More Google. You have to mount a handful of different directories, and what is chroot anyway, and then modify root's path, and in the end *apt-install purge* still doesn't work and you end up taking a sledgehammer to things with dpkg --remove --force-all. And don't forget to reconfigure grub because dpkg isn't your nanny, even if I need one.  
+  
+Finally, reboot... oh look the internet is back. 5am. I can see the pre-dawn light out my window. 
+
+I've been using Linux for years. I remember the untimely birth of Windows, 40 years ago. And I know the horrid truth about them: *Neither of them are yet ready for primetime*.
+
+Fundamentally, no system should ever boot into an incomplete install. There should be a pointer to the active install and it shouldn't be moved to a new one until the install finishes cleanly and passes some sort of self check. Roughly speaking, the failed updated was like putting a pie in the oven before you put the pie together; it makes no sense. But no, grub just looks for the highest version number and has no idea what's valid or invalid. Oh, it doesn't work and the commands to change things fail? Sucks to be you, pathetic userland victim.  
+  
+So now I've discovered the unattended-update daemon and taken a sledgehammer to that too, because I never want a machine doing stuff behind my back.
+
+WHY is it like this? 50+ years of OS development and all we have is systems that can't survive a low battery?
+
+I'm going to bed, annoyed.",,title_and_body,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/sysadmin/comments/1sd8sff/why_i_can_never_be_a_sysadmin_or_why_is_software/
+B22-027,homeassistant,Third Reality Vibration Sensor Issues,"Hello,
+
+I had a Third Reality vibration sensor connected via zigbee. I used to use binary\_sensor.dryer\_vibration to detect vibration from my dryer.
+
+After a Zigbee2MQTT update it’s gone. Doesn’t have vibration entity. How do I get it back?
+
+Edit: Roll back the Zigbee2MQTT update to the last backup you have. That fixed it. For now don’t update to the latest version. I just skipped it for now.
+
+Edit 2: Thank you for all the help! Someone mentioned that it switched from vibration to alarm 1. Both the old and new entity work the same way.","[1:reply] Same. I was gonna open an issue later if nobody else does. 
+
+Only way to get it back would be to roll Z2M back to the previous version you backed up before updating.
+[2:reply] same boat, appears it's possible that the vibration entity may have become alarm entity?
+[3:reply] Howdy... Just did some additional digging to see if I could find any mention of it elsewhere. The pull request on GitHub mentions a breaking change.
+
+&gt;This was a breaking change, renaming vibration to alarm\_1  
+You can see in docs:  
+before: `vibration`  
+after: `alarm_1`…
+[4:reply] zigbee2mqtt updates can be brutal for breaking device mappings sometimes. check if the device is still paired properly first - might need to re-interview it or even re-pair completely. also look in the zigbee2mqtt logs to see if there's any errors when the sensor reports
+[5:OP] Yes. That fixed it. I had a backup of Zigbee2MQTT from two months ago. That update brought back the missing entity.",title_body_comments,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/homeassistant/comments/1u1zwy8/third_reality_vibration_sensor_issues/
+B22-028,comfyui,"Since this last update when I open ComfyUI it says im missing things like VAE, Text encoders, Diffusion models. It asks if i want to download them but they are already in all the folders. I'm at a loss on how to fix what the update broke.","Scrolling through the last several days worth of posts, I haven't seen this specific issue mentioned I don't think. I know I read to pip uninstall the front end and role back to the before times, but havent gone looking for the previous version yet. 
+
+  
+I feel like I'm always on the edge of understanding and that I'm not doing things entirely right. for example I'm using the desktop version instead of portable and in order to get sageattention and triton working I followed a write up that ended with me using a bat file in my comfy base folder to start up.
+
+  
+with this setup it opens in a tab in my browser instead of its own window like my original install, which as far as I understand uses more resources than the stand alone window. This has become pretty important, as I was running my vram up to 99-100% doing I2V before, and now after nodes 2.0,  either the program or my whole computer crashes. 
+
+  
+its interesting though, I started doing any AI generation using Krita with the Comfy plugin, and that still works great and generates images quickly. I would love just a little push in the right direction towards any kind of functionality.",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/comfyui/comments/1pei5uw/since_this_last_update_when_i_open_comfyui_it/
+B22-029,firefox,Why is my Firefox screen logo in a different place? How to make it move?,"Hi all, I am hoping someone here can point me in the right direction. I have an issue where the shortcut icons on my desktop PC are too low on the screen, and the FF logo is centered and also too low, there's a large amount of blank space above the logo as well. This wasn't an issue for well, forever, until a recent update. My HTPC (in the first attached photo) had the same issue after the update, but a few days back, I turned the HTPC on and it had corrected itself - I didn't change anything at all. It moved the FF logo up and to the left as you can see in the picture (ignore my error in the photo about how it moved to the ""right"" automatically, as you can see, it moved to the ""left"", which is what I want it to do). 
+
+This is how I want my desktop (second attached photo) to look - with the FF logo higher and to the left side, out of the way. This would also allow the shortcut icons to move up and be centered on the screen, as you can see, they are very low and the text is nearly cut off on the bottom row due to this. I looked at all the settings, I can't see anything that is different between the two and no way that I can see to make the FF logo move. I can't explain how it did it on its own on the TV but won't do it on the Desktop PC.
+
+Thanks for anyone that can point me in the right direction. BTW, both are running the updated v.151.0.4 of FF.","[1:reply] The one on the first image is the new design that is being slowly rolled out to users
+
+If you want to activate it, go to about:config and set     **browser.newtabpage.activity-stream.nova.enabled** to **true**, it should move to the left
+
+Edit: wait, I just disabled and enabled…
+[2:OP] Thanks for the try! Like I said, I can't understand what's going on here, I didn't change a single setting on my HTPC and it moved by itself to the upper left corner a few days back during a reboot. Yet my desktop PC refuses to do the same thing. Hopefully someone can figure thi…
+[3:reply] If experiment adding more items (Shortcuts, Widgets, Recommended Stories, etc.) to an empty New Tab page... e.g. on a clean new profile... will find that as the Firefox New Tab page fills up with items the Firefox logo and brand name moves from top centre to top left to allow mo…",title_body_comments,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/firefox/comments/1u2lv7p/why_is_my_firefox_screen_logo_in_a_different/
+B22-030,neovim,Errors in Lazyvim after upgrading to the latest Mason Version,,,title_only,yes,yes,other,medium,The post appears to discuss software without a clear troubleshooting or chiefly critical purpose.,,,,,,,https://reddit.com/r/neovim/comments/1kie1x0/errors_in_lazyvim_after_upgrading_to_the_latest/
+B22-031,sysadmin,Manual Plugin Update Tenable Security Center,"Newest plugins are yuge so I couldn’t upload them via GUI in an air gapped network and did them manually. 
+
+Ran this:
+
+/opt/sc/support/bin/php /opt/sc/src/tools/pluginUpdate.php /path/to/sc-plugins-diff.tar.gz
+
+Then this on Nessus scanner to manually sync:
+
+/opt/nessus/sbin/nessuscli update /path/to/sc-plugins-diff.tar.gz
+
+However when syncing the Nessus Scanner I got an error: “plugin memory limit exceeded” 
+
+Edited the php.ini on SC for larger memory max and even updated the upload size to try getting it through the GUI with a new limited but it still errored out. Memory on the server is plenty.
+
+Is there something/somewhat I’m missing an update?","[1:reply] The scanner error is usually on the Nessus side, not Security Center. `pluginUpdate.php` uses SC's PHP, but `nessuscli update` has its own limits and service state, so restart Nessus after the manual update and check `nessusd.messages` for the exact line around that error.
+
+If i…
+[2:OP] I thought so, but none of the settings within Nessus involved memory so thought I’d give it a try lol
+
+Is there anything lost from using the full plugin set? The full set included the newest version of every plugin correct?",title_body_comments,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/sysadmin/comments/1vus4cf/manual_plugin_update_tenable_security_center/
+B22-032,openclaw,Lessons from running 3+ OpenClaw gateways 24/7,"I run 3+ OpenClaw gateways 24/7. One for personal use. One for a non-profit (handles email, slides, X.com posting, YouTube, WordPress, text-to-speech for board accessibility). One for a community org I chair.
+
+I kept breaking them in production almost daily because I treated OpenClaw changes like scratch work instead of production deployments.
+
+Real failures:
+
+The upgrade that wouldn't die: Ran pnpm add -g [openclaw@latest](mailto:openclaw@latest). Gateway crashed with MODULE\_NOT\_FOUND — the new version installed to a different path, my service file had the old path hardcoded. My rescue script restarted it every 5 minutes, indefinitely. It couldn't tell the difference between a transient crash (restart works) and a structural failure (need to fix the service file first).
+
+Silent capability loss: I'd configure a new integration, restart the gateway, and discover three days later the API key was in the wrong config section or had expired. The capability appeared in the config. It didn't actually work. Board members tried to use the TTS audio feature — failed silently. Email sending, X.com posting, all looked configured but were broken.
+
+Why this happens: An OpenClaw gateway has config spread across at least five places:
+
+1. main JSON file,
+2. environment variables in service files,
+3. Docker flags,
+4. provider blocks, and
+5. skills with their own credentials.
+
+Rotate a key in one location, the others go stale. Upgrade OpenClaw, hardcoded paths break. Update a skill, credentials silently stop loading.
+
+These are regressions. The same class CI/CD catches in software. Except here, there was no CI.
+
+What I'm building:
+
+Capability audit — before/after any change:
+
+• Parse config to enumerate claimed capabilities
+
+• Verify each one actually works (live API tests, 5-second timeout)
+
+• Diff the before/after snapshots
+
+Config validation gate — no direct edits to live config:
+
+• JSON validity check
+
+• Timestamped backups
+
+• Blocks known dangerous patterns
+
+Reproducible environment:
+
+• Version-agnostic service files (no hardcoded paths)
+
+• One canonical credential file, everything else derives from it
+
+• Crash-loop detection (3 failures = diagnose mode, not restart mode)
+
+Regression detector:
+
+• Daily comparison against known-good baseline
+
+• Classify changes: improvement vs. degradation
+
+• Alert on capability loss
+
+───
+
+I'm sharing this early — the work isn't finished, but if you're running AI infrastructure, questions for you
+
+• How do you handle gateway management?
+
+• Testing strategy for your openclaw?",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/openclaw/comments/1s0d1nk/lessons_from_running_3_openclaw_gateways_247/
+B22-033,immich,Upload issues after upgrading app to 2.2.1,"After upgrading to 2.2.1 (from 2.1) both mine and my SO's clients have stopped working. (android 16 and newest immich version) 
+
+The server log shows no issues but the clients throw these two errors:
+Error: updateMemoryAssetsV1
+Error in runInIsolateGentle  for remote-sync
+
+Pastebin added for details. 
+
+This is BTW the first time I've had issues with immich and I've been using it for a long time by now. What a product!",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/immich/comments/1om0um1/upload_issues_after_upgrading_app_to_221/
+B22-034,Ubiquiti,G4 Doorbell Pro/UCG Fiber issues resolved with custom firmware,"This is an FYI
+
+I started having issues with my doorbell camera after updating to 5.2.84, live view would show a still image, and no recording can be retrieved of events, I reached out to support and I was given the option to upgrade to 5.3.25 which resolved all issues!
+
+The UCG Fiber issue:
+
+Both network and Protect apps would crash on Ver. 5.1.6 whenever I tried to access sittings and sometimes randomly, and sometimes wouldn’t manage to start!
+
+Again support was quick to share a newer releases 5.1.7 which also solved the crashing problem.
+
+Just in case someone else is having similar issues, reach out to support :-)",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/Ubiquiti/comments/1se8p66/g4_doorbell_proucg_fiber_issues_resolved_with/
+B22-035,openclaw,techradar ran the securityscorecard piece today... 40k exposed again,"the 40k exposed instances number is making the rounds again, techradar picked it up a few hours ago. same securityscorecard research from feb basically, just a repackaged writeup. 40,214 instances, 28,663 unique IPs, 63% vulnerable to RCE, three high-severity CVEs with public exploit code.
+
+every time this cycle comes through reddit i see people going ""is my setup safe"" and the answer is almost always yes if you're on anything recent and bound to 127.0.0.1, and almost always no if you followed one of those medium tutorials from january that told you to bind to 0.0.0.0 so you could access it from your phone.
+
+netstat -tlnp | grep 18789, if it says 0.0.0.0 you're in the 40k. fix is either switch to 127.0.0.1 in your config or put it behind tailscale. tailscale is genuinely the move here, i don't know why anyone runs openclaw without it at this point. or if you don't want to think about any of this a friend of mine just moved his setup to betterclaw for like 19 bucks a month and hasn't had to touch a config file since, which honestly sounds nice some days.
+
+also worth saying, 40k exposed isn't 40k compromised. it's 40k reachable. mainstream press always flattens that. that said, 12k of those being RCE-exploitable is not nothing. if your grandma's gmail is wired to your openclaw you should probably care.
+
+if anyone's still on 2026.1.x or earlier just update, the three cves they're waving around are all patched in later builds.",,title_and_body,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/openclaw/comments/1sslv3b/techradar_ran_the_securityscorecard_piece_today/
+B22-036,vscode,Continue Plugin not working with Java Language server after latest vscode update on MacOS,,,title_only,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/vscode/comments/1kjv20q/continue_plugin_not_working_with_java_language/
+B22-037,applehelp,Airpods Pro 3 are connected to my iPhone but my phone doesn't use them for audio.,"Ever since updating my iPhone 13 Pro Max to iOS 26, my AirPods have been acting up.
+
+They connect successfully, and I hear the connection sound when I put them in my ears. However, when I play any audio, it comes through the iPhone speaker instead of the AirPods. Even if I manually switch the audio output back to the AirPods, it still continues playing through the phone speaker.
+
+The only temporary fix I've found is restarting my iPhone. Simply turning Bluetooth off and on doesn't resolve the issue, and the problem comes back again later.
+
+Has anyone else experienced this after updating to iOS 26? Is this a known bug, or is there a fix I should try?",,title_and_body,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/applehelp/comments/1v69mbi/airpods_pro_3_are_connected_to_my_iphone_but_my/
+B22-038,applehelp,SOS mode after latest update?,"Ever since I updated to the latest update (26.5.2) my phone (17pro) and my son’s phone (16pro) will randomly go into SOS mode. My carrier cant seem to find anything on their end - even after hours of troubleshooting….resetting network settings, new esims (MULTIPLE) and even factory resets on the phones. My son also keeps getting the error in the pic. Is it just us? Ive never had any issue with spectrum mobile. The pixel 7 on my plan has ZERO issues like this.","[1:reply] If your carrier has done all they can, it’s time to give Apple a call so they can look into it.
+[2:OP] They have a ticket open that they have until the 12th (ive been told) to be resolved. It’s just frustrating as i use my phone for work primarily so it’s affecting my work productivity.",title_body_comments,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/applehelp/comments/1ut7a4m/sos_mode_after_latest_update/
+B22-039,immich,Help  update immich to latest version,"Hey everyone,
+
+I have been using Immich for about a year now, at version 1.124.2, and had a public album for our wedding where everyone was able to upload images. Since it was important for me to keep the album and the link available, I was putting off the updates, but now I would like to get up to date with the latest version.
+
+Immich is running on a TrueNAS Scale 25.04.2.6; it was running as an app, and I have tried updating with no success. What I managed to do is to turn it into a ""Custom app""  and update it to version 1.132.3, the version right before VectorChord.
+
+What I am trying to do is update to 1.133 or 1.137 to get the VectorChord migration and the removal of TypeORM, but to no success. If I try any version between 1.132.3 and 2.1.0 I get `Error: The VectorChord extension version is 0.5.3, but Immich only supports &gt;=0.3 &lt;0.5.` even if I use `ghcr.io/immich-app/postgres:15-vectorchord0.3.0-pgvectors0.3.0` \- an image with VectorChord &lt; 0.5.
+
+I am not sure if I am doing it correctly, but right now, Postgres runs from `tensorchord/pgvecto-rs:pg15-v0.2.0`
+
+If I try to update Immich to a version &gt; 2.1.0 where I believe VectorChord 0.5 is supported, then I get `Error: Invalid upgrade path. For more information, see` `https://docs.immich.app/errors/#typeorm-upgrade`
+
+I know I have waited too long, but I already have 3 accounts with photos and albums, and would like to save them and run on the latest version. Any tip would be appreciated :)",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/immich/comments/1skiki4/help_update_immich_to_latest_version/
+B22-040,chrome,"cannot drag tabs, no longer able to type, general performance issues.","hi all, just posting here in case anyone has any guesses prior to me doing a re-install of chrome.
+
+the issue started happening yesterday, here are my reproduction steps:
+
+1. open fresh chrome window
+2. can drag tabs to re-order or into new window as per usual
+3. drag tab to make a new window
+4. old window now can no longer have its tabs reordered, typing in search bar now brings focus to the 3 settings dots but on the new window, in combination with this the old window now has limited functionality, such as using the folders in gmail etc.
+5. sometimes the affected window will return to being useable again, unsure what triggers this, but sometimes returning the once separated tab back to the original window will fix it.
+
+this isnt the only way to get this result, but the most consistent. ive also noticed some laggyness with chrome as well? noting i have made sure to update both chrome and windows 10 to latest versions and the issue still persists.
+
+any help would be greatly appreciated, thankyou! c:",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/chrome/comments/1p14hky/cannot_drag_tabs_no_longer_able_to_type_general/
+B22-041,MicrosoftEdge,Has the Control + Shift + E shortcut been removed or is it just me?,"I use it constantly to open the search sidebar when I need to check something and it suddenly stopped working today. Is it a just a bug I need to fix or was it removed in an update? Can I re-enable it if so?
+
+I know I can make the sidebar visible in settings and access it that way, but the shortcut was way more convenient and I don't want the sidebar visible when I'm not using it.",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/MicrosoftEdge/comments/1tc0z4l/has_the_control_shift_e_shortcut_been_removed_or/
+B22-042,Ubuntu,"Long boot times after upgrading from 24.04 to 26.04, resolved by masking TPM. Is this a common issue?","I am a fairly novice Linux user, and I was experiencing very long boot times with the 26.04 beta, which were not resolved when I updated to LTS today.
+
+Upon viewing the boot log, I noticed that my system was counting down a full 90-second timeout during the tpmrm0 and tpm0 start.  Disabling TPM in my BIOS did not correct the issue, nor did clearing it (in fact, these made it worse because GRUB failed to load after trying this).  However, after reinstalling GRUB and booting into the OS, I ran the following lines:
+
+sudo systemctl mask dev-tpmrm0.device
+
+sudo systemctl mask dev-tpm0.device
+
+This resolved the problem for me, and now my boot time is back down under 10 seconds. I am wondering if (a) this is a common problem; and (b) do any experts out there see a performance/security issue with this approach to fixing the glitch? 
+
+Perhaps I should also note that I am dual booting Ubuntu alongside Windoows 11, which may or may not be a factor.",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/Ubuntu/comments/1su4kqy/long_boot_times_after_upgrading_from_2404_to_2604/
+B22-043,chrome,Google Chrome update version 142 cause diagonal line bug,"Hello, 
+
+I am getting diagonal lines in Next.js projects with the latest Chrome update version 142. It is appearing on some old projects and some new. Mostly appears in website footers, but not always. 
+
+  
+Has this happened to anyone? 
+
+My app ""The Cool Case Converter"" which I haven't touched in many months, now has a diagonal line going across it. See screenshot.
+
+https://preview.redd.it/60kk67bbr2zf1.png?width=1884&amp;format=png&amp;auto=webp&amp;s=2fe3375d10fe3182a2edee100e4b39b5502ad471
+
+  
+And here another screenshot from a website footer. Similar diagonal line.
+
+https://preview.redd.it/jwszk4ag53zf1.png?width=1768&amp;format=png&amp;auto=webp&amp;s=915200167af44732a9f636da19537a2047d66fa9
+
+  
+I noticed In Google Chromes settings “System” there is an option to turn off “Use graphics acceleration when available”. This actually stops the white line bug from rendering. However this setting is turned ""ON"" be default. So this bug could be effecting most people. I need to find a better solution.
+
+My graphics card is NVIDIA GeForce RTX 3050 OEM",,title_and_body,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/chrome/comments/1onk4pg/google_chrome_update_version_142_cause_diagonal/
+B22-044,jquery,ASP.NET WebForms still loads old jQuery from ScriptResource.axd after upgrading to jQuery 3.7.1,"Our security team flagged an issue indicating that an older jQuery version appeared to be loaded in our application.(ScriptResource.axd) I am working on an ASP.NET WebForms (.NET Framework) application. I upgraded jQuery to 3.7.1 , but initially noticed that the application is still loading the older jQuery version via ScriptResource.axd . To override the framework-embedded jQuery, I used ScriptResourceMapping in Global.asax : protected void Application_Start(object sender, EventArgs e) { ScriptManager.ScriptResourceMapping.Clear(); ScriptManager.ScriptResourceMapping.AddDefinition( ""jquery"", new ScriptResourceDefinition { Path = ""~/Scripts/jquery-3.7.1.min.js"", DebugPath = ""~/Scripts/jquery-3.7.1.js"", LoadSuccessExpression = ""window.jQuery"" } ); } However, ScriptResource.axd is still present in the Network tab , which makes it appear as if the old jQuery is still being loaded The Request URL is http://localhost/KIOSK_WEB/ScriptResource.axd?d=MZxpc6JdZbbtFUlWr-Yp62Ef_7Zpw4WdN5E9uX6xkEs-U-u86e41aulYfFjXgQW4J7u4oHKFO5tgWAjesf12BTB976GkcsesxSBv9OKBOQ5UfmSYKcpdQkr3we3YowULPf8qC80knoWIxyeqkjMrgTRU5WE1&t=78d79713 Questions Why does ScriptResource.axd still get requested even after overriding jQuery using ScriptResourceMapping ? Does the presence of ScriptResource.axd mean that the old jQuery version is still being executed , or is it only serving other ASP.NET WebForms scripts? Is it possible (or supported) to completely remove or disable the framework-embedded jQuery from ScriptResource.axd in an ASP.NET WebForms application? From a security perspective, does the presence of an older jQuery inside ScriptResource.axd pose a vulnerability if the active runtime version is jQuery 3.7.1? What is the recommended and supported way to demonstrate that the application is actually using the updated jQuery version and that the ScriptResource.axd request is not a security risk?",,title_and_body,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://stackoverflow.com/questions/79850076/asp-net-webforms-still-loads-old-jquery-from-scriptresource-axd-after-upgrading
+B22-045,comfyui,Numerous issues following the ComfyUI Portable update,"I’m not sure where to begin. A complex set of problems has arisen, and since I’m neither a specialist nor a developer, I’m feeling overwhelmed and struggling to cope.
+
+
+
+Could any of the knowledgeable people here offer some insight?
+
+
+
+After updating ComfyUI:
+
+
+
+1
+
+When performing continuous generation or generating 15-second clips using MiniMax H3, the computer crashes and the screen goes black. This usually happens during the VAE decode stage.
+
+
+
+2
+
+Switching between Krea2 and Qwen Image 2.1 also causes the screen to go black.
+
+
+
+3
+
+All of rgthree's bypass nodes activate for no apparent reason.
+
+
+
+Should I just wait for the next ComfyUI Portable update?
+
+
+
+I am using a company workstation equipped with a Pro 6000 GPU and ample RAM.","[1:reply] I've never heard of something like this happening. I'd be suspect of a video driver issue. I'd check your windows event log for critical errors/warnings. If the system has two video outputs - Pro 6000 GPU and MOB video you might trying moving your video to the other output. When…
+[2:reply] There's a regression on Comfyui since 0.3 . Check this issue out (and some temp fix) : [https://github.com/Comfy-Org/ComfyUI/issues/15255](https://github.com/Comfy-Org/ComfyUI/issues/15255)
+[3:reply] Just don't use portable at all.",title_body_comments,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/comfyui/comments/1wubv33/numerous_issues_following_the_comfyui_portable/
+B22-046,Ubiquiti,UNVR Protect notifications not working,"Has anyone else had the same problem? No matter what I do no notifications are coming from the Protect app unless I sign into the owner account. I'm trying to get two of my folks on their Android phones to get them too without having them use the owner account.
+
+**NVR Instant**
+
+\- Restarted the NVR  
+
+\- Checked that Remote Access was enabled  
+
+\- Checked Alarm Manager and my notifications are on
+
+\- Updated to 5.0.16 for UNVR
+
+\- Updated to 7.0.94 for Protect
+
+**Apps on the phone:**
+
+\- Notifications were turned on and off
+
+\- Reinstalled the Protect app on their phones 
+
+\- The latest version was installed 
+
+\- Confirmed nothing changed
+
+\- Turned off WiFi and went on data worked for owner but not for the other full management accounts
+
+**User account changes** 
+
+**-** I gave them full management rights 
+
+\- I deleted them off the NVR and went onto unifi.ui.com to recreate them to sign back in but no change
+
+\- I tried creating a new account for myself (unifi.ui.com) with full access and all of a sudden no notifications 
+
+For some reason this is account specific and not software or hardware specific. I'm not sure what's going on. 
+
+What do you think?",,title_and_body,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/Ubiquiti/comments/1s60z7v/unvr_protect_notifications_not_working/
+B22-047,Fedora,Firefox broke with the newest update for me on 44,"I wanted to give people a heads up that the new Firefox package might have unexpected effects, it broke my install and I had to rollback
+
+Edit: nvm I updated it again and it’s working now
+
+It was some bug with my tabs I needed to close them then update cause my JavaScript was loading right in the downgraded version idk y
+
+Oh yeah for troubleshooting purposes I’ll list what I did
+
+Updated Firefox and it wouldn’t open, ran reinstall it didn’t work, had to downgrade then it gave me the option of troubleshoot mode where my extensions weren’t working so I closed a lot of tabs, then I reloaded and all my extensions were working but a lot of the JavaScript on sites wasn’t working like canvas’s would be blank if they used a lot of js.
+
+Then I upgraded again later and I got my full functionality back so really I’m wondering why troubleshooting wasn’t an option on the updated version only reporting the error and reloading? Regardless I’m working ig I’ll just say **don’t update with excessive tabs open?**","[1:reply] My friend, you need to upgrade. Fedora 42 is no longer supported since the release of Fedora 44. There are several bad kernel bugs that exist on your system that only get fixed via upgrading.
+
+May 2026 was the last time they supported 42.
+[2:reply] I'm on fedora 44, and when i was updating firefox via flatpak, it got an error, so i just uninstalled and reinstaled firefox, and it works fine now.
+[3:reply] It sounds like you're looking for help. Please note that r/Fedora is not an official support channel for the Fedora Project.
+
+For best results, be sure to include all relevant details in your post, such as your Fedora edition, version, and hardware specs. You can edit your origi…
+[4:OP] Ye 44, and sure, I’ll try to find my version number. I had a bad error, then I reverted and I still had issues but it was from my excessive tabs but the update was extra broken I just wanted to warn the community. 
+
+Ye I’m on 44 I recently did a dnf update
+[5:OP] I did it using DNF, I’ll wait before I update it again",title_body_comments,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/Fedora/comments/1vtvjwz/firefox_broke_with_the_newest_update_for_me_on_44/
+B22-048,applehelp,Does anybody know how to fix iMessage phone number not loading?,"Currently, I have the IPhone 12 and I upgraded from an IPhone SE. When I transferred everything, I made myself a new apple account but kept the same number. My phone number won’t load and I’m currently receiving messages through my email instead. Does anybody know how to fix this? I don’t have a physical SIM, I have an eSIM if that matters.","[1:reply] Tap on the number so it stops trying to activate, so the same in FaceTime. Power off phone, back on then try to enable iMessage and FaceTime",title_body_comments,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/applehelp/comments/1wvj6an/does_anybody_know_how_to_fix_imessage_phone/
+B22-049,applehelp,Some chargers are not working for my ipad,"hi, ever since I updated my and our daughter's ipad, I noticed some chargers just won't work. it used to work for us. It is like Apple decided these chargers must be rejected . I have a surge power to charge our ipad because we do not have a ground wire (old house) yes, i Kept in mind that the power stripe may be shot, but i tried different charger plugs and plugged it directly to the wall and noticed some work and some won't. it used to accept any chargers . now it won't and i am scared to get another surge protector in case it won't work. is anyone experiencing the same? if so, is it the update or is my ipad pro is going bad?","[1:reply] Wall receptacle *safety* ground wire only exists to protect humans.  Appliances do not care it is exists.
+
+Protector does nothing useful if not connected low impedance (ie less than 10 feet) to what does all surge protection.  Single point *earth* ground.  Those electrodes with…
+[2:OP] my point is, all my chargers used to work. it may be slow to charge, but it would work. until recently. same with my daughter's . I think the updates changed that and rejected these chargers. I was wondering if it is happening to others. I realized now my surge protector is poin…",title_body_comments,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/applehelp/comments/1u20mkb/some_chargers_are_not_working_for_my_ipad/
+B22-050,applehelp,iPad OS 26.5: Regular case cover now wakes/sleeps my iPad — is this a bug or normal behavior?,"Hello, I updated my iPad to iPad OS 26.5 a couple of days ago, and since then I’ve noticed something strange.
+
+I’m using a regular folio-style case, not an Apple Smart Folio or Smart Cover. As far as I know, it is not a smart/magnetic wake-sleep case. However, after the update, opening and closing the cover sometimes wakes the iPad or puts it to sleep.
+
+In Settings &gt; Display &amp; Brightness, the “Lock / Unlock” option is enabled. When I turn this option off, the cover no longer wakes or sleeps the iPad, so it definitely seems related to that feature.
+
+My questions are:  
+Has anyone else noticed this after updating to iPadOS 26.5?  
+Could this be a software/update-related change or bug?  
+Or does this mean my case may actually have magnets that are triggering the sensor?  
+Should I be concerned enough to contact Apple Support, or is this harmless as long as turning off “Lock / Unlock” stops it?
+
+The iPad otherwise seems to work normally, but this behavior started only after the recent update, so I’m trying to figure out whether it’s a known issue.
+
+Thanks in advance.",,title_and_body,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/applehelp/comments/1tmnu9v/ipad_os_265_regular_case_cover_now_wakessleeps_my/
+B22-051,Supabase,No edge function runs in my Supabase CLI,"I recently upgraded my Supabase CLI to v2.75.0 and when I serve my functions, none of my existing functions run and I constantly get this error of ""Invalid JWT"" even though nothing has changed and I'm using the correct JWT. In the terminal, I get this error:
+
+```
+026-02-04T23:11:50.816329639Z Using supabase-edge-runtime-1.68.4 (compatible with Deno v1.45.2)
+2026-02-04T23:11:54.112049626Z TypeError: Key for the ES256 algorithm must be of type CryptoKey. Received an instance of Uint8Array
+2026-02-04T23:11:54.112124751Z     at asymmetricTypeCheck (https://deno.land/x/jose@v4.13.1/lib/check_key_type.ts:14:11)
+2026-02-04T23:11:54.112127417Z     at checkKeyType (https://deno.land/x/jose@v4.13.1/lib/check_key_type.ts:39:5)
+2026-02-04T23:11:54.112129167Z     at flattenedVerify (https://deno.land/x/jose@v4.13.1/jws/flattened/verify.ts:78:3)
+2026-02-04T23:11:54.112130459Z     at compactVerify (https://deno.land/x/jose@v4.13.1/jws/compact/verify.ts:15:26)
+2026-02-04T23:11:54.112131751Z     at Module.jwtVerify (https://deno.land/x/jose@v4.13.1/jwt/verify.ts:5:26)
+2026-02-04T23:11:54.112133001Z     at verifyJWT (file:///root/index.ts:95:16)
+2026-02-04T23:11:54.112134209Z     at Object.handler (file:///root/index.ts:140:34)
+2026-02-04T23:11:54.112135417Z     at respond (ext:sb_core_main_js/js/http.js:197:38)
+2026-02-04T23:11:54.112136626Z     at handleHttp (ext:sb_core_main_js/js/http.js:131:5)
+2026-02-04T23:11:54.112137834Z     at eventLoopTick (ext:core/01_core.js:168:7)
+```
+
+Why is happening now?
+
+Thanks",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/Supabase/comments/1qw4dpm/no_edge_function_runs_in_my_supabase_cli/
+B22-052,chrome,"Websites that use this type of color picker, freezes the entire browser window after selecting a color with the eyedropper.","Does not happen on other browsers. Only after the latest Chrome update is when the issue appeared.
+
+  
+Edit: Actually it does happen in other browsers. Just tried it in Edge and the same thing so it's not specific to chrome.","[1:reply] Edge is Chromium-based too.  A bad change to Chromium can cause issues with Chrome, Edge, Opera and Brave (and any others I don't know of).
+[2:reply] Weird thing the last few days i have kinda related problem when i use chrome dev tools, after color picking chrome freezes
+[3:reply] It appeared to be a Chromium bug: see [https://issues.chromium.org/issues/527089994](https://issues.chromium.org/issues/527089994)
+[4:reply] Same issue here, I thought it was me (I was getting furious!), but apparently not. 
+
+  
+Tested it in Brave and Edge = as soon as I pick a color from my screen the tab freezes. I also tried it with different apps (""mdigi.tools/gradient-generator/"" and ""colordesigner.io/gradient-g…
+[5:reply] Easy to downgrade the version ?",title_body_comments,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/chrome/comments/1undhh5/websites_that_use_this_type_of_color_picker/
+B22-053,Ubiquiti,ZBF beware,"Hi all, please ensure you take a backup before enabling zone based firewall. This will group all vpn interfaces as external meaning it's not possible to move them from the external group. 
+
+This has broken a few things for me, I'm hoping this backup restores my network.
+
+Example, I want dmz only exit via vpn 1, if vpn 1 fails stop routing. New update has removed this feature as external access is grouped and kill switch is still broken. RIP","[1:reply] My VPN's are not under external at all, they are under their own zone, so not sure what is going on with your setup.
+[2:reply] Bro, you just migrated?!
+[3:reply] I started from scratch on zone based, it was way nicer to do anyway.
+[4:OP] Mine is a vpn client not a server/ vpn-vpn sorry.
+[5:reply] I really wish we could move VPN interfaces to different zones.",title_body_comments,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/Ubiquiti/comments/1uvo3dm/zbf_beware/
+B22-054,chrome,"Ctrl + J not working from this week, there was an update in chrome, help. READ BODY.","It started happening almost a week ago, I think. There was update, few days ago too. I am just mentioning it.
+
+What happens is that sometime, only sometime when I click ctrl+j it have the 'side popup' but then when I click ctrl+j two times then it open the full tab.
+
+EVEN THIS DON'T HAPPEN, couple of days not even that, my keyboard is working properly, rarely it(shortcut working) happens.
+
+No extensions are causing this problem, no other software in background.
+
+PLEASE HELP. I have to manually type chrome://downloads. AND even when I use my cursor to click the three dots and then select the downloads option it don't open. 😪😪","[1:reply] Thank you for your submission to /r/Chrome! We hope you'll find the help you need. Once you've found a solution to your issue, please comment ""**!solved**"" under this comment to mark the post as solved. Thanks!
+
+
+*I am a bot, and this action was performed automatically. Please […
+[2:reply] Yes, I've been avoiding the latest update with its broken downloads. Hopefully they'll fix it soon. Meanwhile, maybe you could bookmark the downloads URL so it's a button on your bookmarks toolbar? 
+
+The latest Thunderbird is broken too, with right-clicking on an embedded image…
+[3:OP] google has been doing bad stuff for long time now, and correct me if i am mistaken, few years ago i used to get search results accuratly and globally instead of local and 'respecting self culture' garbage.
+[4:reply] Go to chrome://downloads/ then remove the things you downloaded when the problem occured from downloads tab. After this ctrl + j will work. It worked for me.
+[5:reply] Tried it, everything from today, didn't work. still stuck on manually opening it.
+
+  
+Edit: I had to purge everything from the last 2 days and it worked.",title_body_comments,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/chrome/comments/1wxub3l/ctrl_j_not_working_from_this_week_there_was_an/
+B22-055,comfyui,How to fix 'HierarchicalCache' object has no attribute 'get_cache' error,"It's in the title. I haven't used comfyui in about 2 months and came back to update all nodes and make some images. After I did that update, I get this error now when it gets to ""SaveWithMetaData"" node.",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/comfyui/comments/1ouqx6x/how_to_fix_hierarchicalcache_object_has_no/
+B22-056,firefox,Firefox and Thunderbird keep crashing after updating to MacOS Tahoe 26.5,"Anyone experiencing similar issues? They keep crashing every 15 minutes or so, and fail one after the other.","[1:reply] No issues here.   
+  
+Are you able to open Firefox at all? If you go to about:crashes, do you see any crash ID, and could you share it here? 
+
+There's a View link at the end, you can check the Bugzilla tab from the crash to see if there are similar reports.
+[2:OP] It shows this, and there is more reports in the Bugzilla tab and it says that has been fixed for Firefox Nightly:
+
+    {
+      ""num_records"": 1,
+      ""records"": [
+        {
+          ""abort_cause"": null,
+          ""backtrace"": null,
+          ""dialog_mode"": null,
+          ""mes…",title_body_comments,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/firefox/comments/1tnxnuq/firefox_and_thunderbird_keep_crashing_after/
+B22-057,MacOS,Cursor lagging on Tahoe,"Anyone having issues with occasional (like every 5 minutes maybe) mouse cursor lagging on smart mouse and Tahoe? 
+
+Mac was buggy after updating from sequoia so I formatted and installed fresh Tahoe and updated to current (sorry I’m not in front of it right now but it’s up to date as of now) MacBook Pro M1 Max. 
+
+Trackpad is fine. Wacom tablet is fine. Smart mouse lags, both scrolling and moving, and clicks don’t execute. When it happens, it takes 30+ seconds for it to catch up.",,title_and_body,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/MacOS/comments/1sbwifl/cursor_lagging_on_tahoe/
+B22-058,MacOS,Airdrop Issues,"Hello everyone, I have an M3 MacBook Pro with 8GB RAM and 512GB storage. It’s running macOS Sonoma 14.1.2, which was pre-installed with the Mac. I’ve never updated it because I’m afraid of encountering issues and ruining my user experience and the device itself.
+
+Everything has been working well until recently when I updated my iPhone 17 Pro Max to iOS 26.1 RC. Airdrop has been failing to work, and it seems to not work when I want to transfer files from my iPhone to my Mac. I’ll select and click my Mac from the Airdrop share screen, but it gets stuck on “Waiting” and then fails. I’ll have to cancel and try again over 20 times before it finally indicates “Sending,” but it only loads a quarter of the file and then fails again. I don’t seem to have any issues when Airdropping from my Mac to my iPhone.
+
+I’m not sure what the problem is. Could it be the iOS 26.1 that has bugs or issues with Airdrop, or is it that my MacOS is too old to connect and exchange files with the newer iOS 26.1?
+
+Previously, I had the iOS 26.0.1, and the problem didn’t exist. However, after updating to the RC version 26.1, I started noticing the issue. Now, I’m on the public version of 26.1 and the issue still persist
+
+I’m not keen on updating to the latest macOS because I don’t want to start encountering issues and bugs. My MacBook has been running smoothly since day one, and I don’t want to start having battery drain issues, which I already have enough of on iOS.
+
+If it’s necessary to update the macOS to fix the issue, what version is safe to update to that is less likely to cause problems or bugs and is very stable for an 8GB Mac?",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/MacOS/comments/1ooj8x8/airdrop_issues/
+B22-059,Fedora,RGB keyboard illumination not working,"I use Fedora KDE 44 and a Razer Blackwidow V4 Pro. I use OpenRGB to configure the lighting. I have a dual-boot setup with LUKS encryption.
+
+As soon as I start up the PC and reach the dual-boot screen where I can choose which operating system to boot, the keyboard lights up and stays on. As soon as I select Fedora and the LUKS password prompt appears, the keyboard goes black and stays off. Even if I then launch OpenRGB in Fedora, it doesn’t light up. When I unplug the cable and plug it back in, the keyboard lights up. Then, when I launch my profile via OpenRGB, everything works again.
+
+How can I get everything to light up right from the start? It always worked that way before, but it seems to have stopped working since an update.","[1:reply] Do you have other RGB components in your computer? If you don't, then I suggest switching to OpenRazer + Polychromatic.  I found OpenRGB to be buggy when I tried it. Polychromatic works great for customizing my Razer keyboard.
+[2:reply] It sounds like you're looking for help. Please note that r/Fedora is not an official support channel for the Fedora Project.
+
+For best results, be sure to include all relevant details in your post, such as your Fedora edition, version, and hardware specs. You can edit your origi…
+[3:reply] Did you check the settings in the [brightness controls](https://blogs.kde.org/2024/09/04/brightness-controls-for-all-your-displays/)?",title_body_comments,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/Fedora/comments/1vtte10/rgb_keyboard_illumination_not_working/
+B22-060,openclaw,Fix for OpenClaw ‘exec’ tools not working after the latest update,"If you just updated to the latest version of OpenClaw and your bot suddenly can't run terminal commands or install packages, you’re not alone. Even if you have `profile: ""full""` set, the latest patch basically nerfed it for ""security reasons.""
+
+The `full` profile doesn't actually mean ""full access"" anymore. You have to manually tell the config that it's okay to run shell commands without asking you first.
+
+Here is the block you need to fix in your `openclaw.json`. Just overwrite your current `tools` section with this:
+
+JSON
+
+      ""tools"": {
+        ""profile"": ""full"",
+        ""allow"": [""*""],
+        ""exec"": {
+          ""host"": ""gateway"",
+          ""security"": ""full"",
+          ""ask"": ""off""
+        }
+      }
+    
+
+**What changed:**
+
+* **ask: ""off""** — This is the main fix. Without this, the bot just hangs or fails because it's waiting for a permission click that doesn't always show up in the UI.
+* **security: ""full""** — You need this now if you want it to do anything useful like `git` or `npm`.
+
+Also, double-check that your `agents.defaults` actually points to the profile:
+
+JSON
+
+      ""agents"": {
+        ""defaults"": {
+          ""tools"": {
+            ""profile"": ""full""
+          }
+        }
+      }
+    
+
+Once you save, do an `openclaw gateway restart`.
+
+**Heads up:** Since `ask` is set to `off`, the bot can basically do whatever it wants to your terminal. If you aren't running this in a sandbox or Docker, just keep an eye on what you're asking it to do so it doesn't accidentally nuke a directory if it hallucinates.",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/openclaw/comments/1rl13sb/fix_for_openclaw_exec_tools_not_working_after_the/
+B22-061,linux,Heads up: Kernel 6.19 regression causing silent crash loops in MongoDB (and eating Btrfs storage),"I just spent my entire weekend chasing a ""phantom"" storage leak on my Fedora homelab (Threadripper 2920X) and figured I’d share the findings in case anyone else is seeing weird disk usage after updating to Kernel 6.19.7.
+
+
+
+TL;DR: There's a regression in the 6.19 memory management subsystem that causes MongoDB’s tcmalloc to SIGSEGV every \~30 seconds. If you're on Btrfs with snapshots, each crash triggers a WiredTiger journal recovery that generates hundreds of megabytes of new CoW extents. I lost 800GB of space in 4 days.
+
+
+
+The symptoms:
+
+
+
+du reported 60GB, but btrfs fi usage showed the drive was nearly full (1TB).
+
+docker inspect was totally useless—it showed exit code 0 for the crashing container because it was restarting so fast.
+
+docker events was the only thing that showed the constant ""die (exit code 139)"" loop.
+
+I eventually had to do a binary-search isolation test on my 70+ containers to find the culprit. It wasn't my config or a bug in the app—rolling back to Kernel 6.18 fixed it instantly.
+
+
+
+If you're running MongoDB on Btrfs, you might want to hold off on the 6.19 update or keep a close eye on your snapshot growth. I wrote a post-mortem with the full debugging steps and logs here if you're interested in the deep dive:
+
+
+
+[https://ali.rabeei.com/blog/database-that-ate-my-disk](https://ali.rabeei.com/blog/database-that-ate-my-disk)",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/linux/comments/1sfos52/heads_up_kernel_619_regression_causing_silent/
+B22-062,SteamOS,SteamOS 3.8.11 Bug Can't Return to Game Mode,"It's been a few days since updating to 3.8.11 on the Beta channel. I go to desktop mode on my SteamOS PC and everything works as normal. But when I click return to game mode, the PC gets stuck in an infinite loop trying to switch to game mode, the boot up sound plays over and over until I force shut down the PC. Everything was working fine on 3.8.10, I switched back to stable channel but the OS stayed on 3.8.11. Is anyone else having this issue? Also is there a way to access the rollback recovery menu on PC? I know this can be done on steam deck using the ... and volume buttons.
+
+Edit: switched flair to support","[1:reply] Can you provide journal logs covering when this happens? You could SSH in and use \`journalctl -f\` and save the resulting feed, or note the time before attempting this and after it fails, with \``journalctl --since ""13:00:00"" --until ""13:10:00"" &gt; log.txt\` (which outputs to…",title_body_comments,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/SteamOS/comments/1ueiqjb/steamos_3811_bug_cant_return_to_game_mode/
+B22-063,ios,How do I upgrade to iOS 18.7.2 instead of 26?,"I'm running a 13 Mini with iOS 18.2. I am only given the option for 26 despite 18 still getting security updates. Is there any way of upgrading to the latest version of iOS 18? I recall I used to be able to in that menu with previous upgrades, but not now.
+
+Apparently if I connect this thing to xcode I can get the option of a developer build of iOS 18, but I don't have ready access to a Mac with MacOS 15.6, the minimum required to download xcode rn. (My Mac maxes out at Ventura) So if there are any other options please let me know.
+
+For those who are about to comment ""Just use 26"", one word: No. That's not what I'm asking.",,title_and_body,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/ios/comments/1pn0vli/how_do_i_upgrade_to_ios_1872_instead_of_26/
+B22-064,MacOS,How to change default PDF app back to Preview?,"How can I change my default PDF app? I want to use the native Preview app, I've always used the native Preview app. Sometime after I updated my software to Tahoe 26.3, I got a prompt to change my default to Chrome. I messed up and went ahead and changed it, but I wasn't paying attention and probably thought it was asking for my default search engine app, rather than PDF reader. 
+
+As of right now, if I open a PDF, it default opens in Chrome. I have to right-click my PDFs and specifically tell them to open with Preview (see #1). Then, even when I do that, the little indicator at the top of the app shows the Chrome logo (see #2). If I go to ""Other"" (see #1, bottom of list), I try to set it so that it will always open in Preview (see #3) (even if this did work, I would have to do this for every single PDF. This does not apply to all PDFs). But when I do that, I get an error/malware message (see #4). 
+
+[As of right now, if I open a PDF, it default opens in Chrome. I have to right-click my PDFs and specifically tell them to open with Preview.](https://preview.redd.it/39hcv6ln5b2h1.png?width=1205&amp;format=png&amp;auto=webp&amp;s=03631cc68b88fe1a44e9543ac029ef450318cc2b)
+
+[Then, even when I do that, the little indicator at the top of the app shows the Chrome logo.](https://preview.redd.it/o7aia6ln5b2h1.png?width=1809&amp;format=png&amp;auto=webp&amp;s=a35cc033a8c3c61a1f98d1c644500ef42650ab53)
+
+[If I go to \\""Other\\"" \(see #1, bottom of list\), I try to set it so that it will always open in Preview \(even if this did work, I would have to do this for every single PDF. This does not apply to all PDFs\).](https://preview.redd.it/hwqyo6ln5b2h1.png?width=1890&amp;format=png&amp;auto=webp&amp;s=3a66d5c165b2240bc1f04b0b109289856a24e0f0)
+
+[But when I do that, I get an error\/malware message.](https://preview.redd.it/z3ydi7ln5b2h1.png?width=527&amp;format=png&amp;auto=webp&amp;s=4432674568fe17faf7bdae74e0d50ec33fae4cfa)","[1:reply] Right-click on any pdf file in Finder, click Get Info. In the opened window scroll down to “Open with:”, select Preview from the drop-down and click “Change All…”
+[2:reply] This",title_body_comments,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/MacOS/comments/1tiolkh/how_to_change_default_pdf_app_back_to_preview/
+B22-065,comfyui,PC goes to 2 FPS when trying to generate a second Zimage.,"First one works fine. It gives no error message just stuck at VAE Decode.  
+Happened after updating ComfyUI yesterday. Fortunately I had a saved portable and backrolled. Now it works fine again.",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/comfyui/comments/1stkurc/pc_goes_to_2_fps_when_trying_to_generate_a_second/
+B22-066,angular,🎉 Release Alert: ngxsmk-datepicker v1.4.16 - Documentation &amp; Version Management Update,"I'm excited to announce the release of **v1.4.16** of `ngxsmk-datepicker`, an Angular datepicker component!
+
+This release focuses heavily on improving the developer experience through comprehensive documentation and streamlined version management.
+
+https://preview.redd.it/97ml1vzuq3xf1.png?width=774&amp;format=png&amp;auto=webp&amp;s=315ff62ab232de34486cae0fc2c13ca0a04a50d8
+
+https://preview.redd.it/rx6xfl1vq3xf1.png?width=686&amp;format=png&amp;auto=webp&amp;s=b8425ba67899742fd5b0342cb0092bb5b14a894a
+
+https://preview.redd.it/6xw5wb0vq3xf1.png?width=741&amp;format=png&amp;auto=webp&amp;s=3e50fa3ed7cf8d1b9864e92951eecf7e0c5b5c48
+
+  
+**✨ Key Highlights in v1.4.16**
+
+* **📚 Enhanced Documentation:** The README and API references have been significantly updated with clearer examples and the latest features.
+* **🎯 Version Management:** Synchronized version references across all package files for better consistency.
+* **📖 User Experience:** Enhanced documentation with better examples and API references to make integration smoother.
+* **🔧 Maintenance:** Improved project structure and overall documentation consistency.
+
+
+
+# 🚀 Performance Boosts
+
+(Metrics are carried over from recent v1.4.15 optimizations)
+
+* **Bundle Size:** 30% smaller than previous versions.
+* **Initial Render:** 40% faster.
+* **Change Detection:** 60% fewer cycles, thanks to fixed OnPush issues.
+* **Memory Leaks:** Eliminated with the addition of cache size limits.
+
+
+
+# 📦 Installation
+
+You can update your project using npm:
+
+Bash
+
+    npm install ngxsmk-datepicker@1.4.16
+
+
+
+# 🔗 Links
+
+* **Live Demo (StackBlitz):**[Try it live here](https://stackblitz.com/~/github.com/toozuuu/ngxsmk-datepicker)
+* **GitHub Release Notes:**[v1.4.16 Release](https://github.com/toozuuu/ngxsmk-datepicker/releases/tag/1.4.16)
+* **NPM Package:**[ngxsmk-datepicker](https://www.npmjs.com/package/ngxsmk-datepicker)
+
+Let me know if you have any feedback or find any issues! Happy coding!",,title_and_body,yes,yes,other,medium,The post appears to discuss software without a clear troubleshooting or chiefly critical purpose.,,,,,,,https://reddit.com/r/angular/comments/1of5ch1/release_alert_ngxsmkdatepicker_v1416/
+B22-067,Ubiquiti,All HomeKit accessories on my IoT VLAN died simultaneously — Hue and Ecobee both. What changed?,"Trying to understand what changed before I commit to a fix. The simultaneous nature of the failure is the part I can't square.
+
+**Setup:**
+
+* UDM SE on Sonic fiber (no IPv6)
+* 4 networks across 2 zones:
+   * **Secure**: Core (UniFi gear), Family (Macs/iPhones/iPads/HomePods/Apple TVs)
+   * **Restricted**: IoT (Hue bridges, Ecobee, robot vacuum), Protect (UniFi cameras)
+* Migrated to Zone-Based Firewall on Aug 2, 2025
+* Secure → Restricted: Allow All (with Allow Return back)
+* Gateway mDNS Proxy enabled across all VLANs with HomeKit + Hue services scoped
+
+**Timeline:**
+
+* Pre-Aug 2025: Traditional firewall, everything working
+* Aug 2, 2025: Zone migration. HomeKit kept working through and after
+* \~April 2026 (now): Every Hue light AND Ecobee thermostat in the Home app shows ""No Response"" simultaneously
+
+**What's verified working:**
+
+* Devices themselves (Hue/Ecobee apps reach them fine)
+* Cross-VLAN L3 routing (iPhone on Family hits `http://&lt;hue-bridge-IP&gt;` directly)
+* Active Home Hub (Living Room Apple TV) — healthy, power-cycled, no change
+* Zone firewall (Secure → Restricted is wide open)
+* mDNS proxy with HomeKit/Hue services in scope (also tried Service Scope = All)
+
+**What's broken:**
+
+* Hue app shows the Apple Home pairing is **completely gone** (not stale — absent)
+* Ecobee app says the device thinks it's still paired to HomeKit
+* Re-pairing Hue via Matter fails (""Accessory Not Found"" even with all mDNS services)
+
+**The thing I can't square:**
+
+Two different vendors, two different HomeKit integration paths (Hue moved to Matter, Ecobee uses classic HomeKit), failing at the exact same time. That's not a vendor coincidence — something changed at a layer above both of them.
+
+**My theory:** a recent iOS / tvOS / HomePodOS update changed how cross-subnet HomeKit accessory discovery or authentication works. Hub-side change → every accessory on a separate VLAN fails simultaneously, regardless of vendor. Alternatively, the Home database itself entered a bad state (iCloud sync issue, OS upgrade migration), wiping Hue's pairing entirely and leaving Ecobee's pairing one-sided.
+
+**Real questions:**
+
+1. Anyone else with HomeKit accessories on a separate IoT VLAN suddenly lose all of them around early-to-mid April 2026? This is the key question — if this is a fleet-wide event, we'll know it's an Apple-side change.
+2. What iOS / tvOS versions are people on right now, and which version were you on when things broke?
+3. Has Apple changed cross-subnet HomeKit behavior in a recent update — e.g., now requiring IPv6 for accessory discovery, stricter mDNS handling, anything else?
+4. Did a recent UniFi Network controller update change zone or mDNS implementation in a way that could affect HomeKit specifically?
+5. For those who've been through this: was the fix enabling IPv6, moving accessories to the trusted VLAN, or something else?
+
+Not interested in ""just put it all on the trusted VLAN"" answers unless you have a specific reason to think this isn't fixable on a segmented network. Trying to understand the root cause first.",,title_and_body,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/Ubiquiti/comments/1swesi0/all_homekit_accessories_on_my_iot_vlan_died/
+B22-068,vscode,All models GitHub copilot disappeared and can non longer use since last (Copilot) update.,"https://preview.redd.it/f58fqopyqc6g1.png?width=477&amp;format=png&amp;auto=webp&amp;s=fb3932cca90f8f70cb2870f305e280c35f8d12dc
+
+https://preview.redd.it/og0z4npyqc6g1.png?width=493&amp;format=png&amp;auto=webp&amp;s=63d1a6dddbd00c5fdb2cf6a7c4ab8e9fb31a63d2
+
+Hey, so I'm a student using the student plan and since the last update I have not been able to make a single request. My premium requests haven't ran out (even then I should be able to use the free models) and I am signed in.
+
+  
+If anyone has had this problem before how did you fix it?",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/vscode/comments/1pizov8/all_models_github_copilot_disappeared_and_can_non/
+B22-069,chrome,Google doesn't send me a notification to ask before downloading a file and downloads it immediately.,"I've been using the browser on Android, I usually download things either for work or to send memes, but lately I've noticed that Google no longer asks me where to save or modify the file Before downloading. Does anyone know if this is a bug in the latest update or something? I already tried clearing the cache and checking the options, but nothing worked. There's currently no option in the settings to see where it's saved or anything like that.
+
+I would greatly appreciate your help, as I'm also worried about downloading anything without permission.","[1:reply] The only thing relevant would be the setting to ""ask where to save files"", but if that's turned off then Chrome has always just downloaded the file immediately. And I believe that setting also does not apply when in incognito.
+[2:reply] if u mean like the dialog where u rename &amp; choose wich folder the file goes,that one is long gone iirc...last time i ever saw that personally on chrome ver 64-68(android7 &amp; 8 on my galaxy s6)...after that chrome doesnt let u choose folders or rename files beforehand..the…
+[3:reply] My S8 on Android 9 and Chrome 138 still has the option to ask where to save files. Not sure where you're getting v64-68 from.
+[4:reply] Thank you for your submission to /r/Chrome! We hope you'll find the help you need. Once you've found a solution to your issue, please comment ""**!solved**"" under this comment to mark the post as solved. Thanks!
+
+
+*I am a bot, and this action was performed automatically. Please […
+[5:OP] I feel like we're getting a little off-topic; the point is that before, when ordering in Chrome, a box would appear asking me to confirm the download. Where you asked me where I wanted to save it and change the name, but now it's stopped appearing and just downloads directly",title_body_comments,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/chrome/comments/1uga2gf/google_doesnt_send_me_a_notification_to_ask/
+B22-070,AndroidQuestions,Friend no longer shows up on messages thread,"I woke up this morning to a text from one of my friends. I read it, closed the message, then tried to go back to her message thread to respond a few minutes later. Her thread is completely gone from my message thread list, even though I just messaged her! The only way I can find her messages as well as receive her messages is by starting a new message to get to the thread. 
+
+I have cleared the cache and restarted my phone. 
+
+I had an software update a few days ago.
+
+What's going on and how can I fix it? thanks!",,title_and_body,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/AndroidQuestions/comments/1s9vm0x/friend_no_longer_shows_up_on_messages_thread/
+B22-071,Ubuntu,Network shares won't mount after scheduled reboot,"I hope you guys can help me. Last weekend i've updated my Ubuntu pc what runs my Jellyfin server and some game servers.
+
+In the /etc/fstab I have lines that mount my network shares, they work perfectly fine. And I reboot my Ubuntu pc every night with a line in crontab.
+
+After updating my PC, the network shares won't mount anymore after the scheduled reboot. So Jellyfin doesn't work because it can't find the files.
+
+When I reboot manually after that, the shares mount just fine.
+
+Do you guys now any solution.
+
+My lines in fstab are as follows
+
+[`//192.168.0.174/Video`](//192.168.0.174/Video) `/media/video cifs username=****,password=****`
+
+And my crontab line is as follows
+
+    0 4   *   *   *    /sbin/shutdown -r +5","[1:reply] Why?  Probably a race condition.  You can determine exactly why by examining the logs using journalctl and you'll probably see mount failures because the networking stack wasn't up at the point fstab was trying to mount the volumes.
+
+I have something similar set up on one of my…
+[2:OP] Edit: No wait, typo error on my part in the fstab file
+
+Unfortunately that doesn't work. If I add those rules, it won't mount at all, even after a manual restart
+[3:reply] network manager probably isn't fully up before fstab gets processed on the cron reboot. it's different from a manual reboot cause the systemd ordering is a bit different when you trigger it from cron vs a real shutdown. \_netdev helps but i'd add [x-systemd.requires=network-onli…
+[4:OP] Hmm it still doesn't work. It does after a manual reboot but not after the scheduled reboot",title_body_comments,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/Ubuntu/comments/1v37l9m/network_shares_wont_mount_after_scheduled_reboot/
+B22-072,firefox,Does 151.0.4 block/break Reddit?,"I updated to 148.0, and it broke/blocked Reddit and in reinstalling/fixing it I lost 15+ years of bookmarks, it was a nightmare. And I use the syncing button all the time, so I don't lose these things; yet it failed to save my bookmarks. I'd like to update to the latest version but I don't want to go through that again. Is 151.0.4 going to break anything or somehow automatically block certain sites? I wish I understood why the syncing failed so I could avoid whatever mistake or user error I made that compromised saving my bookmarks in the first place.","[1:reply] &gt;Does 151.0.4 block/break Reddit? 
+
+No. Writing this on 151.0.4. Everything on Reddit is the same as it has been on previous versions.
+
+But then again, an update should not make you lose your bookmarks either, so what do I know.
+[2:reply] To prevent this from happening, enable Sync 
+(The bookmarks, I meant)",title_body_comments,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/firefox/comments/1u32leu/does_15104_blockbreak_reddit/
+B22-073,immich,Can't upload photos on iOs to Immich,"For some reason as of today, sharing a photo from native iPhone photo-roll to Immich results in a timed-out upload. I can still upload on desktop. 
+
+The logs in the iPhone app are patchy even though I set them to their most verbose level. 
+
+I've spent so many hours today trying to fix it, I think it might be less time-consuming to start over.
+
+Only thing I changed is that I updated to the latest version from a 2-month-old version about a week ago, but I successfully uploaded pics after that.
+
+The GitHub issues mention this, but it's not a concrete single complaint. Any advice appreciated.
+
+EDIT: This was solved by ChatGPT in three minutes today, after it failed all afternoon yesterday:
+
+Add this to the .conf block in your enabled site:
+
+    client_max_body_size 5000M;
+    proxy_read_timeout 600s;
+    proxy_connect_timeout 600s;
+    proxy_send_timeout 600s;
+
+IoS upload issue solved immediately.",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/immich/comments/1sq4eas/cant_upload_photos_on_ios_to_immich/
+B22-074,vscode,Has there been a mass renaming of toolsets recently?,"When I opened Vscode today, I got bombard with incredible number of problems saying unknown model and x tools has been renamed.
+
+For example, for modernize-azure-dotnet.agent.md I'm getting the following errors:
+
+https://preview.redd.it/yubm3j1nwirg1.png?width=1058&amp;format=png&amp;auto=webp&amp;s=ef5b3c84b8adb8d94404e6c590e6002e9e4eb5f0
+
+Is here a recent update that mass renamed tools and if so, is there anyway to resolve the issues quickly?",,title_and_body,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/vscode/comments/1s4vc1n/has_there_been_a_mass_renaming_of_toolsets/
+B22-075,Nuxt,Nuxt 4 upgrade - Multiple cookies no longer being set,"Hi all,
+
+I just updated to Nuxt 4 and have spent the day trying to fix little bugs. In my app, when a user logs in, I set multiple cookies, and when I do so, Nuxt only seems to set the last cookie, the earlier ones are overwritten. Anyone had a similar issue?
+
+I've tried a bunch of different approaches, setting an array of multiple cookies, using appendHeader and serialize, and a couple others but nothing seems to work.
+
+Apparently the latest version of Nitro has a multi-cookie issue. And ChatGPT hasn't been able to help me overcome it so far, despite my best efforts.
+
+Anyone have any ideas? Here's a basic server route with different alternatives, none of which worked..
+
+    export default defineEventHandler(event =&gt; {
+       const cookies = [
+          serialize('token1', 'Bearer ACCESS_TEST', {
+             httpOnly: true,
+             secure: true,
+             sameSite: 'none',
+             path: '/',
+          }),
+          serialize('token2', 'Bearer REFRESH_TEST', {
+             httpOnly: true,
+             secure: true,
+             sameSite: 'none',
+             path: '/',
+          }),
+          serialize('token3', 'TEST', { path: '/' }),
+       ]
+    
+       // THIS
+       event.node.res.setHeader('Set-Cookie', cookies)
+    
+       // OR THIS..
+       // cookies.forEach(cookie =&gt; {
+       //    event.node.res.appendHeader
+       //       ? event.node.res.appendHeader('Set-Cookie', cookie)
+       //       : event.node.res.setHeader('Set-Cookie', [
+       //            ...(event.node.res.getHeader('Set-Cookie') ?? []),
+       //            cookie,
+       //         ])
+       // })
+    
+       // OR THIS..
+       // appendHeader(event, 'set-cookie', cookies.join(', '))
+       // Important: pass them as a joined string, not multiple header calls
+       return { ok: true }
+    })","[1:reply] Have a look at the bottom section of this page: https://nuxt.com/docs/4.x/api/composables/use-cookie#cookies-in-api-routes
+[2:reply] What were you upgrading from? Nuxt 3?
+[3:OP] setCookie(event, 'token1', 'Bearer ' + tokens.token1, {
+       httpOnly: true,
+       secure: true,
+    })
+    
+    setCookie(event, 'token2', 'Bearer ' + tokens.token2, {
+       httpOnly: true,
+       secure: true,
+    })
+    
+    setCookie(event, 'token3', tokens.token3)…
+[4:OP] Yes
+[5:reply] Probably related to [https://github.com/nuxt/cli/issues/1075](https://github.com/nuxt/cli/issues/1075)",title_body_comments,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/Nuxt/comments/1o147v0/nuxt_4_upgrade_multiple_cookies_no_longer_being/
+B22-076,MicrosoftEdge,WTF happened to this browser?  Have to keep logging back in now after updates,"Looks like there is a bug because it's no longer saving cookies?  Despite cookies being enabled and several sites added to the allowed list.  
+
+I still have to log in every single sites. Some times requires me to entire a code that is sent to my phone or email and it gets annoying as F.
+
+Never had this issue until this week.",,title_and_body,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/MicrosoftEdge/comments/1o3e2xi/wtf_happened_to_this_browser_have_to_keep_logging/
+B22-077,Wordpress,[URGENT] Elementor Update replaced ALL images with placeholder.png — Rollback didn't fix it. Database corrupted?,"https://preview.redd.it/n9uwtav7ay7g1.png?width=1782&amp;format=png&amp;auto=webp&amp;s=06ec74f4a97c7cf6a7007acda1cbef45cd173d32
+
+
+
+Hi everyone, I’m in a desperate situation with a client website and need some advanced help.
+
+**The Problem:**  
+After updating WordPress and Elementor to the latest versions today, every single image on the frontend and in the backend Editor has been replaced by the default Elementor placeholder.
+
+When I inspect the code, the src attribute is literally pointing to:  
+.../plugins/elementor/assets/images/placeholder.png
+
+The images still exist in the Media Library, but Elementor has completely lost the connection to the image IDs in the widgets.
+
+**What I have tried (and FAILED):**
+
+1. **Regenerate Files &amp; Data:** Ran this multiple times.
+2. **Sync Library:** Ran this tool in Elementor settings.
+3. **CSS Print Method:** Switched to ""Internal Embedding"".
+4. **Experiments:** Turned off ""Optimized Markup"", ""Improved CSS Loading"", and ""Lazy Load Backgrounds"".
+5. **Replace URL:** Tried the trick of replacing the site URL with itself to force a database flush.
+6. **ROLLBACK:** I rolled back Elementor and Pro to the previous versions. **The images are still broken.**
+
+**The Question:**  
+Since the Rollback didn't fix it, I assume the update ran a database migration that altered how image IDs are stored, and rolling back the plugin files didn't revert the database changes.
+
+Does anyone know a way to force Elementor to re-map the image IDs? Or is there a specific database table I need to check? Re-adding hundreds of images manually is not an option.
+
+Thanks in advance.",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/Wordpress/comments/1ppou9x/urgent_elementor_update_replaced_all_images_with/
+B22-078,flutter,"Flutter Linux desktop build fails with ""No provider of glBlitFramebuffer found"" after updating to Flutter 3.44.6","After updating Flutter to version 3.44.6, I can no longer run my Flutter app on Linux. The app builds successfully, but when it launches, I get the following error: Launching lib/main.dart on Linux in debug mode... ✓ Built build/linux/x64/debug/bundle/app Connecting to VM Service at ws://127.0.0.1:33967/NRuNmwhosDU=/ws Connected to the VM Service. No provider of glBlitFramebuffer found. Requires one of: Desktop OpenGL 3.0 GL_ARB_framebuffer_object OpenGL ES 3.0 GL_EXT_framebuffer_blit GL_NV_framebuffer_blit Lost connection to device. The app then crashes and disconnects. Environment: - OS: Linux Mint Xfce (version 22.3) - Flutter: 3.44.6 (upgraded from an older version – unfortunately I don't remember which one I was using before, but it worked fine) -System: Laptop Dell E4310 What I've tried: - `flutter clean` and `flutter pub get` - Restarting the system",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://stackoverflow.com/questions/79981765/flutter-linux-desktop-build-fails-with-no-provider-of-glblitframebuffer-found
+B22-079,sysadmin,BSOD (0x139 KERNEL_SECURITY_CHECK_FAILURE) caused by BEDaisy.sys when launching Rainbow Six Siege,"Hi everyone,
+
+I'm trying to diagnose a persistent BSOD that only happens when launching **Rainbow Six Siege**. The crash appears to be caused by **BattlEye (BEDaisy.sys)**.
+
+I’ve already spent a lot of time troubleshooting and would really appreciate any help from people who are familiar with Windows kernel debugging or anti-cheat driver conflicts.
+
+**System specs:**
+
+* CPU: Ryzen 5 7600X
+* GPU: ASUS GTX 1070 8GB
+* Motherboard: Gigabyte B650M D3HP
+* RAM: 16GB (2x8GB) Kingston Fury Beast DDR5 5200
+* PSU: Gigabyte 850W Gold
+
+**OS:**  
+Windows 11 Pro  
+Build: 26200
+
+**What happens:**  
+Whenever I launch Rainbow Six Siege, the system freezes and then crashes with a BSOD.
+
+Bugcheck:  
+0x139 KERNEL\_SECURITY\_CHECK\_FAILURE  
+Subcode: FAST\_FAIL\_CORRUPT\_LIST\_ENTRY
+
+WinDbg analysis consistently points to:  
+BEDaisy.sys (BattlEye)
+
+Example stack:  
+nt!KeInsertQueueApc  
+→ BEDaisy+0x7744a6
+
+**Things I already tried:**
+
+* Updated BIOS to the latest version
+* Clean reinstall of Rainbow Six Siege
+* Completely removed and reinstalled BattlEye
+* Disabled Hyper-V / virtualization features
+* Disabled Core Isolation / Memory Integrity
+* Clean GPU driver install
+* Updated AMD chipset drivers
+* RAM running at stock (no EXPO)
+* Removed startup services and overlays
+* Vanguard anti-cheat tested disabled
+
+Despite all that, the crash still occurs at the exact same location in BEDaisy.
+
+**Link Minidump:**
+
+[https://files.catbox.moe/lldujs.zip](https://files.catbox.moe/lldujs.zip)
+
+**Minidump info:**  
+Bugcheck: 0x139  
+Failure bucket: CORRUPT\_LIST\_ENTRY\_BEDaisy  
+Driver: BEDaisy.sys  
+Offset: +0x7744a6
+
+Has anyone seen a BattlEye driver cause this specific fast-fail before? Could this be caused by another kernel driver interfering with it?
+
+Any ideas or debugging suggestions would be greatly appreciated.
+
+Thanks in advance.",,title_and_body,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/sysadmin/comments/1rkc4sh/bsod_0x139_kernel_security_check_failure_caused/
+B22-080,embedded,Erasure failure when trying to erase IC with CH341 programmer on BIOS chip,"https://preview.redd.it/ky7tfg5twa2h1.png?width=1446&amp;format=png&amp;auto=webp&amp;s=e54fe4f5135e17f2f760b84ac242ba24cfc15709
+
+Hey, I recently bricked my BIOS while trying to manually update the BIOS version of my Gigabyte G5 MF laptop vie EFI Shell. After an automatic update the laptop got stuck at the boot screen.
+
+Now after updating the BIOS something went wrong, the Laptop wont do anything anymore when pressing the power button, so I decided to directly access the BIOS chip (GigaDevice 25B256EYIG) with a CH341A programmer and a WSON8 probe. I tried both NeoProgrammer and AsProgrammer, read the IC multiple times on both and got identical BIOS dumps (SHA256 is the same). I would like to erase the IC now and write a clean BIOS from Gigabyte to the chip, but it instantly fails to erase.
+
+I tried to unprotect and edit the SREG -&gt; read -&gt; uncheck everything -&gt; write. But if I then read again the checks reappear (e. g. the Status Register #2 QE check).  Also note that the NeoProgrammer doesnt list the GD25B256E as option and automatic detection detects it as GD25Q256 (3.3V), I already tried to use the programmer without the 1.8 V adapter, but then it wont even detect any chip. The AsProgrammer correctly detects the chip but also fails to erase. I dont know what else I can try.
+
+EDIT: forgot to mention that I also disconnected the battery and the CMOS battery and its not plugged in, so it should have no power.","[1:reply] Try desoldering the IC or bumping voltage up to 1.9V
+[2:OP] Hmm sounds like both of these would require some sort of soldering, which I currently have no way of doing it. Going to a repair shop would then be my last option, hoping they dont charge too much for it",title_body_comments,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/embedded/comments/1tinpix/erasure_failure_when_trying_to_erase_ic_with/
+B22-081,firefox,Big empty space above logo since last update,"Since the last update there is now a big empty space above the logo and the icons in the hotbars now sit against the bottom of the screen. Very annoying, anyone know a fix? I already tried everything in the settings.
+
+https://preview.redd.it/dgundwmvxn2h1.png?width=1205&amp;format=png&amp;auto=webp&amp;s=76ffcbb49e098e73cdd9d1279340f44718b971c4",[1:reply] Go to about:config and set `browser.newtabpage.activity-stream.nova.enabled` to false. Don't forget to set it back to true if anything breaks in the future. They probably would fix this by then,title_body_comments,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/firefox/comments/1tkejna/big_empty_space_above_logo_since_last_update/
+B22-082,chrome,Split View Drop down menu,"Split View Drop down menu &lt;--- how do i disable that now? after i updated my browser to the version version 145.0.7632.46, 
+
+1. In the Chrome address bar (where you type websites), type `chrome://flags` and press **Enter**.
+2. You'll see a search bar at the top of that page. Type in the word: **Split**
+3. Look for a flag titled ""**Split View**"" or ""**Tab Split View**.""
+4. Click the dropdown menu next to it (it likely says ""Default"") and select **Enabled**.
+5. A **Relaunch** button will appear at the bottom of the page. Click it to restart Chrome.
+
+this doesn't work anymore! why would somebody place it right there in the drop down menu? useless...",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/chrome/comments/1r1n04e/split_view_drop_down_menu/
+B22-083,MacOS,Bluetooth headset icon still showing in menu bar even when Bluetooth is turned off – macOS Golden Gate 27.0,"Hi everyone,
+
+I recently updated my **MacBook Air M4 to macOS Golden Gate 27.0**, and I noticed a small UI bug.
+
+Even when **Bluetooth is completely turned off**, the **headset icon still appears in the menu bar**. When I click it, the Bluetooth panel shows that Bluetooth is off.
+
+I’ve attached a screenshot showing the issue.
+
+Has anyone else noticed this on macOS 27.0? Is this a known bug, or is there a way to remove/hide the headset icon when Bluetooth is disabled?
+
+**Device:** MacBook Air M4  
+**macOS:** Golden Gate 27.0  
+**Bluetooth:** Off
+
+Would appreciate any insight.","[1:reply] I don't understand. What headset icon? The thing your cursor is over is just the Bluetooth icon. Nothing headset-specific.
+
+If you don't want the Bluetooth icon in your menu bar, you can (probably? used to work) command-drag it to the desktop and it won't be there. But it won't…
+[2:OP] ![gif](giphy|idST45hKtuhJt35Ejx)
+[3:reply] You’re tripping. This is the normal Bluetooth icon. To remove it from the menu bar, you hold the command key on your keyboard and drag the icon of the menu bar with your mousse and hold it there for a second. Then a little message bubble will say remove. Let go of your mouse and…
+[4:OP] I mean the headset battery indicator next to the MacBook’s battery icon. 😅
+It’s showing the battery level of a headset/accessory even though Bluetooth is turned off and no Bluetooth device is connected.
+I’m wondering if this is a bug in macOS 27.0, because it wasn’t showing like…
+[5:reply] GG is a known bug. There is this concept called 'waiting'. Go back to Tahoe and upgrade properly around Christmas.",title_body_comments,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/MacOS/comments/1wrmeiq/bluetooth_headset_icon_still_showing_in_menu_bar/
+B22-084,Linksys,How to setup VLANs on Linksys MX4300 / LN1301 (Guide),"After quite a bit of trial and error (I’m still new to networking and definitely made some rookie mistakes along the way), I was finally able to get VLANs working across my two Linksys MX4300 routers. They’re connected via Ethernet, with one acting as the main router connected to the AT&amp;T Fiber modem using IP Passthrough, and the second connected to the main router on LAN3 via Ethernet and configured as a dumb access point.
+
+Background
+
+I have **two LN1301 routers**:
+
+* **Main router**
+* **Dumb AP**
+* When I first flashed them, I used a **snapshot build** I found on Reddit. I’m not saying that build was the issue, but after upgrading both routers to the **latest stable release**, things became much smoother and predictable.
+
+**Goal:**
+
+Set up **multiple VLANs** with a simple, expandable design.
+
+Currently:
+
+* **VLAN 1 – Main network**
+* **VLAN 2 – IoT network**
+
+(I’m skipping Guest VLAN for now, but the setup makes it easy to add later.)
+
+**Hardware Layout:**
+
+* LN1301 has:
+   * **3 LAN ports**
+   * **1 WAN port**
+* The **main router and dumb AP are connected via LAN3 (wired backhaul)**
+
+**What Finally Worked**
+
+VLAN Configuration on *Device* *Configuration* of br-lan
+
+**VLAN 1 (Main)**
+
+* Set as **Untagged / Primary VLAN**
+* Enabled on **all LAN ports**
+
+**VLAN 2 (IoT)**
+
+* **Tagged on LAN3 the port I am using for wired connection between two devices**
+* **Not participating** in LAN1, LAN2
+* I **did NOT create a separate br-iot bridge** on either the main router or the AP
+* Instead:
+   * Linked **br-lan.1 → Main LAN interface \[Subnet** [**192.168.1.1**](http://192.168.1.1) **format\]**
+   * Linked **br-lan.2 → IoT interface \[Subnet** [**192.168.2.1**](http://192.168.2.1) **format\]**
+
+**Firewall &amp; Services**
+
+* Created firewall rules for the IoT network
+* Enabled access to ports for:
+   * **DHCP**
+   * **DNS**
+* Verified isolation and access rules as needed
+
+That was pretty much it for core networking on main router.
+
+**Dumb AP:**
+
+Ensure you configure static IP first [192.168.1.2](http://192.168.1.2) for dumb ip (you can try DHCP and reserve the IP address on main router and that will be fine too).
+
+Rest, follow pretty much the exact setup from main router for VLANs.
+
+**lan gets br-lan.1 interface. disable DHCP \[Ignore interface\]**
+
+**IoT gets br-lan.2 interface, this is protocol unmanaged, do not enable dhcp.**
+
+*No need to create any devices like br-iot etc.*
+
+Do the wifi SSID setup on both, ensure you select correct interfaces, non-overlapping channels. Use same SSIDs names on both. I have 5GHz SSIDs same and 2.4 GHZ SSIDs same names on both. My 2.4 GHz SSID is for IoT devices.
+
+You can do some more config like fast roaming etc. Those are easy things. You may need some other Firewall rules to setup access to IoT devices from main lan e.g. I enabled rule to access IoT camera from my Synology NAS which is in main lan.
+
+**Extras I Configured**:
+
+**WireGuard (Client Mode)**
+
+* Set up **two WireGuard client interfaces**:
+   * One US location
+   * One non-US location
+* Used **policy-based routing** so:
+   * **Only two specific devices** are forced through the VPN (Above locations)
+   * Those devices **have no internet access unless VPN is up \[Kill switch\]**
+
+**Tailscale config**
+
+* Highly recommend it! Wow I had no idea.
+
+**Automated Backups**
+
+* Added a **USB drive** to the main router
+* Created a **scheduled script** to:
+   * Back up the router configuration **every night** to USB
+
+**Final Thoughts**
+
+I also installed a few helpful packages recommended by others in this sub, and overall I’m **very happy with the setup now**. Stable build + simpler bridging made a huge difference.
+
+If anyone has questions about this setup, feel free to ask, happy to help to the best of my knowledge.
+
+(And yes, shoutout to Gemini for helping with parts of this too ...AI is going to take our jobs really fast 😄)",,title_and_body,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/Linksys/comments/1pt9tux/how_to_setup_vlans_on_linksys_mx4300_ln1301_guide/
+B22-085,Wordpress,How a single plugin update broke my entire WordPress site,"Last week I learned (again) that “just a quick update” can turn into a full-blown crisis.  
+I updated one plugin, and my entire WordPress site went blank.
+
+**TL;DR:** A single plugin update caused a fatal PHP error that took my site offline. I’ll break down what happened, how I fixed it, and the precautions I’m taking from now on.
+
+# The setup
+
+I manage a mid-sized WordPress site that runs about 25 plugins. Most are common, caching, SEO, security, and a few custom integrations.
+
+I saw an update notification for a plugin I’ve used for years. The changelog mentioned “performance improvements,” so I hit update directly from the dashboard.  
+Within seconds, I got the dreaded white screen. No errors, no warnings, just nothing.
+
+# What went wrong
+
+# After checking the logs via FTP, I found this:
+
+PHP Fatal error: Uncaught Error: Call to undefined function get\_current\_screen()
+
+Turns out, the plugin started calling an admin-only function on the front end after the update.  
+It was a minor oversight from their dev team, but enough to take down my site since PHP halted execution before WordPress could recover.
+
+# How I fixed it
+
+1. **Renamed the plugin folder via FTP** → that deactivated it immediately.
+2. **Cleared cache (both server and plugin)** → the site came back online.
+3. **Rolled back to the previous version** from a local backup.
+4. **Created a staging environment** for future updates.
+5. **Installed WP Rollback** to safely test new plugin versions.
+
+# What I’m doing differently now
+
+* Never update directly on production.
+* Always read the changelog *and* recent reviews first.
+* Keep backups accessible (not just through the host).
+* Test critical plugins on staging before applying live.
+
+Anyone else run into similar plugin update disasters?  
+  
+Would love to hear how you handle plugin testing or rollback processes on client sites.",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/Wordpress/comments/1o2dq6p/how_a_single_plugin_update_broke_my_entire/
+B22-086,sysadmin,Migrating DHCP to a new Windows Server 2025 box with an IP swap – sanity check on my plan?,"Hi all,
+
+I'm planning to move our DHCP role from an old \[Windows Server 20XX\] server to a new Windows Server 2025 server (member server, not a DC) and would appreciate a sanity check before the maintenance window.
+
+The plan is to give the new server the old server's IP address, so we don't have to touch the DHCP relay (IP helper) configuration on our network devices.
+
+**Planned steps:**
+
+*Preparation*
+
+1. Install the DHCP role on the new server and create the security groups (`Add-DhcpServerSecurityGroup`).
+2. Record scope, lease and reservation counts on the old server for comparison.
+
+*Cutover*
+
+1. Export the config with leases: `Export-DhcpServer -ComputerName &lt;Old&gt; -Leases -File C:\DHCP\export.xml`
+2. Unauthorize DHCP on the old server, stop the service and set it to Disabled.
+3. Change the old server's IP, update its DNS record, reboot once.
+4. Assign the old IP to the new server and update its DNS record.
+5. Import: `Import-DhcpServer -ComputerName &lt;New&gt; -Leases -File C:\DHCP\export.xml -BackupPath C:\DHCP\Backup\`
+6. Authorize the new server in AD (`Add-DhcpServerInDC`).
+
+*Validation*
+
+1. Compare scope/lease/reservation counts with the old server.
+2. Test IP assignment from clients in different VLANs.
+
+*Rollback:* stop DHCP on the new server, re-enable and re-authorize the old one.
+
+We're not using DHCP failover, and I've checked that there are no DNS dynamic update credentials or members in the local DHCP Administrators group that would need to be recreated.
+
+**Questions:**
+
+1. Is the IP swap approach reasonable here, or is it cleaner to just keep the new server's own IP and update the IP helpers instead?
+2. Anything I'm missing in the order of steps, e.g. ARP cache issues on switches/routers after the IP swap?
+3. Any gotchas importing an export from \[Windows Server 20XX\] into 2025?
+4. How long did you keep the old server around before decommissioning?
+
+Thanks in advance!","[1:reply] Looks good, I would reboot switches if you can as always quick way to have a device do a pull. Remember to check IP binding in DHCP after you change IP as it may get removed. IP change is clean and fine way to do it. Take screenshots of the DHCP config/scope/etc as well so you c…
+[2:reply] Did you go through the [official Microsoft documentation for this exact process](https://learn.microsoft.com/en-us/windows-server/networking/technologies/dhcp/migrate-dhcp-server) already? 😎
+[3:reply] I chose to build new and update iphelpers. I chose this method as I was able to do a subnet (clinic floor) at a time.
+If you choose this method just make sure you have all your reservations configured before you cut over, and make sure you disable the scope on the old server as…
+[4:reply] I wish I had employees put in 25% of the effort you have. You’ll be fine. Luckily DHCP is fairly forgiving compared to most other tech. I personally have shifted away from Windows handling it and do it on HA network gear. Good luck.
+[5:reply] The Sanity check stop with Windows Server 2025.",title_body_comments,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/sysadmin/comments/1wt36oo/migrating_dhcp_to_a_new_windows_server_2025_box/
+B22-087,applehelp,Verify phone number failed,"Hello! I am really having a hard time setting up my Apple account because of this phone number verification. Every time I try it, it goes **""Verification codes can’t be sent to this phone number at this time. Please try again later.""**
+
+I also tried to use my other numbers, even phone numbers of my family but still failed to send a stupid OTP. I also tried to do other solutions here on reddit like ""clicking it 30 times"" or ""wait 8 hours"" but still failed.
+
+I literally have a macbook here just sitting for the last 2 days and I cant use it because of this stupid verification code via phone 😭😭 (please help me)",,title_and_body,yes,no,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/applehelp/comments/1tfbsj5/verify_phone_number_failed/
+B22-088,MicrosoftEdge,Xcloud full screen problem,Latest update has bug when you using energy saver controller doesn’t work on full screen in xcloud,,title_and_body,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/MicrosoftEdge/comments/1wri0eg/xcloud_full_screen_problem/
+B22-089,Ubuntu,Copy shortcut broken in Ptxyis (Gnome Terminal) on latest update in 26.04?,I’ve been on the 26.04 betas for quite a while and “Ctrl+shift+c” to copy in the terminal has worked fine until the latest update. Now it just doesn’t do anything. It still works fine in ghostty. Has anyone else experienced this?,,title_and_body,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/Ubuntu/comments/1swf7dl/copy_shortcut_broken_in_ptxyis_gnome_terminal_on/
+B22-090,google,Google Pixel 10 eSIM activation problem and 00000000000 phone number [FIX],"So I switched carrier networks in UK and got QR code eSIM - in first 3 tries it failed to activate giving error - after 4th time it worked but then it was saying my phone number is 00000000000.
+
+Phone calls were working fine with this stupid number.
+
+So I did restart and... nothing - still 00000000000.
+
+I waited like 5+ minutes I got notification with REAL phone number has been added to my Chromebook so I restarted again and I got REAL phone number.
+
+3 weeks ago on April 2026 I had no such a problem - on May 2026 update I had.
+
+Additionally I say I was PORTING my number today but 3 weeks ago I was just replacing my pSIM to eSIM (to have 2 eSIMs)",,title_and_body,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/google/comments/1td1axi/google_pixel_10_esim_activation_problem_and/
+B22-091,applehelp,iPad charging icon showing when not charging + iPadOS error,"iPad Pro 13 inch M4 
+Started after iPados 26.3.1 update, iPad drains from 80-0% overnight with screen off. The charging icon is stuck on even when it's not plugged in. 
+What I've tried: 
+- updating to iPad os 26.4 RC (unable to verify update error) 
+- plug into pc but isn't showing up on iTunes (iPhone shows up with the same cable)
+- tried resetting all settings 
+- force restarting 
+- Cleaned the charging port and swapped cables
+
+Is this a known bug with 26.3.1, or does this sound like a sudden charging IC hardware failure? Any advice is appreciated!",,title_and_body,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/applehelp/comments/1ryfj4a/ipad_charging_icon_showing_when_not_charging/
+B22-092,Wordpress,I’m having a weird cache issue with WordPress and I’m trying to understand what’s actually causing it,"’m using Elementor + W3 Total Cache.
+
+When I make a change, the public version updates the content (HTML), but the design/styles are broken or outdated. The weird part is if I manually clear the W3 Total Cache cache and then open the modified page while logged in as admin, the public version updates correctly almost instantly.
+
+Has anyone seen this behavior before with Elementor + W3 Total Cache? I’m trying to make the public cache regenerate automatically after updates and without needing an admin visit to trigger it.
+
+Could this also be related to CDN? I'm out of ideas, tried every variation of settings",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/Wordpress/comments/1sfuhf7/im_having_a_weird_cache_issue_with_wordpress_and/
+B22-093,applehelp,iPhone Wallpaper De-Saturation Bug,"Hello,
+
+Model = iPhone AIR    
+Software = IOS 26.5.1
+
+Experiencing an unbelievably annoying issue that’s probably been present for a while, but started to notice it recently as I was playing around with my wallpapers.
+
+I have an iPhone Air, and the latest software update. All my settings are factory default. I have quadruple checked.
+
+When setting any wallpaper, the lock screen photo is pretty much normal, however, when unlocking the phone, the paired photo on the home screen is unbelievably noticeably de-saturated color wise and washed out. It’s so weird? And as a matter of fact, when quickly switching back and forth from wallpaper to wallpaper presets, you can quickly choose a wallpaper, then quickly unlock the phone to go to the homescreen, and you can physically see the switch that happens about a delayed 2 seconds later where the photo just totally desaturates.
+
+There is plenty of feedback about this online in various places, so it’s totally confirmed that I’m not crazy.
+
+I’ve also tried so many troubleshooting options such as restarting phone after setting wallpaper, going through settings, etc.
+
+NOTHING has worked. I’ve submitted feedback to Apple on this. Coming here to see if anyone has a miracle fix. I love my photos to be as they are intended on my wallpapers since we pay a lot to have a beautiful screen.",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/applehelp/comments/1us3u98/iphone_wallpaper_desaturation_bug/
+B22-094,chrome,Chrome won't open any pages after Windows 11 insider update,"On my laptop I have Windows 11 insider, and it often wakes up and does a restart in the middle of the night.  Pain but usually just temporary.  Today, either Chrome won't start at all, or if it does, even though all the tabs are there, none of the pages actually load.  I've tried all sorts of things to no avail.  On this machine, with the insider builds, there seems to be no rollback option.  I did run the rebuild option in Windows but that did not solve it.  I've run sfc and dism.  I've run a full Malwarebytes scan.  I also updated Chrome to no effect.  I've disabled extensions (in the target for the launch shortcut) and that seems to let it launch, but it isn't accessing anything. Edge runs fine; it's not the internet etc.  Something specific to Chrome.  Any suggestions are welcome.",,title_and_body,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/chrome/comments/1o0qqwa/chrome_wont_open_any_pages_after_windows_11/
+B22-095,MacOS,OneDrive blown up in Go Finder...wtf lol Probably a bug and have to wait for an update,"Happened just after updating to 26.1
+
+https://preview.redd.it/fyuxl8g2n9zf1.png?width=444&amp;format=png&amp;auto=webp&amp;s=69827725edc325fe5e2a480c25b5af30d51dc25f",,title_and_body,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/MacOS/comments/1oobk02/onedrive_blown_up_in_go_finderwtf_lol_probably_a/
+B22-096,applehelp,How to switch between windows in Application windows view on MacOS 27 with only keyboard,"How do I switch window selection in Mission control &amp; Expose view (ctrl+down arrow) on MacOS 27 Golden Gate with keyboard?
+
+It only seem to default to either the window I opened it from or where my mouse cursor moved, but I usually use when my mouse charges so I need the keyboard only way
+
+I'm pretty sure before the update it used to be left and right arrows, but now that just switches apps instead.
+
+I tried some googling and it all points to use left and right arrows on older versions of MacOS.  
+Also keyboard shortcuts seem to only allow remapping of the Application windows view opening itself, so that didn't solve it either
+
+UPD: the control also switched in Mission control view",,title_and_body,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/applehelp/comments/1wrqch6/how_to_switch_between_windows_in_application/
+B22-097,MacOS,MacBook Air M1 feels slower after the macOS Tahoe update (stable). Anyone else facing this?,"I updated my MacBook Air M1 to macOS Tahoe (version 26) and the performance has dropped. The system was smooth before the update, but now I’m noticing delays.
+
+**What I’m seeing:**
+
+* Apps take longer to open.
+* Animations have slight stutters.
+* The system warms up faster, as if something is running constantly.
+* This was not happening before the update.
+
+**What I tried:**
+
+* Left the laptop plugged in overnight in case indexing needed to finish.
+* Checked free storage.
+* Looked at Activity Monitor for any odd process.
+* Read through user reports mentioning similar issues on M1 machines.
+
+**What I want to know:**
+
+* Are others on M1 or similar models experiencing slow behaviour after updating?
+* Did it settle after a day or two?
+* Any practical fixes that worked for you?
+* If you reverted to the previous OS, did that solve it?
+
+I like the update, but the slowdown is getting in the way of my usual workflow. Would appreciate any input from users who ran into the same issue.",,title_and_body,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/MacOS/comments/1p1xkx2/macbook_air_m1_feels_slower_after_the_macos_tahoe/
+B22-098,applehelp,True Tone not working on iPhone 17,"Recently upgraded and can’t figure out why, when enabled, True Tune display brightness doesn’t kick in. This feature used to work seamlessly on my (much older) iPhone 13.
+
+Walking in blistering morning sunlight and my screen appears black from being completely dimmed the night before.",,title_and_body,no,no,na,low,The saved text appears outside software scope or is too vague to classify reliably.,,,,,,,https://reddit.com/r/applehelp/comments/1rw1cqr/true_tone_not_working_on_iphone_17/
+B22-099,androiddev,Play Console Rejection for Username and Password Update!,"Hello! 
+
+I just wanted to give an update to a post I made before about not being able to get my app past the review stage. The first time that I had sent my app in for review, it had an issue with location based access, which made it so the reviewer wasn't able to log in. They had given me a screenshot of this issue, and I fixed it and sent it back in. Rejected for the same reason. 
+
+For months I went back and forth with the appeals process and made changes in the backend to make sure that the reviewer would be able to get in, but every single time I would resubmit it, I would get the same rejection. After a while, someone who was sending me the reviews in the appeals process wrote a comment saying that they ""are not able to re-review the app without a new bundle version."" So I got a new version, resubmitted it, and within 2 days I got the confirmation that it has been added to the Playstore. 
+
+So the lesson that I have learned and would like to share, is that if you are being denied over and over again even though the issue is fixed, try to put out a new version for review and you have a better chance!",,title_and_body,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/androiddev/comments/1rz0veo/play_console_rejection_for_username_and_password/
+B22-100,Safari,Why does verify Window open user gesture not working on Safari after iOS 18.5 update?,,,title_only,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/Safari/comments/1kq4afu/why_does_verify_window_open_user_gesture_not/

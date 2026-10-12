@@ -1,0 +1,452 @@
+[
+  {
+    "pilot_id": "D20261007-001",
+    "reddit_id": "1pe31s2",
+    "study_id": "C2-4E64A3961E12",
+    "source_pool": "phase1_gold_file",
+    "has_body": false,
+    "subreddit": "comfyui",
+    "created_utc": "2025-12-04T15:35:25"
+  },
+  {
+    "pilot_id": "D20261007-002",
+    "reddit_id": "1nu6glg",
+    "study_id": "C2-9AF71B28AB54",
+    "source_pool": "phase1_gold_file",
+    "has_body": true,
+    "subreddit": "immich",
+    "created_utc": "2025-09-30T07:07:21"
+  },
+  {
+    "pilot_id": "D20261007-003",
+    "reddit_id": "1m7ukjz",
+    "study_id": "C2-4284ED23553B",
+    "source_pool": "oct5_query_gds",
+    "has_body": false,
+    "subreddit": "vscode",
+    "created_utc": "2025-07-24T04:11:55"
+  },
+  {
+    "pilot_id": "D20261007-004",
+    "reddit_id": "1s8zrvp",
+    "study_id": "C2-CAA82A64CACE",
+    "source_pool": "oct5_query_tps",
+    "has_body": true,
+    "subreddit": "applehelp",
+    "created_utc": "2026-03-31T20:52:06"
+  },
+  {
+    "pilot_id": "D20261007-005",
+    "reddit_id": "1tgl1yg",
+    "study_id": "C2-46AE60C6F194",
+    "source_pool": "oct5_query_tps",
+    "has_body": true,
+    "subreddit": "Fedora",
+    "created_utc": "2026-05-18T12:25:13"
+  },
+  {
+    "pilot_id": "D20261007-006",
+    "reddit_id": "1nzslca",
+    "study_id": "C2-A35AF840487F",
+    "source_pool": "phase1_gold_file",
+    "has_body": false,
+    "subreddit": "MicrosoftEdge",
+    "created_utc": "2025-10-06T19:23:35"
+  },
+  {
+    "pilot_id": "D20261007-007",
+    "reddit_id": "1l7r9nf",
+    "study_id": "C2-0D8BCE7B1987",
+    "source_pool": "oct5_query_gds",
+    "has_body": false,
+    "subreddit": "chrome",
+    "created_utc": "2025-06-10T05:58:22"
+  },
+  {
+    "pilot_id": "D20261007-008",
+    "reddit_id": "1udulr0",
+    "study_id": "C2-38D00166C0EB",
+    "source_pool": "oct5_query_tps",
+    "has_body": true,
+    "subreddit": "Fedora",
+    "created_utc": "2026-06-23T21:47:51"
+  },
+  {
+    "pilot_id": "D20261007-009",
+    "reddit_id": "1s9r3zg",
+    "study_id": "C2-E8BCCE0C1F5B",
+    "source_pool": "oct5_query_gds",
+    "has_body": true,
+    "subreddit": "ios",
+    "created_utc": "2026-04-01T17:24:33"
+  },
+  {
+    "pilot_id": "D20261007-010",
+    "reddit_id": "1otvvjo",
+    "study_id": "C2-024ED1D7377B",
+    "source_pool": "oct5_query_tps",
+    "has_body": true,
+    "subreddit": "firefox",
+    "created_utc": "2025-11-11T01:05:20"
+  },
+  {
+    "pilot_id": "D20261007-011",
+    "reddit_id": "1qnynjc",
+    "study_id": "C2-61B83953D7E0",
+    "source_pool": "oct5_query_tps",
+    "has_body": true,
+    "subreddit": "Dell",
+    "created_utc": "2026-01-27T00:43:04"
+  },
+  {
+    "pilot_id": "D20261007-012",
+    "reddit_id": "1sitb8j",
+    "study_id": "C2-5E7F1114CE74",
+    "source_pool": "oct5_query_tps",
+    "has_body": true,
+    "subreddit": "linuxquestions",
+    "created_utc": "2026-04-11T20:01:26"
+  },
+  {
+    "pilot_id": "D20261007-013",
+    "reddit_id": "1wu0qbw",
+    "study_id": "C2-B5F42BBAFA91",
+    "source_pool": "oct5_query_tps",
+    "has_body": true,
+    "subreddit": "MicrosoftEdge",
+    "created_utc": "2026-09-30T09:49:17"
+  },
+  {
+    "pilot_id": "D20261007-014",
+    "reddit_id": "1ndq22a",
+    "study_id": "C2-ABCDEFF75231",
+    "source_pool": "oct5_query_tps",
+    "has_body": false,
+    "subreddit": "Wordpress",
+    "created_utc": "2025-09-10T20:55:58"
+  },
+  {
+    "pilot_id": "D20261007-015",
+    "reddit_id": "1vok17d",
+    "study_id": "C2-67F25E7067AE",
+    "source_pool": "oct5_query_gds",
+    "has_body": true,
+    "subreddit": "chrome",
+    "created_utc": "2026-08-14T21:25:19"
+  },
+  {
+    "pilot_id": "D20261007-016",
+    "reddit_id": "1wuxbbe",
+    "study_id": "C2-2277D4B62DDB",
+    "source_pool": "oct5_query_tps",
+    "has_body": true,
+    "subreddit": "HomeNetworking",
+    "created_utc": "2026-10-01T11:47:33"
+  },
+  {
+    "pilot_id": "D20261007-017",
+    "reddit_id": "1u2nyz4",
+    "study_id": "C2-D37F936CC756",
+    "source_pool": "oct5_query_gds",
+    "has_body": true,
+    "subreddit": "Ubuntu",
+    "created_utc": "2026-06-11T03:42:09"
+  },
+  {
+    "pilot_id": "D20261007-018",
+    "reddit_id": "1oww9q0",
+    "study_id": "C2-FE5D8D841527",
+    "source_pool": "oct5_query_tps",
+    "has_body": true,
+    "subreddit": "chrome",
+    "created_utc": "2025-11-14T13:19:07"
+  },
+  {
+    "pilot_id": "D20261007-019",
+    "reddit_id": "1tnztmt",
+    "study_id": "C2-48C66EB87C33",
+    "source_pool": "oct5_query_tps",
+    "has_body": true,
+    "subreddit": "androiddev",
+    "created_utc": "2026-05-26T07:38:43"
+  },
+  {
+    "pilot_id": "D20261007-020",
+    "reddit_id": "1nyuw70",
+    "study_id": "C2-62B5A9875157",
+    "source_pool": "phase1_gold_file",
+    "has_body": true,
+    "subreddit": "tailwindcss",
+    "created_utc": "2025-10-05T17:48:22"
+  },
+  {
+    "pilot_id": "D20261007-021",
+    "reddit_id": "1rws7ah",
+    "study_id": "C2-3C81D64E796C",
+    "source_pool": "oct5_query_tps",
+    "has_body": true,
+    "subreddit": "debian",
+    "created_utc": "2026-03-18T02:59:11"
+  },
+  {
+    "pilot_id": "D20261007-022",
+    "reddit_id": "1s9j8ck",
+    "study_id": "C2-B903A4A5D936",
+    "source_pool": "oct5_query_tps",
+    "has_body": true,
+    "subreddit": "openclaw",
+    "created_utc": "2026-04-01T12:32:52"
+  },
+  {
+    "pilot_id": "D20261007-023",
+    "reddit_id": "1sh4idu",
+    "study_id": "C2-DD72FD66A3CC",
+    "source_pool": "oct5_query_tps",
+    "has_body": true,
+    "subreddit": "Ubiquiti",
+    "created_utc": "2026-04-09T22:31:01"
+  },
+  {
+    "pilot_id": "D20261007-024",
+    "reddit_id": "1si6d2u",
+    "study_id": "C2-01673B26DA6A",
+    "source_pool": "oct5_query_gds",
+    "has_body": true,
+    "subreddit": "applehelp",
+    "created_utc": "2026-04-11T02:11:45"
+  },
+  {
+    "pilot_id": "D20261007-025",
+    "reddit_id": "1noelxs",
+    "study_id": "C2-29DC78CD1942",
+    "source_pool": "phase1_gold_file",
+    "has_body": false,
+    "subreddit": "Wordpress",
+    "created_utc": "2025-09-23T11:18:17"
+  },
+  {
+    "pilot_id": "D20261007-026",
+    "reddit_id": "1u7qqf6",
+    "study_id": "C2-71D1D20B261B",
+    "source_pool": "oct5_query_gds",
+    "has_body": true,
+    "subreddit": "AndroidQuestions",
+    "created_utc": "2026-06-16T21:27:36"
+  },
+  {
+    "pilot_id": "D20261007-027",
+    "reddit_id": "1nwcima",
+    "study_id": "C2-86AF34761C39",
+    "source_pool": "phase1_gold_file",
+    "has_body": true,
+    "subreddit": "immich",
+    "created_utc": "2025-10-02T18:55:08"
+  },
+  {
+    "pilot_id": "D20261007-028",
+    "reddit_id": "1wuwdcs",
+    "study_id": "C2-3BDEC68431C9",
+    "source_pool": "oct5_query_tps",
+    "has_body": true,
+    "subreddit": "firefox",
+    "created_utc": "2026-10-01T10:56:49"
+  },
+  {
+    "pilot_id": "D20261007-029",
+    "reddit_id": "1up0joa",
+    "study_id": "C2-B73FAE33D6B1",
+    "source_pool": "oct5_query_tps",
+    "has_body": true,
+    "subreddit": "sysadmin",
+    "created_utc": "2026-07-06T15:26:10"
+  },
+  {
+    "pilot_id": "D20261007-030",
+    "reddit_id": "1ol2i0p",
+    "study_id": "C2-BF8A3231B69A",
+    "source_pool": "oct5_query_tps",
+    "has_body": true,
+    "subreddit": "ios",
+    "created_utc": "2025-10-31T18:33:09"
+  },
+  {
+    "pilot_id": "D20261007-031",
+    "reddit_id": "1ur201s",
+    "study_id": "C2-BDD75FC67157",
+    "source_pool": "oct5_query_tps",
+    "has_body": true,
+    "subreddit": "Fedora",
+    "created_utc": "2026-07-08T18:55:44"
+  },
+  {
+    "pilot_id": "D20261007-032",
+    "reddit_id": "1ns8b82",
+    "study_id": "C2-EFEEDEE75F52",
+    "source_pool": "phase1_gold_file",
+    "has_body": true,
+    "subreddit": "Android",
+    "created_utc": "2025-09-27T22:32:28"
+  },
+  {
+    "pilot_id": "D20261007-033",
+    "reddit_id": "1svfkdy",
+    "study_id": "C2-43823F93ECE2",
+    "source_pool": "oct5_query_tps",
+    "has_body": true,
+    "subreddit": "Ubuntu",
+    "created_utc": "2026-04-25T15:43:11"
+  },
+  {
+    "pilot_id": "D20261007-034",
+    "reddit_id": "1n2akzl",
+    "study_id": "C2-EFEC71D5CAA1",
+    "source_pool": "oct5_query_gds",
+    "has_body": false,
+    "subreddit": "chrome",
+    "created_utc": "2025-08-28T12:14:12"
+  },
+  {
+    "pilot_id": "D20261007-035",
+    "reddit_id": "1s0ibrv",
+    "study_id": "C2-769A6445136D",
+    "source_pool": "oct5_query_tps",
+    "has_body": true,
+    "subreddit": "Ubiquiti",
+    "created_utc": "2026-03-22T10:35:02"
+  },
+  {
+    "pilot_id": "D20261007-036",
+    "reddit_id": "1wtqbqr",
+    "study_id": "C2-414D3D5D9547",
+    "source_pool": "oct5_query_gds",
+    "has_body": true,
+    "subreddit": "applehelp",
+    "created_utc": "2026-09-30T00:05:15"
+  },
+  {
+    "pilot_id": "D20261007-037",
+    "reddit_id": "1tennm0",
+    "study_id": "C2-50D6D57E18C3",
+    "source_pool": "oct5_query_tps",
+    "has_body": true,
+    "subreddit": "firefox",
+    "created_utc": "2026-05-16T08:22:49"
+  },
+  {
+    "pilot_id": "D20261007-038",
+    "reddit_id": "1ulx8im",
+    "study_id": "C2-4DE26481FE05",
+    "source_pool": "oct5_query_tps",
+    "has_body": true,
+    "subreddit": "Fedora",
+    "created_utc": "2026-07-02T22:51:50"
+  },
+  {
+    "pilot_id": "D20261007-039",
+    "reddit_id": "1r1wg6j",
+    "study_id": "C2-020A4F5E2FC3",
+    "source_pool": "phase1_gold_file",
+    "has_body": false,
+    "subreddit": "applehelp",
+    "created_utc": "2026-02-11T12:46:50"
+  },
+  {
+    "pilot_id": "D20261007-040",
+    "reddit_id": "1vnp66z",
+    "study_id": "C2-119C83553342",
+    "source_pool": "oct5_query_tps",
+    "has_body": true,
+    "subreddit": "sysadmin",
+    "created_utc": "2026-08-13T22:18:15"
+  },
+  {
+    "pilot_id": "D20261007-041",
+    "reddit_id": "1u1sfxa",
+    "study_id": "C2-462EF5624C6F",
+    "source_pool": "oct5_query_tps",
+    "has_body": true,
+    "subreddit": "homeassistant",
+    "created_utc": "2026-06-10T04:56:27"
+  },
+  {
+    "pilot_id": "D20261007-042",
+    "reddit_id": "1sy3e3y",
+    "study_id": "C2-10B596BBBE0F",
+    "source_pool": "oct5_query_gds",
+    "has_body": true,
+    "subreddit": "Fedora",
+    "created_utc": "2026-04-28T14:41:52"
+  },
+  {
+    "pilot_id": "D20261007-043",
+    "reddit_id": "1tcy2u5",
+    "study_id": "C2-C033BA266350",
+    "source_pool": "oct5_query_tps",
+    "has_body": true,
+    "subreddit": "sysadmin",
+    "created_utc": "2026-05-14T13:22:57"
+  },
+  {
+    "pilot_id": "D20261007-044",
+    "reddit_id": "1u9ci7z",
+    "study_id": "C2-499D2A0EFE95",
+    "source_pool": "oct5_query_tps",
+    "has_body": true,
+    "subreddit": "applehelp",
+    "created_utc": "2026-06-18T17:24:11"
+  },
+  {
+    "pilot_id": "D20261007-045",
+    "reddit_id": "1oyjovo",
+    "study_id": "C2-7973E36F92FB",
+    "source_pool": "oct5_query_tps",
+    "has_body": true,
+    "subreddit": "immich",
+    "created_utc": "2025-11-16T11:44:15"
+  },
+  {
+    "pilot_id": "D20261007-046",
+    "reddit_id": "1u86r5n",
+    "study_id": "C2-81A0EB39CB7E",
+    "source_pool": "oct5_query_tps",
+    "has_body": true,
+    "subreddit": "firefox",
+    "created_utc": "2026-06-17T10:47:09"
+  },
+  {
+    "pilot_id": "D20261007-047",
+    "reddit_id": "1wvos19",
+    "study_id": "C2-F5AC45287A9A",
+    "source_pool": "oct5_query_tps",
+    "has_body": true,
+    "subreddit": "applehelp",
+    "created_utc": "2026-10-02T08:52:55"
+  },
+  {
+    "pilot_id": "D20261007-048",
+    "reddit_id": "1lpij7v",
+    "study_id": "C2-0BFEB556D4A3",
+    "source_pool": "oct5_query_tps",
+    "has_body": false,
+    "subreddit": "chrome",
+    "created_utc": "2025-07-02T00:50:53"
+  },
+  {
+    "pilot_id": "D20261007-049",
+    "reddit_id": "1m3utvy",
+    "study_id": "C2-79AC6854CDE3",
+    "source_pool": "oct5_query_gds",
+    "has_body": false,
+    "subreddit": "kubernetes",
+    "created_utc": "2025-07-19T12:17:33"
+  },
+  {
+    "pilot_id": "D20261007-050",
+    "reddit_id": "1u92qck",
+    "study_id": "C2-3CE8CAEEDDF2",
+    "source_pool": "oct5_query_gds",
+    "has_body": true,
+    "subreddit": "chrome",
+    "created_utc": "2026-06-18T10:36:22"
+  }
+]

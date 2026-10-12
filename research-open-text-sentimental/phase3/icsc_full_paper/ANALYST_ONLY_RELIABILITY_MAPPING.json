@@ -1,0 +1,2002 @@
+[
+  {
+    "review_id": "IR-001",
+    "reddit_id": "1wu9hw1",
+    "study_id": "C2-5180EA4C02AF",
+    "stratum_for_sampling_only": "s2_other_update",
+    "source_pool": "oct5_query_tps",
+    "prior_about_software": "yes",
+    "prior_update_related": "yes",
+    "prior_discussion_type": "other"
+  },
+  {
+    "review_id": "IR-002",
+    "reddit_id": "1qxbmsm",
+    "study_id": "C2-6748CAAF2B97",
+    "stratum_for_sampling_only": "s2_troubleshooting",
+    "source_pool": "phase1_gold_file",
+    "prior_about_software": "yes",
+    "prior_update_related": "yes",
+    "prior_discussion_type": "technical_troubleshooting"
+  },
+  {
+    "review_id": "IR-003",
+    "reddit_id": "1uwfq5v",
+    "study_id": "C2-265DAAACF8C1",
+    "stratum_for_sampling_only": "s2_troubleshooting",
+    "source_pool": "oct5_query_tps",
+    "prior_about_software": "yes",
+    "prior_update_related": "yes",
+    "prior_discussion_type": "technical_troubleshooting"
+  },
+  {
+    "review_id": "IR-004",
+    "reddit_id": "1ogt8v7",
+    "study_id": "C2-9DB07401EB31",
+    "stratum_for_sampling_only": "nonsoftware",
+    "source_pool": "phase1_gold_file",
+    "prior_about_software": "no",
+    "prior_update_related": "no",
+    "prior_discussion_type": "na"
+  },
+  {
+    "review_id": "IR-005",
+    "reddit_id": "1o0hdym",
+    "study_id": "C2-1FF79CD9F082",
+    "stratum_for_sampling_only": "s2_other_update",
+    "source_pool": "phase1_gold_file",
+    "prior_about_software": "yes",
+    "prior_update_related": "yes",
+    "prior_discussion_type": "other"
+  },
+  {
+    "review_id": "IR-006",
+    "reddit_id": "1ur56as",
+    "study_id": "C2-749B585CC3EF",
+    "stratum_for_sampling_only": "nonsoftware",
+    "source_pool": "oct5_query_tps",
+    "prior_about_software": "no",
+    "prior_update_related": "no",
+    "prior_discussion_type": "na"
+  },
+  {
+    "review_id": "IR-007",
+    "reddit_id": "1t544i9",
+    "study_id": "C2-C9B10ADEAC97",
+    "stratum_for_sampling_only": "s2_troubleshooting",
+    "source_pool": "oct5_query_gds",
+    "prior_about_software": "yes",
+    "prior_update_related": "yes",
+    "prior_discussion_type": "technical_troubleshooting"
+  },
+  {
+    "review_id": "IR-008",
+    "reddit_id": "1nv3m8j",
+    "study_id": "C2-719771C90D47",
+    "stratum_for_sampling_only": "software_nonupdate",
+    "source_pool": "phase1_gold_file",
+    "prior_about_software": "yes",
+    "prior_update_related": "no",
+    "prior_discussion_type": "technical_troubleshooting"
+  },
+  {
+    "review_id": "IR-009",
+    "reddit_id": "1ntcan7",
+    "study_id": "C2-831FD6C10B2A",
+    "stratum_for_sampling_only": "s2_other_update",
+    "source_pool": "phase1_gold_file",
+    "prior_about_software": "yes",
+    "prior_update_related": "yes",
+    "prior_discussion_type": "general_dissatisfaction"
+  },
+  {
+    "review_id": "IR-010",
+    "reddit_id": "1s1lpas",
+    "study_id": "C2-F8F6DEF72EF4",
+    "stratum_for_sampling_only": "nonsoftware",
+    "source_pool": "oct5_query_gds",
+    "prior_about_software": "no",
+    "prior_update_related": "no",
+    "prior_discussion_type": "na"
+  },
+  {
+    "review_id": "IR-011",
+    "reddit_id": "1p8l84x",
+    "study_id": "C2-B3406730C54D",
+    "stratum_for_sampling_only": "s2_other_update",
+    "source_pool": "oct5_query_tps",
+    "prior_about_software": "yes",
+    "prior_update_related": "yes",
+    "prior_discussion_type": "general_dissatisfaction"
+  },
+  {
+    "review_id": "IR-012",
+    "reddit_id": "1phadn8",
+    "study_id": "C2-385245CDAE45",
+    "stratum_for_sampling_only": "s2_other_update",
+    "source_pool": "phase1_gold_file",
+    "prior_about_software": "yes",
+    "prior_update_related": "yes",
+    "prior_discussion_type": "other"
+  },
+  {
+    "review_id": "IR-013",
+    "reddit_id": "1t2iip0",
+    "study_id": "C2-43FA119282E9",
+    "stratum_for_sampling_only": "software_nonupdate",
+    "source_pool": "oct5_query_gds",
+    "prior_about_software": "yes",
+    "prior_update_related": "no",
+    "prior_discussion_type": "technical_troubleshooting"
+  },
+  {
+    "review_id": "IR-014",
+    "reddit_id": "1wubdaa",
+    "study_id": "C2-BFF4B9C47D05",
+    "stratum_for_sampling_only": "s2_troubleshooting",
+    "source_pool": "oct5_query_gds",
+    "prior_about_software": "yes",
+    "prior_update_related": "yes",
+    "prior_discussion_type": "technical_troubleshooting"
+  },
+  {
+    "review_id": "IR-015",
+    "reddit_id": "1q37ef7",
+    "study_id": "C2-0F50E95F9C84",
+    "stratum_for_sampling_only": "software_nonupdate",
+    "source_pool": "phase1_gold_file",
+    "prior_about_software": "yes",
+    "prior_update_related": "no",
+    "prior_discussion_type": "general_dissatisfaction"
+  },
+  {
+    "review_id": "IR-016",
+    "reddit_id": "1lw4if9",
+    "study_id": "C2-2706CCA6AFD7",
+    "stratum_for_sampling_only": "s2_other_update",
+    "source_pool": "oct5_query_gds",
+    "prior_about_software": "yes",
+    "prior_update_related": "yes",
+    "prior_discussion_type": "general_dissatisfaction"
+  },
+  {
+    "review_id": "IR-017",
+    "reddit_id": "1vus4cf",
+    "study_id": "C2-D899184A9D75",
+    "stratum_for_sampling_only": "s2_troubleshooting",
+    "source_pool": "oct5_query_tps",
+    "prior_about_software": "yes",
+    "prior_update_related": "yes",
+    "prior_discussion_type": "technical_troubleshooting"
+  },
+  {
+    "review_id": "IR-018",
+    "reddit_id": "1s2d096",
+    "study_id": "C2-A54CA7DE649C",
+    "stratum_for_sampling_only": "s2_other_update",
+    "source_pool": "phase1_gold_file",
+    "prior_about_software": "yes",
+    "prior_update_related": "yes",
+    "prior_discussion_type": "other"
+  },
+  {
+    "review_id": "IR-019",
+    "reddit_id": "1ry4vuz",
+    "study_id": "C2-ED30AF28CF80",
+    "stratum_for_sampling_only": "nonsoftware",
+    "source_pool": "phase1_gold_file",
+    "prior_about_software": "no",
+    "prior_update_related": "no",
+    "prior_discussion_type": "na"
+  },
+  {
+    "review_id": "IR-020",
+    "reddit_id": "1mnjyqj",
+    "study_id": "C2-6E6C33196F79",
+    "stratum_for_sampling_only": "s2_other_update",
+    "source_pool": "oct5_query_gds",
+    "prior_about_software": "yes",
+    "prior_update_related": "yes",
+    "prior_discussion_type": "general_dissatisfaction"
+  },
+  {
+    "review_id": "IR-021",
+    "reddit_id": "1u826ns",
+    "study_id": "C2-02B27966B15E",
+    "stratum_for_sampling_only": "s2_troubleshooting",
+    "source_pool": "oct5_query_gds",
+    "prior_about_software": "yes",
+    "prior_update_related": "yes",
+    "prior_discussion_type": "technical_troubleshooting"
+  },
+  {
+    "review_id": "IR-022",
+    "reddit_id": "1ovbv9c",
+    "study_id": "C2-67008C09B1FD",
+    "stratum_for_sampling_only": "s2_other_update",
+    "source_pool": "phase1_gold_file",
+    "prior_about_software": "yes",
+    "prior_update_related": "yes",
+    "prior_discussion_type": "general_dissatisfaction"
+  },
+  {
+    "review_id": "IR-023",
+    "reddit_id": "1r0e16k",
+    "study_id": "C2-DBC690480E5C",
+    "stratum_for_sampling_only": "software_nonupdate",
+    "source_pool": "phase1_gold_file",
+    "prior_about_software": "yes",
+    "prior_update_related": "no",
+    "prior_discussion_type": "technical_troubleshooting"
+  },
+  {
+    "review_id": "IR-024",
+    "reddit_id": "1qspl4n",
+    "study_id": "C2-B8D4A84CECE6",
+    "stratum_for_sampling_only": "s2_troubleshooting",
+    "source_pool": "oct5_query_tps",
+    "prior_about_software": "yes",
+    "prior_update_related": "yes",
+    "prior_discussion_type": "technical_troubleshooting"
+  },
+  {
+    "review_id": "IR-025",
+    "reddit_id": "1t4yiv7",
+    "study_id": "C2-471A5975DD45",
+    "stratum_for_sampling_only": "software_nonupdate",
+    "source_pool": "oct5_query_gds",
+    "prior_about_software": "yes",
+    "prior_update_related": "no",
+    "prior_discussion_type": "technical_troubleshooting"
+  },
+  {
+    "review_id": "IR-026",
+    "reddit_id": "1sslv3b",
+    "study_id": "C2-27C247D4F797",
+    "stratum_for_sampling_only": "s2_other_update",
+    "source_pool": "oct5_query_tps",
+    "prior_about_software": "yes",
+    "prior_update_related": "yes",
+    "prior_discussion_type": "other"
+  },
+  {
+    "review_id": "IR-027",
+    "reddit_id": "1si6d2u",
+    "study_id": "C2-01673B26DA6A",
+    "stratum_for_sampling_only": "s2_troubleshooting",
+    "source_pool": "oct5_query_gds",
+    "prior_about_software": "yes",
+    "prior_update_related": "yes",
+    "prior_discussion_type": "technical_troubleshooting"
+  },
+  {
+    "review_id": "IR-028",
+    "reddit_id": "1sfysw6",
+    "study_id": "C2-8F5D6E41D1D7",
+    "stratum_for_sampling_only": "s2_other_update",
+    "source_pool": "oct5_query_gds",
+    "prior_about_software": "yes",
+    "prior_update_related": "yes",
+    "prior_discussion_type": "other"
+  },
+  {
+    "review_id": "IR-029",
+    "reddit_id": "1nubrx1",
+    "study_id": "C2-BA516DB666D3",
+    "stratum_for_sampling_only": "software_nonupdate",
+    "source_pool": "phase1_gold_file",
+    "prior_about_software": "yes",
+    "prior_update_related": "no",
+    "prior_discussion_type": "technical_troubleshooting"
+  },
+  {
+    "review_id": "IR-030",
+    "reddit_id": "1vwf4gb",
+    "study_id": "C2-CEC4562CD4B4",
+    "stratum_for_sampling_only": "s2_other_update",
+    "source_pool": "oct5_query_tps",
+    "prior_about_software": "yes",
+    "prior_update_related": "yes",
+    "prior_discussion_type": "other"
+  },
+  {
+    "review_id": "IR-031",
+    "reddit_id": "1mx1fhs",
+    "study_id": "C2-DA9EB12ECD9C",
+    "stratum_for_sampling_only": "s2_other_update",
+    "source_pool": "oct5_query_gds",
+    "prior_about_software": "yes",
+    "prior_update_related": "yes",
+    "prior_discussion_type": "other"
+  },
+  {
+    "review_id": "IR-032",
+    "reddit_id": "1nznnb8",
+    "study_id": "C2-5012BFED52DB",
+    "stratum_for_sampling_only": "s2_troubleshooting",
+    "source_pool": "phase1_gold_file",
+    "prior_about_software": "yes",
+    "prior_update_related": "yes",
+    "prior_discussion_type": "technical_troubleshooting"
+  },
+  {
+    "review_id": "IR-033",
+    "reddit_id": "1l6jr6x",
+    "study_id": "C2-49560B40AB73",
+    "stratum_for_sampling_only": "s2_troubleshooting",
+    "source_pool": "oct5_query_tps",
+    "prior_about_software": "yes",
+    "prior_update_related": "yes",
+    "prior_discussion_type": "technical_troubleshooting"
+  },
+  {
+    "review_id": "IR-034",
+    "reddit_id": "1pktceu",
+    "study_id": "C2-6B07904138D0",
+    "stratum_for_sampling_only": "s2_other_update",
+    "source_pool": "oct5_query_gds",
+    "prior_about_software": "yes",
+    "prior_update_related": "yes",
+    "prior_discussion_type": "general_dissatisfaction"
+  },
+  {
+    "review_id": "IR-035",
+    "reddit_id": "1nx7k8k",
+    "study_id": "C2-8BDF05D427C7",
+    "stratum_for_sampling_only": "s2_other_update",
+    "source_pool": "phase1_gold_file",
+    "prior_about_software": "yes",
+    "prior_update_related": "yes",
+    "prior_discussion_type": "general_dissatisfaction"
+  },
+  {
+    "review_id": "IR-036",
+    "reddit_id": "1p6idfe",
+    "study_id": "C2-FB2188C0011F",
+    "stratum_for_sampling_only": "s2_troubleshooting",
+    "source_pool": "oct5_query_tps",
+    "prior_about_software": "yes",
+    "prior_update_related": "yes",
+    "prior_discussion_type": "technical_troubleshooting"
+  },
+  {
+    "review_id": "IR-037",
+    "reddit_id": "1o0om20",
+    "study_id": "C2-873B6E552BD4",
+    "stratum_for_sampling_only": "s2_troubleshooting",
+    "source_pool": "phase1_gold_file",
+    "prior_about_software": "yes",
+    "prior_update_related": "yes",
+    "prior_discussion_type": "technical_troubleshooting"
+  },
+  {
+    "review_id": "IR-038",
+    "reddit_id": "1wrvnyz",
+    "study_id": "C2-797408FB85ED",
+    "stratum_for_sampling_only": "s2_other_update",
+    "source_pool": "oct5_query_gds",
+    "prior_about_software": "yes",
+    "prior_update_related": "yes",
+    "prior_discussion_type": "other"
+  },
+  {
+    "review_id": "IR-039",
+    "reddit_id": "1t5coug",
+    "study_id": "C2-75DE930D139E",
+    "stratum_for_sampling_only": "software_nonupdate",
+    "source_pool": "oct5_query_tps",
+    "prior_about_software": "yes",
+    "prior_update_related": "no",
+    "prior_discussion_type": "technical_troubleshooting"
+  },
+  {
+    "review_id": "IR-040",
+    "reddit_id": "1su37rp",
+    "study_id": "C2-BB48BB562AEE",
+    "stratum_for_sampling_only": "s2_other_update",
+    "source_pool": "oct5_query_gds",
+    "prior_about_software": "yes",
+    "prior_update_related": "yes",
+    "prior_discussion_type": "other"
+  },
+  {
+    "review_id": "IR-041",
+    "reddit_id": "1p3x3cx",
+    "study_id": "C2-AFBFE9C4DA48",
+    "stratum_for_sampling_only": "s2_troubleshooting",
+    "source_pool": "phase1_gold_file",
+    "prior_about_software": "yes",
+    "prior_update_related": "yes",
+    "prior_discussion_type": "technical_troubleshooting"
+  },
+  {
+    "review_id": "IR-042",
+    "reddit_id": "1sqnj5f",
+    "study_id": "C2-CC9A3753A85E",
+    "stratum_for_sampling_only": "s2_troubleshooting",
+    "source_pool": "oct5_query_gds",
+    "prior_about_software": "yes",
+    "prior_update_related": "yes",
+    "prior_discussion_type": "technical_troubleshooting"
+  },
+  {
+    "review_id": "IR-043",
+    "reddit_id": "1udhvx5",
+    "study_id": "C2-BF309EB71E62",
+    "stratum_for_sampling_only": "s2_troubleshooting",
+    "source_pool": "oct5_query_gds",
+    "prior_about_software": "yes",
+    "prior_update_related": "yes",
+    "prior_discussion_type": "technical_troubleshooting"
+  },
+  {
+    "review_id": "IR-044",
+    "reddit_id": "1ljevqv",
+    "study_id": "C2-BA13D31B40DC",
+    "stratum_for_sampling_only": "s2_troubleshooting",
+    "source_pool": "oct5_query_gds",
+    "prior_about_software": "yes",
+    "prior_update_related": "yes",
+    "prior_discussion_type": "technical_troubleshooting"
+  },
+  {
+    "review_id": "IR-045",
+    "reddit_id": "1p6ffz7",
+    "study_id": "C2-A33B195D99F0",
+    "stratum_for_sampling_only": "software_nonupdate",
+    "source_pool": "oct5_query_tps",
+    "prior_about_software": "yes",
+    "prior_update_related": "no",
+    "prior_discussion_type": "technical_troubleshooting"
+  },
+  {
+    "review_id": "IR-046",
+    "reddit_id": "1ug3yhh",
+    "study_id": "C2-E5D81E32E896",
+    "stratum_for_sampling_only": "software_nonupdate",
+    "source_pool": "oct5_query_tps",
+    "prior_about_software": "yes",
+    "prior_update_related": "no",
+    "prior_discussion_type": "technical_troubleshooting"
+  },
+  {
+    "review_id": "IR-047",
+    "reddit_id": "1pbqjk9",
+    "study_id": "C2-8D3A9CC2D8AC",
+    "stratum_for_sampling_only": "s2_other_update",
+    "source_pool": "oct5_query_tps",
+    "prior_about_software": "yes",
+    "prior_update_related": "yes",
+    "prior_discussion_type": "general_dissatisfaction"
+  },
+  {
+    "review_id": "IR-048",
+    "reddit_id": "1ujrm1o",
+    "study_id": "C2-06E56CAAEEE8",
+    "stratum_for_sampling_only": "s2_other_update",
+    "source_pool": "oct5_query_tps",
+    "prior_about_software": "yes",
+    "prior_update_related": "yes",
+    "prior_discussion_type": "general_dissatisfaction"
+  },
+  {
+    "review_id": "IR-049",
+    "reddit_id": "1v20peo",
+    "study_id": "C2-21652FD8C4C8",
+    "stratum_for_sampling_only": "s2_troubleshooting",
+    "source_pool": "oct5_query_tps",
+    "prior_about_software": "yes",
+    "prior_update_related": "yes",
+    "prior_discussion_type": "technical_troubleshooting"
+  },
+  {
+    "review_id": "IR-050",
+    "reddit_id": "1v4ym5e",
+    "study_id": "C2-EC0FAAC71E36",
+    "stratum_for_sampling_only": "s2_troubleshooting",
+    "source_pool": "oct5_query_tps",
+    "prior_about_software": "yes",
+    "prior_update_related": "yes",
+    "prior_discussion_type": "technical_troubleshooting"
+  },
+  {
+    "review_id": "IR-051",
+    "reddit_id": "1suj8y2",
+    "study_id": "C2-BFD73BD38C06",
+    "stratum_for_sampling_only": "software_nonupdate",
+    "source_pool": "oct5_query_gds",
+    "prior_about_software": "yes",
+    "prior_update_related": "no",
+    "prior_discussion_type": "technical_troubleshooting"
+  },
+  {
+    "review_id": "IR-052",
+    "reddit_id": "1npu9vw",
+    "study_id": "C2-56CF0E9469DB",
+    "stratum_for_sampling_only": "software_nonupdate",
+    "source_pool": "phase1_gold_file",
+    "prior_about_software": "yes",
+    "prior_update_related": "no",
+    "prior_discussion_type": "technical_troubleshooting"
+  },
+  {
+    "review_id": "IR-053",
+    "reddit_id": "1uj2zbo",
+    "study_id": "C2-1A1396CE18A3",
+    "stratum_for_sampling_only": "s2_troubleshooting",
+    "source_pool": "oct5_query_gds",
+    "prior_about_software": "yes",
+    "prior_update_related": "yes",
+    "prior_discussion_type": "technical_troubleshooting"
+  },
+  {
+    "review_id": "IR-054",
+    "reddit_id": "1sflnn5",
+    "study_id": "C2-0A83276E5281",
+    "stratum_for_sampling_only": "nonsoftware",
+    "source_pool": "oct5_query_tps",
+    "prior_about_software": "no",
+    "prior_update_related": "no",
+    "prior_discussion_type": "na"
+  },
+  {
+    "review_id": "IR-055",
+    "reddit_id": "1ntnu85",
+    "study_id": "C2-D1DB5086640F",
+    "stratum_for_sampling_only": "s2_other_update",
+    "source_pool": "phase1_gold_file",
+    "prior_about_software": "yes",
+    "prior_update_related": "yes",
+    "prior_discussion_type": "other"
+  },
+  {
+    "review_id": "IR-056",
+    "reddit_id": "1qwo6w8",
+    "study_id": "C2-6D5284F42253",
+    "stratum_for_sampling_only": "s2_troubleshooting",
+    "source_pool": "phase1_gold_file",
+    "prior_about_software": "yes",
+    "prior_update_related": "yes",
+    "prior_discussion_type": "technical_troubleshooting"
+  },
+  {
+    "review_id": "IR-057",
+    "reddit_id": "1wv47hj",
+    "study_id": "C2-DEDED9F002AA",
+    "stratum_for_sampling_only": "nonsoftware",
+    "source_pool": "oct5_query_gds",
+    "prior_about_software": "no",
+    "prior_update_related": "no",
+    "prior_discussion_type": "na"
+  },
+  {
+    "review_id": "IR-058",
+    "reddit_id": "1vzmdo0",
+    "study_id": "C2-A3CAAB67C8DD",
+    "stratum_for_sampling_only": "s2_other_update",
+    "source_pool": "oct5_query_tps",
+    "prior_about_software": "yes",
+    "prior_update_related": "yes",
+    "prior_discussion_type": "other"
+  },
+  {
+    "review_id": "IR-059",
+    "reddit_id": "1kjzegx",
+    "study_id": "C2-8FC6C47E3F79",
+    "stratum_for_sampling_only": "s2_troubleshooting",
+    "source_pool": "oct5_query_gds",
+    "prior_about_software": "yes",
+    "prior_update_related": "yes",
+    "prior_discussion_type": "technical_troubleshooting"
+  },
+  {
+    "review_id": "IR-060",
+    "reddit_id": "1lkpwsa",
+    "study_id": "C2-D37F1CFCE289",
+    "stratum_for_sampling_only": "s2_troubleshooting",
+    "source_pool": "oct5_query_gds",
+    "prior_about_software": "yes",
+    "prior_update_related": "yes",
+    "prior_discussion_type": "technical_troubleshooting"
+  },
+  {
+    "review_id": "IR-061",
+    "reddit_id": "1oualms",
+    "study_id": "C2-5B44EC0E6BF7",
+    "stratum_for_sampling_only": "s2_other_update",
+    "source_pool": "phase1_gold_file",
+    "prior_about_software": "yes",
+    "prior_update_related": "yes",
+    "prior_discussion_type": "other"
+  },
+  {
+    "review_id": "IR-062",
+    "reddit_id": "1sh22ds",
+    "study_id": "C2-9E8256F23574",
+    "stratum_for_sampling_only": "s2_troubleshooting",
+    "source_pool": "oct5_query_gds",
+    "prior_about_software": "yes",
+    "prior_update_related": "yes",
+    "prior_discussion_type": "technical_troubleshooting"
+  },
+  {
+    "review_id": "IR-063",
+    "reddit_id": "1o0vrgp",
+    "study_id": "C2-45C61E067D58",
+    "stratum_for_sampling_only": "s2_troubleshooting",
+    "source_pool": "phase1_gold_file",
+    "prior_about_software": "yes",
+    "prior_update_related": "yes",
+    "prior_discussion_type": "technical_troubleshooting"
+  },
+  {
+    "review_id": "IR-064",
+    "reddit_id": "1m56e9b",
+    "study_id": "C2-5F17B5EAEF60",
+    "stratum_for_sampling_only": "s2_other_update",
+    "source_pool": "oct5_query_gds",
+    "prior_about_software": "yes",
+    "prior_update_related": "yes",
+    "prior_discussion_type": "other"
+  },
+  {
+    "review_id": "IR-065",
+    "reddit_id": "1nrjstu",
+    "study_id": "C2-F5CB98ACBF30",
+    "stratum_for_sampling_only": "software_nonupdate",
+    "source_pool": "phase1_gold_file",
+    "prior_about_software": "yes",
+    "prior_update_related": "no",
+    "prior_discussion_type": "technical_troubleshooting"
+  },
+  {
+    "review_id": "IR-066",
+    "reddit_id": "1r16dq1",
+    "study_id": "C2-E1A913EE01C8",
+    "stratum_for_sampling_only": "nonsoftware",
+    "source_pool": "oct5_query_tps",
+    "prior_about_software": "no",
+    "prior_update_related": "no",
+    "prior_discussion_type": "na"
+  },
+  {
+    "review_id": "IR-067",
+    "reddit_id": "1u43i9w",
+    "study_id": "C2-6A284EF8B8C2",
+    "stratum_for_sampling_only": "s2_troubleshooting",
+    "source_pool": "oct5_query_tps",
+    "prior_about_software": "yes",
+    "prior_update_related": "yes",
+    "prior_discussion_type": "technical_troubleshooting"
+  },
+  {
+    "review_id": "IR-068",
+    "reddit_id": "1ns8l1d",
+    "study_id": "C2-B37BD7E38728",
+    "stratum_for_sampling_only": "s2_troubleshooting",
+    "source_pool": "phase1_gold_file",
+    "prior_about_software": "yes",
+    "prior_update_related": "yes",
+    "prior_discussion_type": "technical_troubleshooting"
+  },
+  {
+    "review_id": "IR-069",
+    "reddit_id": "1t57fgm",
+    "study_id": "C2-2E913153192D",
+    "stratum_for_sampling_only": "software_nonupdate",
+    "source_pool": "oct5_query_gds",
+    "prior_about_software": "yes",
+    "prior_update_related": "no",
+    "prior_discussion_type": "technical_troubleshooting"
+  },
+  {
+    "review_id": "IR-070",
+    "reddit_id": "1s38rsd",
+    "study_id": "C2-1FEF0A557355",
+    "stratum_for_sampling_only": "s2_troubleshooting",
+    "source_pool": "oct5_query_gds",
+    "prior_about_software": "yes",
+    "prior_update_related": "yes",
+    "prior_discussion_type": "technical_troubleshooting"
+  },
+  {
+    "review_id": "IR-071",
+    "reddit_id": "1mh49dk",
+    "study_id": "C2-20CBC9F966BA",
+    "stratum_for_sampling_only": "s2_troubleshooting",
+    "source_pool": "oct5_query_gds",
+    "prior_about_software": "yes",
+    "prior_update_related": "yes",
+    "prior_discussion_type": "technical_troubleshooting"
+  },
+  {
+    "review_id": "IR-072",
+    "reddit_id": "1wux78v",
+    "study_id": "C2-E229139BAF50",
+    "stratum_for_sampling_only": "s2_troubleshooting",
+    "source_pool": "oct5_query_tps",
+    "prior_about_software": "yes",
+    "prior_update_related": "yes",
+    "prior_discussion_type": "technical_troubleshooting"
+  },
+  {
+    "review_id": "IR-073",
+    "reddit_id": "1tebwdi",
+    "study_id": "C2-3E1CBF8A0251",
+    "stratum_for_sampling_only": "s2_other_update",
+    "source_pool": "oct5_query_tps",
+    "prior_about_software": "yes",
+    "prior_update_related": "yes",
+    "prior_discussion_type": "general_dissatisfaction"
+  },
+  {
+    "review_id": "IR-074",
+    "reddit_id": "1u1d478",
+    "study_id": "C2-DAD68D091566",
+    "stratum_for_sampling_only": "software_nonupdate",
+    "source_pool": "oct5_query_gds",
+    "prior_about_software": "yes",
+    "prior_update_related": "no",
+    "prior_discussion_type": "technical_troubleshooting"
+  },
+  {
+    "review_id": "IR-075",
+    "reddit_id": "1r14hme",
+    "study_id": "C2-F382BFEE0EC0",
+    "stratum_for_sampling_only": "nonsoftware",
+    "source_pool": "phase1_gold_file",
+    "prior_about_software": "no",
+    "prior_update_related": "no",
+    "prior_discussion_type": "na"
+  },
+  {
+    "review_id": "IR-076",
+    "reddit_id": "1v18duf",
+    "study_id": "C2-026203DB3216",
+    "stratum_for_sampling_only": "s2_troubleshooting",
+    "source_pool": "oct5_query_tps",
+    "prior_about_software": "yes",
+    "prior_update_related": "yes",
+    "prior_discussion_type": "technical_troubleshooting"
+  },
+  {
+    "review_id": "IR-077",
+    "reddit_id": "1tmy1v4",
+    "study_id": "C2-922135D405E2",
+    "stratum_for_sampling_only": "s2_troubleshooting",
+    "source_pool": "oct5_query_tps",
+    "prior_about_software": "yes",
+    "prior_update_related": "yes",
+    "prior_discussion_type": "technical_troubleshooting"
+  },
+  {
+    "review_id": "IR-078",
+    "reddit_id": "1mgrzy6",
+    "study_id": "C2-059335C72C00",
+    "stratum_for_sampling_only": "software_nonupdate",
+    "source_pool": "oct5_query_gds",
+    "prior_about_software": "yes",
+    "prior_update_related": "no",
+    "prior_discussion_type": "general_dissatisfaction"
+  },
+  {
+    "review_id": "IR-079",
+    "reddit_id": "1r62nm3",
+    "study_id": "C2-C70542BD5094",
+    "stratum_for_sampling_only": "software_nonupdate",
+    "source_pool": "oct5_query_tps",
+    "prior_about_software": "yes",
+    "prior_update_related": "no",
+    "prior_discussion_type": "technical_troubleshooting"
+  },
+  {
+    "review_id": "IR-080",
+    "reddit_id": "1uaqzgr",
+    "study_id": "C2-3042EC45A6F0",
+    "stratum_for_sampling_only": "s2_troubleshooting",
+    "source_pool": "oct5_query_tps",
+    "prior_about_software": "yes",
+    "prior_update_related": "yes",
+    "prior_discussion_type": "technical_troubleshooting"
+  },
+  {
+    "review_id": "IR-081",
+    "reddit_id": "1p28pnv",
+    "study_id": "C2-C6E90FDA93A1",
+    "stratum_for_sampling_only": "nonsoftware",
+    "source_pool": "phase1_gold_file",
+    "prior_about_software": "no",
+    "prior_update_related": "no",
+    "prior_discussion_type": "na"
+  },
+  {
+    "review_id": "IR-082",
+    "reddit_id": "1te617s",
+    "study_id": "C2-153D366EC167",
+    "stratum_for_sampling_only": "software_nonupdate",
+    "source_pool": "oct5_query_tps",
+    "prior_about_software": "yes",
+    "prior_update_related": "no",
+    "prior_discussion_type": "technical_troubleshooting"
+  },
+  {
+    "review_id": "IR-083",
+    "reddit_id": "1nw7zjt",
+    "study_id": "C2-27FF6531EC0C",
+    "stratum_for_sampling_only": "s2_troubleshooting",
+    "source_pool": "phase1_gold_file",
+    "prior_about_software": "yes",
+    "prior_update_related": "yes",
+    "prior_discussion_type": "technical_troubleshooting"
+  },
+  {
+    "review_id": "IR-084",
+    "reddit_id": "1vzu60o",
+    "study_id": "C2-7A578C888806",
+    "stratum_for_sampling_only": "s2_troubleshooting",
+    "source_pool": "oct5_query_tps",
+    "prior_about_software": "yes",
+    "prior_update_related": "yes",
+    "prior_discussion_type": "technical_troubleshooting"
+  },
+  {
+    "review_id": "IR-085",
+    "reddit_id": "1v17wwt",
+    "study_id": "C2-677151D9DA09",
+    "stratum_for_sampling_only": "s2_other_update",
+    "source_pool": "oct5_query_tps",
+    "prior_about_software": "yes",
+    "prior_update_related": "yes",
+    "prior_discussion_type": "general_dissatisfaction"
+  },
+  {
+    "review_id": "IR-086",
+    "reddit_id": "1rzyp1k",
+    "study_id": "C2-74FCE1AB11C7",
+    "stratum_for_sampling_only": "nonsoftware",
+    "source_pool": "oct5_query_gds",
+    "prior_about_software": "no",
+    "prior_update_related": "no",
+    "prior_discussion_type": "na"
+  },
+  {
+    "review_id": "IR-087",
+    "reddit_id": "1pfc58t",
+    "study_id": "C2-7C75B90CF05A",
+    "stratum_for_sampling_only": "s2_troubleshooting",
+    "source_pool": "phase1_gold_file",
+    "prior_about_software": "yes",
+    "prior_update_related": "yes",
+    "prior_discussion_type": "technical_troubleshooting"
+  },
+  {
+    "review_id": "IR-088",
+    "reddit_id": "1t0dobj",
+    "study_id": "C2-7AAB41C7C0A9",
+    "stratum_for_sampling_only": "software_nonupdate",
+    "source_pool": "oct5_query_gds",
+    "prior_about_software": "yes",
+    "prior_update_related": "no",
+    "prior_discussion_type": "technical_troubleshooting"
+  },
+  {
+    "review_id": "IR-089",
+    "reddit_id": "1voggue",
+    "study_id": "C2-0BFADE007490",
+    "stratum_for_sampling_only": "s2_troubleshooting",
+    "source_pool": "oct5_query_tps",
+    "prior_about_software": "yes",
+    "prior_update_related": "yes",
+    "prior_discussion_type": "technical_troubleshooting"
+  },
+  {
+    "review_id": "IR-090",
+    "reddit_id": "1u4weju",
+    "study_id": "C2-90C508938F35",
+    "stratum_for_sampling_only": "s2_other_update",
+    "source_pool": "oct5_query_tps",
+    "prior_about_software": "yes",
+    "prior_update_related": "yes",
+    "prior_discussion_type": "other"
+  },
+  {
+    "review_id": "IR-091",
+    "reddit_id": "1utf6l4",
+    "study_id": "C2-16726501D4FF",
+    "stratum_for_sampling_only": "nonsoftware",
+    "source_pool": "oct5_query_gds",
+    "prior_about_software": "no",
+    "prior_update_related": "no",
+    "prior_discussion_type": "na"
+  },
+  {
+    "review_id": "IR-092",
+    "reddit_id": "1r1wg6j",
+    "study_id": "C2-020A4F5E2FC3",
+    "stratum_for_sampling_only": "s2_troubleshooting",
+    "source_pool": "phase1_gold_file",
+    "prior_about_software": "yes",
+    "prior_update_related": "yes",
+    "prior_discussion_type": "technical_troubleshooting"
+  },
+  {
+    "review_id": "IR-093",
+    "reddit_id": "1wvg5vo",
+    "study_id": "C2-1D0F933D4239",
+    "stratum_for_sampling_only": "software_nonupdate",
+    "source_pool": "oct5_query_gds",
+    "prior_about_software": "yes",
+    "prior_update_related": "no",
+    "prior_discussion_type": "technical_troubleshooting"
+  },
+  {
+    "review_id": "IR-094",
+    "reddit_id": "1rrpsof",
+    "study_id": "C2-7CE5F0C23274",
+    "stratum_for_sampling_only": "software_nonupdate",
+    "source_pool": "oct5_query_tps",
+    "prior_about_software": "yes",
+    "prior_update_related": "no",
+    "prior_discussion_type": "technical_troubleshooting"
+  },
+  {
+    "review_id": "IR-095",
+    "reddit_id": "1nx7zdd",
+    "study_id": "C2-BC5F76A3DC33",
+    "stratum_for_sampling_only": "s2_troubleshooting",
+    "source_pool": "phase1_gold_file",
+    "prior_about_software": "yes",
+    "prior_update_related": "yes",
+    "prior_discussion_type": "technical_troubleshooting"
+  },
+  {
+    "review_id": "IR-096",
+    "reddit_id": "1s3ih7q",
+    "study_id": "C2-AF7DC220808E",
+    "stratum_for_sampling_only": "s2_other_update",
+    "source_pool": "phase1_gold_file",
+    "prior_about_software": "yes",
+    "prior_update_related": "yes",
+    "prior_discussion_type": "other"
+  },
+  {
+    "review_id": "IR-097",
+    "reddit_id": "1sij087",
+    "study_id": "C2-A964B3B44E5A",
+    "stratum_for_sampling_only": "s2_troubleshooting",
+    "source_pool": "oct5_query_gds",
+    "prior_about_software": "yes",
+    "prior_update_related": "yes",
+    "prior_discussion_type": "technical_troubleshooting"
+  },
+  {
+    "review_id": "IR-098",
+    "reddit_id": "1k970e9",
+    "study_id": "C2-7A75EAC3079A",
+    "stratum_for_sampling_only": "s2_other_update",
+    "source_pool": "oct5_query_gds",
+    "prior_about_software": "yes",
+    "prior_update_related": "yes",
+    "prior_discussion_type": "general_dissatisfaction"
+  },
+  {
+    "review_id": "IR-099",
+    "reddit_id": "1secy74",
+    "study_id": "C2-3B4CC8D25EB3",
+    "stratum_for_sampling_only": "s2_troubleshooting",
+    "source_pool": "oct5_query_gds",
+    "prior_about_software": "yes",
+    "prior_update_related": "yes",
+    "prior_discussion_type": "technical_troubleshooting"
+  },
+  {
+    "review_id": "IR-100",
+    "reddit_id": "1nxqah6",
+    "study_id": "C2-E50577A5BD4D",
+    "stratum_for_sampling_only": "s2_troubleshooting",
+    "source_pool": "phase1_gold_file",
+    "prior_about_software": "yes",
+    "prior_update_related": "yes",
+    "prior_discussion_type": "technical_troubleshooting"
+  },
+  {
+    "review_id": "IR-101",
+    "reddit_id": "1od3glr",
+    "study_id": "C2-5174730F2E65",
+    "stratum_for_sampling_only": "s2_other_update",
+    "source_pool": "oct5_query_tps",
+    "prior_about_software": "yes",
+    "prior_update_related": "yes",
+    "prior_discussion_type": "general_dissatisfaction"
+  },
+  {
+    "review_id": "IR-102",
+    "reddit_id": "1vo45fq",
+    "study_id": "C2-C3752A03C428",
+    "stratum_for_sampling_only": "s2_troubleshooting",
+    "source_pool": "oct5_query_gds",
+    "prior_about_software": "yes",
+    "prior_update_related": "yes",
+    "prior_discussion_type": "technical_troubleshooting"
+  },
+  {
+    "review_id": "IR-103",
+    "reddit_id": "1shy0ui",
+    "study_id": "C2-A78C0812F2F3",
+    "stratum_for_sampling_only": "software_nonupdate",
+    "source_pool": "oct5_query_gds",
+    "prior_about_software": "yes",
+    "prior_update_related": "no",
+    "prior_discussion_type": "other"
+  },
+  {
+    "review_id": "IR-104",
+    "reddit_id": "1lsvaok",
+    "study_id": "C2-DFC4CDAAF77B",
+    "stratum_for_sampling_only": "s2_other_update",
+    "source_pool": "oct5_query_gds",
+    "prior_about_software": "yes",
+    "prior_update_related": "yes",
+    "prior_discussion_type": "other"
+  },
+  {
+    "review_id": "IR-105",
+    "reddit_id": "1rllhyo",
+    "study_id": "C2-350154D4F8A2",
+    "stratum_for_sampling_only": "software_nonupdate",
+    "source_pool": "phase1_gold_file",
+    "prior_about_software": "yes",
+    "prior_update_related": "no",
+    "prior_discussion_type": "other"
+  },
+  {
+    "review_id": "IR-106",
+    "reddit_id": "1r3wa64",
+    "study_id": "C2-E18060F90177",
+    "stratum_for_sampling_only": "s2_other_update",
+    "source_pool": "phase1_gold_file",
+    "prior_about_software": "yes",
+    "prior_update_related": "yes",
+    "prior_discussion_type": "other"
+  },
+  {
+    "review_id": "IR-107",
+    "reddit_id": "1s3r9jj",
+    "study_id": "C2-3F05790C8B1D",
+    "stratum_for_sampling_only": "s2_other_update",
+    "source_pool": "oct5_query_tps",
+    "prior_about_software": "yes",
+    "prior_update_related": "yes",
+    "prior_discussion_type": "other"
+  },
+  {
+    "review_id": "IR-108",
+    "reddit_id": "1nx0u6s",
+    "study_id": "C2-06C8A36E75E2",
+    "stratum_for_sampling_only": "software_nonupdate",
+    "source_pool": "phase1_gold_file",
+    "prior_about_software": "yes",
+    "prior_update_related": "no",
+    "prior_discussion_type": "technical_troubleshooting"
+  },
+  {
+    "review_id": "IR-109",
+    "reddit_id": "1u71hyg",
+    "study_id": "C2-E2CD9F916C7C",
+    "stratum_for_sampling_only": "s2_other_update",
+    "source_pool": "oct5_query_gds",
+    "prior_about_software": "yes",
+    "prior_update_related": "yes",
+    "prior_discussion_type": "other"
+  },
+  {
+    "review_id": "IR-110",
+    "reddit_id": "1l71xf2",
+    "study_id": "C2-F4ADAC79ADA7",
+    "stratum_for_sampling_only": "s2_other_update",
+    "source_pool": "oct5_query_gds",
+    "prior_about_software": "yes",
+    "prior_update_related": "yes",
+    "prior_discussion_type": "other"
+  },
+  {
+    "review_id": "IR-111",
+    "reddit_id": "1vne7av",
+    "study_id": "C2-1B312D7735CD",
+    "stratum_for_sampling_only": "software_nonupdate",
+    "source_pool": "oct5_query_gds",
+    "prior_about_software": "yes",
+    "prior_update_related": "no",
+    "prior_discussion_type": "other"
+  },
+  {
+    "review_id": "IR-112",
+    "reddit_id": "1wvcu5q",
+    "study_id": "C2-F00C2A5D05F4",
+    "stratum_for_sampling_only": "nonsoftware",
+    "source_pool": "oct5_query_tps",
+    "prior_about_software": "no",
+    "prior_update_related": "no",
+    "prior_discussion_type": "na"
+  },
+  {
+    "review_id": "IR-113",
+    "reddit_id": "1uv6zpi",
+    "study_id": "C2-0F04DF93DD9D",
+    "stratum_for_sampling_only": "s2_troubleshooting",
+    "source_pool": "oct5_query_tps",
+    "prior_about_software": "yes",
+    "prior_update_related": "yes",
+    "prior_discussion_type": "technical_troubleshooting"
+  },
+  {
+    "review_id": "IR-114",
+    "reddit_id": "1vwwod6",
+    "study_id": "C2-1D9462406109",
+    "stratum_for_sampling_only": "software_nonupdate",
+    "source_pool": "oct5_query_tps",
+    "prior_about_software": "yes",
+    "prior_update_related": "no",
+    "prior_discussion_type": "technical_troubleshooting"
+  },
+  {
+    "review_id": "IR-115",
+    "reddit_id": "1wx4uas",
+    "study_id": "C2-5634071E2386",
+    "stratum_for_sampling_only": "software_nonupdate",
+    "source_pool": "oct5_query_gds",
+    "prior_about_software": "yes",
+    "prior_update_related": "no",
+    "prior_discussion_type": "technical_troubleshooting"
+  },
+  {
+    "review_id": "IR-116",
+    "reddit_id": "1nmx4fv",
+    "study_id": "C2-9421CCAAB6A9",
+    "stratum_for_sampling_only": "s2_other_update",
+    "source_pool": "phase1_gold_file",
+    "prior_about_software": "yes",
+    "prior_update_related": "yes",
+    "prior_discussion_type": "other"
+  },
+  {
+    "review_id": "IR-117",
+    "reddit_id": "1oo2mby",
+    "study_id": "C2-1C317F9DBF62",
+    "stratum_for_sampling_only": "s2_other_update",
+    "source_pool": "oct5_query_gds",
+    "prior_about_software": "yes",
+    "prior_update_related": "yes",
+    "prior_discussion_type": "other"
+  },
+  {
+    "review_id": "IR-118",
+    "reddit_id": "1tpb2t2",
+    "study_id": "C2-A44FCB5A0272",
+    "stratum_for_sampling_only": "s2_other_update",
+    "source_pool": "oct5_query_gds",
+    "prior_about_software": "yes",
+    "prior_update_related": "yes",
+    "prior_discussion_type": "other"
+  },
+  {
+    "review_id": "IR-119",
+    "reddit_id": "1lrk4pd",
+    "study_id": "C2-8D4F0946DFF7",
+    "stratum_for_sampling_only": "s2_other_update",
+    "source_pool": "oct5_query_gds",
+    "prior_about_software": "yes",
+    "prior_update_related": "yes",
+    "prior_discussion_type": "other"
+  },
+  {
+    "review_id": "IR-120",
+    "reddit_id": "1uruju0",
+    "study_id": "C2-92589C9ED212",
+    "stratum_for_sampling_only": "s2_other_update",
+    "source_pool": "oct5_query_tps",
+    "prior_about_software": "yes",
+    "prior_update_related": "yes",
+    "prior_discussion_type": "other"
+  },
+  {
+    "review_id": "IR-121",
+    "reddit_id": "1p9r71v",
+    "study_id": "C2-DCDD4143CFC2",
+    "stratum_for_sampling_only": "nonsoftware",
+    "source_pool": "oct5_query_tps",
+    "prior_about_software": "no",
+    "prior_update_related": "no",
+    "prior_discussion_type": "na"
+  },
+  {
+    "review_id": "IR-122",
+    "reddit_id": "1s4wkdl",
+    "study_id": "C2-E86A9D7270F4",
+    "stratum_for_sampling_only": "software_nonupdate",
+    "source_pool": "oct5_query_tps",
+    "prior_about_software": "yes",
+    "prior_update_related": "no",
+    "prior_discussion_type": "technical_troubleshooting"
+  },
+  {
+    "review_id": "IR-123",
+    "reddit_id": "1nlscr3",
+    "study_id": "C2-9886C73D2A86",
+    "stratum_for_sampling_only": "s2_troubleshooting",
+    "source_pool": "oct5_query_gds",
+    "prior_about_software": "yes",
+    "prior_update_related": "yes",
+    "prior_discussion_type": "technical_troubleshooting"
+  },
+  {
+    "review_id": "IR-124",
+    "reddit_id": "1rhlwb3",
+    "study_id": "C2-E61DBFC99040",
+    "stratum_for_sampling_only": "s2_other_update",
+    "source_pool": "oct5_query_tps",
+    "prior_about_software": "yes",
+    "prior_update_related": "yes",
+    "prior_discussion_type": "general_dissatisfaction"
+  },
+  {
+    "review_id": "IR-125",
+    "reddit_id": "1pputon",
+    "study_id": "C2-5201C7169F65",
+    "stratum_for_sampling_only": "s2_other_update",
+    "source_pool": "phase1_gold_file",
+    "prior_about_software": "yes",
+    "prior_update_related": "yes",
+    "prior_discussion_type": "other"
+  },
+  {
+    "review_id": "IR-126",
+    "reddit_id": "1nww0mp",
+    "study_id": "C2-D530BDF993B9",
+    "stratum_for_sampling_only": "s2_troubleshooting",
+    "source_pool": "phase1_gold_file",
+    "prior_about_software": "yes",
+    "prior_update_related": "yes",
+    "prior_discussion_type": "technical_troubleshooting"
+  },
+  {
+    "review_id": "IR-127",
+    "reddit_id": "1nwgz8q",
+    "study_id": "C2-78429F4D4C54",
+    "stratum_for_sampling_only": "software_nonupdate",
+    "source_pool": "phase1_gold_file",
+    "prior_about_software": "yes",
+    "prior_update_related": "no",
+    "prior_discussion_type": "technical_troubleshooting"
+  },
+  {
+    "review_id": "IR-128",
+    "reddit_id": "1wuhlwy",
+    "study_id": "C2-70DFF86C19BD",
+    "stratum_for_sampling_only": "s2_troubleshooting",
+    "source_pool": "oct5_query_gds",
+    "prior_about_software": "yes",
+    "prior_update_related": "yes",
+    "prior_discussion_type": "technical_troubleshooting"
+  },
+  {
+    "review_id": "IR-129",
+    "reddit_id": "1urnq50",
+    "study_id": "C2-76F5C42FAFE7",
+    "stratum_for_sampling_only": "software_nonupdate",
+    "source_pool": "oct5_query_gds",
+    "prior_about_software": "yes",
+    "prior_update_related": "no",
+    "prior_discussion_type": "technical_troubleshooting"
+  },
+  {
+    "review_id": "IR-130",
+    "reddit_id": "1ov99ij",
+    "study_id": "C2-B8E5EC485C47",
+    "stratum_for_sampling_only": "software_nonupdate",
+    "source_pool": "phase1_gold_file",
+    "prior_about_software": "yes",
+    "prior_update_related": "no",
+    "prior_discussion_type": "technical_troubleshooting"
+  },
+  {
+    "review_id": "IR-131",
+    "reddit_id": "1ww2p7s",
+    "study_id": "C2-F8AF467C94AD",
+    "stratum_for_sampling_only": "s2_other_update",
+    "source_pool": "oct5_query_tps",
+    "prior_about_software": "yes",
+    "prior_update_related": "yes",
+    "prior_discussion_type": "other"
+  },
+  {
+    "review_id": "IR-132",
+    "reddit_id": "1p9g75i",
+    "study_id": "C2-0D0F11321F60",
+    "stratum_for_sampling_only": "software_nonupdate",
+    "source_pool": "oct5_query_tps",
+    "prior_about_software": "yes",
+    "prior_update_related": "no",
+    "prior_discussion_type": "technical_troubleshooting"
+  },
+  {
+    "review_id": "IR-133",
+    "reddit_id": "1wxrtee",
+    "study_id": "C2-149DCC902419",
+    "stratum_for_sampling_only": "s2_other_update",
+    "source_pool": "oct5_query_gds",
+    "prior_about_software": "yes",
+    "prior_update_related": "yes",
+    "prior_discussion_type": "other"
+  },
+  {
+    "review_id": "IR-134",
+    "reddit_id": "1vvvhkc",
+    "study_id": "C2-948F00E0A819",
+    "stratum_for_sampling_only": "s2_troubleshooting",
+    "source_pool": "oct5_query_gds",
+    "prior_about_software": "yes",
+    "prior_update_related": "yes",
+    "prior_discussion_type": "technical_troubleshooting"
+  },
+  {
+    "review_id": "IR-135",
+    "reddit_id": "1pe31s2",
+    "study_id": "C2-4E64A3961E12",
+    "stratum_for_sampling_only": "s2_troubleshooting",
+    "source_pool": "phase1_gold_file",
+    "prior_about_software": "yes",
+    "prior_update_related": "yes",
+    "prior_discussion_type": "technical_troubleshooting"
+  },
+  {
+    "review_id": "IR-136",
+    "reddit_id": "1oowbdr",
+    "study_id": "C2-5F0F1B1CF9A4",
+    "stratum_for_sampling_only": "nonsoftware",
+    "source_pool": "phase1_gold_file",
+    "prior_about_software": "no",
+    "prior_update_related": "no",
+    "prior_discussion_type": "na"
+  },
+  {
+    "review_id": "IR-137",
+    "reddit_id": "1r2myps",
+    "study_id": "C2-5F68642B73D8",
+    "stratum_for_sampling_only": "s2_troubleshooting",
+    "source_pool": "phase1_gold_file",
+    "prior_about_software": "yes",
+    "prior_update_related": "yes",
+    "prior_discussion_type": "technical_troubleshooting"
+  },
+  {
+    "review_id": "IR-138",
+    "reddit_id": "1vspeu6",
+    "study_id": "C2-3B61B5B76C53",
+    "stratum_for_sampling_only": "s2_other_update",
+    "source_pool": "oct5_query_tps",
+    "prior_about_software": "yes",
+    "prior_update_related": "yes",
+    "prior_discussion_type": "other"
+  },
+  {
+    "review_id": "IR-139",
+    "reddit_id": "1uxcbwv",
+    "study_id": "C2-31B81B82B860",
+    "stratum_for_sampling_only": "software_nonupdate",
+    "source_pool": "oct5_query_tps",
+    "prior_about_software": "yes",
+    "prior_update_related": "no",
+    "prior_discussion_type": "other"
+  },
+  {
+    "review_id": "IR-140",
+    "reddit_id": "1uk6348",
+    "study_id": "C2-9C406A4F6D9B",
+    "stratum_for_sampling_only": "s2_troubleshooting",
+    "source_pool": "oct5_query_gds",
+    "prior_about_software": "yes",
+    "prior_update_related": "yes",
+    "prior_discussion_type": "technical_troubleshooting"
+  },
+  {
+    "review_id": "IR-141",
+    "reddit_id": "1r6cnag",
+    "study_id": "C2-9C16C450D625",
+    "stratum_for_sampling_only": "s2_troubleshooting",
+    "source_pool": "oct5_query_tps",
+    "prior_about_software": "yes",
+    "prior_update_related": "yes",
+    "prior_discussion_type": "technical_troubleshooting"
+  },
+  {
+    "review_id": "IR-142",
+    "reddit_id": "1oza6ri",
+    "study_id": "C2-DDBE364BF108",
+    "stratum_for_sampling_only": "s2_troubleshooting",
+    "source_pool": "oct5_query_gds",
+    "prior_about_software": "yes",
+    "prior_update_related": "yes",
+    "prior_discussion_type": "technical_troubleshooting"
+  },
+  {
+    "review_id": "IR-143",
+    "reddit_id": "1qr1wz4",
+    "study_id": "C2-6CECEDD99360",
+    "stratum_for_sampling_only": "s2_troubleshooting",
+    "source_pool": "oct5_query_tps",
+    "prior_about_software": "yes",
+    "prior_update_related": "yes",
+    "prior_discussion_type": "technical_troubleshooting"
+  },
+  {
+    "review_id": "IR-144",
+    "reddit_id": "1p61q5q",
+    "study_id": "C2-AD38DE450B82",
+    "stratum_for_sampling_only": "s2_other_update",
+    "source_pool": "oct5_query_gds",
+    "prior_about_software": "yes",
+    "prior_update_related": "yes",
+    "prior_discussion_type": "other"
+  },
+  {
+    "review_id": "IR-145",
+    "reddit_id": "1llj5uj",
+    "study_id": "C2-CC35A4FA46F5",
+    "stratum_for_sampling_only": "s2_other_update",
+    "source_pool": "oct5_query_gds",
+    "prior_about_software": "yes",
+    "prior_update_related": "yes",
+    "prior_discussion_type": "other"
+  },
+  {
+    "review_id": "IR-146",
+    "reddit_id": "1qfb0tq",
+    "study_id": "C2-58ADE459577C",
+    "stratum_for_sampling_only": "s2_troubleshooting",
+    "source_pool": "phase1_gold_file",
+    "prior_about_software": "yes",
+    "prior_update_related": "yes",
+    "prior_discussion_type": "technical_troubleshooting"
+  },
+  {
+    "review_id": "IR-147",
+    "reddit_id": "1v0xel0",
+    "study_id": "C2-3CECBF0477FE",
+    "stratum_for_sampling_only": "software_nonupdate",
+    "source_pool": "oct5_query_tps",
+    "prior_about_software": "yes",
+    "prior_update_related": "no",
+    "prior_discussion_type": "technical_troubleshooting"
+  },
+  {
+    "review_id": "IR-148",
+    "reddit_id": "1o0ivwq",
+    "study_id": "C2-969ED3E8DD92",
+    "stratum_for_sampling_only": "s2_other_update",
+    "source_pool": "oct5_query_tps",
+    "prior_about_software": "yes",
+    "prior_update_related": "yes",
+    "prior_discussion_type": "other"
+  },
+  {
+    "review_id": "IR-149",
+    "reddit_id": "1tn13h0",
+    "study_id": "C2-D415BABAAA60",
+    "stratum_for_sampling_only": "software_nonupdate",
+    "source_pool": "oct5_query_tps",
+    "prior_about_software": "yes",
+    "prior_update_related": "no",
+    "prior_discussion_type": "technical_troubleshooting"
+  },
+  {
+    "review_id": "IR-150",
+    "reddit_id": "1s7uipc",
+    "study_id": "C2-10BC68345AAE",
+    "stratum_for_sampling_only": "s2_other_update",
+    "source_pool": "oct5_query_tps",
+    "prior_about_software": "yes",
+    "prior_update_related": "yes",
+    "prior_discussion_type": "other"
+  },
+  {
+    "review_id": "IR-151",
+    "reddit_id": "1p3rpne",
+    "study_id": "C2-A88D4717DBE6",
+    "stratum_for_sampling_only": "s2_troubleshooting",
+    "source_pool": "oct5_query_tps",
+    "prior_about_software": "yes",
+    "prior_update_related": "yes",
+    "prior_discussion_type": "technical_troubleshooting"
+  },
+  {
+    "review_id": "IR-152",
+    "reddit_id": "1o16z1v",
+    "study_id": "C2-69BF182D18BD",
+    "stratum_for_sampling_only": "s2_troubleshooting",
+    "source_pool": "phase1_gold_file",
+    "prior_about_software": "yes",
+    "prior_update_related": "yes",
+    "prior_discussion_type": "technical_troubleshooting"
+  },
+  {
+    "review_id": "IR-153",
+    "reddit_id": "1mgib3f",
+    "study_id": "C2-F8502C13BAEC",
+    "stratum_for_sampling_only": "s2_other_update",
+    "source_pool": "oct5_query_gds",
+    "prior_about_software": "yes",
+    "prior_update_related": "yes",
+    "prior_discussion_type": "other"
+  },
+  {
+    "review_id": "IR-154",
+    "reddit_id": "1qr9b4a",
+    "study_id": "C2-B1AA673EC08E",
+    "stratum_for_sampling_only": "s2_other_update",
+    "source_pool": "phase1_gold_file",
+    "prior_about_software": "yes",
+    "prior_update_related": "yes",
+    "prior_discussion_type": "other"
+  },
+  {
+    "review_id": "IR-155",
+    "reddit_id": "1q1n7ln",
+    "study_id": "C2-04313E4811A9",
+    "stratum_for_sampling_only": "software_nonupdate",
+    "source_pool": "phase1_gold_file",
+    "prior_about_software": "yes",
+    "prior_update_related": "no",
+    "prior_discussion_type": "technical_troubleshooting"
+  },
+  {
+    "review_id": "IR-156",
+    "reddit_id": "1mxn3x9",
+    "study_id": "C2-318A745C8A18",
+    "stratum_for_sampling_only": "s2_troubleshooting",
+    "source_pool": "oct5_query_gds",
+    "prior_about_software": "yes",
+    "prior_update_related": "yes",
+    "prior_discussion_type": "technical_troubleshooting"
+  },
+  {
+    "review_id": "IR-157",
+    "reddit_id": "1sakb6f",
+    "study_id": "C2-CECE700E060B",
+    "stratum_for_sampling_only": "nonsoftware",
+    "source_pool": "oct5_query_gds",
+    "prior_about_software": "no",
+    "prior_update_related": "yes",
+    "prior_discussion_type": "na"
+  },
+  {
+    "review_id": "IR-158",
+    "reddit_id": "1u4u84m",
+    "study_id": "C2-C96BD53D0908",
+    "stratum_for_sampling_only": "s2_troubleshooting",
+    "source_pool": "oct5_query_gds",
+    "prior_about_software": "yes",
+    "prior_update_related": "yes",
+    "prior_discussion_type": "technical_troubleshooting"
+  },
+  {
+    "review_id": "IR-159",
+    "reddit_id": "1q1jj3i",
+    "study_id": "C2-0BBCACE51B09",
+    "stratum_for_sampling_only": "s2_other_update",
+    "source_pool": "phase1_gold_file",
+    "prior_about_software": "yes",
+    "prior_update_related": "yes",
+    "prior_discussion_type": "other"
+  },
+  {
+    "review_id": "IR-160",
+    "reddit_id": "1nq718r",
+    "study_id": "C2-74E98C50CDA3",
+    "stratum_for_sampling_only": "software_nonupdate",
+    "source_pool": "phase1_gold_file",
+    "prior_about_software": "yes",
+    "prior_update_related": "no",
+    "prior_discussion_type": "technical_troubleshooting"
+  },
+  {
+    "review_id": "IR-161",
+    "reddit_id": "1tdv4zl",
+    "study_id": "C2-EF02DD01510D",
+    "stratum_for_sampling_only": "s2_troubleshooting",
+    "source_pool": "oct5_query_tps",
+    "prior_about_software": "yes",
+    "prior_update_related": "yes",
+    "prior_discussion_type": "technical_troubleshooting"
+  },
+  {
+    "review_id": "IR-162",
+    "reddit_id": "1p1t93s",
+    "study_id": "C2-937486B028B1",
+    "stratum_for_sampling_only": "s2_troubleshooting",
+    "source_pool": "phase1_gold_file",
+    "prior_about_software": "yes",
+    "prior_update_related": "yes",
+    "prior_discussion_type": "technical_troubleshooting"
+  },
+  {
+    "review_id": "IR-163",
+    "reddit_id": "1spvfr3",
+    "study_id": "C2-3767C52D49B8",
+    "stratum_for_sampling_only": "software_nonupdate",
+    "source_pool": "oct5_query_tps",
+    "prior_about_software": "yes",
+    "prior_update_related": "no",
+    "prior_discussion_type": "technical_troubleshooting"
+  },
+  {
+    "review_id": "IR-164",
+    "reddit_id": "1t10jt6",
+    "study_id": "C2-1EFA384D165D",
+    "stratum_for_sampling_only": "nonsoftware",
+    "source_pool": "oct5_query_gds",
+    "prior_about_software": "no",
+    "prior_update_related": "no",
+    "prior_discussion_type": "na"
+  },
+  {
+    "review_id": "IR-165",
+    "reddit_id": "1nu6glg",
+    "study_id": "C2-9AF71B28AB54",
+    "stratum_for_sampling_only": "s2_troubleshooting",
+    "source_pool": "phase1_gold_file",
+    "prior_about_software": "yes",
+    "prior_update_related": "yes",
+    "prior_discussion_type": "technical_troubleshooting"
+  },
+  {
+    "review_id": "IR-166",
+    "reddit_id": "1r5tjkd",
+    "study_id": "C2-B6A1F6FD9AC3",
+    "stratum_for_sampling_only": "s2_troubleshooting",
+    "source_pool": "oct5_query_tps",
+    "prior_about_software": "yes",
+    "prior_update_related": "yes",
+    "prior_discussion_type": "technical_troubleshooting"
+  },
+  {
+    "review_id": "IR-167",
+    "reddit_id": "1oo20ol",
+    "study_id": "C2-C8240303A150",
+    "stratum_for_sampling_only": "s2_other_update",
+    "source_pool": "oct5_query_tps",
+    "prior_about_software": "yes",
+    "prior_update_related": "yes",
+    "prior_discussion_type": "other"
+  },
+  {
+    "review_id": "IR-168",
+    "reddit_id": "1tkl2wp",
+    "study_id": "C2-6A8019F7BB79",
+    "stratum_for_sampling_only": "s2_troubleshooting",
+    "source_pool": "oct5_query_tps",
+    "prior_about_software": "yes",
+    "prior_update_related": "yes",
+    "prior_discussion_type": "technical_troubleshooting"
+  },
+  {
+    "review_id": "IR-169",
+    "reddit_id": "1o1cbch",
+    "study_id": "C2-37D9FD2E9EFB",
+    "stratum_for_sampling_only": "s2_troubleshooting",
+    "source_pool": "phase1_gold_file",
+    "prior_about_software": "yes",
+    "prior_update_related": "yes",
+    "prior_discussion_type": "technical_troubleshooting"
+  },
+  {
+    "review_id": "IR-170",
+    "reddit_id": "1noelxs",
+    "study_id": "C2-29DC78CD1942",
+    "stratum_for_sampling_only": "s2_troubleshooting",
+    "source_pool": "phase1_gold_file",
+    "prior_about_software": "yes",
+    "prior_update_related": "yes",
+    "prior_discussion_type": "technical_troubleshooting"
+  },
+  {
+    "review_id": "IR-171",
+    "reddit_id": "1ov3lw7",
+    "study_id": "C2-EBA343654C15",
+    "stratum_for_sampling_only": "s2_other_update",
+    "source_pool": "phase1_gold_file",
+    "prior_about_software": "yes",
+    "prior_update_related": "yes",
+    "prior_discussion_type": "other"
+  },
+  {
+    "review_id": "IR-172",
+    "reddit_id": "1sct7vb",
+    "study_id": "C2-4A72BB21C0A2",
+    "stratum_for_sampling_only": "s2_troubleshooting",
+    "source_pool": "oct5_query_tps",
+    "prior_about_software": "yes",
+    "prior_update_related": "yes",
+    "prior_discussion_type": "technical_troubleshooting"
+  },
+  {
+    "review_id": "IR-173",
+    "reddit_id": "1ppik3f",
+    "study_id": "C2-EA63685EBEB7",
+    "stratum_for_sampling_only": "s2_other_update",
+    "source_pool": "phase1_gold_file",
+    "prior_about_software": "yes",
+    "prior_update_related": "yes",
+    "prior_discussion_type": "other"
+  },
+  {
+    "review_id": "IR-174",
+    "reddit_id": "1malswd",
+    "study_id": "C2-573871BE304D",
+    "stratum_for_sampling_only": "s2_troubleshooting",
+    "source_pool": "oct5_query_gds",
+    "prior_about_software": "yes",
+    "prior_update_related": "yes",
+    "prior_discussion_type": "technical_troubleshooting"
+  },
+  {
+    "review_id": "IR-175",
+    "reddit_id": "1nyuw70",
+    "study_id": "C2-62B5A9875157",
+    "stratum_for_sampling_only": "s2_troubleshooting",
+    "source_pool": "phase1_gold_file",
+    "prior_about_software": "yes",
+    "prior_update_related": "yes",
+    "prior_discussion_type": "technical_troubleshooting"
+  },
+  {
+    "review_id": "IR-176",
+    "reddit_id": "1ortj5i",
+    "study_id": "C2-24192CEE4A01",
+    "stratum_for_sampling_only": "software_nonupdate",
+    "source_pool": "oct5_query_gds",
+    "prior_about_software": "yes",
+    "prior_update_related": "no",
+    "prior_discussion_type": "technical_troubleshooting"
+  },
+  {
+    "review_id": "IR-177",
+    "reddit_id": "1r38ik2",
+    "study_id": "C2-D4FD9BF3B6DB",
+    "stratum_for_sampling_only": "software_nonupdate",
+    "source_pool": "oct5_query_gds",
+    "prior_about_software": "yes",
+    "prior_update_related": "no",
+    "prior_discussion_type": "technical_troubleshooting"
+  },
+  {
+    "review_id": "IR-178",
+    "reddit_id": "1kn7g7m",
+    "study_id": "C2-5FD6A566F72E",
+    "stratum_for_sampling_only": "s2_other_update",
+    "source_pool": "oct5_query_gds",
+    "prior_about_software": "yes",
+    "prior_update_related": "yes",
+    "prior_discussion_type": "other"
+  },
+  {
+    "review_id": "IR-179",
+    "reddit_id": "1po4wyw",
+    "study_id": "C2-92AC37B923FB",
+    "stratum_for_sampling_only": "s2_other_update",
+    "source_pool": "phase1_gold_file",
+    "prior_about_software": "yes",
+    "prior_update_related": "yes",
+    "prior_discussion_type": "other"
+  },
+  {
+    "review_id": "IR-180",
+    "reddit_id": "1o0e6dx",
+    "study_id": "C2-633BB7DE9B6B",
+    "stratum_for_sampling_only": "s2_troubleshooting",
+    "source_pool": "phase1_gold_file",
+    "prior_about_software": "yes",
+    "prior_update_related": "yes",
+    "prior_discussion_type": "technical_troubleshooting"
+  },
+  {
+    "review_id": "IR-181",
+    "reddit_id": "1uxzwmm",
+    "study_id": "C2-DAE55963866D",
+    "stratum_for_sampling_only": "s2_troubleshooting",
+    "source_pool": "oct5_query_tps",
+    "prior_about_software": "yes",
+    "prior_update_related": "yes",
+    "prior_discussion_type": "technical_troubleshooting"
+  },
+  {
+    "review_id": "IR-182",
+    "reddit_id": "1uqwx73",
+    "study_id": "C2-036A94A65FBB",
+    "stratum_for_sampling_only": "nonsoftware",
+    "source_pool": "oct5_query_tps",
+    "prior_about_software": "no",
+    "prior_update_related": "no",
+    "prior_discussion_type": "na"
+  },
+  {
+    "review_id": "IR-183",
+    "reddit_id": "1nom31l",
+    "study_id": "C2-6D1CBF75CBC2",
+    "stratum_for_sampling_only": "software_nonupdate",
+    "source_pool": "phase1_gold_file",
+    "prior_about_software": "yes",
+    "prior_update_related": "no",
+    "prior_discussion_type": "technical_troubleshooting"
+  },
+  {
+    "review_id": "IR-184",
+    "reddit_id": "1uncgpv",
+    "study_id": "C2-04606D1EAFAE",
+    "stratum_for_sampling_only": "nonsoftware",
+    "source_pool": "oct5_query_tps",
+    "prior_about_software": "no",
+    "prior_update_related": "no",
+    "prior_discussion_type": "na"
+  },
+  {
+    "review_id": "IR-185",
+    "reddit_id": "1scrtu8",
+    "study_id": "C2-547B8705332A",
+    "stratum_for_sampling_only": "s2_troubleshooting",
+    "source_pool": "oct5_query_tps",
+    "prior_about_software": "yes",
+    "prior_update_related": "yes",
+    "prior_discussion_type": "technical_troubleshooting"
+  },
+  {
+    "review_id": "IR-186",
+    "reddit_id": "1nwi6qc",
+    "study_id": "C2-6AE796B5F39B",
+    "stratum_for_sampling_only": "s2_troubleshooting",
+    "source_pool": "phase1_gold_file",
+    "prior_about_software": "yes",
+    "prior_update_related": "yes",
+    "prior_discussion_type": "technical_troubleshooting"
+  },
+  {
+    "review_id": "IR-187",
+    "reddit_id": "1nzslca",
+    "study_id": "C2-A35AF840487F",
+    "stratum_for_sampling_only": "s2_troubleshooting",
+    "source_pool": "phase1_gold_file",
+    "prior_about_software": "yes",
+    "prior_update_related": "yes",
+    "prior_discussion_type": "technical_troubleshooting"
+  },
+  {
+    "review_id": "IR-188",
+    "reddit_id": "1micucy",
+    "study_id": "C2-50D913016C52",
+    "stratum_for_sampling_only": "nonsoftware",
+    "source_pool": "oct5_query_gds",
+    "prior_about_software": "no",
+    "prior_update_related": "no",
+    "prior_discussion_type": "na"
+  },
+  {
+    "review_id": "IR-189",
+    "reddit_id": "1suy71k",
+    "study_id": "C2-665A6E18804F",
+    "stratum_for_sampling_only": "s2_troubleshooting",
+    "source_pool": "oct5_query_tps",
+    "prior_about_software": "yes",
+    "prior_update_related": "yes",
+    "prior_discussion_type": "technical_troubleshooting"
+  },
+  {
+    "review_id": "IR-190",
+    "reddit_id": "1rxiw9u",
+    "study_id": "C2-57370AA4216A",
+    "stratum_for_sampling_only": "s2_troubleshooting",
+    "source_pool": "oct5_query_tps",
+    "prior_about_software": "yes",
+    "prior_update_related": "yes",
+    "prior_discussion_type": "technical_troubleshooting"
+  },
+  {
+    "review_id": "IR-191",
+    "reddit_id": "1pkuzvl",
+    "study_id": "C2-89E9A817D117",
+    "stratum_for_sampling_only": "s2_other_update",
+    "source_pool": "phase1_gold_file",
+    "prior_about_software": "yes",
+    "prior_update_related": "yes",
+    "prior_discussion_type": "other"
+  },
+  {
+    "review_id": "IR-192",
+    "reddit_id": "1onnoh7",
+    "study_id": "C2-30312F30623F",
+    "stratum_for_sampling_only": "s2_other_update",
+    "source_pool": "phase1_gold_file",
+    "prior_about_software": "yes",
+    "prior_update_related": "yes",
+    "prior_discussion_type": "other"
+  },
+  {
+    "review_id": "IR-193",
+    "reddit_id": "1min7t9",
+    "study_id": "C2-B148637A2E1E",
+    "stratum_for_sampling_only": "s2_troubleshooting",
+    "source_pool": "oct5_query_gds",
+    "prior_about_software": "yes",
+    "prior_update_related": "yes",
+    "prior_discussion_type": "technical_troubleshooting"
+  },
+  {
+    "review_id": "IR-194",
+    "reddit_id": "1p6qhl2",
+    "study_id": "C2-64A3DB758F52",
+    "stratum_for_sampling_only": "s2_other_update",
+    "source_pool": "oct5_query_tps",
+    "prior_about_software": "yes",
+    "prior_update_related": "yes",
+    "prior_discussion_type": "other"
+  },
+  {
+    "review_id": "IR-195",
+    "reddit_id": "1uyi9ub",
+    "study_id": "C2-4F5764C2B66D",
+    "stratum_for_sampling_only": "s2_troubleshooting",
+    "source_pool": "oct5_query_gds",
+    "prior_about_software": "yes",
+    "prior_update_related": "yes",
+    "prior_discussion_type": "technical_troubleshooting"
+  },
+  {
+    "review_id": "IR-196",
+    "reddit_id": "1nxtvfr",
+    "study_id": "C2-BED36E3B3561",
+    "stratum_for_sampling_only": "nonsoftware",
+    "source_pool": "phase1_gold_file",
+    "prior_about_software": "no",
+    "prior_update_related": "no",
+    "prior_discussion_type": "na"
+  },
+  {
+    "review_id": "IR-197",
+    "reddit_id": "1rj33tn",
+    "study_id": "C2-07F975A3125A",
+    "stratum_for_sampling_only": "s2_troubleshooting",
+    "source_pool": "oct5_query_tps",
+    "prior_about_software": "yes",
+    "prior_update_related": "yes",
+    "prior_discussion_type": "technical_troubleshooting"
+  },
+  {
+    "review_id": "IR-198",
+    "reddit_id": "1uahrt9",
+    "study_id": "C2-37395DCA43D5",
+    "stratum_for_sampling_only": "s2_troubleshooting",
+    "source_pool": "oct5_query_gds",
+    "prior_about_software": "yes",
+    "prior_update_related": "yes",
+    "prior_discussion_type": "technical_troubleshooting"
+  },
+  {
+    "review_id": "IR-199",
+    "reddit_id": "1nuo3on",
+    "study_id": "C2-68DBF0D93003",
+    "stratum_for_sampling_only": "s2_troubleshooting",
+    "source_pool": "phase1_gold_file",
+    "prior_about_software": "yes",
+    "prior_update_related": "yes",
+    "prior_discussion_type": "technical_troubleshooting"
+  },
+  {
+    "review_id": "IR-200",
+    "reddit_id": "1p1gzjd",
+    "study_id": "C2-22A5F2793228",
+    "stratum_for_sampling_only": "s2_other_update",
+    "source_pool": "phase1_gold_file",
+    "prior_about_software": "yes",
+    "prior_update_related": "yes",
+    "prior_discussion_type": "other"
+  }
+]

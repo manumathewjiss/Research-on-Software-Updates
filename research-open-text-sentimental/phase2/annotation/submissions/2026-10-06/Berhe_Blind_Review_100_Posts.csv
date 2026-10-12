@@ -1,0 +1,1126 @@
+﻿pilot_id,sheet_order,title,post_body,discussion_context,text_availability_note,about_software,update_related,discussion_type,confidence,reason
+P2-11F02DF321,1,Ivanti Connect Secure version 25.1.1.1 sucks..!,"Hello All, we have recently upgraded our Ivanti connect secure (ISA-6000) to 25.1.1.1. It’s been a month now and we are facing frequent disconnections almost everyday. TAC support is still clueless and gathers logs at every occurrence and vanishes without providing any resolution.  Has anyone faced this weird behavior and whats the quickest solution to this apart from dumping this appliance ?","[1:reply] I have never read a single positive thing about Ivanti.   They are a CVE machine.
+[2:reply] there isn’t a solution aside from chucking it office space style.  i hate their shit so much.  went with a meraki unit and been happy since.  sorry not the answer you wanted to hear but it’s the one you need.  just get something else. their support is horrible.
+[3:reply] Same, never had happy and Ivanti in the same sentence unless it involved getting rid of it.
+[4:reply] Hi! Bekommet ihr auch sporadisch Bad Gateway 502 ?","Title, body, and limited replies are shown.",yes,yes,technical_troubleshooting,high,"The connection failures began with version 25.1.1.1, and the poster wants a remedy."
+P2-E432B15CE6,2,Chrome acting up since last update,"For some reason, since i last updated chrome, now whenever i alt-tab to chrome it flickers and brings me back to the other app i started from, and whenever i alt-tab from chrome, it flickers and brings me back to chrome. it also wiped all my preferences, and it very frequently glitches out. can anyone help?",,Title and body available; no replies in the saved snapshot.,yes,yes,technical_troubleshooting,high,The user links the tab switching glitch directly to the Chrome update.
+P2-96F4031ED8,3,"Netgear announces upgrade during holiday shutdowns, with zero notice, while sysadmins are on holiday.","Dear Valued Customer,
+
+We are scheduling a maintenance window to release NETGEAR Insight version 10.1, which includes an upgraded web portal with a modern interface and additional enhancements and bug fixes.
+
+Maintenance Window
+
+• Start: Friday, July 03, 2026 at 8:00 PM PDT
+
+• End: Friday, July 03, 2026, at 11:00 PM PDT
+
+What's New in v10.1
+
+This release delivers significant improvements across the platform:
+
+New Features
+
+Heatmap on Floor Plans — generate signal-strength heatmaps on floor plan layouts to identify coverage gaps.
+
+Geo-fencing for Mobile Hotspot Devices — define geographic boundaries and receive alerts when Mobile Hotspot devices move outside the allowed zone.
+
+OS-based Client Blocking — configure client blocking by operating system at the SSID level.
+
+SNMPv3 under Location Settings — configure advanced SNMPv3 authentication, privacy, and trap destinations at the location level.
+
+Alarm Suppression — repeat alarms are now suppressed to reduce notification noise.
+
+Schedule Reboot enhancements with improved one-time and recurring reboot options.
+
+Custom Reports — create, copy, email, and delete custom report templates with a fully redesigned reports UI.
+
+Managed Notifications — revamped Notification Settings UI/UX for easier management across large organizations.
+
+Interactive Maps — new location-aware map view for visualizing your network across sites.
+
+Guided Tour for accounts migrating to the new portal experience.
+
+Feature Parity with Classic UI.
+
+What to Expect After Maintenance
+
+Throughout the maintenance window — Devices may temporarily appear offline in the mobile app and Cloud Portal; this does not affect your actual network connectivity. Login access to both the mobile app and Cloud Portal remains available.
+
+Immediately after upgrade — Updated login screen goes live for all customers.
+
+Over the next 2–6 weeks — The full v10.1 experience, including the redesigned portal and new features, rolls out gradually to existing customers.
+
+Once your account is migrated — You'll receive a notification confirming your account has been moved to v10.1.
+
+Action Required
+
+Please save all settings before 08:00 PM PDT on July 3 to prevent any unintended data loss.
+
+We appreciate your patience as this is more than an update — it's a whole new Insight. Exciting things are headed your way, and we can't wait for you to see them!
+
+Sincerely,
+
+The NETGEAR Insight Team","[1:reply] Well, you’re not doing an upgrade over a weekend with 0 testing, so why does it matter?
+[2:OP] It's a cloud managed product. 
+
+""Action Required
+Please save all settings before 08:00 PM PDT on July 3 to prevent any unintended data loss. We appreciate your patience as this is more than an update it's a whole new Insight. Exciting things are headed your way, and""
+[3:reply] Do…do you think vendors need to notify you in advance and get your approval before updating their hosted SaaS products? The fact that you got this email at all means they are doing better than most vendors. 
+
+People are kind of insane. I could understand if they are pushing some…
+[4:reply] You’re using Netgear for your business network so you really don’t care much about it anyways.
+[5:reply] Notification in advance is normal, at least with decent vendors it is.  
+Netfear fell from decent sometime around 2008.","Title, body, and limited replies are shown.",yes,yes,general_dissatisfaction,high,This is a complaint about the release schedule and poor advance warning.
+P2-03847675DD,4,What made you hate chrome,,"[1:reply] When they killed MV2.
+
+I don't really care too much about the ad blockers, but when they killed MV2 it also ruined a ton of older utility extensions I still use daily.
+
+That's when I switched to Brave, which, so far, has maintained MV2 support, and pretty much feels and function…
+[2:reply] Privacy + Removed tab scrolling
+[3:reply] Can we stop these stupid chain posts?
+[4:reply] Remove the arrows used to navigate between tabs
+[5:reply] they ruined the customization, the new colors are terrible and it's damn near impossible to change the background and colors separately",No post body in the saved snapshot; limited replies are shown.,yes,yes,general_dissatisfaction,medium,People list Chrome changes they dislike rather than seeking technical help.
+P2-3CE8A60B51,5,Switching to M series,"Hello fellows,
+I’m currently using 2017 MacBook Pro 13”, 16 GB, 256 GB. It becomes quite sluggish at times, mostly when I’m on Zoom or video calls and trying to do a task, it takes time and start to heat up as well. 
+Therefore, I’m considering upgrading to a M chip series but not sure which one I should go with. I can afford M2 pro and may be M3 as well but which would be better overall in terms of speed, performance, etc.","[1:reply] MacBook Pro with M2 Pro is generally more powerful for demanding tasks like 3D work or heavy multi-threaded workloads, while the standard M3 MacBook Pro offers a solid, more energy-efficient option for lighter professional or everyday tasks.
+[2:reply] Any Apple silicon MacBook will be a vast improvement. If your heaviest usage is video calls, you really don’t need anything more powerful than an M1 MacBook Air. 
+
+Power isn’t the only thing to consider, though. Some models have nicer screens for watching movies, some models sup…
+[3:reply] Buy what you can afford; the newer (without sacrificing what you actually need like storage or RAM) the better for longevity.
+
+If you’re coming from a 2017 machine, the speed increase is massive and you wouldn’t even be able to make the machines work so hard that you’d reach the…","Title, body, and limited replies are shown.",no,no,na,high,The question is about replacing an older laptop with a newer model.
+P2-F18F2264FF,6,Lockscreen Keeps Glitching to Black,"Every time I try to set my lockscreen, it glitches into a black screen. This has happened ever since the latest update. Have restarted it multiple times, tried to change the photo... Nothing works. IOS 26.3.1",,Title and body available; no replies in the saved snapshot.,yes,yes,technical_troubleshooting,high,"An iOS update is blamed for the black lock screen, with failed attempts to fix it."
+P2-F56B0BD72C,7,Change detection issues with Angular 22 and zone.js,"I am working on a large solution where we are in the process of upgrading from Angular 19 to 22. This also includes upgrading all third party libraries to latest compatible version. We are running a setup with Angular, zone.js, RxJS and NGRX for state management. After upgrading to Angular 22 and bumping all third party libraries we are experiencing some issues regarding change detection. We know that Angular is migrating to zoneless but we have chosen to stick with zone.js to avoid risk of many regression errors. I have also added provideZoneChangeDetection() in main.ts. Issue: Elements in the DOM are not rendered immediately if they rely on property, e.g. a boolean that is updated async. As soon as I trigger a change manually (by clicking with the mouse), the elements are rendered. Example: As you can see, the solution has been to change the boolean to a BehaviorSubject and add the async attribute in the template. Another example: Because we are inside a subscription, the menuGrid change (which is updated inside the subscription), is never triggered unless we wrap it in ngZone.run. Question: This worked absolutely fine in Angular 19 with zone.js 0.15. Why is this an issue now in Angular 22 with zone.js 0.16? Do I really have to refactor this everywhere in my solution to use async pipe or ngZone.run?",,Title and body available; no replies in the saved snapshot.,yes,yes,technical_troubleshooting,high,The reported Angular behavior arose while moving a project from version 19 to 22.
+P2-49724B1547,8,comfyui desktop crashs on start up,"after updating comfyui desktop it suddenly started to crash on startup, it worked perfectly before but as it updated (automatic update) it just kept crashing on repeat as soon as i launch it.  
+I launched directly comfyui (not desktop version) before the udpate and it worked fine but kept insistning on doing the update, and as i did the problem returned.
+
+(to be more precise, when i launch it a window telling me ""comfyui desktop update has been installed the program will restart in 5..4..3..2..1.."" and the startup window just opens and closes instantly and when i relaunch it it just does the same thing again)
+
+i tried updating my gpu drivers, deleting the cash and restarting it, removing the --normalvram in the setting file (it didnt exist), downloading the requirements again (just incase), and even straight up deleting everything and redownloading from scratch. but noting solved the issue.
+
+if anyone could help
+
+(edit: the problem isnt exactly fixed but i somehow could launch it by executing it two times, the first instance crashes while the second keeps running)","[1:reply] I faced the same crash issue. Your solution is good, thx.","Title, body, and limited replies are shown.",yes,yes,technical_troubleshooting,high,An automatic ComfyUI update preceded repeated startup crashes.
+P2-7635C058EF,9,Is it a glitch or it isn't available anymore?,My Chrome search engine doesn't have an option of Add to watchlist for a month now. I tried to update it but it's still not showing it. Is that no longer available? Please help guys!,,Title and body available; no replies in the saved snapshot.,yes,unclear,technical_troubleshooting,medium,"The missing watchlist option is a feature problem, though no release is blamed."
+P2-3625406D8A,10,rich printing different colors depending on if i'm in light or dark mode.,"the letter ""o"" here has the same inputted color but the left is the output in light mode on vscode while the right in dark mode and they are very clearly different. is there a way to fix this? am i using the library incorrectly?","[1:reply] I dont know what rich is but If it had the game color letters as the left one and only made the background dark you wouldnt be able to see the letters so thats why it does it
+[2:reply] duh. it's a dark / light theme. all colors are completely different
+[3:reply] It is probably a “feature” and “intended behavior”.
+
+As an example when programming for apple (eg iOS) and use “system red” or “system green” it is only a description of the color and the actual color will be different in light or dark mode which is very important for visibility…
+[4:reply] hint: dark and ligth themes has diferent color scheme for terminal defined.
+
+ 
+
+        ""terminal.ansiBlack"": ""#000000"",
+        ""terminal.ansiBlue"": ""#30b7ee"",
+        ""terminal.ansiBrightBlack"": ""#000000"",
+        ""terminal.ansiBrightBlue"": ""#00b5ff"",
+        ""terminal.ansiBri…
+[5:reply] What's the issue?","Title, body, and limited replies are shown.",yes,no,technical_troubleshooting,high,The user is trying to correct mismatched printed colors in the editor.
+P2-B6FDB0760B,11,[iOS] How to stop it from jumping to top when switching tabs?,"As of recently, Edge on iPad has been driving me absolutely nuts because it will automatically scroll back up to the top of the page when you change tabs, EVERY SINGLE TIME. 
+
+You can quickly hold your finger on it after switching and it will \*temporarily\* stay in place, but as soon as you let go, it will automatically jump to the top again. 
+
+I mainly use my iPad for reading in Edge so I know for a fact it was not doing this before until a recent update, and this has been extremely frustrating now having to lose place on very long pages if I leave the tab AT ALL. 
+
+Is there any fix for this??",,Title and body available; no replies in the saved snapshot.,yes,unclear,technical_troubleshooting,medium,"Edge keeps resetting the page position, and the user wants to disable it."
+P2-B1D2F8A9EC,12,"This never happened before, until this month. Now it happens every day. I can't think of anything I've done differently.",,"[1:reply] Happens to me a lot because I use a VPN.
+[2:reply] Be careful Captcha scams are a real thing too. Word to the wise.
+[3:reply] ISPs use public facing IPs for multiple clients at a time. They usually rotate them once in a while. Someone else, also a client of your ISP, is accessing the internet via the same public IP as you and is most likely doing something that Google doesn’t like - running bots, scrap…
+[4:OP] I've never used one.
+[5:reply] I just now started having this same error happen to me. Never seen it before. And worse, after clicking on the captcha, the search then gets stuck in an endless loop.",No post body in the saved snapshot; limited replies are shown.,yes,no,technical_troubleshooting,medium,"The replies identify a recurring CAPTCHA or search failure, but its cause is uncertain."
+P2-D22E356884,13,Chromeos Linux Terminal doesn't start after update,"I can start linux using the crosh terminal with vmc container termina penguin and the shell runs. But I can't start any graphical app. I get the following errors when try to start linux using the terminal app
+
+ERROR vsh: \[../../../../../tmp/portage/chromeos-base/vm\_host\_tools-0.0.2-r3667/work/vm\_host\_tools-0.0.2/vm\_tools/vsh/utils.cc:83\] Failed to read message from socket  
+ERROR vsh: \[../../../../../tmp/portage/chromeos-base/vm\_host\_tools-0.0.2-r3667/work/vm\_host\_tools-0.0.2/vm\_tools/vsh/vsh\_client.cc:265\] Failed to receive message from server: Success (0)",,Title and body available; no replies in the saved snapshot.,yes,yes,technical_troubleshooting,high,"After an update, Linux graphical programs no longer launch on ChromeOS."
+P2-29A51BCD2B,14,KOrganizer not working after update,"Hi,
+
+I updated Fedora to version 44 and KOrganizer hasn't been working since then. The error message I get is:
+
+""Cannot connect to the Personal information management service. There are no Akonadi Agents available. Please verify your KDE PIM installation.""  
+
+
+The only solutions I could find is ""akonadi restart"" or stop and start. I tried deleting akonadi folder and re-installed KOrganizer to no success.
+
+  
+I could switch to GNOME calendar if there's no fix, but I've been using KOrganizer for so long and have my Nextcloud calendar set-up so I'd rather try to fix this first.
+
+Any help would be appreciated!",,Title and body available; no replies in the saved snapshot.,yes,yes,technical_troubleshooting,high,The organizer error began after the Fedora version change.
+P2-1F860734B2,15,From my last display cabinet update. Here are a closeup of every shelf,,"[1:OP] im working as a plumber xD living solo also helps to sponsor this collection xD
+[2:reply] What do you do for a living and are they hiring?
+[3:OP] oh yea, armada was my introduction and love form childhood
+[4:reply] I recognize a fan of the Unicron Trilogy.
+[5:OP] yea, it was a costco exclusive. luckily i found one in 100% complete!!",No post body in the saved snapshot; limited replies are shown.,no,no,na,high,Nothing in the saved text suggests software; it is a display cabinet post.
+P2-7F4F5E1DE9,16,My heart breaks everytime I see this,,"[1:reply] Everytime I use Eric A. Meyer's URL decoder/encoder (https://meyerweb.com/eric/tools/dencoder/) I remember his gut wrenching story about his daughter and always end up pausing for a moment. As sad as it is I like these sad bits of imformation around software on the net. Reminds…
+[2:reply] 😢😢
+[3:reply] In case anyone wants to try the extension:
+
+https://marketplace.visualstudio.com/items?itemName=spmeesseman.vscode-taskexplorer
+
+Github: https://github.com/spmeesseman/vscode-taskexplorer 
+
+Sending some Github stars to heaven.
+[4:reply] why did this pop up on my feed.. i have a 5y old kid that i love more than life itself and now i want to give him a huge hug and tell him i love him more than anything
+
+fuck me man... this hit my father-heart so damn deep.. i hope the best for him!!!
+[5:reply] Author was working on the project with his daughter then his daughter died. Picked it back up after a few years of pain, then finally launched.
+
+All in the image.",No post body in the saved snapshot; limited replies are shown.,unclear,unclear,na,low,"Only a vague title survives, while replies focus on a sad story and an extension."
+P2-720895588C,17,CrowdStrike Breaking Edge,"Anybody else having CrowdStrike killing Microsoft edge after the latest update to 151? Apparently the ms edge executible dissappears after you execute it o4 you get the you may not have permission error, then it disappears.","[1:reply] Not enough info, closing ticket.
+[2:reply] Browsers are a security vulnerability. They need to start blocking email as well.
+[3:reply] Like a falcon, you might say
+[4:reply] Glad I have the day off today 😂
+[5:reply] Don't post this in crowdstrike sub. Theyll blindly ban you for saying one ounce of negativity. That sub is watched and controlled like a hawk.","Title, body, and limited replies are shown.",yes,yes,technical_troubleshooting,high,The Edge executable problem is tied to a recent CrowdStrike change.
+P2-ABCA0F691D,18,Doing only security and bugfix updates on a regular basis,"Recently, I have decided to daily drive with an upstream distro and I have decided to try fedora. I want a balance between stability, security and freshness of the packages. So, I am going to stay with latest version - 1. So, for example, I plan to stick to FC 43 till about October. Even then, there still are going to be a lot of updates for my liking.
+
+So, I was wondering if I could just do security + bugfix updates regularly (say every couple of days) and do all updates, including enhancement updates, once every few months.
+
+1. Is this viable and guaranteed not to break the system or dependencies, even if I were to install some other apps or packages in the months between two full updates.
+2. Are there any security implications? I understand that often it may be difficult to properly classify an update as a bugfix or a security update. Similarly, is there a risk of misclassification with enhancement updates?
+3. How are security and bugfix updates for the older version of a package handled by the maintainers? Do they actively maintain all previous versions of a package that are available under supported Fedora versions or do they actively maintain only the very latest version of the package and backport the updates to the older supported versions? If it is the latter, what are some potential risks in using such older but supported packages that get only backported updates.",,Title and body available; no replies in the saved snapshot.,yes,yes,other,high,The writer is planning how to manage routine Fedora updates safely.
+P2-CD26452AFA,19,Jitsi Meet - no sound/video in the Edge version 142.0.3595.65,"Hello Redditors,
+
+I work for a small company, and we use a self-hosted Jitsi server for our internal conference calls. Recently, after some of the latest Microsoft Edge updates, we’ve encountered an issue.   
+When more than two people join a room, both audio and video stop working.
+
+At first, I thought the issue was related to our server setup, but after some testing, I discovered that everything works fine with older versions of Edge (versions 131, 133, and 135). This means the problem seems to have been introduced in one of the more recent releases of the browser.
+
+I went through changing settings of the browser in ""Privacy"", ""Security"", ""Performance"", and even in flags - WebRTC, but nothing makes any difference.
+
+Has anyone else experienced this issue or found a workaround?",,Title and body available; no replies in the saved snapshot.,yes,yes,technical_troubleshooting,high,The post seeks an explanation for Jitsi calls failing in newer Edge builds.
+P2-F954592B7A,20,Macbook can't download or update ipad/iPhone apps specifically,"I have an M3 macbook air running the latest version of Sequoia. I've used it for years since sequoia came out and have never had issues downloading apps. 
+
+For some reason I now can't download or update any apps unless they're specifically mac apps. At first i thought it was all apps but i realized as long as it's a mac only app it'll work fine. But if it's an iPad or iPhone app, it will refuse to install or update. If i click the get button or the cloud download icon for apps I already have, nothing happens. It'll maybe spin for 1 second and then just stops
+
+I've tried everything I can find online or in the subreddit short of updating to Tahoe or a factory reset as I want to avoid those at all costs. They're the absolute last resort. Especially since I've seen numerous other posts about similar issues saying they updated and it didn't fix anything
+
+I've tried:
+- rebooting
+- force closing app store 
+- clearing app store cache
+- sign out and back in on the app store
+- booting into safe mode
+- disabled any network scanning and blocking tools I have installed
+- tried various different internet connections
+- made sure I'm up to date (was on an older version of sequoia prior to today so I updated hoping it would help but no luck there)
+
+Has anyone else had this issue recently or have any other ideas for how it could be fixed?
+
+Edit:
+
+Basically the same issue as this post from years ago but in my case I can't download them at all so uninstall/reinstall isn't an option 
+
+https://www.reddit.com/r/MacOS/comments/13c550b/unable_to_update_apps/
+
+Edit 2: if i try downloading a new app that's only for iphone/ipad, it let's me scan my fingerprint to approve, starts spinning, then stops and changes to the cloud icon without downloading","[1:reply] The iPad/iPhone apps, has the developer released a universal version of that software to run on all Apple products or are you running an upsized version meant for a smaller display/touch controls?
+[2:OP] If the app has a universal version I can install it (meaning it shows up as having a mac app in the app store and shows up in the mac section when looking at the list of your purchased apps) 
+
+But any apps without a dedicated mac app (so apps in the iphone/iPad section of the pr…
+[3:reply] i have the exact same issue on my macbook air m4 and i’ve been trying to solve it for hours. i’ve tried everything like you and i still can’t download or update any ipad/iphone apps. i also called the apple support in my country but they couldn’t solve it either. if you solve it…
+[4:OP] If i manage to figure it out I'll let you know, no luck so far unfortunately 🥲
+
+What macos version are you on?
+[5:reply] 我也遇到了，试了各种方法，都不行，Ai分析日志，应该是下载iPhone/iPad Apps校验时，服务端返回了500，造成的失败，不知道何时可以解决！","Title, body, and limited replies are shown.",yes,no,technical_troubleshooting,high,App Store installs fail for iPhone and iPad apps on this Mac.
+P2-1CBC9AC76C,21,Qwen image edit giving weird results? Untuck this man's shirt please!,"The men in the comic have the incorrect uniform; their shirts are tucked into their pants. The correct, untucked uniform is on the bottom. I'm trying to get qwen to untuck the shirt (by any means possible haha). But when I try to use the text, it doesn't change anything. And when I try to include a reference image, it gives me this bizarre output.
+
+Can anyone get an output that untucks the shirt? Thanks!
+
+Edit: [slpreme](https://www.reddit.com/user/slpreme/) pointed out a big issue. While I was using the qwen edit from the compyui workflow, it is actually the updated 2509 model that has multi-image support. That fixed the weirdness. However, qwen still refuses to remove the belt and free uniform top.
+
+This is the prompt I used: ""Show the comic. Replace the uniform in the comic with the uniform in image 2. No belts. The final image is the comic."" But the belt remains.","[1:reply] loras not loaded so the steps are too low. up the CFG and steps or turn on the lora node.
+[2:reply] arent u using the older edit model
+[3:reply] cfg1. try 2.5-3.5 and activate the 4 step lightning lora
+[4:OP] So I loaded the lora. Great eye btw. But it doesn't really address the issue. It just completes this weird compilation issue.
+
+https://preview.redd.it/uoflmyhbuitf1.png?width=1024&amp;format=png&amp;auto=webp&amp;s=20195e4135f03e9f5c9330091be66e10d77d964b
+[5:reply] This ""In Scene"" Lora for Qwen 2509 is designed to make minor changes to an image like what you're describing, but I haven't tried it yet myself:
+
+https://huggingface.co/flymy-ai/qwen-image-edit-2509-inscene-lora","Title, body, and limited replies are shown.",yes,yes,technical_troubleshooting,medium,"Qwen ignores the requested clothing edit, and the discussion examines model settings."
+P2-048950C904,22,Hate when this happens,,"[1:reply] Sometimes I use a gamepad just to avoid this.
+[2:reply] On Gnome, I set ""window focus on click only"". So, the editor won't steal my keyboard focus unless I deliberately click on it.
+[3:reply] Yeah thats a good old ""Sabotaged by the Engine"" 
+The first time this happened to me, it took me 30 minutes to figure out what had suddenly broken. Because I had also accidentally closed the script. :D
+[4:reply] That’s one of those simple solutions that you don’t immediately think of lol
+[5:reply] common godot W!",No post body in the saved snapshot; limited replies are shown.,yes,no,general_dissatisfaction,medium,"Replies relate the mishap to keyboard focus in an editor, without an active support request."
+P2-8D0211B0DC,23,Not bad for $100,,"[1:reply] What do you mean 'not bad'? That's incredibly lucky
+[2:reply] There are at least four figures in here that'd be 100 by themselves...
+
+This person either wanted out and didn't care to take a loss or you just committed robbery.
+[3:reply] ...or option three: they're lying, and this is just a picture of their personal collection. 4-D chess humblebragging.
+[4:reply] 100 was for the balaclava, crowbar, and gas in the getaway car.
+[5:reply] 100... I'm guessing the person selling was desperate or senile?",No post body in the saved snapshot; limited replies are shown.,no,no,na,high,The responses are about lucky pricing for physical figures.
+P2-8B6DF3243B,24,Python hate on X,,"[1:reply] Python is a glue between efficient modules that can be implemented in other languages. At my company we use django/python but the OCR libs we use certainly don't run in plain python.
+
+This kind of ""hate"" is usually an indication of lack of experience. It pops up every few years.
+[2:reply] [deleted]
+[3:reply] Java? JAVA?
+
+Don't take these people seriously.
+[4:reply] Stop using X it's a cesspool
+[5:reply] I think that they are different tools and that you don't want to be using a hammer as a screwdriver and voce-versa. 🧰 
+
+And I also think that I am too old to be having this discussion over and over, especially on X, of all places 😀",No post body in the saved snapshot; limited replies are shown.,no,no,na,medium,The thread debates Python as a language rather than diagnosing a program.
+P2-F0437C538D,25,"this 152 update (or 151, whatever made these major changes) sucks and I hate it how do I revert it and prevent any future change of this type?","I really dislike the new update because it won't let me put the tabs in as they need to be, just deletes anything after a slash. Anyway that's why I came on here to find a way to revert to the old settings interface because this new one sucks and I hate it.
+
+Honestly hated it a week or two ago when I noticed first the major major changes in the privacy settings.  But seemed able to do most of what I wanted to do there despite the awful disabling of the usual things and putting them in these sort of awful rectangles with rounded corners that are everywhere the last half decade or so and basically I take to mean ""we aren't going to let you keep changing these settings the way you always could because it goes against our business model""....
+
+Anyway today I am finding that the Firefox business model no longer includes letting me put in the tabs in a long line of sites all separated by a | that I am used to.
+
+So how do I revert these and any other awful changes I am likely to find?
+
+Today I tried to insert a page that had a slash in it, into the new tabs field and Firefox just chopped off the slash.  I am thinking that is why the page didn't come up in the default tabs (it is the first page as it has headlines that are not allowed on the search engines).  So how do we get our visibility/clickability/usability back and disable this new sucky awful interface that Firefox put in here during the last month?
+
+Further experiences, show that the page that didn't come up the one time (and suggested that I use the part of the link that came after the slash and the slash and all that, literally the browser said did you mean .../...? ) came up the next time I opened the browser, as expected.  However this doesn't solve the major issue this led me to discovering, that I can no longer set the default pages as ...|...|...|...|...|...|...|...|...|...etc as I have for years!","[1:reply] Everything you're describing sounds like a bug or error local. Before anything else, have you tried simply restarting your operating system and reinstalling Firefox by running [this executable](https://www.firefox.com/en-US/)? This resolves most problems.
+[2:OP] I noticed that there isn't much chatter about this on the limited search availability on the search engines.  Is there no one who hates this and is allowed to say so and get crawled?  Usually this sort of major change would get a big buzz of hate from the world I know it would.…
+[3:reply] Are you a real person? “Evil entities from Mars”, Who talks like this about browser issues?
+
+Anyway, as for what you dislike in the update, I can’t make head or tail with separating tabs with “|”, what? Can you use screenshots instead, please.
+
+If you want to roll back then down…","Title, body, and limited replies are shown.",yes,yes,technical_troubleshooting,high,"There is strong criticism, but the actual request is how to undo a Firefox change."
+P2-C177162D55,26,App Upgrade Failing?,"Anyone else having issues upgrading Immich within TrueNAS?
+
+https://preview.redd.it/d1xgon8f12rg1.png?width=1146&amp;format=png&amp;auto=webp&amp;s=7059cf9e7f99a5e35c03ea6e092df18d41c858c5
+
+https://preview.redd.it/31nsnn8f12rg1.png?width=400&amp;format=png&amp;auto=webp&amp;s=b5ff29acb0e7692a2f362b2aaebdfea0319fccac",,Title and body available; no replies in the saved snapshot.,yes,yes,technical_troubleshooting,medium,"An Immich upgrade is not completing, so the post asks whether others see it too."
+P2-9C5AB9C860,27,recently closed tabs list is always empty,"Hi, my 'recently closed tabs' list is always empty. My history list works, and my workspaces work fine too. But whenever i close a tab, i cant get it back by pressing ctrl shift t because there is no history of the closed tab in the 'recently closed tabs' list. If i close a work space, and then reopen edge (my default is set to start on the home page, with a single tab) then i can open a workspace and everything is there right where i left off, which is good. So the issue is that if i close a single tab, edge just isnt recording that closed tabs existence anymore so i cant get it back.
+
+I also have everything in edge://settings/privacy/clearBrowsingData/clearOnClose unchecked.
+
+POST UPDATE - FIXED - so there was a red dot next to my workspace (top left corner) that said sign in (even though i was already signed into edge). After clicking on it and accepting, it 'signed me in' closed edge and reopened it. Had about 600ish tabs open and now its gone to 550ish (not sure what tabs were lost yet but doubt it was  anything important if i dont know) (yes im a tab hoarder)). All the recent tabs ive been using the past few days were moved down to the bottom of the vertical tabs list.
+
+my recently closed tabs now work again. and ctrl shift t now works again. im guessing i was somehow signed out of my workspace even though i was still about to use and update it before. and after the 'sign in', it seemed to fix the problem.",,Title and body available; no replies in the saved snapshot.,yes,no,technical_troubleshooting,high,Chrome is not recording closed tabs for reopening.
+P2-2B345ACE8C,28,my phone always sits at 42 to 45 Degree Celsius,it been year since i bought my phone redmi note 14 pro at first it didn't show any defect but then last to last week my fingerprint was disappeared and my phone wasn't detecting the sensor and then 5 days later my phone randomly started to heat even when i left idle it has gotten so worse that nowadays it always sits at 40 to 45°C is this normal because all this happened after an update and no new updates are there as i have hyperos 3,"[1:reply] I would power it down and wait an hour or so. If it stays warm even when powered off, you might have a new post for r/spicypillows soon. 
+
+If it is only when the phone is on or idle, then there is probably something running in the background that should be uninstalled, check the…","Title, body, and limited replies are shown.",yes,yes,technical_troubleshooting,medium,The user connects a missing sensor and high temperature to a phone update.
+P2-87FAE07515,29,"After the latest WP update, the text font in the post editor look this (in the screenshot below). Anyone knows how to fix this issue?",,[1:reply] It looks like the block editor fails to load your custom font. Have you tried setting the fonts again from the styles tab?,No post body in the saved snapshot; limited replies are shown.,yes,yes,technical_troubleshooting,high,"A WordPress update altered the editor font, prompting a request for repair."
+P2-35FC99AE59,30,2026.4 beta update,,"[1:reply] The entity name change is going to affect a lot of people, fun times ahead!
+[2:reply] Sounds like its needed though, and probably makes future features/updates easier if devices and entities' names follow a ""standard"".
+[3:reply] Can wait to see more integrations for infared devices. Ive got a lasko tower fan that would be cool to automate.
+[4:reply] I may be the only one, but I’m excited about background colors for sections.
+[5:reply] All entities should have been assigned a GUID which the UI automatically looked up the friendly name. No confusion and no name collisions. No confusion because who doesn’t like 0x78be126527fe as a device name? Rolls off the tongue.",No post body in the saved snapshot; limited replies are shown.,yes,yes,other,high,The saved discussion reacts to a beta version's announced changes.
+P2-1121DA5C8B,31,"More Consumers are Upgrading, Switching to Galaxy Z Series in the US",,"[1:reply] When it comes to the Z Fold they really need to start getting that price down, we’re 7 generations in is the technology still this expensive to manufacture? Other than that the battery life (for a device of this size) and telephoto lens are the only faults I have with it current…
+[2:reply] Given that most of it's overseas competitors are in the same rough ballpark, i think manufacturing and r&amp;d on these devices are just insanely expensive
+[3:reply] This is nothing more than a marking article from Samsung. Doesn't anyone see the fluff?
+[4:reply] Based on the stress tests, the Z fold 7 is pretty durable. Past gens had dust getting into the hinges but it appears to be solved mostly.
+
+As for me, I went from the s22 ultra to the z fold 7. I'm loving having the bigger display to read comics, articles, and videos. 
+
+I don't t…
+[5:reply] I'm really at a loss as why that would be. There's literally zero benefit besides slightly smaller size when not in use. The downsides are brutal, the screens are extremely sensitive to the point of needing to be replaced multiple times over the device lifecycle and getting fuck…",No post body in the saved snapshot; limited replies are shown.,no,no,na,high,The headline is about sales and switching among phone models.
+P2-342F5843CC,32,My Copilot sidebar in Edge,So Im totally confused as it doesnt refer to me by name anymore and says that memory is toggled off even thought Ive been using it like this for close to 6 months now. When I use regular copilot it says Microsoft has been rolling out updates to their memory system and my sidebar must not have been updated yet but it seems weird that the reg app works just fine. I have really gotten used to the sidebar with its memory to help me with my schoolwork but it sucks that it cant remember anything we've done over the past 6 months.  Oh and no I cant go into settings and just toggle it on because there is not setting for it Ive looked everywhere. Any advice???,,Title and body available; no replies in the saved snapshot.,yes,yes,technical_troubleshooting,medium,"The sidebar lost memory behavior, and the writer asks how to restore it."
+P2-51B348922B,33,Has anyone noticed this new update where it shows what I suppose is a verified link checkmark,https://preview.redd.it/p6wvn28ay85g1.png?width=1913&amp;format=png&amp;auto=webp&amp;s=db84e39bfbadd3526ed80079ef7dd523041a59d6,,Title and body available; no replies in the saved snapshot.,yes,yes,other,medium,The question points out a new indicator introduced by an update.
+P2-8537ABB7E8,34,[Fedora 44 / Wayland] Memory leaks with Explicit Sync &amp; Open Modules on RTX 5080,"Hey everyone,
+
+Although I am well awared that NVIDIA graphics cards are not fully supported on Fedora, especially on Fedora 44. I would like to share my experience with you. I actually ran into this problem even on Fedora 43.  
+I'm also not sure if anyone has reported this bug yet.  
+I just upgraded to Fedora 44 today, hoping that the new Explicit Sync protocols would finally put an end to the Wayland/Nvidia memory leaks. While the visual glitches and flickering are gone, I'm now facing a massive memory leak where the VRAM is completely orphaned after closing applications.
+
+  
+**My Setup:**
+
+* **OS:** Fedora 44 (KDE Plasma 6 / Wayland)
+* **CPU:** AMD Ryzen 7 7800X3D
+* **RAM:** 64GB DDR5 6000MT/s CL30
+* **GPU:** NVIDIA RTX 5080 16GB
+* **Driver:** 595.58.03 (Open Kernel Modules)
+
+I found a ridiculously easy way to trigger this memory leak on demand using hardware acceleration in browsers like Brave (tested with native Wayland flags enabled).
+
+1. Open a browser and load up Excel for the Web (Cloud).
+2. Start typing data into individual cells.
+3. With every new populated cell/block, the VRAM allocation aggressively spikes.
+4. Close the browser completely.
+5. The Explicit Sync boundary drops, the application dies, but the allocated VRAM is **never** released by the GPU.
+6. Only logging out and logging back in will clear the VRAM.
+
+**The Proof:** If you look at the attached nvidia-smi output, the total GPU memory usage reports over 7,5 GB used. However, if you add up the actual processes in the bottom list (kwin\_wayland, plasmashell, etc.), it barely reaches 1,5 GB. The system kernel thinks it's full, but no process owns it. The only way to flush this VRAM is to forcefully log out and restart the KWin compositor.
+
+  
+Has anyone else on the 590+ driver branch and Open Kernel Modules encountered this specific orphan leak on Fedora 44? Are there any kernel parameters that mitigate this garbage collection failure while we wait for an upstream fix?
+
+https://preview.redd.it/hfe6iq008xxg1.png?width=2560&amp;format=png&amp;auto=webp&amp;s=55958e533fab3fff96e25355854b82e53a9dbb78",,Title and body available; no replies in the saved snapshot.,yes,yes,technical_troubleshooting,high,Detailed reproduction steps support a report of a Fedora graphics memory leak.
+P2-EFEDF4947F,35,"Youtube videos show grey/blank screen when playing, but plays audio. Windows 11","Does anybody know how to fix this? Was fine yesterday now this happens, youtube works fine on Microsoft edge, but not chrome and I've done all the ""fixes"" I've found but no one seems to have this specific issue, also turning off HDR makes it work (but bad quality) and turning off graphics acceleration works also but  are bad tradeoffs. 
+
+Honestly I'm clueless, its driving me crazy. Thanks.","[1:reply] Thank you for your submission to /r/Chrome! We hope you'll find the help you need. Once you've found a solution to your issue, please comment ""**!solved**"" under this comment to mark the post as solved. Thanks!
+
+
+*I am a bot, and this action was performed automatically. Please […
+[2:reply] I've been having that too, have no idea why Youtube does that.
+
+it also affects my discord and twitter by turning the gifs blank/grey and sometimes videos on the other sites.
+
+
+I'm on win 10 though.
+
+
+No one in here seems to have an answer to that. I wonder if its a recent updat…
+[3:OP] Oh true, is it recent? Because it wasnt happening yesterday. Did you fix it? Because nothing seems to fix it and its just always grey.","Title, body, and limited replies are shown.",yes,no,technical_troubleshooting,high,"Chrome plays YouTube audio without video, and the writer has tried fixes."
+P2-63F036F094,36,"this past week whenever I am AFK for a while chrome will open a new tab, type something strange into the search bar having to do with search engines and try to Google it. Windows 11, have not installed any browser extensions since getting this PC. Any help would be appreciated",,"[1:reply] You should've unplugged your PC from the internet like... a week ago. Someone might have remote access to your PC, or maybe it's ""just"" a regular malware.
+
+Run MalwareBytes.
+[2:reply] Thank you for your submission to /r/Chrome! We hope you'll find the help you need. Once you've found a solution to your issue, please comment ""**!solved**"" under this comment to mark the post as solved. Thanks!
+
+
+*I am a bot, and this action was performed automatically. Please […
+[3:OP] &gt;Run MalwareBytes.
+
+already done a week ago. found nothing unfortunately. someone could have remote access but whats happening currently is definitely some kind of automatic script, it types very fast",No post body in the saved snapshot; limited replies are shown.,yes,no,technical_troubleshooting,high,Unexpected automated typing in Chrome is presented as a problem needing help.
+P2-53BB90AE07,37,Not bad but still a bit wack,,"[1:reply] I want to paint one but I’m not paying close to $30 for him
+[2:reply] Took me a second to realize that it's barricade
+[3:OP] Guess I was lucky enough to only pay $15 AUD for it
+[4:reply] I was super disappointed by this one. I’m perfectly content keeping my TLK figure that looks presentable after some painting
+[5:OP] Australia moment",No post body in the saved snapshot; limited replies are shown.,no,no,na,high,"Comments discuss a collectible and its price, not an app."
+P2-328B3F2EB2,38,No text on some website on Edge canary,Am i the only one with this bug or what ? Happens after updating from version 144.0.3654 to 144.0.3676.0,,Title and body available; no replies in the saved snapshot.,yes,yes,technical_troubleshooting,high,Text disappears on websites after an Edge Canary build change.
+P2-C69333C751,39,Google Maps makes it easier to recall the places you visited (Updated: Rolling out),,"[1:reply] They didn't exactly kill timelines, they made it private. The current implementation means it only exists on your device, or encrypted on their servers if you choose to back it up.
+
+Now, when police go to Google and say ""[give us all the information on every person in a 20 mile…
+[2:reply] So they killed timelines for what exactly?
+[3:reply] Oh wow it's really gone! All that's left is the last 3 Mos.  Looks like I can go in and turn off auto delete, but it's too late for all my saved trip info. Sad
+[4:reply] The title is incorrect. This does not list places you visited!! It lists places you searched for, shared, called, viewed or got directions for. Those are the available filters. There is no filter to show places you actually visited.  
+It also doesn't show recent places. It's the…",No post body in the saved snapshot; limited replies are shown.,yes,yes,other,high,The title reports a Google Maps feature becoming available.
+P2-6F95F1C7E1,40,My mental state right now:,,"[1:reply] Your a bottom ? Nice
+[2:reply] Weird way to come out, huh? 😂
+[3:reply] This is a sign to buy the dip.
+[4:reply] They're supporting the bottom.
+[5:reply] 👍🏽👌🏽",No post body in the saved snapshot; limited replies are shown.,no,no,na,medium,The replies are personal jokes and give no software issue to classify.
+P2-C9C0241638,41,how do i upgrade to fedora 43?,,"[1:reply] It's my first rodeo, but I'll be following this: [https://docs.fedoraproject.org/en-US/quick-docs/upgrading-fedora-offline/](https://docs.fedoraproject.org/en-US/quick-docs/upgrading-fedora-offline/)
+[2:reply] first:
+
+sudo dnf system-upgrade download --releasever=43 --allowerasing
+
+then:
+
+sudo dnf system-upgrade reboot
+[3:reply] Is it actually officially out now?
+[4:reply] It is
+[5:reply] # ✅ 1. Check your current version
+
+Open a terminal and run:
+
+    cat /etc/fedora-release
+    
+
+This will tell you exactly which Fedora release you’re running.
+
+# 🔄 2. Update your current system fully
+
+Before upgrading, fully update your Fedora 42 system:
+
+    sudo dnf upgrade --…",No post body in the saved snapshot; limited replies are shown.,yes,yes,other,high,"This asks how to perform a Fedora upgrade, not how to repair a failure."
+P2-378FB7C757,42,"How do I make this ""Ask Google"" button never show up in my address bar?",,"[1:reply] go to chrome://flags/, then disable #ai-mode-omnibox-entry-point (AI Mode Omnibox entrypoint)
+[2:reply] Thank you for your submission to /r/Chrome! We hope you'll find the help you need. Once you've found a solution to your issue, please comment ""**!solved**"" under this comment to mark the post as solved. Thanks!
+
+
+*I am a bot, and this action was performed automatically. Please […
+[3:reply] Right-click URL bar &gt; Uncheck ""Always show Google AI Mode shortcut""
+[4:OP] This didn't work for me
+[5:OP] I didn't know that was an option. Good to know. I unchecked it.
+
+It unfortunately did not help me in this instance. Perhaps it will prevent other instances but not in this case.",No post body in the saved snapshot; limited replies are shown.,yes,no,technical_troubleshooting,medium,The user wants a way to hide Chrome's Ask Google control.
+P2-49F339CF3C,43,Reolink Privacy Mode entity no longer?,"My first experience losing capability after updating. The privacy mode entity on my E1 camera suddenly « is no longer provided by the integration ». Why would this be and is there a workaround other than reverting to an old OS?
+
+I use privacy mode to turn the camera around when we leave/enter the house.
+
+Thanks","[1:OP] I do have the wall as a programmed preset. I will integrate that into my automation for now! It’s not quite the same as having the video and sound off but it will do for now. Thanks
+[2:reply] I'm fully up to date and all of my E1 zooms still have it.
+[3:reply] That's actually a solid workaround if the privacy mode entity is broken. You could set up presets for ""facing wall"" and ""normal position"" then just call those through automations instead of relying on the privacy toggle.
+[4:reply] Mine did this earlier today. I dont know why but a hard reboot had them back on.
+[5:OP] Like plug and unplug? I rebooted Reolink in HA but no luck","Title, body, and limited replies are shown.",yes,yes,technical_troubleshooting,high,"An integration update removed a privacy mode control, and the user seeks another method."
+P2-650A3FFFD1,44,[PROMO] How do you handle quiet site crashes after routine plugin updates? (Built a 100% free tool to help),"Like many of you managing client sites, I got tired of the stress that comes with routine plugin updates—specifically when an update breaks a site quietly and you only find out when a client calls.
+
+Most existing tools just ping you after a site goes down, and site-based pricing gets expensive quickly. So I spent the last few months building WatchYourWP to solve this for my own workflow, and I made it 100% free with no site limits or credit card required.
+
+Here is what it actually does under the hood:
+
+\- Pre-update Risk Warnings: If a plugin update triggers a fatal error on one of your sites, the system automatically flags a risk warning on all your other sites running that same plugin version before you update them.
+
+\- 72-Hour Error Correlation: When a fatal PHP error happens, it matches the error directly to plugin or theme updates made in the last 72 hours, so you know exactly what broke it.
+
+\- Cloudflare R2 Off-site Backups: Encrypted backups stored off-server so you aren't clogging local host storage.
+
+\- 1-Click SSO: Instant passwordless admin access to all your client dashboards from one place.
+
+I’m actively working on this and would love honest feedback from fellow devs, agency owners, and freelancers. What features would make your site management workflow easier?
+
+If you want to give it a spin: [https://watchyourwp.com](https://watchyourwp.com)","[1:reply] There are many businesses offering the same and while they're not free, they're cheap.   
+Why offer this for free?
+[2:OP] Because I’m a developer myself and I own several websites. My priority is the community and offering a product that’s truly useful. If the community likes it and shows interest, I’ll have no choice but to introduce a paid tier because server costs will put me in the red.","Title, body, and limited replies are shown.",yes,yes,other,high,The post introduces a monitoring product for WordPress plugin updates.
+P2-347AE5AEB9,45,Totally locked out of an Apple account associated with my email and I don't know the phone number on it,"I have an old Apple account associated with a band I released some music with back in the day, and I've been getting random recovery emails for it. With the first one, I figured anyone who really wants to can probably request one and it doesn't mean they have my password or anything. So I cancelled it and didn't think much of it.
+
+Second one came and I thought, okay, I guess my email is on some list somewhere so that's annoying but still evidently my password isn't.
+
+Then a third one came, and I just figured I'd shut the account down because it was getting annoying and I don't use it anyway.
+
+So I went to log in, and my password works, but then it asks for a code off my MacBook Pro.... I don't have a MacBook pro. So I click ""Can't access"", and I get a prompt to send a code to my phone number.... The digits visible on the phone number are not my phone number. \*SIGH\*. So then I click ""Can't access"" on the phone number too... And now it wants me to enter the full associated phone number. Which I don't know.
+
+Also, looking further into my email history, I found that there was 2FA added in November that I'm pretty sure wasn't me. And somehow I missed that email entirely as well as the window to cancel it. I get weekly updates on the band's stats on Apple Music to my inbox too though.
+
+How can I get access to disassociate this account with my email address?
+
+Weirdly, the recovery requests come from three completely different cities in different states, \*but\* two of them share the same contact number. Neither phone number from the three requests matches the contact number on the account. 
+
+The band is still active, so I've asked if anyone in it is responsible, but I highly doubt it and the requests and phone numbers associated are from the total opposite side of the country.
+
+Any advice would be much appreciated.","[1:reply] Without knowing the trusted phone number it’s asking for there is nothing you can do.
+[2:reply] [If your Apple Account is locked, not active, or disabled](https://support.apple.com/en-us/102640)
+
+There may be nothing you can do. You need to be able to prove the account is yours. Without matching information, your situation is indistinguishable from breaking into someone el…
+[3:OP] What about the fact that it's attached to my email address and it's the only email address associated with it since it was made?
+
+This seems kind of ridiculous lmao. If I have to I'll just move what little I have attached to this email to a new one and shut this one down, whoeve…","Title, body, and limited replies are shown.",yes,no,technical_troubleshooting,high,The problem is access to an old Apple account without its trusted number.
+P2-EF940CF358,46,"my playlist on apple music was reset, how do I get it back?","so i had to delete apple music to free up some space on my phone for the recent update. after the update, i download it back and see that my playlist has no songs in it. i thought this was a glitch so i added a song i wanted to add and my old songs appear for a split second then it changes to just the song that was added, so my playlist now consists of one song. how do i get my old songs back? because i dont remember them all",,Title and body available; no replies in the saved snapshot.,yes,yes,technical_troubleshooting,high,A playlist vanished after Apple Music was removed and reinstalled for an update.
+P2-49BE3D0F7F,47,Ansible/Python fork issue reoccurring since macOS 26 upgrade,"Hey all! Long time lurker, first time poster.
+
+Some of y'all may know about the long standing issue when working from macOS, which manifests itself as `ERROR! A worker was found in a dead state` when running playbooks that involve Python modules.
+
+Previously the most common workarounds have worked - Which are adding one of/both of the below to your environment:
+
+    no_proxy=*
+    OBJC_DISABLE_INITIALIZE_FORK_SAFETY=YES
+
+These have worked for me for many years without issue, however they seem to no longer be working on macOS 26.
+
+Has anyone else ran into this since upgrading? I've even tried running a single fork with no luck.
+
+Any advice/help would be greatly appreciated!
+
+Here are a few historical references of the problem:
+
+* [Thread in Ansible project](https://github.com/ansible/ansible/issues/85123)
+* [Thread in hvac project](https://github.com/hvac/hvac/issues/1192)
+* [The advice in Ansible docs](https://docs.ansible.com/ansible/latest/reference_appendices/faq.html#running-on-macos-as-a-control-node) (which no longer works)
+
+Thanks all!","[1:reply] I hit this issue and as far as I know there’s no fix.
+
+With that said, we worked around the problem.  We went the ansible-builder route to create a docker container to execute ansible.
+[2:reply] Wow I had no idea this was a macos bug, I just thought it was our cloudflare warp client dropping or delaying some packet. 
+
+I can't help you at all since I am not on 26 yet but thanks for the fix for those of use who are slow to upgrade!
+[3:reply] Thanks for sharing!
+[4:OP] Yeah, that’s the route I’m taking for now too. Not ideal, but a new workaround I guess haha.
+[5:reply] Accidentally avoided it by using a devcontainer","Title, body, and limited replies are shown.",yes,yes,technical_troubleshooting,high,A macOS upgrade is connected to an Ansible worker failure.
+P2-89E92C62FB,48,"curl to discontinue its HackerOne / bug bounty due to ""too strong incentives to find and make up 'problems' in bad faith that cause overload and abuse.""",,"[1:reply] &gt; you're absolutely right 
+
+
+&gt; I apologise
+
+
+&gt; [new paragraph] However,
+
+
+This may be the single most annoying thing LLMs do.
+[2:OP] A little more context: https://lists.haxx.se/pipermail/daniel/2026-January/000143.html
+
+An example report: https://hackerone.com/reports/3506159
+[3:reply] AI so ""efficient"" that HackerOne had another round of layoffs yesterday xd
+[4:reply] I don't really blame them. 
+
+I help run the bug bounty program at my employer.  The amount of garbage reports hasn't really varied, but the number of people going apeshit because we pushed back on a bad report has massively increased. 
+
+It used to be just people would run some a…
+[5:reply] &gt;I am not a native English speaker, so I use AI tools to translate and summariz
+
+BZZZZZZT. Damn liar. Banned. Bye bye.",No post body in the saved snapshot; limited replies are shown.,yes,no,other,medium,The headline is news about curl's bounty program decision.
+P2-CA71FA54F4,49,Immich and Iphone sync,"Hello all. I am updated to the latest iphone app and the latest server version.  I also use Cairn app. Before the updates, when I deleted a photo in the Photos app, used Cairn, then went into Immich, it would perform  backup and those photos would be moved to trash in the server. Now after updating, those photos are not being moved to the trash on the Immich server. Any help would be appreciated.",,Title and body available; no replies in the saved snapshot.,yes,yes,technical_troubleshooting,high,The old delete-and-sync behavior changed after both Immich components were updated.
+P2-E888CBD286,50,Trash Samsung ruined chromium based Browsers.,,"[1:reply] I don't have a One UI 8 device on hand, but have you tried building Chromium from source and seeing if the same issue occurs?
+[2:reply] Thank you for your submission to /r/Chrome! We hope you'll find the help you need. Once you've found a solution to your issue, please comment ""**!solved**"" under this comment to mark the post as solved. Thanks!
+
+
+*I am a bot, and this action was performed automatically. Please […
+[3:reply] What are you complaining about?. None of that is new or UI8 related.
+
+\- The address bar, long press the address and select move it to the top
+
+\- The install thing, it already happens on UI7.
+
+I would not think that's UI related but Chrome.
+[4:reply] Happens with me in One Ui 7 too",No post body in the saved snapshot; limited replies are shown.,yes,yes,general_dissatisfaction,medium,"The title attacks Samsung browser behavior, while the replies debate its cause."
+P2-C8D0AA39F0,51,Your go-to plugin store just got an upgrade — vim.pack support and 5.5k verified entries,,"[1:OP] # Some numbers for the curious:
+
+* dotfyle: \~2k plugins
+* neoland: \~900 plugins
+* nvim-awesome: \~1.1k plugins
+* neovimcraft: \~1.2k plugins
+* vim-awesome: \~19k plugins (but most are stale, archived, or user configs)
+
+BTW `store.nvim` database is free and publicly available h…
+[2:reply] Nice improvement :) Thanks for sharing!
+
+This is mostly a style preference, but I'd expect `vim.pack` to not use full `{ src = 'https://...' }` if it is known to use only a source. `vim.pack.add({ 'https://...' })` looks cleaner to me.
+
+I understand that the table approach is mo…
+[3:OP] hey! everything you said is correct, as it is correct for any repo anywhere, because even if repo is in 'awesome-nvim' list - it can be updated after adding to have malicious code inside...
+
+  
+so if you are not sure whats in there - just hit 'o' - it will open plugin github/git…
+[4:OP] fair, thank you  🫶
+
+main db updated with new, cleaner version
+
+https://preview.redd.it/rlta5b1w7htf1.png?width=1198&amp;format=png&amp;auto=webp&amp;s=0cf68309009088e215d4c6d0bd31dcee5b389325
+[5:reply] Very interesting plugin, however, if I understand well, you are scrapping repos, checking if they are nvim plugins, and automatically add them to the store ? It sounds super sketchy, I mean, anyone can just spin up a malicious repo with bought github stars and make it look like…",No post body in the saved snapshot; limited replies are shown.,yes,yes,other,high,A plugin directory announces support and verified listings.
+P2-68DE1A87F4,52,"My ""empty"" desktop 😆",,"[1:reply] Imo you should tune down the wobblyness and the transparency clean nonetheless
+[2:reply] clean af. love it
+[3:OP] Yeah just recently added the wobblyness, kinda like it, for now.
+[4:reply] IMO animations are to long. Why would you want to wait some much time for use a window? Multiply it by times a day you will repeat that task and calculate how much time a day you'll waste
+[5:OP] Strange I don't ""wait"" at all, it is faster than I can click with my mouse or type something and it makes animations smoother when they are slightly slower.",No post body in the saved snapshot; limited replies are shown.,yes,no,other,medium,The thread shows off a desktop appearance rather than asking for a fix.
+P2-134AE3A3FE,53,How can I solve this issue?,"Application Failed!  
+new row violates row-level security policy for table ""profiles"" ( mods,my bad if i put this in the wrong flair, I suck at this coding sh|t) 
+
+https://preview.redd.it/oi9ydd09jbsf1.png?width=1582&amp;format=png&amp;auto=webp&amp;s=bb60316388b15d5cefcccbdeb39a200f50b17e6f","[1:reply] Those policies need to apply to the authenticated role
+[2:reply] can you share more details of these policies?
+[3:reply] Delete all your rls for the table and rebuild them from scratch based ok your need.","Title, body, and limited replies are shown.",yes,no,technical_troubleshooting,high,The shown database access error is the issue the poster asks to solve.
+P2-F151D05099,54,Can’t reinstall chrome after deleting it: Update check error Unable to establish connection with server,,,Title only; no body or replies were available in the saved snapshot.,yes,unclear,technical_troubleshooting,medium,A server connection error blocks reinstalling Chrome.
+P2-8B2F024B65,55,Pipewire audio intermittently starts lagging,"For a while now I have had an intermittent issue where the audio on my system would go from being fine to suddenly developing a few seconds of lag. The issue persists until I reset the service with the following command:
+
+  
+`systemctl --user status pipewire`
+
+  
+after which it behaves as expected again. I have tried querying the status of the service when I receive an error and after resolving it and get the following outputs:
+
+  
+Before:
+
+    systemctl --user status pipewire
+    ● pipewire.service - PipeWire Multimedia Service
+        Loaded: loaded (/usr/lib/systemd/user/pipewire.service; disabled; preset: disabled)
+       Drop-In: /usr/lib/systemd/user/pipewire.service.d
+                └─00-uresourced.conf
+                /usr/lib/systemd/user/service.d
+                └─10-timeout-abort.conf
+        Active: active (running) since Sat 2026-06-20 12:35:25 +04; 8h ago
+    Invocation: 6138e3f9d87e4323830ced73476516d8
+    TriggeredBy: ● pipewire.socket
+      Main PID: 2829 (pipewire)
+         Tasks: 3 (limit: 76617)
+        Memory: 44.1M (peak: 81.5M)
+           CPU: 10min 42.896s
+        CGroup: /user.slice/user-1000.slice/user@1000.service/session.slice/pipewire.service
+                └─2829 /usr/bin/pipewire
+    
+    Jun 20 12:35:25 bazzite systemd[2576]: Started pipewire.service - PipeWire Multimedia Service.
+    Jun 20 12:35:26 bazzite pipewire[2829]: ALSA lib utils.c:372:(uc_mgr_config_load_into) [error.ucm] could not open configuration file /usr/share/alsa/ucm2/USB-Audio/conf.d/054c-0ce6.conf
+    Jun 20 12:35:26 bazzite pipewire[2829]: ALSA lib parser.c:79:(uc_mgr_config_load_file) [error.ucm] failed to open file /usr/share/alsa/ucm2/USB-Audio/conf.d/054c-0ce6.conf: -2
+    Jun 20 21:00:38 bazzite pipewire[2829]: spa.alsa: hw:Controllerp: snd_pcm_drop: No such device
+    Jun 20 21:00:38 bazzite pipewire[2829]: spa.alsa: hw:Controllerp: close failed: No such device
+
+  
+After:
+
+    systemctl --user status pipewire
+    ● pipewire.service - PipeWire Multimedia Service
+        Loaded: loaded (/usr/lib/systemd/user/pipewire.service; disabled; preset: disabled)
+       Drop-In: /usr/lib/systemd/user/pipewire.service.d
+                └─00-uresourced.conf
+                /usr/lib/systemd/user/service.d
+                └─10-timeout-abort.conf
+        Active: active (running) since Sat 2026-06-20 21:05:14 +04; 2s ago
+    Invocation: bbf7140d217f4084b15f94f8ba3bc2b5
+    TriggeredBy: ● pipewire.socket
+      Main PID: 118695 (pipewire)
+         Tasks: 3 (limit:…",,Title and body available; no replies in the saved snapshot.,yes,no,technical_troubleshooting,high,PipeWire audio periodically falls behind and needs a service reset.
+P2-46452A1E0C,56,"Firefox 145.0, See All New Features, Updates and Fixes",,"[1:reply] &gt;Added Matroska support for the most commonly used codecs: AVC, HEVC, VP8, VP9, AV1, AAC, Opus, and Vorbis.
+
+Nice, no more needing to mux the Jellyfin library into mp4.
+[2:reply] &gt; Firefox no longer supports 32-bit Linux systems. We recommend installing the 64-bit version for continued updates and support.
+
+RIP 32-bit Linux, you had a good run.
+
+Given that GNOME recently tore out X support though, I suspect a lot of us might also be wondering about wh…
+[3:reply] The feature that caught my eye in this release is the [upgrades to anti-fingerprinting protections.](https://blog.mozilla.org/en/firefox/fingerprinting-protections/) Love to see more work being done on the privacy side.
+[4:reply] So that's why some of my files were still being live transcoded. It was the lack of AAC support for the container format all along.
+[5:reply] Firefox still has a ton of C++. They didn't snap their fingers and have the whole product rewriten overnight",No post body in the saved snapshot; limited replies are shown.,yes,yes,other,high,This shares release information for Firefox 145.0.
+P2-94CEF35920,57,"Three way, three device Sync - any issues to be wary of?",,"[1:reply] I have 5 devices linked to each other for sending and receiving, no issues so far.
+[2:reply] Synching is designed to work this way. I have multiple devices and they all talk to one another, sharing the same folder.
+
+How much data do you have? You could consider using the Google Free Tier (if less than 30GB). Use encryption for that particular instance to keep your data…
+[3:OP] Thanks for that - most useful.  I probably don't need the Google Cloud but an interesting solution.
+
+I was just imagining clashes or failing sync but I'll add the missing link and see how it goes.
+[4:OP] Great - I'll add the missing link and check all is as expected.
+
+Thanks
+[5:reply] I've got a phone, server, desktop, laptop, tablet and remote backups all in sync with regular gaps when two or three of them disconnect but I'm happy because it means that if I need to roll back I can just carefully pick any of the disconnected devices to restore from. Never rel…",No post body in the saved snapshot; limited replies are shown.,yes,no,other,medium,The writer is checking whether a planned sync setup has pitfalls.
+P2-FF30CB391C,58,"Youtube memory leak, no adblock.","so i have had an issue for a while where my chromebook would overheat due to youtube going from 350 mb of memory to 2+ GB, i have tried updating, clearing cache, disabling extensions. i have hardware acceleration on. it fixes itself when i refresh but it doesnt help it for long. 
+
+can anyone help?
+
+(also im using linux flair since iv heard chrome OS is linux based)",,Title and body available; no replies in the saved snapshot.,yes,no,technical_troubleshooting,high,Growing YouTube memory use causes overheating despite several attempted remedies.
+P2-793DDD1B8A,59,iPhone 13 trade-in,"(Not sure if flair is right, sorry!) I recently updated my iPhone 13 to the glass update on accident, since I had been holding off because what ive see regarding the quality decline in slightly older models, and my phone has never been this laggy. It’s laggy, loses charge fast, my storage randomly filled up completely, and it overheats easily. Im wanting to trade it in for a newer model, but i’m afraid I won’t get much in return, and I can’t exactly drop a band on a new phone right now. My phone really is in a great condition, no scratches or cracks/marks anywhere, so I was wondering what I might get in return for trading it in and if it varies depending on which model.",,Title and body available; no replies in the saved snapshot.,no,yes,na,medium,"The update explains why the phone feels worse, but the request is about trade-in value."
+P2-7793FA3CC2,60,Beware of 6.19.4 nftables regression - can render systems unbootable. Hold back on updating if you're using nftables.,,"[1:reply] Fixed in 6.19.5 FWIW.
+[2:reply] I wonder if this is why it was held back on Arch. Seems like 6.19 has been a wild ride.
+[3:reply] From what I've been able to read on the Arch forums the kernel maintainer just hasn't had enough free time available to properly test and package 6.19. Perhaps that's for the better though, I don't think I've ever seen so many minor releases come out this quickly lol
+[4:OP] can't say for sure, but since the bug is in netfilter and isn't related to any blobs it's probably affected
+[5:reply] Does anyone know if this applies over to linux-libre 6.19.4 gnu?",No post body in the saved snapshot; limited replies are shown.,yes,yes,technical_troubleshooting,medium,The post gives a specific caution about a kernel regression and a fixed version.
+P2-57EA3A20E4,61,"Android’s full desktop interface leaks: New status bar, Chrome Extensions, and more",,"[1:reply] big taskbar always there and then big status bar is alot of stolen valuable vertical space
+[2:reply] I would've loved this 10 years ago, not knowing where Android would eventually go and Google as a company. 
+
+Now, in the era where Windows is miserable, and Google has actively and deliberately ruined search to sell you more ads by being worse, Google is high if it thinks I'm si…
+[3:reply] One of the only things windows does better than other desktop operating systems is combining those into one clean taskbar
+[4:reply] Looks like Gnome with status bar &amp; dock both active together.
+[5:reply] So it's ChromeOS.",No post body in the saved snapshot; limited replies are shown.,yes,unclear,other,medium,The article previews a possible Android desktop interface.
+P2-50069BB6DB,62,"Noob questions now that ""stable"" is out","I've been eyeing immich for a while but never attempted to switch as the service was marketed as ""under very active development"", with users reporting somewhat frequent breakages. Now that the stable version is out, I think it's time to check it out first-hand. Before I do so, **I have some questions on the service as a whole**:
+
+1) I've never set up a server, but using docker the way the devs recommend seems relatively easy. Thing is, I wouldn't want to have a running pc 24/7. **Would it be possible to boot up a pc/NAS on a specific day (say, only on a Sunday) and sync all the files on that day?** 
+
+2) Now that the stable version is out, **what kind of ""maintenance"" is expected of a user (on the server-side)?** Would I still need to manually update? Though I would be fine with the occasional tinker, frequent maintenance (updates, fixing bugs...) would probably be a deal breaker for me as I'd like to ""forget"" that the physical server exists as much as possible. 
+
+3)If I have enough storage on my phone and only want cloud sync for when I switch phones/ to get off of G. photos, **is a secondary backup really needed**? Say the server breaks, can't I just access the pictures on my phone so long as I have it with me? The chances of both the server dying and losing my phone at the same time don't seem great to me.
+
+Redundant info about me: I'm a ""lightweight"" linux user, know my way around the system but am in no way a dev nor a server expert; I know some of the answers to these Qs might be buried in the official documentation, but I'd like to hear some users' takes","[1:reply] 3-2-1!! My immich Server is a backup for the data on my phone, and backblaze is the backup for immich. 
+
+This saved me recently. This is like a scorched earth scenario, but... recently my wife's phone completely died. Won't take a charge and needs a mobo. Mobo is way more than t…
+[2:reply] Exactly. It's strange how simultaneous equipment failures happen more often that you'd think. It's also good to protect you from yourself - I'm not immune from doing stupid things in a tense moment. The immich library lives on my NAS, and I backup everything to a local USB drive…
+[3:reply] to answer...there was probably not much need to wait for ""stable."" I banged away at this for months and it's been solid the whole time. Nevertheless:
+
+1. Sure, no reason your couldn't do this. You might want to disable the backup features on the app so they don't keep searching…","Title, body, and limited replies are shown.",yes,yes,other,medium,The stable Immich release prompts broad questions about setup and upkeep.
+P2-4B60C58DE1,63,"Installing on old laptop. Installs fine, then boots to this. Other distros installed just fine, fedora is the only one that is broken",,"[1:OP] okay got it. Commenting here so it helps someone
+
+On the GRUB bootloader screen when you first boot the machine, before you select fedora linux, press e
+
+Then add
+
+nomodeset
+
+SPECIFICALLY TO THE LINE THAT HAS THE WORD “LINUX” ON IT
+
+if you put nomodeset on ANY OTHER LINE it will…
+[2:reply] Looks like Nvidia drivers issues. But I haven't worked with systems with discrete gpu from 2022, so can't help with troubleshooting
+[3:reply] Acer Nitro 5? I have this machine right now (gave it to my little brother) and I couldn't managed to boot in to Fedora 43 KDE because as far as I know there are some issues with NVIDIA right now, so I went with the best choice that is based of Fedora - Immutable Bazzite, 'cause…
+[4:reply] Wait 5-10 minutes, new drivers are loading/instaling
+[5:reply] Once you do this I highly suggest following the NVIDIA install guide here:https://github.com/Comprehensive-Wall28/Nvidia-Fedora-Guide
+
+I did this on my MSI laptop with a 3060 and it runs great!
+
+The reasoning behind this not working is simply because of a driver incompatibility.…",No post body in the saved snapshot; limited replies are shown.,yes,no,technical_troubleshooting,medium,"The machine boots incorrectly after Fedora installs, and a reply offers a workaround."
+P2-2A6596383E,64,External Links not opening correctly,"Recently (the past 6 months or so after updating to Windows 11) any external link I try to click on outside of Chrome (mostly discord but it happens with any link), does not actually open the chrome application. It flashes open for a second then immediately closes. Additionally, it logs me out of my Google account on Chrome and I have to sign in every time I do so. External links DO work if I have Chrome open already but there's usually the caveat of that tab not having me signed into my Google account. I've scoured the privacy settings and I can't find anything relating to external links. Anything helps! Thanks!",,Title and body available; no replies in the saved snapshot.,yes,yes,technical_troubleshooting,high,Opening links from other apps changed after upgrading Windows.
+P2-E50D18879F,65,Thumbnails greyed out sometimes- this happen to anyone else?,,"[1:OP] Yes that’s where we are. And there is no fix lol so what are we to do?
+[2:reply] I'm having the same issue and had once it before.
+
+The first time it turned out to be a corrupted .MP4 file which made ffmpeg crash. I could see the error popping up in the immich_server container logs. This was on version 2.2.1
+
+Currently, I'm having the same problem again, but…
+[3:reply] I had a similar issue when I switched phones. Opened Immich and logged in. All grey thumbnails. Assumed it was because they were still syncing with the new phone and gave it a few days. Issue persisted. I opened settings and sync status and then cleared file cache, everything po…
+[4:reply] Yes it did on an older version, like 3 weeks ago. On my android device. Have not run into this issue for a few days. Keeping an eye on it
+[5:OP] I’m on the current iOS version",No post body in the saved snapshot; limited replies are shown.,yes,unclear,technical_troubleshooting,medium,Grey thumbnails in Immich lead to discussion of possible repairs.
+P2-9701983452,66,Google Search Engine not working,,"[1:reply] Thank you for your submission to /r/Chrome! We hope you'll find the help you need. Once you've found a solution to your issue, please comment ""**!solved**"" under this comment to mark the post as solved. Thanks!
+
+
+*I am a bot, and this action was performed automatically. Please […
+[2:reply] Just check the box...
+[3:reply] yeah have the same thing happening to me. Both on PC and phone. And checking the box doesn't work either
+[4:reply] I have the same problem
+[5:reply] I checked the box and it still doesn't load",No post body in the saved snapshot; limited replies are shown.,yes,no,technical_troubleshooting,medium,The search function remains broken for several users despite the suggested action.
+P2-C73F36B166,67,Where did the Photos tab go in iMessage?,Just upgraded to 18pro with iOS 27 and the photos tab in iMessage gone?? Did I do something wrong during transfer or is this a known thing?,"[1:reply] The phone is still [indexing](https://support.apple.com/en-us/102321) and probably will be for awhile. There will be a message in Settings with something to that effect.
+[2:reply] Mine never shows accurate photos there
+[3:reply] I had to scroll back to some photos and then it showed up for me but YMMV.","Title, body, and limited replies are shown.",yes,yes,technical_troubleshooting,high,The writer cannot find the iMessage Photos tab after moving to a new phone and iOS.
+P2-01DD19ECB9,68,AADSTS500032 - Cannot find signing certificate/private key to issue a certificate when logging into Entra ID Azure VMs,"Hi everyone,
+
+Last year I setup an AVD with SSO to EntraID. It worked perfectly until last week. 
+
+Now I'm running into an issue affecting multiple Azure VMs configured for Microsoft Entra ID login.
+
+I have verified AADLoginForWindows extension is healthy, confirmed affected accounts still have VM login permissions, tested with multiple admin accounts and then reviewed Entra sign-in logs and authentication appears successful but keep seeing this error inside Windows App.
+
+my laptop is on Windows 11 and on the latest monthly update.
+
+
+
+Has anyone seen AADSTS500032 in an Azure VM login scenario before?","[1:reply] Any chance there was a change to conditional access policies? What happens if you check the sign-in logs for this user in Entra, any indication of a conditional access failure?
+[2:OP] No recent change in my conditional Access policy. Sign in log shows “success” to Application(Windows 365 Client) and Resource(Windows Cloud Login).
+[3:reply] Was your tenant updated to modern authentication? If you haven’t done it yet I’ve seen it unleash this type of thing when Microsoft forces it on the backend.
+[4:reply] Posted this in your other thread also —
+
+Check the “P2P server” applocation object, make sure there is a valid cert on it. Check its servicePrincipal to make sure it’s not disabled or otherwise blocked by CA
+[5:OP] Yes, our whole Tenant have been migrated to Modern Authentication since last year and did not have issue with that.","Title, body, and limited replies are shown.",yes,no,technical_troubleshooting,high,The login certificate failure is an active Azure troubleshooting question.
+P2-0085182FDF,69,3D generations,"Ok so I am trying to make lite a ""body relief"" like thing. But 1. it doesnt really add so much detail, i have tried to change the guidance scale but not that much difference. 2. i am putting it in as a rectangular shape and im trying to make it rectangular but it turns out square instead - why?
+
+i dont really care about the textures so they are lagging but yeah i dont need them.
+
+[:\(](https://preview.redd.it/lx5y53jwygsf1.png?width=2550&amp;format=png&amp;auto=webp&amp;s=8664d7ce52f91a39135e07bd893c3e453447cea7)","[1:reply] I wish I didn‘t see that. However, Hunyuan 3D 2.0 isn‘t very detailed. Use a newer version.
+[2:reply] Sometime in the future a neighbor will be giving an interview proclaiming that op was just such a  normal quiet person and nobody could have seeing it coming, all while standing in front of this abomination.
+[3:OP] haha. thank you! any specific one you would suggest?
+[4:OP] ::::-PP haha it is actually fairly well known with my work persona that i make these sort of things but also bless that it is creeping people out. just actually not just doing this in a hidden basement.","Title, body, and limited replies are shown.",yes,no,technical_troubleshooting,medium,The 3D tool gives a square result instead of the requested rectangular one.
+P2-185F344030,70,"For about three weeks I've been unable to open 5 or so unrelated apps, why?","This is for my Iphone. Some apps include rumble, yahoo's fantasy football, telegram, and a few more. I have the latest update (27.0.1), I've tried deleting and installing again, I have over 70 gbs of free space, reset network settings, and still haven't had any luck. They open for 10-20 seconds, stuck at the logo, then crash. What can I do? Thank you!","[1:reply] Sounds like an app issue,VPN, or possibly not sharing location with the app which triggers app security block of device
+[2:OP] The apps are completely unrelated so that's what confuses me. I've exhausted AI's suggestions so I'm at a complete loss now. It wants me to fully factory reset my phone and I'm just not doing that. Anything I can try? Thanks!!
+[3:reply] [This](https://www.macrumors.com/2026/09/29/heres-why-iphone-apps-were-crashing/) was happening just a few days ago but reports of it have died down within the last week. Apple has [limited suggestions](https://support.apple.com/en-us/119876) on their end for this, but you can t…
+[4:reply] If the apps have websites reauthenicate by signing in then remove the apps reinstall and try again","Title, body, and limited replies are shown.",yes,no,technical_troubleshooting,high,Multiple apps fail to open although the writer has reinstalled them.
+P2-727D97CFFC,71,Annoying glitch that happens many times,"There's this glitch that is really annoying since I've updated my ipad, i had to always wait out 1 to 2 minutes before triple clicking the home button to fix it. I sometimes accidentally triple tap the home button it happens a lot but when I try to end the guided access it just exits the app and froze the screen, I couldn't do anything about it, couldn't interact with the buttons, couldn't reset it, couldn't power off the device. Pls fix this apple less",,Title and body available; no replies in the saved snapshot.,yes,yes,technical_troubleshooting,high,The iPad behavior appeared after an update and requires repeated manual correction.
+P2-28DB4CF2D9,72,Philips Hue dimmer switches not working since update,"Hello,
+
+I run Home Assistant in a Docker container and made the mistake of updating it. ;) Since then my Philips Hue dimmer switches do not work anymore. They and the triggered actions, do still show up in zigbee2mqtt, but Home Assistant does not see them anymore. Has there been a change in protocol or API? I'm not completely clueless, but I couldn't figure this out so far. I checked the changelog, but couldn't find anything big mqtt related.
+
+Would be grateful for any help, thanks!
+
+https://preview.redd.it/j1p8keqpx7rg1.png?width=835&amp;format=png&amp;auto=webp&amp;s=53c22afa41ddf7378c51bad2f2ba74154abc76ac",,Title and body available; no replies in the saved snapshot.,yes,yes,technical_troubleshooting,high,Hue switch actions no longer work after Home Assistant was updated.
+P2-FC18D436EF,73,Duplicating windows regression with 143.0.3638.1,"Has anyone else ran into this issue lately in 143.0.3638.1 where merely clicking links (e.g, links from Windows 11 applications) spawns duplicate windows of all your existing tabs in addition to the new tab (rather than re-using the existing window?)
+
+Windows 11 25H2
+143.0.3638.1 
+
+Example: Open Settings in Windows 11, Windows Update, click the Learn More link.
+
+If it doesn't work the first time, it will happen on the second.
+
+A duplicate second window open with all your tabs in Edge (minus pinned tabs).
+
+What a weird regression.",,Title and body available; no replies in the saved snapshot.,yes,yes,technical_troubleshooting,high,Opening a link produces extra windows in the named browser version.
+P2-CDD3EF7A75,74,After update doesn't work FaceDetailer,"https://preview.redd.it/3kxgu5gllqtf1.png?width=980&amp;format=png&amp;auto=webp&amp;s=ec8efa5a7d6a42fd673718da9b2abfc171daabb9
+
+https://preview.redd.it/ahi14i0tlqtf1.png?width=1137&amp;format=png&amp;auto=webp&amp;s=1927aa34d4515b47825fa09729b365be403197da
+
+It didn't work after updating to 0.3.63. I found a solution on Discord.","[1:reply] Thanks. I was going to ask here about this.
+What Discord channel do you recommend for support like this?
+[2:OP] Official Discord, help section.  
+The source indicated there was: [https://github.com/ltdrdata/ComfyUI-Impact-Pack/issues/1121](https://github.com/ltdrdata/ComfyUI-Impact-Pack/issues/1121)
+[3:reply] GPT is good at these too. Paste in your cmd logs and tell it what’s wrong, it’s fixed every update break for me.","Title, body, and limited replies are shown.",yes,yes,technical_troubleshooting,medium,"The update broke FaceDetailer, and the post reports a solution found elsewhere."
+P2-6456172E2D,75,Stuck with Laravel Package Tests with Pest + Orchestra Testbench - Laravel Helpers Not Available,"## Context
+
+I've developed a Laravel package that works perfectly in production, but I'm struggling to get the tests working properly. The package is located at `packages/cli/` within my Laravel application (local package development setup).
+
+**Goal:** Run my package tests from the Laravel app root using `php artisan test`
+
+**Current Issue:** Tests run but Laravel helper functions like `config()`, `app()`, etc. are not available. I get ""Target class [config] does not exist."" errors.
+
+## What I've Done So Far
+
+### 1. Installed Required Dependencies
+
+**Package `composer.json`:**
+```json
+{
+  ""name"": ""sheaf/cli"",
+  ""type"": ""library"",
+  ""autoload"": {
+    ""psr-4"": {
+      ""Sheaf\\Cli\\"": ""src/""
+    }
+  },
+  ""autoload-dev"": {
+    ""psr-4"": {
+      ""Sheaf\\Cli\\Tests\\"": ""tests/""
+    }
+  },
+  ""extra"": {
+    ""laravel"": {
+      ""providers"": [
+        ""Sheaf\\Cli\\ServiceProvider""
+      ]
+    }
+  },
+  ""require-dev"": {
+    ""orchestra/testbench"": ""^10.4"",
+    ""pestphp/pest"": ""^3.8"",
+    ""pestphp/pest-plugin-laravel"": ""^3.2""
+  }
+}
+```
+
+### 2. Created TestCase with Orchestra Testbench
+
+**`packages/cli/tests/TestCase.php`:**
+```php
+&lt;?php
+
+namespace Sheaf\Cli\Tests;
+
+use Orchestra\Testbench\TestCase as Orchestra;
+
+class TestCase extends Orchestra
+{
+    protected function getPackageProviders($app)
+    {
+        return [
+            \Sheaf\Cli\ServiceProvider::class,
+        ];
+    }
+
+    protected function setUp(): void
+    {
+        parent::setUp();
+    }
+}
+```
+
+### 3. Created Pest Configuration
+
+**`packages/cli/tests/Pest.php`:**
+```php
+&lt;?php
+
+declare(strict_types=1);
+uses(\Sheaf\Cli\Tests\TestCase::class)-&gt;in('Feature', 'Unit');
+```
+
+### 4. Created Test File
+
+**`packages/cli/tests/Feature/ExampleTest.php`:**
+```php
+&lt;?php
+
+namespace Sheaf\Cli\Tests\Feature;
+
+test('confirm environment is set to testing', function () {
+    expect(config('app.env'))-&gt;toBe('testing'); // ERROR HERE
+});
+```
+
+### 5. Updated Laravel App's `phpunit.xml`
+
+```xml
+&lt;testsuites&gt;
+    &lt;testsuite name=""Package""&gt;
+        &lt;directory&gt;packages/cli/tests&lt;/directory&gt;
+    &lt;/testsuite&gt;
+&lt;/testsuites&gt;
+```
+
+## The Problem
+
+When I run tests from the Laravel app root with `php artisan test`, I get:
+
+```
+Target class [config] does not exist.
+```
+
+I added debug code to check what's happening:
+
+```php
+test('debug', function () {
+    dd([
+        'testcase_class' =&gt; get_class($this),
+        'parent_class' =&gt; get_parent_class($this),
+        'app_exists' =&gt; isse…","[1:reply] Emblematic user of this framework.
+[2:reply] Wrong sub, try r/laravel or r/phphelp
+[3:reply] &gt;Is this the correct approach for testing local packages within a Laravel app?
+
+No. [READ THE DOCUMENTATION](https://laravel.com/docs/12.x/packages#a-note-on-facades)! Orchestra exists specifically to test packages *outside* a Laravel application.
+
+&gt;Should I be using a dif…
+[4:reply] Jesus this looks like you had AI help you write this post. Maybe try a better prompt and run the slop through the slopper for a solution. I want to get the fuck  off this ride.
+[5:reply] I hate to say it but I agree.","Title, body, and limited replies are shown.",yes,no,technical_troubleshooting,high,The package's tests fail because Laravel helpers are unavailable.
+P2-9D46B222BD,76,"I got tired of my ComfyUI breaking every time I added a node or update a package, so I wrote a Powershell script to put an end to it.","I got so tired  of installing a new node or packages and getting stuck in a dependency hell with x package requiring n version of package but having nth version, and nodes overriding core packages and eachothers requirements, relying on pip to hand all of that was just not doing it for me, i found myself spending way too much time just maintaining a clean and conflict free env, but also a performant and flexible one, so i started working on this script few days ago to create a conflict free and reproducible ComfyUI env without losing my sanity. I call it the **All-In-One ComfyUI Manager**, nothing to do with Comfyui Manager we all know and love, this is rather the env side of things,.
+
+The core idea is simple, it builds a protected Python environment with a specific version of PyTorch and all the essentials, and then locks it down. Then, it safely clones my customizable collection of nodes and installs their requirements without letting them touch the core stuff, and it also check that all of their requirements and their packages versioning is boiled down to something none of them would complain about.That was the primary goal but somehow i found myself adding more and more, so here is what i came up with.
+
+\*\*What it does:\*\*
+
+\*   **One-click fresh install:** Clones ComfyUI, builds the venv, and pulls in \*\*70+ of the most popular custom nodes\*\* automatically, handles their requirement automatically.
+
+\*   Keep your existing ComfyUI install and **Rebuilds your existing venv** to an optimized, conflict free, conflict protected with a constraints.txt and flexible state, ofc backing up the old one just in case.
+
+\*   **Safely updates node dependencies** without breaking your core install.
+
+\*   **Auto generates launcher multiple scripts** (.bat files) for High VRAM, Low VRAM, CPU, etc.
+
+\*   Basically, it's the ""set it and forget it"" script I always wanted to have, in case you break something you have a helpful script that sets it all back like nothing happened.
+
+It's Powershell , so this is for the Windows atm. It does have some prerequisites (like CUDA 12.8 and VS Build Tools) mainly for sage/ torch compilation and such, it's also all laid out in the README and in the Manager script once you launch it, with direct links to wheels (sage/triton/Nunchaku). But the script is very easy to understand, clone it and customize it to your liking if this is doing too much, 
+
+Would love for you  to check it out, give feedback, or even contribute. It was just so…","[1:reply] But....if it doesn't implode...is it really Comfy?
+[2:reply] It is not comfy if you don't use the restart button more than the start button.
+[3:reply] Looks good. But being able to choose the python version for the venv would be great.
+I run comfy in a 3.10 venv to have access to all the prebuilt wheels which usually don't exist with 3.12+cu128+pytorch for example.","Title, body, and limited replies are shown.",yes,yes,other,high,The writer shares a dependency management script built in response to update breakage.
+P2-981AB235BB,77,I couldnt resist,,"[1:reply] OPTIMUS IS GRABBING HIS CO-
+[2:reply] \-mrade
+[3:reply] That is really cool thing you can do
+[4:reply] ""He's doing what every good Autobot should do: Protect Optimus Prime at all costs.""
+[5:reply] “You could use a Reacharound in your life”
+
+–Optimus Prime",No post body in the saved snapshot; limited replies are shown.,no,no,na,high,The replies concern a toy or figure rather than a software product.
+P2-BDCCE9F90B,78,"We got inflation laddie, dont worry - its normal.",,"[1:reply] Once Powell is replaced with a yes man it's game over for the economy.
+[2:reply] This is hilarious. Exactly what it feels like sometimes.
+[3:reply] Does anyone actually believe that the ship of state can all be fixed if only the right people were in charge? 
+
+I'm wondering if it might be better to just get it over with.
+[4:reply] It reduced the length and depth of recessions since inception, so working as intended.
+[5:reply] buttcoin in a nutshell",No post body in the saved snapshot; limited replies are shown.,no,no,na,high,Inflation and the economy are the subject of the visible discussion.
+P2-6FC496FB89,79,RustDesk Fails to Connect,,"[1:reply] Are the clients that are failing to connect on the same network as your server? If so look in to NAT loop back. You also must make sure you open the correct ports on your firewall/router where your RustDesk server is connected.
+[2:OP] Thanks very much for the reply, Risaw1981. Yes, the clients I am usually trying to connect to are on the same network as the host. I am trying to connect from outside the network. I will check out NAT Loop back. I am not familiar with it. Yes, I have opened the ports required pe…
+[3:reply] If you ping the domain name of your RustDesk server does it return the correct IP? Their support is very good. I’ve had a couple minor issues along the way they they’ve helped with.
+[4:OP] Yes. It does. Likewise, when I ping the IP address, it pings just fine.  Thanks",No post body in the saved snapshot; limited replies are shown.,yes,no,technical_troubleshooting,high,The user and replies work through why RustDesk clients cannot connect.
+P2-411923F724,80,Preview keeps crashing on Mac,"My Preview app keeps crashing and it's driving me crazy. I've been working all day using Preview (reading papers, annotating, etc.) and for some reason in the last hour, I can't get it to stay open for more than one minute. I tried everything I could find online: opening while holding down Shift, restarting/shutting down my Mac, checking for OS updates, opening other files, clearing caches and deleting com.apple.Preview folders.
+
+I recently updated my laptop to Tahoe 26.6.1 and it was working fine for a few days until now. I will attach a screenshot of the message I get when the app shuts down. The shutdown seems to happen faster with some files than others. For example, I can open a jpeg or png file in Preview and it won't shut down as quickly as it does for a pdf. I also tried redownloading the current paper I'm reading to see if a new version would help but nothing. It's driving me crazy!!! 
+
+I know I could just annotate in Zotero or Notability but all of my papers are annotated as direct files on my laptop, but I am a PhD student and really like to have everything in one place, done the same way. I have been using Preview for four years for papers and to now have this pop up when I need to most is extremely frustrating. I would appreciate any tips or tricks. I've read most of the other Reddit threads about this same issue and tried the proposed solutions but they are either a bit dated or straight up didn't work so please help, I'm desperate.","[1:reply] Try deleting this folder: \~/Library/Containers/com.apple.Preview
+
+It does not have any of your data in it, only data for preview.
+
+You can get there by opening Finder and pressing shift command G and then put in \~/Library/Containers/ then find the folder or delete it.
+
+
+
+Or in…
+[2:reply] How much RAM is your MacBook Pro 13-Inch, M2, 2022 configured to have? Base 8 GB?
+[3:reply] What is Preview's behaviour when booted into Safe mode?","Title, body, and limited replies are shown.",yes,no,technical_troubleshooting,high,Preview suddenly closes repeatedly during normal reading and annotation.
+P2-ABA5C12A12,81,Anyone know which node pack I need to update to fix this nastiness?,,"[1:reply] Crystools or something similarA
+[2:OP] This used to be a lovely series of 5 bar graphs that showed VRAM usage etc. Now it's a horrendous lump of long text that changes the toolbar size as the percentages go up/down. I thought it might have been rgthree, but I've updated that to nightly and no luck.
+[3:reply] I had the same issue a few weeks back. In my case I just needed to update the pyssss node pack.
+[4:OP] Perfect, it was Crystools, thanks!
+[5:reply] The rename/save/close dropdown with the workflow name is gigantic as hell too.",No post body in the saved snapshot; limited replies are shown.,yes,no,technical_troubleshooting,medium,A node pack change seems to have damaged the ComfyUI status display.
+P2-7F371D4371,82,New Comfyui UI Nodes 2.0 beta,In the latest comfyui update a change was made to the ui for Nodes 2.0 beta... it's changing my nodes too much and I'm wondering if there's a way to simply turn that off instead of reverting to an earlier version?  specifically the Ksampler no longer shows the control\_after\_generate drop down for Seed... but there are also changes to the context menus of some of the nodes... I hate change  :P  sighh.,,Title and body available; no replies in the saved snapshot.,yes,yes,technical_troubleshooting,medium,The user wants to turn off a new ComfyUI node interface behavior.
+P2-A5318A8ACD,83,My openclaw refuses to switch to plus 4.6,"My openclaw refuses to switch to plus 4.6
+
+It denies its existence even after updating openclaw to the latest version. And if forced to switch to opus 4.6, it shows an unknown model error. Can you help?",,Title and body available; no replies in the saved snapshot.,yes,yes,technical_troubleshooting,high,A requested model is rejected by OpenClaw despite installing the latest version.
+P2-7A30093BCA,84,Firefox 157.0 has some serious memory leaks,"I love Firefox and I've been using it for years since 2017 because i hated how bloated chromium browsers are but the latest update of Firefox is insanely memory hungry, it's taking 3.5GB of my ram just for 4 tabs!! 3 of them are static websites and one of them is YouTube, older versions did not exceed 1.5-2GB of ram and i used to open like 3-6 tabs and i always have YouTube on the background so nothing new except the increased memory usage","[1:reply] About:memory
+[2:reply] Instead of using Task Manager, could you please sort the list in the “about:processes” page by memory usage and post it here?
+[3:reply] Can\`t thank you enough for this. Going there helped me identify one extension using about 7GB of memory with the help of chatgpt too ofc since i\`m not an IT guy to understand these things 😊
+
+* Firefox extension: **Private Grammar Checker – Harper**
+* Internal UUID matches exac…
+[4:OP] My bad! Forgot to post it, seems like GPU is eating almost 1.5GB of the ram, i believe that's from the IGPU!
+[5:OP] I only have uBlock, i know that extensions use ram as well and you're the one who needs to chill dude lol all i said was Firefox is using more RAM than usual","Title, body, and limited replies are shown.",yes,yes,technical_troubleshooting,high,"Firefox consumes much more memory in the new version, and replies investigate why."
+P2-FC6F1891AE,85,"On a new PC  Chrome displays ""What's new"" tab every single time I open the browser.","I'm at my wit's end. It's a small thng but so annoying. I've tried all the recommendations I found and nothing's working. Uninstalled, logged out, disabled google updates, the damn thing is still there. Anyone came across this issue? Windows 11. Tried all the options of Chrome startup too. The default tab/ latest tab always opens second, behind the What's New","[1:reply] mybe its in the homepage settings...change it to default-blank homepage wich shows recently visited..have u tried that..
+[2:reply] Thank you for your submission to /r/Chrome! We hope you'll find the help you need. Once you've found a solution to your issue, please comment ""**!solved**"" under this comment to mark the post as solved. Thanks!
+
+
+*I am a bot, and this action was performed automatically. Please […","Title, body, and limited replies are shown.",yes,no,technical_troubleshooting,high,The recurring What's New tab persists through several attempted fixes.
+P2-1EEB3DA3B0,86,Audio glitches immediately after upgrade from 25.10 to 26.04,"It's not like audio completely crashes but it's a stutter. Audio can come from vlc, firefox or other application and it just randomly repeats a couple of times chunk of audio and then immediately goes back to sounding perfectly fine. There are no spikes in RAM, disk,  any CPU or GPU usage. It can be just VLC playing a single mp3 audio file and nothing else going on.
+
+It started happening immediately after restart following upgrade to 26.04 LTS. I have all updates installed. Can anyone tell why this happened and if there is a solution? I will be also grateful for any tips on how to troubleshoot such issue properly.","[1:reply] pipewire does this sometimes after major version jumps, the config from old install can conflict with new defaults. worth checking if pipewire or pulseaudio is running with \`pactl info\` and then looking at the sample rate settings - mismatched rates between the server and your…
+[2:OP] The thing is, that stutter is also temporary. It can be fine for hours, stutter for couple of minutes every minute or so up to an hour and get back to being normal again. I see no regularity here, no combination of processes, no actions that trigger the stutter. I didn't figure…
+[3:reply] Yeah I got that on my fresh 26.04. starts repeating back from a few seconds. Seems to have gone away somehow","Title, body, and limited replies are shown.",yes,yes,technical_troubleshooting,high,Audio stutter appeared right after moving to the new OS version.
+P2-8C79A393D4,87,"Vivo X500 series tipped to get massive 7,000mAh battery upgrade",,"[1:reply] China got a beef with No. 4
+[2:reply] It's crazy to see how quickly batteries are growing. We sat stagnant from like 2020-2024 with 5000 to maybe 5500 mah, then last year 6000 mah became a thing, now late this year 7000-7500mah is becoming a thing. If there's still room to push SiC tech incrementally we could see 80…
+[3:reply] 4 is an unlucky number as it sounds like ""die"". That's why the Find X4 doesn't exist.
+[4:reply] What happened to 400 lol
+[5:reply] And I'm sitting here with 25,500.
+
+Though most people probably wouldn't be interested in a phone this heavy.",No post body in the saved snapshot; limited replies are shown.,no,no,na,high,The supposed upgrade is to battery hardware capacity on a future phone.
+P2-331800B3AF,88,iOS 26.1 Facebook app experience glitches while scrolling through photos posts with several photos,"Updated to latest version, yet the issue is not resolved. Is it only on my device or is it for everyone?",,Title and body available; no replies in the saved snapshot.,yes,no,technical_troubleshooting,medium,Facebook photo scrolling still glitches; updating is mentioned as an unsuccessful remedy.
+P2-15269C607E,89,Navigation bar color changes with websites (Android),"Is anyone having this issue? The navigation bar would always be black before but now it now adapts to white when visiting pages like wikipedia, ao3, etc. Furthermore, and this is really what's been bugging me, but when you bookmark a page, the navigation bar would go from black to white and then back to black after the bookmark tab disappears. This only started when I updated to the latest chrome update.","[1:reply] Thank you for your submission to /r/Chrome! We hope you'll find the help you need. Once you've found a solution to your issue, please comment ""**!solved**"" under this comment to mark the post as solved. Thanks!
+
+
+*I am a bot, and this action was performed automatically. Please […","Title, body, and limited replies are shown.",yes,yes,technical_troubleshooting,high,The navigation bar color now shifts with pages after updating Chrome.
+P2-D0AD03899D,90,How to remove the rounded tabs?,"As usual, I'm fairly indifferent to the new update for Firefox. My one issue is that the rounded tabs look like hot garbage and so I'm hoping there's a way to revert them back to the regular squares that won't give me a headache?","[1:reply] Yeah, I have no clue who designed this, but this is horrible. And for the ""themes"" stuff.... why can't I just select a normal color? (no gradient). 
+
+Please adjust your 'beautiful' new themes:
+
+1) Be able to create/edit your own theme
+2) settings for value for radius of rounded…
+[2:reply] For now:
+
+about:config
+
+browser.nova.enabled - false
+
+If they ever remove this option look in to Firefox forks like Waterfox and Zen or CSS modding there is a whole [sub](https://www.reddit.com/r/FirefoxCSS/)  for it and they have solutions for the tabs like [this](https://www.r…
+[3:reply] You can do this by using [userChrome.css](https://www.reddit.com/r/FirefoxCSS/wiki/index/tutorials/).
+
+Try this in userChrome.css =
+
+    :root {
+        --tab-border-radius: 4px !important;
+    }
+[4:reply] You can either one any of the themes from the Firefox add-ons website (e.g. the official proton theme https://addons.mozilla.org/en/firefox/addon/firefox-proton/), 
+or just use ""Firefox Color"" (an official extension) to select your own colours. By default themes made with Firefo…
+[5:reply] What's codex?","Title, body, and limited replies are shown.",yes,yes,technical_troubleshooting,high,The poster asks for a way to reverse the new rounded Firefox tabs.
+P2-F4F0D67542,91,Issues after latest xos security update,"I've had an issue with the latest security update, I use infinix gt 30 pro. After the update my storage had been increasing gradually for no reason, and after some research I found out that most of my apps started generating caches that could not be deleted, for example youtube have 5mb cache which when I delete it came back almost immediately. Tried restarting but that didn't do anything. This is especially frustrating for my ocd ass. Is this normal? It's a big with the update or smth?","[1:reply] All apps, especially online apps, use cache to store commonly used data. The size of the cache will fluctuate. There is nothing you can do about it. If you delete it, it will come back as soon as you open the app. Just leave it.","Title, body, and limited replies are shown.",yes,yes,technical_troubleshooting,high,Unexpected cache growth began after the security patch.
+P2-FB241D1A96,92,"""...Now kiss!"" ""Uhhh, Lord Megatron?"" ""What is it, Shockwave? Can't you see I'm busy?""",,"[1:reply] ""No sir! I didn't see you playing with your dolls again!""
+[2:reply] ""Good!""
+[3:reply] ""The humans call this yaoi, and it's very cultured.""
+[4:OP] I can't wait for Spaceballs 2!
+[5:reply] Does this guy work for hasbro or something because this just sold me on those mini figures",No post body in the saved snapshot; limited replies are shown.,no,no,na,high,The visible conversation is a fictional character joke.
+P2-9FBAA4CCD8,93,Android 16 is on 7.5% of devices in latest distribution numbers update,,"[1:reply] Surprisingly high. I would've guessed around 4% or so. Perhaps it's the result of recent devices having longer support?
+[2:reply] It would be VERY INTERESTING to know stats of Play System Services adaptation - like how many devices are on v26.02 today
+[3:reply] It makes no difference tbh. Atleast here, most banking apps require Android 13 and above anyway so it still very supported and recent
+[4:reply] If that's surprisingly high, Android is fucked
+[5:reply] I'm on Android 13 Samsung Galaxy A42 so that's sad for me",No post body in the saved snapshot; limited replies are shown.,yes,no,other,medium,The update here is to a statistics report about Android adoption.
+P2-9DA7E897EC,94,macOS Tahoe 26.0.1 Released,https://preview.redd.it/54xln2qbz4sf1.png?width=948&amp;format=png&amp;auto=webp&amp;s=fdd095a2dbb2774b467c0063634d08d220a79eb4,"[1:reply] Looking forward to see if the Electron memory leak is fixed on this version.
+[2:reply] Apparently it was an Electron bug, they merged the fix with 38.2.0, we just need to wait for apps to update the framework.
+[3:reply] gosh, nearly 12GB – how many bugs are they fixing with this??? XD XD we know the answer...
+
+https://preview.redd.it/fj1usdow45sf1.jpeg?width=563&amp;format=pjpg&amp;auto=webp&amp;s=4c8eda0484fe6bd914fbb13b035e6a161ba4a2b7
+[4:reply] I just want to sequoia style back....
+[5:reply] You dropped the /s sir","Title, body, and limited replies are shown.",yes,yes,other,high,This is a macOS release announcement with reactions in the replies.
+P2-C5F7FD41B8,95,"Page speed insight on desktop is 90 and still stuck at 78 on mobile, what else can I try?","I have been working on improving my WordPress site (hosted on Hostinger) for Google PageSpeed Insights.
+
+After a bunch of tweaks, I’ve managed to get desktop performance up to 98 🎉 … but mobile is still stuck at 78.
+
+Here’s what I’ve done so far:
+	•	Installed and fine-tuned LiteSpeed Cache
+	•	Converted images to WebP and used compressor.
+	•	Cleaned up the database (post revisions, transients, overhead)
+	•	Switched to elementor hello theme.
+	•	Removed bloated plugins (cut 6+)
+	•	Upgraded to PHP 8.2
+	•	Hosted fonts locally instead of Google
+
+Load time has gone from 7s → under 2s, which is a huge win.
+
+But now I’m trying to push the mobile score higher.
+
+Question: What else should I look into for mobile PageSpeed optimization on WordPress + Hostinger?
+
+Would love to hear what worked for others—I’ll try out your suggestions and share results back here.","[1:reply] If it were me, I’d move on to more impactful improvements.
+[2:reply] &gt; Load time has gone from 7s → under 2s, which is a huge win.
+
+That's it. More than enough. Fast enough. I would stop there.
+
+Speed is just one of the factors for site ranking. SEO is equally important.
+[3:reply] thanks, ChatGPT.
+[4:reply] That's a common frustration! Getting mobile scores up can be trickier than desktop. Remember mobile often uses slower cellular networks, making optimization vital.
+
+First, the PageSpeed Insights score is just a guide. Focus on user experience! Does the site *feel* fast on your p…","Title, body, and limited replies are shown.",yes,no,technical_troubleshooting,medium,The site owner asks what else can improve the mobile performance score.
+P2-C5F18F9994,96,Fyrox Game Engine 1.0.0 - after 7 years in development the first stable version of the engine is now released!,,"[1:OP] Lead dev here. This first stable release took a lot of effort. Please, if you find any bug, do not take it too serious - the development team is tiny, the funding is pretty much non-existent. I'm ready to answer your questions.
+[2:reply] One of the most underrated Rust projects. Wildly impressive. Congrats on the release!
+[3:OP] It has an editor for at least 5 years already :)
+[4:reply] Waaaait a second. Does it have an editor? I've never seen a game engine written in Rust with an editor!
+[5:OP] The first one is the editor. I've spent a huge amount of time building and polishing the editor, and it is still rough at some places. The editor alone can easily break the will to continue development, because of its enormous complexity.
+
+The second one is the UI library, the e…",No post body in the saved snapshot; limited replies are shown.,yes,yes,other,high,The title celebrates a game engine's first stable release.
+P2-8390DF6232,97,ComfyUI update not updating?,"HI All, 
+
+Running Comfy in Google Colab.  So I'm usually pretty update-averse, don't like being on the bleeding edge. I've run updates on Comfy maybe 5-6 times over the last year when some error pops up, but if my workflows are happy, I don't touch much.
+
+But when testing some more complex dl'd WAN workflows lately (using Kijai nodes specifically, they always blow my install up), I updated comfy again and I discovered that I was still missing a module that should have been installed as of version 3.40. Looking over my logs, I discover that I'm still running 0.3.30, cutting edge circa last April. Apparently I've never noticed that my updates were cancelling due to file overwrites. It all looked like it was progressing normally all these times, but I never noticed the little part in the logs where it said:   
+error: Your local changes to the following files would be overwritten by merge:  
+	.ci/update\_windows/update.py  
+	.ci/windows\_base\_files/README\_VERY\_IMPORTANT.txt  
+	.ci/windows\_base\_files/run\_cpu.bat  
+	.ci/windows\_base\_files/run\_nvidia\_gpu.bat  
+Please commit your changes or stash them before you merge.  
+Aborting
+
+  
+Well shit. Not sure why install would say these have changed, since I'm running on Google colab, not windows. But whatever. So I update again just now, with git reset --hard to force everything. Looks good so far:
+
+  
+\-= Updating ComfyUI =-  
+Updating files: 100% (378/378), done.
+
+ But after updating I still see this upon launch:
+
+  
+\### ComfyUI Version: v0.3.30-4-gb685b8a4 | Released on '2025-04-26'
+
+Crap. So I'm stumped. I'm guessing that the vanilla ""update ComfyUI"" button in colab which runs a straight git pull has been failing without me noticing for awhile. But why would I still be at the old version after a reset --hard?
+
+Am I missing something obvious? TIA",,Title and body available; no replies in the saved snapshot.,yes,yes,technical_troubleshooting,high,Local file edits make ComfyUI's update process abort.
+P2-35FF439145,98,Chrome just updated and there's no more web apps/shortcuts?,,,Title only; no body or replies were available in the saved snapshot.,yes,yes,technical_troubleshooting,medium,The title says web app shortcuts vanished following a Chrome update.
+P2-B01B2B3805,99,Google's second big Android 16 update is rolling out for Pixel phones: Here’s EVERYTHING new!,,"[1:reply] Saved you a click, here's what's new:
+
+\- Auto-themed icons
+
+\- Custom icon shapes
+
+\- Expanded dark theme (Basically an auto-dark mode for apps without a dark mode)
+
+\- Low light mode (Clock during the evening, wallpaper during the day)
+
+\- Enhanced HDR brightness
+
+\- Disable b…
+[2:reply] A very cool list of features, but being able to turn off ""Enhanced HDR brightness"" is what I needed the most, I was so tired of social media posts burning my retina at night.
+[3:reply] Mishaal my goat
+[4:reply] LOCK SCREEN WIDGETS!  YESS
+[5:reply] Is THAT why random tiktok videos are so bright??",No post body in the saved snapshot; limited replies are shown.,yes,yes,other,high,The post lists what is new in an Android release rollout.
+P2-C14AB31671,100,Microsoft wants to fix app updates on Windows 11 — previews new update orchestrator platform designed make them invisible,,"[1:reply] &gt;Windows 11 will soon be able to update apps in a more consistent and reliable manner with a new unified update orchestrator platform that developers **can opt-in** to.
+
+Yea.. we all know how that will work with Win32 apps.
+[2:reply] How about you just let me turn all that shit off until I want to update?
+[3:reply] anything but doing what their own customers want, it's amazing really
+[4:reply] “Hey should we trust Microsoft to update our app”
+[5:reply] I'm getting anxious just by reading “update orchestrator”.",No post body in the saved snapshot; limited replies are shown.,yes,yes,other,high,The headline covers a planned Windows app update system.

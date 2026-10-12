@@ -1,0 +1,22 @@
+{
+  "created_at_utc": "2026-10-06T21:44:20.321942+00:00",
+  "seed": 2026100615,
+  "n": 200,
+  "eligible_frame_counts": {
+    "oct5_query_tps": 2187,
+    "oct5_query_gds": 282
+  },
+  "sample_counts": {
+    "oct5_query_tps": 100,
+    "oct5_query_gds": 100
+  },
+  "text_availability_counts": {
+    "title_and_body": 117,
+    "title_body_comments": 54,
+    "title_only": 28,
+    "title_plus_comments": 1
+  },
+  "design": "100 simple-random posts from each saved API candidate pool, excluding original posts and all 400 Phase 2 reviewed posts; pool identities hidden from reviewers.",
+  "limitation": "Source-stratified candidate sample; cannot estimate prevalence in all Reddit update discussions.",
+  "reservation": "Do not train models or generate assistant label suggestions on these post ids before both blind human reviews are complete and final labels frozen."
+}

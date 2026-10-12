@@ -1,0 +1,334 @@
+{
+  "provenance": "Manu reports two separate first passes; neither reviewer discussed answers or saw the other's completed answers before both files were saved. The file contents cannot independently verify this process. Earlier corpus exposure is possible.",
+  "main_fields": {
+    "about_software": {
+      "n": 200,
+      "exact_agreement": 1.0,
+      "cohen_kappa": 1.0,
+      "reviewer_a_counts": {
+        "yes": 181,
+        "no": 18,
+        "unclear": 1
+      },
+      "reviewer_b_counts": {
+        "yes": 181,
+        "no": 18,
+        "unclear": 1
+      },
+      "confusion": {
+        "no": {
+          "no": 18,
+          "unclear": 0,
+          "yes": 0
+        },
+        "unclear": {
+          "no": 0,
+          "unclear": 1,
+          "yes": 0
+        },
+        "yes": {
+          "no": 0,
+          "unclear": 0,
+          "yes": 181
+        }
+      }
+    },
+    "update_related": {
+      "n": 200,
+      "exact_agreement": 1.0,
+      "cohen_kappa": 1.0,
+      "reviewer_a_counts": {
+        "yes": 138,
+        "no": 62
+      },
+      "reviewer_b_counts": {
+        "yes": 138,
+        "no": 62
+      },
+      "confusion": {
+        "no": {
+          "no": 62,
+          "yes": 0
+        },
+        "yes": {
+          "no": 0,
+          "yes": 138
+        }
+      }
+    },
+    "discussion_type": {
+      "n": 200,
+      "exact_agreement": 1.0,
+      "cohen_kappa": 1.0,
+      "reviewer_a_counts": {
+        "other": 51,
+        "technical_troubleshooting": 118,
+        "na": 19,
+        "general_dissatisfaction": 12
+      },
+      "reviewer_b_counts": {
+        "other": 51,
+        "technical_troubleshooting": 118,
+        "na": 19,
+        "general_dissatisfaction": 12
+      },
+      "confusion": {
+        "general_dissatisfaction": {
+          "general_dissatisfaction": 12,
+          "na": 0,
+          "other": 0,
+          "technical_troubleshooting": 0
+        },
+        "na": {
+          "general_dissatisfaction": 0,
+          "na": 19,
+          "other": 0,
+          "technical_troubleshooting": 0
+        },
+        "other": {
+          "general_dissatisfaction": 0,
+          "na": 0,
+          "other": 51,
+          "technical_troubleshooting": 0
+        },
+        "technical_troubleshooting": {
+          "general_dissatisfaction": 0,
+          "na": 0,
+          "other": 0,
+          "technical_troubleshooting": 118
+        }
+      }
+    },
+    "confidence": {
+      "n": 200,
+      "exact_agreement": 1.0,
+      "cohen_kappa": 1.0,
+      "reviewer_a_counts": {
+        "high": 96,
+        "medium": 78,
+        "low": 26
+      },
+      "reviewer_b_counts": {
+        "high": 96,
+        "medium": 78,
+        "low": 26
+      },
+      "confusion": {
+        "high": {
+          "high": 96,
+          "low": 0,
+          "medium": 0
+        },
+        "low": {
+          "high": 0,
+          "low": 26,
+          "medium": 0
+        },
+        "medium": {
+          "high": 0,
+          "low": 0,
+          "medium": 78
+        }
+      }
+    }
+  },
+  "diagnostic_fields_on_118_both_troubleshooting": {
+    "software_product": {
+      "n": 118,
+      "exact_agreement": 1.0,
+      "cohen_kappa": 1.0,
+      "reviewer_a_counts": {
+        "present": 91,
+        "not_observed": 27
+      },
+      "reviewer_b_counts": {
+        "present": 91,
+        "not_observed": 27
+      },
+      "confusion": {
+        "not_observed": {
+          "not_observed": 27,
+          "present": 0
+        },
+        "present": {
+          "not_observed": 0,
+          "present": 91
+        }
+      }
+    },
+    "identifiable_release": {
+      "n": 118,
+      "exact_agreement": 1.0,
+      "cohen_kappa": 1.0,
+      "reviewer_a_counts": {
+        "not_observed": 75,
+        "present": 43
+      },
+      "reviewer_b_counts": {
+        "not_observed": 75,
+        "present": 43
+      },
+      "confusion": {
+        "not_observed": {
+          "not_observed": 75,
+          "present": 0
+        },
+        "present": {
+          "not_observed": 0,
+          "present": 43
+        }
+      }
+    },
+    "environment": {
+      "n": 118,
+      "exact_agreement": 1.0,
+      "cohen_kappa": 1.0,
+      "reviewer_a_counts": {
+        "not_observed": 51,
+        "present": 67
+      },
+      "reviewer_b_counts": {
+        "not_observed": 51,
+        "present": 67
+      },
+      "confusion": {
+        "not_observed": {
+          "not_observed": 51,
+          "present": 0
+        },
+        "present": {
+          "not_observed": 0,
+          "present": 67
+        }
+      }
+    },
+    "specific_symptom": {
+      "n": 118,
+      "exact_agreement": 1.0,
+      "cohen_kappa": 1.0,
+      "reviewer_a_counts": {
+        "present": 105,
+        "not_observed": 13
+      },
+      "reviewer_b_counts": {
+        "present": 105,
+        "not_observed": 13
+      },
+      "confusion": {
+        "not_observed": {
+          "not_observed": 13,
+          "present": 0
+        },
+        "present": {
+          "not_observed": 0,
+          "present": 105
+        }
+      }
+    },
+    "reproduction_context": {
+      "n": 118,
+      "exact_agreement": 1.0,
+      "cohen_kappa": 1.0,
+      "reviewer_a_counts": {
+        "not_observed": 64,
+        "present": 54
+      },
+      "reviewer_b_counts": {
+        "not_observed": 64,
+        "present": 54
+      },
+      "confusion": {
+        "not_observed": {
+          "not_observed": 64,
+          "present": 0
+        },
+        "present": {
+          "not_observed": 0,
+          "present": 54
+        }
+      }
+    },
+    "error_evidence": {
+      "n": 118,
+      "exact_agreement": 1.0,
+      "cohen_kappa": 1.0,
+      "reviewer_a_counts": {
+        "present": 31,
+        "not_observed": 75,
+        "unclear": 12
+      },
+      "reviewer_b_counts": {
+        "present": 31,
+        "not_observed": 75,
+        "unclear": 12
+      },
+      "confusion": {
+        "not_observed": {
+          "not_observed": 75,
+          "present": 0,
+          "unclear": 0
+        },
+        "present": {
+          "not_observed": 0,
+          "present": 31,
+          "unclear": 0
+        },
+        "unclear": {
+          "not_observed": 0,
+          "present": 0,
+          "unclear": 12
+        }
+      }
+    },
+    "attempted_remedy": {
+      "n": 118,
+      "exact_agreement": 1.0,
+      "cohen_kappa": 1.0,
+      "reviewer_a_counts": {
+        "present": 31,
+        "not_observed": 87
+      },
+      "reviewer_b_counts": {
+        "present": 31,
+        "not_observed": 87
+      },
+      "confusion": {
+        "not_observed": {
+          "not_observed": 87,
+          "present": 0
+        },
+        "present": {
+          "not_observed": 0,
+          "present": 31
+        }
+      }
+    },
+    "help_request": {
+      "n": 118,
+      "exact_agreement": 1.0,
+      "cohen_kappa": 1.0,
+      "reviewer_a_counts": {
+        "present": 76,
+        "not_observed": 42
+      },
+      "reviewer_b_counts": {
+        "present": 76,
+        "not_observed": 42
+      },
+      "confusion": {
+        "not_observed": {
+          "not_observed": 42,
+          "present": 0
+        },
+        "present": {
+          "not_observed": 0,
+          "present": 76
+        }
+      }
+    }
+  },
+  "reason_text_exact_match_n": 0,
+  "rows_with_any_category_or_detail_disagreement": 0,
+  "adjudication_required_n": 0,
+  "note": "Agreement with each other is not correctness. These posts were stratified by prior labels, and both reviewers may have seen some posts earlier. Do not infer Reddit-wide reliability or independent validation of the reserved/fresh test labels."
+}

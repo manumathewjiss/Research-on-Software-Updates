@@ -1,0 +1,34 @@
+{
+  "purpose": "Single-review blind consistency audit; no independent inter-annotator agreement can be estimated",
+  "seed": 20261008,
+  "sampling_method": "Fixed quotas; random sample within each prior-label stratum after sorting by Reddit ID; final order shuffled",
+  "frame": "Reddit-only revised development, prior status manu_assisted_review, excluding 237 diagnostic-reviewed IDs and unclear prior strata",
+  "frame_n": 2485,
+  "frame_stratum_counts": {
+    "troubleshooting": 1216,
+    "other_update": 329,
+    "software_nonupdate": 728,
+    "nonsoftware": 212
+  },
+  "sample_n": 120,
+  "sample_quotas": {
+    "troubleshooting": 50,
+    "other_update": 30,
+    "software_nonupdate": 20,
+    "nonsoftware": 20
+  },
+  "source_counts_audit_only": {
+    "phase1_gold_file": 41,
+    "oct5_query_tps": 74,
+    "oct5_query_gds": 5
+  },
+  "master_sha256": "1c5942868a756f20673651ffd0257d895195ee1e290cf9c32871e84c6150287a",
+  "reddit_development_sha256": "b7d74126a4be50ebdcc06fa68e9537c3150f186c8f1f63125a44f91733f91118",
+  "diagnostic_oof_sha256": "fa3beb6ad9853579fb95a1ebf999b83f0f44f00d4388021b5d9ab78b459ef9e6",
+  "blind_rows_sha256": "0d2503f5699e37bff5757bf5249ad2f47de1fce71864aca387a0ba7bf5032e8f",
+  "mapping_sha256": "879b800b7d5def5c75d004d792c6f58305daefd9c3ed62130746b743c5d976ae",
+  "reserved_200_in_sample": 0,
+  "fresh_500_in_sample": 0,
+  "diagnostic_sample_in_sample": 0,
+  "prior_labels_in_reviewer_rows": false
+}

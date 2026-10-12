@@ -1,0 +1,369 @@
+{
+  "source_sha256": "e7cf73d2cc9ab47d0c8d8a0d1aae80b9dcfba8a7f5e05cdc926d2e8024ede24d",
+  "sample_n": 120,
+  "all_three_fields_match_n": 98,
+  "any_field_disagreement_n": 22,
+  "new_confidence_counts": {
+    "high": 85,
+    "medium": 29,
+    "low": 6
+  },
+  "fields": {
+    "about_software": {
+      "n": 120,
+      "matches": 114,
+      "confusion": [
+        {
+          "previous": "no",
+          "new": "no",
+          "n": 17
+        },
+        {
+          "previous": "no",
+          "new": "unclear",
+          "n": 1
+        },
+        {
+          "previous": "no",
+          "new": "yes",
+          "n": 2
+        },
+        {
+          "previous": "yes",
+          "new": "no",
+          "n": 1
+        },
+        {
+          "previous": "yes",
+          "new": "unclear",
+          "n": 2
+        },
+        {
+          "previous": "yes",
+          "new": "yes",
+          "n": 97
+        }
+      ]
+    },
+    "update_related": {
+      "n": 120,
+      "matches": 107,
+      "confusion": [
+        {
+          "previous": "no",
+          "new": "no",
+          "n": 27
+        },
+        {
+          "previous": "no",
+          "new": "unclear",
+          "n": 1
+        },
+        {
+          "previous": "no",
+          "new": "yes",
+          "n": 12
+        },
+        {
+          "previous": "yes",
+          "new": "yes",
+          "n": 80
+        }
+      ]
+    },
+    "discussion_type": {
+      "n": 120,
+      "matches": 110,
+      "confusion": [
+        {
+          "previous": "general_dissatisfaction",
+          "new": "general_dissatisfaction",
+          "n": 2
+        },
+        {
+          "previous": "general_dissatisfaction",
+          "new": "technical_troubleshooting",
+          "n": 2
+        },
+        {
+          "previous": "na",
+          "new": "general_dissatisfaction",
+          "n": 1
+        },
+        {
+          "previous": "na",
+          "new": "na",
+          "n": 18
+        },
+        {
+          "previous": "na",
+          "new": "other",
+          "n": 1
+        },
+        {
+          "previous": "other",
+          "new": "na",
+          "n": 2
+        },
+        {
+          "previous": "other",
+          "new": "other",
+          "n": 30
+        },
+        {
+          "previous": "other",
+          "new": "technical_troubleshooting",
+          "n": 2
+        },
+        {
+          "previous": "technical_troubleshooting",
+          "new": "general_dissatisfaction",
+          "n": 1
+        },
+        {
+          "previous": "technical_troubleshooting",
+          "new": "na",
+          "n": 1
+        },
+        {
+          "previous": "technical_troubleshooting",
+          "new": "technical_troubleshooting",
+          "n": 60
+        }
+      ]
+    }
+  },
+  "by_prior_stratum": {
+    "other_update": {
+      "about_software": {
+        "n": 30,
+        "matches": 29,
+        "confusion": [
+          {
+            "previous": "yes",
+            "new": "unclear",
+            "n": 1
+          },
+          {
+            "previous": "yes",
+            "new": "yes",
+            "n": 29
+          }
+        ]
+      },
+      "update_related": {
+        "n": 30,
+        "matches": 30,
+        "confusion": [
+          {
+            "previous": "yes",
+            "new": "yes",
+            "n": 30
+          }
+        ]
+      },
+      "discussion_type": {
+        "n": 30,
+        "matches": 26,
+        "confusion": [
+          {
+            "previous": "general_dissatisfaction",
+            "new": "technical_troubleshooting",
+            "n": 2
+          },
+          {
+            "previous": "other",
+            "new": "na",
+            "n": 1
+          },
+          {
+            "previous": "other",
+            "new": "other",
+            "n": 26
+          },
+          {
+            "previous": "other",
+            "new": "technical_troubleshooting",
+            "n": 1
+          }
+        ]
+      }
+    },
+    "troubleshooting": {
+      "about_software": {
+        "n": 50,
+        "matches": 50,
+        "confusion": [
+          {
+            "previous": "yes",
+            "new": "yes",
+            "n": 50
+          }
+        ]
+      },
+      "update_related": {
+        "n": 50,
+        "matches": 50,
+        "confusion": [
+          {
+            "previous": "yes",
+            "new": "yes",
+            "n": 50
+          }
+        ]
+      },
+      "discussion_type": {
+        "n": 50,
+        "matches": 49,
+        "confusion": [
+          {
+            "previous": "technical_troubleshooting",
+            "new": "general_dissatisfaction",
+            "n": 1
+          },
+          {
+            "previous": "technical_troubleshooting",
+            "new": "technical_troubleshooting",
+            "n": 49
+          }
+        ]
+      }
+    },
+    "nonsoftware": {
+      "about_software": {
+        "n": 20,
+        "matches": 17,
+        "confusion": [
+          {
+            "previous": "no",
+            "new": "no",
+            "n": 17
+          },
+          {
+            "previous": "no",
+            "new": "unclear",
+            "n": 1
+          },
+          {
+            "previous": "no",
+            "new": "yes",
+            "n": 2
+          }
+        ]
+      },
+      "update_related": {
+        "n": 20,
+        "matches": 19,
+        "confusion": [
+          {
+            "previous": "no",
+            "new": "no",
+            "n": 19
+          },
+          {
+            "previous": "no",
+            "new": "unclear",
+            "n": 1
+          }
+        ]
+      },
+      "discussion_type": {
+        "n": 20,
+        "matches": 18,
+        "confusion": [
+          {
+            "previous": "na",
+            "new": "general_dissatisfaction",
+            "n": 1
+          },
+          {
+            "previous": "na",
+            "new": "na",
+            "n": 18
+          },
+          {
+            "previous": "na",
+            "new": "other",
+            "n": 1
+          }
+        ]
+      }
+    },
+    "software_nonupdate": {
+      "about_software": {
+        "n": 20,
+        "matches": 18,
+        "confusion": [
+          {
+            "previous": "yes",
+            "new": "no",
+            "n": 1
+          },
+          {
+            "previous": "yes",
+            "new": "unclear",
+            "n": 1
+          },
+          {
+            "previous": "yes",
+            "new": "yes",
+            "n": 18
+          }
+        ]
+      },
+      "update_related": {
+        "n": 20,
+        "matches": 8,
+        "confusion": [
+          {
+            "previous": "no",
+            "new": "no",
+            "n": 8
+          },
+          {
+            "previous": "no",
+            "new": "yes",
+            "n": 12
+          }
+        ]
+      },
+      "discussion_type": {
+        "n": 20,
+        "matches": 17,
+        "confusion": [
+          {
+            "previous": "general_dissatisfaction",
+            "new": "general_dissatisfaction",
+            "n": 2
+          },
+          {
+            "previous": "other",
+            "new": "na",
+            "n": 1
+          },
+          {
+            "previous": "other",
+            "new": "other",
+            "n": 4
+          },
+          {
+            "previous": "other",
+            "new": "technical_troubleshooting",
+            "n": 1
+          },
+          {
+            "previous": "technical_troubleshooting",
+            "new": "na",
+            "n": 1
+          },
+          {
+            "previous": "technical_troubleshooting",
+            "new": "technical_troubleshooting",
+            "n": 11
+          }
+        ]
+      }
+    }
+  },
+  "provenance_note": "One new blind review versus prior mixed-provenance recorded decisions. Not independent inter-annotator agreement or a natural-prevalence estimate."
+}

@@ -1,0 +1,1156 @@
+reddit_id,study_id,source_record,subreddit,created_utc,url,title,original_body,removable_passage,passage_start,passage_end,shortened_body,evidence_type,why_it_might_influence_triage,product_symptom_update_remaining,concern,provisional_decision,reason,screening_status
+1s7i2ub,C2-0B95AD73C372,phase3/icsc_full_paper/reliability_packet/submissions/2026-10-07-independent/development_after_independent_review.jsonl,openclaw,2026-03-30T05:42:22,https://reddit.com/r/openclaw/comments/1s7i2ub/a_single_update_caused_my_project_to_crash/,A single update caused my project to crash.,"Version 3.24 was working fine, but after upgrading to 3.28  /v1/models API endpoint gives me an error... {'ok': False, 'error': {'type': 'forbidden', 'message': 'missing scope: operator.write'}}. I've gone back-and-forth between versions 1 million times...[\#buildinpublic](https://x.com/hashtag/buildinpublic?src=hashtag_click)","Version 3.24 was working fine, but after upgrading to 3.28  /v1/models API endpoint gives me an error...",0,104," {'ok': False, 'error': {'type': 'forbidden', 'message': 'missing scope: operator.write'}}. I've gone back-and-forth between versions 1 million times...[\#buildinpublic](https://x.com/hashtag/buildinpublic?src=hashtag_click)",version_contrast,The passage gives a concrete comparison a first responder could use to decide whether to focus on the update.,"Title plus shortened body still contain a product cue, a symptom cue, and at least one update mention.",,plausible,Author passage is a version contrast and is not the only update connection.,cursor_suggestion_not_human_reviewed
+1sanbzd,C2-0D67711C00C7,phase3/icsc_full_paper/reliability_packet/submissions/2026-10-07-independent/development_after_independent_review.jsonl,sysadmin,2026-04-02T17:09:41,https://reddit.com/r/sysadmin/comments/1sanbzd/windows_rds_server_2019_windows_button_windows/,Windows RDS Server 2019 - Windows button\ Windows Search\ Outlook stop working,"Windows Server 2019 configured as RDS   
+Version 1809 - OS Build 17763.8389  
+Run on a Scale Computing Node   
+6 CPUS 24 GB Ram   
+  
+Persistent issue with the Windows Icon\\Start bar not working. Can right click it and get the menu, but when left clicking it, it doesn't open. Windows Search doesn't work Outlook doesn't work.   
+  
+\-Have tried running DISM online, sometimes this fixes it, sometimes it doesnt.   
+\-SFC Scan Now, sometimes fixes, sometimes doesn't   
+\-Have run DISM from an Iso with a full windows install (This didn't work at all)   
+\-Have run install windows and keep files\\folders (This didn't work at all)   
+\-Have reset firewall rules (This works sometimes and sometimes doesnt)   
+\-Have tried to load App X packages, this usually just has a string of errors (worked once, not most times.)   
+\- Using User Profile Disks, BUT when I create a brand new local user on the machine, immediately has the same issue  
+\- Tried rolling back to previous windows update versions (this worked once but not again)
+
+  
+Originally Suspected Windows updates caused this issue, we suspended updates, it keeps happening. The most consistent fix has been to clone an older backup of the server and bring it online, this works for 1-10 days then the issue comes back, even when no updates are occurring. This has been going on for a few months now. Its a huge pain and I'm not sure what to try anymore.    
+  
+Is there a likely culprit somewhere that we can look at for why this happens? Could it be a memory or page file issue? Please Do not suggest the solutions above because I've tried them many times and they are not a permanent fix.","\- Tried rolling back to previous windows update versions (this worked once but not again)
+
+",942,1034,"Windows Server 2019 configured as RDS   
+Version 1809 - OS Build 17763.8389  
+Run on a Scale Computing Node   
+6 CPUS 24 GB Ram   
+  
+Persistent issue with the Windows Icon\\Start bar not working. Can right click it and get the menu, but when left clicking it, it doesn't open. Windows Search doesn't work Outlook doesn't work.   
+  
+\-Have tried running DISM online, sometimes this fixes it, sometimes it doesnt.   
+\-SFC Scan Now, sometimes fixes, sometimes doesn't   
+\-Have run DISM from an Iso with a full windows install (This didn't work at all)   
+\-Have run install windows and keep files\\folders (This didn't work at all)   
+\-Have reset firewall rules (This works sometimes and sometimes doesnt)   
+\-Have tried to load App X packages, this usually just has a string of errors (worked once, not most times.)   
+\- Using User Profile Disks, BUT when I create a brand new local user on the machine, immediately has the same issue  
+  
+Originally Suspected Windows updates caused this issue, we suspended updates, it keeps happening. The most consistent fix has been to clone an older backup of the server and bring it online, this works for 1-10 days then the issue comes back, even when no updates are occurring. This has been going on for a few months now. Its a huge pain and I'm not sure what to try anymore.    
+  
+Is there a likely culprit somewhere that we can look at for why this happens? Could it be a memory or page file issue? Please Do not suggest the solutions above because I've tried them many times and they are not a permanent fix.",rollback_outcome,The passage gives a concrete comparison a first responder could use to decide whether to focus on the update.,"Title plus shortened body still contain a product cue, a symptom cue, and at least one update mention.",,plausible,Author passage is a rollback outcome and is not the only update connection.,cursor_suggestion_not_human_reviewed
+1uv6zpi,C2-0F04DF93DD9D,phase3/icsc_full_paper/reliability_packet/submissions/2026-10-07-independent/development_after_independent_review.jsonl,debian,2026-07-13T09:48:49,https://reddit.com/r/debian/comments/1uv6zpi/is_it_only_mine_or/,Is it only mine or,"Everybody's PC are freezing randomly after the latest 13.6 update.
+
+
+
+After i updated my Debian 13.5 to 13.6, my pc started to randomly freeze (even when opening vim only)​ and stops at imitramfs.","After i updated my Debian 13.5 to 13.6, my pc started to randomly freeze (even when opening vim only)​ and stops at imitramfs.",70,196,"Everybody's PC are freezing randomly after the latest 13.6 update.
+
+
+
+",version_contrast,,shortened title+body no longer states a concrete issue,meaning_or_coverage,reject,shortened title+body no longer states a concrete issue,cursor_suggestion_not_human_reviewed
+1t060hy,C2-1E01121BAC5E,phase3/icsc_full_paper/reliability_packet/submissions/2026-10-07-independent/development_after_independent_review.jsonl,Ubuntu,2026-04-30T19:16:16,https://reddit.com/r/Ubuntu/comments/1t060hy/network_help_on_recenlty_updated_2404_lts/,network help on recenlty updated 24.04 LTS,"\--update with fix--
+
+for anyone that may be experiencing network issue the resolution came by using the below netplan and for some reason on v24 you have to reboot entire system for some of the changes to take effect, a la old Windows style... thanks to the couple of folks supporting via DM 
+
+enp3s0: # primary  
+dhcp4: no  
+addresses:  
+\- [192.168.1.135/24](http://192.168.1.135/24)  
+routes:  
+\- to: default  
+via: [192.168.1.1](http://192.168.1.1)  
+metric: 100  
+nameservers:  
+addresses: \[192.168.1.135, 1.1.1.1\]  
+mtu: 1500  
+optional: true  
+  
+enp2s0:  
+dhcp4: no  
+addresses:  
+\- [192.168.1.136/32](http://192.168.1.136/32)  
+link-local: \[\]   
+optional: true
+
+  
+\--original post--
+
+wondering if anyone can throw an advice or deeper knowledge on a network issue im facing since my server got updated to 24.04 last week from 22.04, in short i have two NICs, a backup 1gb enp2s0 in the mobo that allows it to receive the WoL signal from the NAS if a power outage drained the UPS battery, the second enp3s0 NIC is the 10gb that is for network traffic, the update crashed my network, i tried debugging with chatgpt which may very much likely introduced additional issues summarized version of the issues and fix attempts from the chat below the netplans
+
+Previously working netplan on v22
+
+enp3s0:
+
+dhcp4: true
+
+dhcp6: false
+
+mtu: 9000
+
+dhcp4-overrides:
+
+route-metric: 100
+
+optional: true
+
+lan0:
+
+dhcp4: true
+
+dhcp6: false
+
+mtu: 1500
+
+dhcp4-overrides:
+
+route-metric: 300
+
+optional: true
+
+last attempt netplan config:  
+ethernets:
+
+enp3s0:
+
+dhcp4: no
+
+addresses:
+
+\- [192.168.1.135/24](http://192.168.1.135/24)
+
+gateway4: [192.168.1.1](http://192.168.1.1)
+
+mtu: 1500
+
+optional: true
+
+enp2s0:
+
+dhcp4: no
+
+addresses:
+
+\- [192.168.1.136/24](http://192.168.1.136/24)
+
+optional: true  
+\--skip if not interested in the summary--
+
+* Ubuntu Server (recent LTS, likely 24.04)
+* Netplan + systemd-networkd
+* Dual NIC setup:
+   * enp3s0 → 10G (primary)
+   * enp2s0 → 1G (fallback)
+* Same subnet:
+   * [192.168.1.135](http://192.168.1.135) (10G)
+   * [192.168.1.136](http://192.168.1.136) (1G)
+* Gateway: [192.168.1.1](http://192.168.1.1)
+
+**CURRENT STATE**
+
+**IP addresses assigned correctly:**
+
+ip addr
+
+* enp3s0 → [192.168.1.135/24](http://192.168.1.135/24)
+* enp2s0 → [192.168.1.136/24](http://192.168.1.136/24)
+
+**Routing table:**
+
+ip route
+
+Output:
+
+[192.168.1.0/24](http://192.168.1.0/24) dev enp3s0 scope link  
+[192.168.1.0/24](http://192.168.1.0/24) dev enp2s0 scope link
+
+**NO default route exists, failed to add manually or via netplan**
+
+**Connectivity behavior**
+
+ping [192.168.1.1](http://192.168.1.1)  
+→ Network is unreachable
+
+**ARP works:**
+
+ip neigh show dev enp3s0
+
+[192.168.1.1](http://192.168.1.1) lladdr XX:XX:XX:XX:XX:XX REACHABLE  
+**systemd-networkd status (blurry as no network to screenshot) pic attached**
+
+networkctl status enp3s0
+
+Key output:
+
+State: routable (failed)  
+Could not set route: Nexthop has invalid gateway. Network is unreachable
+
+**Netplan behavior**
+
+sudo netplan generate  
+sudo netplan apply
+
+* Very slow execution
+* Warning:
+
+gateway4 has been deprecated
+
+* Still fails to apply default route either as default via [192.168.1.1](http://192.168.1.1) or as gateway4
+
+**COMMANDS EXECUTED (multiple attempts)**
+
+**Interface reset**
+
+ip addr flush dev enp3s0  
+ip link set enp3s0 down/up  
+ip addr add [192.168.1.135/24](http://192.168.1.135/24) dev enp3s0
+
+**Route attempts**
+
+ip route add default via [192.168.1.1](http://192.168.1.1) dev enp3s0  
+→ Nexthop has invalid gateway
+
+ip route add default via [192.168.1.1](http://192.168.1.1) dev enp3s0 onlink  
+→ accepted, but no connectivity
+
+**Subnet route attempts**
+
+ip route add [192.168.1.0/24](http://192.168.1.0/24) dev enp3s0 scope link  
+→ sometimes “File exists”
+
+**Full routing reset**
+
+ip route flush table main  
+ip addr flush dev enp3s0
+
+**NIC isolation test**
+
+ip link set enp2s0 down with no luck to get the 3s0 to work
+
+**ARP verification**
+
+ip neigh show dev enp3s0  
+→ gateway reachable
+
+**ADDITIONAL OBSERVATIONS**
+
+* networkd fails specifically when applying gateway
+* ARP resolution works → NOT physical/network issue
+* Both NICs in same subnet (possible routing ambiguity)
+* After route flush → system unable to recover default route
+* Manual routing also fails to restore connectivity
+* Netplan apply is unusually slow
+
+**KEY SYMPTOMS**
+
+1. ❌ Cannot add default route (invalid gateway)
+2. ❌ “Network is unreachable” even with valid IP
+3. ❌ systemd-networkd reports interface as **routable (failed)**
+4. ✅ ARP to gateway works
+5. ❌ Neither external/internal connectivity (ping [1.1.1.1](http://1.1.1.1) fails just the same as pinging the gateway 192.168.1.1)
+6. ❌ SSH unreachable
+7. ❌ cloudflared tunnel fails
+
+**WHAT WAS WORKING BEFORE**
+
+* Same hardware
+* Same subnet config
+* Same dual NIC design
+* Static routing worked for several months","wondering if anyone can throw an advice or deeper knowledge on a network issue im facing since my server got updated to 24.04 last week from 22.04, in short i have two NICs, a backup 1gb enp2s0 in the mobo that allows it to receive the WoL signal from the NAS if a power outage drained the UPS battery, the second enp3s0 NIC is the 10gb that is for network traffic, the update crashed my network, i tried debugging with chatgpt which may very much likely introduced additional issues summarized version of the issues and fix attempts from the chat below the netplans
+
+",701,1269,"\--update with fix--
+
+for anyone that may be experiencing network issue the resolution came by using the below netplan and for some reason on v24 you have to reboot entire system for some of the changes to take effect, a la old Windows style... thanks to the couple of folks supporting via DM 
+
+enp3s0: # primary  
+dhcp4: no  
+addresses:  
+\- [192.168.1.135/24](http://192.168.1.135/24)  
+routes:  
+\- to: default  
+via: [192.168.1.1](http://192.168.1.1)  
+metric: 100  
+nameservers:  
+addresses: \[192.168.1.135, 1.1.1.1\]  
+mtu: 1500  
+optional: true  
+  
+enp2s0:  
+dhcp4: no  
+addresses:  
+\- [192.168.1.136/32](http://192.168.1.136/32)  
+link-local: \[\]   
+optional: true
+
+  
+\--original post--
+
+Previously working netplan on v22
+
+enp3s0:
+
+dhcp4: true
+
+dhcp6: false
+
+mtu: 9000
+
+dhcp4-overrides:
+
+route-metric: 100
+
+optional: true
+
+lan0:
+
+dhcp4: true
+
+dhcp6: false
+
+mtu: 1500
+
+dhcp4-overrides:
+
+route-metric: 300
+
+optional: true
+
+last attempt netplan config:  
+ethernets:
+
+enp3s0:
+
+dhcp4: no
+
+addresses:
+
+\- [192.168.1.135/24](http://192.168.1.135/24)
+
+gateway4: [192.168.1.1](http://192.168.1.1)
+
+mtu: 1500
+
+optional: true
+
+enp2s0:
+
+dhcp4: no
+
+addresses:
+
+\- [192.168.1.136/24](http://192.168.1.136/24)
+
+optional: true  
+\--skip if not interested in the summary--
+
+* Ubuntu Server (recent LTS, likely 24.04)
+* Netplan + systemd-networkd
+* Dual NIC setup:
+   * enp3s0 → 10G (primary)
+   * enp2s0 → 1G (fallback)
+* Same subnet:
+   * [192.168.1.135](http://192.168.1.135) (10G)
+   * [192.168.1.136](http://192.168.1.136) (1G)
+* Gateway: [192.168.1.1](http://192.168.1.1)
+
+**CURRENT STATE**
+
+**IP addresses assigned correctly:**
+
+ip addr
+
+* enp3s0 → [192.168.1.135/24](http://192.168.1.135/24)
+* enp2s0 → [192.168.1.136/24](http://192.168.1.136/24)
+
+**Routing table:**
+
+ip route
+
+Output:
+
+[192.168.1.0/24](http://192.168.1.0/24) dev enp3s0 scope link  
+[192.168.1.0/24](http://192.168.1.0/24) dev enp2s0 scope link
+
+**NO default route exists, failed to add manually or via netplan**
+
+**Connectivity behavior**
+
+ping [192.168.1.1](http://192.168.1.1)  
+→ Network is unreachable
+
+**ARP works:**
+
+ip neigh show dev enp3s0
+
+[192.168.1.1](http://192.168.1.1) lladdr XX:XX:XX:XX:XX:XX REACHABLE  
+**systemd-networkd status (blurry as no network to screenshot) pic attached**
+
+networkctl status enp3s0
+
+Key output:
+
+State: routable (failed)  
+Could not set route: Nexthop has invalid gateway. Network is unreachable
+
+**Netplan behavior**
+
+sudo netplan generate  
+sudo netplan apply
+
+* Very slow execution
+* Warning:
+
+gateway4 has been deprecated
+
+* Still fails to apply default route either as default via [192.168.1.1](http://192.168.1.1) or as gateway4
+
+**COMMANDS EXECUTED (multiple attempts)**
+
+**Interface reset**
+
+ip addr flush dev enp3s0  
+ip link set enp3s0 down/up  
+ip addr add [192.168.1.135/24](http://192.168.1.135/24) dev enp3s0
+
+**Route attempts**
+
+ip route add default via [192.168.1.1](http://192.168.1.1) dev enp3s0  
+→ Nexthop has invalid gateway
+
+ip route add default via [192.168.1.1](http://192.168.1.1) dev enp3s0 onlink  
+→ accepted, but no connectivity
+
+**Subnet route attempts**
+
+ip route add [192.168.1.0/24](http://192.168.1.0/24) dev enp3s0 scope link  
+→ sometimes “File exists”
+
+**Full routing reset**
+
+ip route flush table main  
+ip addr flush dev enp3s0
+
+**NIC isolation test**
+
+ip link set enp2s0 down with no luck to get the 3s0 to work
+
+**ARP verification**
+
+ip neigh show dev enp3s0  
+→ gateway reachable
+
+**ADDITIONAL OBSERVATIONS**
+
+* networkd fails specifically when applying gateway
+* ARP resolution works → NOT physical/network issue
+* Both NICs in same subnet (possible routing ambiguity)
+* After route flush → system unable to recover default route
+* Manual routing also fails to restore connectivity
+* Netplan apply is unusually slow
+
+**KEY SYMPTOMS**
+
+1. ❌ Cannot add default route (invalid gateway)
+2. ❌ “Network is unreachable” even with valid IP
+3. ❌ systemd-networkd reports interface as **routable (failed)**
+4. ✅ ARP to gateway works
+5. ❌ Neither external/internal connectivity (ping [1.1.1.1](http://1.1.1.1) fails just the same as pinging the gateway 192.168.1.1)
+6. ❌ SSH unreachable
+7. ❌ cloudflared tunnel fails
+
+**WHAT WAS WORKING BEFORE**
+
+* Same hardware
+* Same subnet config
+* Same dual NIC design
+* Static routing worked for several months",version_contrast,The passage gives a concrete comparison a first responder could use to decide whether to focus on the update.,"Title plus shortened body still contain a product cue, a symptom cue, and at least one update mention.",,plausible,Author passage is a version contrast and is not the only update connection.,cursor_suggestion_not_human_reviewed
+1om0um1,C2-259385B00DE6,phase3/icsc_full_paper/reliability_packet/submissions/2026-10-07-independent/development_after_independent_review.jsonl,immich,2025-11-01T22:22:49,https://reddit.com/r/immich/comments/1om0um1/upload_issues_after_upgrading_app_to_221/,Upload issues after upgrading app to 2.2.1,"After upgrading to 2.2.1 (from 2.1) both mine and my SO's clients have stopped working. (android 16 and newest immich version) 
+
+The server log shows no issues but the clients throw these two errors:
+Error: updateMemoryAssetsV1
+Error in runInIsolateGentle  for remote-sync
+
+Pastebin added for details. 
+
+This is BTW the first time I've had issues with immich and I've been using it for a long time by now. What a product!",After upgrading to 2.2.1 (from 2.1) both mine and my SO's clients have stopped working.,0,87," (android 16 and newest immich version) 
+
+The server log shows no issues but the clients throw these two errors:
+Error: updateMemoryAssetsV1
+Error in runInIsolateGentle  for remote-sync
+
+Pastebin added for details. 
+
+This is BTW the first time I've had issues with immich and I've been using it for a long time by now. What a product!",version_contrast,The passage gives a concrete comparison a first responder could use to decide whether to focus on the update.,"Title plus shortened body still contain a product cue, a symptom cue, and at least one update mention.",,plausible,Author passage is a version contrast and is not the only update connection.,cursor_suggestion_not_human_reviewed
+1szbb3p,C2-288757EB1A3C,phase3/icsc_full_paper/reliability_packet/submissions/2026-10-07-independent/development_after_independent_review.jsonl,raspberry_pi,2026-04-29T20:53:03,https://reddit.com/r/raspberry_pi/comments/1szbb3p/io_errors_and_crashes_with_ubuntu_24044_lts/,I/O Errors and crashes with Ubuntu 24.04.4 LTS (GNU/Linux 6.8.0-1052-raspi aarch64) on Raspberry 5 (16GB),"I'm experiencing I/O errors and constant crashing on a RaspberryPi 5 running Ubuntu 24.04.4 after Kernel update 6.8.0-1051. First tought of course was the sdCard: but I've replaced it, power was also upgraded to 45W and even a second RaspberryPi 5 started to have issues after this update.
+
+  
+I'm also running a RaspberryPi 4 with the same config and same Kernel: there everything is OK.
+
+Anyone experiencing the same problems? Anything I could do to adress this?",I'm experiencing I/O errors and constant crashing on a RaspberryPi 5 running Ubuntu 24.04.4 after Kernel update 6.8.0-1051.,0,123," First tought of course was the sdCard: but I've replaced it, power was also upgraded to 45W and even a second RaspberryPi 5 started to have issues after this update.
+
+  
+I'm also running a RaspberryPi 4 with the same config and same Kernel: there everything is OK.
+
+Anyone experiencing the same problems? Anything I could do to adress this?",version_contrast,The passage gives a concrete comparison a first responder could use to decide whether to focus on the update.,"Title plus shortened body still contain a product cue, a symptom cue, and at least one update mention.",,plausible,Author passage is a version contrast and is not the only update connection.,cursor_suggestion_not_human_reviewed
+1wvu3fj,C2-3B6945440B2B,phase3/icsc_full_paper/reliability_packet/submissions/2026-10-07-independent/development_after_independent_review.jsonl,PFSENSE,2026-10-02T13:39:44,https://reddit.com/r/PFSENSE/comments/1wvu3fj/290_ce_fatal_trap_12_page_fault_while_in_kernel/,[2.9.0 CE] Fatal Trap 12: Page fault while in kernel mode,"After upgrading from version 2.8.1 to 2.9.0, the system failed to come back online. As it turned out, it crashed with the error: 'Fatal Trap 12: Page fault while in kernel mode'.
+
+This is one of those YanLing J4125-type boxes. I initially suspected bad memory, so I ran memtest86 for an extended period, no errors appeared after multiple passes.
+
+The only thing that worked was reverting to version 2.8.1, which has been running without issues since then. That leads me to believe the underlying FreeBSD upgrade might be the culprit. Maybe it somehow doesn't play nicely with this particular machine?
+
+Has anyone else noticed this?","After upgrading from version 2.8.1 to 2.9.0, the system failed to come back online.",0,83," As it turned out, it crashed with the error: 'Fatal Trap 12: Page fault while in kernel mode'.
+
+This is one of those YanLing J4125-type boxes. I initially suspected bad memory, so I ran memtest86 for an extended period, no errors appeared after multiple passes.
+
+The only thing that worked was reverting to version 2.8.1, which has been running without issues since then. That leads me to believe the underlying FreeBSD upgrade might be the culprit. Maybe it somehow doesn't play nicely with this particular machine?
+
+Has anyone else noticed this?",version_contrast,The passage gives a concrete comparison a first responder could use to decide whether to focus on the update.,"Title plus shortened body still contain a product cue, a symptom cue, and at least one update mention.",,plausible,Author passage is a version contrast and is not the only update connection.,cursor_suggestion_not_human_reviewed
+1uxxn6u,C2-3D797CD079A6,phase3/icsc_full_paper/reliability_packet/submissions/2026-10-07-independent/development_after_independent_review.jsonl,opnsense,2026-07-16T09:14:15,https://reddit.com/r/opnsense/comments/1uxxn6u/ipsec_ospf_opnsense_267/,IPSEC OSPF opnsense 26.7,"Hi!
+
+  
+I upgraded to 26.7 and now OSPF in IPSEC dosent work for me.
+
+  
+I have an IPSEC VTI tunnel to a cisco router, the cisco router initiates the connection and the tunnel itself works. Since the update, OSPF just stops working some minutes and then comes back to life.
+
+  
+I see this in the OSPF logs - \*\*\* sendmsg in ospf\_write failed to [224.0.0.5](http://224.0.0.5), id 0, off 0, len 120, interface ipsec10, mtu 1400: Network is unreachable
+
+  
+The network type is Point-to-multipoint and eveything worked before the upgrade, any clues?","The network type is Point-to-multipoint and eveything worked before the upgrade, any clues?",457,548,"Hi!
+
+  
+I upgraded to 26.7 and now OSPF in IPSEC dosent work for me.
+
+  
+I have an IPSEC VTI tunnel to a cisco router, the cisco router initiates the connection and the tunnel itself works. Since the update, OSPF just stops working some minutes and then comes back to life.
+
+  
+I see this in the OSPF logs - \*\*\* sendmsg in ospf\_write failed to [224.0.0.5](http://224.0.0.5), id 0, off 0, len 120, interface ipsec10, mtu 1400: Network is unreachable
+
+  
+",before_after,The passage gives a concrete comparison a first responder could use to decide whether to focus on the update.,"Title plus shortened body still contain a product cue, a symptom cue, and at least one update mention.",,plausible,Author passage is a before after and is not the only update connection.,cursor_suggestion_not_human_reviewed
+1ruxom2,C2-3DA2CFB88F2F,phase3/icsc_full_paper/reliability_packet/submissions/2026-10-07-independent/development_after_independent_review.jsonl,sysadmin,2026-03-16T02:42:33,https://reddit.com/r/sysadmin/comments/1ruxom2/stop_dell_desktop_from_installing_bios_update/,Stop Dell Desktop From Installing BIos Update,"I have a dell optiplex Micro 3090 that I am trying to prevent the bios from updating to 2.28 as the 2.28 keeps breaking the second display port from working on this machine (it has dual display ports, only one works after this update). If I downgrade to 2.27, both display ports works but it will automatically have the 2.28 bios update pending restart so as soon as it reboots, it reinstalls the firmware.
+
+I uninstalled the Dell supportasssist and disable the driver quality in windows update thru regedit but still no luck. Also tried disabling window update service as well but didn't do anything either.
+
+I am doing this remotely as I can't be in the person office to mess with the bios itself to try and turn off perhaps the UEFI capsule which I see mention in other posts about this.
+
+Anyone have any ideas why or what the hell is causing the bios update from reinstalling itself automatically?"," If I downgrade to 2.27, both display ports works but it will automatically have the 2.28 bios update pending restart so as soon as it reboots, it reinstalls the firmware.",235,406,"I have a dell optiplex Micro 3090 that I am trying to prevent the bios from updating to 2.28 as the 2.28 keeps breaking the second display port from working on this machine (it has dual display ports, only one works after this update).
+
+I uninstalled the Dell supportasssist and disable the driver quality in windows update thru regedit but still no luck. Also tried disabling window update service as well but didn't do anything either.
+
+I am doing this remotely as I can't be in the person office to mess with the bios itself to try and turn off perhaps the UEFI capsule which I see mention in other posts about this.
+
+Anyone have any ideas why or what the hell is causing the bios update from reinstalling itself automatically?",version_contrast,The passage gives a concrete comparison a first responder could use to decide whether to focus on the update.,"Title plus shortened body still contain a product cue, a symptom cue, and at least one update mention.",,plausible,Author passage is a version contrast and is not the only update connection.,cursor_suggestion_not_human_reviewed
+1tl3rm8,C2-4B089BBD3105,phase3/icsc_full_paper/reliability_packet/submissions/2026-10-07-independent/development_after_independent_review.jsonl,Ubuntu,2026-05-23T02:34:55,https://reddit.com/r/Ubuntu/comments/1tl3rm8/what_the_heck_did_2604_do_to_my_pc/,What the heck did 26.04 do to my PC?!,"Ever since I updated from 25.10 to 26.04 I've been experiencing a series of issues. 
+
+At first it was just a bit of micro-stutter, no big deal, I can live with that. Next my Wireless Card is no longer detected, whatever, I'll just use a USB Adapter. But now my PC is taking upwards of 2 minutes to boot, and when I try to play games on it, they run like they're underwater with tons of slowdown. 
+
+Worst of all, even after reverting back to 25.10, the performance issues persist. Wi-Fi is working again, but the PC still takes upwards of 2 minutes to boot up Ubuntu, games still run poorly, and now Snaps has disappeared from my toolbar and I can't get it to open at all. 
+
+I haven't a clue what's going on here, but I would really like to fix it. Problem is, I haven't a clue how to do that, because whatever 26.04 did to my PC has persisted even after reverting back to 25.10. 
+
+Now it's looking like I'm going to have to do a clean reinstallation of 25.10 just to get it running smoothly again, because rolling back to an earlier version doesn't work."," Problem is, I haven't a clue how to do that, because whatever 26.04 did to my PC has persisted even after reverting back to 25.10.",747,878,"Ever since I updated from 25.10 to 26.04 I've been experiencing a series of issues. 
+
+At first it was just a bit of micro-stutter, no big deal, I can live with that. Next my Wireless Card is no longer detected, whatever, I'll just use a USB Adapter. But now my PC is taking upwards of 2 minutes to boot, and when I try to play games on it, they run like they're underwater with tons of slowdown. 
+
+Worst of all, even after reverting back to 25.10, the performance issues persist. Wi-Fi is working again, but the PC still takes upwards of 2 minutes to boot up Ubuntu, games still run poorly, and now Snaps has disappeared from my toolbar and I can't get it to open at all. 
+
+I haven't a clue what's going on here, but I would really like to fix it. 
+
+Now it's looking like I'm going to have to do a clean reinstallation of 25.10 just to get it running smoothly again, because rolling back to an earlier version doesn't work.",version_contrast,The passage gives a concrete comparison a first responder could use to decide whether to focus on the update.,"Title plus shortened body still contain a product cue, a symptom cue, and at least one update mention.",,plausible,Author passage is a version contrast and is not the only update connection.,cursor_suggestion_not_human_reviewed
+1ud2s3n,C2-4B17506745C7,phase3/icsc_full_paper/reliability_packet/submissions/2026-10-07-independent/development_after_independent_review.jsonl,Fedora,2026-06-23T01:03:28,https://reddit.com/r/Fedora/comments/1ud2s3n/weird_bug_in_firefox_anyone/,Weird bug in FireFox anyone?,"Hey guys!
+
+I am having a weird “G-mail” issue, when I am on Fedora / KDE with Firefox I can’t type in !’s or “”’s or anything into the HTML text editor. Or the Plaintext editor..  I want to see if you guys have the same thing? Latest updates. I had a desktop that WAS working, just for fun we updated it, now its broken just like my laptop. Other special keys like @#$%\^&amp;\*() {\[ \]}’ :/?&gt;&lt;., all seem to work too, just ! and “ are filtered out and don’t come over in the keyboard into the editor. Thinking about filing a bug report but seems to be limited to G-mail on Firefox, but also different version of fire fox with the latest update. Haven't re-created it yet with other sites....
+
+I have tried.
+
+1. Resetting Firefox.
+2. Clearing out user data and staying logged out of Sync
+3. Works in a different browser (chromium)
+4. Downgrading back to a known working version 150 vs 152 after breakign it on updates
+5. Creating a different user profile and user space
+6. Adjusting keyboard settings
+7. Disabling extensions and customization
+8. Friend with similar Fedora build had the same repeatable problem. Worked &gt; updated &gt; failed &gt; rolled back &gt; same issue.
+
+That's a new one, anyone else notice this yet?
+
+  
+EDIT: Goldman7911s post was on the right track... I fixed this by going to KDE Settings &gt; Keyboard &gt; Onscreen Keyboard &gt; show popup while holding a key, and unchecked that box. Give it a go. :P", Worked &gt; updated &gt; failed &gt; rolled back &gt; same issue.,1118,1184,"Hey guys!
+
+I am having a weird “G-mail” issue, when I am on Fedora / KDE with Firefox I can’t type in !’s or “”’s or anything into the HTML text editor. Or the Plaintext editor..  I want to see if you guys have the same thing? Latest updates. I had a desktop that WAS working, just for fun we updated it, now its broken just like my laptop. Other special keys like @#$%\^&amp;\*() {\[ \]}’ :/?&gt;&lt;., all seem to work too, just ! and “ are filtered out and don’t come over in the keyboard into the editor. Thinking about filing a bug report but seems to be limited to G-mail on Firefox, but also different version of fire fox with the latest update. Haven't re-created it yet with other sites....
+
+I have tried.
+
+1. Resetting Firefox.
+2. Clearing out user data and staying logged out of Sync
+3. Works in a different browser (chromium)
+4. Downgrading back to a known working version 150 vs 152 after breakign it on updates
+5. Creating a different user profile and user space
+6. Adjusting keyboard settings
+7. Disabling extensions and customization
+8. Friend with similar Fedora build had the same repeatable problem.
+
+That's a new one, anyone else notice this yet?
+
+  
+EDIT: Goldman7911s post was on the right track... I fixed this by going to KDE Settings &gt; Keyboard &gt; Onscreen Keyboard &gt; show popup while holding a key, and unchecked that box. Give it a go. :P",rollback_outcome,The passage gives a concrete comparison a first responder could use to decide whether to focus on the update.,"Title plus shortened body still contain a product cue, a symptom cue, and at least one update mention.",,plausible,Author passage is a rollback outcome and is not the only update connection.,cursor_suggestion_not_human_reviewed
+1swf7dl,C2-4FFB0433E5FB,phase3/icsc_full_paper/reliability_packet/submissions/2026-10-07-independent/development_after_independent_review.jsonl,Ubuntu,2026-04-26T18:20:25,https://reddit.com/r/Ubuntu/comments/1swf7dl/copy_shortcut_broken_in_ptxyis_gnome_terminal_on/,Copy shortcut broken in Ptxyis (Gnome Terminal) on latest update in 26.04?,I’ve been on the 26.04 betas for quite a while and “Ctrl+shift+c” to copy in the terminal has worked fine until the latest update. Now it just doesn’t do anything. It still works fine in ghostty. Has anyone else experienced this?,I’ve been on the 26.04 betas for quite a while and “Ctrl+shift+c” to copy in the terminal has worked fine until the latest update.,0,130, Now it just doesn’t do anything. It still works fine in ghostty. Has anyone else experienced this?,before_after,The passage gives a concrete comparison a first responder could use to decide whether to focus on the update.,"Title plus shortened body still contain a product cue, a symptom cue, and at least one update mention.",passage_is_most_of_the_body,borderline,"The evidence is concrete, but the passage is a large share of the body, so removing it may remove the issue itself.",cursor_suggestion_not_human_reviewed
+1wxnj7p,C2-565BCFCEB5CE,phase3/icsc_full_paper/reliability_packet/submissions/2026-10-07-independent/development_after_independent_review.jsonl,applehelp,2026-10-04T18:58:58,https://reddit.com/r/applehelp/comments/1wxnj7p/need_urgent_advice_on_icloud/,Need urgent advice on iCloud,"3 months ago I was on on public beta 3 of ios 27. I created a backup of my iPhone 13 on iCloud and restored the phone to same version of ios . While restoring data an error or unable to load backup files kept popping up again and again.  
+I contacted apple support multiple times and after false promises of escalating the complaint , an executive shared personal experience of same issue on beta version and the issue getting resolved after he updated to stable version and thus asked me to wait for stable version release of ios 27 . I trusted apple support and patiently waited for 15th September for stable version to release .  
+After updating to stable version , I again tried restoring the data on setup page and surprisingly the issue was still there . I tried contacting apple support everyday but each time they just lodged a new complaint and falsely promised to escalate . After calling them everyday one fine day a kind Apple support executive promised me to look into this and update . She called me a few times to get some details and then she calls me to tell me that the engineering team has reverted and the reply was that my backup file is  CORRUPTED !!  
+I was so infuriated , angry and panicked cuz I just didn’t know what to do at this point . I requested her to look into some ways to extract the data but she had no clue . I have suffered immense financial , emotional and mental loss and distress on the last 3 months because the data was extremely important to me and I trusted apple it being a billion dollar company and such great products and services .  
+I’ve no idea what to do but just know that I’ve to somehow get access to my data again or I’ll  
+Be done for life . The backup file exists on iCloud and I can see it in my iCloud page in settings . It also says 188 gb occupied of 200 out of which 168 gb is the backup file !  
+Someone pls help me out ! I’ll Be grateful forever 🙏🙏","I contacted apple support multiple times and after false promises of escalating the complaint , an executive shared personal experience of same issue on beta version and the issue getting resolved after he updated to stable version and thus asked me to wait for stable version release of ios 27 .",239,535,"3 months ago I was on on public beta 3 of ios 27. I created a backup of my iPhone 13 on iCloud and restored the phone to same version of ios . While restoring data an error or unable to load backup files kept popping up again and again.  
+ I trusted apple support and patiently waited for 15th September for stable version to release .  
+After updating to stable version , I again tried restoring the data on setup page and surprisingly the issue was still there . I tried contacting apple support everyday but each time they just lodged a new complaint and falsely promised to escalate . After calling them everyday one fine day a kind Apple support executive promised me to look into this and update . She called me a few times to get some details and then she calls me to tell me that the engineering team has reverted and the reply was that my backup file is  CORRUPTED !!  
+I was so infuriated , angry and panicked cuz I just didn’t know what to do at this point . I requested her to look into some ways to extract the data but she had no clue . I have suffered immense financial , emotional and mental loss and distress on the last 3 months because the data was extremely important to me and I trusted apple it being a billion dollar company and such great products and services .  
+I’ve no idea what to do but just know that I’ve to somehow get access to my data again or I’ll  
+Be done for life . The backup file exists on iCloud and I can see it in my iCloud page in settings . It also says 188 gb occupied of 200 out of which 168 gb is the backup file !  
+Someone pls help me out ! I’ll Be grateful forever 🙏🙏",device_contrast,The passage gives a concrete comparison a first responder could use to decide whether to focus on the update.,"Title plus shortened body still contain a product cue, a symptom cue, and at least one update mention.",weaker_influence_on_first_action,borderline,"Device contrast is present, but it may not change the first troubleshooting step.",cursor_suggestion_not_human_reviewed
+1tok2u1,C2-584A8AD5585F,phase3/icsc_full_paper/reliability_packet/submissions/2026-10-07-independent/development_after_independent_review.jsonl,Ubuntu,2026-05-26T20:59:42,https://reddit.com/r/Ubuntu/comments/1tok2u1/there_and_back_again_my_2604_lts_experience/,There and Back Again: My 26.04 LTS Experience.,"I've been using Ubuntu as my primary OS for roughly 9 months now ever since Microsoft announced that support for Windows 10 was officially over and my OS subsequently began to crash frequently. 
+
+I had planned on switching over to Linux for years, but the convenience of Windows kept me using Windows up until then. What finally got me to make the switch was how Windows 11 was so demanding and so full of superfluous A.I. powered bloatware that I couldn't just update my Windows 10 Rig to Windows 11 without purchasing a whole new MoBo, which I wasn't interested in doing, so I finally decided to jump ship back in July of last year. 
+
+  
+Initially I ran into some trouble because I had accidentally installed 23.04 ""Lunar Lobster"" instead of 24.04 ""Noble Numbat"", and because 23.04 was no longer supported by then, I couldn't connect to any servers to update to 23.10 or 24.04, so I had to do a clean installation. 
+
+24.04 worked well for me until I upgraded my worn out AMD RX-6800 GPU with a new RX-9060XT, which 24.04 lacked the necessary up-to-date drivers, kernal, and mesa build to run. Despite numerous attempts to update those components to make 24.04 compatible with the 9060, I ultimately was forced to update to 25.04 before it would work. 
+
+25.04 through 25.10 worked without a hitch for me, so I didn't hesitate to update to 26.04 ""Radiant Raccoon"" as soon as the update was made available. Unfortunately, that's where everything fell apart... 
+
+Initially, 26.04 seemed great. 26.04 seems to be more compatible with my 9060XT than previous builds, yielding higher FPS on average and more vibrant visuals in-game. I did experience some intermittent microstutter, but it only ever lasted like 0.5 seconds, amounting to little more than a moderately jarring hitch. 
+
+However, suddenly after 3 days of relatively smooth sailing, 26.04 could no longer detect my Wireless Card, thus forcing me to use a Wireless USB Adapter to connect to Wi-Fi. Again, not a huge deal, a mild inconvenience at best. I tried many times to fix the issue, but to no avail. 
+
+Shortly after that, I began to experience unnaturally lengthy boot times, taking upwards of 2 minutes for Ubuntu 26.04 when it had previously only taken roughly 30 seconds. Likewise, launching games on Steam took upwards of 2 minutes when they had previously taken mere seconds to launch. Attempts to troubleshoot these issues were fruitless.
+
+At this point I was officially fed up with it and decided to roll back to 25.10. Alas, even this did not go smoothly either as the long boot times continued to persist afterwards and Snaps ceased to function altogether. 
+
+After posting a thread on the subject, I was convinced by users to simply do a clean reinstallation of 26.04, which solved the issues with slow booting, but all other issues persisted. Nevertheless, I was perfectly willing to simply deal with the minor inconveniences of intermittent microstutter and having to use a Wireless USB Adapter to connect to Wi-Fi, until... 
+
+The following day a new issue manifested itself in the form of intermittent crashes after starting up games, followed by the PC persistently starting at the Boot Menu of my MoBo. 
+
+Since then I have reinstalled 25.10, all of the aforementioned issues have vanished, and thus I have decided to wait until a few weeks after the release of 26.04.1 to experiment any further with the latest version of Ubuntu. I've done my best to report all of the aforementioned bugs in hopes that they will be addressed with the release of 26.04.1, but for now I'm sticking with 25.10 because it has simply been more stable for me. 
+
+If this experience has taught me anything it's that its better to wait on bug fixes rather than updating to the latest unpolished build immediately and having to deal with all the little glitches. I'm typically willing to roll with the punches and help out with the development of new software by reporting bugs, but now that Linux is my primary OS, it's just too nerve racking for me."," Despite numerous attempts to update those components to make 24.04 compatible with the 9060, I ultimately was forced to update to 25.04 before it would work.",1094,1252,"I've been using Ubuntu as my primary OS for roughly 9 months now ever since Microsoft announced that support for Windows 10 was officially over and my OS subsequently began to crash frequently. 
+
+I had planned on switching over to Linux for years, but the convenience of Windows kept me using Windows up until then. What finally got me to make the switch was how Windows 11 was so demanding and so full of superfluous A.I. powered bloatware that I couldn't just update my Windows 10 Rig to Windows 11 without purchasing a whole new MoBo, which I wasn't interested in doing, so I finally decided to jump ship back in July of last year. 
+
+  
+Initially I ran into some trouble because I had accidentally installed 23.04 ""Lunar Lobster"" instead of 24.04 ""Noble Numbat"", and because 23.04 was no longer supported by then, I couldn't connect to any servers to update to 23.10 or 24.04, so I had to do a clean installation. 
+
+24.04 worked well for me until I upgraded my worn out AMD RX-6800 GPU with a new RX-9060XT, which 24.04 lacked the necessary up-to-date drivers, kernal, and mesa build to run. 
+
+25.04 through 25.10 worked without a hitch for me, so I didn't hesitate to update to 26.04 ""Radiant Raccoon"" as soon as the update was made available. Unfortunately, that's where everything fell apart... 
+
+Initially, 26.04 seemed great. 26.04 seems to be more compatible with my 9060XT than previous builds, yielding higher FPS on average and more vibrant visuals in-game. I did experience some intermittent microstutter, but it only ever lasted like 0.5 seconds, amounting to little more than a moderately jarring hitch. 
+
+However, suddenly after 3 days of relatively smooth sailing, 26.04 could no longer detect my Wireless Card, thus forcing me to use a Wireless USB Adapter to connect to Wi-Fi. Again, not a huge deal, a mild inconvenience at best. I tried many times to fix the issue, but to no avail. 
+
+Shortly after that, I began to experience unnaturally lengthy boot times, taking upwards of 2 minutes for Ubuntu 26.04 when it had previously only taken roughly 30 seconds. Likewise, launching games on Steam took upwards of 2 minutes when they had previously taken mere seconds to launch. Attempts to troubleshoot these issues were fruitless.
+
+At this point I was officially fed up with it and decided to roll back to 25.10. Alas, even this did not go smoothly either as the long boot times continued to persist afterwards and Snaps ceased to function altogether. 
+
+After posting a thread on the subject, I was convinced by users to simply do a clean reinstallation of 26.04, which solved the issues with slow booting, but all other issues persisted. Nevertheless, I was perfectly willing to simply deal with the minor inconveniences of intermittent microstutter and having to use a Wireless USB Adapter to connect to Wi-Fi, until... 
+
+The following day a new issue manifested itself in the form of intermittent crashes after starting up games, followed by the PC persistently starting at the Boot Menu of my MoBo. 
+
+Since then I have reinstalled 25.10, all of the aforementioned issues have vanished, and thus I have decided to wait until a few weeks after the release of 26.04.1 to experiment any further with the latest version of Ubuntu. I've done my best to report all of the aforementioned bugs in hopes that they will be addressed with the release of 26.04.1, but for now I'm sticking with 25.10 because it has simply been more stable for me. 
+
+If this experience has taught me anything it's that its better to wait on bug fixes rather than updating to the latest unpolished build immediately and having to deal with all the little glitches. I'm typically willing to roll with the punches and help out with the development of new software by reporting bugs, but now that Linux is my primary OS, it's just too nerve racking for me.",version_contrast,The passage gives a concrete comparison a first responder could use to decide whether to focus on the update.,"Title plus shortened body still contain a product cue, a symptom cue, and at least one update mention.",,plausible,Author passage is a version contrast and is not the only update connection.,cursor_suggestion_not_human_reviewed
+1u6tmmu,C2-5BC905F33558,phase3/icsc_full_paper/reliability_packet/submissions/2026-10-07-independent/development_after_independent_review.jsonl,Ubiquiti,2026-06-15T21:15:23,https://reddit.com/r/Ubiquiti/comments/1u6tmmu/network_application_10543/,Network Application 10.5.43,"ever since I upgraded the network app to 10.5.43 the application is constantly crashing/restarting. any advice? sometimes it will eventually start on its own but mostly i've had to reboot my dream machine to get it to start and run ... until it crashes again.
+
+Reverted to official 10.4.57 … still crashing/restarting.",Reverted to official 10.4.57 … still crashing/restarting.,261,318,"ever since I upgraded the network app to 10.5.43 the application is constantly crashing/restarting. any advice? sometimes it will eventually start on its own but mostly i've had to reboot my dream machine to get it to start and run ... until it crashes again.
+
+",rollback_outcome,The passage gives a concrete comparison a first responder could use to decide whether to focus on the update.,"Title plus shortened body still contain a product cue, a symptom cue, and at least one update mention.",,plausible,Author passage is a rollback outcome and is not the only update connection.,cursor_suggestion_not_human_reviewed
+1uazncd,C2-61EA489841D9,phase3/icsc_full_paper/reliability_packet/submissions/2026-10-07-independent/development_after_independent_review.jsonl,Ubiquiti,2026-06-20T15:38:28,https://reddit.com/r/Ubiquiti/comments/1uazncd/poe_budget_alert_solved/,POE budget Alert! (solved),"I had a few clients that started receiving the POE budget alert after a firmware update, so after discussing with CHATGPT, something has changed and the system looks at the total max POE allocation, and how much is left over, and how devices change their wattage after reboots or when under-load.  The system was working fine for 5 months before the update/alert- but I gave my client the options of configuring the system to ignore the Poe alert, or upgrade the switch (usw lite to usw ultra). We decided to upgrade the switch- but since the USW ULTRA power adapter is sold separately and sold out I purchased a 3rd party power supply from Amazon. I went ahead and got the 210w since there wasn’t a price difference in the 60w version- anyways all is good, just had to manually tell the switch the adapter is 210w now the alert is gone and the client is satisfied. Another option was installing Poe injectors for the heavy usage APs but I can’t fit those in the enclosure lol.","  The system was working fine for 5 months before the update/alert- but I gave my client the options of configuring the system to ignore the Poe alert, or upgrade the switch (usw lite to usw ultra).",296,494,"I had a few clients that started receiving the POE budget alert after a firmware update, so after discussing with CHATGPT, something has changed and the system looks at the total max POE allocation, and how much is left over, and how devices change their wattage after reboots or when under-load. We decided to upgrade the switch- but since the USW ULTRA power adapter is sold separately and sold out I purchased a 3rd party power supply from Amazon. I went ahead and got the 210w since there wasn’t a price difference in the 60w version- anyways all is good, just had to manually tell the switch the adapter is 210w now the alert is gone and the client is satisfied. Another option was installing Poe injectors for the heavy usage APs but I can’t fit those in the enclosure lol.",before_after,,shortened title+body no longer states a concrete issue,meaning_or_coverage,reject,shortened title+body no longer states a concrete issue,cursor_suggestion_not_human_reviewed
+1pc3zjh,C2-6439E1D90B5D,phase3/icsc_full_paper/reliability_packet/submissions/2026-10-07-independent/development_after_independent_review.jsonl,Calibre,2025-12-02T09:17:11,https://reddit.com/r/Calibre/comments/1pc3zjh/update_from_812_fails/,Update from 8.12 fails?,"So I don't know if its problem on my side, but with 4 devices haveing it I need to ask if anyone has similar problem with Windows app?
+
+Fours different Windows 11 devices and neither can update drom 8.12 to newer version - first had problem with installing 8.13, than .14 and now .15 fails as well. Doesn't matter if done using UniGetUI and manually...
+
+Were ther any colosal changes after this 8.12 thay updating from it is falling?
+
+EDIT: Seems I forgot: Windows Installer error is 1603, but reboot doesnt help.
+
+Here is log of installation: [Calibre Update - Pastebin.com](https://pastebin.com/TFn4yQfB)","Fours different Windows 11 devices and neither can update drom 8.12 to newer version - first had problem with installing 8.13, than .",136,269,"So I don't know if its problem on my side, but with 4 devices haveing it I need to ask if anyone has similar problem with Windows app?
+
+14 and now .15 fails as well. Doesn't matter if done using UniGetUI and manually...
+
+Were ther any colosal changes after this 8.12 thay updating from it is falling?
+
+EDIT: Seems I forgot: Windows Installer error is 1603, but reboot doesnt help.
+
+Here is log of installation: [Calibre Update - Pastebin.com](https://pastebin.com/TFn4yQfB)",version_contrast,The passage gives a concrete comparison a first responder could use to decide whether to focus on the update.,"Title plus shortened body still contain a product cue, a symptom cue, and at least one update mention.",,plausible,Author passage is a version contrast and is not the only update connection.,cursor_suggestion_not_human_reviewed
+1u1z3eg,C2-661AFCA261DB,phase3/icsc_full_paper/reliability_packet/submissions/2026-10-07-independent/development_after_independent_review.jsonl,firefox,2026-06-10T11:09:50,https://reddit.com/r/firefox/comments/1u1z3eg/firefox_is_blocking_a_mouse_macro_to_close_tabs/,Firefox is blocking a mouse macro to close tabs,"Hi everyone,
+
+After Firefox updated yesterday, one of my Logitech mouse macros stopped working.
+
+The macro is very simple and is only used to close browser tabs (Ctrl+W). Everything was working normally before the update, but now Firefox seems to be blocking that specific function.
+
+A few details:
+
+* The issue started immediately after the Firefox update yesterday.
+* I'm using a Logitech mouse with the macro configured through Logitech software.
+* The macro still works normally outside of Firefox.
+* I tested the same macro in other browsers (Chrome, Edge, etc.), and it closes tabs without any problem.
+* Firefox is the only browser where the tab-closing action is not working.
+* Other mouse buttons and functions appear to work as expected.
+
+Has anyone else experienced this after the latest Firefox update? Did Mozilla change something related to shortcut handling, input simulation, or macro-generated key presses?
+
+Any ideas or troubleshooting steps would be appreciated.
+
+Thanks."," Everything was working normally before the update, but now Firefox seems to be blocking that specific function.",170,282,"Hi everyone,
+
+After Firefox updated yesterday, one of my Logitech mouse macros stopped working.
+
+The macro is very simple and is only used to close browser tabs (Ctrl+W).
+
+A few details:
+
+* The issue started immediately after the Firefox update yesterday.
+* I'm using a Logitech mouse with the macro configured through Logitech software.
+* The macro still works normally outside of Firefox.
+* I tested the same macro in other browsers (Chrome, Edge, etc.), and it closes tabs without any problem.
+* Firefox is the only browser where the tab-closing action is not working.
+* Other mouse buttons and functions appear to work as expected.
+
+Has anyone else experienced this after the latest Firefox update? Did Mozilla change something related to shortcut handling, input simulation, or macro-generated key presses?
+
+Any ideas or troubleshooting steps would be appreciated.
+
+Thanks.",before_after,The passage gives a concrete comparison a first responder could use to decide whether to focus on the update.,"Title plus shortened body still contain a product cue, a symptom cue, and at least one update mention.",,plausible,Author passage is a before after and is not the only update connection.,cursor_suggestion_not_human_reviewed
+1sxxpag,C2-6830691E83BA,phase3/icsc_full_paper/reliability_packet/submissions/2026-10-07-independent/development_after_independent_review.jsonl,openclaw,2026-04-28T10:41:58,https://reddit.com/r/openclaw/comments/1sxxpag/did_the_openclaw_2026426_update_break_everything/,Did the Openclaw 2026.4.26 update break everything for anyone else?,"Hey everyone,
+
+I just updated Openclaw from **2026.4.5** to **2026.4.26**, and absolutely everything is broken on my end.
+
+I use Discord to chat with Openclaw, but since the update, I'm not receiving any responses at all. Even basic commands like `/new` or checking the status return absolutely nothing back to me.
+
+I spent a ton of time trying to troubleshoot this. I actually have two ChatGPT Plus accounts and ran 5.5 xhigh to try and find a fix. I ended up completely draining the 5-hour usage limits on *both* of my accounts without finding a single solution.
+
+Is this a common issue with the new update? Does anyone know what happened or have a fix? I'm completely stuck and can't figure it out.
+
+Thanks in advance!","I just updated Openclaw from **2026.4.5** to **2026.4.26**, and absolutely everything is broken on my end.",15,121,"Hey everyone,
+
+
+
+I use Discord to chat with Openclaw, but since the update, I'm not receiving any responses at all. Even basic commands like `/new` or checking the status return absolutely nothing back to me.
+
+I spent a ton of time trying to troubleshoot this. I actually have two ChatGPT Plus accounts and ran 5.5 xhigh to try and find a fix. I ended up completely draining the 5-hour usage limits on *both* of my accounts without finding a single solution.
+
+Is this a common issue with the new update? Does anyone know what happened or have a fix? I'm completely stuck and can't figure it out.
+
+Thanks in advance!",version_contrast,The passage gives a concrete comparison a first responder could use to decide whether to focus on the update.,"Title plus shortened body still contain a product cue, a symptom cue, and at least one update mention.",,plausible,Author passage is a version contrast and is not the only update connection.,cursor_suggestion_not_human_reviewed
+1r3nqon,C2-721120B44FA7,phase3/icsc_full_paper/reliability_packet/submissions/2026-10-07-independent/development_after_independent_review.jsonl,openclaw,2026-02-13T12:21:41,https://reddit.com/r/openclaw/comments/1r3nqon/telegram_bot_unresponsive_to_messages_after/,Telegram Bot Unresponsive to Messages After 2026.2.12 Security Update (Session Path Error),"After updating from OpenClaw 2026.2.9 to 2026.2.12, my Telegram bot stopped responding to user messages.  
+  
+  
+The bot is connected and replies to system commands like /status and /new, but it completely ignores any natural language text.  
+The logs show a recurring error: telegram bot error: Error: Session file path must be within sessions directory.  
+  
+  
+Tried extensive troubleshooting, including openclaw doctor --fix, re-pairing, and changing the dmPolicy to open, but nothing  
+worked. Attempting to apply a tool policy to grant session permissions was also rejected by the CLI as an invalid configuration.","After updating from OpenClaw 2026.2.9 to 2026.2.12, my Telegram bot stopped responding to user messages.",0,104,"  
+  
+  
+The bot is connected and replies to system commands like /status and /new, but it completely ignores any natural language text.  
+The logs show a recurring error: telegram bot error: Error: Session file path must be within sessions directory.  
+  
+  
+Tried extensive troubleshooting, including openclaw doctor --fix, re-pairing, and changing the dmPolicy to open, but nothing  
+worked. Attempting to apply a tool policy to grant session permissions was also rejected by the CLI as an invalid configuration.",version_contrast,The passage gives a concrete comparison a first responder could use to decide whether to focus on the update.,"Title plus shortened body still contain a product cue, a symptom cue, and at least one update mention.",,plausible,Author passage is a version contrast and is not the only update connection.,cursor_suggestion_not_human_reviewed
+1tempd0,C2-726396ADF93D,phase3/icsc_full_paper/reliability_packet/submissions/2026-10-07-independent/development_after_independent_review.jsonl,firefox,2026-05-16T07:29:49,https://reddit.com/r/firefox/comments/1tempd0/updating_firefox_has_been_the_worst_and_im/,Updating firefox has been the worst and I'm frustrated by it,"**UPDATE:**  
+I rolled back to 149.2 and that was the only thing that helped me fix the problem and keep my profile intact. Nothing else worked but I'm glad I can use youtube again. Here's hoping for the next update to fix any issues anyone has had. Update 150.0 was nothing but a headache for me personally.  
+  
+I updated to 150.0 recently and now the browser refuses to work properly. It hangs, freezes and lags on youtube and will play a video even when the tab is closed. I have to close the entire browser with task manager just to close a youtube video. If not that, when I pause a video it just stops the browser from working so again, I need task manager. Other sites barely load too and I never had this issue on my pc before.
+
+It's also guzzling memory now more than ever and I don't have hardware acceleration on and I have 64gb of ram (I am on windows 11 with a Lenovo Legion i7) and I'm still having issues. I wanted to downgrade but when I do now firefox just prompts that my profile has been on a newer version so it won't load on a lower version of the browser anymore. . .wtf why did they update profiles if all it did was screw up everything else?
+
+There's so much on this profile that I don't want to lose but this browser is borderline unusable right now. I've been waiting for an update but nothing so far. Is there any word with how often firefox updates? Or any fix I can try while keeping my original profile?",I rolled back to 149.2 and that was the only thing that helped me fix the problem and keep my profile intact.,14,123,"**UPDATE:**  
+ Nothing else worked but I'm glad I can use youtube again. Here's hoping for the next update to fix any issues anyone has had. Update 150.0 was nothing but a headache for me personally.  
+  
+I updated to 150.0 recently and now the browser refuses to work properly. It hangs, freezes and lags on youtube and will play a video even when the tab is closed. I have to close the entire browser with task manager just to close a youtube video. If not that, when I pause a video it just stops the browser from working so again, I need task manager. Other sites barely load too and I never had this issue on my pc before.
+
+It's also guzzling memory now more than ever and I don't have hardware acceleration on and I have 64gb of ram (I am on windows 11 with a Lenovo Legion i7) and I'm still having issues. I wanted to downgrade but when I do now firefox just prompts that my profile has been on a newer version so it won't load on a lower version of the browser anymore. . .wtf why did they update profiles if all it did was screw up everything else?
+
+There's so much on this profile that I don't want to lose but this browser is borderline unusable right now. I've been waiting for an update but nothing so far. Is there any word with how often firefox updates? Or any fix I can try while keeping my original profile?",rollback_outcome,The passage gives a concrete comparison a first responder could use to decide whether to focus on the update.,"Title plus shortened body still contain a product cue, a symptom cue, and at least one update mention.",,plausible,Author passage is a rollback outcome and is not the only update connection.,cursor_suggestion_not_human_reviewed
+1skiki4,C2-77E763645BFB,phase3/icsc_full_paper/reliability_packet/submissions/2026-10-07-independent/development_after_independent_review.jsonl,immich,2026-04-13T17:57:06,https://reddit.com/r/immich/comments/1skiki4/help_update_immich_to_latest_version/,Help  update immich to latest version,"Hey everyone,
+
+I have been using Immich for about a year now, at version 1.124.2, and had a public album for our wedding where everyone was able to upload images. Since it was important for me to keep the album and the link available, I was putting off the updates, but now I would like to get up to date with the latest version.
+
+Immich is running on a TrueNAS Scale 25.04.2.6; it was running as an app, and I have tried updating with no success. What I managed to do is to turn it into a ""Custom app""  and update it to version 1.132.3, the version right before VectorChord.
+
+What I am trying to do is update to 1.133 or 1.137 to get the VectorChord migration and the removal of TypeORM, but to no success. If I try any version between 1.132.3 and 2.1.0 I get `Error: The VectorChord extension version is 0.5.3, but Immich only supports &gt;=0.3 &lt;0.5.` even if I use `ghcr.io/immich-app/postgres:15-vectorchord0.3.0-pgvectors0.3.0` \- an image with VectorChord &lt; 0.5.
+
+I am not sure if I am doing it correctly, but right now, Postgres runs from `tensorchord/pgvecto-rs:pg15-v0.2.0`
+
+If I try to update Immich to a version &gt; 2.1.0 where I believe VectorChord 0.5 is supported, then I get `Error: Invalid upgrade path. For more information, see` `https://docs.immich.app/errors/#typeorm-upgrade`
+
+I know I have waited too long, but I already have 3 accounts with photos and albums, and would like to save them and run on the latest version. Any tip would be appreciated :)","If I try to update Immich to a version &gt; 2.1.0 where I believe VectorChord 0.5 is supported, then I get `Error: Invalid upgrade path.",1090,1226,"Hey everyone,
+
+I have been using Immich for about a year now, at version 1.124.2, and had a public album for our wedding where everyone was able to upload images. Since it was important for me to keep the album and the link available, I was putting off the updates, but now I would like to get up to date with the latest version.
+
+Immich is running on a TrueNAS Scale 25.04.2.6; it was running as an app, and I have tried updating with no success. What I managed to do is to turn it into a ""Custom app""  and update it to version 1.132.3, the version right before VectorChord.
+
+What I am trying to do is update to 1.133 or 1.137 to get the VectorChord migration and the removal of TypeORM, but to no success. If I try any version between 1.132.3 and 2.1.0 I get `Error: The VectorChord extension version is 0.5.3, but Immich only supports &gt;=0.3 &lt;0.5.` even if I use `ghcr.io/immich-app/postgres:15-vectorchord0.3.0-pgvectors0.3.0` \- an image with VectorChord &lt; 0.5.
+
+I am not sure if I am doing it correctly, but right now, Postgres runs from `tensorchord/pgvecto-rs:pg15-v0.2.0`
+
+ For more information, see` `https://docs.immich.app/errors/#typeorm-upgrade`
+
+I know I have waited too long, but I already have 3 accounts with photos and albums, and would like to save them and run on the latest version. Any tip would be appreciated :)",version_contrast,The passage gives a concrete comparison a first responder could use to decide whether to focus on the update.,"Title plus shortened body still contain a product cue, a symptom cue, and at least one update mention.",,plausible,Author passage is a version contrast and is not the only update connection.,cursor_suggestion_not_human_reviewed
+1vt3krl,C2-78CA2C9264F9,phase3/icsc_full_paper/reliability_packet/submissions/2026-10-07-independent/development_after_independent_review.jsonl,homeassistant,2026-08-20T00:02:36,https://reddit.com/r/homeassistant/comments/1vt3krl/update_to_202682_broke_remote_access/,Update to 2026.8.2 broke remote access,"I've recently upgraded from 2026.7.4 to 2026.8.2. I did so remotely while being away a few days (yeah stupid, i know) and after updating i lost all remote access. 
+
+I'm using both the cloudflared addon and the tailscale addon and am running HomeassistantOS on a Pi 4. I can see in the Tailscale dashboard that the last time the device was seen was right before the update and i cannot access homeassistant or any other device from that network through the vpn/taiscale anymore. Cloudflare just gives a 1033 error.
+
+I know homeassistant is still running, because i get notification from automations on my phone (probably because those run through google services). I've also rebooted the system completely through a smart switch, but that also didn't help.
+
+I can understand something breaking with accessing homeassistants frontend in the update (even though the changelog mentioned that the new network settings would migrate automatically), but both OS and Supervisor were already up to date, so i don't really get why tailscale would stop working. Atleast i thought that Addons/Apps were somewhat independant of homeassistant.  
+I'll see what had happened when i'm back, i'm just wondering what exactly could've caused this.", I can see in the Tailscale dashboard that the last time the device was seen was right before the update and i cannot access homeassistant or any other device from that network through the vpn/taiscale anymore.,267,477,"I've recently upgraded from 2026.7.4 to 2026.8.2. I did so remotely while being away a few days (yeah stupid, i know) and after updating i lost all remote access. 
+
+I'm using both the cloudflared addon and the tailscale addon and am running HomeassistantOS on a Pi 4. Cloudflare just gives a 1033 error.
+
+I know homeassistant is still running, because i get notification from automations on my phone (probably because those run through google services). I've also rebooted the system completely through a smart switch, but that also didn't help.
+
+I can understand something breaking with accessing homeassistants frontend in the update (even though the changelog mentioned that the new network settings would migrate automatically), but both OS and Supervisor were already up to date, so i don't really get why tailscale would stop working. Atleast i thought that Addons/Apps were somewhat independant of homeassistant.  
+I'll see what had happened when i'm back, i'm just wondering what exactly could've caused this.",device_contrast,The passage gives a concrete comparison a first responder could use to decide whether to focus on the update.,"Title plus shortened body still contain a product cue, a symptom cue, and at least one update mention.",weaker_influence_on_first_action,borderline,"Device contrast is present, but it may not change the first troubleshooting step.",cursor_suggestion_not_human_reviewed
+1sfy1sq,C2-7983254991B7,phase3/icsc_full_paper/reliability_packet/submissions/2026-10-07-independent/development_after_independent_review.jsonl,debian,2026-04-08T16:36:35,https://reddit.com/r/debian/comments/1sfy1sq/zfs_and_backport_problems/,Zfs and backport problems,"My zfs-Linux was pinned to backport 12 bookworm. As per the openzfs config.
+
+I did not modify it when updating bookworm to trixie.
+
+Packages stayed at 2.3.1 bpo12
+
+I changed it to trixie backport and I modified my source list to add trixie backport.
+
+After an apt update, it doesn’t want to update to the bpo13 version.
+
+Should I uninstall it?
+
+The problem lies with the 6.19 in backport which fails to compile the zfs dkms module pinned to 2.3.1 bpo12, leaving it kind of unstable with an update of kernel that cannot resume.
+
+What could be the ideal way to either come back to trixie stable for both dkms and kernel? Or bpo13 for both?
+
+  
+SOLVED: solution was that contrib was not in the sources.list","The problem lies with the 6.19 in backport which fails to compile the zfs dkms module pinned to 2.3.1 bpo12, leaving it kind of unstable with an update of kernel that cannot resume.",345,526,"My zfs-Linux was pinned to backport 12 bookworm. As per the openzfs config.
+
+I did not modify it when updating bookworm to trixie.
+
+Packages stayed at 2.3.1 bpo12
+
+I changed it to trixie backport and I modified my source list to add trixie backport.
+
+After an apt update, it doesn’t want to update to the bpo13 version.
+
+Should I uninstall it?
+
+
+
+What could be the ideal way to either come back to trixie stable for both dkms and kernel? Or bpo13 for both?
+
+  
+SOLVED: solution was that contrib was not in the sources.list",version_contrast,,shortened title+body no longer states a concrete issue,meaning_or_coverage,reject,shortened title+body no longer states a concrete issue,cursor_suggestion_not_human_reviewed
+1v061te,C2-8B718ECF103A,phase3/icsc_full_paper/reliability_packet/submissions/2026-10-07-independent/development_after_independent_review.jsonl,Ubuntu,2026-07-18T20:11:02,https://reddit.com/r/Ubuntu/comments/1v061te/70028_kernel_will_not_wake_up_from_suspend_mode/,7.0.0.28 kernel - will not wake up from suspend mode,Hi All - upgraded to the latest kernel and my laptop doesn't want to wake up from suspend mode. It is just blank screen. This happened to 24.04 LTS so I upgraded to 26.04 today hoping to fix the issue but it did not. Any ideas? Thanks in advance., This happened to 24.04 LTS so I upgraded to 26.04 today hoping to fix the issue but it did not.,120,216,Hi All - upgraded to the latest kernel and my laptop doesn't want to wake up from suspend mode. It is just blank screen. Any ideas? Thanks in advance.,version_contrast,The passage gives a concrete comparison a first responder could use to decide whether to focus on the update.,"Title plus shortened body still contain a product cue, a symptom cue, and at least one update mention.",,plausible,Author passage is a version contrast and is not the only update connection.,cursor_suggestion_not_human_reviewed
+1u2p3f9,C2-9F55A906DE39,phase3/icsc_full_paper/reliability_packet/submissions/2026-10-07-independent/development_after_independent_review.jsonl,Fedora,2026-06-11T04:37:17,https://reddit.com/r/Fedora/comments/1u2p3f9/kernal_update_712_broke_wifi_and_bluetooth/,Kernal Update 7.12 Broke WIFI and Bluetooth.,"Took the update about 20 minutes ago and after reboot no WIFI, no Bluetooth and USB keyboard didn't work. Rolled back kernal and WIFI and Bluetooth are still broken. Looks like I'll have to do a reinstall tomorrow. Think I'll start waiting before taking updates in the future. 
+
+Edit: Guess I should state that this is a laptop with no LAN port. So a reinstall is my only option. 
+
+Update: I just sat down to try a few other things. Started the laptop unplugged and now everything works on the most current kernal version. I'm really confused as to what happened. I tried booth previous kernal version and all of them resulted in the same broken WIFI and Bluetooth. Just restarted with power plugged in and everything still works. I'm very happy but also confused.
+
+Edit: Yes I screwed up the title. Should say Kernal 7.0.12", Rolled back kernal and WIFI and Bluetooth are still broken.,105,165,"Took the update about 20 minutes ago and after reboot no WIFI, no Bluetooth and USB keyboard didn't work. Looks like I'll have to do a reinstall tomorrow. Think I'll start waiting before taking updates in the future. 
+
+Edit: Guess I should state that this is a laptop with no LAN port. So a reinstall is my only option. 
+
+Update: I just sat down to try a few other things. Started the laptop unplugged and now everything works on the most current kernal version. I'm really confused as to what happened. I tried booth previous kernal version and all of them resulted in the same broken WIFI and Bluetooth. Just restarted with power plugged in and everything still works. I'm very happy but also confused.
+
+Edit: Yes I screwed up the title. Should say Kernal 7.0.12",rollback_outcome,The passage gives a concrete comparison a first responder could use to decide whether to focus on the update.,"Title plus shortened body still contain a product cue, a symptom cue, and at least one update mention.",,plausible,Author passage is a rollback outcome and is not the only update connection.,cursor_suggestion_not_human_reviewed
+1pjtge7,C2-A318A8B12683,phase3/icsc_full_paper/reliability_packet/submissions/2026-10-07-independent/development_after_independent_review.jsonl,comfyui,2025-12-11T09:34:56,https://reddit.com/r/comfyui/comments/1pjtge7/zimage_lora_loader_no_longer_works_since_the_last/,z-image Lora Loader no longer works since the last update,"Does anyone else have the issue that the z-image lora loader no longer works since the update? The loader actually comes from CRT nodes. All other CRT nodes work.  
+  
+The strange thing is, it worked before the update. Afterwards, it no longer works. I reinstalled it, even on an older version, but it still doesn't work. All dependencies are running fine. log is clean. already cloned, pulled, reinstalled it, etc.  
+  
+Is there another Loader that works with Z-Image?","The strange thing is, it worked before the update.",168,218,"Does anyone else have the issue that the z-image lora loader no longer works since the update? The loader actually comes from CRT nodes. All other CRT nodes work.  
+  
+ Afterwards, it no longer works. I reinstalled it, even on an older version, but it still doesn't work. All dependencies are running fine. log is clean. already cloned, pulled, reinstalled it, etc.  
+  
+Is there another Loader that works with Z-Image?",before_after,The passage gives a concrete comparison a first responder could use to decide whether to focus on the update.,"Title plus shortened body still contain a product cue, a symptom cue, and at least one update mention.",possible_generic_timing,borderline,Before/after cue is short and could be read as a generic update timing statement.,cursor_suggestion_not_human_reviewed
+1uoxww0,C2-A4B600A5263F,phase3/icsc_full_paper/reliability_packet/submissions/2026-10-07-independent/development_after_independent_review.jsonl,AndroidQuestions,2026-07-06T13:49:26,https://reddit.com/r/AndroidQuestions/comments/1uoxww0/how_to_force_enable_the_flashlight_while_another/,How to force enable the flashlight while another app is using it?,"*I am not gonna close the app that's using the camera if that's the answer because I need that app to keep running.*
+
+**Read this first because I think I made the bottom text sound confusing:** I need the flashlight to turn on while I am using a camera. I need it to be all possible on android. No pc or root. Also it has to be able to be mapped to my volume up button. I used keymapper 4.1.0 before but after upgrading to 4.2.1, it stopped working even after going back to 4.1.0. Also I don't know if it's possible but if it is, I would like it to be without wireless debugging turned on or USB debugging since it drains battery and I am using this function for work but if that's not possible, I dont care. I also did see shell command possibility in keymapper which probably will work so if there is a command for that, I can do that too but I think I need the usb or wireless debugging enabled so maybe I could that after looking at other less battery draining options. (There is a ""standard"" execution mode that MAYBE uses one of debugging and there is ""ADB"" which needs wireless debugging) Maybe there is an app that does that? I don't know but whatever works. 
+
+I am trying to enable a flashlight while another app is using the camera which I am using. Its the Walmart GIF app but I don't think it really matters since it doesn't work in any app that has a camera open. I tried before using keymapper on pixel 9a which worked with the 4.1.0 version from play store which I then copied 2 so I had 3 key mappers but then I upgraded them all to 4.2.1 and it stopped working so I went back to 4.1.0 only on the original one and it still doesn't work so I guess I can't use that anymore. any other way? I want to be able to do it using my volume up button because I have it set up at open the scanner, turn on flashlight and I do what I need to do and it turns off the flashlight by itself but I can't do it anymore. Any ways to do it?", I tried before using keymapper on pixel 9a which worked with the 4.1.0 version from play store which I then copied 2 so I had 3 key mappers but then I upgraded them all to 4.2.1 and it stopped working so I went back to 4.1.0 only on the original one and it still doesn't work so I guess I can't use that anymore.,1376,1689,"*I am not gonna close the app that's using the camera if that's the answer because I need that app to keep running.*
+
+**Read this first because I think I made the bottom text sound confusing:** I need the flashlight to turn on while I am using a camera. I need it to be all possible on android. No pc or root. Also it has to be able to be mapped to my volume up button. I used keymapper 4.1.0 before but after upgrading to 4.2.1, it stopped working even after going back to 4.1.0. Also I don't know if it's possible but if it is, I would like it to be without wireless debugging turned on or USB debugging since it drains battery and I am using this function for work but if that's not possible, I dont care. I also did see shell command possibility in keymapper which probably will work so if there is a command for that, I can do that too but I think I need the usb or wireless debugging enabled so maybe I could that after looking at other less battery draining options. (There is a ""standard"" execution mode that MAYBE uses one of debugging and there is ""ADB"" which needs wireless debugging) Maybe there is an app that does that? I don't know but whatever works. 
+
+I am trying to enable a flashlight while another app is using the camera which I am using. Its the Walmart GIF app but I don't think it really matters since it doesn't work in any app that has a camera open. any other way? I want to be able to do it using my volume up button because I have it set up at open the scanner, turn on flashlight and I do what I need to do and it turns off the flashlight by itself but I can't do it anymore. Any ways to do it?",rollback_outcome,The passage gives a concrete comparison a first responder could use to decide whether to focus on the update.,"Title plus shortened body still contain a product cue, a symptom cue, and at least one update mention.",,plausible,Author passage is a rollback outcome and is not the only update connection.,cursor_suggestion_not_human_reviewed
+1qs5jqm,C2-AD1E6AD688C2,phase3/icsc_full_paper/reliability_packet/submissions/2026-10-07-independent/development_after_independent_review.jsonl,immich,2026-01-31T15:39:42,https://reddit.com/r/immich/comments/1qs5jqm/issue_after_updating_to_25x/,Issue after updating to 2.5.x,"**\[UPDATE: SOLVED\]**
+
+After updating to version 2.5.0 (now on 2.5.2), my uploaded photos show a blurred thumbnail, and when I click on them, I get a ""error loading image"" error message.
+
+https://preview.redd.it/np1jfq1cfpgg1.png?width=3204&amp;format=png&amp;auto=webp&amp;s=64466910356fff1f37550bebbc92b9dce0015522
+
+https://preview.redd.it/ej4iqnmcfpgg1.png?width=3808&amp;format=png&amp;auto=webp&amp;s=7b94182095cce7abfe187c6c45e89d8cab0f44ff
+
+The images are fine in the filesystem. I can access them in the server and open all of them fine. The external library photos are also fine, it's just the ones uploaded from my device. The photos uploaded after the update are also fine.
+
+I ran the ""Generate Thumbnails"" job, but it didn't fix the issue.
+
+Is there anything I can run to fix this?
+
+When I open one of these photos it throws a 500 error in the console for the endpoint "".../api/assets/...""","After updating to version 2.5.0 (now on 2.5.2), my uploaded photos show a blurred thumbnail, and when I click on them, I get a ""error loading image"" error message.",24,187,"**\[UPDATE: SOLVED\]**
+
+
+
+https://preview.redd.it/np1jfq1cfpgg1.png?width=3204&amp;format=png&amp;auto=webp&amp;s=64466910356fff1f37550bebbc92b9dce0015522
+
+https://preview.redd.it/ej4iqnmcfpgg1.png?width=3808&amp;format=png&amp;auto=webp&amp;s=7b94182095cce7abfe187c6c45e89d8cab0f44ff
+
+The images are fine in the filesystem. I can access them in the server and open all of them fine. The external library photos are also fine, it's just the ones uploaded from my device. The photos uploaded after the update are also fine.
+
+I ran the ""Generate Thumbnails"" job, but it didn't fix the issue.
+
+Is there anything I can run to fix this?
+
+When I open one of these photos it throws a 500 error in the console for the endpoint "".../api/assets/...""",version_contrast,The passage gives a concrete comparison a first responder could use to decide whether to focus on the update.,"Title plus shortened body still contain a product cue, a symptom cue, and at least one update mention.",,plausible,Author passage is a version contrast and is not the only update connection.,cursor_suggestion_not_human_reviewed
+1o062fs,C2-AFD272BD774A,phase3/icsc_full_paper/reliability_packet/submissions/2026-10-07-independent/development_after_independent_review.jsonl,chrome,2025-10-07T05:18:25,https://reddit.com/r/chrome/comments/1o062fs/latest_update_broke_auto_dark_mode_for_web/,"Latest update broke ""Auto Dark Mode for Web Contents"", Youtube now displays white gradient on player.","Today I updated to v141.0.7390.55 and now my YouTube player looks like this:
+
+https://preview.redd.it/laiypnf9jmtf1.png?width=640&amp;format=png&amp;auto=webp&amp;s=04f48c821a4b4d8676370e386fda89cd131a2d6e
+
+I know it's an issue with the update because I haven't yet updated on a different laptop and it still looks right, with a proper darker gradient. EDIT: Just checked the version that's running there, it is v140.0.7339.213
+
+Tried all options to change theme on YouTube: nothing. The gradient still stays white like that.
+
+My option for Auto Dark Mode for Web Contents is ""Enabled with selective inversion of non-image elements"" which worked perfectly before update (and has been working with 0 issues for 3 years) and still works in previous versions, as I verified myself.
+
+I feel like the issue is tied to that flag because other images show some weird inverted colors too, and resetting the flag to default solves those issues but also gets rid of dark mode for many websites I use, which is not really something I'm willing to give up on.","My option for Auto Dark Mode for Web Contents is ""Enabled with selective inversion of non-image elements"" which worked perfectly before update (and has been working with 0 issues for 3 years) and still works in previous versions, as I verified myself.",527,778,"Today I updated to v141.0.7390.55 and now my YouTube player looks like this:
+
+https://preview.redd.it/laiypnf9jmtf1.png?width=640&amp;format=png&amp;auto=webp&amp;s=04f48c821a4b4d8676370e386fda89cd131a2d6e
+
+I know it's an issue with the update because I haven't yet updated on a different laptop and it still looks right, with a proper darker gradient. EDIT: Just checked the version that's running there, it is v140.0.7339.213
+
+Tried all options to change theme on YouTube: nothing. The gradient still stays white like that.
+
+
+
+I feel like the issue is tied to that flag because other images show some weird inverted colors too, and resetting the flag to default solves those issues but also gets rid of dark mode for many websites I use, which is not really something I'm willing to give up on.",before_after,The passage gives a concrete comparison a first responder could use to decide whether to focus on the update.,"Title plus shortened body still contain a product cue, a symptom cue, and at least one update mention.",,plausible,Author passage is a before after and is not the only update connection.,cursor_suggestion_not_human_reviewed
+1uueoy4,C2-BE5DA20B3413,phase3/icsc_full_paper/reliability_packet/submissions/2026-10-07-independent/development_after_independent_review.jsonl,applehelp,2026-07-12T12:53:09,https://reddit.com/r/applehelp/comments/1uueoy4/find_my_notifications_broken_since_ios_18_ios_26/,Find My notifications broken since iOS 18 / iOS 26 (happens with iPhones 11 Pro and 17),"Hi everyone,
+
+I'm using Find My with my AirTag and third party trackers for years and never encountered any notification problems until I updated my old iPhone 11 Pro to iOS 18.
+
+Since I updated my old iPhone to iOS 18 last year, I stopped receiving low battery push notifications for my AirTag and AirTag-like trackers. I got a new iPhone 17 with iOS 26 and the issue persisted. To make things worse, since iOS 26, the ""notify when left behind"" alerts only work sporadically (which is apparently an issue for some users with iOS 26). But I seem to be alone with the broken battery notifications.
+
+What still works:
+
+""Notify when found"" - I get them every time
+
+""Unknown AirTag moving with you""
+
+What is broken:
+
+""Notify when left behind"" only works occasionally. This affects my original AirTag, all other trackers and my AirPots Pro 3
+
+Low battery warnings stopped working completely. If I'm lucky, I see the red battery icon when I open Find my, but on some occasions they just went from near or half full to completely offline without warning and when checking, the battery was completeley empty.
+
+The only notable exception was a specific original AirTag a family member shares with me. For this one, I received a low battery warning a few days ago on both of my iPhones.
+
+I've already tried the basic troubleshooting tips:
+
+Rebooted both iPhones multiple times, tried both a ""normal"" reboot and the reset with volume up, volume down and holding the power button
+
+Reinstalled the Find my app
+
+Factory reset and repaired all my trackers
+
+Toggled Find My, location services, signifcant places and background refresh off an on (with reboots)
+
+Checked focus modes, battery saving settings, and screen time restrictions
+
+I have already contacted Apple Support about this. They mostly suggested the usual basic troubleshooting steps. However, the agent did suggest one thing I hadn't tried yet: completely turning off all screen time restrictions. I am currently testing this, though I highly doubt it will fix it since my settings are exactly the same as they were on iOS 17 when everything worked fine.
+
+Since this issue started on my old iPhone and carried over to a completely new device with a different iOS version, I guess it must be an issue tied to my Apple ID or something, rather than a hardware fault, like one of the support agents suggested, who completely ignored that I have the same problem on two different iPhones.
+
+Has anyone encountered this specific lack of battery notifications? Are there any settings / workarounds I could try except completely resetting my iPhones? Thanks!",I'm using Find My with my AirTag and third party trackers for years and never encountered any notification problems until I updated my old iPhone 11 Pro to iOS 18.,14,177,"Hi everyone,
+
+
+
+Since I updated my old iPhone to iOS 18 last year, I stopped receiving low battery push notifications for my AirTag and AirTag-like trackers. I got a new iPhone 17 with iOS 26 and the issue persisted. To make things worse, since iOS 26, the ""notify when left behind"" alerts only work sporadically (which is apparently an issue for some users with iOS 26). But I seem to be alone with the broken battery notifications.
+
+What still works:
+
+""Notify when found"" - I get them every time
+
+""Unknown AirTag moving with you""
+
+What is broken:
+
+""Notify when left behind"" only works occasionally. This affects my original AirTag, all other trackers and my AirPots Pro 3
+
+Low battery warnings stopped working completely. If I'm lucky, I see the red battery icon when I open Find my, but on some occasions they just went from near or half full to completely offline without warning and when checking, the battery was completeley empty.
+
+The only notable exception was a specific original AirTag a family member shares with me. For this one, I received a low battery warning a few days ago on both of my iPhones.
+
+I've already tried the basic troubleshooting tips:
+
+Rebooted both iPhones multiple times, tried both a ""normal"" reboot and the reset with volume up, volume down and holding the power button
+
+Reinstalled the Find my app
+
+Factory reset and repaired all my trackers
+
+Toggled Find My, location services, signifcant places and background refresh off an on (with reboots)
+
+Checked focus modes, battery saving settings, and screen time restrictions
+
+I have already contacted Apple Support about this. They mostly suggested the usual basic troubleshooting steps. However, the agent did suggest one thing I hadn't tried yet: completely turning off all screen time restrictions. I am currently testing this, though I highly doubt it will fix it since my settings are exactly the same as they were on iOS 17 when everything worked fine.
+
+Since this issue started on my old iPhone and carried over to a completely new device with a different iOS version, I guess it must be an issue tied to my Apple ID or something, rather than a hardware fault, like one of the support agents suggested, who completely ignored that I have the same problem on two different iPhones.
+
+Has anyone encountered this specific lack of battery notifications? Are there any settings / workarounds I could try except completely resetting my iPhones? Thanks!",before_after,The passage gives a concrete comparison a first responder could use to decide whether to focus on the update.,"Title plus shortened body still contain a product cue, a symptom cue, and at least one update mention.",,plausible,Author passage is a before after and is not the only update connection.,cursor_suggestion_not_human_reviewed
+1v1u6cd,C2-C12CA4C736FB,phase3/icsc_full_paper/reliability_packet/submissions/2026-10-07-independent/development_after_independent_review.jsonl,chrome,2026-07-20T18:43:57,https://reddit.com/r/chrome/comments/1v1u6cd/clippath_is_now_completely_broken_on_just_the/,clip-path is now completely broken on just the latest chrome update!,"Im a web dev, my site was working perfectly until I updated chrome today the clip path animations/transitions (transitions api) now stopped working.. it is still working perfectly on safari and firefox but not on chrome anymore","Im a web dev, my site was working perfectly until I updated chrome today the clip path animations/transitions (transitions api) now stopped working..",0,149, it is still working perfectly on safari and firefox but not on chrome anymore,before_after,The passage gives a concrete comparison a first responder could use to decide whether to focus on the update.,"Title plus shortened body still contain a product cue, a symptom cue, and at least one update mention.",passage_is_most_of_the_body,borderline,"The evidence is concrete, but the passage is a large share of the body, so removing it may remove the issue itself.",cursor_suggestion_not_human_reviewed
+1p54t7o,C2-D280E231494A,phase3/icsc_full_paper/reliability_packet/submissions/2026-10-07-independent/development_after_independent_review.jsonl,comfyui,2025-11-24T02:08:12,https://reddit.com/r/comfyui/comments/1p54t7o/help_fp8_e5m2_scaled_no_longer_works_on_my_3090/,Help - fp8_e5m2_scaled no longer works on my 3090 + Wan Animate Workflows after update,"Hi all,   
+It's been a month since I last used Comfy. Last time I used it, Wan Animate was working fine on my PC. For context, I have a 3090 and I know it has issues with fp8, so in order for Wan Animate to work on my PC and avoid the ""type fp8e4nv not supported in this architecture"" error, I used to select the ""fp8\_e5m2\_scaled"" quantization option in the WanVideo Model Loader node ([I got this solution from github](https://github.com/kijai/ComfyUI-WanVideoWrapper/issues/688)). BTW I have Triton and Sage attention installed.
+
+Today I opened and updated Comfy. But after the update, I started getting that same error again. I tried all quantization options but none of them work now.
+
+I downloaded Mocha to test it but I get the same error.  
+I don't know why it no longer works when it was working fine before the update.
+
+Does any of you fellow 3000 series owners have the same issue? If so, how were you able to fix it that doesn't involve resorting to GGUF models? Thanks in advance for your feedback.
+
+  
+My setup: RTX 3090 - 96 GB RAM - ComfyUI 0.3.71 - PyTorch version: 2.8.0+cu128
+
+
+
+[these were the settings that worked before the update. now they no longer work.](https://preview.redd.it/8nfnibw6243g1.png?width=667&amp;format=png&amp;auto=webp&amp;s=064116e0269fac2f25c9288b4ff72916d5182fd1)
+
+
+
+[this is the error I'm getting now, regardless of the settings I choose in the WanVideo Model loader node.](https://preview.redd.it/ivgtdqff243g1.png?width=1573&amp;format=png&amp;auto=webp&amp;s=1c6e139ab3574200b196ee05a2bd0213e79a75cf)",I don't know why it no longer works when it was working fine before the update.,750,829,"Hi all,   
+It's been a month since I last used Comfy. Last time I used it, Wan Animate was working fine on my PC. For context, I have a 3090 and I know it has issues with fp8, so in order for Wan Animate to work on my PC and avoid the ""type fp8e4nv not supported in this architecture"" error, I used to select the ""fp8\_e5m2\_scaled"" quantization option in the WanVideo Model Loader node ([I got this solution from github](https://github.com/kijai/ComfyUI-WanVideoWrapper/issues/688)). BTW I have Triton and Sage attention installed.
+
+Today I opened and updated Comfy. But after the update, I started getting that same error again. I tried all quantization options but none of them work now.
+
+I downloaded Mocha to test it but I get the same error.  
+
+
+Does any of you fellow 3000 series owners have the same issue? If so, how were you able to fix it that doesn't involve resorting to GGUF models? Thanks in advance for your feedback.
+
+  
+My setup: RTX 3090 - 96 GB RAM - ComfyUI 0.3.71 - PyTorch version: 2.8.0+cu128
+
+
+
+[these were the settings that worked before the update. now they no longer work.](https://preview.redd.it/8nfnibw6243g1.png?width=667&amp;format=png&amp;auto=webp&amp;s=064116e0269fac2f25c9288b4ff72916d5182fd1)
+
+
+
+[this is the error I'm getting now, regardless of the settings I choose in the WanVideo Model loader node.](https://preview.redd.it/ivgtdqff243g1.png?width=1573&amp;format=png&amp;auto=webp&amp;s=1c6e139ab3574200b196ee05a2bd0213e79a75cf)",before_after,The passage gives a concrete comparison a first responder could use to decide whether to focus on the update.,"Title plus shortened body still contain a product cue, a symptom cue, and at least one update mention.",possible_generic_timing,borderline,Before/after cue is short and could be read as a generic update timing statement.,cursor_suggestion_not_human_reviewed
+1udomko,C2-E702E4B14FD9,phase3/icsc_full_paper/reliability_packet/submissions/2026-10-07-independent/development_after_independent_review.jsonl,comfyui,2026-06-23T18:04:39,https://reddit.com/r/comfyui/comments/1udomko/what_happened_with_wan_22_or_comfyui/,What happened with WAN 2.2 or ComfyUI??,"I had an installation of ComfyUI with wan 2.2 custom workflow and everything went ok until i updated 3 days ago ComfyUI and suddenly the generations are black. I don’t know i could i repair this, I’m super desperate. I don’t understand why updates makes things so wrong instead of running better and more optimized. Anyone with the same issue?",I had an installation of ComfyUI with wan 2.2 custom workflow and everything went ok until i updated 3 days ago ComfyUI and suddenly the generations are black.,0,159," I don’t know i could i repair this, I’m super desperate. I don’t understand why updates makes things so wrong instead of running better and more optimized. Anyone with the same issue?",before_after,The passage gives a concrete comparison a first responder could use to decide whether to focus on the update.,"Title plus shortened body still contain a product cue, a symptom cue, and at least one update mention.",,plausible,Author passage is a before after and is not the only update connection.,cursor_suggestion_not_human_reviewed
+1s3jnyw,C2-EFC2D776CCA3,phase3/icsc_full_paper/reliability_packet/submissions/2026-10-07-independent/development_after_independent_review.jsonl,applehelp,2026-03-25T18:52:50,https://reddit.com/r/applehelp/comments/1s3jnyw/watchos_26_haptic_notifications_stopped_working/,watchOS 26 — haptic notifications stopped working on Apple Watch. Anyone else?,"Since updating to watchOS 26 (paired with iOS 26), my Apple Watch stopped vibrating for notifications entirely. 
+
+The watch shows the notification visually, but there’s zero haptic feedback.
+
+What I’ve already tried:
+
+Repairing (unpairing and re-pairing) the watch didn’t help. Haptic Strength in Watch app is set to prominent. Do Not Disturb is off.
+
+Note: Silent mode is on, but it’s always been on and haptics worked fine before the update. So this seems like a watchOS 26 bug.
+
+Anyone else experiencing this? And if you found a fix, please share.","Since updating to watchOS 26 (paired with iOS 26), my Apple Watch stopped vibrating for notifications entirely.",0,111," 
+
+The watch shows the notification visually, but there’s zero haptic feedback.
+
+What I’ve already tried:
+
+Repairing (unpairing and re-pairing) the watch didn’t help. Haptic Strength in Watch app is set to prominent. Do Not Disturb is off.
+
+Note: Silent mode is on, but it’s always been on and haptics worked fine before the update. So this seems like a watchOS 26 bug.
+
+Anyone else experiencing this? And if you found a fix, please share.",version_contrast,The passage gives a concrete comparison a first responder could use to decide whether to focus on the update.,"Title plus shortened body still contain a product cue, a symptom cue, and at least one update mention.",,plausible,Author passage is a version contrast and is not the only update connection.,cursor_suggestion_not_human_reviewed
+1vu4tww,C2-F1EF4F1077CC,phase3/icsc_full_paper/reliability_packet/submissions/2026-10-07-independent/development_after_independent_review.jsonl,MacOS,2026-08-21T03:24:09,https://reddit.com/r/MacOS/comments/1vu4tww/macos_2662public_release_screen_sharing_file/,[macOS 26.6.2-public release] Screen Sharing file transfer fails only when the destination is an external SSD,"I use the built-in macOS Screen Sharing app to control another Mac on my local network. After updating the receiving Mac to macOS 26.6.2, dragging files directly to its external SSD now fails immediately with “File transfer failed.”
+
+The internal drive on the receiving Mac is relatively small, so I keep Downloads and other large files on an external SSD. Directly transferring files into Finder windows on that SSD is part of my normal workflow.
+
+What works:
+
+* Dragging a file from the controlling Mac to the receiving Mac’s Desktop on its internal drive.
+* Transferring files in the opposite direction.
+* Creating, copying, moving and modifying files on the external SSD locally through Finder or Terminal.
+* Moving a transferred file from the internal Desktop to the external SSD afterward.
+
+What fails:
+
+* Dragging any file through Screen Sharing directly into any folder on the external SSD.
+* File type and size do not make a difference.
+
+My Downloads folder is a symlink:
+
+`~/Downloads -&gt; /Volumes/ExternalSSD/Downloads`
+
+However, this is not simply a symlink problem. I created a completely new regular folder directly on the external volume:
+
+`/Volumes/ExternalSSD/ScreenShareTest`
+
+Dragging a file into that folder through Screen Sharing fails in exactly the same way.
+
+The SSD is mounted normally, has plenty of free space, and is writable by the logged-in user. A local write test succeeds without errors.
+
+The logs show `ScreensharingAgent`, `VNCDragHelper` and `SSDragHelper` handling the drag operation, but I have not found an explicit TCC permission denial. It looks as though the drag is initialized successfully and then fails when the received file is created under `/Volumes`.
+
+This workflow worked the last time I used it, before installing macOS 26.6.2. That does not prove the update caused it, but the issue was first observed after the update.
+
+There also does not appear to be any permission under:
+
+System Settings → Privacy &amp; Security → Files &amp; Folders
+
+that would allow Screen Sharing to access external or removable volumes.
+
+If direct external-volume access has intentionally been restricted for security reasons, macOS should at least provide a setting such as:
+
+Screen Sharing → External or Removable Volumes
+
+Has anyone else reproduced this on macOS 26.6 or 26.6.2 using the built-in Screen Sharing app? Is this an intentional restriction or a regression in the Screen Sharing file-transfer component?"," After updating the receiving Mac to macOS 26.6.2, dragging files directly to its external SSD now fails immediately with “File transfer failed.",87,231,"I use the built-in macOS Screen Sharing app to control another Mac on my local network.”
+
+The internal drive on the receiving Mac is relatively small, so I keep Downloads and other large files on an external SSD. Directly transferring files into Finder windows on that SSD is part of my normal workflow.
+
+What works:
+
+* Dragging a file from the controlling Mac to the receiving Mac’s Desktop on its internal drive.
+* Transferring files in the opposite direction.
+* Creating, copying, moving and modifying files on the external SSD locally through Finder or Terminal.
+* Moving a transferred file from the internal Desktop to the external SSD afterward.
+
+What fails:
+
+* Dragging any file through Screen Sharing directly into any folder on the external SSD.
+* File type and size do not make a difference.
+
+My Downloads folder is a symlink:
+
+`~/Downloads -&gt; /Volumes/ExternalSSD/Downloads`
+
+However, this is not simply a symlink problem. I created a completely new regular folder directly on the external volume:
+
+`/Volumes/ExternalSSD/ScreenShareTest`
+
+Dragging a file into that folder through Screen Sharing fails in exactly the same way.
+
+The SSD is mounted normally, has plenty of free space, and is writable by the logged-in user. A local write test succeeds without errors.
+
+The logs show `ScreensharingAgent`, `VNCDragHelper` and `SSDragHelper` handling the drag operation, but I have not found an explicit TCC permission denial. It looks as though the drag is initialized successfully and then fails when the received file is created under `/Volumes`.
+
+This workflow worked the last time I used it, before installing macOS 26.6.2. That does not prove the update caused it, but the issue was first observed after the update.
+
+There also does not appear to be any permission under:
+
+System Settings → Privacy &amp; Security → Files &amp; Folders
+
+that would allow Screen Sharing to access external or removable volumes.
+
+If direct external-volume access has intentionally been restricted for security reasons, macOS should at least provide a setting such as:
+
+Screen Sharing → External or Removable Volumes
+
+Has anyone else reproduced this on macOS 26.6 or 26.6.2 using the built-in Screen Sharing app? Is this an intentional restriction or a regression in the Screen Sharing file-transfer component?",version_contrast,The passage gives a concrete comparison a first responder could use to decide whether to focus on the update.,"Title plus shortened body still contain a product cue, a symptom cue, and at least one update mention.",,plausible,Author passage is a version contrast and is not the only update connection.,cursor_suggestion_not_human_reviewed
+1sd5om8,C2-FA595B1DB2BC,phase3/icsc_full_paper/reliability_packet/submissions/2026-10-07-independent/development_after_independent_review.jsonl,comfyui,2026-04-05T14:55:34,https://reddit.com/r/comfyui/comments/1sd5om8/having_problem_with_audio_image_to_video_workflow/,having problem with Audio Image to video workflow with new comfyui version and new updated nodes,"my custom audio workflow stopped working, characters are only smiling and giving expressions as prompted but no lip sync, i updated few nodes now everything is mess, everything was working fine before the update, i did a stupid thing and updated few nodes, i thought clean install will fix the lip sync problem but it didn't, i also formatted the pc to fix it, also tried that lip sync lora, nothing is working, any tips?","my custom audio workflow stopped working, characters are only smiling and giving expressions as prompted but no lip sync, i updated few nodes now everything is mess, everything was working fine before the update, i did a stupid thing and updated few nodes, i thought clean install will fix the lip sync problem but it didn't, i also formatted the pc to fix it, also tried that lip sync lora, nothing is working, any tips?",0,421,,before_after,,shortened title+body no longer states a concrete issue,meaning_or_coverage,reject,shortened title+body no longer states a concrete issue,cursor_suggestion_not_human_reviewed

@@ -1,0 +1,67 @@
+{
+  "code_version": "sentiment-paper-dev-v2",
+  "created_utc": "2026-10-09T21:40:24.784064+00:00",
+  "tests_scored": false,
+  "paper_or_overleaf_edited": false,
+  "s2_negative_class": "other update discussion",
+  "historical_tps_gds_reported_separately": true,
+  "general_dissatisfaction_is_not_s2": true,
+  "versions": {
+    "python": "3.14.7",
+    "sklearn": "1.9.1",
+    "numpy": "2.5.3",
+    "scipy": "1.18.1",
+    "pandas": "3.0.6",
+    "vaderSentiment": "unknown"
+  },
+  "settings": {
+    "C": 4.0,
+    "threshold_grid": [
+      0.2,
+      0.25,
+      0.3,
+      0.35,
+      0.4,
+      0.45,
+      0.5,
+      0.55,
+      0.6,
+      0.65,
+      0.7,
+      0.75,
+      0.8
+    ],
+    "inner_folds": 3,
+    "bootstrap": {
+      "n": 1000,
+      "seed": 42
+    },
+    "strong_comment_claim_min_both_role_fraction": 0.5,
+    "keyword_rule": "evaluation.models.vader_rules technical_first, neutral band 0.15; not a pure sentiment model",
+    "comment_features": [
+      "title_body_compound",
+      "author_reply_mean_or_zero",
+      "community_mean_or_zero",
+      "author_reply_missing",
+      "community_comment_missing"
+    ]
+  },
+  "outputs": {
+    "results/figures/comment_coverage.svg": "c3afc7ab81cd515395c81da64da8f9cc824d8657e7fc394ef7c60265b5b9b5b1",
+    "results/figures/full_thread_macro_f1.svg": "decac3dd16101ad6ef7629ce207f1fee0f3e2c812c20ba60d23f3443b7ef5802",
+    "results/figures/role_means.svg": "aa85801befcb948ff0b975aaa56c14bc47e48fa49a054b326add1fe275eee14a",
+    "results/figures/s2_macro_f1.svg": "511de5d12f02be753a36e2bc3a099870ee1a580c5631e5fc0c5fefeec270aa9d",
+    "results/join_coverage_audit.json": "d6bdca000f9e0af77fa46fa7d7f14d4b014c62b7adf931ea440e8b847f48e557",
+    "results/join_coverage_posts.jsonl": "b6d2a46d45444cb126541757ade0b7f3d1a749ce323944afc3f2b15dc8eb94a4",
+    "results/stage_a_title_body.json": "a6429ce6ec92393fad26707f29dfcbc704295c9425f8b013f9597bd3f4ac404f",
+    "results/stage_b_comment_description.json": "06aff65bfb10157d2195d1d0a7ae713b229fdaa3d2185dfea5ccf0f7a5319962",
+    "results/stage_c_comment_subset_predictions.jsonl": "003696ae2324f5337ff44ceb55d038c0eb84a871131609f324cb84f248059f24",
+    "results/stage_c_development_models.json": "914c83fd23dccf00939dfa2fb8460c3155f6c76a4671ad0fcf501225813f4ab9"
+  },
+  "documents": {
+    "AUDIT.md": "80a736095a8d45eba32e9093f21b1ee388466334affd037af546b257a13d840a",
+    "RESULTS.md": "96b47356b08c7b95c6d4f3e5ff7fc39e38c04e86d0ac0f9740d1a358501b28b8",
+    "RUN.md": "e66d124ce150d7b0e0cd66d1ea95f2a3e25ba9decd774a538de2c907908d3d05"
+  },
+  "code_version_note": "sentiment-paper-dev-v2; RESULTS fair-contrast sentence corrected after the run to match the negative interval"
+}

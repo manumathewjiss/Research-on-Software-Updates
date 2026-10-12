@@ -1,0 +1,1702 @@
+reddit_id,study_id,title,post_body,current_s2_target,current_discussion_type,source_pool_audit_only,review_status_audit_only,review_reason,manu_decision,corrected_label_if_needed,explanation
+1rjfro4,C2-02DA992BB577,Alarms,Recently updated my phone to iOS 26.3 and I hate it. The biggest issue is my alarm. It has went off since I updated it but right now when I test it it will sound when I have the iPhone open but if it’s not open and laying flat down it just lights up the screen and doesn’t sound. I’ve tried all the suggestions from ChatGPT and Gemini and all that will temporarily work is restarting my phone then it won’t work again. I downloaded alarmy because I’m just done and will be buying an old school alarm because I can’t oversleep,1,technical_troubleshooting,oct5_query_gds,joint_review,Heuristic flag for human review (not a confirmed labeling error): troubleshoot_label_with_rant_language_and_no_tech_cues. Note: Heuristic flag only. Not a human correction.,keep,,The post describes an alarm that fails after iOS 26.3 and lists attempted fixes.
+1v17vtk,C2-0511E8637D38,Fk the new iPhone keyboard update,"So I thought I was going crazy but apparently Apple did sneak in a keyboard update and coming from one of the top 50 fastest iPhone typers in the world it’s infuriating😡🤬😤it’s like I’m holding a phone for the first time FK this update \*Fix The Gddm Backspace\* or better yet why fix what’s not broken, the one thing not broken on these phones… just run it back to the og. Somethingbthisnsmall becomes the straw that breaks the back💯",0,general_dissatisfaction,oct5_query_tps,manu_assisted_review,Heuristic flag for human review (not a confirmed labeling error): non_troubleshoot_label_but_strong_repair_ask. Note: Heuristic flag only. Not a human correction.,keep,,The main purpose is frustration with keyboard changes; it does not ask for a practical fix.
+1wuyax5,C2-0559BC3B6D96,How to remove the rounded tabs?,"As usual, I'm fairly indifferent to the new update for Firefox. My one issue is that the rounded tabs look like hot garbage and so I'm hoping there's a way to revert them back to the regular squares that won't give me a headache?",1,technical_troubleshooting,oct5_query_gds,pilot_post_discussion,Heuristic flag for human review (not a confirmed labeling error): troubleshoot_label_with_rant_language_and_no_tech_cues. Note: Heuristic flag only. Not a human correction.,keep,,The author asks how to restore square Firefox tabs after an update.
+1rm1fsa,C2-0C2D732707C5,IOS 26.3 completely ruined my messages app and also extremely buggy,"I can name 1000 minor bugs I’ve noticed since this finally updated against my will. The worst one is the messages app is completely ruined. Most importantly, photo and videos I’ve sent between people do not show up when you click their name in messages like they used to, except the ones sent since the update. Messages is basically another memories/camera roll for me since I don’t directly save everything sent to me. I just didn’t expect everything to disappear. Also less important but still annoying, I used to the search a lot to find specific messages that had info I needed. No text can be found unless it’s super recent. What gives? Has this only happened to me? Are they gone forever or will the eventually come back? Btw I’m prolly the biggest 24 year old boomer on earth when it comes to technology. I’m starting to realize why Apple sucks.",1,technical_troubleshooting,oct5_query_tps,manu_assisted_review,Heuristic flag for human review (not a confirmed labeling error): troubleshoot_label_with_rant_language_and_no_tech_cues. Note: Heuristic flag only. Not a human correction.,keep,,Missing message photos and search results are concrete problems the author asks about.
+1lsuvac,C2-1A8ACE70FC15,Update PHP Version,,0,other,oct5_query_gds,manu_assisted_review,Heuristic flag for human review (not a confirmed labeling error): very_thin_text. Note: Heuristic flag only. Not a human correction.,uncertain,,"Only the title is saved. It does not show whether this is a how-to request, a failed upgrade, or an announcement."
+1puf7lm,C2-27BA0C7CDF29,My Favorite New Tab Extension Finally Got Updated After So Many Years,"I've been using a new tab extension called Dream Afar since 2017. Every time I opened a new tab, it gave me this brief pause. A small reset before diving into the next thing. In a browser with 47 tabs of chaos, that little moment actually helped me refocus. It made a noticeable difference in how I stay on top of things.
+
+I recommended it to friends. Some of them still use it. But I'd always have to add the caveat: ""Yeah, it hasn't been updated in years, so don't expect any new features."" Then last week, I opened Chrome and noticed something different. The interface looked... modern? Same vibe, but cleaner. Glass-like widgets. Smooth animations. I thought maybe Chrome broke something.
+
+Nope. It got a complete redesign.
+
+I've been using it for a few days now, and honestly? It feels like an unexpected Christmas gift. That excitement of unwrapping something you didn't even know you wanted, but now can't imagine going without. I find myself opening new tabs just to see the wallpaper change. I keep discovering little details in the interface that make me smile. It's been a while since a simple browser extension made me this genuinely happy, and I couldn't help but share the joy.
+
+**A Few Things I Really Liked**
+
+The core experience is still there—stunning wallpapers that make you actually pause before diving into work. The clock. The search bar. That feeling of ""okay, let's do this"" instead of immediately getting overwhelmed.
+
+But now there's so much more:
+
+**The wallpaper system got serious.** Since it pulls images from different sources, sometime the problem is that the wallpaper image is too bright to see the white font interface. Now the new version actually analyzes the brightness of each wallpaper and adjusts the text color automatically so everything stays readable. Such a small thing, but it makes a huge difference.
+
+**One-click wallpaper switch.** This sounds minor but it's a life changer for me. If I don't like the current wallpaper, I just click a button and it switches to the next one. No more being stuck with an image I'm not feeling.
+
+**The search bar is way more flexible.** You can easily switch between different search engines now, which is nice. But the part I really like is being able to select multiple engines at once—it opens all of them at the same time. Super useful when I'm comparing results or hunting for something specific.
+
+**The todo list changed my workflow.** They added a todo widget, and it's become my favorite thing. Every time I open a new tab, my tasks are right there staring at me. I used to forget to check my reminder app all the time—now I don't have to remember because it's just always there. It's like having a gentle accountability partner that shows up dozens of times a day.
+
+**The weather widget finally works.** This one's personal. The old weather widget was broken for years—I just gave up on it. Now it actually works, and it's so much better than before. Shows moon phases too, which I didn't know I wanted until I had it.
+
+Anyway, just wanted to share. If you're looking for a small tweak that keeps your tasks visible without adding another app to your workflow, might be worth checking out.
+
+[https://chromewebstore.google.com/detail/dream-afar-ai-new-tab-wit/henmfoppjjkcencpbjaigfahdjlgpegn](https://chromewebstore.google.com/detail/dream-afar-ai-new-tab-wit/henmfoppjjkcencpbjaigfahdjlgpegn)",0,other,oct5_query_tps,manu_assisted_review,Heuristic flag for human review (not a confirmed labeling error): non_troubleshoot_label_but_strong_repair_ask. Note: Heuristic flag only. Not a human correction.,keep,,The post praises a redesigned browser extension and its new features.
+1vspeu6,C2-3B61B5B76C53,My first 5 days on Linux and I honestly can't believe I waited this long,"First of all, I am REALLY happy that I switched to Linux.
+
+It all started because of overheating problems on my Dell G3 and the RAM usage on Windows 11. It was getting so bad. I could barely open multiple apps anymore, and recently, after some updates, things got even worse. Booting up the laptop, trying to open an application, or switching between apps would sometimes cause lag or even crashes.
+
+I talked to one of my friends who also uses Linux, and they told me that Linux is great for power users. That honestly made me interested, but I was also really scared to switch.
+
+I had a lot of data on my laptop, and I didn't have enough storage to move everything to another drive. Luckily, I managed to move the important stuff, and that gave me the confidence to finally make the switch.
+
+Another reason I was scared was productivity. I use a lot of Windows apps every day — Zoom, OBS, CapCut, BlueStacks, Docker, and various other tools. I was worried that I would lose all the productivity and daily-use apps I rely on.
+
+And yeah, BlueStacks and CapCut aren't really available on Linux in the same way, so I definitely miss BlueStacks. 😂 That's probably one of the biggest things I miss after switching from Windows 11.
+
+But honestly...
+
+The performance I get from Linux is SO GOOD.
+
+The RAM usage especially shocked me. I'm just sitting here thinking, ""How is this using so little RAM?"" 😂
+
+I've installed a bunch of software already, and somehow the system still feels incredibly lightweight. Even the amount of storage the system itself takes compared to what I expected surprised me.
+
+I've also been getting into Docker and automation, and Linux feels PERFECT for that kind of stuff. For coding, I honestly don't feel like I'm missing much at all so far.
+
+That being said, I still have a few annoying issues.
+
+My touchpad feels a little buggy sometimes. Scrolling and zooming don't feel as smooth or natural as they did on Windows, and I'm still trying to figure out if there's a way to improve that.
+
+Another thing is my screen. Sometimes it flickers slightly, and I can't figure out what's causing it. It's kind of hard to explain, but when I move my mouse around different parts of the screen, the brightness seems to change slightly. It gets a little brighter in some areas and darker in others. At first I thought it might be something related to my graphics card, but honestly, I have no idea yet. 😭
+
+Fingerprint support is another thing I haven't figured out. There doesn't seem to be an option to set it up, although I don't mind typing my password. A fingerprint reader would just save me a few seconds every time. 😂
+
+It's only been about 5 days since I switched, and I'm still learning.
+
+I'm learning terminal commands every day, and whenever I get completely lost, I sometimes ask AI for help. 😂 I'm slowly starting to understand what I'm actually doing instead of blindly copying commands, though.
+
+For now, I've already installed pretty much everything I need for my daily use and coding, and I'm genuinely surprised by how little I'm missing.
+
+I also started customizing my desktop a little. I watched a tutorial and set up what I think is Breeze Dark for now. Later, I definitely want to go much deeper into customization.
+
+I feel like I still have SO much to discover — especially those hidden Linux gems, useful apps, tweaks, terminal tools, and optimizations that you only find after using Linux for a while.
+
+So yeah...
+
+It's only been 5 days, but I'm loving Linux so far.
+
+I'm really happy I finally made the switch. ❤️
+
+If you're a Linux user, what are some apps, tools, tweaks, or ""hidden gems"" you think I should try next?
+
+And if you've dealt with the touchpad issues or weird screen flickering/brightness changes I mentioned, I'd love to hear how you fixed them!
+
+  
+YESS I USED AI TO CORRECT MY GRAMMAR CUZ IT SUCKS!! SOWWWYYY",0,other,oct5_query_tps,manu_assisted_review,Heuristic flag for human review (not a confirmed labeling error): non_troubleshoot_label_but_strong_repair_ask. Note: Heuristic flag only. Not a human correction.,keep,,The main purpose is sharing a positive move to Linux and asking for general suggestions; the minor issues are secondary.
+1wuwdcs,C2-3BDEC68431C9,do they just genuinely hate sidebar + tab group users? (lost all my tab groups),"woke up this morning to find all my tab groups gone on both my work laptop and home computer.
+
+this has cost me maybe an hour's worth of work just trying to get them back.
+
+  
+I basically had my life in there, all the tabs that I needed that I could open up without a worry in the world. Should I have backed them up? Probably, but this should never have been a worry in the first place. I love Firefox, I love the privacy and ad blockers, but this genuinely makes me want to go back to Chrome because I would rather be tracked and bombarded with ads than feel this helpless.
+
+There were links in those tab groups that I haven't opened in weeks and can't find without a hassle, that I didn't need until I urgently needed them - gone. My day to day workflow - gone. Now when I come home, all the links and websites I often use when I want to relax on my home PC - gone.
+
+The worst part is \*I can't even find where to open tab groups unless I swap to horizontal tab mode.\*
+
+Horizontal tabs? There's that downwards ""v"" that opens \*Recent Tab Groups\*. I can't even see the full list anymore. But swap to Sidebar/Vertical tabs,  I don't even get that. The button vanishes. There used to be one on the top right, but that doesn't work anymore.
+
+What in the absolute shit is this clusterfuck of a UI update? I don't even mind the UI changes, but you messed with my layout. My tabs are gone. My trust is gone. I can't even put into words the helplessness I felt when I couldn't even figure out how to open my tab groups. I've come to depend on it, and now that they're gone, I just cannot function. I'm really not even being dramatic here! I depend on those obscure tabs being a click away to do my job, and to rebuild those groups is going to take WEEKS, just to find all the ones I lost because I don't even remember half of them.
+
+Luckily I could recover some of them from sessionstore-backups and the wonderful Jefferson Scher's Session Scrounger, but it's an old backup.
+
+  
+I never once considered moving away from Firefox but this is so devastating that I just might.
+
+  
+Anybody who can help me find the damn tab group menu, or know a trick to recovering them?",1,technical_troubleshooting,oct5_query_tps,manu_assisted_review,Heuristic flag for human review (not a confirmed labeling error): troubleshoot_label_with_rant_language_and_no_tech_cues. Note: Heuristic flag only. Not a human correction.,keep,,The author asks how to recover missing Firefox tab groups and find the menu.
+1tebwdi,C2-3E1CBF8A0251,"I f*in hate OMV’s update feature, it just broke everything","god damn. I really hate that I installed OMV and not plain debian on my machine. Today, I did sth really dumb and used its update feature from the web gui. I actually never use its GUI and have set up most of the server via terminal. I am also not using \_any\_ of OMV’s features so it’s really plain useless for me anyway. I wanted to use the machine as some kind of NAS back then. But actually it’s only running different webservices right now.
+
+It’s a single server (HP Elitedesk) running paperless (which is the main thing I am using) and some other stuff.
+
+Today, I finally got my backup setup working using a cronjob, restic and a hetzner BX11 storebox.
+
+But then I did sth dumb. Before calling it a day I wanted to have a quick look into OMV’s ugly Web UI. No idea why, as I usually never use it. Saw some pending updates and just “updated all” or sth. The web gui got unresponsive and now none of the services is working anymore via browser. Basically nothing is accessible anymore.
+
+What the heck, I hate this stuff.
+
+I will get it working somehow again. As soon as it is, I’ll make this shitty GUI inaccessible to save future me from myself.
+
+Or just wipe the entire thing and put plain debian on it.",1,technical_troubleshooting,oct5_query_tps,manu_assisted_review,Heuristic flag for human review (not a confirmed labeling error): troubleshoot_label_with_rant_language_and_no_tech_cues. Note: Heuristic flag only. Not a human correction.,change,s2_target=0; discussion_type=general_dissatisfaction,"The update broke services, but the post mainly vents and says the author will repair or replace the setup; it does not seek help."
+1tfj4f4,C2-403BB1B8C468,"WHY CHROME? This update broke chrome. Apparently google doesn't care, aw snap! I'm going to dechrome my life if they don't fix this nonsense soon","Seriously, what is going on with these updates? Chrome is broken and this awww snap is very annoying.",0,general_dissatisfaction,oct5_query_tps,manu_assisted_review,Heuristic flag for human review (not a confirmed labeling error): non_troubleshoot_label_but_strong_repair_ask. Note: Heuristic flag only. Not a human correction.,keep,,"This is a complaint about Chrome crashing after an update, without a real troubleshooting request."
+1wu62xu,C2-43764BF48F50,[PROMO] How do you handle quiet site crashes after routine plugin updates? (Built a 100% free tool to help),"Like many of you managing client sites, I got tired of the stress that comes with routine plugin updates—specifically when an update breaks a site quietly and you only find out when a client calls.
+
+Most existing tools just ping you after a site goes down, and site-based pricing gets expensive quickly. So I spent the last few months building WatchYourWP to solve this for my own workflow, and I made it 100% free with no site limits or credit card required.
+
+Here is what it actually does under the hood:
+
+\- Pre-update Risk Warnings: If a plugin update triggers a fatal error on one of your sites, the system automatically flags a risk warning on all your other sites running that same plugin version before you update them.
+
+\- 72-Hour Error Correlation: When a fatal PHP error happens, it matches the error directly to plugin or theme updates made in the last 72 hours, so you know exactly what broke it.
+
+\- Cloudflare R2 Off-site Backups: Encrypted backups stored off-server so you aren't clogging local host storage.
+
+\- 1-Click SSO: Instant passwordless admin access to all your client dashboards from one place.
+
+I’m actively working on this and would love honest feedback from fellow devs, agency owners, and freelancers. What features would make your site management workflow easier?
+
+If you want to give it a spin: [https://watchyourwp.com](https://watchyourwp.com)",0,other,oct5_query_tps,pilot_post_discussion,Heuristic flag for human review (not a confirmed labeling error): non_troubleshoot_label_but_strong_repair_ask. Note: Heuristic flag only. Not a human correction.,keep,,The post promotes a monitoring tool for plugin-update failures rather than troubleshooting its own site.
+1vrquz0,C2-4CF464C58F6B,I don't think ComfyUI fully supports LTX 2.5 yet.,"Maybe I'm missing something, or the official implementation is in the works, but one of the big hullabaloos of  LTX 2.5 is DFR (Diffusion Fidelity Rendering). It's basically the first thing mentioned in the comfyui blog post about it. But...and this is awkward because I love comfy and everybody working on it.. it turns out, the full official DFR pipeline from Lightricks’  own LTX-2 GitHub repository is NOT actually implemented in ComfyUI. 
+
+But, wait! what if it's hidden inside the current implementation?...is what i asked chatgpt, when i went down this, couple of days deep rabbit hole. long story short, no it's not.
+
+And therefore, I present to you ***actual*** **native** LTX-2.5 Spatial DFR in ComfyUI!
+
+Here's a quick teaser from what I have working so far.
+
+* **T2V** — fox / forest stress test
+
+&amp;#8203;
+
+    A low-angle wildlife documentary action-chase shot follows a red fox sprinting at full speed through a dense wet pine forest at dawn,backlit from the rising sun behind him, photographed with fully photorealistic natural detail. The camera races beside and slightly ahead of the fox at matching speed, keeping its head and upper body consistently framed while nearby ferns, wet grass and tree trunks sweep past with strong foreground and middle-ground parallax. The fox runs desperately, ears pulled back and body stretched through each stride; its paws kick wet leaves and droplets from the ground while its fur, whiskers and facial detail remain visible during the motion. Behind it, something enormous advances through the far forest but never enters the frame: first a distant tree top suddenly shudders, then a heavy branch snaps and splinters, and a moment later another heavy branch crashing through and falling with a violent impact noticeably closer, sending leaves and broken twigs outward as the unseen pursuer continues gaining ground. The fox briefly glances backward without slowing, then accelerates as the disturbance approaches, while layered morning mist and distant trees remain stable enough to preserve a strong sense of depth. Cold dawn light filters naturally through the canopy and catches moisture on fur, bark and vegetation. realistic anatomical deformations, Rapid paws stretching forward then crashing down on wet earth, the fox's breathing, distant cracking timber and deep approaching impacts dominate the soundscape. No cut, no visible monster, no fantasy styling or exaggerated debris explosion.
+
+[Same prompt, dimensions, duration, and Stage 1\/Stage 2 seeds. Top: normal Vanilla two-stage. Bottom: native spatial DFR + Pixel Spatial Stage 2. Muted because audio loudness is not parity-controlled.  -\&gt;\&gt; Watch fur, grass, bark, branches, mist, and how the camera\/subject trajectories diverge.](https://reddit.com/link/1vrquz0/video/4ohfrd5mw4kh1/player)
+
+* **I2V** — cybernetic girl fidelity test against official reference I2V example
+
+&amp;#8203;
+
+    Use the provided start image as the first frame. The cybernetic figure slowly turns his head to the right, his glowing blue eyes scanning the horizon, mechanical joints in his neck whirring faintly. The camera follows his gaze, panning across the rooftop to reveal the city beyond: a river of light winding between dark towers, a flying vehicle gliding past between the buildings, its lights streaking. He watches it pass, then his eyes narrow slightly. The camera settles on his profile against the city glow, distant hover traffic humming, wind gusting across the rooftop. No text, no black frames.
+
+[Same prompt, dimensions, duration, and Stage 1\/Stage 2 seeds. Top: normal Vanilla two-stage. Bottom: native spatial DFR + Pixel Spatial Stage 2. Muted because audio loudness is not parity-controlled. -\&gt;\&gt; Watch facial identity, cybernetic edges, lighting transitions, and background city structure. ](https://reddit.com/link/1vrquz0/video/6h2rchsj35kh1/player)
+
+So, the obvious question, how much slower is it? Yes, but it only became obvious to me when I started writing this post. Sorry, but when I was trying to get this to work I really didnt care how long it took. I was more focused on vram, memory loads, what was happening with sampling etc. But generally, I don't remember feeling a big difference at all. Anyway, I'm currently running tests with comfy-benchmark so I'll get back to you on this. :)
+
+Oh I kept emphasizing ""Spatial"" DFR cause theres a **Temporal upscaling** in the full DFR pipeline. Already working on it, but I felt maybe this was a good enough milestone to share with you. It'll help make your LTX gens so much better.
+
+So I'm finishing the final cleanup in repo and benchmark pass. **Full update later today** with all results, side-by-side comparisons, generated DFR keyframes, execution-time + VRAM benchmarks, workflows, and public access to the project.",0,other,oct5_query_tps,manu_assisted_review,Heuristic flag for human review (not a confirmed labeling error): non_troubleshoot_label_but_strong_repair_ask. Note: Heuristic flag only. Not a human correction.,keep,,This presents a ComfyUI implementation and demonstration of LTX 2.5 features.
+1vsvieb,C2-4E2767488947,"Webcam enhancer 'super-tool', new beta version now game-ready optimized, many bug fixes and GUI improvements.","Hello!
+
+Again thanks to all who have assisted, and for your patience as I fix Beta bugs and solve issues (going great! most issues resolved) for CamfilterGpu.
+
+--- This is the last major Beta update! Just reinstall this one (1.18), and further updates will be much smaller-sized patch updates. The App now checks if an update is available and asks if you want to apply.
+
+Download the latest Beta1.18 setup .exe : https://perfunct.com
+
+--- Fixed a problem for webcams that don't return proper property values (driver issue). Fixed a ton of other similar issues. 
+
+--- Major additions and fixes to the new fast &amp; lightweight GPU background removal (ARGB transparency is controllable).
+
+I will be posting a new tutorial video later today. Will update here.
+
+Cheers!",0,other,oct5_query_tps,manu_assisted_review,Heuristic flag for human review (not a confirmed labeling error): non_troubleshoot_label_but_strong_repair_ask. Note: Heuristic flag only. Not a human correction.,keep,,The post announces a beta release and describes its new features.
+1od3glr,C2-5174730F2E65,"I love linux, but...","Now, I fully switched to linux this year and I really like it, finally I don't feel like i'm being spied on everytime I use my computer. But there is one thing I still don't understand and really bothers me. The OS breaks, randomly. Yeah, you simply update it, and you are left with missing drivers, kernel panic, broken UI, emergency mode, etc...
+Now, me and my friends just got a new computer to play a rhythm game and stream it on twitch, I wanted to put linux on it, like on our current computer, but they all stopped me, because linux broke twice on that computer, everytime after a simple update, the gpu drivers were gone, and I still don't understand how it happens. How can something that is meant to improve your OS make it unusable? And when I try to ask on communities how to fix it, the answers are always ""just reinstall it"" or ""sssskill issue"". We can't rely on linux because once every few months it needs to be reinstalled, and all of our files are gone, unless we physically connect our SSD to another computer and backup something like 100GB of songs on an external hard drive (the process, as you can imagine is PISS SLOW). I also guess this is what is stopping most people from using Linux, you can't really rely on it because it breaks.
+I feel bad writing this but it's the sad truth. I'm not going to switch back to windows on my personal computers ever, but I was basically forced to install atlas os (so windows but debloated) on the computer we use for that game.
+We gave linux a chance, but it didn't work out.
+
+Edit: This is what happened everytime:
+
+1st distro - Linux mint - broke nvidia drivers after an update
+
+2nd distro - EndeavourOS - Same as mint
+
+3rd and current distro - CachyOS - the computer randomly freezes, and it's not overheating or hardware problems, as I personally checked.",0,general_dissatisfaction,oct5_query_tps,manu_assisted_review,Heuristic flag for human review (not a confirmed labeling error): non_troubleshoot_label_but_strong_repair_ask. Note: Heuristic flag only. Not a human correction.,keep,,The main purpose is broader frustration with Linux reliability after updates.
+1rvkxr8,C2-55E1284285A5,I really dislike the Android toolbar redesign,"After getting a desktop update, I got excited for the announced 15% perf increase on Android or whatever, so I quickly checked the secret menu on Android Nightly first, aaaand it's gone.  
+Seriously, it's a good thing I expected this and disabled auto-update last time this happened. At least there was the Secret Menu option to restore it back then.   
+So now I wasted 3h of my life testing all the ways in which the new Composable Toolbar feels broken to me:
+
+- The Extensions Dropdown used to fall under my thumb now it's a *just* a bit too high where I can sometimes miss it. (I tweak userscripts a lot.)
+- All Extensions no longer fit on one screen. I need to scroll and arbitrary amount to find the one I need (name starts with a V...) It could have been improved with a pinning system which i may have hallucinated in a previous beta (2 clicks instead of 3) but I see no such thing here.
+- Manage extensions no longer has an icon. My reflex was based on looking for that icon.
+- Scroll-to-hide toolbar is now super janky. Small ups and downs that used to hide it no longer do, it takes longer to draw out, accidentally stays open or closed half the time. Also, the way it instantly snaps back up feels awful.
+- All it takes is an small accidental *drag* to either close the toolbar or sent it scrolling up. None of this could happen before:  
+Tapped the bottom Reload button while dragging down a bit? It closes the toolbar instead!  
+Tapped the top Bookmark button with a bit of inertia in your finger? It scrolls up!
+- I always closed the old toolbar by tapping the page to the side, the new version makes me feel trapped inside. I need time to remember that you can backspace out of it (a dangerous action when browsing).
+- Closing the 3-dot toolbar with swipe has a slow fade-out anim followed by a blink that does not respect my global settings (0x animator and transition speed, 0.5x windows). It didn't respect it before either but looked nice and consistent at least. 
+- Opening the 3-dot animation is measurably slower than the old Tab Drawer. It's faded slider makes no logical sense either. Besides, it feels like a UX failure to cover the screen with a Drawer when those actions are decided by the user *before* pressing the button (you are just trying to execute them). It just adds an unnecessary mental boundary (Doorway Effect, transitions prepare a mental reset).  
+- The old Tab Drawer animation was smooth and matched 3d-dots. Now it is mismatched and instant.
+- The Tab Drawer is still fullscreen and slide-to-close, which means a Back gesture can be converted into an accidental tab close if using Gestures.
+- The Tab Drawer now has double-margin, so in List Mode (which still shows more tabs than Grid with 3x longer titles somehow), there is now less title space, and the thumbnails are ridiculously small! The new horizontal spacing lines are really distracting as well.   
+I cannot say if the bug where thumbnails sometimes get mis-assigned / replaced still happens. This is one fix that I might actually care about, but blank thumbs are still a thing, so probably not (making me want to use Grid even less if thumbs cannot be trusted.) 
+- In the Drawer, New tab is now a large text button occupying 1/3 the screen instead of a (+), and the 3-dots hides a thumbnail even though you never use it.
+- Actually, the ONE GOOD USE of the 3-dots was removed! ""Share All tabs"" =&gt; Share to Clipboard =&gt; Paste in a doc is missing! To offload old tabs, you now have to select them 1 by 1 or use a tab-exporter addon (do these addons even work on Android? I'm afraid this might be why I discovered this trick in the first place!)
+- One good new feature is the confirmation on 3-dots ""Close all tabs"", the lack of which made the existing ""3-dot &gt; Recently closed tabs"" shortcut a bit risky.
+- The URL bar was already tiny and got even shorter.
+- ~~The toolbar is visibly taller; I was already complaining about lack of space e.g. on reactive sites with nested scrollables where the toolbar does not have a force-collapse option. Plus there was already a huge gap that could've been easily reclaimed for Buttons users, yet it somehow became worse.~~ This appears fixed in the lastest nightly, it's only ~2px taller than the old one and about the same as Chrome or Brave.
+- All the text on the toolbar is bigger, and looks huge on my S23.
+- The overall contrast of the buttons and background is awful, and buttons still have no identity. Hitting a specific button like History takes too much effort.
+- In fact, I need to History often to access closed tabs. It could've been put right under the thumb for example, we got the Password icon instead. Still as many click, but messed up muscle memory again.  
+Innovations I might actually care about such as showing the depth of the navigation-tree on closed tabs rather than have me try to reopen each one of them haven't improved.
+- The useless Home button can be replaced, but not removed, nor can the Shield. They also got bigger. In any case, a New Tab button that opens a tab at the end is mostly useless to me: I am not kidding when I say that 99% of my Firefox use is highlighting a word and doing ""Search"" for the sole purpose of opening an *adjacent tab* like a poor man's tab-group. This is my primary mode of interaction with this app. The only direct navigation features that I need are a tiny New-adjacent-tab and that Undo-with-long-press-history to finally ditch the Buttons for Gestures.  
+Admittedly the functional Next button option gives me hope (long press!). Adding haptic feedback when the history is summoned is a nice touch...
+- ...but they forgot to put vibrations on the *first press*, so it feel slower and inferior to the physical Back button long-press. (You are pressing a button with no feedback until something magically happens. (The lack of haptic feedback on navigation is an old design failure). And vice versa, the feedback isn't mirrored on physical long presses.
+- The Private and Normal tab groups were inverted and mess up my muscle memory. They were also raised just a little just past the point where my thumb naturally reaches. Actual longstanding issues, such as private tabs collapsing the toolbar on close when your next action is going to be tapping back Normal 95% of the time or perhaps opening a new one from the toolbar still happen.
+- I keep accidentally opening the Bookmarks List to edit a Bookmark. The actual Bookmark is hidden at the top. It used to be visible in purple even when not marked, now it is the same gray as everything else so I gravitate towards the icon. Sure, the old version was not visible enough when selected, but this makes bookmarking worse in the first place.
+
+Note: This is all from the viewpoint of a bottom-toolbar use, I realize that UI e.g the Bookmarks is placed at the top for top-toolbar users. However, I use web browsers to read things, so I often need to scroll back up for a bit -- which does absolutely nothing if scrolling backwards draws down the top-toolbar instead of revealing the text -- therefore I consider top-toolbar to be useless (and probably holding back the UI).  
+I get that apps like TikTok put their secondary actions at the top to keep you away from back buttons at all cost with those corner arrows and stuff, then again, from my perspective, the redesign just managed to add another Back button use into it's core loop (genius).
+
+And that's just the stuff that I felt personally. Anyways, I'll probably keep using 148.0.1 for as long as I can, and if not, well, FF is probably still the least-worst extension browser that can mostly navigate, but I really do hope that this improves.  
+And in the meantime, *please* bring back the Secret Menu toggle.",0,general_dissatisfaction,oct5_query_tps,manu_assisted_review,Heuristic flag for human review (not a confirmed labeling error): non_troubleshoot_label_but_strong_repair_ask. Note: Heuristic flag only. Not a human correction.,keep,,"This criticizes an Android toolbar redesign, with no focused repair request."
+1qom6ds,C2-60CE224147E8,Dell Display Monitor No Longer Working after Windows January 2026 Update,"I'm using a Dell S3220DGF monitor and up till recently was very happy using Dell Monitor Manager v2.3.0.22. Unfortunately the latest Windows 11 security update has made it so it no longer works. It still opens for now but all the options are greyed out. It had actually stopped working altogether. Upon trying to reinstall it said there was a newer driver already installed and that I had to uninstall that first. Couldn't find a way to do that though.   
+
+
+I did a system restore and it worked again, stopped windows update from reinstalling the new security update. However, after restarting I'm back to everything being greyed again. I downloaded and tested the new Dell Monitor and Peripheral manager. It works but I really don't want to use it. Almost 1gb of program just to control my monitor? no quick access tray icon? Numerous issues as people mentioned on reddit? I hate it. 
+
+Anyone else having this issue? Any way to keep using the basic DMM?",1,technical_troubleshooting,oct5_query_tps,manu_assisted_review,Heuristic flag for human review (not a confirmed labeling error): troubleshoot_label_with_rant_language_and_no_tech_cues. Note: Heuristic flag only. Not a human correction.,keep,,Dell Monitor Manager stopped working after a Windows update; the author describes a specific failure.
+1suy71k,C2-665A6E18804F,Chrome Android update (April 24) just ruined my tab groups order.,"\*I'm based in the Netherlands (Europe).\*
+
+Absolute a stupid update. My layout is completely destroyed on my Samsung Galaxy A52.
+
+
+​Just before 1 AM tonight April 25th (Saturday night), I noticed that all my ""tab groups"" were ripped out of my normal tabs order and shoved into a separate ""tab group"" menu. My chronological order while using chrome and last openend etc is ruined.
+
+Setting ignored: ""Inactive tabs"" is set to NEVER, yet Chrome still moved and shuffled them.
+
+All previews are black/grey on the tabs. It’s unusable for anyone who keeps tabs organized. 
+
+Anybody got this problem too? Google Chrome did something similair to this but that with al tabs in february 2025. Shoving not recent used ones back.
+
+Is it fixable?",1,technical_troubleshooting,oct5_query_tps,manu_assisted_review,Heuristic flag for human review (not a confirmed labeling error): troubleshoot_label_with_rant_language_and_no_tech_cues. Note: Heuristic flag only. Not a human correction.,keep,,The author asks whether the changed Chrome tab-group behavior is fixable.
+1v17wwt,C2-677151D9DA09,Fk the new iPhone keyboard update,"So I thought I was going crazy but apparently Apple did sneak in a keyboard update and coming from one of the top 50 fastest iPhone typers in the world it’s infuriating😡🤬😤it’s like I’m holding a phone for the first time FK this update \*Fix The Gddm Backspace\* or better yet why fix what’s not broken, the one thing not broken on these phones… just run it back to the og. Somethingbthisnsmall becomes the straw that breaks the back💯",0,general_dissatisfaction,oct5_query_tps,joint_review,Heuristic flag for human review (not a confirmed labeling error): non_troubleshoot_label_but_strong_repair_ask. Note: Heuristic flag only. Not a human correction.,keep,,This repeats the keyboard complaint in row 2 and should receive the same label.
+1u1hh3o,C2-73F21168F94C,Anyone Else Have Issues with Jetpack Social,"I know they have their own sub but it sucks.
+
+After the most recent update, My u/jetpack  social has eliminated my ability to select a post NOT to share to Facebook.  There used to be a toggle in the right column just before publishing, and it is gone. I click the Jetpack Icon up top in the menu bar, and Social is not listed.  I try to access the SOCIAL page from the left bar, and the page opens blank.
+
+I have been going back and forth with support, but it is like a day between replies from them. We have tried different browsers and private windows. Cleared all the cookies and Cache. Disabled all plugins. Reverted to the core theme with no plug ins. Always getting the same result.
+
+It is posting all new posts to FB regardless if I want them to go or not. I need to go into FB and delete them which sucks. Anything that was scheduled before the update is still operating properly and not posting if I had it toggled to not post.
+
+Anyone else seeing this behavior?  Any thoughts or ideas?",1,technical_troubleshooting,oct5_query_tps,manu_assisted_review,Heuristic flag for human review (not a confirmed labeling error): troubleshoot_label_with_rant_language_and_no_tech_cues. Note: Heuristic flag only. Not a human correction.,keep,,Jetpack Social lost controls after an update; the author tried fixes and asks for ideas.
+1p03h1q,C2-76D7FD0F052C,My Copilot sidebar in Edge,So Im totally confused as it doesnt refer to me by name anymore and says that memory is toggled off even thought Ive been using it like this for close to 6 months now. When I use regular copilot it says Microsoft has been rolling out updates to their memory system and my sidebar must not have been updated yet but it seems weird that the reg app works just fine. I have really gotten used to the sidebar with its memory to help me with my schoolwork but it sucks that it cant remember anything we've done over the past 6 months.  Oh and no I cant go into settings and just toggle it on because there is not setting for it Ive looked everywhere. Any advice???,1,technical_troubleshooting,oct5_query_gds,pilot_post_discussion,Heuristic flag for human review (not a confirmed labeling error): troubleshoot_label_with_rant_language_and_no_tech_cues. Note: Heuristic flag only. Not a human correction.,keep,,The Copilot sidebar lost memory behavior and the author asks for advice after checking settings.
+1v5cgo7,C2-79F5B0ADEBBB,Ninja RMM just break for everyone?,"The Ninja RMM update last night seems to have somehow translated into the Ninja remote agent breaking on just specifically domain controllers. It might be server OS specific. So now we can't get into any of our MSP clients' servers to do new hires. And it's Friday. Great.
+
+Also, it's reporting offline status (probably the real problem) so we can't even attempt to use Splashtop or RDP. We have to RDP into the server from a client computer onsite, which hopefully is enabled at every customer. Thanks, Ninja! I hate you. Wish we used Connectwise.",1,technical_troubleshooting,oct5_query_tps,joint_review,Heuristic flag for human review (not a confirmed labeling error): troubleshoot_label_with_rant_language_and_no_tech_cues. Note: Heuristic flag only. Not a human correction.,keep,,The Ninja agent stopped working after an update; the post identifies a specific operational failure.
+1ry5y9x,C2-7DD23E546B47,Our 'harmless' backend migration silently broke the app for every user who didn't update,"This is the kind of thing that seems obvious in hindsight but I guarantee most teams aren't thinking about it and it almost cost us a major client so we have a mobile app serving about 200K users across both platforms and our backend team decided to migrate from REST to GraphQL for a set of core endpoints the plan was solid on paper, old REST endpoints would stay alive for 6 months as deprecated, new GraphQL endpoints would be the default going forward, the mobile team would update the app to use GraphQL, everyone updates, we sunset REST, done.
+
+The migration went smoothly and the new app version shipped with GraphQL calls and everything was working great for users who updated. The problem was that about 35% of our user base was still running the old app version from 2-3 months ago because that's just how mobile works, people don't update their apps especially on Android where auto update is frequently turned off or delayed by weeks.
+
+These users were still hitting the REST endpoints which were technically still alive but here's what nobody accounted for: our backend team had also changed the authentication middleware during the migration and the new auth layer was returning error responses in a different JSON structure than the old one.
+
+The old REST endpoints still worked for normal successful requests but whenever a token expired or a session needed refreshing, the error response came back in the new format which the old app version couldn't parse so the old app would try to refresh the auth token, fail to parse the error response, fall into its generic error handler, and log the user out like from the user's perspective they'd open the app, it would work for a while, and then randomly kick them out and they'd have to log in again sometimes multiple times per day depending on their token expiry timing.
+
+We didn't catch this for almost 3 weeks because our monitoring was only tracking the new app version's health, the old version's error rates were technically as we were expecting since we knew it was deprecated and our backend team assumed any errors on deprecated endpoints were just natural degradation, meanwhile 35% of our users were getting logged out randomly and our support inbox was on fire with 
+
+""why does your app keep signing me out""
+
+tickets that we initially dismissed as users not updating their app we only realized the scope of the problem when our QA team ran the old app version on real devices through a vision AI testing tool named Drizz(dot)dev and watched the logout loop happen live, then correlated it with the auth middleware change the fix was simple, we made the new auth middleware return error responses in both the old and new format based on a header the client sends, took maybe half a day to implement. But the damage to user trust during those 3 weeks was real.
+
+The takeaway that I now bring up in every migration planning meeting is that if you have a mobile app, your old version is not some theoretical thing you can deprecate on a timeline It's a living breathing client that real paying users are running right now and will continue running for months after you think everyone should have updated every backend change needs to be tested against at least your current production version AND the previous version simultaneously or you're going to break something for users who did nothing wrong except not tap update  fast enough.",0,other,oct5_query_tps,manu_assisted_review,Heuristic flag for human review (not a confirmed labeling error): non_troubleshoot_label_but_strong_repair_ask. Note: Heuristic flag only. Not a human correction.,keep,,"This is a retrospective account of a backend migration and its fix, not a request to diagnose an active problem."
+1ssx48c,C2-8AC175E0818F,Apple has released iOS 18.7.8 and iOS 26.4.2,"These updates are just security and bug fix updates and don’t have any new features, you can install iOS 18.7.8 on all iOS 18 supported devices not running iOS 26",0,other,oct5_query_tps,manu_assisted_review,Heuristic flag for human review (not a confirmed labeling error): non_troubleshoot_label_but_strong_repair_ask. Note: Heuristic flag only. Not a human correction.,keep,,This announces iOS security and bug-fix releases.
+1piv7fr,C2-8C0B3266A561,[Help] Different types of version of every plugin,"Its my first time using wordpress and i HATE this that every other plugin is incompatible with the other one
+I just updated one plugin to latest version and whole site crashed and every page is showing white screen what am even supposed to do??
+
+How does this thing even work pls help because deadline is due",1,technical_troubleshooting,oct5_query_tps,manu_assisted_review,Heuristic flag for human review (not a confirmed labeling error): troubleshoot_label_with_rant_language_and_no_tech_cues. Note: Heuristic flag only. Not a human correction.,keep,,A plugin update crashed the WordPress site and the author explicitly asks for help.
+1vtni70,C2-9855626B4C62,TrueNAS 26-BETA.3 Now Available!,"The TrueNAS team is pleased to release TrueNAS 26-BETA.3!
+
+This release updates the Linux kernel and OpenZFS, moves the NVIDIA GPU driver to the Long Term Support Branch for a longer support window, and adds dedicated spares for dRAID pools and spare activation for special and dedup vdevs. It also fixes upgrade issues that affected Active Directory and Enterprise update profiles, a cloud backup defect that stopped all scheduled tasks, Fibre Channel target mode crashes, and container, virtual machine, and networking issues.
+
+# 26-BETA.3 Notable Changes
+
+* Fixes crashes on systems that use Fibre Channel target mode ([NAS-142014](https://ixsystems.atlassian.net/browse/NAS-142014), [NAS-142018](https://ixsystems.atlassian.net/browse/NAS-142018)). The QLogic Fibre Channel target driver could follow a null target operations pointer from interrupt paths, and target mode could stay partly enabled after target registration failed. The driver now checks the pointer before it uses it and fails target enable when registration does not succeed.
+* Fixes cloud backup tasks that could stop the `middlewared` event loop and silently disable every scheduled task ([NAS-141948](https://ixsystems.atlassian.net/browse/NAS-141948)). The cloud backup progress thread updated job progress from outside the event loop, which stopped the loop while the `middlewared` service still reported as active. Cron jobs continued to fire and log, but every scheduled task did nothing and raised no error. Progress updates now run on the event loop.
+* Fixes a memory leak in the console CLI that could exhaust system memory ([NAS-141238](https://ixsystems.atlassian.net/browse/NAS-141238)). Continuous input on the physical console, such as a stuck key on an attached keyboard, made the CLI process grow to tens of gigabytes of RAM until the kernel out-of-memory killer stopped it. Console CLI memory use is now bounded regardless of how much input arrives.
+* Fixes upgrades to TrueNAS 26 that leave Active Directory non-functional ([NAS-141469](https://ixsystems.atlassian.net/browse/NAS-141469)). On an Active Directory member server, the directory cache could go FAULTED after the post-upgrade reboot and winbind could fail to start, which locked users out until an administrator left and rejoined the domain. A related defect also logged a false message once an hour that the machine account password changed. The member state now survives the upgrade.
+* Fixes faulty parsing of `smartctl` output that filled `/var/log/middlewared.log` with errors ([NAS-141215](https://ixsystems.atlassian.net/browse/NAS-141215), [NAS-141951](https://ixsystems.atlassian.net/browse/NAS-141951)). Systems updated to 25.10.5 logged repeated parse errors from drive health checks. The parser handles the full range of `smartctl` output so drive health checks complete without errors.
+* Improves failover speed by moving the remote disk retaste call out of the failover event ([NAS-141988](https://ixsystems.atlassian.net/browse/NAS-141988)). A remote disk scan ran inside the critical failover path, where it could delay failover while services stayed offline. The scan now runs outside that path.
+* Fixes a database migration failure when updating from TrueNAS 25.04.2.6 to 25.10.3.1 ([NAS-141221](https://ixsystems.atlassian.net/browse/NAS-141221)). The update stopped a few seconds after it started with an `[EFAULT]` error from the `migrate` command. The migration now completes so the update finishes.
+* Fixes an upgrade that forced the update profile to **Mission Critical** on Enterprise systems ([NAS-140905](https://ixsystems.atlassian.net/browse/NAS-140905)). A database migration set the update profile to **Mission Critical** on every Enterprise system, regardless of the profile the running version actually used. The system then raised a warning that the running system version profile did not match the selected update profile. The migration now keeps the profile that the system already used.
+* Fixes replication failures for source systems that host a container when the task uses **Full Filesystem Replication** ([NAS-140878](https://ixsystems.atlassian.net/browse/NAS-140878)). After an upgrade to TrueNAS 26, a replication task to a remote system on an earlier release could fail with an error about a failure to transfer all children of the container dataset. Turning off **Full Filesystem Replication** avoided the failure. These tasks now complete.
+* Fixes several issues with the SSH credentials used for replication ([NAS-141677](https://ixsystems.atlassian.net/browse/NAS-141677)). The system now updates SFTP cloud credentials when the SSH key pair they use is removed, rejects encrypted SSH private keys consistently during validation, returns a clear error when semi-automatic remote setup uses a key pair that no longer exists or is invalid, and completes SSH pairing with TrueNAS 13 systems during remote replication setup.
+* Fixes Active Directory domain join failures caused by combined IPv4 and IPv6 PTR record updates ([NAS-140548](https://ixsystems.atlassian.net/browse/NAS-140548)). `nsupdate` sent IPv4 and IPv6 PTR records in a single transaction, which returned a NOTZONE error and stopped the domain join. The records now go out in separate transactions.
+* Fixes SMB advertising file permissions that the file system does not enforce ([NAS-141608](https://ixsystems.atlassian.net/browse/NAS-141608)). ZFS does not let the `owner@`, `group@`, and `everyone@` entries carry `WRITE_ACL` or `WRITE_OWNER`, but Samba still reported those rights to clients. Samba now advertises only the rights the file system enforces, so SMB and NFS clients see the same permissions. Entries for named users and groups keep these rights.
+* Improves the speed of dataset creation with the **SMB**, **Multiprotocol**, and **Apps** presets ([NAS-141154](https://ixsystems.atlassian.net/browse/NAS-141154), [NAS-141161](https://ixsystems.atlassian.net/browse/NAS-141161)). Creating a dataset with one of these presets could take several seconds on 26-BETA.1 and 26-BETA.2 because of the per-credential access check that runs during creation. Batched access probes restore normal dataset creation speed.
+* Adds support for dedicated spares on pools that use dRAID vdevs ([NAS-140629](https://ixsystems.atlassian.net/browse/NAS-140629), [NAS-141277](https://ixsystems.atlassian.net/browse/NAS-141277)). Pool creation validation blocked dedicated spares on dRAID pools. Both the web interface and the middleware validation now allow this configuration.
+* Adds spare activation for special and dedup vdevs ([NAS-141201](https://ixsystems.atlassian.net/browse/NAS-141201)). A failed device in a special or dedup vdev did not activate an available spare, which matters more as special vdevs come into wider use. Spares now activate for these vdev types.
+* Fixes the pool creation screen offering disks that SED encryption excludes ([NAS-141096](https://ixsystems.atlassian.net/browse/NAS-141096)). Disk selection during pool creation did not filter for SED encryption. The disk list now applies the filter.
+* Fixes the maximum data transfer size applied to 9500 TriMode devices ([NAS-140978](https://ixsystems.atlassian.net/browse/NAS-140978)). The driver did not apply the 2M limit that these devices report. An upstream fix is included so transfers stay within the supported size.
+* Fixes the storage screens showing a normal vdev status when a drive in that vdev is FAULTED ([NAS-140955](https://ixsystems.atlassian.net/browse/NAS-140955)). A faulted drive did not change the vdev status, so an administrator had to expand each vdev to find the problem. The vdev status now reflects a faulted drive, as it already did for an unavailable drive.
+* Fixes a false alert that an SMB share is unavailable because it uses a locked dataset ([NAS-141461](https://ixsystems.atlassian.net/browse/NAS-141461)). A `ShareLocked` alert could persist after boot for a share on an encrypted dataset, even though the dataset was unlocked and the share worked normally. The alert now clears when the dataset unlocks during boot.
+* Fixes custom app updates and private registry support for authenticated Docker registries ([NAS-141149](https://ixsystems.atlassian.net/browse/NAS-141149), [NAS-141553](https://ixsystems.atlassian.net/browse/NAS-141553)). Custom app updates failed when the image came from a registry that requires authentication, and registries that use `htpasswd` authentication were not supported. Both authentication paths now work.
+* Fixes TrueCloud Backup errors that showed only `error.message` and jobs that could hang without end ([NAS-141287](https://ixsystems.atlassian.net/browse/NAS-141287)). The progress reader looked for a flat `error.message` field, but restic nests the text inside an `error` object, so every restic error turned into a `KeyError` and the real message never reached the user or the job log. Errors now report the text that restic returns.
+* Fixes a `dtype` error that prevented pool selection for containers ([NAS-141234](https://ixsystems.atlassian.net/browse/NAS-141234)). Virtual machine and container device settings are stored encrypted. On a system restored from a configuration whose encryption secret no longer matched, these settings decrypted to empty values and failed validation, so the form returned only `dtype` and the containers feature stayed unusable. Devices that cannot be decrypted are now dropped when the encryption secret resets.
+* Fixes missing IPv6 connectivity in LXC containers on a clean install ([NAS-141468](https://ixsystems.atlassian.net/browse/NAS-141468)). A clean install of 26.0.0-BETA.2 enabled IPv4 forwarding but left IPv6 forwarding disabled on the host, so a container on the default `truenas0` bridge received an IPv6 default route but could not reach IPv6 networks. IPv6 forwarding is now enabled.
+* Fixes WS-Discovery so the system appears in the Windows network browser ([NAS-141440](https://ixsystems.atlassian.net/browse/NAS-141440)). A system running 26.0.0-BETA.2 did not show up in network discovery, even with the same configuration that worked on 26.0.0-BETA.1. Discovery works again.
+* Fixes IPv6 autoconfiguration settings that did not apply after the `dhcpcd` migration ([NAS-141208](https://ixsystems.atlassian.net/browse/NAS-141208), [NAS-141386](https://ixsystems.atlassian.net/browse/NAS-141386)). An interface with **Autoconfigure IPv6** disabled still received extra IPv6 default routes, and SLAAC stayed active on an interface with DHCP enabled. Both settings now apply as configured.
+* Fixes the **Save** button staying inactive when the device order changes in a virtual machine ([NAS-140791](https://ixsystems.atlassian.net/browse/NAS-140791)). A change to **Device Order** on a VM device did not activate **Save**, so the new order could not be applied on 26.0.0-BETA.1. The change now saves.
+* Fixes virtual machines left suspended after a periodic snapshot task ([NAS-141124](https://ixsystems.atlassian.net/browse/NAS-141124)). A VM with disks on a dataset covered by a periodic snapshot task could stay suspended without end, and it could only be resumed or powered off. These VMs now return to a running state.
+* Fixes certificate deletion blocked by TrueNAS Connect ([NAS-141224](https://ixsystems.atlassian.net/browse/NAS-141224)). Deleting a certificate could fail with a message that TrueNAS Connect uses it, even after the system was removed from TrueNAS Connect and the force option was used. A certificate that TrueNAS Connect no longer uses now deletes.
+* Fixes the **time** field on system audit events ([NAS-141949](https://ixsystems.atlassian.net/browse/NAS-141949)). Audit entries for `svc=SYSTEM` events recorded a time about seven hours behind UTC because the field used a fixed offset instead of the system time zone. Entries for `svc=MIDDLEWARE` and `svc=SMB` were already correct. System audit entries now record the correct time.
+* Updates the NVIDIA GPU driver to [580.173.02](https://www.nvidia.com/en-us/drivers/details/273160/), the current Long Term Support Branch (LTSB). This version number is lower than the driver in 26-BETA.2, but it extends the support window for a more stable product. 26-BETA.2 shipped a 590 New Feature Branch driver, which is intended for early adopters and reaches end of life in December 2026. The 580 LTSB is supported until August 2028.
+
+See the [Release Notes and changelog](https://www.truenas.com/docs/scale/26/gettingstarted/versionnotes/#26.0.0-beta.3) for more details.
+
+**Documentation** : [https://www.truenas.com/docs/scale/26](https://www.truenas.com/docs/scale/26)  
+**Download** : [https://www.truenas.com/download-truenas-community-edition](https://www.truenas.com/download-truenas-community-edition/)
+
+Thank you for using TrueNAS! Happy BETA testing! And as always, we appreciate your feedback!
+
+Original Forums Post: [https://forums.truenas.com/t/truenas-26-0-0-beta-3-is-now-available/67564](https://forums.truenas.com/t/truenas-26-0-0-beta-3-is-now-available/67564)",0,other,oct5_query_tps,joint_review,Heuristic flag for human review (not a confirmed labeling error): non_troubleshoot_label_but_strong_repair_ask. Note: Heuristic flag only. Not a human correction.,keep,,This is a TrueNAS beta release announcement.
+1pe4x00,C2-98E952F7CEA6,New Comfyui UI Nodes 2.0 beta,In the latest comfyui update a change was made to the ui for Nodes 2.0 beta... it's changing my nodes too much and I'm wondering if there's a way to simply turn that off instead of reverting to an earlier version?  specifically the Ksampler no longer shows the control\_after\_generate drop down for Seed... but there are also changes to the context menus of some of the nodes... I hate change  :P  sighh.,1,technical_troubleshooting,oct5_query_gds,pilot_post_discussion,Heuristic flag for human review (not a confirmed labeling error): troubleshoot_label_with_rant_language_and_no_tech_cues. Note: Heuristic flag only. Not a human correction.,keep,,The author asks how to turn off a specific ComfyUI interface change after updating.
+1pt9tux,C2-9D4333D7F481,How to setup VLANs on Linksys MX4300 / LN1301 (Guide),"After quite a bit of trial and error (I’m still new to networking and definitely made some rookie mistakes along the way), I was finally able to get VLANs working across my two Linksys MX4300 routers. They’re connected via Ethernet, with one acting as the main router connected to the AT&amp;T Fiber modem using IP Passthrough, and the second connected to the main router on LAN3 via Ethernet and configured as a dumb access point.
+
+Background
+
+I have **two LN1301 routers**:
+
+* **Main router**
+* **Dumb AP**
+* When I first flashed them, I used a **snapshot build** I found on Reddit. I’m not saying that build was the issue, but after upgrading both routers to the **latest stable release**, things became much smoother and predictable.
+
+**Goal:**
+
+Set up **multiple VLANs** with a simple, expandable design.
+
+Currently:
+
+* **VLAN 1 – Main network**
+* **VLAN 2 – IoT network**
+
+(I’m skipping Guest VLAN for now, but the setup makes it easy to add later.)
+
+**Hardware Layout:**
+
+* LN1301 has:
+   * **3 LAN ports**
+   * **1 WAN port**
+* The **main router and dumb AP are connected via LAN3 (wired backhaul)**
+
+**What Finally Worked**
+
+VLAN Configuration on *Device* *Configuration* of br-lan
+
+**VLAN 1 (Main)**
+
+* Set as **Untagged / Primary VLAN**
+* Enabled on **all LAN ports**
+
+**VLAN 2 (IoT)**
+
+* **Tagged on LAN3 the port I am using for wired connection between two devices**
+* **Not participating** in LAN1, LAN2
+* I **did NOT create a separate br-iot bridge** on either the main router or the AP
+* Instead:
+   * Linked **br-lan.1 → Main LAN interface \[Subnet** [**192.168.1.1**](http://192.168.1.1) **format\]**
+   * Linked **br-lan.2 → IoT interface \[Subnet** [**192.168.2.1**](http://192.168.2.1) **format\]**
+
+**Firewall &amp; Services**
+
+* Created firewall rules for the IoT network
+* Enabled access to ports for:
+   * **DHCP**
+   * **DNS**
+* Verified isolation and access rules as needed
+
+That was pretty much it for core networking on main router.
+
+**Dumb AP:**
+
+Ensure you configure static IP first [192.168.1.2](http://192.168.1.2) for dumb ip (you can try DHCP and reserve the IP address on main router and that will be fine too).
+
+Rest, follow pretty much the exact setup from main router for VLANs.
+
+**lan gets br-lan.1 interface. disable DHCP \[Ignore interface\]**
+
+**IoT gets br-lan.2 interface, this is protocol unmanaged, do not enable dhcp.**
+
+*No need to create any devices like br-iot etc.*
+
+Do the wifi SSID setup on both, ensure you select correct interfaces, non-overlapping channels. Use same SSIDs names on both. I have 5GHz SSIDs same and 2.4 GHZ SSIDs same names on both. My 2.4 GHz SSID is for IoT devices.
+
+You can do some more config like fast roaming etc. Those are easy things. You may need some other Firewall rules to setup access to IoT devices from main lan e.g. I enabled rule to access IoT camera from my Synology NAS which is in main lan.
+
+**Extras I Configured**:
+
+**WireGuard (Client Mode)**
+
+* Set up **two WireGuard client interfaces**:
+   * One US location
+   * One non-US location
+* Used **policy-based routing** so:
+   * **Only two specific devices** are forced through the VPN (Above locations)
+   * Those devices **have no internet access unless VPN is up \[Kill switch\]**
+
+**Tailscale config**
+
+* Highly recommend it! Wow I had no idea.
+
+**Automated Backups**
+
+* Added a **USB drive** to the main router
+* Created a **scheduled script** to:
+   * Back up the router configuration **every night** to USB
+
+**Final Thoughts**
+
+I also installed a few helpful packages recommended by others in this sub, and overall I’m **very happy with the setup now**. Stable build + simpler bridging made a huge difference.
+
+If anyone has questions about this setup, feel free to ask, happy to help to the best of my knowledge.
+
+(And yes, shoutout to Gemini for helping with parts of this too ...AI is going to take our jobs really fast 😄)",0,other,oct5_query_tps,manu_assisted_review,Heuristic flag for human review (not a confirmed labeling error): non_troubleshoot_label_but_strong_repair_ask. Note: Heuristic flag only. Not a human correction.,keep,,"This is a completed VLAN setup guide, even though a software upgrade appears in its background."
+1v184ol,C2-9DD1F1DF1127,Immich and Iphone sync,"Hello all. I am updated to the latest iphone app and the latest server version.  I also use Cairn app. Before the updates, when I deleted a photo in the Photos app, used Cairn, then went into Immich, it would perform  backup and those photos would be moved to trash in the server. Now after updating, those photos are not being moved to the trash on the Immich server. Any help would be appreciated.",1,technical_troubleshooting,oct5_query_gds,pilot_post_discussion,Heuristic flag for human review (not a confirmed labeling error): troubleshoot_label_with_rant_language_and_no_tech_cues. Note: Heuristic flag only. Not a human correction.,keep,,"Immich deletion sync changed after app and server updates, and the author asks for help."
+1uhuat7,C2-A0C2BB08117D,Vibe Coding is great... until Production punches you in the face. 🎯💻,"While working on new updates for Brainest, I hit a bug that reminded me why software engineering still matters.
+
+After updating dependencies, the old onNewToken() flow for Firebase Cloud Messaging wasn't behaving as expected anymore. My first instinct? Let the AI agent figure it out.
+
+Bad idea.
+
+The AI kept suggesting superficial changes, renaming variables, generating slightly different versions of the same code, and eventually reached the point where it removed the implementation entirely without providing a working replacement. 🤦‍♂️
+
+The actual fix required understanding the architecture:
+
+Android side
+
+Moved token handling logic into the Application class.
+
+Switched to on-demand token fetching when the app starts.
+
+Added local caching to avoid unnecessary Firestore writes.
+
+Backend side (Next.js)
+
+Needed to broadcast notifications by language.
+
+Discovered Firebase Admin SDK's multicast limit of 500 tokens per request.
+
+Implemented chunking and processed batches in parallel using Promise.all().
+
+The interesting part wasn't writing code.
+
+The interesting part was understanding:
+
+Android lifecycle
+
+FCM token management
+
+Firestore optimization
+
+Backend scalability constraints
+
+AI helped with speed, but it didn't understand the system.
+
+That's the difference between generating code and engineering software.
+
+Have you ever had an AI confidently lead you into the wrong architectural decision while building your app? 👇",0,other,oct5_query_tps,manu_assisted_review,Heuristic flag for human review (not a confirmed labeling error): non_troubleshoot_label_but_strong_repair_ask. Note: Heuristic flag only. Not a human correction.,keep,,The author shares a completed engineering lesson after fixing a dependency-related bug.
+1ry5wjh,C2-A0FC45E0C661,Our 'harmless' backend migration silently broke the app for every user who didn't update,"This is the kind of thing that seems obvious in hindsight but I guarantee most teams aren't thinking about it and it almost cost us a major client so we have a mobile app serving about 200K users across both platforms and our backend team decided to migrate from REST to GraphQL for a set of core endpoints the plan was solid on paper, old REST endpoints would stay alive for 6 months as deprecated, new GraphQL endpoints would be the default going forward, the mobile team would update the app to use GraphQL, everyone updates, we sunset REST, done.
+
+The migration went smoothly and the new app version shipped with GraphQL calls and everything was working great for users who updated. The problem was that about 35% of our user base was still running the old app version from 2-3 months ago because that's just how mobile works, people don't update their apps especially on Android where auto update is frequently turned off or delayed by weeks.
+
+These users were still hitting the REST endpoints which were technically still alive but here's what nobody accounted for: our backend team had also changed the authentication middleware during the migration and the new auth layer was returning error responses in a different JSON structure than the old one.
+
+The old REST endpoints still worked for normal successful requests but whenever a token expired or a session needed refreshing, the error response came back in the new format which the old app version couldn't parse so the old app would try to refresh the auth token, fail to parse the error response, fall into its generic error handler, and log the user out like from the user's perspective they'd open the app, it would work for a while, and then randomly kick them out and they'd have to log in again sometimes multiple times per day depending on their token expiry timing.
+
+We didn't catch this for almost 3 weeks because our monitoring was only tracking the new app version's health, the old version's error rates were technically as we were expecting since we knew it was deprecated and our backend team assumed any errors on deprecated endpoints were just natural degradation, meanwhile 35% of our users were getting logged out randomly and our support inbox was on fire with 
+
+""why does your app keep signing me out""
+
+tickets that we initially dismissed as users not updating their app we only realized the scope of the problem when our QA team ran the old app version on real devices through a vision AI testing tool named Drizz(dot)dev and watched the logout loop happen live, then correlated it with the auth middleware change the fix was simple, we made the new auth middleware return error responses in both the old and new format based on a header the client sends, took maybe half a day to implement. But the damage to user trust during those 3 weeks was real.
+
+The takeaway that I now bring up in every migration planning meeting is that if you have a mobile app, your old version is not some theoretical thing you can deprecate on a timeline It's a living breathing client that real paying users are running right now and will continue running for months after you think everyone should have updated every backend change needs to be tested against at least your current production version AND the previous version simultaneously or you're going to break something for users who did nothing wrong except not tap update  fast enough.",0,other,oct5_query_tps,manu_assisted_review,Heuristic flag for human review (not a confirmed labeling error): non_troubleshoot_label_but_strong_repair_ask. Note: Heuristic flag only. Not a human correction.,keep,,This repeats the backend migration account in row 22 and should receive the same label.
+1vzmdo0,C2-A3CAAB67C8DD,CVE-2026-73570: Zimbra SNMP RCE abused to deploy coin-miner malware,"# CVE-2026-73570: Zimbra SNMP RCE abused to deploy coin-miner malware
+
+CVE-2026-73570 is a Remote Code Execution issue in Zimbra Collaboration Suite (ZCS), related to SNMP notification/logwatch handling.
+
+In short, an unauthenticated attacker can send a crafted SMTP request and get OS command execution as the `zimbra` user when the vulnerable SNMP/logwatch components are installed and enabled.
+
+According to NVD, the issue affects Zimbra versions before 10.1.20 when SNMP is installed and SNMP notification is enabled. The Hacker News also reported active exploitation against Zimbra servers.
+
+The observed attack chain is usually:
+
+    malicious SMTP request
+    -&gt; unsafe SNMP/logwatch handling
+    -&gt; command execution as zimbra
+    -&gt; malware dropped into /dev/shm
+    -&gt; cron persistence added
+    -&gt; miner or backdoor keeps respawning
+
+# What is CVE-2026-73570?
+
+CVE-2026-73570 is an OS Command Injection vulnerability in Zimbra Collaboration Suite.
+
+The issue is in the SNMP notification/logwatch flow, where attacker-controlled input is not handled safely before being passed into system-level processing.
+
+The command runs as the `zimbra` user, not `root`. That is still serious because the `zimbra` user controls important Zimbra services, mailbox components, logs, cron jobs and runtime paths.
+
+# When is a Zimbra server at risk?
+
+A server should be checked immediately if:
+
+* It is running Zimbra Collaboration Suite.
+* It is not patched to a fixed version.
+* `zimbra-snmp` or `zimbra-net-snmp` is installed.
+* SNMP is enabled in Zimbra.
+* `zmlogswatch` or `zmswatch` is running.
+
+Quick checks:
+
+    su - zimbra -c 'zmcontrol -v'
+    dpkg -l | grep -E 'zimbra-snmp|zimbra-net-snmp'
+    su - zimbra -c 'zmprov gs $(zmhostname) zimbraServiceEnabled | grep snmp'
+    su - zimbra -c 'zmlogswatchctl status'
+    su - zimbra -c 'zmswatchctl status'
+
+If you see `zimbraServiceEnabled: snmp` and `zmlogswatch is running`, treat the server as high priority for compromise checks.
+
+# Signs of compromise
+
+In the cases observed, malware was often dropped into `/dev/shm`. This directory is a tmpfs location, writable and easy to miss during a quick investigation.
+
+Check:
+
+    ls -la /dev/shm
+    crontab -l -u zimbra
+    ps aux | grep -E 'khp|rguard|javab|idle|ksmd' | grep -v grep
+
+Common suspicious files:
+
+    /dev/shm/.khp
+    /dev/shm/.khp_ts
+    /dev/shm/.rguard
+    /dev/shm/idle
+    /dev/shm/javab
+    /dev/shm/ksmd
+
+A cron entry like this is a strong persistence indicator:
+
+    * * * * * /dev/shm/.khp
+
+# Why does the malware keep coming back?
+
+Deleting files from `/dev/shm` is usually not enough.
+
+The malware can return because:
+
+* The malicious process is still running in memory.
+* The `zimbra` crontab runs `/dev/shm/.khp` every minute.
+* `.rguard` or `idle` may protect or redeploy the payload.
+* SNMP/logwatch is still enabled, so the CVE can be exploited again.
+
+The correct order is:
+
+    stop reinfection source
+    -&gt; preserve evidence
+    -&gt; kill malware processes
+    -&gt; remove malicious cron
+    -&gt; quarantine malware files
+    -&gt; verify clean state
+    -&gt; recover Zimbra services if needed
+    -&gt; patch/upgrade Zimbra
+
+# Cleanup procedure
+
+Run the following commands as `root`. Review each command before running it on production.
+
+# Step 1: Stop the reinfection source
+
+    systemctl stop cron
+    su - zimbra -c 'zmlogswatchctl stop'
+    su - zimbra -c 'zmswatchctl stop'
+    su - zimbra -c 'zmprov ms $(zmhostname) -zimbraServiceEnabled snmp'
+
+Disabling SNMP/logwatch is the most important containment step. Do not re-enable these components before Zimbra is patched.
+
+# Step 2: Preserve malware evidence
+
+    mkdir -p /root/incident-zimbra
+    
+    cp -a /dev/shm/.khp \
+          /dev/shm/.khp_ts \
+          /dev/shm/.rguard \
+          /dev/shm/idle \
+          /dev/shm/javab \
+          /dev/shm/ksmd \
+          /root/incident-zimbra/ 2&gt;/dev/null
+    
+    crontab -l -u zimbra &gt; /root/incident-zimbra/zimbra-cron-before.txt 2&gt;&amp;1
+    ps auxf &gt; /root/incident-zimbra/ps-before.txt
+    ss -tunap &gt; /root/incident-zimbra/ss-before.txt
+    sha256sum /root/incident-zimbra/* &gt; /root/incident-zimbra/sha256.txt 2&gt;/dev/null
+
+# Step 3: Kill malware processes
+
+    pkill -9 -u zimbra -f 'khp|rguard|javab|idle|ksmd'
+
+# Step 4: Remove malicious cron
+
+    crontab -l -u zimbra | grep -v '/dev/shm/.khp' | crontab -u zimbra -
+
+# Step 5: Quarantine malware files
+
+    mkdir -p /root/quarantine-zimbra
+    
+    mv /dev/shm/.khp \
+       /dev/shm/.khp_ts \
+       /dev/shm/.rguard \
+       /dev/shm/idle \
+       /dev/shm/javab \
+       /dev/shm/ksmd \
+       /root/quarantine-zimbra/ 2&gt;/dev/null
+
+# Step 6: Start cron again
+
+    systemctl start cron
+    systemctl is-active cron
+
+Only start cron. Do not start `zmlogswatch`, `zmswatch` or SNMP before patching Zimbra.
+
+# Verify after cleanup
+
+    ls -la /dev/shm
+    crontab -l -u zimbra | grep /dev/shm
+    ps aux | grep -E 'khp|rguard|javab|idle|ksmd' | grep -v grep
+    su - zimbra -c 'zmprov gs $(zmhostname) zimbraServiceEnabled | grep snmp || echo SNMP_DISABLED'
+
+Expected result:
+
+    /dev/shm is clean
+    no cron entry calling /dev/shm/.khp
+    no suspicious javab/rguard/idle/khp/ksmd process
+    SNMP is disabled
+
+# If Zimbra MySQL or mailbox fails
+
+After malware activity or an unexpected reboot, Zimbra may show:
+
+    mailbox Stopped
+    mysql.server is not running
+    service webapp Stopped
+    zimbra webapp Stopped
+    zimbraAdmin webapp Stopped
+    zimlet webapp Stopped
+
+Check MySQL and services:
+
+    su - zimbra -c 'zmcontrol status'
+    su - zimbra -c 'mysql.server status'
+    ss -ltnp | grep 7306
+    tail -n 200 /opt/zimbra/log/mysql_error.log
+
+If MySQL is stuck in crash recovery or has a stale socket, back up relevant files first.
+
+# Backup before MySQL recovery
+
+    mkdir -p /root/zimbra-mysql-backup
+    
+    cp -a /opt/zimbra/log/mysql_error.log /root/zimbra-mysql-backup/ 2&gt;/dev/null
+    cp -a /opt/zimbra/db/data/tc.log /root/zimbra-mysql-backup/ 2&gt;/dev/null
+    cp -a /opt/zimbra/data/tmp/mysql/mysql.sock /root/zimbra-mysql-backup/ 2&gt;/dev/null
+    cp -a /opt/zimbra/db/data/ibdata1 /root/zimbra-mysql-backup/ 2&gt;/dev/null
+    cp -a /opt/zimbra/db/data/ib_logfile* /root/zimbra-mysql-backup/ 2&gt;/dev/null
+
+# Light MySQL recovery
+
+    su - zimbra -c 'zmmailboxdctl stop'
+    
+    mv /opt/zimbra/data/tmp/mysql/mysql.sock /root/zimbra-mysql-backup/mysql.sock.bak 2&gt;/dev/null
+    mv /opt/zimbra/db/data/tc.log /root/zimbra-mysql-backup/tc.log.bak 2&gt;/dev/null
+    
+    su - zimbra -c 'mysql.server start'
+    sleep 20
+    su - zimbra -c 'mysql.server status'
+    
+    su - zimbra -c 'zmmailboxdctl start'
+    sleep 40
+    su - zimbra -c 'zmcontrol status'
+
+Expected result:
+
+    mysql is running
+    mailbox Running
+    service webapp Running
+    zimbra webapp Running
+    zimbraAdmin webapp Running
+    zimlet webapp Running
+
+This is not a universal fix. Always check `/opt/zimbra/log/mysql_error.log` first.
+
+# Does this delete mail data?
+
+The malware cleanup steps do not touch mailbox data directly.
+
+Zimbra mail data is usually stored in:
+
+    /opt/zimbra/store/
+
+Zimbra database data is usually stored in:
+
+    /opt/zimbra/db/data/
+
+The MySQL recovery steps touch `tc.log` and `mysql.sock`, so back up first.
+
+# Check for JSP webshells
+
+After handling `/dev/shm`, cron and processes, also check for suspicious JSP files created by the `zimbra` user in recent days.
+
+Important paths include:
+
+    /opt/zimbra/jetty/webapps/
+    /opt/zimbra/jetty_base/webapps/
+    /tmp/
+
+Unexpected JSP/JSPX files, executable scripts, archives or recently modified web application files may indicate payload staging or webshell deployment.
+
+Check JSP/JSPX files:
+
+    find /opt/zimbra/jetty/webapps -type f \( -name ""*.jsp"" -o -name ""*.jspx"" \) -printf '%TY-%Tm-%Td %TH:%TM:%TS %p\n' | sort
+
+If suspicious JSP backdoors are found, preserve evidence first, then quarantine them from both paths:
+
+    /opt/zimbra/jetty/webapps/zimbra/
+    /opt/zimbra/jetty_base/webapps/zimbra/
+
+Evidence backup and quarantine:
+
+    TS=$(date +%Y%m%d_%H%M%S)
+    INC=/root/incident-zmmail-jsp-webshell-$TS
+    QUA=/root/quarantine-zmmail-jsp-webshell-$TS
+    
+    mkdir -p ""$INC"" ""$QUA""
+    
+    # Save list and hashes
+    find /opt/zimbra/jetty/webapps/zimbra /opt/zimbra/jetty_base/webapps/zimbra \
+      -xdev -type f \( -iname '*.jsp' -o -iname '*.jspx' \) -mtime -30 \
+      -print &gt; ""$INC/suspicious-jsp-list.txt""
+    
+    xargs -a ""$INC/suspicious-jsp-list.txt"" sha256sum &gt; ""$INC/suspicious-jsp-sha256.txt""
+    
+    # Backup samples
+    while read f; do
+      mkdir -p ""$INC/files$(dirname ""$f"")""
+      cp -a ""$f"" ""$INC/files$f""
+    done &lt; ""$INC/suspicious-jsp-list.txt""
+    
+    # Quarantine from webroot
+    while read f; do
+      mkdir -p ""$QUA$(dirname ""$f"")""
+      mv ""$f"" ""$QUA$f""
+    done &lt; ""$INC/suspicious-jsp-list.txt""
+    
+    # Verify
+    find /opt/zimbra/jetty/webapps/zimbra /opt/zimbra/jetty_base/webapps/zimbra \
+      -xdev -type f \( -iname '*.jsp' -o -iname '*.jspx' \) -mtime -30 -print
+
+Risks:
+
+* If a file is a legitimate custom JSP, removing it may affect a custom webmail function.
+* Random file names and content using `exec`, `base64`, AES or command execution are strong webshell indicators.
+* This does not affect mailbox data.
+* A restart is not always required immediately, but webmail should be verified after quarantine.
+
+# Important note: zmlogswatch/zmswatch may start again
+
+After disabling SNMP/logwatch to mitigate CVE-2026-73570, `zmlogswatch` and `zmswatch` may start again after daily logrotate or after `zmcontrol restart`.
+
+This happens because Zimbra logrotate configs often contain `postrotate` commands that restart `zmlogswatchctl` and `zmswatchctl`. Also, `logger` may still be listed in `zimbraServiceEnabled`.
+
+So after temporary mitigation, check these services periodically, especially after midnight or after restarting Zimbra.
+
+If you need a stronger temporary block before patching, back up the logrotate configs, comment the restart lines, and consider removing `logger` from `zimbraServiceEnabled`.
+
+This can prevent logwatch from starting again and reopening the attack vector, but the Admin Console may lose part of its monitoring/statistics.
+
+# Disable zmlogswatch/zmswatch so they do not auto-start
+
+Warning: disabling `logger`, `zmlogswatch` and `zmswatch` may make the Zimbra Admin Console show logger/monitoring as red, or remove some graphs/statistics.
+
+During the unpatched phase, this is an acceptable temporary trade-off to prevent logwatch from restarting automatically.
+
+After upgrading to a fixed version, restore the configuration from backup and re-enable logger if needed.
+
+# Back up Zimbra logrotate configs
+
+    cp -a /etc/logrotate.d/zimbra /etc/logrotate.d/zimbra.bak.$(date +%F-%H%M%S)
+    cp -a /opt/zimbra/conf/zmlogrotate /opt/zimbra/conf/zmlogrotate.bak.$(date +%F-%H%M%S)
+
+Open these two files:
+
+    /etc/logrotate.d/zimbra
+    /opt/zimbra/conf/zmlogrotate
+
+Find these lines, often around line 85 and 99:
+
+    su - zimbra -c ""/opt/zimbra/bin/zmlogswatchctl restart"" &gt; /dev/null 2&gt;&amp;1 || true
+    su - zimbra -c ""/opt/zimbra/bin/zmswatchctl restart"" &gt; /dev/null 2&gt;&amp;1 || true
+
+Comment them:
+
+    # su - zimbra -c ""/opt/zimbra/bin/zmlogswatchctl restart"" &gt; /dev/null 2&gt;&amp;1 || true
+    # su - zimbra -c ""/opt/zimbra/bin/zmswatchctl restart"" &gt; /dev/null 2&gt;&amp;1 || true
+
+Remove logger from enabled services:
+
+    su - zimbra -c 'zmprov ms $(zmhostname) -zimbraServiceEnabled logger'
+
+Stop current logwatch/swatch processes:
+
+    su - zimbra -c 'zmlogswatchctl stop'
+    su - zimbra -c 'zmswatchctl stop'
+    su - zimbra -c 'zmlocalconfig -e snmp_notify=no'
+
+Verify:
+
+    su - zimbra -c 'zmlogswatchctl status'
+    su - zimbra -c 'zmswatchctl status'
+    su - zimbra -c 'zmlocalconfig snmp_notify'
+    su - zimbra -c 'zmprov gs $(zmhostname) zimbraServiceEnabled | egrep ""logger|snmp"" || echo ""LOGGER_SNMP_DISABLED""'
+
+Expected result:
+
+    zmlogswatch is not running.
+    zmswatch is not running.
+    snmp_notify = no
+    LOGGER_SNMP_DISABLED
+
+# Re-enable monitoring/logger after patching
+
+Only do this after Zimbra is patched or upgraded.
+
+    su - zimbra -c 'zmprov ms $(zmhostname) +zimbraServiceEnabled logger'
+    su - zimbra -c 'zmlogswatchctl start'
+    su - zimbra -c 'zmswatchctl start'
+
+If you commented the logrotate files, open them again:
+
+    /etc/logrotate.d/zimbra
+    /opt/zimbra/conf/zmlogrotate
+
+Uncomment these lines:
+
+    su - zimbra -c ""/opt/zimbra/bin/zmlogswatchctl restart"" &gt; /dev/null 2&gt;&amp;1 || true
+    su - zimbra -c ""/opt/zimbra/bin/zmswatchctl restart"" &gt; /dev/null 2&gt;&amp;1 || true
+
+# Re-enable SNMP only after patching
+
+    su - zimbra -c 'zmprov ms $(zmhostname) +zimbraServiceEnabled snmp'
+    su - zimbra -c 'zmlocalconfig -e snmp_notify=yes'
+    su - zimbra -c 'zmswatchctl start'
+
+Verify after re-enabling:
+
+    su - zimbra -c 'zmcontrol status'
+    su - zimbra -c 'zmlogswatchctl status'
+    su - zimbra -c 'zmswatchctl status'
+    su - zimbra -c 'zmlocalconfig snmp_notify'
+    su - zimbra -c 'zmprov gs $(zmhostname) zimbraServiceEnabled | egrep ""logger|snmp""'
+
+# Post-cleanup tasks
+
+After the server is running again:
+
+* Keep SNMP/logwatch disabled until patched.
+* Monitor `/dev/shm` for 30-60 minutes.
+* Monitor the `zimbra` crontab.
+* Monitor CPU/load and outbound connections.
+* Check the mail queue.
+* Patch or upgrade Zimbra to a fixed release.
+* Only re-enable SNMP/logwatch after patching and verification.
+
+Check queue:
+
+    /opt/zimbra/common/sbin/postqueue -p | tail -n 40
+
+# Summary workflow
+
+    1. Check /dev/shm, processes and crontab.
+    2. Stop cron, zmlogswatch and zmswatch.
+    3. Disable SNMP in Zimbra.
+    4. Preserve evidence.
+    5. Kill malware processes.
+    6. Remove malicious cron.
+    7. Quarantine malware files.
+    8. Start cron again.
+    9. Verify that malware does not respawn.
+    10. Recover MySQL/mailbox if needed.
+    11. Check JSP webshells in Zimbra webapps paths.
+    12. Monitor queue and services.
+    13. Prevent zmlogswatch/zmswatch from auto-starting before patching.
+    14. Patch or upgrade Zimbra.
+    15. Re-enable logger/SNMP only after patching and verification.
+
+# References
+
+* NVD: CVE-2026-73570
+* The Hacker News: attackers exploit Zimbra SNMP flaw
+* Zimbra Security Center
+* Zimbra Security Advisories
+
+# Conclusion
+
+CVE-2026-73570 is serious because it can allow remote command execution as the `zimbra` user through SNMP notification/logwatch handling.
+
+In observed incidents, attackers dropped malware into `/dev/shm`, added cron persistence, and ran a miner or backdoor.
+
+The key point is this: do not only delete the malware file. Stop the reinfection path first.
+
+A practical response order is:
+
+    stop cron + SNMP/logwatch
+    -&gt; preserve evidence
+    -&gt; kill malware
+    -&gt; remove malicious cron
+    -&gt; quarantine payloads
+    -&gt; check JSP webshells
+    -&gt; verify clean state
+    -&gt; recover Zimbra if needed
+    -&gt; block logwatch auto-restart before patching
+    -&gt; patch/upgrade Zimbra
+
+Most important: do not re-enable SNMP/logwatch before Zimbra is patched, because that may allow the malware to return.",0,other,oct5_query_tps,manu_assisted_review,Heuristic flag for human review (not a confirmed labeling error): non_troubleshoot_label_but_strong_repair_ask. Note: Heuristic flag only. Not a human correction.,keep,,"This reports a Zimbra vulnerability and exploitation, rather than seeking a fix for a local failure."
+1lrpn7u,C2-A9EFE9267F3C,Error update,,1,technical_troubleshooting,oct5_query_tps,manu_assisted_review,Heuristic flag for human review (not a confirmed labeling error): very_thin_text. Note: Heuristic flag only. Not a human correction.,uncertain,,"“Error update” gives no product, symptom, or context to judge the discussion type."
+1u9ea81,C2-B244A4AAAB11,"CVE-2026-9189: payment bypass in the Contact Form 7 PayPal &amp; Stripe Add-on (now patched, update if you use it)","I reported this one. If you run the Contact Form 7 PayPal &amp; Stripe Add-on at 2.4.9 or older to take PayPal payments, update to the latest version. The bug let an order be marked paid without a matching payment, because the plugin verified that the PayPal notification was genuine but never checked the amount, currency, or recipient. It is patched now. The writeup explains the root cause and the fix in plain language.",0,other,oct5_query_tps,manu_assisted_review,Heuristic flag for human review (not a confirmed labeling error): non_troubleshoot_label_but_strong_repair_ask. Note: Heuristic flag only. Not a human correction.,keep,,The post reports a patched plugin vulnerability and advises readers to update.
+1sqptnw,C2-B26F415206A4,"Qwen 3.6-35B-A3B: Reddit Asked, So I Tested If the 3.5 Tool Calling Fixes Carry Over","**Update 1**: toggled preserve\_thinking on to see if tool calling problem fixed, doesnt work.
+
+**TL;DR**: Following up on the [Qwen 3.5 thread](https://www.reddit.com/r/vLLM/comments/1skks8n/) — after everyone kept asking about 3.6, I set it up using the same `qwen3_xml` \+ `enhanced.jinja` fixes and ran real agentic tests. Here's the honest result: my config is still the most stable, but compared to Qwen3.5-27B, Qwen3.6-35B-A3B is notably more loopy and has a higher chance of malformed tool calls interrupting an agentic process.
+
+# The Short Story
+
+After spending weeks ironing out Qwen 3.5-27B/35B for agentic use — same fixes, same template, same GPU tuning — people on Reddit kept asking about Qwen 3.6.
+
+So I set it up and ran real agentic tests. Gave the model full ownership of the folder, and asked it to build a full-stack project with frontend and backend, with a prompt of $10k token budget. Wanted to see how it holds up in practice.
+
+My config (enhanced.jinja + qwen3\_xml) is still the most stable option. But compared to Qwen3.5-27B, Qwen3.6-35B-A3B has two new problems:
+
+1. **More looping** — the model gets stuck in reasoning loops more often
+
+https://preview.redd.it/jbzl0ew5tcwg1.png?width=3482&amp;format=png&amp;auto=webp&amp;s=fb0757f5e0d69ba6a74413506418a6b89489fa12
+
+1. **Malformed tool calls interrupting agentic flow** — higher chance of breaking mid-task, even with the same config that works perfectly on 3.5
+
+# What Carried Over (Still Works)
+
+# qwen3_xml parser
+
+Registry-based parser handles complex tool arguments without corruption. Official docs still say `qwen3_coder`. I still say no.
+
+# qwen3.5-enhanced.jinja template
+
+The interleaved thinking template works on 3.6 35B-A3B. Proper `&lt;/thinking&gt;` tag handling, clean tool call formatting.
+
+# Precision drift on mixed GPUs
+
+RTX 4090 (SM89) wants W8A8, RTX 3090 (SM80) falls back to W8A16. `VLLM_TEST_FORCE_FP8_MARLIN=1` still forces both to match. Without it, conversations drift.
+
+# NCCL tuning
+
+Same setup: `NCCL_P2P_DISABLE=1`, `NCCL_IB_DISABLE=1`, `NCCL_ALGO=Ring`. Same reason: mixed topology stability.
+
+# Real Agentic Test: Three Runs
+
+I gave each trail the same prompt: full ownership of the folder, build a full-stack project with frontend and backend, $10k token budget.
+
+# Run 1: enhanced.jinja + qwen3_xml (my config)
+
+This is the one that lasted the longest. The model want to build a oss-inspect project for automauous codebase quality analysis.
+
+|Prompt|Accumulated Tokens|
+|:-|:-|
+|Project setup|13.9k|
+|""Did you check if this is bug free? This is your own project.""|135.1K|
+|DCP sweep auto-triggered|107.0K|
+|""Fix it then""|110.0K|
+|**Model died** \- improper tool calling|111.1K|
+
+This config survived to \~130K+ tokens (with 13m 20s) before dying from improper tool calling. The DCP sweep at 135K dropped it to 107K, but it kept going. For context, the 3.5 27B model with the same setup routinely goes 130K+ without any interruption.
+
+# Run 2: official.jinja + qwen3_coder
+
+https://preview.redd.it/xruaxzmmscwg1.png?width=3512&amp;format=png&amp;auto=webp&amp;s=cb4c773a36b91a4f6312b32404a453098501b4de
+
+\*\*For simplicity i didnt change the served-name in vllm, the model is actually is Qwen3.6-35B-A3B\*\*
+
+This model wanted to build a knowledge graph platform for graphify. (the skill ingestion is a bit aggressive ah?)
+
+**Died in 6m 32s** — improper tool calling. Failed too early to be reliable for agentic tasks.
+
+# Run 3: official.jinja + qwen3_xml
+
+https://preview.redd.it/1qvkpcpltcwg1.png?width=3530&amp;format=png&amp;auto=webp&amp;s=95a9445b63b5c9db38d0bab1dec85d4984ed3956
+
+This time the model wanted to build TaskFlow — a Kanban project management app with authentication, drag-and-drop task management, and a polished UI.
+
+**Died in 1m 16s** — malformed tool calls inside the thinking box. Failed too early to be reliable for agentic tasks.
+
+https://preview.redd.it/450bg6lntcwg1.png?width=3530&amp;format=png&amp;auto=webp&amp;s=f0697dcae6870265de7c3de03cf9e6757315e3d1
+
+# Run 4: Enabled preserve thinking
+
+https://preview.redd.it/05yxfedi1dwg1.png?width=3588&amp;format=png&amp;auto=webp&amp;s=3f1e4d9a524acfe76d44e42b14f38ca8c4873391
+
+This time the model wanted to build a Knowledge Discovery Engine — an end-to-end system that crawls web content with agent-browser, builds knowledge graphs with graphify, and provides an interactive visual explorer with surprising insights and knowledge gap analysis.
+
+However, this time the model start looping itself, keep trying to call sub-agent (disabled) and keep modifying the todo list but dont write a single code.
+
+Verdict:
+
+      --default-chat-template-kwargs '{""preserve_thinking"": true}' \
+
+dont help.
+
+# Remarks
+
+For the tech stack the model is using, I have 0 knowledge about it.
+
+# Comparison Summary
+
+|Config|Survival|Failure Mode|
+|:-|:-|:-|
+|`enhanced.jinja` \+ `qwen3_xml`|\~111K tokens (13m 20s)|Improper tool calling (died)|
+|`official.jinja` \+ `qwen3_coder`|6m 32s|Improper tool calling|
+|`official.jinja` \+ `qwen3_xml`|\~1m 16s|Malformed tool calls in thinking box|
+
+For comparison, the same test on Qwen3.5-27B with `enhanced.jinja` \+ `qwen3_xml` reliably runs 130K+ tokens before dying. 3.6 35B-A3B has a noticeably higher failure rate even with the best config. Qwen3.5-27B is still the most stable model for agentic work, despite its much slower TTFT.
+
+# New Problems Specific to Qwen3.6-35B-A3B
+
+# 1. More Loopy
+
+The model gets stuck in reasoning loops more often. It'll loop through the same analysis step multiple times, consuming tokens, before eventually moving forward. This isn't a template issue — it's a model behavior change. On 3.5 27B this happened occasionally. On 3.6 35B-A3B it's frequent enough to meaningfully impact long sessions.
+
+# 2. Malformed Tool Calls Interrupt Agentic Flow
+
+Even with `enhanced.jinja` \+ `qwen3_xml` (the config that works perfectly on 3.5 27B), 3.6 35B-A3B has a higher chance of generating malformed tool calls that break the agentic process. The tool calling format still uses XML and is technically correct — but the frequency is higher and the damage is worse: an interrupted session that can't recover.
+
+On 3.5 27B, a malformed tool call is a rare edge case after patching the template. On 3.6 35B-A3B, it's a much more regular occurrence that will eventually kill a long-running agentic session, no matter which config you use.
+
+# The Fix (Partial)
+
+**OpenCode 1.4.18** helps. The older version had tool calling issues that made things worse, this is especially true for the ""question"" tool. Upgrading to 1.4.18 resolved this issue of the malformed tool call problems.
+
+But here's the honest part: **upgrading the client doesn't solve the looping or the inherently higher failure rate on 3.6**. The root cause is still in the model (or template?).
+
+# My Config
+
+**vLLM Version**: 0.19.1 **Transformers Version**: 5.5.4 **CUDA Version**: 12.8.1 (nvcc 12.8.93)
+
+    export CUDA_DEVICE_ORDER=PCI_BUS_ID
+    export CUDA_VISIBLE_DEVICES=0,1
+    export NCCL_CUMEM_ENABLE=0
+    export VLLM_ENABLE_CUDAGRAPH_GC=1
+    export VLLM_USE_FLASHINFER_SAMPLER=1
+    export OMP_NUM_THREADS=4
+    export NCCL_P2P_DISABLE=1
+    export NCCL_IB_DISABLE=1
+    export NCCL_ALGO=Ring
+    export VLLM_TEST_FORCE_FP8_MARLIN=1
+    export VLLM_SLEEP_WHEN_IDLE=1
+    
+    rm -rf ~/.cache/flashinfer
+    
+    vllm serve Qwen/Qwen3.6-35B-A3B-FP8 \
+      --served-model-name Qwen3.6-35B-A3B \
+      --chat-template qwen3.5-enhanced.jinja \
+      --attention-backend FLASHINFER \
+      --trust-remote-code \
+      --tensor-parallel-size 2 \
+      --max-model-len 200000 \
+      --gpu-memory-utilization 0.91 \
+      --enable-auto-tool-choice \
+      --enable-chunked-prefill \
+      --enable-prefix-caching \
+      --max-num-batched-tokens 12288 \
+      --max-num-seqs 4 \
+      --kv-cache-dtype fp8 \
+      --tool-call-parser qwen3_xml \
+      --reasoning-parser qwen3 \
+      --no-use-tqdm-on-load \
+      --host 0.0.0.0 \
+      --port 8000 \
+      --language-model-only
+
+# Bottom Line
+
+**My config (enhanced.jinja + qwen3\_xml + OpenCode 1.4.18) is still the best I can do on Qwen3.6 35B-A3B.** But it's worth being honest: Qwen3.6-35B-A3B is more loopy and has a higher failure rate for agentic tool calling compared to Qwen3.5-27B. It is quite surprising that the tool calling issues presents again on 3.6 35B-A3B. The root cause is still unknown (maybe preserved thinking is one of the reasons?)
+
+Comparing Qwen3.5-27B, Qwen3.5-35B-A3B and Qwen3.6-35B-A3B, all three models official template are the same. It may reveal that Qwen team has his special treatment for the tool calling issues, if they decided to launch Qwen3.6 flash model.
+
+**I've decided to stick with Qwen3.5-27B-FP8.** For agentic obedience — following instructions, executing tool calls cleanly, not looping — the 27B model outperforms the 3.6 35B-A3B in this regard (in my testing). 3.6 has much faster TTFT, similar ability to Qwen3.5-27B (by AA benchmark), but it pays for it with looping and tool call failures that kill long sessions. Reliability over raw intelligence for agentic work.",0,other,oct5_query_tps,manu_assisted_review,Heuristic flag for human review (not a confirmed labeling error): non_troubleshoot_label_but_strong_repair_ask. Note: Heuristic flag only. Not a human correction.,keep,,This reports comparative tests of a new Qwen release; “Update 1” is also a post edit.
+1nny826,C2-BB174B1AE94B,neotest-golang 2.0.0,,0,other,phase1_gold_file,manu_assisted_review,Heuristic flag for human review (not a confirmed labeling error): very_thin_text. Note: Heuristic flag only. Not a human correction.,keep,,The title is a version announcement without a troubleshooting request.
+1vo45fq,C2-C3752A03C428,Does anyone know how to get rid of the new iOS chrome update?,They are forcing AI I hate it. Also now the back button is at the top and not the bottom?? Might as well just use safari now. Is there a way to go back to the previous layout?,1,technical_troubleshooting,oct5_query_gds,manu_assisted_review,Heuristic flag for human review (not a confirmed labeling error): troubleshoot_label_with_rant_language_and_no_tech_cues. Note: Heuristic flag only. Not a human correction.,keep,,The author asks how to restore the previous Chrome layout after an iOS update.
+1qhzvb4,C2-C5C80F686A17,Absolute joke,"I absolutely love Pages. Google Docs / Word are hot garbage, they're ugly, cloud saving for Word is locked to whatever the Microsoft cloud service is called.
+
+But holy shit, since upgrading to Tahoe (which I love visually) Pages has become unusable. It eats the entire RAM/Storage for breakfast.
+
+Bug reports for this issue (related to spotlight) have been made **a long time ago** and Apple did nothing. No update, no fix.
+
+I have defended every MacOS release since I first got a Mac over ten years ago. I even genuinely like the '26' line of OS updates. I like liquid glass. I love the iPhone Air. Taheo is gorgeous but this has to be a joke.
+
+I've tried everything. Even using new files, not putting them outside of the 'Pages' folder, I tried deleting it and downloading it again, I tried it on my Macbook Pro. Nope, fuck you, I want 100GB of memory lol.
+
+The news of Pages being part of the subscription-based Creator pack was quite funny. App doesn't work but they gotta stick more AI crap into it and charge a monthly fee.",0,general_dissatisfaction,oct5_query_tps,manu_assisted_review,Heuristic flag for human review (not a confirmed labeling error): non_troubleshoot_label_but_strong_repair_ask. Note: Heuristic flag only. Not a human correction.,keep,,"The main purpose is criticism of Pages performance after Tahoe, with no request for diagnosis or a fix."
+1s3b7fu,C2-C83B305A08DE,"If you haven't updated OpenClaw yet, don't. Read this first.","OpenClaw just dropped its biggest update in months. 12 breaking changes, a completely new plugin system, 30+ security patches, and a bunch of stuff that will silently break your setup if you just run `npm update` without checking anything first.
+
+I've already seen people in Discord and DMs who updated, hit errors, panicked, and tried to rollback. Most of the issues take 2 minutes to fix if you know what changed. This post is that 2 minutes.
+
+Do these checks BEFORE you update. seriously. Updating first and debugging after is how people end up factory resetting their entire setup over a config rename.
+
+**Step 1: Check your environment variables right now**
+
+This is the one that's going to break the most setups.
+
+If you set up OpenCLAW back when it was still called Clawdbot or Moltbot, there's a good chance your `.env` file or your shell profile still has variables like `CLAWDBOT_CONFIG_DIR` or `MOLTBOT_STATE_DIR`.
+
+Those are gone. no compatibility shim. no fallback. no warning. they just don't work anymore.
+
+Check:
+
+bash
+
+    env | grep -i clawdbot
+    env | grep -i moltbot
+
+If anything shows up, rename them:
+
+* `CLAWDBOT_*` → `OPENCLAW_*`
+* `MOLTBOT_*` → `OPENCLAW_*`
+
+Check your `.env`, your `.bashrc`, `.zshrc`, `.profile`, and any docker-compose files. everywhere. if you miss one, your agent will start with default settings instead of yours and you'll think the update broke everything when actually it just can't find your config.
+
+**Step 2: Check your state directory**
+
+If your OpenCLAW data still lives under `~/.moltbot`, it won't be found anymore. The auto-detection for the old directory name is gone.
+
+Check:
+
+bash
+
+    ls ~/.moltbot 
+    2
+    &gt;/dev/null &amp;&amp; echo ""YOU NEED TO MOVE THIS""
+    ls ~/.openclaw 
+    2
+    &gt;/dev/null &amp;&amp; echo ""you're fine""
+
+if you're still on `~/.moltbot`:
+
+bash
+
+    mv ~/.moltbot ~/.openclaw
+
+or set the path explicitly in your env:
+
+bash
+
+    export OPENCLAW_STATE_DIR=~/.openclaw
+
+Do this before updating. If you update first, OpenCLAW will create a fresh `~/.openclaw` directory with empty config and you'll think all your data is gone. It's not gone. It's just in the old folder. But the panic is real.
+
+**Step 3: back up your config before you touch anything**
+
+This should be obvious but I've helped enough people to know it's not.
+
+bash
+
+    cp -r ~/.openclaw ~/.openclaw-backup-$(date +%Y%m%d)
+
+That's your SOUL.md, USER.md, MEMORY.md, agents config, skills, everything. if the update goes sideways, you can restore from this in 30 seconds.
+
+**Step 4: check your browser automation setup**
+
+The legacy chrome extension relay is gone in this update. completely removed. if your browser config uses `driver: ""extension""` or `browser.relayBindHost`, those settings do nothing now.
+
+The new approach is existing-session browser attachment. OpenClaw connects to a browser that's already running instead of trying to control one through an extension.
+
+If you were using browser automation, check your config:
+
+bash
+
+    openclaw config get | grep -i browser
+
+If you see any reference to extension, relay, or relayBindHost, you'll need to reconfigure for the new browser control system. The docs have the updated setup but the short version is: openclaw now manages its own browser profile (the `openclaw` profile) or attaches to an existing chrome session via CDP.
+
+If you weren't using browser automation, skip this step. nothing changes for you.
+
+**Step 5: understand the clawhub change**
+
+Clawhub is now the default plugin and skill store. when you run `openclaw plugins install` or `openclaw skills install`, it checks Clawhub first and only falls back to npm if it can't find the package there.
+
+This is mostly a good thing. Clawhub has better metadata tracking and integrates more cleanly with the gateway. But it means:
+
+* Some skills you installed via npm might need to be reinstalled via clawhub
+* `openclaw skills search`, `openclaw skills install`, and `openclaw skills update` are all new commands that use ClawHub natively
+* If a skill isn't on Clawhub, you can still install from npm. It's a fallback, not a removal
+
+After updating, run:
+
+bash
+
+    openclaw skills update
+
+To make sure your existing skills are synced with the new system. if you get `Invalid skill slug` errors, that's a known issue with older skill names that used Unicode characters. The update includes a fix but it needs to run once to migrate.
+
+**Step 6: check your gateway after updating**
+
+The update includes gateway cold start improvements (minutes down to seconds, which is great) but also changes to how auth tokens and channel bindings work.
+
+After updating, verify:
+
+bash
+
+    openclaw start
+    openclaw status
+
+Check that your channels (Telegram, WhatsApp, etc) are still connected. The update added persistent channel binding so they should survive restarts now, but verify anyway. If a channel shows disconnected, a simple reconnect should fix it:
+
+bash
+
+    openclaw channels
+
+Then follow the prompts for any disconnected channel.
+
+**Step 7: the security stuff (actually worth reading this time)**
+
+This update has 30+ security patches. Most of them you won't notice. but a few matter:
+
+* A Windows SMB credential leak was patched. if you're running on windows, update immediately.
+* channel ID handling was hardened against prototype-chain and control-character abuse. This is the kind of fix that prevents attacks you didn't know were possible.
+* `openclaw doctor --fix` now properly removes stale plugin references left behind after uninstalls. run it:
+
+bash
+
+    openclaw doctor --fix
+
+This cleans up ghost entries from plugins you removed but that were still registered in your config.
+
+**The update command:**
+
+Once you've done steps 1-3 (env variables, state directory, backup), update:
+
+bash
+
+    npm install -g openclaw@latest
+
+or if you're on pnpm:
+
+bash
+
+    pnpm add -g openclaw@latest
+
+Then run steps 4-7 to verify everything works.
+
+**What's actually good about this update:**
+
+I don't want this post to be all doom. The improvements are real:
+
+* Gateway starts way faster. if you were waiting 30+ seconds for your agent to come online, that's gone.
+* Clawhub integration is cleaner than the old npm-based skill install.
+* Browser automation is more reliable with the new attachment model (no more flaky extension relay).
+* Persistent channel bindings means your telegram and whatsapp connections survive gateway restarts. this was one of the most annoying recurring issues.
+* Model failover works better. if your primary model gets rate-limited, it actually falls back to your secondary instead of just erroring.
+* GPT-5.4 and Gemini 3.1 Flash are supported out of the box now if you want to try them.
+* MiniMax M2.7 is the new default MiniMax model (up from M2.5).
+
+This is genuinely one of the most important openclaw releases. The breaking changes are manageable if you prepare. The improvements are worth the 10 minutes it takes to update properly.
+
+**The 5-minute version if you're in a hurry:**
+
+1. `env | grep -i clawdbot` and `env | grep -i moltbot` → rename any hits to OPENCLAW\_\*
+2. `ls ~/.moltbot` → move to `~/.openclaw` if it exists
+3. `cp -r ~/.openclaw ~/.openclaw-backup-$(date +%Y%m%d)`
+4. `npm install -g openclaw@latest`
+5. `openclaw doctor --fix`
+6. `openclaw status` → verify channels connected
+
+That's it. You're on the latest version and nothing is broken.
+
+Don't skip the backup. Trust me.",0,other,oct5_query_tps,manu_assisted_review,Heuristic flag for human review (not a confirmed labeling error): non_troubleshoot_label_but_strong_repair_ask. Note: Heuristic flag only. Not a human correction.,keep,,This is an advisory on preparing for OpenClaw breaking changes.
+1u4u84m,C2-C96BD53D0908,Ivanti Connect Secure version 25.1.1.1 sucks..!,"Hello All, we have recently upgraded our Ivanti connect secure (ISA-6000) to 25.1.1.1. It’s been a month now and we are facing frequent disconnections almost everyday. TAC support is still clueless and gathers logs at every occurrence and vanishes without providing any resolution.  Has anyone faced this weird behavior and whats the quickest solution to this apart from dumping this appliance ?",1,technical_troubleshooting,oct5_query_gds,pilot_post_discussion,Heuristic flag for human review (not a confirmed labeling error): troubleshoot_label_with_rant_language_and_no_tech_cues. Note: Heuristic flag only. Not a human correction.,keep,,The author seeks a solution to repeated disconnections after an Ivanti upgrade.
+1s3krfu,C2-CCE9FDBC9003,2026.4 beta update,,0,other,phase1_gold_file,pilot_post_discussion,Heuristic flag for human review (not a confirmed labeling error): very_thin_text. Note: Heuristic flag only. Not a human correction.,uncertain,,"The title names a beta update but has no body to show whether it is news, praise, or a problem."
+1oruawb,C2-CD0FEC117A29,CRITICAL: Major vulnerability in UiPress Lite (arbitrary code execution),"A **vulnerability in UiPress Lite** has put the security of 10,000 WordPress sites worldwide at risk. The plugin, used to customize the admin panel, contains a critical code execution error that could allow attackers to completely compromise the affected platform.
+
+# What is the vulnerability in UiPress Lite?
+
+This vulnerability, detected in **versions up to 3.5.07** , allows any authenticated user, even those with subscriber permission, to execute arbitrary code on the server.
+
+An attacker with minimal access can escalate privileges and execute commands that compromise the site's availability and integrity. This includes the ability to extract sensitive information, install malware, or take complete control of the server.
+
+# Impact on WordPress users
+
+The impact of this **vulnerability on UiPress Lite** is significant. Sites with multiple contributors are especially vulnerable, as the attack vector does not require privileges.
+
+The potential damages consist of:
+
+* **Leakage of confidential or personal data.**
+* **Redirecting the site to malicious domains.**
+* **Use of server resources for illegal activities.**
+* **Injection of backdoors or malicious scripts.**
+
+This type of vulnerability can also seriously affect a brand's reputation, as a compromised site generates distrust, can be excluded from search engines, and lead to financial losses.
+
+# How to protect your website
+
+Some recommendations to protect yourself from the **vulnerability in UiPress Lite** are:
+
+1. **Plugin update:** Ensure you have the latest version. The update fixes the vulnerability and eliminates the risk of exploitation.
+2. **User audit:** Review accounts with subscriber or higher permissions. Remove unnecessary access and strengthen login credentials.
+3. **Perimeter protection:** Implement a web application firewall that blocks attempts to execute suspicious commands or anomalous behavior patterns.
+4. **Constant monitoring:** activate monitoring systems and review activity logs. Detecting them early can prevent the attack from escalating.
+
+# What is the vulnerability in UiPress Lite?
+
+It is a security flaw in older versions of the UiPress Lite plugin for WordPress, which allows authenticated users to execute arbitrary code on the server, compromising the entire site.
+
+# Which versions of the plugin are affected?
+
+Versions of UiPress Lite up to 3.5.07 are affected. It is recommended to update to the latest available version to avoid risks.
+
+# How can I tell if my WordPress site is at risk?
+
+If you have UiPress Lite installed and it's not up to date, your site could be vulnerable. The most important thing is to review user logs for suspicious access.
+
+# What can an attacker do if they exploit this vulnerability?
+
+This type of attack allows the execution of malicious code, the installation of malware, the theft of confidential data, the redirection of traffic, or even the taking of total control of the server.
+
+Read the article at [CloudsDefense](https://www.cloudsdefense.com/vulnerabilidad-en-uipress-lite/)",0,other,oct5_query_tps,manu_assisted_review,Heuristic flag for human review (not a confirmed labeling error): non_troubleshoot_label_but_strong_repair_ask. Note: Heuristic flag only. Not a human correction.,keep,,This is a vulnerability notice for a WordPress plugin.
+1vwf4gb,C2-CEC4562CD4B4,Upgraded my personal laptop from Fedora 44 to 45 Beta,"Decided to upgrade my personal laptop from Fedora 44 to 45 Beta. It was so easy and unproblematic that I'll probably upgrade my work laptop as well. The most ""dramatic"" bug was not a bug at all, but the extension compatability test working as intended, fix posted below. I was so impressed with how well disabling/enabling the extension compatibility check works that I re-enabled it so I could record a video of me disabling it and thus allowing my extensions to run in Fedora 45 &amp; Gnome 51.
+
+I regret not doing measurements or at least screen recordings before and after the upgrade, because 45β sure does feel snappy and I would have liked to rule out New Toy Syndrome and confirmation bias.
+
+Anyway, should you want to give the beta a spin and are you feeling adventurous enough to do an in-place upgrade, it's not hard:
+
+**Disclaimer: Running the beta may or may not be smooth sailing. It was super smooth for me, your mileage may vary, don't do this on a computer you're not cool with potentially having to reinstall.**
+
+First, update the system
+
+    sudo dnf upgrade --refresh
+
+Download Fedora 45 packages. It'll take a while.
+
+    sudo dnf system-upgrade download --releasever=45
+
+*Remember to hit Y to accept the new GPG key.*
+
+Reboot into the offline upgrade installation
+
+    sudo dnf5 offline reboot
+
+Extensions being disabled in the new version? Disable the check for version compatibility:
+
+    gsettings set org.gnome.shell disable-extension-version-validation true",0,other,oct5_query_tps,manu_assisted_review,Heuristic flag for human review (not a confirmed labeling error): non_troubleshoot_label_but_strong_repair_ask. Note: Heuristic flag only. Not a human correction.,keep,,The author reports an uncomplicated Fedora beta upgrade.
+1prh6p8,C2-D328A4888D1E,Edge wiped all my saved user data &amp; settings after update,"I'm beyond furious.
+
+It took me a couple of days to set the browsing experience *just* right for me. Once it was done, it was all fine and dandy until I reset my computer today, which somehow meant that Edge was being updated along with the restart.
+
+Once my machine was back up and running again, I started Edge only to find all my settings are gone. My duckduckgo-style bangs don't work anymore. My tabs are gone. My extensions are disabled. Co-pilot is sitting on the sidebar button again. I'm logged out of every online service I had previously been logged in to. My theme has been reset. My default profile is still logged in and it shows that ""Sync is on"" but, clearly, something went wrong. I hit the ""re-sync"" button and nothing happens.
+
+I'm forced to set everything back to the way it was *by hand*. Microsoft is supposed to back up your data in its cloud servers for syncing, right? Well, it's not fucking working.
+
+I'd dump this garbage of a browser right now if it weren't for the fact that the browser market is full of trash.
+
+Chrome kneecapped ad-blocker extensions.
+
+Firefox can't play DRM content on Netflix, doesn't have &gt;60 Hz smooth scrolling, and randomly crashes playing YouTube videos.
+
+Brave and Opera have a ton of bloat and I frankly don't trust their in-house VPN and adblocker.
+
+Can't even use Safari since I'm on Windows OS.
+
+It pains me to my core to admit that MS Edge feels the fastest, most flexible, compatible, feature-complete, and secure browser at the moment, and it's fucking hot garbage.",1,technical_troubleshooting,oct5_query_tps,manu_assisted_review,Heuristic flag for human review (not a confirmed labeling error): troubleshoot_label_with_rant_language_and_no_tech_cues. Note: Heuristic flag only. Not a human correction.,keep,,"The author describes lost Edge data, failed resync, and a specific sync malfunction after an update."
+1liut7m,C2-D816E858B3FC,Can't fix update.,,1,technical_troubleshooting,oct5_query_tps,manu_assisted_review,Heuristic flag for human review (not a confirmed labeling error): very_thin_text. Note: Heuristic flag only. Not a human correction.,keep,,The title explicitly says the author cannot fix an update; this is a troubleshooting request despite thin detail.
+1qzew1k,C2-DA361FA9E5BE,Bestiary layout update,,0,other,phase1_gold_file,manu_assisted_review,Heuristic flag for human review (not a confirmed labeling error): very_thin_text. Note: Heuristic flag only. Not a human correction.,uncertain,,"“Bestiary layout update” lacks enough context to judge whether it is an announcement, complaint, or request."
+1wwq5fa,C2-DB7BEB78A067,CageMaker PRCG v0.7 :: Parametric Rack Cage/Faceplate/Enclosure Generator,"It's that time again. Time for another version update for CageMaker PRCG.
+
+This time it's a *big* one. We're talking about a near-total refactor with almost all of the source code rewritten and optimized, and the entire thing restructured to make it easier to add features and maintain. A ton of features were added but the entire thing only grew about thirty kilobytes (excluding comments).
+
+The documentation got a rewrite as well. It's no longer wiki-based, but still has coverage of literally every single setting and what it does, complete with screenshots. A copy of it comes along for the ride when downloading/cloning the repository, or [clicky linky](https://webmaka.github.io/CageMakerPRCG/index.htm) to see it on Github right now.
+
+&amp;nbsp;
+
+What does this do? [Create this](https://webmaka.github.io/CageMakerPRCG/images/intro_demo_1.png), [print this](https://webmaka.github.io/CageMakerPRCG/images/intro_demo_2.png), [rack-mount this](https://webmaka.github.io/CageMakerPRCG/images/intro_demo_3.png).
+
+&amp;nbsp;
+
+And of course the important bit:
+
+[Github repo](https://github.com/WebMaka/CageMakerPRCG) - Or, just do ""git clone https://github.com/WebMaka/CageMakerPRCG.git"" if you have git installed.
+
+CageMaker PRCG runs best in OpenSCAD. Don't have OpenSCAD? Grab that [here](https://openscad.org/).
+
+Or, [try it in a web browser](https://cagemaker.org/) thanks to the WebAssembly port of OpenSCAD, OpenSCAD Playground.
+
+&amp;nbsp;
+
+The new additions to this version:
+
+* Almost completely refactored to break up massive routines into easier-to-modify and easier-to-maintain smaller segments and subroutines. This should make codebase finalization for 1.0 significantly easier, while also making for a more robust generator overall going forward.
+
+* Added the option to selectively disable any cage side. (Requested by Github user ""Nepherim"")
+
+* Added options to expand the faceplate upward or downward to cover openings or structures. The downward setting can emulate Homeracker ""flush to bottom"" for covering reinforcing bars. (Requested by Reddit/Github user ""dekonnection"")
+
+* Added the option to shift the mounting holes on either side of the faceplate up or down relative to the center of the topmost unit on the faceplate. This can be used to flip upside-down asymmetric cages that are half-unit height multiples, such as Keystone patch panels. (Requested by Reddit/Github user ""dekonnection"")
+
+* Improved the structure of rear support cages to handle heavier weight and greater extension range without sagging. Also changed the cage generation to make horizontal support ribs mandatory when a rear support cage is generated, so as to make a more effective overlapping joint between front and rear cages for greater rigidity.
+
+* Added faceplate modifications for 88x56mm SBCs such as Raspberry Pi, or any other SBC with this footprint along with M2 mounting holes in a 49mm x 58mm pattern. These modifications include a standalone support frame for the SBC, and include horizontal as well as vertical in both left-oriented and right- oriented.
+
+* Added faceplate modifications for standard motherboard rear-panel IO shield openings, Mini-ITX motherboards, and full-height and half-height PCI slots.
+
+* Added faceplate modifications for mounting ATX, SFX, and TFX power supplies.
+
+* Added the option to generate a cage without opening a corresponding hole in the faceplate for inserting a device. Useful for creating custom rackmount enclosures when combined with faceplate modifications.
+
+* Added the option to make the back of the cage solid, which can be useful for creating custom rackmount enclosures with solid backs for mounting connectors, etc., or remove most of the back aside from two 6mm wide retention lips on both short sides.
+
+* Added the capability to place left/centered/right modifications on the back of the cage when said back is set to solid. This makes creating custom rack enclosures significantly easier by generating cutouts directly into the cage back.
+
+* Added options to remove most of any side of the cage except for its support structure, or remove the side entirely.
+
+* Added custom rack widths for 12, 14, and 16 inch racks, as well as a 12.66 inch wide, 2/3-width rack for 19 inch racks.
+
+* Added direct support for EIA-310 racks using 2020 aluminum extrusion for framing. Since these racks have a reduced internal width, conventional cages often don't fit - selecting this rack geometry sets CageMaker to be more aware of the geometry differences for this rack design.
+
+* Added support for more non-EIA-standard rack geometries, including direct support for Homeracker and MR248 rack systems.
+
+* Added the ability to set custom rack geometry for non-standard racks. Unit height, hole spacing/centers/size, and mounting reservation space are all adjustable.
+
+* Modified the faceplate generator to more accurately locate screw holes on EIA-compliant racks.
+
+* Added the option to generate screw holes for mounting instead of 5mm wide slots. This will make for better aesthetics but may cause alignment issues on racks with slightly off-spec mounting hole centers.
+
+* Added the option to place screw-hole standoffs on the bottom of the cage when its geometry is set to solid. Screw hole size and standoff height are configurable.
+
+* Added the option for faceplate ventilation grids to only generate full holes.
+
+* Changed the resolution for most sizing and offset options to half-millimeter increments instead of full-millimeter only.
+
+* Improved the retention-lip generation code to make it more reliable.
+
+* Changed behavior under ""error"" conditions - CageMaker PRCG will no longer force-correct any problems it detects, such as re-centering faceplate modifications that exceed exclusion zones. This will permit forcing a render operation when the end result will work but might have clearance issues that CageMaker PRCG doesn't like but don't pose a problem in practical application.
+
+* Added an option to suppress ""CHECK CONSOLE"" error warning for rare situations where the generated cage throws an error that doesn't actually cause issues. This should be used VERY SPARINGLY, as it can result in an unprintable cage or one that has fitment issues.
+
+* Added a greeting that appears in the console when the script runs, which also displays the maximum width for a single device that can be placed in a single cage with the current settings.
+
+* Added a logotype graphic with version number and URLs that can be disabled via option in the ""rarely changed options"" category in the Customizer.
+
+&amp;nbsp;
+
+Not a bad list of new additions for an update, IMO, but I'm biased...
+
+&amp;nbsp;
+
+## CageMaker PRCG Features
+
+### Create Widely-Compliant Rackmount Cages To Fit Any Rack System
+
+*    Generates rack faceplates that are by default designed to comply with EIA-310 standard mounting hole patterns, which is used on the vast majority of modern rack systems. Triple-hole, slotted, 1/2""-5/8""-5/8"" staggered spacing, 1.75""/44.45mm ""unit"" height, sized for #10/M5 mounting hardware.
+*    Can optionally generate cages for rack systems that don't follow EIA-310, which can be useful for custom 3D printable mini- and micro-rack systems. Simply select the system's ""unit"" size and mounting hole spacing and CageMaker automatically adjusts accordingly.
+*    Generates full width rack cages for 5"", 6"", 7"", 10"", and 19"" racks.
+*    Generates one-half-width, bolt-together cages for 10"" and 19"" racks. Mounting ears are automatically generated on one side of the cage for bolting two of them together and optionally, alignment pin holes can be added to allow the use of short lengths of filament as alignment pins.
+*    Generates one-quarter-width, one-third-width, or two-thirds-width bolt-together cages for 19"" racks. Again, mounting ears for bolting cages together are automatically added as required (and again, optionally, alignment pin holes can be added) - outer cages have a single ear on one side and inner cages have two, one on each side.
+*    Automatically adjusts height to fit the device to mount in full ""unit"" multiples by default, and half-unit multiples as an option.
+*    Full-unit cages are symmetrical by default as long as the cage proper is left to its default offsets. Half-unit cages are asymmetrical but two half-unit cages can be aligned by rotating one so its half-holes butt against its neighbor's half-holes. If it becomes necessary to ""flip"" a cage that has a half-unit-multiple height, a single option shifts the mounting holes to make this happen.
+*    Partial-width cages can be mixed-and-matched for height - attach two 1U halves to a single 2U half. (NOTE: This requires that the ""top and bottom holes only"" option NOT be used.)
+*    Enforces safe mounting by maintaining a minimum mounting clearance of 15.875mm or 5/8"" on both sides of the faceplate (on EIA-compliant racks) and warns if any aspect of the cage design intrudes into that space.
+
+### Durable Rack-Mounting For Smaller But Heavier Equipment
+
+*    Adjustable plus-profile corner-support structure for maximum rigidity with minimal material consumption.
+*    Supports devices up to 5Kg or 11 lbs. per complete cage.
+*    Defaults to 4mm thickness for all flat surfaces, but this can be increased to 5mm, 6mm, or 8mm for greater stiffness and better support for heavier gear.
+*    Optionally add faceplate reinforcing to reduce twisting/cantilevering.
+*    Optionally generate additional supports on the top and bottom of the cage.
+*    Optionally generate the top, bottom, and/or sides as solid surfaces for additional rigidity.
+*    Optionally generate a rear-mounted support sub-cage to support larger/heavier devices from both front and rear by attaching to both front and rear rack rails. The rear support cage interlocks into the back of the cage holding the device.
+
+### Loads Of Customizable Cage Options To Fit Any Device
+
+*    The back, sides, top, and bottom of the cage proper are mostly open for ventilation by default as long as the device is at least 20mm deep on any given axis. Optionally make the ""top"" and/or ""bottom"" of the cage a solid shelf and/or make the sides of the cage solid.
+*    Easily create side-by-side cages for multiple same-sized devices - enter the dimensions of one device and increase the number of devices as needed. Excellent for mounting a lot of smaller things such as tiny-form-factor SBCs or external hard drives in minimal space.
+*    Multiple cages can be gapped out from each other for better air circulation, which can be helpful for hot-running devices.
+*    Optionally add screw holes in tabs to the short edges of a cage opening, or the corners of the opening, or both, with selectable hardware sizes. Couples well with multiple-same-sized-device cages, and useful for subrack assemblies - excellent for stuffing several Raspberry Pis or other small SBCs into a rack.
+*    By default, a cage is centered both horizontally and vertically on its faceplate. Positioning can be adjusted on both axes to move a cage to the top or bottom, to either side, or a combination of both.
+*    Standoffs can be positioned on the bottom of a cage, and both height and screw diameter are configurable.
+*    Add up to three sets of add-on faceplate modifications, one on either side of the cage proper and one in the center when creating a cageless faceplate, each of which can be any one of the following:
+   *     Keystone module receptacles
+   *     Neutrik D-Series connector cutouts
+   *     Cutouts and mounting bases with M2 screw bosses for mounting 85x58 SBCs such as Raspberry Pi. These can be mounted horizontally, or vertically with the SBC's ""top""/""up"" side facing left or right.
+   *     Cable management combs in two widths and two heights.
+   *     Motherboard rear-port IO shield cutouts.
+   *     Full-height or low-profile PCI slots for PC expansion cards.
+   *     Mini-ITX motherboard backplane with IO shield cutout and low-profile PCI slot.
+   *     ATX, SFX, and TFX power supplies.
+   *     30mm, 40mm, 60mm, 80mm, 92mm, 120mm, or 140mm cooling fans
+   *     10mm, 12mm, 16mm, 19mm, or 24mm holes for things like a pushbutton or panel-mount indicator light
+   *     Fractional-DIN cutouts in 1/32- to 1/4-DIN sizes
+   *     VESA FDMI MIS-B/-C/-D/-E/-F mounting patterns up to 200mm for attaching VESA mounting brackets to the rack or the rack to VESA mounting brackets
+   *     IEC-60309 industrial power inlet cutouts for 16A and 32A inlets
+   *     IEC AC Mains sockets and outlets - C13/C14 and C19/C20 - in both screw-mount and snap-in formats.
+    *    Up to three custom cutouts of configurable diameter for round holes or height and width with optional corner rounding for rectangular.
+*    Faceplate modifications can be placed into a grid of up to 12 columns by 4 rows, space permitting.
+*    Faceplate modifications can be automatically centered between the device(s) and the edge of safe mounting area, or manually moved. Centered modifications are automatically centered vertically, and side modifications can be shifted from centerlines.
+*    Can generate a faceplate without a cage proper, with selected modifications, or as a blank.
+*    Can generate a cage with a solid faceplate, which can also have modifications mentioned above, instead of being open for front-loading a device.
+*    Optionally add a 1mm retention ""lip"" on the front of the cage to help retain the device, which is recessed into the cage by 1mm to compensate.
+*    Selectable hardware for bolt-together and split cages - both metric (M3 through M6) and US-standard/imperial (4-40 through 1/4-20) hardware are supported, including both clearance and threaded hole diameters as well as common heat-set insert sizes by their thread pitch and mounting hole diameters.
+*    Add ventilation to the faceplate of any cage. The pattern, horizontal/vertical offsets, angle, and size are independently adjustable. Ventilation can cover the whole faceplate, or be limited to either side of, or above and below, the device cage.
+*    Add ventilation grids to the top/bottom and/or sides of a device cage. The pattern, horizontal/vertical offsets, angle, and size are independently adjustable.
+
+### Create Custom Rackmount Enclosures For Small Projects
+
+*    Create a cage with solid sides and back, and with a top that includes screw tabs for attaching a lid.
+*    The rear of a cage can be made solid and accept left oriented, centered, and/or right oriented modifications just like the faceplate. Create custom enclosures with connectors both inside and outside the rack.
+
+### Custom Faceplate Generation Without Device Cages
+
+*    Create a custom faceplate without a cage, in any height from 0.5U to 5.0U in half-unit increments.
+*    Faceplates can be ventilated as well. The pattern, horizontal/vertical offsets, angle, and size are independently adjustable.
+*    Add a faceplate modification, centered on the faceplate, which can be any one of the following:
+   *    Keystone module receptacles
+   *     Neutrik D-Series connector cutouts
+   *     Cutouts and mounting bases with M2 screw bosses for mounting 85x58 SBCs such as Raspberry Pi. These can be mounted horizontally, or vertically with the SBC's ""top""/""up"" side facing left or right.
+   *     Cable management combs in two widths and two heights.
+   *     Motherboard rear-port IO shield cutouts.
+   *     Full-height or low-profile PCI slots for PC expansion cards.
+   *     Mini-ITX motherboard backplane with IO shield cutout and low-profile PCI slot.
+   *     ATX, SFX, and TFX power supplies.
+   *     30mm, 40mm, 60mm, 80mm, 92mm, 120mm, or 140mm cooling fans
+   *     10mm, 12mm, 16mm, 19mm, or 24mm holes for things like a pushbutton or panel-mount indicator light
+   *     Fractional-DIN cutouts in 1/32- to 1/4-DIN sizes
+   *     VESA FDMI MIS-B/-C/-D/-E/-F mounting patterns up to 200mm for attaching VESA mounting brackets to the rack or the rack to VESA mounting brackets
+   *     IEC-60309 industrial power inlet cutouts for 16A and 32A inlets
+   *     IEC AC Mains sockets and outlets - C13/C14 and C19/C20 - in both screw-mount and snap-in formats.
+   *     Up to three custom cutouts of configurable diameter for round holes or height and width for rectangular.
+*    Left and right side modifications from cage generation can also be placed on a custom cageless faceplate - three different mods can be used at one time.
+*    Faceplate modifications can be placed into an array or grid of up to 12 columns by 4 rows, space permitting.
+*    Faceplates can be generated as flat 2D objects for export - perfect for engraving or laser-cutting a customized faceplate.
+
+### Wide Printer Support, Including Small-Format
+
+*    Adjustable clearance setting allows for ""dialing in"" dimensions to compensate for the dimensional accuracy of the printer.
+*    Can split a cage in half for printing on smaller-volume printers - print a 10"" wide 2U tall cage within a 180mm print area. Split cages receive tabs and slots for attaching the halves together.
+*    Optionally add alignment pin holes to split cages - use small 1.75mm filament ""pegs"" to more accurately align the cage halves.
+*    Can separate the cage proper and faceplate into two components for faster printing on larger printers. Reduces print time by as much as 15% and reduces filament consumption by as much as 25%. (Separated cage should be attached to its faceplate with 1.75mm filament segments or M2 screws, and a suitable adhesive such as epoxy is used to ""weld"" the two into a single unit.)
+
+### Making Cage Design Easier Without Requiring CAD Expertise
+
+*    Includes presets for a number of popular devices - simply pick a device from a list to get a ready-to-render design for a 10"" rack without requiring any further action. Pick, render, export, slice, print, install into the rack.
+*    Includes built-in ""ruler"" for easier layout. The ruler function automatically switches off when rendering a completed cage for printing.
+*    Ruler feature provides a ""top"" indicator as well as the unit height of the generated cage.
+*    Faceplate and cage-back modifications' reservation spaces are color-coded for easier layout planning.
+*    Automatically marks estimated print height for the Z-axis when the ruler is enabled.
+*    Optionally display an outline of the build volume of the printer, to help determine whether the resulting 3D object will fit the printer's working area.
+*    Intelligent problem detection warns of size/fitment issues and overlap, in order to make sure the cage will work as a real thing before spending the time and filament to print the cage.
+*    Error messages are sent to OpenSCAD's console.
+*    Also runs in OpenSCAD Playground, a web-based port of OpenSCAD - design cages in a browser without having to install any software. OpenSCAD Playground can run in most modern browsers, including those that run on Android/iPhone.",0,other,oct5_query_tps,manu_assisted_review,Heuristic flag for human review (not a confirmed labeling error): non_troubleshoot_label_but_strong_repair_ask. Note: Heuristic flag only. Not a human correction.,keep,,This announces a new CageMaker version and its changes.
+1qm42nd,C2-E1AF2D10DFC5,Eventin 4.1.PUKE,"RANT ...
+
+The recent EventIn update broke EVERYTHING. Every time I go to the event details page, it clears out the dates to ""Invalid Date"" and I have to manually reselect the start and end date and time to save any modifications. It also deleted schedules from my events and the new format doesn't offer any options to pull in schedules that have been created in the schedule tab (which defeats their entire point?). Errors randomly are popping up when you try to save and move to a different part of the system.
+
+I'm on the chat with their help crew for hours and they're baffled as to how comprehensively everything is broken. At midnight, they assure me they've forwarded my situation to the senior engineers, and within minutes I get a message that everything is fixed!
+
+Narrator's voice: ""EVERYTHING WAS NOT FIXED.""
+
+Apparently repeated events are entirely broken, and if you remove the repeat from your event, you can save event detail modifications, but only when you fix the start and end date/time and then migrate to a different tab and then update your event - but then it can also randomly delete all your event information and or event schedule randomly.
+
+Fail. EPIC fail.",0,general_dissatisfaction,oct5_query_tps,joint_review,Heuristic flag for human review (not a confirmed labeling error): non_troubleshoot_label_but_strong_repair_ask. Note: Heuristic flag only. Not a human correction.,keep,,The post is primarily a rant about Eventin after an update and does not ask readers to troubleshoot it.
+1ww2p7s,C2-F8AF467C94AD,"[Update] Frosted Glass v1.4 is here! ✨ Native Bubble &amp; Navbar support, glass dialogs, and a refreshed Dark theme","Hey everyone! 👋
+
+**I made it frosted before Apple** 🔥 
+
+**Frosted Glass v1.4 is out**, along with an updated **Theme Manager**!
+
+My last post introduced the Manager and the ability to customize colors and backgrounds without editing YAML. This update focuses on bringing the glass effect to more cards and making the whole interface feel more consistent.
+
+# ✨ What’s new?
+
+* **Native Bubble Card support.** Bubble cards now pick up the Frosted Glass styling automatically, with matching buttons, sub-buttons, menus, and popups.
+* **Native Navbar Card support.** Transparent navigation with matching reflections and blur in the Full version.
+* **Glass dialogs and popups.** Entity dialogs now have a translucent, blurred surface in Full, on desktop and mobile. Lite keeps them solid for readability.
+* **A refreshed Dark theme.** Deeper blue-black backgrounds, softer blue accents, and matching colors across Settings, menus, and controls. Light keeps its warm off-white look.
+* **Better sidebar and topbar styling.** Subtle transparency and blur in Full, fully transparent backgrounds in Lite. Sidebar styling also carries through to Settings and other panels.
+* **UIX support.** You can now choose either UIX or card-mod as your styling engine.
+
+There are also compatibility improvements for **Mushroom, Room Summary, Hue-Like Light, Slider Button, Simple Swipe**, and stacked cards.
+
+# 🛠️ Those transparency issues got some attention
+
+In my v1.3 post, I mentioned cards where transparency or blur wasn’t behaving properly. A lot of this update went into working through those problems.
+
+Cards and badges now keep their transparent backgrounds, corner reflections, and depth. I’ve also fixed HACS dropdown positioning, doubled glass layers in nested cards, unwanted backgrounds behind headings, and theme styles interfering with custom shadows or Mushroom artwork.
+
+**Lite still keeps the glass edges and transparent cards, without the blur**, for those of you using older tablets or lighter setups.
+
+# 🎨 Theme Manager updated too
+
+Your custom colors and backgrounds now get the same v1.4 styling and card support. Custom color handling and background URLs have also received fixes.
+
+**Already using the Manager?** After updating, reload the integration or save its options once to regenerate your existing Custom themes.
+
+For styling across the whole interface, load your chosen engine as a frontend module and select the theme in your Home Assistant profile.
+
+# 🔗 Get it here
+
+* [Frosted Glass Theme](https://github.com/wessamlauf/homeassistant-frosted-glass-themes)
+* [Frosted Glass Theme Manager](https://github.com/wessamlauf/frosted-glass-manager)
+* [Full v1.4 changelog](https://github.com/wessamlauf/homeassistant-frosted-glass-themes/releases/tag/v1.4)
+
+The theme is available through **HACS**. Manager installation instructions are in its repository.
+
+Thank you for the screenshots, bug reports, GitHub stars, and coffees. They’ve helped me keep improving this project. ❤️
+
+I’d love to see how v1.4 looks on your dashboards! If something still looks off, let me know which card and styling engine you’re using.
+
+P.S. 
+
+I know it took a lot of time to fix v1.3 but it has been crazy at home lately, with one more kid it was difficult to sit down and get it done. Thank you for the amazing support guys, I love seeing Frosted Glass all over the reddit. 
+
+Enjoy! 🥂  
+Wessam",0,other,oct5_query_tps,manu_assisted_review,Heuristic flag for human review (not a confirmed labeling error): non_troubleshoot_label_but_strong_repair_ask. Note: Heuristic flag only. Not a human correction.,keep,,This announces the Frosted Glass v1.4 release.
+1wxl2u9,C2-24AD8AEBB0CB,Need advice: Kubernetes 1.34 → 1.35 upgrade with Elasticsearch running in the cluster,"Hi everyone,
+
+I’m planning a Kubernetes cluster upgrade from **v1.34.8 to v1.35**, as the current version is approaching retirement/EOL.
+
+The cluster currently has **Elasticsearch running on it**, so I’m concerned about potential compatibility or stability issues after upgrading Kubernetes.
+
+I’d like some guidance on:  
+\- How can I verify **Elasticsearch compatibility with Kubernetes 1.35** before upgrading?  
+\- Are there any known issues I should be aware of when upgrading Kubernetes while Elasticsearch is running?  
+\- What should I check across **Elasticsearch, ECK/operator, StatefulSets, storage classes/CSI drivers, ingress, CRDs, APIs, and other dependencies**?  
+\- What is the recommended **pre-upgrade checklist**?  
+\- Should I upgrade Elasticsearch/ECK first, or Kubernetes first?  
+\- What kind of **backup/rollback strategy** should I have?  
+\- Is it better to upgrade the control plane and worker nodes separately?  
+\- What would be a safe **upgrade plan** for a production cluster to minimize downtime/risk?  
+\- Are there any tools or commands you recommend for detecting **deprecated APIs or incompatible workloads** before the upgrade?
+
+If anyone has gone through a similar **Kubernetes 1.34 → 1.35 upgrade with Elasticsearch**, I’d really appreciate hearing about your experience and any issues you encountered.
+
+Thanks!",0,other,oct5_query_tps,joint_review,"Exact identical normalized title+body as other development posts, but s2_target / discussion_type disagree across the group 1wxl2u9, 1wxl3ma, 1wxl35m. Adjudicate from post text and the labeling guide; do not resolve by majority vote. This is a confirmed text identity with conflicting labels — separate from the heuristic 48-flag list.",keep,,The author asks for planning advice before an upgrade; no current software failure needs diagnosis or repair.
+1wxl3ma,C2-2EC7B336BA90,Need advice: Kubernetes 1.34 → 1.35 upgrade with Elasticsearch running in the cluster,"Hi everyone,
+
+I’m planning a Kubernetes cluster upgrade from v1.34.8 to v1.35, as the current version is approaching retirement/EOL.
+
+The cluster currently has Elasticsearch running on it, so I’m concerned about potential compatibility or stability issues after upgrading Kubernetes.
+
+I’d like some guidance on:  
+\- How can I verify Elasticsearch compatibility with Kubernetes 1.35 before upgrading?  
+\- Are there any known issues I should be aware of when upgrading Kubernetes while Elasticsearch is running?  
+\- What should I check across Elasticsearch, ECK/operator, StatefulSets, storage classes/CSI drivers, ingress, CRDs, APIs, and other dependencies?  
+\- What is the recommended pre-upgrade checklist?  
+\- Should I upgrade Elasticsearch/ECK first, or Kubernetes first?  
+\- What kind of backup/rollback strategy should I have?  
+\- Is it better to upgrade the control plane and worker nodes separately?  
+\- What would be a safe upgrade plan for a production cluster to minimize downtime/risk?  
+\- Are there any tools or commands you recommend for detecting deprecated APIs or incompatible workloads before the upgrade?
+
+If anyone has gone through a similar Kubernetes 1.34 → 1.35 upgrade with Elasticsearch, I’d really appreciate hearing about your experience and any issues you encountered.
+
+Thanks!",0,other,oct5_query_tps,manu_assisted_review,"Exact identical normalized title+body as other development posts, but s2_target / discussion_type disagree across the group 1wxl2u9, 1wxl3ma, 1wxl35m. Adjudicate from post text and the labeling guide; do not resolve by majority vote. This is a confirmed text identity with conflicting labels — separate from the heuristic 48-flag list.",keep,,"This is the same Kubernetes upgrade-planning text as rows 49 and 51, so the same label applies."
+1wxl35m,C2-EE0C29DE4C88,Need advice: Kubernetes 1.34 → 1.35 upgrade with Elasticsearch running in the cluster,"Hi everyone,
+
+I’m planning a Kubernetes cluster upgrade from **v1.34.8 to v1.35**, as the current version is approaching retirement/EOL.
+
+The cluster currently has **Elasticsearch running on it**, so I’m concerned about potential compatibility or stability issues after upgrading Kubernetes.
+
+I’d like some guidance on:  
+\- How can I verify **Elasticsearch compatibility with Kubernetes 1.35** before upgrading?  
+\- Are there any known issues I should be aware of when upgrading Kubernetes while Elasticsearch is running?  
+\- What should I check across **Elasticsearch, ECK/operator, StatefulSets, storage classes/CSI drivers, ingress, CRDs, APIs, and other dependencies**?  
+\- What is the recommended **pre-upgrade checklist**?  
+\- Should I upgrade Elasticsearch/ECK first, or Kubernetes first?  
+\- What kind of **backup/rollback strategy** should I have?  
+\- Is it better to upgrade the control plane and worker nodes separately?  
+\- What would be a safe **upgrade plan** for a production cluster to minimize downtime/risk?  
+\- Are there any tools or commands you recommend for detecting **deprecated APIs or incompatible workloads** before the upgrade?
+
+If anyone has gone through a similar **Kubernetes 1.34 → 1.35 upgrade with Elasticsearch**, I’d really appreciate hearing about your experience and any issues you encountered.
+
+Thanks!",1,technical_troubleshooting,oct5_query_tps,manu_assisted_review,"Exact identical normalized title+body as other development posts, but s2_target / discussion_type disagree across the group 1wxl2u9, 1wxl3ma, 1wxl35m. Adjudicate from post text and the labeling guide; do not resolve by majority vote. This is a confirmed text identity with conflicting labels — separate from the heuristic 48-flag list.",change,s2_target=0; discussion_type=other,This duplicates rows 49 and 50. All three ask for upgrade-planning advice rather than fixing an existing failure.

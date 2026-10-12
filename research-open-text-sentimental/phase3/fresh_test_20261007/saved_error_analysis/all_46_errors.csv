@@ -1,0 +1,1001 @@
+test_id,reddit_id,error_type,y_true,y_pred,troubleshooting_score,score_margin_from_threshold,subreddit,created_utc,has_body,title_chars,body_chars,title,post_body
+T20261007-027,1rl9vab,false_negative,1,0,0.5426494141877273,0.045064364927356104,Fedora,2026-03-05T06:07:52,True,37,91,Cannot reduce the size of this panel.,"Unable to reduce the size of this panel after upgrading to plasma 6.6
+
+I am using Fedora 43"
+T20261007-029,1pozty5,false_positive,0,1,0.6021711376796184,0.014457358564535006,debian,2025-12-17T15:45:38,True,103,725,Forced HP telemetry made me mad enough to delete Windows 11 and install Debian 13. Couldn't be happier.,"Seriously, why make crappy telemetry software a hardware component that can forcibly reinstall &amp; enable itself after a Windows update!? Can I just use what I BOUGHT WITH MY OWN MONEY the way I want? The answer is Debian 13. F--k HP, the CEO should learn what ""consent"" is.
+
+I wish I just did this at the beginning, its been a great experience. I am surprised that all my hardware is usable, and it runs better than it did on Windows. Most of all, I like choosing what is installed on my system! The finger print scanner works, and the screen flips when I fold it back.
+
+I think the only thing I would suggest is adding a secure way to enable logging in with the finger print over the account password, even for CLI usage."
+T20261007-037,1sy5lo0,false_negative,1,0,0.30796321161384427,0.2797505675012391,Ubuntu,2026-04-28T16:00:37,True,41,345,Upgrade from 25.10 to 26.04 LTS on VMware,"I am using Ubuntu 25.10 in VMware and want to upgrade to the latest 26.04 LTS version 
+
+I tried to use`sudo apt do-release-upgrade` but  I receive message saying that I need to change a config file in /etc to LTS or normal and that software update doesn't detect the new version even though the website released 26.04 LTS 
+
+  
+What should I do ?"
+T20261007-046,1uhmmgc,false_positive,0,1,0.9023229617024838,0.31460918258740045,Ubuntu,2026-06-28T03:43:34,True,40,136,Anyone had any issues with kernel update,"Hello,  
+Anyone experienced any issues after updating to kernel version ""5.15.0-185-generic"" and restarting machine running Ubuntu 22.04"
+T20261007-054,1pdlr9e,false_positive,0,1,0.8152667052717983,0.22755292615671496,ollama,2025-12-04T00:40:10,False,34,0,Recent Update Shows Scrollbar Rail,
+T20261007-069,1wvp6jc,false_positive,0,1,0.5944187579751947,0.006704978860111344,firefox,2026-10-02T09:18:53,True,42,691,Where is everybody seeing the new changes?,"I update to Firefox Nova and it look almost the same, only difference is being the tabs and search bars are now round instead of shaped with the touch look of a rectangle. I have below attached such a screenshot of what my compoter interface appears as, upon my screen.
+
+https://preview.redd.it/kk70rowhu0th1.png?width=1917&amp;format=png&amp;auto=webp&amp;s=0a37091e775d024f716f746fe6217daf364f1813
+
+To my eye, it is looking quite similar in appearance, and other than the changes to shape and form of the aforementioned user interface elements I cannot see differencing.
+
+Is it possible that my Firefox has not updated to take advantage of all of the new features?
+
+Sorry for poor English."
+T20261007-074,1u9vag8,false_positive,0,1,0.6635941657428561,0.07588038662777274,homeassistant,2026-06-19T07:26:17,True,27,505,Philips Hue bulb FW updates,"I've had these updates pending to my (many tens of) GU-10 bulbs:
+
+Installed version: 16787202  
+Latest version: 16787456
+
+My attitude has been ""if it works, don't touch it"" and it's served me well. And I've rarely (ever?) had stability issues with my Hues (can't say the same for other vendors).
+
+Does everyone here just apply these? Or hit ""Ignore"" forever? Anyone found a not-useless changelog publicly available? ([This](https://www.philips-hue.com/en-us/support/release-notes/lamps) counts as useless)"
+T20261007-078,1rzvi9k,false_negative,1,0,0.519060436691156,0.0686533424239274,chrome,2026-03-21T16:16:05,True,84,758,Chrome's 'What's New' page gives wrong navigation instructions for Enhanced Autofill,"After the latest Chrome update, the 'What's New' page promotes the new Enhanced Autofill feature (loyalty cards, vehicle info, flight details) and tells you to enable it by going to:
+
+
+
+\&gt; Chrome Settings &gt; Your Saved Info &gt; Enhanced Autofill
+
+
+
+But that path doesn't exist. If you actually open Chrome Settings, the correct path is:
+
+
+
+\&gt; Chrome Settings &gt; Autofill and passwords &gt; Enhanced Autofill
+
+
+
+'Your Saved Info' doesn't appear anywhere in the Settings menu. The instructions in the What's New page are in the wrong order and reference a label that doesn't match the actual UI.
+
+
+
+Minor thing, but kind of ironic that the page meant to onboard you to a new feature gives you instructions that lead nowhere. Anyone else notice this?"
+T20261007-102,1u2nqfw,false_negative,1,0,0.4622938526851877,0.1254199264298957,Ubuntu,2026-06-11T03:30:43,True,25,105,Just upgraded to 26.04LTS,"I just upgraded to 26.04 LTS.
+
+So far one problem: part of my screen glitches occasionally. The top left."
+T20261007-121,1rkwr8v,false_positive,0,1,0.6630791974040517,0.07536541828896837,Fedora,2026-03-04T20:35:08,True,34,254,Importing GPG keys during upgrades,"I did my first `dnf upgrade` today after a recent installation and it prompted me to import an OpenPGP key. I accepted because I thought it couldn't be malicious if coming from `dnf` itself.
+
+Why did `dnf` need to import a key? How I can verify that key?"
+T20261007-132,1pzfiug,false_negative,1,0,0.4582788414388239,0.12943493767625947,MacOS,2025-12-30T11:14:09,True,85,472,Safari Tab Dragging UI Behavior in macOS 26: Intentional Design or Persistent Glitch?,"In standard browsers, dragging a tab typically detaches a visual snapshot of that tab, retaining its text and UI styling. Safari used to follow this logic. However, since the update to **macOS 26**, dragging a tab results in the element rendering as a complete blank white box, regardless of the current theme or textual content.
+
+We are now on **macOS 26.2**, and this behavior persists without correction. Is it possible that Apple has deliberately designed it this way?"
+T20261007-177,1ub120n,false_negative,1,0,0.5164709565748413,0.07124282254024206,firefox,2026-06-20T16:37:08,True,50,204,"Firefox VPN disappeared, now I have to pay for it?","Been using FF's free VPN for a few months now, with a monthly limit of 50G. Suddenly after an auto update this past week, my VPN option is gone unless I pay for it?
+
+When did this happen? (I'm in Canada)."
+T20261007-179,1qk48w5,false_negative,1,0,0.30986035439197746,0.2778534247231059,MacOS,2026-01-22T19:31:50,True,47,625,Updating to Tahoe cleared out my Desktop folder,"I finally decide to take the plunge and finally upgrade my M2 Air to Tahoe from Sequoia. I will be doing some iOS development so I thought the new simulator engine would be good to have.
+
+After update, I observed classic issues like transparent windows flickering and such. Yeah, annoying.
+
+But what was worse that it upgrade cleared out my Desktop folder for some reason. It was iCloud synced.
+
+I looked everywhere in Finder, tried searching file names with Spotlight and nothing came up. I spent about half an hour and finally found them in [icloud.com/recovery](http://icloud.com/recovery) 
+
+It was an annoying experience."
+T20261007-181,1thov23,false_positive,0,1,0.6120923035086291,0.02437852439354571,Ubiquiti,2026-05-19T14:35:34,True,21,502,SIA-DC09 with Protect,"Afternoon,
+
+  
+We are using an large UniFI setup (30+ Cameras, ENVR). I've just seen the latest update supports SIA-DC09, which will be a huge bonus to us as we are having to run a Dahua system alongside UniFi currently for our Alarm Centre out of hours.
+
+Issue is i can't see the option to turn on SIA-DC09 in the NVR? Unless im going blind or being stupid and have misunderstood what SIA-DC09 is!
+
+  
+Can someone point me in the right direction please, i am UK based, unsure if this effects anything."
+T20261007-193,1tedg2v,false_negative,1,0,0.20988293149643772,0.37783084761864566,sysadmin,2026-05-15T23:57:33,True,79,1416,"If you have PDF-XChange Editor, please be careful with their new version 11.0.0","Our company is using PDF-XChange Editor, it has been solid until today, a major new version 11.0.0 comes out and got deployed to our machines today.. (We use an automation tool to deploy software updates, for PDF software like PDF-XChange Editor, it will be auto deployed)
+
+Suddenly our users are reporting that their PDF-XChange Editor loses license and start to showing the trial watermark when the users editing PDFs. 
+
+I have to redeploy the keys on most of our users's machines. The PDF-Xchange Editor become licensed again but I was wondering why?? what was causing the software losing license after the ugprade (our license expires in a year)? 
+
+I finally figured out, after back and forth with their support, they confirmed that the registry path where the key lives has been changed in the version 11.0.0. 
+
+New location for the key in the registry for version 11.0.0
+
+HKEY\_LOCAL\_MACHINE\\SOFTWARE\\PDF-XChange\\Vault\\  
+
+Previous versions, the key is in the registry:  
+HKEY\_LOCAL\_MACHINE\\SOFTWARE\\Tracker Software\\Vault\\ 
+
+  
+So if you are using machine level key deployment, please be aware of this change and the potential impact of losing your license status when PDF-XChange Editor got updated to 11.0.0
+
+Also, if you are using XCVault.exe, the path has been changed 
+
+from:
+
+  
+C:\\Program Files\\Tracker Software\\Vault\\XCVault.exe 
+
+to:
+
+C:\\Program Files\\PDF-XChange\\Vault\\XCVault.exe"
+T20261007-196,1svxlz1,false_negative,1,0,0.43036598706519363,0.15734779204988975,applehelp,2026-04-26T04:33:32,True,32,406,Battery life ded after upgrading,"“I lost my iPhone’s battery life after upgrading to iOS 26 on my iPhone 16 Pro. I purchased my iPhone 16 Pro in May 2025, and the battery health was 100% until the end of December. Then I decided to upgrade to iOS 26, and that was the worst decision I made ;)
+
+From January to the end of April, my battery health dropped by 9%. My current battery health is 91% in just about four months after the update 😭."
+T20261007-197,1wzdrpj,false_negative,1,0,0.5105192686928979,0.0771945104221855,Wordpress,2026-10-06T20:44:54,True,37,590,WPML / Gravity Forms version mismatch,"I just spent way too much time figuring this out, so maybe this'll help someone out there. I installed the newest version of Gravity Forms Multilingual on my staging site, and translated some new forms I have been working on. I couldn't for the life of me figure out why the translations were not applied to the forms. Later found out they weren't applied to my existing forms anymore, either. 
+
+Turns out the newest GF ML plugin isn't compatible with the latest production version of WPML and/or String Translation. I had to update to the beta versions (5.1.0) in order to solve the issue."
+T20261007-208,1wz6kme,false_positive,0,1,0.7146917173375726,0.12697793822248926,homeassistant,2026-10-06T16:08:57,True,52,1309,Update advice after falling off the update treadmill,"In the spirit of confession, it has been about 14 months since my last updates.  During that time, I have enjoyed my smart home.
+
+I fell off the treadmill when Z-Wave JS UI 4.x was introduced, after seeing dozens of posts of people losing their minds and pulling out their hair, due to reliability issues caused by that major update.  A recent search gives me hope that later versions weren't as choppy; I don't see people still complaining about issues with it.
+
+Shortly thereafter, if memory serves, the Home Assistant updates dropped support for Z-Wave JS UI 3.x.  
+
+In all, I'm looking for advice on how to navigate the below updates.  I will take full backups from within HA, and also shut down the VM so that I can save off its disk image.  
+
+But beyond that, any guidance on how to proceed with the meat of the updates?  A search yesterday had some advice like ""do the updates one by one"", but I'm not seeing an option to pick beyond the latest, and even so, maybe it's better to clear a day with the house to myself, and rip off the bandaid with full updates and then picking up the pieces?
+
+
+
+`Home Assistant Core - 2025.7.2 =&gt; 2026.9.4`
+
+`Home Assisant OS - 16.0 =&gt; 18.3`
+
+`Z-Wave JS UI - 3.18.0 =&gt; 7.7.1`
+
+`Zigbee2MQTT - 2.6.0-1 =&gt; 2.14.2-1`
+
+`Mosquitto - 6.5.0 =&gt; 7.1.1`
+
+  
+Thanks!"
+T20261007-213,1wty098,false_positive,0,1,0.7716521714986657,0.18393839238358234,firefox,2026-09-30T06:52:17,True,81,385,"Firefox, what is going on with your design? Do you wanna loose existing userbase?","After updating to 157 version design of main firefox window is changed to MANY **gradients that are eye hurting**:
+
+* tabs have border with gradients
+* window background have gradients
+* address bar have magenta color for text (sic!) and magenta shadows!
+
+Mozilla, why are you doing this?
+
+P.S. How to disable these ""improvements""? **This is not for working, this is** ***disco hall***"
+T20261007-218,1oimbe6,false_negative,1,0,0.5252811724999651,0.06243260661511829,truenas,2025-10-28T21:39:12,True,60,204,GPT header corruption after upgrading to TrueNas Scale 25.10,"I am getting GPT header corruption after upgrading to TrueNas Scale 25.10
+
+https://preview.redd.it/e75nhwak9xxf1.jpg?width=3072&amp;format=pjpg&amp;auto=webp&amp;s=21b84690f78c85710f2274656e703cc2bbede770"
+T20261007-234,1s88z4x,false_positive,0,1,0.7045262172179672,0.11681243810288378,linuxquestions,2026-03-31T00:57:58,True,20,1614,LUKS and BIOS Update,"Here is my current dilemma. 
+
+I just recently built my first PC and want to have it run Linux. I currently have Fedora KDE Plasma on there and it’s been pretty good with all the learning and tinkering needed for games or functions that would run smoothly on Windows. When I first started the installation of the OS, I did put in an encryption to the SSD. Somewhat of an inconvenience at times when updating. And just recently, I started seeing information online about the ASUS TUF Gaming 800 series motherboards(I have a B850 Plus) and possibly issues paired with the Ryzen 7 9800X3D. These seem like isolated cases that of course show up after I build the PC but I’d rather be safe. I have already manually inputted the voltage be at 1.2V and now I’m debating on updating the BIOS as the notes for the newest update, addresses the stability issues.
+
+What I am here to ask is how has your experience been with LUKS or an encryption/bitlocker/paraphrase combined with updating a BIOS. The BIOS did give me a warning about the password. But what I have learned with LUKS is that it’s damn near impossible to remove it. There are ways maybe, but unsure about damaging the drive or process. I don’t care about the data since it’s only like 7%. 
+
+It seems that the safest way is to reinstall Fedora. But if I erase the drive, does that erase the encryption? Just an overwrite? Any complications the old data might have with the new installation? 
+
+I just want my hardware to be good with updates that stabilize it and I don’t like having random data on a drive even if I can’t access it, would probably get over it lol"
+T20261007-245,1r3162w,false_positive,0,1,0.7602216826683014,0.172507903553218,chrome,2026-02-12T18:25:06,True,44,198,Opening/moving/closing tabs became smoother?,"145.0.7632.46 official build
+
+After updating to this version, I noticed opening/moving/closing tabs feels way smoother/faster. Is this just me thinking that's the case or does anyone else have this?"
+T20261007-256,1x06d0z,false_negative,1,0,0.33304622310699666,0.2546675560080867,applehelp,2026-10-07T19:53:19,True,44,507,iPhone 11 iOS 27.0.1 or 26.7.1 update issues,"Looking for a little help with downloading the latest iOS for an 64GB iPhone 11 please.  The phone is currently on iOS 16 because of lack of memory at the time of available updates I suspect.  
+As the title states the update to 27 or 26 is available, the update requires just under 8GB, we freed up over 13GB but the update is still stating there is not enough free space.  Message reads ""The update cannot be installed because it requires at least 10.44GB of available storage during installation""  
+Thanks"
+T20261007-290,1rydkso,false_negative,1,0,0.5733016432003983,0.014412135914685043,Ubiquiti,2026-03-19T21:50:22,True,51,441,Unifi Network no longer supported without Unifi OS?,"just upgraded my self hosted unifi network install and opened it to this lovely little message
+
+""UniFi Network Server will not support upcoming Network versions. Move to UniFi OS Server for a modern, supported platform with faster iteration and deeper platform capabilities.
+
+Any announcement or reason for this?
+
+https://preview.redd.it/2o26886to2qg1.png?width=620&amp;format=png&amp;auto=webp&amp;s=c6870452ac90a2bb19692dd4772efd16d9ca894c"
+T20261007-291,1un8wo9,false_positive,0,1,0.9073696025533042,0.31965582343822085,applehelp,2026-07-04T13:19:25,True,17,556,Older iMac advice,"Hello all, I have an older 2017 iMac that I love and is chugging along just fine. I have recently had some issues with various applications due to not being updated to Macos 13. 
+
+I've read many accounts of these old iMacs with HDD's slowing down dramatically after updating, so I'm hesitant to do it. 
+
+I'm not a newbie, but I'm not exactly a techie either, does anyone have experience with the best way to keep an old machine like this going? Is using an external SSD with the OS on it an option? If so what would the process be? 
+
+I appreciate any help."
+T20261007-333,1oiknrb,false_positive,0,1,0.6207317462483047,0.03301796713322136,firefox,2025-10-28T20:35:09,True,56,373,WTF Firefox?  I don't want to restart right this second.,"Chrome is nice enough to let me restart whenever I want to finish an update.  WHy the hell does FF stop working unless I take time to close out.  Many times I'm in the middle of something and don't want the hassle of having to reload every tab.
+
+https://preview.redd.it/spc1vyj4ywxf1.png?width=661&amp;format=png&amp;auto=webp&amp;s=380812e604db79c7f97c817e07403c6dcf59f65e"
+T20261007-335,1uxujuz,false_negative,1,0,0.31665459784176825,0.27105918127331513,linuxquestions,2026-07-16T06:15:52,True,50,30662,Debian 13 updates causes change in mpv application,"Early this month July-2026 I performed an apt upgrade and the app mpv version 0.40 (video player) it is not performing properly. Things like 10 second video contiously playing in XFCE  power management notificationand live videos repeating videos. 
+
+Has any incurred this issue ?
+
+  
+
+
+updagrades perform early july 2026
+
+atril-common/stable-security 1.26.2-4+deb13u1 all \[upgradable from: 1.26.2-4\]
+
+atril/stable-security 1.26.2-4+deb13u1 amd64 \[upgradable from: 1.26.2-4\]
+
+ffmpeg/stable-security 7:7.1.5-0+deb13u1 amd64 \[upgradable from: 7:7.1.4-0+deb13u1\]
+
+gstreamer1.0-libav/stable-security 1.26.2-1+deb13u1 amd64 \[upgradable from: 1.26.2-1\]
+
+gstreamer1.0-plugins-bad/stable-security 1.26.2-3+deb13u2 amd64 \[upgradable from: 1.26.2-3+deb13u&gt;
+
+gstreamer1.0-plugins-good/stable-security 1.26.2-1+deb13u2 amd64 \[upgradable from: 1.26.2-1+deb13&gt;
+
+imagemagick-7-common/stable-security 8:7.1.1.43+dfsg1-1+deb13u10 all \[upgradable from: 8:7.1.1.43&gt;
+
+imagemagick-7.q16/stable-security 8:7.1.1.43+dfsg1-1+deb13u10 amd64 \[upgradable from: 8:7.1.1.43+&gt;
+
+imagemagick/stable-security 8:7.1.1.43+dfsg1-1+deb13u10 amd64 \[upgradable from: 8:7.1.1.43+dfsg1-&gt;
+
+libatrildocument3t64/stable-security 1.26.2-4+deb13u1 amd64 \[upgradable from: 1.26.2-4\]
+
+libatrilview3t64/stable-security 1.26.2-4+deb13u1 amd64 \[upgradable from: 1.26.2-4\]
+
+libavcodec61/stable-security 7:7.1.5-0+deb13u1 amd64 \[upgradable from: 7:7.1.4-0+deb13u1\]
+
+libavdevice61/stable-security 7:7.1.5-0+deb13u1 amd64 \[upgradable from: 7:7.1.4-0+deb13u1\]
+
+libavfilter10/stable-security 7:7.1.5-0+deb13u1 amd64 \[upgradable from: 7:7.1.4-0+deb13u1\]
+
+libavformat61/stable-security 7:7.1.5-0+deb13u1 amd64 \[upgradable from: 7:7.1.4-0+deb13u1\]
+
+libavutil59/stable-security 7:7.1.5-0+deb13u1 amd64 \[upgradable from: 7:7.1.4-0+deb13u1\]
+
+libgstreamer-plugins-bad1.0-0/stable-security 1.26.2-3+deb13u2 amd64 \[upgradable from: 1.26.2-3+d&gt;
+
+libhttp-daemon-perl/stable-security 6.16-1+deb13u1 all \[upgradable from: 6.16-1\]
+
+libinput-bin/stable-security 1.28.1-1+deb13u1 amd64 \[upgradable from: 1.28.1-1\]
+
+libinput10/stable-security 1.28.1-1+deb13u1 amd64 \[upgradable from: 1.28.1-1\]
+
+libjxl-gdk-pixbuf/stable-security 0.11.2-0.1\~deb13u2 amd64 \[upgradable from: 0.11.2-0.1\~deb13u1\]
+
+libjxl0.11/stable-security 0.11.2-0.1\~deb13u2 amd64 \[upgradable from: 0.11.2-0.1\~deb13u1\]
+
+libmagickcore-7.q16-10-extra/stable-security 8:7.1.1.43+dfsg1-1+deb13u10 amd64 \[upgradable from: &gt;
+
+libmagickcore-7.q16-10/stable-security 8:7.1.1.43+dfsg1-1+deb13u10 amd64 \[upgradable from: 8:7.1.&gt;
+
+libmagickwand-7.q16-10/stable-security 8:7.1.1.43+dfsg1-1+deb13u10 amd64 \[upgradable from: 8:7.1.&gt;
+
+libpoppler-cpp2/stable-security 25.03.0-5+deb13u3 amd64 \[upgradable from: 25.03.0-5+deb13u2\]
+
+libpoppler-glib8t64/stable-security 25.03.0-5+deb13u3 amd64 \[upgradable from: 25.03.0-5+deb13u2\]
+
+libpoppler147/stable-security 25.03.0-5+deb13u3 amd64 \[upgradable from: 25.03.0-5+deb13u2\]
+
+libpostproc58/stable-security 7:7.1.5-0+deb13u1 amd64 \[upgradable from: 7:7.1.4-0+deb13u1\]
+
+librabbitmq4/stable-security 0.15.0-1+deb13u1 amd64 \[upgradable from: 0.15.0-1\]
+
+libssh2-1t64/stable-security 1.11.1-1+deb13u1 amd64 \[upgradable from: 1.11.1-1\]
+
+libssl3t64/stable-security 3.5.6-1\~deb13u2 amd64 \[upgradable from: 3.5.6-1\~deb13u1\]
+
+libswresample5/stable-security 7:7.1.5-0+deb13u1 amd64 \[upgradable from: 7:7.1.4-0+deb13u1\]
+
+libswscale8/stable-security 7:7.1.5-0+deb13u1 amd64 \[upgradable from: 7:7.1.4-0+deb13u1\]
+
+linux-headers-amd64/stable-security 6.12.95-1 amd64 \[upgradable from: 6.12.90-2\]
+
+linux-image-amd64/stable-security 6.12.95-1 amd64 \[upgradable from: 6.12.90-2\]
+
+linux-libc-dev/stable-security 6.12.95-1 all \[upgradable from: 6.12.90-2\]
+
+openssl-provider-legacy/stable-security 3.5.6-1\~deb13u2 amd64 \[upgradable from: 3.5.6-1\~deb13u1\]
+
+openssl/stable-security 3.5.6-1\~deb13u2 amd64 \[upgradable from: 3.5.6-1\~deb13u1\]
+
+openvpn/stable-security 2.6.14-1+deb13u3 amd64 \[upgradable from: 2.6.14-1+deb13u2\]
+
+poppler-utils/stable-security 25.03.0-5+deb13u3 amd64 \[upgradable from: 25.03.0-5+deb13u2\]
+
+python3-pil.imagetk/stable-security 11.1.0-5+deb13u3 amd64 \[upgradable from: 11.1.0-5+deb13u2\]
+
+python3-pil/stable-security 11.1.0-5+deb13u3 amd64 \[upgradable from: 11.1.0-5+deb13u2\]
+
+python3-urllib3/stable-security 2.3.0-3+deb13u2 all \[upgradable from: 2.3.0-3+deb13u1\]
+
+xserver-common/stable-security 2:21.1.16-1.3+deb13u3 all \[upgradable from: 2:21.1.16-1.3+deb13u2\]
+
+xserver-xephyr/stable-security 2:21.1.16-1.3+deb13u3 amd64 \[upgradable from: 2:21.1.16-1.3+deb13u&gt;
+
+xserver-xorg-core/stable-security 2:21.1.16-1.3+deb13u3 amd64 \[upgradable from: 2:21.1.16-1.3+deb&gt;
+
+xserver-xorg-legacy/stable-security 2:21.1.16-1.3+deb13u3 amd64 \[upgradable from: 2:21.1.16-1.3+d&gt;
+
+lines 26-48/48 (END)
+
+libpoppler-cpp2/stable-security 25.03.0-5+deb13u3 amd64 \[upgradable from: 25.03.0-5+deb13u2\]
+
+libpoppler-glib8t64/stable-security 25.03.0-5+deb13u3 amd64 \[upgradable from: 25.03.0-5+deb13u2\]
+
+libpoppler147/stable-security 25.03.0-5+deb13u3 amd64 \[upgradable from: 25.03.0-5+deb13u2\]
+
+libpostproc58/stable-security 7:7.1.5-0+deb13u1 amd64 \[upgradable from: 7:7.1.4-0+deb13u1\]
+
+librabbitmq4/stable-security 0.15.0-1+deb13u1 amd64 \[upgradable from: 0.15.0-1\]
+
+libssh2-1t64/stable-security 1.11.1-1+deb13u1 amd64 \[upgradable from: 1.11.1-1\]
+
+libssl3t64/stable-security 3.5.6-1\~deb13u2 amd64 \[upgradable from: 3.5.6-1\~deb13u1\]
+
+libswresample5/stable-security 7:7.1.5-0+deb13u1 amd64 \[upgradable from: 7:7.1.4-0+deb13u1\]
+
+libswscale8/stable-security 7:7.1.5-0+deb13u1 amd64 \[upgradable from: 7:7.1.4-0+deb13u1\]
+
+linux-headers-amd64/stable-security 6.12.95-1 amd64 \[upgradable from: 6.12.90-2\]
+
+linux-image-amd64/stable-security 6.12.95-1 amd64 \[upgradable from: 6.12.90-2\]
+
+linux-libc-dev/stable-security 6.12.95-1 all \[upgradable from: 6.12.90-2\]
+
+openssl-provider-legacy/stable-security 3.5.6-1\~deb13u2 amd64 \[upgradable from: 3.5.6-1\~deb13u1\]
+
+openssl/stable-security 3.5.6-1\~deb13u2 amd64 \[upgradable from: 3.5.6-1\~deb13u1\]
+
+openvpn/stable-security 2.6.14-1+deb13u3 amd64 \[upgradable from: 2.6.14-1+deb13u2\]
+
+poppler-utils/stable-security 25.03.0-5+deb13u3 amd64 \[upgradable from: 25.03.0-5+deb13u2\]
+
+python3-pil.imagetk/stable-security 11.1.0-5+deb13u3 amd64 \[upgradable from: 11.1.0-5+deb13u2\]
+
+python3-pil/stable-security 11.1.0-5+deb13u3 amd64 \[upgradable from: 11.1.0-5+deb13u2\]
+
+python3-urllib3/stable-security 2.3.0-3+deb13u2 all \[upgradable from: 2.3.0-3+deb13u1\]
+
+xserver-common/stable-security 2:21.1.16-1.3+deb13u3 all \[upgradable from: 2:21.1.16-1.3+deb13u2\]
+
+xserver-xephyr/stable-security 2:21.1.16-1.3+deb13u3 amd64 \[upgradable from: 2:21.1.16-1.3+deb13u2\]
+
+xserver-xorg-core/stable-security 2:21.1.16-1.3+deb13u3 amd64 \[upgradable from: 2:21.1.16-1.3+deb1&gt;
+
+xserver-xorg-legacy/stable-security 2:21.1.16-1.3+deb13u3 amd64 \[upgradable from: 2:21.1.16-1.3+de&gt;
+
+lines 26-48/48 (END)
+
+libpoppler-cpp2/stable-security 25.03.0-5+deb13u3 amd64 \[upgradable from: 25.03.0-5+deb13u2\]
+
+libpoppler-glib8t64/stable-security 25.03.0-5+deb13u3 amd64 \[upgradable from: 25.03.0-5+deb13u2\]
+
+libpoppler147/stable-security 25.03.0-5+deb13u3 amd64 \[upgradable from: 25.03.0-5+deb13u2\]
+
+libpostproc58/stable-security 7:7.1.5-0+deb13u1 amd64 \[upgradable from: 7:7.1.4-0+deb13u1\]
+
+librabbitmq4/stable-security 0.15.0-1+deb13u1 amd64 \[upgradable from: 0.15.0-1\]
+
+libssh2-1t64/stable-security 1.11.1-1+deb13u1 amd64 \[upgradable from: 1.11.1-1\]
+
+libssl3t64/stable-security 3.5.6-1\~deb13u2 amd64 \[upgradable from: 3.5.6-1\~deb13u1\]
+
+libswresample5/stable-security 7:7.1.5-0+deb13u1 amd64 \[upgradable from: 7:7.1.4-0+deb13u1\]
+
+libswscale8/stable-security 7:7.1.5-0+deb13u1 amd64 \[upgradable from: 7:7.1.4-0+deb13u1\]
+
+linux-headers-amd64/stable-security 6.12.95-1 amd64 \[upgradable from: 6.12.90-2\]
+
+linux-image-amd64/stable-security 6.12.95-1 amd64 \[upgradable from: 6.12.90-2\]
+
+linux-libc-dev/stable-security 6.12.95-1 all \[upgradable from: 6.12.90-2\]
+
+openssl-provider-legacy/stable-security 3.5.6-1\~deb13u2 amd64 \[upgradable from: 3.5.6-1\~deb13u1\]
+
+openssl/stable-security 3.5.6-1\~deb13u2 amd64 \[upgradable from: 3.5.6-1\~deb13u1\]
+
+openvpn/stable-security 2.6.14-1+deb13u3 amd64 \[upgradable from: 2.6.14-1+deb13u2\]
+
+poppler-utils/stable-security 25.03.0-5+deb13u3 amd64 \[upgradable from: 25.03.0-5+deb13u2\]
+
+python3-pil.imagetk/stable-security 11.1.0-5+deb13u3 amd64 \[upgradable from: 11.1.0-5+deb13u2\]
+
+python3-pil/stable-security 11.1.0-5+deb13u3 amd64 \[upgradable from: 11.1.0-5+deb13u2\]
+
+python3-urllib3/stable-security 2.3.0-3+deb13u2 all \[upgradable from: 2.3.0-3+deb13u1\]
+
+xserver-common/stable-security 2:21.1.16-1.3+deb13u3 all \[upgradable from: 2:21.1.16-1.3+deb13u2\]
+
+xserver-xephyr/stable-security 2:21.1.16-1.3+deb13u3 amd64 \[upgradable from: 2:21.1.16-1.3+deb13u2\]
+
+xserver-xorg-core/stable-security 2:21.1.16-1.3+deb13u3 amd64 \[upgradable from: 2:21.1.16-1.3+deb13&gt;
+
+xserver-xorg-legacy/stable-security 2:21.1.16-1.3+deb13u3 amd64 \[upgradable from: 2:21.1.16-1.3+deb&gt;
+
+lines 26-48/48 (END)
+
+libpoppler-cpp2/stable-security 25.03.0-5+deb13u3 amd64 \[upgradable from: 25.03.0-5+deb13u2\]
+
+libpoppler-glib8t64/stable-security 25.03.0-5+deb13u3 amd64 \[upgradable from: 25.03.0-5+deb13u2\]
+
+libpoppler147/stable-security 25.03.0-5+deb13u3 amd64 \[upgradable from: 25.03.0-5+deb13u2\]
+
+libpostproc58/stable-security 7:7.1.5-0+deb13u1 amd64 \[upgradable from: 7:7.1.4-0+deb13u1\]
+
+librabbitmq4/stable-security 0.15.0-1+deb13u1 amd64 \[upgradable from: 0.15.0-1\]
+
+libssh2-1t64/stable-security 1.11.1-1+deb13u1 amd64 \[upgradable from: 1.11.1-1\]
+
+libssl3t64/stable-security 3.5.6-1\~deb13u2 amd64 \[upgradable from: 3.5.6-1\~deb13u1\]
+
+libswresample5/stable-security 7:7.1.5-0+deb13u1 amd64 \[upgradable from: 7:7.1.4-0+deb13u1\]
+
+libswscale8/stable-security 7:7.1.5-0+deb13u1 amd64 \[upgradable from: 7:7.1.4-0+deb13u1\]
+
+linux-headers-amd64/stable-security 6.12.95-1 amd64 \[upgradable from: 6.12.90-2\]
+
+linux-image-amd64/stable-security 6.12.95-1 amd64 \[upgradable from: 6.12.90-2\]
+
+linux-libc-dev/stable-security 6.12.95-1 all \[upgradable from: 6.12.90-2\]
+
+openssl-provider-legacy/stable-security 3.5.6-1\~deb13u2 amd64 \[upgradable from: 3.5.6-1\~deb13u1\]
+
+openssl/stable-security 3.5.6-1\~deb13u2 amd64 \[upgradable from: 3.5.6-1\~deb13u1\]
+
+openvpn/stable-security 2.6.14-1+deb13u3 amd64 \[upgradable from: 2.6.14-1+deb13u2\]
+
+poppler-utils/stable-security 25.03.0-5+deb13u3 amd64 \[upgradable from: 25.03.0-5+deb13u2\]
+
+python3-pil.imagetk/stable-security 11.1.0-5+deb13u3 amd64 \[upgradable from: 11.1.0-5+deb13u2\]
+
+python3-pil/stable-security 11.1.0-5+deb13u3 amd64 \[upgradable from: 11.1.0-5+deb13u2\]
+
+python3-urllib3/stable-security 2.3.0-3+deb13u2 all \[upgradable from: 2.3.0-3+deb13u1\]
+
+xserver-common/stable-security 2:21.1.16-1.3+deb13u3 all \[upgradable from: 2:21.1.16-1.3+deb13u2\]
+
+xserver-xephyr/stable-security 2:21.1.16-1.3+deb13u3 amd64 \[upgradable from: 2:21.1.16-1.3+deb13u2\]
+
+xserver-xorg-core/stable-security 2:21.1.16-1.3+deb13u3 amd64 \[upgradable from: 2:21.1.16-1.3+deb13u&gt;
+
+xserver-xorg-legacy/stable-security 2:21.1.16-1.3+deb13u3 amd64 \[upgradable from: 2:21.1.16-1.3+deb1&gt;
+
+lines 26-48/48 (END)
+
+libpoppler-cpp2/stable-security 25.03.0-5+deb13u3 amd64 \[upgradable from: 25.03.0-5+deb13u2\]
+
+libpoppler-glib8t64/stable-security 25.03.0-5+deb13u3 amd64 \[upgradable from: 25.03.0-5+deb13u2\]
+
+libpoppler147/stable-security 25.03.0-5+deb13u3 amd64 \[upgradable from: 25.03.0-5+deb13u2\]
+
+libpostproc58/stable-security 7:7.1.5-0+deb13u1 amd64 \[upgradable from: 7:7.1.4-0+deb13u1\]
+
+librabbitmq4/stable-security 0.15.0-1+deb13u1 amd64 \[upgradable from: 0.15.0-1\]
+
+libssh2-1t64/stable-security 1.11.1-1+deb13u1 amd64 \[upgradable from: 1.11.1-1\]
+
+libssl3t64/stable-security 3.5.6-1\~deb13u2 amd64 \[upgradable from: 3.5.6-1\~deb13u1\]
+
+libswresample5/stable-security 7:7.1.5-0+deb13u1 amd64 \[upgradable from: 7:7.1.4-0+deb13u1\]
+
+libswscale8/stable-security 7:7.1.5-0+deb13u1 amd64 \[upgradable from: 7:7.1.4-0+deb13u1\]
+
+linux-headers-amd64/stable-security 6.12.95-1 amd64 \[upgradable from: 6.12.90-2\]
+
+linux-image-amd64/stable-security 6.12.95-1 amd64 \[upgradable from: 6.12.90-2\]
+
+linux-libc-dev/stable-security 6.12.95-1 all \[upgradable from: 6.12.90-2\]
+
+openssl-provider-legacy/stable-security 3.5.6-1\~deb13u2 amd64 \[upgradable from: 3.5.6-1\~deb13u1\]
+
+openssl/stable-security 3.5.6-1\~deb13u2 amd64 \[upgradable from: 3.5.6-1\~deb13u1\]
+
+openvpn/stable-security 2.6.14-1+deb13u3 amd64 \[upgradable from: 2.6.14-1+deb13u2\]
+
+poppler-utils/stable-security 25.03.0-5+deb13u3 amd64 \[upgradable from: 25.03.0-5+deb13u2\]
+
+python3-pil.imagetk/stable-security 11.1.0-5+deb13u3 amd64 \[upgradable from: 11.1.0-5+deb13u2\]
+
+python3-pil/stable-security 11.1.0-5+deb13u3 amd64 \[upgradable from: 11.1.0-5+deb13u2\]
+
+python3-urllib3/stable-security 2.3.0-3+deb13u2 all \[upgradable from: 2.3.0-3+deb13u1\]
+
+xserver-common/stable-security 2:21.1.16-1.3+deb13u3 all \[upgradable from: 2:21.1.16-1.3+deb13u2\]
+
+xserver-xephyr/stable-security 2:21.1.16-1.3+deb13u3 amd64 \[upgradable from: 2:21.1.16-1.3+deb13u2\]
+
+xserver-xorg-core/stable-security 2:21.1.16-1.3+deb13u3 amd64 \[upgradable from: 2:21.1.16-1.3+deb13u2\]
+
+xserver-xorg-legacy/stable-security 2:21.1.16-1.3+deb13u3 amd64 \[upgradable from: 2:21.1.16-1.3+deb13u&gt;
+
+lines 26-48/48 (END)
+
+libpoppler-cpp2/stable-security 25.03.0-5+deb13u3 amd64 \[upgradable from: 25.03.0-5+deb13u2\]
+
+libpoppler-glib8t64/stable-security 25.03.0-5+deb13u3 amd64 \[upgradable from: 25.03.0-5+deb13u2\]
+
+libpoppler147/stable-security 25.03.0-5+deb13u3 amd64 \[upgradable from: 25.03.0-5+deb13u2\]
+
+libpostproc58/stable-security 7:7.1.5-0+deb13u1 amd64 \[upgradable from: 7:7.1.4-0+deb13u1\]
+
+librabbitmq4/stable-security 0.15.0-1+deb13u1 amd64 \[upgradable from: 0.15.0-1\]
+
+libssh2-1t64/stable-security 1.11.1-1+deb13u1 amd64 \[upgradable from: 1.11.1-1\]
+
+libssl3t64/stable-security 3.5.6-1\~deb13u2 amd64 \[upgradable from: 3.5.6-1\~deb13u1\]
+
+libswresample5/stable-security 7:7.1.5-0+deb13u1 amd64 \[upgradable from: 7:7.1.4-0+deb13u1\]
+
+libswscale8/stable-security 7:7.1.5-0+deb13u1 amd64 \[upgradable from: 7:7.1.4-0+deb13u1\]
+
+linux-headers-amd64/stable-security 6.12.95-1 amd64 \[upgradable from: 6.12.90-2\]
+
+linux-image-amd64/stable-security 6.12.95-1 amd64 \[upgradable from: 6.12.90-2\]
+
+linux-libc-dev/stable-security 6.12.95-1 all \[upgradable from: 6.12.90-2\]
+
+openssl-provider-legacy/stable-security 3.5.6-1\~deb13u2 amd64 \[upgradable from: 3.5.6-1\~deb13u1\]
+
+openssl/stable-security 3.5.6-1\~deb13u2 amd64 \[upgradable from: 3.5.6-1\~deb13u1\]
+
+openvpn/stable-security 2.6.14-1+deb13u3 amd64 \[upgradable from: 2.6.14-1+deb13u2\]
+
+poppler-utils/stable-security 25.03.0-5+deb13u3 amd64 \[upgradable from: 25.03.0-5+deb13u2\]
+
+python3-pil.imagetk/stable-security 11.1.0-5+deb13u3 amd64 \[upgradable from: 11.1.0-5+deb13u2\]
+
+python3-pil/stable-security 11.1.0-5+deb13u3 amd64 \[upgradable from: 11.1.0-5+deb13u2\]
+
+python3-urllib3/stable-security 2.3.0-3+deb13u2 all \[upgradable from: 2.3.0-3+deb13u1\]
+
+xserver-common/stable-security 2:21.1.16-1.3+deb13u3 all \[upgradable from: 2:21.1.16-1.3+deb13u2\]
+
+xserver-xephyr/stable-security 2:21.1.16-1.3+deb13u3 amd64 \[upgradable from: 2:21.1.16-1.3+deb13u2\]
+
+xserver-xorg-core/stable-security 2:21.1.16-1.3+deb13u3 amd64 \[upgradable from: 2:21.1.16-1.3+deb13u2\]
+
+xserver-xorg-legacy/stable-security 2:21.1.16-1.3+deb13u3 amd64 \[upgradable from: 2:21.1.16-1.3+deb13u2\]
+
+lines 26-48/48 (END)
+
+libpoppler-cpp2/stable-security 25.03.0-5+deb13u3 amd64 \[upgradable from: 25.03.0-5+deb13u2\]
+
+libpoppler-glib8t64/stable-security 25.03.0-5+deb13u3 amd64 \[upgradable from: 25.03.0-5+deb13u2\]
+
+libpoppler147/stable-security 25.03.0-5+deb13u3 amd64 \[upgradable from: 25.03.0-5+deb13u2\]
+
+libpostproc58/stable-security 7:7.1.5-0+deb13u1 amd64 \[upgradable from: 7:7.1.4-0+deb13u1\]
+
+librabbitmq4/stable-security 0.15.0-1+deb13u1 amd64 \[upgradable from: 0.15.0-1\]
+
+libssh2-1t64/stable-security 1.11.1-1+deb13u1 amd64 \[upgradable from: 1.11.1-1\]
+
+libssl3t64/stable-security 3.5.6-1\~deb13u2 amd64 \[upgradable from: 3.5.6-1\~deb13u1\]
+
+libswresample5/stable-security 7:7.1.5-0+deb13u1 amd64 \[upgradable from: 7:7.1.4-0+deb13u1\]
+
+libswscale8/stable-security 7:7.1.5-0+deb13u1 amd64 \[upgradable from: 7:7.1.4-0+deb13u1\]
+
+linux-headers-amd64/stable-security 6.12.95-1 amd64 \[upgradable from: 6.12.90-2\]
+
+linux-image-amd64/stable-security 6.12.95-1 amd64 \[upgradable from: 6.12.90-2\]
+
+linux-libc-dev/stable-security 6.12.95-1 all \[upgradable from: 6.12.90-2\]
+
+openssl-provider-legacy/stable-security 3.5.6-1\~deb13u2 amd64 \[upgradable from: 3.5.6-1\~deb13u1\]
+
+openssl/stable-security 3.5.6-1\~deb13u2 amd64 \[upgradable from: 3.5.6-1\~deb13u1\]
+
+openvpn/stable-security 2.6.14-1+deb13u3 amd64 \[upgradable from: 2.6.14-1+deb13u2\]
+
+poppler-utils/stable-security 25.03.0-5+deb13u3 amd64 \[upgradable from: 25.03.0-5+deb13u2\]
+
+python3-pil.imagetk/stable-security 11.1.0-5+deb13u3 amd64 \[upgradable from: 11.1.0-5+deb13u2\]
+
+python3-pil/stable-security 11.1.0-5+deb13u3 amd64 \[upgradable from: 11.1.0-5+deb13u2\]
+
+python3-urllib3/stable-security 2.3.0-3+deb13u2 all \[upgradable from: 2.3.0-3+deb13u1\]
+
+xserver-common/stable-security 2:21.1.16-1.3+deb13u3 all \[upgradable from: 2:21.1.16-1.3+deb13u2\]
+
+xserver-xephyr/stable-security 2:21.1.16-1.3+deb13u3 amd64 \[upgradable from: 2:21.1.16-1.3+deb13u2\]
+
+xserver-xorg-core/stable-security 2:21.1.16-1.3+deb13u3 amd64 \[upgradable from: 2:21.1.16-1.3+deb13u2\]
+
+xserver-xorg-legacy/stable-security 2:21.1.16-1.3+deb13u3 amd64 \[upgradable from: 2:21.1.16-1.3+deb13u2\]
+
+lines 26-48/48 (END)
+
+libpoppler-cpp2/stable-security 25.03.0-5+deb13u3 amd64 \[upgradable from: 25.03.0-5+deb13u2\]
+
+libpoppler-glib8t64/stable-security 25.03.0-5+deb13u3 amd64 \[upgradable from: 25.03.0-5+deb13u2\]
+
+libpoppler147/stable-security 25.03.0-5+deb13u3 amd64 \[upgradable from: 25.03.0-5+deb13u2\]
+
+libpostproc58/stable-security 7:7.1.5-0+deb13u1 amd64 \[upgradable from: 7:7.1.4-0+deb13u1\]
+
+librabbitmq4/stable-security 0.15.0-1+deb13u1 amd64 \[upgradable from: 0.15.0-1\]
+
+libssh2-1t64/stable-security 1.11.1-1+deb13u1 amd64 \[upgradable from: 1.11.1-1\]
+
+libssl3t64/stable-security 3.5.6-1\~deb13u2 amd64 \[upgradable from: 3.5.6-1\~deb13u1\]
+
+libswresample5/stable-security 7:7.1.5-0+deb13u1 amd64 \[upgradable from: 7:7.1.4-0+deb13u1\]
+
+libswscale8/stable-security 7:7.1.5-0+deb13u1 amd64 \[upgradable from: 7:7.1.4-0+deb13u1\]
+
+linux-headers-amd64/stable-security 6.12.95-1 amd64 \[upgradable from: 6.12.90-2\]
+
+linux-image-amd64/stable-security 6.12.95-1 amd64 \[upgradable from: 6.12.90-2\]
+
+linux-libc-dev/stable-security 6.12.95-1 all \[upgradable from: 6.12.90-2\]
+
+openssl-provider-legacy/stable-security 3.5.6-1\~deb13u2 amd64 \[upgradable from: 3.5.6-1\~deb13u1\]
+
+openssl/stable-security 3.5.6-1\~deb13u2 amd64 \[upgradable from: 3.5.6-1\~deb13u1\]
+
+openvpn/stable-security 2.6.14-1+deb13u3 amd64 \[upgradable from: 2.6.14-1+deb13u2\]
+
+poppler-utils/stable-security 25.03.0-5+deb13u3 amd64 \[upgradable from: 25.03.0-5+deb13u2\]
+
+python3-pil.imagetk/stable-security 11.1.0-5+deb13u3 amd64 \[upgradable from: 11.1.0-5+deb13u2\]
+
+python3-pil/stable-security 11.1.0-5+deb13u3 amd64 \[upgradable from: 11.1.0-5+deb13u2\]
+
+python3-urllib3/stable-security 2.3.0-3+deb13u2 all \[upgradable from: 2.3.0-3+deb13u1\]
+
+xserver-common/stable-security 2:21.1.16-1.3+deb13u3 all \[upgradable from: 2:21.1.16-1.3+deb13u2\]
+
+xserver-xephyr/stable-security 2:21.1.16-1.3+deb13u3 amd64 \[upgradable from: 2:21.1.16-1.3+deb13u2\]
+
+xserver-xorg-core/stable-security 2:21.1.16-1.3+deb13u3 amd64 \[upgradable from: 2:21.1.16-1.3+deb13u2\]
+
+xserver-xorg-legacy/stable-security 2:21.1.16-1.3+deb13u3 amd64 \[upgradable from: 2:21.1.16-1.3+deb13u2\]
+
+lines 26-48/48 (END)
+
+libpoppler-cpp2/stable-security 25.03.0-5+deb13u3 amd64 \[upgradable from: 25.03.0-5+deb13u2\]
+
+libpoppler-glib8t64/stable-security 25.03.0-5+deb13u3 amd64 \[upgradable from: 25.03.0-5+deb13u2\]
+
+libpoppler147/stable-security 25.03.0-5+deb13u3 amd64 \[upgradable from: 25.03.0-5+deb13u2\]
+
+libpostproc58/stable-security 7:7.1.5-0+deb13u1 amd64 \[upgradable from: 7:7.1.4-0+deb13u1\]
+
+librabbitmq4/stable-security 0.15.0-1+deb13u1 amd64 \[upgradable from: 0.15.0-1\]
+
+libssh2-1t64/stable-security 1.11.1-1+deb13u1 amd64 \[upgradable from: 1.11.1-1\]
+
+libssl3t64/stable-security 3.5.6-1\~deb13u2 amd64 \[upgradable from: 3.5.6-1\~deb13u1\]
+
+libswresample5/stable-security 7:7.1.5-0+deb13u1 amd64 \[upgradable from: 7:7.1.4-0+deb13u1\]
+
+libswscale8/stable-security 7:7.1.5-0+deb13u1 amd64 \[upgradable from: 7:7.1.4-0+deb13u1\]
+
+linux-headers-amd64/stable-security 6.12.95-1 amd64 \[upgradable from: 6.12.90-2\]
+
+linux-image-amd64/stable-security 6.12.95-1 amd64 \[upgradable from: 6.12.90-2\]
+
+linux-libc-dev/stable-security 6.12.95-1 all \[upgradable from: 6.12.90-2\]
+
+openssl-provider-legacy/stable-security 3.5.6-1\~deb13u2 amd64 \[upgradable from: 3.5.6-1\~deb13u1\]
+
+openssl/stable-security 3.5.6-1\~deb13u2 amd64 \[upgradable from: 3.5.6-1\~deb13u1\]
+
+openvpn/stable-security 2.6.14-1+deb13u3 amd64 \[upgradable from: 2.6.14-1+deb13u2\]
+
+poppler-utils/stable-security 25.03.0-5+deb13u3 amd64 \[upgradable from: 25.03.0-5+deb13u2\]
+
+python3-pil.imagetk/stable-security 11.1.0-5+deb13u3 amd64 \[upgradable from: 11.1.0-5+deb13u2\]
+
+python3-pil/stable-security 11.1.0-5+deb13u3 amd64 \[upgradable from: 11.1.0-5+deb13u2\]
+
+python3-urllib3/stable-security 2.3.0-3+deb13u2 all \[upgradable from: 2.3.0-3+deb13u1\]
+
+xserver-common/stable-security 2:21.1.16-1.3+deb13u3 all \[upgradable from: 2:21.1.16-1.3+deb13u2\]
+
+xserver-xephyr/stable-security 2:21.1.16-1.3+deb13u3 amd64 \[upgradable from: 2:21.1.16-1.3+deb13u2\]
+
+xserver-xorg-core/stable-security 2:21.1.16-1.3+deb13u3 amd64 \[upgradable from: 2:21.1.16-1.3+deb13u2\]
+
+xserver-xorg-legacy/stable-security 2:21.1.16-1.3+deb13u3 amd64 \[upgradable from: 2:21.1.16-1.3+deb13u2\]
+
+lines 26-48/48 (END)
+
+libpoppler-cpp2/stable-security 25.03.0-5+deb13u3 amd64 \[upgradable from: 25.03.0-5+deb13u2\]
+
+libpoppler-glib8t64/stable-security 25.03.0-5+deb13u3 amd64 \[upgradable from: 25.03.0-5+deb13u2\]
+
+libpoppler147/stable-security 25.03.0-5+deb13u3 amd64 \[upgradable from: 25.03.0-5+deb13u2\]
+
+libpostproc58/stable-security 7:7.1.5-0+deb13u1 amd64 \[upgradable from: 7:7.1.4-0+deb13u1\]
+
+librabbitmq4/stable-security 0.15.0-1+deb13u1 amd64 \[upgradable from: 0.15.0-1\]
+
+libssh2-1t64/stable-security 1.11.1-1+deb13u1 amd64 \[upgradable from: 1.11.1-1\]
+
+libssl3t64/stable-security 3.5.6-1\~deb13u2 amd64 \[upgradable from: 3.5.6-1\~deb13u1\]
+
+libswresample5/stable-security 7:7.1.5-0+deb13u1 amd64 \[upgradable from: 7:7.1.4-0+deb13u1\]
+
+libswscale8/stable-security 7:7.1.5-0+deb13u1 amd64 \[upgradable from: 7:7.1.4-0+deb13u1\]
+
+linux-headers-amd64/stable-security 6.12.95-1 amd64 \[upgradable from: 6.12.90-2\]
+
+linux-image-amd64/stable-security 6.12.95-1 amd64 \[upgradable from: 6.12.90-2\]
+
+linux-libc-dev/stable-security 6.12.95-1 all \[upgradable from: 6.12.90-2\]
+
+openssl-provider-legacy/stable-security 3.5.6-1\~deb13u2 amd64 \[upgradable from: 3.5.6-1\~deb13u1\]
+
+openssl/stable-security 3.5.6-1\~deb13u2 amd64 \[upgradable from: 3.5.6-1\~deb13u1\]
+
+openvpn/stable-security 2.6.14-1+deb13u3 amd64 \[upgradable from: 2.6.14-1+deb13u2\]
+
+poppler-utils/stable-security 25.03.0-5+deb13u3 amd64 \[upgradable from: 25.03.0-5+deb13u2\]
+
+python3-pil.imagetk/stable-security 11.1.0-5+deb13u3 amd64 \[upgradable from: 11.1.0-5+deb13u2\]
+
+python3-pil/stable-security 11.1.0-5+deb13u3 amd64 \[upgradable from: 11.1.0-5+deb13u2\]
+
+python3-urllib3/stable-security 2.3.0-3+deb13u2 all \[upgradable from: 2.3.0-3+deb13u1\]
+
+xserver-common/stable-security 2:21.1.16-1.3+deb13u3 all \[upgradable from: 2:21.1.16-1.3+deb13u2\]
+
+xserver-xephyr/stable-security 2:21.1.16-1.3+deb13u3 amd64 \[upgradable from: 2:21.1.16-1.3+deb13u2\]
+
+xserver-xorg-core/stable-security 2:21.1.16-1.3+deb13u3 amd64 \[upgradable from: 2:21.1.16-1.3+deb13u2\]
+
+xserver-xorg-legacy/stable-security 2:21.1.16-1.3+deb13u3 amd64 \[upgradable from: 2:21.1.16-1.3+deb13u2\]
+
+lines 26-48/48 (END)
+
+libpoppler-cpp2/stable-security 25.03.0-5+deb13u3 amd64 \[upgradable from: 25.03.0-5+deb13u2\]
+
+libpoppler-glib8t64/stable-security 25.03.0-5+deb13u3 amd64 \[upgradable from: 25.03.0-5+deb13u2\]
+
+libpoppler147/stable-security 25.03.0-5+deb13u3 amd64 \[upgradable from: 25.03.0-5+deb13u2\]
+
+libpostproc58/stable-security 7:7.1.5-0+deb13u1 amd64 \[upgradable from: 7:7.1.4-0+deb13u1\]
+
+librabbitmq4/stable-security 0.15.0-1+deb13u1 amd64 \[upgradable from: 0.15.0-1\]
+
+libssh2-1t64/stable-security 1.11.1-1+deb13u1 amd64 \[upgradable from: 1.11.1-1\]
+
+libssl3t64/stable-security 3.5.6-1\~deb13u2 amd64 \[upgradable from: 3.5.6-1\~deb13u1\]
+
+libswresample5/stable-security 7:7.1.5-0+deb13u1 amd64 \[upgradable from: 7:7.1.4-0+deb13u1\]
+
+libswscale8/stable-security 7:7.1.5-0+deb13u1 amd64 \[upgradable from: 7:7.1.4-0+deb13u1\]
+
+linux-headers-amd64/stable-security 6.12.95-1 amd64 \[upgradable from: 6.12.90-2\]
+
+linux-image-amd64/stable-security 6.12.95-1 amd64 \[upgradable from: 6.12.90-2\]
+
+linux-libc-dev/stable-security 6.12.95-1 all \[upgradable from: 6.12.90-2\]
+
+openssl-provider-legacy/stable-security 3.5.6-1\~deb13u2 amd64 \[upgradable from: 3.5.6-1\~deb13u1\]
+
+openssl/stable-security 3.5.6-1\~deb13u2 amd64 \[upgradable from: 3.5.6-1\~deb13u1\]
+
+openvpn/stable-security 2.6.14-1+deb13u3 amd64 \[upgradable from: 2.6.14-1+deb13u2\]
+
+poppler-utils/stable-security 25.03.0-5+deb13u3 amd64 \[upgradable from: 25.03.0-5+deb13u2\]
+
+python3-pil.imagetk/stable-security 11.1.0-5+deb13u3 amd64 \[upgradable from: 11.1.0-5+deb13u2\]
+
+python3-pil/stable-security 11.1.0-5+deb13u3 amd64 \[upgradable from: 11.1.0-5+deb13u2\]
+
+python3-urllib3/stable-security 2.3.0-3+deb13u2 all \[upgradable from: 2.3.0-3+deb13u1\]
+
+xserver-common/stable-security 2:21.1.16-1.3+deb13u3 all \[upgradable from: 2:21.1.16-1.3+deb13u2\]
+
+xserver-xephyr/stable-security 2:21.1.16-1.3+deb13u3 amd64 \[upgradable from: 2:21.1.16-1.3+deb13u2\]
+
+xserver-xorg-core/stable-security 2:21.1.16-1.3+deb13u3 amd64 \[upgradable from: 2:21.1.16-1.3+deb13u2\]
+
+xserver-xorg-legacy/stable-security 2:21.1.16-1.3+deb13u3 amd64 \[upgradable from: 2:21.1.16-1.3+deb13u2\]
+
+lines 26-48/48 (END)
+
+libpoppler-cpp2/stable-security 25.03.0-5+deb13u3 amd64 \[upgradable from: 25.03.0-5+deb13u2\]
+
+libpoppler-glib8t64/stable-security 25.03.0-5+deb13u3 amd64 \[upgradable from: 25.03.0-5+deb13u2\]
+
+libpoppler147/stable-security 25.03.0-5+deb13u3 amd64 \[upgradable from: 25.03.0-5+deb13u2\]
+
+libpostproc58/stable-security 7:7.1.5-0+deb13u1 amd64 \[upgradable from: 7:7.1.4-0+deb13u1\]
+
+librabbitmq4/stable-security 0.15.0-1+deb13u1 amd64 \[upgradable from: 0.15.0-1\]
+
+libssh2-1t64/stable-security 1.11.1-1+deb13u1 amd64 \[upgradable from: 1.11.1-1\]
+
+libssl3t64/stable-security 3.5.6-1\~deb13u2 amd64 \[upgradable from: 3.5.6-1\~deb13u1\]
+
+libswresample5/stable-security 7:7.1.5-0+deb13u1 amd64 \[upgradable from: 7:7.1.4-0+deb13u1\]
+
+libswscale8/stable-security 7:7.1.5-0+deb13u1 amd64 \[upgradable from: 7:7.1.4-0+deb13u1\]
+
+linux-headers-amd64/stable-security 6.12.95-1 amd64 \[upgradable from: 6.12.90-2\]
+
+linux-image-amd64/stable-security 6.12.95-1 amd64 \[upgradable from: 6.12.90-2\]
+
+linux-libc-dev/stable-security 6.12.95-1 all \[upgradable from: 6.12.90-2\]
+
+openssl-provider-legacy/stable-security 3.5.6-1\~deb13u2 amd64 \[upgradable from: 3.5.6-1\~deb13u1\]
+
+openssl/stable-security 3.5.6-1\~deb13u2 amd64 \[upgradable from: 3.5.6-1\~deb13u1\]
+
+openvpn/stable-security 2.6.14-1+deb13u3 amd64 \[upgradable from: 2.6.14-1+deb13u2\]
+
+poppler-utils/stable-security 25.03.0-5+deb13u3 amd64 \[upgradable from: 25.03.0-5+deb13u2\]
+
+python3-pil.imagetk/stable-security 11.1.0-5+deb13u3 amd64 \[upgradable from: 11.1.0-5+deb13u2\]
+
+python3-pil/stable-security 11.1.0-5+deb13u3 amd64 \[upgradable from: 11.1.0-5+deb13u2\]
+
+python3-urllib3/stable-security 2.3.0-3+deb13u2 all \[upgradable from: 2.3.0-3+deb13u1\]
+
+xserver-common/stable-security 2:21.1.16-1.3+deb13u3 all \[upgradable from: 2:21.1.16-1.3+deb13u2\]
+
+xserver-xephyr/stable-security 2:21.1.16-1.3+deb13u3 amd64 \[upgradable from: 2:21.1.16-1.3+deb13u2\]
+
+xserver-xorg-core/stable-security 2:21.1.16-1.3+deb13u3 amd64 \[upgradable from: 2:21.1.16-1.3+deb13u2\]
+
+xserver-xorg-legacy/stable-security 2:21.1.16-1.3+deb13u3 amd64 \[upgradable from: 2:21.1.16-1.3+deb13u2\]
+
+lines 26-48/48 (END)
+
+libpoppler-cpp2/stable-security 25.03.0-5+deb13u3 amd64 \[upgradable from: 25.03.0-5+deb13u2\]
+
+libpoppler-glib8t64/stable-security 25.03.0-5+deb13u3 amd64 \[upgradable from: 25.03.0-5+deb13u2\]
+
+libpoppler147/stable-security 25.03.0-5+deb13u3 amd64 \[upgradable from: 25.03.0-5+deb13u2\]
+
+libpostproc58/stable-security 7:7.1.5-0+deb13u1 amd64 \[upgradable from: 7:7.1.4-0+deb13u1\]
+
+librabbitmq4/stable-security 0.15.0-1+deb13u1 amd64 \[upgradable from: 0.15.0-1\]
+
+libssh2-1t64/stable-security 1.11.1-1+deb13u1 amd64 \[upgradable from: 1.11.1-1\]
+
+libssl3t64/stable-security 3.5.6-1\~deb13u2 amd64 \[upgradable from: 3.5.6-1\~deb13u1\]
+
+libswresample5/stable-security 7:7.1.5-0+deb13u1 amd64 \[upgradable from: 7:7.1.4-0+deb13u1\]
+
+libswscale8/stable-security 7:7.1.5-0+deb13u1 amd64 \[upgradable from: 7:7.1.4-0+deb13u1\]
+
+linux-headers-amd64/stable-security 6.12.95-1 amd64 \[upgradable from: 6.12.90-2\]
+
+linux-image-amd64/stable-security 6.12.95-1 amd64 \[upgradable from: 6.12.90-2\]
+
+linux-libc-dev/stable-security 6.12.95-1 all \[upgradable from: 6.12.90-2\]
+
+openssl-provider-legacy/stable-security 3.5.6-1\~deb13u2 amd64 \[upgradable from: 3.5.6-1\~deb13u1\]
+
+openssl/stable-security 3.5.6-1\~deb13u2 amd64 \[upgradable from: 3.5.6-1\~deb13u1\]
+
+openvpn/stable-security 2.6.14-1+deb13u3 amd64 \[upgradable from: 2.6.14-1+deb13u2\]
+
+poppler-utils/stable-security 25.03.0-5+deb13u3 amd64 \[upgradable from: 25.03.0-5+deb13u2\]
+
+python3-pil.imagetk/stable-security 11.1.0-5+deb13u3 amd64 \[upgradable from: 11.1.0-5+deb13u2\]
+
+python3-pil/stable-security 11.1.0-5+deb13u3 amd64 \[upgradable from: 11.1.0-5+deb13u2\]
+
+python3-urllib3/stable-security 2.3.0-3+deb13u2 all \[upgradable from: 2.3.0-3+deb13u1\]
+
+xserver-common/stable-security 2:21.1.16-1.3+deb13u3 all \[upgradable from: 2:21.1.16-1.3+deb13u2\]
+
+xserver-xephyr/stable-security 2:21.1.16-1.3+deb13u3 amd64 \[upgradable from: 2:21.1.16-1.3+deb13u2\]
+
+xserver-xorg-core/stable-security 2:21.1.16-1.3+deb13u3 amd64 \[upgradable from: 2:21.1.16-1.3+deb13u2\]
+
+xserver-xorg-legacy/stable-security 2:21.1.16-1.3+deb13u3 amd64 \[upgradable from: 2:21.1.16-1.3+deb13u2\]"
+T20261007-338,1tf0zfc,false_negative,1,0,0.4236615532931589,0.16405222582192447,Fedora,2026-05-16T18:05:52,True,31,221,Just Updated to F44 Workstation,"i just updated from fedora workstation (gnome) to fedora 44 and blur my shell isn't working
+
+https://preview.redd.it/zvebrxyqhj1h1.png?width=1920&amp;format=png&amp;auto=webp&amp;s=584d39a9ae854d381dbeb20e948041d2d428dd04"
+T20261007-347,1syeoph,false_negative,1,0,0.44434558199636837,0.143368197118715,Fedora,2026-04-28T21:21:02,True,26,185,Is Fedora 44 actually out(,"I'm on Fedora KDE and the update hasn't appeared neither on Discover nor on running **sudo dnf upgrade**. Is something wrong, I keep psyching myself out.
+
+Edit:Sorry for bad punctuation"
+T20261007-349,1s9x4pe,false_positive,0,1,0.5905276813763156,0.0028139022612322373,Dell,2026-04-01T20:55:04,True,48,2172,"Dell, why do you insist on tripping yourself up?","I manage a fleet of 1,100 Dells for my employer.  One of my first acts as an employee here was to patch and update the firmware on every PC I could get my hands on. 
+
+One of the things I did was install Dell Command Update onto every PC.  Later, I went back and added a script that ran the application every three days and installed all updates found.  Then my employer parted ways with the tools we had been using for remote management and I lost the ability to monitor updates.  Argh. 
+
+Still, Dell Command Update should be able to keep trucking away.  Checking for updates, downloading updates, updating itself...right?  \*RIGHT?\*
+
+Nope.  Last year, a significant chunk of the fleet started experiencing the kinds of odd-ball problems that only a very out of date BIOS can cause.  Shortly before Christmas I resolved to stay late and look into the problem.
+
+First discovery: the universal version of Dell Command Update doesn't auto-update itself. 
+
+Second discovery: the universal version of Dell Command Update doesn't pull updates that are newer than itself.
+
+As a result, an alarming amount of the fleet was running on BIOSes that were 3+ years out of date.
+
+Fortunately, the classic version of the application shares neither of these flaws.  So I spent a week yoinking Universal off of my fleet and replacing it with classic. 
+
+Only to run into another problem.  DCU Classic requires .net 8.0.23.  And it won't auto-install even when you are doing an in person installation.  So I had to go back and deploy .net to the fleet before redeploying DCU 5.5 and, of course, running it.  
+
+Even with the assistance of PDQ and scripts, this was a fairly massive operation but I got it done and started the new year with a much happier fleet of PCs (and users).  Seriously our call volume was down by a quarter -- that's how significant the problem was.
+
+Last month I noticed that the universal version of DCU was starting to show up in the fleet again. I spoke to the other techs and they deny installing it.  Then it showed up on a PC that I had just imaged and I realized that DCU Classic 5.5 is actually updating itself to DCU Universal 5.6.  
+
+Why, Dell.  Just...why?"
+T20261007-359,1v52rr7,false_negative,1,0,0.41795736259854344,0.16975641651653994,applehelp,2026-07-24T06:02:29,False,196,0,"I’m from the US but IOS new update is asking me to verify age by the UK law? It’s preventing me from accessing to websites and some apps now need age verification, but I don’t even live in the UK…",
+T20261007-360,1uip92j,false_positive,0,1,0.7641760755495267,0.17646229643444333,AndroidQuestions,2026-06-29T10:58:51,True,35,308,I need help to update my old tablet,"I want to update my C IDEA CM 1000 old tablet to a new android version like 9 or 11 and I don't know how? 
+
+I had found an option in the tablet which is wireless update to select something from the tablet files and it will update so can anyone help me please to find the android version and update my tablet?"
+T20261007-362,1owj037,false_positive,0,1,0.8141281731084623,0.22641439399337893,vscode,2025-11-14T01:17:31,True,68,426,[LaTeX on VSCode] How is the Copilot autocomplete so damn accurate?!,"Was typing up my math homework using LaTeX on VSCode, and the autocomplete after the latest update is kinda insane. It is EXACTLY what my assignment is. Wtf?
+
+https://preview.redd.it/flxl1tpti41g1.png?width=936&amp;format=png&amp;auto=webp&amp;s=615bf5e7625ffdae8242223443c232aeb6c0f6e7
+
+Either this question is ridiculously common, or Copilot is capable of reading my assignment open in the background, or it's just too good."
+T20261007-367,1wyhdr2,false_positive,0,1,0.6217186045880388,0.03400482547295547,ollama,2026-10-05T19:12:08,True,25,388,what happens to Deepseek?,"I've been using deepseek for long and made valuable outputs and resources, but since the update to the 4.1, deepseek just feels dumb. I ask a simple question and process for long, doesn't plan before starting burning tokens, **which didnt happened before.**
+
+I've tried different ""reasoning effort"" but i have reach the effectiveness of previous deepseek-v4-flash and dont know what to do"
+T20261007-380,1nzew7s,false_negative,1,0,0.5686707419838176,0.01904303713126576,chrome,2025-10-06T10:01:35,True,55,685,"How to exclude the page context in ""Search Google for""?","It is the chrome in chromebook.
+
+I always highlight a text and right-click to ""Search Google for"". Previously it is just to open a new tab and search the highlighted text. However, after recent updates, it now opens side panel instead of new tab. Not only that, it now includes the current page context.
+
+How to exclude the page context in the right click search? I find it so annoying, as I feel the search result now has a bias toward the page context and is less relevant to the highlight text which is the only thing I care about.
+
+[Search Google for](https://preview.redd.it/2t812b3oqgtf1.png?width=1292&amp;format=png&amp;auto=webp&amp;s=9c687d16ea8a0375d52c61981a6ba8e36d526571)"
+T20261007-411,1wxed0m,false_negative,1,0,0.4738942986790973,0.11381948043598605,vscode,2026-10-04T12:20:21,True,58,2110,New updated UI for vscode github copilot screws up diff UI,"I used to enjoy systematically going through file changes done to all files by vscode github copilot. Accept and reject individual changes. Quickly jump between them. However recent UI changes to vscode copilot have completely screwed it up. To be specific:
+
+1. It does not show per file number of lines changed
+2. It does not show per change Keep / Undo button
+3. It opens all files expanded and vertically stacked. So, if I have to check specific file which is at the bottom of the stack, I have to collapse all files at the top one by one.
+4. There is no way to open just single file that is changed. It opens all edited files in vertically stacked manner.
+5. Old diff view also used to show location of code changes done by copilot in the file by showing red / green overlays on right side vertical scrollbar. Sometimes, it was useful when you wanted to diff some past versions of file. Those visual cues are gone due this vertically stacked sessions changes window.
+6. Next / previous change buttons are also gone in the new UI !
+
+Earlier I posted why I love copilot and not claude CLI with these points about old UI here: [https://www.reddit.com/r/ClaudeCode/s/S4HXiHwjDn](https://www.reddit.com/r/ClaudeCode/s/S4HXiHwjDn) .  But, it seems MS decided to claudify itself ...
+
+You can give feedback about these changes on official GitHub thread: https://github.com/microsoft/vscode/issues/339363
+
+[New UI](https://preview.redd.it/f6mhbln70gth1.png?width=520&amp;format=png&amp;auto=webp&amp;s=837a97e9c3f45296634f31dd291959156b9600b7)
+
+https://preview.redd.it/2g3wka5a0gth1.png?width=1183&amp;format=png&amp;auto=webp&amp;s=0cdb75ea71ce6734ed0e3651d0dc66e52295dab0
+
+https://preview.redd.it/zzszbncb0gth1.png?width=1076&amp;format=png&amp;auto=webp&amp;s=6799c2e45e32239b7f94ed9ed6444b5b752abe63
+
+[Old Version Information](https://preview.redd.it/9tbsb13d0gth1.png?width=470&amp;format=png&amp;auto=webp&amp;s=19d495af90aa143a9a4d03f168adb94b80e6e846)
+
+[New Version Information](https://preview.redd.it/2sncspcg0gth1.png?width=359&amp;format=png&amp;auto=webp&amp;s=567b8b7d3150bfb24d3c006af4ae56892a9095e0)"
+T20261007-423,1sqzpvi,false_negative,1,0,0.5859795313443776,0.0017342477707057435,applehelp,2026-04-20T19:19:18,True,20,530,Air M4 speaker issue,"Hey Folks !! 
+I recently purchased macbook air m4, its still in warrenty. 
+After few mac os updates i started noticing some wierd sound in its speaker. Like some sparking sound. Earlier it was less so i tried to ignore it. I offen use my device with earphones on so it did not bother me that much. But now this sound has increased upto the point where i can't even take call or play youtube without sound interfearence in between.
+Is it the software glitch or hardware issue ? 
+Should i take it to apple care ? 
+What should I Do ?"
+T20261007-427,1u2nh1u,false_negative,1,0,0.5628525581453905,0.0248612209696929,firefox,2026-06-11T03:17:26,True,300,151,"Windows 11 desktop: How to reduce size of extra search bar (next to address bar)? Adding Flexible Space shrinks the address bar--which I don't want. Before the latest update, the extra search bar was 1/3 the size it is now, and I believe you could drag to expand/reduce. Is there a new way to shrink?","**Thanks to** u/Moko1960 **this is the solution - thanks again!**
+
+Here's how you resize it. [https://imgur.com/a/8Jvb36J](https://imgur.com/a/8Jvb36J)"
+T20261007-445,1wtyymf,false_negative,1,0,0.2707452061397388,0.3169685729753446,firefox,2026-09-30T07:53:08,True,37,156,Firefox new 157.0 update Memory usage,"What the hell Mozilla it’s only ONE TAB open ( YouTube ) and it’s surpassing an open world game
+
+With all respect have you been sniffing chrome a lot lately"
+T20261007-446,1wz1abm,false_negative,1,0,0.38834329575124277,0.1993704833638406,firefox,2026-10-06T12:27:34,True,15,274,firefox crashes,"https://preview.redd.it/j6yaw0ckbuth1.png?width=616&amp;format=png&amp;auto=webp&amp;s=3e1a31dd7c717de26eca9d8f1d27be65fe08b78c
+
+when using ai chat and try to ask for a web research. memory leaks and it crashes. fedora 44. latest updates and latest firefox from fedora repo."
+T20261007-454,1u6po2h,false_positive,0,1,0.612421743415574,0.024707964300490604,applehelp,2026-06-15T18:53:34,True,21,763,Software update query,"Hello, idk if this is the sub for this question but might as well give it a shot. I use an iPhone 11 that's currently 3 years old and I am running version 18.7.7. 
+
+Tbh I've been a bit scared to update it to the latest version available which is 26.5 since the phone is pretty old and my battery health is bad as is (73%) and I'm currently not in a place to service it. 
+
+My question is would it be safe for me to update it or would it be way too ""heavy"" on my phone in the state that it's in currently? I'm considering updating it for security reasons since running outdated software isn't ideal in that aspect, but again I have my doubts about how my phone will be affected by it all things considered.
+
+Any help/opinions are welcome and thank you in advance :)"
+T20261007-472,1ooagoi,false_negative,1,0,0.4560592755419001,0.13165450357318326,MacOS,2025-11-04T15:40:45,True,43,539,Making Dock translucent in macOS Tahoe 26.1,"Just upgraded to macOS 26.1 and immediately activated Liquid Glass tinted mode. Honestly, it is only a slight improvement. You still get those odd edge twists, which feel really unnecessary. However, my biggest issue is that the dock is still transparent, which is a real eyesore.
+
+https://preview.redd.it/q8dubzcrf9zf1.png?width=1122&amp;format=png&amp;auto=webp&amp;s=ff2b18a115ec57dada41037645553aff63e3c309
+
+Does anyone know how to make it translucent again. I held off on downgrading before 26.1, but now I’m seriously considering it."
+T20261007-473,1tilfj5,false_positive,0,1,0.594108049773532,0.006394270658448664,sysadmin,2026-05-20T13:16:57,True,38,990,Windows Update Hotpatch and cumulative,"Hello everyone,
+
+We are starting to switch from WSUS to WUfB and we are a bit lost in the kb it updates.
+
+We are using SCCM (not co-managed yet, it's coming) and I switch both from GPO and using SCCM WU settings to scan to WU and WSUS (dual scan for third party patching). So far, it's going great, computer get the updates and installed. 
+
+  
+The problem is when looking at patch deployment, some are not installed. For instance, KB5083806 april cumulative is not installed, and this month cumulative update is also not installed. We only have the one from March which was deployed through SCCM before we switched our pilot to WU.
+
+We do have B5083769 installed, which is april security update and we received KB5089466 may hotpatch. But looking at the documentation from hotpatch, we shouldn't have hotpatch enabled since we aren't in intune. 
+
+And also, in hotpatch documentation, it says that in April, we should get the baseline applied. This should be the cumulative right?
+
+Thank you"
+T20261007-479,1p1x24d,false_negative,1,0,0.5761937740879683,0.011520005027115032,immich,2025-11-20T07:30:14,True,30,308,Rehashing over and over again!,"My entire library is rehashing all 65k assets after almost every update of the server and/or clients. Been happening for months now, across various versions (I keep everything up to date) and three separate clean Immich installs. During rehashing, everything shows up as duplicate. 
+
+My Github issue is here."
+T20261007-480,1wymc22,false_positive,0,1,0.790870235788599,0.20315645667351567,firefox,2026-10-05T22:31:27,True,67,112,Can't sort the history sidebar by visit count after the last update,"I am enraged. Been using firefox since the 90s, grew to rely on this feature, now taken for no reason I can see."
+T20261007-492,1tjn91y,false_positive,0,1,0.6415723889112251,0.053858609796141765,MicrosoftEdge,2026-05-21T15:03:34,True,33,2330,Alternatives for the Edge sidebar,"Now that Edge is removing the sidebar in the next update, I've put together a short list of browsers that have this feature, in case anyone wants to switch. I’ll only include browsers that natively support this feature and function as such; I also won’t go into detail about every feature of each browser. So please don’t take this as a ranking of which of the mentioned browsers is the best overall.
+
+**1. Floorp**  
+Advantages: Allows you to add multiple sites and keeps the bookmarks bar, history, and notes pinned. You can control which container it goes into, adjust its width, manage audio settings, switch between mobile and desktop views, move it around the screen, and pin it.  
+Disadvantages: Many settings, including those in the sidebar, are only available in English.
+
+**2. Opera/Opera GX**  
+Advantages: It allows you to add social media platforms and AI chatbots like ChatGPT, and it features a native media player and access to your browser history and bookmarks. It also supports auto-hide, and in GX, you can change the icon colors to match the default theme.  
+Disadvantages: You cannot pin any other site that isn’t in the settings box; therefore, it lacks zoom, back, forward, and mobile view controls.  
+Although it can be enabled via opera://flags/#sidebar-site-panel, it only allows you to pin up to 5 sites and still has the same issues
+
+**3. Vivaldi**  
+Advantages: Multiple sites and shortcuts (history, bookmarks, etc.) that can be pinned, navigation controls, mobile/desktop view switching, the ability to pin and float the panel, auto-hide, and keyboard shortcuts and gestures for controlling the panel. Additionally, it is the only browser on this list that allows you to change the sidebar’s position (left or right).  
+Disadvantages: None that come to mind.
+
+**4. Whale**  
+Advantages: All of the ones mentioned above (except for the ability to change the sidebar's position): autohide, multiple sites and shortcuts, a tools section like Edge, mobile/desktop view, navigation controls. Of all the alternatives, it is the closest to Edge, as it is also the only browser on this list that comes close to the ""Edge Bar"" experience in Windows 10, which allows you to use the sidebar outside the browser.  
+Disadvantages: The browser isn't available in all languages, and it doesn't have zoom controls."

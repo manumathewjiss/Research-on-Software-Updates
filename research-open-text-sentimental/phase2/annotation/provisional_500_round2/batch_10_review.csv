@@ -1,0 +1,1418 @@
+﻿review_id,subreddit,title,post_body,discussion_context,text_availability,proposed_about_software,proposed_update_related,proposed_discussion_type,proposed_confidence,proposed_reason,decision,final_about_software,final_update_related,final_discussion_type,reviewer_note,reviewed_at,source_url
+B10-001,kubernetes,Migration from ingress-nginx to nginx-ingress good/bad/ugly,"So I decided to move over from the now sinking ship that is **ingress-nginx** to the at least theoretically supported **nginx-ingress**. I figured I would give a play-by-play for others looking at the same migration.
+
+
+
+# ✅ The Good
+
+
+
+* Changing **ingressClass** within the Ingress objects is fairly straightforward. I just upgraded in place, but you could also deploy new Ingress objects to avoid an outage.
+* The **Helm chart** provided by nginx-ingress is straightforward and doesn't seem to do anything too wacky.
+* Everything I needed to do was available one way or another in nginx-ingress. See the ""ugly"" section about the documentation issue on this.
+* You don't have to use the CRDs (VirtualServer, ect) unless you have a more complex use case. 
+
+
+
+# 🛑 The Bad
+
+
+
+* Since every Ingress controller has its own **annotations and behaviors**, be prepared for issues moving any service that isn't boilerplate **443/80**. I had SSL passthrough issues, port naming issues, and some SSL secret issues. Basically, anyone who claimed an Ingress migration will be painless is wrong.
+* **ingress-nginx** had a **webhook** that was verifying all Ingress objects. This could have been an issue with my deployment as it was quite old, but either way, you need to **remove that hook** before you spin down the ingress-nginx controller or all Ingress objects will fail to apply.
+* Don't do what I did and YOLO the **DNS changes**; yeah, it worked, but the downtime was all over the place. This is my personal cluster, so I don't care, but beware the DNS beast.
+
+
+
+# ⚠️ The Ugly
+
+
+
+* **nginx-ingress DOES NOT HAVE METRICS**; I repeat, **nginx-ingress DOES NOT HAVE METRICS**. These are reserved for **NGINX Plus**. You get connection counts with no labels, and that's about it. I am going to do some more digging, but at least out of the box, it's limited to being pointless. Got to sell NGINX Plus licenses somehow, I guess.
+* **Documentation is an absolute nightmare**. Searching for `nginx-ingress` yields 95% `ingress-nginx` documentation. Note that Gemini did a decent job of parsing the difference, as that's what I did to find out how to add allow listing based on CIDR.
+
+  
+Note Content formatted by AI.",,title_and_body,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/kubernetes/comments/1p6qhl2/migration_from_ingressnginx_to_nginxingress/
+B10-002,homeassistant,JellyFish Lighting,Is anyone else facing issues with JellyFish Lighting after the most recent update from JF?,"[1:reply] mine's been acting up too, lights just freeze mid-pattern and the app keeps losing connection",title_body_comments,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/homeassistant/comments/1uj2zbo/jellyfish_lighting/
+B10-003,MicrosoftEdge,"Microsoft Devs - Please fix the white line at the bottom of the window when the taskbar is set to autohide, that can cause burn in on OLED TVs and monitors - Edge update caused this months ago.","Is this ever going to be fixed? It's been months and it's a pretty serious issue.
+
+This white line is permanently there, covering images and anything that isn't white.
+
+Even if someone from MS acknowledges it, at least we would know it's on the radar. I switched to Edge about a year ago after being a loyal Firefox user since the beginning, and Firefox actually had exactly the same issue for a while, but they fixed it after a couple of months. You can't just break things and then leave them like that.
+
+Going to full screen is not a fix, especially considering how slow the address bar animation is, and the fact you can't do much else when in full screen.",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/MicrosoftEdge/comments/1osyxsw/microsoft_devs_please_fix_the_white_line_at_the/
+B10-004,comfyui,Can't open workflow from pending queue item?,"I often queue up a lot of submissions at a time, and then to see where I am in the queue, I'd right-click a pending item and select ""Open Workflow"" to have the whole workflow open. 
+
+After a recent update, that's no longer possible. The option exists, but it doesn't do anything. It will only open a workflow for a failed or completed item in the queue, but not one that's pending. 
+
+Is there anyway to regain the function? It's sorely missed.",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/comfyui/comments/1t5cp5b/cant_open_workflow_from_pending_queue_item/
+B10-005,applehelp,iPad Air 4th Generation issue or iOS 26 issue?,"Hello everyone. I’ve owned an iPad Air 4th generation since 2021 (bought sometime between August and October?). I primarily use my tablet for school and is used only when I have classes. During seasons that I don’t, I keep it in its carrying case turned off. It also automatically upgraded to iOS 26 a few months ago when I had spring classes. I avoided it for as long as I could but forgot I had that turned on.
+
+I started my fall semester last Friday and started using it again. I thought it was giving me issues regarding charging, but the third-party cable I was trying to use wasn’t working. I managed to find an Apple USB-C cable, and had no issues charging to continue using this weekend. However today, I noticed while working on Goodnotes that the dropdown menu(?) wasn’t working. Everything else was; I could access other apps, and nothing was wrong with the screen except for me not being able to use the menu. I restarted it thinking it would fix the issue, and I’ve been met with what I attached as a video. Trying to turn it on results in the screen fading on slowly without the Apple logo, and then it shuts off. I’ve tried force rebooting it and am met with the same issue. Has this happened with anyone else on iOS 26? Prior to this, the only other issue I’ve had with this update is the lag. Nothing else was wrong. It was at 27% and I was going to charge it after I finished my calculus quiz. Are there any other things I can try to remedy the issue? I’m worried that it’ll need to be serviced because this is happening at such a bad time, and I keep almost everything regarding my classes on it.",[1:reply] this is almost certainly hardware failure.,title_body_comments,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/applehelp/comments/1vwj4j1/ipad_air_4th_generation_issue_or_ios_26_issue/
+B10-006,Android,"Google Wallet adding Live Updates support for flights, trains",,"[1:reply] Finally
+[2:reply] Yeah it's Google so I'm expecting something very US centric
+[3:reply] Seriously. After the second time of going to the wrong gate, I discovered that while my phone was receiving updates, through Google, of my flight details, those details were not being updated in the wallet. Fucking frustrating as hell. Of course, now I don't trust the wallet for…
+[4:reply] Article dosent say what regions supported for train tracking which is a shame
+[5:reply] Can they also add support for the Suica card in Tokio?",title_plus_comments,yes,yes,other,low,The post appears to discuss software without a clear troubleshooting or chiefly critical purpose.,,,,,,,https://reddit.com/r/Android/comments/1ocelwz/google_wallet_adding_live_updates_support_for/
+B10-007,openclaw,"Reverted back to 2026.4.23, again","Upgraded to 4.26 yesterday. It was slower but seems to be up and running. But today, almost all timed reports went missing and a lot of no responding and messaging error, network connection lost and channel went offline. I decided to go back to 4.23, again, since 4.24 and 4.25 are even worse than 4.26. And finally, everything seeed to be fine. Reports are coming in normally again.",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/openclaw/comments/1sz1hx1/reverted_back_to_2026423_again/
+B10-008,comfyui,Extreme slowdown after updating to 0.3.68,"Hello people,
+
+after updating to the newest cu128 version, nothing really works. Wan 2.2 videos used to generate in like 20-30 seconds but now I am still at the first sampler after 25 minutes. I redownloaded Comfy and tried it again but somehow I can't fix the problem. Did someone face the same issue with the newest version?
+
+Reinstalling torch, sage,  rebooting etc didn't help.
+
+My GPU goes back and forth 30% and 100% with completely filled VRAM but nothing happens in Comfy.
+
+    --fast fp16_accumulation --use-sage-attention
+
+    Sampling 201 frames at 768x768 with 2 steps
+    50%|█████████████████████████████████████████                                  | 1/2 [10:41&lt;10:41, 641.11s/it]
+
+    nvidia-smi.exe
+    Wed Nov  5 17:26:22 2025
+    +-----------------------------------------------------------------------------------------+
+    | NVIDIA-SMI 581.80                 Driver Version: 581.80         CUDA Version: 13.0     |
+    +-----------------------------------------+------------------------+----------------------+
+    | GPU  Name                  Driver-Model | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+    | Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+    |                                         |                        |               MIG M. |
+    |=========================================+========================+======================|
+    |   0  NVIDIA GeForce RTX 5090      WDDM  |   00000000:01:00.0  On |                  N/A |
+    | 31%   52C    P1            123W /  600W |   31868MiB /  32607MiB |    100%      Default |
+    |                                         |                        |                  N/A |
+    +-----------------------------------------+------------------------+----------------------+
+
+
+
+    ./python.exe --version
+    Python 3.12.10
+
+    nvcc --version
+    nvcc: NVIDIA (R) Cuda compiler driver
+    Copyright (c) 2005-2025 NVIDIA Corporation
+    Built on Wed_Jan_15_19:38:46_Pacific_Standard_Time_2025
+    Cuda compilation tools, release 12.8, V12.8.61
+    Build cuda_12.8.r12.8/compiler.35404655_0
+
+    absl-py                      2.3.1
+    accelerate                   1.11.0
+    addict                       2.4.0
+    aiofiles                     24.1.0
+    aiohappyeyeballs             2.6.1
+    aiohttp                      3.13.2
+    aiohttp_socks                0.10.1
+    aiosignal                    1.4.0
+    aiosqlite                    0.21.0
+    albucore                     0.0.24
+    albumentations               2.0.8
+    alembic                      1.17.1
+    annotated-types              0.7.0
+    antlr4-python3-runtime       4.9.3
+    anyio                        4.11.0
+    attrs                        25.4.0
+    audioread                    3.1.0
+    av                           16.0.1
+    beautifulsoup4               4.14.2
+    bitsandbytes                 0.48.2
+    boto3                        1.34.86
+    botocore                     1.34.162
+    build                        1.3.0
+    cachetools                   6.2.1
+    certifi                      2025.10.5
+    cffi                         2.0.0
+    chardet                      5.2.0
+    charset-normalizer           3.4.4
+    click                        8.3.0
+    clip-interrogator            0.6.0
+    cmake                        4.1.2
+    color-matcher                0.6.0
+    colorama                     0.4.6
+    coloredlogs                  15.0.1
+    colorlog                     6.10.1
+    comfyui-embedded-docs        0.3.1
+    comfyui_frontend_package     1.28.8
+    comfyui_workflow_templates   0.2.11
+    contourpy                    1.3.3
+    cryptography                 46.0.3
+    cupy-cuda12x                 13.6.0
+    cycler                       0.12.1
+    ddt                          1.7.2
+    decorator                    5.2.1
+    diffusers                    0.35.2
+    dill                         0.4.0
+    docutils                     0.22.2
+    dynamicprompts               0.30.2
+    easydict                     1.13
+    einops                       0.8.1
+    evalidate                    2.0.5
+    fairscale                    0.4.13
+    fal_client                   0.8.1
+    fastrlock                    0.8.3
+    filelock                     3.20.0
+    flatbuffers                  25.9.23
+    fonttools                    4.60.1
+    frozenlist                   1.8.0
+    fsspec                       2025.9.0
+    ftfy                         6.3.1
+    future                       1.0.0
+    fvcore                       0.1.5.post20221221
+    gdown                        5.2.0
+    gguf                         0.17.1
+    gitdb                        4.0.12
+    GitPython                    3.1.45
+    google-ai-generativelanguage 0.6.15
+    google-api-core              2.28.1
+    google-api-python-client     2.186.0
+    google-auth                  2.42.1
+    google-auth-httplib2         0.2.1
+    google-genai                 1.48.0
+    google-generativeai          0.8.5
+    googleapis-common-protos     1.71.0
+    greenlet                     3.2.4
+    grpcio                       1.76.0
+    grpcio-status                1.71.2
+    h11                          0.16.0
+    h2                           4.3.0
+    hpack                        4.1.0
+    httpcore                     1.0.9
+    httplib2                     0.31.0
+    httpx                        0.28.1
+    httpx-sse                    0.4.3
+    huggingface-hub              0.36.0
+    humanfriendly                10.0
+    hydra-core                   1.3.2
+    hyperframe                   6.1.0
+    idna                         3.11
+    ImageIO                      2.37.2
+    imageio-ffmpeg               0.6.0
+    importlib_metadata           8.7.0
+    iopath                       0.1.10
+    jax                          0.7.1
+    jaxlib                       0.7.1
+    Jinja2                       3.1.6
+    jmespath                     1.0.1
+    joblib                       1.5.2
+    jsonschema                   4.25.1
+    jsonschema-specifications    2025.9.1
+    kiwisolver                   1.4.9
+    kornia                       0.8.1
+    kornia_rs                    0.1.9
+    lark                         1.3.1
+    lazy_loader                  0.4
+    librosa                      0.11.0
+    lightning-utilities          0.15.2
+    llvmlite                     0.45.1
+    lmdb                         1.7.5
+    lpips                        0.1.4
+    lxml                         6.0.2
+    Mako                         1.3.10
+    manifold3d                   3.2.1
+    mapbox_earcut                1.0.3
+    Markdown                     3.10
+    markdown-it-py               4.0.0
+    MarkupSafe                   3.0.3
+    matplotlib                   3.10.7
+    matrix-nio                   0.25.2
+    mdurl                        0.1.2
+    mediapipe                    0.10.21
+    ml_dtypes                    0.5.3
+    moviepy                      2.2.1
+    mpmath                       1.3.0
+    msgpack                      1.1.2
+    mss                          10.1.0
+    multidict                    6.7.0
+    natsort                      8.4.0
+    networkx                     3.5
+    ninja                        1.13.0
+    numba                        0.62.1
+    numpy                        2.2.6
+    olefile                      0.47
+    omegaconf                    2.3.0
+    onnxruntime                  1.23.2
+    open_clip_torch              3.2.0
+    opencv-contrib-python        4.11.0.86
+    opencv-python                4.12.0.88
+    opencv-python-headless       4.12.0.88
+    opt_einsum                   3.4.0
+    optimum                      2.0.0
+    packaging                    25.0
+    pedalboard                   0.9.19
+    peft                         0.17.1
+    piexif                       1.1.3
+    pilgram                      1.2.1
+    pillow                       11.3.0
+    pip                          25.3
+    platformdirs                 4.5.0
+    polars                       1.35.1
+    polars-runtime-32            1.35.1
+    pooch                        1.8.2
+    portalocker                  3.2.0
+    proglog                      0.1.12
+    propcache                    0.4.1
+    proto-plus                   1.26.1
+    protobuf                     5.29.5
+    psutil                       7.1.3
+    pyasn1                       0.6.1
+    pyasn1_modules               0.4.2
+    pybind11                     3.0.1
+    pycocoevalcap                1.2
+    pycocotools                  2.0.10
+    pycollada                    0.9.2
+    pycparser                    2.23
+    pycryptodome                 3.23.0
+    pydantic                     2.12.4
+    pydantic_core                2.41.5
+    pydantic-settings            2.11.0
+    pygit2                       1.19.0
+    PyGithub                     2.8.1
+    Pygments                     2.19.2
+    PyJWT                        2.10.1
+    pyloudnorm                   0.1.1
+    PyNaCl                       1.6.0
+    pyparsing                    3.2.5
+    pyproject_hooks              1.2.0
+    pyreadline3                  3.5.4
+    PySocks                      1.7.1
+    python-dateutil              2.9.0.post0
+    python-dotenv                1.2.1
+    python-socks                 2.7.2
+    pytorch-lightning            2.5.5
+    PyWavelets                   1.9.0
+    pywin32                      311
+    PyYAML                       6.0.3
+    qrcode                       8.2
+    qwen-vl-utils                0.0.14
+    redis                        7.0.1
+    referencing                  0.37.0
+    regex                        2025.10.23
+    replicate                    1.0.7
+    requests                     2.32.5
+    requirements-parser          0.13.0
+    rich                         14.2.0
+    rotary-embedding-torch       0.8.9
+    rpds-py                      0.28.0
+    rsa                          4.9.1
+    rtree                        1.4.1
+    s3transfer                   0.10.4
+    safetensors                  0.6.2
+    sageattention                2.2.0+cu128torch2.9.0.post3
+    SAM-2                        1.0
+    scikit-image                 0.25.2
+    scikit-learn                 1.7.2
+    scipy                        1.16.3
+    segment-anything             1.0
+    sentencepiece                0.2.1
+    setuptools                   80.9.0
+    shapely                      2.1.2
+    shellingham                  1.5.4
+    simsimd                      6.5.3
+    six                          1.17.0
+    smmap                        5.0.2
+    sniffio                      1.3.1
+    sounddevice                  0.5.3
+    soundfile                    0.13.1
+    soupsieve                    2.8
+    soxr                         1.0.0
+    spandrel                     0.4.1
+    SQLAlchemy                   2.0.44
+    stringzilla                  4.2.3
+    surrealist                   1.1.2
+    svg.path                     7.0
+    sympy                        1.14.0
+    tabulate                     0.9.0
+    tb-nightly                   2.21.0a20251023
+    tenacity                     9.1.2
+    tensorboard-data-server      0.7.2
+    termcolor                    3.2.0
+    threadpoolctl                3.6.0
+    tifffile                     2025.10.16
+    timm                         1.0.22
+    tokenizers                   0.22.1
+    toml                         0.10.2
+    torch                        2.9.0+cu128
+    torchaudio                   2.9.0+cu128
+    torchcodec                   0.8.1
+    torchdiffeq                  0.2.5
+    torchmetrics                 1.8.2
+    torchsde                     0.2.6
+    torchvision                  0.24.0+cu128
+    tqdm                         4.67.1
+    trampoline                   0.1.2
+    transformers                 4.57.1
+    trimesh                      4.9.0
+    triton-windows               3.5.0.post21
+    typer                        0.20.0
+    typing_extensions            4.15.0
+    typing-inspection            0.4.2
+    ultralytics                  8.3.225
+    ultralytics-thop             2.0.18
+    unpaddedbase64               2.1.0
+    uritemplate                  4.2.0
+    urllib3                      2.5.0
+    uv                           0.9.7
+    vhacdx                       0.0.9
+    wcwidth                      0.2.14
+    webcolors                    25.10.0
+    websocket-client             1.9.0
+    websockets                   15.0.1
+    Werkzeug                     3.1.3
+    wheel                        0.45.1
+    wordcloud                    1.9.4
+    xxhash                       3.6.0
+    yacs                         0.1.8
+    yapf                         0.43.0
+    yarl                         1.22.0
+    zipp                         3.23.0",,title_and_body,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/comfyui/comments/1op4m04/extreme_slowdown_after_updating_to_0368/
+B10-009,transformers,No one gets by the CONSTRUCTICONS !!!,,"[1:reply] Man, Devastation was such a good game, I've been replaying it this past week and mopping up the last few achievements I didn't get on my first time around, and it's so much fun.
+[2:reply] is that a KO optimus?
+[3:reply] damn i love this teddy bear autobot",title_plus_comments,no,no,na,medium,The saved text appears outside software scope or is too vague to classify reliably.,,,,,,,https://reddit.com/r/transformers/comments/1ori6i0/no_one_gets_by_the_constructicons/
+B10-010,applehelp,Unable to check for updates,I cant check for updates or i cant turn it off any help appreciated,,title_and_body,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/applehelp/comments/1s4w2b2/unable_to_check_for_updates/
+B10-011,rust,Updating Rust's Linux musl targets to 1.2.5 | Rust Blog,,"[1:reply] &gt; Build failures from this change will typically look like ""some `extern` functions couldn't be found; some native libraries may need to be installed or have their path specified"", often specifically for ""undefined reference to `open64'"", often while trying to build very old…
+[2:reply] That would require those users to update their toolchain to include such a lint, and that’s sort of the whole problem
+[3:reply] The primary reason to use musl is to link libc statically. Why would you want to use dynamic linking on musl?
+[4:reply] Looking forward to the definitions in \`libc\` crate being updated to musl 1.2.5 and switching to dynamic linking on musl targets by default.
+[5:reply] You can already build with upstream musl, it just the binary distribution of rust",title_plus_comments,yes,yes,other,medium,The post appears to discuss software without a clear troubleshooting or chiefly critical purpose.,,,,,,,https://reddit.com/r/rust/comments/1pg90f5/updating_rusts_linux_musl_targets_to_125_rust_blog/
+B10-012,firefox,Firefox keeps switching my default dictionary without my approval,"I seem to have an irritating issue that doesn't seem to be mentioned on Bugzilla so I thought I'd see if anyone else has this problem. Firefox keeps switching my default dictionary back to en-US when I have it set to en-GB and fr-FR. This seems to happen mostly after updates but not always, and sometimes happens between updates.
+
+Has anyone else here had this happen?",,title_and_body,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/firefox/comments/1ucf6sj/firefox_keeps_switching_my_default_dictionary/
+B10-013,transformers,"BLOKEES BEAST WARS!!, Blokees AE TARN DF BRUTICUS GV 9 Megatron updates",,"[1:reply] Finally!
+
+Scale accurate Beast wars characters!
+[2:reply] Beast wars defenders? Damn they really know how to get my money
+[3:reply] What in tarnation is that?
+[4:reply] If beast wars gets its own wave.. i might have to go all in
+[5:reply] I need that Megatron Yeesssterday.",title_plus_comments,no,no,na,medium,The saved text appears outside software scope or is too vague to classify reliably.,,,,,,,https://reddit.com/r/transformers/comments/1pdqt20/blokees_beast_wars_blokees_ae_tarn_df_bruticus_gv/
+B10-014,rust,ZLUDA update Q3 2025 – ZLUDA 5 is here,,"[1:reply] Quoting from their GitHub:
+&gt; ZLUDA is a drop-in replacement for CUDA on non-NVIDIA GPUs. ZLUDA allows running unmodified CUDA applications using non-NVIDIA GPUs with near-native performance
+[2:reply] please puts nouns in titles that tell me anything about anything
+[3:reply] But ZLUDA, ZLUDA, ZLUDA.
+[4:reply] CUDA for AMD (yes I am evil)",title_plus_comments,yes,yes,other,medium,The post appears to discuss software without a clear troubleshooting or chiefly critical purpose.,,,,,,,https://reddit.com/r/rust/comments/1nwb9xv/zluda_update_q3_2025_zluda_5_is_here/
+B10-015,Wordpress,Can't login to wordpress website anymore,"Hey guys, I was working on my work for college yesterday and I changed both site and home url's in the general settings, then just got logged out and couldn't visit website since. Whether i try to enter with old site or the new site name, it just loads for ages and then just says 'connection timed out'. I had a few of themes downloaded there, so i just tried some tutorial to change a theme's functions.php file with adding update option lines with my old website name, however it didnt work so I'm overthinking that the domain got changed overall. By the way my website doesnt end with com just with my college's given long domain ( not sure how to explain it) 
+
+https://preview.redd.it/v650n6zkztsf1.png?width=852&amp;format=png&amp;auto=webp&amp;s=6f9ca9dfff3d25ce86879725df6f5bebda529283","[1:reply] Add these two lines to your wp-config.php, where “example.com” is the correct domain name of your WordPress website.
+
+`define( 'WP_HOME', 'https://example.com' );`  
+`define( 'WP_SITEURL', 'https://example.com' );`
+[2:reply] I think that obviously happened beacuse of that changed Site Address (WP\_SITEURL) and WordPress Address (home), WP is now redirecting to an address that doesn’t resolve – that’s probably why you get timeouts (my wild guess).  
+Maybe to try to override the URLs at the earliest l…
+[3:reply] Can you FTP or SSH into the site? If that's down too, you may have a deeper server or DNS problem.
+
+If you can FTP or SSH in, have you checked the php error log? Also try temporarily removing `define( 'WP_DEBUG', true );`  from your site's config.php (in the main directory that…
+[4:reply] Do you have access on your server? If so, you can set the old url in the options table.
+[5:OP] yes i can still get through ftp atleast, however i ran into an issue. my debug was false (probably disabled) so i couldnt find the error log, even when i made it into true, error log wasnt there still :(",title_body_comments,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/Wordpress/comments/1nwqgvm/cant_login_to_wordpress_website_anymore/
+B10-016,ios,Messages Read Status Not Syncing Issue with SMS/RCS,"Basically my messages sync with no issue, but SMS/RCS messages always show as unread on all other devices except my phone.
+
+I have several devices. iPhone 17 Pro, M4 iPad Pro, iPad mini A16, M2 MacBook Air, M4 MacBook Air, M4 Pro Mac mini.  Every time I pick up one I have used in a couple of days, Messages will be badges with 10-30 messages that are ""unread"".  Everything is synced and in the correct order, but I have to go into each thread to clear them.
+
+I'm OCD and can't stand have any badges on my devices. ¯\\\_(ツ)\_/¯
+
+All devices are up to date 26.2 (see OCD). iMessage in the cloud is turned on and there is no other issues with my account or syncing. Even forcing a sync of Messages to iCloud doesn't fix anything.
+
+\*Yes, I am running beta's on all my devices. However this has persisted on all versions of 26 that I have ran.\*
+
+Anyone else having this issue since the 26 updates?",,title_and_body,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/ios/comments/1ovhfdr/messages_read_status_not_syncing_issue_with_smsrcs/
+B10-017,Fedora,I'm on a fully updated fedora 43 kde (plasma 6.6.4) system. I'm unable to take screenshot using spectacle.,"I get the below error:
+&gt;An error occurred while taking a screenshot.
+KWin screenshot request failed:
+The process is not authorized to take a screenshot
+Potentially relevant information:
+- Method: CaptureScreen
+- Method specific arguments: ""eDP-1""
+
+I'm on Wayland.
+
+Edit: I can use the select window option to take screenshots but the other options do not work.
+
+Edit 2: Fixed it. 
+rm ~/.local/share/applications/org.kde.spectacle.desktop",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/Fedora/comments/1sq3og2/im_on_a_fully_updated_fedora_43_kde_plasma_664/
+B10-018,Bitcoin,LOL,,"[1:reply] More like 2028 or 2032
+[2:reply] Christmas 2026, 300k usd?
+[3:reply] at least you took the time to TRY and match the font",title_plus_comments,no,no,na,medium,The saved text appears outside software scope or is too vague to classify reliably.,,,,,,,https://reddit.com/r/Bitcoin/comments/1pqrraz/lol/
+B10-019,Ubuntu,Users not showing on GDM login screen after upgrade to 26.04 LTS,"I upgraded my 24.04 LTS to 26.04 LTS threw the official installer and during the installation process from it didn't show any errors, i removed all the ""unneeded"" packages in the installation and i deleted them, and after all of it it told me to restart
+
+Now users are not showing up on my login screen","[1:reply] if you have a second monitor/tv plugged in, turn that on and see if it's on the other display.
+
+sounds silly I know,but I have seen it happen.
+[2:reply] Looks like it’s hanging before GDM even gets a chance to load the user list. Can you switch to a TTY with Ctrl+Alt+F3?
+[3:reply] r/LinuxCircleJerk
+[4:reply] This happened with me couple of days ago on my 24.04 to 26.04.1 upgrade. I bypassed the login by automatic login.
+
+Drop to a tty terminal usign Ctrl + Alt + F3 and login using your credentials.
+
+Then open the gdm3 config file using:
+
+`sudo nano /etc/gdm3/custom.conf`
+
+Add/uncomm…
+[5:reply] I've asked this on r/Gnome. They said it is the intended user experience and banned my account.",title_body_comments,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/Ubuntu/comments/1wwxk2k/users_not_showing_on_gdm_login_screen_after/
+B10-020,MicrosoftEdge,Again EDGE sets bing like a default search on bar,"Without my permisión since last update, this happens, ty microsoft, i was need to set again, cause you are so heavy or insistent",,title_and_body,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/MicrosoftEdge/comments/1qj7dzs/again_edge_sets_bing_like_a_default_search_on_bar/
+B10-021,Android,Google is working on another huge multitasking upgrade for Android tablets,,"[1:reply] Here's a simple way to upgrade multitasking, go back to Android 8 split screen where you can initiate it with a single press of recents and you can freely swap the bottom app.
+[2:reply] Output to multiple monitors please 🤞🏻
+[3:reply] Dear Google: please stop changing stupid shit for the sake of change.
+[4:reply] God yes. It used to be so simple to switch apps around in split view.
+[5:reply] My hot take (I should write this more in depth) is that Google should copy Windows 8 for PC Android and I'm not even joking. 
+
+Android apps are pretty shit on a computer like device; they'd need to heavily rely on Linux apps; mixing mobile and linux apps would be messy; copying…",title_plus_comments,yes,no,other,low,The post appears to discuss software without a clear troubleshooting or chiefly critical purpose.,,,,,,,https://reddit.com/r/Android/comments/1ogzvy5/google_is_working_on_another_huge_multitasking/
+B10-022,Android,Google's February 2026 Android update confirms a big shift for older Pixels | Pixel 6 and Pixel 7 devices seem to be now following a quarterly update schedule instead of monthly patches.,,"[1:reply] I thought the pull of Pixels were to have that homogeneous Apple style updating where it's all pushed at once?
+[2:reply] So not the update schedule they were sold with?
+[3:reply] I don't think it guarantees monthly updates anywhere - just x years of major OS releases (which happens once a year or quarterly if you want to count the QPR) and security updates - which also are not specified to come every month.
+[4:reply] To be fair, the 6 and 7 where sold originally with 3 years of updates and upgraded later to 5, so really people can complain much about this. If they do this with newer phones, then that's another thing.
+[5:reply] They were supposed to get 5 years of security updates from the start. The only extended OS updates from 3 to 5 years.",title_plus_comments,yes,yes,other,medium,The post appears to discuss software without a clear troubleshooting or chiefly critical purpose.,,,,,,,https://reddit.com/r/Android/comments/1qvkvqj/googles_february_2026_android_update_confirms_a/
+B10-023,immich,Migration from Old Storage Configuration,"Hi r/Immich,
+
+As I wasn't able to upgrade to the latest version, I decided to migrate to the new storage configuration.
+
+I tried to follow the documentation as closely as possible, I've copied the files from the datasets and .ix-apps using rsync. The old data sets are still there as you can see just in case.   
+  
+But now it seems that Immich won't deploy. I think it might have something to do with the ACL.
+
+Immich and all the child datasets have owner@apps and group@apps. I've edited the app info accordingly and checked the 'Automatic permissions' box regarding Postgres data storage.
+
+The data sets consist of:
+
+Immich -&gt; data  
+backups  encoded-video  library  profile  thumbs  upload  
+Immich -&gt; pgData  
+backups  postgres\_data","[1:reply] It look like there is an issue with your pgData, as the dataset is empty  
+Would you mind sharing the rsync command you used for it? 
+
+As you still have the ix-Volumes, I would delete the pgData dataset and recreate it
+
+The permissions for the new ""data"" datasets are fine, but y…
+[2:reply] https://preview.redd.it/pj4b5ub39bsf1.png?width=522&amp;format=png&amp;auto=webp&amp;s=01bef7ed42e2a802fa2d6e258f3af9225b751cd3
+
+It would be better if I shared the screenshot :D
+[3:reply] pgData needs netdata not apps user.
+
+Also if dataset was created with generic profile you need to make sure dataset ACL type is SMB/NFSv4 with ACL mode passthrough.
+
+Last thing. You need to reapply permissions (recursively) on new datasets after using rsync.",title_body_comments,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/immich/comments/1nubblp/migration_from_old_storage_configuration/
+B10-024,sysadmin,Outlook classic: Tasks issues,"After the August 7 update to M365, in classic Outlook, I can no no longer see attachments to Tasks that I created before the update. I also cannot add attachments to new Tasks. The attachments appear in the Tasks if I view then using the To Do app.",[1:reply] You might as well get acclimated to the To Do app because Outlook Tasks dies with Outlook (classic) in 2029.,title_body_comments,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/sysadmin/comments/1vndpwo/outlook_classic_tasks_issues/
+B10-025,bluetooth,I am so sick of Bluetooth automatically switching! I'm about to smash my phone.,"This Bluetooth switching so aggressively is getting out of hand. How can I be sitting in my vehicle I go to start my other vehicle to let it warm up, my phone is in the first vehicle and it jumps to the second vehicle. My phone isn't even in the vehicle it switched to.  There has got to be a way to stop this without disconnecting everything. I have three vehicles that I use for work. I have earbuds I have other things. as soon as that new device is activated it switches to it. I don't want it to switch without asking for permission first. or I don't want it to switch it all if a device is actively being used. is there any way to fix this?  I'm using a Samsung S22 Plus now I'm looking to upgrade to an S26 Plus but I don't want to if this issue cannot be resolved. 
+
+thank you in advance for any help on this issue.",,title_and_body,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/bluetooth/comments/1sfqcqk/i_am_so_sick_of_bluetooth_automatically_switching/
+B10-026,rust,"Galen Hunt's update on Rust, AI, C, C++ job post purpose",,"[1:reply] Logical conclusion: Microsoft is getting rid of Windows
+[2:reply] &gt; Just to clarify... Windows is *NOT* being rewritten in Rust with AI. 
+
+&gt; My goal is to eliminate every line of C and C++ from Microsoft by 2030.
+
+Huh?
+[3:reply] Only logical conclusion: Windows is actually written in Visual Basic.
+[4:reply] &gt;Just to clarify... Windows is \*NOT\* being rewritten in Rust with AI.
+
+But that *is* what's actually being done. And using an LLM that isn't fit for programming tasks defeats the purpose of using Rust for safety. Was this article written—sorry: not written—by an AI?
+
+The so…
+[5:reply] I think it’s the difference between “my goal” and “Microsoft’s goal”.",title_plus_comments,yes,yes,other,medium,The post appears to discuss software without a clear troubleshooting or chiefly critical purpose.,,,,,,,https://reddit.com/r/rust/comments/1puijka/galen_hunts_update_on_rust_ai_c_c_job_post_purpose/
+B10-027,applehelp,"[SOLVED] iPhone stuck on recovery screen after failed Finder update — ""An unknown error occurred (68). 0697.0044"" — fixed for free without restoring or losing data","\*\*TL;DR:\*\* A failed Finder update left my iPhone 12 mini stuck on the recovery screen (cable + computer icon). The OS on the phone was actually fine — the failed update just left the phone flagged to boot into recovery. One free command (\`irecovery -n\`) rebooted it back to normal with all my data intact. No restore, no erase, no paid ""iOS repair"" tools.
+
+\## What happened
+
+\- Tried to update my iPhone 12 mini (iOS 26.5 → 26.5.2) through Finder on macOS.  
+\- Update failed with: \*\*""No se pudo actualizar tu iPhone. Ocurrió un error desconocido (68). 0697.0044""\*\* (in English: ""The iPhone could not be updated. An unknown error occurred (68)"").  
+\- After that, the phone would not boot — stuck on the recovery mode screen.  
+\- To make it worse, I had \*\*no backup\*\* (my last Finder backup attempt had silently failed and left an empty folder).
+
+Everything online tells you to ""Restore"" at this point, which \*\*erases the phone\*\*. Don't do that yet.
+
+\## The key insight
+
+Recovery mode ≠ broken OS. The iPhone's boot process checks an ""auto-boot"" flag in NVRAM. A failed update can leave that flag pointing at recovery mode \*\*even though the operating system on the phone is completely intact\*\*. If that's your case, you don't need to restore anything — you just need to flip the flag back and reboot.
+
+\## The fix (macOS, free, \~2 minutes)
+
+1. Install \[libirecovery\](https://github.com/libimobiledevice/libirecovery) (open source, part of the libimobiledevice project):  
+   \`\`\`  
+   brew install libirecovery  
+   \`\`\`  
+2. Connect the iPhone (still on the recovery screen) via USB and confirm the Mac sees it:  
+   \`\`\`  
+   irecovery -q  
+   \`\`\`  
+   You should see \`MODE: Recovery\` plus your device model.  
+3. Tell it to re-enable normal boot and restart:  
+   \`\`\`  
+   irecovery -n  
+   \`\`\`  
+4. The phone reboots. If the OS is intact (very likely after a \*failed update\*, since updates are atomic — they either fully apply or don't apply at all), it boots straight back to your old iOS version with \*\*all data intact\*\*.
+
+If it falls back to the recovery screen instead, then the system partition really is damaged — connect to Finder and choose \*\*Update\*\* (NOT Restore). Update reinstalls iOS \*on top of\* your data. Restore erases. Only use Restore/DFU as an absolute last resort.
+
+\## Back up IMMEDIATELY after it boots
+
+You just dodged a bullet — don't retry the update without a backup. You can use Finder, or the open-source route (writes a Finder-compatible backup to a folder you control):
+
+\`\`\`  
+brew install libimobiledevice  
+idevicebackup2 backup --full \~/iPhoneBackups  
+\`\`\`
+
+Verify it actually finished (my earlier Finder backup had failed silently — an empty folder):
+
+\`\`\`  
+plutil -extract SnapshotState raw \~/iPhoneBackups/&lt;your-device-UDID&gt;/Status.plist  
+\`\`\`
+
+It must say \`finished\`. If it says anything else (\`moving\`, etc.), just re-run the backup command — it resumes instead of starting over.
+
+\## Other things I learned the hard way
+
+\- \*\*Error 68 is almost certainly a USB communication problem.\*\* In my case the phone later dropped off the USB bus again mid-backup with a different error. Swap the cable (charge-only cables are a classic trap), use a different port, and prefer Apple-certified cables before blaming the phone.  
+\- \*\*Retry the update over-the-air instead\*\* (Settings → General → Software Update on the phone). It doesn't involve the Mac, the cable, or Finder at all.  
+\- \*\*You cannot install ""the previous iOS version.""\*\* Apple only signs the latest release (you can check what's currently signed for your model at ipsw.me). Once your phone boots, the version it's already running IS your previous working version — the failed update never got applied.  
+\- Recovery mode ""exit"" is the same thing paid ""iOS system repair"" apps charge for. \`irecovery -n\` is the free, open-source version.
+
+Hope this saves someone's data. Nothing here voids anything — libimobiledevice/libirecovery are the same open-source tools used by security researchers and repair shops for years.",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/applehelp/comments/1uvv9qd/solved_iphone_stuck_on_recovery_screen_after/
+B10-028,chrome,Chrome is down. Several websites are unreachable such as AI websites and almost every other including educational services and several social platforms like reddit. Only YouTube is accessible and X is accessible but acts like no internet. I guess it happened after the recent update.,https://preview.redd.it/sjih97wbr08h1.png?width=2406&amp;format=png&amp;auto=webp&amp;s=525bfddb65d9eaf5eee363e13eea63ecda3f397a,"[1:reply] homie Chrome is software... it doesn't go down...
+[2:reply] It's working for me. It could be an extension or conflicting extensions. Try an Incognito window.
+[3:reply] Lmao.
+[4:reply] Thank you for your submission to /r/Chrome! We hope you'll find the help you need. Once you've found a solution to your issue, please comment ""**!solved**"" under this comment to mark the post as solved. Thanks!
+
+
+*I am a bot, and this action was performed automatically. Please […
+[5:OP] I tried rebooting, reinstalling, disabling QUIC protoc., hard flushing, DNS cache. Non of them worked. No other browser has this problem and my google account is fine so I don’t know.",title_body_comments,yes,no,general_dissatisfaction,low,The post appears mainly critical without an active repair purpose; check for a concrete problem report.,,,,,,,https://reddit.com/r/chrome/comments/1u92qck/chrome_is_down_several_websites_are_unreachable/
+B10-029,applehelp,MacBook Air M3 (2024) camera not detected — works only at certain lid angles (flex cable issue?),"Hey everyone,
+I’m having a really weird issue with my MacBook Air M3 (2024) and wanted to check if anyone has seen something similar.
+
+Problem:
+Built-in camera is not detected at all
+In System Information → Camera → shows “No video capture devices were found”
+Apps like Photo Booth / FaceTime also don’t detect any camera
+
+But here’s the strange part:
+The camera works when the lid is opened less than ~60°
+As soon as I open the lid more (normal usage angle), the camera stops working completely
+The green camera LED flickers on/off repeatedly
+
+
+What I’ve already tried:
+Restarted multiple times
+Reset camera services via Terminal (VDCAssistant, etc.)
+Checked permissions (Camera access enabled)
+Updated macOS to latest version
+Checked logs
+
+
+Logs show:
+appleh13camerad repeatedly:
+powers ON camera
+fails
+shuts down
+retries in a loop
+
+
+Observations:
+Camera works at certain angles → fails at others
+LED still turns on → seems like power is reaching camera
+But macOS cannot detect any camera device
+
+
+My suspicion: This looks like a flex cable / ribbon cable issue near the hinge, where the connection breaks depending on the lid angle.
+
+
+Questions:
+Has anyone faced this exact issue on newer Apple Silicon Macs (M2/M3)?
+
+Is this definitely a flex cable problem, or could it still be software/firmware?
+
+Has anyone managed to fix this without replacing the entire display assembly?
+
+Any experience with third-party repairs for just the camera cable?
+
+I’ve taken really good care of the laptop (no drops, no rough usage), so this is pretty sad :(
+
+Any help or confirmation would be really appreciated 🙏
+
+PS: Formatted post with AI, Thanks alot guys",,title_and_body,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/applehelp/comments/1s679gg/macbook_air_m3_2024_camera_not_detected_works/
+B10-030,Bitcoin,true hahaha,,"[1:reply] So true
+[2:reply] So, I need for a for a class assignment...
+[3:reply] Winning ✌️✌️
+[4:reply] Truuuue 🤣🤣🤣🤣🤣
+[5:reply] Big Facts",title_plus_comments,no,no,na,medium,The saved text appears outside software scope or is too vague to classify reliably.,,,,,,,https://reddit.com/r/Bitcoin/comments/1p8znwx/true_hahaha/
+B10-031,Bitcoin,"Don't Trust, Verify 😁",,"[1:reply] That anxiety never goes away
+[2:reply] Verify everything. Always.
+[3:reply] I always, absolutely always check every symbol
+[4:OP] Never😂
+[5:OP] Always 💪",title_plus_comments,no,no,na,medium,The saved text appears outside software scope or is too vague to classify reliably.,,,,,,,https://reddit.com/r/Bitcoin/comments/1qpbh7a/dont_trust_verify/
+B10-032,immich,"Re-import ""SSL client certificate [Experimental]"" needed on iPhones after upgrade to v3","I upgraded to v3 few days ago and works great on my and my wife's Android Phone.  Yesterday, my daughter reached out and told me that her Immich broke on her iPhone.  After investigation, I reimported the mTLS cert and it fixed the problem for her.  I reached out to my 2nd daughter and her iPhone also experienced this issue.
+
+Previous v2 Immich upgrades didn't require a re-import.  Just want to mention this since I didn't see this posted elsewhere.  Hopefully this helps someone.",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/immich/comments/1ut2svo/reimport_ssl_client_certificate_experimental/
+B10-033,chrome,Being prompted for a capcha on my PC Chrome every time I start chrome with an incognito search.,"Hello! Kinda a weird situation but it's more a reactionary thing for me. When I start up chrome and want to google something I usually use incognito, just so that my search doesn't get cluttered up with needless questions and whatnot. Just today however when trying to open icognito to do the search I was met with a capcha request saying something was suspicious.
+
+This prompt only happens if I go from starting up chrome (On the new tab page) and opening incognito to search. If I look up ANYTHING else on my main browser (Even the google search I tried to do entering it in the search bar but not in incognito) I don't get this. It returns the moment I close my browser tabs and try to do the same thing though.
+
+I'm wondering if this is something anyone else has dealt with in the past, as, I have never had this issue prior to literally today. I've tried restarting my modem to see if maybe it was something weird with the connection there but nothing has changed in that regard.","[1:reply] Thank you for your submission to /r/Chrome! We hope you'll find the help you need. Once you've found a solution to your issue, please comment ""**!solved**"" under this comment to mark the post as solved. Thanks!
+
+
+*I am a bot, and this action was performed automatically. Please […
+[2:reply] It is weird you are getting that on your home internet, if you aren't using a vpn.  For some reason google thinks your IP address has become sketchy.  Could other people/devices on your home network be triggering it?
+
+You could always just switch search engines.  I have been usi…
+[3:OP] That's what makes me kinda uncertain. I'm not using a VPN and for some reason google is specifically thinking it's weird when I access it on incognito for the very first thing I do on my browser when I start it.
+
+I could switch search engines that is true but it still is somethi…
+[4:reply] Also started happening to me today",title_body_comments,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/chrome/comments/1nxeyty/being_prompted_for_a_capcha_on_my_pc_chrome_every/
+B10-034,Android,OnePlus 15 update enables 165Hz for these three apps - GSMArena.com news,,"[1:reply] * Instagram
+* WhatsApp 
+* X formerly known as Twitter
+[2:reply] Why can't they just enable it systemwide?
+[3:reply] Who tf needs 165Hz for WhatsApp?
+[4:reply] &gt; However, there is a catch. Aside from the fact that it's only available in those three apps, you also need to enable Developer Options to access this feature, since that's where it is buried.
+
+…
+
+&gt; Moreover, the way the feature is implemented is also odd. You don't get d…
+[5:reply] battery goes brrrr- besides 120Hz is plenty.",title_plus_comments,yes,yes,other,medium,The post appears to discuss software without a clear troubleshooting or chiefly critical purpose.,,,,,,,https://reddit.com/r/Android/comments/1pemyhm/oneplus_15_update_enables_165hz_for_these_three/
+B10-035,Ubuntu,ThinkPad L15 Gen 4 - Ubuntu 24.04 freezing + NTFS partition inaccessible after BIOS update (Dual Boot with Windows 11),"Hi everyone,
+
+I'm running Ubuntu 24.04 alongside Windows 11 (dual boot) on my ThinkPad L15 Gen 4 (21H3, purchased 2024). I'm facing some issues mainly related to Ubuntu and not sure if it's hardware or software:
+
+**Issue 1 - NTFS Partition inaccessible after BIOS update:** After updating BIOS to R24ET52W (1.35), my Windows NTFS partition (/dev/nvme0n1p8) became inaccessible from Ubuntu with error: ""wrong fs type, bad option, bad superblock""
+
+dmesg showed: ""volume is dirty and force flag is not set""
+
+Temporary fix: sudo ntfsfix /dev/nvme0n1p8
+
+But this keeps happening after every reboot. Is there a permanent fix?
+
+**Issue 2 - Ubuntu freezing after BIOS update:** Before the recent BIOS update, only Windows used to freeze occasionally. But after the update 2 days ago, Ubuntu has also started freezing during use.
+
+Also, when I restart from Windows directly into Ubuntu, the system gets stuck during boot. I have to fully shut down Windows first and then boot into Ubuntu for it to work properly.
+
+These issues seem to get worse after OS updates or BIOS updates. Is this a known issue with Ubuntu 24.04 on ThinkPad L15 Gen 4? Could it be a driver/kernel compatibility issue with the new BIOS?
+
+**Specs:**
+
+* Model: ThinkPad L15 Gen 4 (Type 21H3)
+* RAM: 32GB
+* Ubuntu version: 24.04 LTS
+* BIOS: R24ET52W (1.35)
+* Dual boot with Windows 11
+
+Still under warranty — any help or similar experiences appreciated!",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/Ubuntu/comments/1t23bk2/thinkpad_l15_gen_4_ubuntu_2404_freezing_ntfs/
+B10-036,linuxquestions,Anki suddenly started crashing on Linux,"I'm on Fedora Linux using the official Linux download. I've been using 25.09.2 for a while, and it's crashing now. It opens up with a black screen, though the options bar on the top still shows. Sometimes it crashes after a second or two on that black screen, sometimes I have to do something like click the ""about"" section to get it to crash. I tried running it through the terminal and using the `QT_DEBUG_PLUGINS=1 anki` option, and the only thing I see in the terminal after the crash is:
+
+    Starting main loop...
+    Qt debug: Compositor returned null texture  
+    Qt debug: Compositor returned null texture  
+    Floating point exception   (core dumped) anki
+
+Maybe a library required by Anki has updated on Fedora/Linux and won't work with Anki anymore? Or maybe I'm missing something else.
+
+Edit: I'm getting a crash warning on KDE from this file:
+
+    ~/.local/share/AnkiProgramFiles/python/cpython-3.13.5-linux-x86_64-gnu/bin/python3.13 has encountered a fatal error and was closed.",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/linuxquestions/comments/1sk2e8y/anki_suddenly_started_crashing_on_linux/
+B10-037,chrome,How to recover deleted chrome tabs,"I opened my chrome and found out that all of my 100+ tabs were suddenly gone even though I would never delete them. They were a bunch of different group tabs, and most of them have 60+ tabs in each group. I have accumulated all of them for the past years and I'm really upset rn that all of it was just gone even though I didn't touched anything with the settings or did anything at all. Is there a limit to how many tabs I can have and I already reached that limit so that's why all of them are just gone? Is there any way to recover all of them? Thank you in advance this really means a lot to me...","[1:reply] First, let's be clear on a concept: you don't delete tabs, you close them. Tabs are transient, and they are not intended to be kept long-term. They are not a permanent record of anything, but just a sub-window. Websites you need to keep long term are what bookmarks are for. Anyt…
+[2:reply] CTRL+SHIFT+T will reopen the last closed tab or window. Spam it a few times and pray.
+
+But yeah like the other guy said tabs and history are not intended to be a permanent collection like bookmarks are.
+[3:reply] Google should just put a limit on open tabs. Both number of open tabs, and duration they are open. Some people just need to learn the hard way that tabs are not permanent. How about, 25 open tabs, with each tab being open for no more than 30 days. When either of those criteria a…",title_body_comments,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/chrome/comments/1ntlsfy/how_to_recover_deleted_chrome_tabs/
+B10-038,comfyui,"ComfyUI 0.3.63: Subgraph Publishing, Selection Toolbox Redesign","Hi Community! We’re excited to announce two new updates in ComfyUI 0.3.63:
+
+* Subgraph publish
+* Selection toolbox redesign.
+
+These two features are here to streamline your work with ComfyUI and offer you a more seamless experience. Let’s take a closer look!
+
+# Subgraph Publishing
+
+Previously, we didn’t support publishing or saving a subgraph to make it more reusable. But now, this feature is available!
+
+[Subgraph Publishing](https://reddit.com/link/1o0hdym/video/z27dmwlrfptf1/player)
+
+The Subgraph Publish feature enables you to save your subgraph to the node library. There are two ways to publish your subgraph:
+
+1. Use the publish icon on the Selection Toolbox
+2. Use the new Selection Toolbox menu to publish it.
+
+[Selection Toolbox Menu](https://preview.redd.it/fz38571ufptf1.png?width=1286&amp;format=png&amp;auto=webp&amp;s=9200228915a365ebced3c60174461b64456ad40e)
+
+After publishing, you can find it under “Node Library” → “Subgraph Blueprints”. Then you can use it just like a regular node.
+
+[Subgraph Blueprints in Node Library](https://preview.redd.it/j6mkpi7wfptf1.png?width=2003&amp;format=png&amp;auto=webp&amp;s=fefe542c6af10bf5ee1063eb8bcc96a42b541032)
+
+And when you want to make changes to it, you can edit it like a normal subgraph and then update it.
+
+[Edit Subgraph](https://preview.redd.it/pu1zz48yfptf1.png?width=2000&amp;format=png&amp;auto=webp&amp;s=c8d1ea43cff9a2d86c316bbef861e2103d2e31d3)
+
+This makes subgraphs far more flexible and useful.
+
+For more details about subgraph, please check our [docs](https://docs.comfy.org/interface/features/subgraph#subgraph-blueprint)
+
+# Selection Toolbox Redesign
+
+The selection toolbox has been redesigned. We used new icons to make it easier to identify. We also added an expandable menu—this opens up more possibilities for future feature extensions.
+
+[Selection Toolbox Redesign](https://preview.redd.it/bnnhchh0gptf1.png?width=3336&amp;format=png&amp;auto=webp&amp;s=133979a39e9b6732d7fbb062028e961a5afb8b70)
+
+In future Selection Toolbox updates, we might support customizing the features of the Selection Toolbox. So, stay tuned!
+
+[Future - Customizable Selection Box](https://preview.redd.it/zh7tn7u1gptf1.png?width=2162&amp;format=png&amp;auto=webp&amp;s=8ac4d253e4104dcc723ab24ba1fce90d1cafc1d6)
+
+As always, enjoy creating!
+
+# More info
+
+[Blog Post](https://blog.comfy.org/p/comfyui-0363-subgraph-publishing)   
+[Docs: Subgraph](https://docs.comfy.org/interface/features/subgraph#subgraph-blueprint)","[1:reply] Question about subgraphs. 
+
+Can you clone them and therefore save space in the json file as it’s just a clone and not another standalone group of nodes?
+[2:reply] selection toolbox became big! it's like right-click menu!
+[3:reply] Somehow the new Update deleted my Exe file and i cant start my Comfyui anymore, thanks for that i guess",title_body_comments,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/comfyui/comments/1o0hdym/comfyui_0363_subgraph_publishing_selection/
+B10-039,Ubuntu,from fedora back to Ubuntu,"I was very excited to get my 'new' T14s Ryzen 5 16gb laptop. So keen to get Fedora installed and it felt so mega swift. Looked clean, tidy, snappy.
+
+However, after the main updates, the issues occurred.
+
+VLC media player refused to play the headphones continuously, only in an initial burst then gone, silent.
+
+Dragon media player would play but then crashed, the whole system.
+
+Next, no boot - latest kernel had gone bad. So revert to the one before. That then went bad also.
+
+Revert to the one remaining and give up.
+
+So, Ubuntu 24.04 and after the bizarre issue upon first run (maybe Wayland), where icon buttons to click registered the click (changed colour slightly) but they wouldnt go anywhere. Not all on a page, just one or two when the other clickable parts worked fine...so try xorg and then seemingly plane sailing.
+
+Now with my usual apps installed obsidian, vlc, writer, chrome...and some basic aesthetic changes, maybe, just maybe, I have the stable and fast and pleasant looking linux setup I was after.
+
+Also will mention for those who do not know and experience similar issues - on both my L390 and this T14S, when using an aftermarket power charger, of the right wattage, it causes the touchpad cursor to become laggy, a bit drunken swaying, heavy. If you experience the same issue, ponder it could be the charger. As in my case using the proper Lenovo charger solved the issue.",,title_and_body,yes,yes,other,low,The post appears to discuss software without a clear troubleshooting or chiefly critical purpose.,,,,,,,https://reddit.com/r/Ubuntu/comments/1u5a4oi/from_fedora_back_to_ubuntu/
+B10-040,comfyui,Latest Update Slows Down Processing?,"Ran the basic Wan 2.2 I2V flow and what took 2-3 mins yesterday now takes 20 mins post update.
+
+I believe the update broke something. The quality of the generations seem the same pre vs post update.",,title_and_body,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/comfyui/comments/1oj11dz/latest_update_slows_down_processing/
+B10-041,firefox,Once again Firefox has screwed things up,I just updated Firefox and doing so logged me out of EVERY website. Now I've been spending hours trying to log back into those websites and am experiencing nothing but problems. Does ANYONE know how to log back into Tiktok using your Google account with Firefox??? All I'm getting is a spinning icon on the button. I am so sick of this browser. Nothing but heartaches. Windows 10 desktop.,,title_and_body,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/firefox/comments/1unk0nc/once_again_firefox_has_screwed_things_up/
+B10-042,Ubuntu,"After today's update to 24.04 LTS, thumbnails no longer being created","I've done all the recommended remedies (deleting thumbnails in .cache etc.), the thumbnails are still not being created.  Anybody else having the same problem?",,title_and_body,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/Ubuntu/comments/1sij087/after_todays_update_to_2404_lts_thumbnails_no/
+B10-043,Bitcoin,My turn!,,"[1:OP] Thanks for your sacrifice.
+[2:reply] Solded some this morning...that's why it pumped!
+[3:reply] Confused which way to rotate my phone.
+[4:reply] Next stop: 100–105
+[5:reply] Sodl",title_plus_comments,no,no,na,medium,The saved text appears outside software scope or is too vague to classify reliably.,,,,,,,https://reddit.com/r/Bitcoin/comments/1p0gc65/my_turn/
+B10-044,PLC,Another fun day for updates,"We now have three computers in the office that received a Windows update as of today.  All three can now not go online with an Allen Bradley Controllogix PLC, even when uploading to a new file.  Get an error saying ""Can't communicate with Linx"".  We have called Rockwell, they are looking into it.  Be warned before it's too late!  I will try to update this thread later.
+
+Update - this was firmware related, just a coincidence on the windows update.  Thank goodness.
+
+(Maybe) Final Update - I reset the Controller (cleared the program with the little button), downloaded a new program and it seems to be fine.  I think it's the actual program I had that was causing the issue.  Lots of AOI's (hate them for the most part) and other junk.  I had just never seen this particular error, although I have seen corrupt programs cause all kinds of issues.  Rebuilding from an L5K did not fix it either.  Can't blame Microsoft for this one.","[1:reply] Programming software should be on a VM so you can roll it back to a previous snapshot if things go wrong.
+[2:OP] If only my company agreed.
+[3:OP] Possibly related to a single PLC....never seen it before and it happened right after a windows update on a processor I was talking to just fin before hand.  Doing some more research, hopefully an unnecessary panic.
+[4:reply] Me, programming on my windows 10 vm....
+[5:OP] I am the IT dept.  I always let windows update out of fear of the libyans (or Russians or Koreans or chatbots).",title_body_comments,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/PLC/comments/1vmplb0/another_fun_day_for_updates/
+B10-045,applehelp,Is this common?,"I was with a friend yesterday and their phone had the same message on there phone , you couldn’t do anything nor shut it off but Siri can still do some commands , now today my sisters phone has the same message , is this a new kind of bug of the recent update or?","[1:reply] This bug does seem to be reasonably common, yes.
+
+You can fix it by [force restarting your phone](https://support.apple.com/guide/iphone/force-restart-iphone-iph8903c3ee6/ios).
+[2:reply] I think it happens when there’s two things on the screen that are trying to force input focus at the same time. In this case, an app asking for permission over a passcode input. When you say “recent update” do you mean beta? Because there’s a reason why it’s not recommended for…",title_body_comments,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/applehelp/comments/1u9m9n2/is_this_common/
+B10-046,Ubiquiti,U6LR - connectivity issues,"Hello, I've been using a UDM with a US 16 PoE 150W switch, which in turn has a U6LR, a U6 IW and a U7 pro wall connected to it for a few years - worked well. about 75 devices (wired + wireless)
+
+Channel width 20Mhz (for 2.4Ghz) and 80Mhz (for 5Ghz) - unchanged since I set this up a few years ago.
+
+A few months ago, the unifi app (and the UI portal) would not load, till I restarted the UDM. It would work well for a few days or so, and then, same problem again. The network itself was stable and fully functional, but I just couldn't get the interface to load.
+
+UI support said UDM is overloaded - get a UDM pro max. I got one a week ago, swapped out the UDM. All works well (so far). 
+
+About 3 days ago, shortly after a unifi update, my U6LR dropped off the network and I couldn't adopt it  (adoption failed). Did a factory reset and readopted it - it dropped again. Couldn't readopt it. Did another factory reset and readopted it. It stayed connected.
+
+But now, about half of the devices on U6LR show really poor connection negative 70dBm or worse. And these are devices that are directly below the U6 (which is ceiling mounted on a vaulted ceiling). If I lock those devices to the U6-IW, it works fine (despite being further away), but a few minutes after I move it back to U6, device goes offline.
+
+I borrowed a new U6LR from a friend (he was setting up his network) and replaced my U6LR - but same issue persists (which says that the problem is not with the device. I ran a new Ethernet cable to the U6 - same issue. Changed Transmit power to high from auto - same issue 
+
+I'm assuming now that this is a software issue (all devices have always been on official releases only).
+
+Any guidance on how to resolve? I have a ticket open with UI - but they take a while to respond.",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/Ubiquiti/comments/1s0m2lt/u6lr_connectivity_issues/
+B10-047,tailwindcss,Upgrade v3 to v4,"I recently upgraded my projects tailwind from v3 to v4, and while most of it is great, I have run into a problem that I can't solve in a satisfactory way.
+
+In v3 I could directional utilities, like border-l-color, or rounded-t-xs, etc, but after upgrading I can no longer do that. Padding and margin directional utilities still work, but none of the other utilities like those me mentioned above work anymore.
+
+What is the proper fix for this? AI has given me many a solutions that don't really work, or are ideal",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/tailwindcss/comments/1pe2gqy/upgrade_v3_to_v4/
+B10-048,Wordpress,Forced WP 7.0 update?,"My production site just auto-updated to 7.0 despite having auto-updates turned off in wp-config. After update to 7.0, my wp-config rule was gone. Thankfully everything seems to be working fine, but wtf? Why the update was forced? Did anyone's else WP update itself despite being explicitly told not to?","[1:reply] What host are you using? It’s possible there’s auto updates through your host.
+[2:reply] I updated manually today. Probably if you had an older version with a security issue, it could auto-update. I had the latest 6.9.4 before
+[3:reply] I don't think Wordpress ever updates or writes wp-config.php. It might be a mistake on your part.
+[4:reply] Also happened to all of my sites when I had Do not Update Core set.. had never happened with any other version in the past 2 years.
+[5:reply] same",title_body_comments,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/Wordpress/comments/1tjcut9/forced_wp_70_update/
+B10-049,linux,dwipe: Making `dd if=/dev/zero of=/dev/ohno` less risky updated,,"[1:reply] Oi this is really cool!
+Thanks!
+[2:reply] you realy want to use sata secure erase instead. this type of tool does not erase all the data (e.g. bad blocks, spares).
+
+see the hdparm (or nvme-cli) utility and sata/nvme secure erase.
+[3:OP] After quadruple checking raw device operations too many times, I built `dwipe` – a TUI disk wiping tool that aims to make secure erasure safer and more informative.
+
+I think `dd` is scarier than `rm -rf regret/`. `dwipe` shows you labels, sizes, vendor info, and mount status **b…
+[4:reply] Does it support crypto wipe for NVME devices?
+[5:OP] Excellent question. Currently, dwipe v2 focuses on high-performance logical overwriting (software-level wipe).
+
+Crypto Wipe (using the NVMe Sanitize or Format commands) is the #1 priority for the v3 roadmap. The goal is to detect if the drive is on a native NVMe bus and offer a…",title_plus_comments,yes,yes,other,medium,The post appears to discuss software without a clear troubleshooting or chiefly critical purpose.,,,,,,,https://reddit.com/r/linux/comments/1q2scgj/dwipe_making_dd_ifdevzero_ofdevohno_less_risky/
+B10-050,Bitcoin,We have no idea how bad things have really gotten.,,"[1:reply] That doesn't even account for shrinkflation.
+[2:reply] 6.2 BMs per hour sounds like a medical problem. You should get that checked out.
+[3:reply] And not only this but since ingredient quality is worse these days, I am fr taking roughly .91 BMs per hour after some micky ds.
+[4:reply] A Big Mac cost $1.60 in 1980.
+[5:reply] Takes like 1 minute to google price before and after bulk of forced minimum wage increases and see that it has nothing to do with that.  Stop being so dumb",title_plus_comments,no,no,na,medium,The saved text appears outside software scope or is too vague to classify reliably.,,,,,,,https://reddit.com/r/Bitcoin/comments/1pebeih/we_have_no_idea_how_bad_things_have_really_gotten/
+B10-051,comfyui,Please teach me the latest way to handle danbooru wards.,"The following nodes are installed via the Custom Node Manager and are each up to date.
+
+* ComfyUI-Manager
+* ComfyUI-Custom-Scripts
+* ComfyUI Impact Pack
+* ComfyUI-Danbooru-Gallery
+
+ComfyUI on the Stability Matrix is also up to date.
+
+
+
+However, names for series characters like those from the gakuen\_idolmaster series or the zenless\_zone\_zero series are not suggested and are not functioning properly.
+
+
+
+I understand this is due to the index being stuck on an older version.
+
+How can I update it to the latest version?",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/comfyui/comments/1pa91h0/please_teach_me_the_latest_way_to_handle_danbooru/
+B10-052,transformers,Micronus isn't so small anymore,,"[1:reply] Macronus
+[2:reply] [why do I hear boss music](https://youtu.be/NBS9zKB-KkI?si=5CURHyp8zq6h2tG7)
+[3:reply] Just aim at the waist!
+[4:reply] ARISE MACRONUS PRIME
+[5:reply] Beautiful",title_plus_comments,no,no,na,medium,The saved text appears outside software scope or is too vague to classify reliably.,,,,,,,https://reddit.com/r/transformers/comments/1p52prs/micronus_isnt_so_small_anymore/
+B10-053,transformers,Important updates from jtprime17,,"[1:reply] already got mine and he's one of the very best in my collection
+
+great more people can enjoy him
+[2:reply] YES I'M SO GLAD I WAITED AND DIDN'T SPEND LIKE £200
+[3:reply] They had better! Armada Jetfire is my most anticipated fig of the year.
+[4:reply] I am absolutely not missing this opportunity again. So much regret
+[5:reply] For the UK peeps InDemand Toys and Star Action Figures already have the pre-orders up. Star Action is cheaper so would recommend getting it from them",title_plus_comments,no,no,na,medium,The saved text appears outside software scope or is too vague to classify reliably.,,,,,,,https://reddit.com/r/transformers/comments/1rkt8hn/important_updates_from_jtprime17/
+B10-054,apache,htaccess question regarding folder tree,"Here's my issue.
+
+My backup folder structure is as follows:
+
+/sites
+
+/sites/site1
+
+/sites/site2
+
+  
+and my operating folder (in a ramdrive) is as follows:
+
+/ram
+
+/ram/site1
+
+/ram/site2
+
+  
+Each of the 2 sites (in site1 and site2) has its own .htaccess file. In the parent folder there is a php script when executed will copy all the contents (including subfolders) from /sites to /ram.
+
+I have subdomains mapped to each of the folders starting with /ram above. lets say /ram has the domain run.example.com. /ram/site1 has the domain site1.example.com and /ram/site2 has the domain site2.example.com. Then I access run.example.com/thescript.php from a browser to copy everything over after updating website files.
+
+Everything is working fine except I need to boost speed since the server processor is considered obsolete (1Ghz).
+
+Since I don't have an .htaccess file in the /ram folder, hackers could do a bunch of guessing and get standard 404 errors while the system searches for actual files the hackers type in. So I thought about .htaccess but online sources state that .htaccess placed there would affect the .htaccess settings in site1 and site2.
+
+If I made an .htaccess in /ram folder that only allows access to that one script and redirects everything else in that folder to a 410 error page then I'm afraid every access attempt on site1.example.com, and on site2.example.com will result in a 410 error page.
+
+Is there an easy way to fix this without redoing the folder structure? because the script expects the folders to be in tact.","[1:reply] Hi, so basically you need to restrict the levels to the top levels.
+
+```
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^&lt;a.sample_domain.com&gt;$ [NC]
+RewriteCond %{REQUEST_URI} !^/&lt;yourscript&gt;.php$
+RewriteRule .* - [G]
+```
+
+THis basically works as follows:
+
+a. Only runs wh…
+[2:reply] Side note: Yoz mention that you care about performance due to old processor: So you might check, if you could not include the .htacess files configuration into your main server httpd configuration. When “AllowOverride None” is used this will stop a lot of file system access and…",title_body_comments,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/apache/comments/1ws2wn1/htaccess_question_regarding_folder_tree/
+B10-055,linuxquestions,how can i revert mesa from kisak? resolve generated breaks,"okay so im on pop, and a while ago i installed mesa via the kisak ppa ( [https://launchpad.net/\~kisak/+archive/ubuntu/kisak-mesa](https://launchpad.net/~kisak/+archive/ubuntu/kisak-mesa) ) and the recent update pushed it 26.0.x
+
+problem  is this mesa version has a bug that makes vr games scrambled and unplayable.
+
+so i went to revert by downgrading to the older version.
+
+trying to use ppa-purge to switch off generates errors about held packages and refuses to uninstall the current version of the drivers.
+
+trying to manually downgrade with
+
+`sudo apt install libgbm1=25.2.8-0ubuntu0.24.04.1`
+
+generates this error
+
+    The following packages have unmet dependencies:
+     libgbm1 : Depends: mesa-libgallium (= 25.2.8-0ubuntu0.24.04.1) but 26.0.3~kisak1~n is to be installed
+     libqt5svg5 : Depends: libqt5gui5t64 (&gt;= 5.15.13+dfsg~) but it is not going to be installed or
+                           libqt5gui5-gles (&gt;= 5.15.13+dfsg~) but it is not going to be installed
+     libqt5waylandclient5 : Depends: libqt5gui5t64 (&gt;= 5.15.13+dfsg~) but it is not going to be installed or
+                                     libqt5gui5-gles (&gt;= 5.15.13+dfsg~) but it is not going to be installed
+     libqt5widgets5t64 : Depends: libqt5gui5t64 (&gt;= 5.15.1) but it is not going to be installed or
+                                  libqt5gui5-gles (&gt;= 5.15.1) but it is not going to be installed
+     pop-desktop : PreDepends: pop-de-cosmic but it is not going to be installed
+                   Depends: libegl-mesa0 but it is not going to be installed
+                   Recommends: gstreamer1.0-plugins-bad but it is not going to be installed
+                   Recommends: gstreamer1.0-vaapi but it is not going to be installed
+     pop-server : Depends: libvdpau-va-gl1 but it is not going to be installed
+     qt5-gtk-platformtheme : Depends: libqt5gui5t64 (&gt;= 5.14.1) but it is not going to be installed or
+                                      libqt5gui5-gles (&gt;= 5.14.1) but it is not going to be installed
+     qt5ct : Depends: libqt5gui5t64 (&gt;= 5.10.0) but it is not going to be installed or
+                      libqt5gui5-gles (&gt;= 5.10.0) but it is not going to be installed
+    E: Error, pkgProblemResolver::Resolve generated breaks, this may be caused by held packages.
+
+however there are no held packages.
+
+no matter what ive tried it wont let me downgrade or uninstall the kisak package to a different version.",,title_and_body,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/linuxquestions/comments/1s9cq6x/how_can_i_revert_mesa_from_kisak_resolve/
+B10-056,linux,Mesa 26.0 Brings Ray Tracing Updates for AMD Radeon on Linux,,"[1:reply] Wonderful news love to see valve contributing to linux
+[2:reply] Again a copied article from phoronix....
+[3:reply] Nvidia laptop users cries over yet another driver update gone wrong",title_plus_comments,yes,yes,other,medium,The post appears to discuss software without a clear troubleshooting or chiefly critical purpose.,,,,,,,https://reddit.com/r/linux/comments/1r2ja6e/mesa_260_brings_ray_tracing_updates_for_amd/
+B10-057,linux,Ladybird browser update (September 2025),,"[1:reply] It's incredible how until a few hours ago Ladybird was the only hope for new browsers and engines and today, by reading the comments here, it seems like a big meh.
+[2:reply] Isn't this the browser where the devs were screaming about culture war bullshit in their Github issues and insulting people?
+[3:reply] Its also the browser that specifically has its founder stating performance is a non-goal. That maintenance ease and standard compliance are the goals and that hes happy to see it taking a niche by being used by actual web standards desginers testing ideas in ladybird first befor…
+[4:reply] Writing a browser from scratch is a huge job, even more so with the world being not much tied to web standards but essentially what Chrome does, where Google could move the goal posts at any moment. Today all users want more compatibility and many of them less annoyances, theref…
+[5:reply] Software update and then 95% of comments are discussing some drama, lol.",title_plus_comments,yes,yes,other,medium,The post appears to discuss software without a clear troubleshooting or chiefly critical purpose.,,,,,,,https://reddit.com/r/linux/comments/1nwjxmb/ladybird_browser_update_september_2025/
+B10-058,Wordpress,Elementor layout breaks out of the blue?,,"[1:reply] It's your cache, not Elementor's, caching pages without their styles. If you switch the CSS to load internally, you prevent your cache from preloading the pages without their styles.
+[2:reply] Try switching the CSS Print Method to Internal Embedding in the Elementor Settings &gt; Performance page. It's very likely your cache is preloading pages without styles. This will prevent it from happening. Since you're using cache already, the tradeoff of loading CSS embedded w…
+[3:reply] Since clearing Elementor cache fixes it, it’s probably a caching or plugin conflict. Try turning off LiteSpeed Cache and WP Meteor one at a time to see if that helps. Also, make sure Elementor and your plugins are updated. Stick to one caching plugin to avoid issues.
+[4:reply] I have experienced this too. Not 100% sure why, but even content edits led to broken layout and inconsistencies across browsers. It happens less now, but I make a habbit to flush cache of pages i edit. Im also using Valkey object cache in addition to cloudflare cdn. 
+
+I still su…
+[5:OP] I also flush caches after editing. But the issue is happening without any dev work. Website works fine after edits, but breaks 3 days later.",title_plus_comments,yes,no,general_dissatisfaction,low,The post appears mainly critical without an active repair purpose; check for a concrete problem report.,,,,,,,https://reddit.com/r/Wordpress/comments/1nnp9dj/elementor_layout_breaks_out_of_the_blue/
+B10-059,Android,Nothing OS 4.0's latest beta update adds optional lock screen ads,,"[1:reply] Why the hell would you have ads?  Making it optional means everyone will switch it off but it offers a scarey future.  I'm currently looking at a new phone and, potentially, an Android phone but Nothing are now out of the running because of this.
+[2:reply] Optional for how long.
+
+I think it's quite obvious where this companies heading, there have been ads on their older phones as well telling people they can upgrade to the Phone 3 (harmless if it's a once off but are they going to do this a lot),
+[3:reply] I only know one person with a Nothing phone: my mother in law. She would have no idea how to turn ads off. She'd just live with / look at them.
+[4:reply] Nothing Fanboys had this coming, this is the result when you keep defending shitty practices and refuse to accept and support valid criticism.
+
+EDIT:
+
+[https://www.reddit.com/r/NOTHING/comments/1oewk03/nothing\_os\_is\_bloated\_with\_ads\_now/](https://www.reddit.com/r/NOTHING/c…
+[5:reply] It's known that Carl Pei initiated the degradation of Oxygen OS and then just left the company to create a company and marketing the new one as the old OnePlus stock android experience. 
+
+Do not trust him",title_plus_comments,yes,yes,other,medium,The post appears to discuss software without a clear troubleshooting or chiefly critical purpose.,,,,,,,https://reddit.com/r/Android/comments/1of2cda/nothing_os_40s_latest_beta_update_adds_optional/
+B10-060,tailwindcss,Did something break with the most recent Daisy UI?,"so I just made a completely fresh next js app, its got the latest versions of tailwind, daisy ui, and scss. thats it.
+
+the homepage is a blank page, and I got rid of all the stuff that nextjs has on the default install. 
+
+I go to make a button, and even though the theme is supposed to have rounded corners, they are shark 90s with an inset border. what on earth did I do wrong??
+
+this is literally all im doing btw
+
+https://preview.redd.it/dzxnwpqezbtf1.png?width=678&amp;format=png&amp;auto=webp&amp;s=dc5c180882b72ca7b49ec7f2c0286c50d7f806ae","[1:reply] This is wrong for tailwind 4
+[2:reply] Those `@tailwind` rules are old syntax of Tailwind CSS 3.  
+Install Tailwind CSS 4 and use this:
+```
+@import ""tailwindcss"";
+@plugin ""daisyui"";
+```
+[3:OP] When I had just those it also did that. I have the most recent version and it's still doing that
+[4:reply] Use the theme builder thingy, they made it look kind of shitty by default with the latest version.
+[5:reply] bro don't use daisy ui.. use either mantine or material ui.",title_body_comments,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/tailwindcss/comments/1nyuw70/did_something_break_with_the_most_recent_daisy_ui/
+B10-061,immich,Immich_Server in Container Manager Stopped Unexpectedly constantly after updating to V2.0.0,,"[1:reply] And the logs say???????
+[2:reply] Had the same issue. I bet you upgraded from 1.3xx or something directly to 2.0.0 ? You have to update from version to version. I could leave some out, but the gap can‘t be too high
+[3:OP] Thank you.  At this point, I don't recall what version I was on and upgraded from.  Any way to find that out? Thanks for your insight.
+[4:OP] I have logs saved but am not educated enough on Immich to understand what I'm looking at.  I can upload here.
+[5:reply] And the solution is...?",title_plus_comments,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/immich/comments/1o16z1v/immich_server_in_container_manager_stopped/
+B10-062,google,Bro I didn’t search this 😭🙏,,"[1:reply] Are you signed into Google on someone else's device? Maybe a laptop or PC at a friend's or the library.
+[2:reply] This was my thought as well.
+[3:reply] Could it be Google Lens? I'm see also in Google search results.
+[4:reply] Was it your little Valentine's Day party, perchance?
+[5:OP] No! Nobody else knows my password and I didn’t sign into anyone else’s device",title_plus_comments,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/google/comments/1s11al2/bro_i_didnt_search_this/
+B10-063,transformers,I didn't have his axe so I made my own,,"[1:reply] Constructbot Weapons my beloved
+[2:reply] I have those too!
+[3:reply] Never realized Construct-bots had great accessories that could be interchangeably used for other figures like this. Is it possible to fit the Iguanus piece without the SS Knight Optimus holster, or is the arm too thick on both ends?
+[4:reply] Thats freaking sick
+[5:reply] The Construct Bots axe looks good, I usually have mine with the 2010 WFC Optimus Prime",title_plus_comments,no,no,na,medium,The saved text appears outside software scope or is too vague to classify reliably.,,,,,,,https://reddit.com/r/transformers/comments/1s20gwn/i_didnt_have_his_axe_so_i_made_my_own/
+B10-064,immich,All Videos are distorted and broken in Android App 2.2.3,"All my videos are now distorted into a 1:1 format, with the Thumbnail in the correct format behind it. It's when viewing them in the Android App. Everything works fine in the browser, both mobile and desktop.  
+I think it started when upgrading to 2.2.3
+
+Is this a known problem? I didn't find a issue for this on Github
+
+EDIT:
+
+Looks like it's not all Videos but mainly videos captured with an DJI Osmo pocket 3",,title_and_body,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/immich/comments/1oqprtj/all_videos_are_distorted_and_broken_in_android/
+B10-065,linux,Papyrus black screen issue — fixed,"I found the actual cause of the black screen issue.
+
+It turns out Papyrus was installing an \*\*older version of mpvpaper\*\*, and that old version was causing the black screen. I updated Papyrus to install the latest version of mpvpaper, and after updating, the wallpaper works normally again.
+
+So if you've been affected by the black screen, \*\*please try downloading the new version of Papyrus first.\*\*
+
+If it still shows a black screen, please:
+
+1. Delete \`mpvpaper\` from your PC.
+2. Delete Papyrus (see the [README](https://github.com/PSGtatitos/papyrus/blob/main/README.md) for instructions on how to properly remove it).
+3. Reinstall Papyrus using your preferred installation method.
+
+Papyrus will then try to install the \*\*latest version of mpvpaper\*\*, which should hopefully fix the black screen.
+
+Sorry for the confusion from my previous update — I initially thought the issue was with mpvpaper itself, but the actual problem was that Papyrus was installing an outdated version.
+
+Thanks to everyone who reported the issue and helped with testing!","[1:reply] did you really need a machine to write this for you
+[2:OP] Yeah I did use AI to write this post because it was late at night and i was trying not to fall asleep",title_body_comments,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/linux/comments/1wseoh0/papyrus_black_screen_issue_fixed/
+B10-066,chrome,"Chrome issues after recent update, was wondering if anyone was experience same thing","Hi Reddit, Have been experiencing issues since I download the recent update of Chrome a couple of days ago...
+
+Can load like one tab easy but if I add one more it starts to freeze out... Think it might be because they added Gemini to the tab (which honestly I don't understand why you need in the first place... Was just wondering if anyone is experiencing the same issues",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/chrome/comments/1rkf7vx/chrome_issues_after_recent_update_was_wondering/
+B10-067,django,Django hard to do real time.,"I love django but i hate when it comes to real time updates and chat apps, it just sucks, the whole setup feels messy and confusing, its so easy in ruby on rails and even laravel now with new updates, Django should also make it easy apply
+
+I know i can use node js or go as separate for only websockets but what do so you use ?","[1:reply] silly ai generated rage bait
+[2:reply] Django Channels is what you want
+[3:reply] SSE is pretty easy to implement.  Channels and websockets work too but have more quicks in terms of session management.
+[4:reply] I’m a complete idi0t and channels work fine?",title_body_comments,yes,yes,other,low,The post appears to discuss software without a clear troubleshooting or chiefly critical purpose.,,,,,,,https://reddit.com/r/django/comments/1nx7k8k/django_hard_to_do_real_time/
+B10-068,firefox,How do I get rid of the new update top bar look,"I do not like the new top bar circular look and the new theme style, How do I get rid of it and go back to old rectangular top bar style.","[1:reply] I'm also curious, personally I hate rounded corners like this, I like them sharp or at minimum mostly sharp.
+[2:reply] Go to about:config  
+search for nova  
+and set it to false
+[3:reply] \&gt;Asks a reasonable question about an update you subjectively dislike
+
+\&gt;0 Upvotes
+
+Yep, this is still the Firefox Sub alright.
+[4:reply] The bright borders are what ruin it for me
+[5:reply] &gt; Some people just hate change, huh?
+
+I knew there would be accusations. BUT, some of us are complaining about rounded corners and density and other stuff for many, MANY years.",title_body_comments,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/firefox/comments/1wtht0y/how_do_i_get_rid_of_the_new_update_top_bar_look/
+B10-069,firefox,YouTube dropping frames at high resolution content on MacOS 27 Golden Gate,"https://preview.redd.it/v5xpiho7hn9h1.png?width=960&amp;format=png&amp;auto=webp&amp;s=353c541df325840c4276a259b5fdab6ee2f3fcef
+
+I've been watching YouTube at 2160p@60 without issues on Chromium-based browsers. I have not had any major frame-dropping problems even at 2x speed. I've only moved to Firefox since updating to MacOS golden date so I can't say if this issue is present on Tahoe or previous versions. There are two types of frame dropping that I've been experiencing, one that happens with even 1080p 30fps content where the video plays smooth for the most part, then suddenly freezes on one specific frame indefinitely while the audio keeps playing normally (often requiring me pause and unpause the video to get unstuck, but sometimes getting unstuck on its own after a few seconds). The other is while watching 60fps or high resolution content at more than 1x speeds, where the videos are constantly dropping frames as opposed to getting stuck on just freezing (again I have 0 trouble doing that with chromium based browsers using the same codecs). I don't know if this is a long-time Firefox problem or just something about Golden Gate, but I'd seen a post on here from 10 months ago complaining about something similar with Tahoe, and I'm not sure whether that issue had been resolved since. I've tried both AV1 and VP09 - no difference - as well as every possible variant of turning off or on this or that hardware acceleration option.  This is on an M1 Pro Macbook. The strangest part is that for those same 4k60fps videos, I can play them perfectly smoothly at 2x speed on Firefox if the video is in HDR. Watching the same video in non-HDR brings back all the same problems.
+
+Edit: I've also tried Firefox nightly, Firefox on a fresh install with no extensions or modified settings, and Zen. All had the same problem.",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/firefox/comments/1ugbd2o/youtube_dropping_frames_at_high_resolution/
+B10-070,transformers,"Have you ever had some figures or a set of figures that you want to see re-released with some updates? (New materials, paint schemes, etc)",,"[1:reply] I could live with the current Snapdragon but Apeface absolutely needs a redo without that godawful pearlescent plastic and battle damage.
+[2:reply] I'd like to see a retro reissue of the horrorcons, especially Apeface without the battle damage.
+
+Other than that, maybe Mirage with the ability to mount his shoulder cannon?
+[3:reply] I have been desperate for Apeface to get a rerelease with normal plastic to match Snapdragon. But I fear he has to be made of that horrible milky clear (maybe nylon?) because so much of his transformation is just flexing plastic. I love the design, but it’s badly let down by jus…
+[4:reply] A lot of the thrilling 30 designs - springer, windblade, road buster, whirl, etc would be great with some minor improvements in posability and better QC. Just like they did with the ss86 arcee. That pretty much fixed the majority of the issues with the original
+[5:reply] def apeface without the paint and better plastic",title_plus_comments,no,no,na,medium,The saved text appears outside software scope or is too vague to classify reliably.,,,,,,,https://reddit.com/r/transformers/comments/1owmz9e/have_you_ever_had_some_figures_or_a_set_of/
+B10-071,Bitcoin,"Times fly, 15 years ago",,"[1:reply] The last time Satoshi was active, Bitcoin was still just a technical curiosity. Now it's outrunning governments.
+[2:reply] Would be sick if ""he"" came online tomorrow celebrating 15 years.
+[3:reply] &gt; Times fly
+
+*Time flies
+[4:reply] He like my dad fr
+[5:reply] Do you wanna see the world burn? Hell nah as much as i love satoshi, he should never come back",title_plus_comments,no,no,na,medium,The saved text appears outside software scope or is too vague to classify reliably.,,,,,,,https://reddit.com/r/Bitcoin/comments/1pkpx88/times_fly_15_years_ago/
+B10-072,Android,"November Pixel update isn't here yet, but Verizon just spilled the details",,"[1:reply] ...just spilled the details on absolutely nothing interesting.
+[2:reply] Soon I will have updates first on my s25 ultra rather than on my pixel 9 pro 😁
+[3:reply] dont forget to buy the pixel 12 now because its beenn 2 months...  ffs, smartphones are such a dumb trap
+[4:reply] &gt;General improvements for charging and battery usage.
+
+This is so frustratingly vague. Does this fix the massive system battery drain introduced in the September update for certain devices and users (my Pixel 8 Pro is affected, with ""System Apps"" draining most of my battery,…
+[5:reply] Security fixes!!!!! Im flipping out!!!!",title_plus_comments,yes,yes,other,medium,The post appears to discuss software without a clear troubleshooting or chiefly critical purpose.,,,,,,,https://reddit.com/r/Android/comments/1ou2bw0/november_pixel_update_isnt_here_yet_but_verizon/
+B10-073,homeassistant,Update to my post about color issues with Ikea's Matter over Thread Kajplats bulbs,"[My previous post](https://www.reddit.com/r/homeassistant/comments/1sre0om/fyi_some_ikea_kajplats_bulbs_have_wildly/) for reference.
+
+TL;DR - Firmware 1.1.0 good, Firmware 1.2.0 bad. Avoid 1.2.0 and hopefully wait for Ikea to do a fix.
+
+Someone mentioned that they didn't have any issues with Kajplats colors until they upgraded the firmware and that reminded me that when I set up the bulb, Home Assistant reported an available update which I applied.
+
+When I returned that previous bulb, I decided to give them another shot since if a firmware update can cause the problem, a firmware update should be able to fix it too.
+
+I bought five more Kajplats bulbs. Each one came with firmware version 1.1.0 installed and does NOT have the color issue. I upgraded one of the bulbs to 1.2.0 and immediately it started displaying the color issue.",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/homeassistant/comments/1sy94ck/update_to_my_post_about_color_issues_with_ikeas/
+B10-074,HomeNetworking,ThinkPad T14 Gen1 loses internet when running VMs in bridge mode,"Hey all, been dealing with a frustrating networking issue in my homelab and hoping someone here has seen this before.
+
+Setup:  
+\- ThinkPad T14 Gen1  
+\- Bog-standard TP Link Archer DHCP setup  
+\- Fedora 43 KDE on the host, currently on the latest kernel (6.19.8)  
+\- Running VMs bridged to the physical NIC (not NAT), provisioned via Terraform Libvirt
+
+The problem:  
+My host machine keeps losing its internet connection. This only started happening when I switched my VMs from NAT to bridge mode - NAT worked fine with no drops, but had many other limitations for my use case, so I had no choice.
+
+Before the kernel update, it was losing the DHCP lease at almost exactly every 2 days. After updating to the latest kernel, it's now happening at completely random intervals - sometimes after 1 day, sometimes after 6.
+
+Is there any workaround to this? It seems to be hardware specific, I know the T14 is not the best server, but it's the best I've got at the moment.
+
+The AI ""masterminds"" didn't come up with anything useful, as it's probably quite a niche issue, hoping someone else tackled it and found a solution!",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/HomeNetworking/comments/1sqw1n3/thinkpad_t14_gen1_loses_internet_when_running_vms/
+B10-075,Ubuntu,There and Back Again: My 26.04 LTS Experience.,"I've been using Ubuntu as my primary OS for roughly 9 months now ever since Microsoft announced that support for Windows 10 was officially over and my OS subsequently began to crash frequently. 
+
+I had planned on switching over to Linux for years, but the convenience of Windows kept me using Windows up until then. What finally got me to make the switch was how Windows 11 was so demanding and so full of superfluous A.I. powered bloatware that I couldn't just update my Windows 10 Rig to Windows 11 without purchasing a whole new MoBo, which I wasn't interested in doing, so I finally decided to jump ship back in July of last year. 
+
+  
+Initially I ran into some trouble because I had accidentally installed 23.04 ""Lunar Lobster"" instead of 24.04 ""Noble Numbat"", and because 23.04 was no longer supported by then, I couldn't connect to any servers to update to 23.10 or 24.04, so I had to do a clean installation. 
+
+24.04 worked well for me until I upgraded my worn out AMD RX-6800 GPU with a new RX-9060XT, which 24.04 lacked the necessary up-to-date drivers, kernal, and mesa build to run. Despite numerous attempts to update those components to make 24.04 compatible with the 9060, I ultimately was forced to update to 25.04 before it would work. 
+
+25.04 through 25.10 worked without a hitch for me, so I didn't hesitate to update to 26.04 ""Radiant Raccoon"" as soon as the update was made available. Unfortunately, that's where everything fell apart... 
+
+Initially, 26.04 seemed great. 26.04 seems to be more compatible with my 9060XT than previous builds, yielding higher FPS on average and more vibrant visuals in-game. I did experience some intermittent microstutter, but it only ever lasted like 0.5 seconds, amounting to little more than a moderately jarring hitch. 
+
+However, suddenly after 3 days of relatively smooth sailing, 26.04 could no longer detect my Wireless Card, thus forcing me to use a Wireless USB Adapter to connect to Wi-Fi. Again, not a huge deal, a mild inconvenience at best. I tried many times to fix the issue, but to no avail. 
+
+Shortly after that, I began to experience unnaturally lengthy boot times, taking upwards of 2 minutes for Ubuntu 26.04 when it had previously only taken roughly 30 seconds. Likewise, launching games on Steam took upwards of 2 minutes when they had previously taken mere seconds to launch. Attempts to troubleshoot these issues were fruitless.
+
+At this point I was officially fed up with it and decided to roll back to 25.10. Alas, even this did not go smoothly either as the long boot times continued to persist afterwards and Snaps ceased to function altogether. 
+
+After posting a thread on the subject, I was convinced by users to simply do a clean reinstallation of 26.04, which solved the issues with slow booting, but all other issues persisted. Nevertheless, I was perfectly willing to simply deal with the minor inconveniences of intermittent microstutter and having to use a Wireless USB Adapter to connect to Wi-Fi, until... 
+
+The following day a new issue manifested itself in the form of intermittent crashes after starting up games, followed by the PC persistently starting at the Boot Menu of my MoBo. 
+
+Since then I have reinstalled 25.10, all of the aforementioned issues have vanished, and thus I have decided to wait until a few weeks after the release of 26.04.1 to experiment any further with the latest version of Ubuntu. I've done my best to report all of the aforementioned bugs in hopes that they will be addressed with the release of 26.04.1, but for now I'm sticking with 25.10 because it has simply been more stable for me. 
+
+If this experience has taught me anything it's that its better to wait on bug fixes rather than updating to the latest unpolished build immediately and having to deal with all the little glitches. I'm typically willing to roll with the punches and help out with the development of new software by reporting bugs, but now that Linux is my primary OS, it's just too nerve racking for me.","[1:reply] I left Windows 10 Pro and jumped right into 26.04 LTS. 
+
+Ubuntu 26.04 did not play with our HP LaserJet wired network printer. 
+
+It also could not find our in-home NAS.
+
+I was frustrated for two weeks--until I started reading comments about 26.04.
+
+I then installed 24.04 LTS and…
+[2:reply] I do clean install 26.04 and it works fine for me on both desktop and Raspbeery pi 500.
+[3:reply] HP‘s Linux support hasn’t been particularly good more recently that I’ve come across.
+[4:reply] Ha I just reinstalled 24.04 today after a couple weeks in 26.04. I enjoyed most of it while it lasted but had similar issues. Also as a developer it was a little too bleeding edge… waiting for better support.
+[5:reply] I haven't used Ubuntu in years. I first used it around 2008 and 2010 when I was still learning about Linux and I didn't last long with it. Around 2016 when I wanted to use Linux again I think I tried Ubuntu Mate and again I couldn't get it working on my hardware.
+
+Only in 2024 I…",title_body_comments,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/Ubuntu/comments/1tok2u1/there_and_back_again_my_2604_lts_experience/
+B10-076,kubernetes,argocd-notifications-secret got overwritten after upgrade? [crosspost from r/argocd to see if anyone can help me?],,,title_only,yes,yes,other,low,The post appears to discuss software without a clear troubleshooting or chiefly critical purpose.,,,,,,,https://reddit.com/r/kubernetes/comments/1mweux6/argocdnotificationssecret_got_overwritten_after/
+B10-077,Ubiquiti,Roaming decisions makes no sense !?,"Hello,
+
+In our office, I recently upgraded to U7 XG and U7 XGS APs;
+
+I really don't get the roaming decision; I hope i messed up the settings and that it's fixable:
+
+My MacbookPro M4 is connecting to APs that are far, not in sights **instead of the clear sighted AP U7 Pro XGS 4 meters away from my device**  
+**Right now I have -80db because the wrong AP is chosen for me.**
+
+It keeps going to the:
+
+\-  U7 Pro XGS on ground level (below me)   
+\-  the one 10 meters away in the stairs, on ground level; 
+
+I'm not moving my Macbook pro. Sometimes if i'm lucky it connects to the most logical one.  
+I've added caption to each image.
+
+[You can see my Macbook Pro and the U7 Pro XGS in clear sight;](https://preview.redd.it/xf9mply4vn2h1.jpg?width=480&amp;format=pjpg&amp;auto=webp&amp;s=40346e624f69825f99572fb13ac4e499bc08ffb7)
+
+[Upper plan is ground level, where i'm not; Lower plan is 1st floor, where i'm sitting](https://preview.redd.it/byvmioqmun2h1.png?width=900&amp;format=png&amp;auto=webp&amp;s=1a4bd49d5708b78a911dbab8417306949e12cfba)
+
+[The roaming logs; \\""Escaliers\\"" is the AP from the Stairs on ground level; \\""Open space RDC\\"" is ground level, and \\""Open space etage\\"" is 1st floor where I should be connecting to ? \(the one in picture\) ](https://preview.redd.it/lw03hwckvn2h1.png?width=1980&amp;format=png&amp;auto=webp&amp;s=328feb07a9a421fff8692d6fe79591b95fd663bb)
+
+https://preview.redd.it/esiqjzvywn2h1.png?width=500&amp;format=png&amp;auto=webp&amp;s=de9af7145f1e3ec4e9f85b784264a26b5ecd7e86
+
+https://preview.redd.it/xrnf4b5syn2h1.png?width=399&amp;format=png&amp;auto=webp&amp;s=5d6e9baa8ebf4881383bbb0a35fb31a4e0130e94","[1:reply] Try setting the Minimum RSSI on the 6Ghz radio of each AP to -75.
+[2:reply] Hello!  Thanks for posting on r/Ubiquiti!
+
+This subreddit is here to provide unofficial technical support to people who use or want to dive into the world of Ubiquiti products.  If you haven’t already been descriptive in your post, please take the time to edit it and add as many…",title_body_comments,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/Ubiquiti/comments/1tkehl9/roaming_decisions_makes_no_sense/
+B10-078,pytorch,Accidentally installed CUDA 13.0 and now cant run PyTorch due to compatibility issues. What do i do?,"This is the error i got:
+
+ The detected CUDA version (13.0) mismatches the version that was used to compile
+
+PyTorch (12.1). Please make sure to use the same CUDA versions.
+
+really frustrated","[1:reply] Always build your projects in containers.
+[2:reply] Just uninstall it and install the correct version if you want your global install to be good. It is best practice to use a venv or some other environment manager for each project to avoids boo boos like this. I used to just raw dog everything with my global environment, and I st…
+[3:reply] never build your projects in containers.
+[4:reply] Install another cuda version along the new one? Source that to your env.
+
+Unless the driver versions are incompatible
+[5:reply] torch already comes with cuda",title_body_comments,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/pytorch/comments/1ns8l1d/accidentally_installed_cuda_130_and_now_cant_run/
+B10-079,transformers,WNW Lunch Break Score! Found at a local comic shop.,,"[1:reply] Neat!  I'm glad he transforms into a tank.  His becoming a gun never made sense in scale to the other characters.  Even as a kid in the 80s that always bugged me.
+[2:reply] Sweet find! Megatron is oddly uncommon, I only got mine through a preorder because I haven't seen him at ALL locally.
+[3:OP] Not just a gun! A gun that shrinks to fit Starscream's hand.
+[4:OP] I'd been hunting megs for a while and had no luck. I walked into a local comic shop near my office and found him. Finally.
+[5:reply] I saw him once at Target, and bought him immediately. Which was a good move, since I haven't seen him *anywhere* else since.",title_plus_comments,no,no,na,medium,The saved text appears outside software scope or is too vague to classify reliably.,,,,,,,https://reddit.com/r/transformers/comments/1pddpxr/wnw_lunch_break_score_found_at_a_local_comic_shop/
+B10-080,comfyui,Upgrade 24.1 to 26. Now Save image/video nodes not saving in output/video folders,Saved an insance of 24.1.  Still works fine.  checked settings for assign folders and they ok.  Reset folders anyway.  Still nothing.   Anyone else?? :),,title_and_body,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/comfyui/comments/1uhfkgj/upgrade_241_to_26_now_save_imagevideo_nodes_not/
+B10-081,Bitcoin,Christmas Discount starting,,"[1:reply] HO HO HODL
+[2:reply] Santa = Satoshi
+
+mindblown.gif
+[3:reply] We will thank Father Satoshi later.
+[4:reply] Dear Santa, no more kicks to groin,
+
+Bring us 150K bitcoin
+[5:reply] Lol",title_plus_comments,no,no,na,medium,The saved text appears outside software scope or is too vague to classify reliably.,,,,,,,https://reddit.com/r/Bitcoin/comments/1oq5n9g/christmas_discount_starting/
+B10-082,applehelp,Macbook Pro not turning on after an update,Yesterday before going to sleep I left my macbook pro (model A3401 M4) to update and I didn’t leave it plugged in. Now it doesn’t turn on and the light on the charger is not working. I had my screen replaced a few days ago. What might be the problem and how do I fix it?,,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/applehelp/comments/1u5gbhb/macbook_pro_not_turning_on_after_an_update/
+B10-083,chrome,"Chrome heating my laptop like crazy since the latest update for no reason, with micro freeze every 3-5 seconds","I have 3 tabs open, it's heating the computer like there's no tomorrow. But the worse thing are the constant micro freeze popping every 5 seconds. 
+
+Any idea what could be the cause? I tried deactivate my adblocker, it didn't do a thing. I tried changing my tabs, same thing.",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/chrome/comments/1s4qlq2/chrome_heating_my_laptop_like_crazy_since_the/
+B10-084,kubernetes,Minikube stops responding when I run 15 pods (and 10 services). Is it time to buy a nicer laptop?,"I’ve been teaching myself Java microservice development by following a Udemy course. Here’s the setup of the app I’ve built so far:
+
+* **5 Java Spring Boot backend services** (2 CRUD apps, 1 config server, 1 gateway server, 1 function service)
+* **5 infrastructure-related services** (2 Postgres, 1 Keycloak, 1 RabbitMQ, 1 Redis)
+
+Since it’s based on a Udemy course, I wouldn’t consider this project very large.
+
+When I run the full application, it spins up about **15 pods and 10 services**. I develop and run everything on Windows (not WSL2). If I test certain API endpoints that pass messages via RabbitMQ between services, `kubectl` sometimes becomes unresponsive and eventually prints:
+
+&gt;Unable to connect to the server: net/http: TLS handshake timeout
+
+When this happens, I usually check Task Manager. At that point, I often see **VmmemWSL consuming 45–50% CPU**, and since I also keep other programs open (IntelliJ, Chrome, etc.), the **total CPU usage typically hits 55–60% and sometimes spikes to 85%**.
+
+To recover, I normally have to run `minikube stop` and restart it. But occasionally, even `minikube stop` won’t even respond.
+
+I normally run minikube by `minikube start --cpus=4 --memory=8192`. I tried to provide more resources to the cluster by adding `--disk-size=50g --driver=docker` to the command, but it doesn't seem to help that much.
+
+Given the size of this application, is it normal to run into these kinds of issues? Or is it more likely due to my laptop specs?
+
+PS: For reference, I’m using a PC with **4 CPU cores (11th Gen Intel Core i7, 2.80GHz) and 16 GB RAM**. Would upgrading to something more powerful—like a **MacBook Pro with 10+ cores and 36 GB RAM**—make a big difference?
+
+PS2: I could use Docker Desktop's k8s for other projects, but I want to use minikube for this particular project for some reason","[1:reply] For working with Kubernetes you'll really want to use Linux (k8s on both Windows and MacOS will use a Linux VM), and 16gb memory is crazy.
+
+I personally use a Thinkpad P14s with Ryzen and 64gb memory. It costs less than a MacBook and doesn't stutter when I run well over 100 pods…
+[2:reply] So first of all. When running minikube I would still assume you are either running wsl2 or some sort of virtual machine because it cannot run natively on windows. So that is already performance getting lost.
+
+Second. You are using spring boot. Infamous for already using more res…
+[3:OP] &gt;When running minikube I would still assume you are either running wsl2 or some sort of virtual machine because it cannot run natively on window
+
+That's right. However, now I use `--driver=docker` flag. So, the cluster won't be in a full virtual machine. The entire Kubernetes…
+[4:reply] You could maybe try changing the jvm settings on the spring boot apps to reduce its memory usage.
+
+If I remember correctly the default settings each of your java apps assumes that it can use a percentage of your memory by default.
+
+The two most important settings are:
+
+-Xms -Xmx",title_body_comments,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/kubernetes/comments/1nxss8f/minikube_stops_responding_when_i_run_15_pods_and/
+B10-085,transformers,Update Blokees transformers Champion/classic Class Dotm Sentinel prime &amp; Bee movie Blitzwing full revealed with innerframe features and sentinel shield confirmed,,"[1:reply] Me doing a SpongeBob Impression: ""I NEED IT!!!!""
+[2:reply] Somehow, Bionicle returned
+[3:reply] I HAVE A MIGHTY NEED!
+[4:reply] Bro they have an endo skeleton like it's FNAF ☠️
+[5:reply] Had no idea blokees did more than those real small figures.",title_plus_comments,no,no,na,medium,The saved text appears outside software scope or is too vague to classify reliably.,,,,,,,https://reddit.com/r/transformers/comments/1ry4vuz/update_blokees_transformers_championclassic_class/
+B10-086,firefox,"Even though my MacOS theme, and FireFox theme, is set to light mode, ever since today's update whenever I try to download something my device files screen is in dark mode","I am very confused on why the files screen is in the dark mode coloration whenever I try to download something now. I'm on MacOS Montery and the latest FireFox update. Is there some config setting I could disable to fix this? I've already confirmed it's a browser and not device issue; Finder is still displaying correctly, as well as when I try to download something through Chrome.
+
+[downloading through firefox](https://preview.redd.it/0rwwvm8vfq7h1.png?width=1596&amp;format=png&amp;auto=webp&amp;s=b9e5540f89670b5cc9e538dd714b571788e9c3ba)
+
+[downloading through chrome](https://preview.redd.it/m8wdml45gq7h1.png?width=1656&amp;format=png&amp;auto=webp&amp;s=a67518211f16375b92eb326a35a8d17c310b545e)","[1:reply] How about posting a screenshot?
+[2:OP] edited into post",title_body_comments,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/firefox/comments/1u7s29z/even_though_my_macos_theme_and_firefox_theme_is/
+B10-087,transformers,"""Exterminate!""-ion is the right of all sentient beings!",,"[1:reply] There actually is a Dalek Transformer: [Octus](https://tfwiki.net/wiki/Octus_(G1))
+[2:reply] Decepticon Tower is ready to go on the offensive.
+[3:reply] Gotta appreciate the absolute camp of the Decepticons purposing Prime’s entire arm as a tower sentry
+[4:reply] I would kill for a TARDIS Transformer toy!
+[5:reply] If you've got a 3D printer and a lot of time on your hands (oho!) there's a design on cults3d.",title_plus_comments,no,no,na,medium,The saved text appears outside software scope or is too vague to classify reliably.,,,,,,,https://reddit.com/r/transformers/comments/1p0e7op/exterminateion_is_the_right_of_all_sentient_beings/
+B10-088,homeassistant,Follow-up: BLE Scale Sync is now a Home Assistant Add-on (one-click install),"Two months ago I posted about [BLE Scale Sync](https://www.reddit.com/r/homeassistant/comments/1r4m5u9/), a BLE-to-MQTT bridge I built so my Renpho scale could land in Home Assistant without the Renpho cloud app. Several of you asked if it could run via HACS or as an add-on. Add-on won, and it shipped in v1.8.0.
+
+**One-click install** (Home Assistant OS / Supervised): [Open Home Assistant and add the repository](https://my.home-assistant.io/redirect/supervisor_add_addon_repository/?repository_url=https%3A%2F%2Fgithub.com%2FKristianP26%2Fble-scale-sync)
+
+Click the link, confirm, install from the Add-on Store. The add-on auto-detects the Mosquitto broker via the Supervisor API, so no broker URL or credentials are needed if you already run Mosquitto. Every metric shows up as an MQTT auto-discovery sensor within a few minutes of stepping on the scale.
+
+**What's new since the original post**
+
+* **Home Assistant Add-on** with UI-driven config, MQTT auto-detection, and Garmin token bootstrap (2FA workaround included)
+* **ESP32 BLE proxy**, so a cheap ESP32 (\~8€) can relay scale data over MQTT. ble-scale-sync runs in Docker anywhere on your network, no Pi next to the scale
+* **Strava and local file (CSV/JSONL) exporters** on top of the existing Garmin / MQTT / InfluxDB / Webhook / Ntfy
+* **Unit preferences** (kg/lbs, cm/in) exposed in the add-on UI
+* `last_known_weight` persists across restarts, so multi-user weight matching stays accurate after updates
+* **BlueZ zombie-discovery recovery** for long-running RPi continuous mode
+* **QN Scale adapter rewritten** as a state machine for newer Renpho firmware (Elis 1, ES-CS20M)
+* **Anonymous usage stats dashboard** at stats.blescalesync.dev
+
+**Features in brief (for new readers)**
+
+* 20+ scale brands: Xiaomi, Renpho (Elis 1, FITINDEX, Sencor, QN-Scale), Eufy, Yunmai, Beurer, Sanitas, Medisana, Soehnle, and more
+* 10 body metrics: weight, body fat, muscle mass, water, bone mass, BMI, BMR, visceral fat, metabolic age, physique rating
+* Multi-user support with automatic identification by weight range
+* 7 export targets including Garmin Connect, MQTT + HA auto-discovery, Strava, InfluxDB, Webhook, Ntfy, CSV/JSONL files
+
+Docker and native (Linux/macOS/Windows) installs are still supported if you don't run HA OS / Supervised. Sensors reach HA the same way via MQTT auto-discovery.
+
+* [https://blescalesync.dev](https://blescalesync.dev)
+* [https://github.com/KristianP26/ble-scale-sync](https://github.com/KristianP26/ble-scale-sync)
+
+Feedback, scale compatibility reports, and issues welcome.",,title_and_body,yes,yes,other,low,The post appears to discuss software without a clear troubleshooting or chiefly critical purpose.,,,,,,,https://reddit.com/r/homeassistant/comments/1so93sn/followup_ble_scale_sync_is_now_a_home_assistant/
+B10-089,Android,EU warns Google: Gemini cannot be the only AI with deep Android integration (Updated: Statement),,"[1:reply] will the iphone also have siri alternatives?
+[2:reply] Yeah. And ""none"" should always be an option. 
+
+But in reality, the alternatives aren't very good. Pretty sure Gemini Nano (and Gemma) blow everything else out of the water. It was probably a huge reason Apple chose it for Siri.
+[3:reply] Apple actually already has API-ed out their core apps and already has 3rd party integration for AI assistants in the Japan market which I presume they will turn on for EU too.
+[4:reply] Yeah, it's called Gemini
+[5:reply] I'd assume just like Gemini none of that access is enabled by default, it's just integrated access that would enable similar integration if you installed a separate 3rd party assistant, which sounds useful, it would be nice to see Alexa to be able to work with say Google home au…",title_plus_comments,yes,yes,other,medium,The post appears to discuss software without a clear troubleshooting or chiefly critical purpose.,,,,,,,https://reddit.com/r/Android/comments/1qscg7w/eu_warns_google_gemini_cannot_be_the_only_ai_with/
+B10-090,sysadmin,Win11 RDP to Win10 not working,"Hi guys, I have just updated to Win11 and trying to use the builtin Windows Remote Desktop (RDP) to connect to another computer (LAN) running Win10 and it gets stuck at a blue screen saying ""Please Wait"". Using another computer running Win10, I can use RDP to access the targeted computer (Win10) without any issues. Is it a problem with Win 11 to Win 10 RDP?","[1:reply] There's no issue with using RDP within different versions of windows
+[2:OP] I am accessing it by name. On the Win11 computer, I can access the target computer (by name) share folders. I would be enabled otherwise I can't use another Win10 computer to access it right?
+[3:reply] Are you connecting by name or by IP Address? Can you successfully ping it with that name or IP Address? Be sure that ICMP replies are enabled in the inbound rules in Windows Firewall on the Windows 10 machine. 
+
+Are you sure remote desktop is enabled in the Windows 10 machine, a…
+[4:OP] In the advanced tab, there isn't a Network Level Authentication check box. There are only Server Authentication, Connect From Anywhere, Use Authentication.
+[5:reply] You can try to disable UDP for remote desktop protocol:
+
+HKEY\_LOCAL\_MACHINE\\SOFTWARE\\Policies\\Microsoft\\Windows NT\\Terminal Services\\Client
+
+If not present create a new ---&gt; DWORD (32-bit) Value ---&gt; name:  fClientDisableUDP
+
+Value data : 1
+
+And reboot",title_body_comments,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/sysadmin/comments/1tn2anx/win11_rdp_to_win10_not_working/
+B10-091,kubernetes,How do you guys handle cluster upgrades?,,"[1:reply] Blue green clusters.
+[2:reply] We're using cluster api, managing loooots of clusters for our customers.
+
+We just define when the new version will be rolled out and CAPI does it. Nothing special about it. 
+The only thing we do is upgrade one set of clusters before the other, customers have their test / staging…
+[3:reply] In my experience Blue/Green clusters  can create more problems than they solve and end up pushing weird edge cases around traffic routing to the end users of your clusters.
+
+Edit: It also gets tricky  for async workloads. As soon as your  cluster B comes online,  it'll start pic…
+[4:reply] Was doing blue/green for the last 2 years but now we are starting to do an in place upgrade while having a backup cluster just in case. 
+
+Blue/green is nice on paper but it takes whole lot of coordination between teams and time, we were spending a month just for 4 clusters.
+[5:reply] We just run kops upgrade, rarely have any issues. Kubernetes is built to handle rolling upgrades of itself.",title_plus_comments,yes,no,other,low,The post appears to discuss software without a clear troubleshooting or chiefly critical purpose.,,,,,,,https://reddit.com/r/kubernetes/comments/1nrwcsf/how_do_you_guys_handle_cluster_upgrades/
+B10-092,AndroidQuestions,Weird Bluetooth issue after recent update,"Samsung S25 Ultra running Android 16. After recent update, my phone has developed a very annoying issue. When connected to any Bluetooth device, and after receiving or making a call (even declined calls), my phone will begin to continuously call itself over and over. This persists until I disconnect from Bluetooth. I can't interact with the phone app to discontent these calls, but my Bluetooth device immediately goes into ""call"" mode. Please help!",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/AndroidQuestions/comments/1uyg5kl/weird_bluetooth_issue_after_recent_update/
+B10-093,Android,PSA: Recompiling ODEX caches after updates can improve the performance by a lot,"Long story short, my Galaxy S21+ went through 4 major system updates from Android 11 to Android 15. The system itself runs some basic cache rebuilding tasks after updates, during the ""optimizing apps"" screen, however, this doesn't apply to all of the installed apps. This can result in old ODEX caches being used even after major version upgrades. More info on what ODEX is available here: 
+
+[https://source.android.com/docs/core/ota/ab/ab\_faqs#what-is-system\_other](https://source.android.com/docs/core/ota/ab/ab_faqs#what-is-system_other)
+
+[https://source.android.com/docs/core/runtime/dex-format](https://source.android.com/docs/core/runtime/dex-format)
+
+So, I gave it a try to rebuild them manually and in my case the changes are noticeable in app launch times and overall system responsiveness.
+
+  
+**What you need:**
+
+\- [ADB platform tools](https://developer.android.com/tools/releases/platform-tools) set up
+
+\- USB debugging enabled
+
+  
+Once that's done, running the following command in a command prompt / terminal will force the system to rebuild the ODEX caches for every single installed app. 
+
+`adb shell pm compile -a -f -m speed-profile`
+
+  
+**Note:** This is going to take a long time depending on the number of installed apps, the specifications of your phone, etc. **Be patient!** This is likely the reason why it's not executed by default after system upgrades.
+
+After it's done, reboot your phone and enjoy! :)","[1:reply] For Samsung users: download Samsung's Good Guardians app and run Galaxy App Booster. It does the same thing, no pc required
+[2:reply] That can even be done in Termux with Shizuku using `pm compile -a -f -m speed-profile`
+
+But also, this sounds like the kind of task that should be scheduled to run when the phone is idle, charging and at 80%+ battery
+
+I tried it and it fails when you have an archived app. Ideall…
+[3:reply] Or you can just ignore it and it will eventually get done in the background when idle or overnight slowly. What you do is performing a manual compilation to a 'optimized to maximize runtime performance' profile. Every app will be fast when you open it soon after your manual inte…
+[4:reply] In have tried this many times and never managed to prove that it really improves the speed. It makes 100% sense in theory but I have never seen it working.
+[5:reply] The scene app has this feature. And frankly I don't notice much of a difference. Android already does this on its own. There is no noticeable difference to speak with this command.
+
+
+Instead compiling everything has the biggest speedup in my experience so far. Just that it takes…",title_body_comments,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/Android/comments/1ns8b82/psa_recompiling_odex_caches_after_updates_can/
+B10-094,scrcpy,Connection lost via QtScrcpy,,"[1:reply] QtScrcpy is not scrcpy, but the error is related to: https://github.com/Genymobile/scrcpy/issues/6362
+[2:OP] İf ı connect wia usbc with laptop, delta force mobile get ban
+[3:reply] On latest beta?
+[4:OP] qtscrcpy 3.3.1 ı have, any new wers,on available ?
+[5:OP] Somebody fix this issues, but how ı do that, make it easy for me please help  
+[https://github.com/Genymobile/scrcpy/issues/6234](https://github.com/Genymobile/scrcpy/issues/6234)",title_plus_comments,unclear,no,na,low,The saved text appears outside software scope or is too vague to classify reliably.,,,,,,,https://reddit.com/r/scrcpy/comments/1npaijx/connection_lost_via_qtscrcpy/
+B10-095,applehelp,"Is discarding these boxes the only option I have, Or is there anything else I can do with them ?",,"[1:reply] I threw away all my hoarded boxes just recently. I hoarded because I told myself I *might* need them when I sell my things. P.S. I never sell my laptops / phones.
+[2:reply] Good boxes for trinkets if thats something your into. Polaroids, momentos. Many physical tickets to movies, lanyards and badges from conventions, souvenirs You can store it like a time capsule, something to look back on.
+[3:OP] Been storing these boxes since iPhone 4 …. It’s a time capsule already. 😅
+[4:reply] 'Anything else I can do with them' to what end?
+[5:reply] My wife has a small “resin art” business, so we decided to keep our boxes for 6 months, just to have some boxes for shipping… Last weekend, we decided to empty the “box room”. There HAD to have been at least 200 (probably closer to 300) boxes of every shape and size, including 6…",title_plus_comments,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/applehelp/comments/1rhthw2/is_discarding_these_boxes_the_only_option_i_have/
+B10-096,chrome,"WHY CHROME? This update broke chrome. Apparently google doesn't care, aw snap! I'm going to dechrome my life if they don't fix this nonsense soon","Seriously, what is going on with these updates? Chrome is broken and this awww snap is very annoying.",,title_and_body,yes,yes,general_dissatisfaction,low,The post appears mainly critical without an active repair purpose; check for a concrete problem report.,,,,,,,https://reddit.com/r/chrome/comments/1tfj4f4/why_chrome_this_update_broke_chrome_apparently/
+B10-097,transformers,DNA Design Upgrade Kit for SS86 Megatron First Look,,"[1:reply] Seeing a mace, headswap, and I’m guessing a blade for his lightsaber
+[2:reply] As always, I love what DNA designs do for upgrades but cant personally justify the prices they charge
+[3:reply] New fusion cannon and slide on shoulders too.
+[4:reply] Looks like a new Fusion Cannon too. The original one is upside-down, and the red part looks different. This one is probably show-accurate.
+[5:reply] Definitely a better Sword, and the mace, nice!",title_plus_comments,no,no,na,medium,The saved text appears outside software scope or is too vague to classify reliably.,,,,,,,https://reddit.com/r/transformers/comments/1pnsxp1/dna_design_upgrade_kit_for_ss86_megatron_first/
+B10-098,linux,Ubuntu 25.10 Unattended Upgrades Broken Due To Rust Coreutils Bug,,"[1:reply] As per [their mailing list](https://lists.ubuntu.com/archives/ubuntu-security-announce/2025-October/009890.html), the issue is fixed:
+
+
+&gt; Due to a now-resolved bug in the `date` command, some Ubuntu 25.10
+systems have been unable to automatically check for available software…
+[2:reply] Phoronix commenters truly are the dumbest of the dumb holy moly
+[3:reply] I'd imagine testing flatpak is not exactly one of their highest priorities...
+[4:reply] This, plus Flatpak not working on a fresh 25.10 install... do Ubuntu developers actually test their releases before making them available?
+[5:reply] I bet YouTube commenters would give them a run for their money.",title_plus_comments,yes,yes,other,low,The post appears to discuss software without a clear troubleshooting or chiefly critical purpose.,,,,,,,https://reddit.com/r/linux/comments/1oetmbo/ubuntu_2510_unattended_upgrades_broken_due_to/
+B10-099,godot,When continuous updates and listening to player feedback start to pay off!,,"[1:OP] That's just the demo btw. Full game will release on November 7, so just 11 more days.  
+Somehow crazy that you build something for 15 months and then it all comes down to one day.
+[2:reply] Congratulations! That's really amazing, how do you like to collect feedback from players?
+[3:OP] Discord primarly, but we also linked a Google Forms feedback sheet in the game and got over 100 responses there too.
+[4:reply] Nice! Good Łuck bro!",title_plus_comments,yes,no,other,low,The post appears to discuss software without a clear troubleshooting or chiefly critical purpose.,,,,,,,https://reddit.com/r/godot/comments/1ohfcuz/when_continuous_updates_and_listening_to_player/
+B10-100,Ubuntu,Ubuntu crashes and burns after kernel update during DOS attack,"I'm not sure what's going on but when I updated the kernel this week, I started getting application crashes.  Now the whole system fails to boot.  I get a circular animation during boot for about 2 minutes then it drops into Emergency mode.
+
+After rebooting from emergency mode, I chose the previous kernel.  No change.  It drops into Emergency Mode.
+
+Loads of people here assure me (some in stunningly condescending fashion) that the fact that the update happened during an Iranian hacker group's DOS attack on Ubuntu, the update was perfectly fine.  I'm less confident now.
+
+Emergency mode provides access to journalctl -xb
+
+AT the end of this journal is a message that ""System is tainted: unmerged-bin""  
+There are several optional things listed that may be the problem including old kernel and similar things.
+
+Does anyone know what I can do to recover?  
+Creating a symlink between sbin and bin does not change the boot process.
+
+There is a recent bug reported here: [https://sourceforge.net/p/logwatch/bugs/128/](https://sourceforge.net/p/logwatch/bugs/128/)
+
+When booting in recovery mode It hangs on the following line for multiple minutes.  
+\[\*\*\*\*} Job dev-disk-by\\x2duuid-bunch of characters.device/start running \[clock showing time\]",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/Ubuntu/comments/1t3407e/ubuntu_crashes_and_burns_after_kernel_update/

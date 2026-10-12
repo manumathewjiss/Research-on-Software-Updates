@@ -1,0 +1,38 @@
+{
+  "code_version": "balancing-study-v1",
+  "script": "/Users/manumathewjiss/Documents/Research-on-Software-Updates/research-open-text-sentimental/phase3/balancing_study/run_balancing_study.py",
+  "git_head": "2a578690c80bff3af302fa23fa0d0837fd13100c",
+  "created_utc": "2026-10-08T02:16:11.011416+00:00",
+  "inputs": {
+    "reddit_only_snapshot": "/Users/manumathewjiss/Documents/Research-on-Software-Updates/research-open-text-sentimental/phase3/reddit_only_sensitivity/development_reddit_only.jsonl",
+    "reddit_only_snapshot_sha256": "b7d74126a4be50ebdcc06fa68e9537c3150f186c8f1f63125a44f91733f91118",
+    "locked_folds": "/Users/manumathewjiss/Documents/Research-on-Software-Updates/research-open-text-sentimental/phase3/reddit_only_sensitivity/results/grouped_oof_predictions.jsonl",
+    "locked_folds_sha256": "65717ff73da21bdb4c5ce3aa0a30ccf7fb0e8d723c2fa595efe9d0bd50924a5d"
+  },
+  "model_settings_held_fixed": {
+    "text": "title + post_body, URL-stripped, lowercased",
+    "tfidf": "word unigrams+bigrams, min_df=2, max_features=20000, sublinear_tf",
+    "logistic_regression": {
+      "C": 4.0,
+      "solver": "liblinear",
+      "max_iter": 2000,
+      "random_state": 42
+    },
+    "existing_threshold": 0.5877137791150834
+  },
+  "arms": {
+    "balanced": "class_weight='balanced'; TF-IDF fit on original training posts",
+    "unweighted": "class_weight=None; TF-IDF fit on original training posts",
+    "oversample": "class_weight=None; TF-IDF fit on original training posts; minority training rows sampled with replacement until class counts match; RNG seed = 42 + fold index"
+  },
+  "threshold_policy": "Primary comparison uses the existing threshold 0.5877137791150834 for every arm. A separate development-only quantile search maximizes OOF macro-F1. That search is not a new final model and was not checked on either scored test.",
+  "tests_not_used": [
+    "159-post reserved test",
+    "344-post fresh test"
+  ],
+  "outputs": {
+    "metrics": "/Users/manumathewjiss/Documents/Research-on-Software-Updates/research-open-text-sentimental/phase3/balancing_study/results/balancing_metrics.json",
+    "predictions": "/Users/manumathewjiss/Documents/Research-on-Software-Updates/research-open-text-sentimental/phase3/balancing_study/results/paired_oof_predictions.jsonl",
+    "class_counts": "/Users/manumathewjiss/Documents/Research-on-Software-Updates/research-open-text-sentimental/phase3/balancing_study/results/class_counts.json"
+  }
+}

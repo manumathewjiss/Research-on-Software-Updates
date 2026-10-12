@@ -1,0 +1,1203 @@
+﻿review_id,subreddit,title,post_body,discussion_context,text_availability,proposed_about_software,proposed_update_related,proposed_discussion_type,proposed_confidence,proposed_reason,decision,final_about_software,final_update_related,final_discussion_type,reviewer_note,reviewed_at,source_url
+B8-001,sysadmin,Teampass upgrade to 3.2.0.2,"After upgrading all server passwords are saying ""password is empty"", when I look at the mysql db it states I have over 3000 in it. Have same sk.php file and security key text file, has anyone ran into this? TIA!","[1:reply] Don't know if it belongs here. Anyway, in the changelog I found one very important line:    
+
+    Pre-release Disclaimer: Version 3.2.0.2 is currently a pre-release. It has been heavily tested, but it now needs a real-world ""baptism by fire"" by the community. We strongly advise…
+[2:OP] Ugh! They have it up as a regular release candidate!",title_body_comments,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/sysadmin/comments/1ud1j0h/teampass_upgrade_to_3202/
+B8-002,linux,Should I switch from Windows 10 to Linux?,"Hello, I think I want to switch from Windows 10 to Linux Mint. Later this month Microsoft wont support Windows 10 and my laptop has been slowing down. I dont have the money for a new PC to upgrade to Windows 11. I mostly just edit photo, video, draw, chat on discord and watch YouTube. 
+
+I am not sure if Mint is the right choice for me or if I should pick a different OS. I have 8 GB of ram and 1TB of hard-drive. I have used Ubuntu in the past but that was over 10 years ago, and I know things have changed.","[1:reply] What do you use to edit photo and draw?
+[2:reply] Yes.
+
+&gt; I mostly just edit photo, video, draw
+
+You might need to adjust your workflow and applications you use though.
+[3:reply] Depending on what programs you use, look up if they are available on Linux, or if you can manage working with an alternative (compare PS to GIMP)
+[4:reply] Linux mint cinnamon is perfect and works out of the box like windows except without the random bs. 
+
+You dont have to worry about all these arch nerds saying ""rice everything."" I chose mint 6 months ago when I moved. Spent about 2-3 hours customising and then never thought about…
+[5:reply] We don't know if you should switch or not. Only you can tell that.",title_body_comments,yes,yes,other,low,The post appears to discuss software without a clear troubleshooting or chiefly critical purpose.,,,,,,,https://reddit.com/r/linux/comments/1nwek0u/should_i_switch_from_windows_10_to_linux/
+B8-003,MacOS,Updated to 26.5 and I don’t see the option to automatically power on?,"I’ve struggled with my Mac that’s installed into a travel case with powering it back in without digging it out. I usually pull the power and I tried a bunch of settings and commands to get it to work. I was excited for the update having a dedicated function now. However, after updating I don’t see any said toggle. Maybe my commands somehow broke it? Anybody have any ideas? I will say, I have the Mac Mini (M2) running on a 12v mod so maybe the power supply is part of that… any ideas anyone?","[1:reply] It's only for the M4 model.
+
+[https://support.apple.com/en-us/125517](https://support.apple.com/en-us/125517)
+[2:OP] Interesting choice. Thanks, that was unclear where I saw it posted. Guess I’m getting another M4 lol",title_body_comments,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/MacOS/comments/1tilyyb/updated_to_265_and_i_dont_see_the_option_to/
+B8-004,godot,White box outlines after Godot 4.5 triggered by Accessibility focus,"After updating to Godot 4.5, a few random GUI elements had an extra white outline around them in my game. After some confusion I tracked it down to be caused by the new ""Accessibility"" focus mode that was introduced. I don't know what the correct fix to do is, but setting the focus mode back to totally none fixes it. This confused me quite a bit when I got the initial bug report from a player who saw this inside a scroll container where the effect looks much more strange than in this screenshot.
+
+As I didn't see anyone else talking about this, I thought I'd make a quick post highlighting this problem. Hopefully this saves someone a bit of debugging time to be aware of this potential new problem.",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/godot/comments/1okvesa/white_box_outlines_after_godot_45_triggered_by/
+B8-005,transformers,Prime shelf update,,"[1:reply] Love it. Great paint apps
+[2:reply] I really wish they would’ve gone with the apex armor having hands instead of the finger gun/exhaust thing. This looks way better.
+[3:reply] What paint do you use? They look amazing, and I wanna recreate some
+[4:OP] I mostly use tamiya, and some dspiae markers
+[5:reply] Beautiful customs. Especially love Solus and Onyx. Amazing work.",title_plus_comments,no,no,na,medium,The saved text appears outside software scope or is too vague to classify reliably.,,,,,,,https://reddit.com/r/transformers/comments/1oh4w4l/prime_shelf_update/
+B8-006,applehelp,Safari tabs not syncing across devices,"For months now, if not a year, my Safari tabs have not been syncing between my iPhone and iPad. I used to be able to seamlessly open up a webpage I had open on my iPhone using my iPad and vice versa, but one day it just went away. I’ve tried all of the following with no success:
+
+\-Restarted both devices 
+
+\-Confirmed iCloud is on on both devices and is logged into the same account 
+
+\-Confirmed in Safari settings that iCloud tabs are turned on and placed it at the top of my start page
+
+\-Logged out of iCloud on both devices then logged back in 
+
+\-Toggled Safari on/off in iCloud settings on both devices (both at the same time and separately)
+
+\-Updated iOS on both devices, several times
+
+\-Full restore from backup on both devices
+
+These are all the potential fixes I’ve found online, and none have worked. The iCloud tab simply does not exist for me on either device anymore. 
+
+Has anyone had this issue and found a fix other than the above options?",,title_and_body,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/applehelp/comments/1s7atkz/safari_tabs_not_syncing_across_devices/
+B8-007,Nest,Does my house built 20 years ago compatible with a Nest?,,"[1:reply] It should work, although you may or may not need to add a C wire. You appear to have a spare blue tire tucked back in the wall, so it's possible it might already be connected on the other end, otherwise if you have access to the air handler you should be able to find where the t…
+[2:OP] Inconclusive
+[3:reply] Totally agree with your comment about the Google ecosystem.  The ONLY advantage that I've found to Nest is that it can do power-stealing and work without a C-Wire.   But given that the OP has spare wires, they've got other options like Ecobee and Sensi.
+[4:reply] My house was built in 1900 and we have a Nest. It works fine. The only issue that’s happened once or twice in the 5 years we’ve had it is that we do not have a C-wire which is meant to supply consistent power to the Nest. On consecutive bitter cold days, if the heat is turning o…
+[5:reply] Same wiring as my last two homes, both built in the late 90s and it works just fine. No C-wire in either home. Bigger question is, unless you are already invested in it, do you really want to jump into the Google Home ecosystem ? It sucks. I went all in on it in 2020 and after s…",title_plus_comments,yes,no,other,low,The post appears to discuss software without a clear troubleshooting or chiefly critical purpose.,,,,,,,https://reddit.com/r/Nest/comments/1qykwcg/does_my_house_built_20_years_ago_compatible_with/
+B8-008,cachyos,Signature invalid issue,"https://preview.redd.it/cmgfh4om3cfg1.png?width=1381&amp;format=png&amp;auto=webp&amp;s=b474cc57d63653d6fc0add2793fe37ead32293db
+
+Hi Everyone,
+
+Get this issue after updating (pacmany syu and cachyos hello) tried to delete manually to but not exist, reseted mirror list and keyrings but nothing changed.
+
+Do someon know how to fix it and how it happened at all?
+
+thank you!",,title_and_body,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/cachyos/comments/1qltghb/signature_invalid_issue/
+B8-009,linux,"Firmware Updates Breaks and Conflicts With Already Placed Firmwares, E.G Wi-Fi","For this, I will be using Nobara OS as a worse example. I’ve been running Nobara OS for a while, and while I generally appreciate the gaming-oriented tweaks and convenience it offers, I’ve repeatedly run into issues with the update system, particularly when it comes to Wi-Fi. After certain updates - or even failed suspend/resume cycles - my Intel Wi-Fi stops working, leaving me with only the loopback interface (lo) visible. It’s extremely frustrating because it essentially bricks my internet access until I troubleshoot or reinstall components, which can sometimes be impossible without temporary internet access. And not to mention, the same also happens when my computer fails to go to sleep and gets stuck in that state unless I forcibly shut it down and then start it up again. I basically love and hate Nobara as an OS, because for ALL the successes it has brought, and for ALL the immense fixes it has throughout the system, the OS is not that stable as others would portray it as. It makes absolute sense to criticise all that in terms of the distro's firmware design.  
+  
+This leads me to think that the update philosophy in Linux distros like Nobara could use some rethinking when it comes to firmware. Windows and macOS generally ship internet firmware from the start, and for most users, it just works without being touched until ABSOLUTELY necessary. Why can’t Linux adopt a similar approach? My proposal would be to offer **specific ISO flavours** where network firmware is **kept separate from regular updates**. If the network firmware is not broken or damaged, it should simply not be modified by the update system. This would give users more control, prevent frustrating regressions, and reduce situations where updates leave essential hardware unusable.  
+  
+Of course, I understand that kernel and firmware are tightly coupled and that new hardware might need firmware updates, but for users who have stable hardware and functional Wi-Fi, there’s no reason the system should force firmware updates that could introduce instability. By providing a separate ISO flavour or a version-locked firmware option, distros could satisfy both use cases: users with cutting-edge hardware would continue to receive updates, while users with stable setups could maintain a working environment without unnecessary risk.
+
+
+
+**Possible Counter-Arguments and Responses**  
+  
+Counter-Argument: ""Firmware updates are required for kernel compatibility; freezing them may break driver support.""  
+  
+Response:  
+  
+Absolutely, firmware must match the kernel for newer drivers. The solution is not to freeze all firmware forever, but to offer separate ISOs or optional version-locks. Users with working hardware can opt into a stable ISO, while bleeding-edge hardware users still receive updates. This is about choice and risk management, not complete immutability.  
+  
+Counter-Argument: ""Users with older firmware may miss security or bug fixes.""  
+  
+Response:  
+  
+True - but users opting for stable ISO flavours should be informed that this trade-off exists. It mirrors how enterprise distros handle LTS releases: they prioritize stability over cutting-edge fixes. Critical security patches could still be selectively applied, leaving non-critical firmware untouched.  
+  
+Counter-Argument: ""Maintaining multiple ISO flavours increases testing and support burden.""  
+  
+Response:  
+  
+Yes, there’s extra maintenance required. However, many users benefit from hardware stability over aggressive updates, and providing optional ISOs is a feature, not a mandate. Distros could start with one or two curated options to gauge demand, similar to how Fedora offers Workstation vs. Silverblue.  
+  
+Counter-Argument: ""Linux users are expected to manage their system and troubleshoot; why make it simpler?""  
+  
+Response:  
+  
+The goal is not to remove user responsibility, but to prevent catastrophic regressions. Even advanced users shouldn’t have to spend hours fixing a completely non-functional Wi-Fi after a routine update. Reducing this friction actually empowers users to focus on their priorities (like gaming or development) rather than endless recovery steps. UNLESS, the whole entire Linux community has an even better idea...",,title_and_body,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/linux/comments/1sk8zv4/firmware_updates_breaks_and_conflicts_with/
+B8-010,Bitcoin,"The bear will break 60k, but do not fear, it'll give us time to accumulate more sats per dollar",,"[1:reply] We'll see. It could go up, it could go down. All we know is it will move right and never left.
+[2:reply] If I know markets, these condescending all knowing posters will be punished.
+[3:reply] I hope it does, I would love to get BTC that cheap again.
+[4:reply] 99 problems but a btc ain't one
+[5:reply] Mempool blocks move left...",title_plus_comments,no,no,na,medium,The saved text appears outside software scope or is too vague to classify reliably.,,,,,,,https://reddit.com/r/Bitcoin/comments/1r1trqp/the_bear_will_break_60k_but_do_not_fear_itll_give/
+B8-011,AndroidQuestions,Unlocking Phone With Broken Screen,"I have a Galaxy A13 that I want to get some photos off of. The problem is, the screen completely broke yesterday. It's completely black and doesn't seem to be responding to touch in any way. I'd get it repaired, but I'm due for an upgrade from my carrier and I was planning on replacing it anyway, so I don't want to shell out the money just to replace it. Is there any way for me to unlock it through an external device so I can access the files on it? I know the phone is working, it's still receiving calls and the alarms have been going off, I just can't use the screen anymore.","[1:reply] I don't think the a13 supports displayport out, so you can't plug in an external monitor.  I think your best bet is to ask a phone repair shop if you can borrow a screen for a lower price.
+[2:OP] Unfortunately USB debugging isn't enabled, I thought it was but I'm guessing I turned it off at some point and forgot
+[3:reply] Is USB debugging enabled? You can connect it to your PC, download Scrcpy, and mirror it on your PC.",title_body_comments,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/AndroidQuestions/comments/1ur56as/unlocking_phone_with_broken_screen/
+B8-012,firefox,"Firefox 144.0.2, See All New Features, Updates and Fixes",,"[1:reply] Summary of this release (saved you a click)
+
+**Performance Improvements**
+
+* Resolved video playback issues on macOS 26 (Tahoe) under heavy system load.
+
+**Security Fixes**
+
+* Addressed a startup crash on Windows systems with Avast or similar security software installed.
+
+**Key…
+[2:reply] thanks! 🙏
+[3:reply] Does it fix the typing lag in Reddit and YouTube search bar?
+
+Can't get to my Mac right now
+[4:reply] Twitch doesn't load at all for me while it works fine on chrome.
+[5:reply] As of the update, multiple sites aren't working for me like [windy.com](http://windy.com) is not displaying anything other than the map, gmail not loading emails, etc. On a mac running latest iOS.",title_plus_comments,yes,yes,other,medium,The post appears to discuss software without a clear troubleshooting or chiefly critical purpose.,,,,,,,https://reddit.com/r/firefox/comments/1oiao86/firefox_14402_see_all_new_features_updates_and/
+B8-013,Android,Still don't have the Pixel January 2026 update? You're not alone!,,"[1:reply] Yep. Just posted in the Pixel Fold subreddit about this
+[2:reply] I have a Pixel 9a and I received the update. I wonder what the hold up is for the other models.
+[3:reply] The rest of the world is not missing out
+[4:reply] Indeed, I do not hsve thr pixel updste
+
+On my xperia
+
+What is the point of these news posts and why does automod approve their reposting
+[5:reply] The ""holdup"" isn't based on models",title_plus_comments,yes,yes,other,medium,The post appears to discuss software without a clear troubleshooting or chiefly critical purpose.,,,,,,,https://reddit.com/r/Android/comments/1qjuc4c/still_dont_have_the_pixel_january_2026_update/
+B8-014,transformers,This just seems right.,,"[1:reply] Springer: Coulda *sworn* I was the second-tallest one here.  
+Arcee: Got a problem with being shorter than me?  
+Springer: Not at all, as Mr. Miracle said to Big Barda.
+[2:reply] I wonder how different the TF timeline would have been if prototype Arcee came out alongside them.
+[3:reply] Depends on if Arcee sold well at all tbh. If the G1 figure became the original shelfwarmer, we probably wouldn't see another female Transformer for a long time, if at all. But on the other hand, if she sold well, we could've seen female Transformers have far more prevalence in t…
+[4:reply] Im here for short king Springer
+[5:reply] I never had the Springer toy, so I honestly never realized how short he is. I always thought he was the same size as Hotrod.",title_plus_comments,no,no,na,medium,The saved text appears outside software scope or is too vague to classify reliably.,,,,,,,https://reddit.com/r/transformers/comments/1nt4jih/this_just_seems_right/
+B8-015,chrome,I cant watch youtube and other videos.,"Guys i need help. i use chrome as a browser and it suddenly dosent work on videos. when i open the video i can hear the vioces but i cant see the video. i tried closed extensions, reset modem, reset pc and chrome is latest version but i still cant fix the problem. can u help me, how can i fix that?","[1:reply] Thank you for your submission to /r/Chrome! We hope you'll find the help you need. Once you've found a solution to your issue, please comment ""**!solved**"" under this comment to mark the post as solved. Thanks!
+
+
+*I am a bot, and this action was performed automatically. Please […
+[2:reply] Can you share your chrome://gpu contents on [https://crbug.com/448970702](https://crbug.com/448970702) ? If you're on M140, updating to M141 may resolve the issue.
+[3:reply] Just did an update and the video I play all the time in the background (Rain, etc...) just keeps showing 'This video is unavailable' Error code 4 no matter what I do or whether my adblockers are on or off.
+[4:reply] I am also having this issue as of 02/10/25. Turning off hardware acceleration gets it to work, but with single digit framerates. All other browsers are unaffected.",title_body_comments,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/chrome/comments/1nwgz8q/i_cant_watch_youtube_and_other_videos/
+B8-016,applehelp,siri is way too active?,"only a problem when i have my sony xm5s on, but everytime any noise happens or i talk or try to sing with my songs it pauses the song because siri thinks i need something. i've disabled siri for the sony headphone management apps and spotify, and it still does it when i turn siri off completely. this is a new issue with the new update. iphone 15 pro running 26.4.1, all updates are done and firmware updated. it still wants to use voice assistant even though it's never been turned on? just for these headphones.... should note that in every setting for the headphones in the apps and in iphone settings it should not be listening either. everything is off. i'm gonna try to just restart phone delete the headphones and the app re download and re set up the headphones like new, but i am not hopeful. what magic setting am i missing?",,title_and_body,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/applehelp/comments/1tia7g7/siri_is_way_too_active/
+B8-017,neovim,"MiniMax updates: vim.pack on Neovim&gt;=0.12, config for Neovim=0.10",,"[1:OP] TL;DR:
+
+- [MiniMax](https://nvim-mini.org/MiniMax/) (a Neovim config generator based on ‘mini.nvim’) now has dedicated configs for Neovim&gt;=0.12 (uses `vim.pack`, Neovim built-in plugin manager) and for Neovim=0.10 (for people who might need it).
+
+- There are dedicated pages w…
+[2:reply] Still craving for mini terminal :-)
+[3:OP] &gt; I was always hesitant to adapt vim.pack because, while it's a plugin manager, I've found it to be quite difficult for plugin authors and maintainers to develop and maintain their own plugins with it. 
+
+I don't quite understand the question. Do you mean that plugin authors c…
+[4:reply] apart from what the author said, developing you own plugin is as simple as \`vim.opt.rtp:append(""you/plugin/path"")\`, and you can clone any plugin you want to modify separately like this, package manager has its own realm of plugins that you don't temper with.
+[5:reply] What sorts of changes were/are needed to support vim.pack?",title_plus_comments,yes,yes,other,medium,The post appears to discuss software without a clear troubleshooting or chiefly critical purpose.,,,,,,,https://reddit.com/r/neovim/comments/1r5lrzh/minimax_updates_vimpack_on_neovim012_config_for/
+B8-018,Android,"S22 Ultra vs S23 Ultra vs S24 Ultra vs S25 Ultra vs S26 Ultra - (Speed, Speakers, PUBG &amp; Updates) - Matthews Tech",,"[1:reply] Even side by side it’s hard to tell the difference
+[2:reply] I'll stick with my S23 Ultra till the day she dies, absolute beast of a phone.
+[3:reply] The comparison of the Galaxy S22 Ultra through the S26 Ultra highlights a shift from the distinct ""boxy"" design to a more rounded, conventional smartphone shape. While the S24 Ultra is noted as a peak for build quality and features, the newer S25 and S26 versions introduced seve…
+[4:reply] I don't see how a consistent design should be seen as a problem.
+[5:reply] Someone to summarize?",title_plus_comments,no,no,na,low,The saved text appears outside software scope or is too vague to classify reliably.,,,,,,,https://reddit.com/r/Android/comments/1s3xn24/s22_ultra_vs_s23_ultra_vs_s24_ultra_vs_s25_ultra/
+B8-019,Android,Google teases ‘exciting’ Android XR updates for glasses on Dec 8,,"[1:reply] That's how smartphones started, it's fine if you don't see their usage, these things need to come out to receive feedback and make them better for the future
+[2:reply] May I ask what the benefit is? I personally prefer the open approach of Linux
+[3:reply] These VR glasses need to be half the size and twice as powerful for me to consider getting one. They solve nothing in their current form. Just an enthusiasts toy built by companies with FOMO.
+[4:reply] I remember everyone telling me the same thing when I bought my first smartwatch almost 15 years ago.
+
+Now Apple Watches are larger and with worse battery life yet are ubiquitous
+[5:reply] I wish the steam frame used Android XR",title_plus_comments,yes,yes,other,medium,The post appears to discuss software without a clear troubleshooting or chiefly critical purpose.,,,,,,,https://reddit.com/r/Android/comments/1pbl3fz/google_teases_exciting_android_xr_updates_for/
+B8-020,linuxquestions,Update; tried to dual boot Mint,"Probably not the place, but got no where else to vent about this.
+
+I just set up a simple dual boot for windows 11 and Mint. Everything was working fine. After getting some basic customization and updates out of the way I did three things. I synced my firefox account, I signed into google calendar, and installed steam. That's it. Nothing else.
+
+I then went out to lunch.
+
+Got back and Mint crashed the second I sat down. And upon trying to re enter I got stuck a boot loop. Couldn't get into windows at all, and could only get into linux for a few seconds before it crashed and restarted the loop.
+
+Had to reinstall windows, and now I'm here trying to remember and redo literal years worth of customization. 
+
+I don't want to let one bad experience color my perception, but I don't think I'm going to be trying linux any time soon after this.","[1:reply] &gt;I then went out to lunch. Got back and Mint crashed the second I sat down.
+
+[https://en.wikipedia.org/wiki/Post\_hoc\_ergo\_propter\_hoc](https://en.wikipedia.org/wiki/Post_hoc_ergo_propter_hoc)
+[2:reply] That sounds really strange. Crashes can happen, but that's bizarre. Do you use an nvidia GPU? I don't think even bad drivers would cause this but it's not impossible. The only thing I can think of is maybe your ssd is dying  and installing Linux re-partitioned it in such a way t…
+[3:OP] Great deflection. I installed linux, boot loop. I reinstall windows, no more boot loop. Spit out all the latin you want, but only one variable changed
+[4:OP] Amd, I'll check on the smart status as soon as I get home, or tomorrow.
+[5:reply] &gt; Got back and Mint crashed the second I sat down
+
+What do you mean it crashed?  What were the symptoms and what did the logs show?  Are you using SSD or HDD storage?
+
+My best guess is that you're using HDD and bumped the desk while sitting down causing the hard drive to cras…",title_body_comments,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/linuxquestions/comments/1tplxlz/update_tried_to_dual_boot_mint/
+B8-021,union,"This is so true. I think most of us, myself included, could use more education. They don't teach Labor History in school.",,"[1:reply] Conservatives like to whine about how our public school curriculum is controlled by ""the left"". If that were the case, I would have learned about things like the Ludlow Massacre and the Pullman Strike when I as *in school* instead of later, after I graduated college.
+[2:reply] The podcast Cool People Who Did Cool Stuff covers a lot of labor history. The very first episode is about the Haymarket Affair! She covers Blair Mountain as well. Also international labor movements. It’s really great! Not all of it is labor history but enough that I think it’s w…
+[3:reply] Add the Battle of Blair Mountain, that's one of my favorite parts of American history. Didn't have a great outcome, but I always thought it was interesting the term ""redneck"" was a union term from the militias wearing red bandanas
+
+They dropped gas and WW1 munitions on them for…
+[4:reply] The cult is banning books, disapproves of science and is now searching for reasons that make pedophilia acceptable.  I’m sorry to say, but the old saying is true…You can’t fix stupid.
+[5:reply] Everyone should read The Jungle by Upton Sinclair and Living My Life by Emma Goldman. These books demonstrate the need for unions.",title_plus_comments,yes,no,other,low,The post appears to discuss software without a clear troubleshooting or chiefly critical purpose.,,,,,,,https://reddit.com/r/union/comments/1ozoctf/this_is_so_true_i_think_most_of_us_myself/
+B8-022,applehelp,iPhone phone not allowed problem after iOS 27 Native update,"Before going to iOS 27 beta 1 to 7 i was on iOS 26.6 and the signal was gone, but when i got to some spesific area like beach, it suddenly get signal, and the signal vanished after my phone died, 4 days later, i update my phone to iOS 27 beta 1, all the same until beta 2, when i was chilling on my pc, i suddenly get signal, the signal was appear then gone, and then appear again PERMANENTLY, it was permanent for 1 month and 4 days, from beta 2 until 8, and comes the native, after updating to the native, the signal gone like on the iOS 26, and it gives me “Phone not allowed” while the sim and phone detects nearby tower, even tested it on my other iPhone, the sim still active, i bought it from a retail store, it was “authorized” but idk, that store is pretty popular. So how can i fix this? Any tips and helps?","[1:reply] Does the issue persist with non-beta software?
+[2:OP] I dont really know and thats also the part where im confused, like when on iOS 26.6 native (non beta) the signal shows up like i mention near a beach, the signal shows up on the betas, but it took 5 days to show up after beta 2",title_body_comments,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/applehelp/comments/1wu6ae5/iphone_phone_not_allowed_problem_after_ios_27/
+B8-023,Fedora,My fedora won't boot,"**Problem:** My Fedora system won't boot. It freezes at the GRUB menu regardless of which kernel I select. I managed to get it working with the following kernel parameters:
+```
+acpi=off irqpoll usbcore.autosuspend=-1 nomodeset processor.max_cstate=1
+```
+
+But this isn't a permanent solution because:
+- Video resolution is stuck at 1024x768
+- System is laggy and slow
+- Power management is broken (CPU stuck at full speed)
+- It crashes/hangs on shutdown
+
+**What I've already tried:**
+1. Updated GRUB config to make the working parameters permanent (temporary fix)
+2. Updated system packages (kernel, firmware, etc.) via `sudo dnf update`
+3. Updated BIOS to latest version
+4. Tried alternative parameters:
+   - `acpi=noirq` / `pci=noacpi` / `noapic` (crashed)
+   - `amdgpu.dc=0` / `modprobe.blacklist=amdgpu` (didn't help)
+   - `iommu=off` / `pci=nommconf` (crashed)
+
+**What the logs show (journalctl):**
+- `/dev/sda` (HDD 1TB) has persistent I/O errors:
+  ```
+  ata1.00: exception Emask 0x10 SAct 0x2400140 SErr 0x40d0002 action 0xe frozen
+  I/O error, dev sda, sector 1950530592 op 0x0:(READ) flags 0x80700 phys_seg 20 prio class 2
+  ```
+- `/dev/sdc` has 8 pending/uncorrectable sectors
+- `amdgpu` fails to initialize:
+  ```
+  libEGL warning: failed to get driver name for fd -1
+  MESA: error: ZINK: failed to choose pdev
+  ```
+- ACPI errors detected:
+  ```
+  ACPI: Interpreter disabled
+  APIC: ACPI MADT or MP tables are not detected
+  ```
+- TSC clocksource instability warnings:
+  ```
+  clocksource: timekeeping watchdog on CPU0: Marking clocksource 'tsc' as unstable
+  ```
+
+**My goal:** Boot without `acpi=off` and without `nomodeset` to get proper graphics acceleration and power management.
+
+**Any suggestions?** Could the failing HDD be causing the boot freezes even though the system is installed on the SSD (`/dev/sdb`)? Is there a way to disable the faulty HDD temporarily just to test? Or is this purely an ACPI/GPU firmware issue that needs a BIOS update?
+
+- System info
+
+```
+Operating System: Fedora Linux 44
+KDE Plasma Version: 6.7.0
+KDE Frameworks Version: 6.27.0
+Qt Version: 6.11.1
+Kernel Version: 7.0.12-201.fc44.x86_64 (64-bit)
+Graphics Platform: Wayland
+Processor: 1 × AMD Ryzen 5 3350G with Radeon Vega Graphics
+Memory: 16 GiB of RAM (5.7 GiB usable)
+Graphics Processor: llvmpipe
+Manufacturer: BIOSTAR Group
+Product Name: A320MH
+
+```","[1:reply] I'm not experienced enough to help you however i once had a crashing on boot problem caused by a laptop gpu, i switched it to integrated graphics and it worked.
+[2:reply] That failing/failed HDD definitely stops you from booting if your /etc/fstab doesn't have the nofail flag set for it. It'll also lag the hell out of your system when you open anything that could possibly need to access it. Both sda and sdc have issues according to that log.
+
+I'd…
+[3:reply] This might be a long shot, but I think you have a hardware power issue.
+
+Several unrelated severe issues would point to hardware anyway, but the unstable clock error really sticks out to me as a possible sign of noisy/bad power (whether that's the fault of the PSU or motherboard…
+[4:OP] Thanks, but I don't have a dedicated video card, I only have the integrated graphics.
+[5:OP] I physically removed both HDDs and commented out their entries in /etc/fstab. The issue remains: I can only boot (including the live USB) with acpi=off. Without it, the system freezes.",title_body_comments,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/Fedora/comments/1ug3yhh/my_fedora_wont_boot/
+B8-024,microsoft,"Microsoft prepares major Windows 11 feature drop with new Start menu, Taskbar updates, and more | New features expected to roll out next month",,"[1:reply] All features AI I presume
+[2:reply] It doesn't matter. No pathetic cosmetic changes can compensate for the bloating, for forcing AI into everything, for the complete disrespect for customers.
+[3:reply] &gt;Now, their app previews will display with a pretty animation that makes Windows 11 feel a little more complete.
+
+...they have learned absolutely fucking nothing.
+[4:reply] The start menu is gone. You just click the start button and Copilot knows what you wish to launch or it will decide for you.
+[5:reply] Have you considered reformatting this complaint with Copilot??",title_plus_comments,yes,yes,other,medium,The post appears to discuss software without a clear troubleshooting or chiefly critical purpose.,,,,,,,https://reddit.com/r/microsoft/comments/1oe5t8b/microsoft_prepares_major_windows_11_feature_drop/
+B8-025,transformers,$45 photo set up instantly upgraded my photos,,"[1:reply] I agree, the cat really adds a lot
+[2:reply] Yeah but you just got a picture of the stupid toy.  Your subject seems to have walked away.
+[3:OP] Thanks ! His name is trunks !
+[4:reply] it looks like the homeowner (cat) approves of this.
+[5:reply] Jazz looks sorta like he's chilling on that one old Windows wallpaper. (I WISH I COULD LINK AN IMAGE, BUT THIS SUB DOESN'T LET ME. You probably know the one...)",title_plus_comments,no,no,na,medium,The saved text appears outside software scope or is too vague to classify reliably.,,,,,,,https://reddit.com/r/transformers/comments/1novinr/45_photo_set_up_instantly_upgraded_my_photos/
+B8-026,HomeNetworking,KVM not working with new tv?? Please help!!!,"I recently bought a kvm switch from the advice on Reddit to use my pc (which is in my office) in my living room. I don’t know anything about this stuff so please bear with me and be patient. But I really would appreciate help with this.  
+I ran a 100 ft Ethernet cable across my house and it worked great. I was using an old plasma tv in my living room but just upgraded to a new tcl smart tv. Now the kvm is not showing a display on the new tv. I am super frustrated and troubleshooting online has not helped. It seems like my model might not be good enough for a new tv which really sucks. I spent just under $200 CAD for this one which I thought was the better of the options I was looking at so I don’t know why it wouldn’t work? I really don’t want to spend crazy amounts on this, at that point I’d rather get a steam machine.
+
+Current kvm [AV Access 4KEX120-KVM](https://a.co/d/01mrDSn4)  
+New TV - TCL M8L  
+Googles recommended [KMV](https://www.avaccess.com/products/8kex100-kvm/?srsltid=AU7gw4U8ebZh11wc6I_6mAy6efr0w9wpu0gZtAvFZCSjhgymaTdtMc8FtvE) \- AV Access 8KEX100-KVM
+
+The kvm that was given as a recommendation from Google is way more money and just more than I wanted to spend. It is also from the manufacturer’s website rather than Amazon which is not ideal since it seems to be from the states (I’m in Canada) and is in USD so not sure if I would have issues with ordering or returns if it doesn’t work out. My return window on Amazon for my current KVM is until Oct 15th so hope to get this figured out asap incase I need to return it.
+
+Things I have tried looked at from googles recommended trouble shooting that have not worked - powering tv, kvm, and pc in specific order. Changing hdmi input settings on tv to 1.4. And changing refresh rate on pc to lower value.
+
+Please please help. And if there is nothing I can do to make this work, hopefully there is a less expensive recommended model that I could buy that ships to Canada","[1:reply] What information displays on the tv, if anything?  Blue screen? A message? A green screen?
+
+I can think of a few things. 
+
+1. HDCP handshake issue. HDMI has built in copywrite where the devices need to identify themselves (power on in specific order is a possible solution for th…
+[2:OP] When I first plug in the kvm it’s a black screen that says ‘wait Video input’ then will switch off and go to the TVs no signal screen. 
+
+1. The power on in specific order didn’t work. Did the tv, kvm, then PC 
+
+2. My pc showed the output for this display at 1080p. Is there any r…",title_body_comments,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/HomeNetworking/comments/1ws67oc/kvm_not_working_with_new_tv_please_help/
+B8-027,Android,Bixby to get a major AI upgrade with One UI 8.5,,"[1:reply] AI AI AI AI
+
+Wouldn't it be nice to not hear this word ever again?
+[2:reply] AI itself isn’t the problem.
+It’s the gap between marketing promises and actual everyday usefulness.
+If it quietly improves workflows, great.
+If it’s just another buzzword, people tune out fast.
+[3:reply] So will this be for all devices or s26 only? Hmmm
+[4:reply] Yet you clicked this post and had to leave a comment about bixby
+[5:reply] Bixby will never succeed.",title_plus_comments,no,no,na,low,The saved text appears outside software scope or is too vague to classify reliably.,,,,,,,https://reddit.com/r/Android/comments/1q8gl2v/bixby_to_get_a_major_ai_upgrade_with_one_ui_85/
+B8-028,bluetooth,Samsung Galaxy 24 Ultra- can't hear me on calls in car,"What the title says. My phone connects to my 2021 Kona Hyundai fine. It plays music, talk to text, and can make calls but the person I'm calling can't hear me even though I can hear them. Its not my mic in my car since I'm able to do talk to text. 
+
+I've tried deleting my phone from my car connection and forgetting the connection on my phone and reconnected that way, didn't fix the problem. I've gone through all of the settings in my car and on android auto to make sure all permissions are on which they are. I'm stumped on what is happening. 
+
+Doesn't work wireless or plugged in. 
+
+This recently happened when my phone did the latest Samsung update last week.
+
+I should add that other phones connected to my car can make calls and the receiver can hear the phone thats connected. 
+
+Any one else having similar troubles or ideas to help fix?","[1:reply] Huh, could be software related, but id be interested in knowing if your radio has a microphone that is blocked/faulty/damaged",title_body_comments,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/bluetooth/comments/1ucyql4/samsung_galaxy_24_ultra_cant_hear_me_on_calls_in/
+B8-029,Bitcoin,lol,,"[1:reply] god btc holders are the most embarrassing people on earth sometimes.
+[2:reply] Lol but I don't agree, parents should stack btc while kids get an education or they will only think it as magical internet money
+[3:reply] Maybe high school first, then buy Bitcoin 😂
+Education + BTC = diversified future, right?
+[4:reply] Father of the year.
+[5:reply] Gotta orangepill them early :D",title_plus_comments,no,no,na,medium,The saved text appears outside software scope or is too vague to classify reliably.,,,,,,,https://reddit.com/r/Bitcoin/comments/1qjvmr5/lol/
+B8-030,linux,Xfwl4 - The roadmap for a Xfce Wayland Compositor,,"[1:reply] The linked article literally tells you why! What the fuck are you on about. xfwm was written from the ground up exclusively with X11 in mind, it does not have a codebase that is in any way adaptable to wayland. Rewriting the current codebase to support wayland instead of startin…
+[2:reply] I was wondering when they'd get around to this. Most of the core XFCE programs (xfce4-panel, thunar, mousepad, things like that) have quietly added Wayland support and so XFCE's Wayland session is pretty much ready to roll except for the lack of an inbuilt compositor.
+[3:reply] I‘m really excited for this to roll around. I really like XFCE and having it support wayland is a great sign that it‘s still going to be maintained in the future and go with the times
+[4:reply] been waiting - thanx for info
+[5:reply] Cool. As far as my $30 contributed, I am very happy for it to be put towards funding this.",title_plus_comments,yes,no,other,low,The post appears to discuss software without a clear troubleshooting or chiefly critical purpose.,,,,,,,https://reddit.com/r/linux/comments/1qofgg2/xfwl4_the_roadmap_for_a_xfce_wayland_compositor/
+B8-031,Magisk,"[Help] After updating Magisk, it stopped working.""",,,title_only,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/Magisk/comments/1l34bjv/help_after_updating_magisk_it_stopped_working/
+B8-032,ollama,"Rootless Podman + Ollama ROCm on Fedora: ""Memory critical error ... Reason: Memory in use"" fixed with `--security-opt label=disable`","# UPDATE:
+
+I found a narrower fix. You do not need `--security-opt label=disable`. The ROCm `Memory in use` error was SELinux denying the container from mapping `/dev/kfd`. The AVC log showed a denial for `map` on `/dev/kfd` with type `hsa_device_t`. `audit2allow` pointed to the `container_use_devices` boolean, which covers this access.
+
+Enable the boolean:
+
+    sudo setsebool -P container_use_devices 1
+
+Then recreate or restart the container without `--security-opt label=disable`.
+
+### Previously
+
+I ran into a weird issue running Ollama with ROCm in a rootless Podman container on Fedora. Models downloaded fine, but loading any model crashed with:
+
+    Memory critical error by agent node-0 ... Reason: Memory in use
+    llama-server process has terminated: signal: aborted (core dumped)
+
+# Setup:
+
+* Fedora
+* RX 6800 XT, `gfx1030`
+* Rootless Podman
+* Image: `ollama/ollama:rocm`
+* GPU devices passed with: `--device /dev/kfd --device /dev/dri`
+
+The container started, the GPU was detected, and the ROCm libraries inside the image looked fine. But every model load crashed with the memory error above.
+
+# What it was not. I checked:
+
+* Device permissions: `/dev/kfd` and `/dev/dri/renderD128` were accessible with read/write
+* Missing ROCm libraries: the image already has them, and it detected the GPU
+* `HSA_OVERRIDE_GFX_VERSION`: not needed in my case
+* `memlock` limits: I raised the hard `memlock` limit for my user, but it made no difference
+
+One clue that sent me down the wrong path: the same container worked when run rootful. That made me think it was a user namespace / memlock / permission issue, but it was not.
+
+# What fixed it:
+
+`--security-opt label=disable`
+
+The error message is misleading. My best guess is that SELinux is blocking the container process from mapping GPU memory through `/dev/kfd`, even though opening the device succeeds. That makes ROCm report something like ""Memory in use"", which is confusing because it is not actually a host RAM issue.
+
+I did not confirm this in the SELinux audit log, so treat that part as a likely explanation rather than a proven root cause.
+
+# Working command:
+
+    podman run -d --device /dev/kfd --device /dev/dri --security-opt label=disable -v ollama:/root/.ollama -p 11434:11434 --name ollama docker.io/ollama/ollama:rocm
+
+I searched Reddit for a while and couldn't find anything similar, so hopefully this saves someone a few hours of head-scratching. Happy hacking.",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/ollama/comments/1wvdmsh/rootless_podman_ollama_rocm_on_fedora_memory/
+B8-033,linuxquestions,"""For security reasons, running the file 'file im trying to open.jar' has been blocked."" On java application on Linux Mint?","I recently updated everything through update manager, and now I can't open Java applications. .Jar files are blocked for ""security reasons"" I have no clue how to fix this? How do I get it to stop doing this, or the reason why it's blocking the application?","[1:OP] The file was a minecraft launcher I had been using for years with no issues, I can confirm it is safe. I've recently switched to linux and redownloaded it, and it had worked fine up until today.
+[2:reply] Are you sure the jar files are safe? And what’s in them
+[3:reply] It's rarely ever sensible to allow java applications to open by double click in file manager, because java versions and runtime options vary so much that there's not really one good sensible default these days. So java packages on most distros usually don't come with a file asso…
+[4:reply] Did you figure out a solution? And did this randomly start happening to you recently with a file you've been using for years?
+[5:OP] Randomly started happening after I updated everything through update manager yesterday. I still haven't found a solution yet sadly.",title_body_comments,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/linuxquestions/comments/1uutqf5/for_security_reasons_running_the_file_file_im/
+B8-034,applehelp,transfer data from iphone 13 with ios 18 onto iphone 11 with ios 16.3,"i want to transfer my data from my iphone 13 which has ios 18, onto my old iphone 11 which has ios 16.3 (and was factory reset). 
+
+mainly doing this cause my iphone 13 is pretty broken... also i was happy with 16.3 and never wanted ios 18, but it was already on the iphone 13 when i got it. 
+
+however, the automatic transfer thing won't let me transfer my data without also updating the phone to the newest ios (26.2.1). i start the transfer process but eventually get to a screen with the only button being to download and install ios 26 and no way to progress the transfer without doing the download first. 
+
+i assume this is because theres data on my iphone 13 that was introduced with the ios 18 and is incompatible with ios 16.3.
+
+would there be any way to do the transfer manually so i could physcially exclude the new ios data? like using the apple devices app on my laptop to copy my apps, files and photos maybe?",,title_and_body,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/applehelp/comments/1r0uom2/transfer_data_from_iphone_13_with_ios_18_onto/
+B8-035,Bitcoin,Me right now 🫠,,"[1:reply] I love the communities obsession with McDonalds.   
+Cathy Wood worked at McDonalds.
+[2:reply] So did Trump.  Fry cook to POTUS.
+[3:reply] lol this meme is too correct it's kinda funny",title_plus_comments,no,no,na,medium,The saved text appears outside software scope or is too vague to classify reliably.,,,,,,,https://reddit.com/r/Bitcoin/comments/1p28pnv/me_right_now/
+B8-036,google,I think I broke it,,"[1:reply] Cool. But you can bet some coder in some backroom is getting the crap beat out of him/her right now for allowing AI to look bad to the world. I feel sorry for the humans who are running the AI shit show behind the scenes for the big AI mofos upfront, but not that sorry.
+[2:reply] You know that asking Google a question about product recommendations will basically just give you an ad as answer, right? Might as well ask it what company paid most for their product being placed on top of Googles recommendations.
+[3:reply] …. Next loop!
+[4:reply] The for for for children",title_plus_comments,unclear,no,na,low,The saved text appears outside software scope or is too vague to classify reliably.,,,,,,,https://reddit.com/r/google/comments/1qozvt5/i_think_i_broke_it/
+B8-037,linux,"I love linux, but...","Now, I fully switched to linux this year and I really like it, finally I don't feel like i'm being spied on everytime I use my computer. But there is one thing I still don't understand and really bothers me. The OS breaks, randomly. Yeah, you simply update it, and you are left with missing drivers, kernel panic, broken UI, emergency mode, etc...
+Now, me and my friends just got a new computer to play a rhythm game and stream it on twitch, I wanted to put linux on it, like on our current computer, but they all stopped me, because linux broke twice on that computer, everytime after a simple update, the gpu drivers were gone, and I still don't understand how it happens. How can something that is meant to improve your OS make it unusable? And when I try to ask on communities how to fix it, the answers are always ""just reinstall it"" or ""sssskill issue"". We can't rely on linux because once every few months it needs to be reinstalled, and all of our files are gone, unless we physically connect our SSD to another computer and backup something like 100GB of songs on an external hard drive (the process, as you can imagine is PISS SLOW). I also guess this is what is stopping most people from using Linux, you can't really rely on it because it breaks.
+I feel bad writing this but it's the sad truth. I'm not going to switch back to windows on my personal computers ever, but I was basically forced to install atlas os (so windows but debloated) on the computer we use for that game.
+We gave linux a chance, but it didn't work out.
+
+Edit: This is what happened everytime:
+
+1st distro - Linux mint - broke nvidia drivers after an update
+
+2nd distro - EndeavourOS - Same as mint
+
+3rd and current distro - CachyOS - the computer randomly freezes, and it's not overheating or hardware problems, as I personally checked.",,title_and_body,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/linux/comments/1od3glr/i_love_linux_but/
+B8-038,Ubiquiti,UniFi UCG-Ultra,"I recently upgraded my controller from a UCG-Ultra to a UDM-Pro.  I am going to sell the Ultra, what is a fair asking price for it.  I paid $140 for it 2 months ago, was thinking $120.","[1:reply] You have to be significantly lower than Ubiquiti's brand new price for anyone to want a used product off a random person. If that is $120 shipped anywhere in your country then it is probably fine, as a new one costs around $165 shipped. If you wanted to add shipping costs then I…
+[2:reply] More memory, better CPU, SFP ports, much more manageable equipment, much more users, 8 ports switch integrated… and you don’t call that an upgrade?
+[3:reply] Hello!  Thanks for posting on r/Ubiquiti!
+
+This subreddit is here to provide unofficial technical support to people who use or want to dive into the world of Ubiquiti products.  If you haven’t already been descriptive in your post, please take the time to edit it and add as many…
+[4:reply] Not everyone makes hardware changes to upgrade. I did the same and originally had a UCG Ultra. Then decided to rack mount my equipment and went with a UDM Pro.
+[5:reply] That's not exactly an upgrade. You replaced an entry-level device that came out in 2024 with a professional-one that came out in 2020. A bit of a side-grade IMO.
+
+CGUltra is $129+shipping+surcharges in the US store. I wouldn't pay more than $100 shipped for a used one, regardles…",title_body_comments,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/Ubiquiti/comments/1wv47hj/unifi_ucgultra/
+B8-039,Android,Google's January Pixel update breaks Wi-Fi and Bluetooth,,"[1:reply] microsoft update breaks pc shutdown google updates breaks wifi and bluetooth. Your move apple
+[2:reply] For some users - like any of these reports, perspective is important. No issues for me for instance.
+[3:reply] but they already released iOS 26
+[4:reply] Awesome, my phone now runs on vibe code.
+[5:reply] In my experiences with Pixels, they would always have the most ridiculous bugs I've ever encountered on anything ever.
+
+The Pixel 9 XL had by far the stupidest bug. The bug was the phone wouldn't wake up, and when it finally did the brightness would be lowered and wifi would sto…",title_plus_comments,yes,yes,other,medium,The post appears to discuss software without a clear troubleshooting or chiefly critical purpose.,,,,,,,https://reddit.com/r/Android/comments/1qosy2r/googles_january_pixel_update_breaks_wifi_and/
+B8-040,comfyui,Strix Halo: 1 hour long job failed after 10 minutes again,"Honestly, there's nothing more annoying than coming back to my desktop after an hour only to realize my ComfyUI workflow errored out 10 minutes after I left the room.
+
+I'm running a Strix Halo Framework desktop and after the 5th time I ""wasted"" an hour thinking it was rendering, I decided to build a simple browser monitor - [GreenBar.io](http://GreenBar.io)
+
+Think of it like a baby monitor for your UI. You draw a selection box over any area of the screen and tell it what phrase to watch for. It pings your phone the moment that text appears, so you can choose to monitor for a successful ""Saved"" filename or a specific error message if it fails. No app installation needed.
+
+It's quite universal, so I successfully used it with workflows in Blender rendering , Final Cut Pro video export and LM Studio model downloads. Let me know if it helps your workflow, I am looking for feedback to hopefully build GreenBar into something bigger. 
+
+Note to self: I need to try the new ROCm 7.2 driver update with stability fixes.
+
+[Monitoring for output file name](https://preview.redd.it/0b6awc9zbvgg1.png?width=1192&amp;format=png&amp;auto=webp&amp;s=abcf1d3adfbe3fa3687a794b630f15c8293c4255)",,title_and_body,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/comfyui/comments/1qswjxx/strix_halo_1_hour_long_job_failed_after_10/
+B8-041,json,Formatting/parsing help,"Im trying to use the Qbit WebUI API to auto update my forwarded port, but keep getting parsing errors from the curl POST step of my script. I cant find anything wrong but im not experienced with this at all either, so i may just be dumb. 
+```
+curl -v -H ""Content-Type: application/json"" \
+  --data '{""listen_port"":${gluetun_port}}' \
+  ""$HTTP_S://${GLUETUN_IP}:${WEBUI_PORT}/api/v2/app/setPreferences""
+```
+
+Idk why the last line is formatting like that in reddit, there's not actually an extra space there.","[1:reply] In the shells I've worked with, using single quotes prevents variable substitution.  I wonder if that's the problem here?  Instead of `{""listening_port"":123}` it's getting sent as `{""listening_port"":${gluetun_port}}` - which isn't valid JSON.
+[2:OP] Ok, ill try swapping my quites around and see if that helps
+[3:OP] I changed the object to `""{'listen_port':${gluetun_port}}""` and am getting a different error now.
+
+`unknown content type: ""application/json""`
+[4:reply] Please check this",title_body_comments,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/json/comments/1nobzk5/formattingparsing_help/
+B8-042,Bitcoin,Message to true Bitcoiners,,"[1:reply] 😳 but I don’t have anymore cash Mr Rothschild
+[2:reply] Was it over when the Germans bombed Pearl Harbor?
+[3:reply] You only really need one kidney.
+[4:reply] Buy with what?
+[5:reply] 👍🏻",title_plus_comments,no,no,na,medium,The saved text appears outside software scope or is too vague to classify reliably.,,,,,,,https://reddit.com/r/Bitcoin/comments/1qqucmg/message_to_true_bitcoiners/
+B8-043,godot,Please don't break Please don't break Please don't break Please don't break,,"[1:reply] I dont get people who install godot through steam and automatically update it. Even if all damage can be rolled back from the backups it's still annoying to have to do it.
+[2:reply] Do you know that you can disable updates or lock into certain version?
+
+Do you use version control to manage your code, right?
+[3:reply] Yeah I’m dumb and I like tracking my hours on my Steam account, it motivates me. I like getting the new features, too. I use Git and backup my projects before updating. I haven’t had any issues except I use GodotSteam for multiplayer and sometimes I’m waiting on an update for th…
+[4:reply] According to the comments on the steam post about the update, no lol 
+
+My theory is that it weeds out the vibe coders
+[5:reply] Problems of people not using version control and ci/cd",title_plus_comments,yes,no,other,low,The post appears to discuss software without a clear troubleshooting or chiefly critical purpose.,,,,,,,https://reddit.com/r/godot/comments/1qo71ai/please_dont_break_please_dont_break_please_dont/
+B8-044,AndroidQuestions,Sports scores not showing on Now Bar.,"Hi. S24fe user here.Thought I try again after one UI 8.5. At the beginning, now bar showed all my favorite teams' upcoming games and scores like I had set it up to, but after the November 2025 update, all this went away. Have asked from time to time to see if anyone found any solution. So I'm asking again. Hopefully someone has. Thanks in advance.",,title_and_body,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/AndroidQuestions/comments/1tp8fzo/sports_scores_not_showing_on_now_bar/
+B8-045,godot,do u have opinion on if parent node should handle all the code or if code should be broken up,,"[1:reply] Start with the parent, suffer, and split to smaller scripts. Suffer again, and create a hybrid multilayer solution
+[2:reply] This is generally my heuristic. It's too easy to get into the weeds engineering things. Just make stuff work, and when it gets large, delegate away the stuff that makes sense.
+
+Giving a script to every node is overkill. Giving every action to one script is overkill. The balance…
+[3:reply] Usually I try to break it up, because I hate parsing super long scripts, but if the nodes interact a lot and I don't anticipate this ending up as a 2000-line monster, I might put it all in the parent
+[4:reply] Depends on what your doing
+[5:reply] Why refactor all the time when you can do it right from the start... 
+
+Small modular scrips with signals are almost always the best approach. 
+It prevents code repetition and your project gets more future and bug proof.
+
+This is the whole philosophy behind Godot's node system",title_plus_comments,yes,no,other,low,The post appears to discuss software without a clear troubleshooting or chiefly critical purpose.,,,,,,,https://reddit.com/r/godot/comments/1pzq59v/do_u_have_opinion_on_if_parent_node_should_handle/
+B8-046,MacOS,MacOS 26.4: Windows keep going full-screen,"Just upgraded from 15.7.4 to 26.4 and everything's fine, except for how my Microsoft OneNote and Word windows keep expanding to full-screen on their own every two seconds. Google Chrome and other apps do not seem to have this issue. Anyone experiencing the same thing? SOS.",,title_and_body,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/MacOS/comments/1sandee/macos_264_windows_keep_going_fullscreen/
+B8-047,MicrosoftEdge,Edge won't install or open,"Hi all,
+
+Running Windows 10, Edge version 144.0.3719.92
+
+  
+Ever since the update released on 1/15/2026, Edge won't open. The shortcut doesn't work from taskbar, desktop, or running msedge.exe. I get a buffering icon on the mouse for about a second, and then nothing happens.
+
+Things I have tried:
+
+1. Restarting my PC (no effect)
+
+2. Reparing through ""modify"" in ""Apps and Features"" (no effect)
+
+3. Downloading multiple older versions: Got the message ""There is a problem with this Windows Installer package. A program run as part of the setup did not finish as expected. Contact your support personnel or package vendor.""
+
+4. Following the directions on this comment, with the correct version/file path (no effect) [https://www.reddit.com/r/privacy/comments/140d0y2/comment/jmvuj0b/?utm\_source=share&amp;utm\_medium=web3x&amp;utm\_name=web3xcss&amp;utm\_term=1&amp;utm\_content=share\_button](https://www.reddit.com/r/privacy/comments/140d0y2/comment/jmvuj0b/?utm_source=share&amp;utm_medium=web3x&amp;utm_name=web3xcss&amp;utm_term=1&amp;utm_content=share_button)
+
+This marks the end of my knowlege on the subject. Any help would be appreciated!",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/MicrosoftEdge/comments/1qqjp8w/edge_wont_install_or_open/
+B8-048,debian,Is it only mine or,"Everybody's PC are freezing randomly after the latest 13.6 update.
+
+
+
+After i updated my Debian 13.5 to 13.6, my pc started to randomly freeze (even when opening vim only)​ and stops at imitramfs.","[1:reply] heating problem? check sensors output. dmesg -Tw, memory broken? check memtester
+[2:reply] Not, not everyone is experiencing that.
+
+&gt; my pc started to randomly freeze (even when opening vim only)​ and stops at imitramfs. 
+
+How can you try to open vim if you don't get past initramfs...
+[3:reply] Tried booting into the old kernel, if it helps?
+[4:OP] Sorry for not explaining it well
+,
+
+I meant,
+
+Case 1. sometimes while booting, my PC freezes at initramfs then I shutdown using power button and on it again.
+
+Case 2. And sometimes (fully booted), I see random stuttering while doing any task, nothing else.
+
+And never happened to…
+[5:OP] im a novice, but i didnt see anything concerning, especially about heating issues. and passsed memtest. 
+
+  
+iExcept - \[Mon Jul 13 17:46:24 2026\] x86/cpu: VMX (outside TXT) disabled by BIOS, \[Mon Jul 13 17:46:24 2026\] x86/cpu: SGX disabled or unsupported by BIOS, \[Mon Jul 1…",title_body_comments,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/debian/comments/1uv6zpi/is_it_only_mine_or/
+B8-049,Android,Samsung green lines issue is back! Users claim issue started after update,,"[1:reply] Why does software update cause screen issue?
+[2:reply] Kind of dying to know how a software update is causing what is generally a hardware issue?
+[3:reply] I'm not an expert but I've seen repair videos of these devices with such issues (green line,  entire screen going green/purple etc..) The guy explained that the update somehow causes the power management chip to send out too much voltage at once for whatever reason to the displa…
+[4:reply] One theory is that updating the OS causes heating which affects the panel. One way to mitigate is to not update when charging and to ensure phone is cool before updating.
+[5:reply] That's... an almost 6 year old phone. This isn't news.
+
+Also, panels are expensive. That isn't news either.",title_plus_comments,yes,yes,other,low,The post appears to discuss software without a clear troubleshooting or chiefly critical purpose.,,,,,,,https://reddit.com/r/Android/comments/1p9x65b/samsung_green_lines_issue_is_back_users_claim/
+B8-050,neovim,My highlight seems broken,"https://preview.redd.it/h945vf66e07g1.png?width=1480&amp;format=png&amp;auto=webp&amp;s=b67f15d4f657bc87eb40e8699e93be0c52080eef
+
+I have already tried the following:
+
+* `TSDisable highlight`
+* `LspRestart`
+
+However, this strange pink highlights are still here. It's not just in Lua files. It happens in other code files as well.
+
+I am using Neovim v0.11.5 with LazyVim. My `nvim-treesitter` is on the `master` branch, and `lua_ls` has been updated to the latest version.
+
+What could be causing this? It's getting a bit annoying.",,title_and_body,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/neovim/comments/1plrjc2/my_highlight_seems_broken/
+B8-051,Wordpress,Forms no longer showing after update to WP7,Anyone have any issues with Pardot/Salesforce forms no longer showing after the newest update?,"[1:reply] Have you tried to debug it? Is there anything in the place where they should be? Some code residue? Are those forms embedded on the backend or on the frontend? If on the backend, have you looked at error logs? If on the frontend, have you checked your browser's developer tools'…",title_body_comments,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/Wordpress/comments/1uk6348/forms_no_longer_showing_after_update_to_wp7/
+B8-052,chrome,Shaking search bar on s24 ultra,,"[1:reply] Thank you for your submission to /r/Chrome! We hope you'll find the help you need. Once you've found a solution to your issue, please comment ""**!solved**"" under this comment to mark the post as solved. Thanks!
+
+
+*I am a bot, and this action was performed automatically. Please […
+[2:reply] Good
+[3:OP] There is a video of that problem https://imgur.com/a/wRwfjsQ
+[4:OP] I even factory reset my phone. At first the bug was gone and I was happy, but after some time it came back again.",title_plus_comments,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/chrome/comments/1nv73o8/shaking_search_bar_on_s24_ultra/
+B8-053,chrome,You can no longer swipe the search bar with your finger to switch Chrome tabs on Android,,"[1:reply] What version?
+[2:reply] I have no pending updates on my Chrome and it still works for me. 146.0.7680.164
+[3:OP] versión 146.0.7680.164 in Tablet Lenovo",title_plus_comments,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/chrome/comments/1s4gwva/you_can_no_longer_swipe_the_search_bar_with_your/
+B8-054,neovim,nvim_feedkeys does not work while running in a macro,"I have the following keymap
+
+    vim.keymap.set('c', '&lt;Space&gt;', function()
+        vim.api.nvim_feedkeys(
+            vim.api.nvim_replace_termcodes('&lt;Space&gt;', true, false, true),
+            'n',
+            true
+        )
+        vim.fn.wildtrigger() -- open the wildmenu
+    end, {
+        desc = 'Custom remap Ex completion: Space but also keep completion menu open',
+    })
+
+When I record a macro where I type a space in an Ex command the space properly gets inserted and properly gets recorded to the macro. However, when I replay the macro the space character is not inserted so the Ex command becomes malformed. For example lets say I record the macro \`:Cfilter hi\` then running the macro would run \`:Cfilterhi\` which is obviously incorrect. I tried changing the feedkeys mode to \`c\` but that just recursively calls keymap in an infinite loop.
+
+I had a similar issue when I remapped &lt;CR&gt; in insert mode but was able to work around it by doing
+
+    vim.cmd.normal({
+      bang = true,
+      args = {
+        'i' .. vim.api.nvim_replace_termcodes('&lt;CR&gt;', true , false, true),
+      },
+    })
+
+so I didn't have to use nvim\_feedkeys.
+
+Is there any alternative to nvim\_feedkeys that works when running a macro?","[1:reply] `:h nvim_feedkeys` mentions
+
+```
+Sends input-keys to Nvim, subject to various quirks controlled by `mode` flags.
+```
+
+and also
+
+```
+Parameters: ~
+  • {keys}       to be typed
+  • {mode}       behavior flags, see |feedkeys()|
+  • {escape_ks}  If true, escape K_SPECIAL bytes in `k…
+[2:reply] Please remember to update the post flair to `Need Help|Solved` when you got the answer you were looking for.
+
+*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/neovim) if you have any questions or…
+[3:reply] Help pages for:
+
+* [`nvim_feedkeys`](https://neovim.io/doc/user/api.html#nvim_feedkeys%28%29) in _api.txt_
+* [`feedkeys()`](https://neovim.io/doc/user/vimfn.html#feedkeys%28%29) in _vimfn.txt_
+
+
+---
+
+^\`:\(h|help\)&amp;nbsp;&lt;query&gt;\`&amp;nbsp;| [^(about)](https://github.co…
+[4:OP] Thanks! I think that solves my issue and also explains a lot about wth feedkeys is doing that I didn't understand.",title_body_comments,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/neovim/comments/1o1hx82/nvim_feedkeys_does_not_work_while_running_in_a/
+B8-055,typescript,@ts-ignore is almost always the worst option,,"[1:reply] `@ts-expect-error` should have a comment after it as well so you can remind yourself why you're expecting an error.  Sometimes I might link to an issue if it's appropriate.
+[2:reply] P.s use unknown instead of any if you really don't know the data type... there's very few places any or unknown come into play in my experience, the only real place I can think of is a try, catch where error is unknown.
+[3:reply] Not yet validated data can be unknown as well - if you e.g. call JSON.parse on some object it's unknown before you validated the schema
+[4:reply] Important to note as well that it'll tell you to remove the comment when the type error is fixed as well.
+[5:reply] I wish `@ts-expect-error` let you specify which error you expect too",title_plus_comments,yes,no,other,low,The post appears to discuss software without a clear troubleshooting or chiefly critical purpose.,,,,,,,https://reddit.com/r/typescript/comments/1nwb2xm/tsignore_is_almost_always_the_worst_option/
+B8-056,transformers,The First Prime,,"[1:OP] **Figure Used:**
+
+Age of the Primes Prima 
+
+**Upgrades Used:**
+
+Dr Wu DW-TP08
+
+Dr Wu DW-P35
+
+Achai Head
+
+Achai Booster Set 1
+
+Reprolabels
+[2:reply] Thank you definitely going to get these
+[3:reply] Who would have thought the first prime was a Charge Blade main",title_plus_comments,no,no,na,medium,The saved text appears outside software scope or is too vague to classify reliably.,,,,,,,https://reddit.com/r/transformers/comments/1oq701o/the_first_prime/
+B8-057,elasticsearch,"Just upgraded to version 9, suddenly have a lot more docs?",,,title_only,yes,yes,other,low,The post appears to discuss software without a clear troubleshooting or chiefly critical purpose.,,,,,,,https://reddit.com/r/elasticsearch/comments/1kh0m2d/just_upgraded_to_version_9_suddenly_have_a_lot/
+B8-058,applehelp,I recently switched to Android and now my friend with an iPhone can't text me,"I recently switched from iPhone to Android and my friend with an iPhone's texts are no longer coming through. I am not having this issue with any other friends. I tried having him delete my contact and re-add it and that did not fix it. I checked if I needed to deregister my phone number from iMessage and I do not, and I checked my apple account and my phone number is not listed. I also specifically remember turning off iMessage when switching phones. He is the only iPhone user who cannot text me. If I text him, we can text for a day or two, and then he is back to being unable to text me. 
+
+Any idea how to fix this? Is there something he needs to do so it stops defaulting to iMessage? 
+
+I have a Pixel 10A, I am not sure what iPhone he has but I imagine it's on the newer end and fully updated.","[1:reply] You do need to de-register it
+[2:OP] the website says my number is not registered.",title_body_comments,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/applehelp/comments/1wvip6v/i_recently_switched_to_android_and_now_my_friend/
+B8-059,chrome,New update 139.0.7258.128 not fixed the ANGLE OpenGL Graphic Backend bug,,,title_only,yes,yes,other,low,The post appears to discuss software without a clear troubleshooting or chiefly critical purpose.,,,,,,,https://reddit.com/r/chrome/comments/1monezx/new_update_13907258128_not_fixed_the_angle_opengl/
+B8-060,vscode,GitHub will now use data sent to copilot for training: Privacy Statement update on Copilot data use for model training (Free/Pro/Pro+),,"[1:reply] Private repositories are included for this setting by default, see [here](https://github.com/orgs/community/discussions/188488?utm_source=github&amp;utm_medium=email&amp;utm_campaign=FY26MAR-WW-LCM-X-CBCE-AA-Devs-TX-701Kg000000PijXIAS#:~:text=Will%20code%20stored%20in%20private%…
+[2:reply] Thank you. I disabled it.
+[3:reply] Does this include private repos? If it does, I'm moving my stuff over.
+[4:OP] I believe private repos are not scanned, but any code sent to Copilot from a private repo is scanned. 
+
+I've already moved to VS Codium and am switching over to GitLab later. Done with this AI shit.
+[5:reply] Looks like they are jumping on the cursor bandwagon. Will probably try and do something like Composer 2",title_plus_comments,yes,no,other,low,The post appears to discuss software without a clear troubleshooting or chiefly critical purpose.,,,,,,,https://reddit.com/r/vscode/comments/1s3lmhv/github_will_now_use_data_sent_to_copilot_for/
+B8-061,AndroidQuestions,Poco X6 Neo 5G became unusable after latest update,"Anyone else facing major lag issues after the latest update on the Poco X6 Neo 5G?
+
+Earlier my phone only used to lag a bit when battery saver mode was on, but after this new update the phone hangs almost all the time. Pulling down the notification bar feels super slow, apps freeze randomly, and overall performance has become terrible.
+
+They changed the charging notification style to something that looks more like iPhone, which is fine, but the actual phone performance has become much worse after the update.
+
+Even basic actions now feel delayed and stuttery. Is anyone else experiencing this? Any fix?","[1:reply] Switch to custom roms better
+[2:OP] What's that?",title_body_comments,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/AndroidQuestions/comments/1tp2coe/poco_x6_neo_5g_became_unusable_after_latest_update/
+B8-062,MacOS,Cursor Randomly Jumps/Clicks (macOS Tahoe 26.1),"Since upgrading to Tahoe 26.1, my cursor will randomly jump/strobe/click without me doing anything, and this little icon appears in the menu bar when that happens. It almost reacts as though someone else is controlling my computer. I can't actually click on the item to get more info, as nothing happens. I was doing some researching and saw this might be a bug if you have Bartender 6 (which I do), but I also couldn't find anything else to suggest otherwise.
+
+I assume this isn't a virus/remote desktop situation? Anyone have any ideas?",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/MacOS/comments/1pl19jd/cursor_randomly_jumpsclicks_macos_tahoe_261/
+B8-063,linux,"Fedora 44 Could Work Nicely ""Out Of The Box"" On Snapdragon-Powered Windows ARM Laptops",,"[1:reply] Nice! We really need more arm64 based laptops that support Linux.
+
+I wish there was an actual alternative for MacBooks with the same battery life and build quality.
+[2:reply] Qualcomm should have gone with Linux instead of Windows. Windows wasn't ready at all for this transition and what you get is essentially a limited experience without the only advantage Windows has, that is applications support.
+[3:reply] Good, Asahi only covers M1 and M2 chips and is still very flawed, Macs are not an acceptable solution for people who want to run Linux on an ARM computer. I'd much rather get a PC that will actually work with Linux reasonably well.
+[4:reply] This still requires that every single laptop model as a device tree available.
+[5:reply] Microsoft has been expending resources into the Snapdragon X CPUs because they need to compete with the MacBooks, without those resources the Snapdragon X CPUs probably wouldn't even exist.",title_plus_comments,yes,yes,other,low,The post appears to discuss software without a clear troubleshooting or chiefly critical purpose.,,,,,,,https://reddit.com/r/linux/comments/1po4wyw/fedora_44_could_work_nicely_out_of_the_box_on/
+B8-064,Ubuntu,"I tried saving my Lenovo IdeaPad S145 by installing Ubuntu, didn't work.","Long story short... I tried to save my sister's laptop since updating Windows 10 crashed it. I first installed the latest Ubuntu, worked for a few days before crashing. I installed again, did the same thing. I tried to install Mint instead, crashed sooner than Ubuntu. I changed the RAM then tried to install Ubuntu one more time, still crashed after some time. Now I'm confused. Any kind of advice or help will be appreciated. Thanks in advance.","[1:reply] This sounds like a hardware problem, not software. There is a bad, failed, or failing component in the laptop.
+[2:reply] if it's crashing across multiple distros after a RAM swap, my money's on a dying drive or the motherboard itself starting to go. those ideapads aren't exactly built to last
+
+  
+grab a usb and run a SMART test on the drive, see if it's throwing errors. could also be a thermal iss…
+[3:OP] I was really hoping it wasn't that😭 thank you for the reply tho
+[4:reply] I agree. It could be due to the SSD controller, defective blocks. Or it could be a thermal issue, with the CPU or some components overheating.Or the power supply is insufficient under load and shuts down. Otherwise, try using a live USB stick and let the laptop run from the live…
+[5:OP] It did overheat a lot before it crashed the first time... 🤔",title_body_comments,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/Ubuntu/comments/1uoqrkb/i_tried_saving_my_lenovo_ideapad_s145_by/
+B8-065,Wordpress,Images suddenly disappeared,"I have very basic Wordpress skills and mostly update content when use it. Yesterday I noticed that the pictures in the site I update nextre.bg disappeared.it’s a real estate agency website that has a few apartments that are being offered. And images and info on the apartments are uploaded from software that is synced to the site.Is there simple solution to why the pictures might have disappeared . The site seems to run on older version of php and I can’t update some plugins including w3 plugin which was my initial thought where the issue could be. I tried updating php version, but I crashed the whole site and had to restore a backup. Can you help me with some solution or thing I can try where I don’t crash the site?",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/Wordpress/comments/1qq29pl/images_suddenly_disappeared/
+B8-066,Wordpress,Red artifacts visible after a functions.php update,,,title_only,yes,yes,other,low,The post appears to discuss software without a clear troubleshooting or chiefly critical purpose.,,,,,,,https://reddit.com/r/Wordpress/comments/1m17h8g/red_artifacts_visible_after_a_functionsphp_update/
+B8-067,linuxquestions,Facing sleep issues due to NVIDIA drivers,"I'm using akmod for nvidia drivers and am on 610.xx branch
+
+The issue was somehow resolved when i was using fedora 43 (6.19 kernel) and 580.xx branch
+
+but since upgrading, I am facing the issue again. My laptop screen goes blank, and either freezes or lights up the lock screen after a few seconds.
+
+I have set the exact same flags in the grub cmdline and nvidia-conf, yet the problem persists. 
+
+Are there any solutions for this? 
+
+https://preview.redd.it/vkcjz8hojeeh1.png?width=1536&amp;format=png&amp;auto=webp&amp;s=6aeac98a3d2d5b2ba0ef164c45aaefb753ee3617
+
+Here's what was shown when I left it as it is after trying to put it to sleep.
+
+[NVIDIA-SMI output](https://preview.redd.it/tll5w1z0keeh1.png?width=1141&amp;format=png&amp;auto=webp&amp;s=10c9e58723b9c2e1eca5c74cf493e221613e41e7)
+
+Thanks in advance",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/linuxquestions/comments/1v1owf5/facing_sleep_issues_due_to_nvidia_drivers/
+B8-068,node,STOP USING AI FOR EVERYTHING. SERIOUSLY.,"One of my teammates has gone *full AI mode* and it’s driving me insane.
+
+Asked why the staging server was down? Got **four paragraphs about “best practices for uptime”** before he finally mentioned he forgot to renew the SSL cert.
+
+Every Slack message, PR comment, bug response is **a corporate essay**. Ask “did you update the env variables?” and you get a dissertation on environment management instead of a simple yes/no.
+
+Project meetings? Forget it. Client wants a contact form? Here’s a **10-page AI report on “leveraging modern form architecture for optimal user engagement”**. It’s an email field and a submit button.
+
+Yesterday he sent **three paragraphs on why he was 10 minutes late**. WITH a section on *time management strategies*.
+
+Look, I’m not anti-AI. I use Copilot, Claude, automated reviews, all of it. **But when AI becomes your personality, it’s toxic.** Video calls are fine online, it’s like talking to a LinkedIn bot with zero soul.
+
+We’re a small team shipping MVPs. We don’t need your AI essays we need humans who can say “done” and move on.","[1:reply] Are you promoting your subreddit of 20 members?
+[2:reply] I use it for literally everything and I am not stopping
+[3:reply] Yep me too",title_body_comments,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/node/comments/1nwxusf/stop_using_ai_for_everything_seriously/
+B8-069,chrome,I'm tired of this issue in chrome,"Everything was going well - the download speed was good, and it reached 1.1 GB out of 1.22 GB, but then it stopped. I don't know why or what happened, but it's really irritating. This has happened to me so many times. Now I can't resume it because I barely have any data left. Why, Chrome, whyyy? I switched to other browsers for downloading because of this, but I'm having a bad time since I chose Chrome for this download. And if I pause it for some time, it fails. What should I do next, huh? How am I getting my data back?","[1:reply] “offcial.apk” seems very official and safe
+[2:reply] Thank you for your submission to /r/Chrome! We hope you'll find the help you need. Once you've found a solution to your issue, please comment ""**!solved**"" under this comment to mark the post as solved. Thanks!
+
+
+*I am a bot, and this action was performed automatically. Please […
+[3:reply] Why are you downloading such large files in the first place, and on cellular data no less? Connect to wifi. And it's up to the server you're downloading from if it supports pausing and resuming downloads or not.
+[4:reply] So you're in the habit of downloading questionable apk files, you have limited data allocation, and it's Chrome's fault when a download fails?
+[5:reply] How long did you give it? I don't know, but that makes me think it's running some kind of malware or antivirus scan",title_body_comments,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/chrome/comments/1nw13o2/im_tired_of_this_issue_in_chrome/
+B8-070,homeassistant,SLZB-06 / z2m broken after SLZB06-Firmware update 3.2.7,"Updated firmware of the SLZ-06 today to 3.2.7. At first everything seemed to be fine, but after a maybe 2 hours the zigbee network became unreliable and is full of ""MAC\_CHANNEL\_ACCESS\_FAILURE"" warnings.
+
+Downgrading to the previous firmware 3.2.0 did not help. Reboot of z2m oder SLZB06 did not help.
+
+Some advice?",,title_and_body,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/homeassistant/comments/1sc8ujb/slzb06_z2m_broken_after_slzb06firmware_update_327/
+B8-071,Bitcoin,"17 YEARS AGO TODAY, SATOSHI NAKAMOTO PUBLISHED THE BITCOIN WHITEPAPER.",,"[1:reply] A true digital Declaration of Independence
+[2:reply] I was living in Texas but packing up to move back to California, pretty much everything was loaded; I was sitting on the floor in my living room with my desktop playing games a game of Spore on December 9, 2008. I received and email from a highschool friend with this very white…
+[3:reply] Google translate Satoshi Nakamoto into English",title_plus_comments,no,no,na,medium,The saved text appears outside software scope or is too vague to classify reliably.,,,,,,,https://reddit.com/r/Bitcoin/comments/1okrbgi/17_years_ago_today_satoshi_nakamoto_published_the/
+B8-072,MacOS,How to fix full-screen video dimming in Safari on MacOS Tahoe,"Ever since I updated MacOS to Tahoe, I've noticed a dim screen when playing YouTube videos in safari. The screen also dims when moving the mouse cursor. You have to wait several seconds for it to go back to normal brightness, which can be an unnecessary annoyance. 
+
+Here is the fix I found that works for me. Hope it helps others who maybe searching for this fix. 
+
+Source: https://underpassapp.com/news/2025/11/3.html
+
+\-Quit Safari
+
+\-Open System Settings to Privacy &amp; Security
+
+\-Enable Full Disk Access for Terminal (can find Terminal.app by going to applications folder, then utilities folder, then click on Terminal)
+
+\-Open Terminal
+
+\-Type into prompt:  defaults write com.apple.Safari IncludeInternalDebugMenu -bool true
+
+\-Press Enter
+
+\-open Safari, see Debug in the menu bar
+
+\-scroll to “WebKit Internal Features” then click “Hosted blur material in media controls” (the flag is checked by default, so just select the menu item to uncheck it)",,title_and_body,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/MacOS/comments/1tiwe0x/how_to_fix_fullscreen_video_dimming_in_safari_on/
+B8-073,opencode,DSv4Flash behaviour since price change?,"Nothing about my harness or config has changed, have been working well with this model for a while without issue. 
+
+Since the price update from DS, practically every session gets stuck in a doom loop now. The last one I was asking it to address feedback on a pull request for an AI harness approval gate feature, and within about 40k context it just started outputting the word ""Crypto"" on repeat until I stopped it.
+
+I've had 4 doom loops in the past 24 hours, new sessions, same harness and config. What's weird is the nature of the doom loop seems to have nothing to do with the task at hand.
+
+OC Luna, plus burning through pre-pricerise credit from Neuralwatt for DSv4Flash, GLM 5.2, and K3 are all behaving normally.
+
+Anyone else see a drastic change in OC's DSv4Flash behaviour?","[1:reply] Most probably they switched providers and it's not working well. See this: https://www.reddit.com/r/opencodeCLI/s/cmoUm0GpUQ
+[2:reply] That was my first and only experience so far. One slice of a plan, not too unusual, a new feature but not a new mechanic. It went on for about 3 hours, I noticed it kept failing compactions, and opus picked 8 or so bugs after. 
+
+The final output was a selection sheet with a few…
+[3:reply] I started a new chat earlier today with ds flash and then an hour later I noticed that it hadn't done anything at all, but racked up over $2 in usage and used most of my 5 hour quota. I stopped the message and prompted it again and it worked fine.",title_body_comments,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/opencode/comments/1vqjq8l/dsv4flash_behaviour_since_price_change/
+B8-074,software,"Modern software feels more “connected” than ever, yet somehow less dependable","Maybe this is just me getting older, but I feel like software in general has become noticeably less dependable over the last few years.
+
+Not necessarily worse looking.  
+Not less powerful.  
+Not lacking features.
+
+Just... less predictable.
+
+A lot of modern apps now depend on:
+
+* cloud sync
+* background services
+* accounts/logins
+* subscriptions
+* web wrappers
+* live APIs
+* constant updates
+* online-only functionality
+
+And individually none of those things are bad.
+
+But combined together, it feels like software breaks in stranger and harder-to-debug ways than it used to.
+
+Things randomly desync.  
+Features disappear after updates.  
+Electron apps suddenly consume absurd RAM.  
+Notifications arrive hours late.  
+Desktop apps stop working because some remote service changed.  
+A “simple tool” now needs 6 background processes and an internet connection.
+
+What’s interesting is that software is simultaneously more advanced and more fragile.
+
+I miss when software felt more self-contained and deterministic.
+
+Curious whether others here feel the same way, or if this is just nostalgia talking.",,title_and_body,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/software/comments/1tf506k/modern_software_feels_more_connected_than_ever/
+B8-075,Ubiquiti,Anyone with ATT fiber have sucuessfully using IPV6? Need guidance,"Get the new Network App update, and it tells me that IPV6 is available. But when I tried to copy some guidance from 1 year ago, I found out it does not work with the current interface. I tried it anyway, but the ATT BGW320 got bricked. I have to reset it to get the internet back.
+
+Does anyone know how to configure IPv6 on the current interface? Thanks in advance. I use UCG Ultra as my gateway.","[1:reply] I posted about this earlier…. Check out the following. https://www.reddit.com/r/Ubiquiti/s/GLX0Zc3gdS
+[2:reply] Set your WAN interface to DHCPv6 Prefix Delegation. Request a /60 prefix. Then set your internal networks to use Prefix Delegation. Should start to work. The AT&amp;T Gateway will take the other half of your /64 by default.
+
+You don't have to do anything but put the BGW320 into…
+[3:OP] I set the Prefix side to 64, and it works fine. Should I set it to 60 instead?
+[4:reply] Hello!  Thanks for posting on r/Ubiquiti!
+
+This subreddit is here to provide unofficial technical support to people who use or want to dive into the world of Ubiquiti products.  If you haven’t already been descriptive in your post, please take the time to edit it and add as many…
+[5:reply] The answer is simple. Simply do not configure IPv6 on the BGW320. Put it in passthrough. Pull DHCPv6 on the UCG Ultra. Problem solved.",title_body_comments,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/Ubiquiti/comments/1tpoqhg/anyone_with_att_fiber_have_sucuessfully_using/
+B8-076,Ubuntu,Broke Ubuntu during latest update - help,Messed up installation for newest update ( shut off during install) now I can log into desktop. Only loops into Grub. Tried going into previous kernel with no luck as well. Can anyone help me ?,"[1:reply] classic. killed your install mid-update and now grub's just staring back at you like a disappointed parent
+
+  
+boot a live usb, chroot in, and run \`dpkg --configure -a\` then \`update-grub\`. if that doesn't unfuck it you're probably looking at a reinstall but backup your home…
+[2:OP] Tried that , wym reinstall ? Like new fresh install? If this this the only way am Is there a way to reinstall while keeping all my files settings and downloads? It’s a 2tb drive that’s 95% full
+[3:reply] Boot into the live session, mount the partition(s) and chroot. From there try to upgrade the system and fix packages. Ask an LLM for the help. Or wait here for someone to provide detail instructiona.
+
+If you only have one partition, you could lose your files if you at some point…",title_body_comments,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/Ubuntu/comments/1v1bm5a/broke_ubuntu_during_latest_update_help/
+B8-077,transformers,The Masterpiece Optimus Prime Trinity,,"[1:OP] Love: mp 10
+
+Dislike: tf element
+
+Want: mpg
+
+Correct?
+[2:reply] I do appreciate when people make posts like these and assume everyone knows what they are. It's always helpful. /s
+[3:reply] Love one of them, dislike another, and want the third.
+[4:reply] For reals what's the one in the middle?
+[5:reply] I'd love to see MP-01 just towering over them.",title_plus_comments,no,no,na,medium,The saved text appears outside software scope or is too vague to classify reliably.,,,,,,,https://reddit.com/r/transformers/comments/1rukwdn/the_masterpiece_optimus_prime_trinity/
+B8-078,chrome,"If You've Got TubeBlock, remove it!","TubeBlock - Adblock For YouTube
+
+Was a Chrome extension that I downloaded after YouTube began to show the ""You get to see 3 videos ad free before you'll will not be able to use youtube bs"" Since at the time uBlock was on YT hit list. 
+
+After uBlock was officially done, I downloaded uBlock Lite. Now I still had TubeBlock, it had worked for a bit but I soon forgot about it. 
+
+Well today my Chrome decided to fudge up, stuff wasn't loading correctly, google was bare bones and a few times I got a pop up saying ""Chrome is out of date"" and to download the newest version, so I clicked it and what was odd is that a exe was downloaded. I know 100% the only time you get a chrome exe is when you go onto internet explorer to download chrome... lol.. and all updates are done automatically through the browser so I knew right away not to run this exe... so I deleted it. 
+
+Not long after, just searching on google kept taking me to blocked pages and underlined links on words would take me to a blocked url site... so I knew I had adware, after installing Melwarebytes, I began to get notifications of attempted redirecting to random sus sites. 
+
+At first both Melwarebytes and my antivirus wasn't picking anything up... it was odd. So only other way it could be would be my extensions. 
+
+I didn't have any that randomly showed up, so I turned each one off one at a time. At this stage just typing google was taking me to a blocked site each time. 
+
+However, when I disabled TubeBlock, it all cleared up.... enabling it again... BAM mess..
+
+  
+I did a bit of digging and TubeBlock was removed from the store back in April 2025.. and it seems like the extension has been compromised. If you've got it installed and nothing has happened to you yet, please remove it. 
+
+How did I know it was this extension? Internet Explorer was fine when I did my search... while Chrome was a mess.. so I knew I didn't have an actual virus on my pc but a infected Chrome extension.","[1:reply] I don't know why people would ever use no name extensions to do things when there's much more popular and reputable extensions already out there.
+[2:reply] Internet Explorer? Lol, how old is your PC?
+[3:OP] At the time it had 2M downloads with a 4.5 star review. Any extension can become malware or adware
+[4:reply] Just use Ublock bro
+[5:reply] Thank you for posting this. I wondered what the hell was wrong with my browser. Mine actually went so far as to interfer with my wifi lol. All is well now and I've reported the extension.",title_body_comments,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/chrome/comments/1nubrx1/if_youve_got_tubeblock_remove_it/
+B8-079,spring-boot,When will JHipster support Spring Boot 4.0.0?,"I have been building my application using JHipster since version 6.9 , and over time, I have continuously upgraded it to align with newer releases. Recently, I attempted to upgrade my project to Spring Boot 4.0.0, but discovered that it is not yet compatible with the latest JHipster version (v8.11.0) . I couldn't find any official update or roadmap regarding Spring Boot 4 support. Question: When will JHipster be upgraded to support Spring Boot 4.0.0 ? Is there any planned release or timeline, or any official discussion I can follow regarding this upgrade?",,title_and_body,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://stackoverflow.com/questions/79835694/when-will-jhipster-support-spring-boot-4-0-0
+B8-080,neovim,Does it matter that my config file is in vimscript?,"I was one of those people who moved to neovim a long time ago in the most vim-way possible, symlinking my config to ~/.vimrc, and using vimplug.  This has worked for nearly a decade.  As a creature of habit and not wanting to give myself extra work for no reason, is there any reason this is not a good idea, or is it still perfectly fine?
+
+I had a recent incident where one of my plug-ins stopped working (nvim-R, in fact the very reason I moved to nvim), and I knew that it had been superseded a long time ago by a newer version, but as it had been working fine I left it.  This time I was forced to move, but I found myself getting completely confused about Lua, new package managers and all-in-all, it was quite disruptive and I realised my set up is clearly not what the status-quo is these days.
+
+However, other than installing some new plugins and upgrading my neovim, I'm still doing the same, but I have a creeping feeling that I will have to face my technical debt at some point.
+
+Are any of you still using a vim-like setup?  Does it matter?  Your thoughts are appreciated!","[1:reply] If the maintainers of `Neovim` can use `vimscript` in their config without issues then you can too.
+[2:reply] Also you can simply mix lua &amp; Vimscript if it bothers you too much. Then slowly convert the parts that break into lua.
+[3:reply] you will be arrested and tried in front of a jury of your peers!
+[4:reply] I was in the same situation as you until recently. The problem I began facing
+as time went on was, that all the new cool features and plugins I wanted to use
+were behind a lua API, so gradually my configs became half vimscript and half
+inline lua anyway.
+
+Eventually I decided it…
+[5:reply] Honestly my opinion about vim and neovim configs is, if it works, it works. Of course it is easier to configure neovim with lua, because most plugins are built with and for it. I switched to lua, but I am still only using the basics of what is possible with modern neovim. There…",title_body_comments,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/neovim/comments/1nwug8e/does_it_matter_that_my_config_file_is_in_vimscript/
+B8-081,vmware,#PF Exception 14 in world 2099443:VSAN_0x432d6 IP 0x420015fe19al addr 0x45baf2a94fd8,"I'm experiencing a PSOD in vSAN.
+
+
+
+\#PF Exception 14 in world 2099443: VSAN\_0x432d6 IP 0x420015fe19al addr 0x45baf2a94fd8
+
+
+
+I found a solution at [https://knowledge.broadcom.com/external/article/408283/pf-exception-14-in-world-2099443vsan0x43.html](https://knowledge.broadcom.com/external/article/408283/pf-exception-14-in-world-2099443vsan0x43.html), but I can't upgrade. However, my cluster is running 7.0.3-20328353, and there's no upgrade window. Is there a fix (patch?) for this issue without upgrading?","[1:reply] If the kb says upgrade, then you upgrade it's that's simple
+
+
+VSphere 7 is eol so you need to look at an upgrade, all of this should be doable with 0 downtime anyway, well for an upgrade vCenter will go offline for about an hour but that doesn't matter
+[2:reply] Yes with vSphere 7.0 is now EOL, KB says to upgrade, maybe a post of Reddit would of fixed it all like magic 😁
+
+Now I hope he noted vSphere 8.0 is EOL in 2027 so basically tomorrow
+[3:reply] Weil, if you have such issues and a solution in form of an update, just apply it. Vsphere 7 is EOL anyway.
+
+It isn’t that complex to upgrade from 7 to 8. Such issues will justify the required downtime.
+[4:reply] There is no downtime. vSAN 7&gt;8 upgrade is online
+[5:reply] There might be one big problem - lack of support preventing from upgrading license keys from 7 to 8",title_body_comments,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/vmware/comments/1nxgxxq/pf_exception_14_in_world_2099443vsan_0x432d6_ip/
+B8-082,Ubiquiti,UDMP with CradlePoint LTE backup from Cox,"I have Cox Business and it comes with a CradlePoint E100-C4D LTE Backup Router.
+
+Every time that the UDMP switches to the LTE backup the following happens:
+
+1. DNS lookups still \*work\*
+2. ICMP/Pings still \*work\*
+3. Getting any URL or actual tcp/udp data back \*fails\*
+
+I have tried 2 setups:
+
+1. UDMP Wan 1-&gt;CableModem, Wan 2-&gt;CP with UDMP managing failover
+2. UDMP Wan 1-&gt;CP with CableModem-&gt;CP with CP managing failover
+
+In both setups \*only\* LTE traffic fails. That is even in setup 2 with the CP managing all traffic, everything works fine until we switch to LTE.
+
+I have reduced the MTU by setting MSS 1320 and MSS 1200 - no effect.
+
+I have opened a ticket with Unifi where they have asked for Logs, pcaps, and debug dumps and have been going back the forth with them on this for over 3 weeks now with no resolution in sight - so I figured I would try my luck on here to see if anyone has this setup and working.
+
+Here is some sample data from the UDMP while in failover mode showing dns/icmp working but curl failing.
+
+    Step 1: root@UrithiruDreamMachine:~# date; curl -v https://google.com; date
+    Tue Jun 9 12:24:02 PDT 2026
+    * Trying 142.251.45.14:443...
+    * Trying 2607:f8b0:4007:808::200e:443...
+    * Immediate connect fail for 2607:f8b0:4007:808::200e: Network is unreachable
+    * connect to 142.251.45.14 port 443 failed: Connection timed out
+    * Failed to connect to google.com port 443: Connection timed out
+    * Closing connection 0
+    curl: (28) Failed to connect to google.com port 443: Connection timed out
+    Tue Jun 9 12:24:34 PDT 2026
+    root@UrithiruDreamMachine:~# (See capture google_curl...tgz) Step 2: root@UrithiruDreamMachine:~# date; curl -v https://ui.com; date
+    Tue Jun 9 12:25:00 PDT 2026
+    * Trying 18.154.144.114:443...
+    * Trying 2600:9000:24da:400:1c:894d:51c0:93a1:443...
+    * Immediate connect fail for 2600:9000:24da:400:1c:894d:51c0:93a1: Network is unreachable
+    * Trying 2600:9000:24da:e800:1c:894d:51c0:93a1:443...
+    * Immediate connect fail for 2600:9000:24da:e800:1c:894d:51c0:93a1: Network is unreachable
+    * Trying 2600:9000:24da:7a00:1c:894d:51c0:93a1:443...
+    * Immediate connect fail for 2600:9000:24da:7a00:1c:894d:51c0:93a1: Network is unreachable
+    * Trying 2600:9000:24da:f000:1c:894d:51c0:93a1:443...
+    * Immediate connect fail for 2600:9000:24da:f000:1c:894d:51c0:93a1: Network is unreachable
+    * Trying 2600:9000:24da:5600:1c:894d:51c0:93a1:443...
+    * Immediate connect fail for 2600:9000:24da:5600:1c:894d:51c0:93a1: Network is unreachable
+    * Trying 2600:9000:24da:c00:1c:894d:51c0:93a1:443...
+    * Immediate connect fail for 2600:9000:24da:c00:1c:894d:51c0:93a1: Network is unreachable
+    * Trying 2600:9000:24da:d000:1c:894d:51c0:93a1:443...
+    * Immediate connect fail for 2600:9000:24da:d000:1c:894d:51c0:93a1: Network is unreachable
+    * Trying 2600:9000:24da:9e00:1c:894d:51c0:93a1:443...
+    * Immediate connect fail for 2600:9000:24da:9e00:1c:894d:51c0:93a1: Network is unreachable
+    * connect to 18.154.144.114 port 443 failed: Connection timed out
+    * Trying 18.154.144.26:443...
+    * connect to 18.154.144.26 port 443 failed: Connection timed out
+    * Trying 18.154.144.96:443... (See capture ui_curl...tgz) Step 3: root@UrithiruDreamMachine:~# ping 8.8.8.8
+    PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
+    64 bytes from 8.8.8.8: icmp_seq=1 ttl=114 time=27.2 ms
+    64 bytes from 8.8.8.8: icmp_seq=2 ttl=114 time=30.2 ms
+    64 bytes from 8.8.8.8: icmp_seq=3 ttl=114 time=27.8 ms
+    64 bytes from 8.8.8.8: icmp_seq=4 ttl=114 time=32.5 ms
+    64 bytes from 8.8.8.8: icmp_seq=5 ttl=114 time=31.4 ms
+    ^C
+    --- 8.8.8.8 ping statistics ---
+    5 packets transmitted, 5 received, 0% packet loss, time 4005ms
+    rtt min/avg/max/mdev = 27.158/29.807/32.508/2.040 ms
+    root@UrithiruDreamMachine:~# dig google.com ; &lt;&lt;&gt;&gt; DiG 9.16.50-Debian &lt;&lt;&gt;&gt; google.com
+    ;; global options: +cmd
+    ;; Got answer:
+    ;; -&gt;&gt;HEADER&lt;&lt;- opcode: QUERY, status: NOERROR, id: 1392
+    ;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1 ;; OPT PSEUDOSECTION:
+    ; EDNS: version: 0, flags:; udp: 1232
+    ;; QUESTION SECTION:
+    ;google.com. IN A ;; ANSWER SECTION:
+    google.com. 5 IN A 142.251.45.14 ;; Query time: 0 msec
+    ;; SERVER: 127.0.0.1#53(127.0.0.1)
+    ;; WHEN: Tue Jun 09 12:26:54 PDT 2026
+    ;; MSG SIZE rcvd: 55 root@UrithiruDreamMachine:~#
+
+Here is some of the pcap data showing that traffic is not returning:
+
+https://preview.redd.it/wtdzyorywq9h1.png?width=2101&amp;format=png&amp;auto=webp&amp;s=87de1aeb62bc8168587fe12de8dfc97995193446
+
+And finally, the UDMP does state that the LTE connection is using CGNAT but from what Unifi says this shouldn't cause this issue.
+
+Anyone have any idea's how to make this work?
+
+Bonus Setup Screenshot:
+
+https://preview.redd.it/gxlifn8kxq9h1.png?width=1841&amp;format=png&amp;auto=webp&amp;s=538e2f7f5f4003ef3df621f53699cadf92e9b953
+
+EDIT: If I take my laptop running Linux and plug it directly into the CP when it is in LTE mode, it works just fine so I know that in theory the CP does work and the issue is between the CP and UDMP.
+
+  
+Update: Was able to resolve this by turning Jumbo Frames off:
+
+https://preview.redd.it/wkn5fx335u9h1.png?width=491&amp;format=png&amp;auto=webp&amp;s=1de8198c25f8bf432d088fca3f28ee3b4d4c55f8","[1:OP] Update: Started going through settings last night and incase anyone runs into this issue in the future, I was able to resolve it. I noticed that even with the lowered MSS value, Jumbo Frames was still enabled. Once I disabled Jumbo Frames everything started working.
+
+  
+Now I am…
+[2:reply] Hello!  Thanks for posting on r/Ubiquiti!
+
+This subreddit is here to provide unofficial technical support to people who use or want to dive into the world of Ubiquiti products.  If you haven’t already been descriptive in your post, please take the time to edit it and add as many…
+[3:reply] I have a different but similar setup using a Pepwave router as wan backup through Verizon and Comcast residential as primary and it works fine.
+
+Since it works with the laptop and not the UDMP I would be looking at the CP doing MAC address locking or it blocking TTL's that are l…",title_body_comments,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/Ubiquiti/comments/1ugrxo7/udmp_with_cradlepoint_lte_backup_from_cox/
+B8-083,firefox,Firefox Backup Misbehaving,"I tried to set up the Firefox profile backup feature. When I set it up yesterday, I pointed it at my OneDrive (as recommended), and it seemed to work fine. However, today it was running a backup every few seconds. Specifically, it would back up my profile, wait a few seconds, and then back it up again, etc., apparently infinitely. The documentation says it should back up only once per day; it definitely wasn't doing that.
+
+I then attempted to put the backup file on local storage (i.e., not OneDrive). However, that failed with a generic ""it didn't work"" message with no details. In `about:config` the value of `browser.backup.backup-debug-info` is:
+
+    {""lastBackupAttempt"":1782860564,""errorCode"":9,""lastRunStep"":13}
+
+Since it worked yesterday but doesn't today, I suspect it might be related to the Firefox 152.0.4 update I installed earlier today.
+
+Has anyone seen this behavior?",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/firefox/comments/1uk4xng/firefox_backup_misbehaving/
+B8-084,homeassistant,"If you enable ""live notifications for all apps"" in android developer settings, you can get HA live notifications as a chip in your status bar and in the Now Bar. It unfortunately doesn't work if you have an image in the notification.",,"[1:reply] This is for Samsung One UI devices only. Now Bar is a One UI feature and that setting is a One UI setting in developer options.
+[2:OP] Not sure if it's an Android or Home Assistant limitation, but if you add an image to the live notification it is no longer considered a live notification in Android.
+
+Here's what the chip looks like
+
+https://preview.redd.it/wayynd1dz7qg1.jpeg?width=683&amp;format=pjpg&amp;auto=w…
+[3:reply] [https://github.com/home-assistant/companion.home-assistant/pull/1297](https://github.com/home-assistant/companion.home-assistant/pull/1297) looking forward to this one, hope it'll work without enabling developer mode on one UI 8.5
+[4:reply] How did you set this one up?
+[5:reply] You can also change the chip color from blue to any color using 'color: green' for example",title_plus_comments,yes,yes,other,low,The post appears to discuss software without a clear troubleshooting or chiefly critical purpose.,,,,,,,https://reddit.com/r/homeassistant/comments/1ryzf7h/if_you_enable_live_notifications_for_all_apps_in/
+B8-085,homeassistant,Help: Home Assistant inaccessible in Brave browser after recent update (works in Incognito),"Hi everyone,
+
+I'm hoping someone can help me troubleshoot a peculiar issue I've encountered. After a recent Home Assistant update (and possibly a Brave browser update around the same time, though I'm not sure which came first), I can no longer access my Home Assistant instance locally in my standard Brave browser windows.
+
+When I try to navigate to ⁠192.168.86.23:8123, I get the ""Unable to connect to Home Assistant"" screen with a retry countdown, as shown in the image below.
+
+https://preview.redd.it/hklddlky8kog1.png?width=3674&amp;format=png&amp;auto=webp&amp;s=181b012e23bb3b400b2f08e866b720c776eb2528
+
+I've already tried the usual suspects:
+
+* Clearing Brave's cache and cookies.
+* Restarting Brave browser.
+* Restarting the Docker containers running Home Assistant.
+
+Interestingly, if I open an **Incognito/Private window** in Brave and navigate to the same address, it connects perfectly fine and works as expected. This makes me suspect it's some sort of caching or cookie issue specific to my regular Brave profile, but I'm not sure what else to clear or reset.
+
+Has anyone else experienced something similar? Any ideas on what might be causing this or what else I could try to fix it?
+
+Thanks in advance for any suggestions!",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/homeassistant/comments/1rrji0f/help_home_assistant_inaccessible_in_brave_browser/
+B8-086,firefox,Ctrl + Tab not working,"I don't know why but for some reason ctrl tab does not switch tabs anymore but instead has Windows use it as a second version of alt + tab (switching between apps), only with an older interface style and seemingly not even functional. 
+
+To my knowledge I never had that window come up before. Ctrl Tab and Ctrl Shift Tab always swapped Right/Left through open tabs. Now firefox doesn't respond to it or doesn't get to respond because this interface gets called up. I'm not sure what caused this or when exactly it began, so any help would be great.","[1:OP] I found the solution to the problem: Press Alt Gr to enable / disable this behavior.
+[2:reply] Go to the settings and toggle the checkbox of the first entry under ""Tabs""
+[3:reply] Don't know what you have interfering with things but ctrl+tab and ctrl+shift+tab still work normally for me without any ui coming up or anything
+[4:reply] I have a U.S. keyboard, so my Alt keys are boring. On your keyboard, does tapping the right Alt change the setting on the Settings page, in the Tabs section (first checkbox):
+
+Ctrl+Tab cycles through tabs in recently used order
+
+Or were you seeing some other odd overlay not tied…",title_body_comments,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/firefox/comments/1nuhb2n/ctrl_tab_not_working/
+B8-087,vmware,what's the new name for SRM and VREP?,"Currently downloading the iso file for upgrade and came accross the below:
+
+VMware Live Recovery 9.0.4 | 29 SEP 2025 | Build 24963726 | [Download](https://support.broadcom.com/group/ecx/productfiles?displayGroup=VMware%20Cloud%20Foundation%209&amp;release=9.0.1.0&amp;os=&amp;servicePk=534266&amp;language=EN&amp;groupId=532459&amp;viewGroup=true)
+
+VMware vSphere Replication 9.0.4 | 29 SEP 2025 | Build 24963726 | [Download](https://support.broadcom.com/group/ecx/productfiles?displayGroup=VMware%20Cloud%20Foundation%209&amp;release=9.0.1.0&amp;os=&amp;servicePk=534266&amp;language=EN&amp;groupId=532459&amp;viewGroup=true)
+
+  
+both landing on the same .iso file for download. 
+
+  
+i need the .iso for VREP 9.0 and SRM 9.0 and both giving me VMware Live Recovery 9.0.4  for download. 
+
+came you please send me the link to download the SRM 9.0 and VREP 9.0?","[1:reply] Correct. SRM naming ended with 8.x. All 9.x versions are Live Site Recovery now. You can upgrade from 8 to 9 the same way you’d do any 8.x to 8.x upgrades. VRA first then the Recovery appliance second.
+
+As of 9.0.3, VRA is bundled in a single ISO. It has all you need
+[2:reply] yep it's all one combined appliance now, to go with the new enhanced replication option as well.
+[3:reply] SRM is EOL and was replaced by VMware Live Recovery, as far as I know without a direct upgrade path.
+[4:OP] yeah, we using 8.5. already downloaded v8.6 and v8.8 but now need the 9.0. so the live recovery i've downloaded is for the SRM. what about the VREP?
+[5:reply] Gotta go 9.2.2 then 9.04",title_body_comments,yes,yes,other,low,The post appears to discuss software without a clear troubleshooting or chiefly critical purpose.,,,,,,,https://reddit.com/r/vmware/comments/1nww0mp/whats_the_new_name_for_srm_and_vrep/
+B8-088,ios,"After 26.1 update, music player doesn't recognize some music files","Hi...
+
+My iPhone 14 pro updated to ios 26.1 recently, and now a lot of my music files on my phone won't play.  I get a ""Cannot Open - This media format is not supported"" error.
+
+Anyone else run into this?  Any work arounds?",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/ios/comments/1pnbvnv/after_261_update_music_player_doesnt_recognize/
+B8-089,Fedora,Latest update caused some issues in the Files application? Or is it just me?,"The left panel is acting weird, not normal. Is it just me?",,title_and_body,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/Fedora/comments/1t544i9/latest_update_caused_some_issues_in_the_files/
+B8-090,Android,Google's making a silly and annoying change to how you uninstall system app updates,,"[1:reply] TLDR you can no longer uninstall updates from the Play Store page, and instead have to navigate to the app settings page.
+[2:reply] Definitely worth writing an article about
+[3:reply] Oh my God what a life-crippling, apocalyptic change...  /s
+[4:reply] TIL you can uninstall app updates from the Play Store page, and don't have to go into the app settings page.  So literally zero impact here, and probably for many people.
+[5:reply] This actually makes a lot of sense. The old presentation implied you could uninstall it, when really you were just uninstalling the update. 
+
+You have always been able to do this from within settings where it's much more clear what you're actually doing.",title_plus_comments,yes,yes,other,low,The post appears to discuss software without a clear troubleshooting or chiefly critical purpose.,,,,,,,https://reddit.com/r/Android/comments/1pkuzvl/googles_making_a_silly_and_annoying_change_to_how/
+B8-091,transformers,Ross is getting pricey lol,,"[1:reply] Pretty sure an employee slapped a Voyager sticker on by mistake because Deluxes aren't regularly $41 
+
+Similar to how some people got Trypticon for leader class price
+[2:reply] that has to be a sticker swap, since that is the one that they use for the Voyagers or Leaders, and I have not seen a single person saying that they found Elita-1. Usually stuff isnt isolated to one store
+[3:reply] Wasn't that a deluxe, so shouldn't it's original price be $28?
+[4:reply] I don't go to Ross for Amazon pricing.
+[5:reply] Plus no store  sold her at retail for 44 bucks.",title_plus_comments,no,no,na,medium,The saved text appears outside software scope or is too vague to classify reliably.,,,,,,,https://reddit.com/r/transformers/comments/1rycccm/ross_is_getting_pricey_lol/
+B8-092,linuxquestions,please help me with an annoying problem,"I have an issue I don't fully understand and want some advice from the guys who may understand it better.
+
+I bought a Lenovo yoga pro 7 with AMD Ryzen 7 350 with igpu and no dgpu. I was exited to try an Arch distro on it so as soon as I got it (without an OS) I installed cachyos on it and it was working perfectly, no Hardware compatibility issues. But there is one issue which keeps annoying me on Arch Distros which is that pretty much every latest Kernel has some kind of issue with my igpu. What happens is I boot from a shutdown, choose a Kernel from systemd screen (no matter if it is cachy, cachy-lts or linux) and then I won't get to SDDM (Plasma login screen) but rather get stuck on a black screen with a loading ring and can wait for an entire hour but nothing will happen and I can't even access a tty from that black loading screen. I hate to hard shutdown my brand new laptop but have had to do it pretty much after every new Kernel release. I have tried to use some boot parameters but those didn't solve my issue either. And this issue persists on all Arch based distros (and even Arch itself). 
+
+I tried understanding the problem with the help of AI (if that triggers you then please don't just say that was the first mistake, I am not advanced enough to understand the problem myself) and ChatGPT, Claude and Gemini all result to the same that the amdgpu Driver is the cause of this and it is a known issue with my CPU generation. So after 2 months of Arch I decided to switch to fedora for its different Update cycle in the hopes that it might fix my issue. I have it installed since a week and here I have faced a similiar issue. I have once had the same not being able to boot issue and yesterday before shutdown. Both times I got stuck on a screen where the branding (yoga) and the fedora logo appeared and the loading ring was frozen. I waited for 10 mins or so and then just held down the power button.
+
+So my questions are:
+- have I understood the issue correctly?
+- I my approach with trying out different distros and seeing what fixes the issue correct?
+- If you have an idea what might fix this issue then what distro should I try out?
+
+I like being on the latest version of Plasma but I also know that the hidden stuff and the DE stuff go hand-in-hand and if I want to have stability then I might have to give up on being on the latest. Since this is my main machine (for Uni) I am willing to do that.
+
+Thanks for reading and I hope someone can help.",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/linuxquestions/comments/1sb92hs/please_help_me_with_an_annoying_problem/
+B8-093,applehelp,"AirDrop ""No people found"" issue","Hey. I have this issue with airdrop where i try to send my girlfriend some photos and it just says “No people found”.
+
+1. We both have wifi, bluetooth and airdrop turned on. 2. We are even on the same wifi (in case that matters).
+2. We also both have on airdrop “Contacts only”.
+3. We have each other added as contacts obviously and both of contact cards for each other have the phone number and the email that is our iCloud/AppleID account.
+4. We both have our personal contact cards filled out with our number and iCloud/AppleID email as well.
+5. If I try to share a pic via airdrop her phone wont show up, but if she tried to share a pic as well at the same time, then on her phone my phone will show up. If i then exit Photos and try to share again, her phone will suddenly show up.
+6. If i turn on airplane mode and then turn it off and then try to share via airdrop then it will show her phone. But after some time passes, it wont show her phone again and I’d have to turn the airplane mode on and off again (or for her to also go into the airdrop share menu).
+7. It also work by tapping our phones together (even if airdrop has “no people found” thingy).
+8. If we toggle airdrop on for “Everyone” then our phones appear on the airdrop menu.
+9. We are both on the latest update.
+
+Idk what else i could’ve done to make it work consistently. Once we manage to make our phones visible, it sends media without any problem. But making it show the others ones phone is just a hit or miss. I cant imagine constantly toggling “Everyone” or toggling airplane mode to make airdrop work a viable solution, especially on the phone that supposed to “just work”.
+
+Also, this is my very first iPhone (iPhone 17 Pro). I have a MacBook M1 from before, but it is my first iPhone, so when I bought around new years, I set it up fresh. I tried transfering stuff from my android to iPhone multiple times, it didnt work. So i ended up transfering messages and contacts only. The rest i just uploaded to google drive and downloaded from there to my iPhone. So I guess my iPhone was set up ""fresh"".
+
+I posted this also to r/iOS and to Apple community forums, but havent gotten much help.
+
+Has anyone else experienced a similar issue and figured out how to fix it?
+
+Thank you for any help.",,title_and_body,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/applehelp/comments/1tcp6p4/airdrop_no_people_found_issue/
+B8-094,Bitcoin,You just can't unsee it,,"[1:reply] Hopium is a helluva drug.
+[2:reply] Have you got a link to this report? Where’s it from?
+[3:reply] Interesting. I think we fall within the more conservative side of this. However, with massive institutional adoption anything is possible.
+[4:reply] I smoke it anyways….
+[5:reply] Math.",title_plus_comments,no,no,na,medium,The saved text appears outside software scope or is too vague to classify reliably.,,,,,,,https://reddit.com/r/Bitcoin/comments/1ohaa1n/you_just_cant_unsee_it/
+B8-095,ansible,Delegate_to: localhost gives me trouble,"Hello,
+
+I've made a playbook to upgrade several servers/VM's with APT, check if a reboot is required and send me an e-mail when said reboot is required.  
+Right now every server/VM sends it's own e-mail, so I thought i'd delegate sending the e-mail to the localhost to reduce spam.  
+The relevant part of the playbook is:
+
+`# Send e-mail when reboot is required`
+
+`- name: Send e-mail when reboot is required`
+
+`community.general.mail:`
+
+`host:` [`smtp.gmail.com`](http://smtp.gmail.com)
+
+`port: 587`
+
+`username:` *sender address*
+
+`password: ""{{gmail_password}}""`
+
+`to:` *recipient address*
+
+`subject: Ansible-report`
+
+`body: System {{inventory_hostname}} needs a reboot!`
+
+`secure: starttls`
+
+`when: reboot_required.stat.exists`
+
+`delegate_to: localhost`
+
+However this gives me the following error:
+
+*fatal: \[Pihole1 -&gt; localhost\]: FAILED! =&gt; {""msg"": ""privilege output closed while waiting for password prompt:\\n/bin/sh: sudo: not found\\n""}*
+
+I did try adding `become: true`  but this doesn't change anything.
+
+Any help is freatly appreciated!","[1:reply] Set become: no on the task. And maybe connection: local, just to save some clock cycles.
+[2:reply] Provided you fix the issue with localhost this should hopefully accomplish your main goal of reducing spam by consolidating the list of server reboots into a single email.  Just replace the two instances of *emailtest* with the actual group name you're running the playbook again…
+[3:reply] have you tried adding whatever user ansible was using to /etc/sudoers.d ?
+[4:reply] What happens if you run a command like this on the control node?
+
+`ssh &lt;ansible ssh user&gt;@localhost 'sudo touch /root/testfile; sudo ls -lh /root/testfile'`
+
+Or maybe better yet can you run the task as the non-root user executing the playbook and not invoke sudo permission…
+[5:reply] &gt; I did try adding become: true but this doesn't change anything.
+
+If you are sending via SMTP to google you probably don't need become permissions at all.  Try `become: false` on that task instead?",title_body_comments,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/ansible/comments/1nv9moy/delegate_to_localhost_gives_me_trouble/
+B8-096,Ubiquiti,Android Protect App - console not found,"After recent updates whenever I open the protect app on my phone the app says it can't find console. Protect works fine from my desktop PC.
+
+I've tried everything for the app, force stop, cleared cache, cleared all data, uninstalled, reinstalled. Nothing fixes it but rebooting my UDM-Pro, but the problem comes back with some time. I even tried a full power down of my whole network.
+
+This has never happened until the recent Protect update (I only use the Release Candidate channel)... Or possibly the app update.
+
+Again, everything works normally from my desktop PC. Is this happening to anyone else?
+
+Edit: I think I found the problem and fixed it. I turned off remote access, then it wouldn't let me re-enable it via the Uni app. So I went to my desktop and logged in locally and when I tried to re-enable remote access there I got the following error message:
+
+""Failed to enable Remote Access: This email is bound to another admin/user in UniFi OS. Please use a different UI SSO Account and try again.""
+
+So then I went to the account page from my desktop and removed all users but my main account. I had created a local user account with the same name years ago for some reason... but apparently something changed recently that didn't like this conflict - but the UI apps don't give this error when trying to re-enable remote access w/ the conflict.
+
+https://preview.redd.it/66y2fpiefyih1.png?width=389&amp;format=png&amp;auto=webp&amp;s=281a09eb6882e46e8fa289b29ca2e9d82707e3bc","[1:reply] Hello!  Thanks for posting on r/Ubiquiti!
+
+This subreddit is here to provide unofficial technical support to people who use or want to dive into the world of Ubiquiti products.  If you haven’t already been descriptive in your post, please take the time to edit it and add as many…",title_body_comments,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/Ubiquiti/comments/1vmc11y/android_protect_app_console_not_found/
+B8-097,google,Google Maps drops X share button and adds Reddit and Facebook in major update,,"[1:reply] Even Google is able to drop X. What's your excuse for not doing the same?
+[2:OP] ""When Google adds a native share path to a platform, it’s a signal: they’re watching how people spread location-based content, and they’re expanding the channels that matter.""
+[3:reply] Preach
+[4:reply] Haven't used Facebook since 2015 and have never shared a map link to Reddit or X.
+[5:reply] Nice.  Also, it's about time. X is not a brand-safe platform. We deactivated our company page because our profile was showing up alongside crazy, white-replacwmwnt conspiracy theories.",title_plus_comments,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/google/comments/1pkv33s/google_maps_drops_x_share_button_and_adds_reddit/
+B8-098,transformers,"Holy scrap, the legends are true!",,"[1:OP] New Jersey, this was in the Walmart near Burlington kinda
+[2:reply] Been to like 5 so far. Ghost towns all of ‘em. Congrats on the find
+[3:reply] Congradulations! Where abouts?
+[4:reply] My search in Oregon area this weekend was a bust. Maybe will try again midweek when they’ve had a chance to restock. Jealous, enjoy your superior purchase!
+[5:reply] A glorious day, indeed.",title_plus_comments,no,no,na,medium,The saved text appears outside software scope or is too vague to classify reliably.,,,,,,,https://reddit.com/r/transformers/comments/1pnb4t7/holy_scrap_the_legends_are_true/
+B8-099,applehelp,Face ID Stops Working After Every Software Update,The Face ID on my iPhone 16 stops working every time I update iOS. No matter how many times I input my passcode to unlock or to access the Face ID setting itself. I have to reset Face ID and restart my iPhone just to fix it. It’s extremely aggravating and I cannot seem to find a solution to it by searching it up. Has anyone else had this issue?,"[1:reply] See if there’s anything listed [here](https://support.apple.com/en-us/118243) you haven’t tried yet short of hardware service.
+[2:reply] Have an ipad pro 11, M1, with some updates doesn’t work, with some works😂😂, solution from apple service - new tablet! So bless them, will use it as it is
+[3:reply] Don’t call apple support they can’t assist sounds like you need to go to Apple on social and ask them",title_body_comments,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/applehelp/comments/1wxmqdw/face_id_stops_working_after_every_software_update/
+B8-100,Ubiquiti,"Not bad for wireless USB-C, AirWire hitting 4 Gbps+",,"[1:reply] I can’t think of an actual use case but I’m excited it exists. I think the tech is really cool.
+
+My thinking is if I’m in a building that has an AP like this, chances are there’s plenty of Ethernet wall ports as well. And what setting do I need speeds like this where I wouldn’t…
+[2:reply] I feel like everyone in the comments is missing the point. This product seems like a direct response to articles like the RTINGS one complaining about MLO. 
+
+https://www.rtings.com/router/learn/research/wifi-7-mlo
+
+Ubiquiti needed a client that supports true MLO to test and vali…
+[3:reply] I don't need this but actually getting 4Gbps in my back garden from my 8Gbps  WAN connection would be amazing 😂
+[4:reply] So this is just a usb wifi network connector that does MLO,  The use case is to bring MLO network connections to machines that do no have support for MLO?
+[5:reply] Essentially yes. Or a paperweight",title_plus_comments,no,no,na,low,The saved text appears outside software scope or is too vague to classify reliably.,,,,,,,https://reddit.com/r/Ubiquiti/comments/1ry8ap4/not_bad_for_wireless_usbc_airwire_hitting_4_gbps/

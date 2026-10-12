@@ -1,0 +1,7 @@
+evaluation,population,macro_f1,note
+Reserved text-only,159,0.863,rounded from 0.8626835204522258
+Fresh text-only,344,0.792,rounded from 0.7915151515151515
+Fresh majority,344,0.446,0.44605475040257647
+Fresh fixed keyword,344,0.474,0.47390158551864175
+Development text,2050,0.832,0.8319320360990539
+Development text plus VADER,2050,0.833,0.8331300906317138

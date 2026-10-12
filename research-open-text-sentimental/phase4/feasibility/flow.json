@@ -1,0 +1,70 @@
+{
+  "starting_development_rows": 3151,
+  "unique_development_ids": 3151,
+  "label_about_software_yes_update_related_yes_troubleshooting": 1763,
+  "of_those_reddit_domain": 1735,
+  "after_removing_reserved_test_ids": 1735,
+  "after_removing_all_fresh_test_ids": 1735,
+  "after_body_readability_and_privacy_filters": 1572,
+  "duplicate_groups_in_pre_passage_pool": 22,
+  "duplicate_posts_set_aside": 22,
+  "screened_representatives": 1550,
+  "provisional_plausible": 27,
+  "provisional_borderline": 6,
+  "provisional_reject": 1517,
+  "historical_near_dup_ids_present_in_development": [
+    "1t0wme9",
+    "1wrqch6"
+  ],
+  "duplicate_rule": "Exact: identical NFKC-normalized title+body (URLs and non-alnum removed), the same rule as phase3/experiment_v1/followup/run_followup.py. Near: Jaccard character 5-grams >= 0.92 inside a 16-character prefix block. Representative is the lexicographically smallest reddit_id. Non-representatives are retained in the audit with that ID.",
+  "plausible_subreddit_counts": {
+    "Ubuntu": 4,
+    "openclaw": 3,
+    "immich": 3,
+    "sysadmin": 2,
+    "Fedora": 2,
+    "firefox": 2,
+    "applehelp": 2,
+    "raspberry_pi": 1,
+    "PFSENSE": 1,
+    "opnsense": 1,
+    "Ubiquiti": 1,
+    "Calibre": 1,
+    "AndroidQuestions": 1,
+    "chrome": 1,
+    "comfyui": 1,
+    "MacOS": 1
+  },
+  "plausible_month_counts": {
+    "2025-10": 1,
+    "2025-11": 1,
+    "2025-12": 1,
+    "2026-01": 1,
+    "2026-02": 1,
+    "2026-03": 3,
+    "2026-04": 5,
+    "2026-05": 3,
+    "2026-06": 5,
+    "2026-07": 4,
+    "2026-08": 1,
+    "2026-10": 1
+  },
+  "plausible_or_borderline_evidence_counts": {
+    "version_contrast": 16,
+    "rollback_outcome": 6,
+    "before_after": 9,
+    "device_contrast": 2
+  },
+  "validation": {
+    "audit_rows": 3151,
+    "audit_unique_ids": 3151,
+    "candidate_rows": 37,
+    "candidate_unique_ids": 37,
+    "reserved_overlap_in_candidates": 0,
+    "fresh_overlap_in_candidates": 0,
+    "reconstruction_failures": 0,
+    "blank_body_candidates": 0,
+    "non_reddit_candidates": 0,
+    "passage_decision_inputs": "author title and body only"
+  }
+}

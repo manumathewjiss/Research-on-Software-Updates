@@ -1,0 +1,121 @@
+{
+  "code_version": "sentiment-reanalysis-v1",
+  "script": "/Users/manumathewjiss/Documents/Research-on-Software-Updates/research-open-text-sentimental/phase5/sentiment_reanalysis/run_sentiment_reanalysis.py",
+  "script_sha256": "0e66f6f3d99cc38a75f04a354c2a0c23bbca434f37dd3c8d10542b3d87e7b234",
+  "protocol_sha256": "dde24065d4aa0c7cb093d39ae57d86acf84b6bc341e13986aca3cdf67ae3c667",
+  "git_head": "2a578690c80bff3af302fa23fa0d0837fd13100c",
+  "created_utc": "2026-10-09T21:17:26.664964+00:00",
+  "reserved_test_used": false,
+  "fresh_test_used": false,
+  "paper_edited": false,
+  "versions": {
+    "python": "3.14.7",
+    "platform": "macOS-27.0.1-arm64-arm-64bit-Mach-O",
+    "sklearn": "1.9.1",
+    "numpy": "2.5.3",
+    "scipy": "1.18.1",
+    "pandas": "3.0.6",
+    "vaderSentiment": "unknown",
+    "vader_lexicon_sha256": "1ec9c6e9ee19aade328f8beb393a6afa71a5bb3acf7d3cc22d4ef568df374bf5"
+  },
+  "settings": {
+    "C": 4.0,
+    "class_weight": "balanced",
+    "solver": "liblinear",
+    "tfidf": "word ngram_range (1, 2), min_df 2, max_features 20000, sublinear_tf",
+    "saved_threshold_continuity_only": 0.5877137791150834,
+    "inner_folds": 3,
+    "outer_folds": 5,
+    "threshold_grid": [
+      0.2,
+      0.25,
+      0.3,
+      0.35,
+      0.4,
+      0.45,
+      0.5,
+      0.55,
+      0.6,
+      0.65,
+      0.7,
+      0.75,
+      0.8
+    ],
+    "threshold_rule": "max mean inner macro-F1, then mean inner other-update F1, then closer to 0.5",
+    "vader_feature": "one compound score of raw title + newline + raw body; StandardScaler fit on the training fold only",
+    "bootstrap": {
+      "n": 1000,
+      "seed": 42,
+      "unit": "post"
+    },
+    "keyword_first_vader_rule_used": false,
+    "comments_in_classifier": false
+  },
+  "inputs": {
+    "reddit_development": {
+      "path": "/Users/manumathewjiss/Documents/Research-on-Software-Updates/research-open-text-sentimental/phase3/reddit_only_sensitivity/development_reddit_only.jsonl",
+      "sha256": "b7d74126a4be50ebdcc06fa68e9537c3150f186c8f1f63125a44f91733f91118"
+    },
+    "reddit_folds": {
+      "path": "/Users/manumathewjiss/Documents/Research-on-Software-Updates/research-open-text-sentimental/phase3/reddit_only_sensitivity/results/grouped_oof_predictions.jsonl",
+      "sha256": "65717ff73da21bdb4c5ce3aa0a30ccf7fb0e8d723c2fa595efe9d0bd50924a5d"
+    },
+    "mixed_development": {
+      "path": "/Users/manumathewjiss/Documents/Research-on-Software-Updates/research-open-text-sentimental/phase3/revised_development_v2/development_v2.jsonl",
+      "sha256": "287995b6b8b529c145591108d9a77f88f1e515185d38810910066ffba21fa781"
+    },
+    "mixed_folds": {
+      "path": "/Users/manumathewjiss/Documents/Research-on-Software-Updates/research-open-text-sentimental/phase3/diagnostic_results/grouped_oof_predictions.jsonl",
+      "sha256": "0dbe257ea757ac8a77f655400b776643576dd5983e61912ad2c44dbd65f3d027"
+    },
+    "c1_metrics": {
+      "path": "/Users/manumathewjiss/Documents/Research-on-Software-Updates/research-open-text-sentimental/data/c1_prime/c1_prime_metrics.csv",
+      "sha256": "40e2b6438c7d7f62541e7bd2b82216468c3961728560bb3144b72b6169401e40"
+    },
+    "labels": {
+      "path": "/Users/manumathewjiss/Documents/Research-on-Software-Updates/research-open-text-sentimental/tps_gds_classification/data/updated_labeled_dataset_unique.csv",
+      "sha256": "ffafdc4db148f0c713f8501f50a895bea61b614c04b90118aea55cf022700802"
+    },
+    "raw_tps": {
+      "path": "/Users/manumathewjiss/Documents/Research-on-Software-Updates/research-open-text-sentimental/tps_gds_classification/data/raw/tps_response.json",
+      "sha256": "bc949d6d63bcdeca7b8c273af30e4d0ec06bf6953d5ce7d6531b0c1934db4974"
+    },
+    "raw_gds": {
+      "path": "/Users/manumathewjiss/Documents/Research-on-Software-Updates/research-open-text-sentimental/tps_gds_classification/data/raw/gds_response.json",
+      "sha256": "7a6f98f0652e1cc5baa84ad2ffbd327b82cbc76d0629b649ff86e1c5d81369c0"
+    }
+  },
+  "outputs": {
+    "results/historical_542_audit.json": "91b04fefd1410131682c302efe1d75ee5029758b67a4ad6cea45f6995c2b5e6a",
+    "results/mixed_2080/changed_errors.jsonl": "a8021db3782014410fcf52e08a076ce5880ed17ba40bdc3d03df7a5465c0fed1",
+    "results/mixed_2080/fold_0_metrics.json": "c62de78949f6abf715d6d86a5238e5ce1f2aea900f1476323712bfd2ef702385",
+    "results/mixed_2080/fold_0_predictions.jsonl": "4653f45257d0ab995f9465e044551f0672d7965a523536772c6777db9f87c8a5",
+    "results/mixed_2080/fold_1_metrics.json": "be9e0a1e3f31cbcb94536e8ba7016d5f559f7f767feb48ab5abe4be9139b219f",
+    "results/mixed_2080/fold_1_predictions.jsonl": "436f559a55cf2f7d4268b58abc90c10a9083fbc0cb392f75f77ca3ecde918872",
+    "results/mixed_2080/fold_2_metrics.json": "d9085706c878b085c9a79d18c29f699d3be834a223b113c8a9c1b5b0017ccd85",
+    "results/mixed_2080/fold_2_predictions.jsonl": "b0246bfe80b06f982357d8698648db38b4a1fa6829f2dc5442d3e3fe5d4d9f65",
+    "results/mixed_2080/fold_3_metrics.json": "5cbad84a525147b4c7b7b2123703243f9a7549823f723fa1dcf6e5c27d1a0074",
+    "results/mixed_2080/fold_3_predictions.jsonl": "668bdc400ab637b27bfb22c5284150f9c3b5acb74b9c642eedd539c3302344fe",
+    "results/mixed_2080/fold_4_metrics.json": "128c0f3c1743d71d87b10da85cd20030bd4752911722d4c64de103d262bcb91e",
+    "results/mixed_2080/fold_4_predictions.jsonl": "280ea8d64aecb63f3b2605a826e3f1dc31156d543a3d40ae4534195f0636a715",
+    "results/mixed_2080/pooled_metrics.json": "954c70ab58c270fe8a45d2e9dc484035ea24c214e470193b99e6aa95b571b238",
+    "results/mixed_2080/pooled_predictions.jsonl": "647ba4bda6fc213da0b3d55d001a4ccf2613f612c082929af93f40eb5a97407d",
+    "results/reddit_2050/changed_errors.jsonl": "59c685a2b99d9975a7f3b1ea715ad25d176b006360e3e947b0a97f7dbd908bc3",
+    "results/reddit_2050/fold_0_metrics.json": "380786e9bbba0c6947e70de62b9bf3df07c2dc75a75efd91c5594b64073ac804",
+    "results/reddit_2050/fold_0_predictions.jsonl": "4343a22f46418fdb628e6675025bf5991cdbbc0d269fd58e5cfbe581f212c1db",
+    "results/reddit_2050/fold_1_metrics.json": "ce73042d295cd67a9fa8af8a34212fee2139cd18b321599fe062f46c07aab9e6",
+    "results/reddit_2050/fold_1_predictions.jsonl": "58d6249fd90a26a803df6bbbbaa7ad5b8e9b806b3757aafc64ef04baafc9dd05",
+    "results/reddit_2050/fold_2_metrics.json": "5e4c340635edcd6a86b970335cc12274c9d0cf84fea048c5b48e34de7e666b29",
+    "results/reddit_2050/fold_2_predictions.jsonl": "3aa9d040c4a37dd26697be196dabbac8dffb8c946d0a61c69155fbe83c896d4e",
+    "results/reddit_2050/fold_3_metrics.json": "a7801515f001a1563199ecd31ffc920b58f91ef30ed8d10e3e96b0f7a979887d",
+    "results/reddit_2050/fold_3_predictions.jsonl": "7d9d831167c083bc4c35b4dde33cd480c2850c2a14a951e2aebc067f1d24c5cd",
+    "results/reddit_2050/fold_4_metrics.json": "5195b22bfcd0eac6797b1f0f0719d2ee003f013c3249a03f56ffc7087c5ad6f4",
+    "results/reddit_2050/fold_4_predictions.jsonl": "5c197edc43c2a838d7b0ee8555e6720152659b73ced12e9cd6cb158d1f58422f",
+    "results/reddit_2050/pooled_metrics.json": "d57d75bea6659298481d52db5436d45d103dd80b40f9d0e853c34b671a3c9151",
+    "results/reddit_2050/pooled_predictions.jsonl": "5df024f665306448127a54686601e0a197d32f965f035f001351c7623a15265b"
+  },
+  "documents": {
+    "RESULTS.md": "6f27f04a8ddaa2384417a549189a023e39335afb7930cca3ddcd36de5a843d95",
+    "RUN.md": "bf65834ca14c2f9bf62c4367e437a45eeeb15a2a825f8a74717debe33f7d3519"
+  }
+}

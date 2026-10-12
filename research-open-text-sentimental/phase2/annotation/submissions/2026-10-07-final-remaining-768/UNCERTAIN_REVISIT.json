@@ -1,0 +1,68 @@
+[
+  {
+    "review_id": "B2-027",
+    "study_id": "C2-5220A8F4DE36",
+    "reddit_id": "1nwclik",
+    "decision": "still_uncertain",
+    "about_software": "",
+    "update_related": "",
+    "discussion_type": "",
+    "reason": "The visible text never identifies the Tahoe symptom, so the discussion type cannot be determined.",
+    "review_method": "Manu revisit of earlier uncertain post"
+  },
+  {
+    "review_id": "B5-018",
+    "study_id": "C2-9A4D8C174D1D",
+    "reddit_id": "1q03jmr",
+    "decision": "still_uncertain",
+    "about_software": "",
+    "update_related": "",
+    "discussion_type": "",
+    "reason": "The post content is missing; the title and replies do not show what is being reviewed.",
+    "review_method": "Manu revisit of earlier uncertain post"
+  },
+  {
+    "review_id": "B5-081",
+    "study_id": "C2-662992ADD212",
+    "reddit_id": "1nzj2ic",
+    "decision": "still_uncertain",
+    "about_software": "",
+    "update_related": "",
+    "discussion_type": "",
+    "reason": "The criticized Google result is in an unavailable image, so the issue cannot be classified reliably.",
+    "review_method": "Manu revisit of earlier uncertain post"
+  },
+  {
+    "review_id": "B5-100",
+    "study_id": "C2-7D5EBA44F2DB",
+    "reddit_id": "1mxkbjj",
+    "decision": "resolved",
+    "about_software": "yes",
+    "update_related": "no",
+    "discussion_type": "technical_troubleshooting",
+    "reason": "The title clearly reports a Chrome Remote Desktop problem; no update is mentioned.",
+    "review_method": "Manu revisit of earlier uncertain post"
+  },
+  {
+    "review_id": "B6-003",
+    "study_id": "C2-923831C9D6A7",
+    "reddit_id": "1lp8o76",
+    "decision": "still_uncertain",
+    "about_software": "",
+    "update_related": "",
+    "discussion_type": "",
+    "reason": "The title mentions an update but does not name the product or show the reported effect.",
+    "review_method": "Manu revisit of earlier uncertain post"
+  },
+  {
+    "review_id": "B8-036",
+    "study_id": "C2-083891E1D2A2",
+    "reddit_id": "1qozvt5",
+    "decision": "still_uncertain",
+    "about_software": "",
+    "update_related": "",
+    "discussion_type": "",
+    "reason": "The unavailable screenshot contains the Google AI behavior needed to judge the post.",
+    "review_method": "Manu revisit of earlier uncertain post"
+  }
+]

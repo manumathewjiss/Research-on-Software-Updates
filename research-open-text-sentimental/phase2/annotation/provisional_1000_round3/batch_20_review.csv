@@ -1,0 +1,2089 @@
+﻿review_id,subreddit,title,post_body,discussion_context,text_availability,proposed_about_software,proposed_update_related,proposed_discussion_type,proposed_confidence,proposed_reason,decision,final_about_software,final_update_related,final_discussion_type,reviewer_note,reviewed_at,source_url
+B20-001,Fedora,Fedora 43 - Impossible to boot Windows from Grub (black screen),"Hi guys,
+
+  
+I have been having a problem for the last three months: I dual-boot Fedora 43 and Windows 11 on a Gigabyte AX Eagle B650 motherboard, and since the F38 bios update (from January 2026), although I can directly access Windows 11 and Fedora individually from the firmware bios boot choice, I can't boot on Windows 11 through Grub. As soon as I select Windows 11 through grub, there's only a black screen and the only choice I have is to shutdown and reboot.
+
+Important thing: disabling secure boot fixes the problem, it seems to be chainloading related?
+
+I contacted the Gigabyte support team without success (they can't reproduce it on the same setup, and they ""can't fix it"", although I'm almost sure they don't want to bother with linux specific issues...). It seems to be related to the latest AGESA updates, but I'm not sure.
+
+I am probably not the only one facing this bug: has anyone managed to fix this? Is there a workaround while we wait for a future update?
+
+Thank you!",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/Fedora/comments/1s295e4/fedora_43_impossible_to_boot_windows_from_grub/
+B20-002,Ubuntu,"Ubuntu 24.04 Boot Issues: GDM3 Crash, Intel Tiger Lake Graphics - Solved with XFCE","**System Info:**
+
+* **Laptop:** Lenovo IdeaPad 3-15ITL6
+* **CPU/GPU:** Intel Tiger Lake UHD Graphics (11th gen)
+* **Ubuntu Version:** 24.04.4 LTS
+* **Kernel:** 6.17.0-19-generic
+
+**The Problem:**
+
+After a recent update or normal boot, my system started showing ACPI BIOS errors and would not boot to the graphical interface. I was stuck at a black screen or text terminal. The error logs showed:
+
+* `ACPI BIOS Error (bug): Could not resolve symbol AE_NOT_FOUND`
+* `traps: gdm3[xxxx] trap int3 in libglib` (GDM3 repeatedly crashing)
+* GDM3 and GNOME session both failing to start
+
+**What I Tried:**
+
+* Booted with `nomodeset` kernel parameter
+* Switched from GDM3 to LightDM
+* Installed XFCE desktop as fallback
+* Added `i915.enable_psr=0 i915.enable_guc=0` kernel parameters
+* Reset GNOME configurations
+* Tried both Wayland and Xorg sessions
+
+**Current Status:**  
+I have a fully working system using:
+
+* **LightDM** as display manager
+* **XFCE** as desktop environment
+* System is stable, fast, and all applications work
+
+I can still access the text terminal via Ctrl+Alt+F2 and my files are intact.
+
+**My Questions:**
+
+1. Has anyone else experienced similar issues with Intel Tiger Lake graphics on Ubuntu 24.04?
+2. Is this a known kernel/driver regression in 6.17.x?
+3. Is there a reliable way to get GNOME working again without breaking my current setup?
+4. Would switching to an older kernel (6.17.0-14) help, or should I stick with XFCE?
+
+**What I'd Like:**
+
+* Ideally, get GNOME working again (I prefer it)
+* But I'm happy to stick with XFCE if it's more stable for this hardware
+* Just want to understand what caused this and how to prevent it in the future
+
+Any advice is appreciated!",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/Ubuntu/comments/1s1vrd8/ubuntu_2404_boot_issues_gdm3_crash_intel_tiger/
+B20-003,esp32,ESP32-S3-Cam 'Camera capture failed' with Edge Impulse,"I have an ESP32-S3-Camera and I'm trying to do hand symbol recognition. The original code that Edge Impulse gave was for an ESP32 Camera no the S3, so i tweaked the code a bit.
+
+Every time I uploaded the code, the Serial Monitor would print out: Camera capture failed.
+
+
+
+**If you have any advice for me please do let me know.**
+
+
+
+
+
+Here is the code:
+
+
+
+    ```/* Edge Impulse Arduino examples
+     * Copyright (c) 2022 EdgeImpulse Inc.
+     *
+     * Permission is hereby granted, free of charge, to any person obtaining a copy
+     * of this software and associated documentation files (the ""Software""), to deal
+     * in the Software without restriction, including without limitation the rights
+     * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+     * copies of the Software, and to permit persons to whom the Software is
+     * furnished to do so, subject to the following conditions:
+     *
+     * The above copyright notice and this permission notice shall be included in
+     * all copies or substantial portions of the Software.
+     *
+     * THE SOFTWARE IS PROVIDED ""AS IS"", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+     * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+     * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+     * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+     * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+     * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+     * SOFTWARE.
+     */
+    
+    
+    // These sketches are tested with ESP32 Arduino Core
+    /* Includes ---------------------------------------------------------------- */
+    #include &lt;esp_hand_symbol_detection_inferencing.h&gt;
+    #include ""edge-impulse-sdk/dsp/image/image.hpp""
+    #include ""esp_camera.h""
+    
+    
+    // Select camera model
+    #define CAMERA_MODEL_ESP32S3_EYE // Has PSRAM
+    
+    
+    #if defined(CAMERA_MODEL_ESP32S3_EYE)
+    #define PWDN_GPIO_NUM    -1
+    #define RESET_GPIO_NUM   -1
+    #define XCLK_GPIO_NUM    15
+    #define SIOD_GPIO_NUM    4
+    #define SIOC_GPIO_NUM    5
+    
+    
+    #define Y9_GPIO_NUM      16
+    #define Y8_GPIO_NUM      17
+    #define Y7_GPIO_NUM      18
+    #define Y6_GPIO_NUM      12
+    #define Y5_GPIO_NUM      11
+    #define Y4_GPIO_NUM      10
+    #define Y3_GPIO_NUM      9
+    #define Y2_GPIO_NUM      8
+    #define VSYNC_GPIO_NUM   6
+    #define HREF_GPIO_NUM    7
+    #define PCLK_GPIO_NUM    13
+    
+    
+    #else
+    #error ""Camera model not selected""
+    #endif
+    
+    
+    /* Constant defines -------------------------------------------------------- */
+    #define EI_CAMERA_RAW_FRAME_BUFFER_COLS           320
+    #define EI_CAMERA_RAW_FRAME_BUFFER_ROWS           240
+    #define EI_CAMERA_FRAME_BYTE_SIZE                 3
+    
+    
+    /* Private variables ------------------------------------------------------- */
+    static bool debug_nn = false; 
+    static bool is_initialised = false;
+    uint8_t *snapshot_buf; 
+    
+    
+    static camera_config_t camera_config = {
+        .pin_pwdn = PWDN_GPIO_NUM,
+        .pin_reset = RESET_GPIO_NUM,
+        .pin_xclk = XCLK_GPIO_NUM,
+        .pin_sscb_sda = SIOD_GPIO_NUM,
+        .pin_sscb_scl = SIOC_GPIO_NUM,
+    
+    
+        .pin_d7 = Y9_GPIO_NUM,
+        .pin_d6 = Y8_GPIO_NUM,
+        .pin_d5 = Y7_GPIO_NUM,
+        .pin_d4 = Y6_GPIO_NUM,
+        .pin_d3 = Y5_GPIO_NUM,
+        .pin_d2 = Y4_GPIO_NUM,
+        .pin_d1 = Y3_GPIO_NUM,
+        .pin_d0 = Y2_GPIO_NUM,
+        .pin_vsync = VSYNC_GPIO_NUM,
+        .pin_href = HREF_GPIO_NUM,
+        .pin_pclk = PCLK_GPIO_NUM,
+    
+    
+        // Lowered clock speed for S3 capture stability
+        .xclk_freq_hz = 10000000,
+        .ledc_timer = LEDC_TIMER_0,
+        .ledc_channel = LEDC_CHANNEL_0,
+    
+    
+        .pixel_format = PIXFORMAT_JPEG, 
+        .frame_size = FRAMESIZE_QVGA,    
+    
+    
+        .jpeg_quality = 12, 
+        .fb_count = 2,       
+        .fb_location = CAMERA_FB_IN_PSRAM,
+        .grab_mode = CAMERA_GRAB_LATEST,
+    };
+    
+    
+    /* Function declarations --------------------------------------------------- */
+    bool ei_camera_init(void);
+    void ei_camera_deinit(void);
+    bool ei_camera_capture(uint32_t img_width, uint32_t img_height, uint8_t *out_buf);
+    static int ei_camera_get_data(size_t offset, size_t length, float *out_ptr);
+    
+    
+    /**
+    *       Arduino setup function
+    */
+    void setup()
+    {
+        Serial.begin(115200);
+        while (!Serial);
+        
+        Serial.println(""Edge Impulse Inferencing Demo (ESP32-S3 EYE)"");
+        if (ei_camera_init() == false) {
+            ei_printf(""Failed to initialize Camera!\r\n"");
+        }
+        else {
+            ei_printf(""Camera initialized\r\n"");
+        }
+    
+    
+        ei_printf(""\nStarting continuous inference in 2 seconds...\n"");
+        ei_sleep(2000);
+    }
+    
+    
+    /**
+    *       Get data and run inferencing
+    */
+    void loop()
+    {
+        if (ei_sleep(5) != EI_IMPULSE_OK) {
+            return;
+        }
+    
+    
+        // Allocation updated to ps_malloc for ESP32-S3 OPI PSRAM compatibility
+        snapshot_buf = (uint8_t*)ps_malloc(EI_CAMERA_RAW_FRAME_BUFFER_COLS * EI_CAMERA_RAW_FRAME_BUFFER_ROWS * EI_CAMERA_FRAME_BYTE_SIZE);
+    
+    
+        if(snapshot_buf == nullptr) {
+            ei_printf(""ERR: Failed to allocate snapshot buffer in PSRAM!\n"");
+            return;
+        }
+    
+    
+        ei::signal_t signal;
+        signal.total_length = EI_CLASSIFIER_INPUT_WIDTH * EI_CLASSIFIER_INPUT_HEIGHT;
+        signal.get_data = &amp;ei_camera_get_data;
+    
+    
+        if (ei_camera_capture((size_t)EI_CLASSIFIER_INPUT_WIDTH, (size_t)EI_CLASSIFIER_INPUT_HEIGHT, snapshot_buf) == false) {
+            ei_printf(""Failed to capture image\r\n"");
+            free(snapshot_buf);
+            return;
+        }
+    
+    
+        // Run the classifier
+        ei_impulse_result_t result = { 0 };
+    
+    
+        EI_IMPULSE_ERROR err = run_classifier(&amp;signal, &amp;result, debug_nn);
+        if (err != EI_IMPULSE_OK) {
+            ei_printf(""ERR: Failed to run classifier (%d)\n"", err);
+            free(snapshot_buf);
+            return;
+        }
+    
+    
+        // Print the predictions
+        ei_printf(""Predictions (DSP: %d ms., Classification: %d ms., Anomaly: %d ms.): \n"",
+                  result.timing.dsp, result.timing.classification, result.timing.anomaly);
+    
+    
+    #if EI_CLASSIFIER_OBJECT_DETECTION == 1
+        ei_printf(""Object detection bounding boxes:\r\n"");
+        for (uint32_t i = 0; i &lt; result.bounding_boxes_count; i++) {
+            ei_impulse_result_bounding_box_t bb = result.bounding_boxes[i];
+            if (bb.value == 0) {
+                continue;
+            }
+            ei_printf(""  %s (%f) [ x: %u, y: %u, width: %u, height: %u ]\r\n"",
+                    bb.label,
+                    bb.value,
+                    bb.x,
+                    bb.y,
+                    bb.width,
+                    bb.height);
+        }
+    #else
+        ei_printf(""Predictions:\r\n"");
+        for (uint16_t i = 0; i &lt; EI_CLASSIFIER_LABEL_COUNT; i++) {
+            ei_printf(""  %s: "", ei_classifier_inferencing_categories[i]);
+            ei_printf(""%.5f\r\n"", result.classification[i].value);
+        }
+    #endif
+    
+    
+    #if EI_CLASSIFIER_HAS_ANOMALY
+        ei_printf(""Anomaly prediction: %.3f\r\n"", result.anomaly);
+    #endif
+    
+    
+    #if EI_CLASSIFIER_HAS_VISUAL_ANOMALY
+        ei_printf(""Visual anomalies:\r\n"");
+        for (uint32_t i = 0; i &lt; result.visual_ad_count; i++) {
+            ei_impulse_result_bounding_box_t bb = result.visual_ad_grid_cells[i];
+            if (bb.value == 0) {
+                continue;
+            }
+            ei_printf(""  %s (%f) [ x: %u, y: %u, width: %u, height: %u ]\r\n"",
+                    bb.label,
+                    bb.value,
+                    bb.x,
+                    bb.y,
+                    bb.width,
+                    bb.height);
+        }
+    #endif
+    
+    
+        free(snapshot_buf);
+    }
+    
+    
+    /**
+     *    Setup image sensor &amp; start streaming
+     */
+    bool ei_camera_init(void) {
+        if (is_initialised) return true;
+    
+    
+        esp_err_t err = esp_camera_init(&amp;camera_config);
+        if (err != ESP_OK) {
+          Serial.printf(""Camera init failed with error 0x%x\n"", err);
+          return false;
+        }
+    
+    
+        sensor_t * s = esp_camera_sensor_get();
+        if (s != NULL) {
+            s-&gt;set_vflip(s, 1);       
+            s-&gt;set_hmirror(s, 1);     
+        }
+    
+    
+        is_initialised = true;
+        return true;
+    }
+    
+    
+    /**
+     *       Stop streaming of sensor data
+     */
+    void ei_camera_deinit(void) {
+        esp_err_t err = esp_camera_deinit();
+        if (err != ESP_OK) {
+            ei_printf(""Camera deinit failed\n"");
+            return;
+        }
+        is_initialised = false;
+    }
+    
+    
+    /**
+     *       Capture, rescale and crop image
+     */
+    bool ei_camera_capture(uint32_t img_width, uint32_t img_height, uint8_t *out_buf) {
+        bool do_resize = false;
+    
+    
+        if (!is_initialised) {
+            ei_printf(""ERR: Camera is not initialized\r\n"");
+            return false;
+        }
+    
+    
+        camera_fb_t *fb = esp_camera_fb_get();
+        if (!fb) {
+            ei_printf(""Camera capture failed\n"");
+            return false;
+        }
+    
+    
+        bool converted = fmt2rgb888(fb-&gt;buf, fb-&gt;len, PIXFORMAT_JPEG, snapshot_buf);
+        esp_camera_fb_return(fb);
+    
+    
+        if(!converted){
+            ei_printf(""Conversion failed\n"");
+            return false;
+        }
+    
+    
+        if ((img_width != EI_CAMERA_RAW_FRAME_BUFFER_COLS)
+            || (img_height != EI_CAMERA_RAW_FRAME_BUFFER_ROWS)) {
+            do_resize = true;
+        }
+    
+    
+        if (do_resize) {
+            ei::image::processing::crop_and_interpolate_rgb888(
+            out_buf,
+            EI_CAMERA_RAW_FRAME_BUFFER_COLS,
+            EI_CAMERA_RAW_FRAME_BUFFER_ROWS,
+            out_buf,
+            img_width,
+            img_height);
+        }
+    
+    
+        return true;
+    }
+    
+    
+    static int ei_camera_get_data(size_t offset, size_t length, float *out_ptr)
+    {
+        size_t pixel_ix = offset * 3;
+        size_t pixels_left = length;
+        size_t out_ptr_ix = 0;
+    
+    
+        while (pixels_left != 0) {
+            // Swap BGR to RGB 
+            out_ptr[out_ptr_ix] = (snapshot_buf[pixel_ix + 2] &lt;&lt; 16) + (snapshot_buf[pixel_ix + 1] &lt;&lt; 8) + snapshot_buf[pixel_ix];
+    
+    
+            out_ptr_ix++;
+            pixel_ix += 3;
+            pixels_left--;
+        }
+        return 0;
+    }
+    
+    
+    #if !defined(EI_CLASSIFIER_SENSOR) || EI_CLASSIFIER_SENSOR != EI_CLASSIFIER_SENSOR_CAMERA
+    #error ""Invalid model for current sensor""
+    #endif","[1:reply] Can you run the camera server demo on your board? They don't all have the same pin connections. The example code has lots of different board definitions you can try if you need.
+[2:OP] I can run the Camera Web Server code on my board. If that's what you mean?",title_body_comments,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/esp32/comments/1ucjy4t/esp32s3cam_camera_capture_failed_with_edge_impulse/
+B20-004,chrome,Tabs crashing since one of the recent updates,"Sometime in the past 30 days, Chrome tabs started crashing.  I have two different laptops and it was happening on a newer HP first and just yesterday it started happening on my older HP?  Is this happening to anyone else?  Were one of the updates bugged?  I'm going to have to quit using Chrome and go with Firefox if this isn't fixed.",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/chrome/comments/1omupxt/tabs_crashing_since_one_of_the_recent_updates/
+B20-005,openclaw,How do I update OpenClaw without a full reinstall?,"I have OpenClaw up and running, but I’m not sure what the standard procedure is for updating to the latest version. I’d like to avoid a full ""uninstall and reinstall"" cycle if possible.",,title_and_body,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/openclaw/comments/1qxwimp/how_do_i_update_openclaw_without_a_full_reinstall/
+B20-006,windows,"PUBLIC SERVICE ANNOUNCEMENT: Winaero Tweaker's ""Reset to Defaults"" on Windows 11 Is a Registry Trap: It Breaks Accessibility Scaling and Forces System Restore.",[removed],,title_and_body,yes,no,other,low,The post appears to discuss software without a clear troubleshooting or chiefly critical purpose.,,,,,,,https://reddit.com/r/windows/comments/1pf0u52/public_service_announcement_winaero_tweakers/
+B20-007,comfyui,"Mac users, don't forget to upgrade your torch package for significant performance gains","for my ltx 2.3 workflow on M3 Ultra:
+
+- torch stable 2.12 - 180 it/s
+- torch nightly 2.13.0.dev20260511 - 30 it/s
+
+Be aware: the newest nightly 2.13.0.dev20260520 doesn't work in comfyui. it only renders black images for me. So I am recommending the slightly older version.
+
+Depending on your environment, update with something like:
+
+&gt; pip install torch==2.13.0.dev20260511  torchvision  torchaudio  --index-url https://download.pytorch.org/whl/nightly/cpu","[1:reply] You might want to double-check the numbers, because ""180 it/s"" is better/faster than ""30 it/s"".
+[2:OP] Currently doing 10s videos in 1280x720 with 25fps in two passes. Eulers or 2m samplers. I am loading the distilled model without quant in BF16. Usually bf16 is faster than even unsloth ggufs for me on mac.
+[3:OP] Depends alot on the resolution. For i2v on an M3 ultra:
+
+Fastest usable workflow takes 2,5 minutes with 1 pass in native model res (768x512) for a 5 second clip, sampling with lcm and 8 linear sigma steps at 11 s/it, including VAE decoding, excluding text encoding and model load…
+[4:OP] Typo its s/it of course
+[5:reply] What were the specs of the video? Resolution/Lenght/FPS?",title_body_comments,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/comfyui/comments/1tkdci8/mac_users_dont_forget_to_upgrade_your_torch/
+B20-008,linux,Fix found for Fedora 43 forcing icons to appear on Secondary Monitor,"Afternoon, chaps! If you are like me and didn't wait a few months before updating Fedora 43 since it is kind of broken, you may have come across some issues like the one I am about to describe. For starters, the update to Fedora 43 completely broke my icon configuration, and my icons seemed to prefer being on my secondary monitor rather than my primary. I initially ignored the issue, but it is annoying to drag the icons back every single time. Luckily I found a somewhat stupid fix.
+
+1. Right click your secondary monitor's desktop and select ""Desktop and Wallpaper""  
+
+
+https://preview.redd.it/tgqswsnr335g1.png?width=413&amp;format=png&amp;auto=webp&amp;s=735840870327807d7ef94f8ccd862bc1a8c430c9
+
+ 
+
+2. In the ""Wallpaper"" Tab, go to ""Layout: Folder View"" and change it to ""Desktop""
+
+https://preview.redd.it/94f5x1uz335g1.png?width=801&amp;format=png&amp;auto=webp&amp;s=6a2096c4161d6350ef0f51cd55ba132ad8aa0da4
+
+  
+3. Press ""Apply Now""
+
+https://preview.redd.it/ielxkkl1435g1.png?width=684&amp;format=png&amp;auto=webp&amp;s=deb8b03d0e26dba4b0258cd611ebd8e4131792e3
+
+  
+4. Done! Note that if you change it back to Desktop, the icons will show up on the secondary monitor again. In other words, this is a temporary fix.
+
+  
+I don't know why Fedora 43 is so broken, but this is just one of many issues I have had recently after updating, and I am considering rolling back to Fedora 42 until everything is resolved. It broke my system sounds, my games (Can't play Ghost of Tsushima now), and several other things. Hopefully it gets fixed soon.",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/linux/comments/1pdm0hk/fix_found_for_fedora_43_forcing_icons_to_appear/
+B20-009,homeassistant,Unable to connect to homeassistant iOS App,"Hi all,
+
+Since the last iOS update I've had a problem with the Home Assistant app. When I open it, I immediately get ""Unable to connect to Home Assistant. Retrying in 60 seconds..."" in an endless loop.
+
+I tried a full reinstall, but that didn't help either — I never even get a screen to enter a URL or credentials. It seems the app somehow still ""knows"" a server config from before, even right after a fresh install.
+
+When I log in via browser instead, it works fine using both the local IP and homeassistant.local. But I normally use a local URL through nginx (with a valid Let's Encrypt cert, internal-only) — and with that URL I get the exact same connection error, in the browser too, not just the app.
+
+Everything works without issues on Android with the same nginx URL, same network. So this seems iOS-specific — possibly some kind of DNS/rebind protection issue, but I haven't been able to confirm that.
+
+What I've already tried:
+
+Full app delete + reinstall
+
+Reset network settings on the iPhone
+
+Deleting the widget
+
+Checked for VPN/config profiles (none found)
+
+Confirmed DNS is set to automatic (also tried a custom DNS server, no change)
+
+My main question: how can I force the app to show the server setup screen again, so I can manually enter the IP or homeassistant.local? Right now it goes straight to the error with no way to input anything.
+
+Has anyone run into this, or know why nginx-URL access would suddenly break only on iOS while Android and direct IP/.local access still work?
+
+System info:
+
+Installation method: Home Assistant OS
+
+Core: 2026.7.3
+
+Supervisor: 2026.07.3
+
+Operating System: 18.1 (HAOS)
+
+Frontend: 20260624.6
+
+Companion app: 2026.6.5-full (22884)
+
+iOS Version: 26.5.2
+
+Many thanks","[1:reply] sounds like the app is hanging onto old data even after a reinstall, iOS can be stubborn like that. try going into settings &gt; general &gt; iphone storage, find the home assistant app and offload it first, then delete it. offloading clears the app but keeps its documents and d…",title_body_comments,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/homeassistant/comments/1v4678w/unable_to_connect_to_homeassistant_ios_app/
+B20-010,Ubiquiti,Failed adoptions,"Is it just me or is there something fundamentally wrong with UniFi these days? I haven't been able to adopt (and update) a single switch this past year without needing to remove, reset and re-adopt. Doesn't matter if it's a USW-Flex (but that's the worst), USW-48-POE, or a USW-Lite-8-POE.
+Why? 
+
+In the really old days we had an option to trigger update before we adopted!",,title_and_body,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/Ubiquiti/comments/1s4zzzs/failed_adoptions/
+B20-011,applehelp,iPhone 16 audio not working,"Hello!
+
+i have an iPhone 16 (recently updated, no silent mode / DND) that is not playing audio on Podcasts, Spotify or the NHS couch to 5k app. however, it is working with files / audio calls, so I don’t believe it’s a hardware issue.
+
+ive tried almost every fix online (including reinstalling / updating the apps), any idea what this could be caused by?",,title_and_body,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/applehelp/comments/1vt3d8b/iphone_16_audio_not_working/
+B20-012,sysadmin,"GPO deployment showed 'Task Completed' but silently failed, here's why","Azure Arc GPO deployment reported ""Task Completed"" but servers never showed up in Azure
+
+The scheduled task said: completed. No errors. Yet nothing got installed, and nothing showed up in Azure.
+
+If you're rolling out Azure Arc onboarding through Group Policy, you might be hitting the same silent issue without ever getting a heads-up.
+
+At a client, we rolled out Azure Arc onboarding in phases via GPO. The scheduled task ran cleanly and cleaned up after itself, the update task was created as expected, ArcInfo.json looked correct, and Event Viewer/Arc logs showed zero errors. But no application got installed, and no connection ever showed up in the cloud. In practice, that meant servers that looked ""onboarded"" on paper were actually sitting outside the reach of policies, monitoring, and Defender for Cloud with zero alerts firing.
+
+We saw this on 3 servers, all Windows Server 2022, all with the AzureArcSetup feature already present. The feature was enabled but never configured further. Underneath, it had a different install and config than what the GPO expected and it actively blocked the GPO's installation instead of letting it update itself.
+
+We didn't catch this through a dashboard. We found it by manually checking the Azure portal against our server list with some common sense and pattern recognition. A good reminder that ""task completed"" alone tells you nothing about the actual result.
+
+Fix:
+
+* `Get-WindowsFeature AzureArcSetup`
+* `Remove-WindowsFeature AzureArcSetup`(We ended up scripting this for all other 2022 servers)
+* Reboot the server
+* Let the GPO reprocess
+
+After that, the install went through and the server showed up in Azure as expected.
+
+It seems, Azure isn't always blue 😄","[1:reply] Thanks, ChatGPT.
+[2:OP] just a little, you dont use AI ?",title_body_comments,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/sysadmin/comments/1urkc84/gpo_deployment_showed_task_completed_but_silently/
+B20-013,debian,"Laptops keyboard not working after update. Used timeshift to old snapshots, it works, but I run apt update/upgrade and it stops working.","I’m going crazy!
+
+An external keyboard works, but not the one built into the laptop. It’s so weird that when I run update and upgrade is when it breaks. But if I don’t updTe on an old snapshot it still works. It’s driving me crazy!","[1:OP] Update: booting with older kernel works. I’ll just be doing this for now until I find the real issue I guess
+
+Unfortunately I still need a keyboard plugged in on boot to select the older kernel works
+
+Edit: changed grub default so I don’t need the external keyboard
+[2:reply] Same here on asus ROG g14 (2022). Slight difference: keyboard arrows work to select previous version but keyboard not responding afterwards.
+I get the following errors in the beginning of the boot sequence: 
+- Asus failed to request functions :-75 (-EOVERFLOW)
+- Failed to initia…
+[3:reply] check journalctl --list-boots and find a bad one, compare it to a good one see if anything sticks out for keyboard or USB
+[4:reply] Out of curiosity, what model laptop are you using?
+[5:OP] ASUS G16 can’t remember what year but I think I got it 2 years ago",title_body_comments,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/debian/comments/1wv74l5/laptops_keyboard_not_working_after_update_used/
+B20-014,AskElectronics,Help with a broken switch (remake/reverse engineer),"Greetings everyone. This is kind of a random one.
+
+BLUF: I need help creating a new switch for my son's light bar in his truck. The one it arrived with is broke almost immediately.
+
+First let me say I'm semi-familiar with electronics however my experience is primarily with raspberry pi, Arduino uno, and a few other micro controllers like the esp32, pi pico, etc. Which I mainly use for home IoT devices. Additionally I have created my own 6x6 key matrix, button box for gaming. So I have some breadboards, prototyping boards, a metric ton of little LEDs various left over automotive switches (from the button box) soldering iron, solder, etc.
+
+With all that being said. I know very little about PCBs, their traces, those tiny resistors, etc. And how this ties into/works with a 12v car system. 
+
+End goal: I want to make a button box but into the cigarette ash tray of my son's Ford ranger.  I've already been working up the 3d model to recess the switches so the tray will close flush. 
+
+Now the ACTUAL question (if you hung in this far I really appreciate it) I just need help understanding these traces so I can replicate them on a protoboards. I would like to maintain the actual functionality of the original board.
+
+Are their any discussion considerations being this is a 12v system. For example the switch I intend to use (I'll add a photo of the switch in a bit) has a built in LED that says it's rated for 12v but I don't this board is running the full 12v from the relay. (I could be wrong. This is the part I don't really understand)
+
+The current functions of the original board.
+
+The right side is a normally open button, the green LED illuminates when the switch is closed. The left side WAS a broken momentary press normally open switch. The red led illuminated only when this button was pressed.
+
+I plan on retaining the plug so I can use the original wiring harness. 
+
+I forgot do it before I left for work today but I will get a multi-meter on the pins of that plug later today to identify ground etc. (If you smarty pants even need me to)
+
+Thank you so much in advance and I hope this is the right place to ask such a basic question. I feel a little silly but Google and my AI girlfriend Grok (don't tell my wife /s) aren't being much help.
+
+Will update with more photos later today",,title_and_body,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/AskElectronics/comments/1sti1gm/help_with_a_broken_switch_remakereverse_engineer/
+B20-015,applehelp,"After 26.3.1 update, I can't control media volume anymore","iPhone 17 Pro Max. I'll be playing a video from the photos app, and try to use the volume buttons to raise or lower the volume, but it changes the Ringer Volume, despite media actively playing in fullscreen.
+
+It seems there is no way to change the active media volume at all.
+
+Any way to fix this, or workarounds?",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/applehelp/comments/1rz8cbw/after_2631_update_i_cant_control_media_volume/
+B20-016,comfyui,Need FaceRestore,"Hello guys. I have a perfect workflow for video upscaling. But after the latest ComfyUI update, it started giving errors. Comfyui can't load the two nodes you see in the image at all. I already downloaded the files and models, but I think I'm making a mistake somewhere. How can I load the exact same nodes? Or if there is a similar and updated version, I can load that too.  
+Thank you for your help.
+
+https://preview.redd.it/r1jrkhkazr6g1.png?width=470&amp;format=png&amp;auto=webp&amp;s=73ecd216ad327d8697643e376db705d6a80679ce",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/comfyui/comments/1pks1mi/need_facerestore/
+B20-017,immich,Immich -&gt; Administration -&gt; Jobs page gives error. Latest version 2.3.1,"First my 2.2.x version all of a sudden gave error, so had to update to latest one, now anytime I try to access the job page, I get this error.
+
+# Error - Something went wrong
+
+Failed to get queues legacy (500)
+
+    Error: Error: 500
+        at Object.xe [as ok] (http://192.168.1.123:2283/_app/immutable/chunks/CF_UN3Of.js:1:2725)
+        at async Qt (http://192.168.1.123:2283/_app/immutable/nodes/37.CMS-6be8.js:1:1471)
+        at async Ve (http://192.168.1.123:2283/_app/immutable/chunks/CfnKBQu6.js:1:14614)
+
+  
+I am running on Asustor NAS as a Docker image, using Portainer. I just re-deployed the Stack by pulling the image again.
+
+Immich\_server log is showing a continuous error
+
+ReplyError: ERR Error running script (call to f\_6c4c6de2bece2ad87657691d945d902df2198f5e): u/user_script:217: user\_script:217: bad argument #1 to 'sub' (string expected, got table)
+
+at parseError (/usr/src/app/server/node\_modules/.pnpm/redis-parser@3.0.0/node\_modules/redis-parser/lib/parser.js:179:12)
+
+at parseType (/usr/src/app/server/node\_modules/.pnpm/redis-parser@3.0.0/node\_modules/redis-parser/lib/parser.js:302:14) {
+
+      
+
+  command: {
+
+name: 'evalsha',
+
+args: \[
+
+'6c4c6de2bece2ad87657691d945d902df2198f5e',
+
+'11',
+
+'immich\_bull:smartSearch:wait',
+
+'immich\_bull:smartSearch:active',
+
+'immich\_bull:smartSearch:prioritized',
+
+'immich\_bull:smartSearch:events',
+
+'immich\_bull:smartSearch:stalled',
+
+'immich\_bull:smartSearch:limiter',
+
+'immich\_bull:smartSearch:delayed',
+
+'immich\_bull:smartSearch:paused',
+
+'immich\_bull:smartSearch:meta',
+
+'immich\_bull:smartSearch:pc',
+
+'immich\_bull:smartSearch:marker',
+
+'immich\_bull:smartSearch:',
+
+'1764212871928',
+
+&lt;Buffer de 00 04 a5 74 6f 6b 65 6e d9 2d 33 36 64 36 39 65 66 66 2d 38 63 33 63 2d 34 65 32 30 2d 61 65 36 62 2d 30 30 62 39 63 62 35 32 39 34 35 63 3a 31 34 ... 37 more bytes&gt;
+
+\]
+
+  }
+
+}
+
+  
+And immich\_redis log is also giving a continuous error :
+
+    1:M 27 Nov 2025 03:09:46.127 # luaRedisGenericCommand() recursive call detected. Are you doing funny stuff with Lua debug hooks?
+
+immich\_machine\_learning log looks clean.
+
+
+
+PLEASE help, not sure why all this happening.
+
+Regular photos page is loading and I can see everything. App is also loading and accessing photos and videos.",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/immich/comments/1p7rhd0/immich_administration_jobs_page_gives_error/
+B20-018,chrome,What is up with Chrome. It's broken?,"Hi all. Been using Chrome for a long time. Recently, its all gone bad.  I am getting massive lag, freezing etc. Often it cant even open pages or takes 5 mins to do so. Youtube freezes up all the time and i have to copy link, shut down and return to the link, then it works again. 
+
+I have checked all the possible solutions but it persists for the last 2 months. Chrome got updated last week but nothing changed. I have tried MS edge and it does not have these problems. Does anyone know why and if there is a solution?  I am ready to delete Chrome if it's going to be like this.
+
+THANKS",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/chrome/comments/1s17woc/what_is_up_with_chrome_its_broken/
+B20-019,homeassistant,Zigbee network down,Did update yesterday for Matter server. I don’t know if it has anything to do with that but after the update the Zigbee network is down. 57 devices out of 60 are not working. Tried to revert back tried migrating to a new zigbee coordinator. Never had issues with Zigbee.,"[1:reply] That graph is brutal, almost everything red. If reverting and swapping coordinators didn't fix it, I'd check the logs for the Matter update clobbering the ZHA integration or the adapter firmware. Also worth unplugging the coordinator for a full minute before plugging it back in,…
+[2:reply] Any chance the radios ended up on the same channel, look at that. If that's not it, if you know what your key mesh routing devices are, reset those. In either case, give recovery from the change time, like at least 20 minutes for the mesh to heal.
+
+I haven't done the new matter…
+[3:reply] Have you tried rolling back to last known good backup?
+[4:OP] Should I revert back to the old coordinator? I have restarted many times it’s the only device that won’t work. What am I looking for in logs?
+[5:reply] You may need to force panic mode.  That can be done by unplugging the coordinator for 30 minutes at least.  It will force all mains powered device to reroute.  The battery powered devices will either need to be worken up manually or let to rest for a 24 hour period while they bu…",title_body_comments,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/homeassistant/comments/1uhwswm/zigbee_network_down/
+B20-020,immich,Immich stuck deploying,"I was using immich without issue for weeks, went to check on it today and found that after the latest update that it is now failing to deploy and giving the error  ""error: directory ""/var/lib/postgresql/data"" exists but is not empty"" in the pgvecto workload. any ideas what may have broken?",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/immich/comments/1s8tlrd/immich_stuck_deploying/
+B20-021,applehelp,Update Apple account settings,"Hi, I updated to the iOS 27 beta on an iPhone Air and now I have an “update apple account settings” and when I click on it it shows an email that was used on a different apple account I had years ago. I cannot update this as I no longer have access to this email. Any ideas on how to fix this?","[1:reply] Issues stemming from running the developer or public beta (which won’t be available for another month), are best posed at r/iOSBeta or r/applehelp\_betas.",title_body_comments,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/applehelp/comments/1u333p2/update_apple_account_settings/
+B20-022,opencode,Opencode Free Limit exhausted,"https://preview.redd.it/l4t0971ukseh1.png?width=901&amp;format=png&amp;auto=webp&amp;s=5b40533254b28912cd0a902e5a7718ccc04c78af
+
+Hello guys, I am facing this issue after the recent OpenCode update. Can somebody help me? I haven’t even used it much—just 10k tokens. Not just on Big Pickle, every mode is giving me this error.","[1:reply] Not sure if its somewhat related but my hermes instance stopped working complaining about API Timeout and it was working 2 hours ago and im on the go plan.
+[2:reply] I got that too, it’s not lasting many tokens anymore. I don't know why, maybe it's under maintenance.",title_body_comments,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/opencode/comments/1v3hwu2/opencode_free_limit_exhausted/
+B20-023,chrome,Chrome on Samsung tablet shows mixed desktop/mobile UI in pop-up mode (tab strip glitch),"Hey all — I’m running into a repeatable UI glitch in Chrome on a Samsung tablet (One UI / Android) and wanted to see if others are experiencing this too.
+
+Issue:
+
+When Chrome is opened in pop-up (floating) window mode, the UI seems to get confused between tablet/desktop mode and mobile mode.
+
+Specifically:
+
+The window switches to the mobile Chrome layout, which is expected for pop-up view, BUT the desktop tablet tab strip briefly appears or partially sticks, even though it shouldn’t exist in this mode. Results in a weird hybrid UI (mobile address bar + desktop tabs) that flickers rapidly.
+
+What I’ve noticed:
+
+1. Happened on recent Chrome update
+
+2. Clearing cache temporarily fixes it, but it comes back
+
+3. Resetting chrome://flags makes it more noticeable/flicker
+
+4. Fullscreen Chrome is fine — the bug mainly shows up in pop-up / freeform window mode. Seems related to Chrome dynamically switching layouts based on window size on tablets
+
+Curious if anyone else on Galaxy Tabs / One UI is seeing the same thing, or if there’s an acknowledged bug or better workaround?",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/chrome/comments/1qyv2c7/chrome_on_samsung_tablet_shows_mixed/
+B20-024,AndroidQuestions,Please how do I revert whatever happened?,"I never updated or anything, all the sudden everything is in the bottom. The search is back at the top but I don't want all this junk on the bottom. How do I get this bottom bar back in the top bar?! Like my tabs and everything.",[1:reply] It's in the settings of your browser app.,title_body_comments,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/AndroidQuestions/comments/1vs1t78/please_how_do_i_revert_whatever_happened/
+B20-025,openclaw,Telegram Bot Unresponsive to Messages After 2026.2.12 Security Update (Session Path Error),"After updating from OpenClaw 2026.2.9 to 2026.2.12, my Telegram bot stopped responding to user messages.  
+  
+  
+The bot is connected and replies to system commands like /status and /new, but it completely ignores any natural language text.  
+The logs show a recurring error: telegram bot error: Error: Session file path must be within sessions directory.  
+  
+  
+Tried extensive troubleshooting, including openclaw doctor --fix, re-pairing, and changing the dmPolicy to open, but nothing  
+worked. Attempting to apply a tool policy to grant session permissions was also rejected by the CLI as an invalid configuration.",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/openclaw/comments/1r3nqon/telegram_bot_unresponsive_to_messages_after/
+B20-026,Fedora,Anki Crashing on fedora 44,"I recently upgraded from fedora 43 to fedora 44 and installed anki but it keeps crashing becasue of QT6 ot fcitx5 and am wondering if anyone else is facing these issues and how to solve it.
+
+
+
+`fedora:~/Downloads/anki-linux$ ./anki`    
+`Starting Anki 26.05...`  
+`2026-07-02 20:16:17,392:INFO:aqt.mediasrv: Serving on` [`http://127.0.0.1:43271`](http://127.0.0.1:43271)  
+`gettext _() is deprecated:`    
+`&lt;img src=""/_addons/1116770498/user_files/assets/icons/deck browser icons/get shared.svg"" style=""margin-top: -5px; margin-right:5px""&gt;`  
+`Get Shared`    
+`gettext _() is deprecated:`    
+`&lt;img src=""/_addons/1116770498/user_files/assets/icons/deck browser icons/create deck.svg"" style=""margin-top: -5px; margin-right:5px""&gt;`  
+`Create Deck`  
+`gettext _() is deprecated:`    
+`&lt;img src=""/_addons/1116770498/user_files/assets/icons/deck browser icons/import file.svg"" style=""margin-top: -5px; margin-right:5px""&gt;`  
+`Import File`  
+`2026-07-02 20:16:17,520:WARNING:py.warnings: /home/varun/.local/share/Anki2/addons21/1116770498/deck_overview.py:199: SyntaxWarning: invalid escape sequence '\%'`  
+ `showInfo(""Unsupported date format. Defaulting to Day.Month.Year instead. Use one of the shorthands: \""us\"", \""asia\"" or \""eu\"", or specify the date like \""\%d.\%m.\%Y\"", \""\%m/\%d/\%Y\""`  
+`etc.\n For more information check the table at: https://docs.python.org/2/library/datetime.html#strftime-and-strptime-behavior"", type=""warning"", title=""More Overview Stats 2.1 Warning"")`  
+  
+`Starting main loop...`  
+`Qt warning: Failed to register with host portal QDBusError(""org.freedesktop.portal.Error.Failed"", ""Could not register app ID: App info not found for 'anki'"")`    
+`deckDueTree() is deprecated; use decks.deck_tree() for a tree without counts, or sched.deck_due_tree()`  
+`addons21/1116770498/deck_browser.py:83:dayCutoff is deprecated: please use 'day_cutoff'`  
+`ngettext() is deprecated: %s &lt;br&gt;  minutes`  
+`conf key heatmap should be fetched with col.get_config(), and saved with col.set_config()`  
+`conf key heatmap should be fetched with col.get_config(), and saved with col.set_config()`  
+`conf key heatmap should be fetched with col.get_config(), and saved with col.set_config()`  
+`gettext _() is deprecated: Shortcut key: %s`  
+`deckDueTree() is deprecated; use decks.deck_tree() for a tree without counts, or sched.deck_due_tree()`  
+`addons21/1116770498/deck_browser.py:83:dayCutoff is deprecated: please use 'day_cutoff'`  
+`ngettext() is deprecated: %s &lt;br&gt;  minutes`  
+`gettext _() is deprecated: Shortcut key: %s`  
+`Segmentation fault         (core dumped) ./anki`","[1:reply] It sounds like you're looking for help. Please note that r/Fedora is not an official support channel for the Fedora Project.
+
+For best results, be sure to include all relevant details in your post, such as your Fedora edition, version, and hardware specs. You can edit your origi…
+[2:reply] I use the Flatpak for Anki and it seems to work fine.",title_body_comments,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/Fedora/comments/1ulkcaz/anki_crashing_on_fedora_44/
+B20-027,windows,"Do we know what's ACTUALLY behind the ""weird search bar results""?","If you search r/WindowsHelp or r/techsupport you'll find a number of posts made by people all with the same issue: random searches are appearing in their built-in search toolbar. Usually, these searches are nonsensical: incomplete sentences, random numbers/letters, languages the OPs don't speak, etc.
+
+Furthermore, an influx of these posts occurred around 7-6 months ago. And that's just here on Reddit, but as far back as Jan. 2024, this issue was occurring. A [post ](https://learn.microsoft.com/en-us/answers/questions/3750972/random-searches-showing-up-in-recent-history-in-th)was made to the Microsoft help forum, and one of the replies claim:
+
+`This is a known issue that some users have reported after certain Windows updates. Currently, it doesn’t seem to be connected to any security vulnerabilities or malicious activities. It might be a syncing issue if you’re using a Microsoft account that’s also being used on another device, or it could be a bug in the Windows Search system itself.`
+
+I couldn't find any other information on this, though.
+
+The common answer I see thrown around is that it's malware, but I really doubt it. Obviously it can be in some cases, but a lot of these cases all share similar details in such a way that I find it hard to believe it could be malware:
+
+* All report not having their MS account synced
+* No suspicious activity or login data
+* Not a shared computer; no extra accounts
+* Malware Bytes and Defender come up clean
+* For those who have had it happening for months+, nothing has happened, no tank in PC performance either
+
+I find it strange that so many people would be experiencing the exact same issue in the same ways at the same time unless it truly WAS a bug on Microsoft's end. Or, there's a virus sweeping the internet right now that is common/prevalent enough that multiple people got it around the same time, either from vastly different sources or one or two sources that are common enough hotspots that we could feasibly imagine multiple unrelated people would get it from there.
+
+Some people think it has to do with CoPilot but I don't know how likely that is.
+
+Honestly, I'm just fascinated by this. It's happening mostly on Windows 11 but it's also happening on Windows 10. I can't find much concrete information on this besides dozens of people reporting that it's happening to them. While similar things have been reported in the past, it's the sudden influx of people experiencing this at the exact same time that is curious to me. If Microsoft has addressed the issue, I'd love to know, but I can't find anything saying they have.
+
+Also, forgive me if this is some sort of newbie/dead topic. Genuinely just find this curious, and could not find any decisive answer or agreed upon reason.",,title_and_body,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/windows/comments/1p6atc4/do_we_know_whats_actually_behind_the_weird_search/
+B20-028,chrome,"How do I remove the ""Search by Tabs"" button from the mobile Chrome tab bar?","How do I remove the ""tab search"" button from the mobile Chrome tab bar?
+
+I removed it before, but it reappeared after the update. Google's methods, including those in this community, don't help; there's simply no ""tab-search"" flag.",,title_and_body,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/chrome/comments/1qyzopd/how_do_i_remove_the_search_by_tabs_button_from/
+B20-029,homeassistant,Sensors not working since update...,"I updated to the newest version today, and since then all of my Sonoff SNZB-03 sensors aren't working. Have tried to disconnect and reconnect, which isn't working. Just can't figure out what is going on.
+
+EDIT - Solution in comments!!!",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/homeassistant/comments/1rlsl8e/sensors_not_working_since_update/
+B20-030,applehelp,My iphone 13 slows down at random points,"My iphone 13 slows down at random points of the day, but mostly at night yet its never consistent i could go two days and the phone works as usual then the next day at 12:00 it starts insainly slowing down. Its not a network issue as far as i can tell since every other device in my house works fine, its not having a vpn turned on since even when its disabled  the phone slows down. It could be at 80% or 30% and it will slow down randomly. It dosent matter if i have no apps open or if im only using a web broweser it will at random points slow down, i have updated the ios to 27 to attempt to fix it yet it didnt work, have tried resetting my phone still nothing worked.i feel like im going crazy so can anyone please help or know why this is happening.","[1:reply] What is your battery health? How much free space do you have?
+
+What exactly is slowing down? Sounds just like your network is having issues.
+[2:OP] It’s at 83% and i have 116gb of avalibe space on it. Also just a few days ago my battery health was at 85% so my battery could be the issue but it still dosent explain the randomness i think.
+
+Edit: forgot to actually respond to the second part  
+It takes way longer for web page…",title_body_comments,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/applehelp/comments/1wssnjn/my_iphone_13_slows_down_at_random_points/
+B20-031,openclaw,"if you're trying to run gemma 4 with openclaw and everything is broken, here's every bug and workaround i've found","spent the last week trying to get gemma 4 working properly with openclaw and it was honestly one of the most frustrating debugging experiences i've had. posting this because i see the same questions every day now and nobody has put all the fixes in one place.
+
+here's what's actually broken and how to fix each thing:
+
+1. tool calling is still unreliable in ollama even after patches
+
+the original tool call parser crash (ollama issue #15241) was fixed in 0.20.2. but tool calling with gemma 4 is still flaky in practice. issue #15315 shows it's still broken in 0.20.1, and people running 0.20.3 report it's ""still not good enough for openclaw"" (see the nvidia hackmd guide from april 8). the latest ollama is 0.20.6 now (released april 12), and streaming can still drop tool calls or put them inside the reasoning field where the client never sees them.
+
+workaround: use llama.cpp built from source instead of ollama. PRs #21326 (template fix) and #21343 (tokenizer fix) are merged now so building from HEAD should work. if you must use ollama, make sure you're on 0.20.6 and test tool calling explicitly before trusting it.
+
+1. the tokenizer had a newline bug (now fixed in llama.cpp HEAD)
+
+PR #21343 is merged. without it, double newlines get split into two separate \\n tokens (107, 107) instead of one \\n\\n token (108). this caused subtle quality degradation and occasionaltoken spam in outputs. if you're running llama.cpp, build from HEAD and you're fine. if you're on ollama, this fix should be included in recent versions but verify your output isn't showing garbage tokens.
+
+1. the ollama base URL thing that nobody mentions
+
+use [http://127.0.0.1:11434](http://127.0.0.1:11434/) as your ollama base URL. do NOT add /v1 at the end. if you use [http://127.0.0.1:11434/v1](http://127.0.0.1:11434/v1) tool calling breaks completely. openclaw starts outputting raw json tool descriptions as plain text instead of executing them. this is a silent failure that will waste you hours.
+
+1. flash attention hangs on the 31b dense model
+
+ollama issue #15350. flash attention causes gemma 4 31b dense to hang indefinitely on prompts over \~3-4k tokens. openclaw's system prompt alone is 8-10k tokens. so the model is dead before it even gets to your task.
+
+fix: set OLLAMA\_FLASH\_ATTENTION=0 and restart. or just use the 26b MoE variant which doesn't have this problem.
+
+1. set reasoning to false
+
+add ""reasoning"": false in your model config for gemma 4. reasoning mode causes formatting issues with openclaw's expected tool-call format. tool calling works much better with it off.
+
+1. openclaw's google provider doesn't recognize gemma 4 yet
+
+if you're trying to use gemma 4 through google AI studio's free tier, openclaw throws FailoverError: Unknown model (github issue #61501). the native google provider hasn't been updated to support gemma 4 model IDs yet. use the openai-compatible provider with google's v1beta endpoint as a workaround.
+
+what actually works right now:
+
+if you want a local model that just works with openclaw today without any of this debugging, qwen 3.5 27b or devstral-24b are your safest bets. both have reliable tool calling and don't require patching anything.
+
+gemma 4 will get there. the model itself is genuinely good. but the tooling isn't ready yet and the bugs are all at the infrastructure layer not the model layer.
+
+anyone else found fixes i'm missing? will update this post.",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/openclaw/comments/1skbtpj/if_youre_trying_to_run_gemma_4_with_openclaw_and/
+B20-032,comfyui,ERROR: echo If you see this and ComfyUI did not start try updating your Nvidia Drivers to the latest. If you get a c10.dll error you need to install vc redist that you can find,"whenever i start run generate it always reconnecting and show that text in cmd.
+
+""echo If you see this and ComfyUI did not start try updating your Nvidia Drivers to the latest. If you get a c10.dll error you need to install vc redist that you can find: [https://aka.ms/vc14/vc\_redist.x64.exe](https://aka.ms/vc14/vc_redist.x64.exe)
+
+If you see this and ComfyUI did not start try updating your Nvidia Drivers to the latest. If you get a c10.dll error you need to install vc redist that you can find: [https://aka.ms/vc14/vc\_redist.x64.exe](https://aka.ms/vc14/vc_redist.x64.exe)""
+
+i already tried:
+
+update driver to latest
+
+update comfyui
+
+change torch version to 128, 129, 130. (130 work once, it able to generate, but after i restart my pc, it suddenly doesnt work anymore)
+
+install vc redist",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/comfyui/comments/1qpyk8q/error_echo_if_you_see_this_and_comfyui_did_not/
+B20-033,Fedora,44 fixed constantly running fans,"Just installed Fedora 44. Everything works out of the box. Impressive. I noticed that on 43 ( running Gnome vanilla and playing a lot of steam games) that my fans where blowing all the time, like my computer got too hot. This is not the case now after the update. I don't know what the case was, if its the fedora, gnome or proton update but something changed and for the better.   
+  
+But hey, have been running this setup now for 3 years now without any hiccups, reinstalls or anything. Impressive Fedora and Gnome team!!",,title_and_body,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/Fedora/comments/1tewpbl/44_fixed_constantly_running_fans/
+B20-034,applehelp,Personal Hotspot is greyed out after iOS 26 updateI have an iPhone 15 Pro.,"I have an iPhone 15 Pro. After updating to iOS 26, Personal Hotspot became greyed out and I can no longer enable it.
+
+My carrier is MTS. Mobile data itself works normally.
+
+I found that entering these APN settings under Cellular Data Network temporarily makes the Personal Hotspot option appear:
+
+APN: internet(dot)mts(dot)ru  
+Username: mts  
+Password: mts
+
+However, other devices cannot find the hotspot. After leaving Settings, the Personal Hotspot option becomes greyed out again.
+
+Is there a way to fix this on iOS 26? Could this be related to the carrier settings or APN configuration?
+
+Thanks.",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/applehelp/comments/1wrvfym/personal_hotspot_is_greyed_out_after_ios_26/
+B20-035,biztalk,When upgrading BizTalk 2016 to 2020 is it possible to keep the same SSODB?,"I've got 3 application servers that run admin console, host instances, etc and then 2 SSO servers that run enterprise SSO, I'm trying to upgrade from 2016 to 2020, I've managed to finally get BizTalk 2020 installed on the SSO servers and the application servers after having to uninstall 2016 but now when I try to use the BizTalk Server Configuration tool on either of my SSO servers to join an existing SSO system I'm receiving the error: The SSO database 'SSODB' on SQL Server 'UA-BZSQL-001' requires an upgrade from a previous version. Install Enterprise Single Sign-On on your SSO master secret server to upgrade your SSO database to the latest version. (SSO) I do have Enterprise Single Sign-on installed on both of the SSO servers so after showing screenshots of my installed programs on the SSO servers Copilot has told me the following: Thank you for the screenshot — I can see Microsoft Enterprise Single Sign-On is installed (version 10.0.2242.0). That means the binaries are present, but the error: The SSO database 'SSODB' on SQL Server 'UA-BZSQL-001' requires an upgrade from a previous version. Install Enterprise Single Sign-On on your SSO master secret server to upgrade your SSO database to the latest version. is not about the software being installed — it’s about the SSODB schema being outdated. ✅ Why this happens The SSODB database on UA-BZSQL-001 was created by an older BizTalk version (e.g., 2013 or 2016). BizTalk 2020 requires SSODB to have the latest schema. The configuration wizard cannot proceed until SSODB is upgraded. ✅ What needs to happen Upgrade SSODB schema to BizTalk 2020. Normally, this is done by the configuration wizard when you select Create a new SSO system. But because SSODB already exists, the wizard refuses to overwrite it. If you cannot recreate SSODB (because you need existing secrets), you must run the upgrade script for SSODB manually. ✅ Where is the SSODB upgrade script? It’s not in the installed BizTalk folder. It should be in the BizTalk installation media under: If you don’t see it there, check for an ENTSSO folder or similar in the ISO. If it’s missing, you need the full BizTalk 2020 ISO from MSDN or VLSC. ✅ Why your application server might fail Yes — if SSO is not configured, BizTalk cannot complete group configuration because SSO is required for storing encrypted credentials and managing secrets. \BizTalk Server\Schema\Upgrade\ Here’s the situation and what needs to be done, step by step: ✅ Why you’re stuck The SSO database (SSODB) on SQL Server is from an older BizTalk version. BizTalk 2020 requires SSODB to have the latest schema. The BizTalk Configuration Wizard cannot upgrade SSODB because it already exists and is incompatible. The SSO installer you opened only offers Modify/Repair/Remove, not an upgrade option. ✅ What needs doing You have two paths: Option 1: Upgrade SSODB (keep secrets) If you need to preserve existing encrypted credentials (used by BizTalk adapters, host instances, etc.), you must upgrade SSODB. Normally, this is done via an SSO upgrade script or by Microsoft Support. Since the script is not visible in your ISO, you’d need to: Contact Microsoft Support for the official SSODB upgrade script. Run it on SQL Server against SSODB. Verify upgrade with: SQLSELECT * FROM SSODBVersion;Show more lines BizTalk 2020 expects version 10.x. Option 2: Recreate SSODB (lose secrets unless backed up) If you can afford to lose old secrets: Back up the Master Secret (optional but recommended): BATssoconfig -exportsecret C:\Backup\MasterSecret.xmlShow more lines Drop SSODB from SQL Server. Re-run BizTalk Configuration Wizard → Create a new SSO system. If you backed up the secret, restore it: BATssoconfig -importsecret C:\Backup\MasterSecret.xmlShow more lines This will create a fresh SSODB compatible with BizTalk 2020. ✅ Does anything need doing on SQL Server? Yes: Ensure the BizTalk service account has dbcreator and sysadmin rights temporarily. Back up SSODB before making changes. If recreating SSODB, simply drop the database in SSMS. If upgrading, run the script provided by Microsoft Support. I need to keep the secrets because otherwise all the adapters in my BizTalk will fail due to the stored password, it also keeps mentioning an SSODB update script which for the life of me can't find anywhere. Can anyone please help? Many thanks, Kyle",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://stackoverflow.com/questions/79816904/when-upgrading-biztalk-2016-to-2020-is-it-possible-to-keep-the-same-ssodb
+B20-036,ios,The ghost of the control centre.,"Is anyone else seeing a ghost of the control centre after the latest update (26.1). When I swipe or tap away from the control centre a faint control centre can be seen on my screen for like a split second and it only started happening after the latest update. No other issues with the phone (iPhone 16 plus) that could cause this.
+
+Note: Image is cropped like that to hide my apps.",,title_and_body,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/ios/comments/1op35fa/the_ghost_of_the_control_centre/
+B20-037,vscode,Anyone else having this problem?,"https://preview.redd.it/p1q506auxeeg1.png?width=1280&amp;format=png&amp;auto=webp&amp;s=a6810da948a19d8624804f7033cb6ae98c847c58
+
+It has happened to me a couple of times since the last update.
+
+Macbook Air M4",,title_and_body,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/vscode/comments/1qhoab9/anyone_else_having_this_problem/
+B20-038,applehelp,Intel MacBook stuck in boot issues after changing T2 security settings for Boot Camp installation,"Hello! I’m dealing with the following issue:
+
+I have an Intel MacBook (13 inch, Intel core i5 2020) and I was trying to install Windows through Boot Camp so I could use software that isn’t compatible with macOS.
+
+On Apple’s website, the installation instructions said the following: “If you’re using a Mac with the Apple T2 Security Chip, the default Secure Boot setting is Full Security. If you previously changed it to No Security, change it back to Full Security before installing Windows.” I then checked whether mine was set to “Full Security.” It wasn’t, so I changed it, just like the website said, and that’s when the problems started. When I restarted the PC to switch to “Full Security,” I started getting error messages saying it couldn’t verify the startup disk. I went back to cancel the change and restarted the PC so I could use it normally again, because I was already close to giving up on installing Windows. However, after restarting, it started asking me for my password to “unlock” it and then restarted only to ask for the exact same thing again, creating an infinite loop. I clicked cancel when it asked for the password and went back to the recovery screen. I went into the startup settings and saw that “Full Security” was actually enabled after all, even though it had previously shown that error. I tried changing it back to the previous setting, which was “No Security,” but it wouldn’t even let me do that anymore.
+
+After doing some research, I tried entering Internet Recovery instead of the built-in recovery system, and this time it let me change the startup settings back to what they were before. I changed the settings, restarted the PC, and then a message appeared telling me to install an update. Honestly, I wasn’t really sure what kind of update it was, but I did it because otherwise I would just go back to the startup screen and couldn’t get out of it. After that update, the PC restarted and now the normal screen appeared for me to enter my password and use the computer normally, so I thought the problem was solved. But when I enter my password, the PC shuts down immediately afterward. I tried turning it on again and exactly the same thing happens.
+
+In the meantime, I went to Apple’s support website looking for solutions: I already tried using “First Aid” in Disk Utility, but it didn’t fix anything. Then I tried reinstalling macOS, but it won’t let me do that either. When I try to reinstall it, I get the following error message: “The operation couldn’t be completed (com.apple.Buildinfo.preflight.error, error 21.)”
+
+The only other solution I found on Apple’s website is “firmware recovery,” but to do that I need another MacBook that is actually working, and I don’t have one.
+
+Does anyone know what might be happening and if there’s any way to fix this?
+
+P.S. This post was translated, so I’m sorry if anything is worded weirdly.",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/applehelp/comments/1t1b93o/intel_macbook_stuck_in_boot_issues_after_changing/
+B20-039,rust,"Does a tool to list all the ""not latest version"" dependencies from the command line exist?","Right now, the way I see if any of my dependencies can potentially be upgraded to the next semantically-relevant version is to open up the Cargo.toml and have my IDE tell me if the dependency is not at the latest version.
+
+By semantically-relevant, I mean if a crate has an update from ""0.15"" to ""0.16"" not a ""0.15.0"" to ""0.15.1"" sort of thing.
+
+EG. A potentially breaking change update to the crate that requires more than just a `cargo update` to do.",,title_and_body,yes,yes,other,low,The post appears to discuss software without a clear troubleshooting or chiefly critical purpose.,,,,,,,https://reddit.com/r/rust/comments/1ohoe0e/does_a_tool_to_list_all_the_not_latest_version/
+B20-040,Ubuntu,PC quite unresponsive after system update,"Hi fellows,
+
+I recently installed ubuntu but I kept windows in dual boot for soma gaming.
+
+Some days ago i updated the system and now the desktop environment is unresponsive : the wallpaper is there but that's it : no menu, no mouse, no dock, nothing but ctrl alt supr that displays the gray overlay and nothing else.
+
+I have access to the terminal from the ctrl shift f4 shortcut and i used it to try and debug but i see no particular error in the journals and all.
+
+I'm seeking for some help :) 
+
+Does anyone have a clue of whats going on ?
+
+Thanks
+
+
+EDIT : alright guys my TV was plugged in and it was the default monitor 💀","[1:reply] Your screen looks weird
+[2:OP] It's a curved monitor and I took a p orama photo lol
+[3:reply] I'm not sure at what I'm looking at
+[4:OP] An ubuntu desktop with nothing working :(
+[5:reply] something something about the funky panorama pic",title_body_comments,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/Ubuntu/comments/1vpuseo/pc_quite_unresponsive_after_system_update/
+B20-041,chrome,It seems like the latest Chrome update is signing me out of Gmail and YouTube every couple of days,"Several days ago, Chrome updated, and it seems like ever since then, I've been getting signed out of Gmail and YouTube every day or two.
+
+Is this a known bug or is there a setting that I need to change to prevent this?",,title_and_body,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/chrome/comments/1te4ptx/it_seems_like_the_latest_chrome_update_is_signing/
+B20-042,kubernetes,In need of help: Stuck in `ContainerCreating`,"First off, I have far too little idea of Kubernetes, this as a disclaimer.
+
+Half a year ago, our Kubernetes experts updated something and also containerd (is it pronounced containder-dee or contai-nerd?), since then we had issues. From time to time pods were stuck in \`ContainerCreating\` - which, after roughly 10k to 20k of paid work, was apparently due to my CI/CD pipeline.
+
+The issue should have been fixed. Until I tried deploying my backend today.
+
+Pods were stuck in \`ContainerCreating\` (ok, most of mine had \`ImagePullBackOff\`, as I buggered up the tagging of my images), and, what struck most, also Valkey. Which should work.
+
+So, I had a snoop around (with the help of AI, remember, I have no idea - I know some \`kubectl get pods\` and with my notes I can force-delete them) and the issue was Calico.
+
+It turns out, we paid our experts for a (stuck) CRON-job with schedule: \`0 2 \* \* \*\` that just restarts the daemonset
+
+    kubectl rollout restart daemonset -n kube-system calico-node
+                  kubectl rollout restart deployment -n kube-system calico-kube-controllers
+                  echo ""Calico components restarted successfully""
+                  sleep 30
+                  kubectl delete po -n kube-system test-pod --ignore-not-found
+                  kubectl run test-pod --image=nginx --rm -it --restart=Never -- echo ""Pod Creation test successful""
+                imagekubectl rollout restart daemonset -n kube-system calico-node
+                  kubectl rollout restart deployment -n kube-system calico-kube-controllers
+                  echo ""Calico components restarted successfully""
+                  sleep 30
+                  kubectl delete po -n kube-system test-pod --ignore-not-found
+                  kubectl run test-pod --image=nginx --rm -it --restart=Never -- echo ""Pod Creation test successful""
+
+Quite a costly ""fix"". But funnily enough, those jobs have been stuck for around 18 days.
+
+Turns out, we're running docker.io/calico/node:v3.23.5 - apparently, latest is v3.31.5... And according to Perplexity, v3.23.5 hasn't been tested for compatibility with Kubectl Server v1.35.0
+
+So, what I've gathered so far:
+
+* two of my workers have a broken CNI state
+* 2026-06-11 18:15:52.185 \[WARNING\]\[78\] felix/int\_dataplane.go 896: Failed to auto-detect host MTU - no interfaces matched the MTU interface pattern. To use auto-MTU, set mtuIfacePattern to match your host's interfaces
+* \--&gt; Main network interface is called `enX0`, but via `veth_mtu: ""0""` Calico is looking for `eth0` or so...
+* IPAM desync
+
+Has anyone an idea how to fix that? Or what could I tell our experts that the fix it, not only ""fix"" it?
+
+/Edit: For some reason or other people are down-voting helpful comments (or comments in general) - if someone takes their time to answer I'd be glad if you'd at least not down-vote them.","[1:reply] I would add kubectl describe to your tool box.  It'll better help you get to the root of the hung pods.  I mean heck, if you get a Claude Code or Codex license, it'll run the commands to do the diagnostic for you.  But this is also how you lose a production database and all the…
+[2:reply] container-dee
+[3:reply] I suspect that cluster is in dire need to be rebuilt and re-designed, you guys probably want a managed k8s offering.
+[4:reply] Omg I will never unsee ""contai-nerd"" 😂 
+
+Do a `kubectl get node -w` see if the broken ones are running a different version.
+
+Sounds like nobody is maintaining your cluster &amp; you're in a rough state, a daily 2am restart is concerning.  Idk where your cluster is running but it…
+[5:reply] Maybe look into k9s . We use it very heavily makes observability of Kubernetes sooo much nicer and easier.
+
+With Calico we also had sooo much issues",title_body_comments,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/kubernetes/comments/1u383v0/in_need_of_help_stuck_in_containercreating/
+B20-043,chrome,Done with google chrome - its broken - 12345678910,"All our accounts were signed out. All bookmarks are gone, saved passwords are gone. Cant click on photos to download them. Ending all use effective immediately with google chrome for our entire organization. Suggest you do the same. Waste of time at this point, already found ""search"" for anything other than ""Reddit"" search topics to be trash on google chrome. Now our organization has been having to use multiple search engines. This update kills it for us. 
+
+  
+The internet is trash as we know it at this point for anyone that does work - just sending a reminder.",,title_and_body,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/chrome/comments/1p644u9/done_with_google_chrome_its_broken_12345678910/
+B20-044,Ubiquiti,Can't edit zones for G4 cameras,"I just upgraded to a UDM Pro Max and setting up my zones again I notice that the UI popup to edit the zones doesn't show the UI for the camera or overlay for any G4 camera but works fine for G3.
+
+I can edit the zones via the Protect app just fine.  
+  
+Guessing it's some browser/rendering issue?  
+Anyone else seeing this? Known issue?",,title_and_body,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/Ubiquiti/comments/1s1furh/cant_edit_zones_for_g4_cameras/
+B20-045,comfyui,having problem with Audio Image to video workflow with new comfyui version and new updated nodes,"my custom audio workflow stopped working, characters are only smiling and giving expressions as prompted but no lip sync, i updated few nodes now everything is mess, everything was working fine before the update, i did a stupid thing and updated few nodes, i thought clean install will fix the lip sync problem but it didn't, i also formatted the pc to fix it, also tried that lip sync lora, nothing is working, any tips?",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/comfyui/comments/1sd5om8/having_problem_with_audio_image_to_video_workflow/
+B20-046,Ubuntu,Scaling Option on Laptop Screen Disappears After Updating to Ubuntu 26.04,"In 24.04 I was able to set the scaling on my display to 150% after enabling the fractional scaling setting, however since updating to 26.04 the option disappears entirely. Only some wonky options come up for my screen resolution. Unfortunately these all feel too small or too big for me. Wish there was an easier way to fix this..","[1:reply] [https://bugs.launchpad.net/ubuntu/+source/mutter/+bug/2125963](https://bugs.launchpad.net/ubuntu/+source/mutter/+bug/2125963)
+[2:OP] Even manually changing the scale in the config file to 1.5 or values around it seems to make it visually round down to 1.33333 every time. Funny how this thing specifically works better in an old version compared to a new one",title_body_comments,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/Ubuntu/comments/1vt3lby/scaling_option_on_laptop_screen_disappears_after/
+B20-047,Fedora,"macOS ""windows app"" RDP client -&gt; remote login","New linux user here. Running a miniPC on my local network running Fedora 44 / Gnome desktop.
+
+All I want to do is connect to it with RDP using the ""Windows App"" RDP app from my macbook, but after 2 hours of messing with this I'm calling it quits. The Windows App on macOS is updated to the latest.
+
+- Enabled ""remote login"". Also created an entirely new username and password to avoid any local username possible collision issues
+- Toggled remote login on/off and also restarted the service to make sure the new username took
+
+When macOS connects what happens is:
+
+1. I enter the username login+pass and it seems to proceed
+2. It then VERY quickly flicks over to an intermediate type login screen and a randomly generated 16 character username of sorts, I'm guessing some kind of identity service middleware pass through that's f*ing up. This screen errors immediately. I was only able to see this behavior by recording with quicktime to see what it was doing.
+3. Results in a totally black screen in macOS app that I can do nothing with, no cursor, nothing.
+
+Alternatively, ""desktop sharing"" does work. It's a little unclear to me what other limitations desktop sharing has vs remote login except that I think I have to leave the local account logged in?
+
+Is this a Fedora bug, or a macOS Windows Desktop bug?","[1:reply] Actually I would say that OP shouldn't replace fedora but install alongside another desktop environment that uses x11 like xfce or cinnamon.
+[2:reply] I had this issue recently when trying to connect to a headless mini PC. From what I found out, this is a Wayland issue. You'll need to choose a distro that properly supports RDP. For me, this was Linux Mint. I might be wrong about this because I'm new to Linux and don't fully un…",title_body_comments,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/Fedora/comments/1ud0txa/macos_windows_app_rdp_client_remote_login/
+B20-048,Fedora,Laptop wakes up as soon as I set it to sleep,"**UPDATE**: I found the issue is related to the LAN port. I literally disconnected it, suspended it for a few minutes then reconnected it to the router and it literally just WOKE UP ON ITS OWN! Found the cause by running `sudo journalctl -k -b | grep -A50 -B20 ""PM:""` and `lsusb -t` then sent the output to chatgpt (forgive me for using AI) and there I found that the Ethernet adapter was the cause of it, the driver showed up to the logs and had a pattern of preventing the XHCI controller from suspending. Now, I don't know how to deal with this yet.
+
+**UPDATE 1:** So the AI asked me to check if WOL is enabled by running `sudo ethtool enp0s20f0u2u4` and it showed that it was enabled. This is actually my fault as I wanted it to wake up on it's own before whenever I want to play games on my laptop remotely back when I was only using Windows, it never worked as I only enabled the WOL feature tho. I then ran `sudo ethtool -s enp0s20f0u2u4 wol d` to disable WOL and it worked, it showed `Wake-on: d` which meant it was disabled. I hope this could help someone out there and thank you for the early redditors that replied to my post.
+
+Don't mind the messy background, I haven't had time to clean my table yet (I'm js lazy)
+
+I experienced this before but a restart usually fixes it but this time, it did not work. I thought it was a driver issue since I'm using nvidia but after updating to F44 and the driver to 595, nothing changed. My laptop is a LOQ 15IRH8 with an intel core cpu and an nvidia gpu. I hope someone knows a solution for this because I cannot leave the laptop at all due to this.
+
+    cat /proc/acpi/wakeup
+    
+    Device  S-state   Status   Sysfs node
+    PEG0      S4    *enabled   pci:0000:00:06.0
+    PEGP      S4    *disabled  pci:0000:06:00.0
+    PEG1      S4    *enabled   pci:0000:00:01.0
+    PEGP      S4    *disabled  pci:0000:01:00.0
+    *disabled  auxiliary:acpi.video_bus.0
+    PEG2      S4    *enabled   pci:0000:00:06.2
+    PEGP      S4    *disabled  pci:0000:07:00.0
+    XHCI      S3    *enabled   pci:0000:00:14.0
+    XDCI      S4    *disabled
+    HDAS      S4    *disabled  pci:0000:00:1f.3
+    CNVW      S4    *disabled
+    RP01      S4    *disabled
+    PXSX      S4    *disabled
+    RP02      S4    *disabled
+    PXSX      S4    *disabled
+    RP03      S4    *disabled
+    PXSX      S4    *disabled
+    RP04      S4    *disabled
+    PXSX      S4    *disabled
+    RP05      S4    *enabled   pci:0000:00:1c.0
+    PXSX      S4    *disabled  pci:0000:08:00.0
+    RP06      S4    *enabled   pci:0000:00:1c.5
+    PXSX      S4    *disabled  pci:0000:09:00.0
+    RP07      S4    *disabled
+    PXSX      S4    *disabled
+    RP08      S4    *disabled
+    PXSX      S4    *disabled
+    RP09      S4    *disabled
+    PXSX      S4    *disabled
+    RP10      S4    *disabled
+    PXSX      S4    *disabled
+    RP11      S4    *disabled
+    PXSX      S4    *disabled
+    RP12      S4    *disabled
+    PXSX      S4    *disabled
+    RP13      S4    *disabled
+    PXSX      S4    *disabled
+    RP14      S4    *disabled
+    PXSX      S4    *disabled
+    RP15      S4    *disabled
+    PXSX      S4    *disabled
+    RP16      S4    *disabled
+    PXSX      S4    *disabled
+    RP17      S4    *disabled
+    PXSX      S4    *disabled
+    RP18      S4    *disabled
+    PXSX      S4    *disabled
+    RP19      S4    *disabled
+    PXSX      S4    *disabled
+    RP20      S4    *disabled
+    PXSX      S4    *disabled
+    RP21      S4    *disabled
+    PXSX      S4    *disabled
+    RP22      S4    *disabled
+    PXSX      S4    *disabled
+    RP23      S4    *disabled
+    PXSX      S4    *disabled
+    RP24      S4    *disabled
+    PXSX      S4    *disabled
+    AWAC      S4    *disabled
+    PWRB      S4    *enabled   platform:PNP0C0C:00","[1:reply] Disconnect your mouse and then try and keyboard
+[2:reply] He has insomnia
+[3:reply] Mine was.doing something similar, it was a cheap mouse that would keep firing(.around $1) ibreplaced by a $5 Logitech and it stopped...
+
+Coulde be some usv device keeping it awake...
+[4:OP] You were right, found out earlier that it was the Ethernet adapter giving my laptop an insomnia.
+[5:OP] I did earlier and found out it was the ethernet adapter. Literally woke up as soon as I reconnected the LAN cable to the router.",title_body_comments,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/Fedora/comments/1u4ojzo/laptop_wakes_up_as_soon_as_i_set_it_to_sleep/
+B20-049,chrome,Chrome tab error and cant open,"**""For some reason, after updating Chrome to the latest version, when I open Chrome and use it, after a short while I can’t open any new tabs. I’ve tried disabling all extensions but the issue still happens. It’s like the browser loses connection and can’t open new tabs, even though my internet is completely normal. I can fix it by closing and reopening Chrome, but it’s really annoying and inconvenient. Does anyone know how to fix this?""**",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/chrome/comments/1oww9q0/chrome_tab_error_and_cant_open/
+B20-050,MicrosoftEdge,"Where does Microsoft Edge get these accounts in the profile dropdown menu, and how can I remove them?","Since the last update, Microsoft Edge has been displaying my accounts in this drop-down menu. None of these accounts are listed in the Windows settings under “My accounts.”
+
+I logged into Teams once with these accounts, and now I'm wondering how I can remove these accounts from there, and above all, where do they come from if they don't even appear in the Windows settings?
+
+https://preview.redd.it/47k8d1h0o24g1.jpg?width=294&amp;format=pjpg&amp;auto=webp&amp;s=a6586c1d45db6b3dc470310ab36478257bf2f1b7",,title_and_body,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/MicrosoftEdge/comments/1p97rea/where_does_microsoft_edge_get_these_accounts_in/
+B20-051,applehelp,LockerPro 2.0 crashes immediately on launch after iOS 27.0.1. Has anyone else experienced this?,"LockerPro updated to 2.0 last week. It now crashes immediately at launch on my iPhone 17 Pro running iOS 27.0.1. The app contains a locally stored password vault, so deleting it is not an acceptable troubleshooting step.
+
+
+
+I confirmed it retained 58 MB under Documents &amp; Data, made an encrypted local iTunes backup, and copied that backup to an external drive before trying anything further. I restarted, checked for updates, and offloaded/reinstalled the app. It still crashes on launch. The developer has not replied to my email.
+
+
+
+I have not deleted the app, erased/restored the phone, changed backup encryption, or reset settings. Has anyone else had this exact app/version crash under iOS 27 or found a non-destructive way to preserve/recover an app’s existing local data?",[1:reply] Nope.,title_body_comments,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/applehelp/comments/1wuej5z/lockerpro_20_crashes_immediately_on_launch_after/
+B20-052,applehelp,"IOS 26 Updated without my permission, I didn’t even have enough storage for it.","So the other day, I was on my phone when it randomly started bugging. Apps constantly crashing, all of that. Then I realize my storage is full, which is strange because before I know I had 5 GB and was planning to clean my phone up to free space.
+
+Then I find IOS 26 tried to install, but obviously, failed. I deleted the broken/half done IOS 26 update from my IPhone storage, and went about my day. Then I found my contacts all missing their photos. I’m only able to recover them after purchasing ICloud+
+
+Now, I realize that my phone has less photos then it once had. About year or less ago, I had 15k photos. In the present, that would mean now I should have 16-17k since I have not sorted photos since. But now, I am now at 14.3k. It takes 43 GB of my phone. My ICloud storage has 17k, and is still syncing 2k more, and somehow is only 35 GB.
+
+What is wrong with my phone and its photos? What is causing this strange discrepancy? Have I lost thousands of photos over a broken IOS update, that somehow updated through Automatic updates, even though I know I had that switched off?",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/applehelp/comments/1s3qa3l/ios_26_updated_without_my_permission_i_didnt_even/
+B20-053,rustdesk,"Updated last week to solve the windows problem: can't connect to any client since then ""Failed to secure tcp: deadline has elapsed""","Hi.  
+I'm using rustdesk since june I think, I'm self hosting my server on a synology DS920.
+
+I had problems with windows clients since december, so I updated my custom clients and my server container 3 days ago. Since then I never was able to connect to any client, windows or linux, with or without relay.
+
+I'm really in to deep with that problem, I basically have no remote control anymore.
+
+Another problem (way less important) When I tried rustdesk at the begining I could connect directly through my server, but for monthes I always to go through a relay  with /r and I don't know why it worked at first and then not anymore.
+
+  
+Thanks.",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/rustdesk/comments/1qmxzpv/updated_last_week_to_solve_the_windows_problem/
+B20-054,applehelp,iPhone snooze keeps turning on itself with no alarm set.,"I’m running iOS 26.4.1 and have a 16 Pro Max ever since I updated to iOS 26 my snooze is turning itself on. I don’t know how to explain this other than I have random alarms going off left right and center. I just noticed phone had snooze going for two minutes left! I don’t have any alarms set for this time… it also went off about five times at work today. The thing is it does not do it every day, it is sporadic random, and seems to have no reason or rhyme. Has anybody else had this issue?  
+  Sorry if Apple is not the right community, I’m not sure exactly where to put this. I hope this is the correct area as when I put it in Apple, it got removed.
+
+ Please help. I’m tired of getting woken up multiple times for no reason, as well as getting embarrassed at work.. jump scared in the middle of the day or while driving. I’ve restarted the phone multiple times and so far That has not fixed it, I’ve deleted and reset my sleep schedule ( which doesn’t work either anymore :/  )   any time I have any alarm set it will put my phone into bedtime mode. I will turn it off and it will turn itself right back on again unless I turn off the alarm.  (the sleep thing is a whole Nother issue.) 
+
+I would really appreciate any ideas of what’s doing this or how to fix it.",,title_and_body,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/applehelp/comments/1toy025/iphone_snooze_keeps_turning_on_itself_with_no/
+B20-055,Wordpress,Help! PHP 8 is breaking my theme,"**FIXED!!! - After creating a debug.log file, I noticed when updating to PHP8 I was still getting the 500 error and it wasn't being documented in the debug.log.** 
+
+**Hosting company, Hostgator was very helpful. They were able to find a ""wp-config file misconfiguration"". They reviewed an error log and could see the issue is with wp-config file. They had to define(‘ALLOW\_UNFILTERED\_UPLOADS’, true);** 
+
+**So the issue wasn't the theme or the PHP8 upgrade. It was an incompatibility? Was the issue in the wp old file? I don't understand because I had the most updated WP installed.** 
+
+**--------------------------------------------------------------------**
+
+I have recently purchased the **WP Semplice7 theme**. Whenever I upgrade to PHP 8, my site gives me a HTTP 500 error. I'm at my wits end, I'm not a developer and it's been such a struggle, I've been in contact with the theme support and the hosting company and no one knows what to do.
+
+Most recently, I've deleted the theme and all plugins, reuploaded the theme via FTP, upgraded to PHP 8 and the site still goes down! But when I get the hosting company to downgrade my PHP back to 7.4, the site is back up, so I know my manually uploading of the theme worked.
+
+I really need to update my PHP because there are a lot of theme features I can't access and I'm concerned my site is shouldn't be running on such an old PHP version.
+
+Please help internet universe!",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/Wordpress/comments/1p8u5gp/help_php_8_is_breaking_my_theme/
+B20-056,openclaw,Codex ACP just wont work anymore?,"Not sure whats going on, I have codex configured, its all plugged, permissions are ripped out from the new update and nothing I am doing is letting me enable ACP.
+
+I've literally burned 25% of my weekly credits trying to get openclaw to fix it and it just.... won't.
+
+Anyone else running into this?",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/openclaw/comments/1ruxjuh/codex_acp_just_wont_work_anymore/
+B20-057,aws,What would cause 502 errors in APIG/ALB with no corresponding ECS log entries?,"API Gateway (HTTP v2) -&gt; ALB -&gt; ECS Fargate (no spot instances)
+
+Getting random 502 errors (current rate sits at around 0.5%), happens more often during peak traffic time
+
+Workload in the backend is a NodeJS API, connects to RDS Aurora
+
+What we did to mitigate the issue:
+
+\- Optimize slow queries (from seconds to ms)
+
+\- Upgrade RDS to r6g.large (CPU averages 20/30%)
+
+\- Remove RDS Proxy and connect directly to Aurora Cluster (avoids pinned connections)
+
+\- Double the size of ECS tasks (running two for HA, CPU sits at average 20%, memory at around the same)
+
+Regardless of what we do, we always seem to get these random errors, and the logs are showing absolutely nothing (no error on fargate), and these errors do not correlate with any high CPU/Memory/DB usage
+
+Here is an example of a log entry from the APIG:
+
+    {""authorizerError"":""-"",""dataProcessed"":""825"",""errorMessage"":""-"",""errorResponseType"":""-"",""extendedRequestId"":""&lt;EXTENDED_REQUEST_ID&gt;"",""httpMethod"":""POST"",""integrationError"":""-"",""integrationLatencyMs"":""142"",""integrationReqId"":""-"",""integrationStatus"":""502"",""ip"":""&lt;CLIENT_PUBLIC_IP&gt;"",""path"":""/oauth/token"",""protocol"":""HTTP/1.1"",""requestId"":""&lt;REQUEST_ID&gt;"",""requestTime"":""28/Nov/2025:17:23:02 +0000"",""requestTimeEpoch"":""1764350582"",""responseLatencyMs"":""143"",""responseLength"":""122"",""routeKey"":""ANY /oauth/{proxy+}"",""stage"":""$default"",""status"":""502"",""userAgent"":""Mozilla/5.0 (compatible; Google-Apps-Script; beanserver; +&lt;REDACTED_URL&gt;; id: &lt;USER_AGENT_ID&gt;)""}
+
+And the corresponding ALB log entry:
+
+    http 2025-11-28T17:23:02.310608Z app/&lt;ALB_NAME&gt;/&lt;ALB_ID&gt; &lt;CLIENT_PRIVATE_IP&gt;:&lt;CLIENT_PORT&gt; &lt;TARGET_PRIVATE_IP&gt;:3000 0.000 0.167 -1 502 - 609 257 ""POST http://&lt;INTERNAL_HOST&gt;:3000/oauth/token HTTP/1.1"" ""Mozilla/5.0 (compatible; Google-Apps-Script; beanserver; +&lt;REDACTED_URL&gt;; id: &lt;USER_AGENT_ID&gt;)"" - - arn:aws:elasticloadbalancing:&lt;REGION&gt;:&lt;ACCOUNT_ID&gt;:targetgroup/&lt;TG_NAME&gt;/&lt;TG_ID&gt; ""Self=&lt;TRACE_SELF&gt;;Root=&lt;TRACE_ROOT&gt;"" ""-"" ""-"" 0 2025-11-28T17:23:02.143000Z ""forward"" ""-"" ""-"" ""&lt;TARGET_PRIVATE_IP&gt;:3000"" ""-"" ""-"" ""-"" TID_&lt;TARGET_ID&gt; ""-"" ""-"" ""-""
+
+
+
+Looking at the trace id from ALB logs, i can see a corresponding entry in ECS logs for 200 requests, but nothing for requests returning 502, which leads me to think this request probably never reached ECS",,title_and_body,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/aws/comments/1p9g75i/what_would_cause_502_errors_in_apigalb_with_no/
+B20-058,linuxquestions,Vesktop opinion,"I recently updated from fedora 43 to 44 and it broke the streaming in discord. Digging online i found about vesktop. I thought it might be just a website wrapper, but it provides streaming options which are tied behind discord nitro (higher resolution, high frame rate). Is this app safe to use? I just want to stream some games or study occasionally with my buddies.",,title_and_body,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/linuxquestions/comments/1t0q3wp/vesktop_opinion/
+B20-059,sysadmin,"Need Help, Lenovo Laptop Stuck at Max Brightness after Windows Update to Fix Performance Issues","I own a Lenovo IdeaPad Gaming 3 (15ACH6) and around a year ago, my laptop got stuck at Max Brightness (moving the slider wouldn't do anything) after I installed a Windows Update. I tried everything from updating the BIOS and drivers to clean installing them using DDU. Rolling back the Windows Updates was never an option on my laptop, and after searching through countless forums and exhausting my options, I decided to try resetting my laptop back then, and at the last moment after confirming the reset, I noticed my brightness go down and immediately interrupted the reset by shutting off my PC which somehow fixed the issue (it somehow rolled back the update) I reinstalled the update to confirm the issue and the brightness issue happened again so I rolled it back through the reset method again and paused windows updates since.
+
+A year later now, my laptop seriously dropped in performance so I had to install the updates and clean installed the latest drivers using DDU (which tremendously helped with the performance) but then the brightness issue came back, can anyone please help me fix it? it is seriously straining my eye, I can't sustainably use my laptop anymore, I'd be forever grateful :(",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/sysadmin/comments/1sh13yp/need_help_lenovo_laptop_stuck_at_max_brightness/
+B20-060,ios,IOS 26.4 on iPhone 13,"I recently updated a few days ago to IOS 26.4 due to hearing about IOS 18 being compromised with a virus being able to hack into phones still running this software. How true this is I really don’t know but decided to update my software anyway. Since updating it’s been a total blow for my iPhone performance. My iPhone 13 ran IOS 18 absolutely fine no issues but since updating to 26.4 it’s so laggy, slow, buggy and I’ve noticed significant performance and battery drops. A simple task like changing my wallpaper made my phone have a meltdown with it being super slow and clunky. Not to mention it was unhappy doing this simple task it took almost 2 minutes to go from a black screen to the screen where I can choose my photos. Has anyone else been having issues with this software on older iPhones?",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/ios/comments/1s9ygs8/ios_264_on_iphone_13/
+B20-061,homeassistant,Error when logging in to Renault Integration,"Since updating Home Assistant Core to version 2026.5.2 from 2026.3.1, the Renault integration has stopped working. I always get the error “Ungültige Authentifizierung” (“Invalid authentication”) when trying to log in.
+
+
+
+Logging into the My Renault app and the My Renault web portal works fine, but Home Assistant fails.
+
+
+
+The log says:
+
+Logger: homeassistant.components.renault.renault\_hub
+
+Source: components/renault/renault\_hub.py:94
+
+Integration: Renault (Documentation, Issues)
+
+First occurred: 19:09:25 (1 occurrence)
+
+Last logged: 19:09:25
+
+
+
+Login to Renault failed: invalid loginID or password","[1:reply] had same issue after updating, seems like they changed something in authentication flow between those versions. try removing the integration completely and adding it back fresh - worked for me when i had similar problem few weeks ago
+[2:reply] Same problem here, since today Renault in HA no longer works, not even after readding the integration.
+
+MyRenault works, web works, Kelec works.
+[3:reply] Here only my renault works
+Ha dont kelec dont. All say wrong password but on my renault works
+[4:reply] Same issue. Ohme app lost connection too.  There an issue and workaround on Github but not tried it yet. 
+
+[https://github.com/hacf-fr/renault-api/issues/2098](https://github.com/hacf-fr/renault-api/issues/2098)
+[5:reply] Same for me, but didn't coincide with a HA upgrade. My integration stopped connecting at 16:13 BST.  
+  
+  
+Renault - Yes  
+Kelec - No  
+Home Assistant - No
+
+Hopefully they aren't locking down third-party access, and it's just a glitch.",title_body_comments,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/homeassistant/comments/1thtizh/error_when_logging_in_to_renault_integration/
+B20-062,comfyui,Help! SageAttention broke after updating.,"Context: I had a working portable version just a few days ago, but I wanted to update everything to try out video making. I had SageAttention working before, but now after the update it just give me this error.
+
+**\*from . import \_fused**
+
+**ImportError: DLL load failed while importing \_fused: The specified procedure could not be found.\***
+
+I tried pretty much everything I found off the internet. Uninstalling triton and SageAttension then reinstalled it.
+
+Under pip list I should have all the requirements installed in my embedded python - torch+cuda, triton and sageattention. I don't know what I'm doing wrong. Can someone please help? Thank you ahead of time 🙏
+
+torch             2.12.1+cu130
+
+triton-windows    3.6.0.post26  
+sageattention     2.2.0+cu130torch2.9.1.post5
+
+  
+\*\*\* I Fixed the issue - at least on my end \*\*\*
+
+Okay, so apparently I was NOT actually installing triton and sageattention in my embedded python for the portable version of comfyui. I was using the installation commands incorrectly. 
+
+What I did wrong was using ""python.exe -m pip install ..."" instead of using "".\\python.exe -m pip install ...""
+
+I assumed that if I open cmd in my embedded folder, it will automatically installs packet in for my embedded python. It was actually installed to my local python instead. So to make it install into the comfyui embedded Python you need the "".\\"" in front.  Then you can check it my "".\\python.exe -m pip list""","[1:reply] Try this 
+
+in (.../venv/Scripts&gt;) folder  Type (Use cmd) : 
+
+python.exe -m pip install triton-windows
+
+Then
+
+python.exe -m pip install --upgrade sageattention --no-cache-dir
+
+i installed it just now for SeedVR2.5
+[2:OP] It said for both requirements have been meet for both of those commands.",title_body_comments,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/comfyui/comments/1ukqws0/help_sageattention_broke_after_updating/
+B20-063,comfyui,Anyone know how to fix this error?,"Been getting this when using error when running wan, either i2v, T2v, or wan animate sometimes. It started since I updated comfy ui and nodes, iv never had this issue before  and I don’t know what’s causing it, chat gpt keeps guessing and giving me options that might break my comfy ui completely, iv never had issues running wan 2.2 i2v or T2v before i have a 3060 ti with 64ram, i generate videos at 416x688 and then upscale later, it works even for 121 frames without any errors or issues, can anyone help me fix this, its driving me nuts, sometimes am lucky its working on the first run after restarting it then the second run i either get this error or a black preview in the final video and the second k sampler",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/comfyui/comments/1pqh9qg/anyone_know_how_to_fix_this_error/
+B20-064,debian,Debian XFCE Experience,"I've been hopping Linux Distros starting with Ubuntu LTS years ago &amp; now I've finally dipped hard into my Linux Testing by going to Debian XFCE instead of me defaulting to the GNOME Environment.
+
+It's definitely a different experience with not having SNAP Package Managers to use &amp; me heavily relying on the Terminal for most of my application installations.
+
+But I must say that the experience on my HP Workstation has been much smoother with Debian XFCE than expected.
+
+I want to thank everyone in the Debian, Ubuntu, &amp; Linux Community as a whole for helping a New Linux User as myself get started using Linux &amp; away from the AI Garbageware that is Microsoft Windows.
+
+I currently have successfully installed Spotify, Firefox, Chrome, GIMP, VLC, &amp; nwipe via the Terminal &amp; I fixed a bug regarding Firefox-ESR &amp; Firefox Main showing duplicate icons.
+
+Any other tips I should be aware of to harden my Debian Security Defenses?
+
+I already ran sudo apt update &amp;&amp; sudo apt full-upgrade -y in the Terminal to get the latest updates then ran sudo apt autoremove.",,title_and_body,yes,yes,other,low,The post appears to discuss software without a clear troubleshooting or chiefly critical purpose.,,,,,,,https://reddit.com/r/debian/comments/1v6o4m5/debian_xfce_experience/
+B20-065,sysadmin,Turnstile or catchable broken since browser updates,"No article to prove it but our stop website go captcha errors on checkout increasingly over the past week or 2. More do in the last 48 hours.browser Logs show issues on the respective browsers. Turned turnstile on cloudflare down to non-managed and walla, all fixed and people can buy stuff again. More info to come as to what updates to chrome edge and Firefox if I have time, unless others know. But so others dont pull hair out.",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/sysadmin/comments/1u8vkes/turnstile_or_catchable_broken_since_browser/
+B20-066,Fedora,Fedora 44 stuck in update boot loop,"Fedora on my ThinkPad T14 gen 3 told me that there were updates available. I installed them and rebooted when prompted. However, it seems to have gotten stuck in some sort of an update installation boot loop. It shows:
+
+\`\`\`
+
+Lenovo splash screen
+
+↓
+
+Install Updates
+
+Please do not turn off your computer
+
+(progress bar reaches \~65%)
+
+↓
+
+Rebooting after installing updates
+
+(progress bar)
+
+↓
+
+Fedora logo
+
+↓
+
+Repeat forever
+
+\`\`\`
+
+# Things I have tried:
+
+Entered UEFI BIOS with F1 and checked boot options.
+
+Confirmed boot options:
+
+Fedora
+
+NVMe0: SKHynix\_HFS512GDE9X081N
+
+PXE BOOT
+
+Linux-Firmware-Updater
+
+Removed the Linux-Firmware-Updater boot entry.
+
+Tried booting both:
+
+Fedora EFI entry
+
+NVMe SSD entry
+
+Both resulted in the same boot loop.
+
+Checked UEFI BIOS firmware settings:
+
+Flash BIOS Updating by End-Users: Enabled
+
+Secure RollBack Prevention: Enabled
+
+Windows UEFI Firmware Update: Enabled initially, then disabled (no change).
+
+Booted successfully from a Fedora live USB via Ventoy.
+
+Confirmed the live USB was booted in UEFI mode (/sys/firmware/efi exists).
+
+Checked EFI boot entries using efibootmgr -v.
+
+No BootNext entry was set.
+
+Fedora EFI entry points correctly to \\EFI\\fedora\\shimx64.efi.
+
+Checked fwupd status:
+
+fwupdmgr get-history → ""No history""
+
+fwupdmgr get-devices
+
+fwupdmgr refresh
+
+fwupdmgr get-updates → No updates available
+
+Checked UEFI Device Firmware status:
+
+Firmware update state reported as ""Success"".
+
+ESRT last\_attempt\_status reported 0.
+
+Tried fwupdmgr clear-results.
+
+No devices could be cleared because they were not present in the history database.
+
+Checked EFI capsule variables:
+
+Found:
+
+LenovoEvtLogCapsuleUpdate
+
+CapsuleLongModeBuffer
+
+Installed efivar and inspected EFI variables.
+
+Attempted to remove Lenovo capsule variables manually.
+
+Initially blocked due to immutable attribute.
+
+Removed immutable flag with chattr -i.
+
+Removal still failed with ""Invalid argument"".
+
+Attempted to clear EFI capsule variables by writing empty data.
+
+Failed with ""Read-only file system"".
+
+Checked /sys/firmware/efi/esrt:
+
+Firmware version: 196608
+
+Last attempt version: 0
+
+Last attempt status: 0
+
+Capsule flags: 0x0
+
+Tried a full power reset:
+
+Powered off.
+
+Held power button for 60 seconds.
+
+Booted again.
+
+Boot loop continued.
+
+# Current situation:
+
+Fedora live USB boots normally.
+
+Internal Fedora installation is stuck in an infinite ""Install Updates / Please do not turn off your computer"" loop.
+
+The update progress bar reaches around 65% then reboots.
+
+No firmware updates are currently available according to fwupd.
+
+It appears to be a stuck Fedora/fwupd offline update rather than an actual BIOS flash.","[1:reply] Add `systemd.unit=default.target` to the kernel command line when booting. This will override the generator that diverts the boot sequence into the updates process. With the system booted normally, you will be able to diagnose the issue.
+
+Note that the system update flag file —…
+[2:reply] Hit escape while it's booting and you can see what it's doing or failing to do
+[3:OP] A couple of lines stuck out to me:
+
+[FAILED] Failed to start dnf-system-upgrade.service - System Upgrade using DNF. See 'systemctl status dnf-system-upgrade.service for details.
+
+Starting dnf-system-upgrade-cleanu... System Upgrade using DNF failed...
+
+[FAILED] Failed to start d…
+[4:OP] I can't even get to the grub boot options, or any TTY for that matter.
+[5:reply] Boot from your USB
+
+lsblk -f  
+(to find your root partition, default is probably nvme0n1p3 or btrfs)
+
+sudo mount -o subvol=root /dev/nvme0n1p3 /mnt  
+(to mount the root subvolume)
+
+sudo rm -f /mnt/system-update  
+sudo rm -rf /mnt/var/lib/dnf/system-upgrade\*  
+sudo rm -f /mnt/va…",title_body_comments,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/Fedora/comments/1utw08x/fedora_44_stuck_in_update_boot_loop/
+B20-067,applehelp,"Cellular Connection Issue Detected - Modem Firmware Blank, Verifying Update Loop (IOS 18.6.2) (REPOST FROM ANOTHER COMMUNITY ASSISTANCE IS APPRECIATED)","I was on the subway and suddenly I completely lost cellular service, which is normal because it's underground. However, I got off the train and my service didn't come back. Left my phone alone and hours later it still didn't come back. I did not drop my phone or do anything out of the ordinary. I was holding my phone the entire time, didn't drop/shake/bend it, and did nothing out of the ordinary. I've not experienced any significant issues with my cellular service before.
+
+Checked my Cellular tab and it says ""Issue Detected."" Diagnostics flagged both outdated software and potential hardware issues. Location services still work. Notably, the space next to Modem Firmware is completely blank. 
+
+I tried updating my phone to the latest version of IOS 18 because I've been dreading IOS 26, but after downloading my phone got stuck on on the ""Verifying Update"" screen, even after force restarting it twice.
+
+I'm planning on connecting my phone to my laptop when I get home from work and updating to IOS 26 that way to try to make sure the download is as stable as possible. I have not reset my network settings/wiped my phone yet. I also have an appointment at the Apple Store tomorrow, but I'd like to try to resolve this on my own first.
+
+Does anyone have any idea why this happened and how I can fix it? Please help me","[1:reply] Update your phone to iOS 26. It's no longer possible to upgrade to 18.
+
+Join a wifi network and then go to Settings → Genral → About and wait a couple of seconds. If there any carrier updates, you will get a notification to install them.
+
+If nothing happens, your carrier setting…
+[2:OP] Hi. I tried to update to IOS 26 and left the phone alone for about three hours. When I came back to it, it was stuck on ""Verifying Update"" again in the exact same way as before.
+
+I also tried to plug my phone into my computer to do it but my computer is not detecting it.",title_body_comments,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/applehelp/comments/1v3x3lq/cellular_connection_issue_detected_modem_firmware/
+B20-068,Ubiquiti,OS 4.4.11 - Internet drops on Express 7?,"I recently installed my first Unifi device at home (replacing my ageing Google Nest) and it’s generally going quite well. Lots of new learnings and errors along the way! I am however continually running into an issue with my Internet connection dropping at random points.
+
+For context I have a single Express 7 acting as a gateway to a PPPOE fibre connection. Soon after install I started having drops every hour or so (particularly when using the network a lot) and found I had a bad Ethernet cable to the wall. Replaced it and was far more stable.
+
+Since then I am getting maybe one drop a day with no real explanation. I’ve never had stability issues like this before and there’s clearly an issue here I’m not seeing or understanding; I refuse to believe that this new hardware is somehow not handling the quantity of clients or traffic a first-gen Nest mesh system could.
+
+I have 3 VLANs set up and a total of 16 clients currently on the network. Initially I was running OS 4.4.9 (I think) and now auto updated to 4.4.11.
+
+The issue almost feels like a memory leak (but isn’t) and seems to happen at 24-48 hour intervals with the only visible factor being that multiple people are using the network at the same time.
+
+Any ideas here?",,title_and_body,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/Ubiquiti/comments/1rliodd/os_4411_internet_drops_on_express_7/
+B20-069,sysadmin,Stop Dell Desktop From Installing BIos Update,"I have a dell optiplex Micro 3090 that I am trying to prevent the bios from updating to 2.28 as the 2.28 keeps breaking the second display port from working on this machine (it has dual display ports, only one works after this update). If I downgrade to 2.27, both display ports works but it will automatically have the 2.28 bios update pending restart so as soon as it reboots, it reinstalls the firmware.
+
+I uninstalled the Dell supportasssist and disable the driver quality in windows update thru regedit but still no luck. Also tried disabling window update service as well but didn't do anything either.
+
+I am doing this remotely as I can't be in the person office to mess with the bios itself to try and turn off perhaps the UEFI capsule which I see mention in other posts about this.
+
+Anyone have any ideas why or what the hell is causing the bios update from reinstalling itself automatically?",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/sysadmin/comments/1ruxom2/stop_dell_desktop_from_installing_bios_update/
+B20-070,MicrosoftEdge,Sleeping tab is always on now?,"It seems i am going nuts today. Edge received an update yesterday on my work laptop. And today i have noticed that all my background tabs reload when i click on them, when they have been not in focus for it seems just 5 minutes or so. I always have Sleeping tabs feature disabled, it is still disabled and it was not behaving like that before yesterday's update. Is it a bug i wonder or did they decide sleeping tabs is now mandatory? I have noticed that adding sites to Never put these sites to sleep helps. Which just confirms this must be a bug. Almost on the verge going back to Chrome, even if i lose sync for settings and bookmarks. Can't stand this behavior.",,title_and_body,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/MicrosoftEdge/comments/1oim9lx/sleeping_tab_is_always_on_now/
+B20-071,applehelp,iPhone 15 Plus systematically triggering overnight SIM PIN lock since iOS 26 upgrade,"Hi everyone, this is my first time posting here. As an engineer, I usually prefer to quietly read and research, but I'm facing a highly specific and persistent technical issue with my iPhone 15 Plus since updating to iOS 26 (approx. 10 months ago) that has pushed me to look for answers within the community.  
+I've been troubleshooting this with Apple for 7 months (reaching the Apple Executive Relations team in the last weeks), and they just unilaterally declined the case, blaming my carrier. However, my technical isolation tests and research prove otherwise.
+
+  
+**The Symptom**  
+Randomly overnight, while the phone is charging, the device suffers a local crash. When I wake up, the screen is prompting for the SIM PIN code. Until the PIN is entered, the phone has completely lost network connection (""No Service"") and cannot receive or make calls.
+
+  
+**Isolation Controls Performed**
+
+1. **Dual-SIM Configuration:** The phone runs two active eSIMs (before 1 SIM and 1 eSIM with same results) from two completely independent mobile network operators. Both SIM profiles crash and lock simultaneously.
+2. **Hardware/Carrier Isolation:** I have a duplicate MultiSIM clone of one of the lines inside an Android device. For months, I’ve left both phones side-by-side charging overnight. Every time the iPhone crashes and asks for the PIN, the Android device is working perfectly with full coverage.
+
+**My Technical Hypothesis: RAM Saturation under iOS 26**  
+After researching online across multiple technical forums and communities, I’ve noticed a striking pattern: every single user reporting this exact overnight SIM-locking issue is using either a base iPhone 15 (or iPhone 15 Plus) or older models. Notably, none of the iPhone 15 Pro, Pro Max, or newer devices (with 8GB RAM or more) seem to suffer from this.  
+this points to a highly probable root cause:
+
+* The base iPhone 15 / 15 Plus has **6 GB of RAM**, whereas the Pro models and newer generations feature **8 GB or more**.
+* Looking into my diagnostic logs/sysdiagnose at the exact timestamps of the failures, there are clear indications of local process memory saturation.
+* It appears that under **iOS 26**, memory management on 6 GB devices is pushed to its limits overnight. To free up resources, iOS aggressively terminates telephony-related daemons (like `CommCenter`).
+* When `CommCenter` crashes and restarts, iOS handles it as a ""hot-plug"" event (as if the SIM card were physically extracted and re-inserted), triggering the PIN security prompt.
+
+**The Support Experience: Shifting Excuses**  
+To make matters worse, Apple's support throughout this active and paid AppleCare contract has been incredibly deficient, with responses changing constantly over the past 7 months:  
+
+
+* First, they claimed about potential i**ssue wit the charger**. I tried more than 5 different chargers, original ones, MFi ones, wirered and wireless/MagSage ... and repeat the issue. 
+* First, they claimed it might be a **temperature issue** (easily ruled out as it happens in perfectly climate-controlled rooms).
+* Then, they suggested a **geographic location issue** (also ruled out, as the problem has persisted across different cities and even when traveling to other countries).
+* Finally, once they ran out of basic scripts, they shifted the entire blame to a **""carrier connectivity issue""** and washed their hands of the case (""*We do not have anything further to add at this time*"").
+
+As far as I know, standard 3GPP/ETSI protocols dictate that the SIM PIN screen is a sandboxed, local software/hardware security request controlled strictly by the OS. A carrier cannot push an OTA instruction to force a local iOS PIN screen.  
+The combination of this shifting, non-technical feedback and the absolute lack of support despite having paid for a premium AppleCare contract has left me with no other choice but to escalate and file an official complaint with the Consumer Protection Authorities and the courts in Spain.
+
+  
+**BTW - Why I can't just disable the SIM PIN**  
+Please note that due to strict corporate security policies (as this terminal hosts my main work line), I am explicitly restricted from disabling the SIM PIN. Therefore, disabling security is not an option, and finding the root cause of this OS memory bug is my only viable path forward.
+
+  
+Is anyone else experiencing this systematic overnight SIM locking behavior on iOS 26, specifically on 6GB RAM devices? Has anyone managed to find a specific kernel panic log or workaround for this baseband/memory management issue?
+
+  
+Thanks!","[1:reply] Have you considered working around the issue by powering the phone off after plugging it in? (It will continue to charge after it’s turned off.)
+[2:reply] Why don't you just buy a new iPhone if the 15 has this bug and Apple is refusing to fix it? If it was happening to me I would just turn off SIM PIN (which I see, you can't), so new phone is your only option now.
+[3:OP] The device is charging with no issue. The problem is that some nights, always during charging, the SIMs are locked and PIN is requested to re-connect with the celular network. 
+
+I can see several similar cases but not sure if they all gave up or directly deactivate the PIN. [htt…
+[4:OP] From a purely practical standpoint, you are right. Buying a new phone would solve the headache instantly.
+
+But as an engineer, I refuse to spend another €1,000+ to fix a bug that Apple caused. The device is under statutory warranty and an active AppleCare contract. If consumers…",title_body_comments,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/applehelp/comments/1uyetm6/iphone_15_plus_systematically_triggering/
+B20-072,comfyui,Comfyui 28.0 desktop OOO,"Was there some change in memory managment i this version?
+
+Since updating i keep getting weird OOO errors, usually after the Workflow is done. Things that worked without any issues before.
+
+Used mostly for wan2.2 with couple of loras.
+
+  
+
+
+edit:
+
+looks like there was an issue with Windows Performance Counter on my machine.
+
+not sure if it's a new issue or was before and just now comfyui started using a feature that needed it.
+
+after repairing it (lodctr /R +reboot) looks like the issue is solved.
+
+i still have a feeling of performance degradation, I'll need to check it more to see.
+
+thanks for all the responses!","[1:reply] Here we go again.
+[2:reply] It's astonishing, each and every day..
+[3:reply] There's nothing in the commits that changed any memory management.
+[4:reply] I don't know exactly what version it was (because I don't update every time) but after going to 27 from 21 I am getting OOO errors especially with Wan 2.2. Disabling ""smart memory management"" fixed it for me, and actually gave me back control of my PC.  I have very fast drives s…",title_body_comments,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/comfyui/comments/1uyvj8k/comfyui_280_desktop_ooo/
+B20-073,homeassistant,Latest HomeAssistant (2026.9) dashboard extremely slow. Anyone else?,"Since updating my wall dashboards are almost unusable. After closing the nav, or dismissing a modal, it freezes for 10 seconds or more.
+
+Anyone else noticing a slowdown?
+
+  
+Update: it was card-mod! I had a bunch of customizations in the past but had mostly removed them as the HA updates made them broken or obsolete; removing card-mod itself fixes the slowdowns and has no major effects. Even if it did I’d want to move toward more standard components anyway. Thanks all.","[1:reply] Does it speed back up if you roll back to the version you were on before?
+[2:reply] I haven't noticed any issues
+[3:reply] I haven't had any problems, but that doesn't mean anything. No clues in the logs?
+[4:reply] I don't know if it started with 2026.9 but I noticed my A9+ became unbearably slow and even browsers and the app were struggling. I do have a lot going on with graphs and radar and stuff. I switched themes from frosted glass to one less intense (waves) and it definitely sped thi…
+[5:reply] Yes but and when I updated to 9.3 it was back to being fine again.",title_body_comments,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/homeassistant/comments/1wvgmgg/latest_homeassistant_20269_dashboard_extremely/
+B20-074,bluetooth,WH-1000XM6 multipoint issue with Windows 11 + iPhone Instagram audio,"I’m running into a really frustrating issue with my Sony WH-1000XM6 and I’m trying to figure out whether this is a firmware bug, Windows issue, or something specific to my setup.
+
+Setup:
+
+* Sony WH-1000XM6
+* Windows 11 desktop
+* iPhone
+* Multipoint enabled
+
+PC specs:
+
+* Ryzen 7 7800X3D
+* MSI MAG B650 TOMAHAWK WIFI
+* Windows 11
+* AMD Bluetooth drivers updated to latest version
+
+The problem:  
+Everything works fine initially. I can use Instagram/Reels audio on my iPhone normally through the XM6.
+
+But the moment I play audio on my PC, Instagram audio on my iPhone completely stops working afterwards.
+
+Important details:
+
+* Spotify/YouTube on iPhone often still work
+* Instagram specifically breaks after PC audio playback
+* Reconnecting the headphones does NOT fix it
+* Forgetting/re-pairing does NOT fix it
+* Restarting iPhone does NOT fix it
+* Reinstalling Instagram does NOT fix it
+* Updating iOS did NOT fix it
+* Updating AMD Bluetooth drivers helped a little but did not solve it
+* Toggling “Prioritize Sound Quality” / “Prioritize Stable Connection” in the Sony app temporarily restores Instagram audio
+* Disabling “Hands-Free Telephony” sometimes temporarily helps
+* It really feels like the XM6 gets stuck in some weird Windows audio/multipoint state after PC playback
+
+I also noticed:
+
+* If I disconnect the PC completely, Instagram audio works again
+* The issue only starts after Windows audio has been used
+* It feels like Windows is holding onto audio focus or the XM6 is failing to hand audio back correctly
+
+Has anyone else experienced this with the XM6 specifically?
+
+And more importantly:  
+Has anyone actually found a permanent fix?
+
+At this point I’m honestly shocked that a €300+ headphone has this many issues with multipoint.",,title_and_body,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/bluetooth/comments/1tp5ayb/wh1000xm6_multipoint_issue_with_windows_11_iphone/
+B20-075,vscode,Anyone else's Claude Code freezing in VS Code?,"I haven't worked on Claude Code in VS Code for almost two or three weeks now. In that time, something must have changed, because now every time I use it, it seems to hang after 15 to 20 minutes. Pretty much all of my different chat windows just freeze up, and I have to reload the window or restart VS Code entirely to get it working again.
+
+This is obviously breaking my workflow, and I can't really tell why it is happening.
+
+Is anyone else running in to this issue and figured out a fix?
+
+My troubleshooting so far :
+
+* I'm on VS Code. Should be latest it updates by itself.
+* In the extensions for Claude code I'm also on the latest version.
+* I don't use terminals so I can't check there, also would defeat the purpose since I like using VS code now.
+* No patterns really, just randomly breaks.
+* Claude AI isn't helping me fix it unfortunately.
+* Used the /doctor command to try and get all the latest updates working but no go still.","[1:reply] Its likely because multiple chat windows or tabs each spawn their own claude process. Meaning they all fight over the same claude.json config file with no proper file locking. The easiest thing to do obviously is to just not open too many windows at once. maybe trying an older v…
+[2:reply] The 15-20 minute timing is a pretty consistent pattern for memory/socket leaks in extension hosts, not a random hang. Try disabling Claude Code, reloading, then re-enabling it alone with no other extensions running, since extension conflicts are the most common culprit. Also wor…
+[3:OP] Brother, I think you were the closest person to what the actual issue was. I managed to resolve it yesterday by myself. 
+
+
+
+I was observing when Claude Code hangs, and it didn't matter whether it was three tabs or one. When it did hang, it gave me an error, which I'm going to po…",title_body_comments,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/vscode/comments/1uzuw2k/anyone_elses_claude_code_freezing_in_vs_code/
+B20-076,applehelp,Apps not loading since 26.5.2 iPhone 15 Pro Max,"(Image above is an example) Since updating to 26.5.2 on my iPhone 15 Pro Max, I have found several apps no longer loading and crashing back to the home screen during the load attempt. It will display the loading screen that most apps have but will not fully load apps. It will end in it crashing. Have force restarted phone, deleted and reinstalled apps, offloaded and reinstalled apps, cleared running apps. Nothing has worked.","[1:reply] Is your phone out of storage?
+[2:OP] No I still have 175GB free
+[3:reply] Fiancé is having same issue!! We’re gonna try to see what Apple says and have to get him a new phone if they can’t fix it 🥲
+[4:reply] I’m having the same issue",title_body_comments,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/applehelp/comments/1uxny3s/apps_not_loading_since_2652_iphone_15_pro_max/
+B20-077,firefox,New update fixed a problem i had.,"So far i am loving this new design. The browser is super fast now. It was terrible actually before this though. I also had a problem with twitch when i would full screen a stream it would crash the stream and sometimes the whole browser. This would also happen with youtube sometimes. Happened for months. But thankfully fixed now. 
+
+  
+Turned on the proton theme. Best color so far imo. And love the round corners. But options would be cool. 
+
+  
+Happy!","[1:reply] The browser is definitely snappier and so far, it is pretty solid in my day to day use.
+[2:reply] I love it as well, the design is great and in my case for my userchrome.css to work I had to edit browser.xhtml from omni.ja file every update, but now they changed the behavior of responsible attribute and it works out of the box, so it's one of those rare cases where an update…",title_body_comments,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/firefox/comments/1wu2p4a/new_update_fixed_a_problem_i_had/
+B20-078,comfyui,why o why is comfyui broken after update,"Not used comfyui for 2 weeks. Did an image, great all working
+
+then says on main manager an update is needed, updated from 17 to 20 and update all
+
+now my main work flow i have been using for 3 months says 7 missing nodes it was just working 5 mins ago!!! )
+
+3 updates and refreshes, even the crap bog-standard workflow on load says red on checkpoint
+
+https://preview.redd.it/bofeqx5ylo1h1.png?width=509&amp;format=png&amp;auto=webp&amp;s=7fb196a4450175746530000e8ed88867937c641b
+
+  
+models say nothing?",,title_and_body,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/comfyui/comments/1tfmjht/why_o_why_is_comfyui_broken_after_update/
+B20-079,PFSENSE,pfsense 2.9 Telegraf broke,"Hi   
+telegraf stopped working for me after upgrade and it seems to be same issue as 
+
+[https://redmine.pfsense.org/issues/16674](https://redmine.pfsense.org/issues/16674)","[1:OP] I was able to fix it so that InfluxDB works now
+[2:reply] Found the following...
+
+~~Source...~~ [~~https://forum.netgate.com/topic/201197/pfsense-ce-2.9.0-telegraf-broken~~](https://forum.netgate.com/topic/201197/pfsense-ce-2.9.0-telegraf-broken)
+
+This didn't work for me...
+[3:OP] I used a custom patch to fix mine",title_body_comments,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/PFSENSE/comments/1vwcn0c/pfsense_29_telegraf_broke/
+B20-080,AZURE,"Azure Arc GPO deployment reported ""Task Completed"" but servers never showed up in Azure","Azure Arc GPO deployment reported ""Task Completed"" but servers never showed up in Azure
+
+The scheduled task said: completed. No errors. Yet nothing got installed, and nothing showed up in Azure.
+
+If you're rolling out Azure Arc onboarding through Group Policy, you might be hitting the same silent issue without ever getting a heads-up.
+
+At a client, we rolled out Azure Arc onboarding in phases via GPO. The scheduled task ran cleanly and cleaned up after itself, the update task was created as expected, ArcInfo.json looked correct, and Event Viewer/Arc logs showed zero errors. But no application got installed, and no connection ever showed up in the cloud. In practice, that meant servers that looked ""onboarded"" on paper were actually sitting outside the reach of policies, monitoring, and Defender for Cloud with zero alerts firing.
+
+We saw this on 3 servers, all Windows Server 2022, all with the AzureArcSetup feature already present. The feature was enabled but never configured further. Underneath, it had a different install and config than what the GPO expected and it actively blocked the GPO's installation instead of letting it update itself.
+
+We didn't catch this through a dashboard. We found it by manually checking the Azure portal against our server list with some common sense and pattern recognition. A good reminder that ""task completed"" alone tells you nothing about the actual result.
+
+Fix:
+
+* `Get-WindowsFeature AzureArcSetup`
+* `Remove-WindowsFeature AzureArcSetup`(We ended up scripting this for all other 2022 servers)
+* Reboot the server
+* Let the GPO reprocess
+
+After that, the install went through and the server showed up in Azure as expected.
+
+It seems, Azure isn't always blue 😄","[1:reply] Private endpoint or public? If private did you configure your dns correctly?
+[2:OP] Public endpoint
+[3:reply] Actually it's a good reminder to verify the result instead of trusting the status message",title_body_comments,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/AZURE/comments/1urkap6/azure_arc_gpo_deployment_reported_task_completed/
+B20-081,unRAID,Constant vm crashes with Intel Arc passthrough to Windows on 7.3.x,"I'm hoping someone, anyone can help guide me here.  I get nonstop BSOD loops when passing my Intel Arc A series card to a Windows VM.  
+
+When I first updated to the initial 7.3, it only happened once or twice, but then after rebooting the host, it went away entirely, so I assumed it was a one-off.  It ran fine for 2 months until a few days ago when I had to reboot the host for something.  Since then, I cannot get it stable.  
+
+It's so weird, it can run fine for a day or so (as long as 1.5 months apparently) but once it starts crashing, nothing but a host reset can get it stable in the VM.  But even then it will last maybe a day before crashing again.  This is only happening under load.  
+
+* ASUS Z690-PLUS WIFI D4 
+* Intel Arc A310  
+* Unraid 7.3.2 (updated last night just in case it would help). 
+* VM using Q35 10.2. 
+* GPU passed through via VFIO.   
+
+The Unraid logs repeated Intel IOMMU DMAR faults (DMA Read NO_PASID, PTE read access/reserved fields) followed by repeated vfio-pci reset attempts. 
+
+Log snippet:  
+
+https://pastebin.com/hqA6gc33
+
+
+
+My VM XML:  
+
+https://pastebin.com/qVJAZXLy","[1:reply] Do you have any plugin installed that uses the ARC, like Intel GPU Top for example? I'm just wondering if a driver is trying to initialise the graphics card on the host while you try to pass-through. I made that mistake myself having nvidia plug-in drivers installed booting up a…
+[2:reply] does the card run on the latest firmware? My arc pro b50 had several firmware updates that improved stability and completely changed vfio
+[3:OP] yeah as part of the troubleshooting, i updated to latest firmware/drivers, latest motherboard bios, latest unraid
+[4:OP] i do have that as well as gpu statistics, i tried removing them with no luck.  
+
+i wish i had rolled back to 7.2 when i had the chance
+[5:reply] I have heard that w/ 7.3 it may make sense to remove the IOMMU group. Reboot, add back in again manually with a new enumeration.  I thought I read something on that, but I would try it cannot hurt.  From there windows will see a new device and enumerate and add the nvidia driver…",title_body_comments,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/unRAID/comments/1urmjxj/constant_vm_crashes_with_intel_arc_passthrough_to/
+B20-082,chrome,Chrome didnt save my open tabs anymore,"i think there was an update or something. 
+
+My options for continueing from where i left - to make chrome to re open all the tabs i got when i close it- is still **ON**
+
+  
+but the tabs are gone every time i close the window. there is a little arrow in the top lest corner that show me the last tab i close recently...but if i open a new tab it overwrite one of the previous one, so basically they didn't just move the tabs into a botton as i assumed at first.
+
+and now it want me to create color coded groups of tabs or something...what's happening and how do i fix it?","[1:reply] Thank you for your submission to /r/Chrome! We hope you'll find the help you need. Once you've found a solution to your issue, please comment ""**!solved**"" under this comment to mark the post as solved. Thanks!
+
+
+*I am a bot, and this action was performed automatically. Please […",title_body_comments,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/chrome/comments/1wwhxy2/chrome_didnt_save_my_open_tabs_anymore/
+B20-083,homelab,accidentally removed rdimm while the server was still running - now only error 53,"i made a stupid mistake. i was shutting down my box from the other room via ssh, tons of times, as i had to test a shit ton of memory bar configs and then it happened: i accidentally removed a ram bar while the box was still powered on.
+
+after that, i only get a Q error 53 (cant initialize memory) for all bars in all slots. tried from 1 to 8 bars in all possible combinations.
+
+hardware is 1x XEON w-3465x, 1x ASUS WS 790 Sage SE and 8x KSM56R46BD4PMI-96HMI 96GB memory bars.
+
+i also tried a bios back-flash with the latest bios version as a hail mary attempt.
+
+i just bought a cheapoh mem tester off amazon to rule out memory issues, but i only had 4 bars in the box when it happened, so its basically impossible that 4 not plugged in bars also broke the same time.
+
+https://preview.redd.it/wykeduxyqg8h1.png?width=1246&amp;format=png&amp;auto=webp&amp;s=1c3aec854f27fe2c792513be0eb459f0e3a9e3ed
+
+i also bought a fresh 8gb DIMM to totally rule out a mem issue
+
+its somewhat hard to believe that i fried my board or cpu (memory controller)? at least based off my like 30 years of experience with hardware. usually its pretty resilient.
+
+anyone an idea how fucked i am?
+
+Edit: typo","[1:reply] Obviously the memory can’t hit DNS.
+[2:reply] Yes
+[3:reply] There has never been in all the years start with my first XT and 286’s a scenario where this accidentally happened to me ever.  I learned early on to ensure the switch on the back of the PSU was off or unplugged first before doing anything, EVERY TIME.  This is not an optional s…
+[4:reply] &gt; 
+I learned early on to ensure the switch on the back of the PSU was off or unplugged first before doing anything, EVERY TIME. This is not an optional step, ever.
+
+Exactly.  It’s not even that the server might “accidentally” be on either.  Server boards have a lot of compone…
+[5:OP] Wanna venture a guess? CPU or board or both?",title_body_comments,yes,no,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/homelab/comments/1ub0qfp/accidentally_removed_rdimm_while_the_server_was/
+B20-084,Fedora,unable to make the gnome shell dark in fedora 44,after updating to fedora 44 from fedora 43. my gnome shell cant be able to switch to the dark mode. all applications are in dark mode but gnome shell. any workaround?,"[1:reply] You are on gnome classic. Logout and select gnome as the session, instead of gnome classic.",title_body_comments,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/Fedora/comments/1ton5ct/unable_to_make_the_gnome_shell_dark_in_fedora_44/
+B20-085,Fedora,Looking for insight into these issues.,"Hey Guys,
+
+Until a couple of days ago my pc was working all hunky dory and humming along until an update ago.  Since the day before yesterday i am facing this update issue and I did search on the interwebz for a fix or a possible solution to my current issue. I did attempt a few things mentioned but it did not solve the issue. The issues currently I'm facing 
+
+1. The software resources gui shows an update but does not install or gets downloaded and reverts back to showing the updates again. I, then tried using the terminal to manually do the update and gave out certain mesa errors and did not complete the update. I even made the attempt to reinstall the rpm fusion again which showed me the second issue I ran into.
+
+2.  The second issue is that using the zsh shell. I tried to install the rpmfusion from the fedora documentation and it gave me a parse error. I have no idea what the fix is or even how to go about fixing this issue.
+
+3. I would to know from you experts and gurus or atleast a point in the direction to possibly a way to make an external btrfs drive in timeshift to make backups for the future. (For this point I have not attempted this as yet and just looking for more info on this).
+
+I have added screenshots to highlight my issues as to what I have tried so far.
+
+1st Pic - Fastfetch info for pc and hardware.
+
+2nd Pic - Fedora Software GUI showing updates but not downloading or installing the updates.
+
+3rd Pic - Manual attempt to update and upgrade showing mesa errors.
+
+4th Pic - zsh parse error shown in an attempt to fix the mesa errors by re installing the rpmfusion again.
+
+  
+I am still a novice trying to learn and loving the experience despite being a new person using fedora as a daily driver. Though the pc is still working in regards to work and not much else has shown issues apart from what has been mentioned above. I have tried to include as much info as possible from my attempts and not going any further. Please do let me know if you need anymore info.
+
+
+
+Thanks in Advance","[1:reply] Looks like rpm fusion and fedora repos are out of synch. Just wait for a few days and try again. It'll most likely resolve on its own. If not, come back here
+
+The parsing error is due to misinterpretation of the paranrheses by zsh. 
+
+Just use bash and this command will be parsed…
+[2:reply] You need mesa 26.1.4 which is currently in testing on fedora 44.
+
+https://packages.fedoraproject.org/pkgs/mesa/mesa-filesystem/
+[3:reply] 5th picture, the command has $\\(rpm -E %fedora), did you try with removing the '\\' part? That's the escape character and '(' should not be escaped because the shell will not interpret that part of the command properly.
+[4:reply] The mesa error does look like a repo-side issue with updating their dependencies properly, unless you've forcibly removed packages or done anything unusual, I agree with u/Hauptideal.
+[5:reply] Why do you have mesa-va-drivers-freeworld installed with an NVIDIA GPU? Those are intended only for AMD",title_body_comments,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/Fedora/comments/1uqumgm/looking_for_insight_into_these_issues/
+B20-086,Wordpress,Does Anyone had WordPress Mobile Menu Not Working issue after the v6.9 update?,"This happened after upgrading to the WordPress v6.9 while using wordpress block theme. (yeah we didn't even used elementor or any 3rd party builders).   
+  
+I will update more details here after a few testing.  
+
+If you find any solutions drop your thoughts. maybe it would be really helpful for someone out there.  
+
+Thank you!",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/Wordpress/comments/1pemcqu/does_anyone_had_wordpress_mobile_menu_not_working/
+B20-087,AndroidQuestions,Can send but NOT receive Whatsapp messages after reinstall(s). What should I do?,"I’m dealing with a real WhatsApp issue and I’m hoping someone has seen this before or knows how to escalate it. I used AI to help me organize the details, but this is an actual problem I’m experiencing.
+
+Summary: Can send messages perfectly. Can NOT receive any messages.
+
+I changed phones and restored my WhatsApp backup. Since then, I can send WhatsApp messages, but I cannot receive any WhatsApp messages. People who send me messages only see one gray check, including for brand-new messages sent after reinstalling WhatsApp. WhatsApp Desktop linking also fails using both QR code and phone-number/code methods.
+
+Troubleshooting already done:
+
+\\- Updated WhatsApp to the latest version.
+
+\\- Updated Google Play system, Google Play Store, Google Play services, Android system updates, and all pending app updates.
+
+\\- Restarted the phone multiple times.
+
+\\- Tested on Wi-Fi only and cellular data only.
+
+\\- Toggled Wi-Fi, mobile data, airplane mode, and eSIM settings.
+
+\\- Confirmed that normal phone calls and SMS both work correctly on this phone number.
+
+\\- Removed the old eSIM from my temporary Pixel 3.
+
+\\- Removed an unused prior-owner eSIM from the Pixel 7.
+
+\\- Fully uninstalled and reinstalled WhatsApp multiple times without keeping app data.
+
+\\- Registered the same phone number again.
+
+\\- Tested both with restoring my WhatsApp backup and with a completely fresh install/no backup restore.
+
+\\- Attempted WhatsApp Desktop linking using both QR code and phone-number/code methods; both failed.
+
+\\- As an additional diagnostic, I registered my WhatsApp number on a completely different phone, a Google Pixel 3, with no backup restored, and I still could not receive WhatsApp messages there either.
+
+Current state:
+
+\\- I can send WhatsApp messages.
+
+\\- I cannot receive WhatsApp messages.
+
+\\- Senders see only one gray check.
+
+\\- Normal SMS and phone calls work.
+
+\\- The same issue follows my WhatsApp number/account even on a different phone.
+
+\\- WhatsApp support has mostly sent Help Center troubleshooting steps, which I’ve already completed.
+
+My current theory is that this is some kind of WhatsApp account/phone-number inbound delivery or registration-routing issue, not a phone, backup, SIM, Google Play Services, or local app data issue.
+
+Has anyone seen this before? Is there any known way to force WhatsApp to fully re-register a number for inbound delivery, or any reliable way to escalate beyond the automated support responses?",,title_and_body,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/AndroidQuestions/comments/1sy6usn/can_send_but_not_receive_whatsapp_messages_after/
+B20-088,applehelp,iPhone 13 mini + eSIM = endless iMessage/FaceTime activation loop. Apple Support keeps dropping the case. Anyone experienced this?,"I’m honestly running out of ideas and wanted to ask if anyone here has dealt with something similar or knows how to properly escalate this inside Apple.
+
+Device:
+
+* iPhone 13 mini
+* iOS fully reinstalled clean through Apple Devices on Windows
+* Italian eSIM (WINDTRE)
+* Previously had a physical SIM with another carrier and never had issues
+
+Problem:  
+Since switching to eSIM, iMessage and FaceTime cannot activate correctly.
+
+Symptoms:
+
+* Continuous popup: “Your network provider may charge for SMS messages used to activate iMessage and FaceTime”
+* If I press “Turn On”, I get charged SMS fees
+* Activation fails anyway
+* Number stays with spinning wheel forever under Settings &gt; Messages &gt; Send &amp; Receive
+* “Activation unsuccessful” keeps appearing
+* Same issue with FaceTime
+* The popup comes back after reboot, updates, or randomly
+
+What I already tried:
+
+* deleted/reinstalled eSIM
+* reset network settings
+* signed out/in Apple ID
+* disabled iMessage and FaceTime
+* checked date/time
+* added trusted number
+* carrier verification
+* full clean iOS reinstall with Apple Senior Advisor through screen sharing
+* waited 24h as requested by Apple
+
+Carrier says:
+
+* international SMS are enabled
+* no restrictions on their side
+* eSIM provisioning is correct
+
+Apple support:  
+I spent hours with multiple advisors and Senior Advisors. They initially told me that if the issue persisted after 24h, they would escalate the case to Apple Engineering and collect logs because it could be an iOS/backend activation issue.
+
+But now I’m stuck in a weird support loop:
+
+* they call me
+* ask for screen sharing
+* say “please wait a moment”
+* then the call disconnects
+* no callback afterwards
+
+This already happened twice.
+
+At this point I genuinely don’t know:
+
+* if this is an Apple activation server issue
+* an eSIM provisioning/IMS issue
+* or some weird iMessage registration corruption tied to my number
+
+Has anyone here experienced:
+
+* spinning wheel forever next to the phone number?
+* repeated activation SMS charges?
+* iMessage/FaceTime activation loop after switching to eSIM?
+
+And most importantly:  
+does anyone know how to properly reach Apple Engineering escalation instead of restarting troubleshooting from zero every time?
+
+Any help would seriously be appreciated.",,title_and_body,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/applehelp/comments/1tjla3n/iphone_13_mini_esim_endless_imessagefacetime/
+B20-089,comfyui,Comfyui Manager help,"Hello guys im new in this world.
+
+I start the pod on runpod rtx 5090 template comfyui (Manager ) pytorch 2.4-3.11
+
+I start it and wait like 20mins.
+
+Jupyter lab is always ready comfy is installing ( Last log is 20 mins ago)
+
+I start jupyter and write bash run\_gpu.sh
+
+After a while it says : 
+
+/workspace/ComfyUI/venv/lib/python3.11/site-packages/torch/cuda/\_\_init\_\_.py:184: UserWarning: CUDA initialization: The NVIDIA driver on your system is too old (found version 12080). Please update your GPU driver by downloading and installing a new version from the URL: http://www.nvidia.com/Download/index.aspx Alternatively, go to: https://pytorch.org to install a PyTorch version that has been compiled with your version of the CUDA
+
+  rnavailable\_reason': None, 'capabilities': \['apply\_rope', 'apply\_rope1', 'dequantize\_nvfp4', 'dequantize\_per\_tensor\_fp8', 'quantize\_nvfp4', 'quantize\_per\_tensor\_fp8', 'scaled\_mm\_nvfp4'\]}
+
+Checkpoint files will always be loaded safely.
+
+Traceback (most recent call last):
+
+  File ""/workspace/ComfyUI/main.py"", line 183, in &lt;module&gt;
+
+import execution
+
+  File ""/workspace/ComfyUI/execution.py"", line 17, in &lt;module&gt;
+
+import comfy.model\_management
+
+  File ""/workspace/ComfyUI/comfy/model\_management.py"", line 259, in &lt;module&gt;
+
+total\_vram = get\_total\_memory(get\_torch\_device()) / (1024
+
+  File ""/workspace/ComfyUI/comfy/model\_management.py"", line 209, in get\_torch\_device
+
+return torch.
+
+RuntimeError: The NVIDIA driver on your system is too old (found version 12080). Please update your GPU driver by downloading and installing a new version from the URL: http://www.nvidia.com/Download/index.aspx Alternatively, go to: https://pytorch.org to install a PyTorch version that has been compiled with your versi",,title_and_body,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/comfyui/comments/1rj1tis/comfyui_manager_help/
+B20-090,applehelp,What if don't return loner phone,"I didn't have apple care+ and my phone stuck into the restart loop after I updated it 
+
+I took it to the apple center but they said they won't help as the phone had a dead pixel on screen as I dropped it so I got a third party repair 
+
+now the phone is completely ruined it has heating issue a bit broken again stuck on restart loop speaker and mic is dead and I took it to apple they took it to see if they can do something in warranty they did demand the full amount around 80k and gave me a loner phone to use while they see what they can do with it 
+
+now I wanna ask what I can do and what if I don't return that loner phone I am quite happy with it",,title_and_body,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/applehelp/comments/1r16dq1/what_if_dont_return_loner_phone/
+B20-091,applehelp,My iPhone 12 is ON but screen is black,"So yesterday i was watching and texting (Picture in picture) then my phone suddenly froze, i try to exit but to no avail, i was still hearing the playback audio and seeing the insert blink in the text box but screen touches were unresponsive so i locked the phone but when i tried to unlock it, it just wouldnt turn back on, the audio was still there, so i force restarted my phone (tap + vol, tap - vol, hold pow butt) and the phone restarted as it should, but screen was blank like the phone is completely dead, i couldnt even see that starting apple logo, touches work normally, audio is there, so i decided to force restart it again and again many times, until i saw [this](https://imgur.com/a/fS6AZGx) (the logo was perfectly fine at first so it cant be a hardware problem) i thought it could be a faulty software, so i bootup itunes and and installed the latest software update (iOS 27.0.1 (24A446)) nothing changed, so i decided to just hit restore, same thing again, installed an old software ver, same thing, its like compeletly stuck like this.
+
+If anyone experienced something and perhaps found a solution, Please Share!!!",,title_and_body,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/applehelp/comments/1wwm3pp/my_iphone_12_is_on_but_screen_is_black/
+B20-092,openclaw,Is v.2026.4.11 the first version in a while that did not break things?,"iI mean, the thing has constantly been breaking on me since 3.28, and this 4.11 update actually sorted lots of stuff, like telegram, while not breaking the rest of it, or i'm just jumping the gun? how's your lobser, after eating this last update?",,title_and_body,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/openclaw/comments/1sj9ich/is_v2026411_the_first_version_in_a_while_that_did/
+B20-093,applehelp,iPhone won’t update or fully reset no matter what I try,"I have an iPhone SE 2020 and it has a really weird problem and I don’t know what else to do.
+
+Whenever I try to reset the phone, it starts the reset process normally. The Apple logo appears with the loading bar below it, but the bar suddenly jumps really fast from around 20% to like 75% in less than a minute. After it finishes, the phone just boots back up like normal and literally nothing changed. All my files, apps, settings, everything is still there like the reset never happened.
+
+I also tried updating from iOS 26.2 to iOS 26.5 because of the security updates, visuals, and performance improvements. I already deleted a lot of apps and files so I have plenty of storage left, but every time I try to update it says:  
+“Software Update Failed”  
+“An error occurred downloading iOS 26.5. Try again later.”
+
+I already tried Restarting the phone, Trying the update multiple times, Resetting through the phone settings, tried updating/restoring using iTunes on PC but nothing works. The reset never actually resets the phone and the update always fails.
+
+Does anyone know what could be causing this or how to fix it?",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/applehelp/comments/1tkl2wp/iphone_wont_update_or_fully_reset_no_matter_what/
+B20-094,homeassistant,2026.4.3 Breaks my Unifi Protect USL motion,"Last night I upgraded to 2026.4.3 and noticed this morning my sensor was showing unavailable, went to protect and it's working there and it's still working in scrypted, so I removed my protect device in HA and added back in (same username and such that I use for scrypted) and it's still showing unavailable, so it seems that it must be 2026.4.3.  I haven't rolled back yet but wondering if anyone else noticed this.",,title_and_body,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/homeassistant/comments/1sp39uk/202643_breaks_my_unifi_protect_usl_motion/
+B20-095,Ubiquiti,Superlink Glassbreak sensor not picking up motion,"Just installed the glassbreak/motion sensor and both before and after updating to the latest firmware it won’t pick up any motion unless it is within 1-2ft directly in front of the sensor. I have the sensitivity at 100% and still no luck. I’m pretty sure I didn’t install it upside down, has anyone else experienced this or know of a fix?
+
+Ps: don’t come after me for the paint tan-line from my previous motion detector, I know it looks horrible 😂
+
+UPDATE: I have installed a second sensor and am having the same issue","[1:reply] God, UniFi’s motion and door sensors are freaking huge.
+[2:OP] Yea it is pretty massive.
+
+I don’t know why they insist on using cr123 batteries for their door sensors. I used to have Xfinity home sensors with button-cell batteries that were tiny and they lasted years…
+[3:reply] How high is it placed? Maybe it’s too high, and the dog/cat immunity is the problem.
+[4:reply] It's reading straight ahead. Even though the website shows that in theory it should because of the angle, you need to angle the thing itself.
+[5:reply] I own 2 of these and I can just tell you that the reason is because unfortunately it's an awful product and we've been alpha-tested on by Ubiquiti again.",title_body_comments,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/Ubiquiti/comments/1u36rdg/superlink_glassbreak_sensor_not_picking_up_motion/
+B20-096,applehelp,Randomly locked out of my iphone and its bad,"Hey all, I was scrolling on my iPhone 12 Pro Max when it had one of its usual crashes, but this time I got logged out of all my apps and could see features disappearing. About half my data is gone: saved Wi-Fi networks, passwords, saved email accounts, and passkeys.  
+I'm now locked out of my account until I get a password recovery email. Worse, I'm locked out of my college accounts because they use Microsoft Authenticator, which needs a passkey, and I have a test later today.
+
+What I've tried so far:
+
+Toggling Date &amp; Time settings  
+Updating the software  
+Restarting  
+Reset All Settings  
+Pretty much every fix I could find on forums
+
+I think it started after I updated to iOS 26 something (the version right before 26.7.1). Has anyone had something similar? Any help is appreciated!","[1:reply] Usual crashes? That’s not normal.
+
+Try doing a factory reset. If that doesn’t remedy the issue, you’ll need to make an appointment to get the device checked out. 
+
+To me, it sounds like a board level issue. Can it be repaired? Maybe. Is it worth it? Depends, as such repairs can…
+[2:reply] How much storage space did you have free prior to this? If you ran out, that can cause loss of data. 
+
+Alternatively you may have a hardware issue.
+[3:OP] Yes plenty, I have 200 GB left of space and have offload apps enabled
+[4:reply] Ah, that’s a good point.
+[5:OP] Dudes be miserable on this app bro 😭 I didint ask about how your phone is perfectly fine i asked for help",title_body_comments,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/applehelp/comments/1wuyr9t/randomly_locked_out_of_my_iphone_and_its_bad/
+B20-097,chrome,PS: Startpage.com vs Startupage (startupage.ge) : they're completely different things,"ok so this is kind of a niche thing but it's been bugging me and I figure I/chrome is the right place since it's basically a browser/search issue.
+
+I use Startpage.com as my default search engine in Chrome , it's the privacy-focused Google proxy thing, works great. But lately I keep seeing people in indie founder / SaaS communities mention ""Startupage"" and for the longest time I thought they were just misspelling Startupage. Like autocorrect gone wrong or something.
+
+Turns out they're talking about startupage.ge ,which is a completely different product. It's some kind of platform for Startupage founders where you can create profiles with verified revenue data, find co-founders, that sort of thing. Think like... IndiePage or TrustMRR but with more features apparently (leaderboards, investor matching, hiring). Not a search engine at all.
+
+The confusion hit me when I was trying to troubleshoot my Startupage search settings in Chrome (it kept reverting to Google after an update, anyone else get that?) and I googled ""Startupage chrome"" expecting to find search engine config help. Instead I got results for this founder platform and was so confused for a solid 5 minutes lol.
+
+I also noticed that if you type ""Startupage"" into the Chrome omnibox it sometimes suggests both depending on your browsing history, which doesn't help.
+
+So yeah, quick clarification for anyone else who's been confused:
+
+- **Startupage.com** = privacy search engine, Google results without tracking. You probably know this one.
+- **Startupage / startupage.ge** = startup founder platform with revenue verification, co-founders matching, etc. Totally different thing.
+
+Not affiliated with either, just wanted to save someone else the 5 minutes of confusion I went through.
+
+Also while I'm here , has anyone else had issues with customer search engines resetting in Chrome lately? I swear every major update my Startupage config gets wiped and I have to re-add it manually. Is there a way to lock it in that I'm missing?",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/chrome/comments/1s1c9vy/ps_startpagecom_vs_startupage_startupagege_theyre/
+B20-098,linux,Cachy OS vs Zorin OS (18) recommendations,"I used to run Nobara Gnome for a long time, but for some reason, after a certain update, the system was not detecting my second screen anymore and after a lot of troubleshooting and a lot of re-installations, I gave up and stayed on Windows for a while because I am pretty sure there were issues with my nvidia drivers as well.
+
+  
+Now, I want to go back to Linux and I am contemplating between Zorin and Cachy. I know that Cachy OS is much faster and more optimized for gaming, but I really like the stability and how Zorin OS 18 is looking. I don't really care about the latest and greatest stuff. I am currently having a clean install of Zorin and it is pretty clean and minimalist out of the box and I really like that. 
+
+  
+Preferably, I would like to optimize Zorin OS for gaming as much as possible, but I don't have the knowledge to do that, besides installing launchers and proton and steam. 
+
+I have a 3070 maxq laptop GPU.
+
+I will not go back to Nobara at the moment, since if I will have issues again with it, I might pop a nerve, or something. But I do think that Nobara is amazing and while it worked, I absolutely loved it. 
+
+Is it worth using Zorin and optimizing it. Could it reach within 5-10% performance difference of Cachy? If yes, where can I find guides to do it? I am not afraid to get into the trenches for configurations, but searching for guides myself can be complicated if I don't actively keep up with the Linux world.",,title_and_body,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/linux/comments/1opzel4/cachy_os_vs_zorin_os_18_recommendations/
+B20-099,unRAID,Expires in {0} error on trial license,"https://preview.redd.it/nkna1ya2re2g1.png?width=1913&amp;format=png&amp;auto=webp&amp;s=d17559d090da356d76ed7a273c08bf2d6961301f
+
+Hi team,  
+Before BF sale, I thought to take a trial license, hence I installed 7.2.0. Today I updated to 7.2.1 and I am getting above as message, **Expires in {0}.**
+
+Not sure, what does it mean, I had around 20+ days left for my trial.
+
+  
+Thank you me.",,title_and_body,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/unRAID/comments/1p228gw/expires_in_0_error_on_trial_license/
+B20-100,AndroidQuestions,The New Google / Play Policy Update: How do I ensure Google Doesn't Force an Update Now??,"Before you get on a bandwagon (read: bots spamming the comments) about updates being good:
+
+A) Having an update disable your phone entirely until you wake up late for work, check the time, and realize you have a new OS and it did a hard reboot requiring you cryptographically unlock the device to resume functions from before the reboot - including alarms - is *not okay*. I don't care what some screwball at Google thinks, it is *my device*.
+
+B) I can be fine with security updates. But forcefully updating to entirely redesigned operating systems where visually and functionally significant portions have been flipped upside down and turned inside out is *not okay*.
+
+So. Circa 2023, '24 I had a massive issue. I was on a perfectly stable version of my OEM's version of Android... 11 maybe? I had been on it for years, refusing updates for my own reason of: the next update OnePlus made was garbage as it merged with Colors OS and was far uglier than Oxygen OS. (Plenty of complaints, made my next phone be a different brand.)
+
+I had disabled automatic update checking in vanilla settings, in developer settings, the google play store settings, anywhere you could think of.
+
+The *only* solution I *invented* was to set my wifi to metered. (It wasn't even ever a suggestion in any English resources I found over the dozens of hours I spent troubleshooting why triple-checking all the settings still resulted in my factory reset phone updating as soon as 5 minutes of the screen being off.) I had been inspired to this solution because OnePlus blamed my mobile carrier and my mobile carrier blames OnePlus about the forced update. I knew it wasn't my mobile carrier.  The update happened with me doing these steps:
+
+1. Remove SIM
+2. Factory Reset.
+3. Go into all settings possible without any internet access to set them to what you need to try to prevent automatic updating.
+4. Connect to wifi for the first time. (SIM is still not inserted.)
+5. Leave phone unattended for 5 minutes.
+
+This meant it wasn't my mobile carrier. So it was OnePlus on its own or in coordination with Google (because Google needed to be pushing their Colors OS, it wasn't stock Android.)
+
+I found out that, at least, Google would respect mobile networks as being metered and not download multiple gigabytes of data on it. So I set my wifi connections to metered, and it stopped the multiple gigabytes of data being downloaded when I repeated the steps above, and behaved after adding the SIM back.
+
+So, here is why this is all so very concerning. The new play policy as has been notified via email and full details [here](https://play.google/intl/ALL_us/play-terms/index-update.html),.we have these quotes:
+
+Email:
+
+&gt;Third-Party Fees: We added language to clarify that you are responsible for any third-party fees you incur, including for installation and maintenance on your device of Content and Google Play.
+
+
+&gt;System Services: We added language explaining that Google’s system services (which provide services/updates on certified Android devices) may require a network connection and may use your cellular data.
+
+From the policy in full for July 29, 2026:
+
+&gt;Third-Party Fees. You are responsible for any access or data fees incurred from third parties (such as your Internet provider or mobile carrier) in connection with Content and Google Play, including any use, installation, viewing, and maintenance on your device of Content and Google Play. This includes fees for data usage that may occur in the background when you are not directly interacting with Content or your device.
+
+&gt;Updates. Google Play, related support libraries, or Content may need to be updated, for example, for bug fixes, enhanced functions, missing plug-ins and new versions (collectively, “Updates”). Such Updates may be necessary in order for you to use Google Play or to access, download, or use Content. By agreeing to these Terms and using Google Play, you agree to receive such Updates automatically. You may be able to manage Updates to certain Content via settings in Google Play. If it is determined, however, that the Update will fix a critical security vulnerability or critical operability issue related to the Content, or will prevent abuse, the Update may be completed irrespective of your Update settings in Google Play or your Device. If another app store attempts to update Content that was initially downloaded from Google Play, you may receive a warning or such updates may be prevented entirely.
+
+&gt;System Services. Google system services provide various services and updates on certified Android devices. They include key system services provided by Google, Google Play Store, Google Play services, and updates to the Android operating system. System services often require network connectivity and may use your cellular data. Some network communications may happen in the background, when you are not directly interacting with your device, including when the device’s screen is locked. You are responsible for any fees incurred from third parties (such as your mobile carrier) in connection with system services, including those described in the Learn about Google Play services page.
+
+All this spells out to me that Google won't give a damn about metered connections any more and happily blow me past my alloted data limits from my carrier or ISP.
+
+So *now* what can I do to prevent such a disaster?
+
+Maybe we can use firewall apps, hopefully compatible with existing VPN app - but I can do a generic app that imports wireguard or ovpn protocols - to block all google domains to stop update downloads?
+
+I'm stumped on any other way, besides getting a degoogled OS.","[1:reply] I don't see what phone you have, but it's worth a shot to see if it's supported by r/LineageOS if that's a road you want to go down. Otherwise try blacklisting everything and only whitelist what apps you actually need with NetGuard.
+
+(Depending on where you get your apps)
+
+[http…
+[2:reply] Made it through the first paragraph and just wanted to say. 
+
+It is your phone but it is their software which is why they do what they do.
+[3:OP] A decent idea  I think my flavor of Android has that innately, sort of, for disallowing apps to access mobile or wifi data. Worth evaluating NetGuard though. I already use their FairEmail client. Might be worth getting the pro version to log the traffic to verify what apps may e…
+[4:OP] Tell the class anyway. Sometimes reddit posts come up on search results. It might inspire a non-Samsung method all the same. (Besides, like I said, *all* possible settings on the OxygenOS 9 or whatever matched to Android 11 was insufficient.)
+
+And B) I take mild offense to the A…
+[5:reply] If you want to avoid the overslept or missed an important event due to the update scenario, you could disable all networking for a specific duration, say overnight, by forgetting your Wi-Fi and removing your SIM card/disabling your eSIM (without deleting it, because that creates…",title_body_comments,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/AndroidQuestions/comments/1uqdozm/the_new_google_play_policy_update_how_do_i_ensure/

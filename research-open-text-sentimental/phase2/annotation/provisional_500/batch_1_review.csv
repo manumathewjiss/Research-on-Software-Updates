@@ -1,0 +1,1021 @@
+﻿review_id,subreddit,title,post_body,discussion_context,text_availability,proposed_about_software,proposed_update_related,proposed_discussion_type,proposed_confidence,proposed_reason,decision,final_about_software,final_update_related,final_discussion_type,reviewer_note,reviewed_at,source_url
+B1-001,Android,6 big changes coming to your Pixel in next month's Android 16 QPR3 update,,"[1:reply] Let us remove the search bar at the bottom and see how many will ditch custom launchers :)
+[2:reply] Main 2 reasons I use a custom launcher are to ditch the search bar and make the effective resolution larger (i.e. make icons smaller and more micro adjustable on the screen).
+
+I just want to be able to have a home screen I like looking at, i.e. my current one
+ [Picture](https://…
+[3:reply] Big? These aren't big changes at all.
+[4:reply] Honestly, the ability to finally remove At a Glance alone makes this feel like a bigger upgrade than half of last year’s “major” Android updates.
+[5:reply] I'm on the beta for this and I like that they added flashlight brightness, but why do they need a ""Done"" button? Are there people out there dismissing the flashlight controls while keeping the light on? Why not just let me turn the light off by tapping the image instead of havin…",title_plus_comments,yes,yes,other,medium,The post discusses software without a clear repair request or chiefly negative opinion.,,,,,,,https://reddit.com/r/Android/comments/1qxdaoc/6_big_changes_coming_to_your_pixel_in_next_months/
+B1-002,applehelp,Messaging issues,"I have an iPhone 14 Pro and have not been able to send or receive iMessages or FaceTimes since the 26.2.1 update. I have tried signing out of my apple account and signing back in, restarting my phone, and I checked that all my message settings are how they’ve always been. Not quite sure what to do next.",,title_and_body,yes,yes,technical_troubleshooting,low,The text may describe a problem to diagnose; check whether its main purpose is troubleshooting.,,,,,,,https://reddit.com/r/applehelp/comments/1r17zak/messaging_issues/
+B1-003,LibreNMS,Update PHP Version,,,title_only,unclear,unclear,na,low,The saved text does not identify the software topic clearly enough.,,,,,,,https://reddit.com/r/LibreNMS/comments/1lsuvac/update_php_version/
+B1-004,transformers,Out of these two....which TF Prime Bumblebee figure is the better version,,"[1:reply] First Edition and it's not even close competition. It's SO much better.
+[2:reply] I preferred 1st edition for BB and then bought the PRiD mold as Hot Shot
+[3:reply] The…the … the left one? The first edition. I would think the image you posted would answer that question for you
+[4:reply] PRiD vehicon is better than the First Edition.
+
+Zero kibble. Designed by fucking wizards.
+[5:reply] Those shoulders suck BALLS though",title_plus_comments,no,no,na,medium,The saved post does not describe software.,,,,,,,https://reddit.com/r/transformers/comments/1otmljx/out_of_these_twowhich_tf_prime_bumblebee_figure/
+B1-005,Android,Here’s an update on our work to upgrade mobile Assistant devices to Gemini,,"[1:reply] &gt; Your feedback matters to us.
+
+Hmmm...
+
+&gt; This question is locked and replying has been disabled.
+[2:reply] I just want to know when my smart lights will work properly again. Trying to turn on ""bed light left"", which is a specifically named bulb that I have had and worked for years is now a comedy skit that generally ends up with so many unintended combinations of lights on that I jus…
+[3:reply] Time to go back to switches...
+[4:reply] Literally the following sentence:
+
+&gt;Feel free to drop any further suggestions [here](https://support.google.com/gemini/answer/13275746).
+[5:reply] Gemini sucks on my pixel",title_plus_comments,yes,yes,other,medium,The post discusses software without a clear repair request or chiefly negative opinion.,,,,,,,https://reddit.com/r/Android/comments/1pqs14w/heres_an_update_on_our_work_to_upgrade_mobile/
+B1-006,MicrosoftEdge,Edge turns on background image on new tabs page each time I start it up even if I turn the option off,,"[1:reply] This is happening to me too.
+[2:reply] Likewise. I’ve disabled this “feature” dozens of times. Apparently having a background image is imperative.
+[3:reply] https://preview.redd.it/fg5fbxg42lbg1.png?width=850&amp;format=png&amp;auto=webp&amp;s=e18c091833a6b1ba967e711c8a68693ba55de76f
+
+I had the same issue. This worked for me:
+
+In a new tab, go to the page settings &gt; edit background &gt; disable ""Change background daily"", then dis…
+[4:reply] Microsoft se tornou uma empresa tóxica. Lamento.",title_plus_comments,yes,no,technical_troubleshooting,low,The text may describe a problem to diagnose; check whether its main purpose is troubleshooting.,,,,,,,https://reddit.com/r/MicrosoftEdge/comments/1q4kplr/edge_turns_on_background_image_on_new_tabs_page/
+B1-007,kubernetes,AWS has kept limit of 110 pods per EC2,,"[1:reply] Actually 110 is the recommendation and default of kubernetes. AWS automatically changes the limit based on the instance size when using EKS.
+
+https://github.com/awslabs/amazon-eks-ami/blob/main/templates/shared/runtime/eni-max-pods.txt
+[2:reply] Like so many things, a lot less thought went into it than people might imagine.  The default behavior was/is to round up to a power of 2 and double it.
+
+110 is what passed tests cleanly on some archaic version of docker.  Round up to pow2 -&gt; 128, double it -&gt; 256 and that'…
+[3:reply] You can get around this with ip prefix delegation and get 110 pods even on the smallest instances.
+[4:reply] Not sure on the number but it's actually a bit flawed, there is actually an IP limit per node using the AWS-CNI specified here: [https://github.com/awslabs/amazon-eks-ami/blob/main/nodeadm/internal/kubelet/eni-max-pods.txt](https://github.com/awslabs/amazon-eks-ami/blob/main/nod…
+[5:reply] They don't actually change the maxPods, that's the number of IP's per node. maxPods remains at whatever is set for the NodeGroup, if the maxPods is higher than the IP's you can run into out of IP issues during pod scheduling where a pod will get scheduled to a node then it's not…",title_plus_comments,yes,no,other,medium,The post discusses software without a clear repair request or chiefly negative opinion.,,,,,,,https://reddit.com/r/kubernetes/comments/1nokw1u/aws_has_kept_limit_of_110_pods_per_ec2/
+B1-008,chrome,Chrome spiking CPU and freezing after last update,,,title_only,yes,yes,technical_troubleshooting,low,The text may describe a problem to diagnose; check whether its main purpose is troubleshooting.,,,,,,,https://reddit.com/r/chrome/comments/1n1lx3o/chrome_spiking_cpu_and_freezing_after_last_update/
+B1-009,Android,Hidden code reveals Samsung phones are in for a major wireless charging upgrade,,"[1:reply] So Qi2.2?
+
+Will they integrate MagSafe/magnetic alignment into the actual phone, rather than cases?
+[2:reply] Here, I save you the click: Mayor wireless charging upgrade are measly 10w.
+
+So it'll take 2h instead of 2h 15m to charge from 0 to 100.
+
+S24u was really the last (slightly) exiting launch, giving us 7 years of updates, an AR screen, flat display and a nice 5x 50mpix shooter.
+[3:reply] Magnets fuck up s-pen. Maybe they can improve it somehow.
+[4:reply] I mean that's also a \~66% upgrade so it's not nothing
+[5:reply] Aah yes, the wireless charging which most of the world doesn't use.",title_plus_comments,yes,yes,other,medium,The post discusses software without a clear repair request or chiefly negative opinion.,,,,,,,https://reddit.com/r/Android/comments/1pbhgz4/hidden_code_reveals_samsung_phones_are_in_for_a/
+B1-010,Ubiquiti,Cloned MAC Address - Multicast!?,"Hey team, I just upgraded to FTTH, put my modem into bridging mode, and my UCG Ultra isn't receiving PADO packets. Modem in normal mode connects fine. 
+
+I've been troubleshooting all afternoon, and the one thing left to do is to clone the MAC address on the SPF that connects to the fibre. My ISP said I shouldn't have to do this, but they also said some other misleading stuff on my call with them. 
+
+Anyways, I went to add the MAC address right from the bottom text on the physical SFP. 
+
+The address starts with 3F:E4, and apparently this is a multicast address which my UCG Ultra refuses to accept, stating: ""MAC Address should be unicast address""
+
+I imagine that the FTTH provider might have just randomized this address (ignoring the bit flip for uni vs multicast) not thinking that this might not work in some places. 
+
+  
+Is there a way to force my UCG to take this MAC address, even if just for testing?",,title_and_body,unclear,unclear,na,low,The saved text does not identify the software topic clearly enough.,,,,,,,https://reddit.com/r/Ubiquiti/comments/1s20w5n/cloned_mac_address_multicast/
+B1-011,Ubiquiti,Disconnects after OS update 5.0.16!,"Ugh! Here we go again. I believe this is due to a recent automated OS update. A rollback involves a factory reset and SSH access I'm not prepared to mess with. For now, I've disabled automatic updates. 🤬",,title_and_body,unclear,unclear,na,low,The saved text does not identify the software topic clearly enough.,,,,,,,https://reddit.com/r/Ubiquiti/comments/1s65hsu/disconnects_after_os_update_5016/
+B1-012,Android,One UI 8.5: Calculator app gets an update to v12.5.10.18.,,"[1:reply] https://preview.redd.it/d8q74hu0385g1.png?width=1080&amp;format=png&amp;auto=webp&amp;s=0a29c037f57b7bd8f964f44a25594a6f1c96ee6f
+
+Why even a basic calculator app is OS dependent for samsung devices. I don't get OS updates now on my phone, only security patches and Samsung doesn'…
+[2:reply] to force you to upgrade unfortunately 
+
+on the topic of that i missed the dedicated video app for Samsung. for some reason its ""made for older versions of android"" when i tried to download it
+[3:reply] BREAKING NEWS",title_plus_comments,yes,yes,other,medium,The post discusses software without a clear repair request or chiefly negative opinion.,,,,,,,https://reddit.com/r/Android/comments/1pe5qzj/one_ui_85_calculator_app_gets_an_update_to/
+B1-013,Bitcoin,Don't you just love and vague mysterious guys! lol,,"[1:reply] He hates Bitcoin. 
+
+He knows who created it. 
+
+He knows [the guy.](https://youtu.be/FohQN6hZWAo)
+
+#[100%](https://youtu.be/Ce_ib5qJQ2g)
+
+
+He knows he could make the price of bitcoin to go zero in a microsecond. 
+
+**He decides not to tell his name.**
+[2:reply] &gt;He decides not to tell his name.
+
+He has actually said his name multiple times. He says he knows that Satoshi Nakamoto is really Vladimir Putin. Here's a video of him saying it https://www.youtube.com/shorts/paLQdpIPxJ0
+[3:reply] If you knew that Pythagoras guy you wouldn't be messing with triangles ever again.
+[4:reply] This guy is a weird
+[5:reply] FUCKING ZERO",title_plus_comments,no,no,na,medium,The saved post does not describe software.,,,,,,,https://reddit.com/r/Bitcoin/comments/1s26awy/dont_you_just_love_and_vague_mysterious_guys_lol/
+B1-014,applehelp,Logitech MX mouse volume buttons delayed after Mac wakes from sleep (used to be instant),"Not sure if this is a macOS issue or Logitech issue.
+
+Yesterday:
+
+* When my Macbook wakes from sleep and I unlock it,
+* Pressing volume down on my Logitech MX mouse works instantly
+
+Now (after macOS update + restart):
+
+* After waking and unlocking,
+* First press on volume button does nothing
+* After a few seconds, pressing again works normally
+
+So it feels like there's a delay before the button mapping becomes active again.
+
+Notes:
+
+* Mouse itself is already connected and working (cursor moves immediately)
+* Only the custom button (volume) is delayed
+* Using Logi Options+
+* Mouse is from the MX series (e.g. MX Master / MX Anywhere)
+
+What I’ve already tried:
+
+* Reinstalled and Updated Logi Options+
+* Restarted Mac
+* Checked and re-enabled Accessibility + Input Monitoring permissions
+* Confirmed Logi Options+ is running in background / login items
+
+Has anyone else experienced this after a macOS update or found a fix?
+
+Would appreciate any insights 🙏",,title_and_body,yes,yes,technical_troubleshooting,medium,The post describes a concrete malfunction or asks how to diagnose or fix one.,,,,,,,https://reddit.com/r/applehelp/comments/1s8zrvp/logitech_mx_mouse_volume_buttons_delayed_after/
+B1-015,Bitcoin,Bitcoin obviously has bad advisors,,"[1:reply] The advisors are clearly selling.
+[2:OP] Clearly. They don’t get their assignment
+[3:reply] How low can you go
+[4:OP] Wanna find out?",title_plus_comments,no,no,na,low,The saved post does not describe software.,,,,,,,https://reddit.com/r/Bitcoin/comments/1p70hmg/bitcoin_obviously_has_bad_advisors/
+B1-016,Bitcoin,"I was about to reset an older phone, and there was still a tab open...",,"[1:OP] Don't have a timestamp on it, but it was the bear market, on the way down to 20k eventually. I bought in at 30k and saw it going way down.
+[2:reply] When was this?
+[3:reply] Those were the days.... 😮‍💨
+[4:OP] ... until someone post his inactive tab screenshots from 2014 ... or some Silk Road purchase history.
+
+I remember the OVER 9000 MEMES with Vegeta, but didn't buy in then, took another 200% increase before I bought in.
+[5:reply] Buy buy buy buy buy!",title_plus_comments,no,no,na,low,The saved post does not describe software.,,,,,,,https://reddit.com/r/Bitcoin/comments/1noj60v/i_was_about_to_reset_an_older_phone_and_there_was/
+B1-017,chrome,"What is wrong with it? Chrome crashed, the tabs disappeared, and the passwords aren't on my Chrome on my laptop anymore. Yet, they're still on Chrome on my mobile. So I extracted it as a CSV file, and there was nothing in it so I don't have access to my password on my laptop.",,"[1:reply] Thank you for your submission to /r/Chrome! We hope you'll find the help you need. Once you've found a solution to your issue, please comment ""**!solved**"" under this comment to mark the post as solved. Thanks!
+
+
+*I am a bot, and this action was performed automatically. Please […
+[2:reply] https://preview.redd.it/8ff6po3bkfrf1.png?width=64&amp;format=png&amp;auto=webp&amp;s=3eec8d81428f68a422e5c2636d0a235f60f0d549
+[3:OP] Huh?
+[4:reply] I understand
+[5:reply] https://preview.redd.it/07u5oaqxmfrf1.png?width=200&amp;format=png&amp;auto=webp&amp;s=fee55fcea84274873bc272d8361e9bbdf22dffb1",title_plus_comments,yes,no,technical_troubleshooting,medium,The post describes a concrete malfunction or asks how to diagnose or fix one.,,,,,,,https://reddit.com/r/chrome/comments/1nqqodm/what_is_wrong_with_it_chrome_crashed_the_tabs/
+B1-018,MicrosoftEdge,Google Sheets no instant updates in Edge—must refresh every time. Works in Brave/Comet.,"On Windows laptop, Google Sheets doesn't update instantly in Edge (normal/incognito); requires refresh. Fine in Brave/Perplexity Comet.
+
+Tried:
+
+* Disable graphics acceleration
+* Clear cache
+* Disable extensions
+* Incognito
+* Reset/reinstall Edge
+* SFC/DISM scans
+
+Fan spins loud on Edge start. No help. Profile corruption? How to fix without new user?
+
+Edge version: \[your version\]  
+Windows: Version 142.0.3595.80 (Official build) (64-bit)",,title_and_body,yes,yes,technical_troubleshooting,medium,The post describes a concrete malfunction or asks how to diagnose or fix one.,,,,,,,https://reddit.com/r/MicrosoftEdge/comments/1oz69nr/google_sheets_no_instant_updates_in_edgemust/
+B1-019,bun,AI overviews will never fail to amaze me,This isn't exactly Bun related but still...,"[1:reply] According to the first suggestion, something like ""bun tests""
+[2:reply] I prefer this post to yet another vibe coded AI wrapper post.
+[3:reply] I mean, the ai is correct.
+[4:reply] Bun rău ai ul ăsta 😂
+[5:reply] Okay, but what was your search query?",title_body_comments,unclear,unclear,na,low,The saved text does not identify the software topic clearly enough.,,,,,,,https://reddit.com/r/bun/comments/1n4bo7c/ai_overviews_will_never_fail_to_amaze_me/
+B1-020,PHP,PHP Ambassadors: Six Weeks In,Curious about the PHP Ambassador Program we started a few weeks ago? We posted a progress update on our blog today. Exciting things are happening and you can be a part of the movement!,"[1:reply] Seeing 1x Austin, TX conference makes me think...  if you could find a security nexus with PHP there's also security conferences, like [https://lascon.org/](https://lascon.org/) .
+
+There's also [https://en.wikipedia.org/wiki/Interop](https://en.wikipedia.org/wiki/Interop) .",title_body_comments,yes,yes,technical_troubleshooting,low,The text may describe a problem to diagnose; check whether its main purpose is troubleshooting.,,,,,,,https://reddit.com/r/PHP/comments/1vne7av/php_ambassadors_six_weeks_in/
+B1-021,vscode,What are the autocompletes with the wrench symbol by them from? And how do I turn them off?,"(note I am very new to code) at first I thought it was AI but I disabled all AI related extensions (by this I mean l uninstalled Copilot and intellicode which as far as I'm aware were the only AI extensions that were on my VScode) yet they are still popping up. I do not want whatever the little wrench thing is to be there anymore because they auto generate stuff that I do not need, understand or want. I made sure to update to the latest version of VScode and I am coding in Java. 
+
+also I should clarify I do not want auto complete turned off in entirety just the wrench suggestions. 
+
+https://preview.redd.it/6wper6u2rh6g1.png?width=468&amp;format=png&amp;auto=webp&amp;s=4332e78e8c76fe61a395e345e5fd99046d9c8a21
+
+Please ask me if there is any information that I can share or clarify that may help you solve my issue. Thank you.",,title_and_body,yes,yes,technical_troubleshooting,medium,The post describes a concrete malfunction or asks how to diagnose or fix one.,,,,,,,https://reddit.com/r/vscode/comments/1pjn56a/what_are_the_autocompletes_with_the_wrench_symbol/
+B1-022,transformers,“For Optimus Prime.”,,"[1:reply] Snow makes every photo better
+[2:reply] ""Optimus I got frostbite and lost my arm for you, if that's not the next prime devotion I don't know what is..""
+[3:reply] Looks realistic especially 1-2 slide
+[4:reply] Cool photos!  This guy is next on my “to get list”.   How is he?
+[5:OP] Thank you!!!",title_plus_comments,no,no,na,low,The saved post does not describe software.,,,,,,,https://reddit.com/r/transformers/comments/1qhj11g/for_optimus_prime/
+B1-023,immich,Updated to 1.10.6 and cannot see pictures anymore,"I recently updated Immich to 1.10.6 and followed the guide [here](https://docs.immich.app/install/truenas) on how to amend the datasets. As far as I can tell, I have migrated all data correctly. Old path was HDDs&gt;Applications&gt;immich. New path is HDDs&gt;immich.   
+However, I can not see my pictures in the webapp as the user anymore, but can see the storage space being utilized.","[1:reply] I recommend starting from scratch with the newest version of possible.
+You have a long way to go for the newest 2.0 release.
+Immich-go is good at importing,
+
+
+Edit: not familiar with Truenas - disregard this!
+[2:reply] He is on v2.0.1 (App Version in the screenshot)
+It's just a different version as a TrueNas app
+[3:reply] Official tutorial (https://docs.immich.app/install/truenas) recommends you to create two datasets: data and pgData. 
+
+I did the upgrade like this:  
+1. Create new dataset named data and apply Apps permission  
+2. do the rsync commands to copy the data  
+3. instead of creating pg…
+[4:reply] IAfter copying everything over, did you recusivly apply the permissions to every Dataset? If you do it before, the files and folders might not have the correct permissions.
+[5:reply] In the Guide it tells you to put them into one Dataset, you did put them into separate Datasets, which I do not know works flawlessly when it comes to permissions. They should be folders within a dataset not datasets within a dataset.",title_body_comments,yes,yes,technical_troubleshooting,low,The text may describe a problem to diagnose; check whether its main purpose is troubleshooting.,,,,,,,https://reddit.com/r/immich/comments/1o0vrgp/updated_to_1106_and_cannot_see_pictures_anymore/
+B1-024,Wordpress,Permalink rewrites stop working,,"[1:reply] It often is a theme conflict or rewrite rules in the database.
+
+Let me know if you need a new pair of eyes looking to it
+[2:reply] After you run flush\_rewrite\_rules(true), it should regenerate the .htaccess file. Once you do that, save a copy of the file. When permalinks stop working, take a look at the .htaccess file again and see if all its content is still the same. It's possible that something else is…
+[3:OP] thanks for the response!
+
+it's an nginx server, so there is no htaccess. any other thoughts on how to debug this?
+[4:OP] maybe i can take a snapshot of the rewrite rules in the database and see what they look like when they get overwritten?",title_plus_comments,unclear,unclear,na,low,The saved text does not identify the software topic clearly enough.,,,,,,,https://reddit.com/r/Wordpress/comments/1ns2nv7/permalink_rewrites_stop_working/
+B1-025,windows,"After 30 years, Microsoft is redesigning the Run dialog box on Windows 11 - now with an updated modern UI for the first time",,"[1:reply] Somehow it’s going to end up worse, right? Because it just works now, and we can’t have that?
+[2:reply] ""The Run- dialoge needs a Copilot plugin. This should of course work completely isolated from all other instances of Copilot. If it takes a good 8 - 10 seconds to open the Run dialoge as well, that would be great! ""  
+ \- Microsoft Management, probably
+[3:reply] Yes because AI
+[4:reply] At this point I feel like UI designers are just trying to hold on to their jobs with such pointless redesigns
+[5:reply] It doesn't need changing. Don't fix things that are not broken.
+
+What is wrong with the people at Microsoft.
+
+OMG, the design just lost all practicality and utility. A disaster.",title_plus_comments,yes,yes,technical_troubleshooting,low,The text may describe a problem to diagnose; check whether its main purpose is troubleshooting.,,,,,,,https://reddit.com/r/windows/comments/1petq95/after_30_years_microsoft_is_redesigning_the_run/
+B1-026,homelab,Pi-hole v6 broke Dashy’s built-in widget so I built my own API proxy to fix it,"Built a custom Flask API proxy to fix Pi-hole v6 compatibility with Dashy
+
+So Pi-hole v6 dropped and completely reworked their authentication system from a simple API token to session-based auth. Cool update but it instantly broke Dashy’s built-in Pi-hole widget since it was never updated to support the new flow. Instead of waiting around for a fix I decided to just build my own solution.
+
+I wrote a Python Flask proxy that sits between Dashy and Pi-hole. It handles the v6 session authentication, grabs the stats from the Pi-hole API, and serves them through a custom HTML widget that Dashy loads via iframe. 
+
+The proxy runs as a systemd service on my Ubuntu server so it starts automatically on boot and stays running in the background without any babysitting.
+
+Ran into one issue down the road where the proxy was creating a brand new authenticated session on every single Dashy refresh instead of reusing the existing one. Sessions were stacking up silently until Pi-hole hit its seat limit and started rejecting everything. 
+
+Fixed it by implementing session caching with a 270 second TTL so it only re-authenticates when the session actually expires, keeping exactly one active session at all times.
+
+Dashboard is back up and pulling live stats. Blocklist, queries, blocked percentage, active clients, all of it.
+
+Stack: Pi-hole v6, Python, Flask, HTML, systemd, Ubuntu Server, Dashy",,title_and_body,yes,yes,technical_troubleshooting,medium,The post describes a concrete malfunction or asks how to diagnose or fix one.,,,,,,,https://reddit.com/r/homelab/comments/1s8apbc/pihole_v6_broke_dashys_builtin_widget_so_i_built/
+B1-027,neovim,Is it possible to limit the vim.diagnostic.setqflist to current buffer?,\`:lua vim.diagnostic.setqflist()\` loads all diagnostics that my LSP:s has found into the qflist. How can I limit it to the current buffer?,"[1:reply] What you want is to show diagnostics in a location list. It is like a quick fix list but scoped to a buffer.
+[2:reply] `:h vim.diagnostic.setloclist()`
+[3:reply] You can use `:h vim.diagnostic.get()` and `:h vim.diagnostic.toqflist()` to do it.
+[4:reply] Help pages for:
+
+* [`cfilter-plugin`](https://neovim.io/doc/user/quickfix.html#cfilter-plugin) in _quickfix.txt_
+
+
+---
+
+^\`:\(h|help\)&amp;nbsp;&lt;query&gt;\`&amp;nbsp;| [^(about)](https://github.com/heraldofsolace/VimHelpBot) ^(|) [^(mistake?)](https://github.com/heraldofsolac…
+[5:reply] Please remember to update the post flair to `Need Help|Solved` when you got the answer you were looking for.
+
+*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/neovim) if you have any questions or…",title_body_comments,yes,no,technical_troubleshooting,low,The text may describe a problem to diagnose; check whether its main purpose is troubleshooting.,,,,,,,https://reddit.com/r/neovim/comments/1o15qph/is_it_possible_to_limit_the/
+B1-028,bluetooth,Weird Bluetooth issue after recent update,"Samsung S25 Ultra running Android 16. After recent update, my phone has developed a very annoying issue. When connected to any Bluetooth device, and after receiving or making a call (even declined calls), my phone will begin to continuously call itself over and over. This persists until I disconnect from Bluetooth. I can't interact with the phone app to discontent these calls, but my Bluetooth device immediately goes into ""call"" mode. Please help!",,title_and_body,yes,yes,technical_troubleshooting,medium,The post describes a concrete malfunction or asks how to diagnose or fix one.,,,,,,,https://reddit.com/r/bluetooth/comments/1uyg6ln/weird_bluetooth_issue_after_recent_update/
+B1-029,debian,"apt verification error from backports.debian.org, anyone else seeing this?","I use Debian backports for a couple of packages and for the past couple of days I've been seeing this error:
+
+```
+Get:4 http://deb.debian.org/debian trixie-backports InRelease [54.0 kB]
+Err:4 http://deb.debian.org/debian trixie-backports InRelease
+  Sub-process /usr/bin/sqv returned an error code (1), error message is: Verifying signature:            Message has been manipulated Verifying signature:            Message has been manipulated
+Fetched 101 kB in 0s (516 kB/s)
+All packages are up to date.    
+Warning: An error occurred during the signature verification. The repository is not updated and the previous index files will be used. OpenPGP signature verification failed: http://deb.debian.org/debian trixie-backports InRelease: Sub-process /usr/bin/sqv returned an error code (1), error message is: Verifying signature:            Message has been manipulated Verifying signature:            Message has been manipulated
+Warning: Failed to fetch http://deb.debian.org/debian/dists/trixie-backports/InRelease  Sub-process /usr/bin/sqv returned an error code (1), error message is: Verifying signature:            Message has been manipulated Verifying signature:            Message has been manipulated
+Warning: Some index files failed to download. They have been ignored, or old ones used instead.
+```
+
+The `Message has been manipulated` text is rather worrying and would seem to imply that the package cache may have been compromised.  If this is really an error others are seeing, this should be reported to the site maintainers but I want to be sure it isn't some issue at my end.
+
+FTR I updated this system to Trixie about six weeks ago and have been doing regular updates and installed some backport packages at that time and this error just cropped up this week.",,title_and_body,yes,yes,technical_troubleshooting,medium,The post describes a concrete malfunction or asks how to diagnose or fix one.,,,,,,,https://reddit.com/r/debian/comments/1s47idp/apt_verification_error_from_backportsdebianorg/
+B1-030,ios,iOS 26.1.0 Update Bug: Liquid Glass Toggle Not Working on iPhone 13,"After updating to iOS 26.1.0, the new ‘Liquid Glass’ option (Clear/tinted) isn’t toggling properly. Anyone else facing this issue on iPhone 13?",,title_and_body,yes,yes,technical_troubleshooting,low,The post describes a concrete malfunction or asks how to diagnose or fix one.,,,,,,,https://reddit.com/r/ios/comments/1oo06jx/ios_2610_update_bug_liquid_glass_toggle_not/
+B1-031,Android,Inside Nvidia's 10-year effort to make the Shield TV the most updated Android device ever,,"[1:reply] Now update the hardware instead of still charging $200 for ten year old tech. Love both of mine, but come on.
+[2:reply] Somehow more updsted than android TV and probably google tv despite  receiving an update once every year or so
+
+Pls someone make a successor to the shield. Same performance, but with a branch of ATV thst the devs care more about than google. Someone show why its better to run wi…
+[3:reply] Can't wait for the upcoming refresh!
+[4:reply] I said this exact thing 5 years ago.
+[5:reply] The Shield TV is the single best Android TV box I've ever used, but I would not buy one new because the hardware is very old and starting to show its age. I'd preorder one with a modern SoC and I *never* preorder things. Common Nvidia, throw the Switch 2 SoC in there and revive…",title_plus_comments,yes,yes,other,medium,The post discusses software without a clear repair request or chiefly negative opinion.,,,,,,,https://reddit.com/r/Android/comments/1qr5gs0/inside_nvidias_10year_effort_to_make_the_shield/
+B1-032,Bitcoin,Sometimes I don`t,,"[1:reply] Why would you buy dollars with Bitcoin?
+[2:reply] Having bitcoin this early, **is the profit**.
+
+There are people who, a decade ago, took profit at $650, and are still waiting to reenter bitcoin at $500 again. Don't be them a decade from now.
+[3:reply] Gem of a movie right there.
+[4:reply] Self hatred and masochism
+[5:reply] If someone pitched me the movie, I would have thought it was the most boring stupid movie ever.  However when you watch it, it just hits",title_plus_comments,no,no,na,low,The saved post does not describe software.,,,,,,,https://reddit.com/r/Bitcoin/comments/1qvh12n/sometimes_i_dont/
+B1-033,firefox,Revert visual update?,My Firefox just updated to some new visuals and they look terrible. The tab section is way too large and the bookmarks are also now is some egregiously large font. Just looks terrible all the way around. Any way to revert? Can't find anything in settings.,,title_and_body,yes,yes,general_dissatisfaction,low,The main message criticizes software without a clear request to diagnose or fix it.,,,,,,,https://reddit.com/r/firefox/comments/1pgsrcs/revert_visual_update/
+B1-034,Android,Google gives Pixel Tablet another two years of Android OS updates,,"[1:reply] Such awesome potential for such a lackluster device…
+[2:reply] thats good to hear. No idea why google didn't extend the update when they did it for the pixel 6 and 7 series.
+[3:reply] Which is more expensive (USED) that iPad M1 which is about 100% faster
+[4:reply] It's actually a good device, was just overpriced at release for what it was but the dock idea was great. 
+
+We are quick to bash Google so I applaud them for doing this, they used to be a very customer centric company and that has changed hugely but good to see gestures like this.
+[5:reply] It's a shame that Google didn't really try with their latest tablets. I think the only thing really missing was a higher refresh rate display and OLED and it would've been awesome. The way they did them though kind of seemed like they were ""parts bin"" devices made with whatever…",title_plus_comments,yes,yes,other,medium,The post discusses software without a clear repair request or chiefly negative opinion.,,,,,,,https://reddit.com/r/Android/comments/1qqid3e/google_gives_pixel_tablet_another_two_years_of/
+B1-035,sysadmin,Windows Server - Delete does not work in SnapIn,"Windows Server 2022 &amp; 2025
+
+Before I am deep diving into this shithole, I'd like to ask for hints.
+
+Pretty easy case: I've got objects in AD to delete. Opening SnapIn as Domain-Admin -&gt; right click on the object -&gt; delete. Nothing is happening. No confirmation, no error, just nothing happens.
+
+Having a forward lookup Zone to delete in DNS. Guess what? Same problem. Rightclick on the forward lookup zone-&gt;delete and nothing is happening again. No error, no confirmation, nothing.
+
+Edited the permission so EVERYBODY is able to delete this object - nope.
+
+SFC reports no errors. Even eventlog doesn't log anything related to this issue.
+
+So I installed a fresh Windows Server 2025, did the promotion to RID and PDC. Tried to delete the object and FLZ again. Still doesn't work. Exactly the same issue.
+
+Then tried it with powershell, same user, same rights - it works.
+
+The domain function level is 2016. I could upgrade it (would take time to check everything) but I doubt this is the problem.
+
+What is going on? Has anybody a clue?
+
+EDIT: Changing objects or creating new ones does work. Those freshly created objects (or FLZ) cannot be deleted by the snapin.
+
+EDIT2: I've got it!
+
+We have a GPO which is used to modify the behavior of the 'error message instrument' so when a shutdown is triggered per ACPI on a server, usually a message dialogue has to be confirmed to really shutdown the system.
+
+If a e.g. USV is triggering that and the system is waiting on that message to be clicked, then the system will be forcefully cut off of power.
+
+It seems to affect every yes/no dialogue on the system. Since 'No' is default on deletion the system never was able to succeed.
+
+This was a workaround about 6 years ago and now we aren't affected anymore. Disabling the GPO and deleting the registry key has solved this problem.
+
+The registry path is: \[HKLM\]\\SYSTEM\\CurrentControlSet\\Control\\Error Message Instrument\\EnableDefaultReply",,title_and_body,yes,yes,technical_troubleshooting,medium,The post describes a concrete malfunction or asks how to diagnose or fix one.,,,,,,,https://reddit.com/r/sysadmin/comments/1rlgq4n/windows_server_delete_does_not_work_in_snapin/
+B1-036,comfyui,Qwen edit images looking like this since updating Comfy,,"[1:OP] I've been using Qwen image edit (original) and 2509, Q4 with fp8 and 4 step LoRA using the basic Qwen workflows on my M3 Mac.
+
+It was working fine for weeks, but I just noticed that both workflows give me these noisy images. I didn't change anything other than updating ComfyUI t…
+[2:reply] The problem lies on the scheduler, you need to set it to simple
+[3:OP] It was already set to simple unfortunately.
+Here's one of the workflows that I'm using (this is the Tech Practice one specifically made for Mac):
+https://i.imgur.com/0I202dS.jpeg
+[4:reply] A piece of art, i love it",title_plus_comments,yes,yes,technical_troubleshooting,low,The text may describe a problem to diagnose; check whether its main purpose is troubleshooting.,,,,,,,https://reddit.com/r/comfyui/comments/1pe31s2/qwen_edit_images_looking_like_this_since_updating/
+B1-037,applehelp,iCloud photos and iCalendar not working. Access permits also disabled,"Hi everyone, so a few days ago i went to my photo gallery to find a pic of my work schedule that i took a few weeks ago, i couldn’t find it so i went to my calendar app to see if i wrote down my day off on it and noticed ALL of my calendars were gone and i had multiple ones. When i went back to photos i realized that out of the 30k+ photos i had i could only see about a couple hundred and for the majority of them were all shared on iMessage, another weird thing is that apps like social media or other apps that require camera and photo gallery access to choose or add photos it disabled the access and when i go to settings there’s no option to enable those.
+
+I’m thinking maybe because i haven’t updated the software  to iOS 26 (which i would prefer not to do it) for context i have an iPhone 14
+
+I took screenshots of everything im mentioning but when i was gonna upload them on this post there’s no photo gallery access and again, i can’t enable the access (UGH)
+
+Please please I need some advice what can i do????",,title_and_body,yes,yes,technical_troubleshooting,medium,The post describes a concrete malfunction or asks how to diagnose or fix one.,,,,,,,https://reddit.com/r/applehelp/comments/1r5ymmo/icloud_photos_and_icalendar_not_working_access/
+B1-038,Fedora,My system isn't updating:,"**Offline update failed**
+
+Update of 0 packages failed.
+
+Unable to download the files; the `cacheonly` option is enabled.
+
+**Open Discover** | **Repair system**  
+
+
+I'm prove ""Repair system"" but don't work  
+I'm on Fedora KDE 44","[1:reply] Ignore, i got this too, do `sudo dnf update --refresh` if unsure
+[2:OP] But now it won’t update those packages for me.  
+Is not a really problem for me.
+[3:reply] It sounds like you're looking for help. Please note that r/Fedora is not an official support channel for the Fedora Project.
+
+For best results, be sure to include all relevant details in your post, such as your Fedora edition, version, and hardware specs. You can edit your origi…",title_body_comments,yes,yes,technical_troubleshooting,low,The post describes a concrete malfunction or asks how to diagnose or fix one.,,,,,,,https://reddit.com/r/Fedora/comments/1wximvm/my_system_isnt_updating/
+B1-039,transformers,MTMTE Optimus Prime &amp; Megatron pics!,"Hey everyone! Here’s some shots from my latest review on the Studio Series MTMTE collection War for Cybertron game Optimus Prime and Megatron
+
+Some good paint app upgrades in this release, I feel like this is what they should have originally looked like!","[1:reply] how's optimus' arm? it still pop off with a slight breeze?
+[2:OP] Nope! Much more sturdy this go around
+[3:reply] I’m very much tempted to go for this mold of Optimus but I also don’t need another Optimus figure lol. These pictures aren’t helping
+[4:OP] Check out the review on my channel @thedisplaycasewithnate on YouTube
+[5:reply] Hate to egg you on but this optimus mold is genuinely amazing. One of the best figures to come out that year.",title_body_comments,yes,yes,other,low,The text does not clearly show a troubleshooting request or a mainly negative opinion.,,,,,,,https://reddit.com/r/transformers/comments/1nzjcnc/mtmte_optimus_prime_megatron_pics/
+B1-040,openssl,digital envelope routines error,"Hi all, hoping that someone can tell me what i'm doing wrong here.  Here's what i get when i try to perform the ""openssl pkcs12 -in"" command with my PFX:
+
+\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
+
+Error outputting keys and certificates
+
+202D0000:error:0308010C:digital envelope routines:inner\_evp\_generic\_fetch:unsupported:crypto\\evp\\evp\_fetch.c:373:Global default library context, Algorithm (RC2-40-CBC : 0), Properties ()
+
+\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
+
+For background, i'm trying to input a PFX file (a GoDaddy UCC cert that was exported from another Windows server) and output java keystore files.  This is for a document management system's indexer, for what it's worth.  This used to work just fine until i guess the version of OpenSSL that came packaged with the DMS app was updated for whatever this refers to?
+
+  
+[https://stackoverflow.com/questions/69692842/error-message-error0308010cdigital-envelope-routinesunsupported](https://stackoverflow.com/questions/69692842/error-message-error0308010cdigital-envelope-routinesunsupported)
+
+  
+GoDaddy support was useless.  The vendor appears to be giving me generic advice (""try a rekey"" which i did and still got the same error above) but i really have no idea how to get past this.  I could probably hunt down an older install of the vendor's app and use that version of OpenSSL, but that would mean (i guess?) that i'm keeping things insecure.  I feel like there's something simple I'm missing and maybe my unfamiliarity with OpenSSL is keeping me from understanding it.  Any help is appreciated, thanks so much.","[1:reply] It's been long known that Java changes key store algorithms with versions, I think you can specify other algorithms on the command line but it's usually a good idea to create the key store not the version of Java you will be using it on.
+
+I'll have a look at it when I'm at my co…
+[2:reply] Can you try this;
+
+    openssl pkcs12 -in yourfile.pfx -legacy -out output.pem
+
+&gt; -legacy                Use legacy encryption: 3DES_CBC for keys, RC2_CBC for certs
+[3:OP] Hi, thanks for the reply.  I did eventually use the ""-legacy"" workaround but it only worked after setting up a full install of OpenSSL (instead of what i'm guessing was the 'lite' version that came with the vendor's app).  Here's what i did:
+
+openssl pkcs12 -in ""file.pfx"" -out ""…",title_body_comments,yes,yes,technical_troubleshooting,low,The post describes a concrete malfunction or asks how to diagnose or fix one.,,,,,,,https://reddit.com/r/openssl/comments/1ndnyud/digital_envelope_routines_error/
+B1-041,immich,problems with upload path after  update,,,title_only,unclear,unclear,na,low,The saved text does not identify the software topic clearly enough.,,,,,,,https://reddit.com/r/immich/comments/1mvg1mu/problems_with_upload_path_after_update/
+B1-042,MicrosoftEdge,My Edge randomly my search engine Yandex? I don't want to use yandex and didn't switch it myself,,"[1:reply] You installed an addon or program that is taking over your default search engine
+[2:reply] Then it looks like you accidentally installed some shit either from a dodgy download, dodger website or some other malware. Run malware bytes on your system
+[3:reply] Probably some extension is doing this
+[4:OP] weird! I didn't install any recently, I'll check it out, thanks.  
+maybe it was a vscode extension
+[5:reply] Adware or something did this",title_plus_comments,yes,no,technical_troubleshooting,low,The text may describe a problem to diagnose; check whether its main purpose is troubleshooting.,,,,,,,https://reddit.com/r/MicrosoftEdge/comments/1o2aon2/my_edge_randomly_my_search_engine_yandex_i_dont/
+B1-043,chrome,New Chrome update no longer allows scrolling through tabs. Are there any good solutions?,"As many have now discovered, this newest update to Chrome no longer allows you to scroll through your tabs, even saved tabs, beyond the size of your browser/screen. 
+
+Now the only way to do that is either expand the size of your browser window, manually click to the next tab, or use scroll through a drop-down tab at the top right of the browser window. 
+
+Previously, I recall there being an extension for this feature. Is it still available? Anyone found a workaround to this bizarre, backwards update?",,title_and_body,yes,yes,technical_troubleshooting,low,The text may describe a problem to diagnose; check whether its main purpose is troubleshooting.,,,,,,,https://reddit.com/r/chrome/comments/1qqi3e1/new_chrome_update_no_longer_allows_scrolling/
+B1-044,homeassistant,FCC Updates Covered List to Include Foreign-Made Consumer Routers,,"[1:reply] ""In December, the Federal Communications Commission banned all future drones made in foreign countries from being imported into the United States, unless or until their maker gets an exemption. Now, the FCC has done the exact same for consumer networking gear""
+
+It's not a ban, i…
+[2:reply] If you were to recreate the Great Firewall of China, this is a good first step.
+[3:reply] Put the backdoor we ask you to and get an exemption.
+[4:reply] &gt;Hoard equipment if you are in the USA, I think it will be tough getting things really soon.
+
+I totally get where you're coming from with this, but hoarding what you don't need is a massive contributor to shortages and price rise. Fear is more powerful than demand.
+[5:reply] You're frankly probably better off just getting a Wi-Fi 7 AP and building an OPNsense router.",title_plus_comments,yes,yes,other,low,The post discusses software without a clear repair request or chiefly negative opinion.,,,,,,,https://reddit.com/r/homeassistant/comments/1s2a2y7/fcc_updates_covered_list_to_include_foreignmade/
+B1-045,openclaw,Still using 2026.4.23,"I think maybe it is time to update, what do you think guys? Did you update openclaw to the newest version, which version are you using or recommending right now? Let's discuss.","[1:reply] Its much much quicker in versions 5.x onwards
+[2:reply] I did the update to 7.1-2 today. 
+
+I think they fixed a ton. It's running very smooth so far. It now tells you what is doing while it's doing it. That has become helpful for long tasks that Im not just sitting there wondering if it's working. Plus it's integrating with all the G…
+[3:reply] 2026.6.8 seems to be the consensus for the most recent stable. I would wait for 2026.7.2 and fully backup your openclaw folder and update to that.
+[4:reply] I’ve upgraded to May and it’s a little better, I still don’t trust the newer versions
+[5:reply] 2026.6.11 has been the most stable one. I tried to go to 7.1 for GPT 5.6 and it broke the installation.",title_body_comments,yes,yes,other,low,The post discusses software without a clear repair request or chiefly negative opinion.,,,,,,,https://reddit.com/r/openclaw/comments/1v2tzmg/still_using_2026423/
+B1-046,firefox,"Firefox Tab Groups with the same name - they should be merged, instead of creating a new group with the same name",,"[1:OP] I have started organizing my tabs with groups and I have quite a few groups now. I hadn't realized that I have created multiple groups with the same name, I assumed that if I already have the tab group and I write its name it would just add the tab to that group, rather than mak…
+[2:reply] That's not how it works, and I wouldn't want it to. Chromium browsers also let you re-use the same tab group name.
+[3:reply] I think this would be too opinionated for a widely used browser and having the flexibility of same-named things can be useful on occasion since it's usually best to leave this decision to the end user of the browser.
+Someday this could be a **option**, but I don't know if Mozill…",title_plus_comments,yes,no,technical_troubleshooting,low,The text may describe a problem to diagnose; check whether its main purpose is troubleshooting.,,,,,,,https://reddit.com/r/firefox/comments/1oubo0f/firefox_tab_groups_with_the_same_name_they_should/
+B1-047,opencode,Kimi K3: Provider rate limit exceeded,"It is working for anyone? I just wanted to test it out and i'm getting this error. 
+
+Already updated opencode cli to the latest version and also run ""opencode models --refresh""
+
+  
+This is the error i'm getting: 
+
+***Error from provider (Console Go): Provider rate limit exceeded \[retrying in 27s attempt #5\]***","[1:reply] Rate limits on day-one K3 providers are the other half of the sticker story. The useful check is tokens and tool steps per finished OpenCode task before the provider 429s, then compare the same jobs on Sol or Grok 4.5. Traces: https://tokentelemetry.com/docs/features/traces/",title_body_comments,yes,yes,technical_troubleshooting,medium,The post describes a concrete malfunction or asks how to diagnose or fix one.,,,,,,,https://reddit.com/r/opencode/comments/1uysn1k/kimi_k3_provider_rate_limit_exceeded/
+B1-048,Wordpress,"My website looks like this when I visit it. I don't know what it is, but it seems to have happened after it was indexed by Google, although I don't think it's related.",,"[1:reply] Website link?
+[2:reply] Will that ain't good
+[3:reply] Did you try to rule out cache or any minification/optimization plugin isn't causing it? If it's still the same even after ruling that out, then please do share a page URL to the site, so that we can have a better idea.
+
+Nithin - WPMU DEV Support team
+[4:reply] Probably a js error. Check via code inspector if there's a covering layout on top or the site just doesn't load.
+Also check console errors and debug.log
+[5:reply] The website link will be helpful in troubleshooting the issues. It could be caching issue, js issue or misconfiguration of your theme. Check the browser console for errors and missing loading files.",title_plus_comments,yes,no,technical_troubleshooting,low,The text may describe a problem to diagnose; check whether its main purpose is troubleshooting.,,,,,,,https://reddit.com/r/Wordpress/comments/1qp0b64/my_website_looks_like_this_when_i_visit_it_i_dont/
+B1-049,linux,"Bazzite Fall Update: Fedora 43, Xbox Allies, Legion Go 2, Nvidia GTX - Bazzite",,"[1:reply] Depending on your settings, it's either installed in the background and applied next time you restart or you update via a command (and it's also applied next time you restart).
+
+Due to how atomic distros work, it basically creates something like a ""new"" image of your system and…
+[2:reply] Question for those that use Bazzite: How are system updates like this handled? I avoid recommending Ubuntu and Ubuntu spinoffs (i know that Bazzite isn't Ubuntu based) to new users because of my own repeated experience with doing full system upgrades, generally resulting in just…
+[3:reply] It does avoid this pitfall since all updates are atomic. My experience over the last 2 major version changes has been seamless.
+[4:reply] It works incredibly well. The whole update is just one big image, then your local changes are layered on top and that's pretty much it. It's way simpler than updating all the packages of a traditional system.
+[5:OP] This image-based stuff is as reliable as iOS, Android or ChomeOS in my experience. And because it's so reliable and you have rollbacks as a plan B, you can also be more aggressive updating. The default is set to auto-update, so this morning I simply rebooted into Fedora 43 which…",title_plus_comments,yes,yes,other,medium,The post discusses software without a clear repair request or chiefly negative opinion.,,,,,,,https://reddit.com/r/linux/comments/1ojahew/bazzite_fall_update_fedora_43_xbox_allies_legion/
+B1-050,Ubuntu,Display lag in Ubuntu 26.04 when using motherboard display(tyan s8030) bmc.,"Im currently on Gnome 50, wayland after Ubuntu  26.04 upgrade. After upgrade I noticed that my screen feels so laggy. What can be done so screen will be usable?  Before I was on X11 in 24.04 their it was working smooth. It has gpus but I don't want to use gpus for display.",,title_and_body,yes,yes,other,medium,The post discusses software without a clear repair request or chiefly negative opinion.,,,,,,,https://reddit.com/r/Ubuntu/comments/1sv9xj6/display_lag_in_ubuntu_2604_when_using_motherboard/
+B1-051,transformers,HE CAN'T KEEP GETTING AWAY WITH THIS SCRAP!!!😭,,"[1:reply] Megatron is developing a signature move.
+[2:reply] This is becoming the Bane move of slamming someone on your knee. Now you just get Megatron'd as you're ripped in half
+[3:reply] Prime likes ripping faces and megs like ripping people in half, at least they have that in common lol
+[4:reply] Well, since Baymus Prime started the tradition of Oppy taking folks' faces, I guess Baygatron started the tradition of tearing folks in two.
+[5:reply] Sentinel Prime definitely deserved it but jazz and ESPECIALLY TRAILBREAKER HELL NAH",title_plus_comments,no,no,na,medium,The saved post does not describe software.,,,,,,,https://reddit.com/r/transformers/comments/1qhs7lf/he_cant_keep_getting_away_with_this_scrap/
+B1-052,neovim,Auto-updating Nvim,"I want to find out if there is a way to auto-update Neovim through wsl Ubuntu. I remember there was a way in doing it on my MacBook with iTerm2 and homebrew. Any help would be appreciated, I just want to know if there is a way to make sure I can keep it updated whenever there is a new version of nvim out",,title_and_body,yes,yes,technical_troubleshooting,low,The text may describe a problem to diagnose; check whether its main purpose is troubleshooting.,,,,,,,https://reddit.com/r/neovim/comments/1p61q5q/autoupdating_nvim/
+B1-053,firefox,"After latest update, I can’t manage my cache now",The only option is to clear it,"[1:reply] What can't you do with it now, that you were able to do before?
+[2:OP] There’s data and caches for certain sites I wanted to keep while others I wanna delete and get more space.
+[3:reply] It looks the same to me as it did before.
+[4:OP] Where’s the different place?",title_body_comments,yes,yes,technical_troubleshooting,low,The text may describe a problem to diagnose; check whether its main purpose is troubleshooting.,,,,,,,https://reddit.com/r/firefox/comments/1ujubtp/after_latest_update_i_cant_manage_my_cache_now/
+B1-054,linuxquestions,help with drivers,"after updating my hyprland cachy os system i realised it instyalled nvidia 595 drivers, it made my laptop unable to connect to my monitor, how can i downgrade to 590 and will i need to downgrade my kernel too? 
+
+my laptop runs on a i5 12450h (with integreated graphics), rtx 3050 4gb variant, 16gb ram, and my whole linux system runs from a usb since i need windows for certain games. 
+
+these are my previous updates btw if u guys need it to help me fix:
+
+❯ grep ""upgraded"" /var/log/pacman.log  | tail -150
+
+\[2026-03-17T16:51:28+0400\] \[ALPM\] upgraded groff (1.24.0-2.1 -&gt; 1.24.1-1.1)
+
+\[2026-03-17T16:51:29+0400\] \[ALPM\] upgraded gspell (1.14.2-1.1 -&gt; 1.14.3-1.1)
+
+\[2026-03-17T16:51:29+0400\] \[ALPM\] upgraded gst-plugin-pipewire (1:1.6.0-2.1 -&gt; 1:1.6.2-1.1)
+
+\[2026-03-17T16:51:29+0400\] \[ALPM\] upgraded gvfs-afc (1.58.2-1 -&gt; 1.58.3-1)
+
+\[2026-03-17T16:51:29+0400\] \[ALPM\] upgraded gvfs-dnssd (1.58.2-1 -&gt; 1.58.3-1)
+
+\[2026-03-17T16:51:29+0400\] \[ALPM\] upgraded gvfs-goa (1.58.2-1 -&gt; 1.58.3-1)
+
+\[2026-03-17T16:51:29+0400\] \[ALPM\] upgraded gvfs-google (1.58.2-1 -&gt; 1.58.3-1)
+
+\[2026-03-17T16:51:29+0400\] \[ALPM\] upgraded gvfs-gphoto2 (1.58.2-1 -&gt; 1.58.3-1)
+
+\[2026-03-17T16:51:29+0400\] \[ALPM\] upgraded gvfs-mtp (1.58.2-1 -&gt; 1.58.3-1)
+
+\[2026-03-17T16:51:29+0400\] \[ALPM\] upgraded gvfs-nfs (1.58.2-1 -&gt; 1.58.3-1)
+
+\[2026-03-17T16:51:30+0400\] \[ALPM\] upgraded gvfs-onedrive (1.58.2-1 -&gt; 1.58.3-1)
+
+\[2026-03-17T16:51:30+0400\] \[ALPM\] upgraded gvfs-smb (1.58.2-1 -&gt; 1.58.3-1)
+
+\[2026-03-17T16:51:30+0400\] \[ALPM\] upgraded gvfs-wsdd (1.58.2-1 -&gt; 1.58.3-1)
+
+\[2026-03-17T16:51:30+0400\] \[ALPM\] upgraded lib32-systemd (259.3-1 -&gt; 259.5-1)
+
+\[2026-03-17T16:51:34+0400\] \[ALPM\] upgraded lib32-llvm-libs (1:21.1.8-1 -&gt; 1:22.1.1-1)
+
+\[2026-03-17T16:51:34+0400\] \[ALPM\] upgraded lib32-libpciaccess (0.18.1-1 -&gt; 0.19-1)
+
+\[2026-03-17T16:51:34+0400\] \[ALPM\] upgraded lib32-e2fsprogs (1.47.3-2 -&gt; 1.47.4-1)
+
+\[2026-03-17T16:51:34+0400\] \[ALPM\] upgraded lib32-libldap (2.6.12-1 -&gt; 2.6.13-1)
+
+\[2026-03-17T16:51:34+0400\] \[ALPM\] upgraded lib32-curl (8.18.0-4 -&gt; 8.19.0-1)
+
+\[2026-03-17T16:51:37+0400\] \[ALPM\] upgraded lib32-mesa (2:26.0.1-3 -&gt; 2:26.0.2-3)
+
+\[2026-03-17T16:52:29+0400\] \[ALPM\] upgraded lib32-nvidia-utils (590.48.01-2 -&gt; 595.45.04-2)
+
+\[2026-03-17T16:52:30+0400\] \[ALPM\] upgraded hyprland (0.54.1-1.1 -&gt; 0.54.2-1.1)
+
+\[2026-03-17T16:52:36+0400\] \[ALPM\] upgraded imagemagick (7.1.2.15-1.1 -&gt; 7.1.2.17-1.1)
+
+\[2026-03-17T16:52:36+0400\] \[ALPM\] upgraded intel-media-driver (25.4.6-1.1 -&gt; 25.4.6-1.2)
+
+\[2026-03-17T16:52:36+0400\] \[ALPM\] upgraded iwd (3.11-2.1 -&gt; 3.12-1.1)
+
+\[2026-03-17T16:52:36+0400\] \[ALPM\] upgraded jemalloc (1:5.3.0-5.1 -&gt; 1:5.3.0-7.1)
+
+\[2026-03-17T16:52:37+0400\] \[ALPM\] upgraded kauth (6.23.0-1.1 -&gt; 6.24.0-1.1)
+
+\[2026-03-17T16:52:38+0400\] \[ALPM\] upgraded kconfigwidgets (6.23.0-1.1 -&gt; 6.24.0-1.1)
+
+\[2026-03-17T16:52:39+0400\] \[ALPM\] upgraded kirigami (6.23.1-1.1 -&gt; 6.24.0-1.1)
+
+\[2026-03-17T16:52:39+0400\] \[ALPM\] upgraded kglobalaccel (6.23.0-1.1 -&gt; 6.24.0-1.1)
+
+\[2026-03-17T16:52:39+0400\] \[ALPM\] upgraded kxmlgui (6.23.0-1.1 -&gt; 6.24.0-1.1)
+
+\[2026-03-17T16:52:42+0400\] \[ALPM\] upgraded kcmutils (6.23.0-1.1 -&gt; 6.24.0-1.1)
+
+\[2026-03-17T16:52:42+0400\] \[ALPM\] upgraded kdnssd (6.23.0-1.1 -&gt; 6.24.0-1.1)
+
+\[2026-03-17T16:52:42+0400\] \[ALPM\] upgraded kdsoap-ws-discovery-client (0.4.0-2.1 -&gt; 0.4.0-3.1)
+
+\[2026-03-17T16:52:42+0400\] \[ALPM\] upgraded kitemmodels (6.23.0-1.1 -&gt; 6.24.0-1.1)
+
+\[2026-03-17T16:52:42+0400\] \[ALPM\] upgraded kitty-terminfo (0.45.0-4.1 -&gt; 0.46.1-1.1)
+
+\[2026-03-17T16:52:42+0400\] \[ALPM\] upgraded kitty-shell-integration (0.45.0-4.1 -&gt; 0.46.1-1.1)
+
+\[2026-03-17T16:52:46+0400\] \[ALPM\] upgraded kitty (0.45.0-4.1 -&gt; 0.46.1-1.1)
+
+\[2026-03-17T16:52:47+0400\] \[ALPM\] upgraded kpackage (6.23.0-1.1 -&gt; 6.24.0-1.1)
+
+\[2026-03-17T16:52:47+0400\] \[ALPM\] upgraded syndication (6.23.0-1.1 -&gt; 6.24.0-1.1)
+
+\[2026-03-17T16:52:49+0400\] \[ALPM\] upgraded knewstuff (6.23.0-1.1 -&gt; 6.24.0-1.1)
+
+\[2026-03-17T16:52:50+0400\] \[ALPM\] upgraded kparts (6.23.0-1.1 -&gt; 6.24.0-1.1)
+
+\[2026-03-17T16:52:50+0400\] \[ALPM\] upgraded kstatusnotifieritem (6.23.0-1.1 -&gt; 6.24.0-1.1)
+
+m\[2026-03-17T16:52:50+0400\] \[ALPM\] upgraded ksvg (6.23.0-1.1 -&gt; 6.24.0-1.1)
+
+\[2026-03-17T16:52:50+0400\] \[ALPM\] upgraded sonnet (6.23.0-1.1 -&gt; 6.24.0-1.1)
+
+\[2026-03-17T16:52:50+0400\] \[ALPM\] upgraded ktextwidgets (6.23.0-1.1 -&gt; 6.24.0-1.1)
+
+\[2026-03-17T16:52:51+0400\] \[ALPM\] upgraded kuserfeedback (6.23.0-1.1 -&gt; 6.24.0-1.1)
+
+\[2026-03-17T16:52:51+0400\] \[ALPM\] upgraded lib32-libpipewire (1:1.6.0-2 -&gt; 1:1.6.2-1)
+
+\[2026-03-17T16:52:51+0400\] \[ALPM\] upgraded lib32-opencl-nvidia (590.48.01-2 -&gt; 595.45.04-2)
+
+\[2026-03-17T16:52:51+0400\] \[ALPM\] upgraded lib32-pipewire (1:1.6.0-2 -&gt; 1:1.6.2-1)
+
+\[2026-03-17T16:52:51+0400\] \[ALPM\] upgraded lib32-sqlite (3.51.2-1 -&gt; 3.52.0-1)
+
+\[2026-03-17T16:52:51+0400\] \[ALPM\] upgraded vulkan-mesa-implicit-layers (2:26.0.1-3 -&gt; 2:26.0.2-3)
+
+\[2026-03-17T16:52:51+0400\] \[ALPM\] upgraded lib32-vulkan-mesa-implicit-layers (2:26.0.1-3 -&gt; 2:26.0.2-3)
+
+\[2026-03-17T16:52:51+0400\] \[ALPM\] upgraded vulkan-intel (2:26.0.1-3 -&gt; 2:26.0.2-3)
+
+\[2026-03-17T16:52:59+0400\] \[ALPM\] upgraded lib32-vulkan-intel (2:26.0.1-3 -&gt; 2:26.0.2-3)
+
+\[2026-03-17T16:52:59+0400\] \[ALPM\] upgraded libphonenumber (1:9.0.25-1.1 -&gt; 1:9.0.26-1.1)
+
+\[2026-03-17T16:52:59+0400\] \[ALPM\] upgraded libsrtp (1:2.7.0-1.1 -&gt; 1:2.8.0-1)
+
+\[2026-03-17T16:52:59+0400\] \[ALPM\] upgraded liburcu (0.15.5-1.1 -&gt; 0.15.6-1.1)
+
+\[2026-03-17T16:52:59+0400\] \[ALPM\] upgraded libva-nvidia-driver (0.0.16-1.1 -&gt; 0.0.16-1.2)
+
+\[2026-03-17T16:52:59+0400\] \[AmLPM\] upgraded libxnvctrl (590.48.01-2 -&gt; 595.45.04-1)
+
+\[2026-03-17T16:53:49+0400\] \[ALPM\] upgraded linux-cachyos (6.19.6-2 -&gt; 6.19.7-1)
+
+\[2026-03-17T16:53:57+0400\] \[ALPM\] upgraded llvm (21.1.8-2 -&gt; 22.1.1-2)
+
+\[2026-03-17T16:53:57+0400\] \[ALPM\] upgraded lld (21.1.8-1.1 -&gt; 22.1.1-1.1)
+
+\[2026-03-17T16:54:58+0400\] \[ALPM\] upgraded linux-cachyos-headers (6.19.6-2 -&gt; 6.19.7-1)
+
+\[2026-03-17T16:55:50+0400\] \[ALPM\] upgraded linux-cachyos-lts (6.18.16-2 -&gt; 6.18.17-1)
+
+\[2026-03-17T16:56:16+0400\] \[ALPM\] upgraded linux-cachyos-lts-headers (6.18.16-2 -&gt; 6.18.17-1)
+
+\[2026-03-17T16:56:16+0400\] \[ALPM\] upgraded linux-cachyos-lts-nvidia-open (6.18.16-2 -&gt; 6.18.17-1)
+
+\[2026-03-17T16:56:17+0400\] \[ALPM\] upgraded linux-cachyos-nvidia-open (6.19.6-2 -&gt; 6.19.7-1)
+
+\[2026-03-17T16:56:17+0400\] \[ALPM\] upgraded linux-firmware-whence (1:20260221-1 -&gt; 1:20260309-1)
+
+\[2026-03-17T16:56:21+0400\] \[ALPM\] upgraded linux-firmware-amdgpu (1:20260221-1 -&gt; 1:20260309-1)
+
+\[2026-03-17T16:56:27+0400\] \[ALPM\] upgraded linux-firmware-atheros (1:20260221-1 -&gt; 1:20260309-1)
+
+\[2026-03-17T16:56:28+0400\] \[ALPM\] upgraded linux-firmware-broadcom (1:20260221-1 -&gt; 1:20260309-1)
+
+\[2026-03-17T16:56:33+0400\] \[ALPM\] upgraded linux-firmware-cirrus (1:20260221-1 -&gt; 1:20260309-1)
+
+\[2026-03-17T16:56:47+0400\] \[ALPM\] upgraded linux-firmware-intel (1:20260221-1 -&gt; 1:20260309-m1)
+
+\[2026-03-17T16:56:52+0400\] \[ALPM\] upgraded linux-firmware-mediatek (1:20260221-1 -&gt; 1:20260309-1)
+
+\[2026-03-17T16:57:08+0400\] \[ALPM\] upgraded linux-firmware-nvidia (1:20260221-1 -&gt; 1:20260309-1)
+
+\[2026-03-17T16:58:17+0400\] \[ALPM\] upgraded linux-firmware-other (1:20260221-1 -&gt; 1:20260309-1)
+
+\[2026-03-17T16:58:17+0400\] \[ALPM\] upgraded linux-firmware-radeon (1:20260221-1 -&gt; 1:20260309-1)
+
+\[2026-03-17T16:58:17+0400\] \[ALPM\] upgraded linux-firmware-realtek (1:20260221-1 -&gt; 1:20260309-1)
+
+\[2026-03-17T16:58:17+0400\] \[ALPM\] upgraded linux-firmware (1:20260221-1 -&gt; 1:20260309-1)
+
+\[2026-03-17T16:58:56+0400\] \[ALPM\] upgraded linux-headers (6.19.6.arch1-1 -&gt; 6.19.8.arch1-1)
+
+\[2026-03-17T16:59:42+0400\] \[ALPM\] upgraded linux-zen (6.19.6.zen1-1 -&gt; 6.19.8.zen1-1)
+
+\[2026-03-17T16:59:56+0400\] \[ALPM\] upgraded linux-zen-headers (6.19.6.zen1-1 -&gt; 6.19.8.zen1-1)
+
+\[2026-03-17T16:59:57+0400\] \[ALPM\] upgraded luajit (2.1.1767980792+707c12b-2.1 -&gt; 2.1.1772619647+659a616-1.1)
+
+\[2026-03-17T17:00:00+0400\] \[ALPM\] upgraded meson (1.10.1-1 -&gt; 1.10.2-1)
+
+\[2026-03-17T17:00:00+0400\] \[ALPM\] upgraded nfsidmap (2.8.5-2.1 -&gt; 2.8.7-1.1)
+
+\[2026-03-17T17:00:01+0400\] \[ALPM\] upgraded nfs-utils (2.8.5-2.1 -&gt; 2.8.7-1.1)
+
+\[2026-03-17T17:00:01+0400\] \[ALPM\] upgraded simdjson (1:4.3.1-1.1 -&gt; 1:4.4.0-1.1)
+
+\[2026-03-17T17:00:02+0400\] \[ALPM\] upgraded nodejs (25.6.1-2.1 -&gt; 25.7.0-2)
+
+\[2026-03-17T17:00:02+0400\] \[ALPM\] upgraded nodejs-nopt (8.0.0-1 -&gt; 8.1.0-1)
+
+\[2026-03-17T17:00:15+0400\] \[ALPM\] upgraded npm (11.11.0-1 -&gt; 11.11.1-1)
+
+\[2026-03-17T17:00:15+0400\] \[ALPM\] upgraded nvidia-settings (590.48.01-2 -&gt; 595.45.04-1)
+
+\[2026-03-17T17:00:16+0400\] \[ALPM\] upgraded obs-studio (32.0.4-1.1 -&gt; 32.1.0-1.1)
+
+\[2026-03-17T17:00:17+0400\] \[ALPM\] upgraded opencl-nvidia (590.48.01-6 -&gt; 595.45.04-2)
+
+\[2026-03-17T17:00:17+0400\] \[ALPM\] upgraded openexr (3.4.6-1.1 -&gt; 3.4.7-1.1)
+
+\[2026-03-17T17:00:17+0400\] \[ALPM\] upgraded pipewire-alsa (1:1.6.0-2.1 -&gt; 1:1.6.2-1.1)
+
+\[2026-03-17T17:00:17+0400\] \[ALPM\] upgraded python-dbus-fast (3.1.2-2.1 -&gt; 4.0.0-1.1)
+
+\[2026-03-17T17:00:17+0400\] \[ALPM\] upgraded python-bcc (0.36.1-1.1 -&gt; 0.36.1-2.1)
+
+\[2026-03-17T17:00:17+0400\] \[ALPM\] upgraded python-pyopenssl (25.3.0-2 -&gt; 26.0.0-1)
+
+\[2026-03-17T17:00:18+0400\] \[ALPM\] upgraded python-charset-normalizer (3.4.4-2.1 -&gt; 3.4.6-1.1)
+
+\[2026-03-17T17:00:18+0400\] \[ALPM\] upgraded python-certifi (2026.01.04-1 -&gt; 2026.02.25-1)
+
+\[2026-03-17T17:00:19+0400\] \[ALPM\] upgraded python-proton-vpn-api-core (4.15.2-1 -&gt; 4.16.0-1)
+
+m\[2026-03-17T17:00:19+0400\] \[ALPM\] upgraded proton-vpn-daemon (0.13.5-2 -&gt; 0.13.6-1)
+
+\[2026-03-17T17:00:22+0400\] \[ALPM\] upgraded proton-vpn-gtk-app (4.14.2-1 -&gt; 4.15.0-1)
+
+\[2026-03-17T17:00:24+0400\] \[ALPM\] upgraded purpose (6.23.0-1.1 -&gt; 6.24.0-1.1)
+
+\[2026-03-17T17:00:24+0400\] \[ALPM\] upgraded pv (1.10.3-1.1 -&gt; 1.10.4-1.1)
+
+\[2026-03-17T17:00:24+0400\] \[ALPM\] upgraded python-docutils (1:0.22.3-2 -&gt; 1:0.22.4-1)
+
+\[2026-03-17T17:00:24+0400\] \[ALPM\] upgraded python-python-discovery (1.1.1-1 -&gt; 1.1.3-1)
+
+\[2026-03-17T17:00:25+0400\] \[ALPM\] upgraded python-setuptools (1:82.0.0-1 -&gt; 1:82.0.1-1)
+
+\[2026-03-17T17:00:28+0400\] \[ALPM\] upgraded python-virtualenv (21.1.0-1 -&gt; 21.2.0-1)
+
+\[2026-03-17T17:00:28+0400\] \[ALPM\] upgraded qqc2-desktop-style (6.23.0-2.1 -&gt; 6.24.0-1.1)
+
+\[2026-03-17T17:00:28+0400\] \[ALPM\] upgraded qt5-tools (5.15.18+kde+r3-1.1 -&gt; 5.15.18+kde+r3-2.1)
+
+\[2026-03-17T17:00:29+0400\] \[ALPM\] upgraded scx-scheds (1.0.20-1 -&gt; 1.1.0-1)
+
+\[2026-03-17T17:00:29+0400\] \[ALPM\] upgraded scx-tools (1.0.20-1.1 -&gt; 1.1.0-1.1)
+
+\[2026-03-17T17:00:29+0400\] \[ALPM\] upgraded scx-manager (1.15.9-1 -&gt; 1.15.10-2)
+
+\[2026-03-17T17:00:29+0400\] \[ALPM\] upgraded swaylock-effects (1.7.0.0-4 -&gt; 1.8.1-1)
+
+\[2026-03-17T17:00:29+0400\] \[ALPM\] upgraded swaync (0.12.4-1.1 -&gt; 0.12.5-1.1)
+
+\[2026-03-17T17:00:31+0400\] \[ALPM\] upgraded syntax-highlighting (6.23.0-1.1 -&gt; 6.24.0-1.1)
+
+\[2026-03-17T17:00:31+0400\] \[ALPM\] upgraded systemd-resolvconf (259.3-1 -&gt; 259.5-1)
+
+\[2026-03-17T17:00:31+0400\] \[ALPM\] upgraded systemd-sysvcompat (259.3-1 -&gt; 259.5-1)
+
+\[2026-03-17T17:00:31+0400\] \[ALPM\] upgraded tree-sitter-lua (0.4.0-1.1 -&gt; 0.5.0-1.1)
+
+\[2026-03-17T17:00:31+0400\] \[ALPM\] upgraded tree-sitter-vim (0.7.0-1.1 -&gt; 0.8.1-1.1)
+
+\[2026-03-17T17:00:35+0400\] \[ALPM\] upgraded webkit2gtk (2.50.5-1 -&gt; 2.50.6-1)
+
+\[2026-03-17T17:00:46+0400\] \[ALPM\] upgraded webkit2gtk-4.1 (2.50.5-1 -&gt; 2.50.6-1)
+
+\[2026-03-17T17:00:49+0400\] \[ALPM\] upgraded zsh-completions (0.35.0-3 -&gt; 0.36.0-1)
+
+\[2026-03-18T17:52:10+0400\] \[ALPM\] upgraded icu (78.2-2.1 -&gt; 78.3-1.1)
+
+\[2026-03-18T17:52:10+0400\] \[ALPM\] upgraded bcc (0.36.1-2.1 -&gt; 0.36.1-3.1)
+
+\[2026-03-18T17:52:10+0400\] \[ALPM\] upgraded expat (2.7.4-1.1 -&gt; 2.7.5-1.1)
+
+\[2026-03-18T17:52:13+0400\] \[ALPM\] upgraded brltty (6.8-6.1 -&gt; 6.9-1.1)
+
+\[2026-03-18T17:52:22+0400\] \[ALPM\] upgraded cmake (4.2.3-1.1 -&gt; 4.3.0-1.1)
+
+\[2026-03-18T17:52:24+0400\] \[ALPM\] upgraded ffmpeg (2:8.0.1-7.1 -&gt; 2:8.1-1.1)
+
+\[2026-03-18T17:52:24+0400\] \[ALPM\] upgraded freerdp (2:3.23.0-1.1 -&gt; 2:3.24.0-1.1)
+
+\[2026-03-18T17:52:30+0400\] \[ALPM\] upgraded ghostscript (10.06.0-1.1 -&gt; 10.07.0-1.1)
+
+\[2026-03-18T17:52:30+0400\] \[ALPM\] upgraded lib32-expat (2.7.4-1 -&gt; 2.7.5-1)
+
+\[2026-03-18T17:53:25+0400\] \[ALPM\] upgraded lib32-icu (78.2-1 -&gt; 78.3-1)
+
+\[2026-03-18T17:53:25+0400\] \[ALPM\] upgraded libde265 (1.0.16-2.1 -&gt; 1.0.17-2.1)
+
+\[2026-03-18T17:53:25+0400\] \[ALPM\] upgraded localsend (1.17.0-3 -&gt; 1.17.0-4)
+
+\[2026-03-18T17:53:26+0400\] \[ALPM\] upgraded mullvad-vpn-daemon (2025.14-5.1 -&gt; 2026.1-1.1)
+
+\[2026-03-18T17:53:26+0400\] \[ALPM\] upgraded mullvad-vpn (2025.14-5.1 -&gt; 2026.1-1.1)
+
+\[2026-03-18T17:53:29+0400\] \[ALPM\] upgraded nodejs (25.7.0-2 -&gt; 25.8.1-2)
+
+\[2026-03-18T17:53:30+0400\] \[ALPM\] upgraded openexr (3.4.7-1.1 -&gt; 3.4.7-2.1)
+
+\[2026-03-18T17:53:35+0400\] \[ALPM\] upgraded orca (49.5-2 -&gt; 49.6-1)
+
+\[2026-03-18T17:53:36+0400\] \[ALPM\] upgraded python-bcc (0.36.1-2.1 -&gt; 0.36.1-3.1)
+
+\[2026-03-18T17:53:36+0400\] \[ALPM\] upgraded python-click (8.3.1-3 -&gt; 8.3.2-1)
+
+\[2026-03-18T17:53:36+0400\] \[ALPM\] upgraded python-filelock (3.24.0-1 -&gt; 3.25.2-1)
+
+\[2026-03-18T17:53:36+0400\] \[ALPM\] upgraded python-flask (3.1.2-2 -&gt; 3.1.3-1)
+
+\[2026-03-18T17:53:37+0400\] \[ALPM\] upgraded python-proton-vpn-local-agent (1.6.0-3.1 -&gt; 1.6.1-1.1)
+
+\[2026-03-18T17:53:38+0400\] \[ALPM\] upgraded zenity (4.2.1-1.1 -&gt; 4.2.2-1.1)
+
+\[2026-03-18T17:53:38+0400\] \[ALPM\] upgraded steam-devices (1.0.0.85-3.1 -&gt; 1.0.0.85-5)
+
+\[2026-03-18T17:53:41+0400\] \[ALPM\] upgraded steam (1.0.0.85-3.1 -&gt; 1.0.0.85-5)",,title_and_body,yes,yes,other,low,The text may be discussion rather than an active repair request; please check its main purpose.,,,,,,,https://reddit.com/r/linuxquestions/comments/1rx7d4e/help_with_drivers/
+B1-055,union,Top labor groups break with federal union's support of Republican measure to end shutdown,,"[1:reply] The Republican Party does. Not represent the working class. Period anyone in a labor union voting republican should be ashamed
+[2:reply] AS WELL THEY SHOULD!
+[3:reply] The GOP saying let us take away your healthcare or else we will take away your food is some crazy Nazi stuff for sure. UEW representing here. Fuck MAGA and their new era Nazi party bull man.
+[4:reply] The Republican don't represent the working class? Of course they don't, they are actively at war with us.
+[5:reply] Good! The AFGE has to know that, if the GOP won't agree to ACA subsidies being renewed, and the Trump admin continues its illegal firings and layoffs, former federal workers will be deciding if they want COBRA (for thousands of dollars) or ACA marketplace plans (for thousands of…",title_plus_comments,no,no,na,low,The saved post does not describe software.,,,,,,,https://reddit.com/r/union/comments/1ommfa8/top_labor_groups_break_with_federal_unions/
+B1-056,MicrosoftEdge,Most recent update added this intrusive toggle on my New Tab page. How can I get rid of it?,,"[1:reply] It should be in Page settings, not there. Do you use a latest version of stable build?
+[2:reply] [deleted]
+[3:reply] Your best solution is either don't care about it or using a custom new tab page like Bonjourr",title_plus_comments,yes,yes,technical_troubleshooting,low,The text may describe a problem to diagnose; check whether its main purpose is troubleshooting.,,,,,,,https://reddit.com/r/MicrosoftEdge/comments/1p3x3cx/most_recent_update_added_this_intrusive_toggle_on/
+B1-057,applehelp,AirPods Pro 2 won’t connect to my iPhone after updating to iOS 27 — Connection Failed,"Hi everyone,  
+I’m having a very strange issue with my AirPods Pro 2 since updating my iPhone to iOS 27.  
+As soon as I updated to iOS 27, my AirPods Pro 2 stopped connecting to my iPhone. Whenever I try to pair them, I get **“Connection Failed.”**  
+What’s strange is that the AirPods themselves seem to work perfectly fine with other devices:  
+They connect normally to an **iPhone 14 running iOS 26.7**.  
+They also connect normally to my **Mac running macOS 27**.  
+The only device where they refuse to connect is my **iPhone 17 pro Max running iOS 27**.  
+Another thing I noticed is that my AirPods Pro 2 are still running an older firmware version. I’ve tried everything I could think of to get the firmware to update.  
+I left them in the case, connected to power, near the iPhone 14 with Wi-Fi enabled, hoping the firmware would update automatically. I also tried connecting/charging them with a cable, but the firmware still hasn’t updated.  
+I’ve also already tried the usual troubleshooting steps, including resetting the AirPods and trying to pair them again, but I still get the same **“Connection Failed”** message.  
+So I’m wondering:  
+**Has anyone else experienced this exact issue with AirPods ?**  
+And if so, were you able to fix it or somehow get the AirPods firmware to update?
+
+I’d really like to know if anyone has found a solution.
+
+Thanks!",,title_and_body,yes,yes,technical_troubleshooting,medium,The post describes a concrete malfunction or asks how to diagnose or fix one.,,,,,,,https://reddit.com/r/applehelp/comments/1wsvjis/airpods_pro_2_wont_connect_to_my_iphone_after/
+B1-058,Ubiquiti,Unifi controller version is 4 years old.,I just noticed that a customers unifi controller version is 4 years old (version 7.1.66). Its installed on a windows VM. Is there any major risk in updating it to the latest versions? or what is the best update path to move to the latest version?,,title_and_body,yes,yes,other,medium,The post discusses software without a clear repair request or chiefly negative opinion.,,,,,,,https://reddit.com/r/Ubiquiti/comments/1tgnvxz/unifi_controller_version_is_4_years_old/
+B1-059,MicrosoftEdge,[Bug][Android] look at 3-Button navigation bar. Wonders of Edge on Android.,,"[1:OP] 144.0.3719.115 (Official build) (64-bit) 
+Android 11
+[2:reply] I had that and I use gestures without any bar. I sent a big report and it got fixed in a few days for me.
+[3:OP] I've sent bug report for it in the past.
+
+There's another issue, that I've been experiencing since for more than a year, that I've been reporting from the app itself for more than a year. After numerous updates, and version changes, the issue is still here despite me reporting i…",title_plus_comments,yes,no,other,low,The post discusses software without a clear repair request or chiefly negative opinion.,,,,,,,https://reddit.com/r/MicrosoftEdge/comments/1r66kb9/bugandroid_look_at_3button_navigation_bar_wonders/
+B1-060,chrome,New mysterious buttons - can they be disabled?,"Hi. I have updated to the latest version of Chrome (142.0.7444.171) and noticed new buttons as the title says: An ""AI mode"" and an Incognito button at the start, another (possibly still ""AI mode"") button while searching. Is there any way I can remove/disable these at least (one being with Flags)?",,title_and_body,yes,yes,technical_troubleshooting,low,The text may describe a problem to diagnose; check whether its main purpose is troubleshooting.,,,,,,,https://reddit.com/r/chrome/comments/1p1tdpg/new_mysterious_buttons_can_they_be_disabled/
+B1-061,chrome,Chrome Version 144.0.7559.97 (Official Build) (64-bit) Cache is now Storing in C:\Users\Administrator\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\sqldb0 All over now end of era,End of Era I use to Grab cache file and url and Date Created and Date modifed access date and use to paste that in Excel file but with this new update all over as can't use Nirsoft Chrome Cache view to extract Cache from Google Chrome latest version Version 144.0.7559.97 (Official Build) (64-bit).End of era .Now i won't be able to find that cache ever again and find that date and time and all and that video cache image which is generated for video 1st frame picture and all Feeling helpless now .Any help would be appreciated.If i roll back to previous version or use old computer then that extension setting all would be gone .didn't want to update chrome but it auto updates to this version need version 143 back.,,title_and_body,yes,yes,technical_troubleshooting,medium,The post describes a concrete malfunction or asks how to diagnose or fix one.,,,,,,,https://reddit.com/r/chrome/comments/1qkm4aw/chrome_version_1440755997_official_build_64bit/
+B1-062,applehelp,Apple malware notification after update,"I got this notification on my MacBook Air after the Mac Tahoe 26.5.2 update. Please tell me this is not an issue. My Mac put my ""blip"" app which I use for transferring files as well as my ""chat gbt"" app for some reason, marking it as malware","[1:reply] You need to update your ChatGPT app. 
+
+https://moonlock.com/macos-flagging-chatgpt-as-malware
+[2:reply] It’s there browser app nothing to worry about",title_body_comments,yes,yes,technical_troubleshooting,low,The text may describe a problem to diagnose; check whether its main purpose is troubleshooting.,,,,,,,https://reddit.com/r/applehelp/comments/1uuwgxm/apple_malware_notification_after_update/
+B1-063,firefox,Browser history searches in the new update are limited to displaying only 300 links. Is there a way to make it unlimited like it used to be?,"This is a very inconvenient change for me, I can't look up old stuff that I only sort of remember using a 1 or 2 word search with the results limited like this.","[1:reply] Yeah I downgraded back to 156.0.1
+[2:OP] Oh, I hope that's not the only option.
+[3:reply] On my end, I'm still seeing thousands of results, which quite a relief, as I didn't want THIS issue on top of all that are going on.",title_body_comments,yes,yes,technical_troubleshooting,low,The text may describe a problem to diagnose; check whether its main purpose is troubleshooting.,,,,,,,https://reddit.com/r/firefox/comments/1wuhlwy/browser_history_searches_in_the_new_update_are/
+B1-064,Android,OnePlus can now permanently destroy your phone with a software update - Louis Rossmann,,"[1:reply] Enthusiast brands eventually betray their customer base, they all do. Being the good guy has a shelf life. No use fighting this fact, just recognize when it happens and make the switch.
+[2:reply] Louis Rossmann’s is doing incomplete research again. Just like he did with Brother.
+
+There is a rollback mechanism, just not to vulnerable pre-.501 builds. Since this is the first post-fix update, it is currently the only rollback target. Over time, as OnePlus releases additiona…
+[3:reply] Remember when Samsung was the little guy fighting against Apple with the first Galaxy S?
+[4:reply] Ah, I miss the day of the LG G4 where you had to have your phone permanently destroyed by hardware.
+[5:reply] It's all cool, until they just remove bootloader unlock functionality from newer firmwares which affects the ability to root or install custom roms. 
+
+I don't have any issues if they don't do this. But it seems they are doing it with latest oxygenos and new phones, but i might b…",title_plus_comments,yes,yes,other,medium,The post discusses software without a clear repair request or chiefly negative opinion.,,,,,,,https://reddit.com/r/Android/comments/1qlmb9g/oneplus_can_now_permanently_destroy_your_phone/
+B1-065,windows,Anyone notice every windows update their computer gets quieter?,,,title_only,yes,yes,other,low,The post discusses software without a clear repair request or chiefly negative opinion.,,,,,,,https://reddit.com/r/windows/comments/1lw69kp/anyone_notice_every_windows_update_their_computer/
+B1-066,Bitcoin,What happened?,,"[1:reply] Not true, if you bought 1 year ago you are in the red -12%
+[2:reply] Trump and the threat of a World War. Everything is tumbling since he started his latest threats against Europe
+[3:reply] And down 7% if you bought last week.
+[4:reply] Discount
+[5:reply] A great classic 🤣",title_plus_comments,no,no,na,low,The saved post does not describe software.,,,,,,,https://reddit.com/r/Bitcoin/comments/1qi2gw3/what_happened/
+B1-067,Bitcoin,Never fails…,,"[1:reply] Its barely down lol
+[2:reply] It’s the yearly cycle. Just as the April/May crash that happens every year as well in stocks
+[3:reply] Buttcoiners lol
+[4:reply] Chill Guys, Trump is pro on Crypto. In fact will get bullish u never know.
+[5:reply] Everyone knows this ""war"" will last forever and Bitcoin will never break 90k again. This is fact. Everyone needs to sell. Bitcoin is officially dead. 😆",title_plus_comments,no,no,na,low,The saved post does not describe software.,,,,,,,https://reddit.com/r/Bitcoin/comments/1q2smca/never_fails/
+B1-068,linux,Samba shares are read-only on iPhone after updating to iOS18,,,title_only,yes,yes,other,low,The post discusses software without a clear repair request or chiefly negative opinion.,,,,,,,https://reddit.com/r/linux/comments/1kp1zj2/samba_shares_are_readonly_on_iphone_after/
+B1-069,Bitcoin,cant be more true,,"[1:reply] I'll keep selling so you guys can make some profits!
+[2:OP] your the man bro💪
+[3:reply] 😂
+[4:reply] See:
+
+The Costanza Principle: Better Decisions Through Your Inner Contrarian | Lifehacker https://share.google/ITNlAfv0KkfeQtMRX
+[5:reply] Buy on the big dips &amp; you will be rewarded. 20-25% declines.",title_plus_comments,no,no,na,low,The saved post does not describe software.,,,,,,,https://reddit.com/r/Bitcoin/comments/1otknz2/cant_be_more_true/
+B1-070,Nest,Upgraded from Nest Hello to Nest Doorbell 3rd gen,"First pic Nest Hello and second pic is the new 3rd gen.
+
+Pretty big rainstorm finally took out my nest hello.  Figured it was a good time to upgrade with the new one just coming out.  Just got it swapped.  The increased FOV is great but the picture quality leaves something to be desired.  Figured some people would want to see a side by side comparison.  Both shots were captured at the same time of day.  Don’t judge me decor haha, we are getting the house painted and everything is a mess.","[1:reply] Great comparison, thanks for sharing. How is zooming in between the two?
+[2:reply] The key is you can now see packages left outside the door. That's the reason I upgraded from the Hello to the Nest Wired 2nd gen. Huge difference, there. I'm very curious about 2nd gen to 3rd gen changes/improvements.
+[3:reply] With a dog like that you don't need security cameras.
+[4:reply] Resolution set to max? If so, oof…
+[5:reply] Wow... That dog is thicc!
+
+The FOV is interesting but the fisheye lens is a bit dramatic and distorts details.",title_body_comments,yes,yes,other,low,The post discusses software without a clear repair request or chiefly negative opinion.,,,,,,,https://reddit.com/r/Nest/comments/1nwaf2t/upgraded_from_nest_hello_to_nest_doorbell_3rd_gen/
+B1-071,Fedora,Minecraft Launcher Crash after Fedora Update,"Notes: sorry if my english its bad, english was not my first language.  
+  
+So it all start after i update my Fedora to latest version. And when i want to open minecraft launcher, instead of opening i see a notification saying ""Service Crash"". i already ask every AI that i know and nothing seems to be working, here if you need the log: [https://pastebin.com/9QPdD8gx](https://pastebin.com/9QPdD8gx)",,title_and_body,yes,yes,technical_troubleshooting,medium,The post describes a concrete malfunction or asks how to diagnose or fix one.,,,,,,,https://reddit.com/r/Fedora/comments/1s27vr6/minecraft_launcher_crash_after_fedora_update/
+B1-072,Wordpress,New link goes to an old page that doesn’t excist anymore,,"[1:reply] Go to Settings &gt; Permalinks and hit Save to flush the links. If that doesn’t work, check for a redirect in your plugins, .htaccess, or hosting panel. Also clear your cache. That usually fixes it.
+[2:reply] Is this on individual buttons and links? Edit the slug in the new page’s settings. That should fix it.
+
+You can also edit the page name slightly eg About to About us or something like that.
+
+Hope this helps
+[3:reply] I was wanted to suggest a 301 re-direct, but fear that might be too easy.
+
+What am I missing?",title_plus_comments,yes,no,technical_troubleshooting,low,The text may describe a problem to diagnose; check whether its main purpose is troubleshooting.,,,,,,,https://reddit.com/r/Wordpress/comments/1nnq16o/new_link_goes_to_an_old_page_that_doesnt_excist/
+B1-073,transformers,Update Flametoys Furai action Windblade and Arcee release info 07/26 $69 each,,"[1:reply] Pic 11 is a jumpscare
+[2:reply] Obligatory....
+
+
+""nice.'
+[3:reply] This is the eighth or ninth time the stock was completely depleted and they’ve had to make a new batch, although this batch is apparently pre-built and pre-painted.  Which is telling for how popular they are.
+[4:OP] Well they definitely wanted to surprise fans
+[5:reply] Was like “okay why is this NSFW”….then “…oooohhh. Yeah.”",title_plus_comments,no,no,na,medium,The saved post does not describe software.,,,,,,,https://reddit.com/r/transformers/comments/1r258fm/update_flametoys_furai_action_windblade_and_arcee/
+B1-074,windows,Refreshing the root of trust: industry collaboration on Secure Boot certificate updates,,"[1:reply] Hope this goes as smoothly as they claim in this publication. 
+
+Out of boredom I deployed the updated certificates manually on my laptop in late 2024 and while it worked as expected in the end, the procedure wasn't exactly trivial and the documentation was lacking (at the time).…
+[2:reply] It definitely will not
+[3:reply] How difficult was it to do it manually?  I have laptop from 2020 which Asus abandoned support within same year that it released it. Therefore i dont expect new bios update and dont know if the windows update will work fine without need of bios update?   I also wonder about older…",title_plus_comments,yes,yes,other,low,The post discusses software without a clear repair request or chiefly negative opinion.,,,,,,,https://reddit.com/r/windows/comments/1r16lhg/refreshing_the_root_of_trust_industry/
+B1-075,opencode,OpenCode's new tab-based UI makes multitasking so much easier,"I just updated to OpenCode v1.18, and the new Desktop v2 experience has been a pleasant surprise.
+
+The standout feature for me is the new tab-based interface. I can keep separate chats open for different tasks, switch between them without losing context, and rename tabs to stay organized. It feels much more natural, especially when juggling multiple projects or debugging different issues at the same time.
+
+I also noticed that the app feels faster to launch, the new onboarding is well done, and the overall UI looks much cleaner and more polished. It's nice that the team also included an option to switch back to the old layout during the transition if anyone prefers it.
+
+I've attached a couple of screenshots of the new interface.
+
+Has anyone else updated yet? What's your experience been like with the new tabs? Do you prefer this layout over the previous one? I'd love to hear what everyone thinks.","[1:reply] Not seeing any screenshots
+[2:reply] By the way has anyone figured out how to switch between plan and build mode on the new interface?
+[3:reply] You could test Openchamber, so far my favorite UI for open code
+
+[https://github.com/openchamber/openchamber]()
+[4:reply] Nice new update
+[5:reply] 1.18 is not V2.",title_body_comments,yes,yes,technical_troubleshooting,low,The text may describe a problem to diagnose; check whether its main purpose is troubleshooting.,,,,,,,https://reddit.com/r/opencode/comments/1ux7p8c/opencodes_new_tabbased_ui_makes_multitasking_so/
+B1-076,neovim,Issue with syntax highlighting on hover after updating to 0.11,,,title_only,yes,yes,technical_troubleshooting,low,The text may describe a problem to diagnose; check whether its main purpose is troubleshooting.,,,,,,,https://reddit.com/r/neovim/comments/1lfq29e/issue_with_syntax_highlighting_on_hover_after/
+B1-077,applehelp,All internet browsing is locked during downtime ONLY when a screen time passcode is added,"I recently upgraded to iOS 25.6.2 (from 24 - I was putting it off) on my iPhone 16, but now there are issues with screen time. After troubleshooting, it looks like all internet browsing - on Chrome, Safari, even opening articles on The Athletic - is blocked during downtime *only when I have a screen time passcode set*. It gives the message “You’ve reached your limit on www.nytimes.com,” for example. To be clear, I removed all app limits, have every app in “Always Allowed” (I normally put social media apps there, but removed them for testing purposes), don’t have content or privacy restrictions set, and have reset my phone. The only thing that allows me to browse during downtime is removing the passcode. Has anyone else dealt with this?",,title_and_body,yes,yes,technical_troubleshooting,low,The text may describe a problem to diagnose; check whether its main purpose is troubleshooting.,,,,,,,https://reddit.com/r/applehelp/comments/1utjmzb/all_internet_browsing_is_locked_during_downtime/
+B1-078,software,"Hitting ""Print"" now freezes Acrobat for 5 minutes straight and sometimes throws a memory error","I am at my wit's end with this software. Ever since the latest continuous update installed this week, simply hitting Ctrl+P or clicking the Print icon completely freezes the program. It just sits there with the little blue spinning circle for literally 3 to 5 minutes before the print dialog box finally decides to open. Sometimes it doesn't even make it that far and just crashes entirely with a random ""Reference memory could not be written"" error.
+
+I work in an office where we have to print out hundreds of hard copy shipping manifests and invoices every single day. This massive print delay is absolutely destroying our productivity. I've already tried updating all our network printer drivers, clearing the Windows print spooler, and running Adobe's built-in repair tool. Nothing makes a difference. Why is a multi-billion dollar company breaking the most basic, fundamental feature of a PDF reader actually printing a document? Has anyone found a workaround for this print lag?
+
+Edit: Surprise, surprise. After wasting hours troubleshooting network settings and printer drivers, the only actual fix was rolling the entire office back to the 2024 version. As soon as I forced the downgrade to the older 2024 build, the print menu started opening instantly again and the memory crashes vanished. I also managed to get a lifetime subscription key for that version with a cheap price, just google adobe keypunch to take a look if you're interested. It is incredibly depressing that we are paying premium subscription prices just to actively avoid Adobe's updates so our businesses can actually function. If your print menu is hanging, don't even bother troubleshooting. Just find the 2024 rollback and save yourself the nightmare.","[1:reply] Adobe reader or whatever they call it now is a pain to use. I switched to Firefox browser to open pdf files instantly. I’m sure there are some other decent alternatives out there too.
+[2:reply] SumatraPDF can open and print PDF files. Free &amp; portable.",title_body_comments,yes,yes,technical_troubleshooting,medium,The post describes a concrete malfunction or asks how to diagnose or fix one.,,,,,,,https://reddit.com/r/software/comments/1uoxgit/hitting_print_now_freezes_acrobat_for_5_minutes/
+B1-079,openclaw,Did your telegram also break after the update?,What did you do to fix that?,,title_and_body,yes,yes,technical_troubleshooting,low,The post describes a concrete malfunction or asks how to diagnose or fix one.,,,,,,,https://reddit.com/r/openclaw/comments/1s2zya4/did_your_telegram_also_break_after_the_update/
+B1-080,applehelp,Can’t access adult content on IOS 27. (Australia),Ok I am really freaked out. Today I went to access an adult website and got the screen that says the website is blocked. I tested this out on other sites right? I have looked through my settings and the toggle to limit adult content is turned on which I never turned on. AND I CANT TOGGLE IT ON. There is no family sharing parental controls from what I can see and nothing else. Everything was working fine yesterday I have no updated my phone. Does anyone know what the hell could possibly be going on?  Flicking the toggles off just immediately turns them back on WTF,"[1:OP] I am going to try updating to IOS 27 Beta 6 to see if that solves anything.
+[2:reply] I had placed this restriction to block myself from using Instagram but I was able to change it back 😭
+[3:OP] Yeah i’ve tampered around with screen time options for social media. But I turned that all off a year ago, this has just flicked itself on overnight and I can’t even turn it off 😭",title_body_comments,yes,yes,technical_troubleshooting,low,The text may describe a problem to diagnose; check whether its main purpose is troubleshooting.,,,,,,,https://reddit.com/r/applehelp/comments/1vua88y/cant_access_adult_content_on_ios_27_australia/
+B1-081,software,Are there any Spotify alternatives for desktop that can be themed or customized?,[removed],,title_and_body,yes,no,other,medium,The post discusses software without a clear repair request or chiefly negative opinion.,,,,,,,https://reddit.com/r/software/comments/1shy0ui/are_there_any_spotify_alternatives_for_desktop/
+B1-082,openclaw,3.28 broke fallback behavior and I had to go back to 3.24,Updated to 3.28 and when OpenAI rate limits kicked in it would just not work. Went back to 3.24 and it works without a problem.,,title_and_body,yes,yes,technical_troubleshooting,low,The text may describe a problem to diagnose; check whether its main purpose is troubleshooting.,,,,,,,https://reddit.com/r/openclaw/comments/1s8tohs/328_broke_fallback_behavior_and_i_had_to_go_back/
+B1-083,thrive,Thrive Progress Update 10/04/25,,"[1:reply] I'm so glad terrain is getting added. I was worried it would slip through the cracks before 1.0.0, and I think it is vital to helping this game reach new audiences. It is visually interesting, helps separate the patches, and adds a lot of strategy that wouldnt be in the game oth…
+[2:reply] Glad you're looking forward to it! The main reason it can be implemented now is because DevonHalstonDraedle last month and started providing the models.
+[3:reply] I guess we decided not to mention it in this one but complex organic molecules were discovered coming from Enceladus by a group of scientists looking through the data we received from Cassini
+[4:reply] Sick!!!",title_plus_comments,no,no,na,low,The saved post does not describe software.,,,,,,,https://reddit.com/r/thrive/comments/1nxx55q/thrive_progress_update_100425/
+B1-084,transformers,"Well, that's just Prime",,"[1:reply] Those shelves are Optimized for our viewing pleasure.
+[2:reply] I was gonna ask if that god ginrai was the mpg or the legends one but then I noticed it standing up straight without any pieces actively falling off and I knew it had to be mpg haha
+
+seriously though nice prime collection
+[3:reply] I think Optimus is your favorite, not sure tho
+[4:reply] Ooo that’s better than my “prime shrine” 
+
+Lovely collection
+[5:reply] Needs. More. Prime.",title_plus_comments,no,no,na,low,The saved post does not describe software.,,,,,,,https://reddit.com/r/transformers/comments/1ox8dcn/well_thats_just_prime/
+B1-085,neovim,Need help with diagnostic floating window,"vim.opt.updatetime = 300
+    
+    vim.diagnostic.config({
+      virtual_text = false,
+      float = {
+        max_width = 90,
+        wrap = true,
+        source = ""always"",
+        border = ""single"",
+      }
+    })
+    
+    vim.api.nvim_create_autocmd(""CursorHold"", {
+      desc = ""Show diagnostic message for line under cursor"",
+      group = vim.api.nvim_create_augroup(""lsp_diagnostic"", {clear = true}),
+      callback = function() 
+        vim.diagnostic.open_float(nil, {scope = ""line""})
+      end
+    })
+
+I'm trying to get a diagnostic window whenever my cursor is on the line with error. It works, but if I move forwards or backwards on this line, then the window closes and reopens.  
+Need help to make the window remain open as long as I'm on the error line and stop flickering on move.","[1:reply] It's not exactly what you asked, but tiny-inline-diagnostics might be another way to achieve what you're looking for:
+
+https://github.com/rachartier/tiny-inline-diagnostic.nvim
+[2:reply] This is a flaky solution because the only documented options for `:h vim.diagnostic.open_float()` are `:h vim.diagnostic.Opts.Float`. But, since it passes its `opts` to `:h vim.lsp.util.open_floating_preview()` (which it uses under the hood to show the floating window), you can…
+[3:reply] Help pages for:
+
+* [`vim.diagnostic.open_float()`](https://neovim.io/doc/user/diagnostic.html#vim.diagnostic.open_float%28%29) in _diagnostic.txt_
+* [`vim.diagnostic.Opts.Float`](https://neovim.io/doc/user/diagnostic.html#vim.diagnostic.Opts.Float) in _diagnostic.txt_
+* [`vim.ls…
+[4:OP] This seems feasible. Thanks!
+[5:OP] Seems interesting!",title_body_comments,yes,no,technical_troubleshooting,medium,The post describes a concrete malfunction or asks how to diagnose or fix one.,,,,,,,https://reddit.com/r/neovim/comments/1nxhm28/need_help_with_diagnostic_floating_window/
+B1-086,immich,Immich Stable iOS background updates,"Is it safe to assume that background tasks still don't work properly on iOS with the stable release of Immich? The lack of reliability with backing up images without the app open constantly on my iPhone was one of the main things holding me back from using Immich. I know this is a limitation on Apple's side, but still makes the app very hard to use.","[1:reply] Mine are very consistent on stable and ios 26. It often backs up my stuff very shortly after I take the photo.
+[2:reply] Make sure you allow ~~push notifications~~ Background app refresh for Immich.
+[3:reply] Is this documented anywhere? I didn't realize this.
+[4:reply] I am still having trouble with it but it seems that others may not be. At the moment, I can’t get background uploads to work at all.",title_body_comments,yes,yes,technical_troubleshooting,low,The text may describe a problem to diagnose; check whether its main purpose is troubleshooting.,,,,,,,https://reddit.com/r/immich/comments/1o0om20/immich_stable_ios_background_updates/
+B1-087,Android,Desktop mode arrives with the latest Android 16 QPR3 update,,"[1:reply] Wonder if it's still stuck at 1080p support? I'd love for 4K support to be added.
+[2:reply] Will try it when I get home. Hoping it has better display support.
+
+I've got a 1440p 21:9 display, and it looks blurry/fuzzy. Wasn't a good experience in previous betas.
+
+Update: nope still only goes to 1080p and only for 16:9 ratio too :(
+[3:reply] If only the new desktop mode was also included in AOSP (and therefore LineageOS)  
+:(
+[4:reply] Desktop mode has reached general availability with the release of Android 16 QPR3, so you no longer have to enable it in Developer Options!
+[5:reply] I mean to be fair it's not like 32:9 is the most common aspect ratio",title_plus_comments,yes,yes,other,medium,The post discusses software without a clear repair request or chiefly negative opinion.,,,,,,,https://reddit.com/r/Android/comments/1rjyz9q/desktop_mode_arrives_with_the_latest_android_16/
+B1-088,chrome,Suspicious Chrome App Notifications on iPhone,,"[1:reply] Thank you for your submission to /r/Chrome! We hope you'll find the help you need. Once you've found a solution to your issue, please comment ""**!solved**"" under this comment to mark the post as solved. Thanks!
+
+
+*I am a bot, and this action was performed automatically. Please […
+[2:reply] Maybe you should stop clicking ""allow"" on every popup you get without reading what you're allowing. 
+
+Not familiar with the exact path on iOS but go to site settings in Chrome and revoke notification access for the sites you don't want.
+[3:OP] Hi so I don’t use Chrome nor do I click allow on every popup. I don’t visit sites which even request popups. Let us heed our high horse there.
+
+The only reason I have the Chrome app installed is because my group of friends was messing around with the music function where you can…",title_plus_comments,yes,no,technical_troubleshooting,low,The text may describe a problem to diagnose; check whether its main purpose is troubleshooting.,,,,,,,https://reddit.com/r/chrome/comments/1nsp6at/suspicious_chrome_app_notifications_on_iphone/
+B1-089,applehelp,My magic mouse is not scrolling on my MacBook Air 2017,"I just bought a new magic mouse that's not scrolling. I've tried every suggestion I found online, updated to the latest version available (Monterey 12.7.6) and still nothing. Is the mouse faulty or is my MacBook simply too old?",,title_and_body,yes,yes,technical_troubleshooting,low,The text may describe a problem to diagnose; check whether its main purpose is troubleshooting.,,,,,,,https://reddit.com/r/applehelp/comments/1rm8sk4/my_magic_mouse_is_not_scrolling_on_my_macbook_air/
+B1-090,comfyui,FrontEndUpdate Error: CustomColorPalette Error - Help!,"After updating to ComfyUI frontend version: 1.32.9, I started getting a bunch of errors and now ComfyUI won't start.  I used the logs to disable some nodes and I am now left with this error in the image.  Comfy is just hanging now.  Thoughts?",,title_and_body,yes,yes,technical_troubleshooting,medium,The post describes a concrete malfunction or asks how to diagnose or fix one.,,,,,,,https://reddit.com/r/comfyui/comments/1p8wqlo/frontendupdate_error_customcolorpalette_error_help/
+B1-091,thrive,Petition to call this the Geology update,,"[1:reply] i hope we can get this along with environmental colors being changed by compounds, gonna make the environment feel a billion times more dynamic and real.
+[2:OP] Btw just to add on, I wouldn’t mind if they just reused these assets in land just scaled up.
+[3:reply] Unrelated but what's Thrive about? I just got randomly recommended this post
+[4:OP] Imagine SPORE, but incredibly more scientifically accurate. It’s still in development though, but the Cell stage is very cool.",title_plus_comments,no,no,na,low,The saved post does not describe software.,,,,,,,https://reddit.com/r/thrive/comments/1ofx26i/petition_to_call_this_the_geology_update/
+B1-092,applehelp,Late 2019 MBP keeps crashing,"I have a late 2019 16"" macbook pro that I'm running into a lot of problems with. 
+
+It has been randomly crashing for months. It doesn't seem to matter how memory intensive what I'm doing is. The laptop still has over 300 gb on the hard drive so it's not a space issue.
+
+It also is very inconsistent about whether it'll download any new updates. The last update would only install in safe mode and it keeps failing to install the newest update (Tahoe 26.4.1) at all. 
+
+I've used Clean My Mac, run all the disk utility things I can think of.
+
+Any other recommendations for getting it running regularly again or am I just at the end of my laptop's lifespan?",,title_and_body,yes,yes,technical_troubleshooting,medium,The post describes a concrete malfunction or asks how to diagnose or fix one.,,,,,,,https://reddit.com/r/applehelp/comments/1sqsv17/late_2019_mbp_keeps_crashing/
+B1-093,chrome,Chrome Profiles Disappeared After Updating to 140.0.7339.5,,,title_only,yes,yes,technical_troubleshooting,low,The text may describe a problem to diagnose; check whether its main purpose is troubleshooting.,,,,,,,https://reddit.com/r/chrome/comments/1mn8hug/chrome_profiles_disappeared_after_updating_to/
+B1-094,applehelp,Apple Music Playlist Search,"Ever since I updated to iOS 26, I can’t figure out how to search a playlist on Apple Music. You used to be able to scroll down a bit and a search bar would appear. Now I don’t see anything. Does anyone have any insight on this or where it’s hidden now?",,title_and_body,yes,yes,technical_troubleshooting,low,The text may describe a problem to diagnose; check whether its main purpose is troubleshooting.,,,,,,,https://reddit.com/r/applehelp/comments/1udhvx5/apple_music_playlist_search/
+B1-095,homeassistant,Z-Wave JS: Failed setup,"After an update my Zwave entities are no longer being provided by the Zwave\_JS integration. I am able to control them through the Zwave JS UI interface but the JS integration keeps failing to setup. 
+
+On a virtual machine  
+OS 18.0  
+2026.6.4  
+JS UI 11.19.1  
+JS 15.24.2
+
+Thoughts on troubleshooting?","[1:reply] Can't reach core-zwave-js on port 3000, so check if the Z-Wave JS addon is actually running and that the websocket URL in the integration config still points to the right address.
+[2:reply] I had a very similar thing happen - twice - both with Zwave issues from the June update. 
+
+I will not update until at least July, or maybe August. 
+
+Make sure you backup your entire setup. 
+
+Ask me how I know… 😕
+[3:reply] I had the same issue this after an update for both Z Wave and Zigbee. Do a full power cycle. Worked for me.
+[4:OP] Yes, it’s running and still pointing to the same place
+[5:OP] Yeah, happened once a couple weeks ago and that fixed it. I have been through multiple restarts and full power down cycles with no luck this time.",title_body_comments,yes,yes,technical_troubleshooting,medium,The post describes a concrete malfunction or asks how to diagnose or fix one.,,,,,,,https://reddit.com/r/homeassistant/comments/1ubci6u/zwave_js_failed_setup/
+B1-096,immich,Error since the latest update. Working well on Web version...,,"[1:reply] Try loging out and loging in to the app again
+[2:OP] *I am using Caddy for SSL and never got any problem before. The HTTPS web version is working well. 
+
+But all the pictures stay blurred on Android.
+[3:reply] I've had the same issue after I've upgraded to 2.5.5, I believe. After turning the option 'Prefer remote images' on, in the advanced settings, the issue disappeared.
+
+[https://i.imgur.com/eZ9RuTI.jpeg](https://i.imgur.com/eZ9RuTI.jpeg)
+[4:reply] If you have a self-signed cert, make sure it's trusted in the OS.
+[5:OP] Nope. The pictures are not loading.",title_plus_comments,yes,yes,technical_troubleshooting,medium,The post describes a concrete malfunction or asks how to diagnose or fix one.,,,,,,,https://reddit.com/r/immich/comments/1r2myps/error_since_the_latest_update_working_well_on_web/
+B1-097,applehelp,my ipad crashed and it's unresponsive,"while using it, it was overheating and lagging a bit, but mostly fine. the ipad then frozed and crashed to a black screen, still glowing, and a few moments later, the screen went completely black, no light emitted. i tried charging ( i cannot tell if it's charging, but i swear it's charging), i tried long pressing the home button, i tried long pressing the top power button, i tried long pressing both at the same time (both buttons do work before the crash). didn't work, so i tried apple devices and connect my ipad to my pc. according to the app, the app detected my ipad in dfu mode, telling me to restore before it can be used.  the check for updates option isn't available, nor the software of the ipad is available for restoration. apple devices is in its latest version and my ipad is apple ipad 7th gen. are there any other ways or am i doing something wrong?","[1:reply] Did you try rebooting the iPad once it cooled down?
+.
+[2:OP] i forgot to mention, it crashed a few hours before. i'm trying all the things i said right now, it's very cooled down.",title_body_comments,yes,yes,technical_troubleshooting,medium,The post describes a concrete malfunction or asks how to diagnose or fix one.,,,,,,,https://reddit.com/r/applehelp/comments/1wtbj10/my_ipad_crashed_and_its_unresponsive/
+B1-098,transformers,Action Edition TFO Optimus Prime is the best Blokees figure right now.,"Arise, Optimus Prime.","[1:reply] Nice. Looks amazing. Can’t wait for mine to arrive!
+[2:reply] I really hope they do Megatron too! So excited to get this and the future AE figures they do. 
+
+How does he compare to other TFOne Optimus offerings?
+[3:reply] I have the Action Edition Soundwave sitting here in a box waiting for after work. I did the Classic for Jetprime and Megatronus also. When I first saw these I complained to myself ""oh that's dumb, they don't even transform and they look like more of a 5 year old kit"". I'm so hap…
+[4:reply] Ah man. You utilized a lot more of the action features than I did. But then again, I only did mine over the course of an hour lol
+[5:reply] Great action poses, my dude 😎",title_body_comments,no,no,na,medium,The saved post does not describe software.,,,,,,,https://reddit.com/r/transformers/comments/1nwzkdu/action_edition_tfo_optimus_prime_is_the_best/
+B1-099,Bitcoin,Got to 0.1 !!,,"[1:reply] Nice one. 👍
+[2:reply] More and more people are hitting the .1 mark every day!
+
+Nice, op.
+[3:reply] So dope!
+[4:reply] Nice
+[5:reply] Nice.",title_plus_comments,no,no,na,low,The saved post does not describe software.,,,,,,,https://reddit.com/r/Bitcoin/comments/1pf2id0/got_to_01/
+B1-100,chrome,Google Meet became laggy after updating to macOS 26,,,title_only,yes,yes,technical_troubleshooting,low,The text may describe a problem to diagnose; check whether its main purpose is troubleshooting.,,,,,,,https://reddit.com/r/chrome/comments/1nk19uu/google_meet_became_laggy_after_updating_to_macos/

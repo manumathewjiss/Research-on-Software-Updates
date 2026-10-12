@@ -1,0 +1,66 @@
+{
+  "purpose": "Version reconciliation only; no model was rerun or test rescored",
+  "created_utc_date": "2026-10-08",
+  "original_reserved": {
+    "train_s2_n": 2084,
+    "train_sha256": "76a8a48b3d844968f4f52edc1f91cfc7b9d6c77c2740d9e28d656c1effe9a047",
+    "test_s2_n": 159,
+    "test_sha256": "e2023221e3e3acddbe5bf11df1a24674ad2c24cea9af9886e67535a0c8a1b5dd",
+    "test_support": {
+      "other_update_0": 24,
+      "troubleshooting_1": 135
+    },
+    "model_specification": {
+      "text_setting": "title_body",
+      "model": "tfidf_lr",
+      "C": 4.0,
+      "threshold": 0.5877137791150834
+    },
+    "macro_f1": 0.8626835204522258,
+    "other_update_f1": 0.7659574468085106,
+    "troubleshooting_f1": 0.959409594095941,
+    "confusion_matrix_labels_0_1": [
+      [
+        18,
+        6
+      ],
+      [
+        5,
+        130
+      ]
+    ],
+    "source_file": "phase3/experiment_v1/results/reserved_test_metrics.json"
+  },
+  "revised_fresh": {
+    "train_s2_n": 2080,
+    "train_sha256": "287995b6b8b529c145591108d9a77f88f1e515185d38810910066ffba21fa781",
+    "train_manifest_output_sha256": "287995b6b8b529c145591108d9a77f88f1e515185d38810910066ffba21fa781",
+    "test_s2_n": 344,
+    "test_sha256": "7f2f716746480c22f9d0c5bb4c5ca1130684bf36af1851cc5f79f739208c89b0",
+    "test_support": {
+      "other_update_0": 67,
+      "troubleshooting_1": 277
+    },
+    "model_specification": {
+      "text_setting": "title_body",
+      "model": "title_body TF-IDF logistic regression",
+      "C": 4.0,
+      "threshold": 0.5877137791150834
+    },
+    "macro_f1": 0.7915151515151515,
+    "other_update_f1": 0.6666666666666666,
+    "troubleshooting_f1": 0.9163636363636364,
+    "confusion_matrix_labels_0_1": [
+      [
+        46,
+        21
+      ],
+      [
+        25,
+        252
+      ]
+    ],
+    "source_file": "phase3/fresh_test_20261007/results_fixed_model/metrics.json"
+  },
+  "interpretation": "Same selected model specification and threshold, but different fitted training populations and different test populations. Difference in scores is descriptive, not a controlled estimate of transfer."
+}

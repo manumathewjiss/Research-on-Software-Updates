@@ -1,0 +1,265 @@
+
+
+===== PAGE 1 =====
+
+View Reviews
+Paper ID
+483
+Paper Title
+Distinguishing Technical Problem Solving and General Discontent in Reddit Software Update
+Discussions
+Track Name
+ICMLA 2026 Main Conference Track
+Reviewer #4
+Questions
+1. Originality & Novelty: Does the paper introduce new concepts, workﬂows, or
+architectural insights?
+Fair
+2. Technical Soundness: Is the methodology rigorous, valid, and free of major
+experimental or theoretical ﬂaws?
+Poor
+3. Signiﬁcance & Impact: Are the results meaningful to researchers or practitioners
+in this domain?
+Fair
+4. Clarity & Presentation: Is the paper well-organized, readable, and free of
+disruptive grammatical issues?
+Fair
+5. Overall Recommendation: Select your deﬁnitive recommendation for this
+submission.
+Weak Reject
+7. Main Contribution of the Paper. Please provide a brief summary detailing your
+understanding of the paper's core contributions, goals, and primary ﬁndings.
+When a new software update drops, Reddit gets ﬂooded with user posts. This feedback
+usually falls into two buckets:
+Technical Problem Solving (TPS): People reporting actual bugs, crashes, or asking
+for/sharing workarounds. (This is gold for developers).
+General Discontent (GDS): People just venting, complaining, or expressing fatigue without
+any actionable technical details. (This is mostly noise for developers).
+10/2/26, 8:22 PM Conference Management Toolkit - View review
+https://cmt3.research.microsoft.com/ICMLA2026/Submission/Reviews/483 1/7
+
+===== PAGE 2 =====
+
+Because these two types of posts are mixed together, dev teams struggle to monitor
+social media and ﬁnd real troubleshooting reports. This paper tries to automatically
+separate the two and look at how community emotions diﬀer when dealing with bugs
+versus general complaining.
+8. Strengths. Please list the strongest aspects of the submission.
+1. Practical Motivation: Distinguishing actionable technical bug reports from general
+emotional ranting on public forums is a high-value problem for release engineering and
+developer support workﬂows.
+2. Gold Label Correction: The authors demonstrate that heuristic API ﬁltering had a 24%
+error rate, justifying the need for manual curation of gold-standard labels.
+9. Weaknesses & Areas for Improvement. Detail the primary shortcomings of the
+work. Please be speciﬁc about the raised issues. Please number major points to
+help authors understand systematically.
+1. Dataset Scale & Imbalance: The dataset is very small (N=542, with only 86 TPS
+instances), limiting the statistical power of the ML/transformer evaluations.
+2. The abstract and introduction emphasize that TPS ﬁltering helps developer teams
+"more eﬃciently identify troubleshooting discussions" and "reduce manual eﬀort."
+However, as acknowledged in the limitations, there is no downstream evaluation. Without
+measuring developer utility or ranking quality, the practical claim remains unveriﬁed.
+10. Detailed Feedback for Authors. Provide constructive comments, minor
+corrections, typos, or suggestions for improvements.
+Section I (Introduction):
+Clear rationale. Figure 1 provides a good high-level conceptual overview.
+Section III-A (Corpus Construction):
+Need details on which subreddits and timeframes were sampled to build the 542 posts.
+Section III-C & IV-A (Classiﬁcation Benchmark):
+Table I should include fold-level standard deviations for all metrics (currently only provided
+for Macro-F1 and TPS-F1). Please report performance on Title Only for Naive Bayes,
+RoBERTa, and VADER to match the ablation ﬁndings in Table III.
+Section IV-B (Sentiment Divergence):
+Suggest running a qualitative manual audit of 30 high-divergence TPS threads vs 30 high-
+divergence GDS threads to inspect why the VADER score diﬀered (testing the lexical bug-
+word hypothesis raised in Major 3).
+Section V (Conclusion & Future Work):
+The honest acknowledgment of limitations regarding developer feedback is appreciated.
+Expanding this into a concrete user study design would strengthen future revisions.
+10/2/26, 8:22 PM Conference Management Toolkit - View review
+https://cmt3.research.microsoft.com/ICMLA2026/Submission/Reviews/483 2/7
+
+===== PAGE 3 =====
+
+Reviewer #7
+Questions
+1. Originality & Novelty: Does the paper introduce new concepts, workﬂows, or
+architectural insights?
+Very Good
+2. Technical Soundness: Is the methodology rigorous, valid, and free of major
+experimental or theoretical ﬂaws?
+Very Good
+3. Signiﬁcance & Impact: Are the results meaningful to researchers or practitioners
+in this domain?
+Very Good
+4. Clarity & Presentation: Is the paper well-organized, readable, and free of
+disruptive grammatical issues?
+Excellent
+5. Overall Recommendation: Select your deﬁnitive recommendation for this
+submission.
+Accept
+7. Main Contribution of the Paper. Please provide a brief summary detailing your
+understanding of the paper's core contributions, goals, and primary ﬁndings.
+The paper proposes a framework built to diﬀerentiate between technical user feedback,
+such as bug reports, installation failures, feature confusion, and performance drops, and
+messages containing general discontentment without technical details, denominated TPS
+(Technical Problem Solving) and GDS (General Discontent), respectively. The work aims to
+assist software development teams in ﬁltering the response to software updates for
+actionable information they can base future updates on through several classical machine
+learning techniques, like Naive Bayes and Logistic Regression, as well as NLP models
+such as RoBERTa-base and VADER. Its main contributions are the creation of the gold
+label dataset referring to the Reddit message threads, evaluation of classical ML,
+transformer, and rule-based classiﬁers for TPS/GDS detection, and the introduction of
+author-community sentiment trajectory
+and divergence analysis. Primary ﬁndings include that classiﬁcation can be eﬀectively
+learned using classical ML models and that TPS discussions show stronger author
+community sentiment divergence than GDS discussions.
+8. Strengths. Please list the strongest aspects of the submission.
+1. The authors deserve praise for evaluating a highly diverse tier of models. Including
+classical machine learning baselines like Naive Bayes and Logistic Regression alongside
+rule-based methods (VADER) and deep learning architectures (RoBERTa) provides
+10/2/26, 8:22 PM Conference Management Toolkit - View review
+https://cmt3.research.microsoft.com/ICMLA2026/Submission/Reviews/483 3/7
+
+===== PAGE 4 =====
+
+excellent context. This spectrum allows readers to clearly weigh the trade-oﬀs between
+computational eﬃciency and classiﬁcation accuracy, demonstrating that lighter, classical
+ML classiﬁers remain a viable, low-latency option for requirements engineering tasks
+before scaling up to resource-intensive Transformer models.
+2. The core task addressed in this paper, diﬀerentiating between actionable technical
+feedback (such as speciﬁc bug reports or feature requests) and general user
+discontentment, holds signiﬁcant, immediate value for the software industry. For small-to-
+medium development teams with limited resources, manually ﬁltering through thousands
+of unstructured social media or forum posts to extract high-value troubleshooting data is
+virtually impossible. By demonstrating how automated text pipelines can reliably separate
+raw emotional venting from actionable engineering insights, this research provides a
+highly practical blueprint. It enables resource-constrained teams to optimize their
+feedback triage pipelines and build data-driven development backlogs without the
+overhead of manual review.
+9. Weaknesses & Areas for Improvement. Detail the primary shortcomings of the
+work. Please be speciﬁc about the raised issues. Please number major points to
+help authors understand systematically.
+1. The "technical_ﬁrst" policy deployed for the VADER baseline introduces a signiﬁcant
+risk of class contamination, particularly given that the dataset is predominantly comprised
+of General Discontentment (GDS). Keywords such as "error," "crash," and "ﬁx" are highly
+polysemous in informal settings like Reddit (e.g., a user stating a UI change was a
+"massive error" or demanding developers "ﬁx the app"). Because any comment
+containing these keywords is automatically exempted from the GDS class, the baseline
+likely suﬀered from a high false-positive rate for technical indicators. This keyword over-
+saturation, combined with a very narrow neutral threshold (+/- 0.15), provides a clear
+architectural explanation for VADER's low relative performance compared to the
+supervised models. This is noted by the authors, but it does lead to a poor representation
+of what one of sentiment analysis' main tools could actually do in such a context.
+2. Labelling for the dataset used by the supervised classiﬁers is somewhat
+underexplained. It would be interesting to know what criteria was used to label the
+samples, considering it is implied actual software development teams were not contacted
+for this work.
+10. Detailed Feedback for Authors. Provide constructive comments, minor
+corrections, typos, or suggestions for improvements.
+1. It is said in the Methodology section that Figure 2 shows that "the main representation,
+text_raw, combines the post title, body, and up to ten highest-scored Reddit comments to
+preserve discussion context", but this cannot be understood by looking at picture 2. I
+would like Figure 2 to be a more detailed representation of the pipeline in general.
+10/2/26, 8:22 PM Conference Management Toolkit - View review
+https://cmt3.research.microsoft.com/ICMLA2026/Submission/Reviews/483 4/7
+
+===== PAGE 5 =====
+
+2. I was curious what API was used to collect the message threads used in the dataset.
+This, as well as how the dataset was manually labelled and by who, are details that would
+help with credibility and reproducibility.
+Reviewer #9
+Questions
+1. Originality & Novelty: Does the paper introduce new concepts, workﬂows, or
+architectural insights?
+Fair
+2. Technical Soundness: Is the methodology rigorous, valid, and free of major
+experimental or theoretical ﬂaws?
+Good
+3. Signiﬁcance & Impact: Are the results meaningful to researchers or practitioners
+in this domain?
+Fair
+4. Clarity & Presentation: Is the paper well-organized, readable, and free of
+disruptive grammatical issues?
+Good
+5. Overall Recommendation: Select your deﬁnitive recommendation for this
+submission.
+Weak Reject
+7. Main Contribution of the Paper. Please provide a brief summary detailing your
+understanding of the paper's core contributions, goals, and primary ﬁndings.
+This paper proposes a framework to distinguish Technical Problem Solving (TPS) from
+General Discontent (GDS) in Reddit software update discussions. The authors construct a
+labeled Reddit dataset (TPSGDS-542), evaluate multiple text classiﬁcation models for
+TPS/GDS classiﬁcation, and further analyze author-community sentiment divergence.
+Experimental results show that Multinomial Naive Bayes achieves the best balance in
+identifying the minority TPS class, and TPS discussions exhibit signiﬁcantly greater
+sentiment divergence than GDS discussions.
+8. Strengths. Please list the strongest aspects of the submission.
+1.The paper addresses a practical and relevant problem by analyzing software update
+discussions on Reddit, which has potential value for assisting developers in identifying
+troubleshooting-related posts.
+2.The paper is generally well organized and easy to follow, with the methodology and
+experimental procedures clearly described.
+10/2/26, 8:22 PM Conference Management Toolkit - View review
+https://cmt3.research.microsoft.com/ICMLA2026/Submission/Reviews/483 5/7
+
+===== PAGE 6 =====
+
+9. Weaknesses & Areas for Improvement. Detail the primary shortcomings of the
+work. Please be speciﬁc about the raised issues. Please number major points to
+help authors understand systematically.
+1.The proposed TPS/GDS formulation appears closely related to existing software
+discussion classiﬁcation literature. For example, prior work on "Mining Reddit as a New
+Source for Software Requirements" already distinguishes categories such as bug reports,
+feature requests, and other actionable user feedback. The paper does not suﬃciently
+explain why these existing categories are inadequate or why TPS/GDS constitutes a novel
+problem formulation rather than a relabeling or aggregation of existing classes. A more
+thorough comparison with prior work is necessary to establish the paper's novelty.
+2.The literature review is not suﬃciently comprehensive. Both the Introduction and
+Related Work make broad novelty claims (e.g., "Most studies..." and "Very limited
+work...") without adequately discussing the most closely related literature, particularly
+work on software discussion classiﬁcation, software requirements mining from Reddit,
+issue categorization, and bug report classiﬁcation. As a result, the novelty of the proposed
+TPS/GDS taxonomy is not convincingly established.
+3.The Related Work section is incomplete and does not suﬃciently cover the literature
+most closely related to the proposed problem. While it reviews general topics such as
+sentiment analysis, social media mining, and conversation analysis, it largely omits prior
+work on software discussion classiﬁcation, user feedback mining, bug report
+classiﬁcation, and Reddit/software forum analysis. As a result, the paper does not clearly
+position its contribution relative to the existing software engineering literature.
+4.The evaluation lacks comparisons with existing state-of-the-art or closely related
+approaches. The experiments only compare diﬀerent classiﬁers within the proposed
+framework (e.g., VADER, Naive Bayes, Logistic Regression, and RoBERTa), making it
+diﬃcult to assess the practical advantages of the proposed TPS/GDS framework over
+prior work. Including representative baselines from the related literature, or discussing
+why such comparisons are not feasible, would strengthen the experimental evaluation.
+10. Detailed Feedback for Authors. Provide constructive comments, minor
+corrections, typos, or suggestions for improvements.
+1.The presentation of Figure 1 could be improved. The branching arrows from the
+"TPS/GDS Classiﬁcation" block are visually awkward and somewhat distracting. A cleaner
+branching layout would make the workﬂow easier to follow.
+2.Figure 1 could be simpliﬁed by using only the abbreviations "TPS" and "GDS". The full
+terms, Technical Problem Solving and General Discontent, have already been deﬁned in
+the text.
+3.Figure 1 provides only a high-level overview of the workﬂow and contributes limited
+information beyond what can be concisely described in the text. Given the limited page
+budget of a conference paper, the authors may consider either enriching the ﬁgure with
+additional technical details (e.g., the sentiment divergence analysis or the complete
+10/2/26, 8:22 PM Conference Management Toolkit - View review
+https://cmt3.research.microsoft.com/ICMLA2026/Submission/Reviews/483 6/7
+
+===== PAGE 7 =====
+
+processing pipeline) or reducing its size to make more eﬃcient use of space.
+4.Figure 2 appears overly simplistic and provides limited technical insight beyond listing
+the major processing steps. The pipeline is presented as a sequence of boxes connected
+by arrows, making it resemble a project workﬂow rather than a technical framework. The
+authors may consider enriching the ﬁgure by grouping related stages, highlighting the key
+technical components or contributions, and illustrating the data ﬂow between stages. This
+would make the ﬁgure more informative and better justify the space it occupies.
+5.The reference to c1_prime_metrics.csv seems out of place. Unless the ﬁle is publicly
+released as part of the dataset or supplementary materials, a generic description would
+be more appropriate.
+10/2/26, 8:22 PM Conference Management Toolkit - View review
+https://cmt3.research.microsoft.com/ICMLA2026/Submission/Reviews/483 7/7

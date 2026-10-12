@@ -1,0 +1,289 @@
+{
+  "status": "development-only stress checks; fresh test not used for model choice",
+  "model": "fixed title_body TF-IDF logistic regression C=4 threshold=0.5877137791150834",
+  "development_sha256": "287995b6b8b529c145591108d9a77f88f1e515185d38810910066ffba21fa781",
+  "temporal_cutoff": "2026-07-01",
+  "temporal_train_n": 1629,
+  "temporal_test_n": 451,
+  "temporal_train_class_counts": {
+    "1": 1290,
+    "0": 339
+  },
+  "temporal_test_class_counts": {
+    "1": 396,
+    "0": 55
+  },
+  "temporal_test_metrics": {
+    "n": 451,
+    "support": {
+      "other_update_0": 55,
+      "troubleshooting_1": 396
+    },
+    "accuracy": 0.9024390243902439,
+    "balanced_accuracy": 0.7800505050505051,
+    "macro_f1": 0.7757233273056058,
+    "class_0_other_update": {
+      "precision": 0.5964912280701754,
+      "recall": 0.6181818181818182,
+      "f1": 0.6071428571428571
+    },
+    "class_1_troubleshooting": {
+      "precision": 0.9467005076142132,
+      "recall": 0.9419191919191919,
+      "f1": 0.9443037974683545
+    },
+    "confusion_matrix_labels_[0,1]": [
+      [
+        34,
+        21
+      ],
+      [
+        23,
+        373
+      ]
+    ],
+    "average_precision_troubleshooting": 0.9777066365759719,
+    "precision_at_10": 1.0,
+    "precision_at_20": 0.95
+  },
+  "temporal_test_source_counts": {
+    "oct5_query_tps": 390,
+    "oct5_query_gds": 61
+  },
+  "held_out_community_rule": "Each selected subreddit has at least five examples of each class in development; selection uses counts only",
+  "eligible_community_count": 18,
+  "eligible_community_names": [
+    "android",
+    "chrome",
+    "comfyui",
+    "fedora",
+    "firefox",
+    "homeassistant",
+    "ios",
+    "linux",
+    "linuxquestions",
+    "macos",
+    "microsoftedge",
+    "neovim",
+    "openclaw",
+    "software",
+    "sysadmin",
+    "ubiquiti",
+    "ubuntu",
+    "wordpress"
+  ],
+  "held_out_community_pooled_n": 1395,
+  "held_out_community_pooled_metrics": {
+    "n": 1395,
+    "support": {
+      "other_update_0": 297,
+      "troubleshooting_1": 1098
+    },
+    "accuracy": 0.8831541218637993,
+    "balanced_accuracy": 0.8398051553789259,
+    "macro_f1": 0.83040348583358,
+    "class_0_other_update": {
+      "precision": 0.709375,
+      "recall": 0.7643097643097643,
+      "f1": 0.7358184764991896
+    },
+    "class_1_troubleshooting": {
+      "precision": 0.9348837209302325,
+      "recall": 0.9153005464480874,
+      "f1": 0.9249884951679705
+    },
+    "confusion_matrix_labels_[0,1]": [
+      [
+        227,
+        70
+      ],
+      [
+        93,
+        1005
+      ]
+    ]
+  },
+  "per_community": {
+    "android": {
+      "n": 69,
+      "support": {
+        "other_update_0": 64,
+        "troubleshooting_1": 5
+      },
+      "macro_f1": 0.7027692307692308,
+      "other_f1": 0.944,
+      "troubleshooting_f1": 0.46153846153846156
+    },
+    "chrome": {
+      "n": 226,
+      "support": {
+        "other_update_0": 29,
+        "troubleshooting_1": 197
+      },
+      "macro_f1": 0.7514233954451346,
+      "other_f1": 0.5952380952380952,
+      "troubleshooting_f1": 0.907608695652174
+    },
+    "comfyui": {
+      "n": 130,
+      "support": {
+        "other_update_0": 17,
+        "troubleshooting_1": 113
+      },
+      "macro_f1": 0.8012232415902141,
+      "other_f1": 0.6666666666666666,
+      "troubleshooting_f1": 0.9357798165137615
+    },
+    "fedora": {
+      "n": 132,
+      "support": {
+        "other_update_0": 15,
+        "troubleshooting_1": 117
+      },
+      "macro_f1": 0.8787878787878788,
+      "other_f1": 0.7878787878787878,
+      "troubleshooting_f1": 0.9696969696969697
+    },
+    "firefox": {
+      "n": 99,
+      "support": {
+        "other_update_0": 14,
+        "troubleshooting_1": 85
+      },
+      "macro_f1": 0.8752100840336134,
+      "other_f1": 0.7857142857142857,
+      "troubleshooting_f1": 0.9647058823529412
+    },
+    "homeassistant": {
+      "n": 74,
+      "support": {
+        "other_update_0": 10,
+        "troubleshooting_1": 64
+      },
+      "macro_f1": 0.8490412076703386,
+      "other_f1": 0.7368421052631579,
+      "troubleshooting_f1": 0.9612403100775194
+    },
+    "ios": {
+      "n": 64,
+      "support": {
+        "other_update_0": 13,
+        "troubleshooting_1": 51
+      },
+      "macro_f1": 0.7414141414141414,
+      "other_f1": 0.5555555555555556,
+      "troubleshooting_f1": 0.9272727272727272
+    },
+    "linux": {
+      "n": 44,
+      "support": {
+        "other_update_0": 33,
+        "troubleshooting_1": 11
+      },
+      "macro_f1": 0.7685563997662186,
+      "other_f1": 0.847457627118644,
+      "troubleshooting_f1": 0.6896551724137931
+    },
+    "linuxquestions": {
+      "n": 53,
+      "support": {
+        "other_update_0": 6,
+        "troubleshooting_1": 47
+      },
+      "macro_f1": 0.8478468899521532,
+      "other_f1": 0.7272727272727273,
+      "troubleshooting_f1": 0.968421052631579
+    },
+    "macos": {
+      "n": 76,
+      "support": {
+        "other_update_0": 22,
+        "troubleshooting_1": 54
+      },
+      "macro_f1": 0.8392479435957697,
+      "other_f1": 0.7567567567567568,
+      "troubleshooting_f1": 0.9217391304347826
+    },
+    "microsoftedge": {
+      "n": 84,
+      "support": {
+        "other_update_0": 7,
+        "troubleshooting_1": 77
+      },
+      "macro_f1": 0.5973856209150327,
+      "other_f1": 0.26666666666666666,
+      "troubleshooting_f1": 0.9281045751633987
+    },
+    "neovim": {
+      "n": 21,
+      "support": {
+        "other_update_0": 10,
+        "troubleshooting_1": 11
+      },
+      "macro_f1": 0.9045454545454545,
+      "other_f1": 0.9,
+      "troubleshooting_f1": 0.9090909090909091
+    },
+    "openclaw": {
+      "n": 55,
+      "support": {
+        "other_update_0": 18,
+        "troubleshooting_1": 37
+      },
+      "macro_f1": 0.7276190476190476,
+      "other_f1": 0.6285714285714286,
+      "troubleshooting_f1": 0.8266666666666667
+    },
+    "software": {
+      "n": 10,
+      "support": {
+        "other_update_0": 5,
+        "troubleshooting_1": 5
+      },
+      "macro_f1": 1.0,
+      "other_f1": 1.0,
+      "troubleshooting_f1": 1.0
+    },
+    "sysadmin": {
+      "n": 64,
+      "support": {
+        "other_update_0": 8,
+        "troubleshooting_1": 56
+      },
+      "macro_f1": 0.6444444444444444,
+      "other_f1": 0.4,
+      "troubleshooting_f1": 0.8888888888888888
+    },
+    "ubiquiti": {
+      "n": 65,
+      "support": {
+        "other_update_0": 6,
+        "troubleshooting_1": 59
+      },
+      "macro_f1": 0.6608695652173913,
+      "other_f1": 0.4,
+      "troubleshooting_f1": 0.9217391304347826
+    },
+    "ubuntu": {
+      "n": 76,
+      "support": {
+        "other_update_0": 9,
+        "troubleshooting_1": 67
+      },
+      "macro_f1": 0.8848484848484849,
+      "other_f1": 0.8,
+      "troubleshooting_f1": 0.9696969696969697
+    },
+    "wordpress": {
+      "n": 53,
+      "support": {
+        "other_update_0": 11,
+        "troubleshooting_1": 42
+      },
+      "macro_f1": 0.7451923076923077,
+      "other_f1": 0.6153846153846154,
+      "troubleshooting_f1": 0.875
+    }
+  },
+  "limitations": "Temporal and community changes are confounded with source and class mix. These are stress tests on development, not independent external validation."
+}

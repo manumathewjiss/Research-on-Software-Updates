@@ -1,0 +1,125 @@
+{
+  "submission_sha256": "7110829718305046ccb517db2e1b4688fa03b20b93b3fd35fff47a83e1fc142a",
+  "decisions": {
+    "keep": 45,
+    "uncertain": 4,
+    "change": 2
+  },
+  "changed_ids": [
+    "1tebwdi",
+    "1wxl35m"
+  ],
+  "uncertain_excluded_ids": [
+    "1lrpn7u",
+    "1lsuvac",
+    "1qzew1k",
+    "1s3krfu"
+  ],
+  "development_only": true,
+  "reserved_test_touched": false,
+  "config": {
+    "model": "title_body TF-IDF logistic regression",
+    "C": 4.0,
+    "threshold": 0.5877137791150834,
+    "grouping": "exact text plus near duplicates >= 0.92"
+  },
+  "development_n": 2080,
+  "development_class_counts": {
+    "1": 1686,
+    "0": 394
+  },
+  "grouped_validation": {
+    "model": {
+      "n": 2080,
+      "support": {
+        "other_update_0": 394,
+        "troubleshooting_1": 1686
+      },
+      "accuracy": 0.895673076923077,
+      "balanced_accuracy": 0.8442337915710749,
+      "macro_f1": 0.834741184469567,
+      "class_0_other_update": {
+        "precision": 0.7092198581560284,
+        "recall": 0.7614213197969543,
+        "f1": 0.7343941248470012
+      },
+      "class_1_troubleshooting": {
+        "precision": 0.9432709716354858,
+        "recall": 0.9270462633451957,
+        "f1": 0.9350882440921329
+      },
+      "confusion_matrix_labels_[0,1]": [
+        [
+          300,
+          94
+        ],
+        [
+          123,
+          1563
+        ]
+      ]
+    },
+    "keyword": {
+      "n": 2080,
+      "support": {
+        "other_update_0": 394,
+        "troubleshooting_1": 1686
+      },
+      "accuracy": 0.78125,
+      "balanced_accuracy": 0.7191938989950082,
+      "macro_f1": 0.6880306141386345,
+      "class_0_other_update": {
+        "precision": 0.4444444444444444,
+        "recall": 0.6192893401015228,
+        "f1": 0.5174973488865323
+      },
+      "class_1_troubleshooting": {
+        "precision": 0.9020248203788374,
+        "recall": 0.8190984578884934,
+        "f1": 0.8585638793907368
+      },
+      "confusion_matrix_labels_[0,1]": [
+        [
+          244,
+          150
+        ],
+        [
+          305,
+          1381
+        ]
+      ]
+    },
+    "majority": {
+      "n": 2080,
+      "support": {
+        "other_update_0": 394,
+        "troubleshooting_1": 1686
+      },
+      "accuracy": 0.8105769230769231,
+      "balanced_accuracy": 0.5,
+      "macro_f1": 0.44768985661178967,
+      "class_0_other_update": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "class_1_troubleshooting": {
+        "precision": 0.8105769230769231,
+        "recall": 1.0,
+        "f1": 0.8953797132235793
+      },
+      "confusion_matrix_labels_[0,1]": [
+        [
+          0,
+          394
+        ],
+        [
+          0,
+          1686
+        ]
+      ]
+    }
+  },
+  "duplicate_groups_with_conflicting_targets": 0,
+  "note": "Sensitivity check on revised development labels; the old model/test record remains unchanged."
+}

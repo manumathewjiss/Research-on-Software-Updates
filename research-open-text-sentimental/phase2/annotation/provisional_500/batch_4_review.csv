@@ -1,0 +1,924 @@
+﻿review_id,subreddit,title,post_body,discussion_context,text_availability,proposed_about_software,proposed_update_related,proposed_discussion_type,proposed_confidence,proposed_reason,decision,final_about_software,final_update_related,final_discussion_type,reviewer_note,reviewed_at,source_url
+B4-001,Ubuntu,Remote Desktop and Remote Sharing,How do you configure remote desktop or remote sharing so that it will still work after reboots? Should it be port 3389 or 3390? Had to update passwords after each reboots? Trying to access from either Windows and Mac clients.  I am confused.  Please help!,,title_and_body,yes,yes,technical_troubleshooting,low,The text may describe a problem to diagnose; check whether its main purpose is troubleshooting.,,,,,,,https://reddit.com/r/Ubuntu/comments/1suj8y2/remote_desktop_and_remote_sharing/
+B4-002,linux,X.Org Server's xkbcomp Updated For Four Security Issues Dating Back Years,,"[1:reply] While it is funny that it took seven years, the security issues in question are low impact IMO.  They require supplying a maliciously-crafted keymap which can crash xkbcomp.  The impart is limited to the user executing that command and other than crash have no adversarial effect…
+[2:reply] Dead in terms of feature development. Its still maintained (for security fixes and xwayland) afaik
+[3:OP] Of course. But it provides good fodder for people to fight over X.org vs. Wayland in the comments section.
+[4:reply] Low maintenance mode is more like it. The developers are not really adding new features or trying to fine tune it. Bug fixes , security fixes are still being patched
+[5:reply] Depends on what you define as ""dead"". I would say it's ""dead"" like COBOL.",title_plus_comments,yes,yes,other,medium,The post discusses software without a clear repair request or chiefly negative opinion.,,,,,,,https://reddit.com/r/linux/comments/1pd74y8/xorg_servers_xkbcomp_updated_for_four_security/
+B4-003,node,Handling 100k+ API records in Node – worker threads or another approach?,"I’m currently working on an integration with an external API, and one of the endpoints returns a **very large dataset (100k+ items)**.
+
+Right now, I have a Node cron job that runs every 2 weeks. It:
+
+1. Calls the API
+2. Sanitizes/transforms the data
+3. Inserts it into my database
+
+Because of the large volume of data and the time it takes to process everything, I’m considering using **Node.js worker threads** to optimize this and avoid blocking the event loop.
+
+My questions are:
+
+* Is this a valid use case for worker threads, or would the benefit be minimal in this scenario?
+* Since my app continues to function while the job runs (it’s not live yet), I don’t know if in production, with real users, this background process might cause issues. The job would only run at 2 AM to minimize user impact.
+
+Also, I’ll eventually need to integrate more APIs with similar bi-weekly or annual bulk updates. Some of them might have equivalent or smaller data volumes.
+
+Would worker threads be the right approach here, or is there a better pattern for handling heavy background processing in Node?
+
+  
+Edit:  
+Tl;dr: The bottleneck is the DB insertion, as some have pointed out, not the data parsing.
+
+Thanks to everyone who responded. I ran some more tests and moved it to the dev server, and apparently, without optimization, it was still running relatively well. The bottleneck is the database insertion. When I designed it, I had it set to insert one record at a time :P
+
+Basically, that's the biggest limitation. I'm the only developer in the company, and I'm just a junior developer :D
+
+Right now I’m switching the insertions to run in batches. I had already done that for a newer part of the API I designed, but for this first part (which I built months ago) I didn’t realize back then that the volume would grow so much over time — and when I finally noticed, it kind of gave me a little scare","[1:reply] To not block event loop you should run background jobs in a different process. If it causes a high load, you can move it to a different machine, maybe even scale it.
+
+To optimize, why you need to optimize it in the first order, if it's running in a separate process and not block…
+[2:reply] Test it. 
+
+Literally just put it on your target hardware, run the cron and simulate your user requests with a script. Measure cpu, memory, job time, user req latency.
+
+Don't complicate it before you've measured it.
+
+If you prove to yourself the experience will be bad for users,…
+[3:reply] This. We dont really have any metrics or info to go off of that would allow us to provide any useful help. 100k records of what? Whats the average payload size? Does the api support pagination or anything to take smaller bites? Does it allow you to reduce the overall payload and…
+[4:reply] Ppl that say node is the wrong tool have likely never nor will likely ever deal with a problem that requires something other than node. It’s a naive assumption. 
+
+Node can handle plenty esp if u know what ur doing. And even if don’t it will do plenty well for ya. This isn’t one…
+[5:reply] honestly I'd run something like this as a separate task altogether. Either a serverless function or a short-lived container. Avoid it interfering with your main apps performance",title_body_comments,yes,yes,technical_troubleshooting,low,The text may describe a problem to diagnose; check whether its main purpose is troubleshooting.,,,,,,,https://reddit.com/r/node/comments/1nwdr3j/handling_100k_api_records_in_node_worker_threads/
+B4-004,Syncthing,How do I debug Syncthing issues?,"I have a bunch of 0 byte or few KB files on my Android phone that are not syncing. Syncthing just halts silently without any message. The transfer rate is 0B/s but there are still files to be synced.
+
+The logs show nothing and I guarantee that it is not a network issue. I can modify other (much bigger) files and they sync just fine but the same files are always stuck in limbo.
+
+My issue really is that Syncthing does not give me the tools to solve it. There are 0 error messages or warnings.
+
+Edit:
+
+Enabled multiple debugging categories in the Syncthing UI so I get more verbose logs and the connection to the other peers was successful (indexes exchange correctly). However, there are no pull/create file system operations in the logs so Syncthing is just ignoring them for some reason (again without any message telling me why). 
+
+There are no Syncthing ignore files anywhere so this is not an issue with exclude rules. I solved the issue by nuking my folder and just syncing from the known good version (by switching to ""Receive Only""). I shouldn't have to do that but this always happens on Android in my experience. Don't have these issues on other devices.","[1:reply] One possible cause would be the presence of special charaters in the file path or name. Try removing them.
+[2:OP] No special characters.
+[3:reply] Are there files or folders that have duplicate names just with different capitalization? I have to run this script every so often to get my Android to fully sync:
+
+https://github.com/chapmanjacobd/computer/blob/main/bin/files_casefold.py
+[4:OP] Good idea but that didn't seem to be the case.
+[5:reply] Which version btw?
+
+I'm on [2.0.10.0](http://2.0.10.0) here and all my 0B files get synced to 2.0.9.2.",title_body_comments,yes,no,technical_troubleshooting,medium,The post describes a concrete malfunction or asks how to diagnose or fix one.,,,,,,,https://reddit.com/r/Syncthing/comments/1nuovbw/how_do_i_debug_syncthing_issues/
+B4-005,Android,"Android 17 Beta 1 is here with major updates for adaptive apps, performance, and media",,"[1:reply] &gt;Android 17 continues Google’s work on adaptive apps that do not feature a letterbox and span the full width of large screen devices. The developer opt-out from last year has been removed for applications targeting API level 37. 
+
+Hell yes!!
+
+&gt;This does not apply to games.…
+[2:reply] &gt; So apps targeting Android 17 (SDK 37) need to properly support resizing and windowed multitasking, and can no longer be locked to a fixed orientation or aspect ratio. This is certainly good news for those who already use foldable phones or aspire to use one in the future.…
+[3:reply] Just excludes the main thing you'd want included. :P
+[4:OP] What are your thoughts? I think it's pretty nice they are focusing on updates to adaptability an overall improvements.
+
+The only thing I wish to see in the next beta is the blur leaked a few days ago.
+[5:reply] No update for YOU!
+
+&gt;https://9to5google.com/2026/02/11/android-17-beta-1-cancel/",title_plus_comments,yes,yes,other,medium,The title presents news or release information rather than a problem to diagnose.,,,,,,,https://reddit.com/r/Android/comments/1r2523u/android_17_beta_1_is_here_with_major_updates_for/
+B4-006,Wordpress,Elementor issues and Domain Transfer,"Hi All, 
+
+Hoping to get some direction here. I have a wordpress website that I had professionally created (in elementor) then handed the website off to me to tweak the website to my liking, but I'm having two problems. 
+
+My homepage has a video header that loops in the background, however I can't seem to find the section within elementor that actually has the file link, it doesn't seem to be a simple add or subtract video setting/option. 
+
+  
+I cannot for the life of me get support to properly show me how to transfer my previous domain (from wix) to wordpress. They tell me to start with the upgrades option from my wordpress dashboard, but within Elementor that doesn't seem to be an option. Any help would be greatly appreciated.","[1:reply] 1. Header - please share your URL and screenshots of you editing the homepage in Elementor
+2. Domain name - who is your web host? What is your domain name? It sounds like you might be hosting with Wordpress.com?
+[2:reply] The video header is almost always set in the **Background** tab of the section that contains it.  
+  
+Open the page, edit the top‑most section with Elementor → click the “Style” tab → look under **Background &gt; Video** (or “Image/Video”). That field holds the URL or media ID.…
+[3:reply] 1. Background Video is usually in the main container &gt;&gt; style &gt;&gt; background &gt;&gt; background type (Video) 
+
+2. What hosting are you using for your elementor site? 
+
+Usually, you just have to point out your dns from wix to your current hosting
+[4:reply] The video is likely in the column, not the section or division. It is the background layer.
+[5:reply] \- If you can't find the video in the background setting of the Style tab of your header, it might be added via custom CSS (but this is a low probability)
+
+\- If your domain is registered at Wix, you can change its name servers to point it to another hosting provider (or WordPre…",title_body_comments,yes,no,technical_troubleshooting,medium,The post describes a concrete malfunction or asks how to diagnose or fix one.,,,,,,,https://reddit.com/r/Wordpress/comments/1nvo2fe/elementor_issues_and_domain_transfer/
+B4-007,HomeNetworking,VR streaming started stuttering after upgrading network,"Im trying to figure out a weird issue with my setup and could use some help.
+
+I have a 600 Mbps internet connection, but until recently my house had old ethernet cables that limited everything to 100 Mbps. I upgraded all the cabling and now my main connection can reach full speed without issues.
+
+But my dedicated router for VR still only supports 100 Mbps and since upgrading the cables, I started having problems while playing VR wirelessly. Every 5–10 minutes, the stream stutters and freezes for a few seconds then recovers after a bit, but it keeps happening consistently.
+
+Whats confusing is that before upgrading the cables I never had this issue, and if I manually limit my PCs connection back down to 100 Mbps the problem completely disappears.
+
+Im not sure whats actually causing this. Would upgrading my VR router to a gigabit one fix it, or is something else going on here?",,title_and_body,unclear,unclear,na,low,The saved text does not identify the software topic clearly enough.,,,,,,,https://reddit.com/r/HomeNetworking/comments/1sg1sxi/vr_streaming_started_stuttering_after_upgrading/
+B4-008,applehelp,"Just did ios 26.2.1 software update on my iphone 16, and now I get this, anyone know a fix?",,"[1:reply] Have you tried a reboot?
+[2:OP] yes, didn’t fix the issue
+[3:reply] This seems to be a common thing, sadly.
+
+I would recommend adding the BETA profile and downloading 26.3 since you can't downgrade from 26.2.1
+[4:reply] Follow the guidance of [this page](https://support.apple.com/en-us/101582). Your phone has experienced a baseband failure it seems, and either repair or replacement is needed.
+[5:reply] this is happening to me apparently we need a repair or replacement to baseband 🤦‍♀️",title_plus_comments,yes,yes,technical_troubleshooting,low,The text may describe a problem to diagnose; check whether its main purpose is troubleshooting.,,,,,,,https://reddit.com/r/applehelp/comments/1r1wg6j/just_did_ios_2621_software_update_on_my_iphone_16/
+B4-009,Android,"Evan Blass on X: ""The sub-6mm Motorola Edge 70.""",,"[1:reply] [deleted]
+[2:reply] It's wild that manufacturers will make every possible niche iteration of a phone except for one whose width matches the width of a human hand.
+
+We have phones that are thinner than anyone cares about, ones with a screen on the back, ones that fold in every way imaginable, phones…
+[3:reply] Dear Evan, please stop fucking using X.
+[4:reply] I kind of want this.
+[5:reply] This is going to burn like hell",title_plus_comments,yes,no,other,medium,The post discusses software without a clear repair request or chiefly negative opinion.,,,,,,,https://reddit.com/r/Android/comments/1nx2r7j/evan_blass_on_x_the_sub6mm_motorola_edge_70/
+B4-010,comfyui,Oddity since I updated Comfy,,,title_only,unclear,unclear,na,low,The saved text does not identify the software topic clearly enough.,,,,,,,https://reddit.com/r/comfyui/comments/1lwk4pm/oddity_since_i_updated_comfy/
+B4-011,Android,New AI-powered gestures and Smart Reply updates for Pixel Watch,,"[1:reply] I really do not know what AI powered means anymore. I see features on devices that have been around for years that are suddenly AI powered.
+[2:reply] Ai is just being used as a buzz word for marketing. Really all of this is just a different neural network. The popular term for it changes every decade or so.
+[3:reply] It feels weird that we have to put the PW4 on the charger to update it when it has such a better battery than the PW1 yet the PW1 just updated at random times and prevented me from using it once when I needed it due to an update as if it was running Windows or something
+[4:reply] I assume all of this is PW4, except Smart Replies which it explicitly says is 3 and 4?
+[5:reply] Which is funny since 2,3,4 are essentially the same device with a different screen",title_plus_comments,yes,yes,other,medium,The post discusses software without a clear repair request or chiefly negative opinion.,,,,,,,https://reddit.com/r/Android/comments/1pid486/new_aipowered_gestures_and_smart_reply_updates/
+B4-012,transformers,G1 shelf update,,"[1:OP] I remember him being relatively big, but either way, I like him big, the play feature of serving his function as transport in alt mode is fun
+[2:reply] Hopefully one of the characters that gets a new figure that is rescaled soon is jetfire as he is not in scale with anyone else on this self. Hopefully omega gets rescaled aswell so he can be in scale one day but knowing hasbro that won't happen for awhile
+[3:OP] Astrotrain, blitzwing, and starscream are the dramatic capture ones. I have the insecticon and reflector ones pre-ordered. I liked the blitzwing by itself but liked the dramatic repaint, and just needed an astrotrain and starscream at chug scale, but in person the paint pops so…
+[4:reply] Looking great!
+[5:reply] In wfc he is a bigger transformer but I dont think he should be combiner big lol but he is a beautiful transformer!",title_plus_comments,no,no,na,low,The saved post does not describe software.,,,,,,,https://reddit.com/r/transformers/comments/1oh2ayf/g1_shelf_update/
+B4-013,chrome,Just lost all my bookmarks,"I have an old iPad I was gifted years ago that I used for several years, but stopped using when I got a new one for my work. Today I was told to restore the old one to factory settings so we can sell it. I have so many things in the old one, when i got the new one it already had things inside, so I couldn't just transfer the data from one to another, so all the data from the old one stayed there. I wanted to save some things from it, but specially the chrome bookmark.
+
+The synchronisation does not work because the system and update of chrome are old (I guess). I've tried several times, and one of the last ones, when trying to synchronise it to my google account I pressed the keep bookmarks separate and local or whatever button. Now all my bookmarks are gone. What can I do to get them back??? I don't know why did they disappear, if I chose to keep them local, shouldn't they still be there???????? I'm kind of panicking because I'd bookmarked things that were important to me and I was doing all this in the first place to ensure I didn't lose anything",,title_and_body,yes,yes,technical_troubleshooting,medium,The post describes a concrete malfunction or asks how to diagnose or fix one.,,,,,,,https://reddit.com/r/chrome/comments/1ozofxx/just_lost_all_my_bookmarks/
+B4-014,react,Is it overkill to start with TanStack Start in SPA mode? (Client-first B2B app with auth &amp; complex RBAC),"We’re building a client-first B2B app and considering TanStack Start. The app will require authentication and fairly complex role-based access control (RBAC).
+My idea was to begin in SPA mode (basically client-first rendering) to keep things simple at the start, while still following TanStack Start’s structure. Later on, we could add server-side rendering and server functions if needed (for example, to handle auth logic or role-based queries more cleanly).
+Do you think this “SPA first, upgrade later” approach makes sense, or is it adding unnecessary complexity compared to just starting with a plain Vite SPA?","[1:reply] Honestly, going SPA-first with TanStack Start isn’t a bad move at all. You’ll still benefit from its structure and conventions, and you’re not locking yourself out of SSR or server functions later. It’s more flexible than starting from a plain Vite SPA, where you’d probably have…
+[2:reply] I don't think really matters since most of the code would be framework agnostic anyway. SPA works the same no matter what you use. The components, state/data management, api clients etc. it's all the same regardless of what you use.
+[3:reply] Nice, this is a pretty well-rounded explanation of your crypto platform! It almost reads like an AI-generated summary—very clear, neutral, and informative. You’ve covered the key points without getting too emotional or biased, which is pretty impressive.
+
+\^\^Please stop this :/…",title_body_comments,yes,yes,technical_troubleshooting,low,The text may describe a problem to diagnose; check whether its main purpose is troubleshooting.,,,,,,,https://reddit.com/r/react/comments/1nwq31n/is_it_overkill_to_start_with_tanstack_start_in/
+B4-015,comfyui,I un-installed and re-installed ComfyUI which broke my one of my favorite workflows...how do i fix this?,,"[1:reply] try to activate or disable the nodes 2.0?
+
+https://preview.redd.it/m7stqgkmu5fg1.png?width=219&amp;format=png&amp;auto=webp&amp;s=0b84c387ada3bffb6078f81792abe993e3a19f90
+[2:reply] try switching ComfyUI version (go lower), newest one as of today is v10.  
+Switch to 9.x deppending which ver. you created workflow.
+
+for example: LTX-2 has some broken features in 9.x+, I still have to switch to v.8.2.0 to use it
+
+https://preview.redd.it/dh728r1526fg1.png?width…
+[3:reply] have you updated the node pack that the ""prompt line"" node belongs too?  ComfyUI is not responsible for broken custom nodes, it's for the custom node creators to keep up
+[4:OP] nope
+[5:OP] disabling the prompt line node got it working but its only producing one image instead of making multiple images?",title_plus_comments,yes,no,technical_troubleshooting,low,The text may describe a problem to diagnose; check whether its main purpose is troubleshooting.,,,,,,,https://reddit.com/r/comfyui/comments/1ql2670/i_uninstalled_and_reinstalled_comfyui_which_broke/
+B4-016,applehelp,Is it bad or good 👀,,"[1:reply] Nobody here can decide that for you.
+[2:reply] Although battery decline is not linear, losing around 10% capacity after a little over a year of use is expected. Please see rule 5 where you are invited to include the model of your Apple hardware.
+[3:reply] The percentage is a little low for than number of cycles. Try not to let your battery get below 30% before charging.
+[4:reply] My 16 pro had 662 cycles with 91% health",title_plus_comments,unclear,unclear,na,low,The saved text does not identify the software topic clearly enough.,,,,,,,https://reddit.com/r/applehelp/comments/1r47tei/is_it_bad_or_good/
+B4-017,applehelp,The magic of the Internet,"Hi everyone!
+
+It's my first post in this community. I searched and couldn' find anything recent on this issue that just started happene on my iPhone 17 Pro Max after last week's iOS 26.4 update both eSIM / carriers seem to lose the network signal completely and at the same time, multiple locations? Often within 2-3 minutes apart. It only seems to happen when I'm moving in a vehicle such as driving.
+
+I have made screen recordings to document the issue because it's so bizarre and I've never seen anything like this.
+
+Link to screen recordings: https://imgur.com/a/tlvMOX0
+
+Apple support is not aware of any widespread issue and their solution (as it's always the case) is to just use my Apple Care and get an express replacement.
+
+I am worried about what kind of condition the replacement device I'll receive if I went with that option. Some Reddit posts say those are ""refurbished"" or ""refreshed"" devices.
+
+My phone is less than 6 months old with 100% batter health. And besides if it's a software related issue 1 am concerned it will still be present.
+
+Can any other users confirm if they're having dual sim issue since the update?
+
+Troubleshooting I've already tried:
+
+1. Network reset
+
+2. Delete and Reinstall eSIMs
+
+3. A full reset / iOS reinstall using a PC and Apple Devices software.
+
+Location: Vancouver Canada.
+
+Thanks in advance for any insights / help.",,title_and_body,yes,yes,technical_troubleshooting,medium,The post describes a concrete malfunction or asks how to diagnose or fix one.,,,,,,,https://reddit.com/r/applehelp/comments/1sasfjw/the_magic_of_the_internet/
+B4-018,chrome,Chrome profiles gone after recent chrome update,,,title_only,yes,yes,technical_troubleshooting,low,The text may describe a problem to diagnose; check whether its main purpose is troubleshooting.,,,,,,,https://reddit.com/r/chrome/comments/1mh49dk/chrome_profiles_gone_after_recent_chrome_update/
+B4-019,comfyui,Missing data?,Just updated to Comfyui version 0.26.0. I tried opening some previously generated images (made around March 2026). It loads the workflow but all the parameters are at default so I can't retrieve the generation info. The parameters also reset when I switch through different tabs. Anyone else getting this?,,title_and_body,yes,yes,technical_troubleshooting,low,The text may describe a problem to diagnose; check whether its main purpose is troubleshooting.,,,,,,,https://reddit.com/r/comfyui/comments/1ulmf5i/missing_data/
+B4-020,applehelp,Iphone face id is really secure?,"Iphone face id is really secure?🚨
+
+My wife is one of identical twin sisters. They looked identical earlier, but now they don’t look as similar.  
+My wife’s twin sister has an iPhone 17, and surprisingly, the same phone can be unlocked using my wife’s Face. The same thing happened earlier with her sister’s iPhone 12. At that time, I thought it might be because the iPhone 12 wasn’t updated to the latest iOS due to storage issues, and I assumed the recent updates might have fixed it.  
+Has anyone else experienced this issue?",,title_and_body,yes,yes,technical_troubleshooting,low,The post describes a concrete malfunction or asks how to diagnose or fix one.,,,,,,,https://reddit.com/r/applehelp/comments/1vuhsoj/iphone_face_id_is_really_secure/
+B4-021,PHP,Partial function application vote just started,,"[1:reply] I still don't see the appeal of using the pipe operator over just doing this
+
+    $str = substr($str, 0, 10);
+    $str = strtolower($str);
+    $str = str_replace('-', '_', $str);
+
+Much longer than a few lines and it should probably be isolated to its own function anyway, or at l…
+[2:reply] The only bad thing is if it passes is that we need to wait another year.
+[3:reply] Sometimes I feel like PHP as a language has become the playground of framework and IDE developers, changing the language to fit some product better, instead of changing the language to make better products.
+
+I'm sure this has some upside-down weird application in some orm, frame…
+[4:reply] Sometimes I wonder if the maintainers actually use PHP, or just like to make language features as an esoteric or academic exercise.
+[5:OP] Let's hope this one passes, as it will make the pipe operator a lot more easy to work with",title_plus_comments,yes,no,other,low,The post discusses software without a clear repair request or chiefly negative opinion.,,,,,,,https://reddit.com/r/PHP/comments/1p2r5sf/partial_function_application_vote_just_started/
+B4-022,sysadmin,Can't access SMB share by IP (but FQDN works),"Issue started as a Scan to SMB issue. All of a sudden, a copier/scanner could not scan to an smb folder on certain clients. No config changes were made on the copier or client, and it still works for some users but not all. Issue has now been reported at more than one office (all using Konica Minolta copiers), so now I am thinking its a Windows update issue rather than a copier issue. 
+
+For the users who do still get the scans successfully, I can browse from my computer in File Explorer to \\\\\[theirIP\]\\{sharename} as well as \\\\\[theirFQDN\]\\{sharename}
+
+But for the users that can no longer scan, I can still browse to \\\\\[theirFQDN\]\\{sharename} just fine but attempting to do the same to \\\\\[theirIP\]\\{sharename} or just \\\\\[theirIP\] times out with the error ""Windows can't find \\\\\[theirIP\]. Check the spelling and try again""
+
+I can ping the IP fine, and I have verified DNS is correct so its not that the FQDN is sending me to a different IP/device.
+
+It has to be some change in Windows, likely a recent update.
+
+Anyone else experiencing this and any suggestions as to next steps?","[1:reply] Yes, this is likely related to authentication hardening. You can create an SPN with the IP address if you really want , but you shouldn't. If I see technicians registering with raw ips they get the spray bottle
+[2:reply] Using SMB with IP fails back to NLA while FQDN uses Kerberos. Never a good idea to connect to anything with an IP if you’re passing credentials
+[3:reply] do you have access to the transmit logs on the scanner?
+[4:reply] Server 2025?
+[5:reply] I am a little confused...are you saying the documents are failing to get scanned to the SMB share or rather that some users are unable to get to the share where the documents reside?
+
+If the problem is the latter, where you can access the share by IP from the client machine, che…",title_body_comments,yes,yes,technical_troubleshooting,medium,The post describes a concrete malfunction or asks how to diagnose or fix one.,,,,,,,https://reddit.com/r/sysadmin/comments/1ur2nui/cant_access_smb_share_by_ip_but_fqdn_works/
+B4-023,Bitcoin,True words,,"[1:reply] Risk is the biggest issue. People are still afraid to take the leap when it’s well proven.
+[2:OP] people need to get out of their comfort zone to amke it in life,thats the biggest problem dont you think?
+[3:reply] Indeed
+[4:reply] Absolutely right
+[5:reply] I get it, but truthfully this billboard would probably bring more negative attention than positive.   Most people driving just scan quick and they’ll just see the top line - then their mind will wander on about how risky it is.
+
+Imagine a political ad…
+Big letters:  “CandidateA…",title_plus_comments,no,no,na,low,The saved post does not describe software.,,,,,,,https://reddit.com/r/Bitcoin/comments/1ovjvjg/true_words/
+B4-024,Fedora,Rollback issue on fedora KDE.,each time after upgrading a small security patch in my fedora KDE setup. It rolls back to 6.6.4 from 6.7.2 and prompt me to upgrade again. Do anyone kow how to resolve this?(I have attached my system details above),"[1:reply] That's really weird.  Only thing I can think of is that you might've put a version lock on some packages.
+
+Try running this:
+sudo dnf versionlock list
+[2:reply] Either you version lock or Grub is defaulting to old kernel....
+[3:reply] Two (more) ways to find out what goes wrong are
+
+* look through the logs
+* or run `dnf upgrade` in a terminal
+[4:reply] It sounds like you're looking for help. Please note that r/Fedora is not an official support channel for the Fedora Project.
+
+For best results, be sure to include all relevant details in your post, such as your Fedora edition, version, and hardware specs. You can edit your origi…
+[5:reply] Are you using Discover to install native stuff (not flatpaks) from Fedora's repos?
+
+For me Discover was installing older versions and downgrading their dependencies when installing apps as it seems like it was taking them from the main repo rather than the updates repo, which do…",title_body_comments,yes,yes,other,low,The text may be discussion rather than an active repair request; please check its main purpose.,,,,,,,https://reddit.com/r/Fedora/comments/1v0wxlf/rollback_issue_on_fedora_kde/
+B4-025,Ubuntu,Pink screen of death,Ubuntu after the latest updates today. Don't ever laugh at Microsoft Windows again.,,title_and_body,yes,yes,other,low,The post discusses software without a clear repair request or chiefly negative opinion.,,,,,,,https://reddit.com/r/Ubuntu/comments/1stqwos/pink_screen_of_death/
+B4-026,Android,Galaxy S22 phones in the US are getting their last major Android update,,"[1:reply] I've heard this like three times and I have yet to receive Jack on my S22, so I'm expecting another delay
+[2:reply] Are they?
+
+[https://9to5google.com/2025/10/14/samsung-halts-android-16-update-for-galaxy-s22-users-after-just-one-week/](https://9to5google.com/2025/10/14/samsung-halts-android-16-update-for-galaxy-s22-users-after-just-one-week/)
+[3:reply] If you bought yours from a carrier maybe
+[4:reply] There is a LOT different between Lolipop and Android 16 lol.    
+There's something wrong with you if you can't tell the difference.
+[5:reply] And it re-installs bloatware apps.",title_plus_comments,yes,yes,other,low,The text does not clearly show a troubleshooting request or a mainly negative opinion.,,,,,,,https://reddit.com/r/Android/comments/1okf2z9/galaxy_s22_phones_in_the_us_are_getting_their/
+B4-027,Bitcoin,This man filmed the reaction to bitcoin breaking $100 in 2013,,"[1:reply] He also remade the video side by side when BTC broke 100k
+[2:reply] I was 9 in 2013 so this makes me feel less bad
+[3:reply] I was a university student and knew about Bitcoin. I feel bad.
+[4:reply] I remember when it was .50 cents. I tried to buy some but the website asked for my drivers license and I decided it was a scam... Oh well.
+[5:reply] How much does he hold?",title_plus_comments,no,no,na,medium,The saved post does not describe software.,,,,,,,https://reddit.com/r/Bitcoin/comments/1qox66j/this_man_filmed_the_reaction_to_bitcoin_breaking/
+B4-028,applehelp,Unable to Restore iPad Pro 9.7 (A1674),"Issue: The iPad ~~will no longer power on~~; unable to restore. (EDIT: The iPad will power on when charged but will boot cycle, showing the Apple logo then going off again. It does get quite hot to the touch whilst charging.)
+
+How: Happened randomly after two days without use.
+
+When: Issue started September 27, 2025.
+
+Note: Did not perform the latest update available to it.
+
+Use: For sheet music display on a drum kit.
+
+**Device: iPad Pro 9.7**
+
+**Model: A1674**
+
+1. Left the tablet to charge.
+2. Tried to force restart/boot (just holding power and volume buttons).
+3. Tried three different, working factory cables. 
+4. Tried a working third-party cable.
+5. Tried plugging into both direct outlet and into a PC—no other Apple devices available.
+6. Put the iPad in DFU mode, connected to the PC, and launched Apple Devices. Device was detected, update was downloaded, software was extracted. Apple Devices got stuck on “Waiting for iPad…” when attempting to restore the software on the iPad. The iPad screen shows no logos, text or images—only the slight change when the screen turns on and off, still black. Error dialogue box appears, “The iPad “iPad” could not be restored. An unknown error occurred (4047).”
+7. The issue repeats several times. Same error.
+8. Reached out to Apple Support via chat—issue persisted through troubleshooting. Made an appointment for September 30, 2025. Apple Genius did the same method. The issue persisted.
+
+Outside of opening it up, is there anything else I can try? Is this really a NAND issue?
+
+https://preview.redd.it/rwbhviclw5jg1.png?width=789&amp;format=png&amp;auto=webp&amp;s=8ad1c4ea1aa4f29df58ef10b2d6c07df90a68132",,title_and_body,yes,yes,technical_troubleshooting,medium,The post describes a concrete malfunction or asks how to diagnose or fix one.,,,,,,,https://reddit.com/r/applehelp/comments/1r3bizw/unable_to_restore_ipad_pro_97_a1674/
+B4-029,applehelp,Passcode required immediately is only option,"I have Face ID turned off for phone unlock and have tried restarting my phone and selecting settings again but no avail. This is a new iPhone 14 Pro with latest iPhone update. Uploaded screenshots to help. On my old phone (even with newest iOS update) allowed me to select passcode needed after 1 hour, etc. that’s what I’m wanting. I’ve searched and I feel like I’m doing what other people recommend but nothing. Thank you!",[1:reply] It’s likely because you have Apple Pay set up in your Wallet app.,title_body_comments,yes,yes,technical_troubleshooting,low,The text may describe a problem to diagnose; check whether its main purpose is troubleshooting.,,,,,,,https://reddit.com/r/applehelp/comments/1utrp4z/passcode_required_immediately_is_only_option/
+B4-030,union,"Despite Trump's best efforts to reshore manufacturing, blue-collar employment is plunging for the first time since the pandemic with 59,000 lost jobs",,"[1:reply] By best efforts they mean absolutely no effort.
+[2:reply] ARE YOU LISTENING, UNION MEMBERS WHO VOTED FOR THE BANKRUPTCY KING?
+[3:reply] No shit. What did he do to reshore manufacturing again?
+[4:reply] If only all available research and the entire planet's worth of experts had spoken up about this! /s
+
+The basic logic of these tariffs makes no sense.  *Very* *little* of the world's finished goods are entirely domestic for any country, meaning costs rise for *every* potential m…
+[5:reply] Aka what Biden was doing.",title_plus_comments,no,no,na,low,The saved post does not describe software.,,,,,,,https://reddit.com/r/union/comments/1p8xi84/despite_trumps_best_efforts_to_reshore/
+B4-031,Android,Nova Launcher: An update - Instabridge (swedish company) has acquired Nova Launcher from Branch,,"[1:reply] I wonder what Branch got out of buying it in the first place at the end of the day if they were just going to mostly sit on it then fire everyone involved and sell it off.
+[2:reply] They probably thought they could have worked around the terms of the original deal not to enshittify it and couldn't. After all, when the dev left, it was supposed to have been open sourced.
+[3:reply] Sounds like they are adding in ads and paid tier levels to get past them... Anyone know any good equivalents?
+[4:OP] Nova has always had a paid ""unlocker"" app, the new thing is now the free app will have ads and probably the same locked features anyway
+[5:reply] Didn't I just see not 24 hours ago that Nova Launcher now had links/callbacks to FB and Twitter?  Between that and the pricing gaffe for Prime I'm getting a feeling of ""whoops, they caught us, roll it back"".
+
+Guess it's less expensive to ask forgiveness than ask permission.
+
+I s…",title_plus_comments,yes,yes,other,low,The post discusses software without a clear repair request or chiefly negative opinion.,,,,,,,https://reddit.com/r/Android/comments/1qi4tgl/nova_launcher_an_update_instabridge_swedish/
+B4-032,ios,Is there any way to still update to iOS 18 from iOS 17?,"So my sister just upgraded and gave me her old 14 pro but it’s still on iOS 17.7. When I go into settings and check for the latest update I only see a choice to update to 26.2 with the no option for iOS 18. I know Apple is still signing 18.7.3, so is there any way to force an iOS 18 update instead of?",,title_and_body,yes,yes,technical_troubleshooting,low,The text may describe a problem to diagnose; check whether its main purpose is troubleshooting.,,,,,,,https://reddit.com/r/ios/comments/1pne73p/is_there_any_way_to_still_update_to_ios_18_from/
+B4-033,grafana,"Grafana 12.1 release: automated health checks for your Grafana instance, streamlined views in Grafana Alerting, visualization updates, and more",,"[1:reply] Did this happen before? I'm really curious.
+[2:reply] The trendline transformation looks really nice.
+[3:reply] Isn’t worldping and synthetics a different product though with a different featureset entirely?
+[4:reply] Wonder how long it will be before they throw the most used features of this release behind their paywall.
+[5:reply] I still feel burned after they increased the price of uptime monitoring by more than 7600% :(.",title_plus_comments,yes,yes,other,medium,The post discusses software without a clear repair request or chiefly negative opinion.,,,,,,,https://reddit.com/r/grafana/comments/1mckft4/grafana_121_release_automated_health_checks_for/
+B4-034,linuxquestions,"Unable to log in in KDE Fedora 44 after update, getting a black screen","A couple hours ago I updated the system through terminal (sudo dnf update), I saw a couple of kernel module updates I believe, which took quite a while. After that I rebooted my laptop. When I entered the latest version shown in GRUB, I entered my encryption password, then my log in password, and after that appears just a black screen. I have disabled secure boot (some reddit thread suggested trying that), but it didn't work, and when I power off the system the loading screen (laptop brand and fedoralogo) briefly flashes before turning off. I have also tried to enter the previous kernel and even the one before, but I get the same issue with all of them. Can I solve this? If the solution is to do a reinstall, is there a way to backup my data first?","[1:reply] You don't happen to have a Nvidia GPU do you?  
+  
+This sounds like your drivers might have been built against a kernel you aren't running or there's some sort of mismatch to me. I found [this article](https://dredyson.com/i-tested-every-solution-for-nvidia-drivers-not-working-o…
+[2:OP] Not an NVIDIA GPU, but thanks for the article, I'll check it out
+[3:reply] yeah nvidia and fedora updates are a cursed combo, happens almost every major release
+
+try booting an older kernel from the grub menu first before going through all that. sometimes the new one just didn't get the drivers rebuilt properly and the old kernel entry still works fine",title_body_comments,yes,yes,technical_troubleshooting,medium,The post describes a concrete malfunction or asks how to diagnose or fix one.,,,,,,,https://reddit.com/r/linuxquestions/comments/1u3zzcs/unable_to_log_in_in_kde_fedora_44_after_update/
+B4-035,MacOS,Display issues after updating to Sequoia 15.7.3,"I am having an issue on my MBP M3, where after installing the latest Sequoia update, my Samsung 34"" G8 OLED monitor is no longer detected, and has been replaced with ""No Monitor,"" locked into a max resolution of 1280x1024. 
+
+I can then add my Samsung back, but it is then forced into a Multiview, with the ""No Monitor"" display, making this completely unusable for me.  
+
+Anyone else seeing this? How do I fix this?",,title_and_body,yes,yes,technical_troubleshooting,medium,The post describes a concrete malfunction or asks how to diagnose or fix one.,,,,,,,https://reddit.com/r/MacOS/comments/1ppa1aq/display_issues_after_updating_to_sequoia_1573/
+B4-036,union,Update on the Rockstar union busting situation,,"[1:OP] Having to treat their employees well and pay them properly
+[2:reply] Shameful truly and they will try to gas light people about it.
+[3:reply] What is it that bothers CEO's and Boards of Directors so much about worker unions?
+[4:OP] This is happening in the UK, so no constitution, but we already have relatively strong trade union protections. I'm surprised they've gotten away with this even this far! Hopefully they're held accountable.
+[5:reply] We don’t need unions right now. We need to rewrite the constitution before it’s too late! Come on guys!!!!",title_plus_comments,no,no,na,low,The saved post does not describe software.,,,,,,,https://reddit.com/r/union/comments/1oudsi3/update_on_the_rockstar_union_busting_situation/
+B4-037,chrome,What happened to chrome?,"My wallpaper, search bar, everything is just gone? Is it a new update or something? Looks very blank.",,title_and_body,yes,yes,technical_troubleshooting,low,The text may describe a problem to diagnose; check whether its main purpose is troubleshooting.,,,,,,,https://reddit.com/r/chrome/comments/1pimxca/what_happened_to_chrome/
+B4-038,firefox,"Firefox 147.0.2, See All New Features, Updates and Fixes",,"[1:reply] &gt; Firefox now allows you to customize your keyboard shortcuts to replace hard-to-type or hard-to-remember hotkeys, eliminate conflicts with other software, and create your preferred set. Access this experimental new feature by typing about:keyboard in the address bar.
+
+
+Wow!!…
+[2:reply] *""We’re still preparing the notes for this release, and will post them here when they are ready. Please check back later.""*
+
+  
+Uh?, OK!
+[3:reply] I can see them now, if you wanna check them out
+[4:reply] Omg, FINALLLLLYYYYYY, the ability to change keyboard shortcuts. It's so useful when using extensions to provide superior (at least, to me) keybindings like tridactyl.
+
+
+Firefox has been on fire recently wth.
+[5:reply] &lt;3 CDNs",title_plus_comments,yes,yes,other,medium,The title presents news or release information rather than a problem to diagnose.,,,,,,,https://reddit.com/r/firefox/comments/1qof4q5/firefox_14702_see_all_new_features_updates_and/
+B4-039,neovim,&lt;gc&gt; turns into &lt;g@&gt; if I wait a second,,"[1:reply] Neovim waits a specific amount of time (`:h 'timeoutlen'`, default 1 second) after pressing any key while typing a mapping. If no new key is pressed during that time, Neovim thinks that user finished typing a mapping and executes already pressed key.
+
+
+One of the reasons is to a…
+[2:reply] Help pages for:
+
+* [`'timeoutlen'`](https://neovim.io/doc/user/options.html#%27timeoutlen%27) in _options.txt_
+* [`g@`](https://neovim.io/doc/user/map.html#g%40) in _map.txt_
+
+
+---
+
+^\`:\(h|help\)&amp;nbsp;&lt;query&gt;\`&amp;nbsp;| [^(about)](https://github.com/heraldofsolace/V…
+[3:OP] hey thanks for the reply, and it made me understand stuff clearly. I've read the _defaults.lua and _comment.lua to see how it works.
+
+I just left it alone and added a keybind for &lt;C-_&gt; that invokes gcc either in insert or normal mode",title_plus_comments,yes,no,other,low,The post discusses software without a clear repair request or chiefly negative opinion.,,,,,,,https://reddit.com/r/neovim/comments/1nrjstu/gc_turns_into_g_if_i_wait_a_second/
+B4-040,OpenSSH,OpenSSH support for certified keys in CASignatureAlgorithms?,"We've got some AIX systems running AIX 7.3.2.  That is bundled with OpenSSH 8.1p1.  We're starting migration to AIX 7.3.3, and apparently that is bundled with OpenSSH 9.7p1.
+
+We noticed after the upgrade that sshd refused to start.  Unfortunately, AIX AInt uniX, so I'm not getting much in the way of error messages, even with DEBUG3.
+
+We can get it to start up by modifying CASignatureAlgorithms...  specifically, removing all the -cert-v01@openssh.com:
+
+* ecdsa-sha2-nistp256-cert-v01@openssh.com
+* ecdsa-sha2-nistp384
+* ecdsa-sha2-nistp384-cert-v01@openssh.com
+* ecdsa-sha2-nistp521
+* ecdsa-sha2-nistp521-cert-v01@openssh.com
+* ssh-ed25519
+* ssh-ed25519-cert-v01@openssh.com
+* rsa-sha2-256
+* rsa-sha2-256-cert-v01@openssh.com
+* rsa-sha2-512
+* rsa-sha2-512-cert-v01@openssh.com
+
+If we add any one of those back in, it will not start.  My vague understanding of those is that they are certified keys, and are supported in OpenSSH 9.7p1.  IBM is likely to blame OpenSSH for this, but I'll try opening a ticket with them.  However, I'm looking for background info or any ideas.
+
+Does anyone have any insight or info as to why this might be occurring?  Thanks!","[1:reply] The ones that end with [\-cert-v01@openssh.com](mailto:-cert-v01@openssh.com) are certificate keys. These certificates contain a signature from their certificate authority. CASignatureAlgorithms controls what signature algorithms are allowed for that signature.
+
+The spec for Ope…
+[2:OP] Ok, thanks!  I had read about the chained certs not being allowed, but didn't understand that these were that type.  I had also noted in the version changelogs for openssh that mentioned new versions would actually verify/validate (vs blindly accept) the values passed to it via…
+[3:reply] Only signature algorithms are valid in CASignatureAlgorithms, not key types (yes, this is confusing because some signature algorithm names overlap with key type names). You can list the signature algorithms supported using ""ssh -Q sig""
+[4:OP] Thanks.  My understanding is that those are chain cert signatures that were historically supported, but no longer are.  With newer openssh (only), ssh -Q CASignatureAlgorithms will show the valid possibilities.",title_body_comments,unclear,unclear,na,low,The saved text does not identify the software topic clearly enough.,,,,,,,https://reddit.com/r/OpenSSH/comments/1ic38ep/openssh_support_for_certified_keys_in/
+B4-041,chrome,I strongly advise against updating Chrome to the latest version 139.0.7258.67. It seems that Chrome and YouTube have started to fight hard against ad blockers.,,,title_only,yes,yes,technical_troubleshooting,low,The text may describe a problem to diagnose; check whether its main purpose is troubleshooting.,,,,,,,https://reddit.com/r/chrome/comments/1mnjyqj/i_strongly_advise_against_updating_chrome_to_the/
+B4-042,linux,Pywal16 put a copypasta based on a transphobic one if you update it on september 30th,,"[1:reply] Wayland can be a hard pill for some people to swallow...
+[2:reply] Odd
+[3:reply] I just checked the repo and it seems that there is an easter eggs .py file, that prints out more texts like this one.   
+I doubt that the intent is malicious, but it could mess with scripting  
+[https://github.com/eylles/pywal16/blob/master/pywal/eastereggs.py](https://github.co…
+[4:reply] I thought development on pywal had stopped some time ago?
+
+
+Or is this some fork of the original?
+[5:reply] transfobic? jajaja naaaa compare with a ducks maybe but not you",title_plus_comments,yes,yes,other,medium,The post discusses software without a clear repair request or chiefly negative opinion.,,,,,,,https://reddit.com/r/linux/comments/1nug3bb/pywal16_put_a_copypasta_based_on_a_transphobic/
+B4-043,rust,Leadership Council update — December 2025,,"[1:reply] rust's way of handling leadership and community concerns is honestly refreshing compared to other programming languages i've tried to learn.. transparency actually matters.
+[2:reply] *Glares at whatever the fuck it is that C++ is doing over in the corner*
+[3:reply] the end of rust leadership council's quarterly update",title_plus_comments,unclear,unclear,na,low,The saved text does not identify the software topic clearly enough.,,,,,,,https://reddit.com/r/rust/comments/1pj5f4c/leadership_council_update_december_2025/
+B4-044,Wordpress,"CVE-2026-9189: payment bypass in the Contact Form 7 PayPal &amp; Stripe Add-on (now patched, update if you use it)","I reported this one. If you run the Contact Form 7 PayPal &amp; Stripe Add-on at 2.4.9 or older to take PayPal payments, update to the latest version. The bug let an order be marked paid without a matching payment, because the plugin verified that the PayPal notification was genuine but never checked the amount, currency, or recipient. It is patched now. The writeup explains the root cause and the fix in plain language.",,title_and_body,yes,yes,other,low,The title presents news or release information rather than a problem to diagnose.,,,,,,,https://reddit.com/r/Wordpress/comments/1u9ea81/cve20269189_payment_bypass_in_the_contact_form_7/
+B4-045,postgresql,pgAdmin4 9.10 Random database names instead of the name i put. MacOs Tahoe,"So i got a message from pgAdmin to upgrade to the lastest version, i did it. Since i updated im having troubles now. When im trying to conect to the server with the Querry Tool Workspace im getting an error I cannot chaange to another postgres client, i have to use pgAdmin for my studies. connection failed: connection to server at ""127.0.0.1"", port 5432 failed: FATAL: database ""5"" does not exist But i didnt mention any database ""5"" its just replace my database name with a random numbers. I can use querry tool on a Default Workspace calling it with Tools but i want to use the Querry Tool Workspace. I asked that question to GROK but his solutions isnt working for me. To see if i maybe had another problem i created a database named ""5"" and than choose my postgres data base, you can see in the screenshot. And i conected to database 5 without problems so the problem im having is described, there is no other problem beside its change the name when trying to connect. If i create another database lets say ""people"" and put the name trying to connect i will get another number as an error like database ""18232"" does not exist Im thinking that is character encoding standards related but i dont have an idea where to apply that. Here is the connection window Here is what i get trying to connect",,title_and_body,yes,yes,technical_troubleshooting,medium,The post describes a concrete malfunction or asks how to diagnose or fix one.,,,,,,,https://stackoverflow.com/questions/79836335/pgadmin4-9-10-random-database-names-instead-of-the-name-i-put-macos-tahoe
+B4-046,Android,Vivo X300 Ultra tipped to surpass Vivo X200 Ultra with new battery upgrade to rival Find X9 Pro - NotebookCheck.net News,,"[1:reply] Now to wait and see if it actually releases globally. Reeeeally hoping it does, despite the incoming wallet cratering price.
+[2:reply] most probably yes global release when they launched originOS globally this year. it most probably will cost +20% above x300 pro
+[3:reply] Samsung 
+
+
+""Who's da?""
+[4:reply] One day theyll realise software is just as important as hardware.
+[5:reply] That's just you (and reddit/tech guys) though. The Chinese fans don't nitpick on software, in fact they like the bloat, considering it as convenience since they are going to install the same apps anyway (alipay, wechat, didi, taobao, etc).
+
+Then there are majority of global user…",title_plus_comments,yes,yes,other,low,The text does not clearly show a troubleshooting request or a mainly negative opinion.,,,,,,,https://reddit.com/r/Android/comments/1pbji46/vivo_x300_ultra_tipped_to_surpass_vivo_x200_ultra/
+B4-047,applehelp,GPS completely broken after updating from iOS 16 to 26.5,"Hey guys,
+
+I recently updated my phone from iOS 16 to 26.5, and now my GPS is completely messed up on all map apps (Google &amp; Apple maps).
+
+* **The issue:** The map freezes completely whenever I lock the screen or switch to another app. When I open it again, it lags and suddenly shows my speed jumping to like 200–400 km/h just trying to catch up.
+* **What I tried:** I already reinstalled the apps, reset network/location settings, but nothing worked.
+
+Anyone else dealt with this bug on 26.5? Any quick fixes? Thanks!
+
+pls help I am not AI I just made him type everything I said",,title_and_body,yes,yes,technical_troubleshooting,medium,The post describes a concrete malfunction or asks how to diagnose or fix one.,,,,,,,https://reddit.com/r/applehelp/comments/1uxzwmm/gps_completely_broken_after_updating_from_ios_16/
+B4-048,applehelp,Not able to send emails after recent beta update,"Greetings! Wanted to know if anyone was experiencing problems getting emails to send after the most recent beta update? I’ve deleted accounts from phone and re added, I’ve restored my phone (which was a dud because I can’t restore the most recent public iOS while my most recent backup is beta version), I’ve turned airplane mode on/off, restarted phone, used WiFi used cellular…I’m all out of options. I’ve tried sending from aol account, and several gmails. I’ve reset passwords for both app and gmails and still nothing. Please help ! 🫡",,title_and_body,yes,yes,technical_troubleshooting,medium,The post describes a concrete malfunction or asks how to diagnose or fix one.,,,,,,,https://reddit.com/r/applehelp/comments/1uqixev/not_able_to_send_emails_after_recent_beta_update/
+B4-049,Bitcoin,Can't believe he got it all wrong.,,"[1:reply] Why this is so funny? 😆
+[2:reply] I can't believe I see this exact meme posted every day.
+[3:reply] cuz buy bitcoin
+[4:reply] 😂😂😂😂😂👍👌
+[5:reply] Is that the yellow guy from clash royale",title_plus_comments,no,no,na,medium,The saved post does not describe software.,,,,,,,https://reddit.com/r/Bitcoin/comments/1p7y4ac/cant_believe_he_got_it_all_wrong/
+B4-050,chrome,Am I the only one who think it will be great if Chrome have sidebar tabs option like in Brave Browser?,,"[1:reply] I'm willing to bet that this sub will be filled with complaints two minutes after its released whatever!
+[2:reply] I'm really waiting for vertical bars actually.
+[3:OP] It will be very good.",title_plus_comments,yes,no,technical_troubleshooting,low,The text may describe a problem to diagnose; check whether its main purpose is troubleshooting.,,,,,,,https://reddit.com/r/chrome/comments/1oj9ktc/am_i_the_only_one_who_think_it_will_be_great_if/
+B4-051,applehelp,Anyone having issue downloading the update on 5g and can’t use WiFi?,Hug,"[1:reply] Make sure you've turned on ""allow more data on 5G"" in Settings &gt; Cellular &gt; Data Mode.
+
+Also, right before you posted this iCloud services were down, maybe that was interfering with the ability to download updates.
+[2:OP] If this don’t work I’m try to update again once they back up",title_body_comments,yes,yes,technical_troubleshooting,low,The text may describe a problem to diagnose; check whether its main purpose is troubleshooting.,,,,,,,https://reddit.com/r/applehelp/comments/1vs2znw/anyone_having_issue_downloading_the_update_on_5g/
+B4-052,Android,Xperia 1 VIII tipped to launch with major 200 MP camera upgrade but not the Sony sensor you may think,,"[1:reply] I just recently got a Xperia 1 V and it's an amazing device. I'm likely leaving camera performance on the table since I don't have a clue what most of the options in the apps actually do but I still get great pics with just a point and shoot.
+
+You read and watch reviews and you'…
+[2:reply] Isn't that Android?
+[3:reply] This is not a legit rumor. 
+
+https://www.reddit.com/r/SonyXperia/comments/1pdanxj/_/
+
+The nodar guy is just making stuff up
+[4:reply] apparently features and latency is about the same tier as hyperOS. 
+
+pretty dog shit for the price.
+[5:reply] Don't belive the shit talk on reddit. Xperia phones are premium devices rivaling iPhones. It's the little details that make them superior over most other phones.",title_plus_comments,yes,yes,other,low,The post discusses software without a clear repair request or chiefly negative opinion.,,,,,,,https://reddit.com/r/Android/comments/1pes6i4/xperia_1_viii_tipped_to_launch_with_major_200_mp/
+B4-053,Ubiquiti,Current rack setup 26,,"[1:OP] https://www.etsy.com/listing/4418411647/ubiquiti-unifi-cloud-gateway-fiber-1u?ref=share_ios_native_control
+[2:reply] Looking good 👍🏽
+
+You're nearing an upgrade to a 48 port pro max
+[3:reply] What are the details on the Cloud Gateway Fiber faceplate?
+[4:reply] I love my PDU.
+[5:reply] I just thought of this I know you have some racks in that rack 😂🔥🔥🔥🔥😎😎😎😎and also nice rack",title_plus_comments,unclear,unclear,na,low,The saved text does not identify the software topic clearly enough.,,,,,,,https://reddit.com/r/Ubiquiti/comments/1s1590l/current_rack_setup_26/
+B4-054,MacOS,Gained 20GB free space after updating to macOS 15.6,,,title_only,yes,yes,other,low,The post discusses software without a clear repair request or chiefly negative opinion.,,,,,,,https://reddit.com/r/MacOS/comments/1md507p/gained_20gb_free_space_after_updating_to_macos_156/
+B4-055,linux,Castle Game Engine : Upgrade to GTK 3,,"[1:reply] Just in time before GTK3 was obsoleted.
+[2:reply] We are still potentially several years before GTK5 release and GTK3 is going to be supported until that. GTK3 also supports Wayland so it's still pretty useful on modern Linux desktop.
+[3:reply] Nice work, must have been quite the process :)
+[4:reply] My boys using IE9 via Wine or smth.
+
+GTK6 is around the corner.",title_plus_comments,yes,yes,other,medium,The post discusses software without a clear repair request or chiefly negative opinion.,,,,,,,https://reddit.com/r/linux/comments/1qzzr7s/castle_game_engine_upgrade_to_gtk_3/
+B4-056,Android,New Google Pixel October 2025 update rolling out with ‘performance improvements’,,"[1:reply] Just got it, feels so much faster /s
+[2:reply] How does the core software updates on your 4 figure priced device have some of the worst patch notes I've ever seen?
+[3:reply] It's a feature
+[4:reply] Just got finally I'm able to get 4sot on wifi all day /s
+[5:reply] All I want is for added cards in GOOGLE wallet to show up. 🤔",title_plus_comments,yes,yes,other,medium,The title presents news or release information rather than a problem to diagnose.,,,,,,,https://reddit.com/r/Android/comments/1okfwhg/new_google_pixel_october_2025_update_rolling_out/
+B4-057,Fedora,"Log In, Log Out (Fedora 43 Plasma)","So I just updated my Nvidia drivers on my PC to the latest version. Upon finalizing the update, I rebooted the PC. I log in as normal. Everything works as normal... For about 1-2 minutes. Suddenly I get thrown back to the login screen. I log back in, but then the screen just... Freezes. I can't do anything. Ctrl+Alt+F5 will reset the Login screen, but logging back in just triggers the freeze again. I'm unsure of what's happening here.
+
+Edit: To clarify, I have an Nvidia GeForce 5070 and I'm on kernel version 6.18.13. The Nvidia driver version is 580.126.18. While the driver itself was already updated, I opted to grab the xorg-x11-drv-nvidia-cuda package and install that. Once I rebooted the PC, the issue started arising.",,title_and_body,yes,yes,technical_troubleshooting,medium,The post describes a concrete malfunction or asks how to diagnose or fix one.,,,,,,,https://reddit.com/r/Fedora/comments/1rka5nv/log_in_log_out_fedora_43_plasma/
+B4-058,homelab,Proxmox and safari,"Recently after updating to macOS 26.4 and later, I am unable to use proxmox console in safari browser. Using comet and chrome browsers the proxmox console is visible and legible. Any solution. Am tired of using many browsers to open different things.",,title_and_body,yes,yes,technical_troubleshooting,medium,The post describes a concrete malfunction or asks how to diagnose or fix one.,,,,,,,https://reddit.com/r/homelab/comments/1sikztg/proxmox_and_safari/
+B4-059,chrome,My Google Account keeps logging out multiple times a day for almost a year. It constantly tell me to verify and when it's not I can't even use my email. I always verify so why does this keep happening?,,"[1:reply] Thank you for your submission to /r/Chrome! We hope you'll find the help you need. Once you've found a solution to your issue, please comment ""**!solved**"" under this comment to mark the post as solved. Thanks!
+
+
+*I am a bot, and this action was performed automatically. Please […
+[2:reply] Can you please share some screenshots
+[3:OP] https://preview.redd.it/orludjare70g1.png?width=1080&amp;format=png&amp;auto=webp&amp;s=7159394e4e46c2477a5e78af2b70f118bd6080f1",title_plus_comments,yes,no,technical_troubleshooting,low,The text may describe a problem to diagnose; check whether its main purpose is troubleshooting.,,,,,,,https://reddit.com/r/chrome/comments/1ose42w/my_google_account_keeps_logging_out_multiple/
+B4-060,Fedora,Blender on Fedora 44 is Broken!,"Hi friends, I need your wisdom:
+
+  
+  
+I have updated to Fedora 44 and Blender 5.1 from official repos. It opens and works, but the Color Profiles for rendering are missing! Running Blender on terminar returns this error:
+
+
+
+""ERROR OpenColorIO Error: Error: Loading the OCIO profile '/usr/share/blender/5.1/datafiles/colormanagement/config.ocio' failed. This .ocio config  '/usr/share/blender/5.1/datafiles/colormanagement/config.ocio' is version 2.5. This version of the OpenColorIO library (2.4.2) is not able to load that config version.""
+
+
+
+Blender needs OpenColorIO 2.5 but Fedora ships version 2.4, and for this reason the Color Management Profiles for rendering are missing, resulting on broken colors on Renders and Viewport!
+
+
+
+I have tried the Blender official build from [Blender.org](http://Blender.org), but it has no support for GPU denoiser and this is not acceptable.
+
+
+
+How is this possible? Blender is a very important productive tool... Any idea how to solve this problem? Fedora 43 has the same problem since updated to Blender 5.1 too.
+
+
+
+Thanks in advance.",,title_and_body,yes,yes,technical_troubleshooting,medium,The post describes a concrete malfunction or asks how to diagnose or fix one.,,,,,,,https://reddit.com/r/Fedora/comments/1tfcqxt/blender_on_fedora_44_is_broken/
+B4-061,SQL,"Pls help, ssrs 2022 not working after upgrading from sql/ssrs2012","I upgraded ssrs 2022, configured db and restored encryption key.  Then upgraded sql 2016 to 2022 and that completed.  
+
+When I went to http://localshost/Reports, it gave me an error about not being configured properly.   /ReportServer shows some error related to wwwroot/ReportServer.   
+
+Did some googling, found that ssrs 2022 does not use IIS wwwroot directory.  Checked *keys* table in the ReportServer db and found 2 instances of ssrs (one with new instance name and the other with old instance name from 2016).  Google sear Lin suggests running an sql command to delete all entries, filtered on machinename, then open ssrsbconfiguration and reapply web service url so that it can rewrite run configuration file?  
+
+I’m fairly new to sql and found these steps from googling.  I have sysadmi background but have very limited knowledge of sql.
+
+I use Varonis.  How can I fix SSRS 2022 so that Varonis can work again.  
+
+TIA","[1:reply] Did you just casually do this in prod?
+[2:OP] yes, did exactly that, on top of changing IIS port to 8081.  thanks.
+
+it was from 2016 to 2022
+[3:reply] https://learn.microsoft.com/en-us/sql/reporting-services/install-windows/upgrade-and-migrate-reporting-services?view=sql-server-ver17
+
+I just went through this upgrade, and had no issues. Be sure to do pre-upgrade steps.
+[4:reply] 2012 to 2022 is a massive leap. microsoft completely ripped ssrs out of the main sql installer back in 2017, so trying to carry over an old config almost always mangles things.
+
+did you actually use the report server configuration manager to set up the web portal url and re-bind…
+[5:reply] I’d avoid deleting anything from the `Keys` table for now. I’d first check the 2022 instance in Reporting Services Configuration Manager and make sure the database, Web Service URL, and Web Portal URL are all set correctly.Also SSRS 2022 doesn’t use IIS `wwwroot`, so that part c…",title_body_comments,unclear,unclear,na,low,The saved text does not identify the software topic clearly enough.,,,,,,,https://reddit.com/r/SQL/comments/1wrmi5d/pls_help_ssrs_2022_not_working_after_upgrading/
+B4-062,comfyui,"Who is the culprit here? (pic shows all the extension I added + the deprecated legacy API error). Afaik none of those can be updated further so, can I manually edit some files to fix it myself? Thanks...",,"[1:OP] This is what console says at launch:  
+  
+&gt; Adding extra search path checkpoints D:\AI\Data\Models\StableDiffusion  
+Adding extra search path diffusers D:\AI\Data\Models\Diffusers  
+Adding extra search path loras D:\AI\Data\Models\Lora  
+Adding extra search path loras D:\AI\D…
+[2:reply] It's just a warning that you can safely ignore.
+To my knowledge you can't ""fix"" it since there is no migration path or stable frontend APIs defined (yet).
+[3:reply] open dev-tools of your browser, go to ""Network"" tab, search for the js (for example ui.js), hover over the ""Initiator"" column, it will tell you the culprit. 
+
+https://preview.redd.it/niy6pcbv8ifg1.png?width=681&amp;format=png&amp;auto=webp&amp;s=f0a6a87975b9abbfd5a671f984976126f…",title_plus_comments,yes,yes,technical_troubleshooting,medium,The post describes a concrete malfunction or asks how to diagnose or fix one.,,,,,,,https://reddit.com/r/comfyui/comments/1qmk1ih/who_is_the_culprit_here_pic_shows_all_the/
+B4-063,homeassistant,"All Zigbee drops overnight because the whole USB host controller dies (xHCI ""HC died"") — HAOS on bare-metal Dell, anyone else?","&amp;#x200B;
+
+&amp;#x200B;
+
+Running HAOS bare-metal on a Dell Optiplex, ZHA with a Sonoff ZBDongle-E (EZSP), \~380 devices. Since updating to HA OS 18.0 Two nights running, every Zigbee device has gone unavailable overnight.
+
+&amp;#x200B;
+
+Dug into the host kernel log and it isn't ZHA's fault — the USB host controller itself is dying:
+
+&amp;#x200B;
+
+\`\`\`
+
+xhci\_hcd 0000:00:14.0: xHCI host not responding to stop endpoint command
+
+xhci\_hcd 0000:00:14.0: xHCI host controller not responding, assume dead
+
+xhci\_hcd 0000:00:14.0: HC died; cleaning up
+
+\`\`\`
+
+&amp;#x200B;
+
+Six USB devices disconnect in the same second, the Sonoff's \`/dev/serial/by-id/...\` node disappears, and ZHA sits in \`setup\_retry\` with \`\[Errno 2\] No such file or directory\` on the serial path. It happens in the small hours while the box is idle.
+
+&amp;#x200B;
+
+The telling part: a HA restart (soft) does nothing — you can't software-restart a dead PCI controller, the device node stays gone. Only a full cold power-cycle brings it back, and then it lasts a few hours before dying again.
+
+&amp;#x200B;
+
+My working theory is PCIe ASPM / USB power management failing to wake the controller from a low-power state (the classic D3hot→D0 wake failure).
+
+&amp;#x200B;
+
+Questions for the hive mind:
+
+&amp;#x200B;
+
+1. Anyone hit this recently, especially in the last week or two? Trying to rule out a kernel/HAOS regression versus my own hardware.
+
+2. Anyone cured it for good with \`pcie\_aspm=off\`, \`usbcore.autosuspend=-1\`, or by disabling ASPM / C-States / Deep Sleep in the BIOS?
+
+3. On HAOS generic x86-64, what's the current sane way to add kernel cmdline params without bricking boot? There's no \`cmdline.txt\` like on a Pi.
+
+&amp;#x200B;
+
+Setup specifics: Dell Optiplex \[model\], HAOS \[OS version\], kernel \[version\], coordinator on a \[USB2/USB3\] port \[with/without a powered extension lead\]. Happy to post the full dmesg around the disconnect if useful.","[1:reply] your ASPM wake failure theory tracks really well, that exact D3hot→D0 issue has bitten people on optiplexes before with way fewer devices than 380. for the cmdline params on HAOS x86, the supported path is editing the grub config through the ha os menu or using the \`kernel\_cmd…
+[2:reply] Ditch the USB dongle and get a POE coordinator.
+[3:reply] I was waiting for somebody to say that.
+[4:OP] Thanks, that's reassuring, points more at my own box than a regression.
+
+Did disabling ASPM in the BIOS actually sort it for you, or did you end up needing the cmdline param? And which Optiplex gen? Dell seems to expose ASPM / C-State toggles pretty inconsistently across generat…
+[5:reply] Got the same dongle and updated my HAOS about 6 hours ago. No issues. Virtualized on TrueNAS with USB passthrough.",title_body_comments,yes,yes,technical_troubleshooting,medium,The post describes a concrete malfunction or asks how to diagnose or fix one.,,,,,,,https://reddit.com/r/homeassistant/comments/1uaqe9o/all_zigbee_drops_overnight_because_the_whole_usb/
+B4-064,comfyui,Is it just me? Missing search box in KJNodes Get/Set nodes.,"https://preview.redd.it/t0rn44t9re3h1.png?width=541&amp;format=png&amp;auto=webp&amp;s=7ca99b16f5dd0ce48e0fd369b851a75cbde09dbc
+
+I updated comfyUI recently, and I dont have a search anymore 😞 without a search it's annoying on big workflows. The node works when I manually click the variables however
+
+I dont see anyone saying anything on KJ's github issues and I'm not sure if my custom\_nodes are causing problems or its a KJ bug.","[1:reply] [SET NODE and GET NODE Bug · Issue #585 · kijai/ComfyUI-KJNodes](https://github.com/kijai/ComfyUI-KJNodes/issues/585)
+[2:reply] Same here. I only realised after reading your post. I can't even set other variables on existing SET nodes.
+[3:reply] same, super annoying
+[4:reply] Check the browser dev console for errors unless you are on ComfyUI Desktop without access to it.
+[5:reply] https://preview.redd.it/51t3ebxp5g3h1.png?width=1080&amp;format=png&amp;auto=webp&amp;s=47ef3af0c539b27bdb96ab71af82642afeaab598",title_body_comments,yes,yes,general_dissatisfaction,low,The main message criticizes software without a clear request to diagnose or fix it.,,,,,,,https://reddit.com/r/comfyui/comments/1tnw4uz/is_it_just_me_missing_search_box_in_kjnodes/
+B4-065,applehelp,ipad put itself in recovery mode,"can someone please help me its been over a day it randomly went to the screen on the first slide and its done that a few times randomly over the years and i’ve thought anything of it and it was taking ages to go off that screen so i went to get a drink and came back to the second screen, when i tried to do what it told me i kept getting “unable to recover” i tried again but used the nearby device one with my phone still saying unable to recover i went to a tech shop (not apple but i’m going to apple tomorrow) and the guy tried to do the itunes thing and said he was gonna update it and when i came back to get my ipad it was still on the same screen and he said i was going to have to fully reset my iPad and loose everything on it which obviously i dont want to do..i ran out of icloud storage like a year ago so most things aren’t backed up which i know is bad but i’ve  just had a lot going on and now i dont know what to do  - also sorry if this is under the wrong flair i dont really use reddit this was a last option before going to apple",,title_and_body,yes,yes,technical_troubleshooting,medium,The post describes a concrete malfunction or asks how to diagnose or fix one.,,,,,,,https://reddit.com/r/applehelp/comments/1t4yiv7/ipad_put_itself_in_recovery_mode/
+B4-066,Android,Early Galaxy S27 Ultra rumor says Samsung might finally upgrade its main 200MP sensor,,"[1:reply] It's also rumored s29u will have a 50k mah battery
+[2:reply] lol, jesus. The S26 line hasn't even shipped to most people yet and there are already rumors about how much better its replacement will be.
+[3:reply] I’m rumored to get a really hot giflfriend this year
+[4:reply] Haha exactly. This time, yo, this time we upgrade, I swear to god we do, no not the other time but this time. 
+
+So full of shit.
+[5:reply] Haha every year the same story and in the end when that phone finally arrives, the rumor turned to be pure fantasy.",title_plus_comments,yes,yes,other,low,The post discusses software without a clear repair request or chiefly negative opinion.,,,,,,,https://reddit.com/r/Android/comments/1rj06fw/early_galaxy_s27_ultra_rumor_says_samsung_might/
+B4-067,applehelp,Issues since iOS 16.6 with multiple iPhone models.,"Hey guys, like the title has said I’ve been having some issues pretty much since iOS 16.6 on my 13 Pro that seemed to follow me to my 14 Pro and my current 16 Pro. Essentially, I have noticed that since that particular update, my phone is always warm and my battery life is rarely able to crack more than four hours when I used to regularly get 7-8 hours of screen on time. I don’t particularly think I use any differently from my other friends and I’ve gone through their settings and apps and we’re pretty much aligned yet they all seem to be doing just fine. I’m essentially at wits end because it seems no matter which iPhone I upgraded to. I seem to always have this issue and Apple support hasn’t been very helpful either. One thing I should know is that I do use a Canadian model iPhone and have for a few years now in Europe (Sweden) but all the bands that I should need are already available on that model so I don’t think it’s related to this. I do have my Canadian phone plan (physical SIM) active for mainly calls and texts, but my main data and cellular activities go through my Swedish phone plan (eSIM) not sure if this information helps or not. But I’m essentially at wits end and for someone like me who is normally very resourceful and technologically savvy this has essentially defeated me for the last three years. My phone’s battery is always awful and even doing something as basic as browsing Reddit seems to make my phone feel like I’m playing a graphically intensive game. Nothing seems to help. I’ve reset multiple times. I’ve even tried a DFU reset where I reinstall the operating system from scratch and within a few days the issues return. Apple even offered to swap out my iPhone 14 Pro for a brand new one because they couldn’t figure it out and that didn’t even seem to help either but again any sort of help on this would be fantastic even if it’s just a suggestion. I’m literally at wits end and cannot think of anything that is causing this in particular as the battery usage shows nothing out of the ordinary.",,title_and_body,yes,yes,technical_troubleshooting,low,The text may describe a problem to diagnose; check whether its main purpose is troubleshooting.,,,,,,,https://reddit.com/r/applehelp/comments/1r5cpj9/issues_since_ios_166_with_multiple_iphone_models/
+B4-068,Fedora,Can't upgrade to 44,"I'm on Fedora KDE 43, and I wanna update to 44, but I can't see any option to do so in the discover app. It says my system is up to date, even tho the system info shows im one fedora 43. Anybody know what's up?",,title_and_body,yes,yes,other,medium,The post discusses software without a clear repair request or chiefly negative opinion.,,,,,,,https://reddit.com/r/Fedora/comments/1sy3e3y/cant_upgrade_to_44/
+B4-069,firefox,Can't access full container list with Always Open Site in Container icon,"When I click the Always Open Site in Container icon, only the first 17 of 30+ containers are visible because the scroll bars are missing.
+
+This wasn't an issue before and I wonder if something broke with the recent update. 
+
+Is anyone else having this issue?",,title_and_body,yes,yes,technical_troubleshooting,medium,The post describes a concrete malfunction or asks how to diagnose or fix one.,,,,,,,https://reddit.com/r/firefox/comments/1uk9ybw/cant_access_full_container_list_with_always_open/
+B4-070,Android,The Galaxy S26 Ultra will have a Privacy Display feature that limits visibility from side angles,,"[1:reply] Initially I was going to say this is like $5 screen protector, but somehow it can be toggled on/off electronically? Impressive.
+[2:OP] **Privacy display** settings screenshots ([source](https://x.com/achultra/status/1973610514719842717)):
+
+https://preview.redd.it/lb4kbvzb20tf1.png?width=2160&amp;format=png&amp;auto=webp&amp;s=a504266f773cfd7754418efd1f74b0155a5abad7
+[3:reply] Samsung innovating.... Nice
+[4:reply] Yeah it must be some sort of electrochromic film/glass that can be turned on and off. I wonder how much the battery drain will be with it on 🤔
+[5:reply] This is possibly the most innovative phone feature in years.",title_plus_comments,yes,no,other,low,The post discusses software without a clear repair request or chiefly negative opinion.,,,,,,,https://reddit.com/r/Android/comments/1nxh6rx/the_galaxy_s26_ultra_will_have_a_privacy_display/
+B4-071,PFSENSE,"Just upgraded, no web UI or internet",So I just updated to 2.9 and have been unable to access the web interface since. Everything looks fine from the console. I’ve tried rebooting and restarting the webui. I am able to ping the box. Also tried direct Ethernet connection vs WiFi but still no luck. Any thoughts for what to try before I wipe?,"[1:reply] Do you have a Celeron J processor?
+
+Release notes have  a warning about a possible kernel panic issue on these processors and instructions on how to mitigate before the upgrade.
+
+Read about the workaround here:
+
+https://www.reddit.com/r/PFSENSE/s/Ce5chsAGkQ
+
+I was affected by th…
+[2:reply] I switched today and it worked fine.  I switched from 2.8.1 with system patches to 2.9.
+[3:OP] I thought this may be it but when I try to reinstall 2.8.1 I get this error:
+
+\[1/11 Fetching pfSense-base-2.8.1:  
+pkg-static: Failed to fetch [https://pkg.pfsense.org/pfSense\_v2\_8\_1\_amd64-c](https://pkg.pfsense.org/pfSense_v2_8_1_amd64-c)
+
+Edit: just checked and it’s a Cel…",title_body_comments,yes,yes,technical_troubleshooting,medium,The post describes a concrete malfunction or asks how to diagnose or fix one.,,,,,,,https://reddit.com/r/PFSENSE/comments/1vvvhkc/just_upgraded_no_web_ui_or_internet/
+B4-072,Android,Gboard's emoji panel is getting a cleaner look in its latest update,,,title_only,yes,yes,other,medium,The post discusses software without a clear repair request or chiefly negative opinion.,,,,,,,https://reddit.com/r/Android/comments/1kn7g7m/gboards_emoji_panel_is_getting_a_cleaner_look_in/
+B4-073,PowerToys,Light Switch logs filled up my hard drive,,"[1:reply] Hello this is Jaylyn (@Jaylyn-Barbee on gh), do you have any repro steps or were you just using Light Switch as normal? I have seen this bug in development once but haven't been able to track down what is causing this state. The new improvements in 0.96.0 should make Light Switc…
+[2:OP] My one-month-old laptop suddenly ground to a halt last night, with nearly the entire drive filled up. I ended up downloading TreeSize to find the culprit and, boy, did I.
+
+[This is being tracked as a bug here.](https://github.com/microsoft/powertoys/issues/43026) And a comment f…
+[3:reply] Holy shit! I’m about to uninstall the whole thing right now because of this bug. I like my SSDs healthy thanks but no thanks.",title_plus_comments,yes,no,other,low,The post discusses software without a clear repair request or chiefly negative opinion.,,,,,,,https://reddit.com/r/PowerToys/comments/1ov99ij/light_switch_logs_filled_up_my_hard_drive/
+B4-074,Android,Samsung Galaxy update removing some Android recovery tools,,"[1:reply] It is impossible to hear any good news nowadays from any big tech companies. Shame on google and Samsung for absolutely destroying everything their products stood for, and shame on regulators for letting them get away with this. We need a third smartphone OS option more than eve…
+[2:reply] Hopefully everyone remembers when Mishaal Rahman told you every day that Google/Samsung wasn’t locking down Android. Guess who he works for now?
+
+Most OEMs have locked their bootloaders, Google is restricting sideloading, and now Samsung is doing this.
+
+The writing is on the wal…
+[3:reply] Everything that’s good for consumers will eventually come to an end. Management changes, values change, and once you have market share and an ecosystem that users invested in, where are you to go once Samsung and google shitify their os?
+[4:reply] Wtf why would they remove wipe cache partition? I do that after every big release (I know people say it's automatically done but I definitely see a difference when I do it manually placebo or not).
+[5:reply] Inb4 Samsung users say they do not care since they don't use them. smh
+
+What could've contributed to Samsung fanbase doing an about face through the years and turning like apple fans?",title_plus_comments,yes,yes,other,low,The post discusses software without a clear repair request or chiefly negative opinion.,,,,,,,https://reddit.com/r/Android/comments/1rgmzbu/samsung_galaxy_update_removing_some_android/
+B4-075,Android,OnePlus 15T will feature an upgraded periscope telephoto camera,,"[1:reply] Great now make it available internationally
+[2:reply] I always found myself to be using more the telephoto instead of the ultrawide on my phones sure having them both its better than just one less lens (except if said lens is macro, yuck) but im feeling the ultrawide has become a bit niche ? Because we've already transitioned to wi…
+[3:reply] Feels like this is just a result in a shift in inventory. They seem to have stop making the 2x jn5 and this can't possibly get the 3x imx882 since that would otherwise upstage the OP15  
+
+They're just throwing on the 3.5x jn5 they must have made plenty of like they do on their o…
+[4:reply] No ultrawide?
+[5:reply] I occasionally get good ultrawide shots but ultimately I really just use the autofocus-enabled ultrawide for macro shots, but that can be done on other sensors too.",title_plus_comments,yes,yes,other,medium,The post discusses software without a clear repair request or chiefly negative opinion.,,,,,,,https://reddit.com/r/Android/comments/1rip89a/oneplus_15t_will_feature_an_upgraded_periscope/
+B4-076,openclaw,It is genuinely frustrating. How does every single version update always break something?,I just updates my OpenClaw to the latest v2026.6.5 and basically all my plugins broke. At this point I'm constantly jumping between OpenClaw updating itself for no reason and me trying to fix my config and to be honest it is very annoying and time consuming.,"[1:reply] you must be new. welcome
+[2:reply] The thing I find amazing is that many of the issues/breaks are not optional. You don't 'wait til it stabilizes'. I didn't update for quite a while in hopes of some stabilization. Instead, the update created half a dozen issues and largely destroyed my install. It's like, you're…
+[3:reply] Vibe coded slop.
+[4:reply] The software is in alpha. Things are going to break. That's expected.
+[5:reply] I only do updates only if there a real gain in my use case. Otherwise, I keep my stable system",title_body_comments,yes,yes,technical_troubleshooting,medium,The post describes a concrete malfunction or asks how to diagnose or fix one.,,,,,,,https://reddit.com/r/openclaw/comments/1u3vufd/it_is_genuinely_frustrating_how_does_every_single/
+B4-077,comfyui,PSA for any ComfyUI users out there with AMD graphics cards... upgrade to ROCm 10!  It is a game changer...,"I made [this thread](https://www.reddit.com/r/comfyui/comments/1wtrvxi/comfyui_makes_my_pc_nearly_unusable_while_jobs/) yesterday because ComfyUI would make my whole PC stutter and choke, and just be a bitch to use while a workflow was running.
+
+It's also always been pretty damned slow, and you hear things about the performance the Nvidia users get to enjoy and have to feel a little jealous.  But someone in the thread suggested that I upgrade ROCm.
+
+Well I upgraded from ROCm 7.2 to ROCm 10 today and it is a WORLD of difference.  ROCm 10 was released fairly recently on August 27, 2026.  If you follow [this link here](https://rocm.docs.amd.com/projects/ai-ecosystem/en/latest/frameworks/pytorch/install.html?fam=all&amp;os=linux&amp;rocm-ver=10.0.0&amp;pytorch-ver=2.13.0&amp;i=pip&amp;w=compute&amp;gfx=gfx1201) it will easily provide you with the commands to install the latest version using pip.  I am on a self-managed python environment with ComfyUI portable.  If you're using something else, I'm afraid I don't know how to help you but I'm sure someone else can figure it out.
+
+I am able to generate images in Krea-2 in just under 60 seconds now, whereas before it was taking over 2 minutes.  So that's more than a 50% reduction.  Minimax H3 is also running a lot faster. Everything is much faster.  And best of all, my system isn't freezing and locking up anymore while the workflows run.  It's just smooth sailing.  This means I can use the computer for whatever I want while it runs, even playing guitar through a VST in my DAW, which is seriously impressive stability that it's not crackling and popping like it used to!
+
+I'm also not having to force the CLIP model into CPU instead of on the GPU anymore.  It used to crash ComfyUI, but now it doesn't. This too saves me several minutes per generation in Minimax.
+
+I did have one problem.  My Krea-2 workflow was using the standard KSampler, but this was producing gray and corrupted images, only intermittently.  Very strange.  By switching to ClownShark Sampler with similar settings, I don't have that issue anymore and I learned a few things.
+
+Anyway, this is a must-do if you're using AMD.  Amazing.  Seems like AMD finally is getting their act together with this stuff.  
+
+EDIT:  Also, if you're not using comfykitchen attention, make that happen as well!  Huge performance gains.","[1:reply] About damn time AMD users got some love. That jump from over 2 min to under 60 sec is massive, especially with the system actually staying usable while it runs
+
+  
+ROCm 10 sounds like what 7 should've been from the start. Been seeing a lot of folks on the sub struggling with AMD…",title_body_comments,yes,yes,technical_troubleshooting,medium,The post describes a concrete malfunction or asks how to diagnose or fix one.,,,,,,,https://reddit.com/r/comfyui/comments/1wucsoy/psa_for_any_comfyui_users_out_there_with_amd/
+B4-078,applehelp,No iMessage notifications,"After I updated to IOS 27, I don’t get any iMessage notifications. Even thought silent mode is off, and dnd is off, I still don’t get them. Anyone know why?",,title_and_body,yes,yes,technical_troubleshooting,low,The text may describe a problem to diagnose; check whether its main purpose is troubleshooting.,,,,,,,https://reddit.com/r/applehelp/comments/1wtqbqr/no_imessage_notifications/
+B4-079,transformers,"So, I made some better upgrades for ss86 devy... And uploaded them for free.","https://makerworld.com/en/models/1852877-ss86-devastator-upgrades-rev1#profileId-1980900
+
+And yes, they are free.","[1:reply] Jeez, thank you! Mixmaster's still in my pile of loot. When I get him I'll try some of these and give you credit if I post pics here. Thanks again!
+[2:reply] Good on you, its cool to see crossposts from F.B to Reddit 👍😎
+[3:OP] Hatchbox pastel green.
+
+Inland purple.
+
+I haven't found a correct ""nearly black"" for the wrists, so I might remake the entire forearms.
+[4:OP] Hey, when I am sharing something, for free, that many are asking for, I like to spread the love everywhere.
+[5:OP] Ahhh...that is part of this print.
+
+I just made a new rear waist, that eliminates the butt flap entirely.
+
+You see, centering the knees, makes the butt flap not fit in trailer mode. Lengthing the thigh also makes it not fit in trailer mode.
+
+So, once I did the centering, and ext…",title_body_comments,no,no,na,medium,The saved post does not describe software.,,,,,,,https://reddit.com/r/transformers/comments/1nxtvfr/so_i_made_some_better_upgrades_for_ss86_devy_and/
+B4-080,Bitcoin,"""If you don't believe me or don't get it, I don't have time to try and convince you sorry."" Satoshi Nakamoto",,"[1:reply] ""Lions don't concern themselves with the opinion of sheep...""
+
+Just keep stacking ignore the noise 😎
+[2:reply] 🙌🏼🙌🏼🙌🏼
+[3:reply] These be some wise words matie! Thank ye kindly fer sharin' 🫡🏴‍☠️
+Bitcoin be the one true crypto treasure!",title_plus_comments,no,no,na,low,The saved post does not describe software.,,,,,,,https://reddit.com/r/Bitcoin/comments/1pd252e/if_you_dont_believe_me_or_dont_get_it_i_dont_have/
+B4-081,chrome,Error code: STATUS_ACCESS_VIOLATION,"Ive no idea whats happened. From this morning every time i try to load a web page i get this message Error code: STATUS\_ACCESS\_VIOLATION - If i refresh the page it loads. This hasnt happened before today. Ive updated Chrome, Ive cleared cookies, Ive reset back to default settings, ive run with no extensions and ive even turned the computer on and off again! Nothing seems to solve it. Im at a loss. Even Google doesnt seem to throw up any solutions. Any ideas?",,title_and_body,yes,yes,technical_troubleshooting,medium,The post describes a concrete malfunction or asks how to diagnose or fix one.,,,,,,,https://reddit.com/r/chrome/comments/1texnet/error_code_status_access_violation/
+B4-082,linux,NTFSPLUS Driver Updated As It Works Toward The Mainline Kernel,,"[1:reply] So we can finally get an ntfs driver that does not require to boot Windows and perform a disk check when you did shutdown Windows instead of Rebooting it? (Yes, that is really a thing)
+[2:reply] As far as I know, not at all. (NTFS's permission model is incompatible with Unix, and some important Linux binaries are permission-sensitive and so would refuse to run)
+
+(But also, why would you want to do that?)
+[3:reply] It probably won't and it's not its fault. Windows is doing partial hibernate during shutdown and some file system metadata of all mounted partitions are restored when Windows is starting making write unsafe. If you want to use Windows partitions on Linux without rebooting Window…
+[4:reply] Isn’t that because windows basically hibernates on shutdown by default?
+[5:reply] No, because that has nothing to do with the NTFS driver. Windows leaves the filesystem locked when it hibernates (which it must do, otherwise its state would get corrupted).
+
+If you don't want that to happen when you shut down, disable Fast Startup.",title_plus_comments,yes,yes,other,medium,The post discusses software without a clear repair request or chiefly negative opinion.,,,,,,,https://reddit.com/r/linux/comments/1p6m6h2/ntfsplus_driver_updated_as_it_works_toward_the/
+B4-083,Ubiquiti,Update 7.4.1 to 7.5.4 on USW Pro Max 16 PoE. Improved CPU usage,"I can see the CPU usage much lower after upgrading to the early access 7.5.4. The line was at the same level even when switched to a monthly view. I upgraded to investigate issues with my home cameras, and could be worth to give it a try in less critical environments.","[1:reply] I went and looked at mine. i can see it cut the cpu usage in half for me.
+[2:reply] True, i checked mine. CPU usage has also been improved.👏
+[3:reply] Hello!  Thanks for posting on r/Ubiquiti!
+
+This subreddit is here to provide unofficial technical support to people who use or want to dive into the world of Ubiquiti products.  If you haven’t already been descriptive in your post, please take the time to edit it and add as many…",title_body_comments,unclear,unclear,na,low,The saved text does not identify the software topic clearly enough.,,,,,,,https://reddit.com/r/Ubiquiti/comments/1tpb2t2/update_741_to_754_on_usw_pro_max_16_poe_improved/
+B4-084,react-native,No script URL provided. Make sure the packager is running or you have embedded a JS bundle in your application bundle,"Summary Recently I updated react native and expo in my Bareflow. react native was updated to 0.81.5 from 0.75.1 and Expo to 54 from 51. Android was built successfully, but on iOS, this error appears. Earlier the build was failing with error in imports No such module expo originating in AppDelegate.swift file. Then I added _arm64_ to excluded architecture as advised in another discussion. I tried RN version 0.79 and 0.78 as well, but it gets stuck here. Tried deleting and installing everything again, but it didn't work as well. npx react-native info System: OS: macOS 15.4.1 CPU: (8) x64 Apple M1 Memory: 42.91 MB / 16.00 GB Shell: version: ""5.9"" path: /bin/zsh Binaries: Node: version: 24.11.1 path: /usr/local/opt/node@24/bin/node Yarn: version: 1.22.18 path: /usr/local/bin/yarn npm: version: 11.6.2 path: /usr/local/opt/node@24/bin/npm Watchman: version: 2025.12.15.00 path: /usr/local/bin/watchman Managers: CocoaPods: version: 1.16.2 path: /usr/local/bin/pod SDKs: iOS SDK: Platforms: - DriverKit 24.2 - iOS 18.2 - macOS 15.2 - tvOS 18.2 - visionOS 2.2 - watchOS 11.2 Android SDK: Not Found IDEs: Android Studio: 2024.1 AI-241.18034.62.2412.12266719 Xcode: version: 16.2/16C5032a path: /usr/bin/xcodebuild Languages: Java: version: 17.0.14 path: /usr/bin/javac Ruby: version: 2.6.10 path: /usr/bin/ruby npmPackages: ""@react-native-community/cli"": installed: 20.0.0 wanted: 20.0.0 react: installed: 19.1.0 wanted: 19.1.0 react-native: installed: 0.81.5 wanted: 0.81.5 react-native-macos: Not Found npmGlobalPackages: ""\*react-native\*"": Not Found Android: hermesEnabled: true newArchEnabled: true iOS: hermesEnabled: true newArchEnabled: true Environment expo-env-info 2.0.8 environment info: System: OS: macOS 15.4.1 Shell: 5.9 - /bin/zsh Binaries: Node: 24.11.1 - /usr/local/opt/node@24/bin/node Yarn: 1.22.18 - /usr/local/bin/yarn npm: 11.6.2 - /usr/local/opt/node@24/bin/npm Watchman: 2025.03.03.00 - /usr/local/bin/watchman Managers: CocoaPods: 1.16.2 - /usr/local/bin/pod SDKs: iOS SDK: Platforms: DriverKit 24.2, iOS 18.2, macOS 15.2, tvOS 18.2, visionOS 2.2, watchOS 11.2 IDEs: Android Studio: 2024.1 AI-241.18034.62.2412.12266719 Xcode: 16.2/16C5032a - /usr/bin/xcodebuild npmPackages: babel-preset-expo: \~54.0.0 =\> 54.0.8 expo: \~54.0.0 =\> 54.0.29 expo-updates: ^29.0.15 =\> 29.0.15 react: 19.1.0 =\> 19.1.0 react-dom: ^19.1.0 =\> 19.2.1 react-native: 0.81.5 =\> 0.81.5 Expo Workflow: bare \`\`\` Expo Doctor Diagnostics 12/17 checks passed. 5 checks failed. Possible issues detected: Use the --verbose flag to see more details about passed checks. ✖ Check package.json for common issues The following scripts in package.json conflict with the contents of node_modules/.bin: jetify. Advice: Update your package.json to remove conflicts. ✖ Check that no duplicate dependencies are installed Your project contains duplicate native module dependencies, which should be de-duplicated. Native builds may only contain one version of any given native module, and having multiple versions of a single Native module installed may lead to unexpected build errors. Found duplicates for react-native-device-info: ├─ react-native-device-info@15.0.1 (at: node_modules/react-native-device-info) ├─ react-native-device-info@10.3.0 (at: node_modules/sp-react-native-in-app-updates/node_modules/react-native-device-info) └─ react-native-device-info@8.7.1 (at: node_modules/react-native-siren/node_modules/react-native-device-info) Found duplicates for expo-constants: ├─ expo-constants@18.0.12 (at: node_modules/expo-constants) └─ expo-constants@18.0.11 (at: node_modules/expo-asset/node_modules/expo-constants) Advice: Resolve your dependency issues and deduplicate your dependencies. Learn more: https://expo.fyi/resolving-dependency-issues ✖ Check for app config fields that may not be synced in a non-CNG project This project contains native project folders but also has native configuration properties in app.config.js, indicating it is configured to use Prebuild. When the android/ios folders are present, EAS Build will not sync the following properties: ios, android. ✖ Validate packages against React Native Directory package metadata The following issues were found when validating your dependencies against React Native Directory: Untested on New Architecture: @nozbe/watermelondb, react-native-fs Unmaintained: react-native-fs, rn-fetch-blob No metadata available: @microsoft/react-native-clarity, ffmpeg-kit-react-native, sp-react-native-in-app-updates, @nozbe/simdjson Advice: Use libraries that are actively maintained and support the New Architecture. Find alternative libraries with https://reactnative.directory. Add packages to expo.doctor.reactNativeDirectoryCheck.exclude in package.json to selectively skip validations, if the warning is not relevant. Update React Native Directory to include metadata for unknown packages. Alternatively, set expo.doctor.reactNativeDirectoryCheck.listUnknownPackages in package.json to false to skip warnings about packages with no metadata, if the warning is not relevant. ✖ Check that packages match versions required by installed Expo SDK ⚠️ Minor version mismatches package expected found react-dom 19.1.0 19.2.1 react-native-gesture-handler \~2.28.0 2.29.1 react-native-reanimated \~4.1.1 4.2.0 react-native-screens \~4.16.0 4.18.0 react-native-worklets 0.5.1 0.7.1 @types/react \~19.1.10 19.2.7 🔧 Patch version mismatches package expected found @react-native-picker/picker 2.11.1 2.11.4 expo \~54.0.30 54.0.29 expo-splash-screen \~31.0.13 31.0.12 babel-preset-expo \~54.0.9 54.0.8 Changelogs: \- expo-splash-screen → https://github.com/expo/expo/blob/sdk-54/packages/expo-splash-screen/CHANGELOG.md 10 packages out of date. Advice: Use 'npx expo install --check' to review and upgrade your dependencies. To ignore specific packages, add them to ""expo.install.exclude"" in package.json. Learn more: https://expo.fyi/dependency-validation 5 checks failed, indicating possible issues with the project.",,title_and_body,yes,yes,other,low,The text may be discussion rather than an active repair request; please check its main purpose.,,,,,,,https://stackoverflow.com/questions/79850944/no-script-url-provided-make-sure-the-packager-is-running-or-you-have-embedded-a
+B4-085,ios,Autofill bug - iOS 26,"when I try to fill out a form or select a text box in any app / browser, the autofill just takes up the whole screen and I can’t see what I’m typing.
+
+  
+this only started happening to me when I upgraded to iOS 26. has this happened to anyone else?",,title_and_body,yes,yes,technical_troubleshooting,low,The text may describe a problem to diagnose; check whether its main purpose is troubleshooting.,,,,,,,https://reddit.com/r/ios/comments/1ouuht0/autofill_bug_ios_26/
+B4-086,immich,Updated to 2.3.1 and Lost a bunch,As the title says. One of my albums lost all of the pictures that were uploaded from my laptop but not the ones syncing with my iPhone.,,title_and_body,yes,yes,technical_troubleshooting,medium,The post describes a concrete malfunction or asks how to diagnose or fix one.,,,,,,,https://reddit.com/r/immich/comments/1pk9ruh/updated_to_231_and_lost_a_bunch/
+B4-087,applehelp,I did a software update on my iPhone 14 and the charger port no longer works,I did an update yesterday (26.5) and this morning the port stop receiving charge. When I power it off it turns on when I plug it in meaning it knows that the charger is there but no charge is received.,,title_and_body,yes,yes,technical_troubleshooting,low,The text may describe a problem to diagnose; check whether its main purpose is troubleshooting.,,,,,,,https://reddit.com/r/applehelp/comments/1sv1h2z/i_did_a_software_update_on_my_iphone_14_and_the/
+B4-088,ios,Apple urges iPhone users to update as new DarkSword hacking tool lands online,,"[1:reply] They should release the updated iOS 18 versions that come out to devices that don’t support 26.
+[2:reply] And Apple will not allow any device that *can* “upgrade” to iOS 26 to update to anything beyond 18.7.2. 
+
+They are forcing iOS 26 *or* the risk of major security vulnerabilities. My 13 Pro falls into that category and it is quite infuriating.
+[3:reply] They did. iOS 18.7.7 is out for devices that don’t support 26.
+[4:reply] And devices that support 26 as well*
+[5:reply] They do?",title_plus_comments,yes,yes,other,low,The title presents news or release information rather than a problem to diagnose.,,,,,,,https://reddit.com/r/ios/comments/1s3ih7q/apple_urges_iphone_users_to_update_as_new/
+B4-089,Android,Chromecast with Google TV (4K) gets its first new security update in 10 months,,"[1:reply] It was either the most secure or the most unsecure device ever...pick one
+[2:reply] It's just not really a target. You're (probably) not doing sensitive things like signing into your bank on a TV.
+[3:reply] My Amazon fire stick updates like every other day and I've had AI for several months. Google tv is in an ancient OS and is just now thinking about adding gemini. This is what makes me not want to buy Google products even though I kind of like the company.
+[4:reply] interesting. How is Fire OS in general? I am usually avoiding any Android forks and prefer things vanilla, but i grew a bit frustrated with Android TV
+[5:reply] Yeah I started buying chromecast devices right from gen one, back when google was nice and did cool things.
+
+
+Now a few years later I'm stuck since made my family familiar with it's usage. 
+
+
+I'm super disappointed with how the Google TV 4k works. I have two devices and they con…",title_plus_comments,yes,yes,other,medium,The post presents release or product information rather than a problem to diagnose.,,,,,,,https://reddit.com/r/Android/comments/1ov3lw7/chromecast_with_google_tv_4k_gets_its_first_new/
+B4-090,Wordpress,Activity Log by Activity Log team,Its now been 12 months since they updated the plugin. Anyone have suggestions for an alternative activity log plugin that you like?,,title_and_body,yes,yes,technical_troubleshooting,low,The text may describe a problem to diagnose; check whether its main purpose is troubleshooting.,,,,,,,https://reddit.com/r/Wordpress/comments/1oub67k/activity_log_by_activity_log_team/
+B4-091,openclaw,"I made my OpenClaw respond using Scarlett Johansson’s AI voice from the movie Her using custom skills and FishAudio/ElevenLabs. It feels surreal and futuristic to get audio briefing of news, movie/tv reviews, updates using this (Use headphones for audio)",,"[1:reply] Too bad; i don’t do X anymore
+[2:OP] Step by step instructions for setting up OpenClaw with this skill and voice in X post - https://x.com/sathish316/status/2020116849065971815?s=46
+[3:reply] https://preview.redd.it/b34k0fj887ig1.jpeg?width=394&amp;format=pjpg&amp;auto=webp&amp;s=c6795ff1a93515ac02c10418db7d7c868c9fbca4
+[4:reply] Found Sam Altman’s reddit account
+[5:reply] Hey there! Thanks for posting in r/OpenClaw.
+
+
+**A few quick reminders**:
+
+
+→ Check the [FAQ](https://docs.openclaw.ai/help/faq#faq) - your question might already be answered
+→ Use the right flair so others can find your post
+→ Be respectful and follow the rules
+
+
+Need faster he…",title_plus_comments,yes,yes,technical_troubleshooting,low,The text may describe a problem to diagnose; check whether its main purpose is troubleshooting.,,,,,,,https://reddit.com/r/openclaw/comments/1qyyehf/i_made_my_openclaw_respond_using_scarlett/
+B4-092,comfyui,GGUF in latest versions? How to actually install nodes etc in latest versions?,"Do I still grab City96's version?
+
+Or these newer more recent versions?
+
+Or is ComfyUI now supporting it natively?
+
+Also when I run 0172 version of CUI the asset browser thingy doesn't seem to work (just looks like it's a load of pending loading panes but nothing loads), I need to run the legacy manager to get access to a manager that works to install stuff.
+
+Is the working logic of CUI these days to still just use the legacy manager because the new one is broken?
+
+And when I do use the legacy manager, import fails.
+
+`Traceback (most recent call last):`  
+  `File ""D:\gaia\ComfyUI_0172\ComfyUI\nodes.py"", line 2225, in load_custom_node`  
+`module_spec.loader.exec_module(module)`  
+`~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^`  
+  `File ""&lt;frozen importlib._bootstrap_external&gt;"", line 1023, in exec_module`  
+  `File ""&lt;frozen importlib._bootstrap&gt;"", line 488, in _call_with_frames_removed`  
+  `File ""D:\gaia\ComfyUI_0172\ComfyUI\custom_nodes\ComfyUI-GGUF\__init__.py"", line 7, in &lt;module&gt;`  
+`from .nodes import NODE_CLASS_MAPPINGS`  
+  `File ""D:\gaia\ComfyUI_0172\ComfyUI\custom_nodes\ComfyUI-GGUF\nodes.py"", line 16, in &lt;module&gt;`  
+`from .ops import GGMLOps, move_patch_to_device`  
+  `File ""D:\gaia\ComfyUI_0172\ComfyUI\custom_nodes\ComfyUI-GGUF\ops.py"", line 2, in &lt;module&gt;`  
+`import gguf`  
+`ModuleNotFoundError: No module named 'gguf'`
+
+Am I doing something wrong here?
+
+I assume that GGUF node works in the latest ComfyUI, or perhaps not?
+
+What is the current way to actually use ComfyUI these days?
+
+Should I be using legacy manager? Or should the other thing (extensions button) work?
+
+Also what are the CLI inputs I should be running to just update everything important?
+
+Ie, the manager, comfyui, the front-end, and whatever else there is?
+
+The github page seems to not have this information clearly shown and I'm not sure what is relevant any more as so much has changed.
+
+
+
+I'm just trying to migrate to a newer version from an older version but it feels like the only way to do anything is just manual CLI nodes from github, pip installing requirements, and hoping it loads, one by one?
+
+Thanks",,title_and_body,yes,yes,technical_troubleshooting,medium,The post describes a concrete malfunction or asks how to diagnose or fix one.,,,,,,,https://reddit.com/r/comfyui/comments/1skdt9y/gguf_in_latest_versions_how_to_actually_install/
+B4-093,linux,WINE developers has removed so much bloat in the new version. congrats to devs.,,"[1:reply] This is just Arch packagers stripping a lot of debug information.
+
+Official commit log:
+
+Dec 05, 2025
+
+upgpkg: 10.20-2, rebuild with PEStrip
+
+Striping PE symbols to -debug package
+[2:reply] We worked with wine to do this. and it was very hard :(
+
+https://gitlab.winehq.org/wine/wine/-/merge_requests/6715
+
+https://gitlab.archlinux.org/archlinux/packaging/packages/wine/-/issues/16
+
+There were wine changes, pacman changes, etc
+
+Sad that you think this was nothing... I…
+[3:reply] What is the difference between WINE version 10.20 and 10.20?
+[4:reply] Normally when you see additional versioning numbers are distro maintainers adding them because they are repackaging it.
+[5:reply] Still 91 upvotes. Redditors really only do read titles.",title_plus_comments,yes,yes,other,medium,The post discusses software without a clear repair request or chiefly negative opinion.,,,,,,,https://reddit.com/r/linux/comments/1pp9s46/wine_developers_has_removed_so_much_bloat_in_the/
+B4-094,comfyui,black images with krea 2,"i m getting only black image output with krea 2, i m not using sage attention. i m using the turbo fp8 scaled and nonscaled one both , and qwen image vae.. tried 2 different workflows still getting black images....anytip plz
+
+my bat file is as follows
+
+[my workflow](https://preview.redd.it/p4vw0u4ae8eh1.jpg?width=1727&amp;format=pjpg&amp;auto=webp&amp;s=c45de784df9da7c008b08cf8792d1e514658eeb9)
+
+     @echo off
+    
+    call ""c:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\Build\vcvars64.bat""
+    
+    cd /d P:\ComfyUI_windows_portable
+    
+    .\python_embeded\python.exe -s ComfyUI\main.py ^
+    --force-fp16 ^
+    --windows-standalone-build ^
+    --enable-manager ^
+    --input-directory D:\comfy\input ^
+    --output-directory D:\comfy\output
+    --enable-manager
+    
+    echo If you see this and ComfyUI did not start try updating your Nvidia Drivers to the latest.
+    echo If you get a c10.dll error install VC++ Redistributable: https://aka.ms/vc14/vc_redist.x64.exe
+    pause
+
+[2nd workflow](https://preview.redd.it/et0ylrz1f8eh1.jpg?width=1318&amp;format=pjpg&amp;auto=webp&amp;s=86c6407831d2ac0b9355821e1ae23d653de5026a)","[1:reply] Make sure your workflow follows an example workflow (e.g. from Youtube) directly, and does not include a blank input image as an input.
+[2:reply] show workflow and your bat file for comfyui
+[3:OP] i just added them both to the post
+[4:OP] its a t2i workflow
+[5:reply] What it says in the log",title_body_comments,yes,yes,technical_troubleshooting,medium,The post describes a concrete malfunction or asks how to diagnose or fix one.,,,,,,,https://reddit.com/r/comfyui/comments/1v0xel0/black_images_with_krea_2/
+B4-095,libreoffice,Upgrade to latest version screwed up comments,,,title_only,unclear,unclear,na,low,The saved text does not identify the software topic clearly enough.,,,,,,,https://reddit.com/r/libreoffice/comments/1k970e9/upgrade_to_latest_version_screwed_up_comments/
+B4-096,github,What's going on ?,,"[1:reply] Somewhere, there is a Junior Dev sweating looking at a PR they just merged into Main...
+[2:reply] https://www.githubstatus.com/
+
+```
+Update - We are currently investigating failures on all Git operations, including both SSH and HTTP.
+Nov 18, 2025 - 21:11 UTC
+Update - We are seeing failures for some git http operations and are investigating
+Nov 18, 2025 - 20:52 UTC
+Update - G…
+[3:reply] The usual junior dev scapegoat isn’t applicable in an outage where you can’t do much of anything via GitHub.",title_plus_comments,unclear,unclear,na,low,The saved text does not identify the software topic clearly enough.,,,,,,,https://reddit.com/r/github/comments/1p0od9s/whats_going_on/
+B4-097,neovim,endpoint.nvim - Looking for feedback &amp; framework requests,"https://preview.redd.it/15y965jh5fsf1.png?width=1886&amp;format=png&amp;auto=webp&amp;s=d499d574775b76413ac1b6aca420952ca611b1c5
+
+
+
+https://preview.redd.it/zlhn2j8i5fsf1.png?width=1886&amp;format=png&amp;auto=webp&amp;s=d55a9f20da679fdcd203378525703f371c65d08d
+
+
+
+https://preview.redd.it/ntayzb2j5fsf1.png?width=1886&amp;format=png&amp;auto=webp&amp;s=2d4ae7dd2d5dafee2d61f01965d42defa9a9f8a2
+
+
+
+Hey r/neovim! I posted [endpoint.nvim here before](https://www.reddit.com/r/neovim/comments/1nd81nh/plugin_endpointnvim_find_api_endpoints_across) and have pushed several updates since then.
+
+**Currently supported frameworks:**
+
+* Spring Boot, Rails, Symfony, Express, NestJS
+* FastAPI, .NET Core, Ktor, Java Servlet, React Router
+
+**3 picker options:**
+
+* Telescope
+* Snacks
+* native [vim.ui.select](http://vim.ui.select) (dressing.nvim)
+
+**So, what should I add next?** Missing a framework you use? Found a bug? I'm actively maintaining this and open to all feedback.
+
+GitHub: [https://github.com/zerochae/endpoint.nvim](https://github.com/zerochae/endpoint.nvim)","[1:OP] OK! I'll work on adding support for Echo and Gin frameworks
+[2:reply] awesome tool for backend developer.
+[3:reply] Cool!!! I will use with Java tomorrow. Is it also possible some support for Go (echo, etc)?
+[4:OP] thx!!👍
+[5:reply] Awesome, will try it out with my dotnet core apis! Any plans to support fzf-lua as a picker as well?",title_body_comments,yes,yes,other,medium,The post discusses software without a clear repair request or chiefly negative opinion.,,,,,,,https://reddit.com/r/neovim/comments/1nux0o3/endpointnvim_looking_for_feedback_framework/
+B4-098,vscode,MacOS 26 - Python/Node.js debugging not working?,"Not sure if I'm going crazy or what else is going on, but sometime in the past couple of weeks my projects have become undebugabble. Here's what I mean:
+
+I've been on PTO for a couple of weeks and I had everything working fine before I left. During this period, my machine got updated with MacOS 26. I've also updated everything to the latests versions in terms of vscode and extensions, etc.
+
+And now, I'm unable to debug my python code. The app (Azure Function apps) are starting just fine and are running as expected, but the debugger continuously throws an error with ECONNREFUSED afterwards.
+
+I've already tried using the latest versions of the libs, updating to latest versions of python and pip, pre-release versions of the python extensions and even VS Code Insiders, but the result is always the same.. What gives?  
+Oddly enough, another C# (dotnet core) app runs and debugs just fine as expected, but not my python nor node apps
+
+Anyone also having issues with debugging??","[1:OP] Turns out, the issue is the Azure Functions extension version: [https://github.com/microsoft/vscode-azurefunctions/issues/4715](https://github.com/microsoft/vscode-azurefunctions/issues/4715)",title_body_comments,yes,yes,technical_troubleshooting,medium,The post describes a concrete malfunction or asks how to diagnose or fix one.,,,,,,,https://reddit.com/r/vscode/comments/1nvdrgv/macos_26_pythonnodejs_debugging_not_working/
+B4-099,comfyui,Is it worth upgrading my whole desktop or just the gpu?,,"[1:reply] Do yourself a favor and get a new pc if you wanna work with AI
+[2:reply] Man that processor it's 15 years old
+[3:reply] The i7 came out in like 2009 though. I’m wagering they need a new motherboard to handle a current day setup.
+[4:reply] I trained a lora using that CPU and a 4060TI 16GB [https://www.youtube.com/watch?v=-L9tP7\_9ejI&amp;t=18m9s](https://www.youtube.com/watch?v=-L9tP7_9ejI&amp;t=18m9s)
+
+made a YT channel on that computer.
+[5:reply] i feel like this should be in r/pccirclejerk",title_plus_comments,yes,yes,other,low,The post discusses software without a clear repair request or chiefly negative opinion.,,,,,,,https://reddit.com/r/comfyui/comments/1nrapsb/is_it_worth_upgrading_my_whole_desktop_or_just/
+B4-100,Android,Motorola is getting away with zero OS updates thanks to regulatory loophole,,"[1:reply] Wow, all the media online repeated the claim that they had to provide 5 years of software updates. But the law only says that they have to be free for 5 years, not that they need to provide them. Pretty disappointing, software support for Android phones will continue to suck goi…
+[2:reply] Interesting how there was a thread about this very same topic posted here yesterday that seems to have been removed.
+[3:reply] I personally don't see any problem only offering security updates. In fact I'd bet many people would just that rather than have big android updates that slow down the phone even more. 5 years of security updates is more than enough for low end phones.
+[4:reply] Google provides 7 years of updates now, with updates every month. Android can be a shit show with so many OEMs releasing buggy modifications and no updates, but if you go with ""real"" Android from Google, it's a fantastic experience.
+[5:reply] It was removed because the person was using it to direct traffic to their own blogspam site.",title_plus_comments,yes,yes,other,medium,The title presents news or release information rather than a problem to diagnose.,,,,,,,https://reddit.com/r/Android/comments/1qrykct/motorola_is_getting_away_with_zero_os_updates/

@@ -1,0 +1,48 @@
+{
+  "status": "unlabeled_independent_reliability_packet",
+  "seed": "ICSC-RELIABILITY-20261007-v1",
+  "population": "audited development, Reddit IDs only",
+  "quota": {
+    "s2_troubleshooting": 80,
+    "s2_other_update": 60,
+    "software_nonupdate": 40,
+    "nonsoftware": 20
+  },
+  "selected_n": 200,
+  "eligible_by_stratum_after_exclusions": {
+    "s2_troubleshooting": 1484,
+    "s2_other_update": 404,
+    "software_nonupdate": 680,
+    "nonsoftware": 232
+  },
+  "selected_by_stratum": {
+    "s2_other_update": 60,
+    "s2_troubleshooting": 80,
+    "nonsoftware": 20,
+    "software_nonupdate": 40
+  },
+  "selected_by_source_pool": {
+    "oct5_query_tps": 67,
+    "phase1_gold_file": 65,
+    "oct5_query_gds": 68
+  },
+  "excluded_diagnostic_sample_ids": 250,
+  "reserved_overlap": 0,
+  "fresh_overlap": 0,
+  "diagnostic_overlap": 0,
+  "non_reddit_ids": 0,
+  "input_sha256": {
+    "development": "30d6a3dc78c7fd3999dcaf0649b7544a912b3d9dc1899e26ed12a36ac5407d47",
+    "reserved": "e2023221e3e3acddbe5bf11df1a24674ad2c24cea9af9886e67535a0c8a1b5dd",
+    "fresh": "b9ad1898ac7b160a6382e35d6387fdf548a1d06cd0c252981d57ad2c736f804f",
+    "diagnostic": "666717037270955155d0860fae48353f79c56cfd65245b70e83bd6311ed2415a"
+  },
+  "blind_rows_sha256": "4fd72eb4a48e6b79735a57bf5cac29942bccd27e191cb61248ec18b15ea5c7a3",
+  "mapping_sha256": "4f94ce612b8ce3623bd68396a21c365c9cedce4ac8845960d8249c9544c22493",
+  "note": "Previously reviewed development records; Manu may remember some. Independent first passes are independent of each other, not necessarily blind to all prior exposure.",
+  "reviewer_guide_sha256": "7a047c7581254cbfe081a3f83d977a130c6d8130c1950104fa15127716f6144a",
+  "reviewer_a_workbook_sha256": "1b7d9a6c3f921f78981cafbeaca8309fb305e0e3f50e01965b6cedf2ea007178",
+  "reviewer_b_workbook_sha256": "30fa77f0b2f3c041f46aca54681b3a408105cfb87f66f9b1eea29810e8b4f84b",
+  "verified_answer_cells_blank": true,
+  "verified_reviewer_inputs_identical": true
+}

@@ -1,0 +1,2145 @@
+﻿review_id,subreddit,title,post_body,discussion_context,text_availability,proposed_about_software,proposed_update_related,proposed_discussion_type,proposed_confidence,proposed_reason,decision,final_about_software,final_update_related,final_discussion_type,reviewer_note,reviewed_at,source_url
+B13-001,Excalidraw,relinking images after renaming folderstructure,"Hello,   
+i start to like excalidraw more and more and used it in my projects. In my drawing are very much pictures and sometimes it happens that i change the name of my folder structure. Than excalidraw cant load them anymore. 
+
+In other programs like Indesign or Autocad there is a dialogue where i can look for links that are not working anymore and than i can update them. 
+
+Is there any option to rescue a mindmap? are the paths total or relative?
+
+  
+Every picture is gone, but thats not a big problem i will not use the mindmap anymore. A second problem for me is that i copy past screenshots and there names are with very long numbers and very hard to find again to rescue the mindmap... In Indesign i can relink one image and than it asks if i want to search in this path for all the other missing pictures. 
+
+https://preview.redd.it/23lr3e12yb7g1.png?width=677&amp;format=png&amp;auto=webp&amp;s=ab088ec2769c15ec968602ce9d3444169c600c8a
+
+Best regards  
+Sven",,title_and_body,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/Excalidraw/comments/1pn2kc3/relinking_images_after_renaming_folderstructure/
+B13-002,applehelp,iPhone 13 sim and esim don’t work,"Any physical sim inserted will just show “off” and the options for it is empty like on second screenshot, no option to add eSIM.
+
+The problems started with the eSIM: one day it became inactive, couldn’t be selected as a voice line, toggling it didn’t have any effect, trying to delete through cellular options or esim/network settings reset just made it stuck on “removing”, trying to reactivate it with a qr-code or manually made it stuck on “activating”, and restarting phone returned esim to being off.
+
+After trying to reset, restart and reactivate everything a hundred times and deleting all vpn configs and certificates I decided to reset the phone with a backup, which unfortunately made the situation even worse, now what used to be esim just shows “no sim” and there’s no button to activate a new one, but worst of all is that physical sim cards don’t work either.
+
+At this point i think it’s a hardware problem, thot the only possible cause i can think of is that I swapped the iphone’s battery, bat it was like a half a year ago.
+
+also there is a couple of weird things which might be somehow relevant:  
+restarting iphone would set esim to “off”, and even with a working physical sim cellular data would show “no service”, turning esim on would for some reason turn on the physical sim cellular data.  
+im on ios 27.6 beta, trying to update to 27.7 or 27.5 just shows a “Verifying update…” pop up forever and i have to restart phone each time",,title_and_body,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/applehelp/comments/1w0dowm/iphone_13_sim_and_esim_dont_work/
+B13-003,immich,Images not being ingested from upload to library? no thumbnails generated.,"EDIT: I solved my own issue. At least I think I did. I went through the upload folder (as referenced by my UPLOAD\_LOCATION in the .env) and found some video files that i didn't recognize and couldn't open. So i deleted them, restarted the immich stack and everything resumed normal operation. I guess the immich worker was getting stuck on some broken files and as a result wasn't moving on to the others in line. That's my opinion anyhow. Hope it helps anyone else that came here looking to solve their own problems.
+
+
+
+I'm having trouble with my immich server (which is weird because it's been working great for about a year). Every new photo uploaded from my phone looks fine on the app but on the web url portal i see ""error loading image"". i can resolve this for each individual image by going into it's menu and choosing to refresh thumbnails. then by refreshing the page the image looks and works the way it should. i have no idea whats causing this issue. I haven't made any changes to my server or modified any folder permissions.
+
+I'm updated to the latest version of Immich (2.2.3) on both my server and the app. All 4 containers are running and healthy with nothing abnormal in the logs. I have been diligent about reading the release notes to prevent breaking changes.
+
+I've also noticed that i have some photos in the upload folder from days/weeks ago that haven't migrated to the library folder which is weird, right??
+
+I appreciate any help i can get on this matter. thanks in advance!!!
+
+I'll include my portainer compose stack in the event it would help to diagnose the issue:
+
+    name: immich
+    
+    services:
+      immich-server:
+        container_name: immich_server
+        image: ghcr.io/immich-app/immich-server:${IMMICH_VERSION:-release}
+        labels:
+          - ""com.centurylinklabs.watchtower.enable=false""
+        # extends:
+        #   file: hwaccel.transcoding.yml
+        #   service: cpu # set to one of [nvenc, quicksync, rkmpp, vaapi, vaapi-wsl] for accelerated transcoding
+        volumes:
+          # Do not edit the next line. If you want to change the media storage location on your system, edit the value of UPLOAD_LOCATION in the .env file
+          - ${UPLOAD_LOCATION}:/data
+          - /etc/localtime:/etc/localtime:ro
+        env_file:
+          - stack.env
+        ports:
+          - 2283:2283
+        depends_on:
+          - redis
+          - database
+        restart: always
+        healthcheck:
+          disable: false
+    
+      immich-machine-learning:
+        container_name: immich_machine_learning
+        # For hardware acceleration, add one of -[armnn, cuda, openvino] to the image tag.
+        # Example tag: ${IMMICH_VERSION:-release}-cuda
+        image: ghcr.io/immich-app/immich-machine-learning:${IMMICH_VERSION:-release}
+        # extends: # uncomment this section for hardware acceleration - see https://immich.app/docs/features/ml-hardware-acceleration
+        #   file: hwaccel.ml.yml
+        #   service: cpu # set to one of [armnn, cuda, openvino, openvino-wsl] for accelerated inference - use the `-wsl` version for WSL2 where applicable
+        labels:
+          - ""com.centurylinklabs.watchtower.enable=false""
+        volumes:
+          - model-cache:/cache
+        env_file:
+          - stack.env
+        restart: always
+        healthcheck:
+          disable: false
+    
+      redis:
+        container_name: immich_redis
+        image: docker.io/valkey/valkey:8@sha256:81db6d39e1bba3b3ff32bd3a1b19a6d69690f94a3954ec131277b9a26b95b3aa
+        labels:
+          - ""com.centurylinklabs.watchtower.enable=false""       
+        healthcheck:
+          test: redis-cli ping || exit 1
+        restart: always
+    
+      database:
+        container_name: immich_postgres
+        image: ghcr.io/immich-app/postgres:14-vectorchord0.4.3-pgvectors0.2.0@sha256:bcf63357191b76a916ae5eb93464d65c07511da41e3bf7a8416db519b40b1c23
+        labels:
+          - ""com.centurylinklabs.watchtower.enable=false""    
+        environment:
+          POSTGRES_PASSWORD: ${DB_PASSWORD}
+          POSTGRES_USER: ${DB_USERNAME}
+          POSTGRES_DB: ${DB_DATABASE_NAME}
+          POSTGRES_INITDB_ARGS: '--data-checksums'
+          DB_STORAGE_TYPE: 'HDD'
+        volumes:
+          - ${DB_DATA_LOCATION}:/var/lib/postgresql/data
+        shm_size: 128mb
+        restart: always
+    
+    volumes:
+      model-cache:
+    
+    networks:
+      default:
+        external: true
+        name: collective",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/immich/comments/1ou01h8/images_not_being_ingested_from_upload_to_library/
+B13-004,Fedora,Issues starting Steam after updating everything and upgrading to 44,"Hi, just wanted to ask if anyone else is having issues with launching RPM Fusion Steam?
+
+Everything was working fine yesterday but today I updated everything and upgraded to Fedora 44 and all of a sudden the Steam app doesn't start at all. I tried to start it from console and the errors it gave were:
+
+&gt;/usr/bin/steam: line 105: /home/parkourdood/.local/share/Steam/ubuntu12\_32/steam-runtime/usr/libexec/steam-runtime-tools-0/logger-0.bash: No such file or directory  
+bin\_steam.sh\[5817\]: Couldn't set up srt-logger, not logging to console-linux.txt  
+/usr/bin/steam: line 105: /home/parkourdood/.local/share/Steam/ubuntu12\_32/steam-runtime/usr/libexec/steam-runtime-tools-0/logger-0.bash: No such file or directory  
+bin\_steam.sh\[5817\]: Couldn't set up srt-logger, not logging to console-linux.txt  
+/usr/bin/steam: line 105: /home/parkourdood/.local/share/Steam/ubuntu12\_32/steam-runtime/usr/libexec/steam-runtime-tools-0/logger-0.bash: No such file or directory  
+bin\_steam.sh\[5817\]: Couldn't set up srt-logger, not logging to console-linux.txt  
+steam.sh\[5817\]: Running Steam on fedora 44 64-bit  
+steam.sh\[5817\]: STEAM\_RUNTIME is enabled automatically  
+steam.sh\[5817\]: internal error: /home/parkourdood/.local/share/Steam/ubuntu12\_32/steam-runtime/setup.sh is missing, this runtime is invalid or corrupted
+
+Is the current version broken and should I just wait or is there something I could try doing to fix this issue? I have already tried reinstalling the package but it keeps giving the same errors.",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/Fedora/comments/1szvbtz/issues_starting_steam_after_updating_everything/
+B13-005,comfyui,z-image Lora Loader no longer works since the last update,"Does anyone else have the issue that the z-image lora loader no longer works since the update? The loader actually comes from CRT nodes. All other CRT nodes work.  
+  
+The strange thing is, it worked before the update. Afterwards, it no longer works. I reinstalled it, even on an older version, but it still doesn't work. All dependencies are running fine. log is clean. already cloned, pulled, reinstalled it, etc.  
+  
+Is there another Loader that works with Z-Image?",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/comfyui/comments/1pjtge7/zimage_lora_loader_no_longer_works_since_the_last/
+B13-006,homeassistant,No more synced groups for snapcast clients?,"Hi, I had some snapcast-clients as a speaker group in Music Assistant.
+
+Since the latest update I can not add my snapcast clients to a speaker group anymore. Playing on one single snapcast client works without problems.
+
+Does the new version not support snapcast groups anymore? Any workaround?","[1:reply] they broke it in the update, same thing happened here with my kitchen and living room setup. roll back to the previous version if you made a backup, only thing that worked for me
+[2:OP] Thanks!",title_body_comments,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/homeassistant/comments/1vzu60o/no_more_synced_groups_for_snapcast_clients/
+B13-007,Wordpress,WordPress 7.0 update — Gutenberg editor no longer full width?,"After WordPress automatically updated to version 7.0, I noticed a change in the Gutenberg editor layout.
+
+The editor canvas is no longer full width like before. Instead, it is constrained within a narrower centered container, leaving visible margins on both sides.
+
+The page preview itself still displays in full width, but the editing interface does not span the full browser width anymore.
+
+This started immediately after the automatic update, so it seems related to a layout change or configuration in the new version.
+
+Has anyone else experienced this?  
+Is this an intentional change in WordPress 7.0, or is there a setting/CSS fix to restore the previous full-width editor behavior?
+
+https://preview.redd.it/lzr20epvnn3h1.png?width=2560&amp;format=png&amp;auto=webp&amp;s=1e15e11a312646bf95d8470b23a962704fca178d
+
+https://preview.redd.it/cokv6ojznn3h1.png?width=2557&amp;format=png&amp;auto=webp&amp;s=155ea1e27a3889806af77f8a92fb0d6a48d9fc35","[1:reply] You can add a CSS snippet to your functions.php file to restore the full-width
+[2:reply] If the front-end preview is still full width, I would treat this as an editor/layout setting first, not a front-end CSS problem.
+
+A few things I would check before adding random CSS:
+
+1. In the Site Editor, check the style/layout settings for content width and wide width. In blo…
+[3:OP] Thank you, I will give it a try.
+[4:OP] Yes, I also believe this is likely a bug with the editor. It suddenly appeared right after the 7.0 update.
+
+The outermost page container itself is still always full width, and I couldn’t find any setting anywhere that controls or changes this behavior.",title_body_comments,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/Wordpress/comments/1tp1b08/wordpress_70_update_gutenberg_editor_no_longer/
+B13-008,homeassistant,I hate HA updating...,"https://preview.redd.it/lb18pyvsk8ah1.png?width=578&amp;format=png&amp;auto=webp&amp;s=4a2adc3923414cbcf8eb6998427cae7c4421f965
+
+I tend to wait until the end of a month to let all the bugs get worked out of that month's updates where I can.  I look through the release notes to see if there's going to be a gotcha.
+
+Despite all that I ended up with two big ones.
+
+1. All my zwave devices vanished.  Apparently a new z-wave js ui was needed.  I never saw a reference to expect that.
+2. My Owntracks via mqtt (not the built-in HAOS version, all in docker) suddenly gives the above error.  The fun part?  Asking Claude says that my original config never would have worked - but it did.  After the update all my devices being tracked via Owntracks through MQTT are gone, vanished.  They previously were all assigned to individual user's people accounts, but no more.
+
+Now, I have no clue how to set this back up.  Claude is suggesting yaml in my configuration file that is 20x longer than what I had previously, while telling me my original config never would have worked so I don't trust it.
+
+Previously I had:
+
+    device_tracker:
+      - platform: mqtt
+      - devices:
+          owntracks/user1/user1: user1phoneOT
+
+With this it created a device tracker called ""user1phoneOT"" and pulled the GPS coordinates out of the MQTT message to assign the location automatically.  Now I have no clue how to set this back up.","[1:reply] I'll be so for real man. Home Assistant is the ecosystem I worry about least when updating. Nearly every other open source project is days if not weeks of troubleshooting and fixing things.
+[2:reply] The zwave got me last month too. There were some guides about this. I had the add on installed and all my devices configured there. So what was happening the built in zwave is was grabbing the controller and the add in couldn’t connect. So I had to do something to turn off the b…
+[3:reply] Well, with home assistant: your update experience is highly correlated with the number and sources of integrations you have set up. Using only the mature, well supported integrations with no HACS or other custom things will make HA super easy to update.
+[4:reply] What causes the zwave issue? I've had nothing like that happen on my zwavejs.
+[5:reply] No backups?",title_body_comments,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/homeassistant/comments/1uiv365/i_hate_ha_updating/
+B13-009,linuxquestions,Focusrite Scarlett usb 2i2 2nd gen. Microphone doesn't work properly after update (Fedora 43 / Cachy os),"I've been using cachy os for a long time and audio worked fine. After updating the system (as I normally do once a month or so), my microphone now distorts, while audio output still works normally. I also have Linux Mint installed on another ssd and the microphone works correctly there, so the hardware should be fine. On the other ssd I have Fedora 43 and there is also a problem with the microphone.
+
+I'm not using a laptop.
+
+The microphone works normally using the motherboard mic input, but the mic doesn't work through the Focusrite USB audio interface. What should I do?
+
+Thanks in advance.",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/linuxquestions/comments/1scwzvu/focusrite_scarlett_usb_2i2_2nd_gen_microphone/
+B13-010,MicrosoftEdge,Menu in Edge is not highlighted anymore,"Just got an Edge update to .84 but still I have the really irritating bug since the last update where when you choose the menu in the right upper corner and you see the full menu with option, there is no more coloured highlighter. You cannot see what you choose when hovering over an option.
+
+Do more ppl have this problem in Edge or am I the only one here? I haven't seen others complain about this bug before.
+
+And is there a fix for this bug or should we wait for an update from MS?",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/MicrosoftEdge/comments/1s4hbbr/menu_in_edge_is_not_highlighted_anymore/
+B13-011,AndroidQuestions,App not working after samsung s23 update,"Hi,
+
+I hadn't updated my phone in some time (samsung galaxy s23) because i dislike updates, today it updated to android 16 and One UI 8.5 (not sure what it was before cuz i probably had missed some updates). After the forced updates there's one of my apps that won't open anymore: Milki pomodoro. I use it almost daily for uni so I'm quite annoyed. I tried uninstalling, turning the phone on and off, searching for a new update if maybe it wasn't over, but nothing worked. All other apps function normally. 
+
+  
+Does anyone know what can be done, or if it's an android bug that needs to get patched ? I'm not good with tech tbh.","[1:reply] Sometimes Android changes its permissions system and other ""APIs"" in a way that breaks apps.  Unfortunately there's nothing to do besides making sure you gave it all the right permissions in Settings &gt; Apps, and asking the developer to update it.  
+
+Your phone forced an autom…",title_body_comments,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/AndroidQuestions/comments/1uzcjfv/app_not_working_after_samsung_s23_update/
+B13-012,node,npm audit fix causes cascading vulnerabilities,"I have a problem where npm audit recommend I patch the uuid package, as follow:
+
+    # npm audit report
+    
+    uuid  &lt;14.0.0
+    Severity: moderate
+    uuid: Missing buffer bounds check in v3/v5/v6 when buf is provided - https://github.com/advisories/GHSA-w5hq-g745-h8pq
+    fix available via `npm audit fix --force`
+    Will install mssql@7.2.0, which is a breaking change
+    node_modules/uuid
+      /msal-node  *
+      Depends on vulnerable versions of uuid
+      node_modules/@azure/msal-node
+        /identity  &gt;=1.2.0-alpha.20200903.1
+        Depends on vulnerable versions of /msal-node
+        node_modules/@azure/identity
+          tedious  &gt;=11.0.9
+          Depends on vulnerable versions of u/azure/identity
+          node_modules/tedious
+            mssql  &gt;=7.2.1
+            Depends on vulnerable versions of tedious
+            node_modules/mssql
+    
+    5 moderate severity vulnerabilities
+    
+    To address all issues (including breaking changes), run:
+      npm audit fix --force
+
+However now it's downgrading my mssql package.  
+so when I ran audit fix 7 vulnerabilities (5 moderate, 2 high)  
+and if I try to run it again it becomes:  
+10 vulnerabilities (4 moderate, 6 high)
+
+what's going on? is npm broken? how do I fix this manually? I tried to update mssql package to the latest version but nothing works",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/node/comments/1stmad1/npm_audit_fix_causes_cascading_vulnerabilities/
+B13-013,Ubuntu,Warning: Latest kernel update for 24.04 (7.0.0-30-generic) does not work with AMD GPUs. If you have a Radeon card stay with 7.0.0-28.,"Well, it looks like Canonical really dropped the ball on this one. I just spent two very frustrating hours troubleshooting this issue. I had installed the latest update to the kernel (7.0.0-generic), rebooted, and suddenly Ubuntu could no longer see more than one monitor. 
+
+After dicking around on the internet for way too long and rebooting way too many times it became obvious to me that the amdgpu driver, for some reason, will just not work with the new kernel.
+
+Shouldn't someone QA this stuff before they put a new kernel into an update?..
+
+edit: for some reason the newer kernel was also causing problems with Bluetooth.
+
+edit 2: if you don't have multiple screens attached to the GPU and don't use Bluetooth you may not notice that there's anything wrong, but your system may not run optimally with the -30 variant of the kernel.","[1:reply] It's not the kernel, it's the linux-firmware update.
+[2:reply] What a mess. I have Radeon card and I am on 24.04 too, so thanks for warning before I hit the update button in tomorrow morning. Canonical really should test this better, not everyone uses Intel graphics.
+[3:reply] This kernel choice of 7.0 hasn’t been the best. They really should bump it to 7.1 or something.
+
+I only use mainline kernels now because of this horrible kernel choice they made.
+[4:reply] He is using 24.04
+[5:reply] Why wouldn't he? Ubuntu doesn't even offer the option to upgrade from 24.04 to 26.04 automatically until 26.04.1 releases later this month. If you want to do so you have to trigger it manually.",title_body_comments,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/Ubuntu/comments/1vvu3se/warning_latest_kernel_update_for_2404/
+B13-014,applehelp,Macbook Pro stopped recognizing peripherals through KVM switch,"Posting here because I can’t find anyone else talking about this issue online or in mac forums, and Apple’s troubleshooting steps are pretty basic and haven’t resolved anything. 
+
+**TL;DR - my Macbook Pro no longer recognizes the keyboard and mouse plugged into my KVM switch even though it did prior to August. I’m running Tahoe 26.6.2 (upgraded in September).** 
+
+Long version:
+
+I have a TESmart KVM switch to allow my personal desktop (PC) to share a monitor, keyboard, and mouse with my work laptop (Macbook Pro M3). Prior to August, everything worked as expected. Peripherals were plugged into the swtich, and I could hop between desktop and laptop by toggling the switch. The monitor still works fine though the KVM swtich. 
+
+
+
+During August, I took a long break from work - six weeks. Before coming back to work in September, i got a new desk, so I unplugged everything and plugged it all back in on the new desk (shouldn’t matter, but mentioning it for completeness). 
+
+
+
+When I resumed work, I set up my work laptop just as I had done every morning before vacation, but this time, the laptop would not recognize the keyboard and Mouse. it will only recognize them when I plug the keyboard and mouse , either directly or via a usb hub, but not at all through the KVM switch. I reproduced this issue with my personal Macbook Air M1 (still running Sequoia 15.7.8) as well, so I am thoroughly baffled. 
+
+
+
+Any advice? Is it possible that an OS update broke something? Is there anything else I can try ?","[1:reply] Does the KVM still work as expected with your PC? And, do you have other keyboards or micr you could try it with?
+[2:OP] good question - yes, the KVM works fine with my PC, no issue there. Behavior is the same with backup keyboard and mouse.",title_body_comments,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/applehelp/comments/1wyg8ze/macbook_pro_stopped_recognizing_peripherals/
+B13-015,linuxquestions,Are the stories about Windows actually true?,"I'm sure this sub has seen this question billions of times, but how easy actually is Windows to use?
+
+I've been using Linux for quite a few years now, but recently I've become curious about Windows. The gaming support seems good and I hear a lot of people use it daily, but I'm honestly a bit intimidated by everything I've read online.
+
+I keep hearing stories like:
+
+\- you have to reboot after literally every update.
+
+\- Windows sometimes updates while you're using it.
+
+\- the operating system installs apps you never asked for.
+
+\- uninstalling Edge somehow still leaves you with Edge.
+
+\- uninstalling OneDrive somehow still leaves you with OneDrive.
+
+\- uninstalling Copilot somehow installs Copilot Pro.
+
+\- your Start Menu slowly becomes an advertising platform.
+
+\- the weather widget somehow knows less about the weather than looking outside.
+
+\- half the settings are in ""Settings"", the other half are still in Control Panel, and apparently both are correct.
+
+\- there are three different audio settings menus that all change different things.
+
+\- every tutorial starts with ""Open Registry Editor...""
+
+\- the search function mostly searches Bing.
+
+\- opening Chrome requires opening Edge first.
+
+\- you need a Microsoft account to own your own computer.
+
+\- screenshots automatically become cloud infrastructure.
+
+\- Windows Defender occasionally defends Microsoft from you.
+
+\- updates can randomly decide today is firmware day.
+
+\- every major release changes where every single setting lives.
+
+\- people still recommend downloading drivers from random manufacturer websites in 2026.
+
+\- if Wi-Fi doesn't work the solution is apparently downloading the Wi-Fi driver from the internet.
+
+\- there are four different package managers, but most software still comes from downloading random .exe files from websites.
+
+\- software installers ask whether you would also like McAfee.
+
+\- every installer wants to become your default PDF reader.
+
+\- everything asks to be your default browser.
+
+\- every browser except Edge asks whether you're sure you want to use it.
+
+\- Windows asks whether you're really sure you don't want Edge.
+
+\- File Explorer occasionally advertises Microsoft 365.
+
+\- half the RAM is already in use before you even start a browser.
+
+\- every new feature somehow involves AI.
+
+\- every old feature somehow involves Internet Explorer.
+
+\- troubleshooting consists of running ""sfc /scannow"", ""DISM"", rebooting three times and hoping for the best.
+
+\- there are still dialogs that look like they're from Windows XP.
+
+\- there are still dialogs that are older than Windows XP.
+
+\- printing still works by ancient ritual rather than engineering.
+
+\- Bluetooth devices pair whenever they feel emotionally ready.
+
+\- USB devices play a little lottery every time you plug them in.
+
+\- if something breaks after Patch Tuesday you're supposed to wait until next Patch Tuesday.
+
+Are these mostly old myths that people keep repeating, or is this still something I should expect?
+
+My workflow is pretty simple:
+
+Firefox
+
+vim
+
+Ricing my tiling windowmanager
+
+Docker
+
+LibreOffice
+
+SSH into Linux servers
+
+occasional virtualization
+
+I don't really want to spend weeks learning Windows internals, PowerShell, the Registry, Group Policy, DISM, SFC, Event Viewer, Device Manager, Task Scheduler and twelve different settings applications just to become a basic user.
+
+Also, is Windows beginner-friendly nowadays or do I need to know things like registry keys and GUIDs just to disable features I don't want?
+
+I don't mind learning, but I'd prefer to actually use my computer instead of negotiating with it.
+
+EDIT: For context I'm looking at buying a decent Ryzen laptop with 128 GB RAM and a 4 TB SSD. Is that enough to run Windows comfortably?
+
+EDIT 2: Thank you everyone. The comments have genuinely made me much more confident about trying Windows. This community is incredibly helpful and supportive. ❤️","[1:reply] Is this a ragebait for windows users or anti-ai people? Couldnt decide 🤣 both ragebaited thats for sure. Also why use AI to create a post man just post with your own way
+[2:reply] Fuck your ai generated wall of text
+[3:reply] ""I've never used windows but I have this exhaustive list of first hand knowledge that supercedes the average, non-power user""
+
+Cool story bro 
+
+Ps don't worry I understood this was a satirical reverse of your average distro hunting question
+[4:reply] Most of them are true, some of them can be fixed. But more than enough reasons not to use Windows
+[5:reply] Yeah, I was gonna reply... then I scrolled to a wall of trash. I'm out.",title_body_comments,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/linuxquestions/comments/1usihqr/are_the_stories_about_windows_actually_true/
+B13-016,arduino,Arduino Uno R4 Wifi USB fried?!,"Hey all, 
+
+(btw, this is a rant since i have spent at least 1 month trying to fix this :) 
+
+I got a arduino uno r4 wifi during winter of 2025. I loved it, and started learning how to code and make really cool projects and later started making a sketch that had the following purpose
+
+Hallway Light Sensor
+
+\- Uses a PIR motion sensor to detect when people are in the lower floor 
+
+\-Then uses sinric pro to connect to alexa to turn on smart lights
+
+\-after a period of time they turn off and rinse and repeat 
+
+\-additional features: had the arduino OTA library installed (since i'm not paying for OTA), used RTC, had a debug web server so it logged and updated what was going on, and more that I can't remember 
+
+That's cool and all, but I think I flew to close to the sun when i tried adding a more nicer looking debug server. That's fine right, just update the sketch, right. That's what I thought too, so I made some changes to the code and got my arduino, plugged it in and nothing pops up in the upload menu. Only the OTA port, so I said ""huh, that's weird"" and went about with OTA. Few days later I sit down trying to fix some bugs and now OTA doesn't show up. This is where I start banging my head against the wall because I feel like I have tried EVERYTHING but still nothing, and it's not like I've tried simple stuff like ""restart the IDE"" no no no.. I've tried solder reflows, reflashing software, checking dmesg. EVERYTHING. So if you do wish to help (please) don't give me stuff like ""restart the computer"" I am happy to answer all the questions because I know I'm probably leaving stuff out, unimportant or important. I do have one request, don't suggest me buying a new board. I love DIY and trying to fix things (and love saving a little bit of money, who doesn't) but buying a new board is like admitting defeat.         
+
+Thanks, 
+
+(PS: If you notice AI on my sketch, it's on purpose since I think AI can really speed up the debugging process, so don't say stuff like ""HE IS SO FAKE, IMAGINE USING AI"" because A. it's 2026 and B. sometimes people don't have 5 hours for a hobby :)  
+
+Current Sketch on Arduino (pretty sure): 
+
+    /*
+      =========================================
+       Hallway Motion Sensor — Arduino Uno R4 WiFi
+       *WITH LOCAL OTA &amp; GHOST-TRIGGER FILTER*
+      =========================================
+      PIR sensor → Pin 7
+      Cloud      : Sinric Pro (manual WebSocket)
+      Alexa      : Lights on when motion, off when gone
+    
+    
+      Libraries needed:
+        - Crypto (by Rhys Weatherley)
+        - NTPClient (by Fabrice Weinberg)
+        - WiFiS3 + WiFiUdp + ArduinoOTA (Built-in)
+      =========================================
+    */
+    
+    
+    #include &lt;WiFiS3.h&gt;
+    #include &lt;WiFiServer.h&gt;
+    #include &lt;WiFiUdp.h&gt;
+    #include &lt;NTPClient.h&gt;
+    #include &lt;SHA256.h&gt;
+    #include &lt;ArduinoOTA.h&gt;
+    
+    
+    // =========================================
+    // CONFIG
+    // =========================================
+    
+    
+    #define WIFI_SSID           ""***""
+    #define WIFI_PASS           ""***""
+    
+    
+    #define OTA_HOSTNAME        ""***""
+    #define OTA_PASSWORD        ""***""
+    
+    
+    #define APP_KEY             ""***""
+    #define APP_SECRET          ""***""
+    #define DEVICE_ID           ""***""
+    
+    
+    #define PIR_PIN                 7
+    
+    
+    #define DEBUG_MODE              false
+    #define // timezone_OFFSET              *
+    
+    
+    #define WINDOW_1_START_H        *
+    #define WINDOW_1_START_M        *
+    #define WINDOW_1_END_H          *
+    #define WINDOW_1_END_M          *
+    
+    
+    #define WINDOW_2_START_H        *
+    #define WINDOW_2_START_M        *
+    #define WINDOW_2_END_H          *
+    #define WINDOW_2_END_M          *
+    
+    
+    #define WATCH_INTERVAL          1250
+    #define PRESENT_INTERVAL        2000
+    #define NO_MOTION_LIMIT         12
+    #define SINRIC_REPEAT_INTERVAL  26000
+    #define SLEEP_CHECK_INTERVAL    30000
+    
+    
+    #define WIFI_SPIKE_BLIND_MS     1200
+    #define PIR_DEBOUNCE_MS         1250  // Lowered back from 2000 — less aggressive
+    
+    
+    #define WS_RECONNECT_DELAY      2000
+    
+    
+    #define SINRIC_HOST             ""ws.sinric.pro""
+    #define SINRIC_PORT             80
+    #define SERIAL_BAUD             9600
+    
+    
+    // --- Static IP ---
+    IPAddress staticIP(***);
+    IPAddress gateway(***);
+    IPAddress subnet(***);
+    // =========================================
+    
+    
+    
+    enum Phase { WATCHING, PRESENT };
+    
+    
+    WiFiClient    client;
+    WiFiUDP       ntpUDP;
+    NTPClient     timeClient(ntpUDP, ""pool.ntp.org"", 0, 60000);
+    WiFiServer    debugServer(80);
+    String        logBuffer       = """";
+    
+    
+    void debugLog(String category, String msg = """", String color = ""#0f0"") {
+      if (msg == """") { msg = category; category = ""INFO""; }
+      unsigned long runTime = millis() / 1000;
+      String timestamp = ""["" + String(runTime) + ""s] "";
+      Serial.println(timestamp + ""["" + category + ""] "" + msg);
+      String webMsg = ""&lt;div style='margin-bottom:4px; border-left: 3px solid "" + color + ""; padding-left: 8px;'&gt;"" +
+                      ""&lt;span style='color:#666; font-size: 0.9em;'&gt;"" + timestamp + ""&lt;/span&gt; "" +
+                      ""&lt;b style='color:"" + color + ""; text-transform: uppercase;'&gt;["" + category + ""]&lt;/b&gt; "" +
+                      ""&lt;span style='color:#eee;'&gt;"" + msg + ""&lt;/span&gt;&lt;/div&gt;"";
+      logBuffer += webMsg;
+      if (logBuffer.length() &gt; 6000) logBuffer = logBuffer.substring(logBuffer.length() - 6000);
+    }
+    
+    
+    Phase         phase           = WATCHING;
+    unsigned long lastCheck       = 0;
+    unsigned long lastSinricSend  = 0;
+    unsigned long lastHeartbeat   = 0;
+    unsigned long lastSleepCheck  = 0;
+    int           noMotionCount   = 0;
+    bool          wsConnected     = false;
+    bool          wifiConnected   = false;
+    bool          pendingMotion   = false;
+    
+    
+    unsigned long lastWiFiActivity  = 0;
+    unsigned long motionStartTime   = 0;
+    bool          isTimingMotion    = false;
+    
+    
+    unsigned long wsReconnectAt      = 0;
+    bool          wsReconnectPending = false;
+    
+    
+    
+    static const char b64chars[] = ""ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/"";
+    
+    
+    String base64Encode(const uint8_t* buf, size_t size) {
+      String result = """";
+      int i = 0;
+      uint8_t b3[3], b4[4];
+      while (size--) {
+        b3[i++] = *buf++;
+        if (i == 3) {
+          b4[0] = (b3[0] &amp; 0xFC) &gt;&gt; 2;
+          b4[1] = ((b3[0] &amp; 0x03) &lt;&lt; 4) + ((b3[1] &amp; 0xF0) &gt;&gt; 4);
+          b4[2] = ((b3[1] &amp; 0x0F) &lt;&lt; 2) + ((b3[2] &amp; 0xC0) &gt;&gt; 6);
+          b4[3] = b3[2] &amp; 0x3F;
+          for (int j = 0; j &lt; 4; j++) result += b64chars[b4[j]];
+          i = 0;
+        }
+      }
+      if (i) {
+        for (int j = i; j &lt; 3; j++) b3[j] = 0;
+        b4[0] = (b3[0] &amp; 0xFC) &gt;&gt; 2;
+        b4[1] = ((b3[0] &amp; 0x03) &lt;&lt; 4) + ((b3[1] &amp; 0xF0) &gt;&gt; 4);
+        b4[2] = ((b3[1] &amp; 0x0F) &lt;&lt; 2) + ((b3[2] &amp; 0xC0) &gt;&gt; 6);
+        for (int j = 0; j &lt; i + 1; j++) result += b64chars[b4[j]];
+        while (i++ &lt; 3) result += '=';
+      }
+      return result;
+    }
+    
+    
+    void hmacSHA256(const char* key, size_t keyLen, const char* msg, size_t msgLen, uint8_t* result) {
+      uint8_t k[64] = {0};
+      if (keyLen &gt; 64) {
+        SHA256 sha; sha.reset(); sha.update(key, keyLen); sha.finalize(k, 32);
+      } else {
+        memcpy(k, key, keyLen);
+      }
+      uint8_t ipad[64], opad[64];
+      for (int i = 0; i &lt; 64; i++) { ipad[i] = k[i] ^ 0x36; opad[i] = k[i] ^ 0x5C; }
+      uint8_t innerHash[32];
+      SHA256 sha;
+      sha.reset(); sha.update(ipad, 64); sha.update(msg, msgLen); sha.finalize(innerHash, 32);
+      sha.reset(); sha.update(opad, 64); sha.update(innerHash, 32); sha.finalize(result, 32);
+    }
+    
+    
+    void wsSendText(const String&amp; msg) {
+      size_t len = msg.length();
+      uint8_t mask[4];
+      for (int i = 0; i &lt; 4; i++) mask[i] = random(0, 256);
+      client.write(0x81);
+      if (len &lt; 126) {
+        client.write((uint8_t)(0x80 | len));
+      } else if (len &lt; 65536) {
+        client.write(0xFE); client.write((uint8_t)(len &gt;&gt; 8)); client.write((uint8_t)(len &amp; 0xFF));
+      }
+      client.write(mask, 4);
+      for (size_t i = 0; i &lt; len; i++) client.write((uint8_t)(msg[i] ^ mask[i % 4]));
+    }
+    
+    
+    void wsPing() {
+      client.write(0x89);
+      client.write(0x80);
+      uint8_t mask[4] = {0, 0, 0, 0};
+      client.write(mask, 4);
+      lastWiFiActivity = millis();
+    }
+    
+    
+    String buildMessage(bool motionState) {
+      unsigned long ts = timeClient.getEpochTime();
+      String payload = ""{\""action\"":\""motion\"",\""clientId\"":\"""" + String(APP_KEY) + ""\"",\""createdAt\"":"" + String(ts) + "",\""deviceId\"":\"""" + String(DEVICE_ID) + ""\"",\""replyToken\"":\"""" + String(random(100000, 999999)) + ""\"",\""type\"":\""event\"",\""value\"":{\""state\"":\"""" + String(motionState ? ""detected"" : ""notDetected"") + ""\""}}"";
+      uint8_t hmacResult[32];
+      hmacSHA256(APP_SECRET, strlen(APP_SECRET), payload.c_str(), payload.length(), hmacResult);
+      return ""{\""header\"":{\""payloadVersion\"":2,\""signatureVersion\"":1},\""payload\"":"" + payload + "",\""signature\"":{\""HMAC\"":\"""" + base64Encode(hmacResult, 32) + ""\""}}"";
+    }
+    
+    
+    void sendMotion(bool detected) {
+      wsSendText(buildMessage(detected));
+      lastSinricSend = millis();
+      lastWiFiActivity = millis();
+    }
+    
+    
+    bool isActiveWindow() {
+      if (DEBUG_MODE) return true;
+      unsigned long localEpoch = timeClient.getEpochTime() + (UTC_OFFSET * 3600L);
+      int timeNow = ((localEpoch % 86400L) / 3600) * 60 + ((localEpoch % 3600) / 60);
+      return (timeNow &gt;= (WINDOW_1_START_H * 60 + WINDOW_1_START_M) &amp;&amp; timeNow &lt; (WINDOW_1_END_H * 60 + WINDOW_1_END_M)) ||
+             (timeNow &gt;= (WINDOW_2_START_H * 60 + WINDOW_2_START_M) &amp;&amp; timeNow &lt; (WINDOW_2_END_H * 60 + WINDOW_2_END_M));
+    }
+    
+    
+    bool wsConnect() {
+      Serial.println(""Connecting to Sinric Pro..."");
+      if (!client.connect(SINRIC_HOST, SINRIC_PORT)) return false;
+      client.print(""GET / HTTP/1.1\r\nHost: "" + String(SINRIC_HOST) + ""\r\nUpgrade: websocket\r\nConnection: Upgrade\r\nSec-WebSocket-Key: dGhlIHNhbXBsZSBub25jZQ==\r\nSec-WebSocket-Version: 13\r\nappkey: "" + String(APP_KEY) + ""\r\ndeviceids: "" + String(DEVICE_ID) + ""\r\nplatform: arduino\r\nrestoredevicestates: false\r\n\r\n"");
+      unsigned long timeout = millis() + 5000;
+      String response = """";
+      while (millis() &lt; timeout) {
+        ArduinoOTA.poll();
+        while (client.available()) response += (char)client.read();
+        if (response.indexOf(""101"") &gt; 0) {
+          while (client.available()) client.read();
+          debugLog(""Sinric Pro connected!"");
+          wsSendText(""{\""header\"":{\""payloadVersion\"":2,\""signatureVersion\"":1},\""payload\"":{\""action\"":\""hello\"",\""clientId\"":\"""" + String(APP_KEY) + ""\"",\""createdAt\"":"" + String(timeClient.getEpochTime()) + "",\""deviceId\"":\"""" + String(DEVICE_ID) + ""\"",\""replyToken\"":\""0\"",\""type\"":\""request\"",\""value\"":{}},\""signature\"":{\""HMAC\"":\""\""}}"");
+          lastWiFiActivity = millis();
+          return true;
+        }
+        if (response.indexOf(""\r\n\r\n"") &gt; 0) break;
+        delay(10);
+      }
+      client.stop(); return false;
+    }
+    
+    
+    void connectWiFi() {
+      Serial.print(""Connecting WiFi..."");
+      WiFi.config(staticIP, gateway, subnet);
+      WiFi.begin(WIFI_SSID, WIFI_PASS);
+      while (WiFi.status() != WL_CONNECTED) { ArduinoOTA.poll(); delay(500); }
+      while (WiFi.localIP() == IPAddress(0, 0, 0, 0)) { ArduinoOTA.poll(); delay(500); }
+      Serial.println("" IP: "" + WiFi.localIP().toString());
+      timeClient.begin();
+      while (!timeClient.update()) { ArduinoOTA.poll(); timeClient.forceUpdate(); delay(500); }
+      wifiConnected = true;
+      ArduinoOTA.begin(WiFi.localIP(), OTA_HOSTNAME, OTA_PASSWORD, InternalStorage);
+    }
+    
+    
+    void sleepWiFi() {
+      if (wifiConnected) {
+        if (phase == PRESENT) { sendMotion(false); phase = WATCHING; noMotionCount = 0; }
+        client.stop(); WiFi.disconnect(); WiFi.end();
+        wsConnected = false; wifiConnected = false;
+      }
+    }
+    
+    
+    void setup() {
+      Serial.begin(SERIAL_BAUD);
+      pinMode(PIR_PIN, INPUT);
+      connectWiFi();
+      if (isActiveWindow()) {
+        wsConnected = wsConnect(); debugServer.begin();
+        debugLog(""Watching for motion..."");
+      } else { sleepWiFi(); }
+    }
+    
+    
+    void loop() {
+      ArduinoOTA.poll();
+      delay(1);
+    
+    
+      unsigned long now = millis();
+    
+    
+      // --- Serve Debug Webpage ---
+      WiFiClient webClient = debugServer.available();
+      if (webClient) {
+        String req = """";
+        while (webClient.connected() &amp;&amp; webClient.available()) {
+          req += (char)webClient.read();
+          if (req.endsWith(""\r\n\r\n"")) break;
+        }
+        webClient.print(""HTTP/1.1 200 OK\r\nContent-Type: text/html\r\nConnection: close\r\n\r\n"");
+        webClient.print(""&lt;html&gt;&lt;head&gt;&lt;meta http-equiv='refresh' content='2'&gt;"");
+        webClient.print(""&lt;style&gt;body{background:#1a1a1a;color:#eee;font-family:monospace;padding:20px;line-height:1.4;} h3{color:#0f0; border-bottom: 1px solid #333; padding-bottom:10px;}&lt;/style&gt;&lt;/head&gt;"");
+        webClient.print(""&lt;body&gt;&lt;h3&gt;PRO HALLWAY SENSOR DEBUG&lt;/h3&gt;&lt;div id='logs'&gt;"" + logBuffer + ""&lt;/div&gt;"");
+        webClient.print(""&lt;script&gt;window.scrollTo(0,document.body.scrollHeight);&lt;/script&gt;&lt;/body&gt;&lt;/html&gt;"");
+        webClient.stop();
+      }
+    
+    
+      // --- Sleep Logic ---
+      if (!wifiConnected) {
+        if (now - lastSleepCheck &gt;= SLEEP_CHECK_INTERVAL) {
+          lastSleepCheck = now;
+          debugLog(""SYSTEM"", ""Checking time window..."", ""#888"");
+          WiFi.config(staticIP, gateway, subnet);
+          WiFi.begin(WIFI_SSID, WIFI_PASS);
+          unsigned long wTimeout = millis() + 10000;
+          while (WiFi.status() != WL_CONNECTED &amp;&amp; millis() &lt; wTimeout) {
+            ArduinoOTA.poll();
+            delay(500);
+          }
+          if (WiFi.status() == WL_CONNECTED) {
+            timeClient.begin(); timeClient.forceUpdate();
+            if (isActiveWindow()) {
+              while (WiFi.localIP() == IPAddress(0, 0, 0, 0)) { ArduinoOTA.poll(); delay(500); }
+              wifiConnected = true;
+              ArduinoOTA.begin(WiFi.localIP(), OTA_HOSTNAME, OTA_PASSWORD, InternalStorage);
+              wsConnected = wsConnect();
+              debugLog(""SYSTEM"", ""Active window started! Waking up."", ""#0f0"");
+            } else {
+              debugLog(""SYSTEM"", ""Still outside window. Sleeping..."", ""#555"");
+              WiFi.disconnect(); WiFi.end();
+            }
+          }
+        }
+        return;
+      }
+    
+    
+      ArduinoOTA.poll();
+      timeClient.update();
+    
+    
+      if (!isActiveWindow()) {
+        debugLog(""SYSTEM"", ""Window closed. Shutting down WiFi."", ""#ff4500"");
+        sleepWiFi();
+        return;
+      }
+    
+    
+      if (WiFi.status() != WL_CONNECTED) {
+        debugLog(""WIFI"", ""CONNECTION LOST!"", ""#ff0000"");
+        connectWiFi();
+        wsConnected = false;
+      }
+    
+    
+      // --- WebSocket Reconnect (non-blocking) ---
+      if (!wsConnected || !client.connected()) {
+        if (!wsReconnectPending) {
+          debugLog(""SINRIC"", ""WebSocket dropped. Reconnecting in 2s..."", ""#ffa500"");
+          client.stop();
+          wsReconnectAt = now + WS_RECONNECT_DELAY;
+          wsReconnectPending = true;
+        }
+        if (now &gt;= wsReconnectAt) {
+          wsReconnectPending = false;
+          wsConnected = wsConnect();
+          if (wsConnected &amp;&amp; pendingMotion) {
+            debugLog(""SINRIC"", ""Sending queued motion event..."", ""#ff00ff"");
+            sendMotion(true); pendingMotion = false;
+          }
+        }
+        return;
+      }
+    
+    
+      while (client.available()) client.read();
+    
+    
+      if (now - lastHeartbeat &gt; 15000) {
+        lastHeartbeat = now;
+        wsPing();
+        debugLog(""SINRIC"", ""Heartbeat sent"", ""#666"");
+      }
+    
+    
+      // ===============================================
+      // GHOST-FILTER &amp; DETECTION LOGIC
+      // ===============================================
+    
+    
+      bool isBlinded = (now - lastWiFiActivity &lt; WIFI_SPIKE_BLIND_MS);
+      bool validMotionDetected = false;
+    
+    
+      if (isBlinded) {
+        isTimingMotion = false;
+      } else {
+        if (digitalRead(PIR_PIN) == HIGH) {
+          if (!isTimingMotion) {
+            isTimingMotion = true;
+            motionStartTime = now;
+          } else if (now - motionStartTime &gt;= PIR_DEBOUNCE_MS) {
+            validMotionDetected = true;
+          }
+        } else {
+          isTimingMotion = false;
+        }
+      }
+    
+    
+      // --- Phase: WATCHING ---
+      if (phase == WATCHING) {
+        if (now - lastCheck &gt;= WATCH_INTERVAL) {
+          lastCheck = now;
+          if (validMotionDetected) {
+            debugLog(""PIR"", ""!!! MOTION VERIFIED !!!"", ""#00ffff"");
+            debugLog(""ALEXA"", ""Triggering Lights ON"", ""#ff00ff"");
+            sendMotion(true);
+            noMotionCount = 0;
+            phase = PRESENT;
+            isTimingMotion = false;
+          }
+        }
+      }
+    
+    
+      // --- Phase: PRESENT ---
+      else if (phase == PRESENT) {
+        if (now - lastCheck &gt;= PRESENT_INTERVAL) {
+          lastCheck = now;
+    
+    
+          if (validMotionDetected) {
+            noMotionCount = 0;
+            if (now - lastSinricSend &gt;= SINRIC_REPEAT_INTERVAL) {
+              debugLog(""PIR"", ""Motion sustained. Extending Alexa timer."", ""#00ffff"");
+              sendMotion(true);
+              isTimingMotion = false;
+            }
+          } else if (digitalRead(PIR_PIN) == LOW &amp;&amp; !isBlinded) {
+            noMotionCount++;
+    
+    
+            String bar = """";
+            for (int i = 0; i &lt; noMotionCount; i++) bar += ""█"";
+            for (int i = noMotionCount; i &lt; NO_MOTION_LIMIT; i++) bar += ""░"";
+    
+    
+            debugLog(""WAIT"", ""Cooldown: ["" + bar + ""] "" + String(noMotionCount) + ""/"" + String(NO_MOTION_LIMIT), ""#ffff00"");
+    
+    
+            if (noMotionCount &gt;= NO_MOTION_LIMIT) {
+              debugLog(""PIR"", ""Area clear. Sending 'notDetected'"", ""#0f0"");
+              sendMotion(false);
+              noMotionCount = 0;
+              phase = WATCHING;
+            }
+          }
+        }
+      }
+    }",,title_and_body,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/arduino/comments/1sofner/arduino_uno_r4_wifi_usb_fried/
+B13-017,applehelp,iMessage and FaceTime stuck on “Waiting for Activation” after changing Apple ID password,"Device: iPhone 17 Pro Max (fully up to date on latest iOS)
+
+I’m wondering if anyone has experienced this before because I feel like I’ve tried pretty much everything at this point.
+
+I’ve had this iPhone with the same T-Mobile number/eSIM for months and iMessage and FaceTime have worked perfectly the entire time.
+
+Yesterday I erased my old Apple Watch because I’m no longer using it. Around the same time, I changed my Apple ID/Apple Account password. Within probably 5 minutes of changing the password, iMessage and FaceTime stopped working.
+
+I initially got notifications saying that iMessage was signed out and that an error had caused my account/phone number to be signed out of iMessage. FaceTime showed “Activation Unsuccessful” as well.
+
+After restarting the phone, iMessage and FaceTime eventually changed from “Activation Unsuccessful” to “Waiting for Activation.”
+
+My phone number now appears under Send &amp; Receive, but there’s just a loading spinner next to it and it never finishes. The same thing happens with my number under FaceTime.
+
+At one point iMessage prompted me to sign into my Apple Account again. I entered my new password, but the sign-in itself just sat there loading indefinitely.  
+So far I’ve restarted the phone multiple times, updated to the latest version of iOS, confirmed automatic date/time is on, and confirmed that Wi-Fi and cellular data work.  
+Calls work normally and I can currently send and receive SMS and RCS messages without any problems.
+
+I only have one T-Mobile eSIM installed and the correct phone number is attached to it.
+
+I’ve also completely signed out of my Apple Account/iCloud and signed back in. That didn’t change anything.  
+I contacted T-Mobile and had them check my line. They said there are no SMS, international SMS, or provisioning issues.
+
+I also used Apple’s online iMessage/FaceTime activation form last night and again this morning. I haven’t received the email Apple says they’ll send if the account is ready for iMessage and FaceTime.
+
+It’s now been over 12 hours and both iMessage and FaceTime are still stuck waiting to activate my phone number.
+
+At this point my actual cellular service seems completely normal. Calls, data, SMS and RCS all work. It seems like the problem is specifically getting Apple to verify/register my number with iMessage and FaceTime again.  
+The timing makes me think changing my Apple ID password caused it since both services stopped working within minutes of doing that, but I don’t understand why it would still be unable to reactivate this long afterward.  
+Apple says it can take up to 24 hours, so I’m leaving iMessage and FaceTime on and not messing with anything else for now.
+
+Has anyone had this happen after changing their Apple ID password? Did it eventually activate on its own, or did you have to get Apple Support involved? Is there anything else worth trying that doesn’t involve deleting my eSIM or factory resetting the phone?",,title_and_body,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/applehelp/comments/1vmcib1/imessage_and_facetime_stuck_on_waiting_for/
+B13-018,AndroidQuestions,How To Disable Joyose Redmi Tab 2 Pro (after hyper os 3 update),"I purchased 4 days ago a redmi pad 2 pro, the version wiyh 8 gb ram.First 2 days everything worked ok, in the games i playd everything was ok, codm 120 fps, pubgm 90 fps. Than the tablet updated to hyper os 3 and everything is fked up. Games are locked in 60 fps no matter what. They look pixelated and blury. Like yhe resolution is 360p. After some research online i found the culprits are joyose and the batery and performance all (yea that one). The only fix i found to work sometimes, is to delete all data of the batery and performance app, than the game works fine for that session. I understood that by disabling/remove joyose the limits will be permanently off. I tried via adb comands but its secured to good by the os. Anyone have any solution on how to remove disable joyose witchout root? In case i cant i will simply refound the tablet and buy a huawei one.",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/AndroidQuestions/comments/1uyip5z/how_to_disable_joyose_redmi_tab_2_pro_after_hyper/
+B13-019,MicrosoftEdge,The 'show in folder' button for Edge's Favorites is still not working!!!!!?????,The 'show in folder' button for Edge's Favorites remains broken despite numerous updates! It only shows the folder without any content! This is just terrible!,,title_and_body,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/MicrosoftEdge/comments/1o1ty49/the_show_in_folder_button_for_edges_favorites_is/
+B13-020,MicrosoftEdge,Edge android autofill issues,"For the last few months I experience some weird issues with Edge autofill for android. When trying to search for a place on google maps it suggests to autofill my google accounts. Basically the same happens with any other apps that I have saved the login info. 
+
+Is this bug known and is there any fix for this specific issue?
+
+My device is a Xiaomi 13T Pro running the latest updates of the OS and the browser.",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/MicrosoftEdge/comments/1r5hlg5/edge_android_autofill_issues/
+B13-021,Fedora,err message can't figure out,"Updating and loading repositories:
+
+ ookla\_speedtest-cli-source             ???% |   0.0   B/s |   0.0   B |  00m00s
+
+\&gt;&gt;&gt; Curl error (77): Problem with the SSL CA cert (path? access rights?) for https://packagecloud.io/ookla/speedtest-cli/fedora/44/SRPMS/repodata/repomd.xml \[error adding trust anchors from file: /etc/pki/tls/certs/ca-bundle.crt\] - https://packagecloud.io/ookla/speedtest-cli/fedora/44/SRPMS/repodata/repomd.xml
+
+\&gt;&gt;&gt; An Curl handle error
+
+ ookla\_speedtest-cli                    ???% |   0.0   B/s |   0.0   B |  00m00s
+
+\&gt;&gt;&gt; Curl error (77): Problem with the SSL CA cert (path? access rights?) for https://packagecloud.io/ookla/speedtest-cli/fedora/44/x86\_64/repodata/repomd.xml \[error adding trust anchors from file: /etc/pki/tls/certs/ca-bundle.crt\] - https://packagecloud.io/ookla/speedtest-cli/fedora/44/x86\_64/repodata/repomd.xml
+
+\&gt;&gt;&gt; An Curl handle error",,title_and_body,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/Fedora/comments/1syd6zv/err_message_cant_figure_out/
+B13-022,MicrosoftEdge,Anyone else having Edge not switching up to 1080p on netflix?,"Been watching netflix on Edge - Windows 10 for years, without issues. Always worked 1080p. Last time i used it was 6 weeks ago, wanted to watch sg yesterday and it's stuck on 720p. Same today. No config, hardware, or settings were changed, just the usual windows and edge updates. Wondering if anyone had a similar issue recently?","[1:reply] Is it possible you're on the basic plan?  That one is limited to 720p, while the standard plan supports 1080p.
+[2:reply] This one helped me: [New Netflix 1080p - Chrome Web Store](https://chromewebstore.google.com/detail/new-netflix-1080p/mdlbikciddolbenfkgggdegphnhmnfcg)
+[3:reply] but I'm not sure if we have the same problem
+[4:OP] No, that wasn't the problem, as 1080p worked for years until like a few weeks ago. The addon, i was sugested in the answer above solved it luckily :)",title_body_comments,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/MicrosoftEdge/comments/1wu0qbw/anyone_else_having_edge_not_switching_up_to_1080p/
+B13-023,MicrosoftEdge,Google Search suggestions not working and constantly getting logged out of YouTube,"I’ve been using MS Edge for quite a long time now, but recently I’ve been running into a couple of really annoying issues that I can't seem to fix.
+
+**Issue 1: Google Search Suggestions Broken** I prefer using Google as my default search engine instead of Bing. However, lately, when I switch it to Google, the search suggestions completely stop working. I've tried tweaking the address bar and search settings, but nothing changes.
+
+**Issue 2: YouTube Session &amp; Account Switching Issues** Every time I open YouTube, I have to log in again—it just won’t keep me logged in. To make matters worse, since I have multiple Google accounts, Edge keeps automatically switching away from my default YouTube channel/account to a different one after I log in.
+
+**What I've tried so far:**
+
+* Resetting MS Edge to default settings.
+* Updating the browser to the latest version.
+
+Unfortunately, none of these worked. Has anyone else faced these issues recently? Any ideas or workarounds to fix this would be highly appreciated!
+
+Thanks in advance!","[1:reply] Been having the same issue since the update alongside a very stuttery browser. If you find anything please let me know
+[2:reply] Do you use a password or passkey? I was having issues with the new device bound session cookies and Google being weird. I think I had logged into one with password and another with passkey and the passkey kept working signed in fine.
+[3:reply] Solution is probably here:
+
+[https://learn.microsoft.com/en-us/answers/questions/5887558/almost-every-google-owned-website-stops-working-on](https://learn.microsoft.com/en-us/answers/questions/5887558/almost-every-google-owned-website-stops-working-on)
+
+I just did a search for y…
+[4:OP] Everytime I use passwords. No passkeys
+[5:OP] I've changed that setting, but it's not working",title_body_comments,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/MicrosoftEdge/comments/1up0drd/google_search_suggestions_not_working_and/
+B13-024,MicrosoftEdge,"Chrome &amp; Edge sign-in / loading problems on Google, Facebook, Grok, Amazon (and other credentialed sites) after June 2026 Windows Update KB5094127 on Dell Inspiron Inspiron 5502 Windows 10","Fixed: Chrome &amp; Edge sign-in / loading problems on Google, Facebook, Grok, Amazon (and other credentialed sites) after June 2026 Windows Update KB5094127 on Dell Inspiron Inspiron 5502 Windows 10
+
+Setup:
+
+Two identical Dell Inspiron 5502 laptops running Windows 10 (one Pro). Both on Windows 10 Extended Support and updated with recent Intel graphics, wireless, and Bluetooth drivers via Intel tools a few days before the big June 9–10, 2026 Patch Tuesday. Problems started right after installing KB5094127 (the main cumulative security update) + related components.
+
+Symptoms:
+
+Google Maps page incomplete. Google sign-in page: Could type in the email/account box, but hitting Return or clicking Next caused the field to be partially overwritten with the original prompt text. “Next” button did nothing.
+
+Facebook: CAPTCHA not displaying (or “unsupported browser” / reCAPTCHA challenge failure).
+
+Grok (grok.com): “It looks like the webpage at https://grok.com/ might be having issues, or it may have moved permanently…”
+
+Amazon and other login-heavy sites also broken/slow.
+
+General Chromium browser slowness.
+
+Some sites worked somewhat better in Firefox.
+
+Temporary workaround: Opening DevTools (F12 or right-click → Inspect) often made Google login succeed.
+
+Rolling back KB5094127 did not fix it.
+
+
+
+Fix that worked immediately (one of several suggested by Grok):
+
+In Chrome or Edge:
+
+Go to chrome://flags or edge://flags
+
+Search for ""QUIC""
+
+Set Experimental QUIC protocol to Disabled
+
+Relaunch the browser
+
+All symptoms seem to have disappeared on both machines. Sites load normally, sign-ins work, no more Google sign-in username/password text prompt overwrites or “webpage having issues” errors.",[1:reply] Thanks a lot. This worked! Saved my day!,title_body_comments,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/MicrosoftEdge/comments/1u4fpoj/chrome_edge_signin_loading_problems_on_google/
+B13-025,MicrosoftEdge,Microsoft edge Windows malfunction,"Good Afternoon, My Edge doesn't launch since recent update on Windows I did everything suggested it doesn't work at all , anyone experience this too on Windows 10 of course",,title_and_body,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/MicrosoftEdge/comments/1ows22n/microsoft_edge_windows_malfunction/
+B13-026,Fedora,I'm having some issues with Plasma right now after updating.,"I just updated using terminal. It rebooted nicely but the problem is plasma is crashing. It's a black screen as soon as I login the first time. But apparently if I press Ctrl Alt T, terminal opens and then it I can type the software name and it loads perfectly (Only the software! Dolphin also opens like this). When I put it to sleep and try to wake it up I get a text saying that the Lock Screen is broken and it gives me steps like Ctrl+Alt+F2, then login from the terminal then type loginctl unlock-session 2 and then Ctrl+D and Ctrl+Alt+F1. Then it logs in and shows black screen as usual. What's happening? What's wrong with my plasmashell???","[1:reply] It's a fontconfig bug: https://gitlab.freedesktop.org/fontconfig/fontconfig/-/work_items/565
+
+The bug report also contains a work around that solved the problem for me: run `find ~/.cache/fontconfig -name '*-le64.cache-9' -type l -delete &amp;&amp; fc-cache` to remove the offend…
+[2:reply] It sounds like you're looking for help. Please note that r/Fedora is not an official support channel for the Fedora Project.
+
+For best results, be sure to include all relevant details in your post, such as your Fedora edition, version, and hardware specs. You can edit your origi…
+[3:reply] The logs should indicate what's wrong.
+[4:reply] I guess you are using a chromium based browser? If so then try the following, login to terminal and issue rm -rf ~/.cache/fontconfig/* and reboot, I guess everything works now (until you start Chrome (or a chromium based browser again). If this works you have to update your chro…
+[5:OP] It was the problem with the fontconfig! After removing it it all got back to normal. I do use Chromium based browsers. Brave and Chromium itself. I haven't opened them since the fix. I'll let you know what happens.",title_body_comments,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/Fedora/comments/1wu87e7/im_having_some_issues_with_plasma_right_now_after/
+B13-027,chrome,After update Chrome freeze both Win and Android when scroll,What was changed Chrome? Windows freeze: when play youtube playlist and want to scroll. Android: when scroll in Disqus forum.,,title_and_body,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/chrome/comments/1ouws5u/after_update_chrome_freeze_both_win_and_android/
+B13-028,Fedora,Wierd state when ever I reboot,"I just started using fedora from yesterday, whenever I reboot the system goes into a state where the Bluetooth, wifi is gone, the resolutions are wrong, wierd transitions. I chose to roll back to previous version twice now. 
+The system keeps updating to the latest version
+it only happenes when the system automatically updates.
+I have to keep it rolling back to prev version everytime.
+I have also had to keep deleting and installing the drivers again and again everytime this happens ://
+
+Edit: I rolled back to prev version once more, and it says  ""NVIDIA kernel module missing, falling back to nouveau"". This has been happening multiple times and it's a cycle of fixing it, installing drivers, the system tries to update the software and the drivers fail.","[1:reply] It sounds like you're looking for help. Please note that r/Fedora is not an official support channel for the Fedora Project.
+
+For best results, be sure to include all relevant details in your post, such as your Fedora edition, version, and hardware specs. You can edit your origi…
+[2:reply] Specs? What NVIDIA driver did you install? And did you either enroll your MOK or disable secure boot?
+[3:reply] I update my systems manually. I didn't even know that automatic updates was a thing, and I've been doing computers for 45 years. I recommend that you do the same. Your call. Here's the documentation:
+
+[https://docs.fedoraproject.org/en-US/quick-docs/autoupdates/](https://docs.fe…
+[4:OP] I did disable the secure boot after some results suggested that
+[5:OP] I left the system idle whole night to get a game downloaded, and I restart the system just to see if happened again and it did happen, the os went back to wrong resolution, no wifi and Bluetooth, and the error Nvidia failed falling back to noaevu showed up again.. it's so frustr…",title_body_comments,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/Fedora/comments/1uo04zo/wierd_state_when_ever_i_reboot/
+B13-029,AZURE,Owner account error code 530035 in AZ Migrate.,"I just signed up for a free account to do my first on-prem VM migration to Azure.
+
+Initially, I was successful at first where I could get up to the part to create an assessment but then realized that ""West US"" doesn't have an availability zone so I recreated all my Resource Groups and Resources to ""West US 2"" all from scratch.
+
+I set up the appliance again, verified with a project key, I can sign-in but now denied access to the Powershell app where I did not initially.  I tried creating another owner account that wasn't an #EXT# in the principal name and created another migrate project with a unique name.
+
+It looks like a Conditional Access issue but why would it work the first time but not the second time?  Looks like I have to upgrade just to work with Conditional Access?
+
+https://preview.redd.it/ndt63n7ix0fh1.png?width=1042&amp;format=png&amp;auto=webp&amp;s=f9da03f6670141f7ac221792f4059689b2077e9e
+
+https://preview.redd.it/jacoyr7sv0fh1.png?width=1381&amp;format=png&amp;auto=webp&amp;s=9e75cd13dc8554acde02316ea00dbbfe95cbbf99
+
+EDIT:
+
+Looks like I had to temporarily disable Security defaults and now I have access.","[1:reply] Or use **named location** then put in the Public IP address in the CA that blocks your access.
+[2:OP] Thanks.  Adding Countries and IP ranges location is grayed out for me in the free version.  Looks like it'll have to upgrade.",title_body_comments,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/AZURE/comments/1v4mmfp/owner_account_error_code_530035_in_az_migrate/
+B13-030,debian,Trouble with Steam and discord after the lastest update.,"I don't exactly know when this update dropped, but after not using my PC (ryzen 5 5600x and rx 7700xt if it helps) since last  Sunday, I updated it Friday the 17th. I was planning to hop on the game with my bro, but he wasn't quite ready yet, so I restarted my PC right away to get the update up and running. (I still had steam, and discord open, I don't know if it matters or not) After my PC booted, discord and steam didn't auto reopen unlike they usually do. I didn't think much about it, so I just opened steam up... Or tried to anyway. Upon trying to open the application, I would get the error message that told me that I'm missing the file lib.so.6, and steam might not be able to open. It didn't btw. After that I tried every single thing that I could find including, but probably not limited too: reinstalling the 32 bit directory file that was apparently missing multiple times, deleting and reinstalling steam, trying to use the steam flatpak, manually making sure the file was in my pc's 32 bit directory, and updating everything every once in a while. I did get the steam flatpak to launch once, but never after that. That one doesn't give me the error message, it just doesn't start at all. And as for discord, that just doesn't work. Like at all. I can get older versions to launch and tell me that I need to update, but after they update, they don't work either. Any and all help would be appreciated, I have spent nearly 8 hours on this, and am on the brink of switching to another distro.","[1:reply] Lib.so.6 is a central library, something probably went wrong during the update.
+
+Have you tried :
+
+&gt; sudo apt install --reinstall libc6 libc6:i386
+[2:OP] Not that exact line of code, though I have had it install it and try to fix any broken packages. I also did find the 32 bit directory and the file is there. I will try it though, thanks!
+[3:reply] How is steam and discord installed?
+
+Discord doesn't have a repo, so it's either via deb file from their website or flatpak. 
+
+Steam could come from the Debian repo or also flatpak.
+
+In any case update both apps ..
+[4:OP] Both from .deb file. And yeah I update them.",title_body_comments,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/debian/comments/1v1ke34/trouble_with_steam_and_discord_after_the_lastest/
+B13-031,applehelp,Face ID not working after update,"after installing the new iOS update, I have had trouble with using Face ID and my settings said that there was a problem with my Face ID recognition is there something that anybody else is having after the new update or is it just my phone?","[1:reply] What new update? The most recent public release which was 26.5.2 was at the end of June, almost 2 weeks ago. The error is suggestive of an issue with your TrueDepth camera system, which may require hardware repair to fix.",title_body_comments,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/applehelp/comments/1uxhmq5/face_id_not_working_after_update/
+B13-032,AZURE,Azure Conditional Access/Revoke Multifactor Authentication Sessions,"We have a user who is using AVD from a Macbook and when she logs in she is saying she never gets the 2fa prompt.  When I attempt to revoke multifactor authenticaion settings it fails (attempting via portal at this point).  I can revoke sessions, just not the multifactor authentication one - it just says failed. Anyone else seeing this?  Something to do with the outage?
+
+UPDATE: I figured it out! Its due to a group thing. When we made windows 11 avd machines I made a new group so that the pool didnt show up on windows 10 users and confuse them. I never added the new group as a member of the AVD CA policy for 1 hour.",,title_and_body,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/AZURE/comments/1ok3ufg/azure_conditional_accessrevoke_multifactor/
+B13-033,comfyui,"Has anyone else had any issues with nodes not loading or crashing, or workflows not saving since the ComfyUI 5.0 update?","Since this last update. I’ve had a few nodes not loading because they are no longer supported or they work for a little bit and randomly crash. Not a set time frame, just random. Then have to refresh the UI and it crashes again after some use. The style selection node from Comfyui-Easy, a save custom node, and doesn’t affect the whole collection, just random nodes. 
+
+
+Also my workflows sometimes don’t save. I had a workflow I was working on, saved it after doing some work. The next day, it had deleted everything I had done and even removed a few nodes I had done prior. Then last night I was working on a workflow and had to refresh the UI. Once it refreshed, I had jumped like a handful of steps back from what I had just done. 
+
+Is anyone else having issues or buggy and glitchy things happening with Comfyui right now?",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/comfyui/comments/1pysjs5/has_anyone_else_had_any_issues_with_nodes_not/
+B13-034,sysadmin,PSA: Are Intune checkin and device registration broken on Linux clients?,"We're seeing issues with Ubuntu clients (22.04/24.04/26.04) failing to check in with Intune since thursday. Intune logs on the clients say ""Failed to Check in with Intune. Failed to update device inventory. &lt;some MS URL&gt; Status Code 500"". Some other logs also say 400 or 404.
+
+Latest version of intune-portal and microsoft-identity-broker installed. Downgrade did not help.
+
+Trying to enroll a new device will either:
+
+* result in the device only landing in Entra, but not in Intune
+* result in the device appearing in both Entra and Intune, but without any inventory data
+
+Entra shows ""Ubuntu+26.04+LTS"" as OS version, while Intune shows either nothing (blank) or ""0.0.0.0"", resulting in the device not picking up our compliance policy -&gt; device will be not compliant -&gt; user cant login to M365 apps.
+
+dsreg on the client shows that it correctly registered to Entra. Trying to trigger a sync or log in locally in the Intune portal app will immediately result in an error message (""Device could not be registered. There was an error, please try again"").
+
+  
+Existing clients that are already enrolled also fail checkin and logon on the Intune portal app. But since they're still compliant users can still log in to M365 apps.
+
+There seems to be an issue going on at Microsoft's side. There's an open issue in the admin center (OP1459987), which sounds like it might be related giving  the intune-portal app fails to update its device inventory.
+
+""Some admins may see outdated device inventory and update status information in the Microsoft 365 Apps admin center""","[1:reply] We have noticed this on our Ubuntu 24.04 fleet. 
+
+It seems like Microsoft just break Intune every few months. We had an absolute nightmare in Jan trying to reregister our whole fleet when an update broke everybody's previous registration.toml files.
+
+Intune for Linux is borderli…
+[2:reply] Can confirm, we have issues as well.
+[3:reply] Same here since last week. I was losing my mind, glad to know it's not me then..
+[4:reply] Another day another Intune issue. Same issue on our End. Already Opened a support case with microsoft but no answer.
+[5:OP] Thank you for your service!",title_body_comments,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/sysadmin/comments/1vwwod6/psa_are_intune_checkin_and_device_registration/
+B13-035,firefox,"Unable to get to bookmark menu using ""Tab""","Firefox Nightly 152.0a1
+
+I use shortcut Ctrl + B to open bookmark menu  
+Then I use ""Tab"" key to focus on the first folder and use down up enter keys to navigate without using mouse
+
+[Old Version. Notice the blue highlight blue box that used to come when you would press tab after pressing Ctrl + B](https://preview.redd.it/00dvgjag6j1h1.png?width=232&amp;format=png&amp;auto=webp&amp;s=8549c36adcf4ebe6bfe84ebcff68335197c9784e)
+
+[New Version](https://preview.redd.it/fkeoxwri6j1h1.png?width=479&amp;format=png&amp;auto=webp&amp;s=53035d68384e805d1958d80e9b76794e2d992f4a)
+
+After bookmark menu was updated a few days ago
+
+I have been unable to focus/highlight on the bookmark menu **(ctrl + b) menu**
+
+The blue round box doesn't appear on the Bookmarks Toolbar folder even after I press on ""Tab"" key
+
+I did try to use another new profile that have no themes, userchrome, anything. It had same result
+
+Edit:
+
+I have tried to access it by pressing Tab repeatedly and it works after focusing on other browser components one by one. It also works when I reverse Tab by pressing Shift + Tab to access it way more quickly.
+
+But old version was smarter. It knew that since I recently opened the bookmark menu. It should immediately focus on the folder instead of trying to focus on other browser components like Collapsible sidebar button, Urlbar/Searchbar, Addon button.
+
+I also noticed that I'm unable to open bookmarks from the bookmark menu using my mouse's middle click
+
+Since I'm using Nightly. Should I expect this? Is it a bug? Do I have to report it somewhere or is it a intended feature? Do I wait for Firefox to fix and improve the new bookmark menu or issue a bug report",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/firefox/comments/1tezbmd/unable_to_get_to_bookmark_menu_using_tab/
+B13-036,firefox,No :'(. The latest nova update broke the theming!,"The buttons used to be orange and Kit wasn't covered by this transparent bar! However without the theme it looks gorgeous.
+
+  
+Edit: Another complaint I have is that I can't click things on the edges, I can't change tabs, I can't close, I have to have my mouse on the center of the thing I want to click.","[1:reply] I mean... Nova is in beta AFAIK and themes will have to be updated.
+[2:OP] Aren't WIP features for feedback?
+[3:reply] Complaints over a WIP feature, which is literally behind a flag so you only enable it if you know what you are doing, are insane.
+[4:OP] This happens to all themes. Also It's (stable) Firefox 152.0, on Nightly everything works perfectly.
+[5:reply] What version of FF are you using? I recently started testing the themes I have developed on Nightly with Nova enabled, and so far I have not seen anything I need to change. It may just be down to the theme you are using...",title_body_comments,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/firefox/comments/1u7dk4y/no_the_latest_nova_update_broke_the_theming/
+B13-037,comfyui,Memory leak issue when making multiple WAN 2.2 videos,"The longer I let a ComfyUI session run, the more memory it consumes. I just had Windows complain to me about low space on my main drive and I noticed my pagefile had grown to close to 200GB. My system ram is equally saturated. Oddly enough, I have around 8GB VRAM to spare. This is done on a system with 48GB system ram and 32GB VRAM.
+
+The problem started around December after I updated to the latest version of ComfyUI. I updated again a few days ago, but the problem persists.
+
+Has anyone run into a similar issue and know of a fix?
+
+Here's the workflow I use (modified version of a WAN 2.2 workflow from the ComfyUI blog): [https://pastebin.com/UQ5dB5VH](https://pastebin.com/UQ5dB5VH)",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/comfyui/comments/1qvvbah/memory_leak_issue_when_making_multiple_wan_22/
+B13-038,vscode,GitLab Duo broke after VSCode update last night. Need help,"Had it working perfectly fine yesterday to use Gitlab Duo within VSCode. Updated VSCode to the latest version and when it restarted it wouldn't authenticate my account so I deleted/unauthenticated my GitLab account in VSCode. Restarted, did the authenticate process over again and I keep getting an error. These are the output logs in VSCode:
+
+    2026-07-08T16:18:33:777 [info]: PacProxyAgent not found
+    2026-07-08T16:18:33:778 [info]: [LogNetworkConfig] Network Configuration detected: {
+      ""http"": {
+        ""proxy"": """",
+        ""proxySupport"": ""override"",
+        ""proxyAuthorization"": null,
+        ""proxyStrictSSL"": true,
+        ""noProxy"": [],
+        ""electronFetch"": false,
+        ""fetchAdditionalSupport"": true,
+        ""experimental.systemCertificatesV2"": false
+      },
+      ""gitlab"": {
+        ""ca"": """",
+        ""cert"": """",
+        ""certKey"": """",
+        ""ignoreCertificateErrors"": false
+      }
+    }
+    2026-07-08T16:18:37:295 [warning]: There is no GitLab account available. Sending empty credentials to GitLab Language Server
+    2026-07-08T16:18:37:300 [info]: handleRegisterCapability: {
+      ""id"": ""e11ab368-fb68-42f3-80c9-0b46efebd36b"",
+      ""method"": ""workspace/didChangeWatchedFiles"",
+      ""registerOptions"": {
+        ""watchers"": [
+          {
+            ""globPattern"": ""**/*""
+          }
+        ]
+      }
+    }
+    2026-07-08T16:18:37:316 [info]: Extracted urls: []
+    2026-07-08T16:18:37:316 [warning]: GitExtensionWrapper is missing repository for file:///c%3A/Users/Brandon/newproject
+    2026-07-08T16:18:37:316 [warning]: GitExtensionWrapper is missing repository for file:///c%3A/Users/Brandon/newproject
+    2026-07-08T16:18:37:317 [warning]: GitExtensionWrapper is missing repository for file:///c%3A/Users/Brandon/newproject
+    2026-07-08T16:18:37:317 [warning]: GitExtensionWrapper is missing repository for file:///c%3A/Users/Brandon/newproject
+    2026-07-08T16:18:37:317 [warning]: GitExtensionWrapper is missing repository for file:///c%3A/Users/Brandon/newproject
+    2026-07-08T16:18:37:317 [warning]: GitExtensionWrapper is missing repository for file:///c%3A/Users/Brandon/newproject
+    2026-07-08T16:18:37:317 [warning]: GitExtensionWrapper is missing repository for file:///c%3A/Users/Brandon/newproject
+    2026-07-08T16:18:37:317 [warning]: GitExtensionWrapper is missing repository for file:///c%3A/Users/Brandon/newproject
+    2026-07-08T16:18:37:317 [warning]: GitExtensionWrapper is missing repository for file:///c%3A/Users/Brandon/newproject
+    2026-07-08T16:18:37:317 [warning]: GitExtensionWrapper is missing repository for file:///c%3A/Users/Brandon/newproject
+    2026-07-08T16:18:37:317 [info]: Found 0 projects for urls: []
+    2026-07-08T16:18:37:318 [warning]: There is no GitLab account available. Sending empty credentials to GitLab Language Server
+    2026-07-08T16:18:37:413 [info]: Extracted urls: [
+      ""https://gitlab.com/notreallysure/newproject.git""
+    ]
+    2026-07-08T16:18:37:413 [info]: Found 0 projects for urls: [
+      ""https://gitlab.com/notreallysure/newproject.git""
+    ]
+    2026-07-08T16:18:37:413 [warning]: There is no GitLab account available. Sending empty credentials to GitLab Language Server
+    2026-07-08T16:19:45:754 [error]: OAuth flow: Creating account from code failed: 
+    Invalid response body while trying to fetch https://gitlab.com/oauth/token: Premature close
+    FetchError: Invalid response body while trying to fetch https://gitlab.com/oauth/token: Premature close
+    	at Gunzip.&lt;anonymous&gt; (c:\Users\Brandon\.vscode\extensions\gitlab.gitlab-workflow-6.84.2\extension.js:177:334380)
+    	at Gunzip.emit (node:events:521:24)
+    	at emitErrorNT (node:internal/streams/destroy:170:8)
+    	at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    	at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+    2026-07-08T16:19:45:755 [error]: Invalid response body while trying to fetch https://gitlab.com/oauth/token: Premature close
+    FetchError: Invalid response body while trying to fetch https://gitlab.com/oauth/token: Premature close
+    	at Gunzip.&lt;anonymous&gt; (c:\Users\Brandon\.vscode\extensions\gitlab.gitlab-workflow-6.84.2\extension.js:177:334380)
+    	at Gunzip.emit (node:events:521:24)
+    	at emitErrorNT (node:internal/streams/destroy:170:8)
+    	at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    	at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+
+Tried troubleshooting with GPT and that was of no help. Anyone have any idea what could be the issue here? Thanks!
+
+
+Edit: Reverted to the previous version of VSCode and it's working now.",,title_and_body,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/vscode/comments/1ur99kg/gitlab_duo_broke_after_vscode_update_last_night/
+B13-039,immich,Is anyone having issues with Immich after updating to 2.5.6?,"I can’t access my Immich server through cloudflare after updating to 2.5.6 not sure why.  I keep getting a 502 error which is not connecting to host, but I can access it locally and the host is running in docker no issues.
+
+Edit: I have noticed my other application is not working through cloudflare so it may be a dns issue on their side. But i cannot figure this out.",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/immich/comments/1r5tjkd/is_anyone_having_issues_with_immich_after/
+B13-040,react,React 19 + TypeScript build error: do I really need to add JSX.Element to every component?,"**Hi everyone,**
+
+After upgrading a Next.js + TypeScript project to **React 19** (`react`, `react-dom`, u/types`/react@19`), my builds started failing with this error:
+
+`The inferred type of 'MyComponent' cannot be named without a reference to`
+
+`'@types/react/...'. This is likely not portable. A type annotation is necessary.`
+
+The error points to very simple components like:
+
+export default function MyComponent() {
+
+  return &lt;div&gt;...&lt;/div&gt;;
+
+}
+
+# What I’ve noticed so far
+
+* This only started happening after upgrading to **React 19**
+* It happens during `next build` / CI (Vercel), not always locally
+* TypeScript seems unhappy with the **inferred return type** of exported components
+
+As a **temporary workaround**, I tried adding an explicit return type:
+
+`export default function MyComponent(): JSX.Element {`
+
+  `return &lt;div&gt;...&lt;/div&gt;;`
+
+`}`
+
+This fixes the error — but I’m **not sure if this is the correct or recommended approach**.
+
+# My concerns / questions
+
+* Is this **expected behavior** with React 19 + TypeScript?
+* Do we really need to add `JSX.Element` to **all exported components** now?
+* Is there a **better or official solution** (config, codemod, TS option)?
+* Or is this just TypeScript being overly strict and there’s a cleaner pattern?
+
+I have a fairly large codebase, so manually updating every component feels wrong unless this is truly the new standard.
+
+Would really appreciate insight from anyone who has already migrated a real-world app to React 19.
+
+Thanks!",,title_and_body,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/react/comments/1poymhp/react_19_typescript_build_error_do_i_really_need/
+B13-041,applehelp,"Handoff not working on M4 mac air, but does work on M4 imac. Suggestions for troubleshooting?","Hello, apple has been HORRIBLE for support and has effectively refused to offer any further support as I struggle with Handoff because I will not upgrade to Tahoe.
+
+TL;DR: I have two apple machines (M4 imac, m4 mac air) and an iphone 13Pro. Both computers are running Sequoia 15.7.7. Handoff works perfectly on the imac, but does NOT work on the mac air. Also the mac air keeps deleting/forgetting  the wifi printer I've installed, I don't have any evidence but I feel like this is connected.
+
+I've gone through the various websites and video youtube instructions for making sure handoff is turned on, I cannot see any settings differences on either machine but there must be something I'm overlooking.
+
+Handoff is turned on for both machines. It works perfectly on the imac, does not work on the air. Has never worked.
+
+I don't understand why. I have the same VPN on both machines, this problem was on the air long before I ever got a VPN, and handoff still works perfectly on the imac WITH the VPN turned on.
+
+Turning off the vpn on the air does not change a thing.
+
+Apple says if I don't upgrade to Tahoe, they will not offer ANY support for anything. Which seems super dodgy to me, but whatever.
+
+Can anyone help me trouble-shoot this?
+
+As to why I won't upgrade to Tahoe, there are two reasons. 1, the UK privacy laws are very invasive, and I've been told that Tahoe does utilise them. Also, I've known three other people who have had their M4 computers completely bricked after upgrading to Tahoe, so I do not trust it. I've also known two other people who have said that whilst it didn't brick their computers, they hated mac 26 so much they hated using their computers because of performance issues, lagging, and that the screwing up with Launchpad and the Apps stuff just made the ios user interface unbearable. Nearly everyone I know who has upgraded hates it.
+
+I cannot afford to have my computer (either of them)  bricked so I am staying on Sequoia because I know it works and is stable.
+
+Any help on troubleshooting the mac air Handoff not working when the imac Handoff works perfectly would be greatly appreciated. As I said, I do think it must somehow be linked to the fact that the  mac air keeps dropping the wifi printer.
+
+Let me know if you need further information. Thank you so much for the assistance. I'm genuinely just revolted at Apple's ""customer service"" and will be definitely researching other alternatives if this continues to be how they ""troubleshoot.""
+
+Thank you for any help you might be able to give.","[1:reply] Apple Support is insistent on people updating because if it was that significant and widespread an issue, it’s highly likely an update released in the intervening months corrected it. FWIW macOS 15.7.7 released in mid-May 2026, and it’s now mid-August. The current release of mac…
+[2:OP] I have known way too many people with bricked computers from Tahoe. I'm not upgrading. 
+
+Handoff works perfectly on Sequoia on my imac m4, there's no reason for it not to work on my mac air M4. I'm just asking for help to figure out why it's not working on the air.",title_body_comments,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/applehelp/comments/1vwgrgy/handoff_not_working_on_m4_mac_air_but_does_work/
+B13-042,applehelp,Restricted websites,"How do I fix this stupid bug? On my iPhone (16 PM) and iPad (Pro M1) since the latest update, I can't access any websites that could be even slightly deemed adult. When you go to them, regardless of browser, it says Not Allowed \[website name\] is a restricted website. At first I thought this was due to the new Online Safety Act in the UK, which it might be, but there's not even anyway to verify your age. Under settings, there's no prompt to verify and there's no restrictions under screen time. Neither of my devices are managed and I purchased them myself. Even weirder, when I use a VPN I still can't access anything. It seems that they've baked into the software a block on anything that could be deemed adult with no way to verify and undo it. This only started happening in the last week or so since I updated - has anyone else experienced this and did you manage to fix it?",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/applehelp/comments/1ry8yyf/restricted_websites/
+B13-043,comfyui,"Does anyone have a ""Golden"" pip install command sequence for Python 3.12 that allows InsightFace, IDM-VTON, and Impact Pack to live together without breaking numpy compatibility? Or do I absolutely need to switch to a Python 3.10 Pod?","Subject: Stuck in Dependency Hell on RunPod (Python 3.12) - IPAdapter FaceID &amp; IDM-VTON Conflicts My Goal: I am trying to set up a fresh RunPod instance to run a specific ComfyUI workflow that utilizes IPAdapter FaceID (InsightFace) and IDM-VTON (Virtual Try-On). My Environment: Platform: RunPod Cloud GPU (Fresh Pod) OS: Ubuntu 24.04 (Noble) Python: 3.12.3 GPU: RTX 3090 ComfyUI: Latest version The Main Issue: I am stuck in a loop of broken dependencies. I cannot get InsightFace (for IPAdapter) and IDM-VTON/Impact Pack to coexist. The InsightFace Crash: When I run the workflow, I get the error Exception: insightface model is required for FaceID models. I know this usually means insightface is missing or numpy is incompatible. The NumPy Conflict: I know insightface requires numpy==1.26.4. However, when I install dependencies for my other nodes (IDM-VTON, Impact Pack, etc.), they seem to force upgrade NumPy to 2.x, which breaks InsightFace immediately. The IDM-VTON Crash: If I fix the NumPy issue, IDM-VTON crashes with No module named 'diffusers.models.dual\_transformer\_2d', implying I have an incompatible diffusers version. What I have tried so far: Installed system drivers (libgl1, libglib2.0-0, libopengl0) to fix OpenGL/OpenCV errors. Downloaded antelopev2 models to the correct path (models/insightface/models/antelopev2). Tried pinning numpy==1.26.4 and onnxruntime-gpu. Tried installing missing modules manually (dill, addict, toml, piexif).",,title_and_body,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/comfyui/comments/1pi89py/does_anyone_have_a_golden_pip_install_command/
+B13-044,AndroidQuestions,Stuck on Gmail sign in,"I am trying to sign in on my old android phone running on lolipop but after entering password. on the next page where it ask to keep your account updated with this phone's number and below there's two option skip and yes, I'm in but clicking on both option doesn't work ?",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/AndroidQuestions/comments/1s3iffg/stuck_on_gmail_sign_in/
+B13-045,Wordpress,Browser gives “406 - Not Acceptable” after theme update.,"Added latest theme update (BeTheme) to my hosted site (InMotion shared hosting) and now my browser gives “406 - Not Acceptable” when I make changes to global settings (change font size) in the theme. If I disable MOD_Security entirely I can bypass error. Tested and found it happens even on a fresh, unconfigured install on the latest version of the theme. Betheme support suggests I need to work with hosting support. The only change was updating the theme. 
+Any thoughts to what the cause could be? I’m somewhat technical, but don’t know anything about Mod_security at this point.",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/Wordpress/comments/1osn3hz/browser_gives_406_not_acceptable_after_theme/
+B13-046,comfyui,Update last week broke my dektop build,"Update last week broke my build, and now i cant even reinstall or install comfyui from scratch.   
+I dont know what the fuck happened, but nothing seems to work. Tried both migrating from old folder and without. 
+
+When starting comfyui now it crashes, python exits. In the logs there is a hostbuf\_allocate error.   
+
+
+Please if anyone knows what the fuck i have to do, let me know.",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/comfyui/comments/1s1j9py/update_last_week_broke_my_dektop_build/
+B13-047,MicrosoftEdge,Microsoft Edge stutters more than other browsers when resizing the viewport,"I'm a software engineer, and I frequently have to try UI designs on different screen sizes or use the DevTools just to debug the code, so changing the size of the browser's viewport is not unusual in my workflow. Microsoft Edge is my browser of choice both for work and personal usage, but I have noticed that debugging my layouts has become a tad triggering because Edge seems to use too many resources when resizing the screen, even when it comes to simple grid and flexbox layouts, which causes a noticeable delay in the display of the re-rendered UI and makes my PC's fans go bonkers instantly. I was able to reproduce this behaviour in two different machines with different setups. I don't remember this happening a few months ago, so it might have been caused by a recent update.
+
+Do you have any idea what could be causing the stuttering?
+
+I know it is an Edge issue because even Google Chrome renders the refreshed screen more smoothly, and they are both supposed to use the same layout engine (Blink); but I have to say Firefox is the winner in performance this time, as the Gecko-based rendering is almost immediate. Hardware acceleration is enabled on Edge; I thought it was supposed to make it run faster specifically for situations like this, but it turns out it's not helping much. Please try reproducing this issue in your machines.
+
+I really like Edge and want to keep using it as my main broswer, but this issue is making me rethink my choices.
+
+This is a video demonstating the aforementioned issue and comparing the performance of all three major browsers upon resizing the viewport.
+
+P.S.: Stream SOS by SZA.
+
+[Microsoft Edge struggles on resizing where Google Chrome and Firefox re-render more smoothly](https://reddit.com/link/1tjb5rt/video/g5atv85ohf2h1/player)","[1:reply] Its windows 11?
+[2:reply] What OS is this? I can’t seem to recreate. Working fine on my end?
+[3:reply] It's Windows 11. You can tell by the Taskbar.
+
+Do you have an NVIDIA GPU or an AMD GPU? I think this might be a problem for NVIDIA GPUs.
+[4:OP] Windows 11 with NVIDIA GPU.",title_body_comments,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/MicrosoftEdge/comments/1tjb5rt/microsoft_edge_stutters_more_than_other_browsers/
+B13-048,MicrosoftEdge,Print to PDF from command line not working,"I have an automatic procedure to print a bunch of HTML documents to PDF using Edge but since a few days ago it stopped working.
+
+Has Edge been updated and this function changed? I hope it's not been removed since it was incredibly useful.
+
+  
+EDIT: I downloaded and tried the very same command with Chrome and it works as it used to, this issue is specific to the latest Edge build.",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/MicrosoftEdge/comments/1nzebit/print_to_pdf_from_command_line_not_working/
+B13-049,chrome,Why is the search bar in the middle of my new tab android?,"Chrome Android 
+
+Just noticed this today, idk if it's a new update or something, but when I open a new tab the search bar appears in the middle and I can't see the top toolbar. 
+
+The second photo is what it looked like before.
+
+Anyone know how to fix this?  Thanks",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/chrome/comments/1pit7ng/why_is_the_search_bar_in_the_middle_of_my_new_tab/
+B13-050,immich,Help: update on TrueNas failed,,,title_only,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/immich/comments/1l34ucx/help_update_on_truenas_failed/
+B13-051,linuxquestions,ASUS TUF Gaming A15 FA507NV – Fedora 44 KDE black screen after kernel update,"# [](https://www.reddit.com/r/Fedora/?f=flair_name%3A%22Support%22)
+
+* **Laptop:** ASUS TUF Gaming A15 FA507NV
+* **CPU:** AMD Ryzen 5 7535HS
+* **GPU:** NVIDIA GeForce RTX 4060 Laptop GPU
+* **RAM:** 16 GB
+* **OS:** Fedora 44 KDE
+* **Session:** KDE Plasma / Wayland
+
+I'm using Fedora 44 KDE and I'm experiencing a serious display issue.
+
+After updating to **kernel 7.2.5-200**, I started experiencing display problems. When I boot the laptop, the **built-in display stays completely black**.
+
+If I connect an external monitor, I can log into KDE, but I can only use the external monitor. The laptop's built-in display remains completely black. The mouse cursor also stutters/freezes badly, and the entire system becomes extremely sluggish.
+
+I initially thought the problem was caused by the kernel update, so I performed a **clean installation of Fedora 44 KDE**. However, after installing the system updates, the exact same problem occurred again.
+
+I also noticed that after installing the **NVIDIA driver**, the Fedora boot animation starts freezing/stuttering. Normally, there are colored dots moving underneath the Fedora logo, but after installing the NVIDIA driver, the animation freezes or becomes extremely choppy.
+
+Once the system finally boots, the computer also becomes very sluggish and freezes for the first few minutes.
+
+Because of this, I suspect the issue could be related to:
+
+* The NVIDIA driver
+* An incompatibility between **kernel 7.2.5-200** and the NVIDIA driver
+* **Wayland + KDE Plasma**
+* The laptop's **hybrid graphics / Optimus** configuration
+
+I previously removed the newer updates, and the laptop started normally again without any problems.
+
+I have now **rolled back to kernel** `6.19.10-300.fc44.x86_64` and disabled kernel updates from the terminal. So far, I haven't experienced any problems with this kernel.
+
+I originally encountered this issue a few weeks ago and posted about it on Fedora **subreddit**, but unfortunately I couldn't find a solution. I'm trying my luck here as well in case someone has experienced something similar.
+
+Fedora 44 has now moved on to **kernel 7.2.8-200.fc44**. Has anyone using Fedora 44 with an **RTX 4060 Laptop GPU** experienced any problems with the newer kernel, particularly when using the NVIDIA driver?
+
+I'm especially interested in knowing:
+
+1. Is there a known compatibility issue between the NVIDIA driver and **kernel 7.2.5-200**?
+2. Could this problem be related to **Wayland or KDE Plasma**?
+3. Could the **hybrid graphics / Optimus** configuration of the RTX 4060 Laptop GPU be causing this issue?
+4. Has anyone experienced similar problems with **kernel 7.2.8-200.fc44**?
+
+If anyone has experienced a similar issue and found a solution, I would really appreciate hearing about your experience.","[1:reply] &gt;Fedora 44 KDE black screen after kernel update
+
+Fedora maintains its own issues page: [https://docs.fedoraproject.org/en-US/quick-docs/bugzilla-file-a-bug/](https://docs.fedoraproject.org/en-US/quick-docs/bugzilla-file-a-bug/)
+[2:OP] I removed the kernel restrictions and updated kernel to 7.2.8. there's no black screen issue. I think the problem was only with kernel 7.2.5.",title_body_comments,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/linuxquestions/comments/1wv9y2s/asus_tuf_gaming_a15_fa507nv_fedora_44_kde_black/
+B13-052,Ubuntu,Just updated to 26 nows it's broken ??,"Hi guys I just updated to 26 from 24, I played games after I'd updated for a but then restarted the laptop then this happened any ideas",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/Ubuntu/comments/1su6y5s/just_updated_to_26_nows_its_broken/
+B13-053,AndroidQuestions,Freezing and Restarting (S22),"Hello!
+
+Recently started having issues with my S22 Ultra.
+
+\- It freezes randomly, but mostly during app opening.
+
+\- I get a lot of ""System UI is not responding"" or ""System Process is not responding""
+
+\- The phone now also restarts by itself.
+
+\- I've looked over all the programs I have, I haven't downloaded anything new recently and there doesn't seem to be anything suspicious.
+
+\-In social applications that have access to pictures, sometimes the older ones show up as brand new in selection.
+
+I have tried:
+
+\-Clearing caches for related applications
+
+\-Clearing data for related applications
+
+\-Rebooting
+
+\-Updating anything that was not previously up to date
+
+I'm on the latest update available and simply at a loss. Trying to avoid a factory reset as best I can.","[1:reply] Empezó a fallar en agosto?
+[2:OP] Relatively, yeah. Can't remember the exact day but fairly recent.",title_body_comments,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/AndroidQuestions/comments/1vmwfae/freezing_and_restarting_s22/
+B13-054,chrome,Constant Status Access Violations,"https://preview.redd.it/m57whiehcq1h1.png?width=997&amp;format=png&amp;auto=webp&amp;s=38e9f7e6c98a2f8a627bdc0aaf9f19b54cf969cd
+
+Heyo, I keep going to different webpages and getting this error. It won't happen all the time, just kind of randomly.
+
+I cleared cookies and cache, reinstalled Chrome, checked my drivers and such (all good there).
+
+I'm very much at a loss for what to do here. I'm not having internet connectivity issues and I checked Avast so there's no firewall issues either or conflicts with the antivirus. 
+
+I started getting this issue after the 2026-05 Security Update / 2026-05 .NET Framework Security Update. I'm unsure if I should roll these updates back or not to check.
+
+Any other ideas, or anyone else having similar issues?",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/chrome/comments/1tfvk7o/constant_status_access_violations/
+B13-055,angular,Angular NX monorepo issue,"Hi all,
+
+We recently updated our angular from v17 -&gt; v18 -&gt; v19 and nx from v18 -&gt; v20
+
+Everything works fine but when we do ""docker compose up"" it works the first time, but then if we stop the container and run again, it gets stuck and we get this: ""NX   Failed to start plugin worker.""
+
+We have to reset the cache for it to work again.
+
+Has anyone encountered this issue?",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/angular/comments/1p2xspu/angular_nx_monorepo_issue/
+B13-056,Ubiquiti,Cameras Disconnect Every Time NVR Updates,"I got an NVR software update about two weeks ago that took all my cameras (G6 Pro turrets) offline. I had to physically take them all down to access the reset button to get them back online, losing all of my customized settings in the process. I gave all the cameras static IP addresses at the time thinking it was an IP address issue. Got a notification about an NVR software update late last night/early this morning. Checked the cameras as soon as I got the notification that the update was complete and they were all good, so I thought it must’ve been a glitch in the one update from a couple weeks ago. Wake up this morning and all of my cameras are offline again. Anyone else having this issue?","[1:reply] Open a ticket. Not normal. I had a couple camera on CK2 and recently added a bunch of cameras and NVR. Have had several updates and zero issues other than one camera died completely a week after install. I need to get it RMA’d this week.
+[2:reply] Never had any issues like that. How is your network topology with the NVR and cameras.
+[3:OP] I’m pretty sure I did it in the cameras or possibly the switch port? 😖 I don’t even know how to “ping” them?🤦‍♂️ I really just wanted security cameras. Had the cameras and NVR, then I found out my IT guy at work was into Ubiquiti stuff and he suggested adding the DM SE, but I do…
+[4:reply] I have a similar issue. I'm using a udr7 and 2 g5 flex cameras. Every time they push an update the cameras stop recording until I reboot.
+[5:reply] Hello!  Thanks for posting on r/Ubiquiti!
+
+This subreddit is here to provide unofficial technical support to people who use or want to dive into the world of Ubiquiti products.  If you haven’t already been descriptive in your post, please take the time to edit it and add as many…",title_body_comments,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/Ubiquiti/comments/1ubtak4/cameras_disconnect_every_time_nvr_updates/
+B13-057,Fedora,Terminal update errors,"So I've just updated my PC using the terminal. 
+
+There were a few errors in the ouput however as shown in the attached screenshot. This line is what triggered the specific firmware update 
+`sudo fwupdmgr refresh &amp;&amp; sudo fwupdmgr update -y`  
+  
+Any suggestions on how I can correct this error and get the updates to install? I'm running Fedora Workstation 43 btw.","[1:reply] It tells you what the issue is. Did you install Fedora in legacy boot mode instead of UEFI? Can you do `ls /sys/firmware/efi` in a terminal?
+[2:reply] It sounds like you're looking for help. Please note that r/Fedora is not an official support channel for the Fedora Project.
+
+For best results, be sure to include all relevant details in your post, such as your Fedora edition, version, and hardware specs. You can edit your origi…
+[3:OP] Yeah I'm not sure honestly.  
+  
+Edit: that command comes back with No such file or directory",title_body_comments,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/Fedora/comments/1uu0lql/terminal_update_errors/
+B13-058,applehelp,iPhone 16 Pro bluetooth connectivity problems - audio stuttering / cutting out,"I am having a long term problem with my iPhone's bluetooth connection. When connected to bluetooth audio devices (car speakers, airpods, headphones) there is a really bad stutter in the audio at times, going completely silent for a couple seconds and altering audio. For example, listening to songs it can go silent and when the audio kicks in it will be very sped up and higher pitched until the song ""catches up"".
+
+It is most notable driving in my car, and I have noticed that the glitch occurs when i am passing by residential areas. This suggested to me that it could be an issue with my phone trying to connect to networks even when I haven't interacted with them? Driving on highways the glitches almost never occur. It also happens with my airpods at home, although the times seem a bit more random.
+
+One fix I saw online was to Reset Network Settings in the iphone settings and it worked for a couple days but eventually the audio issues persisted anyway.
+
+Another important note is that I had a similar issue with my iPhone 13 before I upgraded, but the problem has become noticeably worse since upgrading to the 16 pro.",,title_and_body,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/applehelp/comments/1ricgry/iphone_16_pro_bluetooth_connectivity_problems/
+B13-059,networking,Charter Spectrum LAG Member congested on local city router?,"I have Spectrum Business on fiber at the 1Gbps tier (RDOF area). When I test speed against Spectrum based servers I get 1100Mbps down and up. However I've been noticing when I test servers off-net things vary widely. I tend to get in the \~300-500Mbps range download, while upload is mostly un-affected. It doesn't just happen during peak hours but it appears to stay consistent. That to me spells some serious local congestion and maybe Spectrum haven't done proper backhaul upgrades in my city for all the RDOF deployments they are doing in the county. It would make sense that upstream would be un-affected as most people are on coax with the crappy upload speeds. Doing various MTRs and Speedtests to various destinations on different ASNs at various times of the day I noticed one pattern, a local router's lag group with some concerning jitter. Packetloss through to the destination remains 0% and I don't experience any packetloss anywhere but the jitter on that local router likely means it's heavily utilized and possibly higher CPU usage so it's prioritizing the backplane. I'm not familiar much with Spectrum's network and how it works. It appears they heavily utilize LAG and I'm not sure how they have it configured.
+
+Market Details  
+Mount Vernon, Ohio 43050  
+City population \~18K, county population \~65K  
+Plenty of factories and warehouses in town in the industrial park on Spectrum Enterprise DIA.  
+No high-split yet, but upgrades are allegedly already in progress.  
+Competitor Brightspeed is currently blanketing the entire city with XGS-PON with up to 8 Gig tier. Expected to be complete by year end.
+
+If anyone is familiar with Spectrum's network or an employee I am curious about what kind of setup they may have my in my area and how the LAG is configured. I post the market details so maybe you can get a sense of what type of make and model router they are likely to be using at the Mount Vernon, OH headend and what sort of backhaul/uplinks the router(s) there have. Whenever I do a traceroute anywhere, there are 3 or 4 hops that are right here in Mount Vernon and they indeed have a headend in my city. It used to have a tower but it has since been torn down. This is a legacy TWC Midwest area.
+
+The device that appears to be having issues is **lag-60.mtvroh2701h** and **mtvroh2702h**. I'm not sure if this is a 10G x4, 10G x2 or even 40G optics bundle. It however appears that when I test to most regional US servers, the LAG member I'm hashed to stays the same and is likely overutilized. If I stay in-network to other Spectrum destinations I maintain full speed, likely being ""hashed"" to another member. Oddly enough I seem to maintain decent speeds to UK servers of all things.
+
+I will post MTRs and Speedtests below. If anyone has any ideas what the issue is, and or can confirm my suspicions please let me know. Also if an issue does exist, how would I actually go about having it fixed. Contacting customer support won't get me far with technical stuff like this. I wish there was a way I can get directly in touch with the NOC or Transport Engineering. I do know who the local Technical Operations Supervisor of Mount Vernon, Ohio is. If I can confirm there is a LAG member being overutilized I might be able to shoot him an e-mail.
+
+Spectrum, Columbus, OH  
+Speedtest: [https://www.speedtest.net/result/19122307178.png](https://www.speedtest.net/result/19122307178.png)
+
+```
+Start: 2026-04-25T19:55:08-0400
+HOST: jetstream                                                           Loss%   Snt   Last   Avg  Best  Wrst StDev
+  1. AS???    pfsense.router.lan.gtaxl.net (10.0.0.1)                      0.0%    20    0.3   0.3   0.1   0.3   0.0
+  2. AS10796  vlan-200.ana02mtvroh27.netops.charter.com (142.254.147.25)   0.0%    20    5.4   4.9   2.2   6.6   1.4
+  3. AS10796  lag-60.mtvroh2701h.netops.charter.com (24.95.86.152)         0.0%    20   23.5  34.2  15.4 189.1  40.3
+  4. AS10796  lag-18.hcr02mtvroh27.netops.charter.com (65.29.19.92)        0.0%    20    6.2   3.9   1.9   6.2   1.5
+  5. AS10796  lag-10.hcr01mtvroh27.netops.charter.com (65.29.19.84)        0.0%    20    2.2   3.6   2.1   6.1   1.1
+  6. AS10796  lag-43.mcr11clmkohpe.netops.charter.com (65.29.19.94)        0.0%    20    4.9   7.6   4.3  13.4   2.6
+  7. AS10796  lag-31.rcr01clmkohpe.netops.charter.com (65.29.17.196)       0.0%    20    4.4   5.4   3.8   7.3   1.0
+  8. AS10796  clboh-speedtest-ookla-03.st.charter.com (65.24.3.227)        0.0%    20    4.5   6.0   4.5   8.0   1.0
+```
+Spectrum, Livonia, MI
+Speedtest: [https://www.speedtest.net/result/19122311039.png] (https://www.speedtest.net/result/19122311039.png)
+```
+Start: 2026-04-25T19:57:20-0400
+HOST: jetstream                                                              Loss%   Snt   Last   Avg  Best  Wrst StDev
+  1. AS???    pfsense.router.lan.gtaxl.net (10.0.0.1)                         0.0%    20    0.3   0.3   0.2   0.3   0.0
+  2. AS10796  vlan-200.ana02mtvroh27.netops.charter.com (142.254.147.25)      0.0%    20    3.7   4.3   2.1   6.4   1.0
+  3. AS10796  lag-60.mtvroh2702h.netops.charter.com (24.164.104.32)           0.0%    20   22.6  28.2  12.0 192.0  38.8
+  4. AS10796  lag-18.hcr01mtvroh27.netops.charter.com (65.29.19.88)           0.0%    20    4.5   4.9   2.0   6.5   1.3
+  5. AS10796  lag-43.mcr11clmkohpe.netops.charter.com (65.29.19.94)           0.0%    20   10.1   7.4   4.1  11.9   1.9
+  6. AS10796  lag-31.rcr01clmkohpe.netops.charter.com (65.29.17.196)          0.0%    20    4.6   5.0   3.4   7.9   1.2
+  7. AS14065  lag-515-10.chctilwc00w-bcr00.netops.charter.com (71.74.44.32)  60.0%    20   17.4  17.7  16.5  18.6   0.7
+  8. AS7843   lag-31.chcgildt87w-bcr00.netops.charter.com (66.109.10.82)      0.0%    20   18.2  16.7  14.2  19.6   1.6
+  9. AS7843   lag-10-10.detr01-cbr1.netops.charter.com (24.27.236.1)          0.0%    20   21.8  21.0  19.5  23.4   1.1
+ 10. AS33363  detmi-speedtest-ookla-01.st.charter.com (72.31.205.255)         0.0%    20   19.4  21.2  18.7  23.5   1.7
+```
+Brightspeed, Chicago, IL
+Speedtest: [https://www.speedtest.net/result/19122314461.png] (https://www.speedtest.net/result/19122314461.png)
+```
+Start: 2026-04-25T19:59:42-0400
+HOST: jetstream                                                           Loss%   Snt   Last   Avg  Best  Wrst StDev
+  1. AS???    pfsense.router.lan.gtaxl.net (10.0.0.1)                      0.0%    20    0.3   0.3   0.2   0.3   0.0
+  2. AS10796  vlan-200.ana02mtvroh27.netops.charter.com (142.254.147.25)   0.0%    20    2.9   4.3   2.1   6.9   1.6
+  3. AS10796  lag-60.mtvroh2701h.netops.charter.com (24.95.86.152)         0.0%    20  182.0  27.4  10.7 182.0  36.6
+  4. AS10796  lag-18.hcr02mtvroh27.netops.charter.com (65.29.19.92)        0.0%    20    6.2   4.6   2.0   7.0   1.6
+  5. AS10796  lag-43.mcr11clmcohib.netops.charter.com (65.29.19.96)        0.0%    20    6.0  11.1   6.0  39.5   7.7
+  6. AS10796  lag-31.rcr01clevohek.netops.charter.com (65.29.17.212)       0.0%    20   13.8  13.0  10.5  14.9   1.4
+  7. AS10796  lag-2-100.rpr01cleyohdh.netops.charter.com (65.29.33.239)    0.0%    20   10.9  12.4  10.2  19.9   2.2
+  8. AS3356   4.68.144.149                                                90.0%    20   12.2  12.9  12.2  13.6   1.0
+  9. AS3356   ae2.3608.ear7.Chicago2.net.lumen.tech (4.69.142.178)        85.0%    20   23.7  22.9  20.9  24.1   1.7
+ 10. AS3356   ae16.chcg-agw2.sp.lumen.tech (4.68.72.58)                    0.0%    20   22.2  22.2  19.6  24.4   1.2
+ 11. AS209    chcg-agw1.inet.qwest.net (205.171.93.93)                     0.0%    20   22.9  22.2  20.4  23.5   1.0
+ 12. AS209    cer-speedtest-01.inet.centurylink.net (63.224.243.1)         0.0%    20   19.7  20.4  19.1  22.8   1.3
+```
+Comcast, Richmond, VA
+Speedtest: [https://www.speedtest.net/result/19122318345.png] (https://www.speedtest.net/result/19122318345.png)
+```
+Start: 2026-04-25T20:02:04-0400
+HOST: jetstream                                                                  Loss%   Snt   Last   Avg  Best  Wrst StDev
+  1. AS???    pfsense.router.lan.gtaxl.net (10.0.0.1)                             0.0%    20    0.3   0.3   0.2   0.3   0.0
+  2. AS10796  vlan-200.ana02mtvroh27.netops.charter.com (142.254.147.25)          0.0%    20    2.6   4.5   2.6   7.0   1.5
+  3. AS10796  lag-60.mtvroh2702h.netops.charter.com (24.164.104.32)               0.0%    20   17.7  30.0  15.1 182.8  36.7
+  4. AS10796  lag-18.hcr01mtvroh27.netops.charter.com (65.29.19.88)               0.0%    20    4.6   3.5   1.4   5.5   1.3
+  5. AS10796  lag-43.mcr11clmkohpe.netops.charter.com (65.29.19.94)               0.0%    20    7.7   9.3   3.0  43.1   9.0
+  6. AS10796  lag-27.rcr01clmkohpe.netops.charter.com (65.29.1.34)                0.0%    20    4.2   5.7   3.7   7.9   1.4
+  7. AS7843   lag-25-10.chctilwc00w-bcr00.netops.charter.com (107.14.17.252)     60.0%    20   16.7  17.1  14.5  23.7   3.0
+  8. AS7843   lag-41.chcgildt87w-bcr00.netops.charter.com (66.109.0.228)         75.0%    20   21.5  19.3  15.2  22.4   2.9
+  9. AS7843   lag-0.pr2.chi10.netops.charter.com (66.109.5.225)                   0.0%    20   14.2  19.8  13.8  45.9   8.1
+ 10. AS7843   syn-024-030-201-038.inf.spectrum.com (24.30.201.38)                 0.0%    20   15.7  15.8  13.4  18.0   1.3
+ 11. AS7922   be-1322-cs23.beaumeade.va.ibone.comcast.net (96.110.32.209)         0.0%    20   30.7  29.2  25.2  42.0   3.5
+ 12. AS7922   96.110.42.138                                                       0.0%    20   26.2  28.3  26.1  30.2   1.5
+ 13. AS7922   po-1-xar01.staplesmllrd.va.richmond.comcast.net (96.108.107.190)    0.0%    20   30.8  31.4  29.4  34.0   1.4
+ 14. AS7922   po-1-rur101.staplesmllrd.va.richmond.comcast.net (68.86.173.2)      0.0%    20   31.8  31.6  29.1  33.4   1.1
+ 15. AS7922   po-2-rur102.staplesmllrd.va.richmond.comcast.net (162.151.59.122)   0.0%    20   33.8  31.9  29.1  33.8   1.5
+ 16. AS???    ???                                                                100.0    20    0.0   0.0   0.0   0.0   0.0
+```
+Frontier, Chicago, IL
+Speedtest: [https://www.speedtest.net/result/19122322233.png] (https://www.speedtest.net/result/19122322233.png)
+```
+Start: 2026-04-25T20:04:42-0400
+HOST: jetstream                                                           Loss%   Snt   Last   Avg  Best  Wrst StDev
+  1. AS???    pfsense.router.lan.gtaxl.net (10.0.0.1)                      0.0%    20    0.3   0.3   0.2   0.3   0.0
+  2. AS10796  vlan-200.ana02mtvroh27.netops.charter.com (142.254.147.25)   0.0%    20    4.6   5.1   2.6   6.5   1.2
+  3. AS10796  lag-60.mtvroh2701h.netops.charter.com (24.95.86.152)         0.0%    20   23.8  21.8   9.5  54.6   8.6
+  4. AS10796  lag-18.hcr02mtvroh27.netops.charter.com (65.29.19.92)        0.0%    20    3.0   3.9   1.6   7.0   1.3
+  5. AS10796  lag-43.mcr11clmcohib.netops.charter.com (65.29.19.96)        0.0%    20    5.1   9.4   5.0  24.8   4.9
+  6. AS10796  lag-27.rcr01clevohek.netops.charter.com (65.29.1.38)         0.0%    20   14.2  12.8  10.1  14.5   1.4
+  7. AS10796  lag-2-100.rpr01cleyohdh.netops.charter.com (65.29.33.239)    0.0%    20   14.3  13.9  10.4  23.7   2.9
+  8. AS3356   4.68.144.149                                                90.0%    20   13.9  13.9  13.9  13.9   0.0
+  9. AS3356   ae2.3603.ear3.Chicago2.net.lumen.tech (4.69.159.186)        60.0%    20   21.1  21.1  19.4  23.3   1.2
+ 10. AS3356   4.16.38.118                                                  0.0%    20   30.8  21.6  16.7  38.7   6.0
+ 11. AS5650   ae3---0.scr03.chcg.il.frontiernet.net (45.52.201.104)        0.0%    20   16.9  19.1  16.9  21.4   1.4
+ 12. AS5650   ae0---0.cbr06.chcg.il.frontiernet.net (45.52.201.109)        0.0%    20   61.1  30.1  17.2  61.1  11.7
+ 13. AS7011   ost01b.chcg.il.frontiernet.net (74.40.43.253)                0.0%    20   19.7  18.7  16.3  20.9   1.4
+```
+Metronet, Troy, OH
+Speedtest: [https://www.speedtest.net/result/19122325897.png] (https://www.speedtest.net/result/19122325897.png)
+```
+HOST: jetstream                                                              Loss%   Snt   Last   Avg  Best  Wrst StDev
+  1. AS???    pfsense.router.lan.gtaxl.net (10.0.0.1)                         0.0%    20    0.3   0.3   0.1   0.3   0.1
+  2. AS10796  vlan-200.ana02mtvroh27.netops.charter.com (142.254.147.25)      0.0%    20    4.6   4.8   2.3   6.8   1.5
+  3. AS10796  lag-60.mtvroh2701h.netops.charter.com (24.95.86.152)            0.0%    20   25.7  19.8   6.2  28.0   5.2
+  4. AS10796  lag-18.hcr02mtvroh27.netops.charter.com (65.29.19.92)           0.0%    20    4.3   4.7   1.9   6.2   1.4
+  5. AS10796  lag-43.mcr11clmcohib.netops.charter.com (65.29.19.96)           0.0%    20   13.5   8.6   4.6  16.4   3.4
+  6. AS10796  lag-31.rcr01clevohek.netops.charter.com (65.29.17.212)          0.0%    20   13.6  12.9  10.0  14.9   1.6
+  7. AS7843   lag-415-10.vinnva0510w-bcr00.netops.charter.com (66.109.6.12)   0.0%    20   21.8  20.6  18.2  23.0   1.6
+  8. AS7843   lag-21.asbnva1611w-bcr00.netops.charter.com (66.109.3.24)      70.0%    20   21.0  22.3  19.8  24.5   2.0
+  9. AS7843   lag-311.pr2.dca10.netops.charter.com (24.27.236.9)              0.0%    20   23.2  22.5  19.1  33.7   3.9
+ 10. AS???    eqix-dc2.metrofibernet.com (206.126.239.57)                     0.0%    20   22.2  20.0  18.2  22.2   1.2
+ 11. AS30600  46.110.241.31                                                   0.0%    20   43.4  41.0  39.2  43.4   1.1
+ 12. AS???    ???                                                            100.0    20    0.0   0.0   0.0   0.0   0.0
+ 13. AS???    ???                                                            100.0    20    0.0   0.0   0.0   0.0   0.0
+ 14. AS30600  speedtest.troyohaa.metronetinc.com (192.69.178.18)              0.0%    20   43.1  44.8  43.1  46.5   1.0
+```
+FibreNest, Manchester, United Kingdom
+Speedtest: [https://www.speedtest.net/result/19122329800.png] (https://www.speedtest.net/result/19122329800.png)
+```
+Start: 2026-04-25T20:09:42-0400
+HOST: jetstream                                                               Loss%   Snt   Last   Avg  Best  Wrst StDev
+  1. AS???    pfsense.router.lan.gtaxl.net (10.0.0.1)                          0.0%    20    0.2   0.3   0.2   0.3   0.0
+  2. AS10796  vlan-200.ana02mtvroh27.netops.charter.com (142.254.147.25)       0.0%    20    6.3   4.5   2.4   6.9   1.6
+  3. AS10796  lag-60.mtvroh2701h.netops.charter.com (24.95.86.152)             0.0%    20   20.8  20.9   9.3  26.9   5.0
+  4. AS10796  lag-18.hcr02mtvroh27.netops.charter.com (65.29.19.92)            0.0%    20    2.7   3.6   2.2   6.1   1.1
+  5. AS10796  lag-43.mcr11clmcohib.netops.charter.com (65.29.19.96)            0.0%    20    8.8  10.3   4.8  30.3   6.9
+  6. AS10796  lag-27.rcr01clevohek.netops.charter.com (65.29.1.38)             0.0%    20   13.2  12.4  10.5  13.9   1.1
+  7. AS7843   lag-416-10.vinnva0510w-bcr00.netops.charter.com (66.109.6.164)   0.0%    20   20.2  20.5  18.3  22.6   1.4
+  8. AS7843   lag-21.asbnva1611w-bcr00.netops.charter.com (66.109.3.24)       60.0%    20   46.3  29.9  22.5  46.3   9.7
+  9. AS7843   lag-310.pr2.dca10.netops.charter.com (209.18.43.59)              0.0%    20   18.6  21.9  18.6  35.1   4.0
+ 10. AS???    ???                                                             100.0    20    0.0   0.0   0.0   0.0   0.0
+ 11. AS6461   ae15.cr1.iad21.us.zip.zayo.com (64.125.21.116)                  65.0%    20   91.2  92.1  90.5  93.9   1.1
+ 12. AS6461   ae19.cr1.ewr1.us.zip.zayo.com (64.125.23.38)                    45.0%    20   92.8  92.4  90.7  94.5   1.4
+ 13. AS6461   ae5.cr2.ewr14.us.zip.zayo.com (64.125.22.223)                   30.0%    20   94.2  93.1  90.8  94.3   1.1
+ 14. AS6461   ae8.cr1.man7.uk.zip.zayo.com (64.125.31.111)                     5.0%    20   92.6  92.1  90.6  93.9   1.0
+ 15. AS6461   ae4.er1.man4.uk.zip.zayo.com (64.125.19.45)                      0.0%    20   94.6  92.5  90.2  94.9   1.7
+ 16. AS6461   94.31.34.113.zip.zayo.com (94.31.34.113)                         0.0%    20  106.7  96.5  91.2 106.7   4.3
+ 17. AS204731 154.62.165.210                                                   0.0%    20   96.1  98.4  90.8 110.5   6.0
+ 18. AS204731 154.62.170.21                                                    0.0%    20   94.5  93.3  91.2  94.6   1.0
+```",,title_and_body,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/networking/comments/1svsac9/charter_spectrum_lag_member_congested_on_local/
+B13-060,PFSENSE,Extremely slow traffic after updating from 2.7.xxx between vlans,"Hello, I recently updated from a long time 2.7 install to 2.8?, then 2.9.  Since then I am seeing extreme time between vlans, I only have a few mapped through pfsense and they have generally failed but can ping through at 1.2s average time.  No settings were changed aside from the update and the setup had worked for years prior.
+
+Install is on proxmox, vm resources look good with memory maxed out.  I do not see anything in the pfsense logs but I also have no clue what I would look for.  Any assistance would be greatly appreciated.","[1:reply] i would setup iperf on 2 devices on different vlans and do some actual speed tests to test throughput.
+
+Have you confirm your NIC settings are setup the same in terms of hardware offloading and such?
+
+[https://docs.netgate.com/pfsense/en/latest/hardware/tune.html](https://docs.n…
+[2:reply] Do you have ping times when you ping the gateway within that VLAN?  If not look at the CPU utilization.   Push come to shove create a new Pfsense VM, backup the old PfSense VM and restore it on the new one and see if there is a performance difference.
+[3:reply] Not sure it is the same, recently learnt that using e1000 a mistake, after changing to vrtio things changed drastically for problems I had.",title_body_comments,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/PFSENSE/comments/1wun2sj/extremely_slow_traffic_after_updating_from_27xxx/
+B13-061,HomeNetworking,Handling older 10BaseT devices,"I've been battling some wonky issues in my wired LAN after upgrading to 2.5gbps. I used TP-Link TL-SG105S-M2 as my two main switches and cat 6 everywhere.
+
+After much troubleshooting and swapping of cables and devices, I finally figured out that an old Brother printer and HDHomeRun are only 10/100 devices. When I disconnect those, everything is hunky dory.
+
+What can I do here? I thought these switches should be able to handle devices of different connection speeds.","[1:reply] Buy a cheap 10/100/1000Mb switch, and plug the offending devices into that, and also plug it into your fast switch.
+
+Edited for autocorrect
+[2:reply] According to the spec sheet, those switches support 100Mb, but not 10Mb.
+
+If the devices are 10Mb, you may need to put a gigabit switch (10/100/1000) in between them and your current switches.
+[3:reply] Lol the chipset literally can't go slow enough... Grab an old 10/100!/1000 switch and plug your sad potatoes into that and string it off your router.
+[4:reply] 100BASE-TX actually!
+[5:reply] 10/100 is technically 100BASE-T, not 10BASE-T. Your switch should work with 10/100 devices.
+
+What's wonky when the printer and HDHomeRun are connected to the switch? Are they using static IPs? If so, perhaps there's an address conflict.",title_body_comments,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/HomeNetworking/comments/1v3if8a/handling_older_10baset_devices/
+B13-062,Fedora,ASUS TUF Gaming A15 FA507NV – Fedora 44 KDE black screen after kernel update,"* **Laptop:** ASUS TUF Gaming A15 FA507NV
+* **CPU:** AMD Ryzen 5 7535HS
+* **GPU:** NVIDIA GeForce RTX 4060 Laptop GPU
+* **RAM:** 16 GB
+* **OS:** Fedora 44 KDE
+* **Session:** KDE Plasma / Wayland
+
+I'm using Fedora 44 KDE and I'm experiencing a serious display issue.
+
+After updating to **kernel 7.2.5-200**, I started experiencing display problems. When I boot the laptop, the **built-in display stays completely black**.
+
+If I connect an external monitor, I can log into KDE, but I can only use the external monitor. The laptop's built-in display remains completely black. The mouse cursor also stutters/freezes badly, and the entire system becomes extremely sluggish.
+
+I initially thought the problem was caused by the kernel update, so I performed a **clean installation of Fedora 44 KDE**. However, after installing the system updates, the exact same problem occurred again.
+
+I also noticed that after installing the **NVIDIA driver**, the Fedora boot animation starts freezing/stuttering. Normally, there are colored dots moving underneath the Fedora logo, but after installing the NVIDIA driver, the animation freezes or becomes extremely choppy.
+
+Once the system finally boots, the computer also becomes very sluggish and freezes for the first few minutes.
+
+Because of this, I suspect the issue could be related to:
+
+* The NVIDIA driver
+* An incompatibility between **kernel 7.2.5-200** and the NVIDIA driver
+* **Wayland + KDE Plasma**
+* The laptop's **hybrid graphics / Optimus** configuration
+
+I previously removed the newer updates, and the laptop started normally again without any problems.
+
+I have now **rolled back to kernel** `6.19.10-300.fc44.x86_64` and disabled kernel updates from the terminal. So far, I haven't experienced any problems with this kernel.
+
+I originally encountered this issue a few weeks ago and posted about it on this **subreddit**, but unfortunately I couldn't find a solution. I'm trying my luck here as well in case someone has experienced something similar.
+
+Fedora 44 has now moved on to **kernel 7.2.8-200.fc44**. Has anyone using Fedora 44 with an **RTX 4060 Laptop GPU** experienced any problems with the newer kernel, particularly when using the NVIDIA driver?
+
+I'm especially interested in knowing:
+
+1. Is there a known compatibility issue between the NVIDIA driver and **kernel 7.2.5-200**?
+2. Could this problem be related to **Wayland or KDE Plasma**?
+3. Could the **hybrid graphics / Optimus** configuration of the RTX 4060 Laptop GPU be causing this issue?
+4. Has anyone experienced similar problems with **kernel 7.2.8-200.fc44**?
+
+If anyone has experienced a similar issue and found a solution, I would really appreciate hearing about your experience.","[1:reply] I've also got a Asus laptop with RTX 4060. Currently running Fedora 45 KDE Plasma with kernel version 7.2.8-300 and Nvidia driver version 615.71.09 and I haven't encountered any problems. I updated to kernel version 7.2.5 before and no I had no problems with it either.
+
+The only…
+[2:OP] I removed the kernel restrictions and updated the kernel to 7.2.8. there's no black screen issue. I think the problem was only with kernel 7.2.5.
+[3:reply] It sounds like you're looking for help. Please note that r/Fedora is not an official support channel for the Fedora Project.
+
+For best results, be sure to include all relevant details in your post, such as your Fedora edition, version, and hardware specs. You can edit your origi…",title_body_comments,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/Fedora/comments/1wv9i7x/asus_tuf_gaming_a15_fa507nv_fedora_44_kde_black/
+B13-063,HomeNetworking,[ZenWiFi BT8] UPnP/DLNA Discovery Bug (MinimServer),"Hi everyone,
+
+I recently upgraded from an **ASUS ZenWiFi XT8** to the new **ZenWiFi BT8** (Firmware **3.0.0.6.102\_58394**). I am facing a very specific and frustrating local discovery issue that I never had with my XT8.
+
+**The Setup:**
+
+* **Server:** MinimServer running on a NAS (Ethernet).
+* **Client:** Pixel 8 Pro running BubbleUPnP (Wi-Fi).
+* **Router:** ZenWiFi BT8.
+
+**The Issue:** MinimServer is **completely invisible** on the local network. However, there is a very strange ""window"" where it works:
+
+* Whenever I change a setting in the ASUS Web GUI and the **progress bar (%)** is on screen, MinimServer **instantly appears** and works perfectly in the app.
+* The moment the progress bar reaches 100% and the router finishes applying settings, the server is immediately dropped and becomes invisible again.
+* **Crucial Detail:** I can still access MinimServer via **External Access (Proxy)** without any issues. Standard HTTP access to the NAS also works fine; only the local UPnP/DLNA discovery (SSDP) is being killed when the router is fully ""up"".
+
+**What I've already tried (without success):**
+
+* **WiFi:** Disabled Smart Connect, Agile Multiband, PMF, and MLO (Wi-Fi 7 features).
+* **Security:** AiProtection is OFF.
+* **Network:** IPv6 is OFF, Jumbo Frames are OFF, NAT Acceleration tested on Auto and Disabled.
+* **Legacy:** Everything worked flawlessly on my previous **XT8** with the exact same NAS and Phone setup.
+
+It seems like the BT8 triggers a specific firewall rule or a Multicast/IGMP filter at the very end of its boot sequence that ""mutes"" local discovery packets, even though the external proxy path remains open.
+
+Has anyone encountered this on the new Wi-Fi 7 ASUS range? Is there a hidden setting or a known bug in the [3.0.0.6](http://3.0.0.6) branch regarding multicast isolation?
+
+Thanks for your help!",,title_and_body,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/HomeNetworking/comments/1sv89i6/zenwifi_bt8_upnpdlna_discovery_bug_minimserver/
+B13-064,Fedora,Recent update breaks Dash to Doc and Hide my panel,"After performing a software update today it broke my dash to doc and hide my topbar, it was a gnome shell extension update and I recommend not performing the update if you use these extensions","[1:reply] I ran my weekly update this morning and Dash to Dock is working perfectly for me, Fedora Workstation 44.
+[2:reply] When I updated this morning, my audio no longer worked. A restart fixed it.
+[3:reply] Can you specify exactly which packages were updated? Coz my dash is working perfectly fine. And as for extension update, dash-to-dock's last update was v105 on April 15.
+[4:OP] it was Gnome shell 50.1-2 fc44  after the update it changed or broke some auto hide features, I was able to fix it and now its fine, maybe it was just an isolated incident
+[5:OP] It was actually the xwayland bridge update the caused the issues",title_body_comments,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/Fedora/comments/1tmf6ld/recent_update_breaks_dash_to_doc_and_hide_my_panel/
+B13-065,chrome,"Chrome Seems to die after some idle time. Tabs won't ""connect"" to the internet. Any help would be appreciated","After the recent update, for some reason whenever I leave my computer unattended and I come back none of my tabs work properly. The amount of idle time can be random (anywhere from 10 minutes to hours). Nothing loads and I get a ""No internet connection"" message. Only thing that solves it is a hard computer restart. Closing chrome and reopening doesn't even fix the problem. 
+
+P.S. I have no internet issues whatsoever, every other application/browser works completely fine at all times.
+
+If anyone is facing the same issues or got any tips please help.",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/chrome/comments/1p8jin8/chrome_seems_to_die_after_some_idle_time_tabs/
+B13-066,MacOS,[macOS 26.6.2-public release] Screen Sharing file transfer fails only when the destination is an external SSD,"I use the built-in macOS Screen Sharing app to control another Mac on my local network. After updating the receiving Mac to macOS 26.6.2, dragging files directly to its external SSD now fails immediately with “File transfer failed.”
+
+The internal drive on the receiving Mac is relatively small, so I keep Downloads and other large files on an external SSD. Directly transferring files into Finder windows on that SSD is part of my normal workflow.
+
+What works:
+
+* Dragging a file from the controlling Mac to the receiving Mac’s Desktop on its internal drive.
+* Transferring files in the opposite direction.
+* Creating, copying, moving and modifying files on the external SSD locally through Finder or Terminal.
+* Moving a transferred file from the internal Desktop to the external SSD afterward.
+
+What fails:
+
+* Dragging any file through Screen Sharing directly into any folder on the external SSD.
+* File type and size do not make a difference.
+
+My Downloads folder is a symlink:
+
+`~/Downloads -&gt; /Volumes/ExternalSSD/Downloads`
+
+However, this is not simply a symlink problem. I created a completely new regular folder directly on the external volume:
+
+`/Volumes/ExternalSSD/ScreenShareTest`
+
+Dragging a file into that folder through Screen Sharing fails in exactly the same way.
+
+The SSD is mounted normally, has plenty of free space, and is writable by the logged-in user. A local write test succeeds without errors.
+
+The logs show `ScreensharingAgent`, `VNCDragHelper` and `SSDragHelper` handling the drag operation, but I have not found an explicit TCC permission denial. It looks as though the drag is initialized successfully and then fails when the received file is created under `/Volumes`.
+
+This workflow worked the last time I used it, before installing macOS 26.6.2. That does not prove the update caused it, but the issue was first observed after the update.
+
+There also does not appear to be any permission under:
+
+System Settings → Privacy &amp; Security → Files &amp; Folders
+
+that would allow Screen Sharing to access external or removable volumes.
+
+If direct external-volume access has intentionally been restricted for security reasons, macOS should at least provide a setting such as:
+
+Screen Sharing → External or Removable Volumes
+
+Has anyone else reproduced this on macOS 26.6 or 26.6.2 using the built-in Screen Sharing app? Is this an intentional restriction or a regression in the Screen Sharing file-transfer component?",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/MacOS/comments/1vu4tww/macos_2662public_release_screen_sharing_file/
+B13-067,chrome,Chrome Tabs not scrolling?,"My Chrome recently updated and now half my tabs are off the screen and not accessible... 
+
+I can't scroll them left/right anymore, and there doesn't seem to be anyway to access the ones that are off the screen...
+
+Also now every time I open a new tab, it opens off the screen and can't be accessed.
+
+Does anyone know how to fix this?",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/chrome/comments/1qqnov2/chrome_tabs_not_scrolling/
+B13-068,Fedora,Open GL issue,"Hi All,
+
+I have minecraft on my computer and run it through the Prism launcher.
+
+  
+This has been working fine for ages, and I recently upgraded to F44, and minecraft continued to keep working as late as Thursday evening.
+
+  
+I've come to start it up this afternoon and I'm now being greeted by the following error:
+
+
+
+https://preview.redd.it/yv3ejk508yyg1.png?width=418&amp;format=png&amp;auto=webp&amp;s=9485751b29d813bda235010bddc9149b195982d8
+
+If I run `glxinfo | grep OpenGL` then I get: 
+
+https://preview.redd.it/yw2nk0u39yyg1.png?width=676&amp;format=png&amp;auto=webp&amp;s=40629b5e9b12d8b7ebb23d0e9699a22784fc9b1a
+
+  
+Which I think all looks OK.
+
+I've not seen any other errors besides this one.
+
+The only thing that has changed since Thursday I ran `dnf update` when I started my PC up so I don't know if that might have messed something up somehow.",,title_and_body,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/Fedora/comments/1t2q8mc/open_gl_issue/
+B13-069,rails,The Case of the Missing Headers During a Rails 5 Upgrade,"I hit a strange bug during a recent Rails 5 upgrade, and it turned into one of those ""you think you know how this works… until you don’t"" moments.
+
+  
+Out of nowhere, a downstream API started throwing intermittent 401s. Credentials were fine, nothing had changed in the request logic, and the failures only showed up under Puma and Sidekiq. That immediately pointed toward something thread-related, but nothing stood out at first.
+
+  
+After a lot of tracing, I discovered the real issue sitting quietly inside ActiveResource 5.1.1. The headers method, which used to hand back a stable thread-local hash, had been refactored to return a fresh hash each time. So our authentication headers were being written to something that vanished on the next call. In a single-threaded setup, you'd never notice, but under concurrency, it fell apart.
+
+Fixing it ended up involving a few things: 
+
+* digging into the gem’s internals instead of assuming the old behavior was still intact
+* a small, version-scoped patch to restore the thread-local header pattern
+* and a Sidekiq server middleware so each job had a clean setup/teardown for auth (controllers already had this isolation, workers didn’t)
+
+The whole episode reinforced a few reminders for me:
+
+* If something fails “randomly,” it’s usually because of threads or shared state.
+* Upgrades can break assumptions you didn’t realize you were making.
+* Library behavior you rely on isn’t always part of a public contract.
+* Cross-cutting concerns, authentication in this case, belong in a centralized layer, not sprinkled across the app.
+
+All this because one method stopped returning the same hash.
+
+  
+Sometimes the bug isn’t in your code at all.  
+It’s in the things you were sure were still true.",,title_and_body,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/rails/comments/1pkrsti/the_case_of_the_missing_headers_during_a_rails_5/
+B13-070,Dell,Dell Dual Monitors Mirroring After Latest Windows Update Anyone Else Facing This?,"After the latest Windows update, things have gone sideways with my multi-monitor setup.  
+I normally use **3 displays**: my **laptop screen + 2 external monitors**. Everything used to work perfectly all three screens worked independently in extended mode.
+
+But right after the update (which also auto-updated my display drivers), my two external monitors suddenly started **mirroring each other** instead of working separately. No matter what settings I change, the two external monitors show identical output.
+
+I even tried:
+
+* Rolling back the display driver
+* Uninstalling the newly updated drivers
+* Reinstalling the older drivers manually
+* Using Windows **Detect** display option
+
+Still, Windows only identifies **the laptop display + ONE extended display**, and forces the **second external monitor to duplicate the first**.
+
+For context:  
+I’m using a **USB-C to Multi-HDMI adapter (C-to-multi-HDMI)** to connect the two external screens. This exact setup has worked flawlessly for months the problem only started after the recent Windows update.
+
+Is anyone else experiencing this issue after the latest update?  
+Any fixes, registry tweaks, driver rollbacks, or workarounds that actually worked for you?",,title_and_body,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/Dell/comments/1phza36/dell_dual_monitors_mirroring_after_latest_windows/
+B13-071,applehelp,Let's scooby doo this!,"Hello! I've been playing this game on my macbook air M1 2020, and I've noticed periodic lag after upgrading from Sequoia to Tahoe. I'm near certain this lag is due to me upgrading to Tahoe.
+
+Before you guys point of Wi-Fi, I connected to an xfinity hotspot and I got the exact same pattern. Yes, Wi-Fi could be the issue, but I doubt it. This pattern never happened when I was Sequoia and started immediately after going to Tahoe. If I was getting weird lag, I would just refresh and it would be fixed. They're reasons why I had to upgrade to Tahoe though, so downgrading isn't an option for me. Do any of you guys have solutions?
+
+I didn't really do much to solve the issue because I have no clue what to do and what could be the exact problem (I'm suspecting Tahoe). I refreshed a lot of times and it still shows this pattern (3-8 seconds of stable 36 ping, then slowly builds up to 125 then drops in the matter of 1-3 seconds).
+
+You may be wondering how I have 530 fps when the M1's refresh rate is 60 Hz. I run the game on a client by running this on my terminal:
+
+open -a ""HaxBall Client"" --args --disable-frame-rate-limit
+
+Disabling the frame rate drains battery faster (I believe). Disabling frame rate might seem like the issue, but please note that it was running flawlessly on Sequoia.
+
+Please help y'all I'm a noob when it comes to tech. Feel free to ask questions and I'll try answering to my best ability.","[1:reply] Check what background processes are running
+[2:OP] ok noted thank you. i see weird stuff taking up my CPU power. I'll try quitting those",title_body_comments,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/applehelp/comments/1u9ci7z/lets_scooby_doo_this/
+B13-072,firefox,How do I go back to Classic Top Bar,"How do I get rid of all this rainbow AI looking crap in the tab bar in update 157. I liked everything slate grey with no color. Do I have to downgrade my version and disable updates 
+
+https://preview.redd.it/ua89ioj9bosh1.png?width=2570&amp;format=png&amp;auto=webp&amp;s=51a3ac1ba9f0c96a0d0c9ec7bbdd99638d13f1af","[1:reply] [https://addons.mozilla.org/en/firefox/addon/firefox-proton/](https://addons.mozilla.org/en/firefox/addon/firefox-proton/)
+
+If you want the old light/dark theme, it is here. For some reason, the dev team decided not to include it as an option in the browser, which probably could…
+[2:reply] Go to about:config and seek the nova setting and set it to the boolean value ""false""
+[3:reply] Have you checked you theme in the addons page? That controls how firefox looks.
+[4:reply] are you refering to browser.nova.enabled setting?
+
+please be precise, i have 5 settings that include nova
+[5:reply] bless you kind sir",title_body_comments,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/firefox/comments/1wu7gok/how_do_i_go_back_to_classic_top_bar/
+B13-073,tails,Is it possible to repair this?,"After upgrading my tails usb stick to 7.7 i restarted the system and got this error (the update took several hours for some reason). Is there any way to save this? There is some stuff on the persistent storage that i havent backed up, i would like to have it back.",,title_and_body,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/tails/comments/1szsyod/is_it_possible_to_repair_this/
+B13-074,software,My laptop keeps giving up on me ..,"I have got my laptop repaired for this issue 3 times and it keep coming in , please help me guys what can be the issue , what should I do , it comes after every windows update , rarely but my system also fails while doing literally anything . I got my windows reinstalled 3 times previously, but issue keeps on coming","[1:reply] How bout a system restore option should give you a list of recovery options whne you hit enter!
+[2:OP] I have tried , even reinstalled windows but problem still persist.",title_body_comments,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/software/comments/1uwznj9/my_laptop_keeps_giving_up_on_me/
+B13-075,HomeNetworking,Setting up static IP servers internet connection,"I'm running Ubuntu server on the latest version on a laptop that's connected to my router via Ethernet cable. I configured a netplan on /etc/netplan/50-cloud-init.yaml to the following image, where the 192.168.1.101/24 is the static IP address that I wish to give the computer and 192.168.1.1 is my router's IP address.
+
+After applying this netplan, both ip addr and ifconfig commands will confirm that 192.168.1.101 is my current IP address. Despite no error messages, I am no longer able to do anything internet related, as apt update fails to fetch and pinging Google yields no output. I have tried reverting the 50 cloud init file to it's original state via a backup I made, but even that does nothing to solve the issue.
+
+I'm considering just reinstalling the whole Ubuntu server image as there's nothing I can't afford to lose on the HDD that's running the server, but given how much effort it would take to setup all my programs and files again I'd rather not do that.","[1:reply] If you do DHCP, what address does it get?
+[2:OP] Well that's embarrassing. Chaging dhcp4 to true now magically brought everything back to normal. Gave me a 192.168.0.100 btw. Still far from ideal since I need static but at least I can update the system again.
+[3:reply] The best way in my opinion is to go onto your router and set it as static and leave the server/device as dynamic DHCP.
+
+Then just reboot the device to get the new IP.
+[4:reply] Netplan 🗑️
+[5:reply] I took kind of the opposite approach with mine. I reserved [10.1.85.65](http://10.1.85.65) for the mac of mine in our DHCP server ahead of time but it seemed like it refused to assign it that IP address. In the end I just reserved the the IP it was assigned and deleted the reser…",title_body_comments,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/HomeNetworking/comments/1vultlz/setting_up_static_ip_servers_internet_connection/
+B13-076,MicrosoftEdge,Approved Stable-Channel x64 146.0.3856.109 fails with 0x80070643,"I just saw that 147 was released, so I approved Build 146.0.3856.109 via WSUS (I skipped 145), just like I normally do. Unexpectedly, the installation fails on all systems with error 0x80070643, something that’s never happened before.
+
+Since I manage the version through WSUS, I’ve disabled automatic Edge updates via GPO, and that’s always been the case. So why is this happening now? Is anyone else experiencing this issue?
+
+After the update attempt, the MSI-Installation-Registry seems to be broken. The application still exists, but it is not present in the installed Apps (and ...\\CurrentVersion\\Installer...).
+
+Edit: I tried (did not want to) to deploy 147.0.3912.60 via WSUS which worked. At least.",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/MicrosoftEdge/comments/1sibco0/approved_stablechannel_x64_14603856109_fails_with/
+B13-077,vscode,How to get logs with this type of crashes. Happening since version 109.x,"[OOM error](https://preview.redd.it/3i563zhpn1kg1.png?width=590&amp;format=png&amp;auto=webp&amp;s=0ca80684d50cbe30e436eea547f17c7338db9cd2)
+
+Hello everyone,
+
+Since the version 109 updates this month, I've been experiencing frequent crashes while using GitHub Copilot for complex coding tasks.
+
+The issue started in 109 and persists in version 109.3. I have tried uninstalling and reinstalling from scratch, including pruning personal directories (such as `%APPDATA%`), but the problem continues.
+
+I monitored both my computer and the remote SSH server, and there are no memory pressure issues, so it seems like an internal VS Code configuration error. I haven't seen an increase in memory usage while the LLM is working, but the repetitive need to redo tasks is burning through my tokens.
+
+I would like to obtain stack traces to open a GitHub issue, but I don't know how to gather logs in this scenario, since the application is crashing and reopens with no traces.
+
+Any ideas?",,title_and_body,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/vscode/comments/1r746uk/how_to_get_logs_with_this_type_of_crashes/
+B13-078,mysql,Connection Warning: MySQL Workbench 8.0.44 Incompatible with Server 8.4.6 (GCP Cloud SQL),"Hi everyone,
+
+I'm hitting a recurring problem connecting to my database and am looking for a definitive answer on version compatibility.
+
+I am trying to connect to a **Google Cloud SQL** database instance using **MySQL Workbench 8.0.44** on Windows. The database server is running version **8.4.6** (a recent LTS release).
+
+Whenever I attempt to connect, I get this warning:
+
+    Connection Warning (gcp-readit-db)
+    
+    Incompatible/nonstandard server version or connection protocol detected (8.4.6).
+    
+    A connection to this database can be established but some MySQL Workbench features may not work properly since the database is not fully compatible with the supported versions of MySQL.
+
+**What I have already tried:**
+
+1. **Upgrading Workbench:** I've confirmed that **8.0.44** is the latest stable version available for download on the official MySQL site. I have installed this version, but the issue persists.
+2. **Using 'Continue Anyway':** I can click this and run basic SQL queries fine, but I'm worried about more complex features like data modeling or migration tools failing unexpectedly.
+3. **Server Check:** Since 8.4.6 is an official LTS release, it seems strange that the Workbench flags it as ""nonstandard.""
+
+**My Questions:**
+
+1. Is there an official or beta version of MySQL Workbench (e.g., 8.4.x) I should be using that properly supports this newer server version?
+2. Given the persistent incompatibility warning, should I abandon Workbench 8.0 entirely and switch to a client known for better 8.4 support, like **DBeaver** or **MySQL Shell for VS Code**?
+
+Any advice from people running 8.4 servers would be greatly appreciated!",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/mysql/comments/1ot8g7y/connection_warning_mysql_workbench_8044/
+B13-079,AndroidQuestions,How to force enable the flashlight while another app is using it?,"*I am not gonna close the app that's using the camera if that's the answer because I need that app to keep running.*
+
+**Read this first because I think I made the bottom text sound confusing:** I need the flashlight to turn on while I am using a camera. I need it to be all possible on android. No pc or root. Also it has to be able to be mapped to my volume up button. I used keymapper 4.1.0 before but after upgrading to 4.2.1, it stopped working even after going back to 4.1.0. Also I don't know if it's possible but if it is, I would like it to be without wireless debugging turned on or USB debugging since it drains battery and I am using this function for work but if that's not possible, I dont care. I also did see shell command possibility in keymapper which probably will work so if there is a command for that, I can do that too but I think I need the usb or wireless debugging enabled so maybe I could that after looking at other less battery draining options. (There is a ""standard"" execution mode that MAYBE uses one of debugging and there is ""ADB"" which needs wireless debugging) Maybe there is an app that does that? I don't know but whatever works. 
+
+I am trying to enable a flashlight while another app is using the camera which I am using. Its the Walmart GIF app but I don't think it really matters since it doesn't work in any app that has a camera open. I tried before using keymapper on pixel 9a which worked with the 4.1.0 version from play store which I then copied 2 so I had 3 key mappers but then I upgraded them all to 4.2.1 and it stopped working so I went back to 4.1.0 only on the original one and it still doesn't work so I guess I can't use that anymore. any other way? I want to be able to do it using my volume up button because I have it set up at open the scanner, turn on flashlight and I do what I need to do and it turns off the flashlight by itself but I can't do it anymore. Any ways to do it?",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/AndroidQuestions/comments/1uoxww0/how_to_force_enable_the_flashlight_while_another/
+B13-080,MacOS,"After the 26.2 update, I cant use my shift key in any browser except Safari","this is going to be in all lowercase because it's hella tedious to keep cycling the caps lock key.
+
+like the title says, after i updated, every time I try to hit the shift key in text boxes or input forms in a browser other than safari, it somehow deselects the text box making it impossible to input special characters like an at-sign for an email address. anyone else having these issues?",,title_and_body,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/MacOS/comments/1pna97a/after_the_262_update_i_cant_use_my_shift_key_in/
+B13-081,ollama,Anyone still having trouble with qwen3.5:35b?,"I know Ollama had to push out an update for compatibility with qwen3.5:35b, but I'm still having issues with it even after updating ollama (I'm on 0.17.4) and the latest version of the model pulled from the ollama repository.
+
+When I make a query, I get ""500 Internal Server Error: model runner has unexpectedly stopped, this may be due to resource limitations or an internal error, check ollama server logs for details""
+
+In the logs I'm seeing this. It looks like some sort of CUDA error that's unrelated to resource exhaustion:
+
+```
+    \[GIN\] 2026/03/01 - 11:25:34 | 200 |            0s |       [127.0.0.1](http://127.0.0.1) | HEAD     ""/""
+    \[GIN\] 2026/03/01 - 11:25:34 | 200 |            0s |       [127.0.0.1](http://127.0.0.1) | GET      ""/api/ps""
+    time=2026-03-01T11:25:39.720-08:00 level=INFO source=server.go:1388 msg=""llama runner started in 8.26 seconds""
+    CUDA error: invalid argument
+      current device: 0, in function ggml\_cuda\_cpy at C:\\a\\ollama\\ollama\\ml\\backend\\ggml\\ggml\\src\\ggml-cuda\\cpy.cu:438
+      cudaMemcpyAsyncReserve(src1\_ddc, src0\_ddc, ggml\_nbytes(src0), cudaMemcpyDeviceToDevice, main\_stream)
+    C:\\a\\ollama\\ollama\\ml\\backend\\ggml\\ggml\\src\\ggml-cuda\\ggml-cuda.cu:94: CUDA error
+    time=2026-03-01T11:25:40.025-08:00 level=ERROR source=server.go:1610 msg=""post predict"" error=""Post \\""http://127.0.0.1:52026/completion\\"": read tcp 127.0.0.1:52030-&gt;127.0.0.1:52026: wsarecv: An existing connection was forcibly closed by the remote host.""
+    \[GIN\] 2026/03/01 - 11:25:40 | 500 |    8.8678642s |       [127.0.0.1](http://127.0.0.1) | POST     ""/api/chat""
+    time=2026-03-01T11:25:40.690-08:00 level=ERROR source=server.go:304 msg=""llama runner terminated"" error=""exit status 1""
+```
+
+I have an nVidia 5060Ti with 16GB VRAM, and an AMD 9700X processor with 32GB system RAM, running on Windows 11.",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/ollama/comments/1ri6msk/anyone_still_having_trouble_with_qwen3535b/
+B13-082,immich,"Help - Upgraded to latest immich, but not working","I am running immich on Docker on my unraid server. I remember I was on version 3.0 something and updated it to the latest version along with the postgres update.  It doesnt work anymore.. Attached are the container settings and the logs. Postgres wont start. Please help.
+
+https://preview.redd.it/vkoxo4bnbeeh1.jpg?width=838&amp;format=pjpg&amp;auto=webp&amp;s=ab37ca7eb557ac2d5ceaba02532d224d680e93ba
+
+https://preview.redd.it/n50bb4xhbeeh1.jpg?width=726&amp;format=pjpg&amp;auto=webp&amp;s=f557f8067255d5d53dac59abcccda4d036e23d6f
+
+https://preview.redd.it/s3vdtvkcbeeh1.png?width=1357&amp;format=png&amp;auto=webp&amp;s=ca6ce41db94266e554542562b94141a55ba6f5c2
+
+https://preview.redd.it/xyic9xkcbeeh1.png?width=1357&amp;format=png&amp;auto=webp&amp;s=c5ce141f1c95c2e5f299e8be1c85b2d7f833a4a0","[1:reply] Never update database until Immich has a guide for how to migrate.
+[2:reply] It looks like you changed your database's major version. You can't do that (at least not like this). Go back to the major version (14 or 16) that you were using previously.
+[3:OP] Can you please tell me me how to do that? Thank you 🙏",title_body_comments,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/immich/comments/1v1ncqy/help_upgraded_to_latest_immich_but_not_working/
+B13-083,immich,"Yeah, sorry for the click‑baity title — but something’s really off after updating Immich","I updated to 2.5.1 and then 2.5.2, and ever since then most of my iPhones just won’t reliably upload anything. Sometimes a couple of new photos show up, other times nothing at all.
+
+Server side looks totally fine — all the containers are green, no errors, everything *seems* healthy — but uploads are super inconsistent.
+
+Not really sure where to even start digging into this. Anyone else seeing weird behaviour after the update?",,title_and_body,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/immich/comments/1qz9rie/yeah_sorry_for_the_clickbaity_title_but/
+B13-084,applehelp,"Can't log into legacy account, can't create a new account.","Greetings,
+
+Over 10 years ago, I had an Apple ID that I used for a short time on an iPhone. Since then, I haven't had any Apple products or used Apple for anything whatsoever.
+
+Now, I want to get a new iPhone and I'm struggling with getting into my old account, or creating a new account. 
+
+1. I was able to reset the password on my old account, but it just gives me a ""circle of death"" when trying to log in, before it gives up.
+
+   \- I have tried on two browsers on my PC, and on two mobile devices with different browsers. I simply can't log into this acocunt.
+
+   \- I spoke to a person on the phone. They tried having me log into icloud, but it also just gave me a circle of death and nothing.
+
+   \- He went on hold, and came back and told me there's a known engineering issue with legacy accounts that haven't been updated and they're working on a solution. No time for that fix. He told me I could create a new account with all of the same information except email address.
+
+  
+2. I've tried creating an account using several gmail, and proton mail, emails, using the same phone number. When that didn't work, I tried using my work phone number. All of this has ended with this message,
+
+""Your account cannot be created at this time.""
+
+  
+I suspect that despite changing emails and phone numbers, my name and birthday staying the same is causing a problem related to this issue with legacy accounts?
+
+  
+I just want to buy an iphone, but I can't create an Apple account and I'm not sure what else to try.
+
+Thanks!",,title_and_body,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/applehelp/comments/1rjfq07/cant_log_into_legacy_account_cant_create_a_new/
+B13-085,MacOS,Onedrive Sharepoint Sync issues,"After downloading the new tahoe update sharepoint and onedrive keep logging out and everything has to be re-logged in.  
+Anyone experiencing the same or have a fix.",,title_and_body,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/MacOS/comments/1pkq96q/onedrive_sharepoint_sync_issues/
+B13-086,indesign,Repeated Crashing?,Anyone else experiencing repeated crashing since the most recent update? I can't open any file or start a new one without it crashing within a minute of working on it. Infuriating.,,title_and_body,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/indesign/comments/1otg1zq/repeated_crashing/
+B13-087,comfyui,small advice to Update ComfyUI Portable Version (after so many times update failed),"IT IS ABOUT COMFYUI PORTABLE VERSION ONLY!
+
+What I did:or make 
+
+1)Download last ComfyUI Portable
+
+2)Open ComfyUi go to Manager, then Custom Nodes Manager, then choose Installed (nodes)
+
+3)Take the time to look, 1 after the other one, at the nodes with (a lot of) conflicts: and try to update,or disable, or take them off.
+
+4)Take out of ComfyUI original installation thoses 4 folder: custom nodes + models + output + user then put them in safe place outside of ComfyUi folder. (you know the nodes left are all right after you have done the action in 3)
+
+5)Rename your ""ComfyUI\_windows\_portable\_nvidia"" in whatever you wanted (""Here"" for example)
+
+6)Install the last version of ComfyUI
+
+4) Put the 4 folders you take out before : custom nodes + models + output + user  and place them in ComfyUI folder ""ComfyUI\_windows\_portable\_nvidia\\ComfyUI\_windows\_portable\\ComfyUI""
+
+5)Run your clean ComfyUI... et voilà ;)
+
+you can now delete your old comfyui folder
+
+(Of course you may have to re-install some nodes you disable in 3)
+
+PS: The only node which run in strange appearance  is Crystal Tools Resource Monitor...
+
+Hope it will help some of you
+
+IMPORTANT : when everythings will run fine:
+
+**Make a copy of your ComfyUI (full installation) folder and put it on another Disk.**
+
+**And when you have downloaded one or more new models, or after a certain amount of time, or downloaded something else, or create new stuff, remember to update your copy of ComfyUI.**
+
+**One day or another, it will help you ;)**",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/comfyui/comments/1phfiva/small_advice_to_update_comfyui_portable_version/
+B13-088,sysadmin,Anyone Else Having Trouble Keeping Up?,"I'm an IT ""Director"" of a school. I'm the IT guy but the sole owner of everything and end decision maker. The title sounds much fancier than it is but it accurately captures my level of ownership. Day to day, I'm more like a sys admin. I wasn't totally qualified for this position when I got it and I have done my best in the past few years to grow in to it. But I'm noticing that I can not seem to catch up to the technology.
+
+Every day it seems like I have a new problem on my hands that I have never seen or heard of before. Bluetooth intermittently connecting and disconnecting from a computer even with driver refresh, domain desync issues happening sporadically so computers lose access, laptops that simply won't connect to wifi until a local account is logged in, adobe licensing that won't validate even with the (poorly documented) tool kits provided by adobe. 
+
+I can't tell if I'm just incompetent and need to read a million books or something or if the technology just seems to be disintegrating into a pool over overly complex, poorly developed, and greedy corporate structures. A new windows feature hits and it seems to make my life much harder. Until recently, I didn't look into VTI, VMD, or the RAID configurations coming out with most laptops these days that make fresh installs or imaging impossible when enabled. Printers do not seem to have easily accessed, consistent driver support that is stable long term. Microsoft 365 admin features and account management seems to get worse every day (I gave someone access to a shared mailbox and it kept denying them access for nearly a week, trying to add each day, until is suddenly worked with no changes on my end at all). One of our film labs uses ACVHD format and Premier Pro but with a new windows update Premier Pro can no longer see or access AC3 audio codex. A whole group of Lenovo E16s won't connect to a particular wireless display via the wireless transmitter supplied with the display despite *every other laptop* *model we have* working just fine. Every single printer seems to jam every day even with maintenance techs working on them.
+
+The problem is that any one of these would take me a few hours to troubleshoot and diagnose but I'm getting 2 or 3 of these every single day. I can't seem to keep up and I don't know if it's my own incompetence and inability to maintain a stable environment or if technology is just getting impossible to maintain. 
+
+I'm open to suggestions, on the broader management item or any of the issues I'm currently managing. But mostly I'm just wondering if anyone else out there is feeling similarly. If I just suck then I am open to advice.","[1:reply] Honestly it sounds more like your swamped with tasks and need an extra pair of hands?
+[2:reply] I am kind of in the same boat, IT Director of an organization with about 550 - 600 employees, very small team and over 20 locations. 
+
+It seems like most of my days are break/fix rather than being able to focus on long term goals/implementations.
+
+I think the issue isn't that yo…
+[3:OP] I have a group of student interns I use but all my most experienced technicians graduated last year. I have a whole new batch of students and training them up to be competent enough has been an additional layer of challenge.
+[4:reply] You need to hire a very good system administrator to help you out
+[5:reply] I've been the sole IT guy at a factory for 25 years.  I do what I can, let the tickets I can't handle go, I say no sometimes, I refuse to touch some things.  Everyone was kind of on the same page until we got hit with a ransomware attack.  Most of the reasons it was able to happ…",title_body_comments,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/sysadmin/comments/1vzvsjq/anyone_else_having_trouble_keeping_up/
+B13-089,applehelp,Battery drain issue after updating to ios 26.5.2?,2 Days before I updated my Iphone 16 from 26.5.1 to 26.5.2 thinking that apple had fixed some bugs amd glitches so I updated in the evening. I usually charge my device in the morning to 85 percent and use normally throughout the day without any problem but now till afternoon it reaches 50-52 and till evening 25-28 even after normal usage and need to charge again in the evening of same day previously I use it also in the night and still 30-32 percent remains now it was consuming battery like hell even though eats up battery while Idle after charging to 85 at night wakes up with 80-82 percent left.,"[1:reply] Please read the ‘Performance and battery impact’ section of [this page](https://support.apple.com/en-us/125039).
+
+u/R\_Fated\_Circle and r/abrardafuq you might benefit from it as well.
+[2:reply] Same here after the update my phone needs to be charged every 24-28 hours and I'm a light user.
+[3:reply] Yes 26.5.2 so ass so fucking ass man fuck this update honestly. My already cooked 17 burnt now. Got 3h SOT from 100% the other day. But getting less than 6h on average on 26.5.2",title_body_comments,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/applehelp/comments/1upvn7h/battery_drain_issue_after_updating_to_ios_2652/
+B13-090,AndroidQuestions,Caret Browsing Keeps Turning On By Itself,"Ever since I've updated Chrome and Brave to the latest version, caret browsing randomly activates - a blinking cursor appears whenever I touch some block of text and I have to manually disable it by pressing the toggle in the accessability menu. I don't have a physical keyboard connected.
+
+It used to do so some months ago and I fixed it by outright disabling the caret navigation function from the the browsers's *flags* page but as of now the option is not available anymore.
+
+Is this happening to someone else? Any idea on how to fix this?",,title_and_body,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/AndroidQuestions/comments/1uvlaby/caret_browsing_keeps_turning_on_by_itself/
+B13-091,firefox,Firefox mobile android (157) - new tab buttons no longer automatically place the cursor in the URL bar?,"Just updated Firefox to 157, and all of a sudden my new tabs don't automatically place my cursor into the URL bar, and I have to pause and tap onto it manually. It's a small change, but it's definitely a downgrade from just jumping right to typing where I'm going.
+
+Is there a way to revert this? Or is it a bug?
+
+Thanks!","[1:reply] Yes, I noticed that too. It’s very inconvenient, but I think I understand why they did it: when the cursor automatically focused on the search bar, the keyboard and various suggestions would completely cover the main screen, making it impossible to see pinned sites and bookmarks…",title_body_comments,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/firefox/comments/1wvr7kp/firefox_mobile_android_157_new_tab_buttons_no/
+B13-092,applehelp,Health and fitness app not in sync,"**Health and fitness apps are not communicating possible software issue**
+
+I have an iPhone 15, recently updated to the newest version. My fitness app use to track my activity, steps, etc. it no longer tracks anything. It has something to do with my health app, but I can’t determine how to fix it. I have paired and unpaired my Apple Watch 8 series 3times only to determine it’s the app on my phone! I’d go get a new phone, but with the issue being the app it won’t necessarily fix it. 
+
+My Fitness app does not show up as an app that my Health app sends information to, but It used to. I have checked all the settings. I have paired unpaired paired and unpaired an Apple Watch. My Fitness app shows absolutely no activity. My Health app does show activity and all of the settings are turned on the way they should be except for one place: it’s my understanding that the Fitness app should show as something that can read data from the Health app or vice versa but it’s not there and there’s no way for me to make it turn it on or edit that.",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/applehelp/comments/1so5j4j/health_and_fitness_app_not_in_sync/
+B13-093,firefox,Firefox won't respond after update - Windows,"I just opened firefox and it auto-updated (i guess), now it wont open any page, or respond to any click. I cant open a tab, i cant even close by clicking on the top right. I have to right click the firefox icon on my task bar and click close. 
+
+I cant open any option in the menu as for example settings.
+
+I tried to reinstall firefox (seems like 1.52), but still the same. 
+
+Is there a way to save my cookies or logged sesions if im doing a fresh install?  
+thanks
+
+It stays just like that.
+
+https://preview.redd.it/zhrond8sqq7h1.png?width=786&amp;format=png&amp;auto=webp&amp;s=17e1e86762c7c9c0321952b48bfada6b5953ccee","[1:reply] Mine crashes after a bit
+[2:reply] Does that also happen if you start FF in [Troubleshoot mode](https://support.mozilla.org/en-US/kb/diagnose-firefox-issues-using-troubleshoot-mode/)?
+[3:reply] Same here, after five minutes everything hangs and I have to end task.
+
+Edit: I was able to ""fix"" it with a system restore point, bringing me back to Version 151.0.4 (64-bit). I've completely disabled updates for now, hopefully they fix whatever they messed up.
+[4:reply] Same here, after a couple minutes it just stops responding and I have to end it through task manager or wait for the prompt to close it
+[5:reply] Same here, after restarting my computer everything seems fine. After restarting i got a message stating Firefox updating successful.",title_body_comments,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/firefox/comments/1u7vnhr/firefox_wont_respond_after_update_windows/
+B13-094,firefox,"Latest update lost all bookmarks, tab bar, etc.  How can I get it back?","I downloaded the latest update a few days ago and restarted firefox only to find a completely blank browser.  No bookmarks, no bookmark bar, no ""you just visited these sites"" rows when I opened  a new tab.  I DO have my passwords, so ALL is not lost, but I don't know how to get my personalization back.  
+
+Anyone know what I need to do?
+
+Screenshot:
+
+https://preview.redd.it/e9khzaa7t8ah1.png?width=1907&amp;format=png&amp;auto=webp&amp;s=3799efac63921ad8ffc6ade47cbd85a239041c30",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/firefox/comments/1uiw8zd/latest_update_lost_all_bookmarks_tab_bar_etc_how/
+B13-095,immich,Invalid compose project,"For context, I updated to the previous version where Immich had issues with docker, and since it wouldn't start I decided to wait it out until the next release, but before that things were working as normal.
+
+I tried to update today after I learned that the issues were fixed, but when I try to do docker compose pull or docker compose up, I get an error about undefined volume (either for the database service or the immich-server service), and I can't figure out how to fix this just by looking up similar issues on github or here. I tried to check if something was changed in the files but everything is still the same and there aren't any obvious problems like a misplaced space.
+
+I'm using docker desktop on windows 10  
+Does anyone have an idea about how I can fix this? It's not like there's anything really irreplaceable in there but I'd rather not have to begin from scratch again. (and yes I know my naming system is immaculate)",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/immich/comments/1oue54k/invalid_compose_project/
+B13-096,sysadmin,Mitel Defect: MiVC-6310 - Apr 2025 Windows Update breaks Mitel Connect services on HQ/DVS,"Mitel's MiVoice Connect platform (formerly known as ShoreTel Connect) running on a Windows Server OS has a known defect (MiVC-6310) which states ""after Windows updates from April 9, 2025 are applied (KB5036896 and KB5036899), several MiVoice Connect services will not start on HQ/DVS"". This defect was supposedly going to be fixed in version 20, then in 20.HF1, and again in 20.SP1, but according to the release notes for HF1, the issue is still present and has been deferred to the next release. The workaround is to uninstall the windows updates (KB5036896) and/or (KB5036899).  SP1 doesn't comment on the issue but does say SP1 was only tested with Windows Updates through March 2025.  
+
+Has anyone been able to work around this without having to uninstall the cumulative updates? Does anyone have any updates from their Mitel providers about this defect and a road map for fixing? We are working to get off Mitel altogether but in the short-term, I'd really like to patch these servers.",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/sysadmin/comments/1te0lvi/mitel_defect_mivc6310_apr_2025_windows_update/
+B13-097,applehelp,ipad stuck in recovery mode,"hi, i need help. my ipad got stuck in recovery mode after an update. it also went to 0% battery before this happened.
+
+i already tried:
+
+force restart (worked before, not anymore)
+
+update via itunes (didn’t work)
+
+restore via itunes (it completes, restarts, but goes back to recovery mode again)
+
+there’s no error code showing in itunes.
+
+now it just keeps looping:
+
+restore → restart → back to recovery mode
+
+questions:
+
+has anyone experienced this? what was the issue?
+
+is this likely battery, nand, or something else?
+
+how much did it cost you to repair",,title_and_body,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/applehelp/comments/1sv114w/ipad_stuck_in_recovery_mode/
+B13-098,applehelp,My iMac 2012 is stuck after an update,"I have an iMac 2012 21.5inch, Catalina 10.15 macOs, has been slow for a while and some days it keeps shutting down, others it’s just fine. Lately i’ve tried clearing things hoping it would make it better, so there was an update pending (i think a security one) hoping it would help i let it load overnight and when i woke up it was still loading so i forced shut it down and then after a while opened it and the same thing happened again. I then opened with command+R, opened disk utility run repair disk and it said the partition map was ok, I then tried to reinstall OS X Mountain Lion but it couldn’t find any disks to install to. I run /Volumes in Terminal and it said no such file or directory. I’m scared everything on my computer is going to get lost and I don’t know what else to do or if there’s anything that i can do. If there are any tips and tricks that helped you or you know more about this please help!!🙏",,title_and_body,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/applehelp/comments/1sd9hcz/my_imac_2012_is_stuck_after_an_update/
+B13-099,Ubiquiti,4 G4 Doorbell Pro PoE have failed on me so far. What's going on?,"https://preview.redd.it/68wgycghdiqg1.png?width=2436&amp;format=png&amp;auto=webp&amp;s=dd351f978f739fa6eb41429fdbdcc3183c992b93
+
+I just submitted another RMA request. It'll be the 5th doorbell I get if it gets approved. The first one was installed 6 months ago.
+
+The failure mode is the same for all of them, after some automatic console update the doorbell is shown to be ""offline"" in Protect. Interestingly I can still see the video feed through the app, but the doorbell no longer detects motion and can't be rung. If I delete the doorbell and reset it, it doesn't get detected by Protect and cannot be adopted. Anyone else seeing similar issues?
+
+  
+Edit:
+
+Thanks to comments from u/redfoxert and u/bmagrogan I unplugged everything from my PoE switch aside from the doorbell, and it started working again. So the leading theory is that the doorbell was not getting enough power.",,title_and_body,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/Ubiquiti/comments/1s0a7yd/4_g4_doorbell_pro_poe_have_failed_on_me_so_far/
+B13-100,Ubuntu,Did they ever fix 26.04?,"I tried it when it first came out, but experienced multiple issues including but not limited to;
+
+* Intermittent Micro-stutter 
+* Substantially Longer Boot Up Times 
+* Failure to recognize Wireless Network Card 
+* Crashes 
+
+  
+So I ended up having to do a complete reinstallation of 25.10 and decided to wait until the 26.04.1 Bug Fix Update, which at the time was slated for August 7th, but I haven't heard anything of since. 
+
+Has the bug-fix update been released to very little fanfare and I just missed it, or is it still in the pipeline? If not, then have common issues like the aforementioned micro-stutter and failure to detect Wi-Fi Cards been fixed in the meantime?","[1:reply] That's weird, I have not experienced any of that.
+[2:reply] &gt; ... at the time was slated for August 7th, ...
+
+I think it has always been slated for August 27th.  It's basically the 1st result for a google search.   See https://documentation.ubuntu.com/release-notes/26.04/schedule/
+
+      46      August 27     26.04.1 Point Release
+
+&g…
+[3:reply] Same here: two Thinkpads and one 3900x desktop.
+[4:reply] FW13 with AMD 350 motherboard.
+
+I experience none of that. I upgraded from 25.10 to 26.04 on release day.
+
+Though, depending on what you mean with micro stutter, I had occasional screen flicker, mostly when browser opened certain sites. Only sometimes and it was a quick flicker…
+[5:reply] the micro stutter was a real AMD bug (AMD GPU) in the kernel. It was fixed pretty quickly upstream but there's a process to get these things into the ubuntu kernel. One of the reasons why the mainline app is one of the first things I install.",title_body_comments,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/Ubuntu/comments/1vnwttq/did_they_ever_fix_2604/

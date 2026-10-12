@@ -1,0 +1,332 @@
+cohort,study_case_id,reddit_id,subreddit,created_utc,historical_discussion_type,selection_reason,variation_tags,title,post_body,source_url,text_sha256,sensitive_text_manual_check
+main,Q001,1sandee,MacOS,2026-04-02T17:11:06,technical_troubleshooting,version change; affected and unaffected applications,"upgrade,ui",MacOS 26.4: Windows keep going full-screen,"Just upgraded from 15.7.4 to 26.4 and everything's fine, except for how my Microsoft OneNote and Word windows keep expanding to full-screen on their own every two seconds. Google Chrome and other apps do not seem to have this issue. Anyone experiencing the same thing? SOS.",https://reddit.com/r/MacOS/comments/1sandee/macos_264_windows_keep_going_fullscreen/,10f263ebd21b7f316316ca0d084a6c660b35af6404771f75b925823d2942d121,required_before_distribution
+main,Q002,1spwh8z,homeassistant,2026-04-19T15:44:19,technical_troubleshooting,many inaccessible pages versus working dashboard and backup,"upgrade,access,error",Update from HA 2026.2.3 to 2026.4.3 - many pages unaccessible,"I've just updated my Pi 4b from HAOS 2026.2.3 to the latest version. The restart seemed fine and I can see and access my default dashboard and all items. ZigBee2MQTT and HACS are running fine and I only got 3 messages that automations needed to be amended. So far so good.
+
+However, when I go to various menu items, I only get error messages like ""error whole loading page xyz"". This happens for many pages including integrations, dashboards, logbook, Lovelace, voice-assistants, etc. Even the automations page is empty although the search field says I have 41. The worst issue for me is that I cannot access backups my page anymore. So despite having a full backup from a few hours ago and a fresh backup when I updated to the latest HA, I cannot access it.
+
+I have a feeling that this is just a small config issue that prevents all these files from being loaded. But I am not a Linux guy. Does anyone of you have an idea how to make the apparently still present pages visible again?
+
+Alternatively, I should be able to access the backups via SSH but I don't know the commands to use to restore the latest backup. Please help!",https://reddit.com/r/homeassistant/comments/1spwh8z/update_from_ha_202623_to_202643_many_pages/,e849d13fcb24c3b85b3f16dbc879445c32d30af0f373efab89a235922934fc2f,required_before_distribution
+main,Q003,1si6d2u,applehelp,2026-04-11T02:11:45,technical_troubleshooting,short post with an unusual screenshot symptom,"upgrade,ui,sparse",Screenshots are very dark for some reason,"I just updated to ios26 (not beta) and my screenshots of pictures I take are extremely dark, I have HDR on and went through almost everything. Its weird cause if I screenshot the screenshot its not dark anymore, so it seems like screenshotting the iphone taken picture corrupts it somehow",https://reddit.com/r/applehelp/comments/1si6d2u/screenshots_are_very_dark_for_some_reason/,867654b0ddaec8bcb62eb1bf5b0d89a0406f7b995cd43241aa29d849f8b46c64,required_before_distribution
+main,Q004,1qj5weo,vscode,2026-01-21T18:27:52,technical_troubleshooting,application fails to start with little error evidence,"upgrade,startup,sparse",VS Code does not start after today's update,"I started the VS Code this morning and it asked me to give permission to update. So I gave it a go. Then it locked my computer and I had to do a reboot. Guess it messed up VS Code and it does not start anymore.
+
+Can someone please suggest how I can debug it? Thanks.",https://reddit.com/r/vscode/comments/1qj5weo/vs_code_does_not_start_after_todays_update/,aeec6f299b5b853d2a1f9a7fb136e06f96b185a01a9b8475255b728e9b048c98,required_before_distribution
+main,Q005,1qqdsn4,ios,2026-01-29T16:45:59,technical_troubleshooting,persistent microphone indicator despite settings checks,"upgrade,ui,attempted_fix",iOS 26.2.1 - microphone bug again,"Orange microphone dot on the dynamic island won’t go away after iOS update last night. All microphone permissions are turned off, voice control is turned off, Siri is turned off, vocal shortcuts, live speech, etc. All off. This happened a few weeks ago with the last update. Eventually I looked at it and noticed an orange line around the island that allowed me to long press and open up something that looked like an app but was just a black screen and then swipe it away to close it. But no idea how that happened. Anyone else having this issue?",https://reddit.com/r/ios/comments/1qqdsn4/ios_2621_microphone_bug_again/,67202e80dd4da561425cdfe474996f78b3d568964bee1b796365ed99d7561673,required_before_distribution
+main,Q006,1seglp5,chrome,2026-04-07T00:26:41,technical_troubleshooting,normal versus incognito contrast suggests alternative cause,"upgrade,crash,contrast",chrome crashing on bootup,"hey whats up
+
+ive been encountering a really weird bug after this latest chrome update. it crashes almost immediately when i open it but works perfectly fine in incognito mode. it's super annoying and i've already sent 1000 reports to apple. any advice?",https://reddit.com/r/chrome/comments/1seglp5/chrome_crashing_on_bootup/,3351d5425649ac3a8075053447e446d6dcd12e0d6df06415ffd25b26c9b30690,required_before_distribution
+main,Q007,1otvvjo,firefox,2025-11-11T01:05:20,technical_troubleshooting,release-specific UI report that already includes workaround,"upgrade,ui,workaround",FF 145 title bar not displayed (Windows),"Firefox 145 (release version, not beta/developer) is available. Upon upgrading, I noticed that the title bar (at least in Windows) is gone. It's also annoying not to have window controls (minimize, resize/restore, close) available.
+
+People who don't display the title bar by default won't (I think) see a problem. For people who (like me) do, there is a fix (or two).
+
+ 1. You can customize the toolbar (right-click in the tab bar or menu bar (if you have it enabled) to turn off the title bar. The window controls will appear in the tab bar (or menu bar, if that's enabled). Re-enabling the title bar restores the title bar, but only for the current session.
+ 2. Turn off the title bar and leave it off (at least until the bug is patched).
+
+HTH",https://reddit.com/r/firefox/comments/1otvvjo/ff_145_title_bar_not_displayed_windows/,96c0751945dfa320d9e523a2d44a878929b80bd6673cc1d83531720f4ff22bb5,required_before_distribution
+main,Q008,1rxg828,applehelp,2026-03-18T21:01:46,technical_troubleshooting,author considers both update and hardware explanations,"upgrade,hardware,attempted_fix",Updated my iPhone 7 to iOS 15.8.7 and now home button is dead,"So I updated my iPhone 7 to the newest iOS 15.8.7, and after that my home button just stopped working...
+
+Even weirder, AssistiveTouch turned on automatically by itself. I didn’t enable it manually.
+
+I already tried erasing all content and settings, then restored the phone from backup, but it didn’t help at all.
+
+
+
+Now I’m trying to understand what exactly happened:
+
+\-did the update somehow kill the home button?  
+\-was the button already dying and the update just finished it off?  
+\- or is there any way to fix this without repair?
+
+
+
+Has anyone had the same thing happen on iPhone 7 after updating? Did anything help?  
+Thx in advance",https://reddit.com/r/applehelp/comments/1rxg828/updated_my_iphone_7_to_ios_1587_and_now_home/,7c6fd138f23842a9b0e584d6a063ae123deaed1c0f194b6b32c89f572b73989b,required_before_distribution
+main,Q009,1td07b1,sysadmin,2026-05-14T14:39:47,technical_troubleshooting,specific build identifiers but brief error description,"upgrade,install,sparse",Weird issue: Windows 11 build 26200.8457 trying to download and install 26100.8246 update,"Not sure what's going on, it keeps trying to download and install KB5083769(26100.8246). The computer is on 26200 build and with the latest May security update.  And then run into error. Anyone else has seen this kind of issue?",https://reddit.com/r/sysadmin/comments/1td07b1/weird_issue_windows_11_build_262008457_trying_to/,40351f82565713072848c0abf3586959d3a0df0192792b1b5d24991eecb26d20,required_before_distribution
+main,Q010,1rmfe0d,applehelp,2026-03-06T14:25:55,technical_troubleshooting,detailed failure sequence and failed recovery attempts,"upgrade,boot,attempted_fix","iPhone 11 completely dead after iOS update no Apple logo, no DFU, not detected by pc","My iPhone 11 completely dead after installing an iOS update and I’m trying to understand whether this is a software brick or a hardware failure.
+
+Here is the exact sequence of events:
+
+\&gt; iOS update (26.3.1) appeared and I started installing it.  
+\&gt; During the update the phone restarted several times.  
+\&gt; Eventually it booted normally and I entered my passcode.  
+\&gt; I reached the home screen and even opened Instagram.  
+\&gt; Suddenly the screen turned black (the backlight seemed on for a few seconds), then it shut off completely.
+
+Since that moment the phone will not turn on at all.
+
+Things I have already tried:
+
+\- Force restart  
+\- Multiple attempts to enter Recovery / DFU mode  
+\- Charging with cable for several hours  
+\- Wireless charging (phone warms up for a bit then cools down)  
+\- Connecting to a computer (not detected in Finder/iTunes or Device Manager)  
+\- Disconnecting and reconnecting the battery internally to force a power reset
+
+Has anyone seen this exact behavior on an iPhone 11 or any iPhone after an update?  
+Is there anything else worth trying before assuming it’s a board-level hardware issue?",https://reddit.com/r/applehelp/comments/1rmfe0d/iphone_11_completely_dead_after_ios_update_no/,459b00c33ebda04feefa0e661c9e655771377170f62a7b9040e4efc29e5aa432,required_before_distribution
+main,Q011,1ojbw73,truenas,2025-10-29T18:06:46,technical_troubleshooting,new command behavior versus possible misunderstanding,"upgrade,storage,uncertainty",ZFS rewrite not working as intended?,"Hi! 
+
+I have upgraded to the new Truenas 25.10 version, partly because I wanted to use the new ZFS rewrite command. Mostly because I recently went from three to four drives, and all the old files are in need of rebalancing. 
+
+I am however running into some issues. Mainly that it doesn't seem to be destributing the blocks correctly? Before running the command files take up around 80 percent of the files size on disk as reported by windows. I know that it isn't actually how that works and it is just a ""visual"" ""bug"" of ZFS expansion, but it is a fine indicator, right? 
+
+Well anyway, after running the script it now takes up 100% of the space. As in, it now takes up more space on the drives. Space usage in the truenas webui also reports as increasing. 
+If I instead run one of the scripts that rebalances things ""manually"" it works just fine, and the space on disk is reduced. 
+
+Am I misunderstanding something? Ideally it should take up less space after running the command, right? 
+
+TLDR: After zfs rewrite files take up more space on disk. Why? 
+
+This is the command I run:
+zfs rewrite -rvx [path] 
+
+Thanks in advance!",https://reddit.com/r/truenas/comments/1ojbw73/zfs_rewrite_not_working_as_intended/,e0f73c6232d5b1c9a4c9b1c78be4426c356b215e682f16e923f3b6919ea96b05,required_before_distribution
+main,Q012,1t2xx8i,Fedora,2026-05-03T21:20:07,technical_troubleshooting,reported issue with a proposed fix already supplied,"upgrade,ui,resolved",Framework 12 on Fedora 44: How to make screen autorotate work correctly again,"After updating my FW12 to Fedora 44, the screen auto-rotated always, not just in tablet mode but also in normal laptop mode, when it shouldn't auto-rotate.
+
+The reason was that some drivers weren't loaded early enough for the kernel to register them correctly on startup, so the events for switching between tablet mode and laptop mode weren't properly registered.
+
+Here's how to fix it:
+
+    $ sudo nano /etc/dracut.conf.d/fw12-tablet-mode.conf
+
+Create the file with this line:
+
+    force_drivers+="" pinctrl_tigerlake soc_button_array ""
+
+Then regenerate your initramfs:
+
+    $ sudo dracut -f --regenerate-all -v
+
+(I added the -v there so I could see what's going on, I first thought it didn't work, because all I saw was a blinking cursor for a minute, in verbose mode I could follow along and see that it was actively doing something)
+
+I can't really be bothered to send this to Framework or Fedora or someone to fix this upstream for everyone - given that I already debugged it &amp; found a/the solution, maybe someone else can put the work in to pass this along?",https://reddit.com/r/Fedora/comments/1t2xx8i/framework_12_on_fedora_44_how_to_make_screen/,a26017d5e3a0f5f40a56f2f5aeb953eb7ad4059ddd35172d508e0c79d794bee8,required_before_distribution
+main,Q013,1ua4emd,debian,2026-06-19T15:03:51,technical_troubleshooting,rendering failure with environment and attempted reset,"upgrade,ui,attempted_fix",Qt/Plasma 6 themes broken after upgrading to Debian 14 Forky,"I just upgraded my system from Debian Trixie to Debian 14 Forky (Testing) with Nvidia drivers installed. The base system updated successfully and I'm now running KDE Plasma 6.6.5. However, the Qt theme engine is completely broken. Even though I have the Breeze theme installed and applied in System Settings, all Qt applications and system dialogs are stuck rendering in a basic fallback/retro style.
+
+The settings tool claims Breeze is applied, but the actual UI rendering refuses to hook into the KDE platform theme backend.
+
+How can i fix this, please help i already tried resetting themes.",https://reddit.com/r/debian/comments/1ua4emd/qtplasma_6_themes_broken_after_upgrading_to/,0c7e98a39ffd97041319113d28849b392c1ca3e0fec31407a5b0ab7f10a86076,required_before_distribution
+main,Q014,1ud1j0h,sysadmin,2026-06-23T00:07:35,technical_troubleshooting,password application reports empty values after upgrade,"upgrade,access,data",Teampass upgrade to 3.2.0.2,"After upgrading all server passwords are saying ""password is empty"", when I look at the mysql db it states I have over 3000 in it. Have same sk.php file and security key text file, has anyone ran into this? TIA!",https://reddit.com/r/sysadmin/comments/1ud1j0h/teampass_upgrade_to_3202/,d955ea49efcb3ee30e3704b09d5255d1ba068d0bb311c138ddd45962abd8493d,required_before_distribution
+main,Q015,1vx7e0u,linuxquestions,2026-08-24T16:18:25,technical_troubleshooting,tentative update link with crash and alternative checks,"upgrade,crash,uncertainty",Kile Segmentation fault on Fedora 44,"I haven't been able to open Kile the last couple days. I think it might've been after I updated my system, but I'm not sure (I didn't test directly after, and noticed it only recently). When trying to run Kile, it always just segmentation faults.
+
+    user@fedora:~$ kile
+    KCrash: Application 'kile' crashing... crashRecursionCounter = 2
+    Segmentation fault         (core dumped) kile
+
+I've tried reinstalling Kile, but it didn't work. Since everything was up to date, I figured it was a bug in Kile itself, but a fresh Fedora 44 VM doesn't have the same issue, so I don't think that's it. I've deleted all configs that I can think of, but it still does not solve the issue. In my desperation I tried to use a debugger and backtrace, which mentioned Okular, so I tried reinstlaling that too, but that also didn't work.
+
+Any suggestions?",https://reddit.com/r/linuxquestions/comments/1vx7e0u/kile_segmentation_fault_on_fedora_44/,75a2b49538928c8b30ec1b24dab2cbce67b40b14776434e9983c86fa909addd0,required_before_distribution
+main,Q016,1v1khho,debian,2026-07-20T12:44:26,technical_troubleshooting,kernel timing and two graphics-card comparisons,"upgrade,hardware,error",AMD Issues with latest kernel,"I need some help, trying to narrow down my issue. Since the last kernel update on Debian 13 6.12.95 my monitor will not power down, I have it set to turn off screen at 45 minutes, when the screen turns off it doesn't actually turn off, it seems as if it is constantly getting a signal from my graphics card, it goes blank but then is backlit so it never powers down. Troubleshooting it I connected my DP cable to the onboard Intel graphics and it my monitor powers off fine. I tried 2 different AMD cards 550/6400 and they both have the same issue. 
+
+May or may not be related, since the kernel update when my pc boots I get the error ""Failed to start systemd-sysctl.service - Apply Kernel Variables"", the line shows up 3 times then the pc boots fine. I'm assuming it's related and not sure where to go here in resovling this.
+
+Any insight would be grateful.",https://reddit.com/r/debian/comments/1v1khho/amd_issues_with_latest_kernel/,305c693a67b0216067e2ceef11035b711b66140b0a9bb736f79863f4c6488c3a,required_before_distribution
+main,Q017,1nx29vh,Wordpress,2025-10-03T15:28:45,technical_troubleshooting,unexpected automatic update without an observed failure,"unexpected_update,configuration,uncertainty",Wordpress auto-updated for the first time despite auto-update not being enabled?,"Hello, 
+
+I need your help. A suddenly got a new core wordpress update, despite it not being enabled in the Updates Dashboard. This has never happened before. 
+
+My thought was some sort of security update, since they can't be disabled in Update Dashboard, but I am not sure. Activity Log and Wordfence log seem to be without a problem.
+
+As I understand, this can happen, I did not check wpconfig for AUTOMATIC\_UPDATER\_DISABLED yet. So, is this a thing that just happens? 
+
+Thank you very much",https://reddit.com/r/Wordpress/comments/1nx29vh/wordpress_autoupdated_for_the_first_time_despite/,885935c33ab8713d4c45f180919cccc7a0e82e2ca1bc613c762002a3ca49dbed,required_before_distribution
+main,Q018,1sap4lh,mysql,2026-04-02T18:13:48,technical_troubleshooting,service inaccessible with exact socket error,"upgrade,access,error","After running sudo apt upgrade today, I can't access mysql server","Did a run of sudo apt update &amp;&amp; sudo apt upgrade today on my Ubuntu 24.04.4 LTS laptop. Suddenly I can't access my mysql server. If I run `systemctl status mysql` I get:
+
+
+
+    Loaded: loaded (/usr/lib/systemd/system/mysql.service; enabled; preset: enabled)
+         Active: activating (start) since Thu 2026-04-02 13:59:27 EDT; 1s ago
+        Process: 18081 ExecStartPre=/usr/share/mysql/mysql-systemd-start pre (code=exited, status=0/SUCCESS)
+       Main PID: 18089 (mysqld)
+         Status: ""Server startup in progress""
+          Tasks: 27 (limit: 9296)
+         Memory: 361.7M (peak: 381.7M)
+            CPU: 676ms
+         CGroup: /system.slice/mysql.service
+                 └─18089 /usr/sbin/mysqld
+    
+
+If I enter mysql -u root -p and enter the password I get the following:
+
+\`ERROR 2002 (HY000): Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock'\`
+
+  
+Not sure what to try next. it's been running smoothly for years.",https://reddit.com/r/mysql/comments/1sap4lh/after_running_sudo_apt_upgrade_today_i_cant/,391ac26d4a684e0620bd4acdbd70f1dcc915f99d0efc11fce90b0f12e7c7d59c,required_before_distribution
+main,Q019,1rm9l7d,vscode,2026-03-06T09:37:17,technical_troubleshooting,terminal behavior with workaround and bug question,"upgrade,ui,workaround",VScode terminal broken after last update (Cant escape in terminal),"In the most recent update to VScode, they have introduced something related to Kitty Keyboard Protocol which I think has broken the terminal escape when you press CTRL + C or when you press Spacebar when using \`npx npm-check\`. When you press CTRL+C you just get a printed character: \^\[\[99;5u
+
+The fix i have is to add this to user JSON file but can someone explain why they introduced this forced behaviour? Is it a bug?
+
+    ""terminal.integrated.enableKittyKeyboardProtocol"": false,""terminal.integrated.enableKittyKeyboardProtocol"": false,",https://reddit.com/r/vscode/comments/1rm9l7d/vscode_terminal_broken_after_last_update_cant/,f702f0a2cea1a27c2316b69a68d8ee5d0951a2a852ec10e2f6094e41ee6b8582,required_before_distribution
+main,Q020,1u5hpsr,chrome,2026-06-14T10:34:52,technical_troubleshooting,lower-severity changed browser behavior,"upgrade,ui,sparse",Navigation bar color changes with websites (Android),"Is anyone having this issue? The navigation bar would always be black before but now it now adapts to white when visiting pages like wikipedia, ao3, etc. Furthermore, and this is really what's been bugging me, but when you bookmark a page, the navigation bar would go from black to white and then back to black after the bookmark tab disappears. This only started when I updated to the latest chrome update.",https://reddit.com/r/chrome/comments/1u5hpsr/navigation_bar_color_changes_with_websites_android/,9ac7f8149690599d817534690980efd7e69460f4b18d3ae6f81272d6595e1924,required_before_distribution
+main,Q021,1tne77f,homeassistant,2026-05-25T16:28:15,other,upgrade planning informed by a prior failure,"planning,risk,prior_failure","Home Assistant Core seems not so ""core"" - how do you decide when to upgrade?","I see the notification that Home Assistant Core version 2026.5.4 is out.  I wonder if I should upgrade from the version I have installed.  I go look at the full list of changes.  Oh my goodness, there's 1436 changes in 2026.5.
+
+As I scan the list, nearly all of them are for specific devices or integrations that I've never even heard of, much less have deployed and I decide that it's hopeless to see whether there's anything in that list that might actually matter to my installation.  So, I decide that I'd rather not take a new version that I may not need.  A previous new version install broke things for a little while until I figured out what else had to be updated simultaneously (due to a breaking change) and that took awhile to figure out.  So, now I'm not automatic for new versions.
+
+Is this just the way Home Assistant Core is architected?  Core has to take fixes for individual devices such as codes for a Miele dishwasher or something to do with a Lutron Caseta battery sensor (just to name a couple).
+
+How do you all decide when to upgrade?  I think I'm trending toward the ""if it ain't broke, don't fix it"" theme.",https://reddit.com/r/homeassistant/comments/1tne77f/home_assistant_core_seems_not_so_core_how_do_you/,93bbd8a4f9ed7f83d6da0226d3cf0fb3208e42ff688837442e2042fa34af2704,required_before_distribution
+main,Q022,1swjx2c,Fedora,2026-04-26T21:18:12,other,early-upgrade risk question and earlier warnings,"planning,risk,error",Any risk updating to Fedora 44 two days early on AMD hardware?,"Hello! I am wondering if there's any issues with Gnome 50 on the current Fedora 44. I heard they paused updates until release but I also heard all major blocker bugs are solved. 
+
+I have an AMD 5800X3D &amp; a AMD 7900 XTX.
+
+I did try updating 2 weeks ago, everything ran ok other than getting 3 startup warnings in logs.
+
+2 were related to tpm udev rules i think, they stated ""failed to resolve group 'tss'""
+
+The other was firefox.
+
+I don't rely on many exentions and all of the ones I do use are already updated for gnome 50. 
+
+Should I just wait?
+
+Or are the logs something I can ignore?
+
+Image of errors:
+
+[https://imgur.com/KY77E9O](https://imgur.com/KY77E9O)
+
+I'm thinking its all harmless? I can avoid firefox if need be.",https://reddit.com/r/Fedora/comments/1swjx2c/any_risk_updating_to_fedora_44_two_days_early_on/,d3b899c0325ac6200e1109f07d23ace4dc6721784b03df08000ee2442310213b,required_before_distribution
+main,Q023,1qz7a1y,Android,2026-02-08T12:06:53,general_dissatisfaction,strong criticism alongside concrete UI effects,"upgrade,ui,discontent",Samsung has the most frustrating UX I've ever had,"I just got the latest update and it broke a ton of my settings. I go into the settings app and they stripped out half of everything. It is INFURIATING how bad this is, like they are purposely trying to make the UI as shit as possible and not let users fix it themselves
+
+I'm on Galaxy A 35, One UI 8.0, Android 16
+
+Now I can't remove things from the top-screen ""panel"", it only lets you move around things that are an absolute waste of space. I have to use 3 swipes instead of 2 to see all of the actually useful content because heaven forbid I get rid of some of the other trash on there.
+
+None of my apps can go into fullscreen mode either without the bottom nav bar overlaying them! Before they worked seamlessly, changing the nav bar setting from ""always on"" to ""hidden"" when in full-screen mode. Nope! That was too convenient for samsung I guess!
+
+Naturally they have like 5 apps that you cannot turn off the notifications for or disable/uninstall, even if you have no use for them. So get ready for basically ads for the samsung apps every other day as they tell you to turn on syncing, etc. Wtf
+
+And many more small but cumulative issues. Seriously \*\*\*\* samsung this is the most frustrating UX I've ever had with a phone",https://reddit.com/r/Android/comments/1qz7a1y/samsung_has_the_most_frustrating_ux_ive_ever_had/,fbb25118e7d0f0f841ef2c3fbe9a12a5ba471c1c9ab104e039e14119718630ca,required_before_distribution
+main,Q024,1p0bob2,whatsapp,2025-11-18T13:17:24,general_dissatisfaction,brief performance complaint after update,"upgrade,performance,discontent",Whatsapp on PC sucks?,"After the recent whatsap update on PC, it just plainly sucks! It's so laggy, not at all responsive and weird. I use it a lot and now I'm so frustrated",https://reddit.com/r/whatsapp/comments/1p0bob2/whatsapp_on_pc_sucks/,dc7a853f4227f4b4b80469ea591a92ebeb0424bb2e4b657008e82664b6246b5e,required_before_distribution
+main,Q025,1ux7p8c,opencode,2026-07-15T14:36:52,other,positive update experience as a fault-triage negative case,"upgrade,positive,ui",OpenCode's new tab-based UI makes multitasking so much easier,"I just updated to OpenCode v1.18, and the new Desktop v2 experience has been a pleasant surprise.
+
+The standout feature for me is the new tab-based interface. I can keep separate chats open for different tasks, switch between them without losing context, and rename tabs to stay organized. It feels much more natural, especially when juggling multiple projects or debugging different issues at the same time.
+
+I also noticed that the app feels faster to launch, the new onboarding is well done, and the overall UI looks much cleaner and more polished. It's nice that the team also included an option to switch back to the old layout during the transition if anyone prefers it.
+
+I've attached a couple of screenshots of the new interface.
+
+Has anyone else updated yet? What's your experience been like with the new tabs? Do you prefer this layout over the previous one? I'd love to hear what everyone thinks.",https://reddit.com/r/opencode/comments/1ux7p8c/opencodes_new_tabbased_ui_makes_multitasking_so/,925f03439dbafa8ea2971f432b730025ce0ae453bf0baebd463868107e738795,required_before_distribution
+main,Q026,1v1np4z,sysadmin,2026-07-20T14:49:18,other,channel-change question also reports broken applications,"patch,compatibility,boundary",is the MS M365 July patch switching SAC clients to MEC,Had a few machines in a test patch group be upgraded to version 2606 and checking Account/About it now shows as monthly enterprise channel. On these machines the M365 apps install was installed using the Semi annual channel. I found [https://learn.microsoft.com/en-us/microsoft-365-apps/updates/unified-update-channels](https://learn.microsoft.com/en-us/microsoft-365-apps/updates/unified-update-channels) which suggests the SAC channel is being merged into MEC but i was under the impression it was only for new installs for example you cant select that channel when building a configuration.xml. The update from SAC to MEC is causing us issues as part of the update its also updating the C++ 2015-2022 Redistributables for X64 and X86 to latest version and breaking applications. Anyone seeing the same ?,https://reddit.com/r/sysadmin/comments/1v1np4z/is_the_ms_m365_july_patch_switching_sac_clients/,9e698aa57c29018fa5eee94a9bcedff49f8c2a7b1856805f2142d542ee1d976d,required_before_distribution
+main,Q027,1wup9pb,openwrt,2026-10-01T03:43:18,other,preflight and rollback discussion without failed incident,"planning,risk,procedure",What belongs in a preflight and rollback checklist for a major OpenWrt upgrade?,"A configuration backup is important, but it does not capture every reason an upgrade can fail. Custom feeds, renamed packages, opkg-to-apk changes, a resized root filesystem, device-specific partition behavior, and services that depend on extra files can all make a preserved \`/etc/config\` incomplete. A router may also appear healthy while VLANs, guest isolation, VPN routes, DDNS, multicast discovery, or rarely used firewall rules are broken.
+
+A stronger preflight could record the exact image and target, partition layout, installed package list, custom feeds, overlay files, interface and firewall state, and an off-device backup. On x86, a full disk image may be worth keeping. After upgrade, validation would cover WAN authentication, DNS and DHCP, every VLAN and SSID, WireGuard or other tunnels, port forwards, SQM, IPv6, scheduled jobs, and recovery access before the old image is discarded.
+
+What do you verify before and after a major version jump? Do you rehearse a clean restore from the sysupgrade archive, keep a spare router or boot medium, or prefer rebuilding from documented UCI commands instead of carrying configuration forward?",https://reddit.com/r/openwrt/comments/1wup9pb/what_belongs_in_a_preflight_and_rollback/,f03af596d850e144ac054b3ae73590a85a6ad14bd7fc746faae82ecdb0655c32,required_before_distribution
+main,Q028,1suy71k,chrome,2026-04-25T01:20:23,general_dissatisfaction,angry UI report with concrete effects and fix question,"upgrade,ui,discontent",Chrome Android update (April 24) just ruined my tab groups order.,"\*I'm based in the Netherlands (Europe).\*
+
+Absolute a stupid update. My layout is completely destroyed on my Samsung Galaxy A52.
+
+
+​Just before 1 AM tonight April 25th (Saturday night), I noticed that all my ""tab groups"" were ripped out of my normal tabs order and shoved into a separate ""tab group"" menu. My chronological order while using chrome and last openend etc is ruined.
+
+Setting ignored: ""Inactive tabs"" is set to NEVER, yet Chrome still moved and shuffled them.
+
+All previews are black/grey on the tabs. It’s unusable for anyone who keeps tabs organized. 
+
+Anybody got this problem too? Google Chrome did something similair to this but that with al tabs in february 2025. Shoving not recent used ones back.
+
+Is it fixable?",https://reddit.com/r/chrome/comments/1suy71k/chrome_android_update_april_24_just_ruined_my_tab/,cf701215f7660e6ff134d2af796a94f1eeca324d32167a8be1f73b3a8cf17998,required_before_distribution
+main,Q029,1v17vtk,ios,2026-07-20T01:33:11,general_dissatisfaction,predominantly a keyboard-change complaint,"upgrade,ui,discontent",Fk the new iPhone keyboard update,"So I thought I was going crazy but apparently Apple did sneak in a keyboard update and coming from one of the top 50 fastest iPhone typers in the world it’s infuriating😡🤬😤it’s like I’m holding a phone for the first time FK this update \*Fix The Gddm Backspace\* or better yet why fix what’s not broken, the one thing not broken on these phones… just run it back to the og. Somethingbthisnsmall becomes the straw that breaks the back💯",https://reddit.com/r/ios/comments/1v17vtk/fk_the_new_iphone_keyboard_update/,a2b0b5284f4cdd46fbef782868dd4870194462cabd253ff29e64b65a47053cec,required_before_distribution
+main,Q030,1u71ioe,homeassistant,2026-06-16T02:53:36,other,firmware-version question without a fault,"planning,version,uncertainty",Latest Honeywell T10+ Pro Thermostat Firmware,"Can anyone confirm what the latest firmware version or build date is for the Honeywell T10+ Pro thermostat?  Mine is currently on 03.03.08.02 (Collection/Application Version) with a build date of June 26, 2024.  Is that the latest version?  It's a newly installed thermostat so I'm not sure if that is the latest version or if I just need to wait a few days for it to update itself automatically.",https://reddit.com/r/homeassistant/comments/1u71ioe/latest_honeywell_t10_pro_thermostat_firmware/,630e7732e2f10a73149048384f7655512afbfc28ea288030beb52cbc5ba9a7f1,required_before_distribution
+pilot,P001,1scc0f7,MacOS,2026-04-04T15:22:58,technical_troubleshooting,version and device context with a clear visual symptom,"upgrade,ui",MacOS 26 - Safari Tabs flickering,"Hi guys,
+
+so ever since i‘ve updated my MacBook to MacOs 26, all of my Safari tabs keep flickering all the time. 
+
+On 26.4 but also on precious Tahoe versions.
+
+Do you have any advice for me on how to fix that?
+
+Thanks 🌞
+
+Ps. Sometimes the same effects even occurs on the corners of my Dock.
+
+Specs:
+
+2019 A2141 16‘‘ MacBook Pro
+
+2,4Ghz Intel i9
+
+AMD 5600M Pro
+
+64GB Ram
+
+4TB SSD
+
+MacOs 26.4
+
+Safari Version 26.4",https://reddit.com/r/MacOS/comments/1scc0f7/macos_26_safari_tabs_flickering/,11a924f2a5399c1601266dc40aa7cc7cc4d2872d8a61118cd47e5a84765929fc,required_before_distribution
+pilot,P002,1uyn078,Fedora,2026-07-17T02:30:07,technical_troubleshooting,problem followed by an author-provided fix,"upgrade,install,resolved",Discord broke from RPM Fusion,So I noticed discord broke for me when i updated today. Said the bin file was missing. So went looking in the bin folder and seemed to be changed from Discord to discord. I had to manually change the icon to point to usr/bin/discord not usr/bin/Discord. Was not sure if other experienced so figured i would post how to fix.,https://reddit.com/r/Fedora/comments/1uyn078/discord_broke_from_rpm_fusion/,730154dba43a1cb2f1dac2217dc11c516f465906ab7f38721102181089bd88ba,required_before_distribution
+pilot,P003,1uy7hw8,applehelp,2026-07-16T16:18:57,technical_troubleshooting,detailed error and attempts with a later reported fix,"upgrade,access,resolved",“This connection is not private” on every site after updating iOS.,"Recently updated from IOS 16 to IOS 18.7.8 on an iPhone 11.
+
+Cleared so many of my photos to free up space so I can update my iOS and now I’m having a bunch of issues specifically I think to do with certificates or something on websites?
+
+Nearly every website I visit, apple, Wikipedia, eBay, it doesn’t matter I get the same error:
+
+“This Connection Is Not Private  
+This website may be impersonating  
+""www.ebay.com"" to steal your personal or financial information. You should go back to the previous page.”
+
+When I view the certificate for the above it shows: Not trusted in red and then Expires: 07/11/2026, 7:59:59 PM
+
+Then the worst part is my eBay app doesn’t even work anymore. Nothing won’t load on it. It tries to load for a while and then throws this error:  
+“Error (NSURLErrorDomain)  
+An SSL error has occurred and a secure connection to the server cannot be made. (-1200)”
+
+Anyone know how I can fix this?
+
+Things I’ve tried: Reset all Settings, Reset Network Settings, Restarted the phone, Cleared browsing history and data, Tried different Browsers (Same error), deleted the eBay app and downloaded again, Made sure date and time is set correct.
+
+EDIT: MANGED TO FIX IT! Here’s what I did: 
+
+1. Toggled off and on “Set Automatically” in Settings &gt; General &gt; Date and Time.
+
+2. Toggled off and on “Location Services” in Settings &gt; Privacy &amp; Security &gt; Location Services. 
+
+3. Soft Reset iPhone: 
+
+For modern iPhones (iPhone 8, iPhone X, and newer models):
+
+• Press and quickly release the Volume Up button.
+
+• Press and quickly release the Volume Down button.
+
+• Press and hold the Side button (power button) until your screen goes dark and the Apple logo appears.
+
+• Let go of the power button when the apple logo appears. 
+
+Hope this helps someone in the future.",https://reddit.com/r/applehelp/comments/1uy7hw8/this_connection_is_not_private_on_every_site/,a512b1a8f3752105de0326ec10983fe5e25aeed8293dd40a062895b0eb362e00,required_before_distribution
+pilot,P004,1s3r9jj,AZURE,2026-03-25T23:36:38,other,upgrade planning and method-selection questions,"planning,risk",OS upgrade,"Hey everyone,
+
+I have a Windows 11 21H2 VM that is already out of support, and I am planning to upgrade it to 23H2 or 24H2. I am looking for some community input on the best way to handle this since Windows Update isn’t offering the upgrade.
+
+**My Setup:**
+
+* Virtual Machine (not physical).
+* Goal: In-place upgrade (keeping all apps and data).
+* Current roadblock: Windows Update is not working/offering the new version.
+
+**I am currently considering:**
+
+1. Mounting the ISO and running setup.exe
+2. Using the Windows Installation Assistant.
+3. Clean install (as a last resort).
+
+**A few questions for those who have done this:**
+
+* Which method worked most reliably for you in a VM environment?
+* Did you run into issues with drivers, VM tools, or compatibility?
+* Did you need to bypass TPM/Secure Boot checks for the VM?
+* Any ""gotchas"" I should check before I start?
+
+I would really appreciate any tips, especially from anyone managing multiple VMs in an enterprise environment. TIA!",https://reddit.com/r/AZURE/comments/1s3r9jj/os_upgrade/,ba6081a1f4f137d3b6ab1c38a22c0e08715ab1e97f149f657a142457fe8d6189,required_before_distribution
+pilot,P005,1u66nem,linux,2026-06-15T04:44:37,other,smooth current update and older unrelated issue,"upgrade,positive",Finally updated my kernel today,"got around to updating my kernel today. Everything seems to be running smoothly so far,Went a lot smoother than I expected.On mint I've been dealing with a weird keyboard and mouse issue for quite a while and tried a bunch of different fixes with no luck.But switching to zorin solved the issue for now.",https://reddit.com/r/linux/comments/1u66nem/finally_updated_my_kernel_today/,68c4b17ac403a24d4afb72d278c493b6b21c60a6295844e1c1e0a47c9035a6d6,required_before_distribution
+pilot,P006,1u4ei2o,applehelp,2026-06-13T02:10:47,other,future OS update concern alongside an app update,"planning,multiple_updates",Will there be an automatic iOS update if I ‘Erase All Content and Settings’?,"For some context: I’m on iOS v. 18.7.7. I have my automatic iOS updates turned off, and I really hate the look of the newest update 26.5 and I’d like to do anything to avoid updating.
+
+This morning when instagram crashed (wtf right) I had my own mini crash out myself. First thinking it was my phone, then my computer, then the app, then I was hacked, etc etc etc. I updated the instagram app and I hate it.
+
+As you can probably tell, I’m not good with how quickly technology changes.
+
+My last iCloud update was at 2:39 a.m. What I’d like to do is restore my device to the latest iCloud backup without compromising my current iOS. I’d like to do this for the sole purpose of reverting my instagram to what it was before I updated the app.
+
+Is this possible? Should I be Erasing All Content and Settings, then restoring today’s backup through wifi? Any suggestions, tips or advice would be sincerely appreciated.",https://reddit.com/r/applehelp/comments/1u4ei2o/will_there_be_an_automatic_ios_update_if_i_erase/,61ec04c63ae0999da4e05c6ca5739fd301c9abdade19818c097051daa47e0ec7,required_before_distribution

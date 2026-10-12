@@ -1,0 +1,77 @@
+{
+  "collected_at_utc": "2026-10-05T20:33:05.653833+00:00",
+  "note": "Candidate pools only. API categories are not human labels.",
+  "pages": [
+    {
+      "endpoint": "tps",
+      "page": 1,
+      "file": "tps_response.json",
+      "n": 500,
+      "hasNext": true,
+      "header_date": "Mon, 05 Oct 2026 20:27:17 GMT",
+      "criteria_description": "Update-related posts whose title or body contains at least one troubleshooting-indicative phrase. Recall-oriented heuristic for human labeling, not a classifier - expect false positives. Each result's features.matchedKeywords lists which phrases actually matched."
+    },
+    {
+      "endpoint": "tps",
+      "page": 2,
+      "file": "tps_page_2.json",
+      "n": 500,
+      "unique_new": 500,
+      "hasNext": true,
+      "header_date": "Mon, 05 Oct 2026 20:32:05 GMT",
+      "x_page": "1",
+      "x_total_count": null,
+      "date_min": "2026-05-20T10:17:25",
+      "date_max": "2026-07-11T06:44:53"
+    },
+    {
+      "endpoint": "tps",
+      "page": 3,
+      "file": "tps_page_3.json",
+      "n": 500,
+      "unique_new": 500,
+      "hasNext": true,
+      "header_date": "Mon, 05 Oct 2026 20:32:30 GMT",
+      "x_page": "1",
+      "x_total_count": null,
+      "date_min": "2026-03-30T05:42:22",
+      "date_max": "2026-05-20T09:19:46"
+    },
+    {
+      "endpoint": "tps",
+      "page": 4,
+      "file": "tps_page_4.json",
+      "n": 500,
+      "unique_new": 500,
+      "hasNext": true,
+      "header_date": "Mon, 05 Oct 2026 20:32:45 GMT",
+      "x_page": "1",
+      "x_total_count": null,
+      "date_min": "2025-12-10T06:10:14",
+      "date_max": "2026-03-30T04:31:56"
+    },
+    {
+      "endpoint": "tps",
+      "page": 5,
+      "file": "tps_page_5.json",
+      "n": 378,
+      "unique_new": 378,
+      "hasNext": false,
+      "header_date": "Mon, 05 Oct 2026 20:33:03 GMT",
+      "x_page": "1",
+      "x_total_count": null,
+      "date_min": "2025-04-24T15:15:41",
+      "date_max": "2025-12-10T05:26:57"
+    },
+    {
+      "endpoint": "gds",
+      "page": 1,
+      "file": "gds_response.json",
+      "n": 451,
+      "hasNext": false,
+      "header_date": "Mon, 05 Oct 2026 20:27:33 GMT",
+      "criteria_description": "Update-related posts with no troubleshooting-indicative phrase in title or body. Recall-oriented heuristic for human labeling, not a classifier - expect false positives. (Not filtered on metadata.predicted.positiveScore: tested live and found that field is overwhelmingly high for update-related posts regardless of sentiment, so it does not distinguish GDS from TPS - see tpsGdsCandidates.js for how this was confirmed.)"
+    }
+  ],
+  "tps_unique_ids": 2378
+}

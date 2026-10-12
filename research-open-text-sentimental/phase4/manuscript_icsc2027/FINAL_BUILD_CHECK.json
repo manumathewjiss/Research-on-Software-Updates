@@ -1,0 +1,29 @@
+{
+  "pages": 8,
+  "paper_size": "US Letter",
+  "template": "IEEEtran conference",
+  "references": 19,
+  "figures": 3,
+  "tables": 3,
+  "all_fonts_embedded": true,
+  "author_check_remaining": "Exact institution determination and reviewer consent wording",
+  "source_sha256": {
+    "main.tex": "36792ace0d1f21936e7e2cc2fc36e48759bc9b644ef6522e2943ffa73dca2e20",
+    "references.bib": "b107149ec5fa10622f4f31ba4b815ddaebaaf073854df4c22171562722f8dd83",
+    "IEEEtran.cls": "da751920a317ed318b7b5cd7fa585a6cc7d28502d457856382e9be24b10a3bd7",
+    "IEEEtran.bst": "314f0ece704568faf827011bac498650691b2b5ee06320720830e782416d5a5f",
+    "study_flow.pdf": "60da7fccb53a97918270b9c44b31a7c9c5e6560f71a293998f4bdce533ec1648",
+    "diagnostic_evidence.pdf": "5e3f1fe17b9e4938fc351814051a1ce5aa9d375b49e8dfa4a0dc2f71a87b143d",
+    "reviewer_actions.pdf": "53f083695af0177a58c1ca9216189bc3a1e048a327a6f828fadc6e53dce90016",
+    "README.md": "55fe0d7f4acb3202e41f5926565105e4f001059b2c082f3c2d76f7c4eca5869a",
+    "FIGURE_SOURCES.json": "044322ea13902e3a049c27ba53a86a414cdc3c2491842bb5e62add1490481005"
+  },
+  "conference_rules_checked": "https://www.semanticcomputing.org/submission",
+  "no_new_experiments": true,
+  "overleaf_compiled_pages": 8,
+  "overleaf_errors": 0,
+  "overleaf_warnings": 0,
+  "overleaf_typesetting_info": 2,
+  "delivered_pdf": "Downloaded directly from Overleaf",
+  "overleaf_pdf_all_fonts_embedded": true
+}

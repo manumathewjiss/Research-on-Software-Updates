@@ -1,0 +1,35 @@
+{
+  "errors_coded": 46,
+  "patterns_by_error_type": {
+    "false_negative": {
+      "specific_malfunction": 6,
+      "update_installation_problem": 3,
+      "documentation_or_navigation_problem": 1,
+      "brief_malfunction": 3,
+      "changed_ui_behavior": 1,
+      "changed_or_removed_feature": 2,
+      "resolved_incident_narrative": 3,
+      "performance_or_resource_problem": 2,
+      "configuration_help": 3,
+      "design_criticism": 1
+    },
+    "false_positive": {
+      "opinion_or_narrative": 1,
+      "general_experience_question": 1,
+      "feature_observation": 4,
+      "preventive_update_advice": 5,
+      "explanation_or_verification_question": 1,
+      "feature_activation_problem": 1,
+      "design_criticism": 2,
+      "resolved_incident_narrative": 1,
+      "how_to_update_question": 1,
+      "performance_or_quality_complaint": 1,
+      "update_installation_problem": 1,
+      "changed_or_removed_feature": 1,
+      "alternatives_or_advice": 1
+    }
+  },
+  "borderline_flag_n": 22,
+  "matched_control_n": 46,
+  "same_subreddit_control_n": 38
+}

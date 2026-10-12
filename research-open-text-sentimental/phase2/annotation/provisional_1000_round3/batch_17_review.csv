@@ -1,0 +1,2336 @@
+﻿review_id,subreddit,title,post_body,discussion_context,text_availability,proposed_about_software,proposed_update_related,proposed_discussion_type,proposed_confidence,proposed_reason,decision,final_about_software,final_update_related,final_discussion_type,reviewer_note,reviewed_at,source_url
+B17-001,PLC,Cannot drag OMI ViewApp between monitors - System Platform 2023 R2 SP1 P4,"After upgrading from System Platform 2023 R2 to 2023 R2 SP1 P4, I noticed that the OMI ViewApp can no longer be dragged from one monitor to another. Previously, the application window was free and could be easily moved to any screen. Now, it is locked to the display where it opens, making it impossible to move it around. Is there any known workaround for this behavior?","[1:reply] Ah so it's not just us ! Same issue but havent looked for a workaround, there has been more pressing issues... And not really motivated to contact the support just to get told it wasnt supported all along",title_body_comments,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/PLC/comments/1ti5f93/cannot_drag_omi_viewapp_between_monitors_system/
+B17-002,Fedora,"Stuck in a Login loop, what do I do?","Hi there.
+
+I'm in a bit of a pickle and am hoping I could get some assistance. I'm a Linux newbie, I don't know much, and I have less-than-adequate knowledge of the terminal and its commands. I'm running GNOME 50 on Fedora 44.
+
+**THE ISSUE**
+
+This login loop happened after I updated an extension and was prompted to log out. When I tried logging back in, I could not enter the gnome session. My best guess is something happened during that process that triggered it.
+
+Followed some guides that said to try logging in through the TTY (Ctrl+Alt+F3) then run `gnome-shell`  . I was able to enter my gnome session, but there were things missing:
+
+* Could not run any preinstalled apps (Nautilus, Terminal, Settings), but the ones I installed like Zen and Blanket could
+* The Extensions Manager was showing no installed extensions, but they were all running (PaperWM, ChromaLeon, etc.)
+* My Gnome Tweaks were not applied (larger text, custom font)
+* The power menu only showed Log Out option, no Suspend/Restart/Power Off
+
+The best lead I have is the photo I attached, this was the message shown when I opened the TTY after I tried to login loop.
+
+This seems to be a user specific issue since I could login through a testuser profile I created. Still, its a bit sluggish and not as responsive as a normal session would be.
+
+Any help is much appreciated, thank you","[1:reply] It sounds like you're looking for help. Please note that r/Fedora is not an official support channel for the Fedora Project.
+
+For best results, be sure to include all relevant details in your post, such as your Fedora edition, version, and hardware specs. You can edit your origi…
+[2:reply] GNOME Shell extensions are installed locally in \~/.local/share/gnome-shell/extensions/, and if it’s a package you installed, you can just use dnf to remove the package you installed (they’re usually packages that start with “gnome-shell-extension-”)
+[3:reply] Agree with grumpysysadmin. The extensions folder is the right place to look.
+
+Your screenshot has a clue. Blur my Shell is installed twice. One copy is in `~/.local/share/gnome-shell/extensions/` and one is in `/usr/share/gnome-shell/extensions/`. GNOME Shell skips the local one…
+[4:reply] Out of curiosity have you checked if nautilus is installed.   
+Comman for that is  
+which nautilus 
+
+The result ought to be something akin   
+/bin/nautilus 
+
+Your description sounds a bit like you uninstalled your DE or parts of it.",title_body_comments,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/Fedora/comments/1wxelhg/stuck_in_a_login_loop_what_do_i_do/
+B17-003,applehelp,Can’t turn on spellcheck after Grammarly turned it off,"I stupidly installed Grammarly on my MacBook Air, thinking it would help me write a book. When I had Grammarly temporarily turned off, I noticed that spellcheck was broken on Pages and Notes. I deleted Grammarly, and that didn’t fix it. Then I looked up how to fix it. I entered the command into Terminal like everybody said to do. Then restarted my computer. It didn’t work. Now Terminal says that “the default interactive shell is now zsh” and is giving me instructions to update my account to use zag. I don’t know how to do that, I just want to turn the damn spellcheck back on. And yes, I went into settings and checked to make sure it’s turned on. It is. So it theoretically should be working. Help, please?",,title_and_body,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/applehelp/comments/1r0fb1j/cant_turn_on_spellcheck_after_grammarly_turned_it/
+B17-004,applehelp,How to remove Apple ID? I’m stuck for more than 2 years,It’s been more than 2 years since my account was locked. This account I created back in 2016 for iPhone 6s Plus and then used it with iPhone 11 Pro Max. I live in Kuwait. In kuwait calls are mostly Internet calls. WhatsApp and other social medias. That’s why people usually b.u.y internet sims. I had both an internet sim and a talktime sim. I used both for my trusted numbers. So after a year or so of not recharging the talktime sim it was deactivated. Having lost my WhatsApp I switched to another sim company. Coincidentally my wifi sim’s contract also ended 1 month after so I ended up changing both my numbers. And one day for some reason I went to log in to my Apple account and it said password was incorrect. Tired to recover and it asked for trusted numbers OTP. At this point I knew I f$cked up. Tried a couple of times and it said my account is locked. And it said I have a recovery code. I do remember setting it up but I don’t remember if I took a screenshot or saved it in my notes. Talked to Apple and they said they can help if I can get my recovery codes. But I had 20000 photos in my phone. Almost gave up. My phone was working fine. Just wasn’t able to update or install apps. Then I found out that I can use a different Apple ID with App Store. And I’ve been using my phone like this since. Upgraded to iPhone 16 Pro Max back in 2024 November. And I couldn’t use the Apple Intelligence to this day. I did create a new Apple ID for this phone but 20000 photos was too much to send via anything. Airdrops or third party apps. iPhone 11 Pro Max would hang every time. Then somehow I was able to transfer the data from iPhone 11 to 16. I thought maybe if I shift my data to a new phone I might be able to reset the password but I was wrong and I’m stuck again. Can’t use my bank cards with the phone either. I can purchase apps and other stuffs. But can’t add my Debit/Credit card to Wallet app. And it’s really frustrating. I want a solution. Is there anyway to remove the Apple ID without losing data? If not then how do I backup my photos and then fully delete everything from my phone?,"[1:reply] copy the photos to a computer. if you do erase the phone, youre going to need to submit a copy of the receipt to apple online to request activation lock removal.",title_body_comments,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/applehelp/comments/1uai2ir/how_to_remove_apple_id_im_stuck_for_more_than_2/
+B17-005,sysadmin,Chrome Hardware Acceleration Issues - Dell Pro Towers /  Radeon 780M,"Hey Everyone!
+
+Welcome back to ""are these computers possessed, or is it just me?""
+
+We recently bought a batch of Dell Pro Tower QCT1255 workstations with Ryzen APU's + Radeon 780M graphics. We deployed these out and initially it was all ""hurrah, the onboard graphics helped our workflows SO much!""
+
+And then, the problems happened. Mainly, the systems would just have occasional crippling lag or Chrome would lock for 15-30 seconds at a time. Diag all passed, installed all drivers / firmware / bios updates, win updates, tried reformatting windows, etc. Extremely random issue. Felt like RAM failures, but in a batch of 12 stations? No way. 
+
+ It took us awhile to capture enough logs to figure it out. Users would try to copy and paste in Chrome, and that's what would stall the machine. I finally get a good log capture, and it turns out, Chrome HW acceleration was the issue - something just wasn't playing nice with the graphics driver. I reported this to both AMD and Chrome, but there are tons of posts about it on the internet for a long while. 
+
+I've tried many Radeon drivers, but assume we were on the latest as of this post. 
+
+TL;DR - Radeon 780M has issues with Hardware Acceleration on Chrome, will cause Chrome to lag / crash. Disabling HW Acceleration resolves the issue.","[1:reply] I've had issues with chrome hw accel for ages.
+
+It was specifically notable on an AMD ""APU"" system that I had built for a parent. This was in the earlyish 2010s
+[2:reply] contact dell, state the issue and ask them to replace your pcs with apus that use new gpu. chances are 780m wont be fixed just worked around.   
+  
+anecdote: mendocino gpu in 7320u is unable to decode av1 4k 60 fps at more than 1x speed - video starts to stutter,  
+also it canno…
+[3:reply] I have an AMD APU with a Radeon 780M integrated GPU, and hardware acceleration works in Google Chrome works fine when running on Ubuntu Linux 26.04.
+
+If I had a machine where I had to turn off hardware acceleration as a matter of course just to get stable operation, I think I'd…
+[4:OP] I'm definitely going to reach out and give them this information, and everything is still under warranty but bleh. Having to redo 10 - 20 workstations is such a major PITA. Just really sucks all around, these APU's are KILLER for our creative workflows.",title_body_comments,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/sysadmin/comments/1uwkpb1/chrome_hardware_acceleration_issues_dell_pro/
+B17-006,MicrosoftEdge,As of the last few weeks Edge and even the current version 147.0.3912.60 (Official build) (64-bit) cant predict misspelled words in Discord posts,I usually am able to get it to work by toggling the different spelling mods in Edge settings but as of this last update even that doesn't work. It seems to work elsewhere like as Im typing this though on reddit.,,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/MicrosoftEdge/comments/1sjwfzo/as_of_the_last_few_weeks_edge_and_even_the/
+B17-007,sysadmin,Issues with SSL certificates,"\[SOLVED\]  
+\[SOLVED\]
+
+Hi,
+
+Sorry if this is not the correct subreddit to post this, but I think I have some problems with SSL certificates:
+
+Yesterday I updated my iPad (6th gen - 2019) from OS15 to OS17 (last available). After the update, I couldn't get to any website or web service (apps like Teams, Drive, YouTube, Spotify, ecc.). Any website I try to load (except Apple's) reports an error with the SSL certificate.
+
+I downloaded and manually installed and trusted a long list of certificates (from Apple, DigiCert and Google, including all the globals, G2, G3, etc.), but still nothing. I also tried re-doing the update via PC, and all the other standard steps (resetting network settings etc.).
+
+One thing that worries me is that one of the operators on the Apple support line told me that by updating to OS17.7.11 my device is not allowed to connect to any web service anymore, by design.
+
+Does anyone have an idea how I could solve this?
+
+I can provide the full list of manually installed certificates if needed.
+
+EDIT: ISSUE SOLVED! TLDR: i simply had to uninstall and re-install Chrome app.
+
+When i updated the OS, the Chrome app wasn't automatically updated to the correct version. So the old Chrome version was conflicting with the new OS and that caused the problem. I simply uninstalled it and everything works now. I then re-installed it and it still works as it should.
+
+It's baffling though that for one and a half day on line with Apple support they couldn't bother to suggest me this solution, eventhough they all asked if I had any VPN service (and in which case to disinstall it).","[1:reply] Go to /r/Apple
+[2:reply] r/techsupport
+
+but ill bite anyway, make sure your system date time is correct. go into settings, search for time and date, sync, try again
+[3:reply] Try this https://www.reddit.com/r/ipad/s/Yv5QrctUFq
+[4:reply] A wrong system date time was also the very first thing that came to mind.
+[5:OP] Yup that was also the first thing i verified, and also tried leaving it on manual for 10 minutes then switching to automatic etc.
+
+Though, ironically (since i just made this post 20mins ago after 2 entire workdays of troubleshooting, 1 and a half with apple support team), i now…",title_body_comments,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/sysadmin/comments/1u4saw7/issues_with_ssl_certificates/
+B17-008,android,"Flutter fails with ""No suitable NDK found for target architecture"" error in old project but runs fine in new project","When I try to run an old project (for Android) after the flutter update the app fails to build with error Bad state: No suitable NDK found for target architecture arm64. But will run fine with a new project even with the old project's pubspec.yaml. I have already tried all the answers mentioned in Flutter: build ndk version mismatch after upgrade and Compatible side by side NDK version was not found. Default is 20.0.5594570 and most of the things remotely related to NDK issue. Also reinstalled the Flutter, Android studio and cleared the cache. Also replaced the old project android folder with the new porject's android folder, but still no luck. Flutter version - 3.47.1 Android Studio Quail 3 | 2026.1.3 Patch 1 Here's the detailed error Unhandled exception: Bad state: No suitable NDK found for target architecture arm64. #0 main. (file:///Users/username/.pub-cache/hosted/pub.dev/android_libcpp_shared-0.1.0/hook/build.dart:31:7) #1 build (package:hooks/src/api/build_and_link.dart:191:5) #2 main (file:///Users/username/.pub-cache/hosted/pub.dev/android_libcpp_shared-0.1.0/hook/build.dart:12:3) Building assets for package:android_libcpp_shared failed. build.dart returned with exit code: 255. To reproduce run: (cd /Users/username/.pub-cache/hosted/pub.dev/android_libcpp_shared-0.1.0/; /Volumes/external/apps/flutter/bin/cache/dart-sdk/bin/dart --packages=/Volumes/external/own_apps/resume/resume_app/.dart_tool/package_config.json /Volumes/external/own_apps/resume/resume_app/.dart_tool/hooks_runner/android_libcpp_shared/10aa41e27a/hook.dill --config=/Volumes/external/own_apps/resume/resume_app/.dart_tool/hooks_runner/android_libcpp_shared/10aa41e27a/input.json ) stderr: Unhandled exception: Bad state: No suitable NDK found for target architecture arm64. #0 main. (file:///Users/username/.pub-cache/hosted/pub.dev/android_libcpp_shared-0.1.0/hook/build.dart:31:7) #1 build (package:hooks/src/api/build_and_link.dart:191:5) #2 main (file:///Users/username/.pub-cache/hosted/pub.dev/android_libcpp_shared-0.1.0/hook/build.dart:12:3) stdout: INFO: Searching for android NDK... 2 Target build_hooks failed: Error: Building native assets failed. See the logs for more details. 2 FAILURE: Build failed with an exception. * What went wrong: Execution failed for task ':app:compileFlutterBuildDebug'. > Process 'command '/Volumes/external/apps/flutter/bin/flutter'' finished with non-zero exit value 1 * Try: > Run with --stacktrace option to get the stack trace. > Run with --info or --debug option to get more log output. > Run with --scan to get full insights from a Build Scan (powered by Develocity). > Get more help at https://help.gradle.org. BUILD FAILED in 5s Error: Gradle task assembleDebug failed with exit code 1 App failed to start Flutter doctor -v [✓] Flutter (Channel stable, 3.47.1, on macOS 26.0.1 25A362 darwin-arm64, locale en-IN) [790ms] • Flutter version 3.47.1 on channel stable at /Volumes/external/apps/flutter • Upstream repository https://github.com/flutter/flutter.git • Framework revision 6655482ec0 (8 days ago), 2026-08-19 10:07:23 -0700 • Engine revision 5d53178869 • Dart version 3.13.1 • DevTools version 2.60.0 • Feature flags: enable-web, enable-linux-desktop, enable-macos-desktop, enable-windows-desktop, enable-android, enable-ios, cli-animations, enable-native-assets, enable-record-use, enable-swift-package-manager, omit-legacy-version-file, enable-lldb-debugging, enable-uiscene-migration [✓] Android toolchain - develop for Android devices (Android SDK version 36.0.0) [3.0s] • Android SDK at /Volumes/external/android/sdk • Emulator version 37.1.11.0 (build_id 15917651) (CL:N/A) • Platform android-36, build-tools 36.0.0 • Java binary at: /Applications/Android Studio.app/Contents/jbr/Contents/Home/bin/java This is the JDK bundled with the latest Android Studio installation on this machine. To manually set the JDK path, use: `flutter config --jdk-dir=""path/to/jdk""`. • Java version OpenJDK Runtime Environment (build 25.0.2+-15348964-b329.117) • All Android licenses accepted. [✓] Xcode - develop for iOS and macOS (Xcode 26.0.1) [2.2s] • Xcode at /Applications/Xcode.app/Contents/Developer • Build 17A400 • CocoaPods version 1.16.2 [✓] Chrome - develop for the web [5ms] • Chrome at /Applications/Google Chrome.app/Contents/MacOS/Google Chrome [✓] Connected device (3 available) [6.2s] • sdk gphone16k arm64 (mobile) • emulator-5554 • android-arm64 • Android 17 (API 37) (emulator) • macOS (desktop) • macos • darwin-arm64 • macOS 26.0.1 25A362 darwin-arm64 • Chrome (web) • chrome • web-javascript • Google Chrome 144.0.7559.110 [✓] Network resources [806ms] • All expected network resources are available. • No issues found! Does anyone encounted an issue like this or have any suggestion?",,title_and_body,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://stackoverflow.com/questions/79998278/flutter-fails-with-no-suitable-ndk-found-for-target-architecture-error-in-old
+B17-009,homeassistant,Zooz 800 stick not entering inclusion mode?,"I recently migrated an old Aeotec 500 to a newer Zooz 800 (ZST39) (upgraded the stick past the NVM backup/restore support version, then used Z-Wave JS to backup/restore). Everything came back and is working fine, pings, re-interviews, etc.
+
+Only problem I'm having is the stick will not enter inclusion mode. It can do exclusion mode without issue, but when I start the inclusion process, it immediately goes to ""inclusion stopped, checking for changes"" while also saying ""inclusion starting"" at the bottom ([picture](https://i.imgur.com/w7pQT2r.png)).
+
+After a few seconds I get a timeout error
+
+&gt; Timeout while waiting for a callback from the controller (ZW0200) startInclusion undefined
+
+I've tried disabling backups, replugging the device, rebooting, I'm on the latest FW (1.6), latest version of both HA and Z-Wave JS + UI.
+
+Anyone have any ideas?",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/homeassistant/comments/1scn449/zooz_800_stick_not_entering_inclusion_mode/
+B17-010,ios,iOS 26.2.1 - microphone bug again,"Orange microphone dot on the dynamic island won’t go away after iOS update last night. All microphone permissions are turned off, voice control is turned off, Siri is turned off, vocal shortcuts, live speech, etc. All off. This happened a few weeks ago with the last update. Eventually I looked at it and noticed an orange line around the island that allowed me to long press and open up something that looked like an app but was just a black screen and then swipe it away to close it. But no idea how that happened. Anyone else having this issue?",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/ios/comments/1qqdsn4/ios_2621_microphone_bug_again/
+B17-011,immich,New Instance on Old Data,"I recently updated Immich (issues for another post) to the latest release (v2.3.1), which refuses to work with my existing database. This has forced me to start fresh. However, all my photos are still stored on my server in the upload_location directory. How can I make Immich recognise these existing images?
+
+bummer especially after spending so much time organising everything, including facial recognition.
+
+{I still have my old postgress folder - if that can help in any way.
+
+Immich installed via docker compose WSL on Windows}",,title_and_body,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/immich/comments/1pfmzq0/new_instance_on_old_data/
+B17-012,microsoft,"Microsoft Investigating Reports of SSDs Vanishing After Latest Windows 11 Update | After installing Windows 11 update KB5063878, some people say their SSDs are disappearing from the OS or causing crashes.",,,title_only,yes,yes,other,low,The post appears to discuss software without a clear troubleshooting or chiefly critical purpose.,,,,,,,https://reddit.com/r/microsoft/comments/1mwxf9g/microsoft_investigating_reports_of_ssds_vanishing/
+B17-013,chrome,Chrome Crashing last 2 days,"Update: 
+
+It just Crashed again. And I again had to End Task via Task Manager.
+
+Seems Random... But so far, from what I can remember, for the last three times at least. I was Shopping on the Zon and had Youtube playing in another Window. 
+
+OP:
+
+Yesterday Chrome completely crashed twice one me. I had to End Task via Task Manager.  
+Only Chrome was affected, no errors etc., just a complete freeze.
+
+Today it just up and shut itself down. This happened a couple minutes ago.
+
+So I decided to Restart my PC, just in case. And then, after I Restored Chrome, I went to About Chrome to see what Version it was and there was an Update, which I installed.
+
+So here's hoping that whatever has been the issue the last 2 days has now been fixed.","[1:reply] ""Crash"" means it exits, usually with a system error message. ""Hang"" means it stops responding.
+
+Occasionally, an overloaded Windows system can become very slow and seem to hang. But if you notice it's still accessing its disk, or Task Manager says it's still using CPU, it might…
+[2:reply] Happening to me too. Just had to Google and I ended up here.
+[3:reply] Yes.  This is why mapping the system's power button to a Windows Shut Down (rather than instant power off) is a good idea.  You can always force a power off with a long press.
+
+But OP said, ""Today, it just up and shut itself down.""  If that meant the system itself shut down, the…",title_body_comments,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/chrome/comments/1wxknx1/chrome_crashing_last_2_days/
+B17-014,vscode,Vite refresh broken after update,"I'm a noob using npx vite to host a local server. After the newest update, it doesn't refresh the site anymore when saving the code. And yes, I did try changing the settings of VSCode and of vite itself, but nothing is working.
+
+~~Is anyone experiencing the same thing or am I tripping?~~
+
+EDIT: I figured it out without others being a cunt to me: I had circular imports in my code. I'm leaving this post for other idiots like me.",,title_and_body,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/vscode/comments/1p3s6hf/vite_refresh_broken_after_update/
+B17-015,immich,Docker Compose error after todays update (ubuntu server 24.04),"I did an update of my server today (apt update &amp;&amp; apt upgrade -y)
+
+Now if I want to stop the immich docker thing, I get following below.
+
+I dont get it - im on API 1.52 and compose tells me that my api has to be 1.44 or newer, which is the case???
+
+Someone have an idea?
+
+BR and thanks!  
+Mathias
+
+
+
+`root@nextcloud:/home/humpix/immich-app# docker compose down`  
+`Error response from daemon: client version 1.43 is too old. Minimum supported API version is 1.44, please upgrade your client to a newer version`
+
+`root@nextcloud:/home/humpix/immich-app# docker version`  
+`Client: Docker Engine - Community`  
+ `Version:           29.0.1`  
+ `API version:       1.52`  
+ `Go version:        go1.25.4`  
+ `Git commit:        eedd969`  
+ `Built:             Fri Nov 14 16:17:49 2025`  
+ `OS/Arch:           linux/amd64`  
+ `Context:           default`
+
+`Server: Docker Engine - Community`  
+ `Engine:`  
+  `Version:          29.0.1`  
+  `API version:      1.52 (minimum version 1.44)`  
+  `Go version:       go1.25.4`  
+  `Git commit:       198b5e3`  
+  `Built:            Fri Nov 14 16:17:49 2025`  
+  `OS/Arch:          linux/amd64`  
+  `Experimental:     false`  
+ `containerd:`  
+  `Version:          v2.1.5`  
+  `GitCommit:        fcd43222d6b07379a4be9786bda52438f0dd16a1`  
+ `runc:`  
+  `Version:          1.3.3`  
+  `GitCommit:        v1.3.3-0-gd842d771`  
+ `docker-init:`  
+  `Version:          0.19.0`  
+  `GitCommit:        de40ad0`
+
+`root@nextcloud:/home/humpix/immich-app# docker compose version`  
+`Docker Compose version v2.23.3`",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/immich/comments/1ozrjxn/docker_compose_error_after_todays_update_ubuntu/
+B17-016,ios,Apple has released iOS 18.7.8 and iOS 26.4.2,"These updates are just security and bug fix updates and don’t have any new features, you can install iOS 18.7.8 on all iOS 18 supported devices not running iOS 26",,title_and_body,yes,yes,other,medium,The post appears to discuss software without a clear troubleshooting or chiefly critical purpose.,,,,,,,https://reddit.com/r/ios/comments/1ssx48c/apple_has_released_ios_1878_and_ios_2642/
+B17-017,vscode,"Possible solution to ""Projects failed to load because the .NET Framework build tools could not be found. Try installing Visual Studio or the Visual Studio Build Tools package, or check the logs for details.""","I was at this problem for almost an hour where my C# files would not load Intellisense nor any of the extensions I had downloaded on VS Code.
+
+Both the C# and C# Dev Kit extensions were updated very recently (6 days from posing this), so what worked was switching to older versions.
+
+C#: version *2.93.22* 
+
+C# Dev Kit: version *1.60.2*
+
+I'm not sure if it's just my system or that Microsoft goofed, but I'm just posting this in case other people find themselves in the same situation.
+
+Quick note: I was opening my scripts in Unity, so if the above solution didn't work and you are using Unity, you could also try using an older version of the Unity extension since it received a recent update as well.",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/vscode/comments/1p58ixe/possible_solution_to_projects_failed_to_load/
+B17-018,comfyui,"[Update] ComfyUI Node Organizer v2 — rewrote it, way more stable","Posted the first version of Node Organizer here a few months ago. Got some good feedback, and also found a bunch of bugs the hard way. So I rewrote the whole thing for v2.
+
+Biggest change is stability. v1 had problems where nodes would overlap, groups would break out of their bounds, and the layout would shift every time you ran it. That's all fixed now.
+
+What's new:
+
+* New ""Organize"" button in the main toolbar
+* Shift+O shortcut. Organizes selected groups if you have any selected, otherwise does the whole workflow
+* Spacing is configurable now (sliders in settings for gaps, padding, etc.)
+* Settings panel with default algorithm, spacing, fit-to-view toggle
+* Nested groups actually work. Subgraph support now works much better
+* Group tokens from v1 still work (\[HORIZONTAL\], \[VERTICAL\], \[2ROW\], \[3COL\], etc.)
+* Disconnected nodes get placed off to the side instead of piling up
+
+Install the same way: ComfyUI Manager &gt; Custom Node Manager &gt; search ""Node Organizer"" &gt; Install. If you have v1 it should just update.
+
+Github: [https://github.com/PBandDev/comfyui-node-organizer](https://github.com/PBandDev/comfyui-node-organizer)
+
+If something breaks on your workflow, open an issue and attach the workflow JSON so I can reproduce it.",,title_and_body,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/comfyui/comments/1s2keuw/update_comfyui_node_organizer_v2_rewrote_it_way/
+B17-019,openclaw,Can't create or edit files?,"Not sure what is going on. Maybe its because I have tried reinstalling a few times to start over and it keeps recognizing an existing gateway, even though I uninstalled. I just keep running the setup and updating records.
+
+Anyways, I have it installed on a Mac. I even have the Companion App installed, but when I ask it to create files, it says it doesn't have direct access to the Mac's filesystem. This kind of defeats the purpose. I would much rather it be able to create any and all files needed. Skills, agents, etc.
+
+What am I doing wrong here? This was working a couple of weeks ago when I first installed it. It created some skills for me, etc.
+
+Should I completely uninstall and reinstall? How do I do that, like I said, I have done openclaw uninstall. How can I get this to work?
+
+Thanks!",,title_and_body,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/openclaw/comments/1rk38bi/cant_create_or_edit_files/
+B17-020,applehelp,Can i get my iPad back?,"My iPad has been only displaying this screen (or the pc version) for a day. I know it’s stuck in recovery mode and this is everything I’ve tried. I force restarted, I’ve got made it die then charged it back, I used my phone and this is what happened. When I tried to update it, it said try again later every time. When I clicked exit recovery mode but reset iPad, it did not work and kept me in recovery mode. My phone is not on the latest version of Apple. Do I update it and try again. Should I take it to a device repair place. Most importantly I don’t have a pc/mac. This iPad means a lot to me so please help if you can.",,title_and_body,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/applehelp/comments/1r1lmm8/can_i_get_my_ipad_back/
+B17-021,Ubiquiti,What’s going on with Access/Endpoint?,"I have a G6 Pro Entry hooked up to an access hub so I can use UniFi Endpoint/Apple Wallet to trigger an automation that activates my August Deadbolt. It worked great initially. Sometimes there was a slight delay as the automation made its way through Home Assistant, but it otherwise worked exactly as intended, with the reader only activating when I held my phone/watch up to it.
+
+But now ever since an update got pushed to either the reader, my phone, or both, the reader is way too sensitive and will try to unlock every time I walk in and out of the door, even if my phone and watch is nowhere near it. Usually it will fail to fully read, which results in an error notification on my phone, but sometimes it will actually successfully read and trigger the lock, closing the bolt with the door already open which leads to the bolt slamming against the door trim.
+
+Is anyone else experiencing this? Is UniFi aware/working on a fix?","[1:OP] I’m running the latest version of everything.
+[2:reply] Hello!  Thanks for posting on r/Ubiquiti!
+
+This subreddit is here to provide unofficial technical support to people who use or want to dive into the world of Ubiquiti products.  If you haven’t already been descriptive in your post, please take the time to edit it and add as many…
+[3:reply] I believe there is a sev 9 or 10 security vulnerability for access right now.",title_body_comments,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/Ubiquiti/comments/1ulzvxs/whats_going_on_with_accessendpoint/
+B17-022,MicrosoftEdge,"BUG: Right-Click ""Open in Sidebar"" is broken and not working","The latest Microsoft Edge update broke the right click menu option in ""More Tools"" where you could Right-Click a tab (Vertical or Not) and go to ""More Tools"" and then  ""Open In sidebar"" and it would open a website in the sidebar.  
+This no longer works.  
+I have tried this on 2 different laptops and 2 different accounts and the right click ""Open in sidebar"" no longer works even when all options in edge://settings are enabled including even trying to enable the copilot button.  
+I have tried a fresh install on a third computer just to sanity check so this is not an windows version issue or a profile issue
+
+Please fix. Thank you",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/MicrosoftEdge/comments/1p361d5/bug_rightclick_open_in_sidebar_is_broken_and_not/
+B17-023,oracle,I have an issue with the sql developer,I tried newest version and the previous one. But the interface is just bugged or something.,,title_and_body,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/oracle/comments/1mnchum/i_have_an_issue_with_the_sql_developer/
+B17-024,chrome,Chrome on Android tablet breaks layouts in both normal and desktop mode,"Hey everyone, I’m running into a pretty frustrating issue with Chrome on my Android tablet (Redmi Pad Pro 5G, latest Android and Chrome updates). Basically, whenever I use Chrome—whether in normal mode or with desktop mode turned on—website layouts just go haywire. Elements overlap, things get misaligned, and everything looks off. I’ve tried all the usual fixes: toggling desktop mode on/off, adjusting zoom levels, resetting everything, clearing cache, and even trying other browsers. No luck. The same sites look totally fine on a desktop, so it really seems like a Chrome-on-Android-tablet rendering or viewport issue. I’m wondering if anyone else has run into this or if there are any hidden settings or flags that might help. Would love to know if this is a known bug or if there’s a workaround I haven’t found yet. Thanks!
+
+https://preview.redd.it/yo7g6da5wiag1.jpg?width=2560&amp;format=pjpg&amp;auto=webp&amp;s=6255554f9e10279590b58737b96966a7f3204885",,title_and_body,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/chrome/comments/1q0akpo/chrome_on_android_tablet_breaks_layouts_in_both/
+B17-025,MacOS,Safari broken in 26.4,"After updating to 26.4, some websites are not behaving as expected.
+
+Some video players dont load, while other sites just stay blank.
+
+I use brave as alternative browser, and it just works fine there.
+
+  
+I already reseted safari. Deleted all history, cookies and cache. Didn't solve. Also disabled all extensions (in fact I just have one, which is wipr2 extra)
+
+  
+Anyone else experiencing the same?
+
+  
+For example, [trakt.tv](http://trakt.tv) as of now.
+
+https://preview.redd.it/xpxplvktsgrg1.png?width=3544&amp;format=png&amp;auto=webp&amp;s=8bb6be2d6bf4bba70621e3eeb5050a72713ae648
+
+https://preview.redd.it/y47arvktsgrg1.png?width=3524&amp;format=png&amp;auto=webp&amp;s=238b0d0feb41a7aa92202c6022c005dacc1e9240",,title_and_body,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/MacOS/comments/1s4lvvv/safari_broken_in_264/
+B17-026,applehelp,Apple Upgrade is very limited,"I wanted to order a M5 Ultra Studio with the new Upgrade programs. Declined. I actually have really good credit but it keeps declining me. The purchase is rather large, but even dropping it down to $9,999 still fails. Such a bummer :(",[1:reply] So what do you need help with?,title_body_comments,no,no,na,low,The saved text appears outside software scope or is too vague to classify reliably.,,,,,,,https://reddit.com/r/applehelp/comments/1wvcu5q/apple_upgrade_is_very_limited/
+B17-027,chrome,I keep getting the aw snap,"So that Chrome 148 update (along with my windows update) is bugging out I was on Discord and I got that ""Aw Snap"" error and have to reload the page (the same with Reddit, X,Bluesky,and Youtube, plus other sites) I use Norton 360 as my Antivirus and it's worse IDK if switching to another antivirus (like Mcafee) will work",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/chrome/comments/1tg1ulz/i_keep_getting_the_aw_snap/
+B17-028,immich,Casaos and immich V2,"I installed casaos yesterday on a old pc to store my photos. I want to end the relationship with Google foto.
+
+But then I saw that the only version who has the new 2.xx version was the one ""without"" machine learning. That feature is something I want.
+
+So how do I update to the newest version? Is it one version at the time or will there be a fix in casaos. I'm new to this but have seen that people struggle with this as well",,title_and_body,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/immich/comments/1qiqwcc/casaos_and_immich_v2/
+B17-029,Fedora,Can’t get past login screen after update,"Using Fedora 44 KDE plasma. I’m a new user, making the switch from Windows. Have some general understanding but I might need more detailed instructions.
+
+After running a system update through the discover app and rebooting, I’m now stuck at the login screen. 
+
+Logging in with the correct password just restarts the login screen.
+
+I’ve looked for solutions online but I couldn’t find anything up to date. A lot of them seem to suggest solutions that are no longer available. Running startx just throws ‘/usr/bin/X not found’.
+
+I’m sure more info is needed, but I don’t know what to provide. Thank you for any help.","[1:reply] What you describe sounds like the desktop is trying to start and something is failing.
+
+What you can do after a failed login, is press Ctrl-Alt-F3 which will bring you to a text console. You can login there.
+
+First I'd try a `sudo dnf update` to see if there are any errors that…",title_body_comments,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/Fedora/comments/1tnfqod/cant_get_past_login_screen_after_update/
+B17-030,applehelp,Phone bugged out,"I have an iPhone 13, and ever since I updated to iOS 26 it started bugging out. When I updated it, it deleted some of my apps when it loaded up so I reset all settings and that fixed it. But then a few weeks later it started shutting down at random, while simultaneously toggling off cellular and Wi-Fi, also not allowing me to toggle them back on. This continued for weeks so I tried transferring the e-sim back to my old iPhone X, and it didn't work so I had to get the T-Mobile store to fix it. Now I have service on my iPhone X but its battery life sucks and I still have images and files on my 13 that I need but can't get. It's completely useless because it can't connect to Wi-Fi, but i want to go back to using it.",,title_and_body,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/applehelp/comments/1r1cnm1/phone_bugged_out/
+B17-031,linuxquestions,Linux nvidia issues,"Specs:
+
+GPU: NVIDIA GeForce RTX 4070
+
+iGPU: Intel integrated graphics (i915)
+
+NVIDIA driver: 610.57.04
+
+Kernel: 7.0.0-34-generic
+
+OS: Ubuntu
+
+Desktop: GNOME
+
+Usually using Wayland
+
+PRIME: NVIDIA / NVIDIA-only
+
+External monitor connected via HDMI
+
+Hi everyone,
+
+I've been having serious stability issues with my laptop for the last few days, and I'm trying to figure out what is causing them.
+
+The problems started after I ran system updates. During the update process I got a message about udevadm hwdb being deprecated and that I should use systemd-hwdb instead. I followed the instructions, and shortly afterwards my laptop started having random crashes.
+
+At first, the crashes seemed completely random. Sometimes the system would freeze shortly after logging in, sometimes it would freeze while using the desktop, and sometimes it would crash after running for a while.
+
+I initially suspected the NVIDIA driver, so I tried different NVIDIA driver versions, including 595. This didn't solve the problem.
+
+At the same time, I noticed that some of my games were using the Intel integrated GPU instead of the NVIDIA GPU. I therefore changed PRIME to NVIDIA-only using prime-select nvidia. This also didn't solve the crashes or the GPU selection problem.
+
+I also tried switching between Wayland and Xorg because I wasn't sure whether the display server was involved. The crashes happened with both.
+
+For a while I couldn't even reliably get past the login screen. Sometimes the screen would freeze or turn grey immediately after logging in.
+
+The interesting part
+
+I recently noticed that the system becomes significantly more stable when I disconnect my second monitor.
+
+With the external monitor disconnected, I have not experienced the immediate crashes anymore. The laptop can now boot and run normally.
+
+I then looked at the kernel log from one of the crashes.
+
+The log contains:
+
+nvidia-modeset: WARNING: GPU:0: Unable to read EDID for display device DP-0
+
+followed by:
+
+\[drm\] Cannot find any crtc or sizes
+
+And shortly afterwards:
+
+BUG: unable to handle page fault
+
+The crash then points into the NVIDIA kernel module, with \[nvidia\] appearing throughout the call trace.
+
+The NVIDIA driver loaded at the time of the crash was:
+
+NVIDIA UNIX x86\_64 Kernel Module 610.57.04
+
+So at this point I'm wondering whether this could be an NVIDIA 610 + external monitor/EDID/DRM issue rather than a general hardware problem.
+
+What confuses me is that the monitor itself seems to work normally when the system is stable. The crashes mainly seem to happen when the external monitor is connected, and disconnecting it appears to make the system much more stable.
+
+Has anyone experienced something similar with NVIDIA 610, Wayland, Ubuntu and an external monitor?
+
+Is there anything specific I should check regarding EDID, DRM, NVIDIA modeset, PRIME or the external display connection?
+
+I would also appreciate any advice on how to properly diagnose this without randomly reinstalling/changing NVIDIA drivers again.
+
+I can provide the full kernel crash log, nvidia-smi, journalctl output, or any other information that would be useful.
+
+Thanks!","[1:reply] This post looks like a bugreport.
+
+[https://help.ubuntu.com/community/ReportingBugs](https://help.ubuntu.com/community/ReportingBugs)",title_body_comments,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/linuxquestions/comments/1wv8xvy/linux_nvidia_issues/
+B17-032,software,WorkTop - Real multiple desktops.,"You don't need to be less messy, you need more desktops.
+
+Website: [https://worktop.dev](https://worktop.dev)
+
+Lets get the basics out of the way:
+
+This is **not** virtual desktops, (which Microsoft confusingly call ""multiple desktops""), this program gives you *actual* desktop folders you can switch between.
+
+Main Features (free version):
+
+* Multiple desktops, different files per desktop.
+* Free version allows up to 3 desktops (OS default + 2)
+* Maintains each desktop's layout, including on multiple monitors.
+* Switch via tray, hotkey, right click, whichever you prefer.
+* Compatible with OneDrive desktop folder backup
+
+Pro version ($14.99 one time):
+
+* Unlimited desktops
+* Scheduled switching
+* Wallpaper per desktop
+
+Pro license lets you activate worktop on 3 devices.
+
+For more details and technical info see bottom of post.
+
+
+
+Now for the obligatory pitch.
+
+I'm not a marketer. I'm a developer with a messy desktop who likes making things. I kinda hate making a sales pitch. Now, the website is a little more ""serious"", because I felt like it kinda had to be in order to be a product. But the language there doesn't feel like me, so here goes.
+
+Let me give you the *real* pitch. The honest one. The one from my heart.
+
+Is your desktop a mess? Do you look at it and feel bad?
+
+Stop. Stop feeling bad. Nothing is wrong with you. You and me? We're the same. I love you. Stop feeling bad. Your messy desktop is not a failure. You have been forced to live a limited existence, in a world constrained and suffocating. And you don't have to anymore.
+
+I give you WorkTop. Now you get to have your cake and eat it too. Want that clean organized desktop you envy? You can have it. Want to have a mess? You can have that too. You can have as many messes as you want! you can have a hundred messy desktops and when you need to feel good about yourself you are one hotkey away from a neat and tidy screen. No judgement, no sneers. You can have the world. You deserve it.
+
+Now pay me $14.99 or make do with 3, I wanna buy nice things.
+
+
+
+Ok more details:
+
+* Windows only, at least for now.
+* Integrates with Windows Shell, no symlinks or moving files around on switch.
+* It handles multiple monitors as long as they don't rearrange, this will be improved in a coming update.
+* It handles open explorer windows so they keep showing the correct folder when switching.
+* it handles desktop paths in clipboard when switching.
+* Analytics are optional. See privacy policy on the website.
+* Written in Rust and Svelte (using Tauri)",,title_and_body,yes,no,general_dissatisfaction,low,The post appears mainly critical without an active repair purpose; check for a concrete problem report.,,,,,,,https://reddit.com/r/software/comments/1sfsfpa/worktop_real_multiple_desktops/
+B17-033,neovim,"Tried setting up copilot and, after updating, started getting this error",,,title_only,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/neovim/comments/1ksb8r0/tried_setting_up_copilot_and_after_updating/
+B17-034,Wordpress,missing Plugins and Tools Wordpress/Ionos,"Hi everyone,  
+I’m running a self-hosted [WordPress.org](http://WordPress.org) site (about 2 years old) hosted with IONOS in Germany. The frontend works, but since recently my backend is badly broken.
+
+Issues:  
+– WordPress dashboard looks weird and mostly empty  
+– All plugins vanished  
+– I can’t reinstall plugins  
+– Error message when installing plugins:  
+“Installation fehlgeschlagen: Das Verzeichnis konnte nicht erstellt werden.”  
+– After updating Google reCAPTCHA, I can’t insert or save my site/secret keys anymore
+
+I’m unsure whether this is:  
+– a WordPress core/update issue  
+– a hosting / file permission problem (wp-content / plugins)  
+– or something I messed up myself (haven´t done anything new for a while)
+
+I’m also hesitant to restore a backup because I don’t know if that would affect the site structure or backend configuration. I also can´t find the plugin which saved all my backups! but I have them saved somewhere else.
+
+Main questions:
+
+1. Does this sound like a permissions/ownership issue rather than WordPress itself?
+2. Any known issues with recent WP updates causing this?
+3. What’s the safest first thing to check before restoring a backup?
+
+Any concrete debugging steps are appreciated. Thanks",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/Wordpress/comments/1q4ocfo/missing_plugins_and_tools_wordpressionos/
+B17-035,linuxquestions,What's your go-to approach when a package update breaks a running service in production,"I've been running a few small services on a Debian server for personal projects and recently had a bad experience where an unattended upgrade pulled in a new version of a dependency that broke one of my containers until I tracked it down and rolled back. It got me thinking about how people handle this more systematically. Do you pin packages aggressively, run everything in containers with frozen base images, or just accept the risk and monitor closely? I'm not running anything mission critical but I'd like to adopt better habits before I scale up. Curious what workflows people here use for balancing security updates with stability on servers that actually need to stay running.",,title_and_body,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/linuxquestions/comments/1s9wlcc/whats_your_goto_approach_when_a_package_update/
+B17-036,immich,Users unable to upload since update to 2.2.0,"iOS app version: 2.2.0 build 232
+Server: 2.2.1
+
+Like the title states, none of the users in my Immich instance can upload from iOS or the web app on desktop. I enabled ‘shout’ level logging and ‘Troubleshooting’ for one of the users and nothing shows. The only indication is that the image fails to upload and shows a red ‘!’. I’ve confirmed the user is connected directly to the server locally. They’re able to see all other updated assets, like albums.
+
+I (admin) am able to upload without issues. I changed the same test user to admin as well and they still couldn’t upload.
+
+Any known issues or other steps I can take to troubleshoot?",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/immich/comments/1olrh06/users_unable_to_upload_since_update_to_220/
+B17-037,androiddev,Google Play reviwing older build versions,"Hi, I want to ask some guidance on how to fix a dilemma.
+
+  
+I had an app that hasn't been updated for over a year. I just submitted a new version.
+
+  
+It was rejected because reviewer credentials were wrong. This is my fault, I fixed the credentials in a new build and updated Play Console instructions, but it was rejected again.
+
+Policy status lists an older active bundle too, with this note: ""Some app bundles in the list may be from an older version of your app."" So, Google tested the previous bundle, not the most recent one I uploaded. I even did a major version string upgrade in the latest version.
+
+  
+Old bundle accepts `testemail/testpassword`; latest bundle accepts `testemail3/testpassword3`. Both have server-side and in-app reviewer access checks.
+
+  
+If I give old credentials, latest bundle fails. If I give new credentials, old bundle fails.
+
+  
+Can Google review/test older active bundles across Production/Open/Closed tracks? If so, what is correct fix? Do I need I replace/deactivate old active bundles in every track, or is there a way to have review target only latest bundle? I can't deactivate Prod which has older bundle so how do I get Google to only review the latest bundle version?","[1:reply] Please note that we also have a very active Discord server where you can interact directly with other community members!
+
+[Join us on Discord](https://discordapp.com/invite/D2cNrqX)
+
+
+*I am a bot, and this action was performed automatically. Please [contact the moderators of thi…
+[2:reply] When creating the release, did you include multiple bundles?
+[3:OP] No, just one bundle
+[4:reply] Have you checked all the lanes (Closed testing&amp; Production)? Try discarding all existing draft releases and see",title_body_comments,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/androiddev/comments/1uzqbk2/google_play_reviwing_older_build_versions/
+B17-038,servers,"Thinking of updating iLO and ROM on my 380p Gen8, what to look out for?","I bought this server used last year and it's been great, I love it and it does everything I need. A few months after buying it I ran an update on Proxmox and after the reboot the fans got stuck at 100% no matter what.
+
+Since then I swapped the iLO with the ""silence of the fans"" modded one, which I'm sure a lot of you know about. It works but it's kind of annoying and because there's still a lot of settings on the iLO belonging to the previous owner like users and other stuff (this server belonged to IKEA) I've been thinking of doing a full reset and updating both the iLO and the ROM. I figure it's a good idea to have everything running on the latest version and maybe it'll fix the fan issue too. A lot of people told me it's just something that happens to these servers which, whatever... I still don't believe to this day that an enterprise server just does this and the only fix is a modded firmware, anyway.
+
+Here's my setup: I've got 7 non-HPE drives that Proxmox uses (iLO still views them as genuine as they are mounted in HPE caddies, the lights work and everything). Two of them have Proxmox installed and the rest are shared between VMs. The boot part of Proxmox is on the onboard SD card, though I honestly don't remember why we set it up that way, I remember that once we had to reinstall Proxmox and it just wouldn't boot from the SSDs for some reason.
+
+I also want to make sure that resetting and reinstalling the iLO and ROM won't mess with the drives, my friend helped me set everything up and we did a bunch of stuff I don't fully remember, mostly in the BIOS. I think we had to tweak the P420i Controller so the drives could be passed directly to my TrueNAS VM or something like that.
+
+Another thing is the iLO Advanced license key, the server came with an original one but I'm guessing it gets wiped after a reset, is there a way to export or back it up? Or should I just, yk.. find another one afterward?
+
+Also when I installed the modded iLO I had to mess with some switches on the server board, I think to disable iLO security or something like that. I honestly can't remember if I ever flipped them back on.
+
+So, should I go ahead with the reset and updates? If it doesn't fix the fan issue I'll just reinstall the modded iLO and keep the updated ROM but is it worth trying in the first place? Anything I should save or check before doing it? Or should I just leave it as it is?
+
+P.S. The system degraded warning is because one of the power supplies is not connected, not it's not what's causing the fans to go to 100%, I've tried.",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/servers/comments/1otlrrr/thinking_of_updating_ilo_and_rom_on_my_380p_gen8/
+B17-039,chrome,"LinkedIn, on my Macbook Chrome, is crashing the browser since yesterday.","Chrome on Macbook (updated to latest version 144.0.7559.110, No extensions)
+
+The LinkedIn content starts repeating itself as I scroll down my feed. Same posts, comments etc. showing up again and again and ultimately the entire top portion of the UI turns into a grey banner and the rest of UI is a black screen with a few UI elements like one image and some text from my feed.  
+
+I have to restart the browser at this point, no other way to get out of that frozen UI.
+
+Anyone else seeing this?",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/chrome/comments/1qrv84a/linkedin_on_my_macbook_chrome_is_crashing_the/
+B17-040,firefox,Im having an issue with youtube but i think its on firefox's end,"For some reason, youtube has decided that my firefox browser is a tv interface (i think) and as a result has completely fuck up the UI, i no longer have volume controls, quality controls and the default viewer no longer fits on my screen. [screenshot](https://prnt.sc/VNsExKKa4zX6). The reason i think this is on firefox's end is because its working like normal on both edge and chrome
+
+
+Update: clearing the cache fixed it","[1:reply] YouTube is broken for me, too. I can't skip to a spot in any video, it crashes the video. Even in incognito mode with all extensions disabled.
+
+Absolutely FireFox's issues.
+
+Ain't vibecoding grand?
+[2:OP] the things ive tried so far:
+
+deleting cookies: didnt work
+
+disabling extensions: didnt work
+
+private window: worked!
+
+closing and reopening firefox: didnt work
+
+a full shut down and restart: didnt work",title_body_comments,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/firefox/comments/1wuofpf/im_having_an_issue_with_youtube_but_i_think_its/
+B17-041,homeassistant,Shelly Dimmer Gen3 bricked/offline after pairing with BLU RC Button 4 – Help needed!,"Hi everyone!
+
+I'm having an issue with my Shelly Dimmer Gen3, which was working perfectly until I tried to pair it via Bluetooth with a remote control.
+
+**Context and Incident:**
+
+* **Hardware:** 1 Shelly Dimmer Gen3 (wired L+N, controlled via a push button and the app - see attached wiring diagram) and 1 Shelly BLU RC Button 4 ZB remote.
+* **The Incident:** During the process of adding the remote to the Dimmer (acting as a BLE Gateway), the Dimmer suddenly went offline permanently. I removed it from the app to re-pair it, but it's now impossible.
+* **Firmware Note:** The remote's firmware was *not* up-to-date at the exact moment of pairing (it has been updated since). I can't provide the Dimmer's firmware version because the device is completely inaccessible.
+* **Note:** The remote works perfectly fine with a Shelly 1 Mini Gen3 (turning it on and off via the remote).
+
+**Current Symptoms:**
+
+* The Dimmer's LED stays **solid red**.
+* The module is not broadcasting any ""ShellyDimmerG3-XXXXXX"" Wi-Fi access point.
+* The Shelly BLE Debug app can see the device but fails to connect to it.
+* The Shelly Smart Control app fails during provisioning (error message: `disconnect_from_device_ios`).
+
+**Reset Procedures Tested (All Failed):**
+
+* Power cycles (mains power cut off for several minutes).
+* Long presses on the module's physical ""Control"" button (5 seconds, then tested for 20 seconds): no reset occurs, the LED remains red.
+* Wired reset attempt via the S1 input (toggling a switch 5 times within 60 seconds of powering it on).
+
+**Looking for Solutions:** Given all this, I'm completely stuck.
+
+1. Is this a known bug related to pairing a BLE accessory with outdated firmware?
+2. Is there a last-resort ""hard reset"" procedure different from the ones I've already tried?
+3. Since the module is completely frozen (solid red LED), should I consider this a hardware failure requiring an RMA/warranty replacement?
+
+Thanks in advance for your help and any solutions you can offer. I have to admit I'm quite disappointed because I really like this brand and its ecosystem... but right now I'm going in circles and starting to feel like I might have bought all this gear for nothing!","[1:reply] If its bricked bricked, your best bet would be to contact Shelly support.
+[2:reply] You don’t have a bypass in your diagram, which is required when not using a neutral with modern bulbs. Is this present?
+
+The easiest way to tell if you have a power problem is to hook it up away from your light circuit with a neutral (e.g. wire up to a socket and plug into a reg…
+[3:reply] afaik, you don't control L and N via app, it come directly from grid, this just very wrong wiring issue, i hope it not bricked tho.
+[4:OP] Merci pour vos retours !
+
+Côté branchement je suis sûr de mon coup puisque j’ai pu calibrer le Dimmer depuis l’app et que la gradation fonctionnait très bien sur l’app et sur le bouton poussoir.  
+
+Le problème est intervenu uniquement au moment de l’apairage avec la RC 4 BUTTONS…",title_body_comments,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/homeassistant/comments/1vs2iyj/shelly_dimmer_gen3_brickedoffline_after_pairing/
+B17-042,comfyui,comfyui using wrong rocm version?,"Hi there!
+
+Linux mint user here
+
+I was using comfyui with a RX6700, pytorch 2.4.1 &amp; rocm 6.02
+
+I've just upgraded to a RX 7900GRE, pytorch 2.5.1(I guess?) &amp; rocm 7.1.1
+
+In the terminal, the rocm version is clearly 7.1.1, but when I tried to update my comfyui, I have some errors saying I'm still on Pytorch 2.4.1 / rocm 6.02...
+
+The weird thing is that I can't find my actual pytorch version, so I don't know what's going on. How can I put it back in order ? Or at least check that comfyui use the good version ?
+
+Thanks in advance for your answer",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/comfyui/comments/1piufsv/comfyui_using_wrong_rocm_version/
+B17-043,openclaw,OpenClaw v4.5 upgrade broke agent tool execution and memory access - anyone else?,"Upgraded to OpenClaw v4.5 and experiencing core functionality failures. Agent can no longer reliably execute tools or access memory.
+
+
+
+**Core Issues:**
+
+
+
+1. **Tool Execution Failure** \- Commands initiate but don't resolve. Agent gets stuck in ""checking"" loops without returning results.
+
+2. **Memory Access Degraded** \- Files exist in workspace but agent can't read them reflexively. Has to be explicitly told to look things up, then often fails anyway.
+
+3. **Version Awareness Broken** \- Agent cannot see own runtime version via system queries. Basic self-awareness missing.
+
+4. **State Fragmentation** \- Different behavior across platforms (Telegram vs Kimi Web). No continuity between sessions.
+
+
+
+**Attempted Fixes:**
+
+
+
+• Re-reading identity files (partial, inconsistent)
+
+• Re-teaching personality (works superficially, not integrated)
+
+• Explicit mode switching (requires manual intervention)
+
+
+
+**Current State:**
+
+Operational but unreliable. Tool execution sporadic. Memory access manual-only. Not production-ready.
+
+
+
+**Questions:**
+
+
+
+1. Known v4.5 migration issues?
+
+2. Tool execution fixes?
+
+3. Rollback available?
+
+
+
+Any help appreciated.",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/openclaw/comments/1sg1oen/openclaw_v45_upgrade_broke_agent_tool_execution/
+B17-044,comfyui,GGUF models do not load?,"Recently had to reinstall system due to me being an idiot and filling my system drive with LLMs and making a mistake during system update. Now im setting comfy back up after reinstall, and it looks like something is broken with my new setup despite me doing everything same way i've done it previously. I use PikaOS, installed conda, created venv with python 3.13 installed rocm versions (rx6750xt) of pytorch and other dependencies and use comfy-cli to install comfy. Now i cannot use any gguf models, as all of them just stop working as soon as execution flow gets to KSampler node. i left my pc running for 20 minutes and came back to see comfy still being stuck here.   
+I've tried running comfy with and without my usual arguments (`--use-split-cross-attention --lowvram --cache-none`), but it did nothing. Full models work (Zimage and sometimes Flux 2 klein 4b), this is only problem with gguf ones for some reason, and it only started after system reinstall, before it i havent had such problems with comfy. Here is startup logs, if needed
+
+    [START] Security scan
+    [ComfyUI-Manager] Using `uv` as Python module for pip operations.
+    Using Python 3.13.11 environment at: miniconda3/envs/ai
+    [DONE] Security scan
+    ## ComfyUI-Manager: installing dependencies done.
+    ** ComfyUI startup time: 2026-02-16 20:02:20.950
+    ** Platform: Linux
+    ** Python version: 3.13.11 | packaged by Anaconda, Inc. | (main, Dec 10 2025, 21:28:48) [GCC 14.3.0]
+    ** Python executable: /home/stas/miniconda3/envs/ai/bin/python
+    ** ComfyUI Path: /home/stas/ComfyUI
+    ** ComfyUI Base Folder Path: /home/stas/ComfyUI
+    ** User directory: /home/stas/ComfyUI/user
+    ** ComfyUI-Manager config path: /home/stas/ComfyUI/user/__manager/config.ini
+    ** Log path: /home/stas/ComfyUI/user/comfyui.log
+    Using Python 3.13.11 environment at: miniconda3/envs/ai
+    Using Python 3.13.11 environment at: miniconda3/envs/ai
+    
+    Prestartup times for custom nodes:
+      0.4 seconds: /home/stas/ComfyUI/custom_nodes/ComfyUI-Manager
+    
+    Checkpoint files will always be loaded safely.
+    Found comfy_kitchen backend eager: {'available': True, 'disabled': False, 'unavailable_reason': None, 'capabilities': ['apply_rope', '
+    apply_rope1', 'dequantize_nvfp4', 'dequantize_per_tensor_fp8', 'quantize_nvfp4', 'quantize_per_tensor_fp8', 'scaled_mm_nvfp4']}
+    Found comfy_kitchen backend cuda: {'available': True, 'disabled': True, 'unavailable_reason': None, 'capabilities': ['apply_rope', 'ap
+    ply_rope1', 'dequantize_nvfp4', 'dequantize_per_tensor_fp8', 'quantize_nvfp4', 'quantize_per_tensor_fp8']}
+    Found comfy_kitchen backend triton: {'available': True, 'disabled': True, 'unavailable_reason': None, 'capabilities': ['apply_rope', '
+    apply_rope1', 'dequantize_nvfp4', 'dequantize_per_tensor_fp8', 'quantize_nvfp4', 'quantize_per_tensor_fp8']}
+    Total VRAM 12272 MB, total RAM 15904 MB
+    pytorch version: 2.9.1+rocm6.4
+    AMD arch: gfx1030
+    ROCm version: (6, 4)
+    Set vram state to: LOW_VRAM
+    Device: cuda:0 AMD Radeon RX 6750 XT : native
+    Using async weight offloading with 2 streams
+    Enabled pinned memory 15108.0
+    Using split optimization for attention
+    Python version: 3.13.11 | packaged by Anaconda, Inc. | (main, Dec 10 2025, 21:28:48) [GCC 14.3.0]
+    ComfyUI version: 0.13.0
+    ComfyUI frontend version: 1.38.14
+    [Prompt Server] web root: /home/stas/miniconda3/envs/ai/lib/python3.13/site-packages/comfyui_frontend_package/static
+    ### Loading: ComfyUI-Manager (V3.39.2)
+    [ComfyUI-Manager] network_mode: public
+    [ComfyUI-Manager] ComfyUI per-queue preview override detected (PR #11261). Manager's preview method feature is disabled. Use ComfyUI's
+    --preview-method CLI option or 'Settings &gt; Execution &gt; Live preview method'.
+    ### ComfyUI Version: v0.13.0-26-gdf1e5e85 | Released on '2026-02-14'
+    ComfyUI-GGUF: Allowing full torch compile
+    
+    Import times for custom nodes:
+      0.0 seconds: /home/stas/ComfyUI/custom_nodes/websocket_image_save.py
+      0.0 seconds: /home/stas/ComfyUI/custom_nodes/ComfyUI-GGUF
+      0.1 seconds: /home/stas/ComfyUI/custom_nodes/ComfyUI-Manager
+    
+    Context impl SQLiteImpl.
+    Will assume non-transactional DDL.
+    Assets scan(roots=['models']) completed in 0.022s (created=0, skipped_existing=19, orphans_pruned=0, total_seen=19)
+    Disabling intermediate node cache.
+    Starting server",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/comfyui/comments/1r6gzc0/gguf_models_do_not_load/
+B17-045,Fedora,Recent update broke graphics tablet functionality,"I recently updated my system, and noticed that a bunch of applications stopped taking any input from my graphics tablet. This included Krita, Infinipaint, and Toon Boom Harmony. It also breaks whether I'm using a Wacom or Huion tablet.
+
+I was able to fix it by just running the following command:  
+`sudo dnf downgrade xorg-x11-server-Xwayland`
+
+My intention was to upgrade again in a few days, but it's been a few days and it's still broken.  
+I would like to update to fedora 44 at some point soon, but I don't know I should until I know this package won't break my tablet.
+
+Has anyone else run into this problem? Is it still safe to upgrade to version 44?
+
+Extra info:  
+Version: Fedora 43  
+DE: Gnome 49  
+WM: Mutter",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/Fedora/comments/1szjtz2/recent_update_broke_graphics_tablet_functionality/
+B17-046,applehelp,Receiving iMessage notifications but no message in the chat,"Ever since I updated my iPhone 15 Pro to iOS 27 I have been having this issue. I receive iMessage notifications while my phone is locked, but it will show the person’s phone number, not the contact. Then when I open up our message thread nothing is there. Have confirmed with my friends and family that actual messages were sent and are not successfully delivering. Anyone else having this issue? I’ve tried restarting, checked all my iMessage settings, can’t seem to find any reason behind this.",,title_and_body,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/applehelp/comments/1wukv6w/receiving_imessage_notifications_but_no_message/
+B17-047,applehelp,iPhone 17 reset crash,"My employer provide me a preowned iPhone 17, no one knows the pswrd or iCloud pswrd on it. I tried resetting it with Apple devices on windows and finder on MacBook, but after the update and restore process is complete it crashes and I get an error stating firmware file was corrupt.   
+Please help me on this","[1:reply] the corrupt firmware error is usually just a bad download. go delete the cached ipsw file on your pc (on windows it's buried in appdata/roaming/apple computer/itunes/iphone software updates) then redo the restore so it downloads fresh. also try a different usb cable and plug int…
+[2:OP] When can I find this file on MacBook?",title_body_comments,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/applehelp/comments/1upmen8/iphone_17_reset_crash/
+B17-048,chrome,Chrome External Peripherals not working,Has anyone experienced Peripherials stopped working with the last Chrome update?  Seems like last week Signature Pads stopped working for me and now scanners are not working with Chrome either.  But fine in Edge.    I searched and cannot find anything like this posted so hoping someone has found a cure for this.,,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/chrome/comments/1op92xn/chrome_external_peripherals_not_working/
+B17-049,AskElectronics,"ASUS TUF A15 FA506NF keeps boot looping at ASUS logo, Windows installation crashes – possible motherboard/EC issue?","Hi everyone,
+
+I recently got an ASUS TUF Gaming A15 FA506NF (Ryzen 5 7535HS + RTX 2050), and I am trying to figure out what is wrong with it.
+
+I bought this laptop without an SSD. The previous owner told me that the laptop can enter BIOS normally, but whenever it tries to start Windows, it crashes. Since there was no SSD installed, I bought an SSD and tried installing Windows from scratch.
+
+The problem is that I cannot complete the Windows installation.
+
+Most of the time, the laptop gets stuck in a boot loop where it shows the ASUS logo, restarts, shows the ASUS logo again, and keeps repeating. Occasionally, it gets further and reaches the Windows installation screen, but after around 30–40 seconds it restarts and goes back to the ASUS logo boot loop.
+
+The failure point seems random:
+
+Sometimes it only keeps rebooting at the ASUS logo.
+
+Sometimes it reaches Windows setup.
+
+Sometimes it starts copying Windows files but then restarts.
+
+Sometimes it goes to a black screen.
+
+The SSD is not the issue because I tested it in another laptop and it works normally. I also checked the RAM and it appears to be good.
+
+Things I have already tried:
+
+Tested SSD in another laptop.
+
+Checked RAM.
+
+Updated BIOS from version 306 to the latest ASUS version (309).
+
+Tried reinstalling Windows multiple times.
+
+Created a fresh Windows installation USB.
+
+While troubleshooting, I tried booting Ubuntu from a USB drive. Ubuntu does not boot normally, but it can start if I add acpi=off during boot. It reaches the Ubuntu desktop, but:
+
+Built-in keyboard does not work.
+
+Touchpad does not work.
+
+USB keyboard and mouse work.
+
+Wi-Fi works normally.
+
+The fan behavior also seems unusual. Sometimes it spins very slowly.
+
+I noticed the BIOS remembers settings and time correctly, so the BIOS settings are being saved.
+
+I asked a local repair shop, and they suggested it might be an EC (Embedded Controller) issue, because the EC controls things like keyboard, touchpad, fan control, battery management, and power-related functions.
+
+I have opened the laptop and inspected the motherboard, but I do not have motherboard repair experience. I want to learn how to diagnose the problem instead of replacing the motherboard immediately.
+
+My questions:
+
+Does this sound like an EC issue, motherboard issue, BIOS/firmware issue, or something else?
+
+Is there any way to test the EC without advanced equipment?
+
+Has anyone experienced similar issues with an ASUS TUF A15 FA506NF?
+
+If it is a motherboard problem, is it usually repairable?
+
+Any advice would be appreciated. I am trying to understand what failed and learn how to diagnose it properly.
+
+Thanks!","[1:reply] This sounds like a question better suited for r/TechSupport
+[2:reply] i looked this request over in r/techsupport seems like a lot of folks have the same issue with no resolution i've found yet. i suggested to u/[Amazing\_Strength\_704](https://www.reddit.com/user/Amazing_Strength_704/) that hard resetting the Embedded Controller might help. most…
+[3:reply] &gt;Does this sound like an EC issue, motherboard issue, BIOS/firmware issue, or something else?
+
+It does sound like the EC being the issue to me.
+
+&gt;Is there any way to test the EC without advanced equipment?
+
+There is no way of testing it other than replacing it.
+
+&gt;If it…
+[4:reply] **Fixing a GPU (Graphics card)?**
+
+Check the resources in our Wiki: https://old.reddit.com/r/AskElectronics/wiki/repair#wiki_gpus
+
+**You may get more specific help in r/gpurepair**
+
+
+*I am a bot, and this action was performed automatically. Please [contact the moderators of this…",title_body_comments,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/AskElectronics/comments/1v4ydvw/asus_tuf_a15_fa506nf_keeps_boot_looping_at_asus/
+B17-050,HomeNetworking,Home network setting problem seek for help,"Device: NETGEAR SXK50  
+NVR: Dahua NVR1104HC-HD24  
+Problem: After updating the SXK50 to Firmware Version V4.3.2.200, the NVR (192.168.1.3) can only be accessed when connected to the SXK50 VPN from a mobile phone. Without the VPN, whether on Wi‑Fi or WAN, the NVR cannot be reached.
+
+Please advise,’ve been troubleshooting for quite a while but can’t resolve it.",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/HomeNetworking/comments/1s5rp8r/home_network_setting_problem_seek_for_help/
+B17-051,MacOS,TREMENDOUS LAG,"Ever since i've updated, i've experienced the heaviest lag ever. I use opera air and I literally just can not play a video without the stupid wheel spinning for 5 minutes, just for it to happen again the second I pause. ANY FIXES? I LITERALLY CAN'T DO ANYTHING WITH MY MAC AT ALL.",,title_and_body,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/MacOS/comments/1ppqfhs/tremendous_lag/
+B17-052,ollama,"Built a training workflow tool for agencies doing LoRA fine-tuning - dataset versioning, deploy to Ollama, API key generation, all local-first","If you're doing fine-tuning work for clients - whether you're an ML agency, a consulting shop, or an internal AI team delivering models to stakeholders - you've probably hit the same wall I did.
+
+A client asks you to retrain a model you shipped 3 months ago. Or they want to know exactly what data went into it. Or they want the same model but with updated data. And you're digging through folders, guessing at configs, re-running pipelines from scratch, burning GPU hours trying to reconstruct something you already built.
+
+I got tired of this and built Uni Trainer - a local-first workflow tool that makes the entire fine-tuning pipeline reproducible and deployable
+
+**Here's a real run I just did to test it end-to-end:**
+
+Loaded a raw .txt file with 30 paired training examples (casual messages → professional emails). The dataset builder has a ""Pair Mode"" that splits input/output by delimiter, applies a system prompt, hashes everything with SHA-256, and versions the dataset. If I rebuild this dataset a month from now - same split, same hash, same data. Every time.
+
+Trained Phi-3 Mini 3.8B with LoRA on an RTX 3080. 5 epochs, 65 seconds, loss dropped from 1.50 to 0.63. One click deploys it to Ollama with the adapter, system prompt, and generation config baked into the Modelfile. API key auto-generates so the model is immediately callable.
+
+**Input:**  
+*dude the client presentation is in 2 hours and half the slides are wrong, the revenue numbers are from last quarter and someone put the wrong logo on the cover. i need design and finance to drop everything and fix this asap or we're cooked*
+
+**Output:**  
+*Subject: Urgent: Immediate Attention Required for Client Presentation Updates*
+
+*Dear \[Design and Finance Team Leaders\],*
+
+*I hope this message finds you well. I am writing to draw your immediate attention to several critical issues that require urgent resolution for our upcoming client presentation...*
+
+*\[Full structured email - each issue in its own paragraph, action items, confirmation request, sign-off\]*
+
+30 examples. 65 seconds. Locally on a 3080. Deployed and serving.
+
+**Why I built this for teams doing client work specifically:**
+
+* **Client asks ""what data trained this model?""** → Every dataset is SHA-256 fingerprinted and versioned. The training manifest links the exact dataset version, config, system prompt, and adapter output. You have a provenance chain.
+* **Client asks you to retrain with updated data** → Rebuild the dataset with one click. Same deterministic split. New version, new hash. You're not reconstructing anything from memory.
+* **Wasting GPU hours re-running training because you can't reproduce a past run** → Every run is tied to a snapshot. Same data, same config, same result.
+* **Deploying models is still manual** → One click deploys to Ollama with generation config. API key generated automatically. Hand the client an endpoint or run it on their box.
+* **Team member on a MacBook, GPU is a remote box** → SSH runner uploads a deterministic snapshot, runs training remotely, streams logs back, syncs artifacts on completion. The UI doesn't care where compute lives.
+
+**What it's NOT:**
+
+Not a cloud platform. Not competing with W&amp;B or enterprise MLOps. Not an API wrapper. It's a local workflow layer that sits on top of HuggingFace Trainer, PEFT, LoRA, and Ollama and makes the whole pipeline reproducible.
+
+This is built for people doing real fine-tuning work where the output matters - where someone downstream is relying on the model you ship and might ask questions about how it was made.
+
+Still early stage. If you're running a team that does fine-tuning for clients, I'd love to hear what your current workflow looks like and where the biggest pain points are.
+
+https://preview.redd.it/27g8fibxlomg1.png?width=988&amp;format=png&amp;auto=webp&amp;s=ff034d07d39692fcd4f6751777fc14a701a5e853
+
+https://preview.redd.it/16ja24l1momg1.png?width=941&amp;format=png&amp;auto=webp&amp;s=be15e737bc456c0524e82d378afa7ff237d83195
+
+https://preview.redd.it/biapy4k7momg1.png?width=1109&amp;format=png&amp;auto=webp&amp;s=385f2b701a14135a7d916fb351cfcc62a7c6ef2f",,title_and_body,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/ollama/comments/1rj2a39/built_a_training_workflow_tool_for_agencies_doing/
+B17-053,applehelp,TOUCH ID failure,"My 2024 14” Macbook Pro’s Touch ID sensor stoped working after not using my computer for a few days. 4 Days ago, I went to my girlfriend’s house for a few days and I brought my macbook thinking that we might watch a movie or something on it. We didn’t end up using it and so it sat in my backpack for 2 days. This is nothing new as I have brought it up to her house before and not used it. Yesterday, when I turned it on again to use it for some work stuff, it didn’t work the first time i turned it on, like it usually doesn’t when you don’t use the machine for a few days, and i thought nothing of it. I tried to use it again later however and i noticed it still wasn’t working and so I went into TouchID settings and it says “failed, unable to complete touch id enrollment”.  I tried many fixes that i saw online, such as restarting, updating to 26.5.2, deleting my old fingerprints and cleaning my sensor. Nothing worked and so i called apple and they set up an appointment with my local best buy service shop. When they ran diagnostics, the hardware side of my mac shows that the touchID sensor is working and was green on their side. They suggested holding on to it for a few days to see if the software side would fix itself in a patch or something. The only alternative is sending it in to apple for 2-3 weeks but i have school starting in 2 weeks and i have an important data analysis class that i need it for. Does anyone have any fixes that i could try to remedy my problem? Any help is appreciated.",,title_and_body,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/applehelp/comments/1v31qw5/touch_id_failure/
+B17-054,chrome,Chrome won't open after browser update.,,,title_only,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/chrome/comments/1lf4l2r/chrome_wont_open_after_browser_update/
+B17-055,kubernetes,Need advice: Kubernetes 1.34 → 1.35 upgrade with Elasticsearch running in the cluster,"Hi everyone,
+
+I’m planning a Kubernetes cluster upgrade from v1.34.8 to v1.35, as the current version is approaching retirement/EOL.
+
+The cluster currently has Elasticsearch running on it, so I’m concerned about potential compatibility or stability issues after upgrading Kubernetes.
+
+I’d like some guidance on:  
+\- How can I verify Elasticsearch compatibility with Kubernetes 1.35 before upgrading?  
+\- Are there any known issues I should be aware of when upgrading Kubernetes while Elasticsearch is running?  
+\- What should I check across Elasticsearch, ECK/operator, StatefulSets, storage classes/CSI drivers, ingress, CRDs, APIs, and other dependencies?  
+\- What is the recommended pre-upgrade checklist?  
+\- Should I upgrade Elasticsearch/ECK first, or Kubernetes first?  
+\- What kind of backup/rollback strategy should I have?  
+\- Is it better to upgrade the control plane and worker nodes separately?  
+\- What would be a safe upgrade plan for a production cluster to minimize downtime/risk?  
+\- Are there any tools or commands you recommend for detecting deprecated APIs or incompatible workloads before the upgrade?
+
+If anyone has gone through a similar Kubernetes 1.34 → 1.35 upgrade with Elasticsearch, I’d really appreciate hearing about your experience and any issues you encountered.
+
+Thanks!","[1:reply] You should have another cluster that is identical to production where you can test the change. I highly doubt there will be any issues because the StatefulSets, CSI, etc apis are pretty stable.
+[2:reply] I’d definitely check the operator version you are running supports 1.35. It probably does but check with elastic. 
+
+We snapshot ES to a bucket nightly so that would be out roll back. 
+
+Having said that in terms of cluster upgrades with the operator managing ES I’ve found as long…
+[3:reply] read the operator's documentation.
+
+&gt;  - Is it better to upgrade the control plane and worker nodes separately?
+
+yes
+
+&gt;  - What is the recommended pre-upgrade checklist?
+
+if you are worried about Elasticsearch, i'd check the ECK/operator documentation. make sure you update…
+[4:reply] Before cluster upgrades, I like to check that nobody is using deprecated APIs. 
+
+There’s a built in metric for that: https://kubernetes.io/blog/2020/09/03/warnings/#metrics
+[5:reply] We run elasticsearch 8.17 on 1.36.3 RKE2. 
+
+No issues",title_body_comments,yes,yes,other,medium,The post appears to discuss software without a clear troubleshooting or chiefly critical purpose.,,,,,,,https://reddit.com/r/kubernetes/comments/1wxl3ma/need_advice_kubernetes_134_135_upgrade_with/
+B17-056,Ubuntu,Graphics drivers issues,"I have an rx 6800xt and a 32:9 monitor for reference, the right half of the screen is just a rainbow but the left half is fine, after about 30 seconds the display will go black, I already checked it wasn't a dying monitor or GPU because it displays fine in the installation media and in windows, how can I fix this preferably without just resetting the whole install?
+
+Edit: it's Ubuntu 24.04 and this happened after rebooting from an update","[1:reply] Upgrade to 26.04.
+[2:reply] Sounds like the issue with linux-firmware.  Downgrade to the previous version and apt-mark hold on it until a fix is posted.
+[3:OP] Well upgrading to 26.04 fixed my screen issue but now none of my steam games work",title_body_comments,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/Ubuntu/comments/1vvf3cf/graphics_drivers_issues/
+B17-057,comfyui,Struggling to update ComfyUI via manager,"I was on 0.3.77 I think, tried to update, and ComfyUI just won't have it.
+
+I did ""update all"", and it did a load of updating nodes, manager etc, but still not ComfyUI.
+
+I'm now trying to just do it manually because it feels like GIT isn't being invoked properly.
+
+`git pull` in root of ComfyUI with the Conda environment activate doesn't work... it asks for remote and branch.
+
+So I dig into the update py file in the ComfyUI folder.
+
+Ok I define remote = origin and master = branch
+
+  
+So: `Git pull origin master`
+
+Now it's wanting a bloody email address!
+
+What am I missing? Have ComfyUI team changed something with the updating now? And broken it?
+
+Why can't I just git pull the latest version?
+
+Any help much appreciated.",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/comfyui/comments/1pumkia/struggling_to_update_comfyui_via_manager/
+B17-058,debian,Latest GStreamer update (March 2026) broke Youtube audio.,"Greetings! Today I found that after installing latest Debian system update, Youtube's audio is garbled in every browser (Firefox, Chrome, Edge).  
+  
+The latest Debian's update included a new version of GStreamer.  
+  
+These are all the GStreamer versions installed in this computer:
+
+  
+  
+ ii  gir1.2-gstreamer-1.0:amd64              1.26.2-2                             amd64        GObject introspection data for the GStreamer library
+
+
+
+ii  gstreamer1.0-clutter-3.0:amd64          3.0.27-4+b1                          amd64        Clutter PLugin for GStreamer 1.0
+
+
+
+ii  gstreamer1.0-gl:amd64                   1.26.2-1+deb13u1                     amd64        GStreamer plugins for GL
+
+
+
+ii  gstreamer1.0-gtk3:amd64                 1.26.2-1                             amd64        GStreamer plugin for GTK+3
+
+
+
+ii  gstreamer1.0-gtk4:amd64                 0.13.5-1                             amd64        GStreamer GTK 4 sink element - gstreamer plugin
+
+
+
+ii  gstreamer1.0-libav:amd64                1.26.2-1                             amd64        ffmpeg plugin for GStreamer
+
+
+
+ii  gstreamer1.0-libcamera:amd64            0.4.0-7                              amd64        complex camera support library (GStreamer plugin)
+
+
+
+ii  gstreamer1.0-packagekit                 1.3.1-1                              amd64        GStreamer plugin to install codecs using PackageKit
+
+
+
+ii  gstreamer1.0-pipewire:amd64             1.4.2-1                              amd64        GStreamer 1.0 plugin for the PipeWire multimedia server
+
+
+
+ii  gstreamer1.0-plugins-bad:amd64          1.26.2-3                             amd64        GStreamer plugins from the ""bad"" set
+
+
+
+ii  gstreamer1.0-plugins-base:amd64         1.26.2-1+deb13u1                     amd64        GStreamer plugins from the ""base"" set
+
+
+
+ii  gstreamer1.0-plugins-base:i386          1.26.2-1+deb13u1                     i386         GStreamer plugins from the ""base"" set
+
+
+
+ii  gstreamer1.0-plugins-good:amd64         1.26.2-1                             amd64        GStreamer plugins from the ""good"" set
+
+
+
+ii  gstreamer1.0-plugins-ugly:amd64         1.26.3-4                             amd64        GStreamer plugins from the ""ugly"" set
+
+
+
+ii  gstreamer1.0-x:amd64                    1.26.2-1+deb13u1                     amd64        GStreamer plugins for X11 and Pango
+
+
+
+ii  libgstreamer-gl1.0-0:amd64              1.26.2-1+deb13u1                     amd64        GStreamer GL libraries
+
+
+
+ii  libgstreamer-plugins-bad1.0-0:amd64     1.26.2-3                             amd64        GStreamer libraries from the ""bad"" set
+
+
+
+ii  libgstreamer-plugins-base1.0-0:amd64    1.26.2-1+deb13u1                     amd64        GStreamer libraries from the ""base"" set
+
+
+
+ii  libgstreamer-plugins-base1.0-0:i386     1.26.2-1+deb13u1                     i386         GStreamer libraries from the ""base"" set
+
+
+
+ii  libgstreamer1.0-0:amd64                 1.26.2-2                             amd64        Core GStreamer libraries and elements
+
+
+
+ii  libgstreamer1.0-0:i386                  1.26.2-2                             i386         Core GStreamer libraries and elements
+
+
+
+ii  libgtk-4-media-gstreamer                4.18.6+ds-2                          amd64        GStreamer media backend for the GTK graphical user interface library",,title_and_body,yes,yes,other,low,The post appears to discuss software without a clear troubleshooting or chiefly critical purpose.,,,,,,,https://reddit.com/r/debian/comments/1rz96bz/latest_gstreamer_update_march_2026_broke_youtube/
+B17-059,Fedora,Laptop soft resets while using krita,"recently upgraded to fedora 44 KDE plasma.  
+since the update my Krita freezes after a few minutes, then my laptop restarts. very annoying, I can’t get any work done.  
+The system is up to date, as is krita (was on the beta, now on the newest version).  
+spec:  
+MSI Cyborg A17 AI  
+NVIDIA GeForce RTX 5060
+
+pls speed I need this.
+
+EDIT: I checked crash report and it said that Krita was killed by SIGSEGV","[1:reply] It sounds like you're looking for help. Please note that r/Fedora is not an official support channel for the Fedora Project.
+
+For best results, be sure to include all relevant details in your post, such as your Fedora edition, version, and hardware specs. You can edit your origi…
+[2:reply] Does the following help?
+
+
+
+Understanding SIGSEGV in Krita on Linux
+
+A segmentation fault (SIGSEGV) in Krita typically indicates a memory access violation. This can occur due to various reasons, including issues with graphics drivers, OpenGL settings, or corrupted configuration…",title_body_comments,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/Fedora/comments/1vz1gs6/laptop_soft_resets_while_using_krita/
+B17-060,opencode,Opencode desktop seems to not connect to local server anymore?,"Anyone else notice this after a recent update? LOVE opencode desktop, but not working for me anymore. just doesnt connect to the local server at all.
+
+opencode CLI works fine.",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/opencode/comments/1tjcqyb/opencode_desktop_seems_to_not_connect_to_local/
+B17-061,MacOS,duetexpertd high CPU spikes,"I'm on latest MacOS version 26.2, Macbook Pro M1 Max. The process name ""duetexpertd"" will have occasional CPU spikes, up to 50%-70%. This did not happen on Sequoia before, until noticed it after updating to Tahoe.
+
+  
+The process is related to iCloud syncing, I tried logging out and back in my iCloud account but that did not fix the issue.
+
+  
+Additionally, I deleted everything in the folder /var/db/CoreDuet aside from ""Knowledge"" folder because System Integrity Protection (SIP) is blocking the deletion. That did not fix the issue either.
+
+  
+Anyone similar experiences/how to fix?",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/MacOS/comments/1pl4bbt/duetexpertd_high_cpu_spikes/
+B17-062,Ubiquiti,Stupid Wifi Headache with Samsung Phones,"After this last Samsung update, all the S24 Ultras won't hold onto our wifi.  I've tried just about everything to get this working, but I am at a loss.  It' snot a signal issue, there are 2x U7 AP in the house.
+
+No other wifi is having any issues, even ones that were problematic before stabilized once I solved a few stupid network set up issues trying to fix this.
+
+The phones will connect and work, but will get unstable and disconnect at a random point in time.  Sometimes, it'll refuse to reconnect until I forget the network and re-add it.
+
+I've isolated the wifi to just one band, starting with 6, now at 2.4, and they are still disconnecting.
+
+I've heard that this last Samsung OS screwed up wifi, but I have not verified this, other than my issues.
+
+Has anyone heard of anything like this?",,title_and_body,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/Ubiquiti/comments/1so7rgo/stupid_wifi_headache_with_samsung_phones/
+B17-063,MacOS,Spotlight bug in macOS 26.1,"Just updated to macOS 26.1 and I noticed a bug with Spotlight. Steps to reproduce:
+
+1. Click the magnifying glass icon in the menu bar.  
+2. Click your desktop background.  
+3. Click the magnifying glass icon again.  
+4. Spotlight will appear all the way up top.",,title_and_body,yes,yes,other,low,The post appears to discuss software without a clear troubleshooting or chiefly critical purpose.,,,,,,,https://reddit.com/r/MacOS/comments/1onuhn1/spotlight_bug_in_macos_261/
+B17-064,debian,"APT ""Error: Timeout was reached"" and other similar cases for DPKG","Just updated to Trixie 13.4, but I've been running into this issue despite having no issues on Debian for the past decade.
+
+After I got the dist-upgrade done, I restarted, then ran sudo apt update and got this:
+
+    Hit:1 http://security.debian.org/debian-security trixie-security InRelease
+    Hit:2 http://deb.debian.org/debian trixie InRelease
+    Hit:3 http:///deb.debian.org/debian trixie-updates InRelease
+    Error: Timeout was reached
+    All packages are up to date.
+
+And then I tried to fix a package error with sudo apt --reinstall install dpkg which also ended up like this:
+
+    ...
+    Preparing to unpack .../dpkg_1.22.22_amd64.deb ...
+    Unpacking dpkg (1.22.22) over (1.22.22) ...
+    Setting up dpkg (1.22.22) ...
+    Processing triggers for man-db (2.13.1-1) ...
+    Error: Timeout was reached
+
+This has been happening a lot. Any guidance for troubleshooting this? It's my first time seeing this and the previous forum threads date 9 years back...
+
+Update 1:
+
+Nvm guys, figured it out... PackageKit service wasn't loading. Went on an old school google spree regarding
+
+    Failed to execute statement 'PRAGMA synchronous'
+
+which I had NO IDEA what to do, so I just stopped the service via systemctl and then purged the entire packageKit transactions.db file
+
+Restarting it worked.
+
+I also checked apt broken-install, and ran the usual dpkg --audit as well as apt-mark showhold. All systems green here.
+
+  
+Update 2:
+
+To help out the next guy... Since the last relevant issue and troubleshooting was 9 years ago... I also pulled up all local or obsolete packages via apt list \~i\~o
+
+Because this Debian box is VERY OLD... There were quite a lot of items to clean out.
+
+I restarted the system, then did a dpkg -l | grep '\^rc' mainly to eyeball what was there. At this point, I vaguely remembered there was a command that could identify and name what I wanted to apt purge, but thankfully Gemini did a good job (this time...) so I cleared out 10 years of residual ancient packages and configs. I even had some pretty old linux-image leftover from those years of yore... 
+
+Don't be like me guys. It's nice to use backports and pins, but always remember to clean those up.",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/debian/comments/1sscv8g/apt_error_timeout_was_reached_and_other_similar/
+B17-065,comfyui,ComfyUI 0.3.77 update broke many things it destroyed Load Clip type setting on OVIS model and more,"ComfyUI 0.3.76 had it 
+
+[Load Clip has type ovis on ComfyUI 0.3.76 version ](https://preview.redd.it/ma9rbcpbfz4g1.png?width=1293&amp;format=png&amp;auto=webp&amp;s=13521542009c45ac9c1c9c7373bc2850c3eaa8e9)
+
+
+
+[Load clip of ComfyUIO Version 0.3.77 ate up ovis type. ](https://preview.redd.it/50iyhzwcfz4g1.png?width=1244&amp;format=png&amp;auto=webp&amp;s=ae5fd012eecf964cbe1e528429e96997b6bfdba6)
+
+Other numerous errors are getting in",,title_and_body,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/comfyui/comments/1pd2t81/comfyui_0377_update_broke_many_things_it/
+B17-066,arduino,Got a probleme with my Nodemcuv3 (don't know if i can post this here),"Soo
+
+I've had it since 3 years ago but i haven't use it yet. Yesterday i just wanted to start a projet, and tried don upload a code, didn't worked. I've got this error message 
+
+*""A fatal esptool.py error occurred: Cannot configure port, something went wrong. Original message: PermissionError(13, 'Un p�riph�rique attach� au syst�me ne fonctionne pas correctement.', None, 31)esptool.py v3.0 Serial port COM4"".*
+
+ I've tried everythings: Update the drivers, change the cable, change the upload speed...
+
+Any idea ?",,title_and_body,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/arduino/comments/1s6qtcl/got_a_probleme_with_my_nodemcuv3_dont_know_if_i/
+B17-067,firefox,Youtube using more cpu and gpu since recent windows 11 update?,I was curious if anybody else has been having this problem. Since the recent windows 11 update I've noticed a single tab of youtube has been using around 10-20% of my nvidia geforce rtx 5070 gpu and 5-8% to occasionally 20% of my cpu. Before the update it would use much less but still seemed high even then. Every month its been consuming more and more cpu and gpu and this has me concerned. Has anybody else had this issue or found a solution? I feel like I've tried everything to fix it but nothing works.,"[1:reply] I've noticed that Youtube videos can take an awful long time to load, I experience less issues once they are loaded. About a month ago I had issues with FF 150 running Reddit videos at all but I don't think that was a graphics problem but rather an internal scripting problem bet…
+[2:reply] https://addons.mozilla.org/en-US/android/addon/chrome-mask/ completely fixed YouTube shenanigans for me. It's not a conspiracy, it's anti competitive behavior by Google.",title_body_comments,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/firefox/comments/1tiqz12/youtube_using_more_cpu_and_gpu_since_recent/
+B17-068,firefox,Mousewheel sensitivity change in bookmarks toolbar lists and general issues with the update [Windows],"The recent update changed something that made the mousewheel scrolls through maybe 2x as many items per mousewheel tick in the bookmark lists of the bookmark toolbar.
+
+Anyone knows of this and if it can be fixed?
+
+I've found mousewheel.system_scroll_override.vertical.factor in about:config, thought that fixed it, but it turned out to be a global multiplier for the mousewheel scroll. Meaning, it affects everything, including scrolling in pages.
+
+This is beyond bizarre. Lines per mousewheel tick is a user changeable system setting in Windows that has been there for decades. Devs should use that whenever possible instead of going with ""we know better"". Not only did they fatten up the lines in the lists so that now fewer fit in (gotta waste time to find the css setting for it now, thanks guys), but now this scrolling issue is an unexpected and profoundly annoying problem.
+
+Imagine if your text editor of choice got an updated that forced a specific setting for lines scrolled per mousewheel or key command. But somehow, it's okay for a browser. Even though it's been governed by a system setting for decades on Windows.
+
+I've been using this godforsaken browser since Firefox 3. This like the 70858234th update that changes and mangles something that I then have to spend my time fixing. This is a full blown Stockholm syndrome by this point (yeah, it's not actually real, but it's real with Firefox alright). But then every time I'm thinking of switching to Chrome I think of that time wasted as well.",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/firefox/comments/1wvnx3h/mousewheel_sensitivity_change_in_bookmarks/
+B17-069,chrome,Missing huge number of Bookmark folders in Chrome Browser,"chrome browser v 150.0.7871.127 official build (64bit) by 18jul26 noticed ive lost most of my browser bookmark folders !  , sun19jul26 1028am it updated so ill relaunch it to see if they’ve fixed it yet its now v 150.0.7871.129 , 
+
+I have 54 folders of bookmarks left when I must have had I don’t know maybe 200 to 300 up until a few days ago, I reported the issue on 18^(th) july 2026 has any1 else noticed this problem ? does any1 know how many folders we used to be able to have ?  this is a major problem I have been saving website urls that I need to go back to as bookmarks for many years
+
+ 
+
+a second problem I noticed is that in 1 of these folders 1 of my bookmarks dissapeared, so I resaved it with a slightly different name so I could spot the change..again chrome was not saving this for a couple of days then 1 day it did show so all the constant updates to chrome are causing lots of issues",[1:reply] C'est pas la première publication à ce sujet il me semble. Tu ne dois pas être le seul. En éspérant que vous puissiez les récuperer...,title_body_comments,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/chrome/comments/1v0m5s2/missing_huge_number_of_bookmark_folders_in_chrome/
+B17-070,unsloth,Looping issue with MTP on Qwen3.6,"==========EDIT
+
+Fixed with newest llama.cpp release (16.5.2026)
+
+  
+====
+
+  
+  
+Hi i have looping issue when i try the new MTP branch version of llama.cpp  
+My config:
+
+`[*]`
+
+`chat-template-kwargs = {""preserve_thinking"":true}`
+
+`reasoning-budget = 4096`
+
+`reasoning-budget-message = ""Reasoning budget reached. Conclude the analysis and provide the final answer.""`
+
+`device = Vulkan1`
+
+`gpu-layers = all`
+
+`no-mmproj-offload = 1`
+
+`batch-size = 2048`
+
+`ctx-size = 128000`
+
+`ubatch-size = 512`
+
+`temp = 0.6`
+
+`top-p = 0.95`
+
+`top-k = 20`
+
+`min-p = 0.00`
+
+`presence-penalty=0.0`
+
+`repeat-penalty=1.0`
+
+`cache-prompt = 1`
+
+`timeout = 600`
+
+`reasoning = on`
+
+`image-min-tokens = 1024`
+
+`metrics = 1`
+
+`fit-target = 0`
+
+`no-mmap = 1`
+
+`jinja = 1`
+
+`prio = 3`
+
+`reasoning = on`
+
+`no-warmup = 1`
+
+`parallel = 1`
+
+`flash-attn = on`
+
+`port = 8001`
+
+`threads = 16`
+
+`threads-batch = 16`
+
+`cache-type-k = q8_0`
+
+`cache-type-v = q8_0`
+
+`kv-unified = true`
+
+`ctx-checkpoints = 64`
+
+`checkpoint-every-n-tokens = 2048`
+
+`cache-ram = 20480`
+
+`mlock = 1`
+
+`main-gpu = 1`
+
+`verbose=1`
+
+`[Qwen3.6-27B-MTP-UD-Q6_K]`
+
+`model = C:\Users\user\.cache\huggingface\hub\models--unsloth--Qwen3.6-27B-MTP-GGUF\snapshots\53b097416d6346f849b530e4bc1b5590dfe9d758\Qwen3.6-27B-Q6_K.gguf`
+
+`mmproj = C:\Users\user\.cache\huggingface\hub\models--unsloth--Qwen3.6-27B-MTP-GGUF\snapshots\53b097416d6346f849b530e4bc1b5590dfe9d758\mmproj-BF16.gguf`
+
+`cache-type-k = q4_1`
+
+`cache-type-v = q4_1`
+
+`spec-type = draft-mtp`
+
+`spec-draft-n-max = 2`
+
+\---------
+
+i can see in terminal the LLM looping
+
+`[53923] srv update_slots: run slots completed [53923] que start_loop: waiting for new tasks [53923] que start_loop: processing new tasks [53923] que start_loop: processing task, id = 1798 [53923] que start_loop: update slots [53923] srv update_slots: posting NEXT_RESPONSE [53923] que post: new task, id = 1799, front = 0 [53923] slot get_n_draft_: id 0 | task 0 | max possible draft: 15217 [53923] slot update_batch: id 0 | task 0 | generate_draft: id=4013, #tokens=20320, #draft=1, pos_next=20320 [53923] srv update_slots: decoding batch, n_tokens = 2 [53923] set_adapters_lora: adapters = 0000000000000000 [53923] adapters_lora_are_same: adapters = 0000000000000000 [53923] set_embeddings: value = 1 [53923] slot update_slots: id 0 | task 0 | restoring speculative checkpoint (pos_min = 20319, pos_max = 20319, size = 748) [53923]`
+
+`srv update_slots: run slots completed [53923] que start_loop: waiting for new tasks [53923] que start_loop: processing new tasks [53923] que start_loop: processing task, id = 1799 [53923] que start_loop: update slots [53923] srv update_slots: posting NEXT_RESPONSE [53923] que post: new task, id = 1800, front = 0 [53923] slot get_n_draft_: id 0 | task 0 | max possible draft: 15217 [53923] slot update_batch: id 0 | task 0 | generate_draft: id=4013, #tokens=20320, #draft=1, pos_next=20320 [53923] srv update_slots: decoding batch, n_tokens = 2 [53923] set_adapters_lora: adapters = 0000000000000000 [53923] adapters_lora_are_same: adapters = 0000000000000000 [53923] set_embeddings: value = 1 [53923] slot update_slots: id 0 | task 0 | restoring speculative checkpoint (pos_min = 20319, pos_max = 20319, size = 748) [53923]`
+
+`srv update_slots: run slots completed [53923] que start_loop: waiting for new tasks [53923] que start_loop: processing new tasks [53923] que start_loop: processing task, id = 1800 [53923] que start_loop: update slots [53923] srv update_slots: posting NEXT_RESPONSE [53923] que post: new task, id = 1801, front = 0 [53923] slot get_n_draft_: id 0 | task 0 | max possible draft: 15217 [53923] slot update_batch: id 0 | task 0 | generate_draft: id=4013, #tokens=20320, #draft=1, pos_next=20320 [53923] srv update_slots: decoding batch, n_tokens = 2 [53923] set_adapters_lora: adapters = 0000000000000000 [53923] adapters_lora_are_same: adapters = 0000000000000000 [53923] set_embeddings: value = 1 [53923] slot update_slots: id 0 | task 0 | restoring speculative checkpoint (pos_min = 20319, pos_max = 20319, size = 748) [53923]`
+
+\----
+
+Does somebody also has this issue, better yet, does have somebody solution? This loops until timeout","[1:reply] cache-type-k = q4_1 probably doesn't help, either.
+[2:reply] try presence_penalty at 1.5
+[3:reply] I'm fighting looping issues on non-MTP, is it anything like what I'm seeing?
+
+https://www.reddit.com/r/LocalLLaMA/s/aCfFsdz6Dx
+
+I've dropped from Q4 to Q3 this afternoon and I'm keeping an eye out for loops.  I'm wondering if I was a little too tight on VRAM usage.
+[4:reply] Check driver and cuda versions.
+[5:OP] I'm using rx7900 xtx, so no CUDA",title_body_comments,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/unsloth/comments/1tct6df/looping_issue_with_mtp_on_qwen36/
+B17-071,Fedora,Some error,I ran into this problem after an update I tried to access tty to fix this and I couldn't type anything any help?,"[1:reply] As per my knowledge the update installed or modified the initial-setup package.
+
+Try to reboot, press Esc key to enter GRUB menu and try to boot in older kernel (Fedora keeps 3 kernels for troubleshooting).
+
+Then if you can login, check logs -
+
+systemctl status initial-setup.ser…",title_body_comments,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/Fedora/comments/1u5f9iw/some_error/
+B17-072,MacOS,Word stopped working,"Hi. I'm running Catalina 10.15.8. on my old 27-inch IMac (don't think I can update to a newer OS as far as I know). I guess the latest word update ended functionality on macs running old OS...does anyone know of a workaround for this? My job is basically all in word and I have to edit docs, old docs get updated, etc... Thanks!","[1:reply] word 2019? as far as i understand, it's because MS broke the licensing server, and you can work around it with a very legit offline volume license pkg from GitHub.
+
+don't think i can link it here, but when they decide to break a ""perpetual"" license.. it's about the least unethic…
+[2:reply] Doesn't sound like OCLP would be a good fit for you given your other comments. So, really your only option is to buy new hardware. 
+
+If you are required to use this for work, they should be providing you with the hardware/software you need.
+[3:reply] Microslop did this because of some certificate issue.. they’re not fixing it unfortunately.
+
+In any case, you can update your Mac to a newer OS by using Opencore Legacy Patcher, it’s unofficial but works really well and is widely used in the community by users with older macs. Y…
+[4:reply] The free Pages app may work for you. It opens Word documents and also saves in Word format. The only thing is sometimes it alters the formatting a little.
+[5:OP] I tried and it doesn't work with an OS as old as mine!",title_body_comments,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/MacOS/comments/1v2kgzw/word_stopped_working/
+B17-073,AndroidQuestions,"Soft-bricked POCO X7 Pro after overnight update (HyperOS WOJEUXM.C07) - Stuck in FBE deadlock, ADB sideload rejected. Any way to extract data?","**The Problem:** I woke up this morning to my POCO X7 Pro (European model) in a soft-bricked state, likely due to an overnight OTA update. The phone boots to the lock screen and actually *accepts* my PIN, but the boot process never seems to send the `BOOT_COMPLETED` signal.
+
+**The Symptoms:**
+
+* **Apps won't open:** Whenever I try to open an app, I get a toast message at the bottom saying ""Wait until your device is fully rebooted to open..."".
+* **MTP is blocked:** Plugging it into my Windows PC triggers the connection chime, but the storage doesn't mount. FBE (File-Based Encryption) is keeping the data locked down because the phone thinks it hasn't finished booting.
+* **Developer Options are locked:** I managed to get into Settings via the notification shade, but trying to enable Developer Options prompts for my lock screen PIN. When I enter it, it says ""Incorrect Password"" (even though it's 100% correct and works on the lock screen). Keystore seems corrupted.
+
+**What I've already tried (and failed):**
+
+* **Safe Mode:** Managed to boot into Safe Mode. The system is stable, but the exact same issues persist (apps hidden, no MTP access).
+* **Clearing Cache:** Booted into Recovery, but modern HyperOS removed the ""Wipe Cache"" option. I only have ""Wipe All Data"" (which I'm desperately trying to avoid).
+* **Mi PC Suite / XiaoMiTool V2:** Both fail to automate a fix (connection/server issues).
+* **ADB Sideload via MiAssistant:** This is where I hit a wall. I booted into Recovery -&gt; Connect with MiAssistant. My PC successfully recognized the device via `adb devices` (status: `sideload`).
+
+**The** `.C07` **Roadblock:** I downloaded the latest official European Recovery ROM (`HyperOS 3.0.300.0.WOJEUXM`) and tried to push it via `adb sideload update.zip`. It failed instantly with `failed to read command` and the phone immediately rebooted.
+
+I then checked the exact firmware version currently on the phone, and it shows `3.0.300.0.WOJEUXM.C07`. From what I understand, this `.C07` suffix means my phone silently pulled a SOTA (Super OTA) / Mi Pilot experimental build last night. The Recovery is rejecting the standard `WOJEUXM` zip because of anti-rollback protections (it thinks I'm trying to downgrade or flash an incompatible branch).
+
+**My Goal:** I just want to extract my `DCIM` folder and some documents before I inevitably have to Wipe All Data. Since the `.C07` recovery zip isn't publicly available anywhere online yet, I can't sideload it to repair the OS.
+
+**My questions for the experts:**
+
+1. Does anyone have a link to the `WOJEUXM.C07` recovery zip so I can successfully sideload it?
+2. Are there any known bypasses to force MTP file transfer in this specific FBE deadlock state?
+3. Any other tricks to pull files via ADB while in MiAssistant mode without USB debugging enabled in the OS?
+
+Thanks in advance for any help!",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/AndroidQuestions/comments/1te7ghp/softbricked_poco_x7_pro_after_overnight_update/
+B17-074,arduino,OV7670 camera wiring error on Arduino Mega,"Hello everyone. To start, you should know that my initial code works perfectly on my Arduino Uno with the OV7670 camera. However, when I switch to an Arduino Mega, an error persists. The wiring is almost identical; naturally, I changed the I2C bus (SDA&gt;20 / SCL&gt;21) and moved the XCLK pin from pin 10 to 11. Yet, even after updating the code to match the pins, an error keeps occurring. Upon investigation, the problem stems from the function: \`void twiAddr(uint8\_t addr, uint8\_t typeTWI)\`. Even though I have double-checked my connections, the LED keeps flashing. However, when I test it again with my original setup, everything works fine. I therefore assume the issue lies either in the code, the wiring of the second setup (which uses a slightly modified PCB), or a combination of both. I would be incredibly grateful for any help you could provide.Hello everyone. To start, you should know that my initial code works perfectly on my Arduino Uno with the OV7670 camera. However, when I switch to an Arduino Mega, an error persists. The wiring is almost identical; naturally, I changed the I2C bus (SDA&gt;20 / SCL&gt;21) and moved the XCLK pin from pin 10 to 11. Yet, even after updating the code to match the pins, an error keeps occurring. Upon investigation, the problem stems from the function: \`void twiAddr(uint8\_t addr, uint8\_t typeTWI)\`. Even though I have double-checked my connections, the LED keeps flashing. However, when I test it again with my original setup, everything works fine. I therefore assume the issue lies either in the code, the wiring of the second setup (which uses a slightly modified PCB), or a combination of both. I would be incredibly grateful for any help you could provide.
+
+  
+initial code:
+
+    //
+    // Source code for application to transmit image from ov7670 to PC via USB
+    // By Siarhei Charkes in 2015
+    // http://privateblog.info 
+    //
+    
+    
+    #include &lt;stdint.h&gt;
+    #include &lt;avr/io.h&gt;
+    #include &lt;util/twi.h&gt;
+    #include &lt;util/delay.h&gt;
+    #include &lt;avr/pgmspace.h&gt;
+    
+    
+    #define F_CPU 16000000UL
+    #define vga   0
+    #define qvga  1
+    #define qqvga   2
+    #define yuv422  0
+    #define rgb565  1
+    #define bayerRGB  2
+    #define camAddr_WR  0x42
+    #define camAddr_RD  0x43
+    
+    //hidden part
+    
+    
+    // BTconnected will = false when not connected and true when connected
+    boolean BTconnected = false;
+     
+    // connect the STATE pin to Arduino pin D4
+    const byte BTpin = 9;
+    uint8_t buffer[320];
+    
+    
+    void error_led(void){
+      DDRB |= 32;//make sure led is output
+      while (1){//wait for reset
+        PORTB ^= 32;// toggle led
+        _delay_ms(100);
+      }
+    }
+    
+    
+    void twiStart(void){
+      TWCR = _BV(TWINT) | _BV(TWSTA) | _BV(TWEN);//send start
+      while (!(TWCR &amp; (1 &lt;&lt; TWINT)));//wait for start to be transmitted
+      if ((TWSR &amp; 0xF8) != TW_START)
+        error_led();
+    }
+    
+    
+    void twiWriteByte(uint8_t DATA, uint8_t type){
+      TWDR = DATA;
+      TWCR = _BV(TWINT) | _BV(TWEN);
+      while (!(TWCR &amp; (1 &lt;&lt; TWINT))) {}
+      if ((TWSR &amp; 0xF8) != type)
+        error_led();
+    }
+    
+    
+    void twiAddr(uint8_t addr, uint8_t typeTWI){
+      TWDR = addr;//send address
+      TWCR = _BV(TWINT) | _BV(TWEN);    /* clear interrupt to start transmission */
+      while ((TWCR &amp; _BV(TWINT)) == 0); /* wait for transmission */
+      if ((TWSR &amp; 0xF8) != typeTWI)
+        error_led();
+    }
+    
+    
+    void wrReg(uint8_t reg, uint8_t dat){
+      //send start condition
+      twiStart();
+      twiAddr(camAddr_WR, TW_MT_SLA_ACK);
+      twiWriteByte(reg, TW_MT_DATA_ACK);
+      twiWriteByte(dat, TW_MT_DATA_ACK);
+      TWCR = (1 &lt;&lt; TWINT) | (1 &lt;&lt; TWEN) | (1 &lt;&lt; TWSTO);//send stop
+      _delay_ms(1);
+    }
+    
+    
+    static uint8_t twiRd(uint8_t nack){
+      if (nack){
+        TWCR = _BV(TWINT) | _BV(TWEN);
+        while ((TWCR &amp; _BV(TWINT)) == 0); /* wait for transmission */
+        if ((TWSR &amp; 0xF8) != TW_MR_DATA_NACK)
+          error_led();
+        return TWDR;
+      }
+      else{
+        TWCR = _BV(TWINT) | _BV(TWEN) | _BV(TWEA);
+        while ((TWCR &amp; _BV(TWINT)) == 0); /* wait for transmission */
+        if ((TWSR &amp; 0xF8) != TW_MR_DATA_ACK)
+          error_led();
+        return TWDR;
+      }
+    }
+    
+    
+    uint8_t rdReg(uint8_t reg){
+      uint8_t dat;
+      twiStart();
+      twiAddr(camAddr_WR, TW_MT_SLA_ACK);
+      twiWriteByte(reg, TW_MT_DATA_ACK);
+      TWCR = (1 &lt;&lt; TWINT) | (1 &lt;&lt; TWEN) | (1 &lt;&lt; TWSTO);//send stop
+      _delay_ms(1);
+      twiStart();
+      twiAddr(camAddr_RD, TW_MR_SLA_ACK);
+      dat = twiRd(1);
+      TWCR = (1 &lt;&lt; TWINT) | (1 &lt;&lt; TWEN) | (1 &lt;&lt; TWSTO);//send stop
+      _delay_ms(1);
+      return dat;
+    }
+    
+    
+    void wrSensorRegs8_8(const struct regval_list reglist[]){
+      uint8_t reg_addr, reg_val;
+      const struct regval_list *next = reglist;
+      while ((reg_addr != 0xff) | (reg_val != 0xff)){
+        reg_addr = pgm_read_byte(&amp;next-&gt;reg_num);
+        reg_val = pgm_read_byte(&amp;next-&gt;value);
+        wrReg(reg_addr, reg_val);
+        next++;
+      }
+    }
+    
+    
+    void setColor(void){
+      wrSensorRegs8_8(rgb565_ov7670);
+    }
+    
+    
+    void setRes(void){
+      wrReg(REG_COM3, 4); // REG_COM3 enable scaling
+      wrSensorRegs8_8(qvga_ov7670);
+    }
+    
+    
+    void camInit(void){
+      wrReg(0x12, 0x80);
+      _delay_ms(100);
+      wrSensorRegs8_8(ov7670_default_regs);
+      wrReg(REG_COM10, 32);//PCLK does not toggle on HBLANK.
+    }
+    
+    
+    void arduinoUnoInut(void) {
+      cli();//disable interrupts
+    
+    
+        /* Setup the 8mhz PWM clock
+      * This will be on pin 11*/
+      DDRB |= (1 &lt;&lt; 3);//pin 11
+      ASSR &amp;= ~(_BV(EXCLK) | _BV(AS2));
+      TCCR2A = (1 &lt;&lt; COM2A0) | (1 &lt;&lt; WGM21) | (1 &lt;&lt; WGM20);
+      TCCR2B = (1 &lt;&lt; WGM22) | (1 &lt;&lt; CS20);
+      OCR2A = 0;//(F_CPU)/(2*(X+1))
+      DDRC &amp;= ~15;//low d0-d3 camera
+      DDRD &amp;= ~252;//d7-d4 and interrupt pins
+      _delay_ms(3000);
+    
+    
+        //set up twi for 100khz
+      TWSR &amp;= ~3;//disable prescaler for TWI
+      TWBR = 72;//set to 100khz
+    
+    
+        //enable serial
+      UBRR0H = 0;
+      UBRR0L = 207;//0 = 2M baud rate. 1 = 1M baud. 3 = 0.5M. 7 = 250k 207 is 9600 baud rate.
+      UCSR0A |= 2;//double speed aysnc
+      UCSR0B = (1 &lt;&lt; RXEN0) | (1 &lt;&lt; TXEN0);//Enable receiver and transmitter
+      UCSR0C = 6;//async 1 stop bit 8bit char no parity bits
+    }
+    
+    
+    static void captureImg(uint16_t w, uint16_t h) {
+    
+    
+        // attendre VSYNC
+        while (!(PIND &amp; 8));
+        while ( (PIND &amp; 8));
+    
+    
+        for (uint16_t y = 0; y &lt; h; y++) {
+    
+    
+            // attendre début de ligne
+            while (!(PINB &amp; 1));   // HREF = 1
+    
+    
+            uint16_t idx = 0;
+            uint16_t crc = 0;
+    
+    
+            for (uint16_t x = 0; x &lt; w; x++) {
+    
+    
+                // octet 1
+                while (!(PIND &amp; 4)); // PCLK ↑
+                buffer[idx++] = (PIND &amp; 0xF0) | (PINC &amp; 0x0F);
+                crc++;
+                while ( (PIND &amp; 4)); // PCLK ↓
+    
+    
+                // octet 2
+                while (!(PIND &amp; 4)); // PCLK ↑
+                buffer[idx++] = (PIND &amp; 0xF0) | (PINC &amp; 0x0F);
+                crc++;
+                while ( (PIND &amp; 4)); // PCLK ↓
+            }
+    
+    
+            // attendre fin de ligne
+            while (PINB &amp; 1);  // HREF = 0
+    
+    
+            sendFrame(y, crc);
+        }
+    
+    
+        //_delay_ms(5000);
+    }
+    
+    
+    void sendFrame(uint16_t line, uint16_t crc){ 
+      Serial.write(0xAA); 
+      Serial.write(0x55); 
+    
+    
+      Serial.write(lowByte(line)); 
+      Serial.write(highByte(line)); 
+    
+    
+      Serial.write(buffer, 320); 
+    
+    
+      Serial.write(lowByte(crc)); 
+      Serial.write(highByte(crc)); 
+    
+    
+      Serial.write(0x55); 
+      Serial.write(0xAA); 
+    
+    
+      Serial.flush(); 
+    }
+    
+    
+    void setup(){
+      pinMode(LED_BUILTIN, OUTPUT); 
+      pinMode(BTpin, INPUT); 
+      arduinoUnoInut();
+    
+    
+      camInit();
+      setRes();
+      setColor();
+      wrReg(0x11, 26); //Earlier it had the value: wrReg(0x11, 12); New version works better for me :) !!!!
+      Serial.begin(115200);
+      while (!BTconnected)
+       {
+         digitalWrite(LED_BUILTIN, LOW); 
+         if ( digitalRead(BTpin)==HIGH)  { BTconnected = true;};
+       }
+       _delay_ms(1000);
+       digitalWrite(LED_BUILTIN, HIGH); 
+    }
+    
+    
+    void loop(){
+      
+      captureImg(160, 120);
+    }
+
+new code:
+
+    //code test pr manette: enenvoie photo vers tel
+    //brochette
+    
+    
+    //
+    // Source code for application to transmit image from ov7670 to PC via USB
+    // By Siarhei Charkes in 2015
+    // http://privateblog.info 
+    //
+    
+    
+    #include &lt;stdint.h&gt;
+    #include &lt;avr/io.h&gt;
+    #include &lt;util/twi.h&gt;
+    #include &lt;util/delay.h&gt;
+    #include &lt;avr/pgmspace.h&gt;
+    #include &lt;SPI.h&gt;
+    #include &lt;nRF24L01.h&gt;
+    #include &lt;RF24.h&gt;
+    #include &lt;Keypad.h&gt;
+    
+    
+    #define F_CPU 16000000UL
+    #define vga   0
+    #define qvga  1
+    #define qqvga   2
+    #define yuv422  0
+    #define rgb565  1
+    #define bayerRGB  2
+    #define camAddr_WR  0x42
+    #define camAddr_RD  0x43
+    
+    //hidden part
+     
+    uint8_t buffer[320];
+    uint8_t BUFFER[328];
+    uint8_t radioBuffer[32];
+    
+    
+    const byte address[6] = ""00001"";
+    
+    
+    void error_led(void){
+      DDRA |= 16;//make sure led is output
+      while (1){//wait for reset
+        PORTA ^= 16;// toggle led
+        _delay_ms(100);
+      }
+    }
+    
+    
+    void twiStart(void){
+      TWCR = _BV(TWINT) | _BV(TWSTA) | _BV(TWEN);//send start
+      while (!(TWCR &amp; (1 &lt;&lt; TWINT)));//wait for start to be transmitted
+      if ((TWSR &amp; 0xF8) != TW_START)
+        error_led();
+    }
+    
+    
+    void twiWriteByte(uint8_t DATA, uint8_t type){
+      TWDR = DATA;
+      TWCR = _BV(TWINT) | _BV(TWEN);
+      while (!(TWCR &amp; (1 &lt;&lt; TWINT))) {}
+      if ((TWSR &amp; 0xF8) != type)
+        error_led();
+    }
+    
+    
+    void twiAddr(uint8_t addr, uint8_t typeTWI){
+      TWDR = addr;//send address
+      TWCR = _BV(TWINT) | _BV(TWEN);    /* clear interrupt to start transmission */
+      while ((TWCR &amp; _BV(TWINT)) == 0); /* wait for transmission */
+      if ((TWSR &amp; 0xF8) != typeTWI)
+        error_led();
+    }
+    
+    
+    void wrReg(uint8_t reg, uint8_t dat){
+      //send start condition
+      twiStart();
+      twiAddr(camAddr_WR, TW_MT_SLA_ACK);
+       digitalWrite(26, LOW);
+      twiWriteByte(reg, TW_MT_DATA_ACK);
+      twiWriteByte(dat, TW_MT_DATA_ACK);
+      TWCR = (1 &lt;&lt; TWINT) | (1 &lt;&lt; TWEN) | (1 &lt;&lt; TWSTO);//send stop
+      _delay_ms(1);
+    }
+    
+    
+    static uint8_t twiRd(uint8_t nack){
+      if (nack){
+        TWCR = _BV(TWINT) | _BV(TWEN);
+        while ((TWCR &amp; _BV(TWINT)) == 0); /* wait for transmission */
+        if ((TWSR &amp; 0xF8) != TW_MR_DATA_NACK)
+          error_led();
+        return TWDR;
+      }
+      else{
+        TWCR = _BV(TWINT) | _BV(TWEN) | _BV(TWEA);
+        while ((TWCR &amp; _BV(TWINT)) == 0); /* wait for transmission */
+        if ((TWSR &amp; 0xF8) != TW_MR_DATA_ACK)
+          error_led();
+        return TWDR;
+      }
+    }
+    
+    
+    uint8_t rdReg(uint8_t reg){
+      uint8_t dat;
+      twiStart();
+      twiAddr(camAddr_WR, TW_MT_SLA_ACK);
+      twiWriteByte(reg, TW_MT_DATA_ACK);
+      TWCR = (1 &lt;&lt; TWINT) | (1 &lt;&lt; TWEN) | (1 &lt;&lt; TWSTO);//send stop
+      _delay_ms(1);
+      twiStart();
+      twiAddr(camAddr_RD, TW_MR_SLA_ACK);
+      dat = twiRd(1);
+      TWCR = (1 &lt;&lt; TWINT) | (1 &lt;&lt; TWEN) | (1 &lt;&lt; TWSTO);//send stop
+      _delay_ms(1);
+      return dat;
+    }
+    
+    
+    void wrSensorRegs8_8(const struct regval_list reglist[]){
+      uint8_t reg_addr, reg_val;
+      const struct regval_list *next = reglist;
+      while ((reg_addr != 0xff) | (reg_val != 0xff)){
+        reg_addr = pgm_read_byte(&amp;next-&gt;reg_num);
+        reg_val = pgm_read_byte(&amp;next-&gt;value);
+        wrReg(reg_addr, reg_val);
+        next++;
+      }
+    }
+    
+    
+    void setColor(void){
+      wrSensorRegs8_8(rgb565_ov7670);
+    }
+    
+    
+    void setRes(void){
+      wrReg(REG_COM3, 4); // REG_COM3 enable scaling
+      wrSensorRegs8_8(qvga_ov7670);
+    }
+    
+    
+    void camInit(void){
+      wrReg(0x12, 0x80);
+      _delay_ms(100);
+      wrSensorRegs8_8(ov7670_default_regs);
+      wrReg(REG_COM10, 32);//PCLK does not toggle on HBLANK.
+    }
+    
+    
+    void arduinoUnoInut(void) {
+      cli();//disable interrupts
+    
+    
+        /* Setup the 8mhz PWM clock
+      * This will be on pin 11*/
+      DDRB |= (1 &lt;&lt; 4);//pin 11
+    
+    
+    //-------------------------------------------------------
+      ASSR &amp;= ~(_BV(EXCLK) | _BV(AS2));
+      TCCR2A = (1 &lt;&lt; COM2A0) | (1 &lt;&lt; WGM21) | (1 &lt;&lt; WGM20);
+      TCCR2B = (1 &lt;&lt; WGM22) | (1 &lt;&lt; CS20);
+      OCR2A = 0;//(F_CPU)/(2*(X+1))
+    //-------------------------------------------------------
+    
+    
+      DDRF &amp;= ~15;//low d0-d3 camera
+      DDRH &amp;= ~24;//d7-d4 and interrupt pins
+      DDRE &amp;= ~8;//d7-d4 and interrupt pins
+      DDRG &amp;= ~32;//d7-d4 and interrupt pins
+      _delay_ms(3000);
+    
+    
+    //-------------------------------------------------------
+        //set up twi for 100khz
+      TWSR &amp;= ~3;//disable prescaler for TWI
+      TWBR = 72;//set to 100khz
+    //-------------------------------------------------------
+    
+    
+        //enable serial
+      UBRR0H = 0;
+      UBRR0L = 207;//0 = 2M baud rate. 1 = 1M baud. 3 = 0.5M. 7 = 250k 207 is 9600 baud rate.
+      UCSR0A |= 2;//double speed aysnc
+      UCSR0B = (1 &lt;&lt; RXEN0) | (1 &lt;&lt; TXEN0);//Enable receiver and transmitter
+      UCSR0C = 6;//async 1 stop bit 8bit char no parity bits
+    }
+    
+    
+    static void captureImg(uint16_t w, uint16_t h) {
+    
+    
+        // attendre VSYNC
+        while (!(PINE &amp; 32));
+        while ( (PINE &amp; 32));
+    
+    
+        for (uint16_t y = 0; y &lt; h; y++) {
+    
+    
+            // attendre début de ligne
+            while (!(PINH &amp; 32));   // HREF = 1
+    
+    
+            uint16_t idx = 0;
+            uint16_t crc = 0;
+    
+    
+            for (uint16_t x = 0; x &lt; w; x++) {
+    
+    
+                // octet 1
+                while (!(PINE &amp; 16)); // PCLK ↑
+                buffer[idx++] = (PINH &amp; 0x18) | (PINE &amp; 0x08) | (PING &amp; 0x20) | (PINE &amp; 0x0F);
+                crc++;
+                while ( (PINE &amp; 16)); // PCLK ↓
+    
+    
+                // octet 2
+                while (!(PINE &amp; 16)); // PCLK ↑
+                buffer[idx++] = (PINH &amp; 0x18) | (PINE &amp; 0x08) | (PING &amp; 0x20) | (PINE &amp; 0x0F);
+                crc++;
+                while ( (PINE &amp; 16)); // PCLK ↓
+            }
+    
+    
+            // attendre fin de ligne
+            while (PINH &amp; 32);  // HREF = 0
+    
+    
+            sendFrame(y, crc);
+        }
+    
+    
+        //_delay_ms(5000);
+    }
+    
+    
+    void sendFrame(uint16_t line, uint16_t crc){ 
+      uint8_t beginBuf[4] = {0xAA, 0x55, lowByte(line), highByte(line)};
+      uint8_t endBuf[4] = {lowByte(crc), highByte(crc), 0x55, 0xAA};
+      radio.write(&amp;beginBuf, 4);
+    
+    
+      for(int i=0; i&lt;=10; i++){
+        memcpy(radioBuffer, buffer + 32*i, 32);
+        radio.write(&amp;radioBuffer, 32);
+      }
+    
+    
+      radio.write(&amp;beginBuf, 4);
+    /*
+      Serial.write(0xAA); 
+      Serial.write(0x55); 
+    
+    
+      Serial.write(lowByte(line)); 
+      Serial.write(highByte(line)); 
+    
+    
+      Serial.write(buffer, 320); 
+    
+    
+      Serial.write(lowByte(crc)); 
+      Serial.write(highByte(crc)); 
+    
+    
+      Serial.write(0x55); 
+      Serial.write(0xAA); 
+    
+    
+      Serial.flush(); */
+    }
+    
+    
+    void setup(){
+      /*radio.begin();
+      if (!radio.begin()) {
+      }
+    
+    
+      radio.setPALevel(RF24_PA_MAX);
+      radio.openWritingPipe(address);
+      radio.stopListening();*/
+    
+    
+      pinMode(26, OUTPUT); 
+      digitalWrite(26, HIGH);
+      arduinoUnoInut();
+     
+      camInit();
+     
+      setRes();
+      setColor();
+      wrReg(0x11, 26); //Earlier it had the value: wrReg(0x11, 12); New version works better for me :) !!!!
+      //Serial.begin(115200);
+      /*while (!BTconnected)
+       {
+         digitalWrite(LED_BUILTIN, LOW); 
+         if ( digitalRead(BTpin)==HIGH)  { BTconnected = true;};
+       }*/
+       _delay_ms(1000);
+       digitalWrite(26, HIGH);
+    }
+    
+    
+    void loop(){
+      
+      captureImg(160, 120);
+    }",,title_and_body,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/arduino/comments/1utnnb9/ov7670_camera_wiring_error_on_arduino_mega/
+B17-075,MicrosoftEdge,Reload page in IE mode.,"Auto update forced me to v142 today. I really need to be able to reload pages in IE mode again as I access thousands of ip cameras web uis and the Pluggins only working in IE. Adding all of them to the list of ie mode pages isn't feasible for me there is just too many. I've tried tirelessly to roll back to v141 today with no success. Anybody have a solid fix or instructions to roll back from v142? 
+
+
+**Edit**
+I figured it out... gotta download the policy file from Microsoft then u can gpedit those feature back into the current version of edge",,title_and_body,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/MicrosoftEdge/comments/1ontlt6/reload_page_in_ie_mode/
+B17-076,ios,Media playback not registering with the OS [Bug],"I am having a strange bug where media playback across all apps does not register with the OS. This has happened since iOS 26 update. When playing media in any app, the play/pause and skip controls won’t display in the lock screen or control center widget. The output selector will also not work. The only way I have found to solve this is restarting the phone, which is annoying as this happens multiple times per day. Is anyone else experiencing this?",,title_and_body,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/ios/comments/1okxmve/media_playback_not_registering_with_the_os_bug/
+B17-077,immich,Help with restoring,"I had immich running as a test on my old windows Laptop. Got it backed up and am now finally ready to restore. I created the .env and docker-compose.yml file and specified the paths where I copied over all my old files on my newly set up fedora server.
+
+Then I tried to run the modified restore command, but got an error:
+
+    sudo docker compose down -v # CAUTION! Deletes all Immich data to start from scratch
+    ## Uncomment the next line and replace DB_DATA_LOCATION with your Postgres path to permanently reset the Postgres database
+    # rm -rf DB_DATA_LOCATION # CAUTION! Deletes all Immich data to start from scratch
+    sudo docker compose pull # Update to latest version of Immich (if desired)
+    sudo docker compose create # Create Docker containers for Immich apps without running them
+    sudo docker start immich_postgres # Start Postgres server
+    sleep 10 # Wait for Postgres server to start up
+    # Check the database user if you deviated from the default
+    # Replace &lt;DB_USERNAME&gt; with the database username - usually postgres unless you have changed it.
+    sudo gunzip --stdout ""/jockdata/immich-app/library/backups/immich-db-backup-20250905T020000-v1.140.1-pg14.19.sql.gz"" \
+    | sed ""s/SELECT pg_catalog.set_config('search_path', '', false);/SELECT pg_catalog.set_config('search_path', 'public, pg_catalog', true);/g"" \
+    | docker exec -i immich_postgres psql --dbname=immich --username=postgres # Restore Backup
+    sudo docker compose up -d # Start remainder of Immich apps
+
+The error I got was this one:
+
+    no configuration file provided: not found
+    no configuration file provided: not found
+    no configuration file provided: not found
+    Error response from daemon: No such container: immich_postgres
+    failed to start containers: immich_postgres
+    permission denied while trying to connect to the docker API at unix:///var/run/docker.sock
+    no configuration file provided: not found
+
+any help is appreciated. I just started using Linux and this is the first time of me trying to run anything on fedora server. docker is installed and updated.",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/immich/comments/1oz9lz2/help_with_restoring/
+B17-078,applehelp,"Instagram says “update required” but App Store shows up to date (iPhone 13, India)","My friend is using an iPhone 13 (base model, India). Her Instagram app is fully updated according to the App Store, but when she opens it, it says an update is required and won’t let her use the app.
+
+The problem is:
+
+App Store shows no update available
+
+She can’t delete and reinstall because she doesn’t remember her Instagram password
+
+She can’t reset the password because the linked Gmail is lost
+
+She also can’t recover the Gmail because the phone number tied to it is no longer active
+
+So right now, she’s completely locked out.
+
+Is there any way to fix the “update required” issue without reinstalling? Or any way to recover the account in this situation?",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/applehelp/comments/1s7gtfv/instagram_says_update_required_but_app_store/
+B17-079,AndroidQuestions,Phone randomly bootlooping into Recovery Mode (not button-related),"Hey everyone,
+
+Looking for some insight on a weird issue that happened to my phone recently, just to be safe so it doesn't happen again.
+
+My device is Redmi Note 9 (5G) with the latest update MIUI 14.0.6/ Android 12.
+
+I rebooted my phone normally, but instead of booting into the OS, it went straight into Recovery Mode. Selecting ""Reboot system now"" didn't work—it just kept looping back into Recovery Mode over and over.
+
+This wasn't the first time I've rebooted this phone either; I've restarted it before without any issues at all.
+
+Here are a few key details:
+
+Buttons are totally fine: Volume buttons are not stuck or jammed (the selection bar in recovery wasn't auto-scrolling at all).
+
+Stock OS: Never rooted the phone, no custom ROMs, fully stock.
+
+No updates: It didn't happen during a system update or anything like that—just a plain, normal restart.
+
+Took it to a local repair shop and they ended up doing a factory reset. Their explanation was just ""the volume button was stuck inside,"" which I know for a fact isn't true.
+
+The phone is working fine for now after the reset, but I still have no idea what actually caused it or how to prevent it in the future. I'm even scared to turn off the power now, worrying it might happen again.
+
+Has anyone experienced something similar? Would appreciate any thoughts or advice!","[1:reply] Of no help.
+
+My phone recently did something similar (appeared as though volume up was pressed) , kept happening even after rebooting.
+
+Let the battery die. Charged the next day and back to normal. No damage, sticky button etc.",title_body_comments,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/AndroidQuestions/comments/1vsxkq8/phone_randomly_bootlooping_into_recovery_mode_not/
+B17-080,applehelp,My iphone 11 keeps heating up on the right side and shutting down randomly,"it started happening 3 days ago randomly, yesterday it didnt shut down at all and I thought it went back to normal, but today it started shutting off again on its own. I have ios 18 since I think ios 26 would be too much for my iphone, would an update fix it or is it something else?",[1:reply] What’s your battery health? Look in Settings &gt; Battery &gt; Battery Health and Charging.,title_body_comments,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/applehelp/comments/1urm5ic/my_iphone_11_keeps_heating_up_on_the_right_side/
+B17-081,unRAID,Intel Graphics SR-IOV not working after upgrading from 7.1.4 to 7.2+,"In version 7.1.4, Intel Graphics SR-IOV works normally. After upgrading to version 7.2 or later, this plugin no longer works. I am not sure whether this is an isolated case or due to some underlying reason. As a result, I downgraded back to version 7.1.4.",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/unRAID/comments/1pqciui/intel_graphics_sriov_not_working_after_upgrading/
+B17-082,MicrosoftEdge,An Edge update broke my sessions and profiles,"I've been using Edge since around version 80. It's now at 141.  
+Over the years, I actually *trusted* it — and that's not something I say lightly.  
+It had solid features, sync that actually worked, and updates so smooth I stopped caring they were automatic. I used to brag about how reliable it was.
+
+Then one morning, I opened Edge and found every site had logged me out. Mild annoyance, I thought — maybe cookies got wiped. But then came the real disaster: when I tried to switch profiles, I realized all my other profiles were gone. Completely. Vanished from the interface.
+
+Some of those profiles were local-only — no sync, no backup. One of them contained critical browser-based development data: `localStorage` entries for my userscript and extension projects. That's data I depended on daily. Gone, because Edge decided to play amnesia.
+
+This isn't a small bug. It's a catastrophic failure.  
+And of course, because Edge updates itself whether you like it or not, I had no say in the matter. Somewhere between ""stability improvements"" and ""more Copilot buttons,"" my profiles just got dereferenced.
+
+I vented about it here on Microsoft Q&amp;A: 👉 [Original post on Microsoft Q&amp;A](https://learn.microsoft.com/en-us/answers/questions/5600177/edge-sessions-and-profiles-disappeared)
+
+# The twist
+
+But then, it turned out that my data wasn't gone — Edge just forgot it existed.
+
+After a few hours of furious digging, I found that all my profiles were still physically there.  
+They live in this folder: `%LocalAppData%/Microsoft/Edge/User Data`
+
+Each profile has its own subfolder:
+
+* `Default` — your first one.
+* `Profile 1`, `Profile 2`, and so on — for the others.
+
+But here's the call: Edge doesn't actually scan that directory when it loads. It uses a registry or config file that lists which profiles it should acknowledge.  
+So, if that registry entry gets corrupted — which apparently happens during updates — your profiles don't get deleted, they just vanish from Edge's little memory of itself.
+
+I figured out how to trick Edge into remembering:
+
+1. Create a new profile as a placeholder to be replaced with the profile you want to restore later. For local profiles, keep it local, for synced ones, log into the same Microsoft account first.
+2. Close Edge completely.
+3. Go to the `User Data` folder.
+4. Identify your new profile's folder and the ""lost"" one (check timestamps or the `Edge Profile.ico` inside).
+5. Swap their folder names.
+6. Reopen Edge. Your old profile magically returns.
+
+It worked. Every session, every tab, every bit of data was right there — just ignored by Edge because some internal registry entry had gone rogue.
+
+So yes, this was entirely Microsoft's fault. Unless cosmic radiation flipped the exact right bits in my registry file, this was an update screw-up.
+
+# A warning
+
+Then I remembered something even worse: crypto wallets.
+
+If you're a crypto user, you already feel the dread.  
+Many browser-based wallets (like MetaMask) store keys locally in extension data. Lose that profile, and *poof* — say goodbye to your tokens.
+
+So if you're using Edge for crypto, migrate your wallets *now*.  
+Chrome, Firefox, Brave, anything. Or better yet — a hardware wallet.
+
+Because when Microsoft pushes another ""AI-powered productivity boost"" that accidentally nukes your data, they're not refunding your Ethereum.  
+If you insist on staying, at least write your private keys on paper — the kind of storage Edge can't ""forget"" during an update.
+
+# Final thoughts
+
+I've genuinely liked Edge's features — vertical tabs, workspaces, all the nice touches (not the Copilot stuff though). But no feature outweighs trust. A browser that can casually orphan user data mid-update is not a browser I can rely on.
+
+So, after years of loyalty, I'm done. I'm switching to Chrome — not because it's perfect, but at least I found no reports of similar incidents there.
+
+If you use multiple Edge profiles or depend on local browser data, take this as a warning. Back up your `User Data` folder before the next update decides it knows what's best for you.",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/MicrosoftEdge/comments/1oi3nw3/an_edge_update_broke_my_sessions_and_profiles/
+B17-083,homeassistant,"Home Assistant Core seems not so ""core"" - how do you decide when to upgrade?","I see the notification that Home Assistant Core version 2026.5.4 is out.  I wonder if I should upgrade from the version I have installed.  I go look at the full list of changes.  Oh my goodness, there's 1436 changes in 2026.5.
+
+As I scan the list, nearly all of them are for specific devices or integrations that I've never even heard of, much less have deployed and I decide that it's hopeless to see whether there's anything in that list that might actually matter to my installation.  So, I decide that I'd rather not take a new version that I may not need.  A previous new version install broke things for a little while until I figured out what else had to be updated simultaneously (due to a breaking change) and that took awhile to figure out.  So, now I'm not automatic for new versions.
+
+Is this just the way Home Assistant Core is architected?  Core has to take fixes for individual devices such as codes for a Miele dishwasher or something to do with a Lutron Caseta battery sensor (just to name a couple).
+
+How do you all decide when to upgrade?  I think I'm trending toward the ""if it ain't broke, don't fix it"" theme.","[1:reply] You still are getting features with the updates?
+
+
+
+The integrations in the CORE installation are guaranteed to be maintained and keep working after updates, it's good that HA has so many actively developed integrations.
+
+
+For me, I just upgrade the second I see the update in my…
+[2:reply] In general, I do not do a .0 update unless I’m really excited about a feature release. I try to read the release notes for each update so I’m aware of what’s changing. I also like to wait until an update has been released to see what kinds of bugs are discovered by those more ad…
+[3:reply] I usually upgrade in the last week of the month.  By then most of the bugs have been worked out.  And always upgrade with a backup just in case.
+
+I don't want to wait longer than that because upgrading several major versions can be more challenging.
+[4:reply] I've been running HA for about 2 years. I update anytime i see one, and i've never had a single issue.
+[5:reply] I usually wait a couple days for point releases to settle before I update. I can't say I've ever had an issue in like 7 years of running HA. Breaking changes sure, but that's the name of the game. You shouldn't really be worried about the full list of changes as you've said, you…",title_body_comments,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/homeassistant/comments/1tne77f/home_assistant_core_seems_not_so_core_how_do_you/
+B17-084,Fedora,"Updated from Fedora 43 to 44, internet broke on dual booted windows","I can't login to windows because after the update I need to change my Pin for whatever reason, and I can't change my pin because no matter what WiFi I connect to it says 'No internet, secured' (need internet to change it). What's going on, why would a Fedora update break my windows internet and how do I fix it?",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/Fedora/comments/1t0srph/updated_from_fedora_43_to_44_internet_broke_on/
+B17-085,comfyui,ComfyUi breaks on Mac M4 ?,I just updated ComfyUi which used to load well earlier on Mac M4 Max. The ComfyUi server doesn't start now. Does this happen to anyone else? Even when I uninstall this and install fresh from DMG - it doesn't finish the installation gracefully at all.,,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/comfyui/comments/1pc241a/comfyui_breaks_on_mac_m4/
+B17-086,applehelp,"iOS 27: How to fix ""Listen to Page"" stuttering/freezing when the screen is off?","Hi everyone,
+
+I’ve run into a technical issue after updating to iOS 27 and was wondering if anyone knows a workaround or a fix.
+
+I frequently use the ""Listen to Page"" feature in Safari with Siri Voice 1 (male). It worked perfectly on iOS 26, but on iOS 27, the audio starts stuttering and freezing as soon as I minimize Safari or lock the screen. This makes it almost impossible to listen to articles in the background.
+
+I’ve noticed that this is even more pronounced when Lockdown Mode is enabled. Interestingly, in Lockdown Mode, the feature starts almost instantly, whereas in normal mode, there is a few-second delay before it begins reading.
+
+I suspect it might be related to how iOS 27 handles background processes, but I'm not sure. I've attached a few videos demonstrating the issue.
+
+Does anyone know if there are any specific settings I should change to stop this from happening? Or is this a known system bug that requires an official update?
+
+Thanks in advance for any help!",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/applehelp/comments/1wrcc8z/ios_27_how_to_fix_listen_to_page/
+B17-087,Ubiquiti,UDM 1st gen.  OoM crashes and restarts.,"I am running into a really annoying issues.  I have done a bunch of troubleshooting on my own and then I enlisted hermes to try to help identify issues as well.
+
+I am wondering if anyone else is seeing these issues after upgrading to v5?    More so, what the fix might be other than turning of IPS/DPI
+
+\*edit
+
+My intent is not to write an AI written post.  That was only the output summary of everything that was attempted.  I have been trying to fix this issue for a week or two now.  And I kinda am at my wits end with it.  Back on v4 I had no problems at all even with the IPS on..
+
+**Below is a summary from my Hermes agent.**
+
+\*\*HARDWARE:\*\* UniFi Dream Machine (non-Pro, 2GB RAM, 1GB swap)
+
+\*\*FIRMWARE:\*\* Currently running v5.1.19 (was on 5.0.16, upgraded)
+
+\*\*THE CORE PROBLEM:\*\* Chronic memory exhaustion leading to swap thrashing, zombie process accumulation, and eventual system crashes.
+
+\*\*WHAT HAPPENED:\*\*
+
+1. The health monitor started SIGKILL-ing the UniFi Network app due to swap thrashing (not just Suricata OOM).
+2. The system became unstable enough that I had to factory reset it.
+
+\*\*TOP MEMORY CONSUMERS (even without IPS):\*\*
+
+\- PostgreSQL: \~47MB swap
+
+\- MongoDB (unifi-mongodb): \~44MB swap
+
+\- unifi-core: \~30MB swap
+
+\- unifi.service: \~30MB swap
+
+\- Total base: \~150MB in swap, \~1.7GB in RAM -- that's 87% RAM used with IPS OFF.
+
+\*\*WHAT I'VE DONE SO FAR:\*\*
+
+1. Disabled Suricata/IPS entirely (renamed binary to .disabled)
+
+\*\*COMMUNITY FINDINGS:\*\*
+
+\- The v5.x.x firmware series has a well-documented memory leak tied to the hardware acceleration engine and IPS/DPI processing. This is a known, acknowledged bug from Ubiquiti.
+
+\- The ""gold standard"" stable release is 4.4.6, but Ubiquiti has REMOVED it from public downloads (only 5.x.x available on ui.com). The firmware URL pattern is: [https://fw-download.ubnt.com/data/unifi-dream/{hash}-UDM-{version}-{uuid}.bin](https://fw-download.ubnt.com/data/unifi-dream/%7Bhash%7D-UDM-%7Bversion%7D-%7Buuid%7D.bin)
+
+\- Top community workarounds: (a) downgrade to 4.x.x, (b) \`podman restart unifi-os\` via cron, (c) increase swap + lower swappiness to 10, (d) offload controller to external server
+
+\- Community consensus: 2GB RAM is fundamentally insufficient for v5.x.x with IPS enabled. The hardware acceleration bug makes it unsustainable.
+
+\*\*CURRENT STATUS:\*\*
+
+\- Fresh config, no IPS, still running at 87% RAM usage at idle
+
+\- Swap still active at 35% utilization
+
+\- System is stable but running on a knife-edge -- re-enabling IPS would almost certainly trigger OOM again
+
+\- Still on v5.1.19, unable to downgrade because Ubiquiti removed 4.4.6 from public downloads
+
+\*\*UNANSWERED QUESTIONS:\*\*","[1:reply] The swap utilization is meaningful.  
+The RAM usage is not. Their metrics include what’s cached in RAM - classic message here is empty RAM is wasted RAM.
+
+I have a UDM at another family members home that I remotely have upgraded all along the way, running IPS etc (although I did…
+[2:reply] Unfortunately, 2GB is not enough for the latest software with IDS/IPS enabled anymore. 
+
+Don't buy a UDM Pro. That's almost as old as what you already have. (It does have enough RAM and would fix the problem; I just don't generally recommend it for most people.) The most direct…
+[3:reply] Hello!  Thanks for posting on r/Ubiquiti!
+
+This subreddit is here to provide unofficial technical support to people who use or want to dive into the world of Ubiquiti products.  If you haven’t already been descriptive in your post, please take the time to edit it and add as many…
+[4:OP] Yep my intent was not to write an AI written post.  That was only the output summary of everything that was attempted.  I have been trying to fix this issue for a week or two now.  And I kinda am at my wits end with it.  Back on v4 I had no problems at all even with the IPS on..
+[5:reply] That ""Hermes agent summary"" edit is basically a perfect example of why orgs need an AI usage policy plus evidence, not just vibes. If teams are using LLMs to troubleshoot infra, you want to be able to show what was generated vs what was actually executed, and keep an audit trail…",title_body_comments,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/Ubiquiti/comments/1ucwx9y/udm_1st_gen_oom_crashes_and_restarts/
+B17-088,AZURE,Help With AVD Error 0x0 - An authentication error has occurred,"I have a user that changed their password a few days ago. AVD was working just fine until the password change. The user has a M365 license and is in the correct AVD group with correct rights. When they attempt to log into AVD, they get the error below:
+
+    An authentication error has occurred.
+    The logon attempt failed
+    Remote computer: {hostname}
+    Error code: 0x0
+    Extended error code: 0x0
+
+The session host is running fine with other active sessions and it's just a single user that is having trouble. I've noticed their workstation is also having trouble connecting to Entra and the logs are in the code block below. I've checked conditional access policies, ran dsregcmd /leave and rebooted, Ran updates and confirmed that KB5074109 was not installed (known to cause issues with Windows App), Removed regkeys under HKLM:\SOFTWARE\Microsoft\Enrollments, Changed the host pool properties to targetisaadjoined:i:1, Tried recreating a new user account with the same groups. The error still persists. Any ideas?
+
+    Error Code: -2145833241
+    Request Id: f1366ad1‑053a‑467f‑8871‑68e6eb850900
+    Correlation Id: 4024a949‑15c0‑4187‑898c‑fe2868d730d1
+    Timestamp: 2026‑03‑26T19:13:04.727Z
+    Message: Unknown error code: 0x80192ee7
+    Flag sign‑in errors for review: Enable flagging
+    
+    If you plan on getting help for this problem, enable flagging and try to reproduce the error within 20 minutes. Flagged events make diagnostics available and are raised to admin attention.",,title_and_body,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/AZURE/comments/1s4c49q/help_with_avd_error_0x0_an_authentication_error/
+B17-089,applehelp,"iMac 2019 - Sonoma fails to upgrade, restore or reinstall.","Hi all,  
+  
+I've got a 2019 iMac running Sonoma which has developed severe performance issues to the point where it's often unusable. It's also failing to upgrade to any new version of Sonoma or Sequoia.  
+I've been attempting to restore and now reinstall from an bootable USB drive containing Sequoia but all attempts fail with what seems to be the same error.  
+  
+Potentially underlying all of this is an Disk error that I've encountered in Disk Utility and when attempting to run ""First Aid"" on it from Recovery:  
+  
+""error: btn: Invalid key order: Index \*\*\*\* is greater than Index \*\*\*\* (should be less than)  
+...  
+...  
+Fusion data structures are invalid.  
+The volume/dev/.... with UUID \*\*\*\*\*\*\*\*\*\*\*\*\*\*\* could not be verified completely.  
+File system check exit code is 8.""  
+  
+  
+When attempting to update/restore/reinstall I get a generic:  
+  
+""An error occurred loading the update.""  
+  
+The logs show this additional information:  
+  
+"": Syncing extracted to disk  
+: \*\*\*\* /Volumes/Macintosh HD - Data/macOS Install Data/UpdateBundle/AssetData/./boot/EFI/SMCPayloads/Mac-\*\*\*\*\*\*.smc \[\*\*\*\*\*\*\*\*\] != .//boot/EFI/SMCPayloads/Mac-\*\*\*\*\*\*/Mac-\*\*\*\*\*\*\*.smc \[\*\*\*\*\*\*\*\] \*\*\*\*  
+: Operation failed - OSISUnarchiveMobileSoftwareUpdateOperation  
+: Operation queue failed with error: Error Domain=com.apple.OSInstallerSetup.error Code=1004 ""An error occurred loading the update."" UserInfo={\*\*\*\*\*}""  
+  
+I think that's the core of the error, though of course the path name changes depending on whether it's an update, recovery, or USB install attempt.  
+  
+The only thing I haven't tried is first erasing the disk, which I'm loath to attempt as currently the Mac is usable, particularly with a fresh account (though these seem to degrade over time), but if I erase and the install just fails again... then its just a beautiful, slimline brick.  
+  
+Any advice would be greatly appreciated.",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/applehelp/comments/1rktvg5/imac_2019_sonoma_fails_to_upgrade_restore_or/
+B17-090,chrome,"After the latest update, I can't 2 finger swipe return (windows 11) and when I pinch zoom on my trackpad, it changes the actual zoom percent incrementally instead of just zooming in.","I'm not sure if these are easy fixes or if they're because of something I've done, but they're very annoying.
+
+  
+PS both of these functions work normally on edge","[1:reply] Thank you for your submission to /r/Chrome! We hope you'll find the help you need. Once you've found a solution to your issue, please comment ""**!solved**"" under this comment to mark the post as solved. Thanks!
+
+
+*I am a bot, and this action was performed automatically. Please […",title_body_comments,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/chrome/comments/1umqlog/after_the_latest_update_i_cant_2_finger_swipe/
+B17-091,comfyui,After updating ComfyUI it won't start,"It was running fine, then I updated it through SDMatrix like always, it runs as expected but stops in ""Checkpoint files will always be loaded safely""
+
+No errors, no warnings, it just stops and close.
+
+Before that I was testing Wan 2.2 but didn't install anything new and I managed to open it again a day later after testing Wan 2.2 to just check a SDXL checkpoint workflow. 
+
+I usually wait for the next update and that fixes situations similar to this, but this time there has been 2 updates and it's still acting the same.
+
+Are there any tips or fix to make ComfyUI run again like normal without re-installing it?
+
+Thanks in advance!",,title_and_body,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/comfyui/comments/1q310po/after_updating_comfyui_it_wont_start/
+B17-092,neovim,"Getting an lsp related error, lsp returning buffer number instead of file name","Hey everyone,
+
+Just updated to Neovim 0.12 (today’s nightly) and the second I open any .html file (index.html, whatever) I get a huge LSP error traceback.
+
+I threw the whole log at Grok and it instantly told me what’s wrong:
+
+""Known issue in0.11 and  0.12 – something is passing a buffer number (a number) to vim.fs.root() or similar functions that now strictly expect a string path.""
+
+Basically a bunch of root\_dir resolvers that worked fine before are now exploding because Neovim got stricter.
+
+I tried poking around in my lsp.lua (my entire config is 95% “vibe-coded” with AI help, so I barely know Lua) and after a few changes the LSP just stopped attaching to anything, so I rolled back in panic.
+
+My setup is pretty standard lazy.nvim stuff:
+
+\- lazy.nvim
+
+\- mason + mason-lspconfig
+
+\- nvim-lspconfig
+
+\- html, css, emmet\_ls, etc.
+
+
+
+Downgrading to 0.11 fixes it instantly, but I’d really like to stay on 0.12.
+
+Has anyone else hit this yet?  
+
+Is there a simple one- or two-line fix I can drop in (maybe force string conversion or something) that doesn’t require me to rewrite my whole LSP config?
+
+If the proper fix is updating the root markers, could someone who actually understands this stuff paste a minimal working HTML setup for 0.12? I promise I’ll copy-paste it blindly and thank you forever.
+
+ sharing my current lsp.lua or the full error log if it helps.  
+[errorLog](http://0x0.st/KOHA.log)
+
+[lspSpec.lua](http://0x0.st/KOHa.lua)",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/neovim/comments/1p1x1sp/getting_an_lsp_related_error_lsp_returning_buffer/
+B17-093,docker,"Docker for windows, win10, wsl2 and Claude desktop/cowork Can they coexist?","Hi friends. I'm attempting to instal docker on a win10 machine. My ultimate purpose is to run Postiz locally but my Docker engine won't start.  
+Here's what I've done so far.
+
+• Successfully enabled VTx on my HP machine. 
+
+• installed Docker Desktop
+
+• Updated WSL
+
+• Attempted to start Docker multiple times, consistently getting virtualization or engine errors
+
+• Updated docker to the latest version
+
+
+
+Now getting ""Virtualization support not detected
+
+Docker Desktop failed to start because virtualisation support wasn’t detected. Sign in to try restoring access to Docker features."" 
+
+
+
+Claude tells me that the problem is that docker requires wsl2 and Claude Desktop which is also installed requires Hyper-V and this is causing conflicts.
+
+  
+Any thoughts? Any suggestions?
+
+  
+Thanks so much!",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/docker/comments/1sy6wy4/docker_for_windows_win10_wsl2_and_claude/
+B17-094,Fedora,They finally sorted on screen board with plasma 5.7 update im so happy,On screen board was an issue with fedora was not working but now after the update i can finally type again😐😇,"[1:reply] Plasma 5.7 was released 10 years ago, almost to the day. https://kde.org/announcements/plasma/5/5.7.0/
+[2:reply] Probably a typo, OP was meant to type **6**.7 instead of 5
+[3:reply] OP, are you living in the past? we are on Plasma 6.7.3 today 🤔
+[4:reply] It sounds like you're looking for help. Please note that r/Fedora is not an official support channel for the Fedora Project.
+
+For best results, be sure to include all relevant details in your post, such as your Fedora edition, version, and hardware specs. You can edit your origi…
+[5:reply] r/Pretend2010Internet",title_body_comments,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/Fedora/comments/1uyygot/they_finally_sorted_on_screen_board_with_plasma/
+B17-095,applehelp,Health and fitness app not in sync,"**Health and fitness apps are not communicating possible software issue**
+
+I have an iPhone 15, recently updated to the newest version. My fitness app use to track my activity, steps, etc. it no longer tracks anything. It has something to do with my health app, but I can’t determine how to fix it. I have paired and unpaired my Apple Watch 8 series 3times only to determine it’s the app on my phone! I’d go get a new phone, but with the issue being the app it won’t necessarily fix it. 
+
+My Fitness app does not show up as an app that my Health app sends information to, but It used to. I have checked all the settings. I have paired unpaired paired and unpaired an Apple Watch. My Fitness app shows absolutely no activity. My Health app does show activity and all of the settings are turned on the way they should be except for one place: it’s my understanding that the Fitness app should show as something that can read data from the Health app or vice versa but it’s not there and there’s no way for me to make it turn it on or edit that.",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/applehelp/comments/1so5g68/health_and_fitness_app_not_in_sync/
+B17-096,chrome,youtube stuttering only on chrome when ambient mode is on.,"i found out that, my youtube  on chrome kept stuttering when the ambient mode is turned on with hardware acceleration off. 
+
+when i turn hardware acceleration on, it doesnt stutter as much with ambient mode on. it only stutters like crazy when something else running in the background like settings, or a game.
+
+this only happens on chrome. i tried edge and it works fine with ambient mode on, no problem.
+
+  
+is there any chance i could have ambient mode on?  without stuttering like hell?. i have yet to find i fix, or find out why this is even happening. 
+
+i recently upgraded my gpu as well, could it be tied to the problem?
+
+specs: 
+
+ryzen 5 5600x
+
+rx-5600xt
+
+16gb ram
+
+windows 11",,title_and_body,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/chrome/comments/1ozin0k/youtube_stuttering_only_on_chrome_when_ambient/
+B17-097,Fedora,Fedora crashes with newer 6.19 kernel and KDE plasma Wayland,"I have just installed Fedora 43 a couple of days ago, and now I have an issue that's really annoying me,   
+After a clean install, I installed the Nvidia drivers following the official guide and documentation, everything seem to work just fine, but after running DNF update, which updated the kernel  and KDE Plasma, now every time after a restart that I try to log in with my second monitor connected to my laptop, the whole Desktop crashes, and I am sent back to the log in screen,   
+My only workarounds so far have been, installing KDE x11 on kernel 6.19 or, start the system with kernel 6.17.1 and use Wayland, but the NVIDIA graphics are missing.",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/Fedora/comments/1s15nvr/fedora_crashes_with_newer_619_kernel_and_kde/
+B17-098,sysadmin,Ancient SMB share failing after new Domain Controllers,"Recently updated my Domain controllers from server 2022 to 2025, checked for issues then upgraded the DFL/FFL to 2025. We're only a small org:
+
+After the upgrade, turns out we have an ancient SAN running a mapped drive for some users. It's an old Dell Celerra running an SMB share. Since the upgrade users can't connect to the share any more.
+
+\&gt;I've enabled SMBv1 on both DCs &amp; rebooted  
+\&gt;DNS resolution works fine. DCDIAG DNS tests report clean &amp; replication clean  
+\&gt;I can resolve/ping the file share by hostname.  
+\&gt;NTP matches for DCs &amp; the SAN  
+\&gt;As a temporary troubleshooting measure I've allowed all Kerberos encryption versions on DC  
+\&gt;DCs don't have a duplicate SID  
+\&gt;No issues anywhere else in the domain with any other services.  
+\&gt;LDAP between the SAN &amp; DCs is working fine. Just SMB
+
+Clients who haven't rebooted yet after the upgrade can still access it fine. Make changes to documents etc.
+
+Stumped as to what I need to do to get it working again.",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/sysadmin/comments/1s4eaw4/ancient_smb_share_failing_after_new_domain/
+B17-099,chrome,"""Your browser is managed by your organization"" issue","My wife's chromebook updated her chrome browser approximately 25 minutes ago. When it came back online, she noticed that it had forced her onto a yahoo search page as her default startup as well as the default for new tabs. I did a bit of poking around and found that chrome now states ""Your browser is managed by your organization"". 
+
+This is her personal computer, we bought it new and she has been using it for a while, and she own's her own business so her accounts should not be linked to any controlling organizations.
+
+I went into settings to change the search engine and found that I was unable to do so due to the browser's current status of being managed by her ""organization"", whatever that may be.
+
+How do I rectify this? Do I need to reinstall chrome entirely, or should I just switch her to firefox or something else at this point?",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/chrome/comments/1sbqwvc/your_browser_is_managed_by_your_organization_issue/
+B17-100,chrome,Chrome just wont work on my S24,"After the recent update i suppose or some inherent reason the chrome on my s24 became unbelievably slow. I just hate it i cant believe. Idk  What went wrong and how to fix it.  I have cleared all tabs ,cache and data.. but still its same.  it lag a bit when i tap on search bar and takes a while to load even a simple website","[1:reply] Thank you for your submission to /r/Chrome! We hope you'll find the help you need. Once you've found a solution to your issue, please comment ""**!solved**"" under this comment to mark the post as solved. Thanks!
+
+
+*I am a bot, and this action was performed automatically. Please […",title_body_comments,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/chrome/comments/1u65flu/chrome_just_wont_work_on_my_s24/

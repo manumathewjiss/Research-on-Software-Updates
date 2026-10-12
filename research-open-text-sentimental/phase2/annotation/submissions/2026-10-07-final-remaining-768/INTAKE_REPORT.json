@@ -1,0 +1,21 @@
+{
+  "imported_utc": "2026-10-07T16:08:42.212924+00:00",
+  "reviewed_workbook": "Phase2_Final_Remaining_768_Reviewed.xlsx",
+  "sha256": "ef9663bde01fe01afbda2664495cb00c85be544c57eb12dd1e4d60380427a06c",
+  "new_post_decisions": {
+    "revise": 198,
+    "accept": 564
+  },
+  "revisited_decisions": {
+    "still_uncertain": 5,
+    "resolved": 1
+  },
+  "unresolved_ids": [
+    "B2-027",
+    "B5-018",
+    "B5-081",
+    "B6-003",
+    "B8-036"
+  ],
+  "note": "The completed workbook is preserved. These are assisted review decisions, not independent blinded annotations."
+}

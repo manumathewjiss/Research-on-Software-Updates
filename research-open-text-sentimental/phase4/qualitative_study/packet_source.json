@@ -1,0 +1,218 @@
+[
+  {
+    "cohort": "main",
+    "study_case_id": "Q001",
+    "title": "MacOS 26.4: Windows keep going full-screen",
+    "post_body": "Just upgraded from 15.7.4 to 26.4 and everything's fine, except for how my Microsoft OneNote and Word windows keep expanding to full-screen on their own every two seconds. Google Chrome and other apps do not seem to have this issue. Anyone experiencing the same thing? SOS."
+  },
+  {
+    "cohort": "main",
+    "study_case_id": "Q002",
+    "title": "Update from HA 2026.2.3 to 2026.4.3 - many pages unaccessible",
+    "post_body": "I've just updated my Pi 4b from HAOS 2026.2.3 to the latest version. The restart seemed fine and I can see and access my default dashboard and all items. ZigBee2MQTT and HACS are running fine and I only got 3 messages that automations needed to be amended. So far so good.\n\nHowever, when I go to various menu items, I only get error messages like \"error whole loading page xyz\". This happens for many pages including integrations, dashboards, logbook, Lovelace, voice-assistants, etc. Even the automations page is empty although the search field says I have 41. The worst issue for me is that I cannot access backups my page anymore. So despite having a full backup from a few hours ago and a fresh backup when I updated to the latest HA, I cannot access it.\n\nI have a feeling that this is just a small config issue that prevents all these files from being loaded. But I am not a Linux guy. Does anyone of you have an idea how to make the apparently still present pages visible again?\n\nAlternatively, I should be able to access the backups via SSH but I don't know the commands to use to restore the latest backup. Please help!"
+  },
+  {
+    "cohort": "main",
+    "study_case_id": "Q003",
+    "title": "Screenshots are very dark for some reason",
+    "post_body": "I just updated to ios26 (not beta) and my screenshots of pictures I take are extremely dark, I have HDR on and went through almost everything. Its weird cause if I screenshot the screenshot its not dark anymore, so it seems like screenshotting the iphone taken picture corrupts it somehow"
+  },
+  {
+    "cohort": "main",
+    "study_case_id": "Q004",
+    "title": "VS Code does not start after today's update",
+    "post_body": "I started the VS Code this morning and it asked me to give permission to update. So I gave it a go. Then it locked my computer and I had to do a reboot. Guess it messed up VS Code and it does not start anymore.\n\nCan someone please suggest how I can debug it? Thanks."
+  },
+  {
+    "cohort": "main",
+    "study_case_id": "Q005",
+    "title": "iOS 26.2.1 - microphone bug again",
+    "post_body": "Orange microphone dot on the dynamic island won’t go away after iOS update last night. All microphone permissions are turned off, voice control is turned off, Siri is turned off, vocal shortcuts, live speech, etc. All off. This happened a few weeks ago with the last update. Eventually I looked at it and noticed an orange line around the island that allowed me to long press and open up something that looked like an app but was just a black screen and then swipe it away to close it. But no idea how that happened. Anyone else having this issue?"
+  },
+  {
+    "cohort": "main",
+    "study_case_id": "Q006",
+    "title": "chrome crashing on bootup",
+    "post_body": "hey whats up\n\nive been encountering a really weird bug after this latest chrome update. it crashes almost immediately when i open it but works perfectly fine in incognito mode. it's super annoying and i've already sent 1000 reports to apple. any advice?"
+  },
+  {
+    "cohort": "main",
+    "study_case_id": "Q007",
+    "title": "FF 145 title bar not displayed (Windows)",
+    "post_body": "Firefox 145 (release version, not beta/developer) is available. Upon upgrading, I noticed that the title bar (at least in Windows) is gone. It's also annoying not to have window controls (minimize, resize/restore, close) available.\n\nPeople who don't display the title bar by default won't (I think) see a problem. For people who (like me) do, there is a fix (or two).\n\n 1. You can customize the toolbar (right-click in the tab bar or menu bar (if you have it enabled) to turn off the title bar. The window controls will appear in the tab bar (or menu bar, if that's enabled). Re-enabling the title bar restores the title bar, but only for the current session.\n 2. Turn off the title bar and leave it off (at least until the bug is patched).\n\nHTH"
+  },
+  {
+    "cohort": "main",
+    "study_case_id": "Q008",
+    "title": "Updated my iPhone 7 to iOS 15.8.7 and now home button is dead",
+    "post_body": "So I updated my iPhone 7 to the newest iOS 15.8.7, and after that my home button just stopped working...\n\nEven weirder, AssistiveTouch turned on automatically by itself. I didn’t enable it manually.\n\nI already tried erasing all content and settings, then restored the phone from backup, but it didn’t help at all.\n\n\n\nNow I’m trying to understand what exactly happened:\n\n\\-did the update somehow kill the home button?  \n\\-was the button already dying and the update just finished it off?  \n\\- or is there any way to fix this without repair?\n\n\n\nHas anyone had the same thing happen on iPhone 7 after updating? Did anything help?  \nThx in advance"
+  },
+  {
+    "cohort": "main",
+    "study_case_id": "Q009",
+    "title": "Weird issue: Windows 11 build 26200.8457 trying to download and install 26100.8246 update",
+    "post_body": "Not sure what's going on, it keeps trying to download and install KB5083769(26100.8246). The computer is on 26200 build and with the latest May security update.  And then run into error. Anyone else has seen this kind of issue?"
+  },
+  {
+    "cohort": "main",
+    "study_case_id": "Q010",
+    "title": "iPhone 11 completely dead after iOS update no Apple logo, no DFU, not detected by pc",
+    "post_body": "My iPhone 11 completely dead after installing an iOS update and I’m trying to understand whether this is a software brick or a hardware failure.\n\nHere is the exact sequence of events:\n\n\\&gt; iOS update (26.3.1) appeared and I started installing it.  \n\\&gt; During the update the phone restarted several times.  \n\\&gt; Eventually it booted normally and I entered my passcode.  \n\\&gt; I reached the home screen and even opened Instagram.  \n\\&gt; Suddenly the screen turned black (the backlight seemed on for a few seconds), then it shut off completely.\n\nSince that moment the phone will not turn on at all.\n\nThings I have already tried:\n\n\\- Force restart  \n\\- Multiple attempts to enter Recovery / DFU mode  \n\\- Charging with cable for several hours  \n\\- Wireless charging (phone warms up for a bit then cools down)  \n\\- Connecting to a computer (not detected in Finder/iTunes or Device Manager)  \n\\- Disconnecting and reconnecting the battery internally to force a power reset\n\nHas anyone seen this exact behavior on an iPhone 11 or any iPhone after an update?  \nIs there anything else worth trying before assuming it’s a board-level hardware issue?"
+  },
+  {
+    "cohort": "main",
+    "study_case_id": "Q011",
+    "title": "ZFS rewrite not working as intended?",
+    "post_body": "Hi! \n\nI have upgraded to the new Truenas 25.10 version, partly because I wanted to use the new ZFS rewrite command. Mostly because I recently went from three to four drives, and all the old files are in need of rebalancing. \n\nI am however running into some issues. Mainly that it doesn't seem to be destributing the blocks correctly? Before running the command files take up around 80 percent of the files size on disk as reported by windows. I know that it isn't actually how that works and it is just a \"visual\" \"bug\" of ZFS expansion, but it is a fine indicator, right? \n\nWell anyway, after running the script it now takes up 100% of the space. As in, it now takes up more space on the drives. Space usage in the truenas webui also reports as increasing. \nIf I instead run one of the scripts that rebalances things \"manually\" it works just fine, and the space on disk is reduced. \n\nAm I misunderstanding something? Ideally it should take up less space after running the command, right? \n\nTLDR: After zfs rewrite files take up more space on disk. Why? \n\nThis is the command I run:\nzfs rewrite -rvx [path] \n\nThanks in advance!"
+  },
+  {
+    "cohort": "main",
+    "study_case_id": "Q012",
+    "title": "Framework 12 on Fedora 44: How to make screen autorotate work correctly again",
+    "post_body": "After updating my FW12 to Fedora 44, the screen auto-rotated always, not just in tablet mode but also in normal laptop mode, when it shouldn't auto-rotate.\n\nThe reason was that some drivers weren't loaded early enough for the kernel to register them correctly on startup, so the events for switching between tablet mode and laptop mode weren't properly registered.\n\nHere's how to fix it:\n\n    $ sudo nano /etc/dracut.conf.d/fw12-tablet-mode.conf\n\nCreate the file with this line:\n\n    force_drivers+=\" pinctrl_tigerlake soc_button_array \"\n\nThen regenerate your initramfs:\n\n    $ sudo dracut -f --regenerate-all -v\n\n(I added the -v there so I could see what's going on, I first thought it didn't work, because all I saw was a blinking cursor for a minute, in verbose mode I could follow along and see that it was actively doing something)\n\nI can't really be bothered to send this to Framework or Fedora or someone to fix this upstream for everyone - given that I already debugged it &amp; found a/the solution, maybe someone else can put the work in to pass this along?"
+  },
+  {
+    "cohort": "main",
+    "study_case_id": "Q013",
+    "title": "Qt/Plasma 6 themes broken after upgrading to Debian 14 Forky",
+    "post_body": "I just upgraded my system from Debian Trixie to Debian 14 Forky (Testing) with Nvidia drivers installed. The base system updated successfully and I'm now running KDE Plasma 6.6.5. However, the Qt theme engine is completely broken. Even though I have the Breeze theme installed and applied in System Settings, all Qt applications and system dialogs are stuck rendering in a basic fallback/retro style.\n\nThe settings tool claims Breeze is applied, but the actual UI rendering refuses to hook into the KDE platform theme backend.\n\nHow can i fix this, please help i already tried resetting themes."
+  },
+  {
+    "cohort": "main",
+    "study_case_id": "Q014",
+    "title": "Teampass upgrade to 3.2.0.2",
+    "post_body": "After upgrading all server passwords are saying \"password is empty\", when I look at the mysql db it states I have over 3000 in it. Have same sk.php file and security key text file, has anyone ran into this? TIA!"
+  },
+  {
+    "cohort": "main",
+    "study_case_id": "Q015",
+    "title": "Kile Segmentation fault on Fedora 44",
+    "post_body": "I haven't been able to open Kile the last couple days. I think it might've been after I updated my system, but I'm not sure (I didn't test directly after, and noticed it only recently). When trying to run Kile, it always just segmentation faults.\n\n    user@fedora:~$ kile\n    KCrash: Application 'kile' crashing... crashRecursionCounter = 2\n    Segmentation fault         (core dumped) kile\n\nI've tried reinstalling Kile, but it didn't work. Since everything was up to date, I figured it was a bug in Kile itself, but a fresh Fedora 44 VM doesn't have the same issue, so I don't think that's it. I've deleted all configs that I can think of, but it still does not solve the issue. In my desperation I tried to use a debugger and backtrace, which mentioned Okular, so I tried reinstlaling that too, but that also didn't work.\n\nAny suggestions?"
+  },
+  {
+    "cohort": "main",
+    "study_case_id": "Q016",
+    "title": "AMD Issues with latest kernel",
+    "post_body": "I need some help, trying to narrow down my issue. Since the last kernel update on Debian 13 6.12.95 my monitor will not power down, I have it set to turn off screen at 45 minutes, when the screen turns off it doesn't actually turn off, it seems as if it is constantly getting a signal from my graphics card, it goes blank but then is backlit so it never powers down. Troubleshooting it I connected my DP cable to the onboard Intel graphics and it my monitor powers off fine. I tried 2 different AMD cards 550/6400 and they both have the same issue. \n\nMay or may not be related, since the kernel update when my pc boots I get the error \"Failed to start systemd-sysctl.service - Apply Kernel Variables\", the line shows up 3 times then the pc boots fine. I'm assuming it's related and not sure where to go here in resovling this.\n\nAny insight would be grateful."
+  },
+  {
+    "cohort": "main",
+    "study_case_id": "Q017",
+    "title": "Wordpress auto-updated for the first time despite auto-update not being enabled?",
+    "post_body": "Hello, \n\nI need your help. A suddenly got a new core wordpress update, despite it not being enabled in the Updates Dashboard. This has never happened before. \n\nMy thought was some sort of security update, since they can't be disabled in Update Dashboard, but I am not sure. Activity Log and Wordfence log seem to be without a problem.\n\nAs I understand, this can happen, I did not check wpconfig for AUTOMATIC\\_UPDATER\\_DISABLED yet. So, is this a thing that just happens? \n\nThank you very much"
+  },
+  {
+    "cohort": "main",
+    "study_case_id": "Q018",
+    "title": "After running sudo apt upgrade today, I can't access mysql server",
+    "post_body": "Did a run of sudo apt update &amp;&amp; sudo apt upgrade today on my Ubuntu 24.04.4 LTS laptop. Suddenly I can't access my mysql server. If I run `systemctl status mysql` I get:\n\n\n\n    Loaded: loaded (/usr/lib/systemd/system/mysql.service; enabled; preset: enabled)\n         Active: activating (start) since Thu 2026-04-02 13:59:27 EDT; 1s ago\n        Process: 18081 ExecStartPre=/usr/share/mysql/mysql-systemd-start pre (code=exited, status=0/SUCCESS)\n       Main PID: 18089 (mysqld)\n         Status: \"Server startup in progress\"\n          Tasks: 27 (limit: 9296)\n         Memory: 361.7M (peak: 381.7M)\n            CPU: 676ms\n         CGroup: /system.slice/mysql.service\n                 └─18089 /usr/sbin/mysqld\n    \n\nIf I enter mysql -u root -p and enter the password I get the following:\n\n\\`ERROR 2002 (HY000): Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock'\\`\n\n  \nNot sure what to try next. it's been running smoothly for years."
+  },
+  {
+    "cohort": "main",
+    "study_case_id": "Q019",
+    "title": "VScode terminal broken after last update (Cant escape in terminal)",
+    "post_body": "In the most recent update to VScode, they have introduced something related to Kitty Keyboard Protocol which I think has broken the terminal escape when you press CTRL + C or when you press Spacebar when using \\`npx npm-check\\`. When you press CTRL+C you just get a printed character: \\^\\[\\[99;5u\n\nThe fix i have is to add this to user JSON file but can someone explain why they introduced this forced behaviour? Is it a bug?\n\n    \"terminal.integrated.enableKittyKeyboardProtocol\": false,\"terminal.integrated.enableKittyKeyboardProtocol\": false,"
+  },
+  {
+    "cohort": "main",
+    "study_case_id": "Q020",
+    "title": "Navigation bar color changes with websites (Android)",
+    "post_body": "Is anyone having this issue? The navigation bar would always be black before but now it now adapts to white when visiting pages like wikipedia, ao3, etc. Furthermore, and this is really what's been bugging me, but when you bookmark a page, the navigation bar would go from black to white and then back to black after the bookmark tab disappears. This only started when I updated to the latest chrome update."
+  },
+  {
+    "cohort": "main",
+    "study_case_id": "Q021",
+    "title": "Home Assistant Core seems not so \"core\" - how do you decide when to upgrade?",
+    "post_body": "I see the notification that Home Assistant Core version 2026.5.4 is out.  I wonder if I should upgrade from the version I have installed.  I go look at the full list of changes.  Oh my goodness, there's 1436 changes in 2026.5.\n\nAs I scan the list, nearly all of them are for specific devices or integrations that I've never even heard of, much less have deployed and I decide that it's hopeless to see whether there's anything in that list that might actually matter to my installation.  So, I decide that I'd rather not take a new version that I may not need.  A previous new version install broke things for a little while until I figured out what else had to be updated simultaneously (due to a breaking change) and that took awhile to figure out.  So, now I'm not automatic for new versions.\n\nIs this just the way Home Assistant Core is architected?  Core has to take fixes for individual devices such as codes for a Miele dishwasher or something to do with a Lutron Caseta battery sensor (just to name a couple).\n\nHow do you all decide when to upgrade?  I think I'm trending toward the \"if it ain't broke, don't fix it\" theme."
+  },
+  {
+    "cohort": "main",
+    "study_case_id": "Q022",
+    "title": "Any risk updating to Fedora 44 two days early on AMD hardware?",
+    "post_body": "Hello! I am wondering if there's any issues with Gnome 50 on the current Fedora 44. I heard they paused updates until release but I also heard all major blocker bugs are solved. \n\nI have an AMD 5800X3D &amp; a AMD 7900 XTX.\n\nI did try updating 2 weeks ago, everything ran ok other than getting 3 startup warnings in logs.\n\n2 were related to tpm udev rules i think, they stated \"failed to resolve group 'tss'\"\n\nThe other was firefox.\n\nI don't rely on many exentions and all of the ones I do use are already updated for gnome 50. \n\nShould I just wait?\n\nOr are the logs something I can ignore?\n\nImage of errors:\n\n[https://imgur.com/KY77E9O](https://imgur.com/KY77E9O)\n\nI'm thinking its all harmless? I can avoid firefox if need be."
+  },
+  {
+    "cohort": "main",
+    "study_case_id": "Q023",
+    "title": "Samsung has the most frustrating UX I've ever had",
+    "post_body": "I just got the latest update and it broke a ton of my settings. I go into the settings app and they stripped out half of everything. It is INFURIATING how bad this is, like they are purposely trying to make the UI as shit as possible and not let users fix it themselves\n\nI'm on Galaxy A 35, One UI 8.0, Android 16\n\nNow I can't remove things from the top-screen \"panel\", it only lets you move around things that are an absolute waste of space. I have to use 3 swipes instead of 2 to see all of the actually useful content because heaven forbid I get rid of some of the other trash on there.\n\nNone of my apps can go into fullscreen mode either without the bottom nav bar overlaying them! Before they worked seamlessly, changing the nav bar setting from \"always on\" to \"hidden\" when in full-screen mode. Nope! That was too convenient for samsung I guess!\n\nNaturally they have like 5 apps that you cannot turn off the notifications for or disable/uninstall, even if you have no use for them. So get ready for basically ads for the samsung apps every other day as they tell you to turn on syncing, etc. Wtf\n\nAnd many more small but cumulative issues. Seriously \\*\\*\\*\\* samsung this is the most frustrating UX I've ever had with a phone"
+  },
+  {
+    "cohort": "main",
+    "study_case_id": "Q024",
+    "title": "Whatsapp on PC sucks?",
+    "post_body": "After the recent whatsap update on PC, it just plainly sucks! It's so laggy, not at all responsive and weird. I use it a lot and now I'm so frustrated"
+  },
+  {
+    "cohort": "main",
+    "study_case_id": "Q025",
+    "title": "OpenCode's new tab-based UI makes multitasking so much easier",
+    "post_body": "I just updated to OpenCode v1.18, and the new Desktop v2 experience has been a pleasant surprise.\n\nThe standout feature for me is the new tab-based interface. I can keep separate chats open for different tasks, switch between them without losing context, and rename tabs to stay organized. It feels much more natural, especially when juggling multiple projects or debugging different issues at the same time.\n\nI also noticed that the app feels faster to launch, the new onboarding is well done, and the overall UI looks much cleaner and more polished. It's nice that the team also included an option to switch back to the old layout during the transition if anyone prefers it.\n\nI've attached a couple of screenshots of the new interface.\n\nHas anyone else updated yet? What's your experience been like with the new tabs? Do you prefer this layout over the previous one? I'd love to hear what everyone thinks."
+  },
+  {
+    "cohort": "main",
+    "study_case_id": "Q026",
+    "title": "is the MS M365 July patch switching SAC clients to MEC",
+    "post_body": "Had a few machines in a test patch group be upgraded to version 2606 and checking Account/About it now shows as monthly enterprise channel. On these machines the M365 apps install was installed using the Semi annual channel. I found [https://learn.microsoft.com/en-us/microsoft-365-apps/updates/unified-update-channels](https://learn.microsoft.com/en-us/microsoft-365-apps/updates/unified-update-channels) which suggests the SAC channel is being merged into MEC but i was under the impression it was only for new installs for example you cant select that channel when building a configuration.xml. The update from SAC to MEC is causing us issues as part of the update its also updating the C++ 2015-2022 Redistributables for X64 and X86 to latest version and breaking applications. Anyone seeing the same ?"
+  },
+  {
+    "cohort": "main",
+    "study_case_id": "Q027",
+    "title": "What belongs in a preflight and rollback checklist for a major OpenWrt upgrade?",
+    "post_body": "A configuration backup is important, but it does not capture every reason an upgrade can fail. Custom feeds, renamed packages, opkg-to-apk changes, a resized root filesystem, device-specific partition behavior, and services that depend on extra files can all make a preserved \\`/etc/config\\` incomplete. A router may also appear healthy while VLANs, guest isolation, VPN routes, DDNS, multicast discovery, or rarely used firewall rules are broken.\n\nA stronger preflight could record the exact image and target, partition layout, installed package list, custom feeds, overlay files, interface and firewall state, and an off-device backup. On x86, a full disk image may be worth keeping. After upgrade, validation would cover WAN authentication, DNS and DHCP, every VLAN and SSID, WireGuard or other tunnels, port forwards, SQM, IPv6, scheduled jobs, and recovery access before the old image is discarded.\n\nWhat do you verify before and after a major version jump? Do you rehearse a clean restore from the sysupgrade archive, keep a spare router or boot medium, or prefer rebuilding from documented UCI commands instead of carrying configuration forward?"
+  },
+  {
+    "cohort": "main",
+    "study_case_id": "Q028",
+    "title": "Chrome Android update (April 24) just ruined my tab groups order.",
+    "post_body": "\\*I'm based in the Netherlands (Europe).\\*\n\nAbsolute a stupid update. My layout is completely destroyed on my Samsung Galaxy A52.\n\n\n​Just before 1 AM tonight April 25th (Saturday night), I noticed that all my \"tab groups\" were ripped out of my normal tabs order and shoved into a separate \"tab group\" menu. My chronological order while using chrome and last openend etc is ruined.\n\nSetting ignored: \"Inactive tabs\" is set to NEVER, yet Chrome still moved and shuffled them.\n\nAll previews are black/grey on the tabs. It’s unusable for anyone who keeps tabs organized. \n\nAnybody got this problem too? Google Chrome did something similair to this but that with al tabs in february 2025. Shoving not recent used ones back.\n\nIs it fixable?"
+  },
+  {
+    "cohort": "main",
+    "study_case_id": "Q029",
+    "title": "Fk the new iPhone keyboard update",
+    "post_body": "So I thought I was going crazy but apparently Apple did sneak in a keyboard update and coming from one of the top 50 fastest iPhone typers in the world it’s infuriating😡🤬😤it’s like I’m holding a phone for the first time FK this update \\*Fix The Gddm Backspace\\* or better yet why fix what’s not broken, the one thing not broken on these phones… just run it back to the og. Somethingbthisnsmall becomes the straw that breaks the back💯"
+  },
+  {
+    "cohort": "main",
+    "study_case_id": "Q030",
+    "title": "Latest Honeywell T10+ Pro Thermostat Firmware",
+    "post_body": "Can anyone confirm what the latest firmware version or build date is for the Honeywell T10+ Pro thermostat?  Mine is currently on 03.03.08.02 (Collection/Application Version) with a build date of June 26, 2024.  Is that the latest version?  It's a newly installed thermostat so I'm not sure if that is the latest version or if I just need to wait a few days for it to update itself automatically."
+  },
+  {
+    "cohort": "pilot",
+    "study_case_id": "P001",
+    "title": "MacOS 26 - Safari Tabs flickering",
+    "post_body": "Hi guys,\n\nso ever since i‘ve updated my MacBook to MacOs 26, all of my Safari tabs keep flickering all the time. \n\nOn 26.4 but also on precious Tahoe versions.\n\nDo you have any advice for me on how to fix that?\n\nThanks 🌞\n\nPs. Sometimes the same effects even occurs on the corners of my Dock.\n\nSpecs:\n\n2019 A2141 16‘‘ MacBook Pro\n\n2,4Ghz Intel i9\n\nAMD 5600M Pro\n\n64GB Ram\n\n4TB SSD\n\nMacOs 26.4\n\nSafari Version 26.4"
+  },
+  {
+    "cohort": "pilot",
+    "study_case_id": "P002",
+    "title": "Discord broke from RPM Fusion",
+    "post_body": "So I noticed discord broke for me when i updated today. Said the bin file was missing. So went looking in the bin folder and seemed to be changed from Discord to discord. I had to manually change the icon to point to usr/bin/discord not usr/bin/Discord. Was not sure if other experienced so figured i would post how to fix."
+  },
+  {
+    "cohort": "pilot",
+    "study_case_id": "P003",
+    "title": "“This connection is not private” on every site after updating iOS.",
+    "post_body": "Recently updated from IOS 16 to IOS 18.7.8 on an iPhone 11.\n\nCleared so many of my photos to free up space so I can update my iOS and now I’m having a bunch of issues specifically I think to do with certificates or something on websites?\n\nNearly every website I visit, apple, Wikipedia, eBay, it doesn’t matter I get the same error:\n\n“This Connection Is Not Private  \nThis website may be impersonating  \n\"www.ebay.com\" to steal your personal or financial information. You should go back to the previous page.”\n\nWhen I view the certificate for the above it shows: Not trusted in red and then Expires: 07/11/2026, 7:59:59 PM\n\nThen the worst part is my eBay app doesn’t even work anymore. Nothing won’t load on it. It tries to load for a while and then throws this error:  \n“Error (NSURLErrorDomain)  \nAn SSL error has occurred and a secure connection to the server cannot be made. (-1200)”\n\nAnyone know how I can fix this?\n\nThings I’ve tried: Reset all Settings, Reset Network Settings, Restarted the phone, Cleared browsing history and data, Tried different Browsers (Same error), deleted the eBay app and downloaded again, Made sure date and time is set correct.\n\nEDIT: MANGED TO FIX IT! Here’s what I did: \n\n1. Toggled off and on “Set Automatically” in Settings &gt; General &gt; Date and Time.\n\n2. Toggled off and on “Location Services” in Settings &gt; Privacy &amp; Security &gt; Location Services. \n\n3. Soft Reset iPhone: \n\nFor modern iPhones (iPhone 8, iPhone X, and newer models):\n\n• Press and quickly release the Volume Up button.\n\n• Press and quickly release the Volume Down button.\n\n• Press and hold the Side button (power button) until your screen goes dark and the Apple logo appears.\n\n• Let go of the power button when the apple logo appears. \n\nHope this helps someone in the future."
+  },
+  {
+    "cohort": "pilot",
+    "study_case_id": "P004",
+    "title": "OS upgrade",
+    "post_body": "Hey everyone,\n\nI have a Windows 11 21H2 VM that is already out of support, and I am planning to upgrade it to 23H2 or 24H2. I am looking for some community input on the best way to handle this since Windows Update isn’t offering the upgrade.\n\n**My Setup:**\n\n* Virtual Machine (not physical).\n* Goal: In-place upgrade (keeping all apps and data).\n* Current roadblock: Windows Update is not working/offering the new version.\n\n**I am currently considering:**\n\n1. Mounting the ISO and running setup.exe\n2. Using the Windows Installation Assistant.\n3. Clean install (as a last resort).\n\n**A few questions for those who have done this:**\n\n* Which method worked most reliably for you in a VM environment?\n* Did you run into issues with drivers, VM tools, or compatibility?\n* Did you need to bypass TPM/Secure Boot checks for the VM?\n* Any \"gotchas\" I should check before I start?\n\nI would really appreciate any tips, especially from anyone managing multiple VMs in an enterprise environment. TIA!"
+  },
+  {
+    "cohort": "pilot",
+    "study_case_id": "P005",
+    "title": "Finally updated my kernel today",
+    "post_body": "got around to updating my kernel today. Everything seems to be running smoothly so far,Went a lot smoother than I expected.On mint I've been dealing with a weird keyboard and mouse issue for quite a while and tried a bunch of different fixes with no luck.But switching to zorin solved the issue for now."
+  },
+  {
+    "cohort": "pilot",
+    "study_case_id": "P006",
+    "title": "Will there be an automatic iOS update if I ‘Erase All Content and Settings’?",
+    "post_body": "For some context: I’m on iOS v. 18.7.7. I have my automatic iOS updates turned off, and I really hate the look of the newest update 26.5 and I’d like to do anything to avoid updating.\n\nThis morning when instagram crashed (wtf right) I had my own mini crash out myself. First thinking it was my phone, then my computer, then the app, then I was hacked, etc etc etc. I updated the instagram app and I hate it.\n\nAs you can probably tell, I’m not good with how quickly technology changes.\n\nMy last iCloud update was at 2:39 a.m. What I’d like to do is restore my device to the latest iCloud backup without compromising my current iOS. I’d like to do this for the sole purpose of reverting my instagram to what it was before I updated the app.\n\nIs this possible? Should I be Erasing All Content and Settings, then restoring today’s backup through wifi? Any suggestions, tips or advice would be sincerely appreciated."
+  }
+]

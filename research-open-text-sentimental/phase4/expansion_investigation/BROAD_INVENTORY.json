@@ -1,0 +1,350 @@
+{
+  "started_utc": "2026-10-08T19:30:40.053995+00:00",
+  "finished_utc": "2026-10-08T19:32:01.158475+00:00",
+  "endpoint": "https://releasetrain.io/api/reddit/query/update-related",
+  "query": {
+    "limit": 500,
+    "page": "1..n"
+  },
+  "first_reported_total": 21813,
+  "pages": [
+    {
+      "page": 1,
+      "n": 500,
+      "reported_total": 21813,
+      "sha256": "eeb24637bbf150843d5f7e37cc83dd6390da8a3bdf40cccf2ceb451e2f181dfe",
+      "server_date": "Thu, 08 Oct 2026 19:30:41 GMT"
+    },
+    {
+      "page": 2,
+      "n": 500,
+      "reported_total": 21813,
+      "sha256": "c68bc93789d7494838eac14cce9e393a834e7039204a55f2948428c2387b05b7",
+      "server_date": "Thu, 08 Oct 2026 19:30:45 GMT"
+    },
+    {
+      "page": 3,
+      "n": 500,
+      "reported_total": 21813,
+      "sha256": "fe68f7d9fcf060e53c9d97d822cffb2adf0f19ef8de4936d545c337a884c65ce",
+      "server_date": "Thu, 08 Oct 2026 19:30:45 GMT"
+    },
+    {
+      "page": 4,
+      "n": 500,
+      "reported_total": 21813,
+      "sha256": "6239bbda6be9b4a71ce279eded3509f4f01c4da15d3f1d834a2304227c32f748",
+      "server_date": "Thu, 08 Oct 2026 19:30:45 GMT"
+    },
+    {
+      "page": 5,
+      "n": 500,
+      "reported_total": 21813,
+      "sha256": "1f9cb7116bf0ee7a312b5f14a3e591a741cccba85e961e0fb0289151dffbc4be",
+      "server_date": "Thu, 08 Oct 2026 19:30:45 GMT"
+    },
+    {
+      "page": 6,
+      "n": 500,
+      "reported_total": 21813,
+      "sha256": "d2d95516f7fc4b5846e4c93d691c521f7ca4516c119cc17848d1d5b832ca46cf",
+      "server_date": "Thu, 08 Oct 2026 19:30:45 GMT"
+    },
+    {
+      "page": 7,
+      "n": 500,
+      "reported_total": 21813,
+      "sha256": "996c4d05bc2d1e34c323e2bb9db4c3d1c4f0fdc95ed4b6772353ee89e2a7faad",
+      "server_date": "Thu, 08 Oct 2026 19:30:49 GMT"
+    },
+    {
+      "page": 8,
+      "n": 500,
+      "reported_total": 21813,
+      "sha256": "3342c793b071aade3b746e0e63a87e2380fd3d45b307613c2049c8a25829832c",
+      "server_date": "Thu, 08 Oct 2026 19:30:49 GMT"
+    },
+    {
+      "page": 9,
+      "n": 500,
+      "reported_total": 21813,
+      "sha256": "8e2262a4175838a33602c5594bfe877b5040df549d94e98d68ea1f897c739982",
+      "server_date": "Thu, 08 Oct 2026 19:30:50 GMT"
+    },
+    {
+      "page": 10,
+      "n": 500,
+      "reported_total": 21813,
+      "sha256": "3f7876f667f914d3209792dabda4f050d614bd5ffff50615d34ca48c66bafe2f",
+      "server_date": "Thu, 08 Oct 2026 19:30:56 GMT"
+    },
+    {
+      "page": 11,
+      "n": 500,
+      "reported_total": 21814,
+      "sha256": "90522e7fe676e2b0cefef36159325448cc4f3fd7dada85dba5899ec948cb2c80",
+      "server_date": "Thu, 08 Oct 2026 19:30:58 GMT"
+    },
+    {
+      "page": 12,
+      "n": 500,
+      "reported_total": 21814,
+      "sha256": "fdaa6010abb4972f0c831cdc1aeebdc5bd7cba87923d0c8500d0e073e3748aa5",
+      "server_date": "Thu, 08 Oct 2026 19:30:59 GMT"
+    },
+    {
+      "page": 13,
+      "n": 500,
+      "reported_total": 21814,
+      "sha256": "6b08d273683e5fe39f885831f5e9eb5bf61605be2cdcf8c1b77c99da823bc06d",
+      "server_date": "Thu, 08 Oct 2026 19:31:03 GMT"
+    },
+    {
+      "page": 14,
+      "n": 500,
+      "reported_total": 21814,
+      "sha256": "39f481dfb8e93ae0c5a41f23565a9be99d6fd62b95126b0c37d765db79b04e46",
+      "server_date": "Thu, 08 Oct 2026 19:31:01 GMT"
+    },
+    {
+      "page": 15,
+      "n": 500,
+      "reported_total": 21814,
+      "sha256": "32cf05d84cec79fc92a55a97dc62f60dc0f18986f99568134e7baf68119bcbdc",
+      "server_date": "Thu, 08 Oct 2026 19:31:03 GMT"
+    },
+    {
+      "page": 16,
+      "n": 500,
+      "reported_total": 21814,
+      "sha256": "2fffaabf1572a1c2e2d1c34299a8a771e4295fbe76a844d8ebda630157096147",
+      "server_date": "Thu, 08 Oct 2026 19:31:04 GMT"
+    },
+    {
+      "page": 17,
+      "n": 500,
+      "reported_total": 21814,
+      "sha256": "33c59ce86dac23518e5470803d7e4ed6517abdbceeaf962dcb04c833ac2f44d6",
+      "server_date": "Thu, 08 Oct 2026 19:31:08 GMT"
+    },
+    {
+      "page": 18,
+      "n": 500,
+      "reported_total": 21814,
+      "sha256": "f8f11b8eacc6ccfc612f4018789e400bbffa18a22d30ab68070e2e328185e2e7",
+      "server_date": "Thu, 08 Oct 2026 19:31:10 GMT"
+    },
+    {
+      "page": 19,
+      "n": 500,
+      "reported_total": 21814,
+      "sha256": "c3436365f96124f33defdd2c7843d66cc9351ecf9cda92a1796ebbf3fcf79f31",
+      "server_date": "Thu, 08 Oct 2026 19:31:13 GMT"
+    },
+    {
+      "page": 20,
+      "n": 500,
+      "reported_total": 21814,
+      "sha256": "4cd354db824255086a0471e47f19817a4b0c548a702ca1e79a471c09d9606b01",
+      "server_date": "Thu, 08 Oct 2026 19:31:14 GMT"
+    },
+    {
+      "page": 21,
+      "n": 500,
+      "reported_total": 21814,
+      "sha256": "c5a1c21802ce7d36911bc29facedbf1f3d1a5e9a42f9c60de863624c339c2a07",
+      "server_date": "Thu, 08 Oct 2026 19:31:15 GMT"
+    },
+    {
+      "page": 22,
+      "n": 500,
+      "reported_total": 21814,
+      "sha256": "10a3ed5e61592c2bc60946bb0f3b48cae589befcef73f92eca3edc795b77a972",
+      "server_date": "Thu, 08 Oct 2026 19:31:16 GMT"
+    },
+    {
+      "page": 23,
+      "n": 500,
+      "reported_total": 21814,
+      "sha256": "76fd74db85ea347cc2737aa88d838b5cd2ffafdb2f3b21ff7c171e65cb0bc00d",
+      "server_date": "Thu, 08 Oct 2026 19:31:17 GMT"
+    },
+    {
+      "page": 24,
+      "n": 500,
+      "reported_total": 21814,
+      "sha256": "be7a4216e3228b02575be7142263e70556be9a6d577bb799e2dcf7a9221ebef8",
+      "server_date": "Thu, 08 Oct 2026 19:31:18 GMT"
+    },
+    {
+      "page": 25,
+      "n": 500,
+      "reported_total": 21814,
+      "sha256": "e9eef544fad18738e49dc99a596465ec63502c12b27380aa90b34cde92b55363",
+      "server_date": "Thu, 08 Oct 2026 19:31:21 GMT"
+    },
+    {
+      "page": 26,
+      "n": 500,
+      "reported_total": 21814,
+      "sha256": "0d2d9f03ad2cb35724d62242e742c3451d21de96ed6649bbd382836880d596df",
+      "server_date": "Thu, 08 Oct 2026 19:31:24 GMT"
+    },
+    {
+      "page": 27,
+      "n": 500,
+      "reported_total": 21814,
+      "sha256": "282080fbb2acf70440a4371daf9d7914f177e4fde0a7632e95a905c02a1222ce",
+      "server_date": "Thu, 08 Oct 2026 19:31:27 GMT"
+    },
+    {
+      "page": 28,
+      "n": 500,
+      "reported_total": 21814,
+      "sha256": "29b3e4a4cfe228c3b788f78318c634e8eff6ba28b3894222c6b900abbd04ab6b",
+      "server_date": "Thu, 08 Oct 2026 19:31:31 GMT"
+    },
+    {
+      "page": 29,
+      "n": 500,
+      "reported_total": 21814,
+      "sha256": "0caae6a04d6328c741e1c129b1ec66995774ce976ddd23cbeb25e68478581aa0",
+      "server_date": "Thu, 08 Oct 2026 19:31:32 GMT"
+    },
+    {
+      "page": 30,
+      "n": 500,
+      "reported_total": 21814,
+      "sha256": "775a1c5fa1abaf0e313fb8a53bb648ca02427f54a8671d92cec38172d801ce94",
+      "server_date": "Thu, 08 Oct 2026 19:31:32 GMT"
+    },
+    {
+      "page": 31,
+      "n": 500,
+      "reported_total": 21814,
+      "sha256": "163b84441c8b858069c8b7c12520d0d9d2eece25ad41ccf88275cdbd5d574d8b",
+      "server_date": "Thu, 08 Oct 2026 19:31:33 GMT"
+    },
+    {
+      "page": 32,
+      "n": 500,
+      "reported_total": 21814,
+      "sha256": "b5e550bd7d606da100726c40b57ded041091a2b11a5cb561c18fb45c97782ada",
+      "server_date": "Thu, 08 Oct 2026 19:31:34 GMT"
+    },
+    {
+      "page": 33,
+      "n": 500,
+      "reported_total": 21814,
+      "sha256": "fe2e4bf7362658c214ac855451a8d0efbba4f958b585b167144b4be2fb89cc2b",
+      "server_date": "Thu, 08 Oct 2026 19:31:36 GMT"
+    },
+    {
+      "page": 34,
+      "n": 500,
+      "reported_total": 21814,
+      "sha256": "9080d85ac9f67a35077b011351efcc6ab821d4f3c96db65840670bda4f7de0ff",
+      "server_date": "Thu, 08 Oct 2026 19:31:39 GMT"
+    },
+    {
+      "page": 35,
+      "n": 500,
+      "reported_total": 21814,
+      "sha256": "72196a4e872cebc7ef9067f42f5327707bb3ee2f9f8119d9bcc1f449646d25b2",
+      "server_date": "Thu, 08 Oct 2026 19:31:40 GMT"
+    },
+    {
+      "page": 36,
+      "n": 500,
+      "reported_total": 21814,
+      "sha256": "56e6a8b9face980fa863deee31429e4c072bdc96bb41b337e4fab9284941fef6",
+      "server_date": "Thu, 08 Oct 2026 19:31:48 GMT"
+    },
+    {
+      "page": 37,
+      "n": 500,
+      "reported_total": 21814,
+      "sha256": "b260f88364fe57dd9fac6e52562f1095e5f0fd51893ae8878e911ec607547abb",
+      "server_date": "Thu, 08 Oct 2026 19:31:49 GMT"
+    },
+    {
+      "page": 38,
+      "n": 500,
+      "reported_total": 21814,
+      "sha256": "d96ebde34f9f82104146fe70c3121ddfda26fef2bf100278d381cc71a5cd3ac0",
+      "server_date": "Thu, 08 Oct 2026 19:31:49 GMT"
+    },
+    {
+      "page": 39,
+      "n": 500,
+      "reported_total": 21814,
+      "sha256": "112499744f3d9e2a16680cb5fc11cbd3d0c6b1d96e401305efb65c23c2092f48",
+      "server_date": "Thu, 08 Oct 2026 19:31:50 GMT"
+    },
+    {
+      "page": 40,
+      "n": 500,
+      "reported_total": 21814,
+      "sha256": "79471f776e9d66d2a7f89ff07f396708c029e0561a5d4470c7701f04b8af7df1",
+      "server_date": "Thu, 08 Oct 2026 19:31:51 GMT"
+    },
+    {
+      "page": 41,
+      "n": 500,
+      "reported_total": 21814,
+      "sha256": "674130eeb10d792e66ac3607a0ce845106f4e0a967186d26450a1036a270e9c8",
+      "server_date": "Thu, 08 Oct 2026 19:31:51 GMT"
+    },
+    {
+      "page": 42,
+      "n": 500,
+      "reported_total": 21814,
+      "sha256": "e1aef3b8029d33d7e55e65a5d3a018c929e57ed2039aa6ce620e85c54387ebd2",
+      "server_date": "Thu, 08 Oct 2026 19:31:54 GMT"
+    },
+    {
+      "page": 43,
+      "n": 500,
+      "reported_total": 21814,
+      "sha256": "4f3df6a36dacf2a73888aceac6396a90f25e89995d0ef75a302c398de61831e0",
+      "server_date": "Thu, 08 Oct 2026 19:31:58 GMT"
+    },
+    {
+      "page": 44,
+      "n": 314,
+      "reported_total": 21814,
+      "sha256": "d7e3f6160fcc987f17205a31553065e4b07b469fcef9f20229a0e2d50384a1a4",
+      "server_date": "Thu, 08 Oct 2026 19:31:59 GMT"
+    }
+  ],
+  "downloaded_rows": 21814,
+  "unique_reddit_ids": 21813,
+  "duplicate_id_rows": 1,
+  "overlap_master_rows": 2832,
+  "overlap_fresh_rows": 499,
+  "unseen_rows": 18483,
+  "sample_seed": 20261008,
+  "sample_n": 200,
+  "sample_rule": "simple random sample from unique IDs absent from Phase 2 master and fresh 500 review",
+  "source_counts": {
+    "reddit": 12893,
+    "stackoverflow": 78,
+    "null": 8793,
+    "serverfault": 50
+  },
+  "predicted_update_counts": {
+    "None": 9592,
+    "False": 8495,
+    "True": 3727
+  },
+  "sample_predicted_update_counts": {
+    "None": 105,
+    "True": 3,
+    "False": 92
+  },
+  "sample_source_counts": {
+    "reddit": 133,
+    "null": 67
+  },
+  "warning": "Dynamic offset pages can shift during collection; verify counts and duplicates. API predictions are not human labels."
+}

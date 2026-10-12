@@ -1,0 +1,1780 @@
+[
+  {
+    "review_id": "U001",
+    "reddit_id": "1tfmuy0",
+    "selection_group_audit_only": "phrase_flagged",
+    "heuristic_flags_audit_only": "update_near_issue,question_near_update",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U002",
+    "reddit_id": "1v3zcq4",
+    "selection_group_audit_only": "phrase_flagged",
+    "heuristic_flags_audit_only": "update_near_issue,question_near_update",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U003",
+    "reddit_id": "1wsg3pa",
+    "selection_group_audit_only": "phrase_flagged",
+    "heuristic_flags_audit_only": "update_near_issue,question_near_update",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U004",
+    "reddit_id": "1uf8tyr",
+    "selection_group_audit_only": "phrase_flagged",
+    "heuristic_flags_audit_only": "after_or_since,update_near_issue",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U005",
+    "reddit_id": "1rxbdb5",
+    "selection_group_audit_only": "random_unflagged",
+    "heuristic_flags_audit_only": "",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U006",
+    "reddit_id": "1u383v0",
+    "selection_group_audit_only": "random_unflagged",
+    "heuristic_flags_audit_only": "",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U007",
+    "reddit_id": "1urq6a6",
+    "selection_group_audit_only": "phrase_flagged",
+    "heuristic_flags_audit_only": "update_near_issue",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U008",
+    "reddit_id": "1vwwod6",
+    "selection_group_audit_only": "phrase_flagged",
+    "heuristic_flags_audit_only": "update_near_issue,question_near_update",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U009",
+    "reddit_id": "1s5n1u1",
+    "selection_group_audit_only": "phrase_flagged",
+    "heuristic_flags_audit_only": "update_near_issue",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U010",
+    "reddit_id": "1r1pa44",
+    "selection_group_audit_only": "phrase_flagged",
+    "heuristic_flags_audit_only": "update_near_issue",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U011",
+    "reddit_id": "1vwj4j1",
+    "selection_group_audit_only": "phrase_flagged",
+    "heuristic_flags_audit_only": "question_near_update",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U012",
+    "reddit_id": "1td1axi",
+    "selection_group_audit_only": "phrase_flagged",
+    "heuristic_flags_audit_only": "question_near_update",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U013",
+    "reddit_id": "1qm3mrc",
+    "selection_group_audit_only": "phrase_flagged",
+    "heuristic_flags_audit_only": "after_or_since",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U014",
+    "reddit_id": "1rv90n7",
+    "selection_group_audit_only": "phrase_flagged",
+    "heuristic_flags_audit_only": "update_near_issue,question_near_update",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U015",
+    "reddit_id": "1n4bo7c",
+    "selection_group_audit_only": "random_unflagged",
+    "heuristic_flags_audit_only": "",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U016",
+    "reddit_id": "1s6qtcl",
+    "selection_group_audit_only": "phrase_flagged",
+    "heuristic_flags_audit_only": "update_near_issue",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U017",
+    "reddit_id": "1s8n2qq",
+    "selection_group_audit_only": "random_unflagged",
+    "heuristic_flags_audit_only": "",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U018",
+    "reddit_id": "1v6vbo4",
+    "selection_group_audit_only": "phrase_flagged",
+    "heuristic_flags_audit_only": "question_near_update",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U019",
+    "reddit_id": "1s7l96c",
+    "selection_group_audit_only": "phrase_flagged",
+    "heuristic_flags_audit_only": "update_near_issue",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U020",
+    "reddit_id": "1tkxavf",
+    "selection_group_audit_only": "phrase_flagged",
+    "heuristic_flags_audit_only": "question_near_update",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U021",
+    "reddit_id": "1tjyk11",
+    "selection_group_audit_only": "phrase_flagged",
+    "heuristic_flags_audit_only": "update_near_issue,question_near_update",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U022",
+    "reddit_id": "1ntlsfy",
+    "selection_group_audit_only": "random_unflagged",
+    "heuristic_flags_audit_only": "",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U023",
+    "reddit_id": "1r6g6vn",
+    "selection_group_audit_only": "phrase_flagged",
+    "heuristic_flags_audit_only": "question_near_update",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U024",
+    "reddit_id": "1v06pal",
+    "selection_group_audit_only": "phrase_flagged",
+    "heuristic_flags_audit_only": "question_near_update",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U025",
+    "reddit_id": "1oiwr33",
+    "selection_group_audit_only": "phrase_flagged",
+    "heuristic_flags_audit_only": "question_near_update",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U026",
+    "reddit_id": "1rzgm3v",
+    "selection_group_audit_only": "phrase_flagged",
+    "heuristic_flags_audit_only": "question_near_update",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U027",
+    "reddit_id": "1vuhsoj",
+    "selection_group_audit_only": "phrase_flagged",
+    "heuristic_flags_audit_only": "update_near_issue",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U028",
+    "reddit_id": "1wxub3l",
+    "selection_group_audit_only": "phrase_flagged",
+    "heuristic_flags_audit_only": "update_near_issue,question_near_update",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U029",
+    "reddit_id": "1q4ocfo",
+    "selection_group_audit_only": "phrase_flagged",
+    "heuristic_flags_audit_only": "update_near_issue,question_near_update",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U030",
+    "reddit_id": "1u5dozg",
+    "selection_group_audit_only": "phrase_flagged",
+    "heuristic_flags_audit_only": "update_near_issue",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U031",
+    "reddit_id": "1v5p0yq",
+    "selection_group_audit_only": "phrase_flagged",
+    "heuristic_flags_audit_only": "update_near_issue",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U032",
+    "reddit_id": "1p6atc4",
+    "selection_group_audit_only": "random_unflagged",
+    "heuristic_flags_audit_only": "",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U033",
+    "reddit_id": "1uy5lhh",
+    "selection_group_audit_only": "phrase_flagged",
+    "heuristic_flags_audit_only": "after_or_since",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U034",
+    "reddit_id": "1vmwfae",
+    "selection_group_audit_only": "phrase_flagged",
+    "heuristic_flags_audit_only": "question_near_update",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U035",
+    "reddit_id": "1ujrm1o",
+    "selection_group_audit_only": "phrase_flagged",
+    "heuristic_flags_audit_only": "question_near_update",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U036",
+    "reddit_id": "1theayn",
+    "selection_group_audit_only": "phrase_flagged",
+    "heuristic_flags_audit_only": "question_near_update",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U037",
+    "reddit_id": "1t5eadn",
+    "selection_group_audit_only": "phrase_flagged",
+    "heuristic_flags_audit_only": "update_near_issue,question_near_update",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U038",
+    "reddit_id": "1r6b8kk",
+    "selection_group_audit_only": "random_unflagged",
+    "heuristic_flags_audit_only": "",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U039",
+    "reddit_id": "1ouznzr",
+    "selection_group_audit_only": "phrase_flagged",
+    "heuristic_flags_audit_only": "question_near_update",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U040",
+    "reddit_id": "1sq3og2",
+    "selection_group_audit_only": "random_unflagged",
+    "heuristic_flags_audit_only": "",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U041",
+    "reddit_id": "1vyjtj3",
+    "selection_group_audit_only": "phrase_flagged",
+    "heuristic_flags_audit_only": "update_near_issue",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U042",
+    "reddit_id": "1owv5cc",
+    "selection_group_audit_only": "phrase_flagged",
+    "heuristic_flags_audit_only": "update_near_issue",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U043",
+    "reddit_id": "1ql2670",
+    "selection_group_audit_only": "random_unflagged",
+    "heuristic_flags_audit_only": "",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U044",
+    "reddit_id": "1vrs9t1",
+    "selection_group_audit_only": "phrase_flagged",
+    "heuristic_flags_audit_only": "update_near_issue",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U045",
+    "reddit_id": "1uck0xp",
+    "selection_group_audit_only": "phrase_flagged",
+    "heuristic_flags_audit_only": "question_near_update",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U046",
+    "reddit_id": "1wvy6vc",
+    "selection_group_audit_only": "phrase_flagged",
+    "heuristic_flags_audit_only": "update_near_issue,question_near_update",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U047",
+    "reddit_id": "1v155go",
+    "selection_group_audit_only": "phrase_flagged",
+    "heuristic_flags_audit_only": "after_or_since,update_near_issue,question_near_update",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U048",
+    "reddit_id": "1ww8ppm",
+    "selection_group_audit_only": "random_unflagged",
+    "heuristic_flags_audit_only": "",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U049",
+    "reddit_id": "1nyry2r",
+    "selection_group_audit_only": "phrase_flagged",
+    "heuristic_flags_audit_only": "update_near_issue,question_near_update",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U050",
+    "reddit_id": "1ucbbpi",
+    "selection_group_audit_only": "phrase_flagged",
+    "heuristic_flags_audit_only": "update_near_issue",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U051",
+    "reddit_id": "1uue1zq",
+    "selection_group_audit_only": "phrase_flagged",
+    "heuristic_flags_audit_only": "question_near_update",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U052",
+    "reddit_id": "1uxwd7s",
+    "selection_group_audit_only": "phrase_flagged",
+    "heuristic_flags_audit_only": "question_near_update",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U053",
+    "reddit_id": "1t2iip0",
+    "selection_group_audit_only": "phrase_flagged",
+    "heuristic_flags_audit_only": "update_near_issue",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U054",
+    "reddit_id": "1p2r5sf",
+    "selection_group_audit_only": "random_unflagged",
+    "heuristic_flags_audit_only": "",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U055",
+    "reddit_id": "1upmen8",
+    "selection_group_audit_only": "phrase_flagged",
+    "heuristic_flags_audit_only": "after_or_since,update_near_issue",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U056",
+    "reddit_id": "1s03ghm",
+    "selection_group_audit_only": "phrase_flagged",
+    "heuristic_flags_audit_only": "question_near_update",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U057",
+    "reddit_id": "1sfqcqk",
+    "selection_group_audit_only": "phrase_flagged",
+    "heuristic_flags_audit_only": "update_near_issue",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U058",
+    "reddit_id": "1udmdnt",
+    "selection_group_audit_only": "phrase_flagged",
+    "heuristic_flags_audit_only": "after_or_since",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U059",
+    "reddit_id": "1p9g75i",
+    "selection_group_audit_only": "phrase_flagged",
+    "heuristic_flags_audit_only": "question_near_update",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U060",
+    "reddit_id": "1ubnrb6",
+    "selection_group_audit_only": "phrase_flagged",
+    "heuristic_flags_audit_only": "after_or_since",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U061",
+    "reddit_id": "1vu9sq9",
+    "selection_group_audit_only": "phrase_flagged",
+    "heuristic_flags_audit_only": "question_near_update",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U062",
+    "reddit_id": "1ucjy4t",
+    "selection_group_audit_only": "random_unflagged",
+    "heuristic_flags_audit_only": "",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U063",
+    "reddit_id": "1nxstb4",
+    "selection_group_audit_only": "random_unflagged",
+    "heuristic_flags_audit_only": "",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U064",
+    "reddit_id": "1udzror",
+    "selection_group_audit_only": "phrase_flagged",
+    "heuristic_flags_audit_only": "update_near_issue",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U065",
+    "reddit_id": "1u52r6u",
+    "selection_group_audit_only": "phrase_flagged",
+    "heuristic_flags_audit_only": "question_near_update",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U066",
+    "reddit_id": "1ui3nra",
+    "selection_group_audit_only": "random_unflagged",
+    "heuristic_flags_audit_only": "",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U067",
+    "reddit_id": "1uay1pb",
+    "selection_group_audit_only": "random_unflagged",
+    "heuristic_flags_audit_only": "",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U068",
+    "reddit_id": "1ugql15",
+    "selection_group_audit_only": "phrase_flagged",
+    "heuristic_flags_audit_only": "update_near_issue",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U069",
+    "reddit_id": "1s0ap7f",
+    "selection_group_audit_only": "phrase_flagged",
+    "heuristic_flags_audit_only": "question_near_update",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U070",
+    "reddit_id": "1wubmkk",
+    "selection_group_audit_only": "random_unflagged",
+    "heuristic_flags_audit_only": "",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U071",
+    "reddit_id": "1vmplb0",
+    "selection_group_audit_only": "phrase_flagged",
+    "heuristic_flags_audit_only": "question_near_update",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U072",
+    "reddit_id": "1py4066",
+    "selection_group_audit_only": "random_unflagged",
+    "heuristic_flags_audit_only": "",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U073",
+    "reddit_id": "1usm8he",
+    "selection_group_audit_only": "phrase_flagged",
+    "heuristic_flags_audit_only": "after_or_since",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U074",
+    "reddit_id": "1pux3q9",
+    "selection_group_audit_only": "random_unflagged",
+    "heuristic_flags_audit_only": "",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U075",
+    "reddit_id": "1ulkcaz",
+    "selection_group_audit_only": "phrase_flagged",
+    "heuristic_flags_audit_only": "update_near_issue",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U076",
+    "reddit_id": "1s8r1t5",
+    "selection_group_audit_only": "random_unflagged",
+    "heuristic_flags_audit_only": "",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U077",
+    "reddit_id": "1udprqm",
+    "selection_group_audit_only": "phrase_flagged",
+    "heuristic_flags_audit_only": "update_near_issue,question_near_update",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U078",
+    "reddit_id": "1u8xje7",
+    "selection_group_audit_only": "phrase_flagged",
+    "heuristic_flags_audit_only": "update_near_issue",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U079",
+    "reddit_id": "1t2ajtl",
+    "selection_group_audit_only": "phrase_flagged",
+    "heuristic_flags_audit_only": "question_near_update",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U080",
+    "reddit_id": "1wxrz49",
+    "selection_group_audit_only": "phrase_flagged",
+    "heuristic_flags_audit_only": "question_near_update",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U081",
+    "reddit_id": "1pl9jer",
+    "selection_group_audit_only": "phrase_flagged",
+    "heuristic_flags_audit_only": "update_near_issue",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U082",
+    "reddit_id": "1qx5qin",
+    "selection_group_audit_only": "phrase_flagged",
+    "heuristic_flags_audit_only": "update_near_issue",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U083",
+    "reddit_id": "1p7j39g",
+    "selection_group_audit_only": "phrase_flagged",
+    "heuristic_flags_audit_only": "question_near_update",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U084",
+    "reddit_id": "1swesi0",
+    "selection_group_audit_only": "phrase_flagged",
+    "heuristic_flags_audit_only": "update_near_issue,question_near_update",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U085",
+    "reddit_id": "1u7uvrg",
+    "selection_group_audit_only": "phrase_flagged",
+    "heuristic_flags_audit_only": "update_near_issue",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U086",
+    "reddit_id": "1vy4ez6",
+    "selection_group_audit_only": "phrase_flagged",
+    "heuristic_flags_audit_only": "update_near_issue",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U087",
+    "reddit_id": "1uai2ir",
+    "selection_group_audit_only": "phrase_flagged",
+    "heuristic_flags_audit_only": "question_near_update",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U088",
+    "reddit_id": "1tmwvk8",
+    "selection_group_audit_only": "phrase_flagged",
+    "heuristic_flags_audit_only": "question_near_update",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U089",
+    "reddit_id": "1tepcvj",
+    "selection_group_audit_only": "phrase_flagged",
+    "heuristic_flags_audit_only": "after_or_since",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U090",
+    "reddit_id": "1t1z5jq",
+    "selection_group_audit_only": "phrase_flagged",
+    "heuristic_flags_audit_only": "update_near_issue",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U091",
+    "reddit_id": "1upzoai",
+    "selection_group_audit_only": "random_unflagged",
+    "heuristic_flags_audit_only": "",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U092",
+    "reddit_id": "1us98kr",
+    "selection_group_audit_only": "phrase_flagged",
+    "heuristic_flags_audit_only": "question_near_update",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U093",
+    "reddit_id": "1w0eio0",
+    "selection_group_audit_only": "phrase_flagged",
+    "heuristic_flags_audit_only": "update_near_issue",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U094",
+    "reddit_id": "1nxgxxq",
+    "selection_group_audit_only": "phrase_flagged",
+    "heuristic_flags_audit_only": "update_near_issue,question_near_update",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U095",
+    "reddit_id": "1tn6jox",
+    "selection_group_audit_only": "phrase_flagged",
+    "heuristic_flags_audit_only": "question_near_update",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U096",
+    "reddit_id": "1thegpv",
+    "selection_group_audit_only": "phrase_flagged",
+    "heuristic_flags_audit_only": "update_near_issue",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U097",
+    "reddit_id": "1s1c9vy",
+    "selection_group_audit_only": "phrase_flagged",
+    "heuristic_flags_audit_only": "after_or_since",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U098",
+    "reddit_id": "1nwck9t",
+    "selection_group_audit_only": "phrase_flagged",
+    "heuristic_flags_audit_only": "update_near_issue",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U099",
+    "reddit_id": "1u4ojzo",
+    "selection_group_audit_only": "phrase_flagged",
+    "heuristic_flags_audit_only": "update_near_issue",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U100",
+    "reddit_id": "1uwfq5v",
+    "selection_group_audit_only": "phrase_flagged",
+    "heuristic_flags_audit_only": "update_near_issue,question_near_update",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U101",
+    "reddit_id": "1nom31l",
+    "selection_group_audit_only": "random_unflagged",
+    "heuristic_flags_audit_only": "",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U102",
+    "reddit_id": "1t1b93o",
+    "selection_group_audit_only": "phrase_flagged",
+    "heuristic_flags_audit_only": "question_near_update",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U103",
+    "reddit_id": "1qpyk8q",
+    "selection_group_audit_only": "phrase_flagged",
+    "heuristic_flags_audit_only": "update_near_issue",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U104",
+    "reddit_id": "1uhms0a",
+    "selection_group_audit_only": "phrase_flagged",
+    "heuristic_flags_audit_only": "update_near_issue,question_near_update",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U105",
+    "reddit_id": "1oj9ktc",
+    "selection_group_audit_only": "random_unflagged",
+    "heuristic_flags_audit_only": "",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U106",
+    "reddit_id": "1tozmz2",
+    "selection_group_audit_only": "phrase_flagged",
+    "heuristic_flags_audit_only": "question_near_update",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U107",
+    "reddit_id": "1u4pt20",
+    "selection_group_audit_only": "random_unflagged",
+    "heuristic_flags_audit_only": "",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U108",
+    "reddit_id": "1pjdtiv",
+    "selection_group_audit_only": "phrase_flagged",
+    "heuristic_flags_audit_only": "question_near_update",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U109",
+    "reddit_id": "1p0od9s",
+    "selection_group_audit_only": "phrase_flagged",
+    "heuristic_flags_audit_only": "update_near_issue",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U110",
+    "reddit_id": "1o08qdu",
+    "selection_group_audit_only": "phrase_flagged",
+    "heuristic_flags_audit_only": "update_near_issue",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U111",
+    "reddit_id": "1wy5au9",
+    "selection_group_audit_only": "phrase_flagged",
+    "heuristic_flags_audit_only": "after_or_since",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U112",
+    "reddit_id": "1vsalwr",
+    "selection_group_audit_only": "phrase_flagged",
+    "heuristic_flags_audit_only": "question_near_update",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U113",
+    "reddit_id": "1vyllp7",
+    "selection_group_audit_only": "phrase_flagged",
+    "heuristic_flags_audit_only": "question_near_update",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U114",
+    "reddit_id": "1r1m5ld",
+    "selection_group_audit_only": "random_unflagged",
+    "heuristic_flags_audit_only": "",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U115",
+    "reddit_id": "1v3nfrl",
+    "selection_group_audit_only": "phrase_flagged",
+    "heuristic_flags_audit_only": "update_near_issue",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U116",
+    "reddit_id": "1ozin0k",
+    "selection_group_audit_only": "phrase_flagged",
+    "heuristic_flags_audit_only": "update_near_issue",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U117",
+    "reddit_id": "1tdqzbi",
+    "selection_group_audit_only": "phrase_flagged",
+    "heuristic_flags_audit_only": "after_or_since",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U118",
+    "reddit_id": "1vqdwri",
+    "selection_group_audit_only": "phrase_flagged",
+    "heuristic_flags_audit_only": "update_near_issue",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U119",
+    "reddit_id": "1tibs94",
+    "selection_group_audit_only": "phrase_flagged",
+    "heuristic_flags_audit_only": "after_or_since,question_near_update",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U120",
+    "reddit_id": "1svkkty",
+    "selection_group_audit_only": "phrase_flagged",
+    "heuristic_flags_audit_only": "update_near_issue",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U121",
+    "reddit_id": "1nt732d",
+    "selection_group_audit_only": "random_unflagged",
+    "heuristic_flags_audit_only": "",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U122",
+    "reddit_id": "1tp5ayb",
+    "selection_group_audit_only": "phrase_flagged",
+    "heuristic_flags_audit_only": "update_near_issue",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U123",
+    "reddit_id": "1u8exz9",
+    "selection_group_audit_only": "phrase_flagged",
+    "heuristic_flags_audit_only": "question_near_update",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U124",
+    "reddit_id": "1ujiq3t",
+    "selection_group_audit_only": "phrase_flagged",
+    "heuristic_flags_audit_only": "after_or_since,update_near_issue",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U125",
+    "reddit_id": "1nq4ygb",
+    "selection_group_audit_only": "phrase_flagged",
+    "heuristic_flags_audit_only": "update_near_issue",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U126",
+    "reddit_id": "1s0a7yd",
+    "selection_group_audit_only": "phrase_flagged",
+    "heuristic_flags_audit_only": "question_near_update",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U127",
+    "reddit_id": "1p1o0yp",
+    "selection_group_audit_only": "random_unflagged",
+    "heuristic_flags_audit_only": "",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U128",
+    "reddit_id": "1uncgpv",
+    "selection_group_audit_only": "random_unflagged",
+    "heuristic_flags_audit_only": "",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U129",
+    "reddit_id": "1omb4e6",
+    "selection_group_audit_only": "phrase_flagged",
+    "heuristic_flags_audit_only": "update_near_issue",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U130",
+    "reddit_id": "1r3bizw",
+    "selection_group_audit_only": "phrase_flagged",
+    "heuristic_flags_audit_only": "question_near_update",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U131",
+    "reddit_id": "1ww3cnt",
+    "selection_group_audit_only": "phrase_flagged",
+    "heuristic_flags_audit_only": "question_near_update",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U132",
+    "reddit_id": "1selcaf",
+    "selection_group_audit_only": "phrase_flagged",
+    "heuristic_flags_audit_only": "question_near_update",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U133",
+    "reddit_id": "1oibxac",
+    "selection_group_audit_only": "phrase_flagged",
+    "heuristic_flags_audit_only": "after_or_since,update_near_issue,question_near_update",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U134",
+    "reddit_id": "1nsp6at",
+    "selection_group_audit_only": "random_unflagged",
+    "heuristic_flags_audit_only": "",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U135",
+    "reddit_id": "1ssossp",
+    "selection_group_audit_only": "phrase_flagged",
+    "heuristic_flags_audit_only": "update_near_issue",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U136",
+    "reddit_id": "1wtzro9",
+    "selection_group_audit_only": "phrase_flagged",
+    "heuristic_flags_audit_only": "update_near_issue",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U137",
+    "reddit_id": "1wu9hw1",
+    "selection_group_audit_only": "phrase_flagged",
+    "heuristic_flags_audit_only": "after_or_since",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U138",
+    "reddit_id": "1u8c3h9",
+    "selection_group_audit_only": "phrase_flagged",
+    "heuristic_flags_audit_only": "after_or_since",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U139",
+    "reddit_id": "1ultnn8",
+    "selection_group_audit_only": "phrase_flagged",
+    "heuristic_flags_audit_only": "question_near_update",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U140",
+    "reddit_id": "1rjiivq",
+    "selection_group_audit_only": "phrase_flagged",
+    "heuristic_flags_audit_only": "question_near_update",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U141",
+    "reddit_id": "1ps4uxk",
+    "selection_group_audit_only": "phrase_flagged",
+    "heuristic_flags_audit_only": "after_or_since",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U142",
+    "reddit_id": "1s4wkdl",
+    "selection_group_audit_only": "random_unflagged",
+    "heuristic_flags_audit_only": "",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U143",
+    "reddit_id": "1ug3yhh",
+    "selection_group_audit_only": "phrase_flagged",
+    "heuristic_flags_audit_only": "question_near_update",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U144",
+    "reddit_id": "1vne6m0",
+    "selection_group_audit_only": "phrase_flagged",
+    "heuristic_flags_audit_only": "after_or_since,question_near_update",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U145",
+    "reddit_id": "1utxbzn",
+    "selection_group_audit_only": "phrase_flagged",
+    "heuristic_flags_audit_only": "question_near_update",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U146",
+    "reddit_id": "1qki3oa",
+    "selection_group_audit_only": "phrase_flagged",
+    "heuristic_flags_audit_only": "update_near_issue",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U147",
+    "reddit_id": "1utrp4z",
+    "selection_group_audit_only": "phrase_flagged",
+    "heuristic_flags_audit_only": "question_near_update",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U148",
+    "reddit_id": "1tnuopb",
+    "selection_group_audit_only": "phrase_flagged",
+    "heuristic_flags_audit_only": "after_or_since,question_near_update",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U149",
+    "reddit_id": "1uvcw7j",
+    "selection_group_audit_only": "phrase_flagged",
+    "heuristic_flags_audit_only": "update_near_issue",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U150",
+    "reddit_id": "1rx1gt7",
+    "selection_group_audit_only": "phrase_flagged",
+    "heuristic_flags_audit_only": "question_near_update",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U151",
+    "reddit_id": "1oubwb6",
+    "selection_group_audit_only": "random_unflagged",
+    "heuristic_flags_audit_only": "",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U152",
+    "reddit_id": "1q2vxs7",
+    "selection_group_audit_only": "phrase_flagged",
+    "heuristic_flags_audit_only": "question_near_update",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U153",
+    "reddit_id": "1tdnh5z",
+    "selection_group_audit_only": "phrase_flagged",
+    "heuristic_flags_audit_only": "after_or_since,update_near_issue,question_near_update",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U154",
+    "reddit_id": "1rzxk24",
+    "selection_group_audit_only": "phrase_flagged",
+    "heuristic_flags_audit_only": "update_near_issue",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U155",
+    "reddit_id": "1ubacr2",
+    "selection_group_audit_only": "phrase_flagged",
+    "heuristic_flags_audit_only": "after_or_since,update_near_issue",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U156",
+    "reddit_id": "1tohg0r",
+    "selection_group_audit_only": "phrase_flagged",
+    "heuristic_flags_audit_only": "after_or_since,update_near_issue,question_near_update",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U157",
+    "reddit_id": "1v4i22r",
+    "selection_group_audit_only": "phrase_flagged",
+    "heuristic_flags_audit_only": "update_near_issue",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U158",
+    "reddit_id": "1u4weju",
+    "selection_group_audit_only": "phrase_flagged",
+    "heuristic_flags_audit_only": "update_near_issue",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U159",
+    "reddit_id": "1nwdopn",
+    "selection_group_audit_only": "phrase_flagged",
+    "heuristic_flags_audit_only": "question_near_update",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U160",
+    "reddit_id": "1vwgrgy",
+    "selection_group_audit_only": "phrase_flagged",
+    "heuristic_flags_audit_only": "question_near_update",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U161",
+    "reddit_id": "1s4gwva",
+    "selection_group_audit_only": "random_unflagged",
+    "heuristic_flags_audit_only": "",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U162",
+    "reddit_id": "1o0ivwq",
+    "selection_group_audit_only": "phrase_flagged",
+    "heuristic_flags_audit_only": "question_near_update",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U163",
+    "reddit_id": "1osh4pe",
+    "selection_group_audit_only": "phrase_flagged",
+    "heuristic_flags_audit_only": "after_or_since",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U164",
+    "reddit_id": "1vsxkq8",
+    "selection_group_audit_only": "phrase_flagged",
+    "heuristic_flags_audit_only": "question_near_update",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U165",
+    "reddit_id": "1opgbr4",
+    "selection_group_audit_only": "phrase_flagged",
+    "heuristic_flags_audit_only": "question_near_update",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U166",
+    "reddit_id": "1sgl67j",
+    "selection_group_audit_only": "phrase_flagged",
+    "heuristic_flags_audit_only": "after_or_since",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U167",
+    "reddit_id": "1wu9chd",
+    "selection_group_audit_only": "phrase_flagged",
+    "heuristic_flags_audit_only": "question_near_update",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U168",
+    "reddit_id": "1uwgos1",
+    "selection_group_audit_only": "phrase_flagged",
+    "heuristic_flags_audit_only": "after_or_since",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U169",
+    "reddit_id": "1sv114w",
+    "selection_group_audit_only": "phrase_flagged",
+    "heuristic_flags_audit_only": "after_or_since",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U170",
+    "reddit_id": "1siziad",
+    "selection_group_audit_only": "phrase_flagged",
+    "heuristic_flags_audit_only": "after_or_since,question_near_update",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U171",
+    "reddit_id": "1uhycwy",
+    "selection_group_audit_only": "phrase_flagged",
+    "heuristic_flags_audit_only": "update_near_issue,question_near_update",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U172",
+    "reddit_id": "1tinn60",
+    "selection_group_audit_only": "random_unflagged",
+    "heuristic_flags_audit_only": "",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U173",
+    "reddit_id": "1t1wkvz",
+    "selection_group_audit_only": "phrase_flagged",
+    "heuristic_flags_audit_only": "update_near_issue",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U174",
+    "reddit_id": "1uwwfws",
+    "selection_group_audit_only": "phrase_flagged",
+    "heuristic_flags_audit_only": "question_near_update",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U175",
+    "reddit_id": "1s17woc",
+    "selection_group_audit_only": "phrase_flagged",
+    "heuristic_flags_audit_only": "update_near_issue",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U176",
+    "reddit_id": "1ug77bk",
+    "selection_group_audit_only": "phrase_flagged",
+    "heuristic_flags_audit_only": "question_near_update",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U177",
+    "reddit_id": "1sanbzd",
+    "selection_group_audit_only": "phrase_flagged",
+    "heuristic_flags_audit_only": "update_near_issue,question_near_update",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U178",
+    "reddit_id": "1rw1cqr",
+    "selection_group_audit_only": "random_unflagged",
+    "heuristic_flags_audit_only": "",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U179",
+    "reddit_id": "1rvfs8g",
+    "selection_group_audit_only": "random_unflagged",
+    "heuristic_flags_audit_only": "",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U180",
+    "reddit_id": "1vzrgll",
+    "selection_group_audit_only": "phrase_flagged",
+    "heuristic_flags_audit_only": "update_near_issue",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U181",
+    "reddit_id": "1wvj6an",
+    "selection_group_audit_only": "random_unflagged",
+    "heuristic_flags_audit_only": "",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U182",
+    "reddit_id": "1uri2wv",
+    "selection_group_audit_only": "phrase_flagged",
+    "heuristic_flags_audit_only": "question_near_update",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U183",
+    "reddit_id": "1vs9jnd",
+    "selection_group_audit_only": "phrase_flagged",
+    "heuristic_flags_audit_only": "question_near_update",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U184",
+    "reddit_id": "1s4c49q",
+    "selection_group_audit_only": "phrase_flagged",
+    "heuristic_flags_audit_only": "update_near_issue",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U185",
+    "reddit_id": "1sujbjv",
+    "selection_group_audit_only": "random_unflagged",
+    "heuristic_flags_audit_only": "",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U186",
+    "reddit_id": "1prwu6c",
+    "selection_group_audit_only": "phrase_flagged",
+    "heuristic_flags_audit_only": "question_near_update",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U187",
+    "reddit_id": "1sb2ggs",
+    "selection_group_audit_only": "phrase_flagged",
+    "heuristic_flags_audit_only": "after_or_since,question_near_update",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U188",
+    "reddit_id": "1s5sv90",
+    "selection_group_audit_only": "random_unflagged",
+    "heuristic_flags_audit_only": "",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U189",
+    "reddit_id": "1u8k5gi",
+    "selection_group_audit_only": "phrase_flagged",
+    "heuristic_flags_audit_only": "question_near_update",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U190",
+    "reddit_id": "1rgmnxd",
+    "selection_group_audit_only": "phrase_flagged",
+    "heuristic_flags_audit_only": "update_near_issue,question_near_update",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U191",
+    "reddit_id": "1v4zp08",
+    "selection_group_audit_only": "phrase_flagged",
+    "heuristic_flags_audit_only": "update_near_issue,question_near_update",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U192",
+    "reddit_id": "1wt4rdp",
+    "selection_group_audit_only": "phrase_flagged",
+    "heuristic_flags_audit_only": "question_near_update",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U193",
+    "reddit_id": "1s1w12y",
+    "selection_group_audit_only": "phrase_flagged",
+    "heuristic_flags_audit_only": "after_or_since",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U194",
+    "reddit_id": "1psmg31",
+    "selection_group_audit_only": "random_unflagged",
+    "heuristic_flags_audit_only": "",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U195",
+    "reddit_id": "1tcz99z",
+    "selection_group_audit_only": "phrase_flagged",
+    "heuristic_flags_audit_only": "update_near_issue",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U196",
+    "reddit_id": "1usz61w",
+    "selection_group_audit_only": "phrase_flagged",
+    "heuristic_flags_audit_only": "question_near_update",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U197",
+    "reddit_id": "1pflnaj",
+    "selection_group_audit_only": "phrase_flagged",
+    "heuristic_flags_audit_only": "update_near_issue",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U198",
+    "reddit_id": "1tcj2jj",
+    "selection_group_audit_only": "phrase_flagged",
+    "heuristic_flags_audit_only": "question_near_update",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U199",
+    "reddit_id": "1skhfo3",
+    "selection_group_audit_only": "phrase_flagged",
+    "heuristic_flags_audit_only": "question_near_update",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U200",
+    "reddit_id": "1sq2fh7",
+    "selection_group_audit_only": "phrase_flagged",
+    "heuristic_flags_audit_only": "after_or_since,update_near_issue",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U201",
+    "reddit_id": "1tk55v6",
+    "selection_group_audit_only": "random_unflagged",
+    "heuristic_flags_audit_only": "",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U202",
+    "reddit_id": "1wukv6w",
+    "selection_group_audit_only": "phrase_flagged",
+    "heuristic_flags_audit_only": "update_near_issue",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U203",
+    "reddit_id": "1vrnknh",
+    "selection_group_audit_only": "phrase_flagged",
+    "heuristic_flags_audit_only": "after_or_since",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U204",
+    "reddit_id": "1u3e50f",
+    "selection_group_audit_only": "phrase_flagged",
+    "heuristic_flags_audit_only": "update_near_issue,question_near_update",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U205",
+    "reddit_id": "1szvqkz",
+    "selection_group_audit_only": "phrase_flagged",
+    "heuristic_flags_audit_only": "question_near_update",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U206",
+    "reddit_id": "1s3hca6",
+    "selection_group_audit_only": "random_unflagged",
+    "heuristic_flags_audit_only": "",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U207",
+    "reddit_id": "1r66kb9",
+    "selection_group_audit_only": "phrase_flagged",
+    "heuristic_flags_audit_only": "update_near_issue",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U208",
+    "reddit_id": "1wtk64v",
+    "selection_group_audit_only": "phrase_flagged",
+    "heuristic_flags_audit_only": "question_near_update",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U209",
+    "reddit_id": "1pwxjg1",
+    "selection_group_audit_only": "phrase_flagged",
+    "heuristic_flags_audit_only": "question_near_update",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U210",
+    "reddit_id": "1wtutws",
+    "selection_group_audit_only": "random_unflagged",
+    "heuristic_flags_audit_only": "",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U211",
+    "reddit_id": "1o2vm24",
+    "selection_group_audit_only": "phrase_flagged",
+    "heuristic_flags_audit_only": "question_near_update",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U212",
+    "reddit_id": "1p39gbz",
+    "selection_group_audit_only": "phrase_flagged",
+    "heuristic_flags_audit_only": "update_near_issue",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U213",
+    "reddit_id": "1pbp7rl",
+    "selection_group_audit_only": "random_unflagged",
+    "heuristic_flags_audit_only": "",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U214",
+    "reddit_id": "1u37try",
+    "selection_group_audit_only": "phrase_flagged",
+    "heuristic_flags_audit_only": "after_or_since",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U215",
+    "reddit_id": "1nw87sj",
+    "selection_group_audit_only": "random_unflagged",
+    "heuristic_flags_audit_only": "",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U216",
+    "reddit_id": "1vuuvwp",
+    "selection_group_audit_only": "phrase_flagged",
+    "heuristic_flags_audit_only": "question_near_update",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U217",
+    "reddit_id": "1wuofpf",
+    "selection_group_audit_only": "phrase_flagged",
+    "heuristic_flags_audit_only": "update_near_issue,question_near_update",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U218",
+    "reddit_id": "1ugyf56",
+    "selection_group_audit_only": "phrase_flagged",
+    "heuristic_flags_audit_only": "after_or_since,question_near_update",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U219",
+    "reddit_id": "1ou01h8",
+    "selection_group_audit_only": "phrase_flagged",
+    "heuristic_flags_audit_only": "update_near_issue",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U220",
+    "reddit_id": "1nxmirq",
+    "selection_group_audit_only": "phrase_flagged",
+    "heuristic_flags_audit_only": "question_near_update",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U221",
+    "reddit_id": "1uywzeh",
+    "selection_group_audit_only": "random_unflagged",
+    "heuristic_flags_audit_only": "",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U222",
+    "reddit_id": "1tpu962",
+    "selection_group_audit_only": "phrase_flagged",
+    "heuristic_flags_audit_only": "update_near_issue,question_near_update",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U223",
+    "reddit_id": "1nut2lh",
+    "selection_group_audit_only": "random_unflagged",
+    "heuristic_flags_audit_only": "",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U224",
+    "reddit_id": "1nwgz8q",
+    "selection_group_audit_only": "phrase_flagged",
+    "heuristic_flags_audit_only": "question_near_update",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U225",
+    "reddit_id": "1p8ydos",
+    "selection_group_audit_only": "phrase_flagged",
+    "heuristic_flags_audit_only": "after_or_since,question_near_update",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U226",
+    "reddit_id": "1wxknx1",
+    "selection_group_audit_only": "phrase_flagged",
+    "heuristic_flags_audit_only": "update_near_issue,question_near_update",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U227",
+    "reddit_id": "1ricgry",
+    "selection_group_audit_only": "phrase_flagged",
+    "heuristic_flags_audit_only": "update_near_issue",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U228",
+    "reddit_id": "1nqptsb",
+    "selection_group_audit_only": "phrase_flagged",
+    "heuristic_flags_audit_only": "question_near_update",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U229",
+    "reddit_id": "1s1m3t1",
+    "selection_group_audit_only": "random_unflagged",
+    "heuristic_flags_audit_only": "",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U230",
+    "reddit_id": "1se4jaz",
+    "selection_group_audit_only": "phrase_flagged",
+    "heuristic_flags_audit_only": "update_near_issue",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U231",
+    "reddit_id": "1owmfeg",
+    "selection_group_audit_only": "phrase_flagged",
+    "heuristic_flags_audit_only": "question_near_update",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U232",
+    "reddit_id": "1r0fb1j",
+    "selection_group_audit_only": "phrase_flagged",
+    "heuristic_flags_audit_only": "question_near_update",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U233",
+    "reddit_id": "1vultlz",
+    "selection_group_audit_only": "phrase_flagged",
+    "heuristic_flags_audit_only": "update_near_issue",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U234",
+    "reddit_id": "1wy2hrg",
+    "selection_group_audit_only": "phrase_flagged",
+    "heuristic_flags_audit_only": "update_near_issue",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U235",
+    "reddit_id": "1s5o61b",
+    "selection_group_audit_only": "phrase_flagged",
+    "heuristic_flags_audit_only": "after_or_since",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U236",
+    "reddit_id": "1pb5zvb",
+    "selection_group_audit_only": "random_unflagged",
+    "heuristic_flags_audit_only": "",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U237",
+    "reddit_id": "1rlgq4n",
+    "selection_group_audit_only": "phrase_flagged",
+    "heuristic_flags_audit_only": "update_near_issue,question_near_update",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U238",
+    "reddit_id": "1so390d",
+    "selection_group_audit_only": "phrase_flagged",
+    "heuristic_flags_audit_only": "question_near_update",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U239",
+    "reddit_id": "1pzq59v",
+    "selection_group_audit_only": "random_unflagged",
+    "heuristic_flags_audit_only": "",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U240",
+    "reddit_id": "1vr4c7h",
+    "selection_group_audit_only": "phrase_flagged",
+    "heuristic_flags_audit_only": "question_near_update",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U241",
+    "reddit_id": "1pj1w6b",
+    "selection_group_audit_only": "phrase_flagged",
+    "heuristic_flags_audit_only": "question_near_update",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U242",
+    "reddit_id": "1wrf7nu",
+    "selection_group_audit_only": "phrase_flagged",
+    "heuristic_flags_audit_only": "update_near_issue,question_near_update",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U243",
+    "reddit_id": "1ov0vjt",
+    "selection_group_audit_only": "phrase_flagged",
+    "heuristic_flags_audit_only": "after_or_since,update_near_issue",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U244",
+    "reddit_id": "1okor24",
+    "selection_group_audit_only": "phrase_flagged",
+    "heuristic_flags_audit_only": "update_near_issue",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U245",
+    "reddit_id": "1nvo2fe",
+    "selection_group_audit_only": "random_unflagged",
+    "heuristic_flags_audit_only": "",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U246",
+    "reddit_id": "1t4yiv7",
+    "selection_group_audit_only": "phrase_flagged",
+    "heuristic_flags_audit_only": "question_near_update",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U247",
+    "reddit_id": "1pq2qrb",
+    "selection_group_audit_only": "phrase_flagged",
+    "heuristic_flags_audit_only": "update_near_issue,question_near_update",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U248",
+    "reddit_id": "1szbb3p",
+    "selection_group_audit_only": "phrase_flagged",
+    "heuristic_flags_audit_only": "update_near_issue,question_near_update",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U249",
+    "reddit_id": "1osh4xy",
+    "selection_group_audit_only": "phrase_flagged",
+    "heuristic_flags_audit_only": "after_or_since",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U250",
+    "reddit_id": "1uxehqq",
+    "selection_group_audit_only": "phrase_flagged",
+    "heuristic_flags_audit_only": "update_near_issue",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U251",
+    "reddit_id": "1uhxfjp",
+    "selection_group_audit_only": "phrase_flagged",
+    "heuristic_flags_audit_only": "update_near_issue,question_near_update",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U252",
+    "reddit_id": "1utuvqg",
+    "selection_group_audit_only": "phrase_flagged",
+    "heuristic_flags_audit_only": "question_near_update",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U253",
+    "reddit_id": "1nqqodm",
+    "selection_group_audit_only": "random_unflagged",
+    "heuristic_flags_audit_only": "",
+    "prior_label_audit_only": "software_yes_update_no"
+  },
+  {
+    "review_id": "U254",
+    "reddit_id": "1t1oc3q",
+    "selection_group_audit_only": "phrase_flagged",
+    "heuristic_flags_audit_only": "update_near_issue,question_near_update",
+    "prior_label_audit_only": "software_yes_update_no"
+  }
+]

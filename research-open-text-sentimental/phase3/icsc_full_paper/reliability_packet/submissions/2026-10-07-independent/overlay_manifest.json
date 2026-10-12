@@ -1,0 +1,20 @@
+{
+  "status": "development_only_overlay_no_test_scoring",
+  "base_sha256": "30d6a3dc78c7fd3999dcaf0649b7544a912b3d9dc1899e26ed12a36ac5407d47",
+  "output_sha256": "cef1b165a3150aa74dfc05cc3634988dc4e6926bfb57afdec5236f2f571729fd",
+  "reviewed_n": 200,
+  "changed_unique_n": 29,
+  "raw_s2_before": 2168,
+  "raw_s2_after": 2166,
+  "raw_s2_class_counts_after": {
+    "troubleshooting": 1763,
+    "other_update": 403
+  },
+  "near_duplicate_exclusions": [
+    "1t0wme9",
+    "1wrqch6"
+  ],
+  "historical_development_modified": false,
+  "reserved_test_modified": false,
+  "fresh_test_modified": false
+}

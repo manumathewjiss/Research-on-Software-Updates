@@ -1,0 +1,62 @@
+{
+  "code_version": "phase4-feasibility-step1-v1",
+  "date_utc": "2026-10-08T17:33:31.134344+00:00",
+  "inputs": {
+    "development": {
+      "path": "/Users/manumathewjiss/Documents/Research-on-Software-Updates/research-open-text-sentimental/phase3/icsc_full_paper/reliability_packet/submissions/2026-10-07-independent/development_after_independent_review.jsonl",
+      "sha256": "cef1b165a3150aa74dfc05cc3634988dc4e6926bfb57afdec5236f2f571729fd",
+      "rows": 3151
+    },
+    "reserved_test": {
+      "path": "/Users/manumathewjiss/Documents/Research-on-Software-Updates/research-open-text-sentimental/phase3/experiment_v1/data/reserved_test.jsonl",
+      "sha256": "e2023221e3e3acddbe5bf11df1a24674ad2c24cea9af9886e67535a0c8a1b5dd",
+      "ids": 200
+    },
+    "fresh_test_all_500": {
+      "path": "/Users/manumathewjiss/Documents/Research-on-Software-Updates/research-open-text-sentimental/phase3/fresh_test_20261007/frozen_joint_labels/all_500_reviewed.jsonl",
+      "sha256": "b9ad1898ac7b160a6382e35d6387fdf548a1d06cd0c252981d57ad2c736f804f",
+      "ids": 500
+    },
+    "master": {
+      "path": "/Users/manumathewjiss/Documents/Research-on-Software-Updates/research-open-text-sentimental/phase2/combined_dataset/master_records.json",
+      "sha256": "1c5942868a756f20673651ffd0257d895195ee1e290cf9c32871e84c6150287a"
+    }
+  },
+  "outputs": {
+    "README.md": {
+      "path": "/Users/manumathewjiss/Documents/Research-on-Software-Updates/research-open-text-sentimental/phase4/feasibility/README.md",
+      "sha256": "ec045a27fe7e397f47d7cbde1ed8a8e6b9b7e53d7e8d778f43b29bd02b83fa79"
+    },
+    "RUN.md": {
+      "path": "/Users/manumathewjiss/Documents/Research-on-Software-Updates/research-open-text-sentimental/phase4/feasibility/RUN.md",
+      "sha256": "b4d88743a6713dd6c0a446402832f1400d768c872a5d17d3131d6142b87bce3b"
+    },
+    "flow.json": {
+      "path": "/Users/manumathewjiss/Documents/Research-on-Software-Updates/research-open-text-sentimental/phase4/feasibility/flow.json",
+      "sha256": "ce9c7ef8f9afa2a508514ba185f3d55f2c5af6f36ca6e1bac6e5eccae3f4d645"
+    },
+    "all_development_audit.csv": {
+      "path": "/Users/manumathewjiss/Documents/Research-on-Software-Updates/research-open-text-sentimental/phase4/feasibility/all_development_audit.csv",
+      "sha256": "c76d66790a1ecab50d6ab59434371d5557b2b61bc476129747e6558697af4c76"
+    },
+    "passage_candidates.csv": {
+      "path": "/Users/manumathewjiss/Documents/Research-on-Software-Updates/research-open-text-sentimental/phase4/feasibility/passage_candidates.csv",
+      "sha256": "539a788c0870cb0f93ae8b9486428f80ac5679b454b80a92b2e9c05543f17c4c"
+    },
+    "rejected_examples.csv": {
+      "path": "/Users/manumathewjiss/Documents/Research-on-Software-Updates/research-open-text-sentimental/phase4/feasibility/rejected_examples.csv",
+      "sha256": "cc925fbc3ce482af3880b0deb74097ba126eb0da250cb8e3fe6fee3c4273ad24"
+    },
+    "screen_passages.py": {
+      "path": "/Users/manumathewjiss/Documents/Research-on-Software-Updates/research-open-text-sentimental/phase4/feasibility/screen_passages.py",
+      "sha256": "88725e2411062f86e7af24ca53affe550b0eb6f4471dc4230253d22c323c5168"
+    }
+  },
+  "passage_fields_do_not_use": [
+    "discussion_context",
+    "source_pool_audit_only",
+    "model predictions",
+    "sentiment scores",
+    "test outcomes"
+  ]
+}

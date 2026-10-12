@@ -1,0 +1,524 @@
+[
+  {
+    "review_id": "IR-078",
+    "reddit_id": "1mgrzy6",
+    "old": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "general_dissatisfaction",
+      "s2_in_scope": false,
+      "s2_target": 0
+    },
+    "new": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting",
+      "s2_in_scope": false,
+      "s2_target": 1
+    }
+  },
+  {
+    "review_id": "IR-150",
+    "reddit_id": "1s7uipc",
+    "old": {
+      "about_software": "yes",
+      "update_related": "yes",
+      "discussion_type": "other",
+      "s2_in_scope": true,
+      "s2_target": 0
+    },
+    "new": {
+      "about_software": "yes",
+      "update_related": "yes",
+      "discussion_type": "general_dissatisfaction",
+      "s2_in_scope": true,
+      "s2_target": 0
+    }
+  },
+  {
+    "review_id": "IR-082",
+    "reddit_id": "1te617s",
+    "old": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting",
+      "s2_in_scope": false,
+      "s2_target": 1
+    },
+    "new": {
+      "about_software": "yes",
+      "update_related": "yes",
+      "discussion_type": "technical_troubleshooting",
+      "s2_in_scope": true,
+      "s2_target": 1
+    }
+  },
+  {
+    "review_id": "IR-093",
+    "reddit_id": "1wvg5vo",
+    "old": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting",
+      "s2_in_scope": false,
+      "s2_target": 1
+    },
+    "new": {
+      "about_software": "yes",
+      "update_related": "yes",
+      "discussion_type": "technical_troubleshooting",
+      "s2_in_scope": true,
+      "s2_target": 1
+    }
+  },
+  {
+    "review_id": "IR-105",
+    "reddit_id": "1rllhyo",
+    "old": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "other",
+      "s2_in_scope": false,
+      "s2_target": 0
+    },
+    "new": {
+      "about_software": "yes",
+      "update_related": "yes",
+      "discussion_type": "other",
+      "s2_in_scope": true,
+      "s2_target": 0
+    }
+  },
+  {
+    "review_id": "IR-073",
+    "reddit_id": "1tebwdi",
+    "old": {
+      "about_software": "yes",
+      "update_related": "yes",
+      "discussion_type": "general_dissatisfaction",
+      "s2_in_scope": true,
+      "s2_target": 0
+    },
+    "new": {
+      "about_software": "yes",
+      "update_related": "yes",
+      "discussion_type": "technical_troubleshooting",
+      "s2_in_scope": true,
+      "s2_target": 1
+    }
+  },
+  {
+    "review_id": "IR-146",
+    "reddit_id": "1qfb0tq",
+    "old": {
+      "about_software": "yes",
+      "update_related": "yes",
+      "discussion_type": "technical_troubleshooting",
+      "s2_in_scope": true,
+      "s2_target": 1
+    },
+    "new": {
+      "about_software": "yes",
+      "update_related": "yes",
+      "discussion_type": "other",
+      "s2_in_scope": true,
+      "s2_target": 0
+    }
+  },
+  {
+    "review_id": "IR-064",
+    "reddit_id": "1m56e9b",
+    "old": {
+      "about_software": "yes",
+      "update_related": "yes",
+      "discussion_type": "other",
+      "s2_in_scope": true,
+      "s2_target": 0
+    },
+    "new": {
+      "about_software": "yes",
+      "update_related": "yes",
+      "discussion_type": "technical_troubleshooting",
+      "s2_in_scope": true,
+      "s2_target": 1
+    }
+  },
+  {
+    "review_id": "IR-180",
+    "reddit_id": "1o0e6dx",
+    "old": {
+      "about_software": "yes",
+      "update_related": "yes",
+      "discussion_type": "technical_troubleshooting",
+      "s2_in_scope": true,
+      "s2_target": 1
+    },
+    "new": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting",
+      "s2_in_scope": false,
+      "s2_target": 1
+    }
+  },
+  {
+    "review_id": "IR-189",
+    "reddit_id": "1suy71k",
+    "old": {
+      "about_software": "yes",
+      "update_related": "yes",
+      "discussion_type": "technical_troubleshooting",
+      "s2_in_scope": true,
+      "s2_target": 1
+    },
+    "new": {
+      "about_software": "yes",
+      "update_related": "yes",
+      "discussion_type": "general_dissatisfaction",
+      "s2_in_scope": true,
+      "s2_target": 0
+    }
+  },
+  {
+    "review_id": "IR-186",
+    "reddit_id": "1nwi6qc",
+    "old": {
+      "about_software": "yes",
+      "update_related": "yes",
+      "discussion_type": "technical_troubleshooting",
+      "s2_in_scope": true,
+      "s2_target": 1
+    },
+    "new": {
+      "about_software": "yes",
+      "update_related": "yes",
+      "discussion_type": "general_dissatisfaction",
+      "s2_in_scope": true,
+      "s2_target": 0
+    }
+  },
+  {
+    "review_id": "IR-034",
+    "reddit_id": "1pktceu",
+    "old": {
+      "about_software": "yes",
+      "update_related": "yes",
+      "discussion_type": "general_dissatisfaction",
+      "s2_in_scope": true,
+      "s2_target": 0
+    },
+    "new": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting",
+      "s2_in_scope": false,
+      "s2_target": 1
+    }
+  },
+  {
+    "review_id": "IR-129",
+    "reddit_id": "1urnq50",
+    "old": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting",
+      "s2_in_scope": false,
+      "s2_target": 1
+    },
+    "new": {
+      "about_software": "yes",
+      "update_related": "yes",
+      "discussion_type": "technical_troubleshooting",
+      "s2_in_scope": true,
+      "s2_target": 1
+    }
+  },
+  {
+    "review_id": "IR-098",
+    "reddit_id": "1k970e9",
+    "old": {
+      "about_software": "yes",
+      "update_related": "yes",
+      "discussion_type": "general_dissatisfaction",
+      "s2_in_scope": true,
+      "s2_target": 0
+    },
+    "new": {
+      "about_software": "yes",
+      "update_related": "yes",
+      "discussion_type": "technical_troubleshooting",
+      "s2_in_scope": true,
+      "s2_target": 1
+    }
+  },
+  {
+    "review_id": "IR-087",
+    "reddit_id": "1pfc58t",
+    "old": {
+      "about_software": "yes",
+      "update_related": "yes",
+      "discussion_type": "technical_troubleshooting",
+      "s2_in_scope": true,
+      "s2_target": 1
+    },
+    "new": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting",
+      "s2_in_scope": false,
+      "s2_target": 1
+    }
+  },
+  {
+    "review_id": "IR-009",
+    "reddit_id": "1ntcan7",
+    "old": {
+      "about_software": "yes",
+      "update_related": "yes",
+      "discussion_type": "general_dissatisfaction",
+      "s2_in_scope": true,
+      "s2_target": 0
+    },
+    "new": {
+      "about_software": "yes",
+      "update_related": "yes",
+      "discussion_type": "technical_troubleshooting",
+      "s2_in_scope": true,
+      "s2_target": 1
+    }
+  },
+  {
+    "review_id": "IR-035",
+    "reddit_id": "1nx7k8k",
+    "old": {
+      "about_software": "yes",
+      "update_related": "yes",
+      "discussion_type": "general_dissatisfaction",
+      "s2_in_scope": true,
+      "s2_target": 0
+    },
+    "new": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "general_dissatisfaction",
+      "s2_in_scope": false,
+      "s2_target": 0
+    }
+  },
+  {
+    "review_id": "IR-047",
+    "reddit_id": "1pbqjk9",
+    "old": {
+      "about_software": "yes",
+      "update_related": "yes",
+      "discussion_type": "general_dissatisfaction",
+      "s2_in_scope": true,
+      "s2_target": 0
+    },
+    "new": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting",
+      "s2_in_scope": false,
+      "s2_target": 1
+    }
+  },
+  {
+    "review_id": "IR-090",
+    "reddit_id": "1u4weju",
+    "old": {
+      "about_software": "yes",
+      "update_related": "yes",
+      "discussion_type": "other",
+      "s2_in_scope": true,
+      "s2_target": 0
+    },
+    "new": {
+      "about_software": "yes",
+      "update_related": "yes",
+      "discussion_type": "technical_troubleshooting",
+      "s2_in_scope": true,
+      "s2_target": 1
+    }
+  },
+  {
+    "review_id": "IR-162",
+    "reddit_id": "1p1t93s",
+    "old": {
+      "about_software": "yes",
+      "update_related": "yes",
+      "discussion_type": "technical_troubleshooting",
+      "s2_in_scope": true,
+      "s2_target": 1
+    },
+    "new": {
+      "about_software": "unclear",
+      "update_related": "no",
+      "discussion_type": "na",
+      "s2_in_scope": false,
+      "s2_target": 0
+    }
+  },
+  {
+    "review_id": "IR-141",
+    "reddit_id": "1r6cnag",
+    "old": {
+      "about_software": "yes",
+      "update_related": "yes",
+      "discussion_type": "technical_troubleshooting",
+      "s2_in_scope": true,
+      "s2_target": 1
+    },
+    "new": {
+      "about_software": "yes",
+      "update_related": "yes",
+      "discussion_type": "other",
+      "s2_in_scope": true,
+      "s2_target": 0
+    }
+  },
+  {
+    "review_id": "IR-011",
+    "reddit_id": "1p8l84x",
+    "old": {
+      "about_software": "yes",
+      "update_related": "yes",
+      "discussion_type": "general_dissatisfaction",
+      "s2_in_scope": true,
+      "s2_target": 0
+    },
+    "new": {
+      "about_software": "yes",
+      "update_related": "yes",
+      "discussion_type": "technical_troubleshooting",
+      "s2_in_scope": true,
+      "s2_target": 1
+    }
+  },
+  {
+    "review_id": "IR-102",
+    "reddit_id": "1vo45fq",
+    "old": {
+      "about_software": "yes",
+      "update_related": "yes",
+      "discussion_type": "technical_troubleshooting",
+      "s2_in_scope": true,
+      "s2_target": 1
+    },
+    "new": {
+      "about_software": "yes",
+      "update_related": "yes",
+      "discussion_type": "general_dissatisfaction",
+      "s2_in_scope": true,
+      "s2_target": 0
+    }
+  },
+  {
+    "review_id": "IR-157",
+    "reddit_id": "1sakb6f",
+    "old": {
+      "about_software": "no",
+      "update_related": "yes",
+      "discussion_type": "na",
+      "s2_in_scope": false,
+      "s2_target": 0
+    },
+    "new": {
+      "about_software": "yes",
+      "update_related": "yes",
+      "discussion_type": "other",
+      "s2_in_scope": true,
+      "s2_target": 0
+    }
+  },
+  {
+    "review_id": "IR-126",
+    "reddit_id": "1nww0mp",
+    "old": {
+      "about_software": "yes",
+      "update_related": "yes",
+      "discussion_type": "technical_troubleshooting",
+      "s2_in_scope": true,
+      "s2_target": 1
+    },
+    "new": {
+      "about_software": "yes",
+      "update_related": "yes",
+      "discussion_type": "other",
+      "s2_in_scope": true,
+      "s2_target": 0
+    }
+  },
+  {
+    "review_id": "IR-106",
+    "reddit_id": "1r3wa64",
+    "old": {
+      "about_software": "yes",
+      "update_related": "yes",
+      "discussion_type": "other",
+      "s2_in_scope": true,
+      "s2_target": 0
+    },
+    "new": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "other",
+      "s2_in_scope": false,
+      "s2_target": 0
+    }
+  },
+  {
+    "review_id": "IR-124",
+    "reddit_id": "1rhlwb3",
+    "old": {
+      "about_software": "yes",
+      "update_related": "yes",
+      "discussion_type": "general_dissatisfaction",
+      "s2_in_scope": true,
+      "s2_target": 0
+    },
+    "new": {
+      "about_software": "yes",
+      "update_related": "yes",
+      "discussion_type": "technical_troubleshooting",
+      "s2_in_scope": true,
+      "s2_target": 1
+    }
+  },
+  {
+    "review_id": "IR-161",
+    "reddit_id": "1tdv4zl",
+    "old": {
+      "about_software": "yes",
+      "update_related": "yes",
+      "discussion_type": "technical_troubleshooting",
+      "s2_in_scope": true,
+      "s2_target": 1
+    },
+    "new": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting",
+      "s2_in_scope": false,
+      "s2_target": 1
+    }
+  },
+  {
+    "review_id": "IR-075",
+    "reddit_id": "1r14hme",
+    "old": {
+      "about_software": "no",
+      "update_related": "no",
+      "discussion_type": "na",
+      "s2_in_scope": false,
+      "s2_target": 0
+    },
+    "new": {
+      "about_software": "yes",
+      "update_related": "yes",
+      "discussion_type": "technical_troubleshooting",
+      "s2_in_scope": true,
+      "s2_target": 1
+    }
+  }
+]

@@ -1,0 +1,47 @@
+test_id,error_type,primary_text_pattern,borderline_for_adjudication,analyst_note,title
+T20261007-027,false_negative,specific_malfunction,False,panel resize fails after upgrade,Cannot reduce the size of this panel.
+T20261007-029,false_positive,opinion_or_narrative,False,telemetry complaint and migration story; no current fix request,Forced HP telemetry made me mad enough to delete Windows 11 and install Debian 13. Couldn't be happier.
+T20261007-037,false_negative,update_installation_problem,False,upgrade command/config blocks installation,Upgrade from 25.10 to 26.04 LTS on VMware
+T20261007-046,false_positive,general_experience_question,False,asks whether others have issues; no own failure stated,Anyone had any issues with kernel update
+T20261007-054,false_positive,feature_observation,True,title names a scrollbar change; saved body absent,Recent Update Shows Scrollbar Rail
+T20261007-069,false_positive,feature_observation,True,asks why new visual changes are not apparent,Where is everybody seeing the new changes?
+T20261007-074,false_positive,preventive_update_advice,False,asks whether pending firmware should be applied,Philips Hue bulb FW updates
+T20261007-078,false_negative,documentation_or_navigation_problem,False,new feature instructions point to wrong settings path,Chrome's 'What's New' page gives wrong navigation instructions for Enhanced Autofill
+T20261007-102,false_negative,brief_malfunction,False,one short sentence describes intermittent screen glitch,Just upgraded to 26.04LTS
+T20261007-121,false_positive,explanation_or_verification_question,True,asks why package manager imported key and how to verify it,Importing GPG keys during upgrades
+T20261007-132,false_negative,changed_ui_behavior,True,blank tab dragging after update; asks design versus glitch,Safari Tab Dragging UI Behavior in macOS 26: Intentional Design or Persistent Glitch?
+T20261007-177,false_negative,changed_or_removed_feature,True,VPN option disappeared after update; asks why,"Firefox VPN disappeared, now I have to pay for it?"
+T20261007-179,false_negative,resolved_incident_narrative,True,desktop files disappeared but author found recovery path,Updating to Tahoe cleared out my Desktop folder
+T20261007-181,false_positive,feature_activation_problem,True,cannot find new SIA-DC09 option; asks for setup help,SIA-DC09 with Protect
+T20261007-193,false_negative,resolved_incident_narrative,True,license loss traced to moved registry key; long explanation,"If you have PDF-XChange Editor, please be careful with their new version 11.0.0"
+T20261007-196,false_negative,performance_or_resource_problem,False,battery health loss attributed to upgrade,Battery life ded after upgrading
+T20261007-197,false_negative,resolved_incident_narrative,True,plugin incompatibility diagnosed and fixed in post,WPML / Gravity Forms version mismatch
+T20261007-208,false_positive,preventive_update_advice,False,requests an update plan before installing,Update advice after falling off the update treadmill
+T20261007-213,false_positive,design_criticism,True,complains about gradients and asks how to disable them,"Firefox, what is going on with your design? Do you wanna loose existing userbase?"
+T20261007-218,false_negative,brief_malfunction,False,short corruption report with linked image,GPT header corruption after upgrading to TrueNas Scale 25.10
+T20261007-234,false_positive,preventive_update_advice,False,asks about risks before BIOS update,LUKS and BIOS Update
+T20261007-245,false_positive,feature_observation,False,reports smoother tabs and asks if others notice,Opening/moving/closing tabs became smoother?
+T20261007-256,false_negative,update_installation_problem,False,install blocked by storage error despite free space,iPhone 11 iOS 27.0.1 or 26.7.1 update issues
+T20261007-290,false_negative,changed_or_removed_feature,True,support/deprecation message after upgrade; asks why,Unifi Network no longer supported without Unifi OS?
+T20261007-291,false_positive,preventive_update_advice,True,asks how to keep old computer useful before OS update,Older iMac advice
+T20261007-333,false_positive,design_criticism,True,"complains about restart requirement, no fix request",WTF Firefox?  I don't want to restart right this second.
+T20261007-335,false_negative,specific_malfunction,False,mpv playback changes after package upgrade,Debian 13 updates causes change in mpv application
+T20261007-338,false_negative,brief_malfunction,False,blur-my-shell stops working; mostly image link,Just Updated to F44 Workstation
+T20261007-347,false_negative,update_installation_problem,False,expected Fedora release absent from update tools,Is Fedora 44 actually out(
+T20261007-349,false_positive,resolved_incident_narrative,True,long account of Dell updater and BIOS problems,"Dell, why do you insist on tripping yourself up?"
+T20261007-359,false_negative,specific_malfunction,False,age verification blocks access after iOS update; title only,"I’m from the US but IOS new update is asking me to verify age by the UK law? It’s preventing me from accessing to websites and some apps now need age verification, but I don’t even live in the UK…"
+T20261007-360,false_positive,how_to_update_question,True,asks how to install newer Android; no current malfunction,I need help to update my old tablet
+T20261007-362,false_positive,feature_observation,False,positive surprise at Copilot autocomplete,[LaTeX on VSCode] How is the Copilot autocomplete so damn accurate?!
+T20261007-367,false_positive,performance_or_quality_complaint,True,says Deepseek quality degraded after update,what happens to Deepseek?
+T20261007-380,false_negative,configuration_help,False,asks how to restore previous context-menu search behavior,"How to exclude the page context in ""Search Google for""?"
+T20261007-411,false_negative,design_criticism,True,"detailed criticism of Copilot UI changes, no explicit repair steps",New updated UI for vscode github copilot screws up diff UI
+T20261007-423,false_negative,specific_malfunction,True,speaker noise after updates; software versus hardware uncertain,Air M4 speaker issue
+T20261007-427,false_negative,configuration_help,True,asks how to resize search bar; solution appears in saved body,"Windows 11 desktop: How to reduce size of extra search bar (next to address bar)? Adding Flexible Space shrinks the address bar--which I don't want. Before the latest update, the extra search bar was 1/3 the size it is now, and I believe you could drag to expand/reduce. Is there a new way to shrink?"
+T20261007-445,false_negative,performance_or_resource_problem,False,high memory use after Firefox update with angry wording,Firefox new 157.0 update Memory usage
+T20261007-446,false_negative,specific_malfunction,False,crash and memory leak described with environment,firefox crashes
+T20261007-454,false_positive,preventive_update_advice,False,asks whether update is safe on old iPhone,Software update query
+T20261007-472,false_negative,configuration_help,True,asks how to change Dock appearance after update,Making Dock translucent in macOS Tahoe 26.1
+T20261007-473,false_positive,update_installation_problem,True,cumulative update missing after migration; asks why,Windows Update Hotpatch and cumulative
+T20261007-479,false_negative,specific_malfunction,False,library repeatedly rehashes after updates,Rehashing over and over again!
+T20261007-480,false_positive,changed_or_removed_feature,True,history sorting removed; post is chiefly complaint,Can't sort the history sidebar by visit count after the last update
+T20261007-492,false_positive,alternatives_or_advice,False,lists browser alternatives to a removed Edge feature,Alternatives for the Edge sidebar

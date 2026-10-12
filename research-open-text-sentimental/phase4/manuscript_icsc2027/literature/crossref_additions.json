@@ -1,0 +1,4031 @@
+{
+  "Bettenburg2008": {
+    "doi": "10.1145/1453101.1453146",
+    "metadata": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            8
+          ]
+        ],
+        "date-time": "2026-10-08T11:54:00Z",
+        "timestamp": 1791460440109,
+        "version": "4.3.4"
+      },
+      "publisher-location": "New York, NY, USA",
+      "reference-count": 36,
+      "publisher": "ACM",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2008,
+                11,
+                9
+              ]
+            ],
+            "date-time": "2008-11-09T00:00:00Z",
+            "timestamp": 1226188800000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "https://www.acm.org/publications/policies/copyright_policy#Background"
+        }
+      ],
+      "content-domain": {
+        "domain": [
+          "dl.acm.org"
+        ],
+        "crossmark-restriction": true
+      },
+      "short-container-title": [],
+      "published-print": {
+        "date-parts": [
+          [
+            2008,
+            11,
+            9
+          ]
+        ]
+      },
+      "DOI": "10.1145/1453101.1453146",
+      "type": "proceedings-article",
+      "created": {
+        "date-parts": [
+          [
+            2008,
+            11,
+            11
+          ]
+        ],
+        "date-time": "2008-11-11T07:59:40Z",
+        "timestamp": 1226390380000
+      },
+      "page": "308-318",
+      "update-policy": "https://doi.org/10.1145/crossmark-policy",
+      "source": "Crossref",
+      "is-referenced-by-count": 459,
+      "title": [
+        "What makes a good bug report?"
+      ],
+      "prefix": "10.1145",
+      "author": [
+        {
+          "given": "Nicolas",
+          "family": "Bettenburg",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Saarland University, Germany"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Sascha",
+          "family": "Just",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Saarland University, Germany"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Adrian",
+          "family": "Schröter",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "University of Victoria, BC, Canada"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Cathrin",
+          "family": "Weiss",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "University of Zurich, Switzerland"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Rahul",
+          "family": "Premraj",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Saarland University, Germany"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Thomas",
+          "family": "Zimmermann",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "University of Calgary, Alberta, Canada"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "320",
+      "published-online": {
+        "date-parts": [
+          [
+            2008,
+            11,
+            9
+          ]
+        ]
+      },
+      "reference": [
+        {
+          "key": "e_1_3_2_1_2_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/1134285.1134336"
+        },
+        {
+          "key": "e_1_3_2_1_3_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/32.799939"
+        },
+        {
+          "key": "e_1_3_2_1_4_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/1328279.1328284"
+        },
+        {
+          "key": "e_1_3_2_1_5_1",
+          "volume-title": "Software Engineering Chair",
+          "author": "Bettenburg N.",
+          "year": "2008"
+        },
+        {
+          "key": "e_1_3_2_1_6_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/ICSM.2008.4658082"
+        },
+        {
+          "key": "e_1_3_2_1_7_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/1370750.1370757"
+        },
+        {
+          "key": "e_1_3_2_1_8_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/1137983.1138009"
+        },
+        {
+          "key": "e_1_3_2_1_9_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/1141277.1141693"
+        },
+        {
+          "key": "e_1_3_2_1_10_1",
+          "unstructured": "L. Cherry and W. Vesterman. Writing tools - the STYLE and DICTION programs. Technical report AT&T Laboratories 1980.  L. Cherry and W. Vesterman. Writing tools - the STYLE and DICTION programs. Technical report AT&T Laboratories 1980."
+        },
+        {
+          "key": "e_1_3_2_1_11_1",
+          "first-page": "92",
+          "volume-title": "SEKE 2004: Proceedings of the Sixteenth International Conference on Software Engineering &amp; Knowledge Engineering",
+          "author": "Cubranic D.",
+          "year": "2004"
+        },
+        {
+          "key": "e_1_3_2_1_12_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.5555/950792.951355"
+        },
+        {
+          "key": "e_1_3_2_1_13_1",
+          "unstructured": "E. Goldberg. Bug writing guidelines. https://bugs.eclipse.org/bugs/bugwritinghelp.html. Last accessed 2007-08-04.  E. Goldberg. Bug writing guidelines. https://bugs.eclipse.org/bugs/bugwritinghelp.html. Last accessed 2007-08-04."
+        },
+        {
+          "key": "e_1_3_2_1_14_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/1321631.1321639"
+        },
+        {
+          "key": "e_1_3_2_1_15_1",
+          "unstructured": "HOT or NOT. http://www.hotornot.com/. Last accessed 2007-09-11.  HOT or NOT. http://www.hotornot.com/. Last accessed 2007-09-11."
+        },
+        {
+          "key": "e_1_3_2_1_16_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/ICSM.2007.4362636"
+        },
+        {
+          "key": "e_1_3_2_1_17_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/VLHCC.2008.4639063"
+        },
+        {
+          "key": "e_1_3_2_1_18_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/1181775.1181777"
+        },
+        {
+          "key": "e_1_3_2_1_20_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/VLHCC.2006.3"
+        },
+        {
+          "key": "e_1_3_2_1_21_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/1065010.1065014"
+        },
+        {
+          "key": "e_1_3_2_1_22_1",
+          "first-page": "1",
+          "article-title": "A technique for the measurement of attitudes",
+          "volume": "140",
+          "author": "Likert R.",
+          "year": "1932",
+          "journal-title": "Archives of Psychology"
+        },
+        {
+          "key": "e_1_3_2_1_23_1",
+          "volume-title": "Network Theory Ltd.",
+          "author": "MacKenzie D.",
+          "year": "2003"
+        },
+        {
+          "key": "e_1_3_2_1_24_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.5555/832308.837160"
+        },
+        {
+          "key": "e_1_3_2_1_25_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/1138912.1138915"
+        },
+        {
+          "key": "e_1_3_2_1_26_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/MSR.2007.25"
+        },
+        {
+          "key": "e_1_3_2_1_27_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.5555/942801.943632"
+        },
+        {
+          "key": "e_1_3_2_1_28_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.5555/942801.943614"
+        },
+        {
+          "key": "e_1_3_2_1_29_1",
+          "unstructured": "Ratemyface.com. http://www.ratemyface.com/. Last accessed 2007-09-11.  Ratemyface.com. http://www.ratemyface.com/. Last accessed 2007-09-11."
+        },
+        {
+          "key": "e_1_3_2_1_30_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/ICSE.2007.32"
+        },
+        {
+          "key": "e_1_3_2_1_31_1",
+          "unstructured": "S. Siegel and N. J. Castellan Jr. Nonparametric Statistics for the Behavioral Sciences. McGraw-Hill second edition 1988.  S. Siegel and N. J. Castellan Jr. Nonparametric Statistics for the Behavioral Sciences . McGraw-Hill second edition 1988."
+        },
+        {
+          "key": "e_1_3_2_1_32_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/TSE.2002.1158289"
+        },
+        {
+          "key": "e_1_3_2_1_33_1",
+          "doi-asserted-by": "crossref",
+          "unstructured": "J. Spolsky. Joel on Software. APress US 2004.   J. Spolsky. Joel on Software . APress US 2004.",
+          "DOI": "10.1007/978-1-4302-0753-5"
+        },
+        {
+          "key": "e_1_3_2_1_34_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/1368088.1368151"
+        },
+        {
+          "key": "e_1_3_2_1_35_1",
+          "doi-asserted-by": "crossref",
+          "unstructured": "L. Wasserman. All of Statistics: A Concise Course in Statistical Inference. Springer second edition 2004.  L. Wasserman. All of Statistics: A Concise Course in Statistical Inference . Springer second edition 2004.",
+          "DOI": "10.1007/978-0-387-21736-9"
+        },
+        {
+          "key": "e_1_3_2_1_36_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/1173706.1173734"
+        },
+        {
+          "key": "e_1_3_2_1_37_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/MSR.2007.13"
+        },
+        {
+          "key": "e_1_3_2_1_38_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/1287624.1287638"
+        }
+      ],
+      "event": {
+        "name": "SIGSOFT '08/FSE-16: SIGSOFT 2008 -16th International Symposium on the Foundations of Software Engineering",
+        "location": "Atlanta Georgia",
+        "acronym": "SIGSOFT '08/FSE-16",
+        "sponsor": [
+          "SIGSOFT ACM Special Interest Group on Software Engineering"
+        ]
+      },
+      "container-title": [
+        "Proceedings of the 16th ACM SIGSOFT International Symposium on Foundations of software engineering"
+      ],
+      "original-title": [],
+      "link": [
+        {
+          "URL": "https://dl.acm.org/doi/10.1145/1453101.1453146",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://dl.acm.org/doi/pdf/10.1145/1453101.1453146",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2025,
+            6,
+            18
+          ]
+        ],
+        "date-time": "2025-06-18T09:29:44Z",
+        "timestamp": 1750238984000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://dl.acm.org/doi/10.1145/1453101.1453146"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2008,
+            11,
+            9
+          ]
+        ]
+      },
+      "references-count": 36,
+      "alternative-id": [
+        "10.1145/1453101.1453146",
+        "10.1145/1453101"
+      ],
+      "URL": "https://doi.org/10.1145/1453101.1453146",
+      "relation": {},
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2008,
+            11,
+            9
+          ]
+        ]
+      },
+      "assertion": [
+        {
+          "value": "2008-11-09",
+          "order": 2,
+          "name": "published",
+          "label": "Published",
+          "group": {
+            "name": "publication_history",
+            "label": "Publication History"
+          }
+        }
+      ]
+    }
+  },
+  "Soltani2020": {
+    "doi": "10.1007/s10664-020-09882-z",
+    "metadata": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            8
+          ]
+        ],
+        "date-time": "2026-10-08T11:34:04Z",
+        "timestamp": 1791459244148,
+        "version": "4.3.4"
+      },
+      "reference-count": 44,
+      "publisher": "Springer Science and Business Media LLC",
+      "issue": "6",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2020,
+                9,
+                14
+              ]
+            ],
+            "date-time": "2020-09-14T00:00:00Z",
+            "timestamp": 1600041600000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "https://creativecommons.org/licenses/by/4.0"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2020,
+                9,
+                14
+              ]
+            ],
+            "date-time": "2020-09-14T00:00:00Z",
+            "timestamp": 1600041600000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "https://creativecommons.org/licenses/by/4.0"
+        }
+      ],
+      "funder": [
+        {
+          "name": "Dutch 4TU project ”Big Softwareon the Run”"
+        }
+      ],
+      "content-domain": {
+        "domain": [
+          "link.springer.com"
+        ],
+        "crossmark-restriction": false
+      },
+      "short-container-title": [
+        "Empir Software Eng"
+      ],
+      "published-print": {
+        "date-parts": [
+          [
+            2020,
+            11
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title><jats:p>Open source software projects often use issue repositories, where project contributors submit bug reports. Using these repositories, more bugs in software projects may be identified and fixed. However, the content and therefore quality of bug reports vary. In this study, we aim to understand the significance of different elements in bug reports. We interviewed 35 developers to gain insights into their perceptions on the importance of various contents in bug reports. To assess our findings, we surveyed 305 developers. The results show developers find it highly important that bug reports include crash description, reproducing steps or test cases, and stack traces. Software version, fix suggestions, code snippets, and attached contents have lower importance for software debugging. Furthermore, to evaluate the quality of currently available bug reports, we mined issue repositories of 250 most popular projects on Github. Statistical analysis on the mined issues shows that crash reproducing steps, stack traces, fix suggestions, and user contents, have statistically significant impact on bug resolution times, for ∼70%, ∼76%, ∼55%, and ∼33% of the projects. However, on avarage, over 70% of bug reports lack these elements.</jats:p>",
+      "DOI": "10.1007/s10664-020-09882-z",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2020,
+            9,
+            14
+          ]
+        ],
+        "date-time": "2020-09-14T15:03:46Z",
+        "timestamp": 1600095826000
+      },
+      "page": "5255-5294",
+      "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+      "source": "Crossref",
+      "is-referenced-by-count": 41,
+      "title": [
+        "The significance of bug report elements"
+      ],
+      "prefix": "10.1007",
+      "volume": "25",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0003-2788-796X",
+          "authenticated-orcid": false,
+          "given": "Mozhan",
+          "family": "Soltani",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Felienne",
+          "family": "Hermans",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Thomas",
+          "family": "Bäck",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "297",
+      "published-online": {
+        "date-parts": [
+          [
+            2020,
+            9,
+            14
+          ]
+        ]
+      },
+      "reference": [
+        {
+          "issue": "4",
+          "key": "9882_CR1",
+          "doi-asserted-by": "publisher",
+          "first-page": "487",
+          "DOI": "10.1007/s10664-010-9152-6",
+          "volume": "16",
+          "author": "S Adolph",
+          "year": "2011",
+          "unstructured": "Adolph S, Hall W, Kruchten P (2011) Using grounded theory to study the experience of software development. Empir Softw Eng 16(4):487–513",
+          "journal-title": "Empir Softw Eng"
+        },
+        {
+          "key": "9882_CR2",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Anvik J, Hiew L, Murphy GC (2005) Coping with an open bug repository. In: Proceedings of the 2005 OOPSLA workshop on Eclipse technology eXchange, ACM, pp 35–39",
+          "DOI": "10.1145/1117696.1117704"
+        },
+        {
+          "issue": "2",
+          "key": "9882_CR3",
+          "doi-asserted-by": "publisher",
+          "first-page": "328",
+          "DOI": "10.1111/j.1365-2648.1994.tb01088.x",
+          "volume": "19",
+          "author": "KL Barriball",
+          "year": "1994",
+          "unstructured": "Barriball KL, While A (1994) Collecting data using a semi-structured interview: a discussion paper. J Adv Nursing-Institut Subscript 19(2):328–335",
+          "journal-title": "J Adv Nursing-Institut Subscript"
+        },
+        {
+          "issue": "4",
+          "key": "9882_CR4",
+          "doi-asserted-by": "publisher",
+          "first-page": "456",
+          "DOI": "10.1109/32.799939",
+          "volume": "25",
+          "author": "VR Basili",
+          "year": "1999",
+          "unstructured": "Basili VR, Shull F, Lanubile F (1999) Building knowledge through families of experiments. IEEE Trans Softw Eng 25(4):456–473",
+          "journal-title": "IEEE Trans Softw Eng"
+        },
+        {
+          "key": "9882_CR5",
+          "unstructured": "Borges H, Valente MT, Hora A, Coelho J (2015) On the popularity of github applications: a preliminary note. arXiv:1507.00604"
+        },
+        {
+          "issue": "2",
+          "key": "9882_CR6",
+          "doi-asserted-by": "publisher",
+          "first-page": "77",
+          "DOI": "10.1191/1478088706qp063oa",
+          "volume": "3",
+          "author": "V Braun",
+          "year": "2006",
+          "unstructured": "Braun V, Clarke V (2006) Using thematic analysis in psychology. Qual Res Psycho 3(2):77–101",
+          "journal-title": "Qual Res Psycho"
+        },
+        {
+          "issue": "2",
+          "key": "9882_CR7",
+          "doi-asserted-by": "publisher",
+          "first-page": "198",
+          "DOI": "10.1109/TSE.2014.2363469",
+          "volume": "41",
+          "author": "N Chen",
+          "year": "2015",
+          "unstructured": "Chen N, Kim S (2015) Star: stack trace based automatic crash reproduction via symbolic execution. IEEE Tr Sw Eng 41(2):198–220",
+          "journal-title": "IEEE Tr Sw Eng"
+        },
+        {
+          "key": "9882_CR8",
+          "volume-title": "Research design: qualitative, quantitative, and mixed methods approaches",
+          "author": "JW Creswell",
+          "year": "2017",
+          "unstructured": "Creswell JW, Creswell JD (2017) Research design: qualitative, quantitative, and mixed methods approaches. Sage Publications, California"
+        },
+        {
+          "key": "9882_CR9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.4324/9780203519196",
+          "volume-title": "Surveys in social research",
+          "author": "D De Vaus",
+          "year": "2013",
+          "unstructured": "De Vaus D, de Vaus D (2013) Surveys in social research. Routledge, Abingdon"
+        },
+        {
+          "key": "9882_CR10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.4135/9781412986328",
+          "volume-title": "The survey handbook",
+          "author": "A Fink",
+          "year": "2003",
+          "unstructured": "Fink A (2003) The survey handbook. Sage, Newbury Park"
+        },
+        {
+          "key": "9882_CR11",
+          "doi-asserted-by": "crossref",
+          "first-page": "38",
+          "DOI": "10.4135/9781849208574.n4",
+          "volume-title": "Thematic coding and categorizing. analyzing qualitative data",
+          "author": "GR Gibbs",
+          "year": "2007",
+          "unstructured": "Gibbs GR (2007) Thematic coding and categorizing. analyzing qualitative data. Sage, London, pp 38–56"
+        },
+        {
+          "key": "9882_CR12",
+          "unstructured": "developer.github (2015) https://developer.github.com/v3/issues/, accessed on 2015-05-01"
+        },
+        {
+          "key": "9882_CR13",
+          "unstructured": "Github (2019a) https://github.com/netty/netty/issues/8285, accessed on 2019-06-20"
+        },
+        {
+          "key": "9882_CR14",
+          "unstructured": "Github (2019b) https://github.com/axios/axios/issues/376, accessed on 2019-06-20"
+        },
+        {
+          "key": "9882_CR15",
+          "unstructured": "Github (2019c) https://github.com/axios/axios/issues/246, accessed on 2019-06-20"
+        },
+        {
+          "key": "9882_CR16",
+          "unstructured": "Github (2019d) https://github.com/apache/dubbo/issues/1500, accessed on 2019-06-20"
+        },
+        {
+          "key": "9882_CR17",
+          "unstructured": "Github (2019e) https://github.com/apache/dubbo/issues/3236, accessed on 2019-06-20"
+        },
+        {
+          "key": "9882_CR18",
+          "unstructured": "Github (2019f) https://github.com/activeadmin/activeadmin/issues/2623, accessed on 2019-06-20"
+        },
+        {
+          "key": "9882_CR19",
+          "unstructured": "Github (2019g) https://github.com/activeadmin/activeadmin/issues/3185, accessed on 2019-06-20"
+        },
+        {
+          "key": "9882_CR20",
+          "unstructured": "Github (2019h) https://github.com/activeadmin/activeadmin/issues/4650, accessed on 2019-06-20"
+        },
+        {
+          "key": "9882_CR21",
+          "unstructured": "Github (2019i) https://github.com/angular/angular.js/issues/16697, accessed on 2019-06-20"
+        },
+        {
+          "key": "9882_CR22",
+          "unstructured": "Github (2019j) https://github.com/ageitgey/face_recognition/issues/854, accessed on 2019-06-20"
+        },
+        {
+          "key": "9882_CR23",
+          "unstructured": "Github (2019k) https://github.com/airbnb/lottie-android/issues/1202, accessed on 2019-06-20"
+        },
+        {
+          "key": "9882_CR24",
+          "unstructured": "Github (2019l) https://github.com/barryvdh/laravel-debugbar/issues/237, accessed on 2019-06-20"
+        },
+        {
+          "key": "9882_CR25",
+          "unstructured": "Github (2019m) https://github.com/activeadmin/activeadmin/issues/4250, accessed on 2019-06-20"
+        },
+        {
+          "key": "9882_CR26",
+          "unstructured": "Glaser BG, Holton J (2004) Remodeling grounded theory. In: Forum qualitative sozialforschung/forum: qualitative social research, vol 5"
+        },
+        {
+          "key": "9882_CR27",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Hooimeijer P, Weimer W (2007) Modeling bug report quality. In: Proceedings of the twenty-second IEEE/ACM international conference on automated software engineering, ACM, pp 34–43",
+          "DOI": "10.1145/1321631.1321639"
+        },
+        {
+          "key": "9882_CR28",
+          "unstructured": "Hove SE, Anda B (2005) Experiences from conducting semi-structured interviews in empirical software engineering research. In: 11Th IEEE international software metrics symposium (METRICS’05), IEEE, pp 10–pp"
+        },
+        {
+          "issue": "42",
+          "key": "9882_CR29",
+          "first-page": "1",
+          "volume": "17",
+          "author": "SA Jacob",
+          "year": "2012",
+          "unstructured": "Jacob SA, Furgerson SP (2012) Writing interview protocols and conducting interviews: Tips for students new to the field of qualitative research. Qual Rep 17(42):1–10",
+          "journal-title": "Qual Rep"
+        },
+        {
+          "issue": "2",
+          "key": "9882_CR30",
+          "doi-asserted-by": "publisher",
+          "first-page": "20",
+          "DOI": "10.1145/511152.511155",
+          "volume": "27",
+          "author": "BA Kitchenham",
+          "year": "2002",
+          "unstructured": "Kitchenham BA, Pfleeger SL (2002) Principles of survey research: part 3: constructing a survey instrument. ACM SIGSOFT Softw Eng Notes 27 (2):20–24",
+          "journal-title": "ACM SIGSOFT Softw Eng Notes"
+        },
+        {
+          "key": "9882_CR31",
+          "unstructured": "Likert R (1932) A technique for the measurement of attitudes. Archives of psychology"
+        },
+        {
+          "issue": "1",
+          "key": "9882_CR32",
+          "first-page": "52",
+          "volume": "16",
+          "author": "A Moghaddam",
+          "year": "2006",
+          "unstructured": "Moghaddam A (2006) Coding issues in grounded theory. Issues Educ Res 16(1):52–66",
+          "journal-title": "Issues Educ Res"
+        },
+        {
+          "issue": "1",
+          "key": "9882_CR33",
+          "doi-asserted-by": "publisher",
+          "first-page": "2",
+          "DOI": "10.1016/j.infoandorg.2006.11.001",
+          "volume": "17",
+          "author": "MD Myers",
+          "year": "2007",
+          "unstructured": "Myers MD, Newman M (2007) The qualitative interview in is research: examining the craft. Inform Organ 17(1):2–26",
+          "journal-title": "Inform Organ"
+        },
+        {
+          "key": "9882_CR34",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Nayrolles M, Hamou-Lhadj A, Tahar S, Larsson A (2015) Jcharming: a bug reproduction approach using crash traces and directed model checking. In: 2015 IEEE 22nd international conference on software analysis, evolution, and reengineering (SANER), IEEE, pp 101–110",
+          "DOI": "10.1109/SANER.2015.7081820"
+        },
+        {
+          "issue": "6",
+          "key": "9882_CR35",
+          "doi-asserted-by": "publisher",
+          "first-page": "16",
+          "DOI": "10.1145/505532.505535",
+          "volume": "26",
+          "author": "SL Pfleeger",
+          "year": "2001",
+          "unstructured": "Pfleeger SL, Kitchenham BA (2001) Principles of survey research: part 1: turning lemons into lemonade. ACM SIGSOFT Softw Eng Notes 26(6):16–18",
+          "journal-title": "ACM SIGSOFT Softw Eng Notes"
+        },
+        {
+          "key": "9882_CR36",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Schroter A, Schröter A., Bettenburg N, Premraj R (2010) Do stack traces help developers fix bugs?. In: 2010 7th IEEE working conference on mining software repositories (MSR 2010), IEEE, pp 118–121",
+          "DOI": "10.1109/MSR.2010.5463280"
+        },
+        {
+          "key": "9882_CR37",
+          "unstructured": "Soltani M, Panichella A, Van Deursen A (2018) Search-based crash reproduction and its impact on debugging. IEEE Trans Softw Eng"
+        },
+        {
+          "key": "9882_CR38",
+          "unstructured": "The state of the octoverse (2017) https://octoverse.github.com/2017/, accessed on 2019-05-012019"
+        },
+        {
+          "key": "9882_CR39",
+          "unstructured": "The state of the octoverse (2018) Top programming languages of. https://github.blog/2018-11-15-state-of-the-octoverse-top-programming-languages/, accessed on 2019-05-01"
+        },
+        {
+          "key": "9882_CR40",
+          "unstructured": "The state of the octoverse (2019) https://octoverse.github.com/, accessed on 2019-05-01"
+        },
+        {
+          "issue": "2",
+          "key": "9882_CR41",
+          "first-page": "101",
+          "volume": "25",
+          "author": "A Vargha",
+          "year": "2000",
+          "unstructured": "Vargha A, Delaney HD (2000) A critique and improvement of the CL common language effect size statistics of McGraw and Wong. J Educ Behav Stat 25(2):101–132",
+          "journal-title": "J Educ Behav Stat"
+        },
+        {
+          "key": "9882_CR42",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Weiss C, Premraj R, Zimmermann T, Zeller A (2007) How long will it take to fix this bug?. In: Fourth international workshop on mining software repositories (MSR’07: ICSE workshops 2007), IEEE, pp 1–1",
+          "DOI": "10.1109/MSR.2007.13"
+        },
+        {
+          "key": "9882_CR43",
+          "unstructured": "Zeng H, Rine D (2004) Estimation of software defects fix effort using neural networks. In: Proceedings of the 28th annual international computer software and applications conference, 2004. COMPSAC 2004. IEEE, vol 2, pp 20–21"
+        },
+        {
+          "issue": "5",
+          "key": "9882_CR44",
+          "doi-asserted-by": "publisher",
+          "first-page": "618",
+          "DOI": "10.1109/TSE.2010.63",
+          "volume": "36",
+          "author": "T Zimmermann",
+          "year": "2010",
+          "unstructured": "Zimmermann T, Premraj R, Bettenburg N, Just S, Schroter A, Weiss C (2010) What makes a good bug report?. IEEE Trans Softw Eng 36(5):618–643",
+          "journal-title": "IEEE Trans Softw Eng"
+        }
+      ],
+      "container-title": [
+        "Empirical Software Engineering"
+      ],
+      "original-title": [],
+      "language": "en",
+      "link": [
+        {
+          "URL": "https://link.springer.com/content/pdf/10.1007/s10664-020-09882-z.pdf",
+          "content-type": "application/pdf",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://link.springer.com/article/10.1007/s10664-020-09882-z/fulltext.html",
+          "content-type": "text/html",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://link.springer.com/content/pdf/10.1007/s10664-020-09882-z.pdf",
+          "content-type": "application/pdf",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2022,
+            11,
+            18
+          ]
+        ],
+        "date-time": "2022-11-18T06:22:40Z",
+        "timestamp": 1668752560000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://link.springer.com/10.1007/s10664-020-09882-z"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2020,
+            9,
+            14
+          ]
+        ]
+      },
+      "references-count": 44,
+      "journal-issue": {
+        "issue": "6",
+        "published-print": {
+          "date-parts": [
+            [
+              2020,
+              11
+            ]
+          ]
+        }
+      },
+      "alternative-id": [
+        "9882"
+      ],
+      "URL": "https://doi.org/10.1007/s10664-020-09882-z",
+      "relation": {},
+      "ISSN": [
+        "1382-3256",
+        "1573-7616"
+      ],
+      "issn-type": [
+        {
+          "value": "1382-3256",
+          "type": "print"
+        },
+        {
+          "value": "1573-7616",
+          "type": "electronic"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2020,
+            9,
+            14
+          ]
+        ]
+      },
+      "assertion": [
+        {
+          "value": "14 September 2020",
+          "order": 1,
+          "name": "first_online",
+          "label": "First Online",
+          "group": {
+            "name": "ArticleHistory",
+            "label": "Article History"
+          }
+        }
+      ]
+    }
+  },
+  "Wang2025Information": {
+    "doi": "10.1016/j.jss.2024.112230",
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  "Tkalich2025": {
+    "doi": "10.1007/s10664-024-10557-2",
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  "Laiq2026": {
+    "doi": "10.1007/s10515-026-00616-x",
+    "metadata": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            3
+          ]
+        ],
+        "date-time": "2026-10-03T02:36:46Z",
+        "timestamp": 1790995006400,
+        "version": "4.1.0"
+      },
+      "reference-count": 78,
+      "publisher": "Springer Science and Business Media LLC",
+      "issue": "3",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2026,
+                5,
+                4
+              ]
+            ],
+            "date-time": "2026-05-04T00:00:00Z",
+            "timestamp": 1777852800000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "https://creativecommons.org/licenses/by/4.0"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2026,
+                5,
+                4
+              ]
+            ],
+            "date-time": "2026-05-04T00:00:00Z",
+            "timestamp": 1777852800000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "https://creativecommons.org/licenses/by/4.0"
+        }
+      ],
+      "funder": [
+        {
+          "DOI": "10.13039/501100005376",
+          "name": "Mid Sweden University",
+          "doi-asserted-by": "crossref",
+          "id": [
+            {
+              "id": "10.13039/501100005376",
+              "id-type": "DOI",
+              "asserted-by": "crossref"
+            }
+          ]
+        }
+      ],
+      "content-domain": {
+        "domain": [
+          "link.springer.com"
+        ],
+        "crossmark-restriction": false
+      },
+      "short-container-title": [
+        "Autom Softw Eng"
+      ],
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "DOI": "10.1007/s10515-026-00616-x",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            4
+          ]
+        ],
+        "date-time": "2026-05-04T03:37:43Z",
+        "timestamp": 1777865863000
+      },
+      "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+      "source": "Crossref",
+      "is-referenced-by-count": 2,
+      "title": [
+        "Automatic techniques for issue report classification: A systematic mapping study"
+      ],
+      "prefix": "10.1007",
+      "volume": "33",
+      "author": [
+        {
+          "given": "Muhammad",
+          "family": "Laiq",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Felix",
+          "family": "Dobslaw",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "297",
+      "published-online": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            4
+          ]
+        ]
+      },
+      "reference": [
+        {
+          "key": "616_CR1",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Alam, K.A., Jumani, A., Aamir, H., Uzair, M.: Classifai: Automating issue reports classification using pre-trained bert (bidirectional encoder representations from transformers) models. In: Proceedings of the Third ACM/IEEE International Workshop on NL-based Software Engineering, pp. 49–52 (2024)",
+          "DOI": "10.1145/3643787.3648041"
+        },
+        {
+          "key": "616_CR2",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Alraddadi, R., Alshayeb, M.: An empirical evaluation of stacked generalization models for binary bug report classification. Innov. Syst. Softw. Eng., 1–16 (2024)",
+          "DOI": "10.1007/s11334-024-00584-z"
+        },
+        {
+          "key": "616_CR3",
+          "doi-asserted-by": "publisher",
+          "first-page": "201",
+          "DOI": "10.1016/j.infsof.2018.10.006",
+          "volume": "106",
+          "author": "A Ampatzoglou",
+          "year": "2019",
+          "unstructured": "Ampatzoglou, A., Bibi, S., Avgeriou, P., Verbeek, M., Chatzigeorgiou, A.: Identifying, categorizing and mitigating threats to validity in software engineering secondary studies. Inf. Softw. Technol. 106, 201–230 (2019). https://doi.org/10.1016/j.infsof.2018.10.006",
+          "journal-title": "Inf. Softw. Technol."
+        },
+        {
+          "key": "616_CR4",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Antoniol, G., Ayari, K., Di Penta, M., Khomh, F., Guéhéneuc, Y.-G.: Is it a bug or an enhancement? a text-based approach to classify change requests. In: Proceedings of the 2008 Conference of the Center for Advanced Studies on Collaborative Research: Meeting of Minds, pp. 304–318 (2008)",
+          "DOI": "10.1145/1463788.1463819"
+        },
+        {
+          "key": "616_CR5",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Aracena, G., Luster, K., Santos, F., Steinmacher, I., Gerosa, M.A.: Applying large language models to issue classification. In: Proceedings of the Third ACM/IEEE International Workshop on NL-based Software Engineering, pp. 57–60 (2024)",
+          "DOI": "10.1145/3643787.3648043"
+        },
+        {
+          "key": "616_CR6",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Bharadwaj, S., Kadam, T.: Github issue classification using bert-style models. In: Proceedings of the 1st International Workshop on Natural Language-based Software Engineering, pp. 40–43 (2022)",
+          "DOI": "10.1145/3528588.3528663"
+        },
+        {
+          "issue": "5",
+          "key": "616_CR7",
+          "doi-asserted-by": "publisher",
+          "first-page": "126",
+          "DOI": "10.1007/s10664-024-10507-y",
+          "volume": "29",
+          "author": "M Borg",
+          "year": "2024",
+          "unstructured": "Borg, M., Jonsson, L., Engström, E., Bartalos, B., Szabó, A.: Adopting automated bug assignment in practice–a longitudinal case study at ericsson. Empir. Softw. Eng. 29(5), 126 (2024)",
+          "journal-title": "Empir. Softw. Eng."
+        },
+        {
+          "issue": "8",
+          "key": "616_CR8",
+          "doi-asserted-by": "publisher",
+          "first-page": "2071",
+          "DOI": "10.23940/ijpe.19.08.p6.20712080",
+          "volume": "15",
+          "author": "L Chen",
+          "year": "2019",
+          "unstructured": "Chen, L., Huang, S., Sun, J., Hui, Z., Yang, S.: Bug report classification based on vector space model. Int. J. Performab. Eng. 15(8), 2071 (2019)",
+          "journal-title": "Int. J. Performab. Eng."
+        },
+        {
+          "key": "616_CR9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.infsof.2021.106743",
+          "volume": "142",
+          "author": "H Cho",
+          "year": "2022",
+          "unstructured": "Cho, H., Lee, S., Kang, S.: Classifying issue reports according to feature descriptions in a user manual based on a deep learning model. Inf. Softw. Technol. 142, 106743 (2022)",
+          "journal-title": "Inf. Softw. Technol."
+        },
+        {
+          "key": "616_CR10",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Colavito, G., Lanubile, F., Novielli, N.: Issue report classification using pre-trained language models. In: Proceedings of the 1st International Workshop on Natural Language-based Software Engineering, pp. 29–32 (2022)",
+          "DOI": "10.1145/3528588.3528659"
+        },
+        {
+          "key": "616_CR11",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Colavito, G., Lanubile, F., Novielli, N.: Few-shot learning for issue report classification. In: 2023 IEEE/ACM 2nd International Workshop on Natural Language-Based Software Engineering (NLBSE), pp. 16–19 (2023). IEEE",
+          "DOI": "10.1109/NLBSE59153.2023.00011"
+        },
+        {
+          "key": "616_CR12",
+          "unstructured": "Colavito, G., Lanubile, F., Novielli, N., Quaranta, L.: Large language models for issue report classification (2024)"
+        },
+        {
+          "key": "616_CR13",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Colavito, G., Lanubile, F., Novielli, N., Quaranta, L.: Leveraging gpt-like llms to automate issue labeling. In: Proceedings of the 21st International Conference on Mining Software Repositories, pp. 469–480 (2024)",
+          "DOI": "10.1145/3643991.3644903"
+        },
+        {
+          "issue": "2",
+          "key": "616_CR14",
+          "doi-asserted-by": "publisher",
+          "first-page": "26",
+          "DOI": "10.1007/s10664-022-10254-y",
+          "volume": "28",
+          "author": "P Devine",
+          "year": "2023",
+          "unstructured": "Devine, P., Koh, Y.S., Blincoe, K.: Evaluating software user feedback classifier performance on unseen apps, datasets, and metadata. Empir. Softw. Eng. 28(2), 26 (2023)",
+          "journal-title": "Empir. Softw. Eng."
+        },
+        {
+          "key": "616_CR15",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Du, X., Zheng, Z., Xiao, G., Yin, B.: The automatic classification of fault trigger based bug report. In: 2017 IEEE International Symposium on Software Reliability Engineering Workshops (ISSREW), pp. 259–265 (2017). IEEE",
+          "DOI": "10.1109/ISSREW.2017.28"
+        },
+        {
+          "key": "616_CR16",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Du, X., Liu, Z., Li, C., Ma, X., Li, Y., Wang, X.: Llm-brc: A large language model-based bug report classification framework. Softw. Qual. J., 1–21 (2024)",
+          "DOI": "10.1007/s11219-024-09675-3"
+        },
+        {
+          "key": "616_CR17",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Ebrahim, F., Joy, M.: Few-shot issue report classification with adapters. In: Proceedings of the Third ACM/IEEE International Workshop on NL-based Software Engineering, pp. 41–44 (2024)",
+          "DOI": "10.1145/3643787.3648039"
+        },
+        {
+          "key": "616_CR18",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Fan, Q., Yu, Y., Yin, G., Wang, T., Wang, H.: Where is the road for issue reports classification based on text mining? In: 2017 ACM/IEEE International Symposium on Empirical Software Engineering and Measurement (ESEM), pp. 121–130 (2017). IEEE",
+          "DOI": "10.1109/ESEM.2017.19"
+        },
+        {
+          "issue": "5",
+          "key": "616_CR19",
+          "doi-asserted-by": "publisher",
+          "first-page": "495",
+          "DOI": "10.1109/TSE.2018.2864217",
+          "volume": "46",
+          "author": "Y Fan",
+          "year": "2018",
+          "unstructured": "Fan, Y., Xia, X., Lo, D., Hassan, A.E.: Chaff from the wheat: Characterizing and determining valid bug reports. IEEE Trans. Softw. Eng. 46(5), 495–525 (2018)",
+          "journal-title": "IEEE Trans. Softw. Eng."
+        },
+        {
+          "key": "616_CR20",
+          "unstructured": "GayathriP, M., Babu, G.K.K.: Optimization of the bug report classification using genetic algorithm. (2019). https://api.semanticscholar.org/CorpusID:212538218"
+        },
+        {
+          "issue": "3",
+          "key": "616_CR21",
+          "doi-asserted-by": "publisher",
+          "first-page": "753",
+          "DOI": "10.1044/2023_JSLHR-23-00273",
+          "volume": "67",
+          "author": "H Ghasemzadeh",
+          "year": "2024",
+          "unstructured": "Ghasemzadeh, H., Hillman, R.E., Mehta, D.D.: Toward generalizable machine learning models in speech, language, and hearing sciences: Estimating sample size and reducing overfitting. J. Speech Lang. Hear. Res. 67(3), 753–781 (2024)",
+          "journal-title": "J. Speech Lang. Hear. Res."
+        },
+        {
+          "key": "616_CR22",
+          "doi-asserted-by": "publisher",
+          "first-page": "58",
+          "DOI": "10.1016/j.infsof.2019.07.009",
+          "volume": "115",
+          "author": "LAF Gomes",
+          "year": "2019",
+          "unstructured": "Gomes, L.A.F., Silva Torres, R., Côrtes, M.L.: Bug report severity level prediction in open source software: A survey and research opportunities. Inf. Softw. Technol. 115, 58–78 (2019)",
+          "journal-title": "Inf. Softw. Technol."
+        },
+        {
+          "issue": "6",
+          "key": "616_CR23",
+          "doi-asserted-by": "publisher",
+          "first-page": "88",
+          "DOI": "10.1109/MS.2006.147",
+          "volume": "23",
+          "author": "T Gorschek",
+          "year": "2006",
+          "unstructured": "Gorschek, T., Garre, P., Larsson, S., Wohlin, C.: A model for technology transfer in practice. IEEE Softw. 23(6), 88–95 (2006)",
+          "journal-title": "IEEE Softw."
+        },
+        {
+          "key": "616_CR24",
+          "doi-asserted-by": "crossref",
+          "unstructured": "He, J., Xu, L., Fan, Y., Xu, Z., Yan, M., Lei, Y.: Deep learning based valid bug reports determination and explanation. In: 2020 IEEE 31st International Symposium on Software Reliability Engineering (ISSRE), pp. 184–194 (2020). IEEE",
+          "DOI": "10.1109/ISSRE5003.2020.00026"
+        },
+        {
+          "key": "616_CR25",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Heo, J., Kwon, G., Kwak, C., Lee, S.: A comparison of pretrained models for classifying issue reports. IEEE Access (2024)",
+          "DOI": "10.1109/ACCESS.2024.3408688"
+        },
+        {
+          "key": "616_CR26",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Herzig, K., Just, S., Zeller, A.: It’s not a bug, it’s a feature: how misclassification impacts bug prediction. In: 2013 35th International Conference on Software Engineering (ICSE), pp. 392–401 (2013). IEEE",
+          "DOI": "10.1109/ICSE.2013.6606585"
+        },
+        {
+          "issue": "3",
+          "key": "616_CR27",
+          "doi-asserted-by": "publisher",
+          "first-page": "299",
+          "DOI": "10.1109/TKDE.2005.50",
+          "volume": "17",
+          "author": "J Huang",
+          "year": "2005",
+          "unstructured": "Huang, J., Ling, C.X.: Using auc and accuracy in evaluating learning algorithms. IEEE Trans. Knowl. Data Eng. 17(3), 299–310 (2005)",
+          "journal-title": "IEEE Trans. Knowl. Data Eng."
+        },
+        {
+          "key": "616_CR28",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Izadi, M.: Catiss: An intelligent tool for categorizing issues reports using transformers. In: Proceedings of the 1st International Workshop on Natural Language-based Software Engineering, pp. 44–47 (2022)",
+          "DOI": "10.1145/3528588.3528662"
+        },
+        {
+          "key": "616_CR29",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Kallis, R., Izadi, M., Pascarella, L., Chaparro, O., Rani, P.: The nlbse’23 tool competition. In: Proceedings of The 2nd International Workshop on Natural Language-based Software Engineering (NLBSE’23) (2023)",
+          "DOI": "10.1109/NLBSE59153.2023.00007"
+        },
+        {
+          "issue": "11",
+          "key": "616_CR30",
+          "doi-asserted-by": "publisher",
+          "first-page": "1597",
+          "DOI": "10.1109/TSE.2013.24",
+          "volume": "39",
+          "author": "D Kim",
+          "year": "2013",
+          "unstructured": "Kim, D., Tao, Y., Kim, S., Zeller, A.: Where should we fix this bug? a two-phase recommendation model. IEEE Trans. Software Eng. 39(11), 1597–1610 (2013)",
+          "journal-title": "IEEE Trans. Software Eng."
+        },
+        {
+          "key": "616_CR31",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Kitchenham, B., Brereton, P., Budgen, D.: Mapping study completeness and reliability-a case study. In: 16th International Conference on Evaluation & Assessment in Software Engineering (EASE 2012), pp. 126–135 (2012). IET",
+          "DOI": "10.1049/ic.2012.0016"
+        },
+        {
+          "issue": "1",
+          "key": "616_CR32",
+          "doi-asserted-by": "publisher",
+          "first-page": "37",
+          "DOI": "10.1016/j.jss.2009.06.041",
+          "volume": "83",
+          "author": "B Kitchenham",
+          "year": "2010",
+          "unstructured": "Kitchenham, B.: What’s up with software metrics?-a preliminary mapping study. J. Syst. Softw. 83(1), 37–51 (2010)",
+          "journal-title": "J. Syst. Softw."
+        },
+        {
+          "key": "616_CR33",
+          "volume-title": "Evidence-based Software Engineering and Systematic Reviews",
+          "author": "BA Kitchenham",
+          "year": "2016",
+          "unstructured": "Kitchenham, B.A., Budgen, D., Brereton, P.: Evidence-based Software Engineering and Systematic Reviews. CRC Press, Boca Raton, FL (2016)"
+        },
+        {
+          "key": "616_CR34",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Köksal, Ö., Öztürk, C.E.: A survey on machine learning-based automated software bug report classification. In: 2022 International Symposium on Multidisciplinary Studies and Innovative Technologies (ISMSIT), pp. 635–640 (2022). IEEE",
+          "DOI": "10.1109/ISMSIT56059.2022.9932822"
+        },
+        {
+          "issue": "1",
+          "key": "616_CR35",
+          "doi-asserted-by": "publisher",
+          "first-page": "338",
+          "DOI": "10.3390/app12010338",
+          "volume": "12",
+          "author": "Ö Köksal",
+          "year": "2021",
+          "unstructured": "Köksal, Ö., Tekinerdogan, B.: Automated classification of unstructured bilingual software bug reports: An industrial case study research. Appl. Sci. 12(1), 338 (2021)",
+          "journal-title": "Appl. Sci."
+        },
+        {
+          "key": "616_CR36",
+          "doi-asserted-by": "publisher",
+          "first-page": "352",
+          "DOI": "10.1016/j.procs.2018.05.194",
+          "volume": "132",
+          "author": "A Kukkar",
+          "year": "2018",
+          "unstructured": "Kukkar, A., Mohana, R.: A supervised bug report classification with incorporate and textual field knowledge. Proced Comput Sci 132, 352–361 (2018)",
+          "journal-title": "Proced Comput Sci"
+        },
+        {
+          "key": "616_CR37",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Kumar, G.S., Angel, T.S., Chakreborthy, S., Reddy, K.D.: Github bug classification using pipeline approach in machine learning. In: 2023 International Conference on Data Science, Agents & Artificial Intelligence (ICDSAAI), pp. 1–7 (2023). IEEE",
+          "DOI": "10.1109/ICDSAAI59313.2023.10452560"
+        },
+        {
+          "key": "616_CR38",
+          "unstructured": "Kwak, C., Lee, S.: Issue report classification using a multimodal deep learning technique (2022)"
+        },
+        {
+          "issue": "16",
+          "key": "616_CR39",
+          "doi-asserted-by": "publisher",
+          "first-page": "9456",
+          "DOI": "10.3390/app13169456",
+          "volume": "13",
+          "author": "C Kwak",
+          "year": "2023",
+          "unstructured": "Kwak, C., Jung, P., Lee, S.: A multimodal deep learning model using text, image, and code data for improving issue classification tasks. Appl. Sci. 13(16), 9456 (2023)",
+          "journal-title": "Appl. Sci."
+        },
+        {
+          "key": "616_CR40",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Laiq, M., Ali, N.B., Böstler, J., Engström, E.: Early identification of invalid bug reports in industrial settings-a case study. In: International Conference on Product-Focused Software Process Improvement, pp. 497–507 (2022). Springer",
+          "DOI": "10.1007/978-3-031-21388-5_34"
+        },
+        {
+          "key": "616_CR41",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Laiq, M.: An intelligent tool for classifying issue reports. In: 2023 IEEE/ACM 2nd International Workshop on Natural Language-Based Software Engineering (NLBSE), pp. 13–15 (2023). IEEE",
+          "DOI": "10.1109/NLBSE59153.2023.00010"
+        },
+        {
+          "key": "616_CR42",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.infsof.2023.107305",
+          "volume": "164",
+          "author": "M Laiq",
+          "year": "2023",
+          "unstructured": "Laiq, M., Ali, N., Börstler, J., Engström, E.: A data-driven approach for understanding invalid bug reports: An industrial case study. Inf. Softw. Technol. 164, 107305 (2023)",
+          "journal-title": "Inf. Softw. Technol."
+        },
+        {
+          "issue": "5",
+          "key": "616_CR43",
+          "doi-asserted-by": "publisher",
+          "first-page": "130",
+          "DOI": "10.1007/s10664-024-10502-3",
+          "volume": "29",
+          "author": "M Laiq",
+          "year": "2024",
+          "unstructured": "Laiq, M., Ali, N., Börstler, J., Engström, E.: Industrial adoption of machine learning techniques for early identification of invalid bug reports. Empir. Softw. Eng. 29(5), 130 (2024)",
+          "journal-title": "Empir. Softw. Eng."
+        },
+        {
+          "key": "616_CR44",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Li, Z., Pan, M., Pei, Y., Zhang, T., Wang, L., Li, X.: Robust learning of deep predictive models from noisy and imbalanced software engineering datasets. In: Proceedings of the 37th IEEE/ACM International Conference on Automated Software Engineering, pp. 1–13 (2022)",
+          "DOI": "10.1145/3551349.3556941"
+        },
+        {
+          "key": "616_CR45",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Meng, Q., Visser, J.: Which bug reports are valid and why? using the bert transformer to classify bug reports and explain their validity. In: Proceedings of the 4th European Symposium on Software Engineering, pp. 52–60 (2023)",
+          "DOI": "10.1145/3651640.3651648"
+        },
+        {
+          "key": "616_CR46",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Nadeem, A., Sarwar, M.U., Malik, M.Z.: Automatic issue classifier: A transfer learning framework for classifying issue reports. In: 2021 IEEE International Symposium on Software Reliability Engineering Workshops (ISSREW), pp. 421–426 (2021). IEEE",
+          "DOI": "10.1109/ISSREW53611.2021.00113"
+        },
+        {
+          "key": "616_CR47",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Otoom, A.F., Al-jdaeh, S., Hammad, M.: Automated classification of software bug reports. In: Proceedings of the 9th International Conference on Information Communication and Management, pp. 17–21 (2019)",
+          "DOI": "10.1145/3357419.3357424"
+        },
+        {
+          "issue": "6",
+          "key": "616_CR48",
+          "doi-asserted-by": "publisher",
+          "first-page": "1",
+          "DOI": "10.1145/3533378",
+          "volume": "55",
+          "author": "A Paleyes",
+          "year": "2022",
+          "unstructured": "Paleyes, A., Urma, R.-G., Lawrence, N.D.: Challenges in deploying machine learning: A survey of case studies. ACM Comput. Surv. 55(6), 1–29 (2022)",
+          "journal-title": "ACM Comput. Surv."
+        },
+        {
+          "key": "616_CR49",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Park, D., Cho, H., Lee, S.: Classifying issues into custom labels in gitbot. In: Proceedings of the Fourth International Workshop on Bots in Software Engineering, pp. 28–32 (2022)",
+          "DOI": "10.1145/3528228.3528404"
+        },
+        {
+          "key": "616_CR50",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Parnin, C., Orso, A.: Are automated debugging techniques actually helping programmers? In: Proceedings of the 2011 International Symposium on Software Testing and Analysis, pp. 199–209 (2011)",
+          "DOI": "10.1145/2001420.2001445"
+        },
+        {
+          "issue": "4",
+          "key": "616_CR51",
+          "doi-asserted-by": "publisher",
+          "first-page": "317",
+          "DOI": "10.1016/j.infsof.2010.12.001",
+          "volume": "53",
+          "author": "K Petersen",
+          "year": "2011",
+          "unstructured": "Petersen, K.: Measuring and predicting software productivity: A systematic map and review. Inf. Softw. Technol. 53(4), 317–343 (2011)",
+          "journal-title": "Inf. Softw. Technol."
+        },
+        {
+          "key": "616_CR52",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Petersen, K., Feldt, R., Mujtaba, S., Mattsson, M.: Systematic mapping studies in software engineering. In: International Conference on Evaluation and Assessment in Software Engineering, pp. 1–10 (2008)",
+          "DOI": "10.14236/ewic/EASE2008.8"
+        },
+        {
+          "key": "616_CR53",
+          "doi-asserted-by": "publisher",
+          "first-page": "1",
+          "DOI": "10.1016/j.infsof.2015.03.007",
+          "volume": "64",
+          "author": "K Petersen",
+          "year": "2015",
+          "unstructured": "Petersen, K., Vakkalanka, S., Kuzniarz, L.: Guidelines for conducting systematic mapping studies in software engineering: An update. Inf. Softw. Technol. 64, 1–18 (2015)",
+          "journal-title": "Inf. Softw. Technol."
+        },
+        {
+          "key": "616_CR54",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Pingclasai, N., Hata, H., Matsumoto, K.-i.: Classifying bug reports to bugs and other requests using topic modeling. In: 2013 20Th Asia-pacific Software Engineering Conference (APSEC), vol. 2, pp. 13–18 (2013). IEEE",
+          "DOI": "10.1109/APSEC.2013.105"
+        },
+        {
+          "key": "616_CR55",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Polpinij, J., Kaenampornpan, M., Luaphol, B.: A comparative study of short text classification methods for bug report type identification. In: 2022 Research, Invention, and Innovation Congress: Innovative Electricals and Electronics (RI2C), pp. 27–33 (2022). IEEE",
+          "DOI": "10.1109/RI2C56397.2022.9910299"
+        },
+        {
+          "key": "616_CR56",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Qin, H., Sun, X.: Classifying bug reports into bugs and non-bugs using lstm. In: Proceedings of the 10th Asia-Pacific Symposium on Internetware, pp. 1–4 (2018)",
+          "DOI": "10.1145/3275219.3275239"
+        },
+        {
+          "issue": "5",
+          "key": "616_CR57",
+          "doi-asserted-by": "publisher",
+          "first-page": "111",
+          "DOI": "10.1007/s10664-022-10153-2",
+          "volume": "27",
+          "author": "MM Rahman",
+          "year": "2022",
+          "unstructured": "Rahman, M.M., Khomh, F., Castelluccio, M.: Works for me! cannot reproduce-a large scale empirical study of non-reproducible bugs. Empir. Softw. Eng. 27(5), 111 (2022)",
+          "journal-title": "Empir. Softw. Eng."
+        },
+        {
+          "key": "616_CR58",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Rana, R., Staron, M., Hansson, J., Nilsson, M., Meding, W.: A framework for adoption of machine learning in industry for software defect prediction. In: Proceedings of the 9th International Conference on Software Engineering and Applications, pp. 383–392 (2014)",
+          "DOI": "10.5220/0005099303830392"
+        },
+        {
+          "key": "616_CR59",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Rejithkumar, G., Anish, P.R., Ghaisas, S.: Text-to-text generation for issue report classification. In: Proceedings of the Third ACM/IEEE International Workshop on NL-based Software Engineering, pp. 53–56 (2024)",
+          "DOI": "10.1145/3643787.3648042"
+        },
+        {
+          "issue": "1",
+          "key": "616_CR60",
+          "doi-asserted-by": "publisher",
+          "first-page": "33",
+          "DOI": "10.1007/s10515-024-00435-y",
+          "volume": "31",
+          "author": "J Shen",
+          "year": "2024",
+          "unstructured": "Shen, J., Li, Z., Lu, Y., Pan, M., Li, X.: Mitigating the impact of mislabeled data on deep predictive models: an empirical study of learning with noise approaches in software engineering tasks. Autom. Softw. Eng. 31(1), 33 (2024)",
+          "journal-title": "Autom. Softw. Eng."
+        },
+        {
+          "key": "616_CR61",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Siddiq, M.L., Santos, J.C.: Bert-based github issue report classification. In: Proceedings of the 1st International Workshop on Natural Language-based Software Engineering, pp. 33–36 (2022)",
+          "DOI": "10.1145/3528588.3528660"
+        },
+        {
+          "key": "616_CR62",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Terdchanakul, P., Hata, H., Phannachitta, P., Matsumoto, K.: Bug or not? bug report classification using n-gram idf. In: 2017 IEEE International Conference on Software Maintenance and Evolution (ICSME), pp. 534–538 (2017). IEEE",
+          "DOI": "10.1109/ICSME.2017.14"
+        },
+        {
+          "key": "616_CR63",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Trautsch, A., Herbold, S.: Predicting issue types with sebert. In: Proceedings of the 1st International Workshop on Natural Language-based Software Engineering, pp. 37–39 (2022)",
+          "DOI": "10.1145/3528588.3528661"
+        },
+        {
+          "issue": "3",
+          "key": "616_CR64",
+          "doi-asserted-by": "publisher",
+          "first-page": "85",
+          "DOI": "10.1109/MS.2021.3098670",
+          "volume": "39",
+          "author": "E Tüzün",
+          "year": "2021",
+          "unstructured": "Tüzün, E., Erdogmus, H., Baldassarre, M.T., Felderer, M., Feldt, R., Turhan, B.: Ground-truth deficiencies in software engineering: when codifying the past can be counterproductive. IEEE Softw. 39(3), 85–95 (2021)",
+          "journal-title": "IEEE Softw."
+        },
+        {
+          "key": "616_CR65",
+          "doi-asserted-by": "publisher",
+          "first-page": "145",
+          "DOI": "10.1007/s10462-016-9478-6",
+          "volume": "47",
+          "author": "J Uddin",
+          "year": "2017",
+          "unstructured": "Uddin, J., Ghazali, R., Deris, M.M., Naseem, R., Shah, H.: A survey on bug prioritization. Artif. Intell. Rev. 47, 145–180 (2017)",
+          "journal-title": "Artif. Intell. Rev."
+        },
+        {
+          "issue": "1",
+          "key": "616_CR66",
+          "doi-asserted-by": "publisher",
+          "first-page": "230105",
+          "DOI": "10.37190/E-INF230105",
+          "volume": "17",
+          "author": "M Usman",
+          "year": "2023",
+          "unstructured": "Usman, M., Ali, N.B., Wohlin, C.: A quality assessment instrument for systematic literature reviews in software engineering. E-Inf. Softw. Eng. J. 17(1), 230105 (2023). https://doi.org/10.37190/E-INF230105",
+          "journal-title": "E-Inf. Softw. Eng. J."
+        },
+        {
+          "key": "616_CR67",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Wang, S., Liu, Y., Xu, Y., Zhu, C., Zeng, M.: Want to reduce labeling cost? gpt-3 can help. In: Findings of the Association for Computational Linguistics: EMNLP 2021, pp. 4195–4205 (2021)",
+          "DOI": "10.18653/v1/2021.findings-emnlp.354"
+        },
+        {
+          "issue": "10",
+          "key": "616_CR68",
+          "doi-asserted-by": "publisher",
+          "first-page": "2594",
+          "DOI": "10.1016/j.jss.2013.04.076",
+          "volume": "86",
+          "author": "C Wohlin",
+          "year": "2013",
+          "unstructured": "Wohlin, C., Runeson, P., Neto, P.A.M.S., Engström, E., Carmo Machado, I., De Almeida, E.S.: On the reliability of mapping studies in software engineering. J. Syst. Softw. 86(10), 2594–2610 (2013)",
+          "journal-title": "J. Syst. Softw."
+        },
+        {
+          "issue": "7",
+          "key": "616_CR69",
+          "doi-asserted-by": "publisher",
+          "first-page": "2541",
+          "DOI": "10.1109/TSE.2021.3063727",
+          "volume": "48",
+          "author": "X Wu",
+          "year": "2021",
+          "unstructured": "Wu, X., Zheng, W., Xia, X., Lo, D.: Data quality matters: A case study on data label correctness for security bug report prediction. IEEE Trans. Software Eng. 48(7), 2541–2556 (2021)",
+          "journal-title": "IEEE Trans. Software Eng."
+        },
+        {
+          "key": "616_CR70",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.infsof.2021.106664",
+          "volume": "139",
+          "author": "J Yao",
+          "year": "2021",
+          "unstructured": "Yao, J., Shepperd, M.: The impact of using biased performance metrics on software defect prediction research. Inf. Softw. Technol. 139, 106664 (2021)",
+          "journal-title": "Inf. Softw. Technol."
+        },
+        {
+          "key": "616_CR71",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Zanetti, M.S., Scholtes, I., Tessone, C.J., Schweitzer, F.: Categorizing bugs with social networks: a case study on four open source software communities. In: 2013 35th International Conference on Software Engineering (ICSE), pp. 1032–1041 (2013). IEEE",
+          "DOI": "10.1109/ICSE.2013.6606653"
+        },
+        {
+          "key": "616_CR72",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Zhang, T., Lee, B.: A bug rule based technique with feedback for classifying bug reports. In: 2011 IEEE 11th International Conference on Computer and Information Technology, pp. 336–343 (2011). IEEE",
+          "DOI": "10.1109/CIT.2011.90"
+        },
+        {
+          "issue": "2",
+          "key": "616_CR73",
+          "doi-asserted-by": "publisher",
+          "first-page": "1",
+          "DOI": "10.1007/s11432-014-5241-2",
+          "volume": "58",
+          "author": "J Zhang",
+          "year": "2015",
+          "unstructured": "Zhang, J., Wang, X., Hao, D., Xie, B., Zhang, L., Mei, H.: A survey on bug-report analysis. Sci. China Inf. Sci. 58(2), 1–24 (2015)",
+          "journal-title": "Sci. China Inf. Sci."
+        },
+        {
+          "issue": "4",
+          "key": "616_CR74",
+          "first-page": "1",
+          "volume": "32",
+          "author": "T Zhang",
+          "year": "2023",
+          "unstructured": "Zhang, T., Han, D., Vinayakarao, V., Irsan, I.C., Xu, B., Thung, F., Lo, D., Jiang, L.: Duplicate bug report detection: How far are we? ACM Trans. Softw. Eng. Methodol. 32(4), 1–32 (2023)",
+          "journal-title": "ACM Trans. Softw. Eng. Methodol."
+        },
+        {
+          "issue": "5",
+          "key": "616_CR75",
+          "doi-asserted-by": "publisher",
+          "first-page": "13184",
+          "DOI": "10.1111/exsy.13184",
+          "volume": "41",
+          "author": "L Zhifang",
+          "year": "2024",
+          "unstructured": "Zhifang, L., Kun, W., Qi, Z., Shengzong, L., Yan, Z., Jianbiao, H.: Classification of open source software bug report based on transfer learning. Expert. Syst. 41(5), 13184 (2024)",
+          "journal-title": "Expert. Syst."
+        },
+        {
+          "issue": "3",
+          "key": "616_CR76",
+          "doi-asserted-by": "publisher",
+          "first-page": "150",
+          "DOI": "10.1002/smr.1770",
+          "volume": "28",
+          "author": "Y Zhou",
+          "year": "2016",
+          "unstructured": "Zhou, Y., Tong, Y., Gu, R., Gall, H.: Combining text mining and data mining for bug report classification. J. Softw. Evol. Process 28(3), 150–176 (2016)",
+          "journal-title": "J. Softw. Evol. Process"
+        },
+        {
+          "key": "616_CR77",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Zolkeply, M.S., Shao, J.: Classifying software issue reports through association mining. In: Proceedings of the 34th ACM/SIGAPP Symposium on Applied Computing, pp. 1860–1863 (2019)",
+          "DOI": "10.1145/3297280.3297608"
+        },
+        {
+          "issue": "8",
+          "key": "616_CR78",
+          "doi-asserted-by": "publisher",
+          "first-page": "836",
+          "DOI": "10.1109/TSE.2018.2870414",
+          "volume": "46",
+          "author": "W Zou",
+          "year": "2018",
+          "unstructured": "Zou, W., Lo, D., Chen, Z., Xia, X., Feng, Y., Xu, B.: How practitioners perceive automated bug report management techniques. IEEE Trans. Software Eng. 46(8), 836–862 (2018)",
+          "journal-title": "IEEE Trans. Software Eng."
+        }
+      ],
+      "container-title": [
+        "Automated Software Engineering"
+      ],
+      "original-title": [],
+      "language": "en",
+      "link": [
+        {
+          "URL": "https://link.springer.com/content/pdf/10.1007/s10515-026-00616-x.pdf",
+          "content-type": "application/pdf",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://link.springer.com/article/10.1007/s10515-026-00616-x",
+          "content-type": "text/html",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://link.springer.com/content/pdf/10.1007/s10515-026-00616-x.pdf",
+          "content-type": "application/pdf",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            8,
+            13
+          ]
+        ],
+        "date-time": "2026-08-13T03:58:20Z",
+        "timestamp": 1786593500000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://link.springer.com/10.1007/s10515-026-00616-x"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            4
+          ]
+        ]
+      },
+      "references-count": 78,
+      "journal-issue": {
+        "issue": "3",
+        "published-print": {
+          "date-parts": [
+            [
+              2026,
+              11
+            ]
+          ]
+        }
+      },
+      "alternative-id": [
+        "616"
+      ],
+      "URL": "https://doi.org/10.1007/s10515-026-00616-x",
+      "relation": {},
+      "ISSN": [
+        "0928-8910",
+        "1573-7535"
+      ],
+      "issn-type": [
+        {
+          "value": "0928-8910",
+          "type": "print"
+        },
+        {
+          "value": "1573-7535",
+          "type": "electronic"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            4
+          ]
+        ]
+      },
+      "assertion": [
+        {
+          "value": "25 April 2025",
+          "order": 1,
+          "name": "received",
+          "label": "Received",
+          "group": {
+            "name": "ArticleHistory",
+            "label": "Article History"
+          }
+        },
+        {
+          "value": "16 March 2026",
+          "order": 2,
+          "name": "accepted",
+          "label": "Accepted",
+          "group": {
+            "name": "ArticleHistory",
+            "label": "Article History"
+          }
+        },
+        {
+          "value": "4 May 2026",
+          "order": 3,
+          "name": "first_online",
+          "label": "First Online",
+          "group": {
+            "name": "ArticleHistory",
+            "label": "Article History"
+          }
+        },
+        {
+          "value": "The authors declare no competing interests.",
+          "order": 1,
+          "name": "Ethics",
+          "label": "Competing Interests",
+          "group": {
+            "name": "EthicsHeading",
+            "label": "Declarations"
+          }
+        }
+      ],
+      "article-number": "72"
+    }
+  },
+  "Wang2026": {
+    "doi": "10.1007/s10515-026-00640-x",
+    "metadata": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            8,
+            13
+          ]
+        ],
+        "date-time": "2026-08-13T04:28:18Z",
+        "timestamp": 1786595298105,
+        "version": "build-2736575974"
+      },
+      "reference-count": 49,
+      "publisher": "Springer Science and Business Media LLC",
+      "issue": "3",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2026,
+                7,
+                31
+              ]
+            ],
+            "date-time": "2026-07-31T00:00:00Z",
+            "timestamp": 1785456000000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "https://creativecommons.org/licenses/by-nc-nd/4.0"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2026,
+                7,
+                31
+              ]
+            ],
+            "date-time": "2026-07-31T00:00:00Z",
+            "timestamp": 1785456000000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "https://creativecommons.org/licenses/by-nc-nd/4.0"
+        }
+      ],
+      "funder": [
+        {
+          "DOI": "10.13039/501100004206",
+          "name": "The University of Osaka",
+          "doi-asserted-by": "crossref",
+          "id": [
+            {
+              "id": "10.13039/501100004206",
+              "id-type": "DOI",
+              "asserted-by": "crossref"
+            }
+          ]
+        }
+      ],
+      "content-domain": {
+        "domain": [
+          "link.springer.com"
+        ],
+        "crossmark-restriction": false
+      },
+      "short-container-title": [
+        "Autom Softw Eng"
+      ],
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "DOI": "10.1007/s10515-026-00640-x",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            31
+          ]
+        ],
+        "date-time": "2026-07-31T06:58:33Z",
+        "timestamp": 1785481113000
+      },
+      "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "From noisy feedback to evidence-aware issue specifications: an agent-governed retrieval-augmented generation approach"
+      ],
+      "prefix": "10.1007",
+      "volume": "33",
+      "author": [
+        {
+          "given": "Zhiyao",
+          "family": "Wang",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Jialong",
+          "family": "Li",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Xiujing",
+          "family": "Guo",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Tatsuhiro",
+          "family": "Tsuchiya",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "297",
+      "published-online": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            31
+          ]
+        ]
+      },
+      "reference": [
+        {
+          "key": "640_CR1",
+          "doi-asserted-by": "publisher",
+          "first-page": "176",
+          "DOI": "10.1016/j.jss.2015.06.063",
+          "volume": "123",
+          "author": "B Fitzgerald",
+          "year": "2017",
+          "unstructured": "Fitzgerald, B., Stol, K.J.: Continuous software engineering: A roadmap and agenda. J. Syst. Softw. 123, 176–189 (2017). https://doi.org/10.1016/j.jss.2015.06.063",
+          "journal-title": "J. Syst. Softw."
+        },
+        {
+          "issue": "2",
+          "key": "640_CR2",
+          "doi-asserted-by": "publisher",
+          "first-page": "44",
+          "DOI": "10.1109/MS.2017.33",
+          "volume": "34",
+          "author": "E Groen",
+          "year": "2017",
+          "unstructured": "Groen, E., Seyff, N., Ali, R., Dalpiaz, F., Doerr, J., Guzman, E., Maalej, W.: The crowd in requirements engineering: The landscape and challenges. IEEE Softw. 34(2), 44–52 (2017). https://doi.org/10.1109/MS.2017.33",
+          "journal-title": "IEEE Softw."
+        },
+        {
+          "key": "640_CR3",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Maalej, W., Nabil, H.: Bug report, feature request, or simply praise? On automatically classifying app reviews. In: Proc. 23rd IEEE Int. Requirements Eng. Conf. (RE), pp. 116–125 (2015). 10.1109/RE.2015.7320414 . IEEE",
+          "DOI": "10.1109/RE.2015.7320414"
+        },
+        {
+          "key": "640_CR4",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Oordt, S., Guzman, E.: On the Role of User Feedback in Software Evolution: a Practitioners’ Perspective . In: 2021 IEEE 29th International Requirements Engineering Conference (RE), pp. 221–232. IEEE Computer Society, Los Alamitos, CA, USA (2021). 10.1109/RE51729.2021.00027 . https://doi.ieeecomputersociety.org/10.1109/RE51729.2021.00027",
+          "DOI": "10.1109/RE51729.2021.00027"
+        },
+        {
+          "key": "640_CR5",
+          "unstructured": "Vella, A. et al.: Leveraging LLMs for Formal Software Requirements: Challenges and Prospects, (2025). arXiv preprint arXiv:2507.14330"
+        },
+        {
+          "issue": "4",
+          "key": "640_CR6",
+          "doi-asserted-by": "publisher",
+          "first-page": "2381",
+          "DOI": "10.1109/TSE.2022.3219458",
+          "volume": "49",
+          "author": "J Tizard",
+          "year": "2023",
+          "unstructured": "Tizard, J., Devine, P., Wang, H., Blincoe, K.: A software requirements ecosystem: Linking forum, issue tracker, and faqs for requirements management. IEEE Trans. Software Eng. 49(4), 2381–2393 (2023). https://doi.org/10.1109/TSE.2022.3219458",
+          "journal-title": "IEEE Trans. Software Eng."
+        },
+        {
+          "key": "640_CR7",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Breu, S., Premraj, R., Sillito, J., Zimmermann, T.: Information needs in bug reports: improving cooperation between developers and users. In: Proceedings of the 2010 ACM Conference on Computer Supported Cooperative Work. CSCW ’10, pp. 301–310. Association for Computing Machinery, New York, NY, USA (2010). 10.1145/1718918.1718973 . https://doi.org/10.1145/1718918.1718973",
+          "DOI": "10.1145/1718918.1718973"
+        },
+        {
+          "issue": "7",
+          "key": "640_CR8",
+          "doi-asserted-by": "publisher",
+          "first-page": "641",
+          "DOI": "10.1109/TSE.2016.2616306",
+          "volume": "43",
+          "author": "DA Costa",
+          "year": "2017",
+          "unstructured": "Costa, D.A., McIntosh, S., Shang, W., Kulesza, U., Coelho, R., Hassan, A.E.: A framework for evaluating the results of the szz approach for identifying bug-introducing changes. IEEE Trans. Software Eng. 43(7), 641–657 (2017). https://doi.org/10.1109/TSE.2016.2616306",
+          "journal-title": "IEEE Trans. Software Eng."
+        },
+        {
+          "key": "640_CR9",
+          "unstructured": "Lewis, P., Perez, E., Piktus, A., Petroni, F., Karpukhin, V., Goyal, N., Küttler, H., Lewis, M., Yih, W.-t., Rocktäschel, T., Riedel, S., Kiela, D.: Retrieval-augmented generation for knowledge-intensive nlp tasks. In: Proceedings of the 34th International Conference on Neural Information Processing Systems. Curran Associates Inc., Red Hook, NY, USA (2020). 10.5555/3495724.3496517"
+        },
+        {
+          "key": "640_CR10",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Jiang, Z., Xu, F., Gao, L., Sun, Z., Liu, Q., Dwivedi-Yu, J., Yang, Y., Callan, J., Neubig, G.: Active retrieval augmented generation. In: Bouamor, H., Pino, J., Bali, K. (eds.) Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing, pp. 7969–7992. Association for Computational Linguistics, Singapore (2023). https://doi.org/10.18653/v1/2023.emnlp-main.495",
+          "DOI": "10.18653/v1/2023.emnlp-main.495"
+        },
+        {
+          "key": "640_CR11",
+          "unstructured": "Zhao, P., Zhang, H., Yu, Q., Wang, Z., Geng, Y., Fu, F., Yang, L., Zhang, W., Jiang, J., Cui, B.: Retrieval-augmented generation for ai-generated content: A survey. arXiv preprint. (2024) 10.48550/arXiv.2402.19473"
+        },
+        {
+          "key": "640_CR12",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Yao, S., Zhao, J., Yu, D., Du, N., Shafran, I., Narasimhan, K.R., Cao, Y.: React: Synergizing reasoning and acting in language models. In: The Eleventh International Conference on Learning Representations (2023). https://doi.org/10.48550/arXiv.2210.03629",
+          "DOI": "10.48550/arXiv.2210.03629"
+        },
+        {
+          "key": "640_CR13",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Schick, T., Dwivedi-Yu, J., Dessí, R., Raileanu, R., Lomeli, M., Hambro, E., Zettlemoyer, L., Cancedda, N., Scialom, T.: Toolformer: language models can teach themselves to use tools. In: Proceedings of the 37th International Conference on Neural Information Processing Systems. NIPS ’23. Curran Associates Inc., Red Hook, NY, USA (2023). 10.5555/3666122.3669119",
+          "DOI": "10.52202/075280-2997"
+        },
+        {
+          "key": "640_CR14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s11704-024-40231-1",
+          "author": "L Wang",
+          "year": "2024",
+          "unstructured": "Wang, L., Ma, C., Feng, X., Zhang, Z., Yang, H., Zhang, J., Chen, Z., Tang, J., Chen, X., Lin, Y., Zhao, W.X., Wei, Z., Wen, J.: A survey on large language model based autonomous agents. Front. Comp. Sci. (2024). https://doi.org/10.1007/s11704-024-40231-1",
+          "journal-title": "Front. Comp. Sci."
+        },
+        {
+          "key": "640_CR15",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Jiang, Z., Xu, F., Gao, L., Sun, Z., Liu, Q., Dwivedi-Yu, J., Yang, Y., Callan, J., Neubig, G.: Active retrieval augmented generation. In: Proceedings of the Conference on Empirical Methods in Natural Language Processing (EMNLP), pp. 7969–7992. Association for Computational Linguistics, Singapore (2023). https://doi.org/10.18653/v1/2023.emnlp-main.495",
+          "DOI": "10.18653/v1/2023.emnlp-main.495"
+        },
+        {
+          "key": "640_CR16",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Fuchß, D., Hey, T., Keim, J., Liu, H., Ewald, N., Thirolf, T., Koziolek, A.: Lissa: Toward generic traceability link recovery through retrieval-augmented generation. In: Proc. IEEE/ACM International Conference on Software Engineering (ICSE), pp. 1396–1408. IEEE, Ottawa, Ontario, Canada (2025). 10.1109/ICSE55347.2025.00186",
+          "DOI": "10.1109/ICSE55347.2025.00186"
+        },
+        {
+          "key": "640_CR17",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Wang, C., Daneva, M., Sinderen, M., Liang, P.: A systematic mapping study on crowdsourced requirements engineering using user feedback. Journal of Software: Evolution and Process 31(10), (2019). https://doi.org/10.1002/smr.2199",
+          "DOI": "10.1002/smr.2199"
+        },
+        {
+          "issue": "4",
+          "key": "640_CR18",
+          "doi-asserted-by": "publisher",
+          "first-page": "429",
+          "DOI": "10.1007/s00766-022-00384-6",
+          "volume": "27",
+          "author": "J Wouters",
+          "year": "2022",
+          "unstructured": "Wouters, J., Menkveld, A., Brinkkemper, S., Dalpiaz, F.: Crowd-based requirements elicitation via pull feedback: method and case studies. Requirements Eng. 27(4), 429–455 (2022). https://doi.org/10.1007/s00766-022-00384-6",
+          "journal-title": "Requirements Eng."
+        },
+        {
+          "key": "640_CR19",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Malcher, P., Viana, D., Antonino, P.O., Santos, R.P.: Investigating user feedback from a crowd in requirements management in software ecosystems. Empirical Software Engineering. 29(152) (2024) 10.1007/s10664-024-10546-5",
+          "DOI": "10.1007/s10664-024-10546-5"
+        },
+        {
+          "key": "640_CR20",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Dąbrowski, J., Letier, E., Perini, A., Susi, A.: Mining and searching app reviews for requirements engineering: Evaluation and replication studies. Information Systems. 114(C) (2023) 10.1016/j.is.2023.102181",
+          "DOI": "10.1016/j.is.2023.102181"
+        },
+        {
+          "key": "640_CR21",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Wang, C., Zhang, F., Liang, P., Daneva, M., Sinderen, M.: Can app changelogs improve requirements classification from app reviews? In: Proc. 12th ACM/IEEE International Symposium on Empirical Software Engineering and Measurement (ESEM), pp. 1–4. ACM, New York, NY, United States (2018). 10.1145/3239235.3267428",
+          "DOI": "10.1145/3239235.3267428"
+        },
+        {
+          "key": "640_CR22",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Pagano, D., Maalej, W.: User feedback in the appstore: An empirical study. In: Proc. 21st IEEE Int. Requirements Eng. Conf. (RE), pp. 125–134. IEEE, Rio de Janeiro, Brasil (2013). 10.1109/RE.2013.6636712",
+          "DOI": "10.1109/RE.2013.6636712"
+        },
+        {
+          "key": "640_CR23",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Iacob, C., Harrison, R.: Retrieving and analyzing mobile apps feature requests from online reviews. In: Proc. 10th Working Conf. Mining Softw. Repositories (MSR), pp. 41–44. IEEE, San Francisco, California, USA (2013). 10.1109/MSR.2013.6624001",
+          "DOI": "10.1109/MSR.2013.6624001"
+        },
+        {
+          "key": "640_CR24",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Chen, N., Lin, J., Hoi, S.C.H., Xiao, X., Zhang, B.: Ar-miner: Mining informative reviews for developers from mobile app marketplace. In: Proc. 36th Int. Conf. Softw. Eng. (ICSE), pp. 767–778. ACM, Hyderabad India (2014). 10.1145/2568225.2568263",
+          "DOI": "10.1145/2568225.2568263"
+        },
+        {
+          "key": "640_CR25",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Villarroel, L., Bavota, G., Russo, B., Oliveto, R., Di Penta, M.: Release planning of mobile apps based on user reviews. In: Proc. 38th Int. Conf. Softw. Eng. (ICSE), pp. 14–24. ACM, Austin, TX, USA (2016). 10.1145/2884781.2884818",
+          "DOI": "10.1145/2884781.2884818"
+        },
+        {
+          "key": "640_CR26",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Ciurumelea, A., Schaufelbühl, A., Panichella, S., Gall, H.C.: Analyzing reviews and code of mobile apps for better release planning. In: Proc. 24th IEEE Int. Conf. Softw. Anal., Evol. Reeng. (SANER), pp. 91–102. IEEE, Klagenfurt, Austria (2017). 10.1109/SANER.2017.7884612",
+          "DOI": "10.1109/SANER.2017.7884612"
+        },
+        {
+          "key": "640_CR27",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Guzman, E., Maalej, W.: How do users like this feature? A fine grained sentiment analysis of app reviews. In: Proc. 22nd IEEE Int. Requirements Eng. Conf. (RE), pp. 153–162. IEEE, Piscataway, NJ (2014). 10.1109/RE.2014.6912257",
+          "DOI": "10.1109/RE.2014.6912257"
+        },
+        {
+          "key": "640_CR28",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Galvis Carreño, L.V., Winbladh, K.: Analysis of user comments: an approach for software requirements evolution. In: Proc. 35th Int. Conf. Softw. Eng. (ICSE), pp. 582–591. IEEE, Piscataway, NJ (2013). 10.1109/ICSE.2013.6606604",
+          "DOI": "10.1109/ICSE.2013.6606604"
+        },
+        {
+          "key": "640_CR29",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Di Sorbo, A., Panichella, S., Alexandru, C.V., Shpaner, J., Visaggio, C.A., Canfora, G., Gall, H.C.: What would users change in my app? Summarizing app reviews for recommending software changes. In: Proc. 24th ACM SIGSOFT Int. Symp. Foundations Softw. Eng. (FSE), pp. 499–510. ACM, New York, NY (2016). 10.1145/2950290.2950299",
+          "DOI": "10.1145/2950290.2950299"
+        },
+        {
+          "issue": "8",
+          "key": "640_CR30",
+          "doi-asserted-by": "publisher",
+          "first-page": "3025",
+          "DOI": "10.1109/TSE.2021.3076179",
+          "volume": "48",
+          "author": "C Gao",
+          "year": "2022",
+          "unstructured": "Gao, C., Zeng, J., Wen, Z., Lo, D., Xia, X., King, I., Lyu, M.R.: Emerging app issue identification via online joint sentiment-topic tracing. IEEE Trans. Softw. Eng. 48(8), 3025–3043 (2022). https://doi.org/10.1109/TSE.2021.3076179",
+          "journal-title": "IEEE Trans. Softw. Eng."
+        },
+        {
+          "key": "640_CR31",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Stanik, C., Haering, M., Maalej, W.: Classifying multilingual user feedback using traditional machine learning and deep learning. In: Proc. 27th IEEE Int. Requirements Eng. Conf. Workshops (REW), pp. 220–226. IEEE, Piscataway, NJ (2019). 10.1109/REW.2019.00046",
+          "DOI": "10.1109/REW.2019.00046"
+        },
+        {
+          "key": "640_CR32",
+          "unstructured": "Hasan, M., Razzak, M.A., Al-Saif, A., et al.: BERT for sentiment classification in software engineering. In: Proc. Int. Conf. Service Science (ICSS), pp. 143–147. IEEE, Piscataway, NJ (2021). 10.1109/ICSS53362.2021.00026"
+        },
+        {
+          "key": "640_CR33",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Häring, M., Stanik, C., Maalej, W.: Automatically matching bug reports with related app reviews, (2021). arXiv preprint arXiv:2102.07134",
+          "DOI": "10.1109/ICSE43902.2021.00092"
+        },
+        {
+          "key": "640_CR34",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Fan, A., Gokkaya, B., Harman, M., Lyubarskiy, M., Sengupta, S., Yoo, S., Zhang, J.M.: Large language models for software engineering: Survey and open problems. In: Proc. IEEE/ACM Int. Conf. Softw. Eng.: Future of Software Engineering (ICSE-FoSE), pp. 31–53. IEEE, Melbourne, Australia (2023). 10.1109/ICSE-FoSE59343.2023.00008",
+          "DOI": "10.1109/ICSE-FoSE59343.2023.00008"
+        },
+        {
+          "issue": "8",
+          "key": "640_CR35",
+          "doi-asserted-by": "publisher",
+          "first-page": "1",
+          "DOI": "10.1145/3695988",
+          "volume": "33",
+          "author": "X Hou",
+          "year": "2024",
+          "unstructured": "Hou, X., Zhao, Y., Liu, Y., Yang, Z., Wang, K., Li, L., Luo, X., Lo, D., Grundy, J., Wang, H.: Large language models for software engineering: A systematic literature review. ACM Trans. Softw. Eng. Methodol. 33(8), 1–79 (2024). https://doi.org/10.1145/3695988",
+          "journal-title": "ACM Trans. Softw. Eng. Methodol."
+        },
+        {
+          "key": "640_CR36",
+          "unstructured": "Zadenoori, M.A., Dąbrowski, J., Alhoshan, W., Zhao, L., Ferrari, A.: Large Language Models (LLMs) for Requirements Engineering (RE): A Systematic Literature Review. https://doi.org/10.48550/arXiv.2509.11446. arXiv:2509.11446 (2025)"
+        },
+        {
+          "key": "640_CR37",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Ferrari, A., Spoletini, P.: Formal requirements engineering and large language models: A two-way roadmap. Inf. Softw. Technol. 181, 1–21 (2025). https://doi.org/10.1016/j.infsof.2025.107697",
+          "DOI": "10.1016/j.infsof.2025.107697"
+        },
+        {
+          "key": "640_CR38",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Ronanki, K., Berger, C., Horkoff, J.: Investigating chatgpt’s potential to assist in requirements elicitation processes. In: 49th Euromicro Conference on Software Engineering and Advanced Applications (SEAA), pp. 354–361. (2023). https://doi.org/10.1109/SEAA60479.2023.00061",
+          "DOI": "10.1109/SEAA60479.2023.00061"
+        },
+        {
+          "key": "640_CR39",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Zhang, J., Chen, Y., Liu, C., Niu, N., Wang, Y.: Empirical evaluation of chatgpt on requirements information retrieval under zero-shot setting. In: 2023 International Conference on Intelligent Computing and Next Generation Networks (ICNGN), pp. 1–6 (2023). 10.1109/ICNGN59831.2023.10396810",
+          "DOI": "10.1109/ICNGN59831.2023.10396810"
+        },
+        {
+          "key": "640_CR40",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Bashir, S., Ferrari, A., Khan, A., Strandberg, P.E., Haider, Z., Saadatmand, M., Bohlin, M.: Requirements ambiguity detection and explanation with llms: An industrial study. In: 2025 IEEE International Conference on Software Maintenance and Evolution (ICSME), pp. 620–631 (2025). 10.1109/ICSME64153.2025.00063",
+          "DOI": "10.1109/ICSME64153.2025.00063"
+        },
+        {
+          "key": "640_CR41",
+          "unstructured": "Mozilla Support: Firefox Support Forum. https://support.mozilla.org/en-US/questions/firefox. Accessed 15 November 2025 (2025)"
+        },
+        {
+          "key": "640_CR42",
+          "unstructured": "Microsoft, GitHub: microsoft/vscode Issue Tracker. https://github.com/microsoft/vscode/issues. Used for both open bug reports (state:open label:bug) and historical closed bug reports (state:closed label:bug); accessed 2026-03-31 (2026)"
+        },
+        {
+          "key": "640_CR43",
+          "unstructured": "Mozilla Support: Firefox Support — Product Help and Documentation. https://support.mozilla.org/en-US/products/firefox. Accessed 15 November 2025 (2025)"
+        },
+        {
+          "key": "640_CR44",
+          "unstructured": "Microsoft: Visual Studio Code Documentation. https://code.visualstudio.com/docs. Accessed 2026-03-31 (2026)"
+        },
+        {
+          "key": "640_CR45",
+          "unstructured": "Mozilla Bugzilla: Firefox Component Descriptions. https://bugzilla.mozilla.org/describecomponents.cgi?product=Firefox. Accessed 15 November 2025 (2025)"
+        },
+        {
+          "key": "640_CR46",
+          "unstructured": "OpenAI: GPT-OSS: Open-weight Open Source Large Language Models. https://openai.com/gpt-oss-model-card/. Accessed 15 December 2025 (2025)"
+        },
+        {
+          "key": "640_CR47",
+          "unstructured": "Google AI: Gemini 2.5 Pro. https://cloud.google.com/vertex-ai/generative-ai/docs/models/gemini/2-5-pro. Accessed 15 January 2026 (2025)"
+        },
+        {
+          "key": "640_CR48",
+          "unstructured": "Zhang, T., Kishore, V., Wu, F., Weinberger, K.Q., Artzi, Y.: Bertscore: Evaluating text generation with BERT. In: 8th International Conference on Learning Representations, ICLR 2020, April 26-30, 2020. OpenReview.net, Addis Ababa, Ethiopia (2020). https://openreview.net/forum?id=SkeHuCVFDr"
+        },
+        {
+          "key": "640_CR49",
+          "unstructured": "Lin, C.-Y.: ROUGE: A package for automatic evaluation of summaries. In: Text Summarization Branches Out, pp. 74–81. Association for Computational Linguistics, Barcelona, Spain (2004). https://aclanthology.org/W04-1013/"
+        }
+      ],
+      "container-title": [
+        "Automated Software Engineering"
+      ],
+      "original-title": [],
+      "language": "en",
+      "link": [
+        {
+          "URL": "https://link.springer.com/content/pdf/10.1007/s10515-026-00640-x.pdf",
+          "content-type": "application/pdf",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://link.springer.com/article/10.1007/s10515-026-00640-x",
+          "content-type": "text/html",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://link.springer.com/content/pdf/10.1007/s10515-026-00640-x.pdf",
+          "content-type": "application/pdf",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            8,
+            13
+          ]
+        ],
+        "date-time": "2026-08-13T03:57:02Z",
+        "timestamp": 1786593422000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://link.springer.com/10.1007/s10515-026-00640-x"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            31
+          ]
+        ]
+      },
+      "references-count": 49,
+      "journal-issue": {
+        "issue": "3",
+        "published-print": {
+          "date-parts": [
+            [
+              2026,
+              11
+            ]
+          ]
+        }
+      },
+      "alternative-id": [
+        "640"
+      ],
+      "URL": "https://doi.org/10.1007/s10515-026-00640-x",
+      "relation": {
+        "has-preprint": [
+          {
+            "id-type": "doi",
+            "id": "10.21203/rs.3.rs-8889312/v1",
+            "asserted-by": "object"
+          }
+        ]
+      },
+      "ISSN": [
+        "0928-8910",
+        "1573-7535"
+      ],
+      "issn-type": [
+        {
+          "value": "0928-8910",
+          "type": "print"
+        },
+        {
+          "value": "1573-7535",
+          "type": "electronic"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            31
+          ]
+        ]
+      },
+      "assertion": [
+        {
+          "value": "16 February 2026",
+          "order": 1,
+          "name": "received",
+          "label": "Received",
+          "group": {
+            "name": "ArticleHistory",
+            "label": "Article History"
+          }
+        },
+        {
+          "value": "18 June 2026",
+          "order": 2,
+          "name": "accepted",
+          "label": "Accepted",
+          "group": {
+            "name": "ArticleHistory",
+            "label": "Article History"
+          }
+        },
+        {
+          "value": "31 July 2026",
+          "order": 3,
+          "name": "first_online",
+          "label": "First Online",
+          "group": {
+            "name": "ArticleHistory",
+            "label": "Article History"
+          }
+        },
+        {
+          "value": "The authors declare no competing interests.",
+          "order": 1,
+          "name": "Ethics",
+          "label": "Competing interests",
+          "group": {
+            "name": "EthicsHeading",
+            "label": "Declarations"
+          }
+        }
+      ],
+      "article-number": "103"
+    }
+  },
+  "Laiq2024": {
+    "doi": "10.1007/s10664-024-10502-3",
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  "Tang2024": {
+    "doi": "10.1007/s10664-024-10489-x",
+    "metadata": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            8
+          ]
+        ],
+        "date-time": "2026-10-08T11:54:00Z",
+        "timestamp": 1791460440054,
+        "version": "4.3.4"
+      },
+      "reference-count": 46,
+      "publisher": "Springer Science and Business Media LLC",
+      "issue": "5",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2024,
+                7,
+                26
+              ]
+            ],
+            "date-time": "2024-07-26T00:00:00Z",
+            "timestamp": 1721952000000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "https://creativecommons.org/licenses/by/4.0"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2024,
+                7,
+                26
+              ]
+            ],
+            "date-time": "2024-07-26T00:00:00Z",
+            "timestamp": 1721952000000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "https://creativecommons.org/licenses/by/4.0"
+        }
+      ],
+      "funder": [
+        {
+          "DOI": "10.13039/100010663",
+          "name": "H2020 European Research Council",
+          "doi-asserted-by": "publisher",
+          "award": [
+            "949014"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "949014"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/100010663",
+              "id-type": "DOI",
+              "asserted-by": "publisher"
+            }
+          ]
+        },
+        {
+          "DOI": "10.13039/501100001809",
+          "name": "National Natural Science Foundation of China",
+          "doi-asserted-by": "publisher",
+          "award": [
+            "62172214"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "62172214"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/501100001809",
+              "id-type": "DOI",
+              "asserted-by": "publisher"
+            }
+          ]
+        },
+        {
+          "name": "Natural Science Foundation of Jiangsu Province, China",
+          "award": [
+            "BK20210279"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "BK20210279"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Open Project Program of the State Key Labo- ratory of Mathematical Engineering and Advanced Computing",
+          "award": [
+            "2020A06"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "2020A06"
+              ]
+            }
+          ]
+        }
+      ],
+      "content-domain": {
+        "domain": [
+          "link.springer.com"
+        ],
+        "crossmark-restriction": false
+      },
+      "short-container-title": [
+        "Empir Software Eng"
+      ],
+      "published-print": {
+        "date-parts": [
+          [
+            2024,
+            9
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title><jats:p>Software development teams generally welcome any effort to expose bugs in their code base. In this work, we build on the hypothesis that mobile apps from the same category (e.g., two web browser apps) may be affected by similar bugs in their evolution process. It is therefore possible to transfer the experience of one historical app to quickly find bugs in its new counterparts. This has been referred to as collaborative bug finding in the literature. Our novelty is that we guide the bug finding process by considering that existing bugs have been hinted within app reviews. Concretely, we design the <jats:sc>BugRMSys</jats:sc> approach to recommend bug reports for a target app by matching historical bug reports from apps in the same category with user app reviews of the target app. We experimentally show that this approach enables us to quickly expose and report dozens of bugs for targeted apps such as Brave (web browser app). <jats:sc>BugRMSys</jats:sc> ’s implementation relies on DistilBERT to produce natural language text embeddings. Our pipeline considers similarities between bug reports and app reviews to identify relevant bugs. We then focus on the app review as well as potential reproduction steps in the historical bug report (from a same-category app) to reproduce the bugs. Overall, after applying <jats:sc>BugRMSys</jats:sc> to six popular apps, we were able to identify, reproduce and report 20 new bugs: among these, 9 reports have been already triaged, 6 were confirmed, and 4 have been fixed by official development teams.</jats:p>",
+      "DOI": "10.1007/s10664-024-10489-x",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2024,
+            7,
+            26
+          ]
+        ],
+        "date-time": "2024-07-26T21:02:01Z",
+        "timestamp": 1722027721000
+      },
+      "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+      "source": "Crossref",
+      "is-referenced-by-count": 10,
+      "title": [
+        "App review driven collaborative bug finding"
+      ],
+      "prefix": "10.1007",
+      "volume": "29",
+      "author": [
+        {
+          "given": "Xunzhu",
+          "family": "Tang",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-8049-3997",
+          "authenticated-orcid": false,
+          "given": "Haoye",
+          "family": "Tian",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Pingfan",
+          "family": "Kong",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Saad",
+          "family": "Ezzini",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Kui",
+          "family": "Liu",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Xin",
+          "family": "Xia",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Jacques",
+          "family": "Klein",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Tegawendé F.",
+          "family": "Bissyandé",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "297",
+      "published-online": {
+        "date-parts": [
+          [
+            2024,
+            7,
+            26
+          ]
+        ]
+      },
+      "reference": [
+        {
+          "issue": "1",
+          "key": "10489_CR1",
+          "doi-asserted-by": "publisher",
+          "first-page": "e1654",
+          "DOI": "10.1002/stvr.1654",
+          "volume": "28",
+          "author": "D Amalfitano",
+          "year": "2018",
+          "unstructured": "Amalfitano D, Riccio V, Paiva AC, Fasolino AR (2018) Why does the orientation change mess up my android application? from gui failures to code faults. Softw Test Verif Rel 28(1):e1654",
+          "journal-title": "Softw Test Verif Rel"
+        },
+        {
+          "key": "10489_CR2",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Bevan J, Werner L, McDowell C (2002) Guidelines for the use of pair programming in a freshman programming class. In: Proceedings 15th conference on software engineering education and training (CSEE &T 2002). IEEE, pp 100–107",
+          "DOI": "10.1109/CSEE.2002.995202"
+        },
+        {
+          "key": "10489_CR3",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Calcagno C, Distefano D, Dubreil J, Gabi D, Hooimeijer P, Luca M, O’Hearn P, Papakonstantinou I, Purbrick J, Rodriguez D (2015) Moving fast with software verification. In: NASA Formal methods symposium. Springer, pp 3–11",
+          "DOI": "10.1007/978-3-319-17524-9_1"
+        },
+        {
+          "key": "10489_CR4",
+          "unstructured": "Cames K, II-Grants AA (2006) Recommendation. City"
+        },
+        {
+          "key": "10489_CR5",
+          "unstructured": "Devlin J, Chang MW, Lee K, Toutanova K (2018) Bert: pre-training of deep bidirectional transformers for language understanding. arXiv:1810.04805"
+        },
+        {
+          "key": "10489_CR6",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Fan L, Su T, Chen S, Meng G, Liu Y, Xu L, Pu G, Su Z (2018) Large-scale analysis of framework-specific exceptions in android apps. In: 2018 IEEE/ACM 40th international conference on software engineering (ICSE). IEEE, pp 408–419",
+          "DOI": "10.1145/3180155.3180222"
+        },
+        {
+          "key": "10489_CR7",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Gao C, Zeng J, Xia X, Lo D, Lyu MR, King I (2019) Automating app review response generation. In: 2019 34th IEEE/ACM international conference on automated software engineering (ASE). IEEE, pp 163–175",
+          "DOI": "10.1109/ASE.2019.00025"
+        },
+        {
+          "key": "10489_CR8",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Ghosh J, Strehl A (2006) Similarity-based text clustering: a comparative study. In: Grouping multidimensional data. Springer, pp 73–97",
+          "DOI": "10.1007/3-540-28349-8_3"
+        },
+        {
+          "key": "10489_CR9",
+          "doi-asserted-by": "publisher",
+          "first-page": "26",
+          "DOI": "10.1016/j.procs.2013.05.005",
+          "volume": "17",
+          "author": "E Haddi",
+          "year": "2013",
+          "unstructured": "Haddi E, Liu X, Shi Y (2013) The role of text pre-processing in sentiment analysis. Procedia Comput Sci 17:26–32",
+          "journal-title": "Procedia Comput Sci"
+        },
+        {
+          "key": "10489_CR10",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Haering M, Stanik C, Maalej W (2021) Automatically matching bug reports with related app reviews. In: 2021 IEEE/ACM 43rd international conference on software engineering (ICSE). IEEE, pp 970–981",
+          "DOI": "10.1109/ICSE43902.2021.00092"
+        },
+        {
+          "key": "10489_CR11",
+          "doi-asserted-by": "publisher",
+          "first-page": "268",
+          "DOI": "10.1016/j.jss.2019.06.100",
+          "volume": "156",
+          "author": "X Han",
+          "year": "2019",
+          "unstructured": "Han X, Carroll D, Yu T (2019) Reproducing performance bug reports in server applications: the researchers’ experiences. J Syst Softw 156:268–282",
+          "journal-title": "J Syst Softw"
+        },
+        {
+          "issue": "3",
+          "key": "10489_CR12",
+          "doi-asserted-by": "publisher",
+          "first-page": "1275",
+          "DOI": "10.1007/s10664-017-9538-9",
+          "volume": "23",
+          "author": "S Hassan",
+          "year": "2018",
+          "unstructured": "Hassan S, Tantithamthavorn C, Bezemer CP, Hassan AE (2018) Studying the dialogue between users and developers of free apps in the google play store. Empir Softw Eng 23(3):1275–1312",
+          "journal-title": "Empir Softw Eng"
+        },
+        {
+          "key": "10489_CR13",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Hu G, Yuan X, Tang Y, Yang J (2014) Efficiently, effectively detecting mobile app bugs with appdoctor. In: Proceedings of the ninth European conference on computer systems, pp 1–15",
+          "DOI": "10.1145/2592798.2592813"
+        },
+        {
+          "key": "10489_CR14",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Jiang H, Yang H, Qin S, Su Z, Zhang J, Yan J (2017) Detecting energy bugs in android apps using static analysis. In: International conference on formal engineering methods. Springer, pp 192–208",
+          "DOI": "10.1007/978-3-319-68690-5_12"
+        },
+        {
+          "key": "10489_CR15",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Lee S, Dolby J, Ryu S (2016) Hybridroid: static analysis framework for android hybrid applications. In: 2016 31st IEEE/ACM international conference on automated software engineering (ASE). IEEE, pp 250–261",
+          "DOI": "10.1145/2970276.2970368"
+        },
+        {
+          "key": "10489_CR16",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Li H, Fang C, Wei Z, Chen Z (2019) Cocotest: collaborative crowdsourced testing for android applications. In: Proceedings of the 28th ACM SIGSOFT international symposium on software testing and analysis, pp 390–393",
+          "DOI": "10.1145/3293882.3339000"
+        },
+        {
+          "key": "10489_CR17",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Liu Z, Chen C, Wang J, Huang Y, Hu J, Wang Q (2022) Guided bug crush: assist manual gui testing of android apps via hint moves. arXiv:2201.12085",
+          "DOI": "10.1145/3491102.3501903"
+        },
+        {
+          "key": "10489_CR18",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Li H, Zhang L, Zhang L, Shen J (2010) A user satisfaction analysis approach for software evolution. In: 2010 IEEE international conference on progress in informatics and computing, vol 2. IEEE, pp 1093–1097",
+          "DOI": "10.1109/PIC.2010.5687999"
+        },
+        {
+          "key": "10489_CR19",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Long T, Yoon I, Memon A, Porter A, Sussman A (2014) Enabling collaborative testing across shared software components. In: Proceedings of the 17th international ACM Sigsoft symposium on Component-based software engineering, pp 55–64",
+          "DOI": "10.1145/2602458.2602468"
+        },
+        {
+          "key": "10489_CR20",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Long T, Yoon I, Porter A, Memon A, Sussman A (2016) Coordinated collaborative testing of shared software components. In: 2016 IEEE international conference on software testing, verification and validation (ICST). IEEE, pp 364–374",
+          "DOI": "10.1109/ICST.2016.38"
+        },
+        {
+          "key": "10489_CR21",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Loper E, Bird S (2002) Nltk: the natural language toolkit. arXiv preprint cs/0205028",
+          "DOI": "10.3115/1118108.1118117"
+        },
+        {
+          "issue": "3",
+          "key": "10489_CR22",
+          "doi-asserted-by": "publisher",
+          "first-page": "311",
+          "DOI": "10.1007/s00766-016-0251-9",
+          "volume": "21",
+          "author": "W Maalej",
+          "year": "2016",
+          "unstructured": "Maalej W, Kurtanović Z, Nabil H, Stanik C (2016) On the automatic classification of app reviews. Requirements Eng 21(3):311–331",
+          "journal-title": "Requirements Eng"
+        },
+        {
+          "issue": "4",
+          "key": "10489_CR23",
+          "doi-asserted-by": "publisher",
+          "first-page": "285",
+          "DOI": "10.3727/109830510X12670455864203",
+          "volume": "11",
+          "author": "T Mahmood",
+          "year": "2009",
+          "unstructured": "Mahmood T, Ricci F, Venturini A (2009) Improving recommendation effectiveness: adapting a dialogue strategy in online travel planning. Inf Technol Tour 11(4):285–302",
+          "journal-title": "Inf Technol Tour"
+        },
+        {
+          "key": "10489_CR24",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Mao K, Harman M, Jia Y (2017) Crowd intelligence enhances automated mobile testing. In: 2017 32nd IEEE/ACM international conference on automated software engineering (ASE). IEEE, pp 16–26",
+          "DOI": "10.1109/ASE.2017.8115614"
+        },
+        {
+          "key": "10489_CR25",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Martens D, Maalej W (2019) Extracting and analyzing context information in user-support conversations on twitter. In: 2019 IEEE 27th international requirements engineering conference (RE). IEEE, pp 131–141",
+          "DOI": "10.1109/RE.2019.00024"
+        },
+        {
+          "issue": "3",
+          "key": "10489_CR26",
+          "doi-asserted-by": "publisher",
+          "first-page": "1346",
+          "DOI": "10.1007/s10664-015-9388-2",
+          "volume": "21",
+          "author": "S McIlroy",
+          "year": "2016",
+          "unstructured": "McIlroy S, Ali N, Hassan AE (2016) Fresh apps: an empirical study of frequently-updated mobile apps in the google play store. Empir Softw Eng 21(3):1346–1370",
+          "journal-title": "Empir Softw Eng"
+        },
+        {
+          "key": "10489_CR27",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Oh J, Kim D, Lee U, Lee JG, Song J (2013) Facilitating developer-user interactions with mobile app review digests. In: CHI’13 extended abstracts on human factors in computing systems, pp 1809–1814",
+          "DOI": "10.1145/2468356.2468681"
+        },
+        {
+          "key": "10489_CR28",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Poerner N, Waltinger U, Schütze H (2020) E-BERT: efficient-yet-effective entity embeddings for BERT. In: Findings of the association for computational linguistics: EMNLP 2020, pp 803–818. Association for Computational Linguistics, Online. https://doi.org/10.18653/v1/2020.findings-emnlp.71. https://aclanthology.org/2020.findings-emnlp.71",
+          "DOI": "10.18653/v1/2020.findings-emnlp.71"
+        },
+        {
+          "key": "10489_CR29",
+          "unstructured": "Sanh V, Debut L, Chaumond J, Wolf T (2019) Distilbert, a distilled version of bert: smaller, faster, cheaper and lighter. arXiv:1910.01108"
+        },
+        {
+          "key": "10489_CR30",
+          "unstructured": "Sefferman A (2015) Survey on user ratings and reviews. https://www.apptentive.com/blog/2020/02/04/mobile-app-ratings-and-reviews/. Accessed 2015"
+        },
+        {
+          "key": "10489_CR31",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Shani G, Gunawardana A (2011) Evaluating recommendation systems. In: Recommender systems handbook. Springer, pp 257–297",
+          "DOI": "10.1007/978-0-387-85820-3_8"
+        },
+        {
+          "key": "10489_CR32",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Sitikhu P, Pahi K, Thapa P, Shakya S (2019) A comparison of semantic similarity methods for maximum human interpretability. In: 2019 artificial intelligence for transforming business and society (AITB), vol 1. IEEE, pp 1–4",
+          "DOI": "10.1109/AITB48515.2019.8947433"
+        },
+        {
+          "key": "10489_CR33",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Stanik C, Haering M, Maalej W (2019) Classifying multilingual user feedback using traditional machine learning and deep learning. In: 2019 IEEE 27th international requirements engineering conference workshops (REW). IEEE, pp 220–226",
+          "DOI": "10.1109/REW.2019.00046"
+        },
+        {
+          "key": "10489_CR34",
+          "unstructured": "Su T, Fan L, Chen S, Liu Y, Xu L, Pu G, Su Z (2020) Why my app crashes understanding and benchmarking framework-specific exceptions of android apps. IEEE Trans Softw Eng"
+        },
+        {
+          "key": "10489_CR35",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Sun C, Lo D, Khoo SC, Jiang J (2011) Towards more accurate retrieval of duplicate bug reports. In: 2011 26th IEEE/ACM international conference on automated software engineering (ASE 2011). IEEE, pp 253–262",
+          "DOI": "10.1109/ASE.2011.6100061"
+        },
+        {
+          "key": "10489_CR36",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Sun J, Su T, Li J, Dong Z, Pu G, Xie T, Su Z (2021) Understanding and finding system setting-related defects in android apps. In: Proceedings of the 30th ACM SIGSOFT international symposium on software testing and analysis, pp 204–215",
+          "DOI": "10.1145/3460319.3464806"
+        },
+        {
+          "key": "10489_CR37",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Talukder MAI, Shahriar H, Qian K, Rahman M, Ahamed S, Wu F, Agu E (2019) Droidpatrol: a static analysis plugin for secure mobile software development. In: 2019 IEEE 43rd annual computer software and applications conference (COMPSAC), vol 1. IEEE, pp 565–569",
+          "DOI": "10.1109/COMPSAC.2019.00087"
+        },
+        {
+          "key": "10489_CR38",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Tan SH, Li Z (2020) Collaborative bug finding for android apps. In: Proceedings of the ACM/IEEE 42nd international conference on software engineering, pp 1335–1347",
+          "DOI": "10.1145/3377811.3380349"
+        },
+        {
+          "key": "10489_CR39",
+          "unstructured": "Van Der Veen V, Bos H, Rossow C (2013) Dynamic analysis of android malware. Internet & Web Technology Master thesis, VU University Amsterdam"
+        },
+        {
+          "key": "10489_CR40",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Wang X, Zhang L, Xie T, Anvik J, Sun J (2008) An approach to detecting duplicate bug reports using natural language and execution information. In: Proceedings of the 30th international conference on Software engineering, pp 461–470",
+          "DOI": "10.1145/1368088.1368151"
+        },
+        {
+          "issue": "1",
+          "key": "10489_CR41",
+          "doi-asserted-by": "publisher",
+          "first-page": "45",
+          "DOI": "10.1177/016555159201800106",
+          "volume": "18",
+          "author": "WJ Wilbur",
+          "year": "1992",
+          "unstructured": "Wilbur WJ, Sirotkin K (1992) The automatic identification of stop words. J Inf Sci 18(1):45–55",
+          "journal-title": "J Inf Sci"
+        },
+        {
+          "key": "10489_CR42",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Wooditch A, Johnson NJ, Solymosi R, Ariza JM, Langton S (2021) Getting to know your data. In: A beginner’s guide to statistics for criminology and criminal justice using R. Springer, pp 21–38",
+          "DOI": "10.1007/978-3-030-50625-4_2"
+        },
+        {
+          "key": "10489_CR43",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Yang X, Lo D, Xia X, Bao L, Sun J (2016) Combining word embedding with information retrieval to recommend similar bug reports. In: 2016 IEEE 27Th international symposium on software reliability engineering (ISSRE). IEEE, pp 127–137",
+          "DOI": "10.1109/ISSRE.2016.33"
+        },
+        {
+          "key": "10489_CR44",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Ye X, Bunescu R, Liu C (2014) Learning to rank relevant files for bug reports using domain knowledge. In: Proceedings of the 22nd ACM SIGSOFT international symposium on foundations of software engineering, pp 689–699",
+          "DOI": "10.1145/2635868.2635874"
+        },
+        {
+          "key": "10489_CR45",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Zhou J, Zhang H, Lo D (2012) Where should the bugs be fixed? more accurate information retrieval-based bug localization based on bug reports. In: 2012 34th International conference on software engineering (ICSE). IEEE, pp 14–24",
+          "DOI": "10.1109/ICSE.2012.6227210"
+        },
+        {
+          "issue": "5",
+          "key": "10489_CR46",
+          "doi-asserted-by": "publisher",
+          "first-page": "618",
+          "DOI": "10.1109/TSE.2010.63",
+          "volume": "36",
+          "author": "T Zimmermann",
+          "year": "2010",
+          "unstructured": "Zimmermann T, Premraj R, Bettenburg N, Just S, Schroter A, Weiss C (2010) What makes a good bug report? IEEE Trans Software Eng 36(5):618–643",
+          "journal-title": "IEEE Trans Software Eng"
+        }
+      ],
+      "updated-by": [
+        {
+          "DOI": "10.1007/s10664-024-10586-x",
+          "type": "correction",
+          "label": "Correction",
+          "source": "publisher",
+          "updated": {
+            "date-parts": [
+              [
+                2024,
+                12,
+                10
+              ]
+            ],
+            "date-time": "2024-12-10T00:00:00Z",
+            "timestamp": 1733788800000
+          }
+        }
+      ],
+      "container-title": [
+        "Empirical Software Engineering"
+      ],
+      "original-title": [],
+      "language": "en",
+      "link": [
+        {
+          "URL": "https://link.springer.com/content/pdf/10.1007/s10664-024-10489-x.pdf",
+          "content-type": "application/pdf",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://link.springer.com/article/10.1007/s10664-024-10489-x/fulltext.html",
+          "content-type": "text/html",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://link.springer.com/content/pdf/10.1007/s10664-024-10489-x.pdf",
+          "content-type": "application/pdf",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2024,
+            12,
+            10
+          ]
+        ],
+        "date-time": "2024-12-10T07:26:53Z",
+        "timestamp": 1733815613000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://link.springer.com/10.1007/s10664-024-10489-x"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2024,
+            7,
+            26
+          ]
+        ]
+      },
+      "references-count": 46,
+      "journal-issue": {
+        "issue": "5",
+        "published-print": {
+          "date-parts": [
+            [
+              2024,
+              9
+            ]
+          ]
+        }
+      },
+      "alternative-id": [
+        "10489"
+      ],
+      "URL": "https://doi.org/10.1007/s10664-024-10489-x",
+      "relation": {
+        "correction": [
+          {
+            "id-type": "doi",
+            "id": "10.1007/s10664-024-10586-x",
+            "asserted-by": "object"
+          }
+        ]
+      },
+      "ISSN": [
+        "1382-3256",
+        "1573-7616"
+      ],
+      "issn-type": [
+        {
+          "value": "1382-3256",
+          "type": "print"
+        },
+        {
+          "value": "1573-7616",
+          "type": "electronic"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2024,
+            7,
+            26
+          ]
+        ]
+      },
+      "assertion": [
+        {
+          "value": "28 March 2024",
+          "order": 1,
+          "name": "accepted",
+          "label": "Accepted",
+          "group": {
+            "name": "ArticleHistory",
+            "label": "Article History"
+          }
+        },
+        {
+          "value": "26 July 2024",
+          "order": 2,
+          "name": "first_online",
+          "label": "First Online",
+          "group": {
+            "name": "ArticleHistory",
+            "label": "Article History"
+          }
+        },
+        {
+          "value": "10 December 2024",
+          "order": 3,
+          "name": "change_date",
+          "label": "Change Date",
+          "group": {
+            "name": "ArticleHistory",
+            "label": "Article History"
+          }
+        },
+        {
+          "value": "Correction",
+          "order": 4,
+          "name": "change_type",
+          "label": "Change Type",
+          "group": {
+            "name": "ArticleHistory",
+            "label": "Article History"
+          }
+        },
+        {
+          "value": "A Correction to this paper has been published:",
+          "order": 5,
+          "name": "change_details",
+          "label": "Change Details",
+          "group": {
+            "name": "ArticleHistory",
+            "label": "Article History"
+          }
+        },
+        {
+          "value": "https://doi.org/10.1007/s10664-024-10586-x",
+          "URL": "https://doi.org/10.1007/s10664-024-10586-x",
+          "order": 6,
+          "name": "change_details",
+          "label": "Change Details",
+          "group": {
+            "name": "ArticleHistory",
+            "label": "Article History"
+          }
+        },
+        {
+          "order": 1,
+          "name": "Ethics",
+          "group": {
+            "name": "EthicsHeading",
+            "label": "Declarations"
+          }
+        },
+        {
+          "value": "The authors declare that they have no conflict of interest.",
+          "order": 2,
+          "name": "Ethics",
+          "group": {
+            "name": "EthicsHeading",
+            "label": "Conflict of Interest"
+          }
+        }
+      ],
+      "article-number": "124"
+    }
+  },
+  "Zegers2025": {
+    "doi": "10.1109/CHASE66643.2025.00024",
+    "metadata": {
+      "indexed": {
+        "date-parts": [
+          [
+            2025,
+            6,
+            13
+          ]
+        ],
+        "date-time": "2025-06-13T05:40:10Z",
+        "timestamp": 1749793210203,
+        "version": "3.41.0"
+      },
+      "reference-count": 53,
+      "publisher": "IEEE",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                4,
+                27
+              ]
+            ],
+            "date-time": "2025-04-27T00:00:00Z",
+            "timestamp": 1745712000000
+          },
+          "content-version": "stm-asf",
+          "delay-in-days": 0,
+          "URL": "https://doi.org/10.15223/policy-029"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                4,
+                27
+              ]
+            ],
+            "date-time": "2025-04-27T00:00:00Z",
+            "timestamp": 1745712000000
+          },
+          "content-version": "stm-asf",
+          "delay-in-days": 0,
+          "URL": "https://doi.org/10.15223/policy-037"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "short-container-title": [],
+      "published-print": {
+        "date-parts": [
+          [
+            2025,
+            4,
+            27
+          ]
+        ]
+      },
+      "DOI": "10.1109/chase66643.2025.00024",
+      "type": "proceedings-article",
+      "created": {
+        "date-parts": [
+          [
+            2025,
+            6,
+            12
+          ]
+        ],
+        "date-time": "2025-06-12T17:39:05Z",
+        "timestamp": 1749749945000
+      },
+      "page": "131-142",
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "Irresponsibility Killed the Cat: Software Accountability Concerns"
+      ],
+      "prefix": "10.1109",
+      "author": [
+        {
+          "given": "Aria",
+          "family": "Zegers",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Vrije Universiteit Amsterdam,Amsterdam,Netherlands"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Natalie",
+          "family": "Preciado",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Vrije Universiteit Amsterdam,Amsterdam,Netherlands"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Jan",
+          "family": "Duchnowski",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Vrije Universiteit Amsterdam,Amsterdam,Netherlands"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Fernanda",
+          "family": "Madeiral",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Vrije Universiteit Amsterdam,Amsterdam,Netherlands"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Emitzá",
+          "family": "Guzmán",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Vrije Universiteit Amsterdam,Amsterdam,Netherlands"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "263",
+      "reference": [
+        {
+          "key": "ref1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/978-3-030-46054-9_5-1"
+        },
+        {
+          "volume-title": "Discord’s username change is causing discord",
+          "year": "2023",
+          "author": "Shakir",
+          "key": "ref2"
+        },
+        {
+          "volume-title": "[do not add] the new discord usernames system - discord",
+          "year": "2023",
+          "key": "ref3"
+        },
+        {
+          "volume-title": "Youtube co-founder says removing dislike counts is a “stupid idea",
+          "year": "2021",
+          "author": "Kan",
+          "key": "ref4"
+        },
+        {
+          "volume-title": "Tiktok’s enshittification",
+          "year": "2023",
+          "author": "Doctorow",
+          "key": "ref5"
+        },
+        {
+          "key": "ref6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s10664-024-10463-7"
+        },
+        {
+          "key": "ref7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/ICSE.2013.6606645"
+        },
+        {
+          "key": "ref8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/MS.2017.33"
+        },
+        {
+          "key": "ref9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/RE.2015.7320433"
+        },
+        {
+          "key": "ref10",
+          "article-title": "An analysis of the mobile app review landscape: trends and implications",
+          "author": "Hoon",
+          "year": "2013",
+          "journal-title": "Swinburne University of Technology, Tech. Rep"
+        },
+        {
+          "key": "ref11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/RE.2013.6636712"
+        },
+        {
+          "key": "ref12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/RE51729.2021.00027"
+        },
+        {
+          "key": "ref13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/3597503.3623309"
+        },
+        {
+          "key": "ref14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/RE51729.2021.00019"
+        },
+        {
+          "key": "ref15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/TSE.2016.2630689"
+        },
+        {
+          "key": "ref16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/ASE.2015.88"
+        },
+        {
+          "key": "ref17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/RE.2015.7320414"
+        },
+        {
+          "key": "ref18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/ICSM.2015.7332474"
+        },
+        {
+          "key": "ref19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/2568225.2568263"
+        },
+        {
+          "key": "ref20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/2884781.2884818"
+        },
+        {
+          "key": "ref21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/2950290.2950299"
+        },
+        {
+          "key": "ref22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/ICSE.2013.6606604"
+        },
+        {
+          "key": "ref23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/MSR.2013.6624001"
+        },
+        {
+          "key": "ref24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.infsof.2021.106635"
+        },
+        {
+          "key": "ref25",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/REW57809.2023.00032"
+        },
+        {
+          "key": "ref26",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/RE.2014.6912257"
+        },
+        {
+          "key": "ref27",
+          "first-page": "749",
+          "article-title": "Mining user opinions in mobile app reviews: A keyword-based approach (t)",
+          "volume-title": "Proc. of the International Conference on Automated Software Engineering (ASE)",
+          "author": "Vu",
+          "year": "2015"
+        },
+        {
+          "key": "ref28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/ASE.2015.57"
+        },
+        {
+          "key": "ref29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/ICSE.2017.18"
+        },
+        {
+          "key": "ref30",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/ICSE-SEIS58686.2023.00013"
+        },
+        {
+          "key": "ref31",
+          "article-title": "Inclusiveness matters: A large-scale analysis of user feedback",
+          "author": "Arony",
+          "year": "2023",
+          "journal-title": "arXiv preprint arXiv"
+        },
+        {
+          "key": "ref32",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/j.1467-9973.1985.tb00173.x"
+        },
+        {
+          "key": "ref33",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.4018/IJISP.2020100105"
+        },
+        {
+          "key": "ref34",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/MS.2014.50"
+        },
+        {
+          "key": "ref35",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/RE54965.2022.00018"
+        },
+        {
+          "key": "ref36",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/3510003.3510079"
+        },
+        {
+          "key": "ref37",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/RE48521.2020.00031"
+        },
+        {
+          "key": "ref38",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/MSR59073.2023.00086"
+        },
+        {
+          "volume-title": "R. inc. (2023) Homepage - Reddit",
+          "key": "ref39"
+        },
+        {
+          "key": "ref40",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/RE59067.2024.00055"
+        },
+        {
+          "volume-title": "Most popular apps (2023)",
+          "year": "2021",
+          "author": "Curry",
+          "key": "ref41"
+        },
+        {
+          "volume-title": "Top apps ranking - most popular apps in united states",
+          "year": "2023",
+          "key": "ref42"
+        },
+        {
+          "key": "ref43",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/MSR59073.2023.00049"
+        },
+        {
+          "volume-title": "Choosing the right estimator",
+          "year": "2023",
+          "author": "Pedregosa",
+          "key": "ref44"
+        },
+        {
+          "key": "ref45",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/1471-2105-14-106"
+        },
+        {
+          "key": "ref46",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.procs.2021.05.096"
+        },
+        {
+          "key": "ref47",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3115/v1/E14-1056"
+        },
+        {
+          "key": "ref48",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/978-3-031-25891-6_23"
+        },
+        {
+          "key": "ref49",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1155/2022/8660828"
+        },
+        {
+          "key": "ref50",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/1471-2105-14-106"
+        },
+        {
+          "volume-title": "Instagram algorithm changes that should influence your 2023 social media strategy",
+          "year": "2022",
+          "author": "McLaughlin",
+          "key": "ref51"
+        },
+        {
+          "volume-title": "New instagram algorithm changes",
+          "year": "2022",
+          "key": "ref52"
+        },
+        {
+          "volume-title": "A developer says reddit could charge him $20 million a year to keep his app working",
+          "year": "2023",
+          "author": "Roth",
+          "key": "ref53"
+        }
+      ],
+      "event": {
+        "name": "2025 IEEE/ACM 18th International Conference on Cooperative and Human Aspects of Software Engineering (CHASE)",
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              4,
+              27
+            ]
+          ]
+        },
+        "location": "Ottawa, ON, Canada",
+        "end": {
+          "date-parts": [
+            [
+              2025,
+              4,
+              28
+            ]
+          ]
+        }
+      },
+      "container-title": [
+        "2025 IEEE/ACM 18th International Conference on Cooperative and Human Aspects of Software Engineering (CHASE)"
+      ],
+      "original-title": [],
+      "link": [
+        {
+          "URL": "http://xplorestaging.ieee.org/ielx8/11024219/11024246/11024448.pdf?arnumber=11024448",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2025,
+            6,
+            13
+          ]
+        ],
+        "date-time": "2025-06-13T05:17:56Z",
+        "timestamp": 1749791876000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://ieeexplore.ieee.org/document/11024448/"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2025,
+            4,
+            27
+          ]
+        ]
+      },
+      "references-count": 53,
+      "URL": "https://doi.org/10.1109/chase66643.2025.00024",
+      "relation": {},
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            4,
+            27
+          ]
+        ]
+      }
+    }
+  },
+  "Reimers2019": {
+    "doi": "10.18653/v1/D19-1410",
+    "metadata": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            8
+          ]
+        ],
+        "date-time": "2026-10-08T12:01:03Z",
+        "timestamp": 1791460863391,
+        "version": "4.3.4"
+      },
+      "publisher-location": "Stroudsburg, PA, USA",
+      "reference-count": 0,
+      "publisher": "Association for Computational Linguistics",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "short-container-title": [],
+      "published-print": {
+        "date-parts": [
+          [
+            2019
+          ]
+        ]
+      },
+      "DOI": "10.18653/v1/d19-1410",
+      "type": "proceedings-article",
+      "created": {
+        "date-parts": [
+          [
+            2019,
+            11,
+            2
+          ]
+        ],
+        "date-time": "2019-11-02T22:21:11Z",
+        "timestamp": 1572733271000
+      },
+      "page": "3980-3990",
+      "source": "Crossref",
+      "is-referenced-by-count": 9693,
+      "title": [
+        "Sentence-BERT: Sentence Embeddings using Siamese BERT-Networks"
+      ],
+      "prefix": "10.18653",
+      "author": [
+        {
+          "given": "Nils",
+          "family": "Reimers",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Iryna",
+          "family": "Gurevych",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "1643",
+      "event": {
+        "name": "Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing and the 9th International Joint Conference on Natural Language Processing (EMNLP-IJCNLP)",
+        "location": "Hong Kong, China",
+        "start": {
+          "date-parts": [
+            [
+              2019,
+              11
+            ]
+          ]
+        },
+        "end": {
+          "date-parts": [
+            [
+              2019,
+              11
+            ]
+          ]
+        }
+      },
+      "container-title": [
+        "Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing and the 9th International Joint Conference on Natural Language Processing (EMNLP-IJCNLP)"
+      ],
+      "original-title": [],
+      "deposited": {
+        "date-parts": [
+          [
+            2019,
+            12,
+            19
+          ]
+        ],
+        "date-time": "2019-12-19T17:12:56Z",
+        "timestamp": 1576775576000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://www.aclweb.org/anthology/D19-1410"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2019
+          ]
+        ]
+      },
+      "references-count": 0,
+      "URL": "https://doi.org/10.18653/v1/d19-1410",
+      "relation": {},
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2019
+          ]
+        ]
+      }
+    }
+  }
+}

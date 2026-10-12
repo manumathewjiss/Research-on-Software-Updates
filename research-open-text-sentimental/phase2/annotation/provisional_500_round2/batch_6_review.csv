@@ -1,0 +1,2333 @@
+﻿review_id,subreddit,title,post_body,discussion_context,text_availability,proposed_about_software,proposed_update_related,proposed_discussion_type,proposed_confidence,proposed_reason,decision,final_about_software,final_update_related,final_discussion_type,reviewer_note,reviewed_at,source_url
+B6-001,AndroidQuestions,How to fix Playstore?,"I noticed that YouTube wasn't working (as in its would open and nothing would load) so i tried to update it only to find that the search bar doesn't work and that updating it from manage apps and updates doesn't work either. Then I tried clearing the cache on playstore and that just made it so the app wouldn't load at all and just left me on the logo screen, then I tried clearing data (because Google recommendation) and now I'm just stuck on a gray screen.
+I know this isn't an internet issue since all of my other apps that need internet are working fine","[1:OP] Fixed it myself by restarting the phone, that fixed both issues. Thank you for all that helped, I'm going to get you a cookie (as in myself, I am getting myself a cookie) :3",title_body_comments,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/AndroidQuestions/comments/1tp7wjg/how_to_fix_playstore/
+B6-002,PHP,FrankenPHP v1.11.2 (security and performance updates),,"[1:reply] Updated Docker tag, deployed to staging, tested, and deployed to production!
+[2:reply] any idea why the binaries have php8.4 and not php8.5?
+[3:OP] Because of this https://github.com/php/frankenphp/pull/2168#issuecomment-3859572031",title_plus_comments,yes,yes,other,low,The post appears to discuss software without a clear troubleshooting or chiefly critical purpose.,,,,,,,https://reddit.com/r/PHP/comments/1r2sc6j/frankenphp_v1112_security_and_performance_updates/
+B6-003,chrome,What has happened after the latest update?,,,title_only,unclear,yes,na,low,The saved text appears outside software scope or is too vague to classify reliably.,,,,,,,https://reddit.com/r/chrome/comments/1lp8o76/what_has_happened_after_the_latest_update/
+B6-004,chrome,the borders for websites are turning white??,"prior to the recent update it was black and matching the rest of my browser but when i updated it it turned white? i uninstalled the update, didn't work. installed the update again, didn't work. i have dark theme enabled and it still wont work.
+
+i had a similar problem with my keyboard as after an update it turned brown, but that was fixable with the keyboard settings. as for this though? i have no idea, google is driving me nuts!!","[1:reply] It's up to the website to set the color properly.
+
+This particular URL has no website on it (it has, but it just shows that the domain is for sale) and they didn't bother setting the color, so it falls back to white.
+
+Also this on your screenshot isn't Chrome browser, but a WebV…
+[2:reply] Same problem
+[3:OP] i honestly had no idea about the website having to color it by itself, and also, i just picked a random website to open and check. if we're talking about websites i KNOW used to be black, there's like ao3 or comick which borders are also white now. and yes, this problem is only…",title_body_comments,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/chrome/comments/1nxqah6/the_borders_for_websites_are_turning_white/
+B6-005,ansible,Are golden images + virtualization making Ansible less relevant for provisioning—or just pushing it to “Day-2” work?,"In many production environments today, most servers are virtualized and new nodes are spun up from golden images or cloned templates. From a *provisioning* standpoint, that makes environments feel “easy”: bake once, clone forever.
+
+That raises a question I can’t shake: does this erode the appeal of Ansible for initial builds? If a vSphere/Proxmox/Cloud template already encodes 90% of the baseline, the value of running a long role list during day-0 can look marginal.
+
+At the same time, I still see clear places where Ansible shines—especially when the environment *must* change:
+
+* Major OS uplift / distro hop (EL8→EL9, Debian 11→12): small, targeted tasks across the fleet beat rebuilding images for everything.
+* Security/compliance drift: reconcile CIS/SCAP deltas and prove idempotence with reports.
+* Day-2+ operations: patch windows, kernel rollouts, config toggles, blue/green cutovers, runbook automation.
+* Heterogeneous stacks: the image gets you close, Ansible closes gaps across app teams and “snowflake” hosts.
+* Event-driven remediation: handlers or EDA reacting to alerts (close a port, rotate a key, revert a bad sysctl).
+
+But I’m still torn. If we can clone near-perfect VMs in seconds, am I just using Ansible as a sophisticated sed with inventory? Or is that exactly the point: Ansible’s value is less day-0, more day-2/3/forever?
+
+I’d love to hear how you’re using it today, specifically:
+
+1. Where do you draw the line between image baking and config management?
+   * What absolutely *must* live in the image vs. in Ansible?
+   * Do you ever purposely keep images thin and push more to Ansible to avoid image sprawl?
+2. For OS major upgrades, do you rebuild images and rotate hosts, or do you orchestrate in-place transitions with Ansible (package sets, repos, services, app data migration)?
+3. Compliance &amp; drift: how are you measuring “drift closed” at scale? Are you using check mode, custom facts, ARA/AWX reports, policy as code, etc.?
+4. Event-Driven Ansible / “self-healing”: any real wins or horror stories? What signals (SIEM, Prometheus, vCenter events) do you trigger from?
+5. Hybrid IaC: if you pair Packer/Terraform with Ansible, what’s the split of responsibilities that actually sticks over time?
+6. Scale &amp; ROI: numbers please—host counts, minutes saved per change window, failure rates before/after, SLO improvements. What made management buy in?
+
+I’m not trying to start a tool war—I use Ansible daily. I just want to sanity-check whether our mental model should evolve: golden images for speed; Ansible for truth, drift, and change. If you disagree, convince me. If you agree, show how you structure it (inventories, roles, tagging, canary runs, rollback patterns).
+
+Looking forward to real-world patterns, not just Hello World playbooks.","[1:reply] Lol
+[2:reply] I keep as little as I possibly can in Golden Images unless it's completely unavoidable, they're a pain in the ass to maintain.   
+  
+My images are 99% a basic CIS-Hardened OS and partitioning scheme and an SSH user and key to let Ansible get on and do it's thing, then all other…
+[3:reply] It's 2 completely different methods of conceiving computing and also not Windows environments. Stateless Windows environment are basically useless.
+
+Stateless Linux systems instead are a dream.
+[4:reply] Literally just depends on your use case and what other tools you have. 
+
+Trust there are still several reasons to have configuration management and to be using Ansible for all stages of it is an acceptable answer.
+[5:OP] I’m not anti-Ansible. I’m asking how teams split responsibilities between golden images and Ansible in production, esp. for Day-2+ work.",title_body_comments,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/ansible/comments/1o0mm7o/are_golden_images_virtualization_making_ansible/
+B6-006,transformers,In shear disbelief. I thought the post from a few days ago was too good to be true. Studio Series at TK Maxx!!!!!,,"[1:reply] Gonna visit my one soon, I pray to God they have some there too and that that price would be amazing!
+[2:reply] Screw you, Cosmos is great.
+[3:OP] This was in a big one in a retail park, but the one at Meadowhall Sheffield had Blokees and Yolopark kits too. And some of the ‘Evergreen’ kid-focused figures too. May pop there in the new year!
+[4:reply] I was able to get a mainline tf one prime. Was never gonna get it but for £10 I actually feel like it was worth it. Not a terrible figure for a tenner if you ask me.
+[5:reply] Ah that's where the 37 my local Target used to have went.",title_plus_comments,no,no,na,medium,The saved text appears outside software scope or is too vague to classify reliably.,,,,,,,https://reddit.com/r/transformers/comments/1pumelv/in_shear_disbelief_i_thought_the_post_from_a_few/
+B6-007,Android,Original Pixel Watch gets October 2025 update,,"[1:reply] Haven't felt compelled to switch from my watch 1 yet. Still looks great and works perfectly fine after years. I do like the direction of the new watches with more repairability and better battery life though.
+[2:reply] How much battery do you even get on that still ?
+[3:reply] I still got my Pixel Watch 1 lol. Works fine
+[4:reply] Same I'm holding out for one more year. I'll get the Pw5 next year. Hopefully with a new SOC, and the hybridOS.",title_plus_comments,yes,yes,other,medium,The post appears to discuss software without a clear troubleshooting or chiefly critical purpose.,,,,,,,https://reddit.com/r/Android/comments/1oholmk/original_pixel_watch_gets_october_2025_update/
+B6-008,transformers,Beast characters that need updates part 2!,,"[1:reply] POLAR CLAW MENTIONED 🗣️🗣️🗣️
+[2:reply] Depth charge
+[3:reply] The Manta Ray cop who’s name I’ve forgotten.
+[4:reply] Love the second last one, never had the toy tho
+[5:OP] I mentioned him in the first one, but yea definitely needs a update.",title_plus_comments,no,no,na,medium,The saved text appears outside software scope or is too vague to classify reliably.,,,,,,,https://reddit.com/r/transformers/comments/1ojct7x/beast_characters_that_need_updates_part_2/
+B6-009,Ubiquiti,"Based on the feedback I received, here's the new version.",,"[1:reply] I was OK with the prior one, but this one is better.
+[2:OP] Someone asked about weatherproofing. It's a covered porch, the piece is put up with silicone, and there's a weep hole modeled into the bottom.
+[3:reply] Looks much better!
+[4:reply] Waaaaaaaaaaaaaay bbbbbbeeeeettttttttteeeeerrrrrrrrrr!
+[5:reply] Space Balls the comment.
+
+Nice job ◡̈",title_plus_comments,yes,yes,other,low,The post appears to discuss software without a clear troubleshooting or chiefly critical purpose.,,,,,,,https://reddit.com/r/Ubiquiti/comments/1s1xuee/based_on_the_feedback_i_received_heres_the_new/
+B6-010,software,"[Update] Side Calendar 2.1.0 — drag events, recurring events, custom hotkey","Hey r/macapps,
+
+Quick heads‑up before anything else: **I’m the developer of Side Calendar.**
+
+Before anything else, a real thank you to everyone who's reached out with suggestions, bug reports, and feedback — this release exists because of you. And a special shout-out to **Max**
+
+For anyone who hasn’t seen it before: **Side Calendar** is a slide‑out menu‑bar calendar for macOS. It sits on the edge of your screen, pops in when you need it, and disappears when you don’t.
+
+# What’s new in 2.1.0
+
+* **Drag to reschedule** — grab an event in the day view and drop it onto a new time. Resize handles let you adjust the duration in the same motion. No pop‑ups, no forms, no fuss.
+* **Recurring events** — daily, weekly, monthly, or custom repeats right from the add‑event sheet. Edits behave the way you’d expect.
+* **Custom global shortcut** — set whatever hotkey fits your workflow. ⌘⇧C, ⌥Space, anything.
+* **Panel polish** — smoother animation, rounded corners, and a proper resize handle so the panel adapts to your setup instead of the other way around.
+
+**Download:** [https://apps.apple.com/us/app/side-calendar/id1435738245](https://apps.apple.com/us/app/side-calendar/id1435738245)
+
+**How it's different from the calendar app you're already using**
+
+* **Not a full window.** Most macOS calendar apps take over your screen or sit in the dock. Side Calendar lives on the edge and slides in on a shortcut — no dock icon, no app-switching, no focus stolen from what you're doing.
+* **Not just a menu-bar dropdown either.** Most menu-bar calendars are read-only month grids that drop down for two seconds. Side Calendar is a full agenda + day view you can actually work in — drag events to reschedule, resize to change duration, add and edit in place.
+* **You decide when it's there.** Bind your own global shortcut for instant access, pin it open if you want it always visible, hide it again with the same keystroke.
+* **Native sync, no new account.** Reads from macOS Calendar and Reminders — whatever you've already set up it just works.
+
+Now I’d love your input.
+
+2.1.0 was a big update, but the roadmap from here is wide open. I’d rather build what you actually want than guess.
+
+**What would you like to see next in Side Calendar?**  
+Week view? Better reminders support? Natural‑language event entry? Meeting links? Time‑zone tools? Something totally different?
+
+Drop your thoughts — I read everything, and whatever comes next will be shaped by this thread.
+
+https://preview.redd.it/8abeth7veo3h1.jpg?width=3456&amp;format=pjpg&amp;auto=webp&amp;s=d533ed90a2190c93990f5d6436f543393d6d9682",,title_and_body,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/software/comments/1toz6ps/update_side_calendar_210_drag_events_recurring/
+B6-011,Android,Fairphone 4 beta update accidentally released to all. Found to be bricking phones,,"[1:reply] the ""ill buy a fairphone when they finally get the software right"" crowd  sighs in unison
+[2:reply] How does a company manage to accidentally release beta software for their phones? And then it’s bricking phones? I smell a lawsuit coming
+[3:reply] This is the case with pretty much any small brand. I won't touch a Jolla/Fairphone/Volla whatever with a ten foot pole unless it rains money or they make a product usable by the average joe.
+[4:reply] It happened even to bigger companies... I was affected by Samsung faulty OTA for example.
+[5:reply] They seem to imply it was a planned rollout which has been pulled.
+
+Have they officially confirmed it was a beta update pushed to stable?
+
+https://preview.redd.it/y8q6b1a7zz8g1.jpeg?width=1320&amp;format=pjpg&amp;auto=webp&amp;s=67ee96a8928fdd9101d30b935bc046b982ebdd45",title_plus_comments,yes,yes,other,medium,The post appears to discuss software without a clear troubleshooting or chiefly critical purpose.,,,,,,,https://reddit.com/r/Android/comments/1pu0iv9/fairphone_4_beta_update_accidentally_released_to/
+B6-012,linux,"Codex CLI v0.116+ breaks on Ubuntu LTS / Debian with ""bwrap: Unknown option --argv0"" — explanation and fix","**EDIT: I'm creating this post as I couldn't find much documentation about this online. Hope it helps others. Also, while I did a lot of testing, trial and error and different searches, this final write-up went through a bit of Claude to make it more readable and straightforward. This is NOT AI slop.**
+
+---
+
+# Codex CLI v0.116+ breaks on Ubuntu LTS / Debian with ""bwrap: Unknown option --argv0"" — here's why and how to fix it
+
+If you hit this error after a recent Codex update and nothing you tried worked, this is the complete breakdown of why it happens and how to fix it without touching your OS.
+
+---
+
+## The error
+
+bwrap: Unknown option --argv0
+
+
+The Codex MCP server dies, VS Code shows the extension as broken, and even after restarting nothing recovers. Reinstalling the extension makes no difference.
+
+---
+
+## What actually happened (the root cause)
+
+Codex CLI v0.116.0 introduced a security hardening feature. The sandbox it uses — bubblewrap (bwrap) — was updated to use the `--argv0` flag. This flag lets the process rename itself inside the container, making it harder for malicious code to fingerprint the host environment.
+
+**The problem:** `--argv0` was introduced in [bubblewrap v0.9.0](https://github.com/containers/bubblewrap/releases/tag/v0.9.0). Most stable Linux distributions are pinned to older versions.
+
+| Distribution | Default bwrap version | Compatible with Codex 0.116+? |
+|---|---|---|
+| Ubuntu 22.04 LTS | 0.6.1 | No |
+| Ubuntu 24.04 LTS | 0.9.0 | Needs recent patch |
+| Ubuntu 25.10 | 0.10.x | Yes |
+| Debian 12 (Bookworm) | 0.8.0 | No |
+| RHEL / Rocky 9 | 0.4.1 | No |
+
+---
+
+## Why Codex developers didn't catch this
+
+This is a classic ""bleeding edge bias."" Codex developers almost certainly test on rolling-release distros (Arch, Fedora) or macOS where bwrap is v0.11.0+. The tests pass perfectly on their machines.
+
+Codex's internal logic is roughly: *""Check /usr/bin/bwrap first. If it exists, use it. If not, fall back to the bundled version.""*
+
+The oversight: it never checks the **version** of the system binary. It just assumes that if a system binary exists, it must be better than the bundled one. On LTS distros, that assumption is wrong, and the result is a hard crash.
+
+---
+
+## Why restarting doesn't help (the ""zombie state"")
+
+Once the sandbox crashes, it cascades:
+
+1. The Codex MCP server dies because it cannot launch the sandbox.
+2. The state database (stored in `~/.codex`) is left in a **locked or pending state**.
+3. On every subsequent launch, Codex tries to resume the corrupted indexing job — and crashes again immediately.
+
+This is why uninstalling and reinstalling the extension alone does nothing. The state database survives the reinstall.
+
+---
+
+## The fix
+
+### Option 1: The surgical fix — recommended for dev environments
+
+This hides the broken system binary, forcing Codex into its **hermetic fallback mode** — it extracts and uses its own internally bundled, statically-linked bwrap (v0.11.0), which is fully compatible.
+```bash
+# Step 1 — rename the system binary so Codex can't find it
+sudo mv /usr/bin/bwrap /usr/bin/bwrap.bak
+
+# Step 2 — delete the corrupted state database
+rm -rf ~/.codex
+
+# Step 3 — reload VS Code
+# Ctrl+Shift+P → ""Developer: Reload Window""
+```
+
+**One caveat:** If other tools on your system depend on `/usr/bin/bwrap` (most commonly Flatpak), renaming it will break those. Check first with:
+```bash
+which bwrap &amp;&amp; bwrap --version
+flatpak --version  # if you use flatpak
+```
+
+If you need bwrap system-wide for Flatpak, see Option 3 below.
+
+---
+
+### Option 2: OS upgrade — not recommended right now
+
+Moving to Ubuntu 24.04 or 25.10 would resolve the bwrap version issue, but Ubuntu 26.04 LTS is releasing in April 2026. Upgrading now means doing the work twice. If you're on 22.04 LTS, you have support until April 2027 — just wait for 26.04.
+
+---
+
+### Option 3: Build bwrap from source — for when you need both
+
+If you need bwrap system-wide (e.g. for Flatpak) **and** want Codex working, build a compatible version from source:
+```bash
+sudo apt install meson ninja-build libcap-dev
+
+git clone https://github.com/containers/bubblewrap.git
+cd bubblewrap
+meson setup builddir
+ninja -C builddir
+sudo ninja -C builddir install
+```
+
+**Warning:** Installing this way can conflict with apt during future OS updates. Not a lightweight option.
+
+---
+
+## Summary
+
+| Fix | Disruption | Use when |
+|---|---|---|
+| Rename system bwrap + wipe ~/.codex | Minimal | You don't use Flatpak or other bwrap-dependent tools |
+| Build bwrap from source | Moderate | You need bwrap system-wide |
+| Wait for Ubuntu 26.04 LTS | None now | Long-term clean solution |
+
+---
+
+*Tested on: Codex extension v26.323.x (Codex CLI v0.116.x) on Ubuntu 22.04.5 LTS — fix confirmed. Fill in your exact versions before posting.*
+
+---
+
+If this helped, or if your distro isn't in the table, drop a comment.",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/linux/comments/1s4bcur/codex_cli_v0116_breaks_on_ubuntu_lts_debian_with/
+B6-013,rustdesk,Rede do Rustdesk offline,"Rede do Rustdesk offline
+
+https://preview.redd.it/2ma13aynewsf1.png?width=798&amp;format=png&amp;auto=webp&amp;s=770a58d6baabc394e5a9bc1e6aaaab7de4eb253c","[1:reply] [https://www.reddit.com/r/rustdesk/comments/1cr8kfv/should\_you\_selfhost\_a\_rustdesk\_server/](https://www.reddit.com/r/rustdesk/comments/1cr8kfv/should_you_selfhost_a_rustdesk_server/)
+[2:reply] Qual a solução,você conseguiu resolver?
+[3:reply] Self-hosting is a great stepep! 😊",title_body_comments,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/rustdesk/comments/1nwz394/rede_do_rustdesk_offline/
+B6-014,transformers,DNA upgrade kit for Alpha Trion,,"[1:reply] DNA needs to start actually releasing items instead of announcing 10 billion capes and gap fillers
+[2:reply] As much as I agree this kit is probably one of their more necessary ones, seeing as the feet on this toy were awful, Alpha Trion actually wore a cape in the movie, and it’s only $22 on BBTS.
+[3:reply] Cant wait to pay another $30 or whatever to get ankle pivots on my $43 Voyager.
+[4:reply] Beat me to it lol. I forget who said this, but I once heard somebody say that stuff like upgrade kits and toyhax should only be used to turn a decent figure into an excellent one, not a bad figure into a passable one, and I definitely agree.
+[5:reply] Generally in agreement, but this is at least one of the less egregious cases. The cape is the only really ""extraneous"" inclusion since you have to pick and choose whether to put the spikes on Trion or his tail, which this resolves by giving an extra set.
+
+Still shouldn't be the…",title_plus_comments,no,no,na,medium,The saved text appears outside software scope or is too vague to classify reliably.,,,,,,,https://reddit.com/r/transformers/comments/1s4c40x/dna_upgrade_kit_for_alpha_trion/
+B6-015,Bitcoin,Could be chocolate bar yaknow,,"[1:reply] Chocolate has about as much intrinsic value as gold, just sayin. Tastes good.
+[2:reply] Neither stupid, nor unrealistic. Ever been to the r/gold sub? Daily posts about fake bars and bullions, even reputable sellers falling for it occasionally...
+[3:reply] yea whats ur problem OP ? Too good for chocolate ?
+[4:OP] well i own golds too and sold some too, anyway, BITCOIN!
+[5:reply] You’ve just confirmed the argument. Nobody knows and you need artificial environments like the one you suggested to confirm. An even larger issue is nobody knows the total supply. That’s a problem.",title_plus_comments,no,no,na,medium,The saved text appears outside software scope or is too vague to classify reliably.,,,,,,,https://reddit.com/r/Bitcoin/comments/1pq9uhp/could_be_chocolate_bar_yaknow/
+B6-016,transformers,What do you guys do with the older versions after you get an updated figure of the character?,,"[1:reply] Keep the older one in vehicle form. Despite lack of flexible articulation the original is still a fun figure and nostalgic to me. I wouldn’t want to get rid of it.
+[2:reply] I believe legally you have to launch them out of a cannon.
+[3:reply] Keep them. A newer figure rarely replaces an older one for me. Each one has its own design, its own charm, its own place on the shelf. The original Cybertron Starscream isn’t as articulated as the new one, but it’s still a fun toy with spring loaded gimmicks that the new one doe…
+[4:reply] I have the Excellion version of these molds and it's so hard to decide which I like more, the og look is so strong but the news ones articulation is great.
+[5:reply] Keep them, they’re different toys.",title_plus_comments,no,no,na,medium,The saved text appears outside software scope or is too vague to classify reliably.,,,,,,,https://reddit.com/r/transformers/comments/1s0pjwp/what_do_you_guys_do_with_the_older_versions_after/
+B6-017,applehelp,Factory reseting my grandma's ipad air 2,"My grandma got this ipad back in the pandemic but it got a bit annoying to deal with so we switched to an android tablet a bit ago but we still need to use the ipad for some things.
+
+Unfortunately, I think my grandma is starting to lose a bit her memory. She wrote down her passwords somewhere but she can't find them. 
+
+Here's my problem: 1) Touch ID has always been weird and idk if it's broken right now but she doesn't seem to be able to get in just with the touch ID 2) I don't know the passwords and she doesn't remember them 3) I've been able to connect the Ipad on my pc before to clean the storage but now it's not getting recognized by my pc so I can't reset it this way 
+
+I don't know what update it's on, the last time it was updated was probably max a year or 2 ago so I don't know if I keep typing the wrong password if it's gonna let me me factory reset or not? Idk","[1:reply] You’ll be able to erase the iPad no problem when it’s in [recovery mode](https://support.apple.com/en-us/108925), it’s the setting up afterward that may be an issue if the Apple Account used to set up Find My is unknown because you’ll have to contend with [Activation Lock](https…
+[2:OP] I may have a proof of purchase on amazon but I might need to do a lot of digging...",title_body_comments,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/applehelp/comments/1vobbdp/factory_reseting_my_grandmas_ipad_air_2/
+B6-018,neovim,Weird blocks after update on tabs,,,title_only,yes,yes,other,low,The post appears to discuss software without a clear troubleshooting or chiefly critical purpose.,,,,,,,https://reddit.com/r/neovim/comments/1mk1eh6/weird_blocks_after_update_on_tabs/
+B6-019,cms,MCP Servers for CMS - this changes everything,"I think even more than the idea of CMS having agents inside their interface, having a MCP server that is easy to work with makes a CMS SUPER useful.
+
+For instance, if I can model content easily from the MCP, now when I'm creating a website or app that needs a new model (or an update to a model) I can just get my coding agent to take care of it for me. ""Don't forget to add this field to the model and update my typescript interfaces.""
+
+Similarly, if a user wants to do something like a find-replace with langauge that doesn't fit within an organizations language guide (sometimes those guide files are REALLY huge), they can just upload the file, search their CMS content for stuff that doesn't match, and replace it.  
+
+MCP servers allow the USER to be in control and to do whatever it is that they need to do. I think it changes the CMS landscape completely.","[1:reply] Why would a CMS need a MCP server when you can simply connect with other AI API endpoints / MCP servers?
+
+Asking for /r/Empowerd
+[2:OP] Good point - when you create an MCP server it should be more than just a wrapper around the API.  Most API's are super generic, and sometimes need very specific inputs.  The additional work of creating an MCP Server and doing all the work to document the schemas for AI makes it…
+[3:reply] I have been pondering this question for a bit now.  Is the concept of a website even needed anymore?  You could upload all of your marketing materials, sales info, support document, etc into the MCP, then have a very simple “homepage” where the user asks it questions or what the…
+[4:reply] I don’t think we need chat interfaces for everything.
+[5:reply] Yep. Taking your data to where people are so they can have multi platform ai interactions, custom mcp is way more useful than a chat bot trapped inside crm.",title_body_comments,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/cms/comments/1noj307/mcp_servers_for_cms_this_changes_everything/
+B6-020,godot,New trailer and updated demo released,,"[1:reply] I keep coming across snippets of this game and it already looks sooo crisp, I can't wait to see it in its full form 🙌
+[2:OP] Steam page and demo: [https://store.steampowered.com/app/4163480/Dewdrop/](https://store.steampowered.com/app/4163480/Dewdrop/)
+
+I've been hard at work adding QOL features, optimizing and fixing bugs. The demo has been updated to include the new logo and other visual changes fro…
+[3:reply] I love this idea! As someone into music prroduction, I'd love to have this just to get my creative juices flowing. Please include a wav or midi export function! Will probably get it anyway, but still!
+
+EDIT: Also, can vines trigger other droplets to spawn?
+[4:reply] Inspired by Electroplankton?
+[5:OP] It's actually inspired by an old iOS game you can't play anymore called Falling Stars. There's barely any info about it out there, but I thought of it one day and realized I could make something similar, but with more control. Ever since then, people have been telling me about t…",title_plus_comments,unclear,no,na,low,The saved text appears outside software scope or is too vague to classify reliably.,,,,,,,https://reddit.com/r/godot/comments/1qwnbqh/new_trailer_and_updated_demo_released/
+B6-021,MicrosoftEdge,"Microsoft Edge keeps on opening tons of tabs or windows or whatever whenever my computer is turned off. Google said to turn off startup boost, but that didn't seem to do anything. Does anyone know how I can stop this from happening?",,"[1:reply] You need to disable the ""Startup Boost"" and ""Continue running background apps"" functions.  
+  
+Edge: Settings &gt; System and performance &gt; Toggle OFF ""Startup boost"" and ""Continue running background apps""
+
+https://preview.redd.it/5kgwlzffnxag1.png?width=1024&amp;format=png&a…
+[2:reply] Can you check your Edge ‘On startup’ setting? If it’s set to reopen the last session, that’s likely why all those tabs keep coming back. Change it to ‘Open the new tab page’ so Edge starts fresh each time without reloading everything.
+
+https://preview.redd.it/j5r3n1riyvag1.png?w…
+[3:reply] When your computer is turned off? So in the middle of shutting down, lots of windows open? (Not when you turn on your computer they open?)
+
+Is Edge set as the default browser? If so, then sounds like some other app(s) is launching web pages and they launch in Edge because it’s t…
+[4:OP] All of these settings have been changed and it still does it.
+[5:OP] Well the thing is, I don't even use Microsoft Edge, I use Google Chrome. It's not even my default browser. It also is already set to Open the new tab page.",title_plus_comments,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/MicrosoftEdge/comments/1q1n7ln/microsoft_edge_keeps_on_opening_tons_of_tabs_or/
+B6-022,neovim,jellybeans.nvim update: two new theme variants!,,"[1:reply] What font is used in the screenshot?
+[2:OP] Berkeley Mono*
+[3:OP] Jellybeans.nvim Update: A few bug fixes were added in addition to two new theme variants! `jellybeans-hc` (high contrast, pictured) and `jellybeans-warm`. 
+
+Direct links: [High Contrast](https://github.com/WTFox/jellybeans.nvim/blob/main/images/jellybeans-hc.png?raw=true) and [W…
+[4:reply] Guess i've found my new colorscheme (:
+My fucked eyeballs thanks you for this high contrast colors
+[5:OP] Ha!  Tell your fucked eyeballs I’m happy to help!",title_plus_comments,yes,yes,other,low,The post appears to discuss software without a clear troubleshooting or chiefly critical purpose.,,,,,,,https://reddit.com/r/neovim/comments/1rz1h1v/jellybeansnvim_update_two_new_theme_variants/
+B6-023,sysadmin,Least priviliege DCOM access for windows_exporter (Grafana Alloy),"I'm using the bundled windows\_exporter inside Grafana's Alloy service for monitoring purposes of my Windows VMs.
+
+I do not wish to run this as local admin, and am running this service as a gMSA.
+
+This works perfectly with membership of the following groups:
+
+Event Log Readers  
+Performance Log Readers
+
+However the 'update' collector for windows\_exporter makes a call to GetTotalHistoryCount against wuauserv that fails for the gMSA but succeeds for all regular users (including users not in the local administrators group).
+
+this powershell script tested as a non-admin user runs perfectly, however for the gMSA I recieve the error:
+
+FAILED at last step above: Access is denied. (Exception from HRESULT: 0x80070005 (E\_ACCESSDENIED))
+
+Exception type: System.UnauthorizedAccessException
+
+HResult: 0x80070005
+
+The script I'm using:
+
+\`\`\`  
+try {
+
+Log ""Creating Microsoft.Update.Session COM object...""
+
+$session = New-Object -ComObject Microsoft.Update.Session
+
+Log ""OK: Created session""
+
+Log ""Setting UserLocale...""
+
+$session.UserLocale = 1033
+
+Log ""OK: Set UserLocale""
+
+Log ""Setting ClientApplicationID...""
+
+$session.ClientApplicationID = ""windows\_exporter""
+
+Log ""OK: Set ClientApplicationID""
+
+Log ""Creating update searcher...""
+
+$searcher = $session.CreateUpdateSearcher()
+
+Log ""OK: Created searcher""
+
+Log ""Setting Online = false...""
+
+$searcher.Online = $false
+
+Log ""OK: Set Online""
+
+Log ""Calling GetTotalHistoryCount...""
+
+$count = $searcher.GetTotalHistoryCount()
+
+Log ""OK: GetTotalHistoryCount returned $count""
+
+Log ""All checks passed - gMSA has sufficient permissions""
+
+} catch {
+
+Log ""FAILED at last step above: $($\_.Exception.Message)""
+
+Log ""Exception type: $($\_.Exception.GetType().FullName)""
+
+Log ""HResult: 0x$($\_.Exception.HResult.ToString('X8'))""
+
+}  
+\`\`\`
+
+As soon as I add the gMSA to Local Admins this succeeds however that's far too much prilvilege for read only access to a couple of metrics.
+
+Does anyone have insight into what could be going wrong?
+
+I ran procmon to catch ACCESS DENIED errors but it seems the restriction is somehow happening in the RPC handler of wuauserv and there was nothing caught.","[1:OP] I attempted to modify the security settings via dcomcnfg however no modifications are possible. I think TrustedInstaller owns this somehow?
+
+Certainly the question as to why the gMSA is not being considered as a 'User' is confusing.
+
+https://preview.redd.it/bgmtn9tsng3h1.png?wid…
+[2:reply] If you want to change DCOM security you'll have to take ownership of the corresponding register key and add your user/admin account to it before you can change it in DCOM management.",title_body_comments,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/sysadmin/comments/1to31lw/least_priviliege_dcom_access_for_windows_exporter/
+B6-024,transformers,Thought I’d show off this bad boy,,"[1:reply] Tyrannocon Rex is a big beautiful lady! 
+
+Nice buy! Enjoy!
+[2:reply] New mold. Out of the 4 Jurassic Park Collab figures, Tyrannocon Rex is the only repaint/retool (New head). JP93, JP12, and Dilophocon are all new molds.
+[3:OP] It’s a new mold I’m pretty sure
+[4:reply] That's Kingdom Megs in new undies, right? And what's the SUV a retool of?
+[5:reply] I recently sold my Rex, just didn’t really wow me in either mode but kept JP93",title_plus_comments,no,no,na,medium,The saved text appears outside software scope or is too vague to classify reliably.,,,,,,,https://reddit.com/r/transformers/comments/1qkbfoa/thought_id_show_off_this_bad_boy/
+B6-025,openssl,TLS is failing error:0A0000C6:SSL routines::packet length too long,"Hallo Team,
+
+please help.
+
+I created simple self-signed certificate and I'm getting this error.
+
+`openssl s_client -connect developments.apps-crc.testing:443 -cipher AES256-SHA -tls1_2 -debug -msg`
+
+`Connecting to` [`192.168.50.126`](http://192.168.50.126)
+
+`CONNECTED(00000003)`
+
+`&gt;&gt;&gt; TLS 1.0, RecordHeader [length 0005]`
+
+`16 03 01 00 89`
+
+`&gt;&gt;&gt; TLS 1.2, Handshake [length 0089], ClientHello`
+
+`01 00 00 85 03 03 b9 fe fc 53 24 1d 68 21 34 45`
+
+`7b 24 81 6b de e9 b0 aa 4e 12 66 d1 2e 09 9a f0`
+
+`f6 28 f7 1b b3 9b 00 00 04 00 35 00 ff 01 00 00`
+
+`58 00 00 00 22 00 20 00 00 1d 64 65 76 65 6c 6f`
+
+`70 6d 65 6e 74 73 2e 61 70 70 73 2d 63 72 63 2e`
+
+`74 65 73 74 69 6e 67 00 23 00 00 00 16 00 00 00`
+
+`17 00 00 00 0d 00 22 00 20 04 03 05 03 06 03 08`
+
+`07 08 08 08 09 08 0a 08 0b 08 04 08 05 08 06 04`
+
+`01 05 01 06 01 03 03 03 01`
+
+`write to 0x562f28e35da0 [0x562f28e4bd10] (142 bytes =&gt; 142 (0x8E))`
+
+`0000 - 16 03 01 00 89 01 00 00-85 03 03 b9 fe fc 53 24   ..............S$`
+
+`0010 - 1d 68 21 34 45 7b 24 81-6b de e9 b0 aa 4e 12 66   .h!4E{$.k....N.f`
+
+`0020 - d1 2e 09 9a f0 f6 28 f7-1b b3 9b 00 00 04 00 35   ......(........5`
+
+`0030 - 00 ff 01 00 00 58 00 00-00 22 00 20 00 00 1d 64   .....X..."". ...d`
+
+`0040 - 65 76 65 6c 6f 70 6d 65-6e 74 73 2e 61 70 70 73   evelopments.apps`
+
+`0050 - 2d 63 72 63 2e 74 65 73-74 69 6e 67 00 23 00 00   -crc.testing.#..`
+
+`0060 - 00 16 00 00 00 17 00 00-00 0d 00 22 00 20 04 03   ..........."". ..`
+
+`0070 - 05 03 06 03 08 07 08 08-08 09 08 0a 08 0b 08 04   ................`
+
+`0080 - 08 05 08 06 04 01 05 01-06 01 03 03 03 01         ..............`
+
+`read from 0x562f28e35da0 [0x562f28e50de3] (5 bytes =&gt; 5 (0x5))`
+
+`0000 - 48 54 54 50 2f                                    HTTP/`
+
+`&lt;&lt;&lt; Not TLS data or unknown version (version=21588, content_type=256) [length 0005]`
+
+`48 54 54 50 2f`
+
+`&gt;&gt;&gt; TLS 1.0, RecordHeader [length 0005]`
+
+`15 03 01 00 02`
+
+`write to 0x562f28e35da0 [0x562f28e4bd10] (7 bytes =&gt; 7 (0x7))`
+
+`0000 - 15 03 01 00 02 02 16                              .......`
+
+`&gt;&gt;&gt; TLS 1.2, Alert [length 0002], fatal record_overflow`
+
+`02 16`
+
+`C042C2DE737F0000:error:0A0000C6:SSL routines:tls_get_more_records:packet length too long:ssl/record/methods/tls_common.c:662:`
+
+`C042C2DE737F0000:error:0A000139:SSL routines::record layer failure:ssl/record/rec_layer_s3.c:689:`
+
+`---`
+
+`no peer certificate available`
+
+`---`
+
+`No client certificate CA names sent`
+
+`---`
+
+`SSL handshake has read 5 bytes and written 149 bytes`
+
+`Verification: OK`
+
+`---`
+
+`New, (NONE), Cipher is (NONE)`
+
+`Secure Renegotiation IS NOT supported`
+
+`Compression: NONE`
+
+`Expansion: NONE`
+
+`No ALPN negotiated`
+
+`SSL-Session:`
+
+`Protocol  : TLSv1.2`
+
+`Cipher    : 0000`
+
+`Session-ID:` 
+
+`Session-ID-ctx:` 
+
+`Master-Key:` 
+
+`PSK identity: None`
+
+`PSK identity hint: None`
+
+`SRP username: None`
+
+`Start Time: 1752673920`
+
+`Timeout   : 7200 (sec)`
+
+`Verify return code: 0 (ok)`
+
+`Extended master secret: no`
+
+`---`
+
+`read from 0x562f28e35da0 [0x562f28d280e0] (8192 bytes =&gt; 435 (0x1B3))`
+
+`0000 - 31 2e 31 20 34 30 30 20-42 61 64 20 52 65 71 75   1.1 400 Bad Requ`
+
+`0010 - 65 73 74 0d 0a 44 61 74-65 3a 20 57 65 64 2c 20   est..Date: Wed,` 
+
+`0020 - 31 36 20 4a 75 6c 20 32-30 32 35 20 31 33 3a 35   16 Jul 2025 13:5`
+
+`0030 - 32 3a 30 30 20 47 4d 54-0d 0a 53 65 72 76 65 72   2:00 GMT..Server`
+
+`0040 - 3a 20 41 70 61 63 68 65-2f 32 2e 34 2e 36 32 20   : Apache/2.4.62` 
+
+`0050 - 28 52 65 64 20 48 61 74-20 45 6e 74 65 72 70 72   (Red Hat Enterpr`
+
+`0060 - 69 73 65 20 4c 69 6e 75-78 29 20 4f 70 65 6e 53   ise Linux) OpenS`
+
+`0070 - 53 4c 2f 33 2e 32 2e 32-0d 0a 43 6f 6e 74 65 6e   SL/3.2.2..Conten`
+
+`0080 - 74 2d 4c 65 6e 67 74 68-3a 20 32 32 36 0d 0a 43   t-Length: 226..C`
+
+`0090 - 6f 6e 6e 65 63 74 69 6f-6e 3a 20 63 6c 6f 73 65   onnection: close`
+
+`00a0 - 0d 0a 43 6f 6e 74 65 6e-74 2d 54 79 70 65 3a 20   ..Content-Type:` 
+
+`00b0 - 74 65 78 74 2f 68 74 6d-6c 3b 20 63 68 61 72 73   text/html; chars`
+
+`00c0 - 65 74 3d 69 73 6f 2d 38-38 35 39 2d 31 0d 0a 0d   et=iso-8859-1...`
+
+`00d0 - 0a 3c 21 44 4f 43 54 59-50 45 20 48 54 4d 4c 20   .&lt;!DOCTYPE HTML` 
+
+`00e0 - 50 55 42 4c 49 43 20 22-2d 2f 2f 49 45 54 46 2f   PUBLIC ""-//IETF/`
+
+`00f0 - 2f 44 54 44 20 48 54 4d-4c 20 32 2e 30 2f 2f 45   /DTD HTML 2.0//E`
+
+`0100 - 4e 22 3e 0a 3c 68 74 6d-6c 3e 3c 68 65 61 64 3e   N""&gt;.&lt;html&gt;&lt;head&gt;`
+
+`0110 - 0a 3c 74 69 74 6c 65 3e-34 30 30 20 42 61 64 20   .&lt;title&gt;400 Bad` 
+
+`0120 - 52 65 71 75 65 73 74 3c-2f 74 69 74 6c 65 3e 0a   Request&lt;/title&gt;.`
+
+`0130 - 3c 2f 68 65 61 64 3e 3c-62 6f 64 79 3e 0a 3c 68   &lt;/head&gt;&lt;body&gt;.&lt;h`
+
+`0140 - 31 3e 42 61 64 20 52 65-71 75 65 73 74 3c 2f 68   1&gt;Bad Request&lt;/h`
+
+`0150 - 31 3e 0a 3c 70 3e 59 6f-75 72 20 62 72 6f 77 73   1&gt;.&lt;p&gt;Your brows`
+
+`0160 - 65 72 20 73 65 6e 74 20-61 20 72 65 71 75 65 73   er sent a reques`
+
+`0170 - 74 20 74 68 61 74 20 74-68 69 73 20 73 65 72 76   t that this serv`
+
+`0180 - 65 72 20 63 6f 75 6c 64-20 6e 6f 74 20 75 6e 64   er could not und`
+
+`0190 - 65 72 73 74 61 6e 64 2e-3c 62 72 20 2f 3e 0a 3c   erstand.&lt;br /&gt;.&lt;`
+
+`01a0 - 2f 70 3e 0a 3c 2f 62 6f-64 79 3e 3c 2f 68 74 6d   /p&gt;.&lt;/body&gt;&lt;/htm`
+
+`01b0 - 6c 3e 0a                                          l&gt;.`
+
+`read from 0x562f28e35da0 [0x562f28d280e0] (8192 bytes =&gt; 0)`
+
+  
+The same step works on normal httpd server but the above does not work on container.","[1:reply] What version of openssl (client and server (3.2.2))are you running?
+
+also if you look at;
+
+&gt; Not TLS data or unknown version
+
+looks like your server doesn't support tls1.2
+
+But that's not the issue, the issue is that your server (apache) want's something else then you are req…
+[2:OP] I know it is bit difficult to troubleshooting. Below is simple message I get.
+
+    bash-5.1$ curl -v https://developments.apps-crc.testing
+    *   Trying 192.168.130.11:443...
+    * Connected to developments.apps-crc.testing (192.168.130.11) port 443 (#0)
+    * ALPN, offering h2…
+[3:reply] Your port 443 is not providing HTTPS but HTTP. You should check your server configuration, this is likely you did not enable SSL on port 443. See here:  
+[https://stackoverflow.com/questions/77804811/server-post-request-works-with-http-but-not-with-https-error-routinespacket-l](…
+[4:OP] well i search the command from your in the forum and provided the output. It is your command you shared earlier.
+
+Either way, I'm sorry i found the problem. But I'm feel sad that i could not understand this. It is must for me to understand why this cause.
+
+here is explanation
+
+i…
+[5:OP] Thanks for your help, time and effort. The comment here also [https://www.reddit.com/r/openssl/comments/1m1d94j/comment/n3mzx25/](https://www.reddit.com/r/openssl/comments/1m1d94j/comment/n3mzx25/) applies to your response. I'm sorry",title_body_comments,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/openssl/comments/1m1d94j/tls_is_failing_error0a0000c6ssl_routinespacket/
+B6-026,comfyui,Any idea what's causing this?,"It's driving me crazy, it happened after the last update. I just want the bar back up where it was before the update. Thanks to everyone who might help me.",,title_and_body,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/comfyui/comments/1pkxd29/any_idea_whats_causing_this/
+B6-027,comfyui,Something terribly wrong happened with sageattention after fresh comfyUI install under Linux,"Hey yall, after a massive computer upgrade I started the journey anew, git cloning stuff, installing torch etc.  
+Well, something terribly wrong happened. Just look:
+
+[The terminal window of my ComfyUI instance. Spits out errors continuously.](https://preview.redd.it/b8wvhj95r22g1.png?width=1920&amp;format=png&amp;auto=webp&amp;s=82f71342de20b2a2b3befb818418162c37f0a56c)
+
+Still the image is generated without issues, only slightly slower. This is rather annoying.
+
+I'll post some more infos here:
+
+`[START] Security scan`
+
+`[ComfyUI-Manager] Using uv as Python module for pip operations.`
+
+`Using Python 3.12.3 environment at: .env_lin`
+
+`[DONE] Security scan`
+
+`## ComfyUI-Manager: installing dependencies done.`
+
+`** ComfyUI startup time: 2025-11-18 21:12:48.001`
+
+`** Platform: Linux`
+
+`** Python version: 3.12.3 (main, Aug 14 2025, 17:47:21) [GCC 13.3.0]`
+
+`** Python executable: /media/user/ae718702-e3f5-49d2-9592-44b92d4827c0/ComfyUI/.env_lin/bin/python`
+
+`** ComfyUI Path: /media/user/ae718702-e3f5-49d2-9592-44b92d4827c0/ComfyUI`
+
+`** ComfyUI Base Folder Path: /media/user/ae718702-e3f5-49d2-9592-44b92d4827c0/ComfyUI`
+
+`** User directory: /media/user/ae718702-e3f5-49d2-9592-44b92d4827c0/ComfyUI/user`
+
+`** ComfyUI-Manager config path: /media/user/ae718702-e3f5-49d2-9592-44b92d4827c0/ComfyUI/user/default/ComfyUI-Manager/config.ini`
+
+`** Log path: /media/user/ae718702-e3f5-49d2-9592-44b92d4827c0/ComfyUI/user/comfyui.log`
+
+`Using Python 3.12.3 environment at: .env_lin`
+
+`Using Python 3.12.3 environment at: .env_lin`
+
+`Prestartup times for custom nodes:`
+
+`0.0 seconds: /media/user/ae718702-e3f5-49d2-9592-44b92d4827c0/ComfyUI/custom_nodes/rgthree-comfy`
+
+`0.5 seconds: /media/user/ae718702-e3f5-49d2-9592-44b92d4827c0/ComfyUI/custom_nodes/ComfyUI-Manager`
+
+`Checkpoint files will always be loaded safely.`
+
+`Total VRAM 24115 MB, total RAM 128453 MB`
+
+`pytorch version: 2.7.0+cu128`
+
+`xformers version: 0.0.30`
+
+`Enabled fp16 accumulation.`
+
+`Set vram state to: NORMAL_VRAM`
+
+`Device: cuda:0 NVIDIA GeForce RTX 3090 : cudaMallocAsync`
+
+`Enabled pinned memory 122030.0`
+
+`Using sage attention`
+
+`Python version: 3.12.3 (main, Aug 14 2025, 17:47:21) [GCC 13.3.0]`
+
+`ComfyUI version: 0.3.68`
+
+`ComfyUI frontend version: 1.28.8`
+
+`[Prompt Server] web root: /media/user/ae718702-e3f5-49d2-9592-44b92d4827c0/ComfyUI/.env_lin/lib/python3.12/site-packages/comfyui_frontend_package/static`
+
+`### Loading: ComfyUI-Manager (V3.37.1)`
+
+`[ComfyUI-Manager] network_mode: public`
+
+I want to specify that my older ComfyUI install worked perfectly fine, think they broke something with the last update. It is not an error by Sageattention side.
+
+Any suggestion? Thank you all!",,title_and_body,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/comfyui/comments/1p0mwqq/something_terribly_wrong_happened_with/
+B6-028,comfyui,"And the buttons are gone again in v1.34.6 (latest), that didn't last long",,"[1:OP] We celebrated too soon. This terrible UI revamp is going downhill faster.
+[2:reply] They really should consider maybe just a tiny little bit of testing features before shitting them out into the “stable” branch, the recent batch of updates have been just embarrassing
+[3:reply] they are only shown when you are actively generating, you can find them by hovering top-right. honestly i like it this way, less cluttered
+[4:reply] I'm all for cleanliness, but they're like 20 pixels wide and, when they're grayed out, at least I know where they will be when I need them. 
+
+The thing I hate the most is when frames change size dynamically. Like when I go to click a link and then it suddenly shifts and I click…
+[5:reply] Why not just turning off the Node 2.0 option ? 
+
+Try again in a while",title_plus_comments,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/comfyui/comments/1pgajed/and_the_buttons_are_gone_again_in_v1346_latest/
+B6-029,linuxquestions,I get this problem when I try run sudo pacman -Syu,"\`\`\`
+
+error: failed retrieving file 'qemu-system-riscv-11.0.0-1-x86\_64.pkg.tar.zst' from fastly.mirror.pkgbuild.com : Operation too slow. Less
+
+than 1 bytes/sec transferred the last 10 seconds
+
+error: failed retrieving file 'qemu-system-or1k-11.0.0-1-x86\_64.pkg.tar.zst' from fastly.mirror.pkgbuild.com : Operation too slow. Less
+
+than 1 bytes/sec transferred the last 10 seconds
+
+error: failed retrieving file 'qemu-system-hppa-11.0.0-1-x86\_64.pkg.tar.zst.sig' from fastly.mirror.pkgbuild.com : Operation too slow.
+
+Less than 1 bytes/sec transferred the last 10 seconds
+
+warning: too many errors from fastly.mirror.pkgbuild.com, skipping for the remainder of this transaction
+
+warning: failed to retrieve some files
+
+error: failed to commit transaction (failed to retrieve some files)
+
+Errors occurred, no packages were upgraded.
+
+\`\`\`",,title_and_body,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/linuxquestions/comments/1t1kv9e/i_get_this_problem_when_i_try_run_sudo_pacman_syu/
+B6-030,applehelp,Missing iCloud Messages,"I recently noticed that two folders within my Mail account show no messages on my iPhone and iPad. However, there are messages within these folders and they appear on my Macbook Pro and Mail if open iCloud in Safari.  
+
+All of my devices are updated. I turned off and off iCloud mail sync on my iPhone and Macbook Pro.  This did not make a difference.  I moved messages from one folder to the archive and can now see those messages.  However, for the second folder, I created a new folder, moved the messages from the second folder to the new folder.  I can see them on my Macbook Pro and iCloud in Safari, but they continue to not show on my iPhone or iPad.  When I open the folder on my iPhone it will briefly show downloading, then say updated just now, with no messages.  Enough time has passed that the messages should have been downloaded. 
+
+Any ideas of what the issue could be or how to fix it?",,title_and_body,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/applehelp/comments/1v2v6j5/missing_icloud_messages/
+B6-031,linuxquestions,Password/Keyboard layout issues after cosmic update (24.04 LTS Pop!_OS),"Hi, I got a notification to update to the new cosmic update a couple of days ago, so I did the update and thought that was it. Then I was about to log in, but for some reason the keyboard layout is now forced to English on the log in screen (GUI) instead of my native (Swedish) language that it is normally set to and since I use some native letters in my password it makes me unable to log in atm.
+
+It seems like special keys like Alt and combinations of keys are disabled, because I have been unsuccessful to use those to write å ä and ö for example. I have a Nordic keyboard on my laptop (Asus Zephyrus G15)
+
+There is an icon that you are supposed to be able to click at the log in screen and choose other language layouts from, but when I try it it does nothing. It’s like it’s trying to show a list, but either there is no selection to choose from or it fails to graphically show the list.
+
+Anyways, this makes me unable to log in atm. I can access the terminal (ctrl+Alt+F2), because for some reason it’s using my native language like it normally does and I can write my password there (for sudo). Password for encryption also kept my native language, only the log in screen, the GUI, refuses for some reason unclear.
+
+So is there a command I can run from the terminal to force my native language keyboard layout on the GUI and the log in screen, or is there something else I can do to get back inside my system? I have Tytried to search and google for an answer but have come up short so far. Would be nice to be able to get back into my system if anyone have any good  ideas or advice.","[1:reply] cHECK what display manager you got (use that wehn you restat yourthing at step 1.3)  
+`cat /etc/X11/default-display-manager`  
+\- it thnk pop uses gdm
+
+1. 1Force Swedish keyboard layout system-wide
+
+&gt;sudo localectl set-keymap se  
+sudo localectl set-x11-keymap se
+
+1.2 verify…
+[2:OP] Okay thanks, I will give it a try later today and see how it goes",title_body_comments,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/linuxquestions/comments/1tiqeti/passwordkeyboard_layout_issues_after_cosmic/
+B6-032,Bitcoin,"“If you don't believe me or don't get it, I don't have time to try to convince you, sorry.” ― Satoshi Nakamoto",,"[1:reply] 2020 was 5 years ago, it’s worse now!
+[2:reply] Now do 2025 at $4400.
+[3:reply] shit man .. 2020 still feels like it was last year
+[4:reply] On the Bitcointalk forum ... in a COMPLETELY different context. He was responding to a comment about scalability and the 10 minute average confirmation time, NOT about monetary inflation.
+
+[Quote from: satoshi on July 29, 2010, 02:00:38 AM](https://bitcointalk.org/index.php?topi…
+[5:reply] ""If you can't come up with an original thought, better to say nothing than to take a well-known quote from a [completely different context](https://bitcointalk.org/index.php?topic=532.msg6306#msg6306) and falsely imply that it supports your theme."" ― u/Na3than",title_plus_comments,no,no,na,medium,The saved text appears outside software scope or is too vague to classify reliably.,,,,,,,https://reddit.com/r/Bitcoin/comments/1pprjyf/if_you_dont_believe_me_or_dont_get_it_i_dont_have/
+B6-033,Bitcoin,True,,"[1:reply] Take away: This goes up. And at any point don’t be surprised when it hits the previous year’s low - just stack more in that scenario.
+[2:OP] most of the time
+[3:reply] interesting🤔
+[4:reply] Yes- there are higher lows year after year which is a great way to look at this trajectory.
+[5:reply] This makes the current state look extremely overextended, could easily see a low in the next year around 35k.",title_plus_comments,no,no,na,medium,The saved text appears outside software scope or is too vague to classify reliably.,,,,,,,https://reddit.com/r/Bitcoin/comments/1orufxn/true/
+B6-034,openclaw,Need help with secure whatsapp integration for a whatsapp group.,"Hi, I have been going back and forth with openclaw tried both manually and asked ai to refer docs and update them still not working 
+
+  
+I want to add the openclaw to a group it's a personal whatsapp group I want people to be able to interact with it under limited scope like other than me everybody in the group should not be able to request any operation which is more than read operation so no write edit or any such tool only read and web fetch tool only and mcp i want the group users to be able to interact with it via @mention i do not want the bot to continously read the messages only reply to @mention  and such but i am not able to enforce this policy it continues to accept any destructive or non-destructive like write and bash tool call from other members on whatsapp only i should be allowed full complete privelage only but it's not working actually no body has any previleage keeps giving even me the ""exec tools is not available"" reason. Yes already gone through the docs and they are not clear at all quite a confusing even asked chatgpt to refer that doc and give me the asnwer it could not 
+
+
+
+    {
+      ""agents"": {
+        ""defaults"": {
+          ""workspace"": ""/home/&lt;REDACTED_USER&gt;/.openclaw-group/workspace"",
+          ""models"": {
+            ""minimax/MiniMax-M2.7"": {
+              ""alias"": ""Minimax""
+            }
+          },
+          ""model"": {
+            ""primary"": ""minimax/MiniMax-M2.7""
+          }
+        }
+      },
+      ""gateway"": {
+        ""mode"": ""local"",
+        ""auth"": {
+          ""mode"": ""token"",
+          ""token"": ""REDACTED_GATEWAY_TOKEN""
+        },
+        ""port"": 19789,
+        ""bind"": ""loopback"",
+        ""tailscale"": {
+          ""mode"": ""off"",
+          ""resetOnExit"": false
+        },
+        ""controlUi"": {
+          ""allowInsecureAuth"": true
+        },
+        ""nodes"": {
+          ""denyCommands"": [
+            ""camera.snap"",
+            ""camera.clip"",
+            ""screen.record"",
+            ""contacts.add"",
+            ""calendar.add"",
+            ""reminders.add"",
+            ""sms.send"",
+            ""sms.search""
+          ]
+        }
+      },
+      ""session"": {
+        ""dmScope"": ""per-channel-peer""
+      },
+      ""tools"": {
+        ""profile"": ""minimal"",
+        ""exec"": {
+          ""timeoutSec"": 1800,
+          ""notifyOnExit"": true
+        },
+        ""web"": {
+          ""fetch"": {
+            ""enabled"": false
+          },
+          ""search"": {
+            ""enabled"": false
+          }
+        },
+        ""elevated"": {
+          ""enabled"": true,
+          ""allowFrom"": {
+            ""telegram"": [
+              ""&lt;REDACTED_TELEGRAM_USER_ID&gt;"",
+              ""@&lt;REDACTED_USERNAME&gt;""
+            ]
+          }
+        }
+      },
+      ""channels"": {
+        ""whatsapp"": {
+          ""groupPolicy"": ""open"",
+          ""dmPolicy"": ""allowlist"",
+          ""allowFrom"": [
+            ""e164:+10000000000""
+          ],
+          ""debounceMs"": 0,
+          ""mediaMaxMb"": 50,
+          ""groups"": {
+            ""&lt;REDACTED_GROUP_ID&gt;@g.us"": {
+              ""requireMention"": true,
+              ""toolsBySender"": {
+                ""*"": {},
+                ""e164:+10000000000"": {
+                  ""allow"": [
+                    ""session_status"",
+                    ""group:fs"",
+                    ""group:runtime"",
+                    ""group:web"",
+                    ""group:sessions"",
+                    ""group:memory"",
+                    ""group:automation"",
+                    ""group:media"",
+                    ""group:openclaw"",
+                    ""bash"",
+                    ""exec"",
+                    ""process"",
+                    ""code_execution"",
+                    ""write"",
+                    ""edit"",
+                    ""apply_patch"",
+                    ""sessions_send"",
+                    ""sessions_spawn"",
+                    ""sessions_yield"",
+                    ""subagents"",
+                    ""gateway"",
+                    ""cron"",
+                    ""image_generate"",
+                    ""video_generate"",
+                    ""music_generate""
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      ""hooks"": {
+        ""internal"": {
+          ""enabled"": true,
+          ""entries"": {
+            ""session-memory"": {
+              ""enabled"": true
+            },
+            ""compaction-notifier"": {
+              ""enabled"": true
+            },
+            ""command-logger"": {
+              ""enabled"": true
+            },
+            ""bootstrap-extra-files"": {
+              ""enabled"": false
+            },
+            ""boot-md"": {
+              ""enabled"": true
+            }
+          }
+        }
+      },
+      ""plugins"": {
+        ""entries"": {
+          ""minimax"": {
+            ""enabled"": true
+          },
+          ""whatsapp"": {
+            ""enabled"": true
+          },
+          ""ollama"": {
+            ""enabled"": true
+          }
+        }
+      },
+      ""models"": {
+        ""mode"": ""merge"",
+        ""providers"": {
+          ""minimax"": {
+            ""baseUrl"": ""https://api.minimax.io/anthropic"",
+            ""api"": ""anthropic-messages"",
+            ""authHeader"": true,
+            ""models"": [
+              {
+                ""id"": ""MiniMax-M2.7"",
+                ""name"": ""MiniMax M2.7"",
+                ""reasoning"": true,
+                ""input"": [
+                  ""text""
+                ],
+                ""cost"": {
+                  ""input"": 0.3,
+                  ""output"": 1.2,
+                  ""cacheRead"": 0.06,
+                  ""cacheWrite"": 0.375
+                },
+                ""contextWindow"": 204800,
+                ""maxTokens"": 131072
+              }
+            ]
+          }
+        }
+      },
+      ""auth"": {
+        ""profiles"": {
+          ""minimax:global"": {
+            ""provider"": ""minimax"",
+            ""mode"": ""api_key""
+          }
+        }
+      },
+      ""commands"": {
+        ""ownerAllowFrom"": [
+          ""whatsapp:+10000000000""
+        ]
+      },
+      ""wizard"": {
+        ""lastRunAt"": ""2026-05-17T20:01:16.143Z"",
+        ""lastRunVersion"": ""2026.5.12"",
+        ""lastRunCommand"": ""doctor"",
+        ""lastRunMode"": ""local""
+      },
+      ""meta"": {
+        ""lastTouchedVersion"": ""2026.5.12"",
+        ""lastTouchedAt"": ""2026-05-17T20:01:16.615Z""
+      },
+      ""messages"": {
+        ""groupChat"": {
+          ""visibleReplies"": ""message_tool""
+        }
+      },
+      ""skills"": {
+        ""entries"": {
+          ""1password"": {
+            ""enabled"": false
+          },
+          ""apple-notes"": {
+            ""enabled"": false
+          },
+          ""apple-reminders"": {
+            ""enabled"": false
+          },
+          ""bear-notes"": {
+            ""enabled"": false
+          },
+          ""blogwatcher"": {
+            ""enabled"": false
+          },
+          ""blucli"": {
+            ""enabled"": false
+          },
+          ""camsnap"": {
+            ""enabled"": false
+          },
+          ""clawhub"": {
+            ""enabled"": false
+          },
+          ""coding-agent"": {
+            ""enabled"": false
+          },
+          ""discord"": {
+            ""enabled"": false
+          },
+          ""eightctl"": {
+            ""enabled"": false
+          },
+          ""gemini"": {
+            ""enabled"": false
+          },
+          ""gifgrep"": {
+            ""enabled"": false
+          },
+          ""gog"": {
+            ""enabled"": false
+          },
+          ""goplaces"": {
+            ""enabled"": false
+          },
+          ""himalaya"": {
+            ""enabled"": false
+          },
+          ""imsg"": {
+            ""enabled"": false
+          },
+          ""model-usage"": {
+            ""enabled"": false
+          },
+          ""nano-pdf"": {
+            ""enabled"": false
+          },
+          ""notion"": {
+            ""enabled"": false
+          },
+          ""obsidian"": {
+            ""enabled"": false
+          },
+          ""openai-whisper"": {
+            ""enabled"": false
+          },
+          ""openai-whisper-api"": {
+            ""enabled"": false
+          },
+          ""openhue"": {
+            ""enabled"": false
+          },
+          ""oracle"": {
+            ""enabled"": false
+          },
+          ""ordercli"": {
+            ""enabled"": false
+          },
+          ""peekaboo"": {
+            ""enabled"": false
+          },
+          ""sag"": {
+            ""enabled"": false
+          },
+          ""session-logs"": {
+            ""enabled"": false
+          },
+          ""sherpa-onnx-tts"": {
+            ""enabled"": false
+          },
+          ""slack"": {
+            ""enabled"": false
+          },
+          ""songsee"": {
+            ""enabled"": false
+          },
+          ""sonoscli"": {
+            ""enabled"": false
+          },
+          ""spotify-player"": {
+            ""enabled"": false
+          },
+          ""summarize"": {
+            ""enabled"": false
+          },
+          ""things-mac"": {
+            ""enabled"": false
+          },
+          ""trello"": {
+            ""enabled"": false
+          },
+          ""video-frames"": {
+            ""enabled"": false
+          },
+          ""voice-call"": {
+            ""enabled"": false
+          },
+          ""wacli"": {
+            ""enabled"": false
+          },
+          ""xurl"": {
+            ""enabled"": false
+          }
+        }
+      }
+    }",,title_and_body,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/openclaw/comments/1tgchai/need_help_with_secure_whatsapp_integration_for_a/
+B6-035,PHP,Carapace 2.0: Framework-agnostic DTOs,,"[1:reply] &gt; Once you have an array, why turn it into a DTO?
+
+Because it catches typos in key names without making you write array shapes in comments everywhere, which is still a second-class syntax even in the best IDEs.  One `array&lt;string,mixed&gt;` in there and game over for type…
+[2:reply] Please do not commit your `composer.lock` file for a library that's supposed to be imported by other projects.
+
+&gt; And those reflections in DTOTrait.php for type checking are probably pretty slow... IMHO, any array validator will be significantly faster.
+
+Yeah, reflections are…
+[3:OP] Yeah, fair point. If all you’re doing is validating arrays, a validator will definitely be faster. My main use case for DTOs is consuming API responses, and that’s where they shine for me.
+
+You get type safety and autocomplete without having to write big PHP array shapes, which…
+[4:reply] Well why denormalizing stuff then? 
+
+The answer is the same as for value objects, you need to have validated properties and be sure of what you have access to in your code.
+
+If I have an array key ""name"" how can I be sure that when I pass it along classes and methods It Will Alw…
+[5:reply] From the home page:
+
+    // Create from an array
+    $user = User::from([
+        'name' =&gt; 'John Doe',
+        'email_address' =&gt; 'john@example.com',
+        'password' =&gt; 'secret',
+        'address' =&gt; [
+            'street' =&gt; '123 Main St',
+            'city'…",title_plus_comments,yes,no,other,low,The post appears to discuss software without a clear troubleshooting or chiefly critical purpose.,,,,,,,https://reddit.com/r/PHP/comments/1nut4z8/carapace_20_frameworkagnostic_dtos/
+B6-036,transformers,Prime but with a mustache,,"[1:reply] The truck moustache
+[2:reply] Are you sure?
+[3:reply] Peter Prime?
+
+Optimist Cullen?
+
+...I'll see myself out.
+[4:reply] Omnipotus Prime
+[5:reply] Thaedus Prime.
+
+The only cybertronian who rebels against the planet.",title_plus_comments,no,no,na,medium,The saved text appears outside software scope or is too vague to classify reliably.,,,,,,,https://reddit.com/r/transformers/comments/1qjawtf/prime_but_with_a_mustache/
+B6-037,Ubiquiti,me looking up at random bar in NY,,"[1:reply] So glad I am not the only one who notices stuff like this. I can be hammered and still annoy my friends with “that’s a Unifi AP” or “there’s a lot of security cameras in there”🤣
+[2:reply] The decorations and the AP kinda fit together. Not gonna lie.
+[3:reply] Who doesn’t love a long pole
+[4:reply] I like the long pole hanging down that they probably don’t need
+[5:reply] Thought I was the only weirdo in The room …",title_plus_comments,yes,no,other,low,The post appears to discuss software without a clear troubleshooting or chiefly critical purpose.,,,,,,,https://reddit.com/r/Ubiquiti/comments/1s0ckr6/me_looking_up_at_random_bar_in_ny/
+B6-038,homeassistant,If you have LIFX switches you might want to hold off updating matter 9.0.4,"hi folks, i've logged a issue after updating to 9.0.4 matter.   For my HA instance the soft switch LIFX entities have all stopped being provided by the matter integration.  Might want to hold off updating if your using LIFX switches.","[1:reply] thanks for the heads up on this. was literally about to hit update on my matter stuff and figured i'd scroll first
+
+  
+been burned too many times by these kind of regressions. gonna wait until the maintainers confirm what's going on before touching anything
+[2:OP] https://github.com/home-assistant/core/issues/175348
+[3:OP] Might not actually be an issue, have a look at the thread, for me i dont think its an issue as im not using the switch entities anywhere except for wired switches, the soft switches i use the button entities for automations.  Cant remember why.
+[4:reply] Was about to push that update, dude. Saved me a headache, gonna wait till they sort it.
+[5:OP] Hiya, do me a favour, do you currently have entities for soft switches, or just the wired switches?",title_body_comments,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/homeassistant/comments/1ulebyc/if_you_have_lifx_switches_you_might_want_to_hold/
+B6-039,applehelp,"Somehow, my phone is now unable to be recovered","Hi. My main phone is an iPhone 12 Pro, I was just using it as normal and suddenly it logged me out off my Apple Account, I tried to log in but it keeps saying “Verification Failed” as apps to are no longer working and crashes upon opening them. I figured restarting would fix the problem but it just goes into bootlooping and goes to the Recovery page, when i tried to proceed, it says “Unable to restore” and I couldn’t get it fixed from there. I tried using iTunes to update and when it asks for an account, I can’t seem to log in with the same verification issue. I’ve digged deeper and told that iTunes/App store servers are down, can it be an possible chance that this could tie to my problem? or perhaps can my data be retrieved?",,title_and_body,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/applehelp/comments/1r12rlz/somehow_my_phone_is_now_unable_to_be_recovered/
+B6-040,chrome,Can't translate any of websites,"&amp;#x200B;
+
+Hi, I have a problem with Google Chrome on my Samsung phone.
+
+Since today, the translation feature stopped working completely. On every website I try to translate, I get the message: ""Can't translate this page"".
+
+I already tried:
+
+\- refreshing pages
+
+\- restarting Chrome
+
+\- clearing cache
+
+\- turning translation off and on again
+
+Nothing helped. It also happens on every site, not just one.
+
+Is anyone else having this issue? Could it be a bug after a recent Chrome update?
+
+Thanks for any help!","[1:reply] Mi chrome tampoco quiere traducir así que nose si sea algo general o solo a unos pocos / My Chrome browser won't translate either, so I don't know if it's a general issue or just affecting a few people.
+[2:reply] me parece que ahí se arreglo, a mi ya no me aparece
+[3:reply] Hi! I've had the same problem. I was reading Homestuck, but at one point it wouldn't let me translate the pages. I've been searching to see if anyone else has had the same issue; hopefully it will be fixed soon :( Cheers!
+[4:OP] I think it's because of the updates, but I might be wrong •̩̩̩̩ᯅ•̩̩̩
+[5:OP] I’m not sure either, but I’ve seen a few people reporting the same issue. I’m also using Chrome on Android and the translator suddenly stopped working. Hopefully it gets fixed soon.",title_body_comments,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/chrome/comments/1uybe9m/cant_translate_any_of_websites/
+B6-041,MicrosoftEdge,Visual Issues with Version 145.0.3800.82 (Official build) (64-bit),"I've noticed on Windows 11 (latest version of 11 with all patches and updates) and Ubuntu (latest version with all patches and updates) that the top of the browser, on a New Tab page, has a ""white line"" artifact between the header of Edge and the page area. Anyone else seeing this?
+
+Also - on Ubuntu, Edge steadfastly refuses to save the Appearance that you choose. If you choose Dark, it will reset to Light as soon as you exit the browser.
+
+https://preview.redd.it/1adjygahnpmg1.png?width=550&amp;format=png&amp;auto=webp&amp;s=4d56a9ade2759ca9b2955c59dc9aeb56995a2c5c",,title_and_body,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/MicrosoftEdge/comments/1rj7via/visual_issues_with_version_1450380082_official/
+B6-042,immich,2.0 version timeline?,"Hi, got this message after updating. Cant seem to find any timeline settings under advanced. Can anyone help?","[1:reply] It kinda get hidden by the version check when we bump to v2 and missed it. We will add the toggle back in the next release
+[2:reply] it's fixed, PR already merged. Will fix on next release application on store
+[3:OP] Thanks for the reply! This was making me crazy 😂
+[4:reply] Nicely done!
+[5:reply] Locked due to unnecessary drama",title_body_comments,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/immich/comments/1nwcima/20_version_timeline/
+B6-043,applehelp,Do Not Disturb Feature Not Working on Two Different iPhones — Any Ideas?,"Can anyone help me figure out why my iPhone 17 Focus (Do Not Disturb) feature won’t work properly? I am using iOS 26.5.
+
+Whenever I turn on Do Not Disturb, I still receive phone calls and text messages with audible chime notifications, as if the feature isn’t enabled at all.
+
+I purchased a new iPhone 17 late last year because my previous iPhone was getting old and running slowly. One of the reasons I upgraded was that I suspected there might be a hardware issue with the old phone, since it was having the exact same Do Not Disturb problem. However, after switching to the new phone, the issue continues.
+
+I’ve already contacted Apple Support without much success and have searched online for solutions, but I still haven’t found an answer.
+
+Has anyone experienced this before or have any idea what could be causing it? The fact that the same problem occurred on both my old iPhone and my new iPhone 17 makes me think it could be something related to my Apple ID, phone number, carrier settings, or another account-level setting rather than the hardware itself.
+
+Any advice would be greatly appreciated. Thanks!","[1:reply] Assuming you migrated from your previous phone, it might well be some corrupted settings or the like that are to blame. Might be worth trying a “Reset All Settings”. Settings &gt; Transfer or Reset iPhone &gt; Reset &gt; Reset All Settings. This will reset everything to factory…
+[2:reply] When you go to Settings &gt; Focus &gt; Do Not Disturb do you see ""Silence Notifications"" or ""Allow Notifications""? If it's on ""Silence Notifications"" and there's nothing listed, you're allowing all notifications. Change it to ""Allow Notifications"" with nothing listed so that no…",title_body_comments,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/applehelp/comments/1ugql15/do_not_disturb_feature_not_working_on_two/
+B6-044,Bitcoin,"If you don't, somebody will",,"[1:reply] 🎵 Bear boy bear boy,what you gonna do? What you gonna do when the margin will calling you? 🎵
+[2:reply] 2800 \~ 3000
+
+91000 \~ 100000
+
+3,000 \* 100,000 = 300,000,000 
+
+  
+you are off by a zero.
+[3:OP] ricky when i catch you ricky!
+[4:reply] This. It's 263 million.
+[5:reply] Darn, you guys found me...",title_plus_comments,no,no,na,medium,The saved text appears outside software scope or is too vague to classify reliably.,,,,,,,https://reddit.com/r/Bitcoin/comments/1p11i6r/if_you_dont_somebody_will/
+B6-045,ruby,Dear Rubyists: Shopify Isn’t Your Enemy,,"[1:reply] I have upmost respect for byroot.   He's a class act.  Sorry he had to go through a burnout.
+[2:reply] Upvoting, because it adds to the conversation, but I must say that they didn't handle things in a good way at all.
+[3:reply] This feels like an honest opinion from someone who has contributed greatly on a technical level to Ruby.
+
+That said, the disclaimer highlights the most critical concern... there's an authoritarian at the helm of Shopify, backed by enormous amounts of money. And another on the bo…
+[4:reply] Shopify is absolutely your enemy. For years they’ve made their goals clear — monopolize tooling and replace people with AI. Don’t even get me started with how they’ve made e-commerce a ubiquitously miserable experience, or their clown CEO, who’s more concerned with trying to be…
+[5:reply] He covers exactly why Shopify is my enemy (and seemingly his?) in this post: Toby Lutke",title_plus_comments,unclear,no,na,low,The saved text appears outside software scope or is too vague to classify reliably.,,,,,,,https://reddit.com/r/ruby/comments/1o279df/dear_rubyists_shopify_isnt_your_enemy/
+B6-046,chrome,HUGE Docs/Sheets/Slides Headers,"See pictures, please.
+
+My Google docs and such have a massive header all of a sudden, and it's driving me bonkers. The first pic is on my work account, and the second is on my personal account--same device. How can I get my work account to have the normal header size?
+
+This happened after a recent software update on my work device. This is NOT a zoom issue--whether I zoom in or out on the document itself, that dang header is still taking up almost a third of my screen, and I am SO OVER IT. As a teacher, I'm always using Docs and Slides, and this header issue is making it wildly difficult to navigate. Not being dramatic, just not a tech person and have the 'tism, so these changes are difficult for me to just ""adjust"" to. Also, it's ugly.
+
+I have tried a variety of things--checking Google settings, using an incognito tab, and resetting Chrome to original settings. Please help. My sanity is already frayed enough, and this is threatening to be that one pesky straw.",,title_and_body,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/chrome/comments/1r133zm/huge_docssheetsslides_headers/
+B6-047,comfyui,How to revert update?,"I haven't used comfy in about a month but with updating today, I noticed genrations are significantly slower than previously as well as the horrid asset tab replacing the queue tab. Is it possible to revert update?",,title_and_body,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/comfyui/comments/1pwgh4x/how_to_revert_update/
+B6-048,java,Eclipse GlassFish: This Isn’t Your Father’s GlassFish,,"[1:reply] The premise of an ""application server"" is legacy. server app frameworks/platforms are not legacy. Glassfish should relabel itself as a server application framework.
+
+In the old days, you'd have an application server, and would deploy multiple applications to it. Today, server ap…
+[2:reply] Payara [brand themselves](https://payara.fish/blog/what-is-a-java-application-server-a-short-guide/) as a Java application server.
+
+JakartaEE application servers are just the middleware which provide services to JakartaEE application which makes use of its services. The deployme…
+[3:reply] If you look at the old deployment diagrams - application server is a physical server where you application is deployed  
+  
+The mainstream idea at the time was 3-tier architecture   
+\- web server on physical web server    
+\- ejb containers on physical application server   
+\-…
+[4:reply] I haven't heard about GlassFish in a while. Glad to hear that it's alive and under Eclipse and not Oracle. The more active JEE implementations out there, the better.
+[5:reply] Especially when we have the WebAssembly folks redoing Application Servers with Kubernetes jungling WebAssembly containers, and WebAssembly Components.",title_plus_comments,yes,no,other,low,The post appears to discuss software without a clear troubleshooting or chiefly critical purpose.,,,,,,,https://reddit.com/r/java/comments/1rllhyo/eclipse_glassfish_this_isnt_your_fathers_glassfish/
+B6-049,applehelp,I don’t know if my freezing screen is software related or hardware damage,"About over a month ago I had a seizure and my iPhone 14 Pro fell (from my hands to the ground, I assume) but I had a screen guard and a case. The screen guard cracked but I kept using it.
+
+After a few days I noticed a bit of unresponsiveness from the very bottom left of my screen. When it did respond it would be very temperamental. I assumed it was the screen guard making contact issues so I took it out. Unfortunately the issue persisted despite there being no visible damage. It was minor enough that I could ignore it for the most part.
+
+Fast forward to last week. I updated to iOS 26.4. My phone was working fine. Then all of a sudden a week later yesterday evening, my phone starts freezing randomly. I’d have to sleep and wake the screen to get it working again. I just assumed that my palms that were sweaty at the time caused it. Later that night it works fine with the occasional freezing.
+
+This morning everything worked perfectly. Throughout the whole day I could use my phone without issue. Then suddenly this evening my phone freezes every 30 seconds and I have to keep sleeping and waking it to get it to respond. I decided to update to 26.4.1, hoping it was a random bug.
+
+Unfortunately my issue still persists. While writing this long explanation there were no freezes but I’m still scared it’ll freeze again soon. I’m too broke to change any hardware so idk if there’s a part of me hoping it’s software related. I just got this phone in February. I also don’t have an official Apple Store where I live.
+
+Also, I wasn’t experiencing ghost touches before but after the update tonight I noticed a few.
+
+Tl,dr: my iphone keeps freezing even after iOS update. No visible damage to the screen. Could it be hardware or software damage?",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/applehelp/comments/1siziad/i_dont_know_if_my_freezing_screen_is_software/
+B6-050,immich,Stable + Watchtower,Perhaps this is a silly question but now that immich is considered Stable... Will it be safe for me to allow watchtower to auto update it for me? Or could there still be breaking changes going forward?,"[1:reply] The whole point of the stable milestone is that there no longer could be breaking changes at just any time.
+[2:reply] As far as I know, breaking changes will be on Major releases only, thus pinning to 2.x.x will be fine. 3.x.x most probably will have breaking changes
+[3:reply] A good rule of thumb is reading the release notes before updating any container, there could be breaking changes anytime. So auto update at your own risk.
+[4:reply] Anyone has a guide on how to setup watchtower for Immich?
+[5:reply] They said on live stream , you be able to like set docker to V2 soon and then use watch tower, breaking changes be only on major releases eg V3 say.",title_body_comments,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/immich/comments/1nwg7xp/stable_watchtower/
+B6-051,Ubiquiti,Latency Spikes After Upgrading to 5.1.12,"Hi guys, after this morning's update my UDR7 has huge latency spikes, even with devices connected directly without a switch in between, jumping from 0.3ms to 50ms... looking at the Uptime Kuma graphs, just before the reboot for the update, latency was &lt;1ms, now we are at an average of 30ms. Is there anyone else having the exact same problem?
+
+    PING 192.168.1.1 (192.168.1.1) 56(84) bytes of data.
+    64 bytes from 192.168.1.1: icmp_seq=1 ttl=64 time=0.538 ms
+    64 bytes from 192.168.1.1: icmp_seq=2 ttl=64 time=0.530 ms
+    64 bytes from 192.168.1.1: icmp_seq=3 ttl=64 time=7.76 ms
+    64 bytes from 192.168.1.1: icmp_seq=4 ttl=64 time=0.597 ms
+    64 bytes from 192.168.1.1: icmp_seq=5 ttl=64 time=2.40 ms
+    64 bytes from 192.168.1.1: icmp_seq=6 ttl=64 time=0.592 ms
+    64 bytes from 192.168.1.1: icmp_seq=7 ttl=64 time=0.425 ms
+    64 bytes from 192.168.1.1: icmp_seq=8 ttl=64 time=0.625 ms
+    64 bytes from 192.168.1.1: icmp_seq=9 ttl=64 time=12.5 ms
+    64 bytes from 192.168.1.1: icmp_seq=10 ttl=64 time=0.450 ms
+    64 bytes from 192.168.1.1: icmp_seq=11 ttl=64 time=12.8 ms
+    64 bytes from 192.168.1.1: icmp_seq=12 ttl=64 time=0.443 ms
+    64 bytes from 192.168.1.1: icmp_seq=13 ttl=64 time=0.575 ms
+    64 bytes from 192.168.1.1: icmp_seq=14 ttl=64 time=1.03 ms
+    64 bytes from 192.168.1.1: icmp_seq=15 ttl=64 time=0.575 ms
+    64 bytes from 192.168.1.1: icmp_seq=16 ttl=64 time=0.504 ms
+    64 bytes from 192.168.1.1: icmp_seq=17 ttl=64 time=0.514 ms
+    64 bytes from 192.168.1.1: icmp_seq=18 ttl=64 time=23.0 ms
+    64 bytes from 192.168.1.1: icmp_seq=19 ttl=64 time=2.62 ms
+    64 bytes from 192.168.1.1: icmp_seq=20 ttl=64 time=0.542 ms
+    64 bytes from 192.168.1.1: icmp_seq=21 ttl=64 time=4.59 ms
+    64 bytes from 192.168.1.1: icmp_seq=22 ttl=64 time=0.355 ms
+    64 bytes from 192.168.1.1: icmp_seq=23 ttl=64 time=0.542 ms
+    64 bytes from 192.168.1.1: icmp_seq=24 ttl=64 time=30.1 ms
+    64 bytes from 192.168.1.1: icmp_seq=25 ttl=64 time=0.592 ms
+    64 bytes from 192.168.1.1: icmp_seq=26 ttl=64 time=0.479 ms
+    64 bytes from 192.168.1.1: icmp_seq=27 ttl=64 time=0.458 ms
+    64 bytes from 192.168.1.1: icmp_seq=28 ttl=64 time=4.01 ms
+    64 bytes from 192.168.1.1: icmp_seq=29 ttl=64 time=9.62 ms
+    64 bytes from 192.168.1.1: icmp_seq=30 ttl=64 time=11.1 ms
+    64 bytes from 192.168.1.1: icmp_seq=31 ttl=64 time=0.510 ms
+    64 bytes from 192.168.1.1: icmp_seq=32 ttl=64 time=0.680 ms
+    64 bytes from 192.168.1.1: icmp_seq=33 ttl=64 time=0.465 ms
+    64 bytes from 192.168.1.1: icmp_seq=34 ttl=64 time=7.61 ms
+    64 bytes from 192.168.1.1: icmp_seq=35 ttl=64 time=0.512 ms
+    64 bytes from 192.168.1.1: icmp_seq=36 ttl=64 time=0.432 ms
+    64 bytes from 192.168.1.1: icmp_seq=37 ttl=64 time=5.53 ms
+    64 bytes from 192.168.1.1: icmp_seq=38 ttl=64 time=0.466 ms
+    64 bytes from 192.168.1.1: icmp_seq=39 ttl=64 time=0.444 ms
+    64 bytes from 192.168.1.1: icmp_seq=40 ttl=64 time=4.58 ms
+    64 bytes from 192.168.1.1: icmp_seq=41 ttl=64 time=0.417 ms
+    64 bytes from 192.168.1.1: icmp_seq=42 ttl=64 time=12.2 ms
+    64 bytes from 192.168.1.1: icmp_seq=43 ttl=64 time=0.510 ms
+    64 bytes from 192.168.1.1: icmp_seq=44 ttl=64 time=0.465 ms
+    64 bytes from 192.168.1.1: icmp_seq=45 ttl=64 time=3.89 ms
+    64 bytes from 192.168.1.1: icmp_seq=46 ttl=64 time=0.673 ms
+    ^C
+    --- 192.168.1.1 ping statistics ---
+    46 packets transmitted, 46 received, 0% packet loss, time 45940ms
+    rtt min/avg/max/mdev = 0.355/3.701/30.068/6.138 ms
+
+
+
+    PING dns.google (8.8.4.4) 56(84) bytes of data.
+    64 bytes from dns.google (8.8.4.4): icmp_seq=1 ttl=119 time=5.93 ms
+    64 bytes from dns.google (8.8.4.4): icmp_seq=2 ttl=119 time=13.1 ms
+    64 bytes from dns.google (8.8.4.4): icmp_seq=3 ttl=119 time=6.11 ms
+    64 bytes from dns.google (8.8.4.4): icmp_seq=4 ttl=119 time=6.30 ms
+    64 bytes from dns.google (8.8.4.4): icmp_seq=5 ttl=119 time=6.63 ms
+    64 bytes from dns.google (8.8.4.4): icmp_seq=6 ttl=119 time=6.53 ms
+    64 bytes from dns.google (8.8.4.4): icmp_seq=7 ttl=119 time=6.39 ms
+    64 bytes from dns.google (8.8.4.4): icmp_seq=8 ttl=119 time=6.60 ms
+    64 bytes from dns.google (8.8.4.4): icmp_seq=9 ttl=119 time=6.51 ms
+    64 bytes from dns.google (8.8.4.4): icmp_seq=10 ttl=119 time=21.6 ms
+    64 bytes from dns.google (8.8.4.4): icmp_seq=11 ttl=119 time=6.32 ms
+    64 bytes from dns.google (8.8.4.4): icmp_seq=12 ttl=119 time=8.13 ms
+    64 bytes from dns.google (8.8.4.4): icmp_seq=13 ttl=119 time=6.61 ms
+    64 bytes from dns.google (8.8.4.4): icmp_seq=14 ttl=119 time=6.32 ms
+    64 bytes from dns.google (8.8.4.4): icmp_seq=15 ttl=119 time=47.8 ms
+    64 bytes from dns.google (8.8.4.4): icmp_seq=16 ttl=119 time=12.3 ms
+    64 bytes from dns.google (8.8.4.4): icmp_seq=17 ttl=119 time=6.54 ms
+    64 bytes from dns.google (8.8.4.4): icmp_seq=18 ttl=119 time=6.61 ms
+    64 bytes from dns.google (8.8.4.4): icmp_seq=19 ttl=119 time=6.40 ms
+    64 bytes from dns.google (8.8.4.4): icmp_seq=20 ttl=119 time=7.07 ms
+    64 bytes from dns.google (8.8.4.4): icmp_seq=21 ttl=119 time=20.4 ms
+    64 bytes from dns.google (8.8.4.4): icmp_seq=22 ttl=119 time=6.75 ms
+    64 bytes from dns.google (8.8.4.4): icmp_seq=23 ttl=119 time=6.38 ms
+    64 bytes from dns.google (8.8.4.4): icmp_seq=24 ttl=119 time=6.20 ms
+    64 bytes from dns.google (8.8.4.4): icmp_seq=25 ttl=119 time=6.38 ms
+    64 bytes from dns.google (8.8.4.4): icmp_seq=26 ttl=119 time=19.8 ms
+    64 bytes from dns.google (8.8.4.4): icmp_seq=27 ttl=119 time=12.8 ms
+    64 bytes from dns.google (8.8.4.4): icmp_seq=28 ttl=119 time=6.31 ms
+    64 bytes from dns.google (8.8.4.4): icmp_seq=29 ttl=119 time=20.6 ms
+    64 bytes from dns.google (8.8.4.4): icmp_seq=30 ttl=119 time=54.6 ms
+    64 bytes from dns.google (8.8.4.4): icmp_seq=31 ttl=119 time=6.36 ms
+    64 bytes from dns.google (8.8.4.4): icmp_seq=32 ttl=119 time=6.13 ms
+    64 bytes from dns.google (8.8.4.4): icmp_seq=33 ttl=119 time=5.86 ms
+    64 bytes from dns.google (8.8.4.4): icmp_seq=34 ttl=119 time=11.0 ms
+    64 bytes from dns.google (8.8.4.4): icmp_seq=35 ttl=119 time=6.63 ms
+    64 bytes from dns.google (8.8.4.4): icmp_seq=36 ttl=119 time=6.15 ms
+    64 bytes from dns.google (8.8.4.4): icmp_seq=37 ttl=119 time=6.20 ms
+    64 bytes from dns.google (8.8.4.4): icmp_seq=38 ttl=119 time=11.5 ms
+    64 bytes from dns.google (8.8.4.4): icmp_seq=39 ttl=119 time=6.31 ms
+    64 bytes from dns.google (8.8.4.4): icmp_seq=40 ttl=119 time=15.5 ms
+    64 bytes from dns.google (8.8.4.4): icmp_seq=41 ttl=119 time=9.86 ms
+    64 bytes from dns.google (8.8.4.4): icmp_seq=42 ttl=119 time=6.04 ms
+    64 bytes from dns.google (8.8.4.4): icmp_seq=43 ttl=119 time=6.96 ms
+    64 bytes from dns.google (8.8.4.4): icmp_seq=44 ttl=119 time=6.20 ms
+    ^C
+    --- dns.google ping statistics ---
+    44 packets transmitted, 44 received, 0% packet loss, time 43071ms
+    rtt min/avg/max/mdev = 5.862/10.698/54.609/9.884 ms","[1:reply] Running Network 10.4.57 and UniFi OS 5.1.12 on my DR7 and can't reproduce this
+[2:OP] i'll try to upgrade then
+[3:OP] Updating to the RC doesn't seem to have fixed it; it only slightly improved the spikes, but they are still happening
+[4:OP] Updating to the RC doesn't seem to have fixed it; it only slightly improved the spikes, but they are still happening
+[5:reply] I spoke with their support twice, and they escalated the issue to the specialist team. It might be a good idea if you guys write to them as well. Maybe if they see multiple people reporting it, they’ll likely speed up the checks",title_body_comments,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/Ubiquiti/comments/1tkbvg8/latency_spikes_after_upgrading_to_5112/
+B6-052,chrome,Can’t view wed pages in landscape mode after new iPhone chrome update?,Not sure if anyone is having the same issue but I can’t seem to trigger the auto landscape view when I put my phone on sideways anymore. My portrait orientation lock is off on my phone. Please help!,"[1:reply] Thank you for your submission to /r/Chrome! We hope you'll find the help you need. Once you've found a solution to your issue, please comment ""**!solved**"" under this comment to mark the post as solved. Thanks!
+
+
+*I am a bot, and this action was performed automatically. Please […",title_body_comments,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/chrome/comments/1v6f6ec/cant_view_wed_pages_in_landscape_mode_after_new/
+B6-053,Fedora,Help with browser problems,"I figured I’d get around to installing Fedora 44. Moving from Windows 11.
+
+Installation went fine, no problems.  
+Got into KDE, ran updates.  
+Rebooted.  
+Installed RPM Fusion and that stuff.
+
+Started Firefox — and damn, it crashes immediately.  
+Reinstalled Firefox, then it worked.
+
+Installed Google Chrome via RPM, not Flatpak.
+
+Everything was running fine during the evening. I installed WoW through Lutris and so on.
+
+Later, KDE Discover says there are updates, like 500 MB.  
+Installed them, rebooted the computer.
+
+Chrome crashes. Takes KDE down with it, which restarts.  
+Then there’s a kernel panic. I reboot, and start using option 2 in GRUB — a Btrfs rollback.
+
+There are no updates there. The rollback was basically just as updated as the other one. Chrome keeps crashing and acting up, but no kernel panic this time.
+
+I give up and reinstall Fedora 44. So far it works.  
+But I’m constantly paranoid that it’s going to freeze, lock up, and die again.
+
+What should I do? What could have happened?  
+They say AMD is supposed to be good with Linux.
+
+It’s just frustrating because I really want to get on the Linux train.
+
+I have an AMD R5 5700X3D and an AMD 9070XT.
+
+Had some more crashes. FF isnt working. Chrome is working little bit now. I added the --ozone-platform=wayland to it.
+
+Im clueless to whats happening.",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/Fedora/comments/1t2s6u8/help_with_browser_problems/
+B6-054,transformers,Studio Series Bumblebee Optimus Prime Needs an Update,"Bumblebee movie Optimus Prime is one of the figures that Hasbro needs to remake for the Studio Series line. The original 38 figure is great, but it isn't accurate to the movie. They should repaint and retool the Rise of the Beasts Optimus Prime into a new version of the Bumblebee design.",,title_and_body,no,no,na,medium,The saved text appears outside software scope or is too vague to classify reliably.,,,,,,,https://reddit.com/r/transformers/comments/1t10jt6/studio_series_bumblebee_optimus_prime_needs_an/
+B6-055,chrome,Google Chrome Update Brings Gemini AI Integration,,"[1:reply] More slop....
+[2:reply] More Enshitification !
+[3:reply] why? this is genuinely useful. I'm in europe and wish i had this. having context of the page you're on is so much better than opening a new gpt tab (or whatever) every single time
+[4:reply] Well, now that the tabs are unscrollable, the company that cannot deliver a proper user experience will harvest my data without my consent to use with unpredictable AI? If I want AI, I will go and use it separately!
+
+For all that might not be aware, the AI mode is actually downl…
+[5:reply] But can I date it?",title_plus_comments,yes,yes,other,low,The post appears to discuss software without a clear troubleshooting or chiefly critical purpose.,,,,,,,https://reddit.com/r/chrome/comments/1qq2aze/google_chrome_update_brings_gemini_ai_integration/
+B6-056,comfyui,Memeory Management Changes?,"Hey there. I was inactive on Fomfy for quite a while. I have updated all Nodes and Comfy itself to the newest version. I ran some older workflows. Nothing special. SDXL with Control Net, Double KSampler + Upscale. It ran perfectly fine in the past. But now im getting an OOM which I never had before running the workflow. 
+
+  
+So here is the question. Have they changed how comfy uses the memory of the gpu? The workflow even has unload vram nodes. Still it just interrupts the process. OOM.
+
+  
+Anyone else noticed behaviour like that with workflows that ran smooth in the past but are somehow broken now due to vram management issues?",,title_and_body,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/comfyui/comments/1qlngn5/memeory_management_changes/
+B6-057,transformers,"Haul from comiccon today, but I can't transform them because I broke my arm earlier this week :(",,"[1:reply] Nooo! Here's wishing you a quick recovery!
+[2:reply] Ah no big deal, just pop your ball joint back in.
+
+Oh wait, people don't work like that.  Hope you're on the mend soon!
+[3:reply] Who broke it for you? I mean, you got like 6 toys.
+[4:reply] I hope you enjoy Legacy TFA Optimus when you heal up, I got him earlier this week and I love him so much!
+[5:reply] Oh no, I wish you a good recovery",title_plus_comments,no,no,na,medium,The saved text appears outside software scope or is too vague to classify reliably.,,,,,,,https://reddit.com/r/transformers/comments/1p9t2b3/haul_from_comiccon_today_but_i_cant_transform/
+B6-058,HomeNetworking,Asus RT-BE88U (Merlin WRT) suddenly does not seem to connect to LAN over OpenVPN config,"I have Asus routers for many years already, and I love the Merlin WRT firmware while it always was very stable (modified stock firmware if I'm correct) and easy to integrate in automatization instances.  
+  
+While having a lot going on at home because of having quite a few things running in automatization and servers, it's pretty handy/ useful being able to reach the LAN-network, even when being away from home.
+
+So I always configured the OpenVPN option inside the Asus routers/ Merlin WRT firmware.
+
+Never had problems with it and it always worked flawlessly over the OpenVPN app on other devices like phones or laptops.
+
+Having a **RT-BE88U** now for some time, which worked flawlessly for quite some time.
+
+Since one of the last updates (started from around oktober 2025 if I'm correct), OpenVPN seemed to got ""broken"".
+
+Being able to get on the same IP when being outside the LAN-network, so it makes connection through the router. It also shows connected with the current WAN-IP from that device, but somehow I can't reach LAN (like Servers/ NAS/ Router) anymore. And while **having ""Client will use VPN to access"" set to ""Both""** (both LAN &amp; internet)**.**
+
+I first thought it was an update issue, while it seemed to have started immediately after a previous update. So I waited a few updates hoping this would fix the issue after not getting it solved.  
+**A few updates had passed, which did not solved the issue though. While I use Technitium DHCP for quite a bit now, which took over the internal DHCP routing of the router, I also tried to eliminate this possibility by turning off the entire server. Even started from scratch after that by putting the router back to factory settings. To be clear, OpenVPN and LAN acces functioned before in these settings.**  
+
+
+This is wat I tried so far again:  
+
+
+***Preparation/ configuration:***
+
+*- Proxmox / Technitium DNS shut down*
+
+*- RT-BE88U DHCP-server turned on*
+
+*- VPN server 1 cofigured &amp; enabled*
+
+*- ""Client will use VPN to access"" on ""both""*
+
+*- Exported OpenVPN configuration file configured on telephone*
+
+
+
+***Testing on same LAN:***
+
+*- LAN devices (so also phone) show same WAN IP  82.\*\*.\*\*\*.\*\*\**
+
+*- NAS and router are reacheable ffom other network devices from local (static) IP (aslo from  phone)*
+
+
+
+***Testing outside LAN (step 1):***
+
+*- WIFI on phone turned off*
+
+*- Phone isn't in LAN anymore now and shows other IP (83.\*\*\*.\*\*\*.\*\* instead of 82.\*\*.\*\*\*.\*\*\*)*
+
+*- NAS and router are not reacheable from local (static) IP anymore from Phone (which is correct)*
+
+
+
+***Testing outside LAN (step 2):***
+
+*- VPN - Status on RT-BE88U doesn't show connected devices*
+
+*- OpenVPN configuration file on OpenVPN app on mobile activated,shows connected*
+
+*- VPN - Status on RT-BE88U now shows the connected phone from IP 83.\*\*\*.\*\*\*.\*\*, so OpenVPN coonection seems established*
+
+*- NAS and router in LAN are still not reacheable from phone with established OPenVPN connection.*
+
+  
+So after trying quite some things after this today, I'm quite out of ideas now. Anny idea how get this working again?",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/HomeNetworking/comments/1srxhnq/asus_rtbe88u_merlin_wrt_suddenly_does_not_seem_to/
+B6-059,applehelp,Find My played a sound on my iPad while my iPhone was untouched in another room — how?,"Setup: one iPhone 13, one iPad, both on the same Apple Account. No Mac, no Watch, no other Apple devices.
+
+This morning at 07:41 I was in another room with my iPad. My iPhone was charging in my bedroom, no one else in the room, screen locked, Find My not open. The iPad first showed a location alert, then started playing the Find My sound — exactly like when I ping it myself from the phone. I also got the standard “A sound was played on iPad” email from Apple.
+
+What I’ve already ruled out:
+
+	**•**	Only 2 devices listed under Settings → Apple Account (the iPhone and the iPad). “iPad (2)” is just the device name, not a second iPad.  
+	**•**	Siri wasn’t triggered as far as I can tell — no one talking, no TV/audio playing.  
+	**•**	I didn’t tap Play Sound on the iPad itself.
+
+Family Sharing is on with 3 members, so I know a family member pinging it from their own device is the obvious explanation, and I’m checking that. But I want to know:
+
+	**1.**	Other than Family Sharing, Siri, or an iCloud.com web session, is there any way a Play Sound command can reach a device?  
+	**2.**	Does a family member’s ping generate any log I can check, or is it invisible on my end?  
+	**3.**	Does a ping from iCloud.com on the web always produce a separate “sign-in” email, or can it happen silently from a session that’s still authenticated?  
+	**4.**	Any known bug where iPadOS/iOS fires Play Sound on its own — after a restore, an update, or a stuck notification?
+
+Not looking for generic “change your password” advice, I’ve already done the security checks. Trying to understand the actual mechanism. Thanks.",[1:reply] Either someone has access to your account or you accidentally did it.,title_body_comments,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/applehelp/comments/1vxnwxa/find_my_played_a_sound_on_my_ipad_while_my_iphone/
+B6-060,rust,"crates.io development update | Rust Blog - A new ""Security"" tab, migration to Svelte for the front-end, support for GitLab CI/CD Trusted Publishing, Lines of Code metrics",,"[1:reply] Hmm... using Svelte for crates.io makes a lot more sense than using Ember. But if they're doing a big rewrite, it feels like a missed opportunity to move to server side rendered solution. Ah well, at least we have https://lib.rs.
+[2:reply] Svelte is a great philosophical fit because it, too, takes the Rust approach of moving the problem domain from runtime to compile time. Instead of React, Vue, and Ember all using a virtual DOM to do reactivity at runtime, Svelte instead tracks those reactive relationships at com…
+[3:reply] When I lived in Australia, I significantly preferred lib.rs for performance reasons—one-second instead of five-or-ten-second page loads. Unfortunately, lib.rs is behind a restrictive Cloudflare configuration, and since I now live in India Cloudflare hates me, so lib.rs is the sl…
+[4:reply] I've not paid too close attention to this space in a while, is there an obvious choice for a mature SSR solution which could be retrofit (I'm guessing Yew or Dioxus)?
+[5:reply] Svelte for crates.io? Now there's a chance I can contribute since it's my web framework of choice!",title_plus_comments,yes,yes,other,medium,The post appears to discuss software without a clear troubleshooting or chiefly critical purpose.,,,,,,,https://reddit.com/r/rust/comments/1qk5p80/cratesio_development_update_rust_blog_a_new/
+B6-061,Bitcoin,Fed goes brrrrrrrrrrr again,,"[1:reply] \&gt;""these issues are separate from and have no implications for the stance of monetary policy.""
+
+I forgot the Fed was able to dictate how the money they print gets used...
+[2:reply] thats QE, sounds good to me
+[3:OP] If you bother to read the article it's not about the rate cut but bond buying to expand the Fed's balance sheet starting with $40 billion for December.
+[4:reply] Yeah saw that too, do we live in a vacuum or something?
+[5:reply] Inflation is good for bitcoin",title_plus_comments,no,no,na,medium,The saved text appears outside software scope or is too vague to classify reliably.,,,,,,,https://reddit.com/r/Bitcoin/comments/1pjd02r/fed_goes_brrrrrrrrrrr_again/
+B6-062,applehelp,iPhone 17 Pro Max and iPad both showing “Liquid Detected” when charging,"My iPhone 17 Pro Max and my latest iPad both started showing the \*\*“Liquid Detected”\*\* warning on the same day when I plug them in to charge, even though the iPad hadn’t been used for quite a while.    
+I’ve bought two new Apple-certified USB-C cables because sometimes one cable works while the other doesn’t, and then they switch. I also bought a MagSafe charger to avoid using the USB-C port, but that isn’t charging my iPhone reliably either.    
+A few weeks ago I had a similar issue, but back then I wasn’t getting the liquid warning. It seemed to be temporarily fixed after a software update.    
+Both devices are now running the latest software, but the problem has returned.    
+Has anyone experienced this with multiple Apple devices at the same time? Could this be a software issue, a charger problem, or is it more likely that both charging ports have developed a fault? Also, could the MagSafe issue be related, or does that suggest a different hardware problem?    
+Thanks in advance.","[1:reply] I’d stop using the ports for now and let both devices dry with airflow; don’t use rice, heat, or anything inside the connector. If it still happens with different known-good cables after a day, I’d treat it as a service check rather than a software issue.",title_body_comments,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/applehelp/comments/1urtm1c/iphone_17_pro_max_and_ipad_both_showing_liquid/
+B6-063,applehelp,I upgraded to Airpods 4,"Hello, I recently upgraded from AirPods 2 to AirPods 4 and I’m having an issue with sharp “S” sounds in vocals.
+
+Everything else sounds great, but the “s” / “sh” sounds in voices feel really harsh and piercing.
+
+I didn’t have this issue with AirPods 2 — they sounded much smoother.
+
+I’ve tried EQ settings and iPhone accessibility audio tuning, but it still doesn’t fully fix it.
+
+Is this normal for AirPods 4, or is there any way to reduce it?",,title_and_body,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/applehelp/comments/1swkkvh/i_upgraded_to_airpods_4/
+B6-064,Fedora,Nvidia drivers issue.,"Dear Fedora Community,
+
+&amp;#x200B;
+
+I have had to completely reinstall fedora about 3 times for various issues, but this one is the main problem that doesn't seem to be fixing.
+
+&amp;#x200B;
+
+I installed fedora workstation, and after setting things up (WiFi, display settings, mouse acceleration disabling) I did the updates. I did this through the terminal instead of the ui because I felt like it, and then installed the nvidia driver option (the only one. The other was an Intel graphics one that was already installed) inside of the app manger. After installing it, the PC starts becoming really slow, and apps like Firefox don't even open anymore. So i do as anybody would do in that situation and restart my pc, assuming it just needed a restart to get everything working again. Turns out that's a terrible idea, because after selecting fedora in grub, my screen goes black, and nothing appears (maybe something does appear for a split second, but i always seem to miss it and it appears in the corner of my eye). So, instead of going onto the decryption screen, nothing appears. I tried typing in the decryption password once, but either I typed it in wrong (which i doubt becsuse I put a lot of focus into it) or it didn't do anything/didn't show it because the graphics broke.
+
+&amp;#x200B;
+
+I have installed Linux on my machine before, first was mint, second was arch (switched off of it because of recent events), and both worked with nvidia drivers. If anyone has any clue as to why it's not working, or if it's just a ""nvidia for linux is bad"" kind of thing, let me know. 
+
+&amp;#x200B;
+
+Thank you in advance,
+
+Soopy","[1:reply] Sounds like you didn't wait long enough. After install, it can take 5-10 minutes or so depending on hardware for the drivers to be made for your specific kernel. On a newer PC ala 9800X3D it's about 30 seconds, but on my older one it definitely takes 3-4 minutes. If you reboot d…
+[2:reply] Nvidia &amp; Linux in general is still an issue.
+
+But it would be good to know what drivers you installed niveau or .. and what version.
+Doing a hard reset during installation isn't a great idea, but you experienced that already.
+
+Fedora \ Linux drivers can take up 5 to 20 minut…
+[3:OP] Extra info...
+
+Gpu: 3060ti
+
+Secure boot: disabled
+
+Driver installed: ""NVIDIA Linux Graphics Driver"" ""Accelerated Linux Graphics Driver"" is what it said in the ""Software"" app manager. Edit: rpmfusion-nonfree-nvidia-driver
+
+Fedora version: Workstation 44
+
+Will add more if needed.
+[4:reply] I have never had issues with Fedora and Nvidia driver (from rpmforge) and Secure Boot enabled.
+[5:reply] do you have secure boot enabled? if so the kernel wont properly rebuild with NVIDIA. Otherwise what card do you have if its a 10 series or older your just meant to use the built in drivers",title_body_comments,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/Fedora/comments/1u9d247/nvidia_drivers_issue/
+B6-065,MacOS,Tahoe battery icon indicators,"https://preview.redd.it/ogj4gy0np7zf1.png?width=1674&amp;format=png&amp;auto=webp&amp;s=4279a632dfbe042adffc74ac3abb8c9df7f97456
+
+Since updating to macOS Tahoe, I've noticed that the battery icon no longer shows the plug indicator. Is this a bug, intentional, or does that mean my battery is constantly being charged?",,title_and_body,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/MacOS/comments/1oo3gkh/tahoe_battery_icon_indicators/
+B6-066,applehelp,iPhone 4s stuck in recovery,"I tried to flash it with data update using the 3rd and iTunes, everything goes without errors. But right after that, the phone is back in recovery. I turned off the home button and also disconnected the cable of the charging connector and the power buttons, it didn't work. I don't know why it is immediately after turning on the recovery, if the firmware goes without errors, I'm confused. I don't want to restore.",,title_and_body,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/applehelp/comments/1sxy87z/iphone_4s_stuck_in_recovery/
+B6-067,AndroidQuestions,Why is my phone suddenly failing integrity checks for play store even though I didn't root it or change anything? How do I fix it?,"Hiya I hope this is the right sub for this issue as rooting seems relevant and Google play seems to think my device is rooted even though it isn't. I'm not very knowledgeable in this area so please go easy on me. 
+
+Device information:
+
+Sony Xperia 10 III (I know getting a bit old)
+
+Model XQ-BT52
+
+Android version 13
+
+2.7GB RAM
+
+(I will post more information if needed, I don't know what's relevant)
+
+There's a game I play on my phone which I now can't play as attempting to log in gives the error ""not compatible with this device configuration.""
+
+I can share the specific game if needed but I know it has nothing to do with my account with it.
+
+Issue started sometime between Monday 18th May 2026 (fine on this day about 3pm) and this past Monday 25th May about 5pm when I first got/noticed the error. 
+
+After searching for information about the error I was led to install the Play Integrity API Check app which is informing me that my device is failing all 3 integrity checks. 
+
+1. MEETS\_BASIC\_INTEGRITY
+
+2. MEETS\_DEVICE\_INTEGRITY
+
+3. MEETS\_STRONG\_INTEGRITY
+
+I believe basic and device integrity are needed for the game I play so I believe failing these checks is why I can't get in.
+
+All searches to resolve this issue or figure out what is going on are for rooted devices but I didn't do anything and nobody else has access to my phone. I live alone and it's protected by a pattern lock. I don't even know how to root a phone or what that even does.
+
+I do have a bad memory but not bad enough to not remember changing settings, even if I did forget something I'm not the type to try to fix something that isn't broken so whatever I may have done (even though I'm sure I didn't) would've been basic and uncomplicated. 
+
+The game I play doesn't allow rooted devices so I'd ideally like a solution that won't get me false flagged for rooting ie: installing apps used on rooted devices to pass integrity checks. My phone and system should be able to pass at least basic and device integrity as they've been doing so for years. 
+
+I'm hoping to fix the issue by this coming Friday ideally.
+
+Any help would be appreciated. I will keep this post updated. Sorry for the trouble.
+
+Edit: Uninstalled all updates for play store and ran the integrity checks again, all checks passed but couldn't load account data for the game I play. Re-updating play store causes all checks to fail again. 
+
+In play store settings it now says my device is uncertified but the previously unavailable option to fix device issues just tells me to update security software. I have checked and there are no system updates, I have the latest available version. 
+
+It's looking like I'll need a new phone.","[1:reply] The root certificate that Google provided, and Sony used, to sign the Secure Element of your phone expired at May 24 16:28:52 2026 GMT, exactly 10 years after it was issued, invalidating your phones chain of trust. Sony was lazy and used an old key, and to the best of my underst…
+[2:reply] Happens sometimes when play services are updated and the app hasn't been patched for it yet, or vice versa, the app is looking for validation that your firmware can't provide.
+[3:OP] The game updated on 19th may. Taking your comment into consideration I deleted all updates to the play store app and ran the integrity checks again, passed all checks. Tried to log into game ""failed to load account data."" 
+
+Reupdated play store, all checks failing again. 
+
+Under…
+[4:OP] This makes a lot of sense. That said deleting all play store updates made the checks all pass but I still couldn't get into the game I mentioned. I would've thought those checks would've still failed. 
+
+It does seem like getting a new phone is my only option which is a shame as…",title_body_comments,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/AndroidQuestions/comments/1tozmz2/why_is_my_phone_suddenly_failing_integrity_checks/
+B6-068,EndeavourOS,"Is that warning (eos-rankmirrors) something to be worried about or nah? Update was successful, btw.",,"[1:reply] Mirrors come and go ... or can have issues. This is fine. If you cat the EOS mirrorlist, you'll find a list of those that did respond. :)
+[2:reply] I remember seeing some similar warning when I updated and there weren't any issues yet, so I think it's fine
+[3:OP] got it, thanks",title_plus_comments,yes,yes,other,low,The post appears to discuss software without a clear troubleshooting or chiefly critical purpose.,,,,,,,https://reddit.com/r/EndeavourOS/comments/1p8z5a3/is_that_warning_eosrankmirrors_something_to_be/
+B6-069,Bitcoin,Whales that went short BTC are not having a good time right now lol,,"[1:reply] Let them sink
+[2:reply] Imagine shorting the best returning asset in the past 20 years, let alone shorting it right before rate cuts, QE, and a blast off of the M2 money supply. People love playing with fire.
+[3:reply] Good. Fck em! Dont bet against Bitcoin.
+[4:reply] Good, fuck them
+[5:OP] Not a single one in profit 30% of all open interest [https://wangr.com/whalewatch](https://wangr.com/whalewatch)",title_plus_comments,no,no,na,medium,The saved text appears outside software scope or is too vague to classify reliably.,,,,,,,https://reddit.com/r/Bitcoin/comments/1ogpl9z/whales_that_went_short_btc_are_not_having_a_good/
+B6-070,applehelp,Issues with Airdrop in my 2020 MacBook Air M1.,"After the recent software update to Tahoe 26.2, the Airdrop on my Mac has stopped working properly. The other two devices of mine, i.e. my iPhone and iPad, are not visible in the Airdrop option on my Mac, but the vice versa still happens. However, other people's Apple devices are visible there; only my devices are not. What do I do?","[1:reply] You’re pretty late on updating, 26.2 came out [last December](https://www.macrumors.com/2025/12/12/apple-releases-macos-tahoe-26-2/). macOS 26.6.1 on the other hand is [only about a week and a half old](https://www.macrumors.com/2026/08/06/apple-releases-macos-tahoe-26-6-1/). Be…
+[2:OP] ohkay, tysm!",title_body_comments,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/applehelp/comments/1vqmcdv/issues_with_airdrop_in_my_2020_macbook_air_m1/
+B6-071,transformers,Reveal The Shield Deluxe Optimus Prime for $25—W or L?,"figure is complete, but the clear tab on the right shoulder is already stressed. let me know—if I break it off (should i?)—will it affect the vehicle mode’s integrity? it only hinders movement in the shoulder as far as i’m concerned, as there’s another tab higher up on the cab assembly.
+
+(UPDATE: The tab broke. 😅)","[1:reply] W pick up, IMO. Any old figure you like and are able to get is a win in my book!
+[2:OP] yeah, i’ve been deciding between this and the T30 Dreadwing for a while. this was the better deal, in all honesty.
+[3:OP] damn.
+[4:reply] also watch the fingers, I think those are a breakage point.
+[5:OP] definitely. that thumb looks a bit sketchy, but i’m pretty sure it’s fine as long as you don’t twist the sword handle around in his hand.",title_body_comments,no,no,na,low,The saved text appears outside software scope or is too vague to classify reliably.,,,,,,,https://reddit.com/r/transformers/comments/1ufkuy2/reveal_the_shield_deluxe_optimus_prime_for_25w_or/
+B6-072,Android,I upgraded the Samsung Trifold battery by 71%! - using the HONOR Silicon-Carbon batteries - Strange Parts,,"[1:reply] https://preview.redd.it/stt04mi7pwmg1.jpeg?width=1280&amp;format=pjpg&amp;auto=webp&amp;s=2ab6dc24ec0a2251564ab4eb297bc8299578a32c
+[2:reply] Recipe for a disaster. Different battery chemistries have different requirements for charging (voltage/current) at different SoCs.
+[3:reply] I stopped following this guy after I saw he put a shock collar on his dog on his side channel.
+[4:reply] It would be more of a problem if he was replacing a SiC battery with a LiPo battery. SiC batteries can run at much higher charging rates.
+[5:reply] Silicon-Carbon batteries seem fairly durable. I’m still at 100 health after 89 charge cycles.
+
+Granted it’s too early to tell. But so far, 9 months and it’s still very good.",title_plus_comments,no,no,na,low,The saved text appears outside software scope or is too vague to classify reliably.,,,,,,,https://reddit.com/r/Android/comments/1rjw7oe/i_upgraded_the_samsung_trifold_battery_by_71/
+B6-073,chrome,"Font changed accidentally, but can't find setting to fix",,"[1:OP] Turns out this was not a Chrome issue but a Pop OS issue (as discovered in this post: https://www.reddit.com/r/pop\_os/comments/1n77baf/funny\_google\_chromes\_addressbar\_and\_tabs\_font/)
+[2:reply] Thank you for your submission to /r/Chrome! We hope you'll find the help you need. Once you've found a solution to your issue, please comment ""**!solved**"" under this comment to mark the post as solved. Thanks!
+
+
+*I am a bot, and this action was performed automatically. Please […
+[3:reply] Check chrome://settings/fonts
+[4:OP] Yeah, I look there and all the fonts look normal to me (including the examples under each font type). I even tried changing them to different values, and it didn't seem to help. I have:  
+\- Standard: Ubuntu  
+\- Serif font: FreeSerif  
+\- Sans Serif font: FreeSans  
+\- Fixed-wi…
+[5:reply] Link is not working",title_plus_comments,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/chrome/comments/1nom31l/font_changed_accidentally_but_cant_find_setting/
+B6-074,transformers,[Skybound #26] This can’t end well,,"[1:reply] I’m betting this is connected to his prequel issue where the Quintessons are sending him some form of message that will lead to a crossover with Void Rivals.
+[2:reply] The Quints are calling in a favor.  
+
+You can’t leave Void Rivals too bereft of Transformers.  How else are you going to sell the books?
+[3:OP] I think it’s “Suffering Builds Character.”
+[4:reply] The dark Fentergon is kicking in
+[5:reply] Isn't that the series' tagline?",title_plus_comments,no,no,na,medium,The saved text appears outside software scope or is too vague to classify reliably.,,,,,,,https://reddit.com/r/transformers/comments/1ovc3af/skybound_26_this_cant_end_well/
+B6-075,Ubiquiti,iOS Widget,Anyone else lose their UniFi widget with the latest update?,"[1:reply] The issues with the widget should be addressed in an upcoming 10.36.2 version.
+
+https://community.ui.com/releases/8af4c1eb-8df7-4dfb-8f34-1464d22f1109?replyId=7ba803e4-e241-4c72-8e7a-ddc66f87bfb8
+[2:reply] What iOS widget are you talking about?
+[3:reply] Hello!  Thanks for posting on r/Ubiquiti!
+
+This subreddit is here to provide unofficial technical support to people who use or want to dive into the world of Ubiquiti products.  If you haven’t already been descriptive in your post, please take the time to edit it and add as many…
+[4:reply] which update exactly
+[5:reply] yes,
+
+version 10.36.0",title_body_comments,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/Ubiquiti/comments/1uo06mw/ios_widget/
+B6-076,Android,"The Supreme Court didn’t save Google from Epic, and now the clock is ticking",,"[1:reply] Curious how this will play out in light of the recent developments from Google about sideloading
+[2:reply] Depends if Google wants to defy the court. Side loading is required based on the current ruling.
+[3:reply] I dont understand...
+
+* Stop Google from forcing app developers to use Google Play Billing
+* Let Android developers link to ways to download their apps outside of the Play Store
+* Work with Epic to resolve any disputes as Google builds a system to let rival app stores into Googl…
+[4:reply] This is very good news. It keeps the ecosystem open including side loading.
+[5:reply] Guessing the developer verification IS their way of slightly enforcing control on third party app stores.
+
+The verification stuff is utterly consumer-unfriendly, since it lets Google arbitrary revoke developer rights with no appeals process.
+
+But it does give them a mechanism to…",title_plus_comments,yes,no,other,low,The post appears to discuss software without a clear troubleshooting or chiefly critical purpose.,,,,,,,https://reddit.com/r/Android/comments/1nzzwvd/the_supreme_court_didnt_save_google_from_epic_and/
+B6-077,MicrosoftEdge,Undocumented API for Programmatic Bookmark Export in Chromium Browsers,"https://preview.redd.it/age8l4cqosyf1.png?width=771&amp;format=png&amp;auto=webp&amp;s=08c4cb150f8b96778c4e67463c362d6a520dabb9
+
+I've been automating bookmark backups for a while now. Even though browsers have cloud sync, I like keeping local backups.
+
+On Chrome, I used to automate this by navigating to `chrome://bookmarks/` and simulating clicks through the bookmark manager's shadow DOM with JavaScript:
+
+    // Click menu button
+    const bookmarksApp = document.querySelector('bookmarks-app');
+    const menuButton = bookmarksApp.shadowRoot
+      .querySelector('bookmarks-toolbar').shadowRoot
+      .querySelector('cr-toolbar')
+      .querySelector('cr-icon-button#menuButton');
+    menuButton.click();
+    
+    // Click export option
+    const crActionMenu = bookmarksApp.shadowRoot
+      .querySelector('bookmarks-command-manager').shadowRoot
+      .querySelector('cr-action-menu');
+    const exportButton = Array.from(crActionMenu.querySelectorAll('button.dropdown-item'))
+      .find(button =&gt; button.textContent.trim() === 'Export bookmarks');
+    exportButton.click();
+    
+
+This script ran via AppleScript, Keyboard Maestro, or Hammerspoon to trigger the export, then I automated the rest with keyboard shortcuts.
+
+When I migrated to Edge, I started adjusting the script and discovered something buried in the source code (`edge://favorites/favorites-full.js`):
+
+    export: () =&gt; {
+      // ... metrics code ...
+      chrome.bookmarkManagerPrivate.export()
+    }
+
+You can just call `chrome.bookmarkManagerPrivate.export()` directly. No DOM traversal, no simulated clicks needed. Just one line of JavaScript that triggers the native export dialog.
+
+The weird part? Searching ""chrome.bookmarkManagerPrivate.export"" on Google returns zero results. It's completely undocumented publicly, which is why I'm posting this.
+
+I'm creating this thread mainly to get it indexed on search engines. If Chromium/Edge change this API in the future, hopefully others will find this thread and post updates about the new method or any breaking changes.
+
+Note: I found this in Edge and haven't tested it on Chrome since I've already migrated, but it should work on any Chromium-based browser.",,title_and_body,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/MicrosoftEdge/comments/1omb4e6/undocumented_api_for_programmatic_bookmark_export/
+B6-078,comfyui,Help: Default nodes not working after update to ComfyUI to 0.18.1,"I just updated to Portable ComfyUI version: 0.18.1, don;t remember what version I had before. I had tried to update ComfyUI through the manager but it failed, so I ran the update\_comfyui.bat and updated to 0.18.1. Everything looked good, but now when I try to run a Flux.2 Klein workflow the VAE Encode and ReferenceLatent nodes are not working and give errors. As far as I know these are not custom nodes; they're in my library but will not run. This is what the log shows:
+
+
+
+Failed to validate prompt for output 94:
+
+\* VAEEncode 92:110:122:
+
+  \- Required input is missing: pixels
+
+  \- Required input is missing: vae
+
+\* ReferenceLatent 92:110:121:
+
+  \- Required input is missing: conditioning
+
+\* ReferenceLatent 92:110:119:
+
+  \- Required input is missing: conditioning
+
+
+
+Any way to fix this? Restarting Comfy and my PC didn't help.",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/comfyui/comments/1s0s7jb/help_default_nodes_not_working_after_update_to/
+B6-079,MicrosoftEdge,Tiny Separation between active tab and url bar,"Hi, I'm having a glitch, or at least I think it's one, where the active tab is just a tiny bit separated from the rest of the url bar. no updates have fixed it, and it really bugs me. Any solutions? Also the window control buttons look higher than they should be.",,title_and_body,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/MicrosoftEdge/comments/1qx5qin/tiny_separation_between_active_tab_and_url_bar/
+B6-080,neovim,Did the editor change something with &lt;C-h&gt;?,"I had something like this
+
+map(""n"", ""&lt;C-j&gt;"", ""&lt;C-w&gt;j"", { desc = ""go to down buffer"" })
+
+map(""n"", ""&lt;C-k&gt;"", ""&lt;C-w&gt;k"", { desc = ""go to up buffer"" })
+
+map(""n"", ""&lt;C-h&gt;"", ""&lt;C-w&gt;h"", { desc = ""go to left buffer"" })
+
+map(""n"", ""&lt;C-l&gt;"", ""&lt;C-w&gt;l"", { desc = ""go to right buffer"" })
+
+it was always working until today after I updated to the latest neovim version(windows).
+
+J, k and l work except for h. What issue is this? Can you even fix this or am I stuck on the previous forever.
+
+
+
+EDIT:   
+It was to do with the windows terminal. So, the terminal seems to actually send specific keycodes to nvim, before it used to send \`&lt;C-h&gt;\` directly but now it just resorts to \`&lt;BS&gt;\` for consistency or Neovim started to expect \`&lt;C-h&gt;\` instead of thinking the two as the same, I don't really know and didn't have time to research as to, who broke the thing.   
+  
+The problem itself is because of ancient things we did with terminals which just stuck around and windows seems to be trying to even it's terminal with everything else, or just doing whatever.  
+  
+Now this causes issues with neovim because it expects \`&lt;C-h&gt;\` code from the terminal even though it does both as the same. and this was also the reason why it worked on the gui but not the tui.  
+
+But if you want the terminal to send &lt;C-h&gt; instead of &lt;BS&gt; to neovim, you can edit the settings.json and add the lines below. 
+
+    {
+      ""actions"": [
+        {
+          ""keys"": ""ctrl+space"",
+          ""command"": {
+            ""action"": ""sendInput"",
+            ""input"": ""\u001b[32;5u""
+          }
+        },
+        {
+          ""keys"": ""ctrl+h"",
+          ""command"": {
+            ""action"": ""sendInput"",
+            ""input"": ""\u001b[104;5u""
+          }
+        }
+      ]
+    }
+
+Di note, that these lines would change because the format has changed and the terminal would translate it automatically to the new version, just paste and save.",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/neovim/comments/1op49f5/did_the_editor_change_something_with_ch/
+B6-081,ollama,"HYM3 Designs v4 now Available Ubuntu 24.04 Cuda 13.2 Python 3.13.13 Inline media, ollama, Kicad, Blender, Searxng, STT, TTS, visual tools and supports 91 coding languages. All features 100% Functional offline.","Creative Commons Attribution Non Commercial Share Alike 4.0 International
+
+Copyright (C) 2026 James Pacha. All Rights Reserved.
+
+Pacha, J. (2026). HYM3 Designs Offline Ai Interface for Advanced Scientific Research, Graphic Design, and Computer Programming (Version 4). Zenodo. https://doi.org/10.5281/zenodo.20172622
+
+VERSION 4 RELEASE:
+
+This release now has a custom base for it. 
+
+hym3/hym3-designs-base is now avaiable on docker hub.
+
+This is base image build from source for Linux 26.04 with Cuda 13.2 and both python 3.14 native inside Linux 26.04 and python 3.13.13 to override, until python libraries catch up wheels and binaries. This has Node.js 24x and jupyter preinstalled. This has the NVidia installs already as well. This is set for root access and docker commands inside UI for AI to work on system user does inside the container. I will be updating base weekly or biweekly. All is released under this lincense. Build for base is included in ZIP folder in /AI/HYM3-UI/
+
+As of May 13, 2026 this had 26 unresolved CVEs that are still waiting for patches. 12 are from ubuntu 26.04 current build.
+
+The new version is preconfigured and I will upload video shortly for fresh install: 
+
+This version does come with TTS and STT and everything prior with all bugs and issues resolved in core of UI.
+
+Blender and Kicad inline.
+
+Full Media Suite inlined. Youtube, Fediverse, Local Video, Audio and Documents.
+
+All visual tools and examples are included. 
+
+All ports are closed except TCP for Quantum Secure Direct Messaging. That port has been hardened.
+
+Includes port monitoring.
+
+Base Version includes 100+ python library for AI and user use.
+
+All ports are preconfigured and all is set up from start.
+
+Code Server supports 91 coding languages.
+
+TTS and STT are multi lingual. All is customizable.
+
+Everyhing is Customizable and Modular. 
+
+Updated Readme.txt with complete file paths and all files included. 
+
+Total for Default Build is \~66 GB. This includes all python libraries conatiners and installs by docker.",,title_and_body,yes,yes,other,low,The post appears to discuss software without a clear troubleshooting or chiefly critical purpose.,,,,,,,https://reddit.com/r/ollama/comments/1tcf98q/hym3_designs_v4_now_available_ubuntu_2404_cuda/
+B6-082,comfyui,HunyuanWrapper is dead ?,"\[SOLVED\]
+
+Hello all,
+
+I was running HunyuanWrapper with texturising workflow since several months but recent ComfyUI updates broke the workflow. (especially, the rasterizer that allows to run MultiViewRenderer node).
+
+First I tried to repair HunyuanWrapper in latest update of ComfyUI by recompiling the rasterizer wheel, but without success.
+
+Then, I tried to download old portable release of ComfyUI (0.9.0) and automatic dependencies, but I has to recompiling rasterizer wheel, without success again.  
+(I well installed dependencies MSVC for compiling wheels, but it keep crashing at compiling).
+
+Finally, I tried to go back to original dependencies to be allowed to run HunyuanWrapper with precompiled wheels by using: **Windows 11 python 3.12 torch 2.6.0 + cu126** as recommanded in HunyuanWrapper github repo, but it seems there is a mismatch between torch 2.6.0 and ""ComfyUI essentials"" (also used by the workflow). They are deleting/installing different torch version alternatively (via pip).
+
+Is there anybody that succeed to run HunyuanWrapper and specifically the rasterizer with recent updates ? Or is Rasterizer definitively broken with last updates of Torch/Cuda/Python ?
+
+Thank you, i'm struggling since several hours now, and tried a lot of differents configuration.  
+N.B: I'm not really familiar with python environment and MSVC, I use LLM to help me with errors outputs, but I'm very comfy with IT in general.",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/comfyui/comments/1r3m5sm/hunyuanwrapper_is_dead/
+B6-083,chrome,Is this legit??Chrome Update,"Its telling me to update chrome, is this safe?","[1:reply] I have never seen this pop up. Just open “Help &gt; About Google Chrome” and that will show you if an update is needed. 
+
+Also, Chrome automatically installs updates. It only prompts you to restart the browser. But never shows a pop up.
+[2:reply] Dude just look in the help about menu.
+[3:reply] No. It's malware. This is one of the most used techniques by the threat actor TA569 to distribute malware.
+[4:reply] You should have adblocker installed and have fishing filter combined with other common filter.
+[5:OP] I have like 3adblocker, i never seen this""update""so i thought it was something legit.. i will be careful more from now on.",title_body_comments,yes,yes,other,low,The post appears to discuss software without a clear troubleshooting or chiefly critical purpose.,,,,,,,https://reddit.com/r/chrome/comments/1nubv0g/is_this_legitchrome_update/
+B6-084,Android,Galaxy S26 Ultra could get big upgrades to both wired and wireless charging,,"[1:reply] Just give me magnets so I can go truly case free...
+[2:reply] I'm just waiting for them to release a phone with a graphene battery
+[3:reply] Waiting for 200w wired charging and 100w wireless charging
+[4:reply] Finally. I'm waiting for them to bring this to the fold line where having a big enough battery that doesn't need charging throughout the day is infeasible, this faster charging would be more useful.
+[5:reply] awesome. if they pull it off, they might catch up to chinese flagships of 2020",title_plus_comments,no,no,na,low,The saved text appears outside software scope or is too vague to classify reliably.,,,,,,,https://reddit.com/r/Android/comments/1ouqaca/galaxy_s26_ultra_could_get_big_upgrades_to_both/
+B6-085,Bitcoin,Bitcoin is going up.  I am euphoric.,,"[1:reply] Daily meme till 200k 🔥🔥🔥
+[2:reply] I should have bought more on the Dip 😔
+[3:reply] Pamp
+[4:reply] Eeeeeeet
+[5:reply] Underrated 👆",title_plus_comments,no,no,na,medium,The saved text appears outside software scope or is too vague to classify reliably.,,,,,,,https://reddit.com/r/Bitcoin/comments/1p7i0la/bitcoin_is_going_up_i_am_euphoric/
+B6-086,comfyui,"Changed from FP8 model to INT8 Convrot, getting these outputs.","I just upgraded torch+torchvision to 2.13+cu132, but it was also doing this previously. ComfyUI is also up to date (0.28). I've tried with the stock Load Diffusion Model, Load Checkpoint, and the loader in the photo to no avail. (The former two simply give me a ""  
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xbc in position 3: invalid start byte"" error.) Disabling loras also gives me the same output. Thanks for any guidance!
+
+EDIT: A user pointed out that it was a dud model. I re-downloaded it directly from ComfyOrg's huggingface and it worked just fine with the regular 'Load Diffusion Model' node. Thanks!","[1:OP] You can color nodes any way you wish! If you right click the node, you can change any and all nodes of your choosing. The slick lines are from a custom node called ""quick connections,"" which I downloaded here: https://github.com/niknah/quick-connections. Although I believe there…
+[2:reply] try --fp16-vae in start up arg?
+[3:reply] Nothing wrong with your workflow AFAIK.
+
+You could:  
+\-Try without the conditioning (multiply) and ModelSamplingAuraFlow since they are not mandatory for the WF to function.
+
+\-I've read here and there than 0.28.0 introduced its fair share of new bugs. Try a downgrade to 0.27.0…
+[4:reply] did the exact same thing happen with a fresh simple workflow, just the bare minimum loader and ksampler with no loras attached? i had a weird output like this once and it turned out my vae file got corrupted during a download, swapping in a different vae fixed it instantly.
+
+als…
+[5:OP] Your last point was it exactly. I forget where I'd downloaded that model, but it ended up being a bad conversion. I re-downloaded it directly from ComfyOrg and it worked. Thanks!",title_body_comments,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/comfyui/comments/1v0zt4d/changed_from_fp8_model_to_int8_convrot_getting/
+B6-087,Nuxt,Nuxt4 with Tailwind,"I’ve created a new Nuxt 4 project and installed Tailwind, but I keep getting this error.
+
+https://preview.redd.it/kuaq5mps3hsf1.png?width=1608&amp;format=png&amp;auto=webp&amp;s=07a1b1d4137ff6084ee367db9e0a237d509237b0","[1:reply] You could install Nuxt UI, Tailwind comes with zero config and zero issues, + basic components
+[2:reply] Dont use postcss. Use the vite pluglin.
+[3:reply] Did you actually read the error? Especially the last part?
+[4:reply] Install the tailwind nuxt module
+[5:OP] {
+      ""name"": ""nuxt-app"",
+      ""private"": true,
+      ""type"": ""module"",
+      ""scripts"": {
+        ""build"": ""nuxt build"",
+        ""dev"": ""HOST=0.0.0.0 nuxt dev"",
+        ""generate"": ""nuxt generate"",
+        ""preview"": ""nuxt preview"",
+        ""postinstall"": ""nuxt prepare""…",title_body_comments,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/Nuxt/comments/1nv41m3/nuxt4_with_tailwind/
+B6-088,neovim,Autocommand doesn't work,,"[1:reply] Please remember to update the post flair to `Need Help|Solved` when you got the answer you were looking for.
+
+*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/neovim) if you have any questions or…
+[2:reply] They should work, autocmds seem fine, maybe somethinh else is messing with it. Dotfiles?
+[3:reply] Add a print in the autocmd to see if the issue is with it not fireing or with the logic inside.
+[4:OP] Okay, I found something
+
+It works if I open nvim, then do `:e &lt;my-file&gt;`, but not if I do `nvim &lt;my-file&gt;`",title_plus_comments,yes,no,other,low,The post appears to discuss software without a clear troubleshooting or chiefly critical purpose.,,,,,,,https://reddit.com/r/neovim/comments/1np7ve4/autocommand_doesnt_work/
+B6-089,Ubiquiti,UCKG2+ Device Issue - Any idea what is causing this?,"Anyone else getting this after the recent Unifi OS Upgrade?  I can't find anything in the logs as to what the issue is, I'm just getting this e-mail.","[1:reply] I'm not experiencing that issue. Did you try replacing the ethernet cable connecting it to the switch. The only other thing I can think of is the drive may be going bad in that device.
+[2:reply] Hello!  Thanks for posting on r/Ubiquiti!
+
+This subreddit is here to provide unofficial technical support to people who use or want to dive into the world of Ubiquiti products.  If you haven’t already been descriptive in your post, please take the time to edit it and add as many…
+[3:OP] I'm not seeing any errors on the switch port.  I have also checked the storage status in the UI console, no bad sectors, no read errors.  I've opened a case with Ubiquity, maybe they can find more info in the support files.
+[4:reply] Same but it happens whenever one of my cameras goes offline weirdly enough and they have been disconecting a lot after the last update. Knock on wood I haven't gotten a message about it for almost 24hrs now
+[5:OP] Hmmmm, interesting, ill need to check protect.",title_body_comments,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/Ubiquiti/comments/1tp9mdj/uckg2_device_issue_any_idea_what_is_causing_this/
+B6-090,Bitcoin,Can't be unseen,,"[1:reply] The American mind cannot comprehend that Europe has a free payment network with instant payments. bank account to bank account. SEPA.
+[2:reply] Anyone who's ever sent btc knows the fees are actually huge. This is bs
+[3:reply] Note that Bitcoin Lightning usually involves many middlemen.  That claim is not valid.
+[4:reply] The middleman is the bank still though however I agree (Australian)
+[5:reply] All this info is false.",title_plus_comments,no,no,na,medium,The saved text appears outside software scope or is too vague to classify reliably.,,,,,,,https://reddit.com/r/Bitcoin/comments/1ppl4nv/cant_be_unseen/
+B6-091,transformers,LEGO Bayverse Optimus Prime,,"[1:reply] Friggin gorgeous.
+[2:reply] Maybe a stupid question. But how big does this OP need to be for the 4 other main characters from the 2007 movie, some are small as Jazz - will look good in lego?
+[3:OP] I like this design more from the movies and probably won’t do the age of extinction one. Someone called mingki bricks did it perfectly
+[4:OP] Thank you
+[5:OP] I’m interested in making some others. They’re definitely possible in scale with this Prime.",title_plus_comments,no,no,na,medium,The saved text appears outside software scope or is too vague to classify reliably.,,,,,,,https://reddit.com/r/transformers/comments/1orjw84/lego_bayverse_optimus_prime/
+B6-092,debian,AMD Issues with latest kernel,"I need some help, trying to narrow down my issue. Since the last kernel update on Debian 13 6.12.95 my monitor will not power down, I have it set to turn off screen at 45 minutes, when the screen turns off it doesn't actually turn off, it seems as if it is constantly getting a signal from my graphics card, it goes blank but then is backlit so it never powers down. Troubleshooting it I connected my DP cable to the onboard Intel graphics and it my monitor powers off fine. I tried 2 different AMD cards 550/6400 and they both have the same issue. 
+
+May or may not be related, since the kernel update when my pc boots I get the error ""Failed to start systemd-sysctl.service - Apply Kernel Variables"", the line shows up 3 times then the pc boots fine. I'm assuming it's related and not sure where to go here in resovling this.
+
+Any insight would be grateful.","[1:reply] &gt; I have it set to turn off screen at 45 minutes
+
+Where/how?
+[2:OP] Problem resolved, I changed the cable from HDMI to DP and everythings works properly, odd that it started after the latestest kernel update but all is well. Thanks.
+[3:reply] juat guessing, did u install firmware from AMD? Perhaps all privative, but you can try configuring non free sources
+[4:reply] I had some issue with HDMI on Ubuntu a few years ago too, so I think AMD does not like HDMI under Linux....",title_body_comments,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/debian/comments/1v1khho/amd_issues_with_latest_kernel/
+B6-093,androiddev,Why my beta app cannot be updated in other devices via play store?,"I developed an app and it is available on early testing but after pushing an update last Saturday why doesn't Play store allow others to update it on their same devices?
+
+Getting error like
+
+Can't install xxxxx
+
+Try again, and if it still doesn't work, see common ways to fix the problem
+
+\[Send feedback /Understood\]","[1:reply] Posts regarding account termination, application suspension or rejection must be presented as neutrally as possible without charged language or emotional appeal. The attitude of the posts and comments should be to seek help in understanding what went wrong and how to solve it, i…",title_body_comments,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/androiddev/comments/1v2s65j/why_my_beta_app_cannot_be_updated_in_other/
+B6-094,Android,Samsung TriFold Durability Test: We found the limit.,,"[1:reply] Why didn't he seriously risk his health and life for an unnecessary video clip? Can't imagine why.
+[2:reply] because he didnt want that to happen again?
+[3:reply] People really find any reason to be upset
+[4:reply] Well, there's a pretty significant difference. The P10PF failed catastrophically. The side without the camera literally broke in half with not more than 3 seconds of pressure on the back. The same pressure he uses on all phones and tablets and foldables. The trifold had a single…
+[5:reply] Who is Jerry? Or do you mean Zach?",title_plus_comments,yes,no,other,medium,The post appears to discuss software without a clear troubleshooting or chiefly critical purpose.,,,,,,,https://reddit.com/r/Android/comments/1pvil0j/samsung_trifold_durability_test_we_found_the_limit/
+B6-095,Android,"On this day 10 years ago, LG announced the V10",,"[1:reply] I really liked the back buttons/fingerprint reader
+[2:reply] I wish LG and HTC are still around
+[3:reply] Still one of the most attractive phones of all time, up there with the HTC M7 and one of the windows phone Lumias.
+[4:reply] Reach into pocket, finger was already finding the fingerprint sensor, by the time it's out it's ready to go!
+[5:reply] Mine is still going strong after LG replaced the motherboard.
+
+My LG V20 is also still running.
+
+Tried using the Teracube 2e but it wasn't compatible with my network.
+
+Currently using a Samsung XCover6 Pro for my daily driver.",title_plus_comments,yes,no,other,low,The post appears to discuss software without a clear troubleshooting or chiefly critical purpose.,,,,,,,https://reddit.com/r/Android/comments/1nva5xv/on_this_day_10_years_ago_lg_announced_the_v10/
+B6-096,linux,"LibreOffice recap, October 2025 – Markdown support, events, app updates and more",,"[1:reply] The only thing holding LibreOffice back is the fact it’s ugly as sin. They make it look like it was made in the last 20 years and they’ll be doing great.
+[2:reply] &gt;markdown support
+
+Neat. So far the best Markdown editor I've used is Apostrophe, and I'm not exactly struck on it, so I'm eager to see how this goes.
+[3:OP] What do you mean by ""ugly as sin"", as that's rather subjective? Office suites [didn't look like this 20 years ago](https://blog.documentfoundation.org/wp-content/uploads/2025/10/notebookbar_all_apps.png). Can you be more specific? You can change the interface design and icon the…
+[4:reply] Agreed! The Zorin OS version looks the nicest IMO. Have you seen it?",title_plus_comments,yes,yes,other,medium,The post appears to discuss software without a clear troubleshooting or chiefly critical purpose.,,,,,,,https://reddit.com/r/linux/comments/1okpkti/libreoffice_recap_october_2025_markdown_support/
+B6-097,comfyui,"Please help, got this error code since last update and creator is on holiday break: NunchakuQwenImageTransformer2DModel._forward() got multiple values for argument 'guidance'","model weight dtype torch.bfloat16, manual cast: None
+
+model\_type FLUX
+
+🔍 Model wrapper type: 'NunchakuQwenImageTransformer2DModel'
+
+🔍 Model wrapper module: C:\\CUI\\CUI Files\\custom\_nodes\\ComfyUI-nunchaku.models.qwenimage
+
+🔍 Type repr: &lt;class 'C:\\CUI\\CUI Files\\custom\_nodes\\ComfyUI-nunchaku.models.qwenimage.NunchakuQwenImageTransformer2DModel'&gt;
+
+🔍 Has 'model' attr? False
+
+🔍 Has 'loras' attr? False
+
+🔧 Wrapping NunchakuQwenImageTransformer2DModel with ComfyQwenImageWrapper
+
+📦 Creating ComfyQwenImageWrapper with cpu\_offload='auto'
+
+🔧 CPU offload setting: 'auto' (VRAM margin: 4.0GB)
+
+Total LoRAs in stack: 3
+
+Using sage attention mode: auto
+
+Requested to load NunchakuQwenImage
+
+  0%|          | 0/4 \[00:00&lt;?, ?it/s\]Composing 3 LoRAs...
+
+Applied LoRA compositions to 480 modules.
+
+  0%|          | 0/4 \[00:16&lt;?, ?it/s\]
+
+!!! Exception during processing !!! NunchakuQwenImageTransformer2DModel.\_forward() got multiple values for argument 'guidance'
+
+Traceback (most recent call last):
+
+  File ""C:\\CUI\\ComfyUI\\resources\\ComfyUI\\execution.py"", line 516, in execute
+
+output\_data, output\_ui, has\_subgraph, has\_pending\_tasks = await get\_output\_data(prompt\_id, unique\_id, obj, input\_data\_all, execution\_block\_cb=execution\_block\_cb, pre\_execute\_cb=pre\_execute\_cb, v3\_data=v3\_data)
+
+\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^
+
+  File ""C:\\CUI\\ComfyUI\\resources\\ComfyUI\\execution.py"", line 330, in get\_output\_data
+
+return\_values = await \_async\_map\_node\_over\_list(prompt\_id, unique\_id, obj, input\_data\_all, obj.FUNCTION, allow\_interrupt=True, execution\_block\_cb=execution\_block\_cb, pre\_execute\_cb=pre\_execute\_cb, v3\_data=v3\_data)
+
+\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^
+
+  File ""C:\\CUI\\CUI Files\\custom\_nodes\\comfyui-lora-manager\\py\\metadata\_collector\\metadata\_hook.py"", line 165, in async\_map\_node\_over\_list\_with\_metadata
+
+results = await original\_map\_node\_over\_list(
+
+\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^
+
+  File ""C:\\CUI\\ComfyUI\\resources\\ComfyUI\\execution.py"", line 304, in \_async\_map\_node\_over\_list
+
+await process\_inputs(input\_dict, i)
+
+  File ""C:\\CUI\\ComfyUI\\resources\\ComfyUI\\execution.py"", line 292, in process\_inputs
+
+result = f(\*\*inputs)
+
+\^\^\^\^\^\^\^\^\^\^\^
+
+  File ""C:\\CUI\\ComfyUI\\resources\\ComfyUI\\nodes.py"", line 1538, in sample
+
+return common\_ksampler(model, seed, steps, cfg, sampler\_name, scheduler, positive, negative, latent\_image, denoise=denoise)
+
+\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^
+
+  File ""C:\\CUI\\ComfyUI\\resources\\ComfyUI\\nodes.py"", line 1505, in common\_ksampler
+
+samples = comfy.sample.sample(model, noise, steps, cfg, sampler\_name, scheduler, positive, negative, latent\_image,
+
+\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^
+
+  File ""C:\\CUI\\ComfyUI\\resources\\ComfyUI\\comfy\\sample.py"", line 60, in sample
+
+samples = sampler.sample(noise, positive, negative, cfg=cfg, latent\_image=latent\_image, start\_step=start\_step, last\_step=last\_step, force\_full\_denoise=force\_full\_denoise, denoise\_mask=noise\_mask, sigmas=sigmas, callback=callback, disable\_pbar=disable\_pbar, seed=seed)
+
+\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^
+
+  File ""C:\\CUI\\CUI Files\\custom\_nodes\\ComfyUI-TiledDiffusion\\utils.py"", line 51, in KSampler\_sample
+
+return orig\_fn(\*args, \*\*kwargs)
+
+\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^
+
+  File ""C:\\CUI\\ComfyUI\\resources\\ComfyUI\\comfy\\samplers.py"", line 1178, in sample
+
+return sample(self.model, noise, positive, negative, cfg, self.device, sampler, sigmas, self.model\_options, latent\_image=latent\_image, denoise\_mask=denoise\_mask, callback=callback, disable\_pbar=disable\_pbar, seed=seed)
+
+\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^
+
+  File ""C:\\CUI\\ComfyUI\\resources\\ComfyUI\\comfy\\samplers.py"", line 1068, in sample
+
+return cfg\_guider.sample(noise, latent\_image, sampler, sigmas, denoise\_mask, callback, disable\_pbar, seed)
+
+\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^
+
+  File ""C:\\CUI\\ComfyUI\\resources\\ComfyUI\\comfy\\samplers.py"", line 1050, in sample
+
+output = executor.execute(noise, latent\_image, sampler, sigmas, denoise\_mask, callback, disable\_pbar, seed, latent\_shapes=latent\_shapes)
+
+\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^
+
+  File ""C:\\CUI\\ComfyUI\\resources\\ComfyUI\\comfy\\patcher\_extension.py"", line 112, in execute
+
+return self.original(\*args, \*\*kwargs)
+
+\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^
+
+  File ""C:\\CUI\\ComfyUI\\resources\\ComfyUI\\comfy\\samplers.py"", line 994, in outer\_sample
+
+output = self.inner\_sample(noise, latent\_image, device, sampler, sigmas, denoise\_mask, callback, disable\_pbar, seed, latent\_shapes=latent\_shapes)
+
+\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^
+
+  File ""C:\\CUI\\ComfyUI\\resources\\ComfyUI\\comfy\\samplers.py"", line 980, in inner\_sample
+
+samples = executor.execute(self, sigmas, extra\_args, callback, noise, latent\_image, denoise\_mask, disable\_pbar)
+
+\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^
+
+  File ""C:\\CUI\\ComfyUI\\resources\\ComfyUI\\comfy\\patcher\_extension.py"", line 112, in execute
+
+return self.original(\*args, \*\*kwargs)
+
+\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^
+
+  File ""C:\\CUI\\CUI Files\\custom\_nodes\\ComfyUI-TiledDiffusion\\utils.py"", line 34, in KSAMPLER\_sample
+
+return orig\_fn(\*args, \*\*kwargs)
+
+\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^
+
+  File ""C:\\CUI\\ComfyUI\\resources\\ComfyUI\\comfy\\samplers.py"", line 752, in sample
+
+samples = self.sampler\_function(model\_k, noise, sigmas, extra\_args=extra\_args, callback=k\_callback, disable=disable\_pbar, \*\*self.extra\_options)
+
+\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^
+
+  File ""C:\\CUI\\CUI Files\\.venv\\Lib\\site-packages\\torch\\utils\\\_contextlib.py"", line 120, in decorate\_context
+
+return func(\*args, \*\*kwargs)
+
+\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^
+
+  File ""C:\\CUI\\ComfyUI\\resources\\ComfyUI\\comfy\\k\_diffusion\\sampling.py"", line 199, in sample\_euler
+
+denoised = model(x, sigma\_hat \* s\_in, \*\*extra\_args)
+
+\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^
+
+  File ""C:\\CUI\\ComfyUI\\resources\\ComfyUI\\comfy\\samplers.py"", line 401, in \_\_call\_\_
+
+out = self.inner\_model(x, sigma, model\_options=model\_options, seed=seed)
+
+\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^
+
+  File ""C:\\CUI\\ComfyUI\\resources\\ComfyUI\\comfy\\samplers.py"", line 953, in \_\_call\_\_
+
+return self.outer\_predict\_noise(\*args, \*\*kwargs)
+
+\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^
+
+  File ""C:\\CUI\\ComfyUI\\resources\\ComfyUI\\comfy\\samplers.py"", line 960, in outer\_predict\_noise
+
+).execute(x, timestep, model\_options, seed)
+
+\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^
+
+  File ""C:\\CUI\\ComfyUI\\resources\\ComfyUI\\comfy\\patcher\_extension.py"", line 112, in execute
+
+return self.original(\*args, \*\*kwargs)
+
+\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^
+
+  File ""C:\\CUI\\ComfyUI\\resources\\ComfyUI\\comfy\\samplers.py"", line 963, in predict\_noise
+
+return sampling\_function(self.inner\_model, x, timestep, self.conds.get(""negative"", None), self.conds.get(""positive"", None), self.cfg, model\_options=model\_options, seed=seed)
+
+\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^
+
+  File ""C:\\CUI\\ComfyUI\\resources\\ComfyUI\\comfy\\samplers.py"", line 381, in sampling\_function
+
+out = calc\_cond\_batch(model, conds, x, timestep, model\_options)
+
+\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^
+
+  File ""C:\\CUI\\ComfyUI\\resources\\ComfyUI\\comfy\\samplers.py"", line 206, in calc\_cond\_batch
+
+return \_calc\_cond\_batch\_outer(model, conds, x\_in, timestep, model\_options)
+
+\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^
+
+  File ""C:\\CUI\\ComfyUI\\resources\\ComfyUI\\comfy\\samplers.py"", line 214, in \_calc\_cond\_batch\_outer
+
+return executor.execute(model, conds, x\_in, timestep, model\_options)
+
+\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^
+
+  File ""C:\\CUI\\ComfyUI\\resources\\ComfyUI\\comfy\\patcher\_extension.py"", line 112, in execute
+
+return self.original(\*args, \*\*kwargs)
+
+\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^
+
+  File ""C:\\CUI\\ComfyUI\\resources\\ComfyUI\\comfy\\samplers.py"", line 326, in \_calc\_cond\_batch
+
+output = model.apply\_model(input\_x, timestep\_, \*\*c).chunk(batch\_chunks)
+
+\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^
+
+  File ""C:\\CUI\\ComfyUI\\resources\\ComfyUI\\comfy\\model\_base.py"", line 162, in apply\_model
+
+return comfy.patcher\_extension.WrapperExecutor.new\_class\_executor(
+
+\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^
+
+  File ""C:\\CUI\\ComfyUI\\resources\\ComfyUI\\comfy\\patcher\_extension.py"", line 112, in execute
+
+return self.original(\*args, \*\*kwargs)
+
+\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^
+
+  File ""C:\\CUI\\ComfyUI\\resources\\ComfyUI\\comfy\\model\_base.py"", line 204, in \_apply\_model
+
+model\_output = self.diffusion\_model(xc, t, context=context, control=control, transformer\_options=transformer\_options, \*\*extra\_conds)
+
+\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^
+
+  File ""C:\\CUI\\CUI Files\\.venv\\Lib\\site-packages\\torch\\nn\\modules\\module.py"", line 1773, in \_wrapped\_call\_impl
+
+return self.\_call\_impl(\*args, \*\*kwargs)
+
+\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^
+
+  File ""C:\\CUI\\CUI Files\\.venv\\Lib\\site-packages\\torch\\nn\\modules\\module.py"", line 1784, in \_call\_impl
+
+return forward\_call(\*args, \*\*kwargs)
+
+\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^
+
+  File ""C:\\CUI\\CUI Files\\custom\_nodes\\ComfyUI-QwenImageLoraLoader-main\\wrappers\\qwenimage.py"", line 230, in forward
+
+out = self.\_execute\_model(x, timestep, context, guidance, control, transformer\_options, \*\*kwargs)
+
+\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^
+
+  File ""C:\\CUI\\CUI Files\\custom\_nodes\\ComfyUI-QwenImageLoraLoader-main\\wrappers\\qwenimage.py"", line 275, in \_execute\_model
+
+return self.model(
+
+\^\^\^\^\^\^\^\^\^\^\^
+
+  File ""C:\\CUI\\CUI Files\\.venv\\Lib\\site-packages\\torch\\nn\\modules\\module.py"", line 1773, in \_wrapped\_call\_impl
+
+return self.\_call\_impl(\*args, \*\*kwargs)
+
+\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^
+
+  File ""C:\\CUI\\CUI Files\\.venv\\Lib\\site-packages\\torch\\nn\\modules\\module.py"", line 1784, in \_call\_impl
+
+return forward\_call(\*args, \*\*kwargs)
+
+\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^
+
+  File ""C:\\CUI\\ComfyUI\\resources\\ComfyUI\\comfy\\ldm\\qwen\_image\\model.py"", line 411, in forward
+
+return comfy.patcher\_extension.WrapperExecutor.new\_class\_executor(
+
+\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^
+
+  File ""C:\\CUI\\ComfyUI\\resources\\ComfyUI\\comfy\\patcher\_extension.py"", line 112, in execute
+
+return self.original(\*args, \*\*kwargs)
+
+\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^
+
+TypeError: NunchakuQwenImageTransformer2DModel.\_forward() got multiple values for argument 'guidance'
+
+
+
+Prompt executed in 49.68 seconds",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/comfyui/comments/1q4r2bz/please_help_got_this_error_code_since_last_update/
+B6-098,sysadmin,TC53E (SE55000 engine) scan issues,"Hello,
+
+
+
+We recently made the jump to android and I never thought I'd miss our Windows handhelds.
+
+I'll start off by saying they're not enrolled in an MDM, everything is configured with a Stagenow batch and i've been able to fix most of the common issues I frequently read about.
+
+
+
+However, I just can't figure out why datawedge just randomly stops working, crashes, freezes.
+
+I'll add that I have DCP enabled, so the physical triggers aren't the cause.
+
+
+
+They're currently running Android 14 and I have applied the firmware update provided by Zebra which claims to fix these specific issues:
+
+NE\_FULL\_UPDATE\_14-15-22.00-UG-U138-STD-NEM-04
+
+I applied this update a few months after we made the switch, and it honestly didn't improve a single bit.
+
+I disabled everything that might pause or turn off datawedge for the sake of battery saving.
+
+General battery optim is also turned off.
+
+I removed every other profile and made Profile0 the default.
+
+
+
+It happens at every battery level.
+
+It's usually fixed with a reboot, sometimes just ""locking"" the screen (power button) is enough too.
+
+Some devices have it way more frequently than others, but it's an issue that happens on all 165 of them.
+
+
+
+I'm probably forgetting some other things I've already tried, so if any more info is needed, shoot.
+
+
+
+Has anyone been able to figure out a permanent solution?
+
+Every thread I can find just ends in nothing.
+
+
+
+Cheers.",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/sysadmin/comments/1wy2hrg/tc53e_se55000_engine_scan_issues/
+B6-099,chrome,Everything is logged out after update,,,title_only,unclear,yes,na,low,The saved text appears outside software scope or is too vague to classify reliably.,,,,,,,https://reddit.com/r/chrome/comments/1l7r9nf/everything_is_logged_out_after_update/
+B6-100,chrome,[arch + Chrome] Chrome fullscreen hides tabs and search bar after recent update,,,title_only,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/chrome/comments/1mgndyz/arch_chrome_chrome_fullscreen_hides_tabs_and/

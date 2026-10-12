@@ -1,0 +1,33 @@
+{
+  "version": "revised-development-v2",
+  "source": "/Users/manumathewjiss/Documents/Research-on-Software-Updates/research-open-text-sentimental/phase3/experiment_v1/data/development.jsonl",
+  "source_sha256": "76a8a48b3d844968f4f52edc1f91cfc7b9d6c77c2740d9e28d656c1effe9a047",
+  "decisions": "/Users/manumathewjiss/Documents/Research-on-Software-Updates/research-open-text-sentimental/phase3/experiment_v1/followup/manu_review_2026-10-07/decisions.json",
+  "decisions_sha256": "e54a13abc1c0bfeebc443bc6d435845f3ffbacc29df5dcf829eb03d15e19b06e",
+  "output": "/Users/manumathewjiss/Documents/Research-on-Software-Updates/research-open-text-sentimental/phase3/revised_development_v2/development_v2.jsonl",
+  "output_sha256": "287995b6b8b529c145591108d9a77f88f1e515185d38810910066ffba21fa781",
+  "all_development_rows": 3151,
+  "s2_eligible_after_near_duplicate_exclusions": 2080,
+  "s2_class_counts": {
+    "1": 1686,
+    "0": 394
+  },
+  "excluded_uncertain_ids": [
+    "1lrpn7u",
+    "1lsuvac",
+    "1qzew1k",
+    "1s3krfu"
+  ],
+  "changed_label_ids": [
+    "1tebwdi",
+    "1wxl35m"
+  ],
+  "near_duplicate_development_exclusions_for_s2": [
+    "1t0wme9",
+    "1wrqch6"
+  ],
+  "notes": [
+    "Original Phase 2 master and experiment_v1 data/results are unchanged.",
+    "This is development data, not a new test set."
+  ]
+}

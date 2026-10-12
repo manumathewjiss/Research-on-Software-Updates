@@ -1,0 +1,4320 @@
+[
+  {
+    "review_id": "U001",
+    "reddit_id": "1tfmuy0",
+    "selection_group_audit_only": "phrase_flagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "confidence": "high",
+    "reason": "The author seeks account recovery after changing a phone number; “update” refers to account details."
+  },
+  {
+    "review_id": "U002",
+    "reddit_id": "1v3zcq4",
+    "selection_group_audit_only": "phrase_flagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "yes",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "confidence": "high",
+    "reason": "The iPhone update attempt fails repeatedly with error 4013, which is a failed software update process."
+  },
+  {
+    "review_id": "U003",
+    "reddit_id": "1wsg3pa",
+    "selection_group_audit_only": "phrase_flagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "confidence": "high",
+    "reason": "The driver problem preceded the dnf update attempt, so updating appears only as a proposed repair."
+  },
+  {
+    "review_id": "U004",
+    "reddit_id": "1uf8tyr",
+    "selection_group_audit_only": "phrase_flagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "confidence": "high",
+    "reason": "The integration stopped on its own; past updates fixed similar episodes, but no current update is linked to this one."
+  },
+  {
+    "review_id": "U005",
+    "reddit_id": "1rxbdb5",
+    "selection_group_audit_only": "random_unflagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "other"
+    },
+    "confidence": "high",
+    "reason": "This discusses software without a current update-linked failure: I've been tasked by admin to somehow force them to stop using these managers, but so far I haven't found anything that…"
+  },
+  {
+    "review_id": "U006",
+    "reddit_id": "1u383v0",
+    "selection_group_audit_only": "random_unflagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "yes",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "confidence": "high",
+    "reason": "The post links a concrete software failure to a change: Half a year ago, our Kubernetes experts updated something and also containerd (is it pronounced containder-dee or…"
+  },
+  {
+    "review_id": "U007",
+    "reddit_id": "1urq6a6",
+    "selection_group_audit_only": "phrase_flagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "yes",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "confidence": "high",
+    "reason": "The author changed BIOS firmware while replacing the CPU and now encounters a Secure Boot violation."
+  },
+  {
+    "review_id": "U008",
+    "reddit_id": "1vwwod6",
+    "selection_group_audit_only": "phrase_flagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "confidence": "high",
+    "reason": "“Failed to update device inventory” describes Intune synchronization, not a software release; the installed version is background."
+  },
+  {
+    "review_id": "U009",
+    "reddit_id": "1s5n1u1",
+    "selection_group_audit_only": "phrase_flagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "yes",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "confidence": "high",
+    "reason": "The post links a concrete software failure to a change: I also found that my device is now in **EOL (End of Life)**, with no further security updates from Xiaomi, which might…"
+  },
+  {
+    "review_id": "U010",
+    "reddit_id": "1r1pa44",
+    "selection_group_audit_only": "phrase_flagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "yes",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "confidence": "high",
+    "reason": "The author upgraded to browser version 145 and then could not find the vertical-tabs flag."
+  },
+  {
+    "review_id": "U011",
+    "reddit_id": "1vwj4j1",
+    "selection_group_audit_only": "phrase_flagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "yes",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "confidence": "high",
+    "reason": "The post links a concrete software failure to a change: It also automatically upgraded to iOS 26 a few months ago when I had spring classes."
+  },
+  {
+    "review_id": "U012",
+    "reddit_id": "1td1axi",
+    "selection_group_audit_only": "phrase_flagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "yes",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "confidence": "high",
+    "reason": "The author reports eSIM trouble starting with the May update after it worked in April."
+  },
+  {
+    "review_id": "U013",
+    "reddit_id": "1qm3mrc",
+    "selection_group_audit_only": "phrase_flagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "general_dissatisfaction"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "general_dissatisfaction"
+    },
+    "confidence": "medium",
+    "reason": "The author mainly criticizes software without identifying a current update link: So, what’s the issue?"
+  },
+  {
+    "review_id": "U014",
+    "reddit_id": "1rv90n7",
+    "selection_group_audit_only": "phrase_flagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "yes",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "confidence": "high",
+    "reason": "The author suspects a security update because computers that have not updated still work with the USB sensors."
+  },
+  {
+    "review_id": "U015",
+    "reddit_id": "1n4bo7c",
+    "selection_group_audit_only": "random_unflagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "other"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "other"
+    },
+    "confidence": "high",
+    "reason": "This discusses software without a current update-linked failure: This isn't exactly Bun related but still..."
+  },
+  {
+    "review_id": "U016",
+    "reddit_id": "1s6qtcl",
+    "selection_group_audit_only": "phrase_flagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "confidence": "high",
+    "reason": "The saved text describes a software problem: I've got this error message No causal update is established."
+  },
+  {
+    "review_id": "U017",
+    "reddit_id": "1s8n2qq",
+    "selection_group_audit_only": "random_unflagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "final": {
+      "about_software": "no",
+      "update_related": "no",
+      "discussion_type": "na"
+    },
+    "confidence": "high",
+    "reason": "The author traced slow Wi-Fi to a faulty switch port; access-point replacement and firmware updates were diagnostic attempts."
+  },
+  {
+    "review_id": "U018",
+    "reddit_id": "1v6vbo4",
+    "selection_group_audit_only": "phrase_flagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "confidence": "high",
+    "reason": "The saved text describes a software problem: An unknown error has occured. No causal update is established."
+  },
+  {
+    "review_id": "U019",
+    "reddit_id": "1s7l96c",
+    "selection_group_audit_only": "phrase_flagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "confidence": "high",
+    "reason": "The saved text describes a software problem: Changed wifi and iPhone but still same error. No causal update is established."
+  },
+  {
+    "review_id": "U020",
+    "reddit_id": "1tkxavf",
+    "selection_group_audit_only": "phrase_flagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "yes",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "confidence": "high",
+    "reason": "A forced Chrome update removed uBlock support, prompting the switch to Firefox and the speed comparison."
+  },
+  {
+    "review_id": "U021",
+    "reddit_id": "1tjyk11",
+    "selection_group_audit_only": "phrase_flagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "final": {
+      "about_software": "unclear",
+      "update_related": "no",
+      "discussion_type": "na"
+    },
+    "confidence": "low",
+    "reason": "The same flicker and artifacts recur across several Linux systems, with no single software or update cause established."
+  },
+  {
+    "review_id": "U022",
+    "reddit_id": "1ntlsfy",
+    "selection_group_audit_only": "random_unflagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "confidence": "high",
+    "reason": "The author asks how to recover missing Chrome tabs, without describing an update as the trigger."
+  },
+  {
+    "review_id": "U023",
+    "reddit_id": "1r6g6vn",
+    "selection_group_audit_only": "phrase_flagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "final": {
+      "about_software": "unclear",
+      "update_related": "no",
+      "discussion_type": "na"
+    },
+    "confidence": "low",
+    "reason": "The author suspects firmware as one possible cause of charging failures, but the macOS update was tried only as a fix."
+  },
+  {
+    "review_id": "U024",
+    "reddit_id": "1v06pal",
+    "selection_group_audit_only": "phrase_flagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "other"
+    },
+    "confidence": "high",
+    "reason": "This discusses software without a current update-linked failure: If someone can help in any way or advise next steps, please let me know."
+  },
+  {
+    "review_id": "U025",
+    "reddit_id": "1oiwr33",
+    "selection_group_audit_only": "phrase_flagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "final": {
+      "about_software": "unclear",
+      "update_related": "no",
+      "discussion_type": "na"
+    },
+    "confidence": "low",
+    "reason": "The saved text is insufficient to identify a definite software cause or update link: [1:reply] Its a cache issue. I looked on github, i think they made a bugfix for exactly that issue, its already merged…"
+  },
+  {
+    "review_id": "U026",
+    "reddit_id": "1rzgm3v",
+    "selection_group_audit_only": "phrase_flagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "other"
+    },
+    "final": {
+      "about_software": "unclear",
+      "update_related": "no",
+      "discussion_type": "na"
+    },
+    "confidence": "low",
+    "reason": "The saved text is insufficient to identify a definite software cause or update link: First it was just the web interface being slow to load, but then the Network and Protect apps would start to crash on…"
+  },
+  {
+    "review_id": "U027",
+    "reddit_id": "1vuhsoj",
+    "selection_group_audit_only": "phrase_flagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "other"
+    },
+    "confidence": "high",
+    "reason": "This discusses software without a current update-linked failure: At that time, I thought it might be because the iPhone 12 wasn’t updated to the latest iOS due to storage issues, and I…"
+  },
+  {
+    "review_id": "U028",
+    "reddit_id": "1wxub3l",
+    "selection_group_audit_only": "phrase_flagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "confidence": "high",
+    "reason": "The author explicitly says a recent Chrome update is “just mentioning it,” without tying it to the shortcut failure."
+  },
+  {
+    "review_id": "U029",
+    "reddit_id": "1q4ocfo",
+    "selection_group_audit_only": "phrase_flagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "yes",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "confidence": "high",
+    "reason": "The post links a concrete software failure to a change: – After updating Google reCAPTCHA, I can’t insert or save my site/secret keys anymore"
+  },
+  {
+    "review_id": "U030",
+    "reddit_id": "1u5dozg",
+    "selection_group_audit_only": "phrase_flagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "confidence": "high",
+    "reason": "The saved text describes a software problem: I have had issues with the address bar for a while showing me weird suggestions e.g. No causal update is established."
+  },
+  {
+    "review_id": "U031",
+    "reddit_id": "1v5p0yq",
+    "selection_group_audit_only": "phrase_flagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "confidence": "high",
+    "reason": "Safari continues crashing despite later updates; the post does not say an update caused or changed the crashes."
+  },
+  {
+    "review_id": "U032",
+    "reddit_id": "1p6atc4",
+    "selection_group_audit_only": "random_unflagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "final": {
+      "about_software": "unclear",
+      "update_related": "no",
+      "discussion_type": "na"
+    },
+    "confidence": "low",
+    "reason": "The saved text is insufficient to identify a definite software cause or update link: If you search r/WindowsHelp or r/techsupport you'll find a number of posts made by people all with the same issue:…"
+  },
+  {
+    "review_id": "U033",
+    "reddit_id": "1uy5lhh",
+    "selection_group_audit_only": "phrase_flagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "confidence": "high",
+    "reason": "The saved text describes a software problem: I use a MBP m1 Pro from 2021, I bought it back in March 2023 as a Apple refurbished with a new battery etc. No causal update is established."
+  },
+  {
+    "review_id": "U034",
+    "reddit_id": "1vmwfae",
+    "selection_group_audit_only": "phrase_flagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "confidence": "high",
+    "reason": "The saved text describes a software problem: Recently started having issues with my S22 Ultra. No causal update is established."
+  },
+  {
+    "review_id": "U035",
+    "reddit_id": "1ujrm1o",
+    "selection_group_audit_only": "phrase_flagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "general_dissatisfaction"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "yes",
+      "discussion_type": "general_dissatisfaction"
+    },
+    "confidence": "medium",
+    "reason": "The author criticizes repeated PLC software failures, including bugs introduced by Windows and software updates."
+  },
+  {
+    "review_id": "U036",
+    "reddit_id": "1theayn",
+    "selection_group_audit_only": "phrase_flagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "final": {
+      "about_software": "unclear",
+      "update_related": "no",
+      "discussion_type": "na"
+    },
+    "confidence": "low",
+    "reason": "The saved text is insufficient to identify a definite software cause or update link: My macbook was used for around 4 years and decided to upgrade and handed this mac down to my wife."
+  },
+  {
+    "review_id": "U037",
+    "reddit_id": "1t5eadn",
+    "selection_group_audit_only": "phrase_flagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "yes",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "confidence": "high",
+    "reason": "The post links a concrete software failure to a change: I recently upgraded from Fedora 43 to 44 and have an issue where my laptop speakers just stop working a few minutes…"
+  },
+  {
+    "review_id": "U038",
+    "reddit_id": "1r6b8kk",
+    "selection_group_audit_only": "random_unflagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "general_dissatisfaction"
+    },
+    "final": {
+      "about_software": "unclear",
+      "update_related": "no",
+      "discussion_type": "na"
+    },
+    "confidence": "low",
+    "reason": "The central complaint concerns AppleCare handling of a replacement device; scattered update mentions do not establish a main software change."
+  },
+  {
+    "review_id": "U039",
+    "reddit_id": "1ouznzr",
+    "selection_group_audit_only": "phrase_flagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "confidence": "high",
+    "reason": "The saved text describes a software problem: So, basically they experienced an issue back in May 2023 regarding a windows 11 update, in which they had locked… No causal update is established."
+  },
+  {
+    "review_id": "U040",
+    "reddit_id": "1sq3og2",
+    "selection_group_audit_only": "random_unflagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "confidence": "high",
+    "reason": "The saved text describes a software problem: I get the below error: No causal update is established."
+  },
+  {
+    "review_id": "U041",
+    "reddit_id": "1vyjtj3",
+    "selection_group_audit_only": "phrase_flagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "yes",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "confidence": "high",
+    "reason": "The author says Teams updated today and now fails to launch except with administrator privileges."
+  },
+  {
+    "review_id": "U042",
+    "reddit_id": "1owv5cc",
+    "selection_group_audit_only": "phrase_flagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "confidence": "high",
+    "reason": "The saved text describes a software problem: I’ve been dealing with a strange issue that’s driving me nuts. No causal update is established."
+  },
+  {
+    "review_id": "U043",
+    "reddit_id": "1ql2670",
+    "selection_group_audit_only": "random_unflagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "confidence": "high",
+    "reason": "The saved text describes a software problem: [1:reply] try to activate or disable the nodes 2.0? No causal update is established."
+  },
+  {
+    "review_id": "U044",
+    "reddit_id": "1vrs9t1",
+    "selection_group_audit_only": "phrase_flagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "yes",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "confidence": "high",
+    "reason": "The DFU revive downloads software and then fails with error 4042, making the update or recovery process part of the failure."
+  },
+  {
+    "review_id": "U045",
+    "reddit_id": "1uck0xp",
+    "selection_group_audit_only": "phrase_flagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "yes",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "confidence": "high",
+    "reason": "The author asks if a recent Chrome update explains the phone freezing while Chrome is in use."
+  },
+  {
+    "review_id": "U046",
+    "reddit_id": "1wvy6vc",
+    "selection_group_audit_only": "phrase_flagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "other"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "yes",
+      "discussion_type": "other"
+    },
+    "confidence": "high",
+    "reason": "The software change is the subject of this discussion: Rolling release: I could use the latest version of the kernel, Gradle (I'm an Android dev) and other tools where being…"
+  },
+  {
+    "review_id": "U047",
+    "reddit_id": "1v155go",
+    "selection_group_audit_only": "phrase_flagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "confidence": "high",
+    "reason": "The saved text describes a software problem: Earlier, if I clicked “*sign in* to arrange apps” it would give me a 400 error, but it’s not doing that anymore, just… No causal update is established."
+  },
+  {
+    "review_id": "U048",
+    "reddit_id": "1ww8ppm",
+    "selection_group_audit_only": "random_unflagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "confidence": "high",
+    "reason": "The saved text describes a software problem: It will render a page the first screen but when opening another tab it crashes with no error message ( NO 'Oh,Snap')… No causal update is established."
+  },
+  {
+    "review_id": "U049",
+    "reddit_id": "1nyry2r",
+    "selection_group_audit_only": "phrase_flagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "yes",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "confidence": "high",
+    "reason": "The author asks whether a missing Zoom patch explains a newly absent toolbar after the most recent release."
+  },
+  {
+    "review_id": "U050",
+    "reddit_id": "1ucbbpi",
+    "selection_group_audit_only": "phrase_flagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "confidence": "high",
+    "reason": "The author hoped a future update would repair missing colors; no update is said to have caused them."
+  },
+  {
+    "review_id": "U051",
+    "reddit_id": "1uue1zq",
+    "selection_group_audit_only": "phrase_flagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "confidence": "high",
+    "reason": "The saved text describes a software problem: Then, yesterday, it suddenly decided to stop doing so. No causal update is established."
+  },
+  {
+    "review_id": "U052",
+    "reddit_id": "1uxwd7s",
+    "selection_group_audit_only": "phrase_flagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "yes",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "confidence": "high",
+    "reason": "The post links a concrete software failure to a change: Since a relatively recent update I have been asked to enter my password instead of using TouchID way more often than…"
+  },
+  {
+    "review_id": "U053",
+    "reddit_id": "1t2iip0",
+    "selection_group_audit_only": "phrase_flagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "confidence": "high",
+    "reason": "The author says the audio issue persisted after upgrading to Fedora 44, but does not link its onset to that upgrade."
+  },
+  {
+    "review_id": "U054",
+    "reddit_id": "1p2r5sf",
+    "selection_group_audit_only": "random_unflagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "other"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "other"
+    },
+    "confidence": "high",
+    "reason": "The discussion is a programming-language feature vote, not a reported software fault or release."
+  },
+  {
+    "review_id": "U055",
+    "reddit_id": "1upmen8",
+    "selection_group_audit_only": "phrase_flagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "yes",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "confidence": "high",
+    "reason": "The post links a concrete software failure to a change: I tried resetting it with Apple devices on windows and finder on MacBook, but after the update and restore process is…"
+  },
+  {
+    "review_id": "U056",
+    "reddit_id": "1s03ghm",
+    "selection_group_audit_only": "phrase_flagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "confidence": "high",
+    "reason": "The saved text describes a software problem: I need some help with my laptop. No causal update is established."
+  },
+  {
+    "review_id": "U057",
+    "reddit_id": "1sfqcqk",
+    "selection_group_audit_only": "phrase_flagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "general_dissatisfaction"
+    },
+    "confidence": "medium",
+    "reason": "The author complains about Bluetooth switching and mentions a planned phone replacement, not a software upgrade."
+  },
+  {
+    "review_id": "U058",
+    "reddit_id": "1udmdnt",
+    "selection_group_audit_only": "phrase_flagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "final": {
+      "about_software": "unclear",
+      "update_related": "no",
+      "discussion_type": "na"
+    },
+    "confidence": "low",
+    "reason": "The saved text is insufficient to identify a definite software cause or update link: I’m running into a repeating issue with my M4 Pro MacBook Pro and want to see if anyone knows what might be causing it…"
+  },
+  {
+    "review_id": "U059",
+    "reddit_id": "1p9g75i",
+    "selection_group_audit_only": "phrase_flagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "confidence": "high",
+    "reason": "The saved text describes a software problem: Getting random 502 errors (current rate sits at around 0.5%), happens more often during peak traffic time No causal update is established."
+  },
+  {
+    "review_id": "U060",
+    "reddit_id": "1ubnrb6",
+    "selection_group_audit_only": "phrase_flagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "yes",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "confidence": "high",
+    "reason": "The post links a concrete software failure to a change: Sometimes it seems it happens after an update, other times seemingly random"
+  },
+  {
+    "review_id": "U061",
+    "reddit_id": "1vu9sq9",
+    "selection_group_audit_only": "phrase_flagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "confidence": "high",
+    "reason": "The app-download issue began before the author moved from macOS 26.5 to 26.6; later updates were attempted fixes."
+  },
+  {
+    "review_id": "U062",
+    "reddit_id": "1ucjy4t",
+    "selection_group_audit_only": "random_unflagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "confidence": "high",
+    "reason": "The author seeks help with an ESP32 camera code and capture error, with no software release connection."
+  },
+  {
+    "review_id": "U063",
+    "reddit_id": "1nxstb4",
+    "selection_group_audit_only": "random_unflagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "yes",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "confidence": "high",
+    "reason": "Reinstalling Windows changed the environment, after which Chrome bookmarks were missing despite sync."
+  },
+  {
+    "review_id": "U064",
+    "reddit_id": "1udzror",
+    "selection_group_audit_only": "phrase_flagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "confidence": "high",
+    "reason": "The saved text describes a software problem: My iPhone storage had recently been pretty low, and 2 days ago, my phone failed on startup and sent me to this white… No causal update is established."
+  },
+  {
+    "review_id": "U065",
+    "reddit_id": "1u52r6u",
+    "selection_group_audit_only": "phrase_flagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "confidence": "high",
+    "reason": "The saved text describes a software problem: This happened when me and my grandad decided to swap phones, I was able to log into mine successfully but when it came… No causal update is established."
+  },
+  {
+    "review_id": "U066",
+    "reddit_id": "1ui3nra",
+    "selection_group_audit_only": "random_unflagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "confidence": "high",
+    "reason": "The saved text describes a software problem: I'm experiencing a strange issue with Google Chrome on my MacBook. No causal update is established."
+  },
+  {
+    "review_id": "U067",
+    "reddit_id": "1uay1pb",
+    "selection_group_audit_only": "random_unflagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "confidence": "high",
+    "reason": "The saved text describes a software problem: just lately, when watching youtube on firefox, i've noticed that on some videos, once the video has finished, the video… No causal update is established."
+  },
+  {
+    "review_id": "U068",
+    "reddit_id": "1ugql15",
+    "selection_group_audit_only": "phrase_flagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "confidence": "high",
+    "reason": "The saved text describes a software problem: Can anyone help me figure out why my iPhone 17 Focus (Do Not Disturb) feature won’t work properly? No causal update is established."
+  },
+  {
+    "review_id": "U069",
+    "reddit_id": "1s0ap7f",
+    "selection_group_audit_only": "phrase_flagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "confidence": "high",
+    "reason": "The saved text describes a software problem: My Samsung broke so I picked up a used iPhone 15 Plus off Facebook Marketplace and tried signing in for the first time. No causal update is established."
+  },
+  {
+    "review_id": "U070",
+    "reddit_id": "1wubmkk",
+    "selection_group_audit_only": "random_unflagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "final": {
+      "about_software": "unclear",
+      "update_related": "no",
+      "discussion_type": "na"
+    },
+    "confidence": "low",
+    "reason": "The saved text is insufficient to identify a definite software cause or update link: So I previously owned an iPhone 15 that I had no issues with."
+  },
+  {
+    "review_id": "U071",
+    "reddit_id": "1vmplb0",
+    "selection_group_audit_only": "phrase_flagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "yes",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "confidence": "high",
+    "reason": "The author reports Windows updates on three office PCs followed by PLC connection failures, even though a later edit suspects firmware."
+  },
+  {
+    "review_id": "U072",
+    "reddit_id": "1py4066",
+    "selection_group_audit_only": "random_unflagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "other"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "other"
+    },
+    "confidence": "high",
+    "reason": "The title requests a new iMessage feature without linking it to any release."
+  },
+  {
+    "review_id": "U073",
+    "reddit_id": "1usm8he",
+    "selection_group_audit_only": "phrase_flagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "yes",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "confidence": "high",
+    "reason": "The post links a concrete software failure to a change: Initializing Immich v3.0.2"
+  },
+  {
+    "review_id": "U074",
+    "reddit_id": "1pux3q9",
+    "selection_group_audit_only": "random_unflagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "confidence": "high",
+    "reason": "The iPhone already has the latest update; Chrome connectivity failure is not attributed to that update."
+  },
+  {
+    "review_id": "U075",
+    "reddit_id": "1ulkcaz",
+    "selection_group_audit_only": "phrase_flagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "yes",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "confidence": "high",
+    "reason": "The post links a concrete software failure to a change: I recently upgraded from fedora 43 to fedora 44 and installed anki but it keeps crashing becasue of QT6 ot fcitx5 and…"
+  },
+  {
+    "review_id": "U076",
+    "reddit_id": "1s8r1t5",
+    "selection_group_audit_only": "random_unflagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "other"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "confidence": "high",
+    "reason": "The saved text describes a software problem: As I posted the other week [here]( about having issues with my UDM Pro, instead of replacing, I did a complete deep… No causal update is established."
+  },
+  {
+    "review_id": "U077",
+    "reddit_id": "1udprqm",
+    "selection_group_audit_only": "phrase_flagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "confidence": "high",
+    "reason": "The saved text describes a software problem: I'm having an issue with Hacs and not sure what to do. No causal update is established."
+  },
+  {
+    "review_id": "U078",
+    "reddit_id": "1u8xje7",
+    "selection_group_audit_only": "phrase_flagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "confidence": "high",
+    "reason": "The saved text describes a software problem: It looks like for a brief period Razorpay stopped sending us the relevant order/payment updates, or our backend stopped… No causal update is established."
+  },
+  {
+    "review_id": "U079",
+    "reddit_id": "1t2ajtl",
+    "selection_group_audit_only": "phrase_flagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "confidence": "high",
+    "reason": "The saved text describes a software problem: So I have no idea how I seem to have lost my mind, but right now I absolutely cannot remember my passcode, or says my… No causal update is established."
+  },
+  {
+    "review_id": "U080",
+    "reddit_id": "1wxrz49",
+    "selection_group_audit_only": "phrase_flagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "confidence": "high",
+    "reason": "The author says the profile shortcut behavior still worked after installing the Windows preview, so the update is background."
+  },
+  {
+    "review_id": "U081",
+    "reddit_id": "1pl9jer",
+    "selection_group_audit_only": "phrase_flagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "confidence": "high",
+    "reason": "The author says Neovim icons changed before installing its update, which rules that update out as the trigger."
+  },
+  {
+    "review_id": "U082",
+    "reddit_id": "1qx5qin",
+    "selection_group_audit_only": "phrase_flagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "confidence": "high",
+    "reason": "The author says later updates did not fix the tab-bar gap, without saying one caused it."
+  },
+  {
+    "review_id": "U083",
+    "reddit_id": "1p7j39g",
+    "selection_group_audit_only": "phrase_flagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "yes",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "confidence": "high",
+    "reason": "The post links a concrete software failure to a change: Maybe after windows update, but I’m not sure ."
+  },
+  {
+    "review_id": "U084",
+    "reddit_id": "1swesi0",
+    "selection_group_audit_only": "phrase_flagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "yes",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "confidence": "high",
+    "reason": "The author explicitly asks whether a recent Apple OS update altered HomeKit discovery across network segments."
+  },
+  {
+    "review_id": "U085",
+    "reddit_id": "1u7uvrg",
+    "selection_group_audit_only": "phrase_flagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "final": {
+      "about_software": "unclear",
+      "update_related": "no",
+      "discussion_type": "na"
+    },
+    "confidence": "low",
+    "reason": "The saved text is insufficient to identify a definite software cause or update link: Was looking for some help regarding my IoT devices constantly disconnecting and reconnecting."
+  },
+  {
+    "review_id": "U086",
+    "reddit_id": "1vy4ez6",
+    "selection_group_audit_only": "phrase_flagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "yes",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "confidence": "high",
+    "reason": "The post links a concrete software failure to a change: I've been building a website for my workplace, and for some reason follow the release of the new wordpress update there…"
+  },
+  {
+    "review_id": "U087",
+    "reddit_id": "1uai2ir",
+    "selection_group_audit_only": "phrase_flagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "confidence": "high",
+    "reason": "The saved text describes a software problem: Talked to Apple and they said they can help if I can get my recovery codes. No causal update is established."
+  },
+  {
+    "review_id": "U088",
+    "reddit_id": "1tmwvk8",
+    "selection_group_audit_only": "phrase_flagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "other"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "yes",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "confidence": "high",
+    "reason": "The post links a concrete software failure to a change: About two years ago I installed Fedora on my fiancé's laptop (it has an RTX 3050) and the nvidia drivers broke…"
+  },
+  {
+    "review_id": "U089",
+    "reddit_id": "1tepcvj",
+    "selection_group_audit_only": "phrase_flagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "yes",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "confidence": "high",
+    "reason": "The author asks whether an update caused the disappeared tab-sharing feature."
+  },
+  {
+    "review_id": "U090",
+    "reddit_id": "1t1z5jq",
+    "selection_group_audit_only": "phrase_flagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "confidence": "high",
+    "reason": "The Ubuntu installation hangs at boot; updating BIOS is suggested as a possible fix."
+  },
+  {
+    "review_id": "U091",
+    "reddit_id": "1upzoai",
+    "selection_group_audit_only": "random_unflagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "confidence": "high",
+    "reason": "\"The saved text describes a software problem: Now for the issue: every time I try to register the board as a \"\"Device\"\" in the Arduino Cloud website, I get some kind… No causal update is established.\""
+  },
+  {
+    "review_id": "U092",
+    "reddit_id": "1us98kr",
+    "selection_group_audit_only": "phrase_flagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "confidence": "high",
+    "reason": "The saved text describes a software problem: .and it stopped working. No causal update is established."
+  },
+  {
+    "review_id": "U093",
+    "reddit_id": "1w0eio0",
+    "selection_group_audit_only": "phrase_flagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "yes",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "confidence": "high",
+    "reason": "\"The post links a concrete software failure to a change: \"\"This latest Ollama update finally fixes that issue where using Claude Code would break the KV Cache every single time.\""
+  },
+  {
+    "review_id": "U094",
+    "reddit_id": "1nxgxxq",
+    "selection_group_audit_only": "phrase_flagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "confidence": "high",
+    "reason": "The author reports a vSAN exception and cites an upgrade as a proposed fix rather than its cause."
+  },
+  {
+    "review_id": "U095",
+    "reddit_id": "1tn6jox",
+    "selection_group_audit_only": "phrase_flagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "confidence": "high",
+    "reason": "\"The saved text describes a software problem: I believe the problem is that the default automation editor only lets me use as a trigger the alarm status \"\"arming\"\",… No causal update is established.\""
+  },
+  {
+    "review_id": "U096",
+    "reddit_id": "1thegpv",
+    "selection_group_audit_only": "phrase_flagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "confidence": "high",
+    "reason": "The saved text describes a software problem: (but those aren't relevant for this problem) No causal update is established."
+  },
+  {
+    "review_id": "U097",
+    "reddit_id": "1s1c9vy",
+    "selection_group_audit_only": "phrase_flagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "other"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "other"
+    },
+    "confidence": "high",
+    "reason": "This discusses software without a current update-linked failure: ok so this is kind of a niche thing but it's been bugging me and I figure I/chrome is the right place since it's…"
+  },
+  {
+    "review_id": "U098",
+    "reddit_id": "1nwck9t",
+    "selection_group_audit_only": "phrase_flagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "other"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "yes",
+      "discussion_type": "other"
+    },
+    "confidence": "high",
+    "reason": "The post announces a newly released Windows app, so the software release is central to it."
+  },
+  {
+    "review_id": "U099",
+    "reddit_id": "1u4ojzo",
+    "selection_group_audit_only": "phrase_flagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "confidence": "high",
+    "reason": "“UPDATE” is an edit describing a discovered LAN cause, not a software release."
+  },
+  {
+    "review_id": "U100",
+    "reddit_id": "1uwfq5v",
+    "selection_group_audit_only": "phrase_flagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "yes",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "confidence": "high",
+    "reason": "The post links a concrete software failure to a change: Absolutely love it, upgraded from 43 to 44."
+  },
+  {
+    "review_id": "U101",
+    "reddit_id": "1nom31l",
+    "selection_group_audit_only": "random_unflagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "confidence": "high",
+    "reason": "The saved author reply identifies Pop OS as the source of the font setting issue; no update is linked."
+  },
+  {
+    "review_id": "U102",
+    "reddit_id": "1t1b93o",
+    "selection_group_audit_only": "phrase_flagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "confidence": "high",
+    "reason": "The saved text describes a software problem: I’m dealing with the following issue: No causal update is established."
+  },
+  {
+    "review_id": "U103",
+    "reddit_id": "1qpyk8q",
+    "selection_group_audit_only": "phrase_flagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "confidence": "high",
+    "reason": "The saved text describes a software problem: If you get a c10.dll error you need to install vc redist that you can find: [ No causal update is established."
+  },
+  {
+    "review_id": "U104",
+    "reddit_id": "1uhms0a",
+    "selection_group_audit_only": "phrase_flagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "final": {
+      "about_software": "unclear",
+      "update_related": "no",
+      "discussion_type": "na"
+    },
+    "confidence": "low",
+    "reason": "The saved text is insufficient to identify a definite software cause or update link: I’m dealing with a recurring Bluetooth issue on my **ASUS ROG Strix G15** running **Windows 11 25H2**, and I’m trying…"
+  },
+  {
+    "review_id": "U105",
+    "reddit_id": "1oj9ktc",
+    "selection_group_audit_only": "random_unflagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "other"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "other"
+    },
+    "confidence": "high",
+    "reason": "This discusses software without a current update-linked failure: [1:reply] I'm willing to bet that this sub will be filled with complaints two minutes after its released whatever!"
+  },
+  {
+    "review_id": "U106",
+    "reddit_id": "1tozmz2",
+    "selection_group_audit_only": "phrase_flagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "yes",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "confidence": "high",
+    "reason": "The author wonders whether an unsupported, no-longer-updated Android build explains Play Integrity failure."
+  },
+  {
+    "review_id": "U107",
+    "reddit_id": "1u4pt20",
+    "selection_group_audit_only": "random_unflagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "confidence": "high",
+    "reason": "The saved text describes a software problem: When I got home I went to pair them with HA and they would not then I remembered there was an issue with ZHA. No causal update is established."
+  },
+  {
+    "review_id": "U108",
+    "reddit_id": "1pjdtiv",
+    "selection_group_audit_only": "phrase_flagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "yes",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "confidence": "high",
+    "reason": "The post links a concrete software failure to a change: Did Google push a bad update in the last week or two?"
+  },
+  {
+    "review_id": "U109",
+    "reddit_id": "1p0od9s",
+    "selection_group_audit_only": "phrase_flagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "confidence": "high",
+    "reason": "The post concerns a GitHub service outage; “Update” in the saved status reply refers to an incident notice, not a software release."
+  },
+  {
+    "review_id": "U110",
+    "reddit_id": "1o08qdu",
+    "selection_group_audit_only": "phrase_flagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "other"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "yes",
+      "discussion_type": "other"
+    },
+    "confidence": "high",
+    "reason": "The software change is the subject of this discussion: I spent some weeks trying several distros and eventually Elementary OS became my main until Windows 10 released and I…"
+  },
+  {
+    "review_id": "U111",
+    "reddit_id": "1wy5au9",
+    "selection_group_audit_only": "phrase_flagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "confidence": "high",
+    "reason": "The saved text describes a software problem: I love using this browser but this issue is really giving me headache. No causal update is established."
+  },
+  {
+    "review_id": "U112",
+    "reddit_id": "1vsalwr",
+    "selection_group_audit_only": "phrase_flagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "confidence": "high",
+    "reason": "The saved text describes a software problem: Now I'm running into an issue affecting multiple Azure VMs configured for Microsoft Entra ID login. No causal update is established."
+  },
+  {
+    "review_id": "U113",
+    "reddit_id": "1vyllp7",
+    "selection_group_audit_only": "phrase_flagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "confidence": "high",
+    "reason": "The saved text describes a software problem: Again, instead of getting help and fixing it, I just kept using the phone. No causal update is established."
+  },
+  {
+    "review_id": "U114",
+    "reddit_id": "1r1m5ld",
+    "selection_group_audit_only": "random_unflagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "confidence": "high",
+    "reason": "The saved text describes a software problem: I am aware this is a common issue so I tried to do everything I could find. No causal update is established."
+  },
+  {
+    "review_id": "U115",
+    "reddit_id": "1v3nfrl",
+    "selection_group_audit_only": "phrase_flagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "yes",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "confidence": "high",
+    "reason": "The integration rejects authentication while requesting a newer version, making the update requirement part of the reported issue."
+  },
+  {
+    "review_id": "U116",
+    "reddit_id": "1ozin0k",
+    "selection_group_audit_only": "phrase_flagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "confidence": "high",
+    "reason": "The saved text describes a software problem: i tried edge and it works fine with ambient mode on, no problem. No causal update is established."
+  },
+  {
+    "review_id": "U117",
+    "reddit_id": "1tdqzbi",
+    "selection_group_audit_only": "phrase_flagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "other"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "yes",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "confidence": "high",
+    "reason": "The post links a concrete software failure to a change: After about six months of not using comfy/flux/etc., I decided to play around and came up with the terrible idea of…"
+  },
+  {
+    "review_id": "U118",
+    "reddit_id": "1vqdwri",
+    "selection_group_audit_only": "phrase_flagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "confidence": "high",
+    "reason": "The plug became unavailable after one day; no release or update is identified as a cause."
+  },
+  {
+    "review_id": "U119",
+    "reddit_id": "1tibs94",
+    "selection_group_audit_only": "phrase_flagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "other"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "yes",
+      "discussion_type": "other"
+    },
+    "confidence": "high",
+    "reason": "The software change is the subject of this discussion: I currently have a dual boot setup with Windows and Fedora but I still have issues after every update in Fedora."
+  },
+  {
+    "review_id": "U120",
+    "reddit_id": "1svkkty",
+    "selection_group_audit_only": "phrase_flagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "confidence": "high",
+    "reason": "Closing a VMware session triggered the macOS appearance problem; the update history does not explain its onset."
+  },
+  {
+    "review_id": "U121",
+    "reddit_id": "1nt732d",
+    "selection_group_audit_only": "random_unflagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "other"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "other"
+    },
+    "confidence": "high",
+    "reason": "This discusses software without a current update-linked failure: I find myself trying to do that all the time with Windows, and it just drives me nuts each time it fails to work!"
+  },
+  {
+    "review_id": "U122",
+    "reddit_id": "1tp5ayb",
+    "selection_group_audit_only": "phrase_flagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "confidence": "high",
+    "reason": "The saved text describes a software problem: I’m running into a really frustrating issue with my Sony WH-1000XM6 and I’m trying to figure out whether this is a… No causal update is established."
+  },
+  {
+    "review_id": "U123",
+    "reddit_id": "1u8exz9",
+    "selection_group_audit_only": "phrase_flagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "confidence": "high",
+    "reason": "\"The saved text describes a software problem: This error shows up \"\"could not update account\"\" when I try to log in to apple account. No causal update is established.\""
+  },
+  {
+    "review_id": "U124",
+    "reddit_id": "1ujiq3t",
+    "selection_group_audit_only": "phrase_flagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "yes",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "confidence": "high",
+    "reason": "The author tests whether the coordinator firmware update explains repeated crashes or network disappearance."
+  },
+  {
+    "review_id": "U125",
+    "reddit_id": "1nq4ygb",
+    "selection_group_audit_only": "phrase_flagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "confidence": "high",
+    "reason": "The saved text describes a software problem: [1:reply] Does the reload button work? No causal update is established."
+  },
+  {
+    "review_id": "U126",
+    "reddit_id": "1s0a7yd",
+    "selection_group_audit_only": "phrase_flagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "final": {
+      "about_software": "no",
+      "update_related": "no",
+      "discussion_type": "na"
+    },
+    "confidence": "high",
+    "reason": "\"The main subject is hardware or another non-software matter: The failure mode is the same for all of them, after some automatic console update the doorbell is shown to be \"\"offline\"\"…\""
+  },
+  {
+    "review_id": "U127",
+    "reddit_id": "1p1o0yp",
+    "selection_group_audit_only": "random_unflagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "confidence": "high",
+    "reason": "The saved text describes a software problem: I have a little problem with selfhosted Rustdesk. No causal update is established."
+  },
+  {
+    "review_id": "U128",
+    "reddit_id": "1uncgpv",
+    "selection_group_audit_only": "random_unflagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "final": {
+      "about_software": "no",
+      "update_related": "no",
+      "discussion_type": "na"
+    },
+    "confidence": "high",
+    "reason": "The main subject is hardware or another non-software matter: Now I'm trying to upgrade to an HP ProDesk 600 G3 Mini PC using the same method, but I'm having a problem with it…"
+  },
+  {
+    "review_id": "U129",
+    "reddit_id": "1omb4e6",
+    "selection_group_audit_only": "phrase_flagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "other"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "other"
+    },
+    "confidence": "high",
+    "reason": "The post discusses an undocumented bookmark-export API rather than a browser release."
+  },
+  {
+    "review_id": "U130",
+    "reddit_id": "1r3bizw",
+    "selection_group_audit_only": "phrase_flagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "unclear",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "confidence": "medium",
+    "reason": "The software problem is visible, but the update connection is uncertain: Issue: The iPad ~~will no longer power on~~; unable to restore."
+  },
+  {
+    "review_id": "U131",
+    "reddit_id": "1ww3cnt",
+    "selection_group_audit_only": "phrase_flagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "confidence": "high",
+    "reason": "The saved text describes a software problem: I have an iPhone 12 mini. No causal update is established."
+  },
+  {
+    "review_id": "U132",
+    "reddit_id": "1selcaf",
+    "selection_group_audit_only": "phrase_flagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "confidence": "high",
+    "reason": "The saved text describes a software problem: The only thing that’s annoying me about this is that means i’ll have to delete all my tiktok drafts because when you… No causal update is established."
+  },
+  {
+    "review_id": "U133",
+    "reddit_id": "1oibxac",
+    "selection_group_audit_only": "phrase_flagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "confidence": "high",
+    "reason": "The saved text describes a software problem: I just upgraded to pro from free, and I'm having all sorts of issues. No causal update is established."
+  },
+  {
+    "review_id": "U134",
+    "reddit_id": "1nsp6at",
+    "selection_group_audit_only": "random_unflagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "confidence": "high",
+    "reason": "The saved text describes a software problem: [1:reply] Thank you for your submission to /r/Chrome! We hope you'll find the help you need. Once you've found a… No causal update is established."
+  },
+  {
+    "review_id": "U135",
+    "reddit_id": "1ssossp",
+    "selection_group_audit_only": "phrase_flagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "final": {
+      "about_software": "unclear",
+      "update_related": "no",
+      "discussion_type": "na"
+    },
+    "confidence": "low",
+    "reason": "The saved text is insufficient to identify a definite software cause or update link: i’m posting here because i’m looking for some help."
+  },
+  {
+    "review_id": "U136",
+    "reddit_id": "1wtzro9",
+    "selection_group_audit_only": "phrase_flagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "confidence": "high",
+    "reason": "The saved text describes a software problem: So, Ive had a iphone 16 (running ios 27.0.1), and I don’t know wether its some recent update or something, but a couple… No causal update is established."
+  },
+  {
+    "review_id": "U137",
+    "reddit_id": "1wu9hw1",
+    "selection_group_audit_only": "phrase_flagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "other"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "yes",
+      "discussion_type": "other"
+    },
+    "confidence": "high",
+    "reason": "This project status post describes newly released code versions and a fixed gate."
+  },
+  {
+    "review_id": "U138",
+    "reddit_id": "1u8c3h9",
+    "selection_group_audit_only": "phrase_flagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "yes",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "confidence": "high",
+    "reason": "The post links a concrete software failure to a change: Title, for some reason, I noticed my Firefox's deleting would pause for a moment, then delete no problem, yet now,…"
+  },
+  {
+    "review_id": "U139",
+    "reddit_id": "1ultnn8",
+    "selection_group_audit_only": "phrase_flagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "other"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "yes",
+      "discussion_type": "other"
+    },
+    "confidence": "high",
+    "reason": "The software change is the subject of this discussion: We had a discussion some days ago regarding rolling vs stable releases."
+  },
+  {
+    "review_id": "U140",
+    "reddit_id": "1rjiivq",
+    "selection_group_audit_only": "phrase_flagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "yes",
+      "discussion_type": "general_dissatisfaction"
+    },
+    "confidence": "medium",
+    "reason": "The author criticizes the Windows welcome prompt that appears after an update and changed settings."
+  },
+  {
+    "review_id": "U141",
+    "reddit_id": "1ps4uxk",
+    "selection_group_audit_only": "phrase_flagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "yes",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "confidence": "high",
+    "reason": "The post links a concrete software failure to a change: Since the latest update, though, when searching on images you can view inappropriate content by clicking the Lens…"
+  },
+  {
+    "review_id": "U142",
+    "reddit_id": "1s4wkdl",
+    "selection_group_audit_only": "random_unflagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "confidence": "high",
+    "reason": "A clean reinstall removed the ComfyUI Manager; the post does not identify an update or upgrade as the cause."
+  },
+  {
+    "review_id": "U143",
+    "reddit_id": "1ug3yhh",
+    "selection_group_audit_only": "phrase_flagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "confidence": "high",
+    "reason": "The saved text describes a software problem: Problem:** My Fedora system won't boot. No causal update is established."
+  },
+  {
+    "review_id": "U144",
+    "reddit_id": "1vne6m0",
+    "selection_group_audit_only": "phrase_flagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "yes",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "confidence": "high",
+    "reason": "The post links a concrete software failure to a change: I just recently upgraded to zone based firewalls."
+  },
+  {
+    "review_id": "U145",
+    "reddit_id": "1utxbzn",
+    "selection_group_audit_only": "phrase_flagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "confidence": "high",
+    "reason": "The saved text describes a software problem: Can you guys help? No causal update is established."
+  },
+  {
+    "review_id": "U146",
+    "reddit_id": "1qki3oa",
+    "selection_group_audit_only": "phrase_flagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "confidence": "high",
+    "reason": "The saved text describes a software problem: But Photoshop (latest version) has been super slow since I installed it. No causal update is established."
+  },
+  {
+    "review_id": "U147",
+    "reddit_id": "1utrp4z",
+    "selection_group_audit_only": "phrase_flagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "confidence": "high",
+    "reason": "The saved text describes a software problem: Uploaded screenshots to help. No causal update is established."
+  },
+  {
+    "review_id": "U148",
+    "reddit_id": "1tnuopb",
+    "selection_group_audit_only": "phrase_flagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "confidence": "high",
+    "reason": "The saved text describes a software problem: Do I need to do something, or is this really a visual bug and something broke after an update? No causal update is established."
+  },
+  {
+    "review_id": "U149",
+    "reddit_id": "1uvcw7j",
+    "selection_group_audit_only": "phrase_flagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "confidence": "high",
+    "reason": "The saved text describes a software problem: If i stop / retry, send another prompt or change model - it mostly works.. No causal update is established."
+  },
+  {
+    "review_id": "U150",
+    "reddit_id": "1rx1gt7",
+    "selection_group_audit_only": "phrase_flagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "other"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "confidence": "high",
+    "reason": "The author asks whether buying more iCloud storage allows access to files on a physically broken phone; this is a plan upgrade."
+  },
+  {
+    "review_id": "U151",
+    "reddit_id": "1oubwb6",
+    "selection_group_audit_only": "random_unflagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "confidence": "high",
+    "reason": "The saved text describes a software problem: But no matter what i do i am getting an error like immich doesn't see anything at that mount point. No causal update is established."
+  },
+  {
+    "review_id": "U152",
+    "reddit_id": "1q2vxs7",
+    "selection_group_audit_only": "phrase_flagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "other"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "other"
+    },
+    "confidence": "high",
+    "reason": "This discusses software without a current update-linked failure: [1:reply] Every abandoned project was an opportunity to learn for the next one, don't be sad that you dropped, be happy…"
+  },
+  {
+    "review_id": "U153",
+    "reddit_id": "1tdnh5z",
+    "selection_group_audit_only": "phrase_flagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "confidence": "high",
+    "reason": "\"The saved text describes a software problem: • \"\"There has been a critical error on this website\"\" message No causal update is established.\""
+  },
+  {
+    "review_id": "U154",
+    "reddit_id": "1rzxk24",
+    "selection_group_audit_only": "phrase_flagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "final": {
+      "about_software": "unclear",
+      "update_related": "no",
+      "discussion_type": "na"
+    },
+    "confidence": "low",
+    "reason": "The saved text is insufficient to identify a definite software cause or update link: It stops if I lock it and unlock it."
+  },
+  {
+    "review_id": "U155",
+    "reddit_id": "1ubacr2",
+    "selection_group_audit_only": "phrase_flagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "other"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "yes",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "confidence": "high",
+    "reason": "The post links a concrete software failure to a change: I just spent all afternoon sorting out trouble with my Home Assistant install not coming back online after trying to…"
+  },
+  {
+    "review_id": "U156",
+    "reddit_id": "1tohg0r",
+    "selection_group_audit_only": "phrase_flagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "yes",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "confidence": "high",
+    "reason": "The post links a concrete software failure to a change: It is the most frustrating thing, especially bc prior to the last openclaw update, I had minimal issues."
+  },
+  {
+    "review_id": "U157",
+    "reddit_id": "1v4i22r",
+    "selection_group_audit_only": "phrase_flagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "confidence": "high",
+    "reason": "The saved text describes a software problem: Intermittently, during gameplay, all mouse button input stops working in the entire GNOME session. No causal update is established."
+  },
+  {
+    "review_id": "U158",
+    "reddit_id": "1u4weju",
+    "selection_group_audit_only": "phrase_flagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "general_dissatisfaction"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "yes",
+      "discussion_type": "other"
+    },
+    "confidence": "high",
+    "reason": "The software change is the subject of this discussion: A Windows update once broke/removed GRUB, which I managed to fix."
+  },
+  {
+    "review_id": "U159",
+    "reddit_id": "1nwdopn",
+    "selection_group_audit_only": "phrase_flagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "other"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "other"
+    },
+    "confidence": "high",
+    "reason": "This discusses software without a current update-linked failure: until Mailchimp decided to suddenly stop sending the emails out!"
+  },
+  {
+    "review_id": "U160",
+    "reddit_id": "1vwgrgy",
+    "selection_group_audit_only": "phrase_flagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "confidence": "high",
+    "reason": "The saved text describes a software problem: I've gone through the various websites and video youtube instructions for making sure handoff is turned on, I cannot… No causal update is established."
+  },
+  {
+    "review_id": "U161",
+    "reddit_id": "1s4gwva",
+    "selection_group_audit_only": "random_unflagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "confidence": "high",
+    "reason": "The saved text describes a software problem: [1:reply] What version? No causal update is established."
+  },
+  {
+    "review_id": "U162",
+    "reddit_id": "1o0ivwq",
+    "selection_group_audit_only": "phrase_flagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "other"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "yes",
+      "discussion_type": "other"
+    },
+    "confidence": "high",
+    "reason": "\"The software change is the subject of this discussion: \"\"10\"\" was the last version I ever used, however I've used Windows for over three decades, since Windows 3.1 to…\""
+  },
+  {
+    "review_id": "U163",
+    "reddit_id": "1osh4pe",
+    "selection_group_audit_only": "phrase_flagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "confidence": "high",
+    "reason": "The extension stopped after changing from a free to paid Gemini account; this is an account-plan upgrade."
+  },
+  {
+    "review_id": "U164",
+    "reddit_id": "1vsxkq8",
+    "selection_group_audit_only": "phrase_flagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "final": {
+      "about_software": "unclear",
+      "update_related": "no",
+      "discussion_type": "na"
+    },
+    "confidence": "low",
+    "reason": "The saved text is insufficient to identify a definite software cause or update link: Looking for some insight on a weird issue that happened to my phone recently, just to be safe so it doesn't happen…"
+  },
+  {
+    "review_id": "U165",
+    "reddit_id": "1opgbr4",
+    "selection_group_audit_only": "phrase_flagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "yes",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "confidence": "high",
+    "reason": "The author explicitly suspected a bad update and reports the problem persisting after version 2.2.2."
+  },
+  {
+    "review_id": "U166",
+    "reddit_id": "1sgl67j",
+    "selection_group_audit_only": "phrase_flagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "other"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "other"
+    },
+    "confidence": "high",
+    "reason": "This discusses software without a current update-linked failure: also stopped spending friday nights debugging why some keymap stopped working after an update which is a bonus."
+  },
+  {
+    "review_id": "U167",
+    "reddit_id": "1wu9chd",
+    "selection_group_audit_only": "phrase_flagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "yes",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "confidence": "high",
+    "reason": "The Apple Devices restore hangs while restoring iPhone software, a failed software recovery process."
+  },
+  {
+    "review_id": "U168",
+    "reddit_id": "1uwgos1",
+    "selection_group_audit_only": "phrase_flagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "general_dissatisfaction"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "general_dissatisfaction"
+    },
+    "confidence": "medium",
+    "reason": "The author mainly criticizes software without identifying a current update link: Problems started as soon as I installed the Amnezia VPN client and applied all the updates from the software store."
+  },
+  {
+    "review_id": "U169",
+    "reddit_id": "1sv114w",
+    "selection_group_audit_only": "phrase_flagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "yes",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "confidence": "high",
+    "reason": "The post links a concrete software failure to a change: my ipad got stuck in recovery mode after an update."
+  },
+  {
+    "review_id": "U170",
+    "reddit_id": "1siziad",
+    "selection_group_audit_only": "phrase_flagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "confidence": "high",
+    "reason": "The saved text describes a software problem: I assumed it was the screen guard making contact issues so I took it out. No causal update is established."
+  },
+  {
+    "review_id": "U171",
+    "reddit_id": "1uhycwy",
+    "selection_group_audit_only": "phrase_flagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "confidence": "high",
+    "reason": "The saved text describes a software problem: Also after some digging with chatgpt, using journalctl I can find logs from when kernel starts until this moment so… No causal update is established."
+  },
+  {
+    "review_id": "U172",
+    "reddit_id": "1tinn60",
+    "selection_group_audit_only": "random_unflagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "confidence": "high",
+    "reason": "The saved text describes a software problem: Have you guys ever had the same issue and found a solution? No causal update is established."
+  },
+  {
+    "review_id": "U173",
+    "reddit_id": "1t1wkvz",
+    "selection_group_audit_only": "phrase_flagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "confidence": "high",
+    "reason": "The saved text describes a software problem: I'm having a very odd and annoying issue. No causal update is established."
+  },
+  {
+    "review_id": "U174",
+    "reddit_id": "1uwwfws",
+    "selection_group_audit_only": "phrase_flagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "final": {
+      "about_software": "unclear",
+      "update_related": "no",
+      "discussion_type": "na"
+    },
+    "confidence": "low",
+    "reason": "The saved text is insufficient to identify a definite software cause or update link: Redmi Pad Pro Wi-Fi - USB Ethernet randomly stopped working (second time)"
+  },
+  {
+    "review_id": "U175",
+    "reddit_id": "1s17woc",
+    "selection_group_audit_only": "phrase_flagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "confidence": "high",
+    "reason": "The saved text describes a software problem: I am getting massive lag, freezing etc. No causal update is established."
+  },
+  {
+    "review_id": "U176",
+    "reddit_id": "1ug77bk",
+    "selection_group_audit_only": "phrase_flagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "confidence": "high",
+    "reason": "The saved text describes a software problem: Problem:** My Fedora system won't boot. No causal update is established."
+  },
+  {
+    "review_id": "U177",
+    "reddit_id": "1sanbzd",
+    "selection_group_audit_only": "phrase_flagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "yes",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "confidence": "high",
+    "reason": "The author initially suspected Windows updates, although the failure later recurred while updates were suspended."
+  },
+  {
+    "review_id": "U178",
+    "reddit_id": "1rw1cqr",
+    "selection_group_audit_only": "random_unflagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "confidence": "high",
+    "reason": "The saved text describes a software problem: Recently upgraded and can’t figure out why, when enabled, True Tune display brightness doesn’t kick in. No causal update is established."
+  },
+  {
+    "review_id": "U179",
+    "reddit_id": "1rvfs8g",
+    "selection_group_audit_only": "random_unflagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "general_dissatisfaction"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "confidence": "high",
+    "reason": "The saved text describes a software problem: So then as my fallback, I installed Linux Mint thinking it would solve the problem but still the camera drivers don't… No causal update is established."
+  },
+  {
+    "review_id": "U180",
+    "reddit_id": "1vzrgll",
+    "selection_group_audit_only": "phrase_flagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "yes",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "confidence": "high",
+    "reason": "The author states that an update broke multiple laptop functions, including the battery charge limit."
+  },
+  {
+    "review_id": "U181",
+    "reddit_id": "1wvj6an",
+    "selection_group_audit_only": "random_unflagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "confidence": "high",
+    "reason": "The saved text describes a software problem: My phone number won’t load and I’m currently receiving messages through my email instead. No causal update is established."
+  },
+  {
+    "review_id": "U182",
+    "reddit_id": "1uri2wv",
+    "selection_group_audit_only": "phrase_flagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "yes",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "confidence": "high",
+    "reason": "The author says the new Fedora account requirement appeared after a round of updates."
+  },
+  {
+    "review_id": "U183",
+    "reddit_id": "1vs9jnd",
+    "selection_group_audit_only": "phrase_flagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "yes",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "confidence": "high",
+    "reason": "The post links a concrete software failure to a change: I'm mentioning this because I know there have been fraudulent updates for certain extensions."
+  },
+  {
+    "review_id": "U184",
+    "reddit_id": "1s4c49q",
+    "selection_group_audit_only": "phrase_flagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "confidence": "high",
+    "reason": "The saved text describes a software problem: When they attempt to log into AVD, they get the error below: No causal update is established."
+  },
+  {
+    "review_id": "U185",
+    "reddit_id": "1sujbjv",
+    "selection_group_audit_only": "random_unflagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "general_dissatisfaction"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "general_dissatisfaction"
+    },
+    "confidence": "medium",
+    "reason": "The author mainly criticizes software without identifying a current update link: We’re getting hard stopped mid-week with:"
+  },
+  {
+    "review_id": "U186",
+    "reddit_id": "1prwu6c",
+    "selection_group_audit_only": "phrase_flagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "yes",
+      "discussion_type": "other"
+    },
+    "confidence": "high",
+    "reason": "The software change is the subject of this discussion: I don't know how to update the server."
+  },
+  {
+    "review_id": "U187",
+    "reddit_id": "1sb2ggs",
+    "selection_group_audit_only": "phrase_flagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "confidence": "high",
+    "reason": "The author explicitly says the scheduler failure did not start after an update."
+  },
+  {
+    "review_id": "U188",
+    "reddit_id": "1s5sv90",
+    "selection_group_audit_only": "random_unflagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "final": {
+      "about_software": "unclear",
+      "update_related": "no",
+      "discussion_type": "na"
+    },
+    "confidence": "low",
+    "reason": "Replacing a Wi-Fi card did not resolve game disconnections; no software update is linked."
+  },
+  {
+    "review_id": "U189",
+    "reddit_id": "1u8k5gi",
+    "selection_group_audit_only": "phrase_flagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "other"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "other"
+    },
+    "confidence": "high",
+    "reason": "This discusses software without a current update-linked failure: Used ai as sparring partner, managed to bring kinoite to the brink: apps would not open, crashes over crashes,…"
+  },
+  {
+    "review_id": "U190",
+    "reddit_id": "1rgmnxd",
+    "selection_group_audit_only": "phrase_flagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "yes",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "confidence": "high",
+    "reason": "The post links a concrete software failure to a change: At first, I didn't pay attention, thinking it was an update causing the problem and that Microsoft would fix it in…"
+  },
+  {
+    "review_id": "U191",
+    "reddit_id": "1v4zp08",
+    "selection_group_audit_only": "phrase_flagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "yes",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "confidence": "high",
+    "reason": "The post links a concrete software failure to a change: I'm on Windows 11 and a fully updated version of Chrome (so far as I know)."
+  },
+  {
+    "review_id": "U192",
+    "reddit_id": "1wt4rdp",
+    "selection_group_audit_only": "phrase_flagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "confidence": "high",
+    "reason": "The author says they doubt a Chrome update caused the failure; an outdated Android version is raised as a compatibility question."
+  },
+  {
+    "review_id": "U193",
+    "reddit_id": "1s1w12y",
+    "selection_group_audit_only": "phrase_flagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "yes",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "confidence": "high",
+    "reason": "The post links a concrete software failure to a change: Ubuntu Version:** 24.04.4 LTS"
+  },
+  {
+    "review_id": "U194",
+    "reddit_id": "1psmg31",
+    "selection_group_audit_only": "random_unflagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "confidence": "high",
+    "reason": "The saved text describes a software problem: I've tried everything that I can think of, clear cache, reinstall app, update server and phone app to latest version… No causal update is established."
+  },
+  {
+    "review_id": "U195",
+    "reddit_id": "1tcz99z",
+    "selection_group_audit_only": "phrase_flagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "yes",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "confidence": "high",
+    "reason": "The post links a concrete software failure to a change: Latest Nvidia studio driver installed, updated my comfyui and nodes (weirdly the problem seems to have gotten more…"
+  },
+  {
+    "review_id": "U196",
+    "reddit_id": "1usz61w",
+    "selection_group_audit_only": "phrase_flagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "unclear",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "confidence": "medium",
+    "reason": "The software problem is visible, but the update connection is uncertain: On the latest iOS / no beta version."
+  },
+  {
+    "review_id": "U197",
+    "reddit_id": "1pflnaj",
+    "selection_group_audit_only": "phrase_flagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "yes",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "confidence": "high",
+    "reason": "The post links a concrete software failure to a change: I checked the history on my desktop PC, and apparently my laptop tab history last updated about 30 minutes prior,…"
+  },
+  {
+    "review_id": "U198",
+    "reddit_id": "1tcj2jj",
+    "selection_group_audit_only": "phrase_flagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "confidence": "high",
+    "reason": "The saved text describes a software problem: It performs slower than my brothers, even thought we got it at the same time. No causal update is established."
+  },
+  {
+    "review_id": "U199",
+    "reddit_id": "1skhfo3",
+    "selection_group_audit_only": "phrase_flagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "yes",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "confidence": "high",
+    "reason": "The author suspects the overnight phone update after a temperature warning and restart loop appeared the next day."
+  },
+  {
+    "review_id": "U200",
+    "reddit_id": "1sq2fh7",
+    "selection_group_audit_only": "phrase_flagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "other"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "other"
+    },
+    "confidence": "high",
+    "reason": "\"This discusses software without a current update-linked failure: \"\" - - I just hope I won't need the BLISH HUD anytime soon!\""
+  },
+  {
+    "review_id": "U201",
+    "reddit_id": "1tk55v6",
+    "selection_group_audit_only": "random_unflagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "confidence": "high",
+    "reason": "The saved text describes a software problem: Error: Failed to add/activate new connection: Device class NMDeviceGeneric had no complete\\_connection method No causal update is established."
+  },
+  {
+    "review_id": "U202",
+    "reddit_id": "1wukv6w",
+    "selection_group_audit_only": "phrase_flagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "yes",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "confidence": "high",
+    "reason": "The post links a concrete software failure to a change: Ever since I updated my iPhone 15 Pro to iOS 27 I have been having this issue."
+  },
+  {
+    "review_id": "U203",
+    "reddit_id": "1vrnknh",
+    "selection_group_audit_only": "phrase_flagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "yes",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "confidence": "high",
+    "reason": "The post links a concrete software failure to a change: Ever since the update from couple months ago my chrome keep freezing up for 5-10 seconds whenever I open a new tab."
+  },
+  {
+    "review_id": "U204",
+    "reddit_id": "1u3e50f",
+    "selection_group_audit_only": "phrase_flagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "yes",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "confidence": "high",
+    "reason": "The iPhone update fails during Apple verification; the post is about that update process."
+  },
+  {
+    "review_id": "U205",
+    "reddit_id": "1szvqkz",
+    "selection_group_audit_only": "phrase_flagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "confidence": "high",
+    "reason": "The saved text describes a software problem: i am looking for some guidance of how to solve this issue. No causal update is established."
+  },
+  {
+    "review_id": "U206",
+    "reddit_id": "1s3hca6",
+    "selection_group_audit_only": "random_unflagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "yes",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "confidence": "high",
+    "reason": "The post links a concrete software failure to a change: This has been happening ever since I upgraded to Meerkat a while back."
+  },
+  {
+    "review_id": "U207",
+    "reddit_id": "1r66kb9",
+    "selection_group_audit_only": "phrase_flagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "general_dissatisfaction"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "confidence": "high",
+    "reason": "The saved text describes a software problem: [1:OP] 144.0.3719.115 (Official build) (64-bit) No causal update is established."
+  },
+  {
+    "review_id": "U208",
+    "reddit_id": "1wtk64v",
+    "selection_group_audit_only": "phrase_flagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "yes",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "confidence": "high",
+    "reason": "The post links a concrete software failure to a change: Is this a known bug with the latest Edge update?"
+  },
+  {
+    "review_id": "U209",
+    "reddit_id": "1pwxjg1",
+    "selection_group_audit_only": "phrase_flagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "confidence": "high",
+    "reason": "Windows and BIOS updates were tried as remedies for existing browser crashes."
+  },
+  {
+    "review_id": "U210",
+    "reddit_id": "1wtutws",
+    "selection_group_audit_only": "random_unflagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "confidence": "high",
+    "reason": "The saved text describes a software problem: I'm trying to export an XML file from Studio, import that from wp-admin on the live site, and then reconcile the… No causal update is established."
+  },
+  {
+    "review_id": "U211",
+    "reddit_id": "1o2vm24",
+    "selection_group_audit_only": "phrase_flagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "confidence": "high",
+    "reason": "The saved text describes a software problem: A google shows same issue but everyone seemed to fix with a manual update. No causal update is established."
+  },
+  {
+    "review_id": "U212",
+    "reddit_id": "1p39gbz",
+    "selection_group_audit_only": "phrase_flagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "yes",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "confidence": "high",
+    "reason": "The author describes Edge changing tab reload behavior after last week’s update and consuming more resources today."
+  },
+  {
+    "review_id": "U213",
+    "reddit_id": "1pbp7rl",
+    "selection_group_audit_only": "random_unflagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "other"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "other"
+    },
+    "confidence": "high",
+    "reason": "This discusses software without a current update-linked failure: [1:reply] Small [FYI]("
+  },
+  {
+    "review_id": "U214",
+    "reddit_id": "1u37try",
+    "selection_group_audit_only": "phrase_flagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "yes",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "confidence": "high",
+    "reason": "The post links a concrete software failure to a change: They came back after an update, but went away within a few hours."
+  },
+  {
+    "review_id": "U215",
+    "reddit_id": "1nw87sj",
+    "selection_group_audit_only": "random_unflagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "other"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "other"
+    },
+    "confidence": "high",
+    "reason": "The maintainer updated a README, which is documentation progress rather than a software release."
+  },
+  {
+    "review_id": "U216",
+    "reddit_id": "1vuuvwp",
+    "selection_group_audit_only": "phrase_flagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "confidence": "high",
+    "reason": "The saved text describes a software problem: Already did dnf update -y, enabled RPM Fusion free/nonfree, and tried installing akmod-wl and broadcom-wl, but got an… No causal update is established."
+  },
+  {
+    "review_id": "U217",
+    "reddit_id": "1wuofpf",
+    "selection_group_audit_only": "phrase_flagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "confidence": "high",
+    "reason": "The saved text describes a software problem: For some reason, youtube has decided that my firefox browser is a tv interface (i think) and as a result has completely… No causal update is established."
+  },
+  {
+    "review_id": "U218",
+    "reddit_id": "1ugyf56",
+    "selection_group_audit_only": "phrase_flagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "other"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "other"
+    },
+    "confidence": "high",
+    "reason": "The author asks for examples of how Linux has improved over many years; a generic mention of past updates is background."
+  },
+  {
+    "review_id": "U219",
+    "reddit_id": "1ou01h8",
+    "selection_group_audit_only": "phrase_flagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "confidence": "high",
+    "reason": "The saved text describes a software problem: EDIT: I solved my own issue. No causal update is established."
+  },
+  {
+    "review_id": "U220",
+    "reddit_id": "1nxmirq",
+    "selection_group_audit_only": "phrase_flagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "confidence": "high",
+    "reason": "The author states that no update preceded the kernel panic; a commenter suggests updating as a fix."
+  },
+  {
+    "review_id": "U221",
+    "reddit_id": "1uywzeh",
+    "selection_group_audit_only": "random_unflagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "confidence": "high",
+    "reason": "The saved text describes a software problem: So I got an iPhone 15 pro as my main device, it had an apple id made when i got it and it worked flawless, then i got… No causal update is established."
+  },
+  {
+    "review_id": "U222",
+    "reddit_id": "1tpu962",
+    "selection_group_audit_only": "phrase_flagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "yes",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "confidence": "high",
+    "reason": "The post links a concrete software failure to a change: So I was not happy but satisfied, until today, when Network update 10.4 exposed the SLA stats and I realized why the…"
+  },
+  {
+    "review_id": "U223",
+    "reddit_id": "1nut2lh",
+    "selection_group_audit_only": "random_unflagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "other"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "other"
+    },
+    "confidence": "high",
+    "reason": "This discusses software without a current update-linked failure: Any help is highly appreciated!"
+  },
+  {
+    "review_id": "U224",
+    "reddit_id": "1nwgz8q",
+    "selection_group_audit_only": "phrase_flagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "confidence": "high",
+    "reason": "The saved text describes a software problem: Guys i need help. No causal update is established."
+  },
+  {
+    "review_id": "U225",
+    "reddit_id": "1p8ydos",
+    "selection_group_audit_only": "phrase_flagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "other"
+    },
+    "confidence": "high",
+    "reason": "“Update (solved)” records an edit to the post, not a software version change."
+  },
+  {
+    "review_id": "U226",
+    "reddit_id": "1wxknx1",
+    "selection_group_audit_only": "phrase_flagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "confidence": "high",
+    "reason": "The author installed a Chrome update after crashes had already begun, so the update is a repair attempt."
+  },
+  {
+    "review_id": "U227",
+    "reddit_id": "1ricgry",
+    "selection_group_audit_only": "phrase_flagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "final": {
+      "about_software": "unclear",
+      "update_related": "no",
+      "discussion_type": "na"
+    },
+    "confidence": "low",
+    "reason": "The worsening followed replacement with a newer phone, which is a hardware upgrade."
+  },
+  {
+    "review_id": "U228",
+    "reddit_id": "1nqptsb",
+    "selection_group_audit_only": "phrase_flagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "confidence": "high",
+    "reason": "The saved text describes a software problem: [1:reply] It sounds like you're using an older version of docker compose. Your best bet going forward might be to… No causal update is established."
+  },
+  {
+    "review_id": "U229",
+    "reddit_id": "1s1m3t1",
+    "selection_group_audit_only": "random_unflagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "confidence": "high",
+    "reason": "The saved text describes a software problem: Hello all, as the post says I've been having issues with my laptop waking while it's suspended and the lid is closed. No causal update is established."
+  },
+  {
+    "review_id": "U230",
+    "reddit_id": "1se4jaz",
+    "selection_group_audit_only": "phrase_flagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "yes",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "confidence": "high",
+    "reason": "The post links a concrete software failure to a change: Hello, i recently installed fedora on my laptop lenovo, it worked fine for 1 month, but after i started installing…"
+  },
+  {
+    "review_id": "U231",
+    "reddit_id": "1owmfeg",
+    "selection_group_audit_only": "phrase_flagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "yes",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "confidence": "high",
+    "reason": "The author notes Chrome just updated while asking about a new unusual-usage prompt, suggesting a possible link."
+  },
+  {
+    "review_id": "U232",
+    "reddit_id": "1r0fb1j",
+    "selection_group_audit_only": "phrase_flagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "confidence": "high",
+    "reason": "The saved text describes a software problem: I stupidly installed Grammarly on my MacBook Air, thinking it would help me write a book. No causal update is established."
+  },
+  {
+    "review_id": "U233",
+    "reddit_id": "1vultlz",
+    "selection_group_audit_only": "phrase_flagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "confidence": "high",
+    "reason": "The saved text describes a software problem: Despite no error messages, I am no longer able to do anything internet related, as apt update fails to fetch and… No causal update is established."
+  },
+  {
+    "review_id": "U234",
+    "reddit_id": "1wy2hrg",
+    "selection_group_audit_only": "phrase_flagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "confidence": "high",
+    "reason": "The saved text describes a software problem: I'll start off by saying they're not enrolled in an MDM, everything is configured with a Stagenow batch and i've been… No causal update is established."
+  },
+  {
+    "review_id": "U235",
+    "reddit_id": "1s5o61b",
+    "selection_group_audit_only": "phrase_flagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "yes",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "confidence": "high",
+    "reason": "The post links a concrete software failure to a change: The problem mostly happens after I restart my laptop or after an update."
+  },
+  {
+    "review_id": "U236",
+    "reddit_id": "1pb5zvb",
+    "selection_group_audit_only": "random_unflagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "confidence": "high",
+    "reason": "\"The saved text describes a software problem: I get the \"\"side-by-side\"\" error randomly while doing nothing on the computer which I think means other programs are… No causal update is established.\""
+  },
+  {
+    "review_id": "U237",
+    "reddit_id": "1rlgq4n",
+    "selection_group_audit_only": "phrase_flagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "confidence": "high",
+    "reason": "The saved text describes a software problem: No confirmation, no error, just nothing happens. No causal update is established."
+  },
+  {
+    "review_id": "U238",
+    "reddit_id": "1so390d",
+    "selection_group_audit_only": "phrase_flagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "yes",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "confidence": "high",
+    "reason": "The post links a concrete software failure to a change: I have an active enhanced cybersecure subscription and it was working until either an update or switching timezones…"
+  },
+  {
+    "review_id": "U239",
+    "reddit_id": "1pzq59v",
+    "selection_group_audit_only": "random_unflagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "other"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "other"
+    },
+    "confidence": "high",
+    "reason": "This discusses software without a current update-linked failure: [1:reply] Start with the parent, suffer, and split to smaller scripts. Suffer again, and create a hybrid multilayer…"
+  },
+  {
+    "review_id": "U240",
+    "reddit_id": "1vr4c7h",
+    "selection_group_audit_only": "phrase_flagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "confidence": "high",
+    "reason": "The main issue is an Apple account lock; an older iOS version on a second phone is background, not a change blamed for the lock."
+  },
+  {
+    "review_id": "U241",
+    "reddit_id": "1pj1w6b",
+    "selection_group_audit_only": "phrase_flagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "confidence": "high",
+    "reason": "The saved text describes a software problem: My haptic touch is off for my whole phone, and I can't find any settings in chrome to fix it there. No causal update is established."
+  },
+  {
+    "review_id": "U242",
+    "reddit_id": "1wrf7nu",
+    "selection_group_audit_only": "phrase_flagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "confidence": "high",
+    "reason": "“Update” refers to app downloads blocked by an account lock, not a system release."
+  },
+  {
+    "review_id": "U243",
+    "reddit_id": "1ov0vjt",
+    "selection_group_audit_only": "phrase_flagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "general_dissatisfaction"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "yes",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "confidence": "high",
+    "reason": "The post links a concrete software failure to a change: Started with an update in February this year, but so *so* much worse since the update I did over the weekend."
+  },
+  {
+    "review_id": "U244",
+    "reddit_id": "1okor24",
+    "selection_group_audit_only": "phrase_flagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "other"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "yes",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "confidence": "high",
+    "reason": "The author reports a WordPress site breaking immediately after using a tool to run software updates."
+  },
+  {
+    "review_id": "U245",
+    "reddit_id": "1nvo2fe",
+    "selection_group_audit_only": "random_unflagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "confidence": "high",
+    "reason": "The Elementor “upgrades” option appears to be an account or site-plan step, with no software release linked to the two problems."
+  },
+  {
+    "review_id": "U246",
+    "reddit_id": "1t4yiv7",
+    "selection_group_audit_only": "phrase_flagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "confidence": "high",
+    "reason": "The saved text describes a software problem: can someone please help me its been over a day it randomly went to the screen on the first slide and its done that a… No causal update is established."
+  },
+  {
+    "review_id": "U247",
+    "reddit_id": "1pq2qrb",
+    "selection_group_audit_only": "phrase_flagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "yes",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "confidence": "high",
+    "reason": "The post links a concrete software failure to a change: Sometimes it catches up after a few seconds, but sometimes it does not, and the only way to get it to update is by…"
+  },
+  {
+    "review_id": "U248",
+    "reddit_id": "1szbb3p",
+    "selection_group_audit_only": "phrase_flagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "yes",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "confidence": "high",
+    "reason": "The post links a concrete software failure to a change: I'm experiencing I/O errors and constant crashing on a RaspberryPi 5 running Ubuntu 24.04.4 after Kernel update…"
+  },
+  {
+    "review_id": "U249",
+    "reddit_id": "1osh4xy",
+    "selection_group_audit_only": "phrase_flagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "confidence": "high",
+    "reason": "The extension stopped working after a free-to-Pro account change; that is a subscription upgrade, not a software release."
+  },
+  {
+    "review_id": "U250",
+    "reddit_id": "1uxehqq",
+    "selection_group_audit_only": "phrase_flagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "confidence": "high",
+    "reason": "The Play Store problem happens when pressing “check for updates”; later updates were attempted fixes, not a stated cause."
+  },
+  {
+    "review_id": "U251",
+    "reddit_id": "1uhxfjp",
+    "selection_group_audit_only": "phrase_flagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "yes",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "confidence": "high",
+    "reason": "The post links a concrete software failure to a change: I decided to update iOS from my Windows PC using Apple Devices."
+  },
+  {
+    "review_id": "U252",
+    "reddit_id": "1utuvqg",
+    "selection_group_audit_only": "phrase_flagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "confidence": "high",
+    "reason": "Updating Brave and BIOS are listed as attempts to fix existing access-violation crashes."
+  },
+  {
+    "review_id": "U253",
+    "reddit_id": "1nqqodm",
+    "selection_group_audit_only": "random_unflagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "confidence": "high",
+    "reason": "The saved text describes a software problem: [1:reply] Thank you for your submission to /r/Chrome! We hope you'll find the help you need. Once you've found a… No causal update is established."
+  },
+  {
+    "review_id": "U254",
+    "reddit_id": "1t1oc3q",
+    "selection_group_audit_only": "phrase_flagged",
+    "previous": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "final": {
+      "about_software": "yes",
+      "update_related": "no",
+      "discussion_type": "technical_troubleshooting"
+    },
+    "confidence": "high",
+    "reason": "“Website updates” means newly edited site content failing to appear through cache, not a software release."
+  }
+]

@@ -1,0 +1,21 @@
+{
+  "task": 1,
+  "decision": "skipped",
+  "reason": "One DVC pull of the official pySenti4SD remote did not deliver the Java jars or dsm.bin. The pull was stopped and was not retried.",
+  "source": "https://github.com/collab-uniba/pySenti4SD",
+  "commit": "5ed11f1f9bf42c113db064278fe7decaf07587c4",
+  "commit_date": "2024-06-21 17:20:54 +0200",
+  "senti4sd_model_sha256": "a0d05106bbeb923e22e1551e4bbbc1631fb8653a56f8412214fdf32fa7fa45f7",
+  "senti4sd_info_sha256": "96de7ce446babc13e2b96d4b32651eb3a7e27a22a8db86cbb54012da53ba5ee1",
+  "dvc_version": "3.67.1",
+  "dvc_install": "pip from PyPI into phase5/final_improvement/vendor_dvc",
+  "java": "OpenJDK 25.0.1 at /opt/homebrew/opt/openjdk/bin/java. The default PATH java launcher is absent.",
+  "remote": "https://dagshub.com/collab-uniba/pySenti4SD.dvc",
+  "command": "python -m dvc pull -r origin",
+  "elapsed_before_stop_s": 180,
+  "artifacts_present_after_stop": ["java/NgramsExtraction.jar.dvc", "java/Senti4SD-fast.jar.dvc", "java/Senti4SD.jar.dvc", "java/dsm.bin.dvc"],
+  "artifacts_missing": ["java/Senti4SD.jar", "java/Senti4SD-fast.jar", "java/NgramsExtraction.jar", "java/dsm.bin"],
+  "development_rows_scored": 0,
+  "generic_sentistrength_used": false,
+  "protected_tests_read": false
+}

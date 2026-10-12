@@ -1,0 +1,1895 @@
+{
+  "generated_at_utc": "2026-10-05T20:28:47.273374+00:00",
+  "labels": {
+    "unique_file_rows": 542,
+    "unique_ids": 542,
+    "tps": 86,
+    "gds": 456,
+    "nonunique_file_rows": 574,
+    "duplicate_ids_in_nonunique": 32,
+    "extra_rows": 32,
+    "conflicting_duplicate_labels": [
+      {
+        "reddit_id": "1nwek0u",
+        "n": 2,
+        "corrected": [
+          "0"
+        ],
+        "label_current": [
+          "0",
+          "1"
+        ],
+        "title": "Should I switch from Windows 10 to Linux?"
+      },
+      {
+        "reddit_id": "1pjzzxl",
+        "n": 2,
+        "corrected": [
+          "0"
+        ],
+        "label_current": [
+          "0",
+          "1"
+        ],
+        "title": "Google Pixel 10 performance reportedly jumps after Android 16 QPR2 update | Android Central"
+      },
+      {
+        "reddit_id": "1pf32mo",
+        "n": 2,
+        "corrected": [
+          "1"
+        ],
+        "label_current": [
+          "0",
+          "1"
+        ],
+        "title": "Microsoft wants to fix app updates on Windows 11 \u2014 previews new update orchestrator platform designed make them invisibl"
+      },
+      {
+        "reddit_id": "1o0mf1k",
+        "n": 2,
+        "corrected": [
+          "0"
+        ],
+        "label_current": [
+          "0",
+          "1"
+        ],
+        "title": "Updating ID"
+      },
+      {
+        "reddit_id": "1s3xn24",
+        "n": 2,
+        "corrected": [
+          "0"
+        ],
+        "label_current": [
+          "0",
+          "1"
+        ],
+        "title": "S22 Ultra vs S23 Ultra vs S24 Ultra vs S25 Ultra vs S26 Ultra - (Speed, Speakers, PUBG &amp; Updates) - Matthews Tech"
+      },
+      {
+        "reddit_id": "1nubblp",
+        "n": 2,
+        "corrected": [
+          "0"
+        ],
+        "label_current": [
+          "0",
+          "1"
+        ],
+        "title": "Migration from Old Storage Configuration"
+      },
+      {
+        "reddit_id": "1qosy2r",
+        "n": 2,
+        "corrected": [
+          "0"
+        ],
+        "label_current": [
+          "0",
+          "1"
+        ],
+        "title": "Google's January Pixel update breaks Wi-Fi and Bluetooth"
+      },
+      {
+        "reddit_id": "1nv9moy",
+        "n": 2,
+        "corrected": [
+          "0"
+        ],
+        "label_current": [
+          "0",
+          "1"
+        ],
+        "title": "Delegate_to: localhost gives me trouble"
+      },
+      {
+        "reddit_id": "1oetmbo",
+        "n": 2,
+        "corrected": [
+          "1"
+        ],
+        "label_current": [
+          "0",
+          "1"
+        ],
+        "title": "Ubuntu 25.10 Unattended Upgrades Broken Due To Rust Coreutils Bug"
+      },
+      {
+        "reddit_id": "1okf2z9",
+        "n": 2,
+        "corrected": [
+          "0"
+        ],
+        "label_current": [
+          "0",
+          "1"
+        ],
+        "title": "Galaxy S22 phones in the US are getting their last major Android update"
+      },
+      {
+        "reddit_id": "1qzzr7s",
+        "n": 2,
+        "corrected": [
+          "0"
+        ],
+        "label_current": [
+          "0",
+          "1"
+        ],
+        "title": "Castle Game Engine : Upgrade to GTK 3"
+      },
+      {
+        "reddit_id": "1nwb2xm",
+        "n": 2,
+        "corrected": [
+          "0"
+        ],
+        "label_current": [
+          "0",
+          "1"
+        ],
+        "title": "@ts-ignore is almost always the worst option"
+      },
+      {
+        "reddit_id": "1otknz2",
+        "n": 2,
+        "corrected": [
+          "0"
+        ],
+        "label_current": [
+          "0",
+          "1"
+        ],
+        "title": "cant be more true"
+      },
+      {
+        "reddit_id": "1ridipg",
+        "n": 2,
+        "corrected": [
+          "0"
+        ],
+        "label_current": [
+          "0",
+          "1"
+        ],
+        "title": "Been awhile since I posted an update about the skateboarding game, it's mostly been backend work"
+      },
+      {
+        "reddit_id": "1ov3lw7",
+        "n": 2,
+        "corrected": [
+          "0"
+        ],
+        "label_current": [
+          "0",
+          "1"
+        ],
+        "title": "Chromecast with Google TV (4K) gets its first new security update in 10 months"
+      },
+      {
+        "reddit_id": "1nwjxmb",
+        "n": 2,
+        "corrected": [
+          "0"
+        ],
+        "label_current": [
+          "0",
+          "1"
+        ],
+        "title": "Ladybird browser update (September 2025)"
+      },
+      {
+        "reddit_id": "1piwkia",
+        "n": 2,
+        "corrected": [
+          "0"
+        ],
+        "label_current": [
+          "0",
+          "1"
+        ],
+        "title": "Is there a compelling reason for Fedora to perform updates in this Windows-style manner? Why can\u2019t the system apply upda"
+      },
+      {
+        "reddit_id": "1oi8pv0",
+        "n": 2,
+        "corrected": [
+          "0"
+        ],
+        "label_current": [
+          "0",
+          "1"
+        ],
+        "title": "how do i upgrade to fedora 43?"
+      },
+      {
+        "reddit_id": "1ouqaca",
+        "n": 2,
+        "corrected": [
+          "0"
+        ],
+        "label_current": [
+          "0",
+          "1"
+        ],
+        "title": "Galaxy S26 Ultra could get big upgrades to both wired and wireless charging"
+      },
+      {
+        "reddit_id": "1s0pjwp",
+        "n": 2,
+        "corrected": [
+          "0"
+        ],
+        "label_current": [
+          "0",
+          "1"
+        ],
+        "title": "What do you guys do with the older versions after you get an updated figure of the character?"
+      },
+      {
+        "reddit_id": "1pkuzvl",
+        "n": 2,
+        "corrected": [
+          "0"
+        ],
+        "label_current": [
+          "0",
+          "1"
+        ],
+        "title": "Google's making a silly and annoying change to how you uninstall system app updates"
+      },
+      {
+        "reddit_id": "1qjuc4c",
+        "n": 2,
+        "corrected": [
+          "0"
+        ],
+        "label_current": [
+          "0",
+          "1"
+        ],
+        "title": "Still don't have the Pixel January 2026 update? You're not alone!"
+      },
+      {
+        "reddit_id": "1rlfl0h",
+        "n": 2,
+        "corrected": [
+          "0"
+        ],
+        "label_current": [
+          "0",
+          "1"
+        ],
+        "title": "Nothing Phone (4a) series goes official with major Pro upgrades from \u00a3349"
+      },
+      {
+        "reddit_id": "1qqmkro",
+        "n": 2,
+        "corrected": [
+          "0"
+        ],
+        "label_current": [
+          "0",
+          "1"
+        ],
+        "title": "DNA Design DK-80 HasLab Omega Prime Upgrade Kit"
+      },
+      {
+        "reddit_id": "1pu0iv9",
+        "n": 2,
+        "corrected": [
+          "0"
+        ],
+        "label_current": [
+          "0",
+          "1"
+        ],
+        "title": "Fairphone 4 beta update accidentally released to all. Found to be bricking phones"
+      },
+      {
+        "reddit_id": "1ojahew",
+        "n": 2,
+        "corrected": [
+          "0"
+        ],
+        "label_current": [
+          "0",
+          "1"
+        ],
+        "title": "Bazzite Fall Update: Fedora 43, Xbox Allies, Legion Go 2, Nvidia GTX - Bazzite"
+      },
+      {
+        "reddit_id": "1p1gzjd",
+        "n": 2,
+        "corrected": [
+          "0"
+        ],
+        "label_current": [
+          "0",
+          "1"
+        ],
+        "title": "Pixel phones in the US are finally getting this hotspot upgrade unlocked"
+      },
+      {
+        "reddit_id": "1o08qdu",
+        "n": 2,
+        "corrected": [
+          "0"
+        ],
+        "label_current": [
+          "0",
+          "1"
+        ],
+        "title": "Windows 10 refugee here, I want to change to Linux but I don't know where to start"
+      },
+      {
+        "reddit_id": "1nzjypu",
+        "n": 2,
+        "corrected": [
+          "0"
+        ],
+        "label_current": [
+          "0",
+          "1"
+        ],
+        "title": "[OC] Combiner Wars Overlord"
+      },
+      {
+        "reddit_id": "1rz1h1v",
+        "n": 2,
+        "corrected": [
+          "0"
+        ],
+        "label_current": [
+          "0",
+          "1"
+        ],
+        "title": "jellybeans.nvim update: two new theme variants!"
+      },
+      {
+        "reddit_id": "1o0sfq3",
+        "n": 2,
+        "corrected": [
+          "0"
+        ],
+        "label_current": [
+          "0",
+          "1"
+        ],
+        "title": "PostgreSQL with Alembic and psycopg2, psycopg3, or asyncpg"
+      },
+      {
+        "reddit_id": "1nxiv7z",
+        "n": 2,
+        "corrected": [
+          "1"
+        ],
+        "label_current": [
+          "0",
+          "1"
+        ],
+        "title": "Quick Update, Fixed the chin issue, Instructions are given in the description"
+      }
+    ],
+    "nonempty_notes_unique": 0,
+    "api_vs_gold_disagreements": 130,
+    "disagreement_rate": 0.2399,
+    "label_current_counts": {
+      "1": 74,
+      "0": 468
+    },
+    "missing_title": 0,
+    "missing_url": 0,
+    "missing_subreddit": 0,
+    "n_subreddits": 70,
+    "top_subreddits": [
+      [
+        "Android",
+        87
+      ],
+      [
+        "transformers",
+        83
+      ],
+      [
+        "Bitcoin",
+        56
+      ],
+      [
+        "chrome",
+        42
+      ],
+      [
+        "linux",
+        25
+      ],
+      [
+        "comfyui",
+        16
+      ],
+      [
+        "neovim",
+        16
+      ],
+      [
+        "immich",
+        15
+      ],
+      [
+        "rust",
+        14
+      ],
+      [
+        "Wordpress",
+        13
+      ],
+      [
+        "MacOS",
+        13
+      ],
+      [
+        "godot",
+        12
+      ],
+      [
+        "google",
+        9
+      ],
+      [
+        "MicrosoftEdge",
+        8
+      ],
+      [
+        "firefox",
+        7
+      ],
+      [
+        "kubernetes",
+        6
+      ],
+      [
+        "union",
+        6
+      ],
+      [
+        "PHP",
+        6
+      ],
+      [
+        "Fedora",
+        5
+      ],
+      [
+        "Ubiquiti",
+        5
+      ]
+    ],
+    "top_tps_subreddits": [
+      [
+        "chrome",
+        15
+      ],
+      [
+        "comfyui",
+        6
+      ],
+      [
+        "immich",
+        6
+      ],
+      [
+        "Android",
+        6
+      ],
+      [
+        "transformers",
+        6
+      ],
+      [
+        "Bitcoin",
+        5
+      ],
+      [
+        "firefox",
+        5
+      ],
+      [
+        "linux",
+        4
+      ],
+      [
+        "MicrosoftEdge",
+        3
+      ],
+      [
+        "Fedora",
+        2
+      ],
+      [
+        "Wordpress",
+        2
+      ],
+      [
+        "godot",
+        2
+      ],
+      [
+        "Syncthing",
+        2
+      ],
+      [
+        "google",
+        2
+      ],
+      [
+        "openssl",
+        2
+      ]
+    ],
+    "tier_a_n": 304,
+    "tier_a_tps": 53,
+    "tier_a_gds": 251,
+    "outside_tier_a": [
+      [
+        "transformers",
+        83
+      ],
+      [
+        "Bitcoin",
+        56
+      ],
+      [
+        "google",
+        9
+      ],
+      [
+        "MicrosoftEdge",
+        8
+      ],
+      [
+        "union",
+        6
+      ],
+      [
+        "Fedora",
+        5
+      ],
+      [
+        "Ubiquiti",
+        5
+      ],
+      [
+        "applehelp",
+        5
+      ],
+      [
+        "windows",
+        4
+      ],
+      [
+        "homeassistant",
+        4
+      ],
+      [
+        "ios",
+        3
+      ],
+      [
+        "ansible",
+        3
+      ],
+      [
+        "thrive",
+        3
+      ],
+      [
+        "Ubuntu",
+        3
+      ],
+      [
+        "tailwindcss",
+        3
+      ],
+      [
+        "anime",
+        3
+      ],
+      [
+        "microsoft",
+        2
+      ],
+      [
+        "angular",
+        2
+      ],
+      [
+        "vmware",
+        2
+      ],
+      [
+        "Syncthing",
+        2
+      ],
+      [
+        "openssl",
+        2
+      ],
+      [
+        "NixOS",
+        1
+      ],
+      [
+        "FastAPI",
+        1
+      ],
+      [
+        "OpenSSH",
+        1
+      ],
+      [
+        "ruby",
+        1
+      ]
+    ],
+    "guideline_examples": [
+      {
+        "reddit_id": "1o0nzld",
+        "expected": 1,
+        "present": true,
+        "corrected": 1,
+        "matches": true,
+        "subreddit": "comfyui",
+        "title": "After update doesn't work FaceDetailer"
+      },
+      {
+        "reddit_id": "1r2myps",
+        "expected": 1,
+        "present": true,
+        "corrected": 1,
+        "matches": true,
+        "subreddit": "immich",
+        "title": "Error since the latest update. Working well on Web version..."
+      },
+      {
+        "reddit_id": "1nwebdk",
+        "expected": 1,
+        "present": true,
+        "corrected": 1,
+        "matches": true,
+        "subreddit": "chrome",
+        "title": "Latest Version (141.0.7390.55) introduces bug to \"Auto Dark Mode for Web Contents\" on Windows 11"
+      },
+      {
+        "reddit_id": "1oetmbo",
+        "expected": 1,
+        "present": true,
+        "corrected": 1,
+        "matches": true,
+        "subreddit": "linux",
+        "title": "Ubuntu 25.10 Unattended Upgrades Broken Due To Rust Coreutils Bug"
+      },
+      {
+        "reddit_id": "1ql2670",
+        "expected": 1,
+        "present": true,
+        "corrected": 1,
+        "matches": true,
+        "subreddit": "comfyui",
+        "title": "I un-installed and re-installed ComfyUI which broke my one of my favorite workflows...how do i fix this?"
+      },
+      {
+        "reddit_id": "1nqixzh",
+        "expected": 1,
+        "present": true,
+        "corrected": 1,
+        "matches": true,
+        "subreddit": "chrome",
+        "title": "My chrome randomly freezes every after a few hours ever since I upgraded my Mac(M1) to MacOS Tahoe"
+      },
+      {
+        "reddit_id": "1nze9rs",
+        "expected": 0,
+        "present": true,
+        "corrected": 0,
+        "matches": true,
+        "subreddit": "neovim",
+        "title": "Your go-to plugin store just got an upgrade \u2014 vim.pack support and 5.5k verified entries"
+      },
+      {
+        "reddit_id": "1misnpf",
+        "expected": 0,
+        "present": false,
+        "corrected": null,
+        "matches": null,
+        "subreddit": null,
+        "title": null
+      },
+      {
+        "reddit_id": "1mlixg3",
+        "expected": 0,
+        "present": false,
+        "corrected": null,
+        "matches": null,
+        "subreddit": null,
+        "title": null
+      },
+      {
+        "reddit_id": "1mhlyz0",
+        "expected": 0,
+        "present": false,
+        "corrected": null,
+        "matches": null,
+        "subreddit": null,
+        "title": null
+      },
+      {
+        "reddit_id": "1mul6k9",
+        "expected": 0,
+        "present": false,
+        "corrected": null,
+        "matches": null,
+        "subreddit": null,
+        "title": null
+      },
+      {
+        "reddit_id": "1mid4hg",
+        "expected": 0,
+        "present": false,
+        "corrected": null,
+        "matches": null,
+        "subreddit": null,
+        "title": null
+      }
+    ]
+  },
+  "dataset_json": {
+    "meta": {
+      "fetched_at_utc": "2026-03-27T17:05:26.619683+00:00",
+      "n_records": 574,
+      "label_1_tps": 74,
+      "label_0_gds": 500,
+      "label_policy": "Candidate labels: TPS from minScore=0.3 filter; GDS from maxScore=0.5 filter. Not gold labels \u2014 verify manually before publication.",
+      "pagination_note": "ReleaseTrain filter API ignores offset/skip/page in tests; fetch uses a single request per endpoint with `limit`. Increase --limit if the backend supports more rows per call.",
+      "endpoints": {
+        "tps_candidates": "https://releasetrain.io/api/reddit/query/filter?minComments=3&minScore=0.3&limit=2000",
+        "gds_candidates": "https://releasetrain.io/api/reddit/query/filter?minComments=3&maxScore=0.5&limit=2000"
+      },
+      "imbalance_handling_note": "Prefer class_weight / weighted loss in training rather than dropping rows; optionally verify and relabel before comparing models."
+    },
+    "n_records": 574,
+    "duplicate_reddit_ids": 32,
+    "ids_not_in_gold": [],
+    "n_ids_not_in_gold": 0,
+    "gold_ids_not_in_json": [],
+    "empty_cleaned_text": 0,
+    "empty_title": 0,
+    "empty_body": 465,
+    "comments_included_hist": {
+      "3": 73,
+      "4": 52,
+      "5": 49,
+      "6": 42,
+      "7": 20,
+      "8": 14,
+      "9": 23,
+      "10": 301
+    },
+    "duplicate_exact_titles": [
+      {
+        "title": "dear rubyists: shopify isn\u2019t your enemy",
+        "ids": [
+          "1o279df",
+          "1o27asc"
+        ]
+      },
+      {
+        "title": "firefox 145.0, see all new features, updates and fixes",
+        "ids": [
+          "1oualms",
+          "1oualta"
+        ]
+      },
+      {
+        "title": "true",
+        "ids": [
+          "1oqw3rs",
+          "1orufxn"
+        ]
+      },
+      {
+        "title": "lol",
+        "ids": [
+          "1ozmsya",
+          "1qjvmr5",
+          "1qh5yro",
+          "1pqrraz"
+        ]
+      }
+    ],
+    "n_duplicate_exact_titles": 4
+  },
+  "raw_pools": {
+    "tps": {
+      "name": "tps",
+      "fetched_at_utc": "2026-03-27T17:05:26.619683+00:00",
+      "response_total_field": 74,
+      "n_returned": 74,
+      "filters": {
+        "minComments": 3,
+        "minScore": 0.3,
+        "maxScore": null,
+        "limit": 500
+      },
+      "positiveScore_present": 74,
+      "positiveScore_missing": 0,
+      "positiveScore_min": 0.3065117419763244,
+      "positiveScore_max": 0.9978465143643727,
+      "positiveScore_ge_0.3": 74,
+      "positiveScore_le_0.5": 32,
+      "positiveScore_between_0.3_and_0.5": 32,
+      "reddit_score_min": 0,
+      "reddit_score_has_zero": 8,
+      "sum_num_comments": 2456,
+      "sum_stored_comments": 1356,
+      "stored_over_num_comments": 0.5521,
+      "posts_stored_lt_num_comments": 56,
+      "empty_author_description": 52,
+      "posts_with_no_comments_array": 0,
+      "empty_comment_bodies": 0,
+      "comment_bodies": 1356,
+      "comments_matching_i_am_a_bot": 4,
+      "is_submitter_vs_author_name_mismatches": 0,
+      "is_submitter_checked": 1356,
+      "unparsed_timestamps": 0,
+      "created_min": "2025-09-23T11:18:17",
+      "created_max": "2026-03-27T12:12:53",
+      "isUpdateRelated": {
+        "True": 42,
+        "False": 32
+      },
+      "category": {
+        "Neutral": 11,
+        "Positive": 15,
+        "None": 42,
+        "Negative": 6
+      },
+      "tag_top": [
+        [
+          "None",
+          28
+        ],
+        [
+          "News",
+          10
+        ],
+        [
+          "Discussion",
+          6
+        ],
+        [
+          "Troubleshooting | Windows",
+          2
+        ],
+        [
+          "Support",
+          2
+        ],
+        [
+          "Alternative OS",
+          2
+        ],
+        [
+          "Distro News",
+          2
+        ],
+        [
+          "Development",
+          2
+        ],
+        [
+          "Tutorial",
+          1
+        ],
+        [
+          "Troubleshooting | Mac",
+          1
+        ],
+        [
+          "Random",
+          1
+        ],
+        [
+          "\ud83d\udcbb Help",
+          1
+        ],
+        [
+          "Help",
+          1
+        ],
+        [
+          "QUESTION",
+          1
+        ],
+        [
+          "New Purchases",
+          1
+        ]
+      ]
+    },
+    "gds": {
+      "name": "gds",
+      "fetched_at_utc": "2026-03-27T17:05:26.619683+00:00",
+      "response_total_field": 500,
+      "n_returned": 500,
+      "filters": {
+        "minComments": 3,
+        "minScore": null,
+        "maxScore": 0.5,
+        "limit": 500
+      },
+      "positiveScore_present": 500,
+      "positiveScore_missing": 0,
+      "positiveScore_min": 0.012050852487786107,
+      "positiveScore_max": 0.4981927675243188,
+      "positiveScore_ge_0.3": 32,
+      "positiveScore_le_0.5": 500,
+      "positiveScore_between_0.3_and_0.5": 32,
+      "reddit_score_min": 0,
+      "reddit_score_has_zero": 32,
+      "sum_num_comments": 16543,
+      "sum_stored_comments": 9838,
+      "stored_over_num_comments": 0.5947,
+      "posts_stored_lt_num_comments": 368,
+      "empty_author_description": 413,
+      "posts_with_no_comments_array": 0,
+      "empty_comment_bodies": 0,
+      "comment_bodies": 9838,
+      "comments_matching_i_am_a_bot": 44,
+      "is_submitter_vs_author_name_mismatches": 0,
+      "is_submitter_checked": 9838,
+      "unparsed_timestamps": 0,
+      "created_min": "2025-01-28T14:50:47",
+      "created_max": "2026-03-26T20:52:44",
+      "isUpdateRelated": {
+        "False": 500
+      },
+      "category": {
+        "Neutral": 77,
+        "None": 354,
+        "Positive": 58,
+        "Negative": 11
+      },
+      "tag_top": [
+        [
+          "None",
+          198
+        ],
+        [
+          "News",
+          43
+        ],
+        [
+          "Photography / Poses",
+          25
+        ],
+        [
+          "Discussion",
+          22
+        ],
+        [
+          "Discussion / Opinion",
+          18
+        ],
+        [
+          "New Purchases",
+          18
+        ],
+        [
+          "Troubleshooting | Windows",
+          13
+        ],
+        [
+          "Creative",
+          9
+        ],
+        [
+          "Help Needed",
+          7
+        ],
+        [
+          "Troubleshooting | Android",
+          7
+        ],
+        [
+          "Rumour",
+          6
+        ],
+        [
+          "Software Release",
+          6
+        ],
+        [
+          "Article",
+          6
+        ],
+        [
+          "Plugin",
+          5
+        ],
+        [
+          "\ud83d\udce1 official blog",
+          5
+        ]
+      ]
+    },
+    "overlap_ids": 32,
+    "overlap_comment_count_diffs": 0,
+    "overlap_examples": [
+      {
+        "reddit_id": "1nubblp",
+        "title_equal": true,
+        "n_comments_tps_copy": 3,
+        "n_comments_gds_copy": 3,
+        "positiveScore_tps_copy": 0.44598640185675437,
+        "positiveScore_gds_copy": 0.44598640185675437
+      },
+      {
+        "reddit_id": "1nv9moy",
+        "title_equal": true,
+        "n_comments_tps_copy": 7,
+        "n_comments_gds_copy": 7,
+        "positiveScore_tps_copy": 0.4405070139821207,
+        "positiveScore_gds_copy": 0.4405070139821207
+      },
+      {
+        "reddit_id": "1nwb2xm",
+        "title_equal": true,
+        "n_comments_tps_copy": 13,
+        "n_comments_gds_copy": 13,
+        "positiveScore_tps_copy": 0.4015926963210548,
+        "positiveScore_gds_copy": 0.4015926963210548
+      },
+      {
+        "reddit_id": "1nwek0u",
+        "title_equal": true,
+        "n_comments_tps_copy": 13,
+        "n_comments_gds_copy": 13,
+        "positiveScore_tps_copy": 0.4981927675243188,
+        "positiveScore_gds_copy": 0.4981927675243188
+      },
+      {
+        "reddit_id": "1nwjxmb",
+        "title_equal": true,
+        "n_comments_tps_copy": 37,
+        "n_comments_gds_copy": 37,
+        "positiveScore_tps_copy": 0.38169079709229703,
+        "positiveScore_gds_copy": 0.38169079709229703
+      },
+      {
+        "reddit_id": "1nxiv7z",
+        "title_equal": true,
+        "n_comments_tps_copy": 26,
+        "n_comments_gds_copy": 26,
+        "positiveScore_tps_copy": 0.3065117419763244,
+        "positiveScore_gds_copy": 0.3065117419763244
+      },
+      {
+        "reddit_id": "1nzjypu",
+        "title_equal": true,
+        "n_comments_tps_copy": 11,
+        "n_comments_gds_copy": 11,
+        "positiveScore_tps_copy": 0.3080386552136305,
+        "positiveScore_gds_copy": 0.3080386552136305
+      },
+      {
+        "reddit_id": "1o08qdu",
+        "title_equal": true,
+        "n_comments_tps_copy": 82,
+        "n_comments_gds_copy": 82,
+        "positiveScore_tps_copy": 0.3119102800581039,
+        "positiveScore_gds_copy": 0.3119102800581039
+      }
+    ],
+    "trajectory_title_fallback_posts": 205,
+    "trajectory_body_but_no_author_comments": 38,
+    "trajectory_zero_community_comments": 0,
+    "mean_author_comment_count": 1.492619926199262,
+    "posts_with_zero_author_comments": 243,
+    "gold_missing_from_raw_merge": 0
+  },
+  "lexical_title_vader": {
+    "mean_title_compound_tps": -0.14845930232558138,
+    "mean_title_compound_gds": 0.06042543859649122,
+    "mean_title_compound_tech_masked_tps": -0.06228139534883721,
+    "mean_title_compound_tech_masked_gds": 0.06042543859649122,
+    "tech_cue_rate_tps": 0.5116279069767442,
+    "tech_cue_rate_gds": 0.23026315789473684,
+    "announce_keyword_rate_tps": 0.011627906976744186,
+    "announce_keyword_rate_gds": 0.021929824561403508,
+    "announce_keyword_tps_examples": [
+      {
+        "id": "1onnoh7",
+        "sub": "Android",
+        "title": "Android November security update is out, fixes two vulnerabilities"
+      }
+    ],
+    "positiveScore_mean_by_gold": {
+      "TPS": 0.18904640919285556,
+      "GDS": 0.1331068731476488
+    },
+    "category_by_gold_label": [
+      {
+        "gold": 0,
+        "category": "None",
+        "n": 321
+      },
+      {
+        "gold": 0,
+        "category": "Neutral",
+        "n": 66
+      },
+      {
+        "gold": 0,
+        "category": "Positive",
+        "n": 58
+      },
+      {
+        "gold": 1,
+        "category": "None",
+        "n": 53
+      },
+      {
+        "gold": 1,
+        "category": "Neutral",
+        "n": 19
+      },
+      {
+        "gold": 0,
+        "category": "Negative",
+        "n": 11
+      },
+      {
+        "gold": 1,
+        "category": "Positive",
+        "n": 9
+      },
+      {
+        "gold": 1,
+        "category": "Negative",
+        "n": 5
+      }
+    ],
+    "tag_by_gold_label_top": [
+      {
+        "gold": 0,
+        "tag": "None",
+        "n": 175
+      },
+      {
+        "gold": 0,
+        "tag": "News",
+        "n": 49
+      },
+      {
+        "gold": 1,
+        "tag": "None",
+        "n": 40
+      },
+      {
+        "gold": 0,
+        "tag": "Discussion",
+        "n": 25
+      },
+      {
+        "gold": 0,
+        "tag": "Photography / Poses",
+        "n": 25
+      },
+      {
+        "gold": 0,
+        "tag": "New Purchases",
+        "n": 17
+      },
+      {
+        "gold": 0,
+        "tag": "Discussion / Opinion",
+        "n": 16
+      },
+      {
+        "gold": 0,
+        "tag": "Troubleshooting | Windows",
+        "n": 9
+      },
+      {
+        "gold": 0,
+        "tag": "Creative",
+        "n": 8
+      },
+      {
+        "gold": 1,
+        "tag": "Troubleshooting | Windows",
+        "n": 6
+      },
+      {
+        "gold": 0,
+        "tag": "Rumour",
+        "n": 6
+      },
+      {
+        "gold": 0,
+        "tag": "Article",
+        "n": 6
+      },
+      {
+        "gold": 0,
+        "tag": "Software Release",
+        "n": 5
+      },
+      {
+        "gold": 0,
+        "tag": "Plugin",
+        "n": 5
+      },
+      {
+        "gold": 0,
+        "tag": "\ud83d\udce1 official blog",
+        "n": 5
+      },
+      {
+        "gold": 0,
+        "tag": "selfpromo (games)",
+        "n": 5
+      },
+      {
+        "gold": 0,
+        "tag": "Help",
+        "n": 4
+      },
+      {
+        "gold": 0,
+        "tag": "Help Needed",
+        "n": 4
+      },
+      {
+        "gold": 0,
+        "tag": "Video",
+        "n": 4
+      },
+      {
+        "gold": 1,
+        "tag": "Troubleshooting | Android",
+        "n": 4
+      },
+      {
+        "gold": 0,
+        "tag": "fun &amp; memes",
+        "n": 4
+      },
+      {
+        "gold": 1,
+        "tag": "Help Needed",
+        "n": 4
+      },
+      {
+        "gold": 0,
+        "tag": "Support",
+        "n": 3
+      },
+      {
+        "gold": 0,
+        "tag": "Development",
+        "n": 3
+      },
+      {
+        "gold": 0,
+        "tag": "Distro News",
+        "n": 3
+      }
+    ]
+  },
+  "c1_saved_means": {
+    "divergence_tps": 0.3709639534883721,
+    "divergence_gds": 0.2872486842105263,
+    "author_mean_tps": 0.009058139534883722,
+    "author_mean_gds": 0.1910519736842105,
+    "community_mean_tps": 0.16831046511627906,
+    "community_mean_gds": 0.19403771929824562,
+    "author_more_negative_tps": 0.6976744186046512,
+    "author_more_negative_gds": 0.5372807017543859,
+    "n": 542,
+    "trajectory_eligible_false": 0,
+    "notes": {
+      "ok": 542
+    }
+  },
+  "human": {
+    "n": 80,
+    "columns": [
+      "reddit_id",
+      "url",
+      "subreddit",
+      "title_raw",
+      "gold_corrected_label",
+      "gold_label_name",
+      "human_label_tps_gds",
+      "human_divergence_rating",
+      "human_notes",
+      "vader_divergence",
+      "vader_author_more_negative"
+    ],
+    "gold_tps": 13,
+    "label_agreement": 0.9125,
+    "divergence_agreement": 0.325,
+    "notes_nonempty": 80,
+    "note_conflicts": [
+      {
+        "reddit_id": "1nuwiid",
+        "subreddit": "chrome",
+        "title": "Youtube videos show grey/blank screen when playing, but plays audio. Windows 11",
+        "gold": 0,
+        "human": 0,
+        "agree_gold": true,
+        "note": "Technical troubleshooting thread about Chrome/YouTube blank video issue after update/HDR problem.",
+        "human_div": "author_more_negative",
+        "vader_bucket": "author_more_negative",
+        "div_agree": true,
+        "note_vs_human_tps_conflict": false,
+        "note_vs_human_gds_conflict": true,
+        "note_vs_gold_tps_conflict": false,
+        "note_vs_gold_gds_conflict": true
+      },
+      {
+        "reddit_id": "1nqu3ag",
+        "subreddit": "typescript",
+        "title": "Pipetype: TypeScript Unions, JavaScript Bitwise Operators, and My Favorite Failed Experiment",
+        "gold": 1,
+        "human": 1,
+        "agree_gold": true,
+        "note": "Discussion/article sharing about TypeScript experiment and bitwise operators, not troubleshooting a concrete technical issue.",
+        "human_div": "aligned",
+        "vader_bucket": "author_more_negative",
+        "div_agree": false,
+        "note_vs_human_tps_conflict": true,
+        "note_vs_human_gds_conflict": false,
+        "note_vs_gold_tps_conflict": true,
+        "note_vs_gold_gds_conflict": false
+      },
+      {
+        "reddit_id": "1nznnb8",
+        "subreddit": "comfyui",
+        "title": "Qwen image edit giving weird results? Untuck this man's shirt please!",
+        "gold": 0,
+        "human": 0,
+        "agree_gold": true,
+        "note": "User is asking for technical help with Qwen image edit and ComfyUI workflow settings. Comments discuss CFG values, LoRAs, resolutions, prompting, supported dimensions, and troubleshooting steps. Strong technical troubleshooting discussion.",
+        "human_div": "aligned",
+        "vader_bucket": "aligned",
+        "div_agree": true,
+        "note_vs_human_tps_conflict": false,
+        "note_vs_human_gds_conflict": true,
+        "note_vs_gold_tps_conflict": false,
+        "note_vs_gold_gds_conflict": true
+      },
+      {
+        "reddit_id": "1pf32mo",
+        "subreddit": "windows",
+        "title": "Microsoft wants to fix app updates on Windows 11 \u2014 previews new update orchestrator platform designed make them invisible",
+        "gold": 1,
+        "human": 1,
+        "agree_gold": true,
+        "note": "Discussion/opinion thread about Microsoft's new Windows update orchestrator feature. Mostly criticism, skepticism, and emotional reactions from the community rather than active troubleshooting or technical problem-solving.",
+        "human_div": "community_more_negative",
+        "vader_bucket": "aligned",
+        "div_agree": false,
+        "note_vs_human_tps_conflict": true,
+        "note_vs_human_gds_conflict": false,
+        "note_vs_gold_tps_conflict": true,
+        "note_vs_gold_gds_conflict": false
+      },
+      {
+        "reddit_id": "1onnoh7",
+        "subreddit": "Android",
+        "title": "Android November security update is out, fixes two vulnerabilities",
+        "gold": 1,
+        "human": 0,
+        "agree_gold": false,
+        "note": "Android security update/news announcement discussion. Minimal discussion and no active troubleshooting or technical problem-solving.",
+        "human_div": "aligned",
+        "vader_bucket": "community_more_negative",
+        "div_agree": false,
+        "note_vs_human_tps_conflict": false,
+        "note_vs_human_gds_conflict": false,
+        "note_vs_gold_tps_conflict": true,
+        "note_vs_gold_gds_conflict": false
+      },
+      {
+        "reddit_id": "1nw9rwz",
+        "subreddit": "MacOS",
+        "title": "Switching to M series",
+        "gold": 0,
+        "human": 0,
+        "agree_gold": true,
+        "note": "User asking for technical upgrade advice and performance troubleshooting regarding Intel MacBook vs M-series Macs during Zoom/video workflows.",
+        "human_div": "aligned",
+        "vader_bucket": "author_more_negative",
+        "div_agree": false,
+        "note_vs_human_tps_conflict": false,
+        "note_vs_human_gds_conflict": true,
+        "note_vs_gold_tps_conflict": false,
+        "note_vs_gold_gds_conflict": true
+      },
+      {
+        "reddit_id": "1qz4z4c",
+        "subreddit": "Bitcoin",
+        "title": "Don't trust, verify",
+        "gold": 0,
+        "human": 0,
+        "agree_gold": true,
+        "note": "Promotional/general Bitcoin discussion with almost no technical troubleshooting or problem solving.",
+        "human_div": "aligned",
+        "vader_bucket": "aligned",
+        "div_agree": true,
+        "note_vs_human_tps_conflict": false,
+        "note_vs_human_gds_conflict": true,
+        "note_vs_gold_tps_conflict": false,
+        "note_vs_gold_gds_conflict": true
+      },
+      {
+        "reddit_id": "1nt4jih",
+        "subreddit": "transformers",
+        "title": "This just seems right.",
+        "gold": 0,
+        "human": 0,
+        "agree_gold": true,
+        "note": "Toy/fandom discussion about Transformers figures and nostalgia. No technical troubleshooting, software debugging, or problem-solving workflow.",
+        "human_div": "aligned",
+        "vader_bucket": "aligned",
+        "div_agree": true,
+        "note_vs_human_tps_conflict": false,
+        "note_vs_human_gds_conflict": true,
+        "note_vs_gold_tps_conflict": false,
+        "note_vs_gold_gds_conflict": true
+      },
+      {
+        "reddit_id": "1nv3m8j",
+        "subreddit": "comfyui",
+        "title": "3D generations",
+        "gold": 0,
+        "human": 0,
+        "agree_gold": true,
+        "note": "Main discussion is technical troubleshooting about ComfyUI 3D generation quality, model versions, GPU capability, RAM usage, and workflow settings.",
+        "human_div": "aligned",
+        "vader_bucket": "aligned",
+        "div_agree": true,
+        "note_vs_human_tps_conflict": false,
+        "note_vs_human_gds_conflict": true,
+        "note_vs_gold_tps_conflict": false,
+        "note_vs_gold_gds_conflict": true
+      },
+      {
+        "reddit_id": "1pnb4t7",
+        "subreddit": "transformers",
+        "title": "Holy scrap, the legends are true!",
+        "gold": 0,
+        "human": 0,
+        "agree_gold": true,
+        "note": "Collectors/fandom discussion about finding Transformers toys in stores. No software troubleshooting, debugging, update issue, or technical problem-solving.",
+        "human_div": "aligned",
+        "vader_bucket": "aligned",
+        "div_agree": true,
+        "note_vs_human_tps_conflict": false,
+        "note_vs_human_gds_conflict": true,
+        "note_vs_gold_tps_conflict": false,
+        "note_vs_gold_gds_conflict": true
+      },
+      {
+        "reddit_id": "1nww0mp",
+        "subreddit": "vmware",
+        "title": "what's the new name for SRM and VREP?",
+        "gold": 0,
+        "human": 0,
+        "agree_gold": true,
+        "note": "Technical VMware upgrade and recovery appliance discussion. OP asks about SRM/VREP naming, ISO usage, upgrade path, and deployment details. Community provides troubleshooting and migration guidance.",
+        "human_div": "aligned",
+        "vader_bucket": "aligned",
+        "div_agree": true,
+        "note_vs_human_tps_conflict": false,
+        "note_vs_human_gds_conflict": true,
+        "note_vs_gold_tps_conflict": false,
+        "note_vs_gold_gds_conflict": true
+      },
+      {
+        "reddit_id": "1o1cbch",
+        "subreddit": "Dell",
+        "title": "Alert! tpm device not detected on Dell XPS 8940.",
+        "gold": 0,
+        "human": 0,
+        "agree_gold": true,
+        "note": "OP reports repeated TPM detection failure, boot loops, missing BIOS TPM/PTT settings, failed fixes, and inability to upgrade to Windows 11. Community mostly provides troubleshooting suggestions calmly while OP remains frustrated/problem focused.",
+        "human_div": "author_more_negative",
+        "vader_bucket": "author_more_negative",
+        "div_agree": true,
+        "note_vs_human_tps_conflict": false,
+        "note_vs_human_gds_conflict": true,
+        "note_vs_gold_tps_conflict": false,
+        "note_vs_gold_gds_conflict": true
+      },
+      {
+        "reddit_id": "1ppik3f",
+        "subreddit": "Nest",
+        "title": "Google Home december update finally makes moving all devices from Nest app a one-tap job",
+        "gold": 0,
+        "human": 0,
+        "agree_gold": true,
+        "note": "Thread is mainly product/update discussion and complaints about Google Nest ecosystem migration, missing features, and bricked products. Limited troubleshooting, mostly dissatisfaction and migration concerns.",
+        "human_div": "community_more_negative",
+        "vader_bucket": "author_more_negative",
+        "div_agree": false,
+        "note_vs_human_tps_conflict": false,
+        "note_vs_human_gds_conflict": true,
+        "note_vs_gold_tps_conflict": false,
+        "note_vs_gold_gds_conflict": true
+      },
+      {
+        "reddit_id": "1nwgz8q",
+        "subreddit": "chrome",
+        "title": "I cant watch youtube and other videos.",
+        "gold": 0,
+        "human": 0,
+        "agree_gold": true,
+        "note": "Clear troubleshooting/support discussion about Chrome video playback issues. OP reports a technical problem and community provides debugging steps, flags, GPU checks, and hardware acceleration suggestions. Community stays solution-focused.",
+        "human_div": "aligned",
+        "vader_bucket": "community_more_negative",
+        "div_agree": false,
+        "note_vs_human_tps_conflict": false,
+        "note_vs_human_gds_conflict": true,
+        "note_vs_gold_tps_conflict": false,
+        "note_vs_gold_gds_conflict": true
+      },
+      {
+        "reddit_id": "1ntnu85",
+        "subreddit": "MacOS",
+        "title": "macOS Tahoe 26.0.1 Released",
+        "gold": 0,
+        "human": 0,
+        "agree_gold": true,
+        "note": "Discussion centers on bugs, instability, GPU issues, overheating, failed updates, memory leaks, Electron compatibility problems, and degraded user experience after the macOS Tahoe 26.0.1 update. Many users report frustration and technical problems, though some users report improvements or fixes. Overall tone is update-focused technical frustration with mixed community experiences.",
+        "human_div": "unclear",
+        "vader_bucket": "aligned",
+        "div_agree": false,
+        "note_vs_human_tps_conflict": false,
+        "note_vs_human_gds_conflict": true,
+        "note_vs_gold_tps_conflict": false,
+        "note_vs_gold_gds_conflict": true
+      },
+      {
+        "reddit_id": "1petq95",
+        "subreddit": "windows",
+        "title": "After 30 years, Microsoft is redesigning the Run dialog box on Windows 11 - now with an updated modern UI for the first time",
+        "gold": 0,
+        "human": 0,
+        "agree_gold": true,
+        "note": "Discussion about Microsoft's redesign of the Windows Run dialog box in Windows 11. Users debate UI modernization, optional legacy support, concerns about AI or Copilot integration, consistency issues across Windows UI, broken legacy features from past updates, performance concerns, and skepticism about redesigning a tool that already works reliably.",
+        "human_div": "aligned",
+        "vader_bucket": "aligned",
+        "div_agree": true,
+        "note_vs_human_tps_conflict": false,
+        "note_vs_human_gds_conflict": true,
+        "note_vs_gold_tps_conflict": false,
+        "note_vs_gold_gds_conflict": true
+      },
+      {
+        "reddit_id": "1o07gac",
+        "subreddit": "transformers",
+        "title": "That\u2019s just Prime\u2026",
+        "gold": 0,
+        "human": 0,
+        "agree_gold": true,
+        "note": "Positive Transformers fan discussion showing off a collection/display of The Thirteen Primes figures. Community comments focus on collecting, posing, favorite characters, customization, and display preferences. Mostly hobby/fandom conversation with no technical troubleshooting.",
+        "human_div": "aligned",
+        "vader_bucket": "aligned",
+        "div_agree": true,
+        "note_vs_human_tps_conflict": false,
+        "note_vs_human_gds_conflict": true,
+        "note_vs_gold_tps_conflict": false,
+        "note_vs_gold_gds_conflict": true
+      },
+      {
+        "reddit_id": "1oqaia9",
+        "subreddit": "immich",
+        "title": "Thumbnails greyed out sometimes- this happen to anyone else?",
+        "gold": 0,
+        "human": 1,
+        "agree_gold": false,
+        "note": "Technical troubleshooting discussion about greyed-out thumbnails in Immich. Users discuss causes such as corrupted MP4 files, ffmpeg crashes, stale database entries, cache clearing, server connection issues, and rerunning thumbnail generation.",
+        "human_div": "aligned",
+        "vader_bucket": "author_more_negative",
+        "div_agree": false,
+        "note_vs_human_tps_conflict": false,
+        "note_vs_human_gds_conflict": false,
+        "note_vs_gold_tps_conflict": false,
+        "note_vs_gold_gds_conflict": true
+      },
+      {
+        "reddit_id": "1qone71",
+        "subreddit": "chrome",
+        "title": "this past week whenever I am AFK for a while chrome will open a new tab, type something strange into the search bar having to do with search engines and try to ",
+        "gold": 0,
+        "human": 1,
+        "agree_gold": false,
+        "note": "Technical/security troubleshooting discussion about a potentially compromised PC or malware infection. The visible comment advises disconnecting from the internet and scanning with MalwareBytes, indicating a security support context.",
+        "human_div": "aligned",
+        "vader_bucket": "aligned",
+        "div_agree": true,
+        "note_vs_human_tps_conflict": false,
+        "note_vs_human_gds_conflict": false,
+        "note_vs_gold_tps_conflict": false,
+        "note_vs_gold_gds_conflict": true
+      },
+      {
+        "reddit_id": "1nu697z",
+        "subreddit": "vscode",
+        "title": "rich printing different colors depending on if i'm in light or dark mode.",
+        "gold": 0,
+        "human": 1,
+        "agree_gold": false,
+        "note": "Technical troubleshooting discussion about VS Code terminal color rendering differences between light and dark themes using the Rich Python library. The thread explains ANSI terminal palettes, RGB escape codes, terminal theme behavior, accessibility contrast adjustments, and terminal configuration settings.",
+        "human_div": "aligned",
+        "vader_bucket": "community_more_negative",
+        "div_agree": false,
+        "note_vs_human_tps_conflict": false,
+        "note_vs_human_gds_conflict": false,
+        "note_vs_gold_tps_conflict": false,
+        "note_vs_gold_gds_conflict": true
+      },
+      {
+        "reddit_id": "1po2zw1",
+        "subreddit": "Android",
+        "title": "What\u2019s new in Android's December 2025 Google System Updates",
+        "gold": 0,
+        "human": 0,
+        "agree_gold": true,
+        "note": "General Android update discussion and troubleshooting thread about Google System Updates, delayed update rollouts, broken widgets, Play Store issues, tethering bugs, and carrier/device specific update inconsistencies across Pixel and Samsung devices.",
+        "human_div": "aligned",
+        "vader_bucket": "aligned",
+        "div_agree": true,
+        "note_vs_human_tps_conflict": false,
+        "note_vs_human_gds_conflict": true,
+        "note_vs_gold_tps_conflict": false,
+        "note_vs_gold_gds_conflict": true
+      },
+      {
+        "reddit_id": "1okfwhg",
+        "subreddit": "Android",
+        "title": "New Google Pixel October 2025 update rolling out with \u2018performance improvements\u2019",
+        "gold": 0,
+        "human": 0,
+        "agree_gold": true,
+        "note": "Technical discussion about the October 2025 Google Pixel software update. Users discuss performance changes, battery drain, screen-on-time issues, gesture navigation bugs, Pixel Buds settings problems, patch note quality, and general Android update reliability concerns.",
+        "human_div": "aligned",
+        "vader_bucket": "aligned",
+        "div_agree": true,
+        "note_vs_human_tps_conflict": false,
+        "note_vs_human_gds_conflict": true,
+        "note_vs_gold_tps_conflict": false,
+        "note_vs_gold_gds_conflict": true
+      },
+      {
+        "reddit_id": "1oiwr33",
+        "subreddit": "immich",
+        "title": "What is happen???",
+        "gold": 0,
+        "human": 0,
+        "agree_gold": true,
+        "note": "User reports issues in Immich where photos appear duplicated or corrupted after reinstalling the iOS app. Discussion identifies the problem as a cache and local hashing issue rather than actual duplicate uploads. Users mention clearing file cache, failed uploads, local vs remote asset mismatch, and upcoming bug fixes from the Immich development team.",
+        "human_div": "aligned",
+        "vader_bucket": "aligned",
+        "div_agree": true,
+        "note_vs_human_tps_conflict": false,
+        "note_vs_human_gds_conflict": true,
+        "note_vs_gold_tps_conflict": false,
+        "note_vs_gold_gds_conflict": true
+      },
+      {
+        "reddit_id": "1nqxc6f",
+        "subreddit": "chrome",
+        "title": "Trash Samsung ruined chromium based Browsers.",
+        "gold": 0,
+        "human": 1,
+        "agree_gold": false,
+        "note": "User reports Chrome UI or behavior issues after updating to Samsung One UI 8. Community discussion focuses on troubleshooting browser UI changes, address bar positioning, install prompts, app updates, and whether the issue is caused by Chrome updates or the Android operating system update.",
+        "human_div": "aligned",
+        "vader_bucket": "author_more_negative",
+        "div_agree": false,
+        "note_vs_human_tps_conflict": false,
+        "note_vs_human_gds_conflict": false,
+        "note_vs_gold_tps_conflict": false,
+        "note_vs_gold_gds_conflict": true
+      }
+    ],
+    "label_disagreements": [
+      {
+        "reddit_id": "1onnoh7",
+        "subreddit": "Android",
+        "title": "Android November security update is out, fixes two vulnerabilities",
+        "gold": 1,
+        "human": 0,
+        "agree_gold": false,
+        "note": "Android security update/news announcement discussion. Minimal discussion and no active troubleshooting or technical problem-solving.",
+        "human_div": "aligned",
+        "vader_bucket": "community_more_negative",
+        "div_agree": false,
+        "note_vs_human_tps_conflict": false,
+        "note_vs_human_gds_conflict": false,
+        "note_vs_gold_tps_conflict": true,
+        "note_vs_gold_gds_conflict": false
+      },
+      {
+        "reddit_id": "1ozp5qj",
+        "subreddit": "angular",
+        "title": "I still can't get used to it \ud83d\ude00",
+        "gold": 1,
+        "human": 0,
+        "agree_gold": false,
+        "note": "General Android feature discussion. Mostly positive/neutral reactions. Minor complaints about widgets and HDR, but no strong frustration, ranting, or toxic update discourse.",
+        "human_div": "aligned",
+        "vader_bucket": "community_more_negative",
+        "div_agree": false,
+        "note_vs_human_tps_conflict": false,
+        "note_vs_human_gds_conflict": false,
+        "note_vs_gold_tps_conflict": false,
+        "note_vs_gold_gds_conflict": false
+      },
+      {
+        "reddit_id": "1oualms",
+        "subreddit": "linux",
+        "title": "Firefox 145.0, See All New Features, Updates and Fixes",
+        "gold": 1,
+        "human": 0,
+        "agree_gold": false,
+        "note": "Discussion about Firefox 145.0 release on Linux. Users talk about new codec support, privacy improvements, Wayland/X11 issues, ffmpeg compatibility, battery usage, and long term Linux ecosystem concerns. Mostly technical and informative open source community discussion.",
+        "human_div": "aligned",
+        "vader_bucket": "author_more_negative",
+        "div_agree": false,
+        "note_vs_human_tps_conflict": false,
+        "note_vs_human_gds_conflict": false,
+        "note_vs_gold_tps_conflict": false,
+        "note_vs_gold_gds_conflict": false
+      },
+      {
+        "reddit_id": "1oqaia9",
+        "subreddit": "immich",
+        "title": "Thumbnails greyed out sometimes- this happen to anyone else?",
+        "gold": 0,
+        "human": 1,
+        "agree_gold": false,
+        "note": "Technical troubleshooting discussion about greyed-out thumbnails in Immich. Users discuss causes such as corrupted MP4 files, ffmpeg crashes, stale database entries, cache clearing, server connection issues, and rerunning thumbnail generation.",
+        "human_div": "aligned",
+        "vader_bucket": "author_more_negative",
+        "div_agree": false,
+        "note_vs_human_tps_conflict": false,
+        "note_vs_human_gds_conflict": false,
+        "note_vs_gold_tps_conflict": false,
+        "note_vs_gold_gds_conflict": true
+      },
+      {
+        "reddit_id": "1qone71",
+        "subreddit": "chrome",
+        "title": "this past week whenever I am AFK for a while chrome will open a new tab, type something strange into the search bar having to do with search engines and try to ",
+        "gold": 0,
+        "human": 1,
+        "agree_gold": false,
+        "note": "Technical/security troubleshooting discussion about a potentially compromised PC or malware infection. The visible comment advises disconnecting from the internet and scanning with MalwareBytes, indicating a security support context.",
+        "human_div": "aligned",
+        "vader_bucket": "aligned",
+        "div_agree": true,
+        "note_vs_human_tps_conflict": false,
+        "note_vs_human_gds_conflict": false,
+        "note_vs_gold_tps_conflict": false,
+        "note_vs_gold_gds_conflict": true
+      },
+      {
+        "reddit_id": "1nu697z",
+        "subreddit": "vscode",
+        "title": "rich printing different colors depending on if i'm in light or dark mode.",
+        "gold": 0,
+        "human": 1,
+        "agree_gold": false,
+        "note": "Technical troubleshooting discussion about VS Code terminal color rendering differences between light and dark themes using the Rich Python library. The thread explains ANSI terminal palettes, RGB escape codes, terminal theme behavior, accessibility contrast adjustments, and terminal configuration settings.",
+        "human_div": "aligned",
+        "vader_bucket": "community_more_negative",
+        "div_agree": false,
+        "note_vs_human_tps_conflict": false,
+        "note_vs_human_gds_conflict": false,
+        "note_vs_gold_tps_conflict": false,
+        "note_vs_gold_gds_conflict": true
+      },
+      {
+        "reddit_id": "1nqxc6f",
+        "subreddit": "chrome",
+        "title": "Trash Samsung ruined chromium based Browsers.",
+        "gold": 0,
+        "human": 1,
+        "agree_gold": false,
+        "note": "User reports Chrome UI or behavior issues after updating to Samsung One UI 8. Community discussion focuses on troubleshooting browser UI changes, address bar positioning, install prompts, app updates, and whether the issue is caused by Chrome updates or the Android operating system update.",
+        "human_div": "aligned",
+        "vader_bucket": "author_more_negative",
+        "div_agree": false,
+        "note_vs_human_tps_conflict": false,
+        "note_vs_human_gds_conflict": false,
+        "note_vs_gold_tps_conflict": false,
+        "note_vs_gold_gds_conflict": true
+      }
+    ],
+    "div_confusion": [
+      {
+        "human_div": "aligned",
+        "vader_bucket": "author_more_negative",
+        "n": 23
+      },
+      {
+        "human_div": "aligned",
+        "vader_bucket": "aligned",
+        "n": 23
+      },
+      {
+        "human_div": "aligned",
+        "vader_bucket": "community_more_negative",
+        "n": 20
+      },
+      {
+        "human_div": "community_more_negative",
+        "vader_bucket": "author_more_negative",
+        "n": 6
+      },
+      {
+        "human_div": "author_more_negative",
+        "vader_bucket": "author_more_negative",
+        "n": 3
+      },
+      {
+        "human_div": "unclear",
+        "vader_bucket": "aligned",
+        "n": 2
+      },
+      {
+        "human_div": "community_more_negative",
+        "vader_bucket": "aligned",
+        "n": 1
+      },
+      {
+        "human_div": "author_more_negative",
+        "vader_bucket": "community_more_negative",
+        "n": 1
+      },
+      {
+        "human_div": "unclear",
+        "vader_bucket": "author_more_negative",
+        "n": 1
+      }
+    ]
+  }
+}

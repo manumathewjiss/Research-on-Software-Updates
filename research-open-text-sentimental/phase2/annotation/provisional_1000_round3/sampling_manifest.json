@@ -1,0 +1,33 @@
+{
+  "created_utc": "2026-10-07T15:17:02.838957+00:00",
+  "master_sha256": "710c39b749b7f4a218f811382880a64b6465fef2e793c355b24e1f9bd8962fe4",
+  "selection_seed": 20261008,
+  "proposal_method": "development_models_v3",
+  "training_counts": {
+    "manu_assisted_review": 994,
+    "pilot_post_discussion": 100,
+    "joint_review": 300
+  },
+  "reserved_test_training_posts": 0,
+  "model_library": "scikit-learn 1.9.1",
+  "model_inputs": "Original title, first 4000 body characters, and subreddit; no source pool, legacy label, replies, or reserved-test labels.",
+  "selection": "Random without replacement from the 1762 still-unreviewed posts in the October 5 troubleshooting-query pool; ten 100-post batches.",
+  "selected_source_counts": {
+    "oct5_query_tps": 1000
+  },
+  "proposal_type_counts": {
+    "technical_troubleshooting": 970,
+    "other": 25,
+    "general_dissatisfaction": 4,
+    "na": 1
+  },
+  "proposal_confidence_counts": {
+    "medium": 520,
+    "low": 480
+  },
+  "overflow_body_ids": [],
+  "unselected_after_this_batch": 762,
+  "previously_uncertain_unresolved": 6,
+  "work_remaining_if_this_batch_is_resolved": 768,
+  "warning": "Automatic proposals are review aids, not confirmed labels. The 496 assisted-review training labels were verified with visible proposals, so this is not an independent blind annotation model evaluation."
+}

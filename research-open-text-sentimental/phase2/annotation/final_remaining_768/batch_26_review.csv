@@ -1,0 +1,2098 @@
+﻿review_id,subreddit,title,post_body,discussion_context,text_availability,proposed_about_software,proposed_update_related,proposed_discussion_type,proposed_confidence,proposed_reason,decision,final_about_software,final_update_related,final_discussion_type,reviewer_note,reviewed_at,source_url
+B26-001,sysadmin,has anyone mastered print servers yet?,"For starters, I'm not a sysadmin so this isn't something I deal with, I'm on the network and security side.
+
+Last week, a small office had a new printer installed. I watched the sysadmin upload the generic/universal print driver for the printer. A test page was printed and the printers were mapped to the users in that office. Today, they have a network shortcut that HD is instructed to double click and it maps the printer and installs the drivers needed.
+
+Everything worked fine and that resembles every other printer that has been installed/upgraded over the years.
+
+Fast forward to the next morning after the install and now every single user can't print to any previously mapped printers that are the same brand as the new printer installed (they are all canon printers). The error they were getting for the already connected printers they were trying to print to was that a 'driver needed to up updated' and to be clear none of these users were trying to print to the newly added canon printer, they were printing to existing canon printers that are on that same print server.
+
+The newest universal driver was ONLY added for the new printer, all other drivers remained untouched.
+
+I'm curious why the print server decided to grab the newest driver and update all other canon printers with the newest driver AND why the user PCs did NOT want to print to the new printer until their 'driver' was updated. I always thought that the print server controlled the driver, maybe this is specific to canon? This is where my sysadmin limitations come to play.
+
+Because it was only a small group, the sysadmin instructed the help desk guy to manually delete and reinstall the printer (double clicking a mapped printer shortcut) vs investigate why there were driver issues.
+
+Back when I did manage a small office/smaller company I was the sysadmin and I used HP printers and I had many copies of universal drivers and never encountered this issue.
+
+I also remember printers and GPOs and those rarely worked for me, there was always something that didn't work for someone.
+
+My two questions are
+
+1. Is printer management still a pain in windows with GPOs?
+
+2. I know there are third party print server management options, are they easier to deploy compared to the standard windows print server options? What I picture being the best software is one where I can open it up, point it to AD and built out 'groups' and say 'anyone in this group, gets these printers' etc.... and I want the group options to have an option that says 'map by user' or 'map by computer name' that way I could have certain computers that always get the same mappings regardless of the user or get mappings based on the user logging in and the computer name not being relevant.
+
+This is all for my knowledge. Last time I brought this up (to be a team player and help the team) I was told 'we will look at this at another time' and we all know what that means.",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/sysadmin/comments/1r18xvc/has_anyone_mastered_print_servers_yet/
+B26-002,applehelp,Audio become mono after turning on mic in game,"Hello. I’ve been dealing with this problem since I updated my IOS to 26 on released date. When I’m turning on my mic on CODM the audo became mono audio, there’s no distinguishing what’s left of right footsteps, and sounds become piercing. I’m using iPhone 14 with ACEFAST dongle lightning to 3.5mm and an IEM (to be specific 7hz x Crinacle Zero 2) and the audio is working well before updating on ios 26. I tried replacing the the dongle and IEM, I even bought earpods with lightning connector but still the same. I tried exploring the settings but nothing happen. I was hoping the ios updates would fix it but here I am on ios 26.3.1 still I don’t know if it is bugged or what. Hoping someone can solve this problem of mine🥲.",,title_and_body,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/applehelp/comments/1s4gbc1/audio_become_mono_after_turning_on_mic_in_game/
+B26-003,applehelp,Maps taking up so much storage even when deleted,"I noticed the other day that my apple maps is taking up over 22GB of storage on my phone even though I don’t even have it downloaded? I’ve tried turning my phone on and off again and redownloading then deleting again, but it’s still saying it’s taking up more storage than any other app i have! I took my phone into apple and she basically admitted it was a bug from a new update or something but said the only way to get rid of it is by saving everything to my icloud and wiping my whole phone. The only thing that’s annoying me about this is that means i’ll have to delete all my tiktok drafts because when you log out of tiktok you can’t get any of your drafts back and i have so many memories in there :( Before i go through with it i just wanted to check if this has ever happened to anyone else before and if there is another solution besides having to wipe my whole phone 🙁",,title_and_body,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/applehelp/comments/1selcaf/maps_taking_up_so_much_storage_even_when_deleted/
+B26-004,homeassistant,HAOS supervisor update stuck,"Running HAOS on RPi5 nvme drive. Supervisor tries to auto update and just keeps spinning. Manual update fails.
+
+Current supervisor version: 2026.04.2
+
+Trying to update to: 2026.05.0
+
+Manual error message appears to be a 403 denied message accessing the repo.","[1:reply] There is already a newer version, from the command line enter `ha su update --version 2026.05.1` If that fails run `ha su repair` then restart all of ha. 
+
+When the restart popup appears expand the advanced options at the bottom, reboot system. Then try to update again.
+[2:OP] Same error, just changed the version to 2026.05.1 in the message
+[3:OP] Was updating fine until this. I can update and install other things except for things requiring the updated supervisor.
+
+Ping to github is fine.
+
+Guess I'll bite the bullet and reinstall",title_body_comments,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/homeassistant/comments/1toaoxo/haos_supervisor_update_stuck/
+B26-005,Fedora,Battery percentage for dualshock controllers gone after today's updates,"after today's update my Sony DualShock controllers stopped showing battery percentages
+
+Anyone else have this problem? Solutions or anyone know what broke it?","[1:reply] It sounds like you're looking for help. Please note that r/Fedora is not an official support channel for the Fedora Project.
+
+For best results, be sure to include all relevant details in your post, such as your Fedora edition, version, and hardware specs. You can edit your origi…",title_body_comments,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/Fedora/comments/1ukdtld/battery_percentage_for_dualshock_controllers_gone/
+B26-006,comfyui,"I fell in love with Qwen VL for captioning, but it broke my Nunchaku setup. I'm torn!","After hesitating for a while, I finally tried Qwen VL in ComfyUI. To be honest, I was blown away. The accuracy in description and the detail it brings out (especially with Zimage) is extraordinary. All my images improved significantly.
+But here is the tragedy: After updating ComfyUI and my nodes to support Qwen, my Nunchaku setup stopped working.
+It seems like a hard dependency conflict. Nunchaku needs an older version of transformers (around 4.56), while Qwen VL demands a newer version (4.57+), along with some incompatible numpy and flash-attention versions.
+I am currently stuck choosing between:
+Superb captioning/vision (Qwen) but slower generation (No Nunchaku).
+Fast generation (Nunchaku) but losing the magic of Qwen.
+Has anyone faced this dilemma? Is there a patched version of Nunchaku or a workaround to satisfy both dependencies? I really don't want to give up on either.
+Thanks in advance!",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/comfyui/comments/1pkrp5d/i_fell_in_love_with_qwen_vl_for_captioning_but_it/
+B26-007,Wordpress,AIOSEO Plugin Bug,"All In One SEO plugin is showing a bug since their latest update, a fatal error in their PHP. My host is Pressable. When I asked Pressable to confirm, they easily and quickly found the code. I sent it to AIOSEO and they wrote me back saying they couldn't do anything without getting Admin access to my site, even though their own changelog showed this as a known bug, and i guess the correction just was not rolled out or not sent to all users yet or some other thing. 
+
+If they won't acknowledge the bug, and want Admin access to my site:
+
+How safe is it to give them Admin access when they want me to email them a username and password? 
+
+Could I easily export the AIOSEO settings if I install RankMath and then go back and uninstall and remove AIOSEO plugin? 
+
+I don't really want to give Admin access to the site, especially through email, and it makes me nervous they don't acknowledge the bug and simply offer a patch.",,title_and_body,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/Wordpress/comments/1tf73mm/aioseo_plugin_bug/
+B26-008,Ubuntu,Fingerprint option not displaying,"I installed the Ubuntu 24.04LTS then forcefully upgraded to 26.
+
+I can't find the option to log in with my fingerprint, I use a dell latitude 7400, how can I resolve this?","[1:OP] i installed the fingerprint drivers and it works now, thanks though
+[2:reply] Upgrading by force instead of clean install is asking for weirdness. Dell Latitudes usually need the fingerprint drivers added after the fact, check if \`fprintd\` is actually installed and enrolled. If it's there but the GUI toggle's missing, it's likely GNOME's settings app be…
+[3:OP] Alright thanks, I'll reply again when I install the drivers
+[4:reply] Use ur terminal to upgrade the device drivers ...i guess thy jxt need to be enabled
+[5:reply] Use ur terminal to upgrade your device drivers and enable em",title_body_comments,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/Ubuntu/comments/1wsnxkk/fingerprint_option_not_displaying/
+B26-009,applehelp,“This connection is not private” on every site after updating iOS.,"Recently updated from IOS 16 to IOS 18.7.8 on an iPhone 11.
+
+Cleared so many of my photos to free up space so I can update my iOS and now I’m having a bunch of issues specifically I think to do with certificates or something on websites?
+
+Nearly every website I visit, apple, Wikipedia, eBay, it doesn’t matter I get the same error:
+
+“This Connection Is Not Private  
+This website may be impersonating  
+""www.ebay.com"" to steal your personal or financial information. You should go back to the previous page.”
+
+When I view the certificate for the above it shows: Not trusted in red and then Expires: 07/11/2026, 7:59:59 PM
+
+Then the worst part is my eBay app doesn’t even work anymore. Nothing won’t load on it. It tries to load for a while and then throws this error:  
+“Error (NSURLErrorDomain)  
+An SSL error has occurred and a secure connection to the server cannot be made. (-1200)”
+
+Anyone know how I can fix this?
+
+Things I’ve tried: Reset all Settings, Reset Network Settings, Restarted the phone, Cleared browsing history and data, Tried different Browsers (Same error), deleted the eBay app and downloaded again, Made sure date and time is set correct.
+
+EDIT: MANGED TO FIX IT! Here’s what I did: 
+
+1. Toggled off and on “Set Automatically” in Settings &gt; General &gt; Date and Time.
+
+2. Toggled off and on “Location Services” in Settings &gt; Privacy &amp; Security &gt; Location Services. 
+
+3. Soft Reset iPhone: 
+
+For modern iPhones (iPhone 8, iPhone X, and newer models):
+
+• Press and quickly release the Volume Up button.
+
+• Press and quickly release the Volume Down button.
+
+• Press and hold the Side button (power button) until your screen goes dark and the Apple logo appears.
+
+• Let go of the power button when the apple logo appears. 
+
+Hope this helps someone in the future.","[1:reply] I see you fixed it but you upgraded from an old version of iOS. Check to see if your apps still need to be updated.
+[2:OP] I’ll still check those to make sure everything is good",title_body_comments,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/applehelp/comments/1uy7hw8/this_connection_is_not_private_on_every_site/
+B26-010,MacOS,Upgrading from Mojave to Catalina: My own experience,"Recently, I have upgraded my MacOS from 10.14 Mojave to 10.15 to Catalina. The main reason for why I did so is due to a problem I had with the Steam application. With that said, I feel like I should maybe share my experience with doing so.
+
+**Why I upgraded**
+
+When I upgraded from 10.13 High Sierra to 10.14 Mojave, I wanted to stay at Mojave due to it being the last OS to support 32-bit application. There were 32-bit applications I still had that I believe I'd miss out on if I upgraded to Catalina so I thought it'd be a safe bet to stay on Mojave.
+
+However, the problem was that Steam was going to drop support for Mojave in February 2024, a month prior to me installing it. I was really disappointed but I didn't really care because it only meant that Steam would continue to function in the OS but if something happened then they won't bother to fix it. One year and seven months later, Steam ended up having problems installing and updating games and I tried looking for ways to fix it. I went ahead and uninstalled and reinstalled Steam as a way to fix that problem but that made things worse cos it made Steam completely unusable as it wouldn't open at all. It was clear that the problem was me still using Mojave, which Steam has dropped support for 2 years ago. So I decided to give in and just upgrade to Catalina.
+
+**Steam**
+
+*Before you read further, it is important to note that Steam has also dropped support for Catalina in February 2025, a year and a month after I upgraded to it, and 11.0 Big Sur in October 2025, meaning that the earliest it can support is 12.0 Monterey which will put me in a technological drawback as my iMac 21.5-inch, Late 2013 do not officially support these versions, so if I were to upgrade to these versions then I will need OCLP which I fear using.*
+
+When I upgraded to Catalina, the very problems I had with Steam such as the initial problem of it not installing or updating any games I had and even the problem of it not opening at all after I reinstalled Steam as an attempt to fix the problem were all solved. Despite Catalina no longer being officially supported, it still works properly enough to not just work but also install and update games.
+
+Because I upgraded to Catalina, it literally meant that I can no longer open any 32-bit applications. I was much less bothered by it when it came to Steam games cos I thought that only two of my games were actually 32-bit apps and because I already have a Windows laptop I thought I could easily play these games on there.
+
+When I upgraded my MacOS to Catalina, there were several games I installed that were said to be 32-bit apps so Steam said I may not be able to play them. These games were:
+
+* The Binding of Isaac (unplayable)
+* Danganronpa: Trigger Happy Havoc (mislabelled; playable)
+* Danganronpa 2: Goodbye Despair (mislabelled; playable)
+* Garry's Mod (unplayable)
+* Hotline Miami (unplayable)
+* Hotline Miami 2: Wrong Number (mislabelled; playable)
+* Left 4 Dead (unplayable)
+* Meteor 60 Seconds! (unplayable)
+* Team Fortress 2 (missing an executable; unplayable)
+
+Before upgrading my mac, I opened up System Information and went on Applications to view what apps were 64-bit or not. There was a sort that said if an app was 64-bit or not but when I upgraded to Catalina, now it isn't there for some reason.
+
+Anyways, the only apps that were shown to not be 64-bits were Hotline Miami and the Binding of Isaac. Both of these games I have played. Binding of Isaac I was not too invested in. Hotline Miami was a game I completely played through but never 100%. I'm not sure if I'll ever get to 100% that game at all as it is not my interest.
+
+Anyways I thought that these were the only two games I had to worry about not being able to access anymore. However there were more games that I didn't expect to lose access to. The first game I'll mention is Meteor 60 Seconds!. I didn't even realise it was a 32-bit application as I don't remember seeing it in System Information until now. I'm not upset about it at all because I already gotten all the endings in that game + there's nothing else to do in it. Now that I've gotten that game outta the way, imma talk about the other games.
+
+The games that were labelled 32-bit were apps that did not show up in System Information at all. Garry's Mod, Left 4 Dead and Team Fortress 2. TF2 seems to have its own problems with it missing the executable hl2\_osx. Garry's Mod and L4D were actually 32-bit applications. I never got to know that because they did not get listed in System Information at all. Garry's Mod I'm not too upset with as I barely go on it. L4D I am quite upset with because I actually had a decent amount of gameplay of it. All I can say is I'm grateful that I at the very least did its campaign.
+
+Then there are the games that Steam says may not run due to being 32-bit but are actually 64-bit games. These three games are the two Danganronpa games and Hotline Miami 2: Wrong Number. They appeared in the list of applications in System Information, that said they were 64-bit applications so I had no worry about being unable to play them Danganronpa 2 especially because it's a game I really hope to 100%. If there is any Mac user that plays Danganronpa then I can assure you that you have nothing to worry about. It is important to note that even if a steam game is labelled 32-bit, you still have the option to press the play button and a pop-up saying that 32-bit applications are no longer supported in Mac OS 10.15 or above will only show up if the game is actually 32-bit.
+
+**iMovie**
+
+Another important application to mention is iMovie. When I upgraded to Catalina, I found that iMovie is no longer an application I can use. Being a YouTuber myself, I use iMovie as the video editor so I was quite devastated when I found that I could no longer use it. Especially in the App store that said I needed a much newer OS. I didn't have it in the Purchase folder in the App Store which I think is because I was using my dad's Apple ID during the first decade of my computer and only switched to using my own recently. Because of that, I rlly thought I was fucked in the ass cos of that.
+
+It is important to note that there are two versions that are only compatible with Mojave that is 10.1.13 and 10.1.14 iirc so I'm guessing that I was using one of these versions. With that said, I had to follow tutorial of downloading a Catalina compatible iMovie from the web. That version also successfully backed up my iMovie library so I'm really grateful of that. I really hope I did not catch any viruses or malware from downloading that version of iMovie.
+
+**Other application**
+
+There are probably other applications that should come to mind but I can only think of three. First is iPhoto which is apparently a discontinued image organiser and image editor. I never used this application in my life so I have no reason to care. Second is uTorrent, which is a bittorrent file-sharing download manager if that's the right descriptor. I actually used that app to access some show. However I have heard that this app is an adware so I believe I am better off without it. Then lastly there is Wine, which is a compatibility layer to allow Microsoft applications to run on Unix devices like Linux and Mac. The only reason why I am mentioning that app is because I heard it isn't available on Catalina or above but I don't see any indication that it ain't working on it. Not that I have tried using it or anything but regardless, I haven't used it at all due to me finding it complicated to use.
+
+***NOTE: I have just upgraded to Catalina like yesterday so anything I've said in this reddit post may become outdated as days pass.***",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/MacOS/comments/1s8pqa8/upgrading_from_mojave_to_catalina_my_own/
+B26-011,applehelp,Can’t remove old iPhone from Apple ID (ICloud) after upgrading — security delay?,"Hey guys,
+
+I recently upgraded from an iPhone 16 Pro Max to a new iPhone 17 and sold my old device. Before selling it, I fully reset it (Erase All Content and Settings), so it should be clean. (It showed the hello screen) 
+
+Now I’m trying to remove the old iPhone from my Apple ID, but I’m running into an issue:
+
+\- On my new iPhone, it says I can’t edit account info because it’s a “new device” and I have to wait until April 28.
+
+\- On the Apple ID website, it won’t let me remove the device either for security reasons.
+
+So basically I’m stuck and can’t remove the old device from my account anywhere.
+
+A few questions:
+
+\- Is this normal after setting up a new iPhone?
+
+\- Does this mean the old phone is still linked in a risky way?
+
+\- Or is it just a temporary security restriction and everything is actually fine?
+
+Just want to make sure I didn’t mess anything up and there’s no risk.
+
+Thanks!",,title_and_body,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/applehelp/comments/1ss3xee/cant_remove_old_iphone_from_apple_id_icloud_after/
+B26-012,comfyui,[ComfyUI] Manga Colorization with Color Reference | One-Click Batch Processing | Fast &amp; Consistent Results,"I tested an updated ComfyUI workflow for black-and-white manga colorization. My previous version used a Qwen Image Edit 2511 colorization LoRA and worked well for simple batch processing, but each page was processed independently. That made color consistency harder, especially across multiple pages from the same manga.
+
+This new version uses a FLUX.2 Klein 9B manga colorization LoRA with a separate color reference image.
+
+# What this workflow does
+
+* Colorizes black-and-white manga pages locally in ComfyUI
+* Reads pages from a folder and processes them one by one
+* Uses a color reference image to improve character color consistency
+* Supports reference images such as manga covers, character sheets, or manually prepared color examples
+* Runs with a fast 4-step Klein setup in my current workflow
+
+# Why it matters
+
+The biggest problem with one-click manga colorization is consistency. A model may color the same character differently from page to page. By giving the workflow a color reference, the model has a stronger hint for character hair, clothes, and overall color style.
+
+This is especially useful when the manga has recurring characters and you want to batch process many pages.
+
+https://reddit.com/link/1uo52jb/video/v6927qafjfbh1/player
+
+# How it works
+
+* Main model: FLUX.2 Klein 9B
+* LoRA: manga\_colorization.safetensors
+* Steps: 4
+* CFG: 1
+* Main prompt: mngclranm
+
+The workflow scales the target manga page to around 1.5 megapixels and the color reference image to around 0.5 megapixels. In my testing, this size difference helps reduce reference-image leakage. If both images are too similar in size and strength, Klein may blend the reference image into the final output instead of only borrowing the color information.
+
+# Testing notes
+
+In my tests, this works best when the characters have clear visual differences: different hair, clothing, patterns, or silhouettes. It is less stable when characters look very similar or when clothes are just large flat color blocks.
+
+If the result mixes up character colors, try a different seed first. If the same page keeps failing, use a cleaner reference image or split the manga page into smaller panels.
+
+Also, if you get black images locally, check the Sage Attention patch node. If Sage is not installed or not supported in your local setup, bypass that node before blaming the model.
+
+This is not perfect, but it is a practical upgrade over single-image batch colorization. The reference image makes the workflow much more usable for multi-page manga colorization.
+
+# Closing thought
+
+For best results, spend time preparing a good color reference. A clean cover, character sheet, or manually assembled reference image can save a lot of reruns later.
+
+This workflow is super easy to use—I’ve uploaded a detailed tutorial to YouTube, so just follow the video along with this workflow to recreate the effect; please make sure to watch the full tutorial before starting to avoid common mistakes, and feel free to leave a comment if you have any questions!**Resource links will be posted in the comments.**","[1:OP] * Workflow: [https://www.runninghub.ai/post/2073410854640513026/?inviteCode=rh-v1495](https://www.runninghub.ai/post/2073410854640513026/?inviteCode=rh-v1495)
+* YouTube:https://youtu.be/cYD4Y5odUlo
+* FLUX.2 Klein manga colorization by reference LoRA: [https://huggingface.co/thed…
+[2:reply] Thanks,",title_body_comments,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/comfyui/comments/1uo52jb/comfyui_manga_colorization_with_color_reference/
+B26-013,applehelp,No celluar after update? Stuck on activating.,"I recently let my Iphone 15 Pro Max update overnight to IOS 26.6. When i woke up the phone no longer had cellular. I figured at first maybe it was my cellular provider but it is not. I have another number on the account and the number is working just fine. I've completely wiped the phone and attempted to reinstall the Esim but it just get stuck on ""activating"". I've wiped all Esim's from the phone, thinking maybe one got stuck on the backend. My modem firmware has numbers. Very confused as what to do next. I'm planning on taking it to a cell phone repair place but I want to do everything I can before it comes to that. I currently have my Esim on my old iphone 13 Pro Max.","[1:reply] Call your cell provider first, and if they can’t help reach out to Apple by phone.
+[2:OP] I've already gotten in contact with them and they say it should be working fine. Apple is definitely my next step but I have non around here so if i could find a solution here, that'd save me hours",title_body_comments,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/applehelp/comments/1vqa14w/no_celluar_after_update_stuck_on_activating/
+B26-014,applehelp,"My parents got me a new computer, and I don't know how to set it up.","I'm graduating high school this weekend (yay!) and, as a graduation gift, my parents got me a macbook neo. It's very cool and I'm very grateful!!
+
+Here's the problem: I had to make a new ICloud momentarily to set it up. I didn't want to have to find every contact and password individually, so I logged out and used my phone number to log back in to my phone ICloud. My phone ICloud is parent locked because it was set up when I was 12. I can't buy anything without permission (including more icloud storage which I need bad). So I tried to log out and into the first one--which no longer exists. Also, I didn't realize that almost none of my apps would transfer, for some reason I thought they would.
+
+How do I go about fixing this where I'm the organizer of my account? Do I just have to make a new iCloud again and transfer everything individually when I have time? Help!
+
+Update: I also now cannot sign out. So, that's an issue.","[1:reply] op are you 18 or 17 ?
+
+apple has age verification .
+[2:OP] My parents verified I am a legal adult already so that shouldn't be a concern. I am set as adult in google",title_body_comments,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/applehelp/comments/1tl2hkf/my_parents_got_me_a_new_computer_and_i_dont_know/
+B26-015,linuxquestions,Require Help in fixing defaults in Dolphin File Manager.,"I am using NIri on CachyOS. The open with dialog box and defaults I have set get reset randomly. The problem mostly happens after I restart my laptop or after an update.
+
+
+
+After searching online I got a fix that said running the following command XDG\_MENU\_PREFIX=arch- kbuildsycoca6 in the terminal brings back the defaults and fixes the open with window. It actually fixes it for sometime but then it breaks again after a restart.
+
+
+
+Another fix said to add environment arch- as the XDG\_MENU\_PREFIX. So I added the following in my environment {} block:
+
+XDG\_MENU\_PREFIX ""arch-""
+
+
+
+This doesn't fix it either.
+
+Can someone please help me fix the file manager.",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/linuxquestions/comments/1s5o61b/require_help_in_fixing_defaults_in_dolphin_file/
+B26-016,comfyui,Slowdown issues,"Lately I've been having issues where despite the same Ksampler settings image gen would take 10+ times longer than usual so 2 1024x1024 images which would usually take around 60 seconds on my setup took 600-800 seconds instead, I tried using the low vram flag and that brought the gen time back to normal but only for two batches before being slow again. Since nothing changed except updates I figured it could be that instead so I went looking around and found mentions that windows users can have slowdowns with the newer pytorch versions and should instead use 2.3.1. I decided to try downgrading but testing with and without the low vram flag showed no improvements either, I'm now back to the latest version but still got the same slow gen times in normal and low vram mode, anybody experiencing similar issues or know what else I could try? For context I use the default workflow for text to image with a model from civitai, nothing about the workflow or its settings was changed, the model wasn't changed or updated, my PC is still performing the same with other GPU heavy tasks which to me suggests it's not that my GPU failing (hopefully) so I'm out of ideas on what to do",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/comfyui/comments/1or1le2/slowdown_issues/
+B26-017,openclaw,My openclaw goes down like every 10 min or so,"Whenever I’m working extensively with openclaw, I find that it goes down bc of some stupid error and it’s been happening almost every 10 min. It is the most frustrating thing, especially bc prior to the last openclaw update, I had minimal issues. Now I get a variety of errors like: 
+
+\-⚠️ Missing API key for OpenAI on the gateway. Use openai/gpt-5.5 with the Codex OAuth profile, or set OPENAI\_API\_KEY for direct OpenAI API-key runs.
+
+\-Request timed out before a response was generated.  Please try again, or increase agents.defaults.timeoutSeconds in your config.
+
+Or sometimes it won’t even for me an error and just silently goes down and stops replying. 
+
+Is anyone else having these issues after the update? Am I doing something wrong? Openclaw can’t seem to fix the problem no matter how many hours I’ve tried.","[1:reply] I gotcha Brody!
+
+Look the the agent settings in OC dash. Increase your timeout from 300 seconds to a lot more. Mine is set at 2 hours ( in seconds), since im offloading to cpu and large tasks can take an hour to complete
+[2:OP] Thx bro, that takes care of one problem
+[3:reply] If you are running 2026.05.22, you may be running into these exact bug(s):
+
+[Fix OpenAI Codex OAuth routing for embedded compaction fallback](https://github.com/openclaw/openclaw/issues/86373)
+/ [Codex OAuth compaction falls back to direct OpenAI API and fails without OPENAI_API…
+[4:reply] Welcome to r/openclaw
+Before posting:
+• Check the FAQ: https://docs.openclaw.ai/help/faq#faq
+• Use the right flair
+• Keep posts respectful and on-topic
+Need help fast? Discord: https://discord.com/invite/clawd
+
+
+*I am a bot, and this action was performed automatically. Please [c…
+[5:reply] Commenting to come back to this",title_body_comments,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/openclaw/comments/1tohg0r/my_openclaw_goes_down_like_every_10_min_or_so/
+B26-018,vscode,R won't attach in VSCode anymore,I'm desperate for help here because I only started working with both last semester and I study psychology...so we're not going pro we're just learning the basics. Ever since I upgraded my R to 4.6.0 it just won't attach anymore in VSCode. I've tried to look solutions up but they either haven't worked (everything is installed yadda yadda) or they were too complicated for me to even understand. If anyone who's good at programming could explain some potential solutions to me I'd be eternally grateful because I'd really like to properly participate in class again without trying to fix something every time.,"[1:reply] Make sure your PATH has the R location on it. 
+
+[https://code.visualstudio.com/docs/languages/r](https://code.visualstudio.com/docs/languages/r)
+[2:reply] What happens if you input `.vsc.attach()` into the console/terminal and hit Enter?
+[3:reply] If you upgrade to new version of R, you need to install EVERY package you used in the old version. Including languageserver.
+[4:reply] This seems to work for me:  
+[https://github.com/REditorSupport/vscode-R/issues/1696#issuecomment-4343488948](https://github.com/REditorSupport/vscode-R/issues/1696#issuecomment-4343488948)
+[5:OP] it says it could not find function .vsc.attach :(",title_body_comments,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/vscode/comments/1te617s/r_wont_attach_in_vscode_anymore/
+B26-019,applehelp,Account recovery without phone/email/device,"How long does recovery actually take without any of the 3 options? Because **support said 24 hours** but it's been **3 days by now**.
+
+I have an account with a running Apple Arcade subscription for my family (mom and dad with iPads), but I myself **didn't have a device**. Now I got myself an iPad too and wanted to set the account up, but realized **I didn't update my phone number before I changed it and the number is inactive by now**.
+
+With the usual recovery, Apple wants to send me codes to the (inactive) phone number or my **iCloud email (which I can't access due to 2-factor authentication with the inactive phone number)**.  
+I provided a **new phone number in the recovery process** and it says I will get a message once they sort the issue out and they allow a phone number update.
+
+I **don't have a credit card** tied to the account, the active subscription runs through PayPal - support said that doesn't help.
+
+I **have a new iPad now**, but when I try to use the account recovery during the setup process on it, it just returns an error.
+
+Is there any way I can speed up the process or sort it out differently?  
+Does it help if I set up the new device with a new Apple account and then try to recover the old one with an active device?  
+The old apple account has my personal details (name, street, city, DOB...), can this be used in any way?
+
+Should I just cancel my subscription at this point and abandon the account?
+
+Thanks for any feedback.
+
+**UPDATE: As of the time of writing, I will be able to change the phone number in 5 days. So I recon the whole process, with this worst case scenario, takes somewhere around 7 days. FYI.**",,title_and_body,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/applehelp/comments/1tfmuy0/account_recovery_without_phoneemaildevice/
+B26-020,applehelp,Can't open PDF on newer devices/OS.,"I have a Bishko automotive repair manual that is 815 MB stored on iCloud so that I can access it from all of my devices. However, ever since ""upgrading"" my M1 Pro MBP to Tahoe and since ""upgrading"" from an iPhone 12 Pro Max to an iPhone 16 Pro, I haven't been able to open it on either of them.
+
+Preview will either crash or freeze.
+
+A somewhat related issue is trying to create a PDF from the Print screen. If I try to do that, the app (Mail, Safari, etc.) will crash.
+
+Is this a known issue with PDFs?
+
+FWIW other apps can open this PDF.",,title_and_body,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/applehelp/comments/1sohc37/cant_open_pdf_on_newer_devicesos/
+B26-021,debian,"All ""suspend"" targets masked but Gnome desktop login still says system will suspend","Debian 13 (gnome) upgraded from 12
+
+When I installed 12 on a server I masked all the suspend targets (sleep, suspend, hibernate, hybrid-sleep).
+
+After upgrading to 13, on the Gnome login screen I found a message saying, in effect, that the system was going to suspend ""due to inactivity"".  I don't have the exact wording as it disappeared when I moved the mouse.
+
+Checking the suspend targets I find they're still masked, and I don't think the server actually suspended.
+
+    $ sudo journalctl -b | grep -i suspend
+    Dec 17 12:00:22 debian gsd-power[2388]: Error calling suspend action: GDBus.Error:org.freedesktop.login1.SleepVerbNotSupported: Sleep verb 'suspend' is disabled by config
+    Dec 18 10:02:16 debian gsd-power[2388]: Error calling suspend action: GDBus.Error:org.freedesktop.login1.SleepVerbNotSupported: Sleep verb 'suspend' is disabled by config
+    
+    jhg@debian ~
+    $ cat /etc/systemd/sleep.conf.d/nosuspend.conf
+    [Sleep]
+    AllowSuspend=no
+    AllowHibernation=no
+    AllowSuspendThenHibernate=no
+    AllowHybridSleep=no
+    
+    jhg@debian ~
+    $ sudo systemctl status hybrid-sleep.target
+    ○ hybrid-sleep.target
+         Loaded: masked (Reason: Unit hybrid-sleep.target is masked.)
+         Active: inactive (dead)
+    
+    jhg@debian ~
+    $ sudo systemctl status hibernate.target
+    ○ hibernate.target
+         Loaded: masked (Reason: Unit hibernate.target is masked.)
+         Active: inactive (dead)
+    
+    jhg@debian ~
+    $ sudo systemctl status suspend.target
+    ○ suspend.target
+         Loaded: masked (Reason: Unit suspend.target is masked.)
+         Active: inactive (dead)
+    
+    jhg@debian ~
+    $ sudo systemctl status sleep.target
+    ○ sleep.target
+         Loaded: masked (Reason: Unit sleep.target is masked.)
+         Active: inactive (dead)
+
+Is this just a case of Gnome Desktop not knowing about all the ""do not suspend"" configuration settings?
+
+Is there yet another setting that tells Gnome Desktop not to attempt to sleep?",,title_and_body,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/debian/comments/1ppznvv/all_suspend_targets_masked_but_gnome_desktop/
+B26-022,applehelp,Stopwatch showing at the top,"Hi! After the new update, I start a timer in the Clock app and it shows at the top of my screen. The problem is I can’t stop or reset it. It disappears from the app, and when I tap it at the top, it opens at 0 seconds. Is anyone else having this issue?",,title_and_body,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/applehelp/comments/1rxpi1c/stopwatch_showing_at_the_top/
+B26-023,MicrosoftEdge,"After update Google search from address bar always triggers captcha if you are not using the ""New Tab"" or ""Home"" page with Bing","I always had ""about:blank"" as my start page, as it was quick.
+
+I also used a ""Blank new tab"" extension, because I don't use Bing (Who does?)
+
+After latest update, if you don't have the Microsoft New Tab Page set as Home page and new tab page, every time you Google search it triggers the captcha, unusual activity detected etc -
+
+None of the blank tab extensions work around this any more, and even with no new tab page extension, if you set a different home page you can't google from the address bar.
+
+I thought Microsoft were supposed to be changing their approach to be more in line with what customers want - Not trying to force a new tab and home page with a big ugly BING search field -
+
+Wake up MS, no one wants Bing search, and forcing me to suddenly look at it every time I open a new page, that is much slower than opening a blank page, is utter BS.
+
+Whatever - I switched from Firefox to Edge a couple of years ago because I was actually impressed with it, but now you have forced me back to Firefox, even though, apart from this and the stupid white line bug at the bottom of the screen that no one's bothered to fix yet, I would actually rather use Edge as I like the UI etc more.
+
+As I said, whatever. Back to FIrefox we go.",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/MicrosoftEdge/comments/1s2bexy/after_update_google_search_from_address_bar/
+B26-024,AndroidQuestions,Samsung phone keeps restarting after the latest update. Anyone fixed a boot loop without factory resetting?,"My Galaxy phone installed an update yesterday and now it's stuck in a restart loop. It gets to the Samsung logo, restarts, and just repeats over and over. I can still get into recovery mode, but I'd rather not factory reset it because there are a few files I haven't backed up yet. While looking around, I noticed a few people mentioning Dr.Fone System Repair for Android, but I don't really know how well it works compared with using Odin or Samsung Smart Switch. Has anyone here been through this?",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/AndroidQuestions/comments/1uz2y8a/samsung_phone_keeps_restarting_after_the_latest/
+B26-025,applehelp,"“iphone folder empty” whenever i connect my phone to my pc to transfer pics, how do i fix this..need a reply asap!","[](/r/iphonehelp/?f=flair_name%3A%22Help%20needed%22)
+
+i connected my iphone to my CPU pc and clicked “allow” for device to connect. however, when i clicked the iphone option from my PC it says “folder empty” even though its not?
+
+how do i fix this error and how do i avoid making mistakes?
+
+i use an iphone 11 and i haven’t updated to the latest ios yet but i am intending to when i have more storage!","[1:reply] Read the ‘Import to your Windows PC’ section at the bottom of [this page](https://support.apple.com/en-us/120267). As is noted there, “If you have iCloud Photos turned on, you must download the original, full resolution versions of your photos to your iPhone or iPad before you i…
+[2:OP] my icloud photos are turned on but it has also ran out of storage and it’s not backing most of my pictures stored on my iphone, those are the ones that i want to copy onto my PC, will anything happen to those pics?",title_body_comments,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/applehelp/comments/1u8tygi/iphone_folder_empty_whenever_i_connect_my_phone/
+B26-026,applehelp,"WhatsApp on iPhone cannot send messages, but receiving and WhatsApp Web work","Hi everyone, I need help with a very strange WhatsApp issue.
+
+For the past few days, I have been unable to send any messages from the WhatsApp app on my iPhone. Every text message, photo, sticker, or attachment stays stuck with the exclamation red mark icon and is never sent.
+
+The strange part is that:
+
+* I can receive messages normally;
+* WhatsApp voice calls and video calls work correctly;
+* WhatsApp Web/Desktop works and I can send messages from there;
+* The same WhatsApp account works correctly on an Android phone (messages send normally).
+
+I have already tried:
+
+* restarting the iPhone;
+* enabling/disabling Airplane Mode;
+* switching between Wi-Fi and mobile data;
+* completely reinstalling WhatsApp;
+* testing on a second iPhone (same issue);
+* updating to the latest iOS and WhatsApp versions.
+
+The problem seems to affect only WhatsApp on iOS with my account.
+
+Has anyone experienced something similar? Could this be related to an iOS-specific account synchronization issue, encryption keys/session problems, or a bug after an Android-to-iPhone transfer?
+
+Any advice or suggestions would be greatly appreciated. Thank you!
+
+https://preview.redd.it/uu9z9oz9s7dh1.jpg?width=1206&amp;format=pjpg&amp;auto=webp&amp;s=ed1c88c1f068bd93ce60872cecf8371166c65a6e
+
+https://preview.redd.it/xeehypz9s7dh1.jpg?width=1206&amp;format=pjpg&amp;auto=webp&amp;s=858c8f581d8b426ca588e1d222390c7211f27356",,title_and_body,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/applehelp/comments/1uwc1u5/whatsapp_on_iphone_cannot_send_messages_but/
+B26-027,Wordpress,elementor update issue,hey guys i dont have such experince just trying to become good  . after updating elementor my header and footer disapered when i look into elementor its locked and say upgrade to pro so how can i fix that i want my old header and footer back .. p.s sorry for my english,,title_and_body,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/Wordpress/comments/1q4unw0/elementor_update_issue/
+B26-028,ios,Clock in upper left corner jumbled after iOS 26.1 update,"Anyone else experiencing this issue? After my iPhone 13 Mini updated to 26.1 a few days ago, the small clock in the upper left corner of my phone screen (the screen that opens as soon as you unlock your phone, with all of your apps/folders) has jumbled characters. It looks like there are two clocks with differing times, one overlaying the other. 
+
+I've tried googling this a hundred different ways and can't find anyone experiencing this issue. Restarting the phone doesn't fix it, and the issue goes away (i.e., the clock appears as normal) as soon as I open any application. I have my clock settings set to 12-hour time, so I toggled on the 24-hour option to see if that changed anything, and it did not (the jumbled characters just looked worse). 
+
+This morning I saw 26.2 was available, so I updated my iOS to see if that fixed the issue. No such luck. (Screenshot is from a few days ago, but the issue persists today.)
+
+https://preview.redd.it/6wv7odsmae7g1.jpg?width=503&amp;format=pjpg&amp;auto=webp&amp;s=851d7aebafffbab863e33f3c66e381226c0d41c2",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/ios/comments/1pnbzbl/clock_in_upper_left_corner_jumbled_after_ios_261/
+B26-029,AndroidQuestions,Front camera not working after update (Xiaomi 17 Pro),"&amp;#x200B;
+
+Hey everyone,
+
+After the latest update (HyperOS 3.0.305.0), my front camera completely stopped working. It was working fine earlier today, even in apps like WhatsApp, but now it doesn’t work anywhere.
+
+When I try to switch to the front camera, the app either freezes or closes. In Xiaomi diagnostics, it shows something like “empty or null camera ID”, and only the back cameras are detected.
+
+I didn’t drop the phone or damage it in any way. The issue started right after the update.
+
+Is anyone else experiencing this? Is this a known bug or could it be a hardware failure? Any fixes?
+
+What do you think I should do — take it to warranty service now, or wait for a possible software update that might fix this?",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/AndroidQuestions/comments/1sgibnl/front_camera_not_working_after_update_xiaomi_17/
+B26-030,sysadmin,Script to force users to NOT use google password manager/edge password manager,"The company that I work for have recently asked employees to switch away from using password managers like chrome or edge that automatically fill-out our sso, of course nobody listens to them . I've been tasked by admin to somehow force them to stop using these managers, but so far I haven't found anything that forces this as most threads regarding this are years outdated. Our company is pretty small so we have this really niche tool that and basically at my current position I am only able to run non-admin related scripts, so powershell, exes and the sorts. In order to run an admin related script it needs to be green-lit by multiple people before proceeding (weird, I'm aware) and that only takes effect after the user has updated it. I'm okay with doing it in a weird way, but most of them dont work. One example could be changing the chrome shortcut to not allow autofill in but that doesnt work/ is outdated. Chatgpt recommended an extension but extension arn't allowed in our group policy no matter what. Any thoughts on how to proceed
+
+tldr; how can i force chrome and edge auto password fill in to not work
+
+  
+edit: I could try and learn how GPO's work but I dont believe admin has that set up within our broswer. We do manage the company's google accounts but I dont have access related to that as mostly we only use it for logging data, or the company wide spam filter",,title_and_body,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/sysadmin/comments/1rxbdb5/script_to_force_users_to_not_use_google_password/
+B26-031,Ubiquiti,UDM Beast Storage Not Initialized,"I recently updated to an EA build (Unifi OS 6.0.10 / Network 10.6.106 if that matters) and noticed that my Control Plane / Storage was different. Instead of the standard ""Install drives to use with Protect"" or whatever it used to say, now it is telling me that the internal SSD needs to be initialized to use to create new storage.
+
+I am assuming that the 3.61GB of content is the logs.  Should I Erase and Format? Does the new version allow you to USE the UDM's drives as Drive storage?  Is this just an early access bug?
+
+I really don't want to muck up my gateway for what could be an EA bug.
+
+thanks","[1:reply] Same thing happened to me on 6.0.10. It's the new unified storage system, not something you broke. I did the graceful restart and it re-initialized using the existing data. If that fails, full backup, then format.
+[2:reply] Hello!  Thanks for posting on r/Ubiquiti!
+
+This subreddit is here to provide unofficial technical support to people who use or want to dive into the world of Ubiquiti products.  If you haven’t already been descriptive in your post, please take the time to edit it and add as many…
+[3:reply] Just roll back to the official release version
+[4:reply] We were unable to locate any existing tickets associated with your username. Please share any tickets created from account.ui.com/requests to social@ui.com referencing this post so we can prioritize with a manager to review. Thank you.
+[5:OP] Thank you for checking. I have not actually opened a ticket yet. The issue does not disrupt the functioning of the gateway and I figured I would check here first. I will likely open a ticket if a reboot does not solve the issue.",title_body_comments,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/Ubiquiti/comments/1wvc96c/udm_beast_storage_not_initialized/
+B26-032,opencode,"After a recent update, tool calls fail all the time, tokens wasted, and models seem dumber","Having these issues in the desktop app, currently on 1.17.7.
+
+I'm shocked at how bad this has gotten. Almost all the time, I can get away with a few tools calls before literally 90% of them appear as if they failed.
+
+Models make mistakes like spewing out gibberish, sometimes some text that seems to be part of the system prompt?? Sometimes real responses get logged under 'thinking', and if I don't have 'Show reasoning summaries' on, it looks like it didn't respond with anything, as if it stopped early.
+
+This is happening with various models, all via openrouter: Kimi K2.6, Kimi Code 2.7, Qwen3.6 35b-a3b, Deepseek V4 Flash.
+
+I also see my 'output' on openrouter randomly jumps from 200-300 tokens per turn, to random 14,000 token spikes. I don't know what changed, but I moved from 1.15.x to 1.16.x and was running into issues with tool calls being duplicated. I was happy to jump to 1.17.x to see if that got fixed, and I think it did, but now I'm having these issues and I think this is even worse.
+
+I can do the same work with any of these models in Hermes, and I don't have any of this going on. I didn't use to have this happening with opencode just a few days / week ago. I **like** using opencode (don't like hermes because I don't have a web UI for it and i'm not using WSL so I can't use their built in web interface). But it's having soo many issues recently.
+
+If anyone knows what's going on with this and has advice, I'd love to hear it.","[1:reply] Response from my AI : ""You should use a bigger model, small models can have this kind of problems"" 😂🤣🤣🤣 /s
+[2:reply] I have experienced the following bugs:
+
+\## Bug 1: #29616 — Custom subagent\_type not invocable  
+URL: [https://github.com/anomalyco/opencode/issues/29616](https://github.com/anomalyco/opencode/issues/29616)  
+This bug means custom agents defined in opencode.json cannot be spawn…
+[3:OP] Possibly, in that it sounds similar, but my issue is not within sub agents and happens with open router rather than models hosted on ollama",title_body_comments,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/opencode/comments/1u6ma1b/after_a_recent_update_tool_calls_fail_all_the/
+B26-033,homeassistant,Sigh. Configuration frustrations...,"Hey All,
+
+   So... been trying for a couple of weeks now, to get the vue3's up and running. I'm running hardwired (because I have more than one wifi), and seem be able to have only one running at a time.  I briefly had two running, but see next para.
+
+The first one running was down in the shop, in the main sub panel. I had wired ethernet down to there, and a switch.  got it connected, and looked good.. but, even though I was getting readings from it, it showed as offline, and would not update OTA.  Weird, but, it was working.?
+
+Next one I tried to set up took me a bunch of tries in the house (I gave up counting at 10), before finally figuring out that it did not like having a manually configured network address.  Removing the manual config, and it started working.  Yay!  So I went for the the second one at the house, by duplicating the first house config that was working.  And yes, you guessed it, it did not work.
+
+So I took the shop one that was working, and just updated it.. .and it stopped working.  Pings still work, firewall shows it grabbed an IP, but led's just flash and status still offline.  I even put it back as fixed IP that I had before, and it still won't talk.
+
+Any clues?  I'm pulling my beard out at this point...
+
+Let's see... can I attach my yaml file?  Hmm... doesn't look like I can attach, but I can paste.  Apologies if I missed it!
+
+This yaml is the first pass at the shop, the main sub-panel that feeds up to the house.  
+
+My electric configuration goes:  pge + solar, goes to a panel that splits the main into a utility and essential, with the essential panel going through a switch for a house backup generator.  Utility panel is not on the generator.  Utility panel is also split at that point to shop and house. The lines go from there across the property to the matching sub-panels in the house.  I have 3 vue3's, and was planning on one at the shop, and two at the house. I Have a home assitant green configured wired on the net.  There are two wifi's available, one at the house and one at the shop, hence the need to make them all wired and on the same subnet.
+
+What have I missed?  Thanks in advance...
+
+    esphome:
+      name: shopsub1
+      friendly_name: Shop Sub1
+    
+    esp32:
+      board: esp32dev
+      framework:
+        type: esp-idf
+    
+    # Enable Home Assistant API
+    api:
+      encryption:
+        key: !secret housegen__encryption_key
+    ota:
+      - platform: esphome
+        password: !secret housegen__ota_password
+    
+    external_components:
+      - source: github://emporia-vue-local/esphome@dev
+        components:
+          - emporia_vue
+
+    # and use HA for setting our RTC time locally
+    time:
+      - platform: homeassistant
+    
+    # and expose a (virtual) ""switch"" that HA can use to restart us
+    switch:
+      - platform: restart
+        name: Restart
+    
+    
+    # enable logging, with some customizations
+    logger:
+      logs:
+        # by default, every reading will be printed to the UART, which is very slow
+        # This will disable printing the readings but keep other helpful messages
+        sensor: INFO
+
+    preferences:
+      # avoid wearing out the flash lifespan with rapidly-updating sensor data!
+      # please also make sure `restore: false` is set on all `platform: total_daily_energy` sensors below.
+      flash_write_interval: ""48h""
+    #wifi:
+    #  ssid: !secret wifi_ssid
+    #  password: !secret wifi_password
+    #  on_connect:
+    #    - light.turn_on: wifi_led
+    #  on_disconnect:
+    #    - light.turn_off: wifi_led
+    
+    light:
+      - platform: status_led
+        id: wifi_led
+        pin:
+          number: 2
+          ignore_strapping_warning: true
+        restore_mode: RESTORE_DEFAULT_ON
+    
+      - platform: status_led
+        id: ethernet_led
+        pin: 4
+        restore_mode: ALWAYS_OFF
+    
+    i2c:
+      sda:
+        number: 5
+        ignore_strapping_warning: true
+      scl: 18
+      scan: false
+      frequency: 400kHz
+      timeout: 1ms
+      id: i2c_a
+    
+    # you can also use Ethernet for connectivity by uncommenting the following
+    ethernet:
+      type: RTL8201
+      mdc_pin: GPIO32
+      mdio_pin: GPIO33
+    #  clk_mode: GPIO0_IN
+      on_connect:
+        - light.turn_on: ethernet_led
+
+      on_disconnect:
+        - light.turn_off: ethernet_led
+    
+      clk:
+        pin:
+          number: GPIO0
+        mode: CLK_EXT_IN
+    
+    substitutions:
+      leg_1: Phase A # Solar
+      leg_2: ""Phase B"" # Solar
+      #leg_3 (`input: ""C""` available but not used in this example)
+      cir_1: Ozone  # Ozone
+      cir_2: WaterPump  # Water pumps
+      cir_3: RV Outlets  # RV outlet
+      cir_4: ""Circuit 4""
+      cir_5: ""Circuit 5""
+      cir_6: ""Circuit 6""
+      cir_7: ""Circuit 7""
+      cir_8: ""Circuit 8""
+      cir_9: ""Circuit 9""
+
+      cir_10: ""Circuit 10""
+      cir_11: ""Circuit 11""
+      cir_12: ""Circuit 12""
+      cir_13: Sub-HouseA
+      cir_14: Sub-HouseB
+      cir_15: SolarA  # Solar A
+      cir_16: SolarB  # Solar B
+      xtra: ""Balance""  # displaying leftover/unmonitored energy (total minus circs 1–16)
+    
+    .filters:
+      # these are called references in YAML. They allow you to reuse
+      # this configuration in each sensor, while only defining it once
+      # you can adjust them here, split them up differently, even copy some inline…
+      - &amp;throttle_avg
+        # average all raw readings together over a 5 second span before publishing
+        throttle_average: 5s
+      - &amp;throttle_time
+        # only send the most recent measurement every 60 seconds
+        throttle: 60s
+            # invert the value for solar
+      - &amp;neg
+
+       # invert and filter out any values below 0.
+        lambda: 'return max(-x, 0.0f);'
+      - &amp;pos
+        # filter out any values below 0.
+        lambda: 'return max(x, 0.0f);'
+      - &amp;abs
+        # take the absolute value of the value
+        lambda: 'return abs(x);'
+    
+    sensor:
+      - platform: emporia_vue
+        variant: vue3
+        i2c_id: i2c_a
+        phases:
+          - id: phase_a  # Verify that this specific phase/leg is connected to correct input wire color on device listed below
+            input: BLACK # Vue device wire color
+            calibration: 0.01925 # a starting point, may need adjusted to ensure accuracy!
+            # To calculate new calibration value use the formula &lt;in-use calibration value&gt; * &lt;accurate voltage&gt; / &lt;reporting voltage&gt;
+            voltage:
+              name: ""${leg_1} Voltage""
+              filters: [*throttle_avg, *pos]
+            frequency:
+              name: ""${leg_1} Frequency""
+              filters: [*throttle_avg, *pos]
+          - id: phase_b  # see notes above
+            input: RED
+            calibration: 0.01925
+            voltage:
+              name: ""${leg_2} Voltage""
+              filters: [*throttle_avg, *pos]
+            phase_angle:
+              name: ""${leg_2} Phase Angle""
+
+              filters: [*throttle_avg, *pos]
+        ct_clamps:
+          # These non-throttled power sensors are used for accurately calculating energy.
+          # Recommend not to specify a `name` for any of the power sensors here — only the `id`!
+          # This leaves them internal to ESPHome locally; post-processed data is sent to HA below.
+          - phase_id: phase_a
+            input: ""A""  # Verify the CT going to these devices input also matches the phase/leg
+            power:
+              id: phase_a_power
+              device_class: power
+              filters: [*pos]
+          - phase_id: phase_b
+            input: ""B""
+            power:
+              id: phase_b_power
+              device_class: power
+              filters: [*pos]
+          # Pay close attention to set the `phase_id` for each breaker by matching it to the phase/leg it connects to in the panel
+          - { phase_id: phase_a, input:  ""1"", power: { id:  cir1, filters: [ *neg ] } }
+          - { phase_id: phase_a, input:  ""2"", power: { id:  cir2, filters: [ *neg ] } }
+          - { phase_id: phase_a, input:  ""3"", power: { id:  cir3, filters: [ *neg ] } }
+
+          - { phase_id: phase_b, input:  ""4"", power: { id:  cir4, filters: [ *neg ] } }
+          - { phase_id: phase_a, input:  ""5"", power: { id:  cir5, filters: [ *neg ] } }
+          - { phase_id: phase_b, input:  ""6"", power: { id:  cir6, filters: [ *neg ] } }
+          - { phase_id: phase_a, input:  ""7"", power: { id:  cir7, filters: [ *neg ] } }
+          - { phase_id: phase_b, input:  ""8"", power: { id:  cir8, filters: [ *neg ] } }
+          - { phase_id: phase_a, input:  ""9"", power: { id:  cir9, filters: [ *neg ] } }
+          - { phase_id: phase_b, input: ""10"", power: { id: cir10, filters: [ *neg ] } }
+          - { phase_id: phase_a, input: ""11"", power: { id: cir11, filters: [ *neg ] } }
+          - { phase_id: phase_b, input: ""12"", power: { id: cir12, filters: [ *neg ] } }
+          - { phase_id: phase_a, input: ""13"", power: { id: cir13, filters: [ *neg ] } }
+          - { phase_id: phase_b, input: ""14"", power: { id: cir14, filters: [ *neg ] } }
+          - { phase_id: phase_a, input: ""15"", power: { id: cir15, filters: [ *neg ] } }
+          - { phase_id: phase_b, input: ""16"", power: { id: cir16, filters: [ *neg ] } }
+        on_update:
+          then:
+            - component.update: total_power
+            - component.update: balance_power
+    
+      # these `copy` sensors filter and send the power state to HA
+      - { platform: copy, name: ""${leg_1} Power"", source_id: phase_a_power, filters: *throttle_avg }
+
+      - { platform: copy, name: ""${leg_2} Power"", source_id: phase_b_power, filters: *throttle_avg }
+      - { platform: copy, name: ""Total Power"", source_id: total_power, filters: *throttle_avg }
+      - { platform: copy, name: ""${xtra} Power"", source_id: balance_power, filters: *throttle_avg }
+      - { platform: copy, name:  ""${cir_1} Power"", source_id:  cir1, filters: *throttle_avg }
+      - { platform: copy, name:  ""${cir_2} Power"", source_id:  cir2, filters: *throttle_avg }
+      - { platform: copy, name:  ""${cir_3} Power"", source_id:  cir3, filters: *throttle_avg }
+      - { platform: copy, name:  ""${cir_4} Power"", source_id:  cir4, filters: *throttle_avg }
+      - { platform: copy, name:  ""${cir_5} Power"", source_id:  cir5, filters: *throttle_avg }
+      - { platform: copy, name:  ""${cir_6} Power"", source_id:  cir6, filters: *throttle_avg }
+      - { platform: copy, name:  ""${cir_7} Power"", source_id:  cir7, filters: *throttle_avg }
+      - { platform: copy, name:  ""${cir_8} Power"", source_id:  cir8, filters: *throttle_avg }
+      - { platform: copy, name:  ""${cir_9} Power"", source_id:  cir9, filters: *throttle_avg }
+      - { platform: copy, name: ""${cir_10} Power"", source_id: cir10, filters: *throttle_avg }
+      - { platform: copy, name: ""${cir_11} Power"", source_id: cir11, filters: *throttle_avg }
+      - { platform: copy, name: ""${cir_12} Power"", source_id: cir12, filters: *throttle_avg }
+      - { platform: copy, name: ""${cir_13} Power"", source_id: cir13, filters: *throttle_avg }
+      - { platform: copy, name: ""${cir_14} Power"", source_id: cir14, filters: *throttle_avg }
+      - { platform: copy, name: ""${cir_15} Power"", source_id: cir15, filters: *throttle_avg }
+      - { platform: copy, name: ""${cir_16} Power"", source_id: cir16, filters: *throttle_avg }
+    
+
+      - platform: template
+        lambda: return id(phase_a_power).state + id(phase_b_power).state;
+        update_interval: never   # will be updated after all power sensors update via on_update trigger
+        id: total_power
+        device_class: power
+        state_class: measurement
+        unit_of_measurement: ""W""
+      - platform: total_daily_energy
+        name: ""Total Daily Energy""
+        power_id: total_power
+        accuracy_decimals: 0
+        restore: false
+        filters: *throttle_time
+      
+      - platform: template
+        lambda: !lambda |-
+          return max(0.0f, id(total_power).state -
+            id( cir1).state -
+            id( cir2).state -
+            id( cir3).state -
+            id( cir4).state -
+
+            id( cir5).state -
+            id( cir6).state -
+            id( cir7).state -
+            id( cir8).state -
+            id( cir9).state -
+            id(cir10).state -
+            id(cir11).state -
+            id(cir12).state -
+            id(cir13).state -
+            id(cir14).state -
+            id(cir15).state -
+            id(cir16).state);
+        update_interval: never   # still happens, but via `on_update` trigger (*after* all power sensors update)
+        id: balance_power
+        device_class: power
+        state_class: measurement
+        unit_of_measurement: ""W""
+      - platform: total_daily_energy
+        name: ""${xtra} Daily Energy""
+        power_id: balance_power
+
+    ""${cir_16} Daily Energy"", filters: *throttle_time }  # Solar B ""${cir_11} Daily Energy"", filters: *throttle_time }   accuracy_decimals: 0
+        restore: false
+        filters: *throttle_time
+      
+      - { power_id:  cir1, platform: total_daily_energy, accuracy_decimals: 0, restore: false, name:  ""${cir_1} Daily Energy"", filters: *throttle_time }  # ozone
+      - { power_id:  cir2, platform: total_daily_energy, accuracy_decimals: 0, restore: false, name:  ""${cir_2} Daily Energy"", filters: *throttle_time }  # water pumps
+      - { power_id:  cir3, platform: total_daily_energy, accuracy_decimals: 0, restore: false, name:  ""${cir_3} Daily Energy"", filters: *throttle_time }  # RV power
+      #- { power_id:  cir4, platform: total_daily_energy, accuracy_decimals: 0, restore: false, name:  ""${cir_4} Daily Energy"", filters: *throttle_time }
+      #- { power_id:  cir5, platform: total_daily_energy, accuracy_decimals: 0, restore: false, name:  ""${cir_5} Daily Energy"", filters: *throttle_time }
+      #- { power_id:  cir6, platform: total_daily_energy, accuracy_decimals: 0, restore: false, name:  ""${cir_6} Daily Energy"", filters: *throttle_time }
+      #- { power_id:  cir7, platform: total_daily_energy, accuracy_decimals: 0, restore: false, name:  ""${cir_7} Daily Energy"", filters: *throttle_time }
+      #- { power_id:  cir8, platform: total_daily_energy, accuracy_decimals: 0, restore: false, name:  ""${cir_8} Daily Energy"", filters: *throttle_time }
+      #- { power_id:  cir9, platform: total_daily_energy, accuracy_decimals: 0, restore: false, name:  ""${cir_9} Daily Energy"", filters: *throttle_time }
+      #- { power_id: cir10, platform: total_daily_energy, accuracy_decimals: 0, restore: false, name: ""${cir_10} Daily Energy"", filters: *throttle_time }
+      #- { power_id: cir11, platform: total_daily_energy, accuracy_decimals: 0, restore: false, name: 
+      #- { power_id: cir12, platform: total_daily_energy, accuracy_decimals: 0, restore: false, name: ""${cir_12} Daily Energy"", filters: *throttle_time }
+      - { power_id: cir13, platform: total_daily_energy, accuracy_decimals: 0, restore: false, name: ""${cir_13} Daily Energy"", filters: *throttle_time }
+      - { power_id: cir14, platform: total_daily_energy, accuracy_decimals: 0, restore: false, name: ""${cir_14} Daily Energy"", filters: *throttle_time }
+      - { power_id: cir15, platform: total_daily_energy, accuracy_decimals: 0, restore: false, name: ""${cir_15} Daily Energy"", filters: *throttle_time }  # Solar A
+     - { power_id: cir16, platform: total_daily_energy, accuracy_decimals: 0, restore: false, name: ""${cir_16} Daily Energy"", filters: *throttle_time }  # Solar B","[1:reply] first thing that jumps out is your ethernet clk pin config might be fighting with the strapping pins on boot. gpio0 is a boot mode pin on most esp32 boards, if it gets pulled wrong during startup the thing just sits there flashing leds and never connects properly. had similar he…
+[2:OP] Thanks.  I don't know if I have a choice on the clk pin.. I'll check though.  I know that the commented out clk config was done because it got a compile deprecated warning, and replacement text.  
+
+No weird dhcp stuff going on, I have a firewall doing all the dhcp leases, and sw…
+[3:OP] Okay, so apparently the secret key for the shop vue3 got changed.  And that apparently mimics a not connected ethernet connection? I updated that, and it's now working. Which means I have 2 out of 3 vue3's working.  Sort-of.  I still have a couple sensors that are reporting zero…",title_body_comments,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/homeassistant/comments/1us98kr/sigh_configuration_frustrations/
+B26-034,Ubuntu,Error 6008,"https://preview.redd.it/585bjbrxn08h1.png?width=582&amp;format=png&amp;auto=webp&amp;s=ba21bb96becc640a6ee0e5bc4536a260daf11ddf
+
+I use idquiz for study. I try to fix this but i cant. How can i fix this? And I updated google chrome to the latest version.",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/Ubuntu/comments/1u92dq9/error_6008/
+B26-035,MacOS,MacOS 26.4 - broken smb-share access,"So FYI: after updating to MacOS 26.4 it is no longer possible to access my companies SMB-shares through my Mac and OVPN-connection, making it unable for me to work properly.",,title_and_body,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/MacOS/comments/1s39c6a/macos_264_broken_smbshare_access/
+B26-036,vscode,I just updated vs code and it broke my copilot for some reason.,"https://preview.redd.it/21l6krvvbx5g1.png?width=476&amp;format=png&amp;auto=webp&amp;s=be3a8b1a7d84d327fb84ea6b5f8525958fe88aed
+
+  
+This is the same for every model I am using.   
+`{""message"":""model ""qwen3-4b-instant-apply-ft"" not available""}`  
+I dont even know what the mentioned model is. 
+
+* I am using VSCode in linux (debian)
+* Extensions are all updated to latest
+* No MCP servers or tools used. just the model itself
+* Happens only on this project.
+* There is no workspace specific vscode setting
+
+&amp;#8203;
+
+    Version: 1.106.3
+    Commit: bf9252a2fb45be6893dd8870c0bf37e2e1766d61
+    Date: 2025-11-25T22:28:18.024Z
+    Electron: 37.7.0
+    ElectronBuildId: 12781156
+    Chromium: 138.0.7204.251
+    Node.js: 22.20.0
+    V8: 13.8.258.32-electron.0
+    OS: Linux x64 6.16.8+kali-amd64
+
+I dont find anything else about this online
+
+
+Edit: Guys I couldnt fix it no matter whatever I did but I just realized it was only that project which I was last working on had the issue. I even deleted the settings.json but still it was the same.
+
+So I just copied the project to another folder, copied everything  and then it worked in that folder.
+
+Idk whatever weird but this is but I got one more reason to ditch vscode and try Antigravity",,title_and_body,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/vscode/comments/1ph5dua/i_just_updated_vs_code_and_it_broke_my_copilot/
+B26-037,Ubiquiti,Standalone UNVR brought new life to my UDM Pro,"For the past several months, my UDM Pro was starting to get sluggish. First it was just the web interface being slow to load, but then the Network and Protect apps would start to crash on occasion… and I had to restart to get things running again.
+
+Initially, I was going to upgrade to a UDM Pro Max for the extra memory. But thanks to some other threads here, I decided instead to get a UNVR instead and offload Protect (along with 8 cameras) to it. I’m so glad I went this route.
+
+Once I was fully migrated over to the UNVR, my UDM Pro got snappy again. No more sluggishness in the web interface, everything is humming again, and running so much better.",,title_and_body,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/Ubiquiti/comments/1rzgm3v/standalone_unvr_brought_new_life_to_my_udm_pro/
+B26-038,kubernetes,Kubernetes v1.35 - full guide testing the best features with RC1 code,"Since my 1.33/1.34 posts got decent feedback for the practical approach, so here's 1.35. (yeah I know it's on a vendor blog, but it's all about covering and testing the new features)
+
+Tested on RC1. A few non-obvious gotchas:
+
+\- **Memory shrink doesn't OOM**, it gets stuck. Resize from 4Gi to 2Gi while using 3Gi? Kubelet refuses to lower the limit. Spec says 2Gi, container runs at 4Gi, resize hangs forever. Use `resizePolicy: RestartContainer` for memory.
+
+\- **VPA silently ignores single-replica workloads**. Default `--min-replicas=2` means recommendations get calculated but never applied. No error. Add `minReplicas: 1` to your VPA spec.
+
+\- **kubectl exec may be broken after upgrade.** It's RBAC, not networking. WebSocket now needs `create` on `pods/exec`, not `get`.
+
+Full writeup covers In-Place Resize GA, Gang Scheduling, cgroup v1 removal (hard fail, not warning), and more (including an upgrade checklist). Here's the link:
+
+[https://scaleops.com/blog/kubernetes-1-35-release-overview/](https://scaleops.com/blog/kubernetes-1-35-release-overview/)",,title_and_body,yes,yes,other,low,The post appears to discuss software without a clear troubleshooting or chiefly critical purpose.,,,,,,,https://reddit.com/r/kubernetes/comments/1pou8t2/kubernetes_v135_full_guide_testing_the_best/
+B26-039,MacOS,"With Tahoe, won't wake when lid opens - MBP 2019 16"" Intel i7","Just upgraded to Tahoe, amazingly no major issues -- but definitely a super-annoying and stupid bug. Now when I open the lid or press any key if the laptop is asleep, nothing happens. I have to repeatedly press the TouchID button in the upper right to get the laptop active again. Anyone else experiencing this bug?",,title_and_body,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/MacOS/comments/1pngcce/with_tahoe_wont_wake_when_lid_opens_mbp_2019_16/
+B26-040,chrome,weird website keeps opening every update,"i keep getting a website called promtonhead each time i update my google chrome. i tried closing it and opening it again but it doesn't seem to happen again UNTIL there is a new update that i need to install. its just a blank website but i'm a little worried it's something malicious. it doesn't even show up in my google history, just on my recently closed tabs. what is this and how do i stop it?",,title_and_body,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/chrome/comments/1su5mie/weird_website_keeps_opening_every_update/
+B26-041,Wordpress,"Website broken after WordPress update – Fusion Builder not saving, images missing, WooCommerce carousels gone",,,title_only,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/Wordpress/comments/1n0gxfd/website_broken_after_wordpress_update_fusion/
+B26-042,immich,Manual upload fails after 1.136.0 update,,,title_only,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/immich/comments/1m914la/manual_upload_fails_after_11360_update/
+B26-043,neovim,Neotree file icons stopped being blue,"https://preview.redd.it/5z6hd04lnv6g1.png?width=250&amp;format=png&amp;auto=webp&amp;s=909a548127817d86fac88d53035696a1c6ce10cf
+
+See title, not sure where to go for this. I've tried multiple fixes and nothing is fixing it. this occurred after the neovim update came out, but before I installed the update, and with zero changes to my config. Thanks!",,title_and_body,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/neovim/comments/1pl9jer/neotree_file_icons_stopped_being_blue/
+B26-044,MacOS,New to Mac: software manager says I have Sequoia but MacHD says my OS is 10.15.7 so I can't download things like Davinci Resolve?,"As the title says. I just got a Macbook Pro 2020 with two thunderbolt 3 ports. I had to do a hard reset on it when I initially started setting it up because it kept glitching out. That went fine and it says that I'm on Sequoia now, what I understand to be the OS update from last year, and the last OS update that is compatible with this device. So far I'm really liking this computer because it's a huge upgrade for me, especially in terms of speed/power.
+
+  
+The problem is, I went to download Davinci Resolve, and I got an error message stating that:
+
+""DaVinci Resolve can’t be installed on “Mac HD” because macOS version 14.5 or later is required.""
+
+  
+Naturally I think this is a mistake since I have a very recent version of the OS. Then I open the startup disk section from settings and it says this under my hard drive logo:
+
+""MacHD
+
+MacOS 10.15.7""
+
+  
+So my hard drive says I have Catalina and software says I have Sequoia? They don't match? I also am not that well-versed on computers (especially mac) so I am probably just missing something.
+
+Thanks for any help!",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/MacOS/comments/1p2b6qw/new_to_mac_software_manager_says_i_have_sequoia/
+B26-045,homelab,Proxmox setup with quantum internet,"I'm just getting into homelabbing and I'm working on getting my first proxmox install set up for home assistant, jellyfin/plex, immich, etc --trying to stop paying for services and hosting myself. I have a brand new install PVE 9.2.2 completed, I can access the interface, but in trying to do apt-get update/apt update/apt distro-update it keeps giving me errors. I've gotten the ""failed: exit code 100"", the ""can't connect to host"", and ""failed to fetch http://...... Temporary failure resolving ......"" (On all repositories that are enabled --I disabled all of the ""enterprise"" repos and added the no-subscription repo)
+
+I've tried changing the DNS to my modem IP, the gateway address, the DNS address, found directly on quantum's modem configuration, I've tried 1.1.1.1, 8.8.8.8, and 9.9.9.9 and still run into the same issues with minimal changes to the faults. I pinged all of the above in the shell and it tells me that it pings it 56(84) bytes of data, and then sends a repeating fault ""From 192.168.0.99 Destination host unreachable"" (192.168.0.99 is my server). I have the server plugged into my wired network pod, set the IP as static, verified that the IP is the same both on the server and quantum, I made sure that my router didn't give IP to any other device on my network, I have dug through TONS of forums of people having similar issues, and have tried all of the suggestions there. I've tried reinstalling proxmox several times (on 2 different PCs) and still end up with the same issue no matter what I do. Edited the /etc/network/interfaces several times, verified ""ip a"" is the same everywhere else. 
+
+Tldr: fresh install of proxmox does not get updates, I've tried several tutorials/suggestions I can find in forums/YouTube/etc
+
+Any tips, suggestions, tutorials (preferably with a lot of information about what the goal/intention is to help me understand more of what I'm doing) I'm extremely new to any of this (I barely installed Linux last month and have been tinkering away learning tons about it -- Fedora)","[1:reply] sounds like your server can't reach outside world at all, the ping error is telling you that. if you getting ""destination host unreachable"" from your own IP that means the server itself doesn't have a route to the gateway
+
+  
+check your netmask in /etc/network/interfaces, if it'…
+[2:reply] can you ping your router/modem, assuming it's [192.168.0.1](http://192.168.0.1), right?  Do you have a router?  
+
+What does this mean... ""verified that the IP is the same both on the server and quantum""
+
+if you're using [192.168.0.99](http://192.168.0.99), that's an internal IP,…
+[3:OP] I am a little confused as to what netmask you're talking about? When I pull up interfaces it shows
+""auto vmbr0
+iface vmbr0 inet static
+       address 192.168.0.99
+       gateway 174.29.27.35
+       bridge-ports nic0
+       bridge-stp off
+       bridge-fd 0""
+I can try switching g…
+[4:OP] Yes, I can ping it, it says 56 (84) bytes of data and then it goes into a repeat of ""64 bytes from 192.168.0.1: icmp_seq=(1,2,3,etc) ttl=64 time=0.time ms
+
+I'm meaning when I sign in to 192.168.0.1 with admin and password it and look at the devices information it was initially s…",title_body_comments,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/homelab/comments/1uj60su/proxmox_setup_with_quantum_internet/
+B26-046,comfyui,Wan 2.2 GGUF OOM error after update,"i dont know which version I was on, just know that I updated to the latest versiom of comfyui yesterday and it broke almost all my wan 2.2 gguf workflows.
+
+So basically i was runninf q4 to q6 quants very easily , now i either get OOM error on the first step, or get it after the switch from Hi to Low sampler.
+
+I read somewhere there was a fix to add the --disbale-dynamic-vram command, but that did not do it either for me. I am suspecting it might be the GGUF nodes which are the culprits",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/comfyui/comments/1sjh5d9/wan_22_gguf_oom_error_after_update/
+B26-047,MicrosoftEdge,Latest update removed all the options for dark modes in ://flags,"* Microsoft Edge, Version 144.0.3719.82
+* ""edge://flags/#enable-force-dark"" 
+
+Dark Mode doesn't work properly with some images or website now.
+
+Last update only left us with two options : Enabled or Disabled. We don't get to previous one such as ""invert non image elements"" or ""based on transparency and color numbers"".",,title_and_body,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/MicrosoftEdge/comments/1qg6gxp/latest_update_removed_all_the_options_for_dark/
+B26-048,MicrosoftEdge,Fonts and all Boxes Appearing Neon on Microsoft Edge after Update.,Updated my edge to the latest Version and found all websites and buttons and everything else showcasing a weird looking Neon colourway. Anybody know how to fix it.,,title_and_body,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/MicrosoftEdge/comments/1oo0820/fonts_and_all_boxes_appearing_neon_on_microsoft/
+B26-049,comfyui,Trying to downgrade back to 0.3.75 but it is difficult,"General PSA that if you do not plan to use 0.3.76 then it is best to hold off for now because reinstalling to an older version is now a pain in the backside when dealing with custom nodes.
+
+For me, v0.3.76 broke a few things, namely GGUF loader and LORA loading resulting in a good first generation and pixel snowstorm with the generation after that, which eventually leads to comfyui crashing completely.
+
+Rolling back to a fresh v0.3.75 install fixed my workflow completely and things were back to normal until I had to grab some missing custom nodes (see above).
+
+To add to this, as an experiment I made a new fresh v0.3.76 install and installing missing nodes from the ComfyUI manager will cause a Repository Error which will lead to Comfyui unable to start in the first place.
+
+This entire version has been total complete workflow annihilation
+
+For those interested in the v0.3.76 startup error :
+
+Adding extra search path checkpoints G:\\Stability AI\\Data\\Models\\StableDiffusion
+
+Adding extra search path diffusers G:\\Stability AI\\Data\\Models\\Diffusers
+
+Adding extra search path loras G:\\Stability AI\\Data\\Models\\Lora
+
+Adding extra search path loras G:\\Stability AI\\Data\\Models\\LyCORIS
+
+Adding extra search path clip G:\\Stability AI\\Data\\Models\\TextEncoders
+
+Adding extra search path clip\_vision G:\\Stability AI\\Data\\Models\\ClipVision
+
+Adding extra search path embeddings G:\\Stability AI\\Data\\Models\\Embeddings
+
+Adding extra search path vae G:\\Stability AI\\Data\\Models\\VAE
+
+Adding extra search path vae\_approx G:\\Stability AI\\Data\\Models\\ApproxVAE
+
+Adding extra search path controlnet G:\\Stability AI\\Data\\Models\\ControlNet
+
+Adding extra search path controlnet G:\\Stability AI\\Data\\Models\\T2IAdapter
+
+Adding extra search path gligen G:\\Stability AI\\Data\\Models\\GLIGEN
+
+Adding extra search path upscale\_models G:\\Stability AI\\Data\\Models\\ESRGAN
+
+Adding extra search path upscale\_models G:\\Stability AI\\Data\\Models\\RealESRGAN
+
+Adding extra search path upscale\_models G:\\Stability AI\\Data\\Models\\SwinIR
+
+Adding extra search path hypernetworks G:\\Stability AI\\Data\\Models\\Hypernetwork
+
+Adding extra search path ipadapter G:\\Stability AI\\Data\\Models\\IpAdapter
+
+Adding extra search path ipadapter G:\\Stability AI\\Data\\Models\\IpAdapters15
+
+Adding extra search path ipadapter G:\\Stability AI\\Data\\Models\\IpAdaptersXl
+
+Adding extra search path prompt\_expansion G:\\Stability AI\\Data\\Models\\PromptExpansion
+
+Adding extra search path ultralytics G:\\Stability AI\\Data\\Models\\Ultralytics
+
+Adding extra search path ultralytics\_bbox G:\\Stability AI\\Data\\Models\\Ultralytics\\bbox
+
+Adding extra search path ultralytics\_segm G:\\Stability AI\\Data\\Models\\Ultralytics\\segm
+
+Adding extra search path sams G:\\Stability AI\\Data\\Models\\Sams
+
+Adding extra search path diffusion\_models G:\\Stability AI\\Data\\Models\\DiffusionModels
+
+Prestartup times for custom nodes:
+
+1.5 seconds: G:\\Stability AI\\Data\\Packages\\ComfyUI\\custom\_nodes\\ComfyUI-Manager
+
+Checkpoint files will always be loaded safely.
+
+Total VRAM 24564 MB, total RAM 65293 MB
+
+pytorch version: 2.9.1+cu128
+
+Set vram state to: NORMAL\_VRAM
+
+Device: cuda:0 NVIDIA GeForce RTX 4090 : cudaMallocAsync
+
+Using async weight offloading with 2 streams
+
+Enabled pinned memory 29381.0
+
+working around nvidia conv3d memory bug.
+
+Using pytorch attention
+
+Python version: 3.12.11 (main, Jul 23 2025, 00:32:20) \[MSC v.1944 64 bit (AMD64)\]
+
+ComfyUI version: 0.3.76
+
+ComfyUI frontend version: 1.32.10
+
+\[Prompt Server\] web root: G:\\Stability AI\\Data\\Packages\\ComfyUI\\venv\\Lib\\site-packages\\comfyui\_frontend\_package\\static
+
+Total VRAM 24564 MB, total RAM 65293 MB
+
+pytorch version: 2.9.1+cu128
+
+Set vram state to: NORMAL\_VRAM
+
+Device: cuda:0 NVIDIA GeForce RTX 4090 : cudaMallocAsync
+
+Using async weight offloading with 2 streams
+
+Enabled pinned memory 29381.0
+
+\### Loading: ComfyUI-Manager (V3.38.1)
+
+\[ComfyUI-Manager\] network\_mode: public
+
+\[ComfyUI-Manager\] Since --preview-method is set, ComfyUI-Manager's preview method feature will be ignored.
+
+\### ComfyUI Revision: 4297 \[30c259ca\] \*DETACHED | Released on '2025-12-01'
+
+\[ComfyUI-Manager\] default cache updated: [https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/alter-list.json](https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/alter-list.json)
+
+Import times for custom nodes:
+
+0.0 seconds: G:\\Stability AI\\Data\\Packages\\ComfyUI\\custom\_nodes\\websocket\_image\_save.py
+
+0.0 seconds: G:\\Stability AI\\Data\\Packages\\ComfyUI\\custom\_nodes\\gguf
+
+0.1 seconds: G:\\Stability AI\\Data\\Packages\\ComfyUI\\custom\_nodes\\ComfyUI-VideoHelperSuite
+
+0.1 seconds: G:\\Stability AI\\Data\\Packages\\ComfyUI\\custom\_nodes\\ComfyUI-KJNodes
+
+0.3 seconds: G:\\Stability AI\\Data\\Packages\\ComfyUI\\custom\_nodes\\ComfyUI-Manager
+
+\[ComfyUI-Manager\] default cache updated: [https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/model-list.json](https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/model-list.json)
+
+\[ComfyUI-Manager\] default cache updated: [https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/github-stats.json](https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/github-stats.json)
+
+\[ComfyUI-Manager\] default cache updated: [https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/custom-node-list.json](https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/custom-node-list.json)
+
+\[ComfyUI-Manager\] default cache updated: [https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/extension-node-map.json](https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/extension-node-map.json)
+
+Context impl SQLiteImpl.
+
+Will assume non-transactional DDL.
+
+No target revision found.
+
+Starting server
+
+\[START\] Security scan
+
+\[DONE\] Security scan
+
+\[ComfyUI-Manager\] Logging failed: \[WinError 32\] The process cannot access the file because it is being used by another process: 'G:\\\\Stability AI\\\\Data\\\\Packages\\\\ComfyUI\\\\user\\\\comfyui.log' -&gt; 'G:\\\\Stability AI\\\\Data\\\\Packages\\\\ComfyUI\\\\user\\\\comfyui.prev.log'
+
+\## ComfyUI-Manager: installing dependencies done.
+
+\*\* ComfyUI startup time: 2025-12-06 18:36:37.961
+
+\*\* Platform: Windows
+
+\*\* Python version: 3.12.11 (main, Jul 23 2025, 00:32:20) \[MSC v.1944 64 bit (AMD64)\]
+
+\*\* Python executable: G:\\Stability AI\\Data\\Packages\\ComfyUI\\venv\\Scripts\\python.exe
+
+\*\* ComfyUI Path: G:\\Stability AI\\Data\\Packages\\ComfyUI
+
+\*\* ComfyUI Base Folder Path: G:\\Stability AI\\Data\\Packages\\ComfyUI
+
+\*\* User directory: G:\\Stability AI\\Data\\Packages\\ComfyUI\\user
+
+\*\* ComfyUI-Manager config path: G:\\Stability AI\\Data\\Packages\\ComfyUI\\user\\\_\_manager\\config.ini
+
+\*\* Log path: G:\\Stability AI\\Data\\Packages\\ComfyUI\\user\\comfyui.log
+
+Traceback (most recent call last):
+
+File ""G:\\Stability AI\\Data\\Packages\\ComfyUI\\main.py"", line 376, in &lt;module&gt;
+
+event\_loop.run\_until\_complete(x)
+
+File ""G:\\Stability AI\\Data\\Assets\\Python\\cpython-3.12.11-windows-x86\_64-none\\Lib\\asyncio\\base\_events.py"", line 691, in run\_until\_complete
+
+return future.result()
+
+\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^
+
+File ""G:\\Stability AI\\Data\\Packages\\ComfyUI\\main.py"", line 358, in start\_all
+
+await run(prompt\_server, address=args.listen, port=args.port, verbose=not args.dont\_print\_server, call\_on\_start=call\_on\_start)
+
+File ""G:\\Stability AI\\Data\\Packages\\ComfyUI\\main.py"", line 252, in run
+
+await asyncio.gather(
+
+File ""G:\\Stability AI\\Data\\Packages\\ComfyUI\\server.py"", line 1049, in start\_multi\_address
+
+await site.start()
+
+File ""G:\\Stability AI\\Data\\Packages\\ComfyUI\\venv\\Lib\\site-packages\\aiohttp\\web\_runner.py"", line 121, in start
+
+self.\_server = await loop.create\_server(
+
+\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^
+
+File ""G:\\Stability AI\\Data\\Assets\\Python\\cpython-3.12.11-windows-x86\_64-none\\Lib\\asyncio\\base\_events.py"", line 1584, in create\_server
+
+raise OSError(err.errno, msg) from None
+
+OSError: \[Errno 10048\] error while attempting to bind on address ('127.0.0.1', 8188): \[winerror 10048\] only one usage of each socket address (protocol/network address/port) is normally permitted
+
+Cannot connect to comfyregistry.
+
+FETCH DATA from: [https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/custom-node-list.json\[ComfyUI-Manager\]](https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/custom-node-list.json[ComfyUI-Manager]) Due to a network error, switching to local mode.
+
+=&gt; custom-node-list.json
+
+=&gt; cannot schedule new futures after shutdown
+
+\[ComfyUI-Manager\] broken item:{'author': 'rjgoif', 'title': 'Img Label Tools', 'id': 'Img-Label-Tools', 'reference': '[https://github.com/rjgoif/ComfyUI-Img-Label-Tools](https://github.com/rjgoif/ComfyUI-Img-Label-Tools)', 'install\_type': 'git-clone', 'description': 'Tools to help annotate images for sharing on Reddit, Discord, etc.'}
+
+\[ComfyUI-Manager\] All startup tasks have been completed.
+
+FETCH DATA from: G:\\Stability AI\\Data\\Packages\\ComfyUI\\custom\_nodes\\ComfyUI-Manager\\custom-node-list.json \[DONE\]
+
+\[W1206 18:36:44.000000000 AllocatorConfig.cpp:28\] Warning: PYTORCH\_CUDA\_ALLOC\_CONF is deprecated, use PYTORCH\_ALLOC\_CONF instead (function operator ())
+
+EDIT: grammar and spelling",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/comfyui/comments/1pfhldk/trying_to_downgrade_back_to_0375_but_it_is/
+B26-050,Dell,newly imaged Dell Precisions self-destructing because of...Dell,"On a fresh Win11 25H2 install, a Precision 5820 with Dell Command Update 5.7.0 will offer up a couple of 2017 drivers for an OS launched in late 2021
+
+https://preview.redd.it/d1kfyo2qc6xg1.png?width=1238&amp;format=png&amp;auto=webp&amp;s=9ca9daf20b18c545099e8d73f56ff8d13cd56be0
+
+  
+Shockingly, the next boot will bluescreen with either an iastorE.sys error, or inaccessible boot device. The machine isn't even in RAID mode, but basic AHCI.",,title_and_body,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/Dell/comments/1sumnle/newly_imaged_dell_precisions_selfdestructing/
+B26-051,Ubuntu,"Can someone tell me if my system is affected by the ""Copy Fail"" vulnerability?","Before updating my server, my kernel version was something like 6.8.0-106-generic. After updating it, it became 6.8.0-110-generic. Next day I updated again and it became 6.8.0-111-generic. I'm confused why kernel version changed multiple times after update. I cannot even go to Ubuntu website to check if my new version is unaffected because the site seems down.",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/Ubuntu/comments/1t0qs1v/can_someone_tell_me_if_my_system_is_affected_by/
+B26-052,homeassistant,ZWave virtual nodes,"So, I see that as of a recent updates I can create groups in the JS UI (not the ones in each node for setting a switch to control a few plugs) that it then creates as virtual nodes in the panel. I'm failing to find real documentation on that, which is probably a failing on my part, so if anyone could help point me at any documentation that would be great. 
+
+I'm using the zwave groups to have a remote switch control a couple lights on plugs. I would like to have that entire group show up as a single device in home assistant so I can have them show up as a single light that's on or off and I can turn off the lights with one click. I assume this is something that virtual nodes can do, but I simply can't see how to do it.","[1:reply] honestly the zwave js ui documentation is kind of scattered, i ran into the same thing a while back
+
+  
+if you already have the group set up in the zwave js ui control panel, you should be able to go into home assistant's integrations page, find the zwave js entry, and there's u…
+[2:OP] I don't seem to have a sync, but I did hit reload and it doesn't seem to have brought in the new virtual device.
+[3:reply] There's no support for that in HA yet. Maybe through MQTT, but not sure.
+
+There are some plans for exposing multicast functionality in HA though.
+[4:OP] Really? Then why would zwave js ui create it? Can anything be done with it?",title_body_comments,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/homeassistant/comments/1vzvnqw/zwave_virtual_nodes/
+B26-053,immich,How to debug smart search?,"My smart search stopped working a while ago, I thought it might've been a bad update so I waited a little bit. Today I just updated to \`v2.2.2\` and the issue still stand. Any help debugging this would be appreciated.
+
+Note that, I'm a software developper and you can answer in technical terms that most people call gibberish.
+
+Other notes:  
+\- Running on TrueNAS Scale 25.04  
+\- Running on my personal domain/subdomain with cloudflare DNS (no https proxy)  
+\- Running through a Nginx Proxy Manager to handle subdomain redirect + https certificates  
+\- It was running fine one day, the other it wasn't (I did change from http to https close to when I setup smart search)  
+\- Based on previous statement, I tried using my local ip to connect in http to see if the issue is still there and it is. (I'll have to deep dive a little more to see if it's somewhat related to this still, maybe a config or whatever)
+
+https://preview.redd.it/babqmr2edizf1.png?width=3024&amp;format=png&amp;auto=webp&amp;s=67fd6c62c1cb4b28c6c413b6e5056b4fb27f9323
+
+https://preview.redd.it/md8hll2edizf1.png?width=748&amp;format=png&amp;auto=webp&amp;s=3cd826cc7cb4ef74c10bb703176e86757b871edf",,title_and_body,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/immich/comments/1opgbr4/how_to_debug_smart_search/
+B26-054,MicrosoftEdge,Edge Dev — Why are popup menus being shown within a blank container?,I am using the developer version of Microsoft Edge. Has anyone else been facing the same issue where popup menus are being displayed in another blank container? This certainly seems to be a bug. My browser is updated to the latest version.,,title_and_body,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/MicrosoftEdge/comments/1o3vemd/edge_dev_why_are_popup_menus_being_shown_within_a/
+B26-055,homeassistant,Skyconnect - Failed to update firmware,"When trying to upgrade the firmware of the Skyconnect dongle via HA, it goes until 13% then stops, with the message ""failed to update the firmware"".
+
+Installed version: 7.4.4.5 Latest version: 7.5.1.0
+
+I am trying to update it, since in the Devices\\Zigbee Home automation, it says ""Needs attention"":
+
+* SkyConnect v1.0 Failed to set up: Incorrect firmware installed.
+
+My Zigbee device automations still work, but I guess I cannot add new ones anymore until this is fixed.
+
+I already restarted HA several times, unplugged the USB adapter etc but no success so far.
+
+Can I flash the firmware using a (Windows) pc? Any pointers?
+
+I'm running HA on a RPi3. 
+
+* Installation method Home Assistant OS 
+* Core 2026.3.4 
+* Supervisor 2026.03.2 
+* Operating System 17.1 
+* Frontend 20260312.1
+
+Thanks in advance!",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/homeassistant/comments/1s7zue1/skyconnect_failed_to_update_firmware/
+B26-056,AndroidQuestions,Can't access Data Folders after new update,"Are there any new workarounds for this? I remember they did this before and people came out with workarounds, but none of them work for me anymore. This is very annoying and it would be greatly appreciated if someone could help.",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/AndroidQuestions/comments/1sxk3ej/cant_access_data_folders_after_new_update/
+B26-057,Syncthing,QNAP 2.0  upgrade fails,,,title_only,unclear,no,na,low,The saved text appears outside software scope or is too vague to classify reliably.,,,,,,,https://reddit.com/r/Syncthing/comments/1mqil6h/qnap_20_upgrade_fails/
+B26-058,software,Anyone know good app that is what ClickUp used to be?,"I have been a clickup evangelist for a LONG time. I found clickup probably 6-7 years ago or so and have been praising the software to everybody since then.
+
+They keep updating everything and now the interface is literally unusable. Why in the world do I need so many buttons that I don't even use and everything is in a completely different area? I just need something SIMPLE and FAST that gets the job done.
+
+Way back when I found clickup I had tried Monday but it was so incredibly bloated everything took forever to load. Clickup seems to have literally forgotten their roots of small footprint, FAST, simple, easy to use, and highly extendable to adjust to your workflow.
+
+Has anyone found an app that does what Clickup used to do? That stays true to what clickup used to be, fast, easy, smart?
+
+Really, the best case would be if ClickUp senior executives would realize that they are breaking their own product and alienating users, and backtrack. Go back to proper UX/UI designs that focus on the actual user, and make the interface less confusing, not more confusing. Anything?",,title_and_body,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/software/comments/1s7uipc/anyone_know_good_app_that_is_what_clickup_used_to/
+B26-059,chrome,Having problem with location services after recent update,"Hey everyone,
+
+I play on many fantasy sports websites that need to verify your location and for many years I have had no problems using Chrome for this.
+
+Now after a recent chrome update, I can no longer verify my location, and when I click on ALLOW FOR THIS SITE or whatever, it tells me that location services is blocked.
+
+I honestly don't think I ever needed to turn on Location Services in Windows in the past to verify my location, it was enough to just tell Chrome to ALLOW it in the Privacy and Security location settings.
+
+Do I really need to turn on Location Services in Windows to verify my location, or is this just a bug with the recent chrome update?
+
+Interesting that with Microsoft Edge I can verify my location with Location Services turned off in Windows, so this is a clue that the recent Chrome Update is messing things up.
+
+  
+What do you suggest?
+
+Thanks for the help.",,title_and_body,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/chrome/comments/1rjlelv/having_problem_with_location_services_after/
+B26-060,comfyui,Devs are going too fast... + New version sucks,"Literally everything is broken...downloaded 6 different workflows because after upgrading my SVI PRO workflow was broken. Everything is broken. UI sucks, everything sucks.
+
+If this is the direction you guys are going...please be more careful and rethink it. All the UI changes literally worse. Most products improve, not make stuff worse.
+
+Also errors with basically non-helpful, or no information whatsoever...lol",,title_and_body,yes,yes,general_dissatisfaction,low,The post appears mainly critical without an active repair purpose; check for a concrete problem report.,,,,,,,https://reddit.com/r/comfyui/comments/1s2g1sa/devs_are_going_too_fast_new_version_sucks/
+B26-061,applehelp,"iPhone 11 completely dead after iOS update no Apple logo, no DFU, not detected by pc","My iPhone 11 completely dead after installing an iOS update and I’m trying to understand whether this is a software brick or a hardware failure.
+
+Here is the exact sequence of events:
+
+\&gt; iOS update (26.3.1) appeared and I started installing it.  
+\&gt; During the update the phone restarted several times.  
+\&gt; Eventually it booted normally and I entered my passcode.  
+\&gt; I reached the home screen and even opened Instagram.  
+\&gt; Suddenly the screen turned black (the backlight seemed on for a few seconds), then it shut off completely.
+
+Since that moment the phone will not turn on at all.
+
+Things I have already tried:
+
+\- Force restart  
+\- Multiple attempts to enter Recovery / DFU mode  
+\- Charging with cable for several hours  
+\- Wireless charging (phone warms up for a bit then cools down)  
+\- Connecting to a computer (not detected in Finder/iTunes or Device Manager)  
+\- Disconnecting and reconnecting the battery internally to force a power reset
+
+Has anyone seen this exact behavior on an iPhone 11 or any iPhone after an update?  
+Is there anything else worth trying before assuming it’s a board-level hardware issue?",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/applehelp/comments/1rmfe0d/iphone_11_completely_dead_after_ios_update_no/
+B26-062,Fedora,"What happened? Plasma 6.6.3, after i think updating?","Breeze on GTK3 just broke, out of nowhere, QT apps work fine
+
+https://preview.redd.it/obr9zgvyfetg1.png?width=1212&amp;format=png&amp;auto=webp&amp;s=803819f7e3957f799d99125cbe291a19f4becb73",,title_and_body,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/Fedora/comments/1sd868v/what_happened_plasma_663_after_i_think_updating/
+B26-063,MicrosoftEdge,Edge window not resizing correctly on exiting fullscreen YouTube,"Hi all, after the latest edge update a few days ago I'm having an issue where when I exit a fullscreen YouTube video the edge browser window gets scaled to a massive size and goes off screen. Anyone else encountered this and does anyone know of a fix as it's very infuriating.
+
+Even after a full system reinstall the issue persists
+
+  
+Update, turning off ""Hide title bar while in vertical tabs"" seems to fix the issue for me, at least for now",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/MicrosoftEdge/comments/1pkow2k/edge_window_not_resizing_correctly_on_exiting/
+B26-064,Fedora,audo not working,"today (after installing update of 28/04/2026) my system worked fine, i was playing a game via dwine and suddenly the whole system froze, after waiting a bit I forced shut down and the restarted my computer, after that audio stopped working and audio option was eve gone from setting menu.
+
+I tried restarting pipewire but it gives ,e this error:
+
+    :~$ pipewire restart
+    [E][18:45:20.264273] mod.protocol-native | [module-protocol-:  803 lock_socket()] server 0x558219a3ff20: unable to lock lockfile '/run/user/1000/pipewire-0.lock': Resource temporarily unavailable (maybe another daemon is running)
+    [E][18:45:20.264430] pw.conf      | [          conf.c:  602 load_module()] 0x558219a1fb50: could not load mandatory module ""libpipewire-module-protocol-native"": Resource temporarily unavailable
+    [E][18:45:20.264550] default      | [      pipewire.c:  124 main()] failed to create context: Resource temporarily unavailable
+
+so I tried the same with pipewire-pulse:
+
+    :~$ pipewire-pulse restart
+    [W][18:45:15.778581] mod.protocol-pulse | [        server.c:  634 start_unix_server()] server 0x5636f2ea9110: socket '/run/user/1000/pulse/native' is in use
+    [W][18:45:15.778694] mod.protocol-pulse | [        server.c: 1062 servers_create_and_start()] pulse-server 0x5636f2ea9220: failed to start server on 'unix:/run/user/1000/pulse/native': Address already in use
+    [E][18:45:15.778711] mod.protocol-pulse | [  pulse-server.c: 5564 pw_protocol_pulse_new()] 0x5636f2ea9220: no servers could be started: Address already in use
+    [E][18:45:15.778769] pw.conf      | [          conf.c:  602 load_module()] 0x5636f2e7cb50: could not load mandatory module ""libpipewire-module-protocol-pulse"": Address already in use
+    [E][18:45:15.778984] default      | [      pipewire.c:  124 main()] failed to create context: Address already in use
+
+and then I tried the same with wireplumber and it just got stuck.
+
+I tried downgrading reinstalling and even tried a live environment via usb stick and that one didn't even have audio. Is there any way to fix this ?",,title_and_body,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/Fedora/comments/1sy77bc/audo_not_working/
+B26-065,linuxquestions,Qubes OS (linux) breaks after shutting down or updating,"Framework 12 (2025), 16gb ram, raptorlake cpu (intel)
+
+  
+On a fresh install everything works like normal, but after shutting down and logging back in, everything is crazy slow and the ui doesnt show where its supposed to 
+
+the trackpad also makes the cursor fly offscreen after updating (and shutting down)
+
+  
+people have said its a ram issue but why does it work fine on the first session?
+
+if you need more info let me know",,title_and_body,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/linuxquestions/comments/1wu3kym/qubes_os_linux_breaks_after_shutting_down_or/
+B26-066,homelab,My ProxMox is breaking everyday for a reason I dont know so I want to change OS. Is CasaOS a good option for my case?,"**\[EDIT\] Guys Im not here for support. I just want the opinion of people using casaOS. Ive tried figuring out the problem with proxmox but couldnt find a solution. I said it just for context. Thanks!**  
+  
+hello,
+
+I've been using ProxMox for a while but for some reason after updating for the version 9.x the server keeps losing access and I have to reboot it almost every day.
+
+I was looking for a replacement and came across casaOS. Do you guys like it?
+
+My use is pretty much just LXC containers on ProxMox running services like pi hole, jellyfin, arrs etc. It's also important that I can run it without a GPU and use it directly through the browser. I only plug the GPU for the install process.
+
+I was thinking of using true nas but I saw it doesn't support HDDs already populated when they are not using ZFS and since I have my HDDs running ext4 I cannot format them because of my data.  Thanks in advance!",,title_and_body,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/homelab/comments/1scc42p/my_proxmox_is_breaking_everyday_for_a_reason_i/
+B26-067,homeassistant,2026.8.2 BTHome integrations broken?,"Updated to 2026.8.2, chased new BTHome problems for way too long. Rolled back to 2026.8.1 and everything is fixed now.",,title_and_body,yes,yes,other,low,The post appears to discuss software without a clear troubleshooting or chiefly critical purpose.,,,,,,,https://reddit.com/r/homeassistant/comments/1vtwjnd/202682_bthome_integrations_broken/
+B26-068,Fedora,My fedora install keeps breaking.,"Hello. After trying many different distros I liked fedora kde the best. The only problem I have is that quite frequently I boot up my system and it boots into emergency mode. The most recent time yesterday was after I took it outside to blow the dust out of it. When I turned it back on it was in emergency mode. This happens often after updates, but this time I didn't make any changes at all. I looked in the logs and didn't find any errors. I read online that this could be caused by a messed up fstab, so I commented out all my network from fstab but nothing changed. I don't know if I've been doing something wrong or if I should move to a different distro. What do you guys think?","[1:reply] What hardware are you using? Are you using an nVidia GPU? Bad drivers can cause this.
+
+Uncommenting network from fstab won't help unless you actively misconfigured your fstab manually. 
+
+Your SSD may be failing. Make sure it's healthy. Could also be your filesystem that is corru…
+[2:reply] It sounds like you're looking for help. Please note that r/Fedora is not an official support channel for the Fedora Project.
+
+For best results, be sure to include all relevant details in your post, such as your Fedora edition, version, and hardware specs. You can edit your origi…
+[3:reply] Something I noticed with Nvidia is the package for it can create very large boot images, to the point that on two computers of mine 1GB isn't enough for how many kernels Fedora wants to keep around between the installed ones and the rescue ones. So the kernel build after update…
+[4:reply] When the GRUB bootloader shows up, does it show previous versions you can boot into? One of those can at least let you get back into the system to do rollbacks or fix the issue.
+[5:OP] I do have an nvidia gpu. I have a 4070. I did configure my fstab manually but everything was working fine before I took it out to dust it.",title_body_comments,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/Fedora/comments/1ulw931/my_fedora_install_keeps_breaking/
+B26-069,chrome,Sync isn't working error,never used to be a problem staying on Version 104.0.5112.102 (Official Build) (64-bit) until today... I don't wanna update wahhhhhh,"[1:reply] Thank you for your submission to /r/Chrome! We hope you'll find the help you need. Once you've found a solution to your issue, please comment ""**!solved**"" under this comment to mark the post as solved. Thanks!
+
+
+*I am a bot, and this action was performed automatically. Please […
+[2:reply] I'm having a similar problem, also for the last couple of hours.",title_body_comments,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/chrome/comments/1vs3jd4/sync_isnt_working_error/
+B26-070,firefox,"Firefox window is ""hidden"" in MacOS","Hi there,
+
+after updating to the latest MacOS version, i have some sort of annoying bug. I click the Firefox icon, and it opens - but somwhere hidden in the background i guess. There is no way to bring the window to the front. When i right click the icon and click on show all windows, i can see the preview - and if i click it, it disappears. Only option is to close firefox, and then hold the option key while starting it again, and use the safemode. That fix is not permanent, next time i boot up, i have the same problem again. Is it a Firefox bug, or MacOS? Any ideas how to fix this?
+
+Thanks in advance!","[1:OP] So, i was able to ""fix"" this, i guess. I opened Mission Control, saw the Firefox Window. i dragged it to another desktop (got two monitors), but only half the way. I closed Mission Control, and was able to see the half Firefox window. I then just pulled it to my primary monitor,…
+[2:OP] Ahahaha, just as i tried it again, and closed Firefox a second time - the bug is back. So no, i have not fixed anything. Problem is still there, but the Mission Control workaround works. So, what to do?",title_body_comments,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/firefox/comments/1tn7zxp/firefox_window_is_hidden_in_macos/
+B26-071,linuxquestions,"Ubuntu 24.04 Boot Issues: GDM3 Crash, Intel Tiger Lake Graphics - Solved with XFCE","**System Info:**
+
+* **Laptop:** Lenovo IdeaPad 3-15ITL6
+* **CPU/GPU:** Intel Tiger Lake UHD Graphics (11th gen)
+* **Ubuntu Version:** 24.04.4 LTS
+* **Kernel:** 6.17.0-19-generic
+
+**The Problem:**
+
+After a recent update or normal boot, my system started showing ACPI BIOS errors and would not boot to the graphical interface. I was stuck at a black screen or text terminal. The error logs showed:
+
+* `ACPI BIOS Error (bug): Could not resolve symbol AE_NOT_FOUND`
+* `traps: gdm3[xxxx] trap int3 in libglib` (GDM3 repeatedly crashing)
+* GDM3 and GNOME session both failing to start
+
+**What I Tried:**
+
+* Booted with `nomodeset` kernel parameter
+* Switched from GDM3 to LightDM
+* Installed XFCE desktop as fallback
+* Added `i915.enable_psr=0 i915.enable_guc=0` kernel parameters
+* Reset GNOME configurations
+* Tried both Wayland and Xorg sessions
+
+**Current Status:**  
+I have a fully working system using:
+
+* **LightDM** as display manager
+* **XFCE** as desktop environment
+* System is stable, fast, and all applications work
+
+I can still access the text terminal via Ctrl+Alt+F2 and my files are intact.
+
+**My Questions:**
+
+1. Has anyone else experienced similar issues with Intel Tiger Lake graphics on Ubuntu 24.04?
+2. Is this a known kernel/driver regression in 6.17.x?
+3. Is there a reliable way to get GNOME working again without breaking my current setup?
+4. Would switching to an older kernel (6.17.0-14) help, or should I stick with XFCE?
+
+**What I'd Like:**
+
+* Ideally, get GNOME working again (I prefer it)
+* But I'm happy to stick with XFCE if it's more stable for this hardware
+* Just want to understand what caused this and how to prevent it in the future
+
+Any advice is appreciated!",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/linuxquestions/comments/1s1w12y/ubuntu_2404_boot_issues_gdm3_crash_intel_tiger/
+B26-072,Fedora,Xwayland scaling broken on F44?,"Is anybody else seeing Xwayland scaling broken since upgrading to F44 beta?
+
+It was working  fine in F43, but since F44 (I'm assuming as a result of Gnome 50 changes), apps like xterm are rendered at 100% scale, despite my display being set to 150%.
+
+I've tried:
+
+* setting desktop scale to 200% (to eliminate fractional scaling -- this did not help)
+* `gsettings set org.gnome.mutter experimental-features ""['xwayland-native-scaling']""` (this did not help either)",,title_and_body,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/Fedora/comments/1s5cxix/xwayland_scaling_broken_on_f44/
+B26-073,Wordpress,Migrating from Studio still can't update all references to local,"I tried rebuilding a website using a new child theme on Wordpress Studio (it seems logical to work locally and only upload changes when they're made).
+
+I'm trying to export an XML file from Studio, import that from wp-admin on the live site, and then reconcile the missing images afterwards (which I still haven't solved, as any newly singly uploaded images will have different URLs and it can't see SFTP'd images at all). This seemed to work. Better Search Replace found only two references to localhost, both in posts, so I replaced those.
+
+This doesn't transfer my child theme, and when I do, my website starts trying to access my local computer. I removed one reference to localhost from the theme.json, and now nothing in any file on there has a reference to it. It's still trying. I'm not sure what to do at this point.
+
+Every other plugin or upload option fails. Cloudways' own migration plugin can't do Studio. The database editor fails because, while it says it supports the collation, it won't recognize it when I try to upload. Updraft's migration wanted access to the local computer (so I think still had failed URL replacement) and broke some (not all?) images. Duplicator is looking for a function that I think hasn't existed for years from what I see on Google (mysqli\_real\_escape\_string) and failing me because it requires it. WPvivid gives a blank screen if I try to restore using it. (I haven't tried paid versions of plugins, because at this point I think I may need a Wordpress alternative).
+
+It works locally. Talking to a friend who's been doing this successfully for years, it should be as easy as export, import, let Wordpress sort out the URLs itself, maybe toss in a theme, upload and replace images manually. I'd expect SFTP to solve most of my updating needs anyway. What am I missing?","[1:reply] Studio export probably have that option hidden in dropdown or something, took me a while to find too but the entire site export is way better than XML for this
+[2:reply] The XML export doesn't carry your theme or actual image files. The live importer can't fetch images from your localhost, either.
+
+I checked [Studio's docs](https://developer.wordpress.com/docs/developer-tools/studio/import-export/): its Import / Export tab has **Export entire si…
+[3:reply] Stop troubleshooting individual plugins and compare the local and live databases directly. If the theme has no obvious localhost references, there’s a good chance the URL is stored in serialized data, options, or a plugin setting rather than a normal file. Also, SFTP’ing the the…
+[4:reply] I think the issue is that WordPress stores URLs in more places than just the obvious files. The child theme, database, serialized data, and attachment records can all contain local references. SFTP alone won’t make WordPress recognize uploaded images as media attachments. Your a…
+[5:OP] I can look at the database. I know that SFTP isn't enough; it's just that all the walkthroughs everywhere say that replacing entries should be enough (I guess it's just a given that you can't transfer images when your'e doing it manually so nobody mentions it).
+
+Regarding migrat…",title_body_comments,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/Wordpress/comments/1wtutws/migrating_from_studio_still_cant_update_all/
+B26-074,chrome,No extensions work on galaxy tab s10 ultra,"I just got a Galaxy tab s10 ultra, updated everything, including chrome but every extension from malwarebytes to even themes just say thus item isn't available. 
+
+A google shows same issue but everyone seemed to fix with a manual update. I did see A.I state it doesn't work on Android but my s6 lite has them? I don't think my iPad does, but it's all fine on my desktop and chromebook.
+
+Is it possible? Is there a fix? Thanks",,title_and_body,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/chrome/comments/1o2vm24/no_extensions_work_on_galaxy_tab_s10_ultra/
+B26-075,Ubiquiti,UDR7 Screen Shows 'No Internet',"This is a minor issue, but I have a UDR7 and the little screen on the front will randomly show ""No Internet Please contact your ISP"" while I still, in fact, have internet.  If I go to the console, the screen will update and display stats like normal.  Anyone else seeing this?  I believe is started happening after the last update (5.0.16).",,title_and_body,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/Ubiquiti/comments/1sg2lj0/udr7_screen_shows_no_internet/
+B26-076,applehelp,"Pinterest widgets not showing up anymore, iPad Pro updated to 16.7.15","Hi, I use my iPad side bar mostly for getting quick inspiration from my Pinterest boards with widgets, but last week the widgets turned black and stopped working. Today I took the blacked out widgets out thinking that I would just add them back and that might fix it, but the option to add Pinterest widgets has completely disappeared?? There’s nothing wrong with Pinterest and I still have my boards so it can’t be that I’m sooo confused. My widgets still work fine on my fully updated iPad mini.",,title_and_body,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/applehelp/comments/1s1ydm7/pinterest_widgets_not_showing_up_anymore_ipad_pro/
+B26-077,homeassistant,Help OTA Update Hue,"Hello 👋 
+
+I have a Hue Motion Sensor V1. I previously updated it via OTA through Z2M without issues. Also I did a OTA firmware update for my Hue Dimmer Switch V2 also without issues.
+
+But even after restarting my whole system including haos and z2m it will always fail and I’m out of solutions.
+
+Have anyone a fix for this or a similar issue?
+
+Thanks everyone and happy weekend ✌️",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/homeassistant/comments/1sotg01/help_ota_update_hue/
+B26-078,homeassistant,Bose SoundTouch Hybrid V4 is now available! Includes HA-addon &amp; Additional Physical Presets!,"# 📢 Bose SoundTouch Hybrid V4.0 Released!
+
+**A free, open-source private SoundTouch cloud streaming service and application replacing the deactivated Bose Cloud Service to maintain 100% of the smart speaker functionality of your SoundTouch Speakers and Wireless Link. Physical Presets Included!**
+
+It runs locally on your network (NAS, PC, or **Home Assistant add-on**) and intercepts and actively manages the complex server handshakes required to keep your SoundTouch Speakers authenticated and functional — delivering the **same phone-free audio streaming capabilities** as the original SoundTouch Application and Speakers.
+
+*For the installation, more information and technical architecture see GitHub Readme at* [*https://github.com/TJGigs/Bose-SoundTouch-Hybrid*](https://github.com/TJGigs/Bose-SoundTouch-Hybrid)
+
+# ✨ V4 Enhancements:
+
+*(Full descriptions of all features below in* ***Application Key Features***\*. This is quick ""What's new"")\*
+
+* ✅ Extended Physical Presets — 12 total preset slots via double-tap, up from 6
+* ✅ Native Home Assistant Add-on
+* ✅ Fully automated Bose Cloud injection sequence — no USB stick, no manual firmware step
+* ✅ Automated Speaker Detection — network scan finds every speaker on boot, no manual IP entry 
+* ✅ Multiple speaker groups with selectable master
+* ✅ ST10 stereo pairing
+* ✅ Preset Hover Preview — see what's assigned to a preset before pressing it
+* ✅ Scheduled Play and Power Off at set times, plus a Power Off Timer to auto-off after playing, and scheduled maintenance (nightly audits/restarts)
+* ✅ Optional Admin PIN lock for Tools/Admin pages
+* ✅ Configurable search tabs sourced from your Music Assistant providers
+* ✅ Podcasts &amp; audiobooks in search and library
+* ✅ Dynamic real-time lost-preset detection &amp; auto-heal
+* ✅ Preset debugging watchdog (Discussion #16)
+* ✅ Automatic MASS player-config enforcement on boot, plus a manual trigger on the Tools page
+* ✅ MASS recent-items cache warming for instant Library ""Recent"" loads
+* ✅ Smarter MASS integration: cached auth token reuse + three-path restart cascade — native HA Supervisor, Docker socket, or long-lived HA token for split installs
+* ✅ Physical remote-control HiJacks re-enables Bose-deactivated pause/play, next/prev buttons
+* ✅ Persistent, disk-backed auto-resume presets — survive container rebuilds, not just app restarts
+* ✅ **Custom URL Streaming Library Integration:** Moved the ""play custom URL stream"" function to the Library Manager and added the ability to assign custom streams directly to favorites and physical speaker presets.
+* ✅ **Advanced Global and Favorites Search:** Expanded the search functionality with additional filters, including the ability to perform provider-specific searches.
+* ✅ **Auto-Resume Presets:** Speakers now remember if a preset was active when powered off and will automatically resume that specific preset upon the next power-on.
+* ✅ **In-App Update Notifications:** Automatically checks for new releases and displays a notification banner within the UI when a new version is available.
+* ✅ **Live Console Logging:** Integrated a real-time server log viewer directly into the System Tools page.
+* ✅ **Streamlined GHCR Deployment:** Transitioned from manual repository cloning to a pre-built GitHub Container Registry image. The system now automatically generates required configuration templates on first boot and performs startup configuration and version validation checks.
+* ✅ **Improved State Synchronization:** Completely replaced backend REST API polling with a more efficient, stable, and event-driven WebSocket architecture for improved speaker state and audio stream tracking.
+* ✅ **Music Assistant Native DLNA Metadata:** Takes advantage of Music Assistant's improved DLNA streaming by reading track metadata directly from the audio stream. The original API-based fetch has been streamlined into a lightweight ""Watchdog"" function that executes as a fallback only when needed.
+* ✅ **Music Assistant Smart Startup &amp; Version Checks:** On boot, the app now verifies the Music Assistant version and automatically launches the container if it detects it isn't running.
+
+# ✨ Application Key Features
+
+# 🚀 Core Capabilities
+
+* **100% Local Control** — application and speaker credentials, playback, preset logic all stay on your own LAN. No Bose cloud dependency or external servers.
+* **Complete App Replacement:** One responsive web app for Desktop and Mobile replacing the SoundTouch app entirely — streaming, speaker maintenance, initial setup, factory resets, and WiFi provisioning, all in one place.
+* **Fully Automated Bose Cloud Injection** — the entire cloud-redirect and preset setup sequence runs automatically on first boot. No USB stick, no manual firmware step — nothing to do on a previously configured or factory-reset speaker but let it join.
+* **12 Physical Presets, Not 6** — double-tap any of the six buttons to unlock six more (1→11, 2→22, and so on), all mapped to your SoundTouch Hybrid Library (powered by Music Assistant).
+* **Automatic Speaker Detection** — a network scan finds every SoundTouch speaker on first boot and every reboot after. No manual IP entry, no speaker list to maintain.
+* **Hardware-Native Multi-Room Grouping** — uses the speakers' own near-zero-latency master/slave hardware instead of software sync, across multiple independent groups at once, each with its own selectable master.
+* **ST10 Stereo Pairing** — pair two ST10 units together as a true stereo left/right pair.
+* **Expanded Music Universe:** Bridges your speakers to modern streaming via Music Assistant — Spotify, Apple Music, YouTube Music, local NAS files, Plex, Jellyfin, internet radio, podcasts, and audiobooks — searchable through one global, provider-agnostic search across your entire library.
+* **Physical Remote Control Hijacks** — Pause/Play and Next/Prev works again over DLNA, and Pause/Play over AirPlay, augmenting the volume, power, and preset controls that never stopped working.
+* **DLNA and AirPlay, Both Fully Supported** — side by side, your choice per speaker.
+* **Preset Hover Preview:** On desktop, hover over any preset button on the Remote Control page to see a quick preview — artwork, name, and source — of what it's assigned to before pressing it. Toggleable from the Tools page.
+* **Real-Time Preset Self-Healing** — if a speaker's presets get wiped (a known legacy-firmware degraded WiFi failure mode), they're detected and re-injected automatically, no restart required.
+
+# 🛠️ Extended Admin &amp; Automation Tools
+
+* **Scheduled Automation:** Set speakers or groups to power on and start playback at a scheduled time, schedule them to power off at a set time, or arm a Power Off Timer to automatically power off a set number of minutes after they turn on — plus optionally run nightly speaker audits and/or scheduled app restarts — with or without a full reboot — all hands-off.
+* **Optional Admin PIN Lock:** Restrict the Tools and Admin pages behind a PIN — useful on a shared household network where you don't want everyone able to change system settings.
+* **Configurable Search Tabs:** Library search tabs are dynamically sourced from your active Music Assistant providers — choose which appear, and in what order.
+* **Preset Debugging Watchdog:** Opt-in, per-speaker logging of cloud/session events, for diagnosing a problem speaker without turning on full verbose logging everywhere.
+* **On-Demand Config Enforcement:** The same automatic Music Assistant player-config audit that runs at boot can be triggered manually from the Tools page — no restart required to fix drift.
+* **MASS Recent-Items Cache Warming:** Prefetches recently-played items from Music Assistant on boot, so the Library page's ""Recent"" view loads instantly instead of waiting on a cold query.
+
+# ⚙️ Under-the-Hood
+
+* **Live Console Logging:** A real-time server log viewer built directly into the Tools page — no SSH or `docker logs` needed to see what the app is doing.
+* **In-App Update Notifications:** Automatically checks for new releases and shows a banner in the UI when one's available.
+* **Streamlined Deployment:** Ships as a pre-built GitHub Container Registry image — no manual repo cloning. Configuration templates and validation checks run automatically on first boot.
+* **Event-Driven State Sync:** Speaker state and playback tracking run on a WebSocket architecture rather than REST polling, for faster, more reliable updates.
+* **Resilient Music Assistant Integration:** Reuses a cached MASS auth token instead of re-authenticating on every call, restarts MASS automatically through whichever path fits your setup (native HA Supervisor, Docker socket, or a long-lived HA token for split installs), reads track metadata natively from the DLNA stream, and verifies MASS's version/health on every boot.
+
+# 🛠 Architecture
+
+* **Backend:** Custom Node.js server acting as the ""Audio Engine"" (Music Assistant and local Bose Cloud Simulation ☁️.
+* **Frontend:** Responsive Web App deployable to any browser.
+* **Connectivity:** Direct IP control over Bose WebSockets &amp; XML API.
+* **Deployment:** Standalone Docker (NAS/PC) or as a native Home Assistant Supervisor add-on — same backend either way",,title_and_body,yes,no,other,low,The post appears to discuss software without a clear troubleshooting or chiefly critical purpose.,,,,,,,https://reddit.com/r/homeassistant/comments/1uzfmxd/bose_soundtouch_hybrid_v4_is_now_available/
+B26-079,Fedora,from fedora back to Ubuntu,"I was very excited to get my 'new' T14s Ryzen 5 16gb laptop. So keen to get Fedora installed and it felt so mega swift. Looked clean, tidy, snappy.
+
+However, after the main updates, the issues occurred.
+
+VLC media player refused to play the headphones continuously, only in an initial burst then gone, silent.
+
+Dragon media player would play but then crashed, the whole system.
+
+Next, no boot - latest kernel had gone bad. So revert to the one before. That then went bad also.
+
+Revert to the one remaining and give up.
+
+So, Ubuntu 24.04 and after the bizarre issue upon first run (maybe Wayland), where icon buttons to click registered the click (changed colour slightly) but they wouldnt go anywhere. Not all on a page, just one or two when the other clickable parts worked fine...so try xorg and then seemingly plane sailing.
+
+Now with my usual apps installed obsidian, vlc, writer, chrome...and some basic aesthetic changes, maybe, just maybe, I have the stable and fast and pleasant looking linux setup I was after.
+
+Also will mention for those who do not know and experience similar issues - on both my L390 and this T14S, when using an aftermarket power charger, of the right wattage, it causes the touchpad cursor to become laggy, a bit drunken swaying, heavy. If you experience the same issue, ponder it could be the charger. As in my case using the proper Lenovo charger solved the issue.","[1:OP] Appreciate the advice will stick a while with Ubuntu as its setup nicely now and seems stable. I dont think I installed any snaps...Chrome/Obsidian/VLC/Writer and maybe some basic effects small apps.
+
+Having two successive kernel versions fail in one day, also dragon, was too mu…
+[2:reply] For VLC media Player Use the flatpak version there is some problem with VLC lately with VLC  cant say about Gnome but I am sure there is some problem in the KDE version  
+Please dont go back to ubuntu its just like canonical made ubuntu like windows of linux. Thats Said I also f…",title_body_comments,yes,yes,other,low,The post appears to discuss software without a clear troubleshooting or chiefly critical purpose.,,,,,,,https://reddit.com/r/Fedora/comments/1u5a4as/from_fedora_back_to_ubuntu/
+B26-080,applehelp,Newest iOS Update broke my iPhone 15 plus,the touchscreen doesnt work but Touch to Wake does somehow. I force restarted many times… any ideas,,title_and_body,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/applehelp/comments/1r1wt4l/newest_ios_update_broke_my_iphone_15_plus/
+B26-081,applehelp,Panic fulls and now purple screen glitch?,"I got an iphone 16 in October 2025. I had my phone crash while I was using it leading to panic fulls in November 2025, January 2026, February 2026 and March 2026. Panic full was always the same. So I updated my ios and had no issues for a few months. Id always check analytics just in case and noticed I had a panic full in July. Same panic full as before but this time it happened without me noticing. Nothing happened after that until last week when I noticed I had another panic full I did notice. Same panic full. And then today while I was moving between apps, my screen glitched out, flickering and there was a purple square. That freaked me out and I quickly locked the phone and then when I turned it back on it was completely fine. I checked analytics and it logged a bunch of gpuEvent backboardd logs all for the same time it happened. Now Im freaked out. Anyone have any idea on what this is? I was going to update my ios and see if that helped again but Im nervous now with the screen glitch. My phone works totally fine and had I not been monitoring analytics, I wouldn’t have caught the July and September panic full. Also, after updating in May, I had a thing where if my brightness was low it would sort of pulse. It only happens sometimes and once I turn brightness up it goes away. Also only happened after updating ios so I don’t know if its related to all of this. The panic full said it was an AOP PANIC- UBSAN: add\_ovfl low\_latency(6) OUTBOX3 not ready. Also mentions AppleSPU firmwarebuilder.","[1:reply] Hello, hello
+
+Fella, if your phone is constantly panic-fulling i'm afraid that theres no much you can do besides taking it to service. Based on what you just told, your phone is still under warranty (and of course, considering this phone do not have any other accidental damage).…
+[2:reply] Can you post a screenshot of the first top half from the panic file? That way I can tell what specifically is not working and what needs to be replaced.
+
+Sadly you can’t do anything without it being serviced, but it can vary with a few things like faulty flex sensor, NFC, usb co…
+[3:OP] https://reddit.com/link/pd1n6vo/video/hvnkw7pi1psh1/player
+
+  
+for whatever reason I could only post videos and not photos so hopefully this is the part you’re talking about as it cropped it",title_body_comments,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/applehelp/comments/1wtvpmk/panic_fulls_and_now_purple_screen_glitch/
+B26-082,Ubiquiti,Protect 7.1.60 re-release?,"I updated to Protect 7.1.60 yesterday (5/20/26) afternoon when I got home.
+
+I just received another notification letting me know that Protect has an update again - to the same version?
+
+Was there a re-release of the version or is something bugged? It successfully updated yesterday with no issues, so I am unsure what the deal is. I didn’t see anything on the official release notes about a re-release.
+
+Just curious if anyone else had this happen and what the suggested fix would be. Just run the update again?","[1:reply] Following
+[2:reply] 7.1.69 came out this morning.
+[3:reply] I updated to 7.1.60 last week and haven’t gotten a notification to upgrade again.
+[4:reply] Hello!  Thanks for posting on r/Ubiquiti!
+
+This subreddit is here to provide unofficial technical support to people who use or want to dive into the world of Ubiquiti products.  If you haven’t already been descriptive in your post, please take the time to edit it and add as many…
+[5:OP] Yeah I see that, but it didn’t offer that version. Just the same I just updated to yesterday. Weird nonetheless.",title_body_comments,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/Ubiquiti/comments/1tjr5dh/protect_7160_rerelease/
+B26-083,Ubiquiti,Zone Based Firewalls and Loss of Remote Access/Teleport - Troubleshooting,"I just recently upgraded to zone based firewalls.  And now I'm traveling and I can't access either my Cloud Gateway Ultra on the control plane or Teleport via WiFiMan or on my UTR. The CGU shows as being online in site manager and I can access my apps on my local network via my tunnel. So I know the internet isn't down and the UCG is working.
+
+I'm a knucklehead and didn't think I needed to check those items after the upgrade. Nor am I even sure that's the problem.
+
+Looking for ideas on how I might be able to further troubleshoot/remediate this remotely.","[1:reply] Hello!  Thanks for posting on r/Ubiquiti!
+
+This subreddit is here to provide unofficial technical support to people who use or want to dive into the world of Ubiquiti products.  If you haven’t already been descriptive in your post, please take the time to edit it and add as many…",title_body_comments,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/Ubiquiti/comments/1vne6m0/zone_based_firewalls_and_loss_of_remote/
+B26-084,MicrosoftEdge,Items in folder suddenly much smaller width than before (A Truncated Folder?),"Im on the latest version, have not changed or updated anything recently and about an hour ago after opening edge again i went to a folder on my favourites bar to open it and its suddenly significantly smaller now, like the words are all cut off due to the lack of space. I preferred when the folder was longer and showed the full thing, it looks weird and annoying now. How can I fix this, i cant seem to find any info on fixes that are recent / work? How can they do this just randomly without me even updating anything. Cant even find an option to change it back in settings",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/MicrosoftEdge/comments/1pdwf6m/items_in_folder_suddenly_much_smaller_width_than/
+B26-085,Playwright,Our 'harmless' backend migration silently broke the app for every user who didn't update,"This is the kind of thing that seems obvious in hindsight but I guarantee most teams aren't thinking about it and it almost cost us a major client so we have a mobile app serving about 200K users across both platforms and our backend team decided to migrate from REST to GraphQL for a set of core endpoints the plan was solid on paper, old REST endpoints would stay alive for 6 months as deprecated, new GraphQL endpoints would be the default going forward, the mobile team would update the app to use GraphQL, everyone updates, we sunset REST, done.
+
+The migration went smoothly and the new app version shipped with GraphQL calls and everything was working great for users who updated. The problem was that about 35% of our user base was still running the old app version from 2-3 months ago because that's just how mobile works, people don't update their apps especially on Android where auto update is frequently turned off or delayed by weeks.
+
+These users were still hitting the REST endpoints which were technically still alive but here's what nobody accounted for: our backend team had also changed the authentication middleware during the migration and the new auth layer was returning error responses in a different JSON structure than the old one.
+
+The old REST endpoints still worked for normal successful requests but whenever a token expired or a session needed refreshing, the error response came back in the new format which the old app version couldn't parse so the old app would try to refresh the auth token, fail to parse the error response, fall into its generic error handler, and log the user out like from the user's perspective they'd open the app, it would work for a while, and then randomly kick them out and they'd have to log in again sometimes multiple times per day depending on their token expiry timing.
+
+We didn't catch this for almost 3 weeks because our monitoring was only tracking the new app version's health, the old version's error rates were technically as we were expecting since we knew it was deprecated and our backend team assumed any errors on deprecated endpoints were just natural degradation, meanwhile 35% of our users were getting logged out randomly and our support inbox was on fire with 
+
+""why does your app keep signing me out""
+
+tickets that we initially dismissed as users not updating their app we only realized the scope of the problem when our QA team ran the old app version on real devices through a vision AI testing tool named Drizz(dot)dev and watched the logout loop happen live, then correlated it with the auth middleware change the fix was simple, we made the new auth middleware return error responses in both the old and new format based on a header the client sends, took maybe half a day to implement. But the damage to user trust during those 3 weeks was real.
+
+The takeaway that I now bring up in every migration planning meeting is that if you have a mobile app, your old version is not some theoretical thing you can deprecate on a timeline It's a living breathing client that real paying users are running right now and will continue running for months after you think everyone should have updated every backend change needs to be tested against at least your current production version AND the previous version simultaneously or you're going to break something for users who did nothing wrong except not tap update  fast enough.",,title_and_body,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/Playwright/comments/1ry5wjh/our_harmless_backend_migration_silently_broke_the/
+B26-086,applehelp,Issues with logging in with touch id - looking for fix,"I recently updated to new mac update - it must have downloaded it last time i was on wifi, because it looks like it installed it while i was on a train *before* I had joined the wifi. 
+
+  
+Since then, i haven't been able to use my touch id to login; the only option is ""enter password"" with no prompt underneath that normally says ""password or touch id.""
+
+  
+The weird thing is that after I go to the menu and switch to the administrator account (my computer has an administrator), not only does the administrator (which hasn't been logged in since my last restart) have the message ""log in with password to enable touch id"" which is what I **used** to see, but when I then switch back to my profile, I then get the option to use touch id!
+
+I'm not sure why this is happening, but the convenience of my touch id is lost when needing to switch users and then switch back!
+
+  
+Ill attach images of what I see on with the administrator when im on that user, and when im on my user after switching back, but I can't take screenshots before b/c it says its not allowed. (im not sure why though)
+
+Ill try to edit a copy of one of the images to show what i see normally.
+
+[normal screen](https://preview.redd.it/poof5dvb8fng1.png?width=412&amp;format=png&amp;auto=webp&amp;s=695bef18915b2220d3c5279c22b59e33faf55450)
+
+[admin screen](https://preview.redd.it/yjshfbvb8fng1.png?width=414&amp;format=png&amp;auto=webp&amp;s=afbfb444decd59a5775c106d362e970bd1039517)
+
+[what it is supposed to look like; i see this after switching to admin and back](https://preview.redd.it/5xkbubvb8fng1.png?width=412&amp;format=png&amp;auto=webp&amp;s=afd7eda0ec7a4bf87b35f74e3a71b613e237e0a4)",,title_and_body,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/applehelp/comments/1rmd34s/issues_with_logging_in_with_touch_id_looking_for/
+B26-087,MicrosoftEdge,WebView2 150 regression? DevTools endpoint unavailable when running as administrator,"Hi everyone,
+
+After my Evergreen WebView2 Runtime automatically updated from **149.0.4022.98** to **150.0.4078.48**, I noticed a change in behavior.
+
+When my application is started without administrator privileges, the DevTools endpoint:
+
+[`http://127.0.0.1:9222/json/version`](http://127.0.0.1:9222/json/version)
+
+works as expected.
+
+When I start the same application as administrato**r**, the endpoint is no longer reachable.
+
+Because of that, Selenium can't attach and fails with:
+
+    RuntimeError: Edge driver initialization failed
+    Message: session not created: cannot connect to Microsoft Edge at localhost:9222
+
+This isn't a Selenium-specific issue—the DevTools endpoint itself is unavailable when the process is elevated.
+
+I've been using WebView2 this way since around version 125 and I've never seen this behavior before. On **149.0.4022.98**, everything worked correctly regardless of whether the application was started with or without admin rights. The application code hasn't changed; only the WebView2 Runtime version has.
+
+Has anyone else seen this with WebView2 150? Is this an intentional security change or a regression?",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/MicrosoftEdge/comments/1unyrld/webview2_150_regression_devtools_endpoint/
+B26-088,applehelp,Not enough space to upgrade OS?,"I'm trying to upgrade my MacOS on my personal computer. I'm getting this error message. But it looks like I have plenty of free space? Is there any work around / what am I missing? Is there any way I can at least upgrade past MacOS 12? I honestly had no idea I let it lapse this long and hadn't upgraded (thought I had automatic updates on), until I got an error message that I can't upgrade my Chrome until I move past MacOS 12. Appreciate any tips from anyone!","[1:reply] What is your hardware? What does it show in About this Mac/Computer which is found under the Apple menu?
+[2:OP] Update solved: Apparently in my case this is a bug with OS 27. (I found another reddit post that talked about it posted a day ago, but after installing and updating, of course can't find it again.) You can use Terminal to download the MacOS if your computer is compatible. All th…",title_body_comments,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/applehelp/comments/1wtsrmu/not_enough_space_to_upgrade_os/
+B26-089,chrome,"Chrome acting unstable across apps after update (no “Aw, Snap” error)","Hi all,
+
+I’m trying to work out whether anyone else is experiencing this particular issue with Chrome after the recent update, because it’s making it really difficult to get uni work done.
+
+Over the last few days, some of the issues I’ve had (but not limited to):
+
+* Teams meetings kicking me out and reconnecting over + over
+* Claude AI is saying requests are “taking longer than usual”, so wasting tokens there and not able to use it for work etc.
+* Google Docs is constantly telling me I’m offline and unable to sync changes while working on a large master doc with tabs, etc. - cannot copy and paste anything, AT ALL.
+* General internet lags with websites like YouTube, etc
+
+The strange part is it’s happening at home, work, and university, so I don’t think it’s actually my internet. I’ve already tried the usual fixes on my Mac like clearing cache/cookies, forgetting networks etc.
+
+I’ve seen all the posts here about people getting the “Aw, Snap!” crashes after the recent Chrome update, but mine seems slightly different because Chrome never fully crashes. Everything just feels unstable and half-working instead.
+
+Is anyone else experiencing this version of the issue, and does anyone know if Google/Chrome has acknowledged it or given any indication of when it might be fixed? Or should I just give up on Chrome and move to another web browser as I'm in the thick of exam season right now.
+
+Thanks!","[1:reply] yep been getting the aw snap for about a week now, its annoying, just today my ai overview ""show more"" button not working now
+[2:reply] Thank you for your submission to /r/Chrome! We hope you'll find the help you need. Once you've found a solution to your issue, please comment ""**!solved**"" under this comment to mark the post as solved. Thanks!
+
+
+*I am a bot, and this action was performed automatically. Please […",title_body_comments,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/chrome/comments/1tk969f/chrome_acting_unstable_across_apps_after_update/
+B26-090,chrome,Missing favicons - how to fix?,"Tonight when I started Chrome, almost all the tab favicons were gone, replaced by the generic circle.  I updated to the most recent version (142.0.7444.135), did chrome://restart, and hardware acceleration is already off; the problem persists.  I need to maintain my open tabs and my and passwords, so I'm reluctant to take more drastic measures unless I can be certain they will fix the issue.  Any suggestions?",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/chrome/comments/1osxw20/missing_favicons_how_to_fix/
+B26-091,comfyui,"Starting to use Comfy, keep getting this log","I updated my graphics driver, but whenever I try to launch or update local host it just gives me this
+
+
+
+
+
+\&gt; C:\\Users\\lyka\\AppData\\Local\\Comfy-Desktop\\ComfyUI-Installs\\ComfyUI\\ComfyUI\\.venv\\Scripts\\python.exe -s ComfyUI\\main.py --feature-flag show\_signin\_button=true --enable-manager --extra-model-paths-config ""C:\\Users\\lyka\\AppData\\Roaming\\Comfy Desktop\\shared\_model\_paths.yaml"" --input-directory C:\\Users\\lyka\\AppData\\Local\\Comfy-Desktop\\ComfyUI-Shared\\input --output-directory C:\\Users\\lyka\\AppData\\Local\\Comfy-Desktop\\ComfyUI-Shared\\output
+
+
+
+\[INFO\] setup plugin alembic.autogenerate.schemas
+
+\[INFO\] setup plugin alembic.autogenerate.tables
+
+\[INFO\] setup plugin alembic.autogenerate.types
+
+\[INFO\] setup plugin alembic.autogenerate.constraints
+
+\[INFO\] setup plugin alembic.autogenerate.defaults
+
+\[INFO\] setup plugin alembic.autogenerate.comments
+
+\[INFO\] Adding extra search path checkpoints C:\\Users\\lyka\\AppData\\Local\\Comfy-Desktop\\ComfyUI-Shared\\models\\checkpoints
+
+\[INFO\] Adding extra search path classifiers C:\\Users\\lyka\\AppData\\Local\\Comfy-Desktop\\ComfyUI-Shared\\models\\classifiers
+
+\[INFO\] Adding extra search path clip\_vision C:\\Users\\lyka\\AppData\\Local\\Comfy-Desktop\\ComfyUI-Shared\\models\\clip\_vision
+
+\[INFO\] Adding extra search path configs C:\\Users\\lyka\\AppData\\Local\\Comfy-Desktop\\ComfyUI-Shared\\models\\configs
+
+\[INFO\] Adding extra search path controlnet C:\\Users\\lyka\\AppData\\Local\\Comfy-Desktop\\ComfyUI-Shared\\models\\controlnet
+
+\[INFO\] Adding extra search path controlnet C:\\Users\\lyka\\AppData\\Local\\Comfy-Desktop\\ComfyUI-Shared\\models\\t2i\_adapter
+
+\[INFO\] Adding extra search path diffusers C:\\Users\\lyka\\AppData\\Local\\Comfy-Desktop\\ComfyUI-Shared\\models\\diffusers
+
+\[INFO\] Adding extra search path diffusion\_models C:\\Users\\lyka\\AppData\\Local\\Comfy-Desktop\\ComfyUI-Shared\\models\\diffusion\_models
+
+\[INFO\] Adding extra search path embeddings C:\\Users\\lyka\\AppData\\Local\\Comfy-Desktop\\ComfyUI-Shared\\models\\embeddings
+
+\[INFO\] Adding extra search path gligen C:\\Users\\lyka\\AppData\\Local\\Comfy-Desktop\\ComfyUI-Shared\\models\\gligen
+
+\[INFO\] Adding extra search path hypernetworks C:\\Users\\lyka\\AppData\\Local\\Comfy-Desktop\\ComfyUI-Shared\\models\\hypernetworks
+
+\[INFO\] Adding extra search path latent\_upscale\_models C:\\Users\\lyka\\AppData\\Local\\Comfy-Desktop\\ComfyUI-Shared\\models\\latent\_upscale\_models
+
+\[INFO\] Adding extra search path loras C:\\Users\\lyka\\AppData\\Local\\Comfy-Desktop\\ComfyUI-Shared\\models\\loras
+
+\[INFO\] Adding extra search path model\_patches C:\\Users\\lyka\\AppData\\Local\\Comfy-Desktop\\ComfyUI-Shared\\models\\model\_patches
+
+\[INFO\] Adding extra search path audio\_encoders C:\\Users\\lyka\\AppData\\Local\\Comfy-Desktop\\ComfyUI-Shared\\models\\audio\_encoders
+
+\[INFO\] Adding extra search path photomaker C:\\Users\\lyka\\AppData\\Local\\Comfy-Desktop\\ComfyUI-Shared\\models\\photomaker
+
+\[INFO\] Adding extra search path style\_models C:\\Users\\lyka\\AppData\\Local\\Comfy-Desktop\\ComfyUI-Shared\\models\\style\_models
+
+\[INFO\] Adding extra search path text\_encoders C:\\Users\\lyka\\AppData\\Local\\Comfy-Desktop\\ComfyUI-Shared\\models\\text\_encoders
+
+\[INFO\] Adding extra search path upscale\_models C:\\Users\\lyka\\AppData\\Local\\Comfy-Desktop\\ComfyUI-Shared\\models\\upscale\_models
+
+\[INFO\] Adding extra search path background\_removal C:\\Users\\lyka\\AppData\\Local\\Comfy-Desktop\\ComfyUI-Shared\\models\\background\_removal
+
+\[INFO\] Adding extra search path frame\_interpolation C:\\Users\\lyka\\AppData\\Local\\Comfy-Desktop\\ComfyUI-Shared\\models\\frame\_interpolation
+
+\[INFO\] Adding extra search path geometry\_estimation C:\\Users\\lyka\\AppData\\Local\\Comfy-Desktop\\ComfyUI-Shared\\models\\geometry\_estimation
+
+\[INFO\] Adding extra search path optical\_flow C:\\Users\\lyka\\AppData\\Local\\Comfy-Desktop\\ComfyUI-Shared\\models\\optical\_flow
+
+\[INFO\] Adding extra search path detection C:\\Users\\lyka\\AppData\\Local\\Comfy-Desktop\\ComfyUI-Shared\\models\\detection
+
+\[INFO\] Adding extra search path vae C:\\Users\\lyka\\AppData\\Local\\Comfy-Desktop\\ComfyUI-Shared\\models\\vae
+
+\[INFO\] Adding extra search path vae\_approx C:\\Users\\lyka\\AppData\\Local\\Comfy-Desktop\\ComfyUI-Shared\\models\\vae\_approx
+
+\[INFO\] Adding extra search path clip C:\\Users\\lyka\\AppData\\Local\\Comfy-Desktop\\ComfyUI-Shared\\models\\clip
+
+\[INFO\] Adding extra search path unet C:\\Users\\lyka\\AppData\\Local\\Comfy-Desktop\\ComfyUI-Shared\\models\\unet
+
+\[INFO\] Setting output directory to: C:\\Users\\lyka\\AppData\\Local\\Comfy-Desktop\\ComfyUI-Shared\\output
+
+\[INFO\] Setting input directory to: C:\\Users\\lyka\\AppData\\Local\\Comfy-Desktop\\ComfyUI-Shared\\input
+
+\[START\] Security scan
+
+\[DONE\] Security scan
+
+\*\* ComfyUI startup time: 2026-07-05 09:46:43.188
+
+\*\* Platform: Windows
+
+\*\* Python version: 3.13.12 (main, Feb 12 2026, 00:38:53) \[MSC v.1944 64 bit (AMD64)\]
+
+\*\* Python executable: C:\\Users\\lyka\\AppData\\Local\\Comfy-Desktop\\ComfyUI-Installs\\ComfyUI\\ComfyUI\\.venv\\Scripts\\python.exe
+
+\*\* ComfyUI Path: C:\\Users\\lyka\\AppData\\Local\\Comfy-Desktop\\ComfyUI-Installs\\ComfyUI\\ComfyUI
+
+\*\* ComfyUI Base Folder Path: C:\\Users\\lyka\\AppData\\Local\\Comfy-Desktop\\ComfyUI-Installs\\ComfyUI\\ComfyUI
+
+
+
+\*\* User directory: C:\\Users\\lyka\\AppData\\Local\\Comfy-Desktop\\ComfyUI-Installs\\ComfyUI\\ComfyUI\\user
+
+\*\* ComfyUI-Manager config path: C:\\Users\\lyka\\AppData\\Local\\Comfy-Desktop\\ComfyUI-Installs\\ComfyUI\\ComfyUI\\user\\\_\_manager\\config.ini
+
+\*\* Log path: C:\\Users\\lyka\\AppData\\Local\\Comfy-Desktop\\ComfyUI-Installs\\ComfyUI\\ComfyUI\\user\\comfyui.log
+
+\[INFO\] \[PRE\] ComfyUI-Manager
+
+\[ERROR\] Failed to import comfy\_kitchen, Error: cannot import name 'TensorWiseINT8Layout' from 'comfy\_kitchen.tensor' (C:\\Users\\lyka\\AppData\\Local\\Comfy-Desktop\\ComfyUI-Installs\\ComfyUI\\ComfyUI\\.venv\\Lib\\site-packages\\comfy\_kitchen\\tensor\\\_\_init\_\_.py), fp8 and fp4 support will not be available.
+
+\[WARNING\] comfy\_kitchen does not support stochastic FP8 rounding, please update comfy\_kitchen.
+
+\[INFO\] Checkpoint files will always be loaded safely.
+
+Traceback (most recent call last):
+
+  File ""C:\\Users\\lyka\\AppData\\Local\\Comfy-Desktop\\ComfyUI-Installs\\ComfyUI\\ComfyUI\\main.py"", line 227, in &lt;module&gt;
+
+import execution
+
+  File ""C:\\Users\\lyka\\AppData\\Local\\Comfy-Desktop\\ComfyUI-Installs\\ComfyUI\\ComfyUI\\execution.py"", line 18, in &lt;module&gt;
+
+import comfy.model\_management
+
+  File ""C:\\Users\\lyka\\AppData\\Local\\Comfy-Desktop\\ComfyUI-Installs\\ComfyUI\\ComfyUI\\comfy\\model\_management.py"", line 36, in &lt;module&gt;
+
+import comfy\_aimdo.vram\_buffer
+
+ModuleNotFoundError: No module named 'comfy\_aimdo.vram\_buffer'","[1:reply] Uninstall the desktop version.
+
+Install portable from: https://github.com/Tavris1/ComfyUI-Easy-Install
+[2:reply] Give it to Claude code, he will fix it for you. Or try installing a portable version
+[3:reply] Here is the translation of the analysis and troubleshooting guide into English:
+
+---
+
+Based on the log, your ComfyUI is failing to start due to a conflict or missing critical components. The issue is divided into two parts:
+
+1. Critical Error (Crash)
+
+ModuleNotFoundError: No mod…
+[4:OP] Ohhh okay, thank you!",title_body_comments,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/comfyui/comments/1uo47ok/starting_to_use_comfy_keep_getting_this_log/
+B26-092,chrome,"Ctrl+J and Chrome menu Downloads do nothing, but chrome://downloads works manually","I am having an issue with Google Chrome on Windows where the Downloads command does not work.  
+
+
+When I press Ctrl+J, nothing happens. When I click the three-dot menu (⋮) → Downloads, nothing happens either. No Downloads tab opens and Chrome shows no error.  
+
+
+However, if I manually enter `chrome://downloads/` in the address bar, the Downloads page opens normally.  
+
+
+I have already tried:  
+
+
+* Restarting Chrome and Windows
+* Updating Chrome
+* Testing in Incognito mode
+* Disabling all extensions
+* Checking extension keyboard shortcuts
+* Creating a new Chrome profile
+* Resetting Chrome settings
+* Resetting chrome://flags
+* Uninstalling and reinstalling Chrome
+* Testing from another Windows user account
+* Running Chrome with extensions/GPU acceleration disabled 
+
+The problem still occurs.  
+
+
+I tested similar shortcuts in Microsoft Edge and they work correctly, so the keyboard itself appears to be working normally.  
+
+
+Current results:  
+
+
+* Ctrl+J → Does not work
+* Chrome ⋮ → Downloads → Does not work
+* Manually entering chrome://downloads/ → Works
+* Microsoft Edge shortcuts → Work correctly 
+
+Could someone please help me determine why Chrome's built-in Downloads command is not working even though the Downloads page itself works when opened manually?","[1:reply] Thank you for your submission to /r/Chrome! We hope you'll find the help you need. Once you've found a solution to your issue, please comment ""**!solved**"" under this comment to mark the post as solved. Thanks!
+
+
+*I am a bot, and this action was performed automatically. Please […",title_body_comments,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/chrome/comments/1wwauoo/ctrlj_and_chrome_menu_downloads_do_nothing_but/
+B26-093,Wordpress,Can an LLM refactor a WP theme for PHP 8.x compatibility?,"I’m planning to upgrade a WordPress site from PHP 7.2 to 8.3. 
+
+I bought this theme in 2018 called  'Soprano - Minimalistic Multi-Purpose WordPress Theme' and it had 2 plug-ins included: Soprano Theme - Custom Post Types and WPBakery page builder. Apparently the theme was not updated since 2019. 
+
+Both plug-ins are breaking when updating to any higher PHP version than 7.2. 
+
+I see 2 options now: either I go for a completely renewal of theme with one that is already compatible to 8.3 or I try to refactor the current code with LLM assistance to suit the 8.3 requirements. 
+
+None of the options looks facile to me, what would you do?","[1:reply] Generally, yes - PHP version changes are usually fairly simple to fix. However WPB requires constant updates - it regularly has vulnerabilities. If it was bundled with that theme, it’s likely not being kept up to date either, so you'll need to purchase your own WPB licence (IIRC…
+[2:reply] It can absolutely do it, especially if you turn on all errors and feed it the logs. The question is if you want to do that - you're effectively taking on the maintenance of someone else's plugins, which is generally not advised.
+
+If nothing else, getting them PHP 8.3 isn't your…
+[3:reply] This 100%. You need the latest version of wp bakery for sure OP. Turn on WP\_DEBUG\_LOG and feed the LLM the debug.log file
+[4:reply] yes but committing to maintaining a 7yo theme will be ongoing tech debt work for you.
+[5:reply] Have the llm write an agents.md noting the unique features of the theme as you do the upgrade. then when you have to do maintenance in the future the ai knows all the quirks so future fixes will be super quick. 
+
+I upgraded 17 random sites to php8.3 last week after creating a sk…",title_body_comments,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/Wordpress/comments/1wx01xx/can_an_llm_refactor_a_wp_theme_for_php_8x/
+B26-094,comfyui,looking for help setting up LTX-2,"I've been trying to get LTX-2 working with the new GGUF files but every workflow I try I'm getting this as my output I've updated comfy UI, KJ nodes, and gguf nodes to the newest version but I'm still getting this output.
+
+  
+I've tried multiple workflows that used different nodes to load the Models so I don't think it's the workflow Or a specific node and I've updated everything as far as I'm aware so I'm a bit stuck now",,title_and_body,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/comfyui/comments/1qyz6iz/looking_for_help_setting_up_ltx2/
+B26-095,linux,AntiX26 Linux Wifi setup + Kernel 7.0.4 install guide [Lenovo Ideapad Slim 3],"[Default theme, zzz-icewm, redmond and ubuntu regular size 11 fonts. 112&amp;#37; scaling. 15' screen laptop.](https://preview.redd.it/cfatqfsccu0h1.jpg?width=1920&amp;format=pjpg&amp;auto=webp&amp;s=569357e2c54a2588efa51f067b5f268180684394)
+
+I installed the Linux kernel v7.0.4 after I installed AntiX26 to get my wifi up and running. ***Lenovo Ideapad slim 3(15"", 8), gen 8. AMD ryzen 7000 series 3;*** modern laptop, but a little weak. I'm very happy with my setup;
+
+I had to boot the live image with kernel v6.x.x just to get my keyboard working. But after the main install of the Antix26 system, I then installed kernel v7.0.4.
+
+This is how I did it; follow these steps to get wifi + kernel 7.0.4:
+
+(before you start, make sure that your wifi card is not soft-blocked(Airplane mode): type in your terminal: rfkill list, if its blocked try to unblock by: sudo rfkill unblock all, or the shortcut for airplane mode on your keyboard. Is your wifi working now? if not, continue. )
+
+1. Find a way to connect to the internet. I had to use internet through USB-cable from my Phone.
+2. Install the firmware-mediatek driver, by typing this in the terminal: sudo apt install firmware-mediatek, then reboot. But just to be sure you can also install: firmware-misc-nonfree, firmware-linux, firmware-realtek and/or firmware-linux-nonfree. Check what kind of wifi card you have. Google Ai is very helpful finding out stuff for you, and what kind of drivers you need to install. (at this step you can try a reboot your laptop and see if you can get wifi working, if not continue to next step.)
+3. Then install the linux-image-7.0.4+deb13 from the debian backports, it should also install the dependencies for you, so please check that before you continue. After the new kernel is installed, write in the terminal: sudo update-grub, now you can reboot into your fresh kernel and wifi should be working.
+
+[linux-image-7.0.4+deb13 \&lt;your cpu type\&gt;, please double check that it also installing dependencies. It should do it for you. Remember sudo update-grub after the install.](https://preview.redd.it/f1bon3n8ry0h1.jpg?width=856&amp;format=pjpg&amp;auto=webp&amp;s=ed7c453b8d1a085287b3f1645ec8e2a7aa7b11fc)
+
+(Wifi drivers  did not work for me while using kernel 6.x.x, but after the 7.0.4 update wifi started working.)
+
+**Quality of life, 100% screen brightness after every reboot and fix screen tearing:**
+
+[.desktop-session, startup file. This is what it looks like at the bottom. Continue reading for where to find it:](https://preview.redd.it/ostzrvmoez0h1.jpg?width=741&amp;format=pjpg&amp;auto=webp&amp;s=c0d7db578651a0d705de0318e61d5a716d7df05c)
+
+I also added these two lines at the bottom of my startup config file. You will find it in Control Centre -&gt; Session -&gt; Users Desktop-session ( text file from .desktop-session, startup.) Remember to save after changes:
+
+backlight-brightness -s 100 &amp;
+
+xrandr --output eDP --set TearFree on &amp;
+
+One is to get 100% backlight on my laptop after every reboot so I dont have to adjust it every time, and the other one is for removing screen tearing. **But** **before you add xrandr to your startup file**: run xrandr in the terminal to check if you have eDP or some other screen type. Terminal command: xrandr &lt;press enter&gt;. Just place your screen type instead of eDP in the startup command as I have written above. Remember to save your file and reboot. This is my screen type from the terminal:
+
+https://preview.redd.it/6gkmcpy41y0h1.jpg?width=761&amp;format=pjpg&amp;auto=webp&amp;s=0c24a067191a6409350d7092d188d4162914159c
+
+To check if TearFree is running after a reboot, just write in your terminal: xrandr --verbose | grep TearFree .. it should say TearFree: on, and you should notice it when you scroll up and down on websites that screen tearing is gone.
+
+**Quality of life 2, show battery info:**
+
+Now you have to open another text file!
+
+If you want to see your battery %, just open Control Centre -&gt; Configure Conky -&gt; And find the line that says something like this (should be at the bottom):
+
+\#Battery: ${battery\_percent BAT0}% ${alignr}${color8}${battery\_bar 8,70 BAT0}
+
+... and just remove the # and save file. You will now see your battery % on your desktop. Now you're done!
+
+*Continue reading for setting up theme, scaling, touchpad and fonts ...*
+
+Now I recommend that you scale up your fonts DPI in your control centre. I have mine set at 1.17:
+
+[This is my dpi settings 15' laptop](https://preview.redd.it/c4gn43qz7y0h1.jpg?width=357&amp;format=pjpg&amp;auto=webp&amp;s=f95ba8bd34291e6fdfa00e7d737a69046c8f9bf2)
+
+My other settings for Look and Feel:
+
+[Redmond and change font to Ubuntu regular size 11](https://preview.redd.it/9spv1lxq5y0h1.jpg?width=679&amp;format=pjpg&amp;auto=webp&amp;s=cdde375a8bad69b58ac2caf2a3507c8ca9f9ac27)
+
+[Full hinting; but you could also try slight or medium. Try whats best for you.](https://preview.redd.it/fihvgaqs5y0h1.jpg?width=679&amp;format=pjpg&amp;auto=webp&amp;s=a4fc54ac871f5a9b042345e83e487f9c66e52a8f)
+
+[Select default theme](https://preview.redd.it/v9s85x6u5y0h1.jpg?width=1920&amp;format=pjpg&amp;auto=webp&amp;s=2af61f8f0821918a1b8e28bb325fefefbbc4d1b2)
+
+And for my touchpad mouse sensitivity. Go to Control Centre -&gt; Hardware -&gt; Mouse -&gt; Select touchpad(rolldown menu) -&gt; then a window like this will pop up. Remember to check mark before Applying:
+
+[Touchpad mouse sensitivity](https://preview.redd.it/ige1opvy6y0h1.jpg?width=621&amp;format=pjpg&amp;auto=webp&amp;s=ce50eb25377ae423b7bae86f16a66c9a728a86c6)
+
+[ROXTerm font. Go to Preferences -\&gt; Configuration Manager -\&gt; Select Default, press edit -\&gt; Font: Noto Mono Regular, Size: 11](https://preview.redd.it/kid1bwzgjy0h1.jpg?width=960&amp;format=pjpg&amp;auto=webp&amp;s=1a39f4c3d0963cacb5464e92298692cb57bae8ed)
+
+**Extra tip 1:** set firefox default scaling to 110% in the firefox-menu-settings (right menu drop-down-list -&gt; settings), but personal preference.
+
+**Extra tip 2:** Enable smooth scrolling and pinch-to-zoom in Firefox for your touchpad ...
+
+sudo geany /etc/environment
+
+Add at the bottom of your file:
+
+MOZ\_USE\_XINPUT2=1
+
+Save, and then reboot... notice any difference?
+
+Also; If you are using a touchpad and accidentally drag tabs into new windows, you can also change browser.tabs.allowTabDetach and set it to false in the about:config settings.
+
+**Extra tip 3:** Shortcut for taking a screenshot is FN+S on my keyboard. Could be different on your laptop.
+
+This was very fun; will be my main distro on my laptop. Everything just works. No fuzz. Sharp fonts, sharp theme, bluetooth-audio on my headset, wifi and low ram usage! :)",,title_and_body,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/linux/comments/1td581l/antix26_linux_wifi_setup_kernel_704_install_guide/
+B26-096,applehelp,14pro screen started glitching out but is now back to normal. Hardware issue or software bug?,"Never dropped the phone nor done anything to cause any water damage. The screen started glitching out of nowhere this evening. I immediately backed up the phone to icloud as well to my PC. Am currently updating the phone to latest ios version. apple support suggests hard resetting the phone, but I am waiting for the update to finish downloading.
+
+After an hour or so the glitching stopped and hasnt come back. I didnt update or hard reset till that point. Will be going to a apple service centre tomorrow to get it checked out, but right now the screen is working fine. The phone is not in warranty so i am wondering if everything is fine, and i would be spending pointless money if i do go to the service shop.
+
+UPDATE- a few more hours have passed, and the phone seems perfectly fine. looked into cost of a screen from apple's website and it was too much to justify for a 3+ year old device, so am cancelling my plans for a visit to an apple service shop for now....
+
+UPDATE 2- it came back again....some saw other posts that doing a 3rd party flex cable replacement fixed the issue....i am afraid when i do go for a physical inspection of the phone at apple they will recommend a screen replacement which is quite costly.....i am thinking of escalating the issue to apple support since there is no physical or water damage but am doubtful they will agree....what do i do....",,title_and_body,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/applehelp/comments/1sp6mis/14pro_screen_started_glitching_out_but_is_now/
+B26-097,react,Problem with Webpack 5 and external libraries (.mjs),"**Hello, good afternoon.**
+
+I’m having an issue with **Webpack 5** and some **external libraries** such as [SwiperJS](https://swiperjs.com/), [react-compare-image](https://www.npmjs.com/package/react-compare-image), [chart.js](https://www.chartjs.org/), and others.
+
+**Context:**  
+I’m migrating a project from **Webpack 4 to Webpack 5**, and from **React 18 to React 19**. This requires updating several dependencies and adapting them to the new setup.
+
+The problem appears when I **compile the project** (`npm run start`):
+
+* Components that **import external libraries** (like the ones mentioned above) throw errors.
+* However, components that **don’t import any external libraries** work perfectly fine.
+
+After some investigation, I found that the issue is related to **libraries that use** `.mjs` **files**, meaning ECMAScript modules.
+
+https://preview.redd.it/xhvhn8ff480g1.png?width=640&amp;format=png&amp;auto=webp&amp;s=d36c036d8787722a4aefcf81a752b55ea9bd0c18
+
+https://preview.redd.it/lo0i0qkg480g1.png?width=640&amp;format=png&amp;auto=webp&amp;s=f131295ab7346406930d13c4bb2675e8986d18f7
+
+Has anyone run into a similar situation with **compatibility issues between external libraries and Webpack 5**?
+
+Below is part of my Webpack 5 configuration:
+
+    // webpack.config.js
+    const paths = require('./paths');
+    const path = require('path');
+    const rules = require('./rules');
+    const entries = require('./entries');
+    const plugins = require('./plugins');
+    const sites = require('../properties/index.json').sites;
+    
+    module.exports = (env) =&gt; {
+      return {
+        context: paths.base,
+        mode: 'production',
+        entry: entries(sites),
+        output: {
+          path: paths.dist,
+          filename: '[name].js',
+          clean: true,
+        },
+        module: {
+          rules: rules(env),
+        },
+        resolve: {
+          extensions: ['.js', '.jsx', '.json'],
+          modules: [
+            paths.base,
+            path.resolve(__dirname, '../resources'),
+            'node_modules'
+          ],
+          fallback: {
+            fs: false,
+            path: require.resolve('path-browserify'),
+          },
+        },
+        devtool: (env &amp;&amp; env.prod) ? false : 'source-map',
+        plugins: plugins(env, sites),
+        optimization: {
+          splitChunks: {
+            chunks: 'all',
+            cacheGroups: {
+              vendor: {
+                test: /[\\/]node_modules[\\/]/,
+                name: 'vendor',
+                chunks: 'all',
+              },
+            },
+          },
+          runtimeChunk: { name: 'runtime' },
+          usedExports: true,
+        },
+        stats: {
+          all: false,
+          assets: true,
+          chunks: true,
+          chunkModules: true,
+          colors: true,
+          moduleAssets: true,
+          loggingDebug: [""babel-loader""]
+        },
+      };
+    };
+    
+
+And here’s my `rules.js`:
+
+    const autoprefixer = require('autoprefixer');
+    const path = require('path');
+    const mqpacker = require('css-mqpacker');
+    let sortCSSmq;
+    (async () =&gt; {
+      sortCSSmq = (await import('sort-css-media-queries')).default;
+    })();
+    const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+    
+    module.exports = (env) =&gt; {
+      return [
+        {
+          test: /\.scss$/,
+          use: [
+            MiniCssExtractPlugin.loader,
+            {
+              loader: 'css-loader',
+              options: { sourceMap: true },
+            },
+            {
+              loader: 'postcss-loader',
+              options: {
+                sourceMap: true,
+                postcssOptions: {
+                  plugins: [
+                    autoprefixer,
+                    mqpacker({ sort: sortCSSmq }),
+                    require('cssnano')(),
+                  ],
+                },
+              },
+            },
+            {
+              loader: 'resolve-url-loader',
+              options: { sourceMap: true },
+            },
+            {
+              loader: 'sass-loader',
+              options: {
+                sourceMap: true,
+                sassOptions: {
+                  includePaths: [
+                    path.resolve(__dirname, '../resources'),
+                  ],
+                },
+              },
+            },
+          ],
+        },
+        {
+          test: /\.(png|jpe?g|gif|svg|ttf|eot|woff2?|otf)$/i,
+          type: 'asset/resource',
+          generator: {
+            filename: (pathData) =&gt; {
+              if (/fonts/.test(pathData.filename)) {
+                return 'fonts/[name][ext]';
+              }
+              return 'images/[name][ext]';
+            },
+            publicPath: '/pf/resources/dist/',
+          },
+        },
+      ];
+    };
+
+I’ve been trying to solve this issue for **three days** now, and honestly, it’s driving me crazy .  
+I’d really appreciate any help or suggestions. If you need more details to understand the issue, I’ll gladly provide them.
+
+Thanks in advance!
+
+**P.S.:** The error goes away if I import the libraries directly using the `.js` extension, but that’s not really a proper solution — *Swiper* (and likely other libraries) don’t provide a `.js` file.
+
+https://preview.redd.it/7chppcli480g1.png?width=640&amp;format=png&amp;auto=webp&amp;s=53a4af4e36bbd644b1f0914cdeaf06c63ccfefc0",,title_and_body,yes,no,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/react/comments/1oshzhp/problem_with_webpack_5_and_external_libraries_mjs/
+B26-098,chrome,How can I disable this new shitty chrome update where if I open a page as a new tab there still will be a previous tab button which will just close it?,"it started happening a day ago, even if I open a link as a new tab there will still be a previous tab button, and it's driving me crazy","[1:reply] I apologize in advance, but what's a previous tab button?
+[2:reply] don't apologise, i think we all have the same question
+[3:reply] That's the back button
+[4:reply] I have no idea what you're referring to, can you post a screenshot?
+[5:reply] What? LOL It's always been there. What am I missing here?",title_body_comments,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/chrome/comments/1ucoeos/how_can_i_disable_this_new_shitty_chrome_update/
+B26-099,chrome,Anyone having Chrome issues today?,"Is something going on with Chrome today? Have never really had any issues using Chrome. Out of the blue I’m getting errors such as…   
+  
+“This site can’t be reached…might be temporarily down or it may have moved permanently to a new web address. ERR\_ADDRESS\_INVALID”  
+  
+And these are for major websites such as youtube, reddit, gmail, etc so something weird is going on.   
+  
+Internet isn’t down, speeds over gig. I’m using Safari right now and there are no issues, but my preferred browser is Chrome. That is where all my work related bookmarks are located.   
+  
+I'm on a Mac and have the most recent update (Version 147.0.7727.56 (Official Build) (arm64). I’ve cleared my cache, restarted Chrome, restarted my computer. Nothing seems to help. Nothing has changed between today and yesterday.  
+  
+Seriously, driving me insane. Can’t even contact help center in Chrome because it won’t load. Anybody else experiencing issues?",,title_and_body,yes,yes,technical_troubleshooting,low,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/chrome/comments/1shzvnk/anyone_having_chrome_issues_today/
+B26-100,linuxquestions,Broke Ubuntu unable to log into desktop. Keeps going to grub menu only. No display.,Messed up installation for newest update ( shut off during install) now I can log into desktop. Only loops into Grub. Tried going into previous kernel with no luck as well. Can anyone help me ?,"[1:reply] Doing a clean install would be the easiest fix.  Hard to guess where the update was broken
+[2:OP] Is there a way to clean install while keeping all save files downloads programs etc It’s on a 2tb file that’s 95% full
+[3:reply] boot a live usb stick and save the files you want to another HD. Then reinstall. Not worth the time trying to fix it.
+[4:reply] Boot in safe mode or boot from USB live image. Then finish the update. Should be fine
+[5:reply] Try updating your system through tty1 (ctrl + alt 1-9) which ever gives u da terminal login in into it and then after try this **sudo apt install ubuntu-desktop** and reboot your system and try to log back in it might work.",title_body_comments,yes,yes,technical_troubleshooting,medium,The post appears to describe a software problem or seek a diagnosis or fix; check its main purpose.,,,,,,,https://reddit.com/r/linuxquestions/comments/1v1blmf/broke_ubuntu_unable_to_log_into_desktop_keeps/

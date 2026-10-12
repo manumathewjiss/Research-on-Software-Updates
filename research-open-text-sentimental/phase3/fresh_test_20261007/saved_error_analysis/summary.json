@@ -1,0 +1,365 @@
+{
+  "source": "results_fixed_model/predictions.jsonl",
+  "test_n": 344,
+  "all": {
+    "n": 344,
+    "error_counts": {
+      "correct": 298,
+      "false_negative": 25,
+      "false_positive": 21
+    },
+    "title_only_n": 6,
+    "median_body_chars": 500,
+    "score_within_0_05_of_threshold_n": 26,
+    "top_subreddits": [
+      [
+        "firefox",
+        42
+      ],
+      [
+        "applehelp",
+        41
+      ],
+      [
+        "MicrosoftEdge",
+        34
+      ],
+      [
+        "chrome",
+        28
+      ],
+      [
+        "Fedora",
+        24
+      ],
+      [
+        "Ubiquiti",
+        17
+      ],
+      [
+        "AndroidQuestions",
+        16
+      ],
+      [
+        "Ubuntu",
+        13
+      ],
+      [
+        "Wordpress",
+        13
+      ],
+      [
+        "homeassistant",
+        13
+      ]
+    ]
+  },
+  "errors": {
+    "n": 46,
+    "error_counts": {
+      "false_negative": 25,
+      "false_positive": 21
+    },
+    "title_only_n": 2,
+    "median_body_chars": 441,
+    "score_within_0_05_of_threshold_n": 14,
+    "top_subreddits": [
+      [
+        "firefox",
+        8
+      ],
+      [
+        "applehelp",
+        6
+      ],
+      [
+        "Fedora",
+        4
+      ],
+      [
+        "Ubuntu",
+        3
+      ],
+      [
+        "chrome",
+        3
+      ],
+      [
+        "MacOS",
+        3
+      ],
+      [
+        "ollama",
+        2
+      ],
+      [
+        "homeassistant",
+        2
+      ],
+      [
+        "Ubiquiti",
+        2
+      ],
+      [
+        "sysadmin",
+        2
+      ]
+    ]
+  },
+  "false_positives": {
+    "n": 21,
+    "error_counts": {
+      "false_positive": 21
+    },
+    "title_only_n": 1,
+    "median_body_chars": 502,
+    "score_within_0_05_of_threshold_n": 8,
+    "top_subreddits": [
+      [
+        "firefox",
+        4
+      ],
+      [
+        "ollama",
+        2
+      ],
+      [
+        "homeassistant",
+        2
+      ],
+      [
+        "applehelp",
+        2
+      ],
+      [
+        "debian",
+        1
+      ],
+      [
+        "Ubuntu",
+        1
+      ],
+      [
+        "Fedora",
+        1
+      ],
+      [
+        "Ubiquiti",
+        1
+      ],
+      [
+        "linuxquestions",
+        1
+      ],
+      [
+        "chrome",
+        1
+      ]
+    ]
+  },
+  "false_negatives": {
+    "n": 25,
+    "error_counts": {
+      "false_negative": 25
+    },
+    "title_only_n": 1,
+    "median_body_chars": 406,
+    "score_within_0_05_of_threshold_n": 6,
+    "top_subreddits": [
+      [
+        "firefox",
+        4
+      ],
+      [
+        "applehelp",
+        4
+      ],
+      [
+        "Fedora",
+        3
+      ],
+      [
+        "MacOS",
+        3
+      ],
+      [
+        "Ubuntu",
+        2
+      ],
+      [
+        "chrome",
+        2
+      ],
+      [
+        "sysadmin",
+        1
+      ],
+      [
+        "Wordpress",
+        1
+      ],
+      [
+        "truenas",
+        1
+      ],
+      [
+        "Ubiquiti",
+        1
+      ]
+    ]
+  },
+  "by_true_class_and_body": {
+    "class_0_title_only": {
+      "n": 3,
+      "error_counts": {
+        "false_positive": 1,
+        "correct": 2
+      },
+      "title_only_n": 3,
+      "median_body_chars": 0,
+      "score_within_0_05_of_threshold_n": 0,
+      "top_subreddits": [
+        [
+          "ollama",
+          1
+        ],
+        [
+          "smarthome",
+          1
+        ],
+        [
+          "Android",
+          1
+        ]
+      ]
+    },
+    "class_0_body": {
+      "n": 64,
+      "error_counts": {
+        "correct": 44,
+        "false_positive": 20
+      },
+      "title_only_n": 0,
+      "median_body_chars": 556,
+      "score_within_0_05_of_threshold_n": 13,
+      "top_subreddits": [
+        [
+          "firefox",
+          9
+        ],
+        [
+          "applehelp",
+          5
+        ],
+        [
+          "Ubiquiti",
+          5
+        ],
+        [
+          "Ubuntu",
+          4
+        ],
+        [
+          "chrome",
+          4
+        ],
+        [
+          "MicrosoftEdge",
+          4
+        ],
+        [
+          "Fedora",
+          4
+        ],
+        [
+          "Wordpress",
+          3
+        ],
+        [
+          "homeassistant",
+          3
+        ],
+        [
+          "software",
+          2
+        ]
+      ]
+    },
+    "class_1_title_only": {
+      "n": 3,
+      "error_counts": {
+        "correct": 2,
+        "false_negative": 1
+      },
+      "title_only_n": 3,
+      "median_body_chars": 0,
+      "score_within_0_05_of_threshold_n": 0,
+      "top_subreddits": [
+        [
+          "MicrosoftEdge",
+          1
+        ],
+        [
+          "firefox",
+          1
+        ],
+        [
+          "applehelp",
+          1
+        ]
+      ]
+    },
+    "class_1_body": {
+      "n": 274,
+      "error_counts": {
+        "correct": 250,
+        "false_negative": 24
+      },
+      "title_only_n": 0,
+      "median_body_chars": 499,
+      "score_within_0_05_of_threshold_n": 13,
+      "top_subreddits": [
+        [
+          "applehelp",
+          35
+        ],
+        [
+          "firefox",
+          32
+        ],
+        [
+          "MicrosoftEdge",
+          29
+        ],
+        [
+          "chrome",
+          24
+        ],
+        [
+          "Fedora",
+          20
+        ],
+        [
+          "AndroidQuestions",
+          15
+        ],
+        [
+          "Ubiquiti",
+          12
+        ],
+        [
+          "comfyui",
+          11
+        ],
+        [
+          "Wordpress",
+          10
+        ],
+        [
+          "homeassistant",
+          10
+        ]
+      ]
+    }
+  }
+}

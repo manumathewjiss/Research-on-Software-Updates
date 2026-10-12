@@ -1,0 +1,14 @@
+{
+  "source_files": {
+    "phase3/diagnostic_results/analysis.json": "2d2f9f2dd795552e968e7d7956d80cd6f1b575511e0671dfd2197551aa21d53b",
+    "phase3/icsc_full_paper/RESULT_VERSION_RECONCILIATION.json": "c1f3852bf8fecc1f6a80bb543307b0bab2cacef2afe6aca4e60e695e16c176e8",
+    "phase4/qualitative_study/ANALYST_ONLY_PAIRED_RESPONSES.csv": "ba125822ef6190ce28bd956d87e61109715804215c1482769eb4811fb29087c0",
+    "phase4/qualitative_study/SELECTION_VALIDATION.json": "44aeda917f8c09c096f9dbb5228ddd6ee10be5ae2a44c656f81a2e4bb23b0cec"
+  },
+  "figure_notes": {
+    "study_flow": "Counts from version reconciliation, diagnostic analysis, qualitative selection",
+    "diagnostic_evidence": "Saved rates and Wilson intervals; denominator 237",
+    "reviewer_actions": "Counts from unchanged paired reviewer responses"
+  },
+  "no_new_models_or_scores": true
+}

@@ -1,0 +1,24 @@
+{
+  "purpose": "Simple random sample for diagnostic-field prevalence in the reviewed Reddit-only S2 troubleshooting development corpus",
+  "sampling_unit": "unique Reddit post ID",
+  "source_snapshot_sha256": "287995b6b8b529c145591108d9a77f88f1e515185d38810910066ffba21fa781",
+  "seed": 20261007,
+  "frame_n": 1658,
+  "sample_n": 250,
+  "inclusion_probability": "250/1658",
+  "batch_size": 50,
+  "batches": 5,
+  "sampling_method": "Python random.Random(seed).sample after sorting frame by reddit_id",
+  "pilot_overlap_n": 10,
+  "source_distribution": {
+    "oct5_query_tps": 212,
+    "oct5_query_gds": 33,
+    "phase1_gold_file": 5
+  },
+  "body_missing_n": 24,
+  "reserved_test_used": false,
+  "stack_overflow_excluded": true,
+  "reviewer_files_contain_old_answers_or_source_pool": false,
+  "guide": "CODEBOOK_v1.0.md",
+  "analyst_mapping_sha256": "666717037270955155d0860fae48353f79c56cfd65245b70e83bd6311ed2415a"
+}

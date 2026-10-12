@@ -1,0 +1,902 @@
+[
+  {
+    "test_id": "T20261007-001",
+    "differences": {
+      "reason": [
+        "The post seeks help with a software problem: “Call ended” when not in a call. No update link is stated.\n",
+        "The body describes “I’m very weirded out and am wondering what the issue could be.”, a software issue without a linked release.\n"
+      ]
+    }
+  },
+  {
+    "test_id": "T20261007-008",
+    "differences": {
+      "reason": [
+        "A software release or update is tied to a concrete problem: Web Layout Issues\n",
+        "The saved post describes “I’m using the Edge Dev version.” in the context of a software change and seeks a fix or reports failure.\n"
+      ]
+    }
+  },
+  {
+    "test_id": "T20261007-010",
+    "differences": {
+      "reason": [
+        "This discusses a software release or change without an active fault to fix: Fedora and Ubuntu Need a Stable Rolling Release\n",
+        "The body centers on “Fedora already has a branch called Rawhide, but I see it as somewhat similar to Arch Linux because of its update…”, which is informational rather than a repair request.\n"
+      ]
+    }
+  },
+  {
+    "test_id": "T20261007-034",
+    "differences": {
+      "reason": [
+        "A software release or update is tied to a concrete problem: some themes turned light mode, despite being dark mode themes after update\n",
+        "The saved post describes “some themes turned light mode, despite being dark mode themes after update” in the context of a software change and seeks a fix or reports failure.\n"
+      ]
+    }
+  },
+  {
+    "test_id": "T20261007-036",
+    "differences": {
+      "reason": [
+        "This discusses a software release or change without an active fault to fix: Widget Options plugin security advisory - alternatives?\n",
+        "The body centers on “Apparently, according to ManageWP, the WordPress Widget Options plugin was last updated 2 months ago and will not…”, which is informational rather than a repair request.\n"
+      ]
+    }
+  },
+  {
+    "test_id": "T20261007-047",
+    "differences": {
+      "reason": [
+        "A software release or update is tied to a concrete problem: Why are Canadian timezones are gone in PHP 8.5?\n",
+        "The saved post describes “After upgrading to PHP 8.5 the timezone changed to UTC.” in the context of a software change and seeks a fix or reports failure.\n"
+      ]
+    }
+  },
+  {
+    "test_id": "T20261007-049",
+    "differences": {
+      "reason": [
+        "A software release or update is tied to a concrete problem: Folders totally rearranged after macOS Tahoe 26.3.1 update – anyone else?\n",
+        "The saved post describes “Updated to macOS Tahoe 26.3.1 today and it's an absolute mess.” in the context of a software change and seeks a fix or reports failure.\n"
+      ]
+    }
+  },
+  {
+    "test_id": "T20261007-058",
+    "differences": {
+      "reason": [
+        "A software release or update is tied to a concrete problem: OS 18.0 Update issues with Studio Code Server &amp; SSH\n",
+        "The saved post describes “If anyone else hits issues with the above add-ons (Apps) after updating to OS 18.0, couple of things that helped…” in the context of a software change and seeks a fix or reports failure.\n"
+      ]
+    }
+  },
+  {
+    "test_id": "T20261007-064",
+    "differences": {
+      "reason": [
+        "A software release or update is tied to a concrete problem: Android Update One UI 9.0\n",
+        "The saved post describes “I received the new update last night on my Samsung Galaxy s26 Ultra and the Google search bar for my home screen…” in the context of a software change and seeks a fix or reports failure.\n"
+      ]
+    }
+  },
+  {
+    "test_id": "T20261007-065",
+    "differences": {
+      "reason": [
+        "The post seeks help with a software problem: What to do if phone lost forever, icloud password forgotten, email IS icloud. No update link is stated.\n",
+        "The body describes “Recently lost my phone in the water and it’s gone forever basically.”, a software issue without a linked release.\n"
+      ]
+    }
+  },
+  {
+    "test_id": "T20261007-068",
+    "differences": {
+      "reason": [
+        "This discusses a software release or change without an active fault to fix: Fastest way to upgrade from Angular 13 to 20 for a large prod grad application\n",
+        "The body centers on “I really want to upgrade the application faster with all things working, according to upgrade angular guide, we…”, which is informational rather than a repair request.\n"
+      ]
+    }
+  },
+  {
+    "test_id": "T20261007-078",
+    "differences": {
+      "reason": [
+        "A software release or update is tied to a concrete problem: Chrome's 'What's New' page gives wrong navigation instructions for Enhanced Autofill\n",
+        "The saved post describes “After the latest Chrome update, the 'What's New' page promotes the new Enhanced Autofill feature (loyalty cards,…” in the context of a software change and seeks a fix or reports failure.\n"
+      ]
+    }
+  },
+  {
+    "test_id": "T20261007-087",
+    "differences": {
+      "reason": [
+        "A software release or update is tied to a concrete problem: Just a heads up if you use passkeys and you have an older iPhone with an older iOS verssion. Google Chrome…\n",
+        "The saved post describes “Google updated Chrome with Version 155.0.8059.40 and did something with the WebAuthn and that locks out people…” in the context of a software change and seeks a fix or reports failure.\n"
+      ]
+    }
+  },
+  {
+    "test_id": "T20261007-093",
+    "differences": {
+      "reason": [
+        "The post seeks help with a software problem: SMlight Ultima Zwave addon card no communication. No update link is stated.\n",
+        "The body describes “I reach the ultima through the web interface, and start the updates, starting with core, then moving to the two…”, a software issue without a linked release.\n"
+      ]
+    }
+  },
+  {
+    "test_id": "T20261007-096",
+    "differences": {
+      "reason": [
+        "A software release or update is tied to a concrete problem: TimeOut problems GPT models?\n",
+        "The saved post describes “Since updated to latest, I getting Agent timeout problems in Crons and other jobs.” in the context of a software change and seeks a fix or reports failure.\n"
+      ]
+    }
+  },
+  {
+    "test_id": "T20261007-102",
+    "differences": {
+      "reason": [
+        "A software release or update is tied to a concrete problem: Just upgraded to 26.04LTS\n",
+        "The saved post describes “I just upgraded to 26.04 LTS.” in the context of a software change and seeks a fix or reports failure.\n"
+      ]
+    }
+  },
+  {
+    "test_id": "T20261007-105",
+    "differences": {
+      "reason": [
+        "A software release or update is tied to a concrete problem: Do not update Codex to Version 26.513.31313 (2867), Ollama stopped working after update\n",
+        "The saved post describes “Just updated Codex to Version 26.513.31313 (2867), and it's no longer working.” in the context of a software change and seeks a fix or reports failure.\n"
+      ]
+    }
+  },
+  {
+    "test_id": "T20261007-107",
+    "differences": {
+      "reason": [
+        "A software release or update is tied to a concrete problem: Comfyui Update and Templates Issue\n",
+        "The saved post describes “I updated comfyui and all template structure ruined?” in the context of a software change and seeks a fix or reports failure.\n"
+      ]
+    }
+  },
+  {
+    "test_id": "T20261007-116",
+    "differences": {
+      "reason": [
+        "A software release or update is tied to a concrete problem: Address bar appears on bottom when I start typing something\n",
+        "The saved post describes “The latest Chrome mobile update messed up the UI, and now the address bar jumps to the bottom, when I tap on it.” in the context of a software change and seeks a fix or reports failure.\n"
+      ]
+    }
+  },
+  {
+    "test_id": "T20261007-117",
+    "differences": {
+      "reason": [
+        "A software release or update is tied to a concrete problem: The 'define' option in Google Chrome disappeared after the last OS update and I can't find the settings for…\n",
+        "The saved post describes “The thing is, I don't know the name of the secondary app that opens when you choose 'define' from Chrome so maybe…” in the context of a software change and seeks a fix or reports failure.\n"
+      ]
+    }
+  },
+  {
+    "test_id": "T20261007-142",
+    "differences": {
+      "reason": [
+        "This is general software discussion rather than an update-linked repair case: Mac to iPhone photos app\n",
+        "The body centers on “Some photos were downloaded from other apps such as Whatsapp and Google Photos (I have deprecated since I passed…”; no specific software update drives it.\n"
+      ]
+    }
+  },
+  {
+    "test_id": "T20261007-166",
+    "differences": {
+      "reason": [
+        "The saved text does not establish whether software causes this issue: iPhone 16+ not recognizing USB C devices\n",
+        "The body says “I have never had an issue with it.”, but the cause may be hardware or software.\n"
+      ]
+    }
+  },
+  {
+    "test_id": "T20261007-174",
+    "differences": {
+      "reason": [
+        "This is general software discussion rather than an update-linked repair case: Any recommendations on a Remote Desktop app for Mac (personal use)?\n",
+        "The body centers on “I've been using teamviewer, which is decent, but I find that even with firevault off and teamviewer set to…”; no specific software update drives it.\n"
+      ]
+    }
+  },
+  {
+    "test_id": "T20261007-175",
+    "differences": {
+      "reason": [
+        "A software release or update is tied to a concrete problem: Elementor plugin not updating.\n",
+        "The saved post describes “The other plugin got updated, but Elementor has not.” in the context of a software change and seeks a fix or reports failure.\n"
+      ]
+    }
+  },
+  {
+    "test_id": "T20261007-178",
+    "differences": {
+      "reason": [
+        "The saved text does not establish whether software causes this issue: Chromecast issue on M1 Mac Pro\n",
+        "The body says “Have been having this issue for many months now and have tried a bunch of solutions including the obvious…”, but the cause may be hardware or software.\n"
+      ]
+    }
+  },
+  {
+    "test_id": "T20261007-183",
+    "differences": {
+      "reason": [
+        "A software release or update is tied to a concrete problem: WP 7.0.1 - Slow Query Issue\n",
+        "The saved post describes “I have recently updated my wordpress to the latest 7.0.1.” in the context of a software change and seeks a fix or reports failure.\n"
+      ]
+    }
+  },
+  {
+    "test_id": "T20261007-192",
+    "differences": {
+      "reason": [
+        "This is general software discussion rather than an update-linked repair case: Many plugins and personal bars on MacOs\n",
+        "The body centers on “I've been looking, but I haven't found anything practical, except for modifying files, which would probably be…”; no specific software update drives it.\n"
+      ]
+    }
+  },
+  {
+    "test_id": "T20261007-194",
+    "differences": {
+      "reason": [
+        "A software release or update is tied to a concrete problem: Any way to remove gemini banners from the homepage?\n",
+        "The saved post describes “The recent update applied it” in the context of a software change and seeks a fix or reports failure.\n"
+      ]
+    }
+  },
+  {
+    "test_id": "T20261007-195",
+    "differences": {
+      "reason": [
+        "A software release or update is tied to a concrete problem: No grub after update\n",
+        "The saved post describes “Hey guys, since last update (2 days ago I think) I can’t boot my system.” in the context of a software change and seeks a fix or reports failure.\n"
+      ]
+    }
+  },
+  {
+    "test_id": "T20261007-200",
+    "differences": {
+      "reason": [
+        "A software release or update is tied to a concrete problem: C++ code not properly highlighted\n",
+        "The saved post describes “So after updating my LazyVim to the latest release it stopped highlighting cpp code.” in the context of a software change and seeks a fix or reports failure.\n"
+      ]
+    }
+  },
+  {
+    "test_id": "T20261007-203",
+    "differences": {
+      "reason": [
+        "A software release or update is tied to a concrete problem: Fedora KDE Wayland - after last system update YouTube videos show a weird artifact, the videos are divided in…\n",
+        "The saved post describes “KDE Plasma Version: 6.7.4” in the context of a software change and seeks a fix or reports failure.\n"
+      ]
+    }
+  },
+  {
+    "test_id": "T20261007-206",
+    "differences": {
+      "reason": [
+        "A software release or update is tied to a concrete problem: When I switch tabs on chrome app it automatically scrolls up, pls help\n",
+        "The saved post describes “I use the chrome app and I recently just got this problem after I updated it, basically when I scroll down page…” in the context of a software change and seeks a fix or reports failure.\n"
+      ]
+    }
+  },
+  {
+    "test_id": "T20261007-209",
+    "differences": {
+      "reason": [
+        "This is general software discussion rather than an update-linked repair case: Kimi $19/m Update: Structuring multiple models in OpenClaw\n",
+        "The body centers on “anyways, since i was getting close to my weekly limit- i just upgraded to their $40 a month plan and it reset my…”; no specific software update drives it.\n"
+      ]
+    }
+  },
+  {
+    "test_id": "T20261007-216",
+    "differences": {
+      "reason": [
+        "The post seeks help with a software problem: SDDM keeps disappearing. No update link is stated.\n",
+        "The body describes “Im not sure completely, but it might be after some system updates.”, a software issue without a linked release.\n"
+      ]
+    }
+  },
+  {
+    "test_id": "T20261007-217",
+    "differences": {
+      "reason": [
+        "The post seeks help with a software problem: VSCode Blank Terminal for Powershell, Git bash, command prompt. No update link is stated.\n",
+        "The body describes “Is this caused by windows update, did uninstalled the latest update but no luck.”, a software issue without a linked release.\n"
+      ]
+    }
+  },
+  {
+    "test_id": "T20261007-218",
+    "differences": {
+      "reason": [
+        "A software release or update is tied to a concrete problem: GPT header corruption after upgrading to TrueNas Scale 25.10\n",
+        "The saved post describes “I am getting GPT header corruption after upgrading to TrueNas Scale 25.10” in the context of a software change and seeks a fix or reports failure.\n"
+      ]
+    }
+  },
+  {
+    "test_id": "T20261007-219",
+    "differences": {
+      "reason": [
+        "The post seeks help with a software problem: No Internet/Data Connection. No update link is stated.\n",
+        "The body describes “I’m writing this on my partners account because I can’t use any apps on my phone.”, a software issue without a linked release.\n"
+      ]
+    }
+  },
+  {
+    "test_id": "T20261007-230",
+    "differences": {
+      "reason": [
+        "A software release or update is tied to a concrete problem: iPhone 14 shuts off intermittently after most recent update.\n",
+        "The saved post describes “Hi guys - so like the title says, after the most recent update my iPhone 14 just shuts off about every two minutes…” in the context of a software change and seeks a fix or reports failure.\n"
+      ]
+    }
+  },
+  {
+    "test_id": "T20261007-233",
+    "differences": {
+      "reason": [
+        "A software release or update is tied to a concrete problem: WordPress Elementor Issue – Images Not Visible (v6.9) | Backup Also Missing Uploads\n",
+        "The saved post describes “I’m facing a critical issue with the website built on WordPress using Elementor.” in the context of a software change and seeks a fix or reports failure.\n"
+      ]
+    }
+  },
+  {
+    "test_id": "T20261007-245",
+    "differences": {
+      "reason": [
+        "This discusses a software release or change without an active fault to fix: Opening/moving/closing tabs became smoother?\n",
+        "The body centers on “After updating to this version, I noticed opening/moving/closing tabs feels way smoother/faster.”, which is informational rather than a repair request.\n"
+      ]
+    }
+  },
+  {
+    "test_id": "T20261007-248",
+    "differences": {
+      "reason": [
+        "A software release or update is tied to a concrete problem: Can no longer delete additional search engines\n",
+        "The saved post describes “After the last update (152.0), the search engines I deleted were re-added and I can't remove them.” in the context of a software change and seeks a fix or reports failure.\n"
+      ]
+    }
+  },
+  {
+    "test_id": "T20261007-249",
+    "differences": {
+      "reason": [
+        "A software release or update is tied to a concrete problem: Unable to access iPad Diagnostics\n",
+        "The saved post describes “Ever since I updated to the new iOS my ipad has been really dysfunctional, the mic sometimes makes loud crackling…” in the context of a software change and seeks a fix or reports failure.\n"
+      ]
+    }
+  },
+  {
+    "test_id": "T20261007-256",
+    "differences": {
+      "reason": [
+        "A software release or update is tied to a concrete problem: iPhone 11 iOS 27.0.1 or 26.7.1 update issues\n",
+        "The saved post describes “The phone is currently on iOS 16 because of lack of memory at the time of available updates I suspect.” in the context of a software change and seeks a fix or reports failure.\n"
+      ]
+    }
+  },
+  {
+    "test_id": "T20261007-260",
+    "differences": {
+      "reason": [
+        "This discusses a software release or change without an active fault to fix: Colorful Background\n",
+        "The body centers on “4 new dark themes are now available:”, which is informational rather than a repair request.\n"
+      ]
+    }
+  },
+  {
+    "test_id": "T20261007-262",
+    "differences": {
+      "reason": [
+        "A software release or update is tied to a concrete problem: New update &amp; Verify ID in Australia\n",
+        "The saved post describes “Anyone in Australia wake up this morning to there phone updating &amp; unable to verify Credit card to prove your…” in the context of a software change and seeks a fix or reports failure.\n"
+      ]
+    }
+  },
+  {
+    "test_id": "T20261007-272",
+    "differences": {
+      "reason": [
+        "A software release or update is tied to a concrete problem: Users not showing on GDM login screen after upgrade to 26.04 LTS\n",
+        "The saved post describes “Still any working fix?” in the context of a software change and seeks a fix or reports failure.\n"
+      ]
+    }
+  },
+  {
+    "test_id": "T20261007-280",
+    "differences": {
+      "reason": [
+        "A software release or update is tied to a concrete problem: Turning off the highlighting toolbar appearing after the latest update\n",
+        "The saved post describes “It appeared after the latest Chrome update and I can't find a suitable setting to turn it off.” in the context of a software change and seeks a fix or reports failure.\n"
+      ]
+    }
+  },
+  {
+    "test_id": "T20261007-282",
+    "differences": {
+      "reason": [
+        "A software release or update is tied to a concrete problem: Downgrade Firefox\n",
+        "The saved post describes “I have an empty new profile since some update some months ago.” in the context of a software change and seeks a fix or reports failure.\n"
+      ]
+    }
+  },
+  {
+    "test_id": "T20261007-295",
+    "differences": {
+      "reason": [
+        "The main purpose is criticism of a software change: What the actual *freedom of speech*, Adobe????\n",
+        "\"The body centers on “What do you mean \"\"This version f Windows is no longer supported.” and mainly expresses dissatisfaction.\"\n"
+      ]
+    }
+  },
+  {
+    "test_id": "T20261007-298",
+    "differences": {
+      "reason": [
+        "The post seeks help with a software problem: Wifi issues on intel MacBook Air. No update link is stated.\n",
+        "The body describes “I ran into an issue regarding the wifi.”, a software issue without a linked release.\n"
+      ]
+    }
+  },
+  {
+    "test_id": "T20261007-301",
+    "differences": {
+      "reason": [
+        "A software release or update is tied to a concrete problem: u6 enterprise and iphone 13 pro disconnect\n",
+        "The saved post describes “I during the upgrade I also changed the SSID password on the wifi I connect to.” in the context of a software change and seeks a fix or reports failure.\n"
+      ]
+    }
+  },
+  {
+    "test_id": "T20261007-303",
+    "differences": {
+      "reason": [
+        "The post seeks help with a software problem: [Youtube] Playback ID Error. No update link is stated.\n",
+        "The body describes “anybody have had this issue on the android app?”, a software issue without a linked release.\n"
+      ]
+    }
+  },
+  {
+    "test_id": "T20261007-306",
+    "differences": {
+      "reason": [
+        "The post seeks help with a software problem: Lost Iphone, Can't access my Icloud. No update link is stated.\n",
+        "The body describes “On findmy my phone stopped updating about 45 minutes after our plane landed and calls would no longer go through…”, a software issue without a linked release.\n"
+      ]
+    }
+  },
+  {
+    "test_id": "T20261007-316",
+    "differences": {
+      "reason": [
+        "This discusses a software release or change without an active fault to fix: Critical Software Update. Should I be worried?\n",
+        "The body centers on “it only has 64gb and i can't update it to the latest ios it can have, which is ios 16, bc it only has like 5gb…”, which is informational rather than a repair request.\n"
+      ]
+    }
+  },
+  {
+    "test_id": "T20261007-320",
+    "differences": {
+      "reason": [
+        "This discusses a software release or change without an active fault to fix: Latest Firefox speed in latest oct 26 update?\n",
+        "The body centers on “I left trying to use firefox at the early 2026 due to its comparable noticeable slower speed than Chrome.”, which is informational rather than a repair request.\n"
+      ]
+    }
+  },
+  {
+    "test_id": "T20261007-321",
+    "differences": {
+      "reason": [
+        "A software release or update is tied to a concrete problem: Can’t open password file after update\n",
+        "The saved post describes “I’m unable to open my password file on the new password manager, just booted up my backup stick and verified that…” in the context of a software change and seeks a fix or reports failure.\n"
+      ]
+    }
+  },
+  {
+    "test_id": "T20261007-326",
+    "differences": {
+      "reason": [
+        "A software release or update is tied to a concrete problem: After manually updating to latest patch, Firefox is *still* not supported by Twitch and I can't login.\n",
+        "The saved post describes “After manually updating to latest patch, Firefox is *still* not supported by Twitch and I can't login.” in the context of a software change and seeks a fix or reports failure.\n"
+      ]
+    }
+  },
+  {
+    "test_id": "T20261007-331",
+    "differences": {
+      "reason": [
+        "A software release or update is tied to a concrete problem: Mac resetting constantly\n",
+        "The saved post describes “I have a mac 2024 M3 chip and it’s never had any issues.” in the context of a software change and seeks a fix or reports failure.\n"
+      ]
+    }
+  },
+  {
+    "test_id": "T20261007-333",
+    "differences": {
+      "reason": [
+        "The main purpose is criticism of a software change: WTF Firefox? I don't want to restart right this second.\n",
+        "The body centers on “Chrome is nice enough to let me restart whenever I want to finish an update.” and mainly expresses dissatisfaction.\n"
+      ]
+    }
+  },
+  {
+    "test_id": "T20261007-335",
+    "differences": {
+      "reason": [
+        "A software release or update is tied to a concrete problem: Debian 13 updates causes change in mpv application\n",
+        "The saved post describes “Early this month July-2026 I performed an apt upgrade and the app mpv version 0.40 (video player) it is not…” in the context of a software change and seeks a fix or reports failure.\n"
+      ]
+    }
+  },
+  {
+    "test_id": "T20261007-342",
+    "differences": {
+      "reason": [
+        "A software release or update is tied to a concrete problem: Edge goes to blank page for any user that logs in on some computers\n",
+        "The saved post describes “Have anyone else been seeing this behavior in the latest edge update?” in the context of a software change and seeks a fix or reports failure.\n"
+      ]
+    }
+  },
+  {
+    "test_id": "T20261007-352",
+    "differences": {
+      "reason": [
+        "The post seeks help with a software problem: Delete compromised Apple ID/account connected to old email?. No update link is stated.\n",
+        "The body describes “They were the “Your Apple Account information has been updated” emails and I quite honestly thought they were spam…”, a software issue without a linked release.\n"
+      ]
+    }
+  },
+  {
+    "test_id": "T20261007-359",
+    "differences": {
+      "reason": [
+        "A software release or update is tied to a concrete problem: I’m from the US but IOS new update is asking me to verify age by the UK law? It’s preventing me from…\n",
+        "The saved post describes “I’m from the US but IOS new update is asking me to verify age by the UK law? It’s preventing me from…” in the context of a software change and seeks a fix or reports failure.\n"
+      ]
+    }
+  },
+  {
+    "test_id": "T20261007-366",
+    "differences": {
+      "reason": [
+        "A software release or update is tied to a concrete problem: I lost my .env and docker-compose.yml files :)\n",
+        "The saved post describes “This won't happen again.” in the context of a software change and seeks a fix or reports failure.\n"
+      ]
+    }
+  },
+  {
+    "test_id": "T20261007-371",
+    "differences": {
+      "reason": [
+        "A software release or update is tied to a concrete problem: apparently chromes new update won't work\n",
+        "The saved post describes “Chrome updated yesterday” in the context of a software change and seeks a fix or reports failure.\n"
+      ]
+    }
+  },
+  {
+    "test_id": "T20261007-372",
+    "differences": {
+      "reason": [
+        "A software release or update is tied to a concrete problem: After the automatic update, I can't load the new tab until I restart Firfox\n",
+        "The saved post describes “If Firefox updates in the background, I can't load the page in the new tab.” in the context of a software change and seeks a fix or reports failure.\n"
+      ]
+    }
+  },
+  {
+    "test_id": "T20261007-382",
+    "differences": {
+      "reason": [
+        "A software release or update is tied to a concrete problem: Edge losing logins and tab group placements randomly after update or browser restart\n",
+        "The saved post describes “The problem I've been having largely is Edge is just forgetting certain things randomly after it's restarted,…” in the context of a software change and seeks a fix or reports failure.\n"
+      ]
+    }
+  },
+  {
+    "test_id": "T20261007-385",
+    "differences": {
+      "reason": [
+        "A software release or update is tied to a concrete problem: Solutions to reverting the dedicated pin area?\n",
+        "The saved post describes “Does anyone know how to revert the dedicated pin area in the recent update?” in the context of a software change and seeks a fix or reports failure.\n"
+      ]
+    }
+  },
+  {
+    "test_id": "T20261007-387",
+    "differences": {
+      "reason": [
+        "A software release or update is tied to a concrete problem: Authy 28.6.X doesn't need a PIN to unlock after switching app\n",
+        "The saved post describes “It is very frustrating, I quite appreciated this security setting.” in the context of a software change and seeks a fix or reports failure.\n"
+      ]
+    }
+  },
+  {
+    "test_id": "T20261007-400",
+    "differences": {
+      "reason": [
+        "A software release or update is tied to a concrete problem: Can't move icons between monitors - CachyOS/KDE Plasma\n",
+        "The saved post describes “Since Plasma 6.7 landed on my PC yesterday I've had a couple of weird issues, but the one I can't solve is moving…” in the context of a software change and seeks a fix or reports failure.\n"
+      ]
+    }
+  },
+  {
+    "test_id": "T20261007-403",
+    "differences": {
+      "reason": [
+        "This discusses a software release or change without an active fault to fix: Kernel update to latest version of 16.04.4 LTS\n",
+        "The body centers on “I need to update Linux 16.04.4 LTS to the latest kernel version.”, which is informational rather than a repair request.\n"
+      ]
+    }
+  },
+  {
+    "test_id": "T20261007-405",
+    "differences": {
+      "reason": [
+        "The post seeks help with a software problem: Tabs constantly reloading (iOS). No update link is stated.\n",
+        "The body describes “But I can’t use search anymore.”, a software issue without a linked release.\n"
+      ]
+    }
+  },
+  {
+    "test_id": "T20261007-408",
+    "differences": {
+      "reason": [
+        "This is general software discussion rather than an update-linked repair case: Oracle PL/SQL: can log-driven housekeeping create a feedback loop across scheduled runs?\n",
+        "The body centers on “Update the load state to `Removed`, including when it is already in that state.”; no specific software update drives it.\n"
+      ]
+    }
+  },
+  {
+    "test_id": "T20261007-415",
+    "differences": {
+      "reason": [
+        "A software release or update is tied to a concrete problem: F43 users are unable to log in after upgrading to F44\n",
+        "The saved post describes “Fedora users created in version 43 can't log in after the upgrade to F44” in the context of a software change and seeks a fix or reports failure.\n"
+      ]
+    }
+  },
+  {
+    "test_id": "T20261007-416",
+    "differences": {
+      "reason": [
+        "The post seeks help with a software problem: Supabase local dev environment. No update link is stated.\n",
+        "The body describes “Firstly having on &amp; off problems with Postgres ipv6 database networking issue.”, a software issue without a linked release.\n"
+      ]
+    }
+  },
+  {
+    "test_id": "T20261007-417",
+    "differences": {
+      "reason": [
+        "The post seeks help with a software problem: All open tabs just gone and even History is completely empty and deleted. No update link is stated.\n",
+        "The body describes “I already once suddenly lost all my opened tabs after normally closing and opening only giving me a new tab and no…”, a software issue without a linked release.\n"
+      ]
+    }
+  },
+  {
+    "test_id": "T20261007-420",
+    "differences": {
+      "reason": [
+        "The post seeks help with a software problem: Why are iPhone alarms going off on my watch?. No update link is stated.\n",
+        "The body describes “I’ve tried to install the new software update, and I have tried to restart my watch, but the problem persists.”, a software issue without a linked release.\n"
+      ]
+    }
+  },
+  {
+    "test_id": "T20261007-424",
+    "differences": {
+      "reason": [
+        "The saved text cannot establish the software cause or update connection: question about AirPods 3\n",
+        "The saved material says “I'm having a problem with my AirPods 3.”; key context is missing for both decisions.\n"
+      ]
+    }
+  },
+  {
+    "test_id": "T20261007-427",
+    "differences": {
+      "reason": [
+        "A software release or update is tied to a concrete problem: Windows 11 desktop: How to reduce size of extra search bar (next to address bar)? Adding Flexible Space…\n",
+        "The saved post describes “Thanks to** u/Moko1960 **this is the solution - thanks again!” in the context of a software change and seeks a fix or reports failure.\n"
+      ]
+    }
+  },
+  {
+    "test_id": "T20261007-428",
+    "differences": {
+      "reason": [
+        "A software release or update is tied to a concrete problem: BQ16 Router incredibly unstable after new firmware update\n",
+        "The saved post describes “I've got a 3-unit BQ16 mesh system that has worked excellently (mostly) for months, yet two days ago it got a…” in the context of a software change and seeks a fix or reports failure.\n"
+      ]
+    }
+  },
+  {
+    "test_id": "T20261007-431",
+    "differences": {
+      "reason": [
+        "A software release or update is tied to a concrete problem: so frustrated rn\n",
+        "The saved post describes “Wanting to update to the latest Ubuntu, I did a clean install of 26.04 and I've had nothing but trouble.” in the context of a software change and seeks a fix or reports failure.\n"
+      ]
+    }
+  },
+  {
+    "test_id": "T20261007-433",
+    "differences": {
+      "reason": [
+        "The post seeks help with a software problem: gnome file picker. No update link is stated.\n",
+        "The body describes “is it something wrong with my system or its a gnome problem?”, a software issue without a linked release.\n"
+      ]
+    }
+  },
+  {
+    "test_id": "T20261007-437",
+    "differences": {
+      "reason": [
+        "A software release or update is tied to a concrete problem: Win 11 25H2 Edge Update - Win32/Wacapew.A!ml\n",
+        "The saved post describes “I installed Windows 11 25H2 using Media creation tool on my PC and I just noticed that Windows security is…” in the context of a software change and seeks a fix or reports failure.\n"
+      ]
+    }
+  },
+  {
+    "test_id": "T20261007-438",
+    "differences": {
+      "reason": [
+        "The main topic is hardware or another non-software matter: Reolink D340W intermittent remote access – could low voltage (10 V AC) be the cause?\n",
+        "The body centers on “I recently upgraded my home doorbell to a smart model, the Reolink D340W, which is rated to operate on 12–24 VAC.”, a hardware or unrelated matter.\n"
+      ]
+    }
+  },
+  {
+    "test_id": "T20261007-448",
+    "differences": {
+      "reason": [
+        "A software release or update is tied to a concrete problem: Upload file dialog no longer remembers folders per site\n",
+        "The saved post describes “I'm not sure if this is due to the new update or not, but ever since the update, the file upload dialog behavior…” in the context of a software change and seeks a fix or reports failure.\n"
+      ]
+    }
+  },
+  {
+    "test_id": "T20261007-450",
+    "differences": {
+      "reason": [
+        "A software release or update is tied to a concrete problem: Firefox's new update is using a lot of ram\n",
+        "The saved post describes “But ever since latest UI update which was released some time ago its using SO much ram.” in the context of a software change and seeks a fix or reports failure.\n"
+      ]
+    }
+  },
+  {
+    "test_id": "T20261007-454",
+    "differences": {
+      "reason": [
+        "This discusses a software release or change without an active fault to fix: Software update query\n",
+        "The body centers on “I use an iPhone 11 that's currently 3 years old and I am running version 18.7.7.”, which is informational rather than a repair request.\n"
+      ]
+    }
+  },
+  {
+    "test_id": "T20261007-456",
+    "differences": {
+      "reason": [
+        "This discusses a software release or change without an active fault to fix: Cyber Security wants us to use the latest version all the time\n",
+        "The body centers on “Cybersecurity team wants us to use the latest python version each time.”, which is informational rather than a repair request.\n"
+      ]
+    }
+  },
+  {
+    "test_id": "T20261007-459",
+    "differences": {
+      "reason": [
+        "A software release or update is tied to a concrete problem: Is opencode becoming worse?\n",
+        "The saved post describes “With each update I feel like performance slightly got worse.” in the context of a software change and seeks a fix or reports failure.\n"
+      ]
+    }
+  },
+  {
+    "test_id": "T20261007-467",
+    "differences": {
+      "reason": [
+        "A software release or update is tied to a concrete problem: Wi-Fi connected but no internet after yesterday some update\n",
+        "The saved post describes “After updating Fedora yesterday before sleep, my Wi-Fi stopped working properly today.” in the context of a software change and seeks a fix or reports failure.\n"
+      ]
+    }
+  },
+  {
+    "test_id": "T20261007-474",
+    "differences": {
+      "reason": [
+        "\"A software release or update is tied to a concrete problem: Does anyone know how to put the \"\"hamburger\"\" menu back as it was?\"\n",
+        "The saved post describes “After the 153 update, the menu moved it self next to the Smart Window toggle, and now I can't move it back.” in the context of a software change and seeks a fix or reports failure.\n"
+      ]
+    }
+  },
+  {
+    "test_id": "T20261007-478",
+    "differences": {
+      "reason": [
+        "The post seeks help with a software problem: Mac Opens Video Files But Won't Play Them. No update link is stated.\n",
+        "The body describes “My mac won't play any video files (MP4, etc) on the hard drive—they open and just sit there.”, a software issue without a linked release.\n"
+      ]
+    }
+  },
+  {
+    "test_id": "T20261007-479",
+    "differences": {
+      "reason": [
+        "A software release or update is tied to a concrete problem: Rehashing over and over again!\n",
+        "The saved post describes “My entire library is rehashing all 65k assets after almost every update of the server and/or clients.” in the context of a software change and seeks a fix or reports failure.\n"
+      ]
+    }
+  },
+  {
+    "test_id": "T20261007-483",
+    "differences": {
+      "reason": [
+        "A software release or update is tied to a concrete problem: Someone could help so i would not go crazy? (Qwen Layer - LatentCutToBach)\n",
+        "The saved post describes “[Portable version \\(i have it\\)](” in the context of a software change and seeks a fix or reports failure.\n"
+      ]
+    }
+  },
+  {
+    "test_id": "T20261007-485",
+    "differences": {
+      "reason": [
+        "A software release or update is tied to a concrete problem: Found a way to remove Edge's permanent borders that I haven't seen mentioned here (Windows ONLY) - Its safe,…\n",
+        "The saved post describes “I've seen the same solutions being recommended over and over again, mostly shortcuts / Group Policy stuff” in the context of a software change and seeks a fix or reports failure.\n"
+      ]
+    }
+  },
+  {
+    "test_id": "T20261007-486",
+    "differences": {
+      "reason": [
+        "A software release or update is tied to a concrete problem: Tabs got lost after update\n",
+        "The saved post describes “I had multiple tabs open on my phone that were pretty important to me and after updating my phone, they only got…” in the context of a software change and seeks a fix or reports failure.\n"
+      ]
+    }
+  },
+  {
+    "test_id": "T20261007-492",
+    "differences": {
+      "reason": [
+        "This discusses a software release or change without an active fault to fix: Alternatives for the Edge sidebar\n",
+        "The body centers on “Now that Edge is removing the sidebar in the next update, I've put together a short list of browsers that have…”, which is informational rather than a repair request.\n"
+      ]
+    }
+  },
+  {
+    "test_id": "T20261007-496",
+    "differences": {
+      "reason": [
+        "The post seeks help with a software problem: Edge keeps resurrecting deleted favourites. No update link is stated.\n",
+        "The body describes “Everything is fully updated.”, a software issue without a linked release.\n"
+      ]
+    }
+  },
+  {
+    "test_id": "T20261007-497",
+    "differences": {
+      "reason": [
+        "A software release or update is tied to a concrete problem: Migration Woes\n",
+        "The saved post describes “My problem is, when i plug the Ultra into the Icotera fiber to LAN box, from my ISP, the Ultra refuses to go…” in the context of a software change and seeks a fix or reports failure.\n"
+      ]
+    }
+  },
+  {
+    "test_id": "T20261007-500",
+    "differences": {
+      "reason": [
+        "A software release or update is tied to a concrete problem: Icons are not showing in favourites and shortcut.\n",
+        "The saved post describes “Since the recent update, the favicons are not showing on both favourites and shortcuts.” in the context of a software change and seeks a fix or reports failure.\n"
+      ]
+    }
+  }
+]

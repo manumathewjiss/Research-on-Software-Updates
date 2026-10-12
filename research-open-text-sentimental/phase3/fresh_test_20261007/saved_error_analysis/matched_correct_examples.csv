@@ -1,0 +1,483 @@
+error_test_id,control_test_id,true_class,same_subreddit,control_subreddit,control_title,control_post_body
+T20261007-027,T20261007-415,1,True,Fedora,F43 users are unable to log in after upgrading to F44,"Fedora users created in version 43 can't log in after the upgrade to F44
+
+the logs can be found in the following [link](https://drive.google.com/file/d/1INupjOgw12WFOWshCaZzVReh4dJhoJhg/view?usp=sharing)"
+T20261007-029,T20261007-011,0,False,chrome,New CPU Performance Setting in v150,"I updated Chrome today and noticed this setting, what exactly is it for? Do you have it on the default setting or on the few which are in the dropdown?
+
+Sorry it is in german but you can find it under the ""Performance"" tab (I hope it is translated like this in the english version.)
+
+https://preview.redd.it/8y4smidt9sah1.png?width=720&amp;format=png&amp;auto=webp&amp;s=6e2f34b9eafe771e9a48434e08df91ae436ff23e
+
+
+
+https://preview.redd.it/vkn5hkm3asah1.png?width=717&amp;format=png&amp;auto=webp&amp;s=aa049e74c2e76c99237a3ab653a937b1afd30973"
+T20261007-037,T20261007-377,1,True,Ubuntu,All icons changed to this black and white theme after an update on Ubuntu 22.04LTS,"# SOLVED
+
+[I am using x11](https://preview.redd.it/qsn8k5mcp7ch1.png?width=640&amp;format=png&amp;auto=webp&amp;s=88bb515904f19ca5366cd03134a98115ac8a87c7)
+
+# THE CULPRIT:
+
+https://preview.redd.it/u0fovh8fc8ch1.png?width=296&amp;format=png&amp;auto=webp&amp;s=3080eeb1c175294f12edee1de198431b88bab6e1"
+T20261007-046,T20261007-004,0,True,Ubuntu,"Just upgraded to Ubuntu 26.04, wow...","https://preview.redd.it/uxrykp24cpxg1.png?width=3840&amp;format=png&amp;auto=webp&amp;s=3f417b123e41589612bca78fa172de5328e26e20
+
+So impressed with this release, incredibly fast, smooth, and efficient. Loving it already!"
+T20261007-054,T20261007-099,0,False,AZURE,Experience with XAML Builds in Azure DevOps 2020 on prem Upgrade to latest Azure DevOps Version,"Hello everyone,
+
+I am planning to upgrade our current DevOps environment to the latest Version (Upgrade path is given by Microsoft Docs). 
+
+Unfortunately, we don't have a second environment to test the upgrade so maybe someone of you has some experience.
+
+What we do have is that the Machine where our Azure DevOps instance is running is fully virtualized. We can do snapshots and restore. (HyperV)
+
+Our instance unfortunately still uses XAML Builds for an legacy application that is still used by a lot of customers and is Business critical. These are sre not easy to migrate and are highly intertwined with business logic and some other dependecies. In Short: A Nightmare. We also use Classic Pipelines and Releases. 
+
+I know that XAML Builds are deprecated, but i inherited the Environment and the old engineer that build the whole Thing is not in the company anymore. So it is still kind of a ""blackbox"". 
+
+We could just snapshot the Environment before the upgrade and rollback. Never done it, but i think it should work if shit would hit the fan.
+
+Does anyone have experience with Upgrading to a newer Version and XAML Builds? 
+
+What would be the best approach here?"
+T20261007-069,T20261007-320,0,True,firefox,Latest Firefox speed in latest oct 26 update?,"I left trying to use firefox at the early 2026 due to its comparable noticeable slower speed than Chrome. After seeing firefox recent youtube ad video in Oct, I have just tried firefox again and I think it is really faster than ever, as fast as chrome for now as far as I have tested.   
+  
+How do you guys think?"
+T20261007-074,T20261007-277,0,True,homeassistant,Best practice routine to follow after updates?,"As the title says, looking for advice to develop a checklist/routine to check functionality after system/core updates.
+
+&amp;nbsp;
+
+Long story short, after the previous update a few of my zigbee devices lost functionality.  One of which was a PIR sensor used to turn on stairway lights.  Replaced the sensor, re-wrote and troubleshot the automation... nothing worked.  Until applying the update yesterday.  Today everything works.
+
+&amp;nbsp;
+
+So I'm looking for advice to develop a checklist to perform a system check after updates.  Other than going through and checking automations and devices individually, are there any other anomalies that have happened to you?
+
+&amp;nbsp;
+
+Thanks for any input."
+T20261007-078,T20261007-163,1,True,chrome,"Ever since updating chrome to v145, group tab names are missing and colors are wrong","It's only after clicking the group tab that everything returns to as it was before.
+
+Have it on two different machines, both updated to v145"
+T20261007-102,T20261007-373,1,True,Ubuntu,Hilfe 😉,"After latest update to 26.04 after closing my laptop and reopening I'm getting this screen. Update went good, everything is working fine except this.
+
+Any solution to this?"
+T20261007-121,T20261007-336,0,True,Fedora,Will sway-1.12 land fedora 44?,"major kde version was updated recently in fedora 44 but sway 1.12 was released few weeks back but still it's not landed in f44 repo but i could see in f45 rawhide fepo
+
+will f44 get sway latest version?"
+T20261007-132,T20261007-062,1,True,MacOS,MacOS 26.5 updates (both 26.5.1 &amp; 26.5.2) killing my MacBook Air m2,"its basically making whole make user experience worse by killing apps by itself, unusual battery drain, memory usage increased, lagging, slow processing, and many more.
+
+is anyone knew about any solution for these all.   
+basically because my high memory usage (which was not happening before I updated to macOS 26) I use CapCut and for that I use vpn but now when I turn on the vpn and then work on CapCut, VPN app gets closed by itself. Similarly when I use safari and if with it I wanna use CapCut or something else other than finder and I am away from safari for just 10 seconds it also automatically get closed. Each and every app is facing memory issue on my mack I can't even use premiere pro due to this issue.
+
+Kindly Help me solve these all"
+T20261007-177,T20261007-326,1,True,firefox,"After manually updating to latest patch, Firefox is *still* not supported by Twitch and I can't login.",
+T20261007-179,T20261007-049,1,True,MacOS,Folders totally rearranged after macOS Tahoe 26.3.1 update – anyone else?,"Updated to macOS Tahoe 26.3.1 today and it's an absolute mess. A ton of important documents and files are completely gone. They don't exist anywhere on my machine anymore. Projects I was actively working on, just deleted or vanished after the update.
+
+On top of that, my entire folder structure is rearranged. Desktop and Documents now point to some old iCloud path I never set up. Stuff I haven't seen in years is showing up instead of my actual work. I never had Desktop &amp; Documents syncing turned on in iCloud — macOS just decided to swap everything on its own.
+
+Some files show up in Finder → Recents but a lot of important ones are just straight up gone. Not in iCloud, not in another user folder, not in Relocated Items. Just gone.
+
+This is a nightmare. I had critical project files on there. Has anyone else experienced this after updating to 26.3.1? Any way to recover what's been lost?
+
+https://preview.redd.it/eeuvgqcl30qg1.jpg?width=1600&amp;format=pjpg&amp;auto=webp&amp;s=dcb27918b0d42f8519cb66cc47b21302607f7e54"
+T20261007-181,T20261007-421,0,True,Ubiquiti,Data scrubbing added to unas,"Latest update has added data scrubbing and a schedule. 
+
+Great news. I was really hoping this would be added but wasn’t sure."
+T20261007-193,T20261007-024,1,True,sysadmin,New Start Menu - Can someone test something out?,"I'm trying to figure out if we have some weird GPO somewhere (which I've looked everywhere and can't find anything) or if the behavior of the new start menu All Apps view is screwy.
+
+* In the start menu, set your all app view to ""View: List""
+* CMD as admin and run gpupdate /force
+* Go to the start menu. Does it revert to ""View: Category""?
+
+Now, if you run gpupdate /force as user, it doesn't revert back.
+
+Am I the only one seeing this?
+
+EDIT: I should've mentioned, this is after the latest patch Tuesday update KB5094126
+
+EDIT2: gpupdate /force causes it to revert. gpupdate does not"
+T20261007-196,T20261007-407,1,True,applehelp,M1 iPad Pro 12.9” display suddenly turns gray/washed out but iPad still works (iPadOS 26.5.2),"Hi everyone, I’m looking for some advice because this issue is really confusing me.  
+I have an **M1 iPad Pro 12.9-inch (mini-LED display)**. Before updating to **iPadOS 26.5.2**, I never had any display issues at all.  
+After the update, I’ve had this happen twice:  
+The screen suddenly becomes covered by a **gray/washed-out veil**  
+It is **not a uniform gray**. I can still see my wallpaper/image underneath, and the darker areas match the original image  
+The iPad is still fully functioning…  
+Touch works  
+Notifications still come through  
+Vibrations work  
+Sounds work  
+Apps continue running  
+The first time it happened while using the iPad heavily and it was warm.  
+The second time it happened while the iPad was just sitting on the table charging (slightly warm, not overheating).  
+Both times the display recovered completely by itself after leaving it alone. I did not restart it.  
+I checked Analytics Data and I do not see any **panic-full** logs.  
+Any advice would be appreciated."
+T20261007-197,T20261007-204,1,True,Wordpress,Disable the resize handle metabox?,"Hi,
+
+I’d like to restore the scrolling behavior and remove the resize handle for the meta box panel in the backend.
+
+Since the latest update, there is a resize handle that allows me to drag and resize the panel, but I would like to remove this feature and restore the default scrolling behavior.
+
+https://preview.redd.it/y43vaoldd73h1.png?width=1510&amp;format=png&amp;auto=webp&amp;s=436a404f31cd777ef65d93161a7c79d9afce3edf
+
+Is it possible to achieve this through CSS, JavaScript, or some other means? I would appreciate any guidance or suggestions on how to accomplish this.
+
+I followed the instructions on this [topic](https://wordpress.org/support/topic/remove-the-resize-handle/#post-18188662) and it worked well for 6.9.4, but it doesn’t work on 7.0.
+
+Thank you in advance for your help!"
+T20261007-208,T20261007-134,0,False,Ubiquiti,[Anleitung] UniFi Protect Kamera in Synology Surveillance Station einbinden - rtsp,"\- ENG - 
+
+# UniFi Camera Integration with Synology Surveillance Station
+
+&gt;
+
+# Background
+
+Since a recent Protect update, UniFi only displays encrypted RTSPS streams (port 7441) in the UI. However, the unencrypted RTSP stream on port 7447 is still active and can be added manually.
+
+# Step 1 – Copy the RTSP Link from UniFi Protect
+
+In the camera settings, find the stream link. It will look something like this: `rtsps://192.168.1.5:7441/CbnTcdfgdfgfdgsdfgHw?enableSrtp`
+
+# Step 2 – Add the Camera in Surveillance Station
+
+1. Open the **IP Camera** app
+2. Click **Add** → stop the automatic search
+3. Select **Add Manually** with the following settings:
+
+|Field|Value|
+|:-|:-|
+|Name|Your preferred name|
+|Brand|User-defined|
+|Type|RTSP|
+|Path|[`192.168.1.5:7447/CbnTcdfgdfgfdgsdfgHw`](http://192.168.1.5:7447/CbnTcdfgdfgfdgsdfgHw)|
+
+&gt;
+
+1. Click through **Next** — skip authentication (the token in the path handles it).
+
+# Step 3 – Recommended Settings
+
+**Event Detection (Motion):**
+
+|Setting|Recommendation|Note|
+|:-|:-|:-|
+|Detection Algorithm Source|By Surveillance Station|Offloads processing from the camera|
+|Sensitivity|70–80|90 can cause too many false alarms (wind, shadows)|
+|Threshold|10–15|Works well as is|
+|Ignore Short Motion|Enable, 1–2 sec|Prevents false alarms from brief light changes|
+|Detection Zone|Restrict manually|Exclude street/trees from the zone|
+
+**RTSP/RTP Settings:**
+
+|Setting|Value|Note|
+|:-|:-|:-|
+|Transport Protocol|Auto (TCP first)|More stable than UDP, especially over Wi-Fi|
+|Keep-Alive Method|OPTIONS (default)|Works reliably with UniFi|
+|Streaming Source|RTSP|Correct|
+|Stream Time Correction|By Streaming|Prevents audio/video desync|
+
+# Additional Tips
+
+**Assign a static IP** to your UniFi Console via DHCP reservation — if the IP changes, the stream will break.
+
+**Multiple streams:** UniFi offers High/Medium/Low quality streams. For continuous recording, the Medium stream is recommended to save storage.
+
+**Avoid double motion detection:** Enable motion detection either in Surveillance Station *or* in UniFi Protect — not both simultaneously.
+
+
+
+# - DE - 
+
+# UniFi Kamera in Synology Surveillance Station einbinden
+
+&gt;
+
+# Hintergrund
+
+Seit einem neueren Protect-Update zeigt UniFi im UI nur noch verschlüsselte RTSPS-Streams (Port 7441). Der unverschlüsselte RTSP-Stream auf Port 7447 ist aber weiterhin aktiv und lässt sich manuell einbinden.
+
+# Schritt 1 – RTSP-Link aus UniFi Protect kopieren
+
+In den Kameraeinstellungen findet sich der Link in etwa so: `rtsps://192.168.1.5:7441/CbnTcdfgdfgfdgsdfgHw?enableSrtp`
+
+# Schritt 2 – Kamera in Surveillance Station hinzufügen
+
+1. **IP-Kamera App** öffnen
+2. **Hinzufügen** → automatische Suche stoppen
+3. **Manuell hinzufügen** mit folgenden Einstellungen:
+
+|Feld|Wert|
+|:-|:-|
+|Name|Wunschname|
+|Marke|Benutzerdefiniert|
+|Typ|RTSP|
+|Pfad|[`192.168.1.5:7447/CbnTcdfgdfgfdgsdfgHw`](http://192.168.1.5:7447/CbnTcdfgdfgfdgsdfgHw)|
+
+&gt;
+
+1. Mit **Weiter** durchklicken — Authentifizierung ignorieren (der Token im Pfad übernimmt das)."
+T20261007-213,T20261007-128,0,True,firefox,"update just messed up my sidebar, wasting tons of space with giant margin with 3 useless buttons and useless label","A firefox update just messed up my sidebar, making it waste tons of space  
+with a giant margin with 3 buttons I would never use  
+plus a useless label at the top telling me ""Tree Style Tab""
+
+like, yes firefox, I already knew I was looking at my Tree Style Tabs,  
+cuz I've been using them for years  
+only now your stupid label I didn't ask for is taking up the space for 3 or 4 tabs I used to be able to actually *see* there before
+
+Is this even fixable?  
+Why do updates only ever make the UI subtly worse  
+with bizarrely thoughtless little bits of bullshit like this???  
+Why is the design team is sitting around going  
+""durrr where can we find more places to shove in a few more little rounded corners cuz they look pretty""  
+rather than ever just... thinking out what would actually make *LOGICAL SENSE*???
+
+Like they messed up the share tabs function a while ago,  
+so it now fails to distinguish when you're sending *multiple* tabs  
+(and I think requires more clicks?),
+
+and they messed up the bookmarks editing drop-down *ages* back  
+(  
+taking out the fields for ""URL"", ""tag"", and ""keyword"",  
+leaving only ""name"",  
+and then  making it practically impossible to get them back  
+)
+
+and the way the drop-down multi-bar *STILL* doesn't expand sideways to fill any more width than it has in the top bar  
+just because it's squished sideways by all the other icons there...  
+which do not exist when it does the drop-down!!
+
+---  
+... Oh yeah, and the sidebar label says the name of the addon it's for  
+(eg ""Tree Style Tabs"", ""Tridactyl sidebar"")  
+and has an ""X"" icon beside it,  
+which you would contextually think would apply to, like, closing the sidebar for *that specific addon*  
+(whatever that would mean),  
+but nope, it just closes the entire sidebar period.
+
+Cuz again, the firefox UI design team apparently knows nothing beyond ""durrr pretty rounded corners!""  
+and can't even do the most basic logical analysis required to notice the most blatantly obvious things about what their designs actually communicate to the user..."
+T20261007-218,T20261007-168,1,False,homeassistant,Mac mini intel,"Hi guys.
+
+Installed ha on virtual box on my Mac mini 2018 has been working, unfortunately there was a software update when asked I did save the settings before restarting, after restart it kind find vdi. Which was version 18.2, downloaded the new version, 18.3 but I can’t seem to replace the image? Any ideas what I’m doing wrong ?"
+T20261007-234,T20261007-403,0,True,linuxquestions,Kernel update to latest version of 16.04.4 LTS,"I need to update Linux 16.04.4 LTS to the latest kernel version.   
+I know it’s no longer supported but in this case that’s beyond the point.   
+Pretty much just need to update and call it a day.   
+Appreciate if anyone can help me figure it out"
+T20261007-245,T20261007-048,0,True,chrome,New Chrome PiP by Google,"https://preview.redd.it/mknzkj086ozf1.png?width=653&amp;format=png&amp;auto=webp&amp;s=8bf92ed82d4e9d4da30c91b8fc0a164ea37ee427
+
+https://preview.redd.it/24fomo7s6ozf1.png?width=328&amp;format=png&amp;auto=webp&amp;s=2f40378aef3fe381965da4462db416c02df9c723
+
+I don’t know if you’ve seen it, but the PiP made by Google was recently updated — the player is so much better now, and there’s even an auto PiP feature. What a joy."
+T20261007-256,T20261007-145,1,True,applehelp,iPhone 17 Flashlight Won’t Turn On iOS 26.3,"Hello all,
+
+As the title states I’m an owner of a iPhone 17 and simply put my flashlight won’t turn on. 
+
+I verified I have  the latest iOS update and I have also shutdown and powered down (restarted) my phone. I have tried the volume up, volume down and side button force restart method as well.  
+
+My flashlight simply won’t turn on via the control panel (sliding down from the upper right corner). I’ve tried removing and adding back to the control panel. 
+
+Every so often the flashlight will kick in for a second or two and then shutoff. However, it is extremely rare that it does turn on. 
+
+Almost always nothing occurs when clicking the flashlight feature, it will simply not turn on. 
+
+Any advice?"
+T20261007-290,T20261007-092,1,True,Ubiquiti,Doorbell constantly losea WiFi connection,"Hi, 
+
+After some Updates to my core switches 3 days ago, my g4 doorbell constantly loses WiFi connection about 20 times in a row. This seems to happen every evening. I already disabled the 5g on the ac the doorbell is connected to. Maybe someone can Guide me to investigate the Problem. I ve a dream machine pro.
+
+Thanks"
+T20261007-291,T20261007-323,0,True,applehelp,Is it really mandatory to update to 26.4?,"Hey, I've been hearing all about how previous ios versions are risky to use now these past days and how everyone should update to the newest version ASAP or else your data might get stolen. Is it actually that serious? I haven't seen any actual explanation anywhere. 
+
+I use my ipad, quite a lot, and I still have it on ipadOS 18.7. And it's great to me! Everything I have seen about the 26 version is honestly horrendous. The glass look, the slow speed, worse battery (??), and most of all - how split-view works in it, it makes it so unintuitive. Disgusting update in every single way so I do not want it. And for me to update to it I'd also need to free up 18 gigabytes of space, which is quite a lot. 
+
+So, can anyone explain what the danger actually is? Is it only dangerous if you visit a specific site, if someone targets you specifically, is it going to happen even if you just have your ipad/iphone powered on? I don't know how actually mandatory updating is or if everyone's just overreacting and it might happen to like.. a few people under specific circumstances. Is there any other way to secure yourself, or a way to check if you'd been compromised? 
+
+Obviously if it's truly needed, I'm gonna update it but it's going to seriously worsen my user experience. Horrendous changes in every way."
+T20261007-333,T20261007-394,0,True,firefox,opinion on my extension ?,"Heyy everyone
+
+I’d love to get some feedback on my extension! I just released a new update that includes a redesigned interface and a bunch of new features.
+
+
+
+I’m currently looking for ideas or suggestions if they’re good, I’ll definitely integrate them into the next version.
+
+I’ve already added quite a lot, but I’m always open to improvements
+
+**Extension :** [**https://addons.mozilla.org/en-US/firefox/addon/privacyx/**](https://addons.mozilla.org/en-US/firefox/addon/privacyx/)
+
+**OpenSrc  :** [**https://github.com/mixaoc/PrivacyX**](https://github.com/mixaoc/PrivacyX)
+
+https://preview.redd.it/0r5wismcetxf1.png?width=807&amp;format=png&amp;auto=webp&amp;s=08addb6dee311c2e3c7646060eab313000b739cd
+
+https://preview.redd.it/l6h1msmcetxf1.png?width=829&amp;format=png&amp;auto=webp&amp;s=7cad28f507d266a0959c8d024baa5c7a320b2bfd
+
+https://preview.redd.it/t1ytusmcetxf1.png?width=730&amp;format=png&amp;auto=webp&amp;s=d0d9028411f0a7647129064f011a66c27b51bb57
+
+https://preview.redd.it/y8pwtsmcetxf1.png?width=754&amp;format=png&amp;auto=webp&amp;s=31aabc6f59331a754222ca7d474cfc62b2f765d8
+
+https://preview.redd.it/czn95tmcetxf1.png?width=717&amp;format=png&amp;auto=webp&amp;s=67c5873c35628b8c4fc1f807e55a245c56fb2106
+
+https://preview.redd.it/cmdihsmcetxf1.png?width=829&amp;format=png&amp;auto=webp&amp;s=3052c38593bbe47608bc59f199380348fbdd1323
+
+https://preview.redd.it/00ygmsmcetxf1.png?width=840&amp;format=png&amp;auto=webp&amp;s=aa15b67d5eb38d90aea1b67a6291e846f3e4fb95
+
+https://preview.redd.it/qrqf9apcetxf1.png?width=1060&amp;format=png&amp;auto=webp&amp;s=a984229af02374a82988a3c916cf4778813ec4e3
+
+https://preview.redd.it/2e4sysmcetxf1.png?width=877&amp;format=png&amp;auto=webp&amp;s=9b01cf3c5a4fac6f27e79a2012a5640fe1029a28
+
+https://preview.redd.it/v44pusmcetxf1.png?width=957&amp;format=png&amp;auto=webp&amp;s=dda7f6cecdcc9c5c25c01d22e2716a16ea690376
+
+https://preview.redd.it/cq5pfsmcetxf1.png?width=898&amp;format=png&amp;auto=webp&amp;s=0ff0b50fba24908bc0acc7ccd891e80518fa4fe2"
+T20261007-335,T20261007-400,1,True,linuxquestions,Can't move icons between monitors - CachyOS/KDE Plasma,"Hi
+
+I'm at a loss and figured asking here couldn't hurt :-)
+
+Since Plasma 6.7 landed on my PC yesterday I've had a couple of weird issues, but the one I can't solve is moving icons on my desktop from one monitor to another.  Something that was definitely working before the update.
+
+I've checked that they are all on the same Virtual Desktop (they are) and have switched between desktop mode and folder mode on each monitor, just in case.
+
+Right now, the only way to move an icon to another monitor is to drop it into a folder that is already on the destination monitor, then I can drag it out and onto the desktop.
+
+I'm on Nvidia (prop. drivers) and Wayland.
+
+Thanks in advance for any pointers"
+T20261007-338,T20261007-488,1,True,Fedora,Easy Effects left channel,"Hi.
+
+Just updated Fedora Kinoite, and noticed, if I don't listen for 5 or 10 mins, and start to play something, the left channel only works. So I have to turn on and off easy effects.
+
+Please help."
+T20261007-347,T20261007-346,1,True,Fedora,Dim option borked after update,"I got this issue in CachyOS after recent update with new KDE I guess and now on Fedora.
+
+CachyOS live iso from January has it working 
+
+Fedora ISO (which is from months ago) also works fine and borks right after new KDE update.
+
+Any way to know if this is gonna be resolved or what I can do?"
+T20261007-349,T20261007-443,0,False,PLC,Eclipse 4diac 3.1 Released,"A new version of Eclipse 4diac has been released with updates to both 4diac IDE and 4diac FORTE.
+
+Notable improvements include:
+
+* Full support for struct member access pins in F\_MOVE and generic variables
+* Correct editor synchronization in split editor or clone editor mode
+* Folder move/rename refactoring with automatic update of type references
+* UI improvements including better HiDPI handling and dark mode support
+* Refactoring of the IEC 61131-3 standard function library in 4diac FORTE
+* Memory and performance optimizations for embedded systems
+* Improvements in OPC UA alarm handling and namespace handling
+
+Full details: [https://eclipse.dev/4diac/new-and-noteworthy/3.1/](https://eclipse.dev/4diac/new-and-noteworthy/3.1/)
+
+As always, feedback and contributions are welcome."
+T20261007-359,T20261007-014,1,True,applehelp,Mom lost photos after iOS update with iCloud backup turned on,"So my mom woke up and her entire photo library was missing going back over a decade. She has iCloud, automatic backups turned on, and it shows it backed up last night. She also had automatic iOS updates turned on. She has all these albums that are just empty. There are some photos in “recently deleted” but they’re the expected ones not the missing ones. 
+
+I looked around on her phone and don’t have an explanation. Is this something that can happen with iOS updates? And can Apple help recover from a previous backup?"
+T20261007-360,T20261007-010,0,False,linux,Fedora and Ubuntu Need a Stable Rolling Release,"Fedora already has a branch called Rawhide, but I see it as somewhat similar to Arch Linux because of its update model. (That said, Arch is not as fragile as it used to be, very good lately)
+
+Releases such as Fedora 43 and Fedora 44 offer a good balance between stability and up-to-date software, but users still have to perform a release upgrade whenever a new version is released.
+
+Ubuntu LTS, on the other hand, freezes various components—such as the desktop version and the kernel version—and does not receive new feature updates.
+
+Fedora 45, Fedora 46, Ubuntu LTS releases can continue to be released as they are, but:
+
+Fedora, and especially Ubuntu, should offer a “rolling” or “semi-rolling” release—similar to openSUSE Slowroll or Debian Testing—that provides a well-tested balance between stability and up-to-date software, without requiring users to upgrade to a new major release every year."
+T20261007-362,T20261007-354,0,False,Wordpress,Am I the only one lost with the new Elementor UI update? 😅,"Am I the only one completely lost with the new Elementor update? 😭
+
+Like… on one hand it’s actually cleaner and feels easier to use once you get it. But on the other hand I’m spending half my day trying to find where they moved every single menu and setting 💀
+
+I swear I knew Elementor by heart before this update lol"
+T20261007-367,T20261007-141,0,False,Wordpress,Imagify deploying a full Claude payload with the latest update,"L   
+o   
+\*\*\*\*ing   
+L
+
+  
+The cause of the leak: they didn't mark claude folder as export ignore in giiiit."
+T20261007-380,T20261007-087,1,True,chrome,"Just a heads up if you use passkeys and you have an older iPhone with an older iOS verssion. Google Chrome Update Version 155.0.8059.40 breaks passkeys on older iOS (Like my iPhone X with iOS 16). Once you update Chrome you will be stuck at a ""Connecting"" screen after scanning the QR Code.","Whelp, I just figured out why after scanning the QR Code with my iPhone X the popup on Chrome stayed stuck at Connecting when it was working fine last night. Google updated Chrome with Version 155.0.8059.40 and did something with the WebAuthn and that locks out people with older iOS versions so all their passkeys are useless now on the browser. The passkeys do not work anymore. I've tried multiple sites and they all just stay stuck at ""Connecting"" after you scan the QR Code when last night before the update the passkeys were working fine.
+
+I was able to confirm this by using the Chrome mobile browser on my iPhone X and I was able to log in perfectly fine with the same passkeys. I also tried the Microsoft Edge browser on the same PC that I have Chrome on and it was also able to accept the passkey."
+T20261007-411,T20261007-085,1,True,vscode,python venv update without restarting,"https://preview.redd.it/36pw2gtawmth1.png?width=1232&amp;format=png&amp;auto=webp&amp;s=2e44d999f617db75f7f6bd0880fa3a97fc80c8ab
+
+Whenever I update  my python venvs, I have to restart vscode to get it updated on the status line:
+
+https://preview.redd.it/jrc8wszlxmth1.png?width=269&amp;format=png&amp;auto=webp&amp;s=2f1cf4296e582f54fe1bcf72234f7312457b8d8b
+
+Does it means it is using a cached version, so my updates are not respected?"
+T20261007-423,T20261007-044,1,True,applehelp,MacOS Tahoe 26.4 2 monitors fullscreen issue,"Is anyone else facing problems with trying to fullscreen on external monitors after update?   
+If I try to fullscreen one monitor the second goes black, and if i try to fullscreen second monitor then first goes black. It was working normally before update."
+T20261007-427,T20261007-287,1,True,firefox,Why would i need firefox to start with my computer?,"After a recent update, firefox decided it should start with windows. It didn't ask, there was no indication or anything, i had to find out after restarting.
+
+Now it was easy for me to disable this and i'm generally very sensitive about bloat on my PC but most regular/casual users probably won't care or notice. My question is, why this change all of a sudden? I think it's annoying."
+T20261007-445,T20261007-474,1,True,firefox,"Does anyone know how to put the ""hamburger"" menu back as it was?","[Firefox 153](https://preview.redd.it/zz5c1idn1leh1.png?width=392&amp;format=png&amp;auto=webp&amp;s=df79889b42411cd6f137da42d5fb458fe8db4598)
+
+[Firefox 152](https://preview.redd.it/uqff1lhq1leh1.png?width=315&amp;format=png&amp;auto=webp&amp;s=509b38ed31a95347b077225480068eba110f6a48)
+
+After the 153 update, the menu moved it self next to the Smart Window toggle, and now I can't move it back. Does anyone know how I can move it back as it was? Thanks in advance."
+T20261007-446,T20261007-409,1,True,firefox,"After upgrading to v157, any time I download a file, my browser becomes unresponsive for up to 5 seconds","This is on Windows 11, haven't had any issues at all before.
+
+I do not use Ghostery or any other add-on than Ublock. 
+
+Anyone else experiencing the same?"
+T20261007-454,T20261007-020,0,True,applehelp,macos 26.7.1 update,"i have a m5 macbook air with 26.6.2
+
+first time mac owner.
+
+don't want to update to golden gate, because of the negative commentary
+
+i can also update to 26.7.1.
+
+26.7.1 is like 17 gigs! The description says its for security issues - if that's the case why is it so big? Does it also include an ai model like golden gate?
+
+thinking of just staying on 26.6.2, rather than updating to 26.7.1 - would my macbook still be secure for banking?"
+T20261007-472,T20261007-130,1,True,MacOS,Can't access details of Connection not Private,"Hi all,
+
+Since the update to Tahoe 26.2 I can't access the details of the message ""this connection is not private"" anymore using Safari. When I click it, there is no drop down how it used to be to overrule the warning.
+
+The same happens to IoS 26.2 using Safari.  
+Any idea how to get this solved?  
+I'm trying to access my local NAS on my subnet (see image). Thank you!
+
+https://preview.redd.it/v4dczumpne7g1.png?width=693&amp;format=png&amp;auto=webp&amp;s=2d74adaa0b06b123568e44628882da11a43771da"
+T20261007-473,T20261007-075,0,True,sysadmin,"Welp, Win 11 is officially too big for even a DVD-DL. What do you use for read only media?","With the latest 26H2 update Windows is officially too large for even a dual layer DVD. So what does anyone else use for read only media? I specify read only because I'm planning around situations such as computer viruses. I don't want to risk writing to a USB or other writeable media and spreading an infection.
+
+I don't find SD cards to be a good solution because it appears the write lock switch isn't hardware based but instead sends signals to firmwares to treat the device as read only, but depending on what you plug into the switch could theoretically be ignored.
+
+Do I really need Blurays now to install windows? Or does anyone else have a good solution.
+
+UPDATE: Thank you to the few people who had actual helpful replies. I'm adding some additional details about my environment and setup.
+
+\- We have In tune and Autopilot but I don't consider the host reinstalling itself to be good enough. This also makes my installs fairly quick and easy with a few next,next,next clicks
+
+\- This is a smallish place with a few hundred people. I have to do this maybe a few times a year. I'm fully aware of PXE and creating a separate network, but its barely worth the time, money, and effort to setup for these ocassions.
+
+\- More on my concerns. There's simply potential to miss UEFI pop ups when the BIOS boots too fast, FN lock is on, or other reasons. I don't know at what point the OS has to load for me to be concerned about write back. I just don't want to worry about the risk. I know I can shift reboot the machine but you still need to some what partially load the OS and have your drive in for it to see and boot to it. Again operating from a point of view where I don't trust the OS, I'd prefer not to do that to a USB drive.
+
+As for actual solutions to my problem:
+
+\- Some BIOS have a erase option I didn't know about.
+
+\- Wipe with smaller OS on CD and then do a windows install from a USB. An extra step and more time consuming, but viable.
+
+\- Some write protected USB drives do exist but I don't know much about them at this point.
+
+\- While ludicrous to many an external Blu ray player really isnt that bad for my scenario. I don't have a large setup here and its rare I need to do this type of thing, handful of times a year. Your PXE environments and physically or logically separated networks are impressive but I would be starting from 0 to set that up and it's in no way less time consuming, more efficient, or less costly to setup than a blu ray drive or other optical media.
+
+\- Break bootloader and prevent windows from booting (My Favorite). This will enable me to safely use a USB while eliminating my risk concerns. Costs $0 and is next to no extra steps.
+
+\- Write protected USB drives do exist it seems with a physical switch. This might be my other favorite."
+T20261007-479,T20261007-363,1,True,immich,IOS app update can't find in app store,"Hi everyone,
+
+After the recent update to 2.2.1, I’m seeing that my iOS app shows an available app update in the Immich app. However, when I click the update link, it takes me to the iOS app store, but I can’t find Immich. It says it’s not available in my country or region.
+
+If I explicitly check for the Immich update, I have the latest version of the app installed.  Interestingly, the update link is still present in the app. I’m wondering if there’s a region misconfiguration in my server settings that’s generating the incorrect link for the iOS app store."
+T20261007-480,T20261007-127,0,True,firefox,"New UI looks great, but any tips for performance?","Just updated Firefox to the newest version and I’m pleasantly surprised by the UI changes.
+
+I’m a heavy Edge user at work and mostly use Firefox for private stuff, so I’m pretty used to the Edge look. Personally, I really like the new, cleaner and more modern design. For me, the new design also feels more familiar, especially coming from Edge, which makes the transition easier. I hope it helps grow Firefox’s user base, especially among people coming from Edge or other Chromium browsers.
+
+However, performance is still one of the things holding me back from using Firefox more heavily.
+
+For those of you who use Firefox as your main browser, are there any extensions or settings you’d recommend for improving performance and memory usage?"
+T20261007-492,T20261007-089,0,True,MicrosoftEdge,Edge is losing its identity and turning into Chrome Clone,"Edge used to have its own identity. It had a cleaner UI, better performance on Windows, Mica transparency, and real customization options. The “Phoenix UI” (or whatever name they used) was the best design Edge ever had, and Microsoft just threw it away. Now Edge keeps turning into Chrome, and not in a good way. They removed the Mica effect that made Edge feel native to Windows, and customization is disappearing update after update. You can’t hide the Global Media Controls icon anymore, you can’t hide the extensions button, and they keep forcing UI decisions that Chrome users have been complaining about for years.
+
+The frustrating part is that Edge is still the best Chromium browser on Windows when it comes to performance. It’s fast, smooth, and optimized. But visually, it’s becoming the ugliest and the least unique browser.
+
+Microsoft had something special. Now it feels like they’re trying to clone Chrome pixel by pixel, **Just let Edge be Edge.**"

@@ -1,0 +1,61 @@
+{
+  "submitted_sha256": "8b488704c502ef4bc11257f29d548aef265be258b17025a72da4b9a3433d8951",
+  "pilot_n": 50,
+  "troubleshooting_check": {
+    "yes": 47,
+    "no": 1,
+    "unclear": 2
+  },
+  "review_flags": [
+    "D20261007-031",
+    "D20261007-039",
+    "D20261007-050"
+  ],
+  "field_counts_among_yes": {
+    "software_product": {
+      "present": 42,
+      "not_observed": 5
+    },
+    "release_or_update": {
+      "unclear": 24,
+      "present": 21,
+      "not_observed": 2
+    },
+    "environment": {
+      "not_observed": 11,
+      "present": 36
+    },
+    "specific_symptom": {
+      "unclear": 2,
+      "present": 45
+    },
+    "trigger_or_steps": {
+      "unclear": 7,
+      "present": 40
+    },
+    "error_evidence": {
+      "unclear": 5,
+      "not_observed": 36,
+      "present": 6
+    },
+    "attempted_fix": {
+      "not_observed": 22,
+      "present": 25
+    },
+    "result_after_attempt": {
+      "not_applicable": 22,
+      "present": 25
+    },
+    "help_request": {
+      "not_observed": 14,
+      "present": 33
+    }
+  },
+  "attempt_result_pairs_among_yes": {
+    "not_observed|not_applicable": 22,
+    "present|present": 25
+  },
+  "purpose": "Single-reviewer feasibility pilot; quotas are not population-representative",
+  "independent_annotator_agreement": null,
+  "source_labels_changed": false
+}

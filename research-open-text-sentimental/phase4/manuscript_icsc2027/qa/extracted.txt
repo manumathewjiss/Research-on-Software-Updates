@@ -1,0 +1,854 @@
+Beyond Troubleshooting Detection: Diagnostic
+Evidence and First-Pass Engineering Decisions in
+Reddit Software Update Discussions
+Manu Mathew Jiss and Solomon Berhe
+School of Engineering and Computer Science
+University of the Paciﬁc, Stockton, California, USA
+m_jiss@u.paciﬁc.edu, sberhe@paciﬁc.edu
+Abstract—Informal discussions after software updates mix
+fault reports with advice, reactions, and general conversation.
+A model that ﬁnds a technical post does not establish what an
+engineer can do with it. We examine this gap by connecting
+discussion-purpose classiﬁcation, observable diagnostic informa-
+tion, and ﬁrst-pass engineering decisions in Reddit software
+update discussions. The study combines a collection of 3,362 posts
+with classiﬁer evaluation, diagnostic coding, and an exploratory
+case study involving two independent software-engineering re-
+viewers. Within human-established software-update scope, a title-
+and-body TF-IDF logistic-regression classiﬁer achieved macro-F1
+0.792 on a fresh test, outperforming majority and ﬁxed-keyword
+baselines. This evaluation followed an earlier reserved test and
+used the same selected conﬁguration ﬁtted on revised develop-
+ment data. The smaller other-update class remained harder to
+classify. Diagnostic coding showed that many troubleshooting
+posts lacked visible reproduction context or error evidence. In
+30 purposefully selected cases, reviewers sometimes cited similar
+facts but chose different actions, including investigation, clari-
+ﬁcation, and monitoring. Their explanations exposed differing
+judgments about whether the available evidence justiﬁed acting
+immediately or required further information. These observations
+are exploratory and do not establish causal effects, population-
+wide decision patterns, or downstream engineering beneﬁts.
+Together, the ﬁndings distinguish identifying a post’s purpose
+from interpreting its implications: purpose detection can organize
+discussions, while ﬁrst-pass engineering decisions also reﬂect the
+available diagnostic evidence and reviewers’ judgments about its
+sufﬁciency.
+Index Terms—software updates, Reddit, troubleshooting, diag-
+nostic evidence, engineering triage
+I. INTRODUCTION
+Software updates generate feedback about failures, changed
+behavior, and unmet expectations. Studies of problematic
+application updates demonstrate the value of examining user
+feedback after release [1]. However, collecting feedback is
+only part of the problem. In interviews across product-
+development companies, Tkalich et al. [2] found continuing
+difﬁculties with interpreting feedback and using it in deci-
+sions. Reddit and software forums provide additional places
+where users describe problems outside formal issue-reporting
+workﬂows [3], [4]. A post may report a crash, ask whether an
+upgrade caused a failure, criticize a design change, or discuss
+a forthcoming release. These messages share vocabulary while
+serving different purposes.
+A useful distinction is between recognizing troubleshooting
+and interpreting what to do next. Consider two illustrative
+reports: one says an application stopped working after an
+update; another also describes the affected version, a working
+comparison, and a failed remedy. Both can express trou-
+bleshooting, while offering different grounds for investigation
+or clariﬁcation. Even when two readers notice the same facts,
+they may differ about whether to open a lead immediately,
+ask a question, or monitor similar reports. Here, ﬁrst-pass
+engineering decisions means this initial response to a saved
+post, before reproducing the failure or establishing its cause.
+Prior work already classiﬁes software feedback [3], ana-
+lyzes diagnostic information in reports [5], and uses external
+evidence to generate issue speciﬁcations [6]. Our contribution
+concerns the relationship between these stages in informal
+update discussion: what a purpose classiﬁer identiﬁes, what
+evidence remains visible, and how reviewers explain an ini-
+tial response to that evidence. This is an empirical ques-
+tion about interpreting natural-language reports. A positive
+troubleshooting label alone does not specify the sufﬁciency
+of the information for a particular next action. A recent
+mapping study likewise identiﬁes practitioner involvement and
+evaluation beyond prediction accuracy as recurring gaps in
+issue classiﬁcation [7].
+We investigate three research questions. RQ1: Within posts
+already judged to concern software and an update, how well
+can title and body text distinguish troubleshooting from other
+update discussion? RQ2: Which diagnostic facts are visible
+in a reviewed sample of troubleshooting posts? RQ3: How
+do two software-engineering reviewers use those facts when
+selecting ﬁrst-pass engineering decisions for intact posts?
+The study combines a reviewed candidate collection, a
+ﬁxed text-classiﬁcation evaluation, diagnostic coding, and
+an exploratory multiple-case study. Its contributions are: (1)
+an explicit conditional purpose-classiﬁcation task with docu-
+mented review and evaluation boundaries; (2) an evaluation on
+previously unseen IDs, accompanied by a descriptive account
+of observable diagnostic ﬁelds; and (3) a case-based analysis
+of where reviewers’ ﬁrst actions converge or diverge despite
+citing similar evidence. The semantic contribution is this ac-
+count of how textual evidence supports different interpretations
+and response choices. The classiﬁer supplies the ﬁrst stage of
+
+the investigation; the case study does not evaluate a classiﬁer-
+assisted workﬂow or establish a causal effect of diagnostic
+ﬁelds.
+II. RELATED WORK
+A. Software feedback in Reddit and community forums
+Iqbal et al. [3] examined Reddit as a requirements source
+and classiﬁed posts as bug reports, feature-related feedback,
+or irrelevant material. Tizard et al. [8] studied requirements
+information in software forums. Wang et al. [4] later showed
+that post-level context reveals feedback types and contextual
+information that sentence-level analysis can miss. These stud-
+ies establish both the value of community feedback and the
+need to preserve its context. Our classiﬁer uses the saved title
+and body, and the qualitative study keeps each post intact.
+Its target is troubleshooting purpose conditional on an explicit
+update connection, rather than general requirements relevance.
+Recent Reddit research also extends beyond technical fault
+detection. Zegers et al. [9] investigated software account-
+ability concerns across software-focused communities, includ-
+ing concerns with technical and nontechnical consequences.
+This supports keeping dissatisfaction distinct from a blanket
+nontechnical category. Singh et al. [10] studied how Reddit
+feedback can enrich release notes for update-impact analysis
+and prioritization. That separate project addresses a related
+domain with a different unit and outcome: our study neither
+joins release notes nor evaluates update-impact rankings. We
+instead ask how individual update-linked posts express trou-
+bleshooting and inform an initial response.
+B. Diagnostic information and report quality
+Bettenburg et al. [11] documented a mismatch between
+information developers value and what reporters supply, in-
+cluding reproduction steps and stack traces. Soltani et al.
+[12] combined developer interviews, a survey, and repository
+analysis to examine the signiﬁcance of bug-report elements.
+Their ﬁndings caution against interpreting all ﬁelds as equally
+important. Chaparro et al. [5] studied and detected missing
+information in bug descriptions. More recently, Wang et al.
+[13] analyzed initial and ﬁnal versions of web-application
+bug reports and found that usage information and diagnostic
+suggestions can emerge later in a report’s lifetime.
+These studies provide the basis for treating the saved snap-
+shot as a limited observation. A ﬁeld absent from our title/body
+snapshot might appear later or in a comment. Our diagnostic
+analysis reports ﬁeld visibility, not an overall quality score. It
+also differs from ChatBR [14], which detects missing report
+components and generates candidate additions using ChatGPT.
+We do not generate missing incident facts. Instead, the human
+study asks which observed facts and unresolved questions
+reviewers cite when deciding whether to investigate, request
+clariﬁcation, monitor, or take no update-focused action.
+C. Connecting feedback with engineering work
+Several studies evaluate steps beyond classiﬁcation. Tang
+et al. [15] matched app reviews with historical bug reports
+to guide reproduction and reported newly identiﬁed bugs to
+development teams. Laiq et al. [16] studied industrial adoption
+of invalid-report detection, identifying trust, tool integration,
+and maintenance of accuracy as practical concerns. These
+outcomes are stronger evidence of engineering utility than
+our ofﬂine classiﬁer or exploratory reviewer decisions; we
+therefore do not infer productivity or resolution beneﬁts from
+our scores.
+Two recent studies are especially close to the present
+framing. Wang et al. [6] proposed an agent-governed retrieval
+and generation framework that checks evidence sufﬁciency
+and produces issue speciﬁcations for Firefox and VS Code.
+K C and Hosseini [17] examined how Moodle forum feature
+requests connect to issue-tracker records, combining trace-link
+analysis with stakeholder interviews. Evidence sufﬁciency and
+the movement from conversation to engineering work are thus
+established research concerns. Our speciﬁc contribution is a
+bounded study of ﬁrst-pass judgments on intact update-linked
+posts, with paired explanations that expose both agreement and
+contrasting action choices. It complements work on generated
+speciﬁcations and cross-channel handoffs without claiming a
+new general theory of triage.
+D. Classiﬁcation evidence and study boundaries
+Devine et al. [18] found that feedback classiﬁers can behave
+differently on unseen datasets than on unseen applications
+within a dataset. Laiq and Dobslaw’s mapping study [7]
+further emphasizes generalizability and practitioner involve-
+ment alongside accuracy. We consequently report a protected
+unseen-ID evaluation separately from development compar-
+isons and do not compare our F1 directly with scores from
+other papers using different labels or samples. The small
+human study addresses a separate interpretation question; it
+does not validate the classiﬁer’s effect on reviewers. Across
+these bodies of work, our distinguishing element is the joint
+examination of purpose, observed diagnostic evidence, and
+the reasoning behind ﬁrst-pass engineering decisions in the
+software-update setting.
+III. COLLECTION, REVIEW, AND STUDY POPULATION
+A. Candidate collection and target
+The research collection contains 3,362 unique records:
+542 historical posts and 2,820 additional records from Re-
+leaseTrain’s technical-problem-solving (tps) and general-
+discussion (gds) candidate routes after ID overlap removal.
+The routes supplied candidate pools, not reference labels.
+These keyword-selected records do not constitute a random
+sample of Reddit. Thirty records have inconsistent source
+metadata: the investigators identify them as Reddit records
+with a source-labeling error, while the archived URLs indicate
+another platform. Historical ﬁts retain them; separate URL-
+restricted development checks exclude them. We retain this
+provenance limitation rather than silently rewriting the evalu-
+ated populations.
+Review separated three decisions: whether the text concerns
+software, whether it connects to an update, and its main
+
+Reviewed collection
+3,362 unique records
+542 historical + 2,820 new
+Purpose classification
+Original fit: 2,084 → reserved: 159
+Revised fit: 2,080 → fresh: 344
+Diagnostic coding
+250 sampled → 237 reconfirmed
+Eight observable fields
+Intact-post case study
+6 pilot + 30 main; 2 reviewers
+RQ1: Detect discussion purpose
+Conditional software/update scope
+RQ2: Describe visible evidence
+Snapshot presence, not utility
+RQ3: Explain initial action choices
+Exploratory; no causal intervention
+Fig. 1. Study organization and distinct evidence roles. The fresh test was sampled separately from unseen IDs outside the combined collection. Diagnostic
+and qualitative studies use development posts; they are not additional test sets. Arrows describe research questions, not an evaluated automated triage pipeline.
+discussion purpose. An update connection includes an author
+explicitly stating, suspecting, or asking whether an update,
+patch, release, or upgrade caused or affected a problem; it does
+not establish causality. Troubleshooting includes a concrete
+software malfunction or an attempt to understand or ﬁx it,
+even without an explicit help question. General dissatisfaction
+expresses an unfavorable reaction; other includes discussion
+that is neither troubleshooting nor dissatisfaction. Concrete
+malfunction reports can contain emotional language without
+losing their technical purpose.
+The binary modeling population, denoted S2 in the records,
+requires software-related and update-related decisions of yes.
+Its positive class is troubleshooting. Its negative class com-
+bines general dissatisfaction and other update discussion. We
+call the latter other update, rather than treating every negative
+as dissatisfaction. Scope is provided by review, not predicted
+by the classiﬁer.
+B. Annotation provenance and version control
+Review proceeded in batches using explicit scope and pur-
+pose rules. Provenance includes machine-proposed decisions
+subsequently reviewed by an author and jointly completed
+human review; it is not independent double annotation of
+the entire corpus. Five combined records remained unre-
+solved and were excluded from supervised experiments. A
+later, deliberately stratiﬁed 200-post development check had
+matching categorical answers across reported separate ﬁrst
+passes. Agreement in that selected check does not establish
+correctness of the master labels or validate its full prove-
+nance. Subsequent diagnostic and scope checks also exposed
+disagreements with earlier labels.
+We therefore preserve historical labels, test results, and
+training snapshots. Revised development labels support sepa-
+rately identiﬁed sensitivity analyses. We do not transfer a later
+training-set count to an earlier result or retroactively repair
+test labels to increase performance. Figure 1 distinguishes the
+studies; Table I separates the main classiﬁer populations.
+TABLE I
+POPULATIONS USED FOR PURPOSE CLASSIFICATION
+Population
+Total
+Trouble
+Other
+Original development ﬁt
+2,084
+1,689
+395
+Reserved test
+159
+135
+24
+Revised development ﬁt
+2,080
+1,686
+394
+Fresh test
+344
+277
+67
+C. Reserved and fresh evaluations
+An initial model-selection experiment used 2,084 eligible
+development posts and 159 eligible cases from a 200-post re-
+served review set. After development-label repairs, the selected
+speciﬁcation and threshold were ﬁtted on a revised population
+of 2,080 posts for a separate fresh evaluation. The reserved
+and fresh reference decisions were jointly reviewed; they do
+not supply independent annotator-agreement estimates.
+For the fresh evaluation, an update-related API candidate
+route returned 3,718 unique records. Removing 2,842 IDs
+already in the master left 876; excluding 12 near-identical text
+matches left 864. From sorted IDs, 500 were sampled without
+replacement using seed 20261007, before consulting classiﬁer
+outputs. Joint review retained 344 S2 cases. The original 500
+spanned 66 communities, but only 45 were dated October 5,
+2026 or later. Accordingly, this is an unseen-ID test, not a
+wholly prospective temporal test. Its sampling frame remains
+an API-ﬁltered candidate pool.
+IV. PURPOSE CLASSIFICATION
+A. Models and model selection
+We compared a majority rule, a ﬁxed troubleshooting-
+keyword rule, TF-IDF logistic regression, and a linear support-
+vector machine (SVM), each using title-only or title-plus-body
+input. The majority rule predicts troubleshooting. The keyword
+rule uses predeﬁned malfunction, assistance, and recovery
+cues, including crash, error, inability to start, workaround, and
+rollback. Source route, community, timestamps, review ﬁelds,
+and model-generated labels are not predictors. Comments are
+excluded; an absent body contributes no text.
+
+Preprocessing removes URLs, collapses whitespace, and
+lowercases the saved text. TF-IDF uses word unigrams and bi-
+grams, a minimum document frequency of two, at most 20,000
+features, and sublinear term frequency. The vectorizer is ﬁtted
+on each training fold only. Logistic regression uses balanced
+class weights, the liblinear solver, and at most 2,000 iterations.
+Both learned models were tested with C ∈{0.25, 1, 4} using
+common stratiﬁed ﬁve-fold splits (seed 42). Selection used
+pooled out-of-fold macro-F1, with troubleshooting F1 and
+recall as tie-breakers.
+The selected model was title-plus-body logistic regression
+with C = 4. Its probability threshold, 0.5877, was chosen
+on development predictions by comparing the default cutoff
+with 37 score quantiles from 0.05 to 0.95. This development
+selection is not an unbiased ﬁnal performance estimate. The
+speciﬁcation and cutoff were ﬁxed before reserved testing and
+retained for the revised ﬁt used on the fresh test.
+B. Duplicate controls and sensitivity analyses
+Before evaluation, exact matches to reserved records were
+removed from development, and two further development
+cases were excluded for title/body character-ﬁve-gram Jaccard
+similarity of at least 0.92 to reserved cases. The fresh sample
+applied the same near-duplicate threshold against the existing
+collection. Subsequent grouped validation kept exact and high-
+similarity development records together. The original selection
+used stratiﬁed folds, so grouped validation is a robustness
+check rather than a retrospective claim that selection had used
+groups.
+Additional development-only analyses restricted records
+by
+Reddit
+URL,
+compared
+balanced
+weights
+with
+no
+weights and random oversampling, and examined a frozen
+all-MiniLM-L6-v2 embedding using the Sentence-BERT
+framework [19]. The embedding comparison used the same
+saved outer folds on 2,136 audited Reddit-URL development
+records. Each training split selected its threshold with three
+inner grouped folds over 0.20–0.80 in increments of 0.05.
+The embedding head used balanced logistic regression with
+C = 1; the lexical comparator used C = 4. The encoder was
+not ﬁne-tuned. Neither test set selected the comparator or its
+threshold.
+C. Metrics and uncertainty
+Macro-F1 is the mean of the two class F1 scores, giving the
+smaller class equal weight. We also report class precision, re-
+call, F1, and confusion counts. Saved 95% percentile intervals
+use 1,000 bootstrap resamples of evaluated posts. Paired model
+comparisons resample the same posts for both models. These
+intervals capture sampling variability conditional on the ﬁxed
+labels and predictions; they do not incorporate uncertainty
+about annotation, collection bias, or model selection.
+D. Protected-test results
+Table II reports each test with its own ﬁt history. The
+reserved macro-F1 was 0.863. The revised ﬁt reached 0.792 on
+the fresh sample (95% interval 0.731–0.845), versus 0.446 for
+TABLE II
+PROTECTED-TEST F1 SCORES; SEPARATE FITS AND SAMPLES
+Test / model
+Macro
+Other
+Trouble
+Reserved / selected TF-IDF LR
+.863
+.766
+.959
+Fresh / revised TF-IDF LR
+.792
+.667
+.916
+Fresh / majority
+.446
+.000
+.892
+Fresh / ﬁxed keywords
+.474
+.396
+.552
+the majority rule and 0.474 for keywords. This supports usable
+text signal within reviewed software-update scope. It does not
+establish end-to-end discovery in an unﬁltered Reddit stream.
+On the fresh test, 46 of 67 other-update posts were correctly
+classiﬁed and 21 were false troubleshooting alarms; 252 of
+277 troubleshooting posts were detected and 25 were missed.
+Other-update precision/recall were 0.648/0.687; troubleshoot-
+ing precision/recall were 0.923/0.910. The smaller class re-
+mains the harder target, with only 67 supporting cases. The
+lower fresh score cannot be attributed to a single source of drift
+because both the ﬁtted development population and the test
+population changed. Exploratory inspection of the 46 errors
+suggested mixed-purpose text and limited context, but these
+explanations were not independently validated as an error
+taxonomy.
+E. What the development checks establish
+Grouping similar records yielded macro-F1 0.835 on the
+2,080-post revised population. The URL-restricted 2,050-post
+check scored 0.836, compared with 0.447 for majority and
+0.657 for keywords. Removing records rebuilt the folds, so the
+small cross-snapshot difference is not a paired improvement.
+On those same restricted folds, random oversampling scored
+0.838 versus 0.836 for balanced weights at the ﬁxed cutoff;
+the paired interval for the difference included zero. Threshold
+adjustment on development predictions brought the balancing
+alternatives close together.
+On the later 2,136-post audited population, the fair inner-
+threshold comparison gave macro-F1 0.839 for TF-IDF and
+0.844 for MiniLM. The paired difference was +0.006 (95%
+interval [−0.016, 0.029]). MiniLM was higher in one non-
+dominant source pool and lower in another. Its 256-word-
+piece limit truncated 512 posts (24%). These results do not
+establish a reliable overall beneﬁt from the frozen semantic
+representation. All checks are development evidence and do
+not replace the protected test results.
+V. OBSERVABLE DIAGNOSTIC EVIDENCE
+A. Sample and coding
+A simple random sample of 250 posts was drawn before
+coding from the then-current 1,658 Reddit-URL troubleshoot-
+ing development records. A 50-post feasibility exercise and a
+15-post rule check preceded the ﬁnal diagnostic guide. Under
+that guide, the authors jointly reviewed saved title/body text
+and ﬁrst reconﬁrmed troubleshooting: 237 yes, four no, and
+nine unclear. Field summaries are conditional on the 237
+conﬁrmed cases. The other 13 remain in the historical classiﬁer
+
+0
+25
+50
+75
+100
+Present in saved title/body (%)
+Software product
+Identifiable release
+Environment
+Specific symptom
+Reproduction context
+Error evidence
+Attempted remedy
+Explicit help request
+218
+122
+137
+237
+108
+40
+118
+168
+Fig. 2.
+Visible diagnostic ﬁelds among 237 reconﬁrmed troubleshooting
+snapshots. Error bars are saved 95% Wilson intervals; numbers at right are
+present counts. Not present includes unobserved or unclear evidence, not proof
+of absence from the incident.
+snapshot; their diagnostic exclusion does not retroactively
+change the tested labels.
+Eight ﬁelds were coded as present, not observed, or unclear:
+software product, identiﬁable release, environment, speciﬁc
+symptom, reproduction context, error evidence, attempted rem-
+edy, and explicit help request. An identiﬁable release requires
+a version, build, named release, or unambiguous cycle; “latest
+update” alone is insufﬁcient. Reproduction context requires
+an action or condition associated with the failure, not timing
+alone. Error evidence requires a speciﬁc message, code, log,
+trace, or described diagnostic output. An unavailable linked
+image can make this ﬁeld unclear. A remedy must have
+actually been attempted. No overall usefulness score was
+assigned.
+B. Findings and relation to classiﬁcation
+Figure 2 shows that software product was usually visible
+(218/237), whereas error evidence (40/237, 16.9%) and repro-
+duction context (108/237, 45.6%) were less common. Seven
+error-evidence decisions were unclear; these are not converted
+to conﬁrmed absence. Identiﬁable release was visible in 122
+posts, environment in 137, an attempted remedy in 118,
+and a help request in 168. The 100% symptom rate partly
+reﬂects reconﬁrming troubleshooting and is not an independent
+discovery.
+Twenty conﬁrmed cases had no saved body. Reproduction
+context appeared in two of these versus 106 of 217 with a
+body; an attempted remedy appeared in two versus 116. A
+post lacking saved text should therefore not automatically be
+interpreted as an uninformative original report. Nine conﬁrmed
+cases also occurred in the earlier feasibility pilot by chance;
+excluding them changes the descriptive ﬁeld rates only slightly.
+Joining the 237 cases to grouped out-of-fold development
+predictions found 16 troubleshooting misses: eight among the
+20 title-only cases and eight among the 217 with bodies.
+Reproduction context was present in three of the missed cases.
+These small, overlapping descriptive comparisons suggest text
+availability matters, but they are not preselected causal tests.
+They concern development predictions, not diagnostic annota-
+tions of the fresh test. Joint coding provides no independent
+ﬁeld-level reliability estimate.
+VI. FIRST-PASS ENGINEERING DECISIONS
+A. Design, selection, and reviewer task
+We conducted an exploratory intact-post multiple-case study
+with two external reviewers with software-engineering knowl-
+edge. Thirty main cases were purposefully selected from re-
+viewed development records, excluding reserved and fresh-test
+IDs and duplicate matches. The cases span 18 communities,
+at most three cases per community, and varied symptoms,
+update situations, comparison evidence, remedies, and un-
+certainty. Historical categories comprised 20 troubleshooting,
+four dissatisfaction, and six other posts. These labels guided
+diversity, not expected actions. Six separate pilot cases tested
+the instructions; no confusion was reported and the guide was
+retained. Pilot responses are excluded from main results.
+Each reviewer received the same intact title/body snapshots
+in a different order, with historical labels and selection reasons
+hidden. The guide prohibited live lookup, comments, and
+discussion before both ﬁrst passes were saved. It instructed
+reviewers to focus on the author’s main request when multiple
+changes appeared, judge the entire saved snapshot including
+reported ﬁxes, and avoid equating emotional language with
+lack of technical evidence. The coordinator reports that the
+reviewers followed independent ﬁrst passes without outside
+lookup.
+For each post, reviewers chose one ﬁrst action: (A) open
+an update-focused investigation lead, (B) ask a speciﬁc clar-
+iﬁcation ﬁrst, (C) monitor or group similar reports, (D) take
+no update-focused action, or cannot assess. A does not assert
+that the update caused the problem. Reviewers identiﬁed the
+most inﬂuential fact, explained their choice over the closest
+alternative, stated uncertainty, proposed one question and
+how its answer could affect the next action, and recorded
+conﬁdence. No correct-action key was provided.
+B. Analysis procedure
+The two submitted workbooks were preserved unchanged
+and joined by case ID. All 30 paired responses were ex-
+amined for selected action, cited evidence, uncertainty, and
+reasoning. A cross-case evidence matrix recorded converging
+explanations, differing action thresholds, counterexamples, and
+negative cases. We retained disagreements rather than adjudi-
+cating them into one label. Counts describe these cases only;
+we do not infer population frequencies or claim thematic
+saturation. This is an investigator synthesis supported by
+the response record, not a separately validated multi-coder
+thematic analysis.
+
+Investigate
+Clarify
+Monitor
+No action
+Cannot
+assess
+Reviewer B
+Investigate
+Clarify
+Monitor
+No action
+Cannot
+assess
+Reviewer A
+10
+3
+3
+0
+0
+1
+6
+0
+0
+0
+0
+0
+1
+0
+0
+0
+1
+0
+4
+0
+0
+0
+1
+0
+0
+Fig. 3. Paired ﬁrst actions for 30 purposefully selected cases. Diagonal counts
+total 21 agreements; nine cases differ. This is descriptive concordance, not
+decision accuracy or a population estimate.
+C. Convergence, disagreement, and negative cases
+The reviewers chose the same ﬁrst action in 21 cases and
+different actions in nine (Fig. 3). Both chose investigation
+in ten cases, clariﬁcation in six, monitoring in one, and no
+action in four. Reviewer A selected investigation 16 times
+and Reviewer B 11 times; B selected monitoring ﬁve times
+versus A’s one. These differences motivate examination of
+explanations, not a claim that either reviewer was better
+calibrated.
+Concrete evidence can support a lead without resolv-
+ing causality. Both reviewers chose investigation for a post
+describing two affected applications and an unaffected com-
+parison after an OS upgrade. They also agreed for a report of
+several inaccessible home-automation pages, including back-
+ups. Their reasons treated speciﬁcity and recovery impact as
+grounds to investigate while leaving the cause open.
+A missing distinction can matter more than the amount
+of detail. Both reviewers requested clariﬁcation for a Chrome
+crash case to distinguish normal from incognito behavior. A
+ZFS case supplied commands and before/after space observa-
+tions, yet both ﬁrst wanted to clarify the measured quantity. A
+Kile case described a segmentation fault and a working clean
+virtual machine, but both wanted a version or trace distinction.
+Thus, technical detail alone did not dictate investigation.
+A remedy can support different next actions. For
+Firefox controls and Fedora autorotation reports containing
+workarounds, one reviewer would investigate while the other
+preferred grouping reports or monitoring wider scope. In a
+VS Code terminal case with a workaround, both still chose
+investigation. A single “remedy present” ﬁeld therefore did
+not map consistently to one ﬁrst action in these cases.
+Similar cited facts can support different thresholds for
+action. In a screenshot case, both noticed the same visual
+contrast, but one opened a lead while the other wanted
+to distinguish image content from display behavior. For a
+microphone indicator, one weighed recurrence and privacy
+implications while the other requested identiﬁcation of the
+active process. In a MySQL case, one reviewer asked whether
+the failure persisted beyond the captured startup instant,
+whereas the other treated reported inaccessibility as sufﬁcient
+to investigate. These are interpretations of their explanations;
+the study did not isolate the causes of disagreement.
+Purpose labels and actions are distinct. Both reviewers
+chose investigation for a historically other-labeled post re-
+porting application breakage after a release-channel change.
+Dissatisfaction-labeled posts with concrete UI changes yielded
+investigation/monitoring or cannot-assess/monitoring pairs.
+Conversely, both chose no update-focused action for selected
+strategy, positive-feedback, preﬂight-checklist, and version-
+lookup cases. These contrasts demonstrate conceptual distinc-
+tions in this sample, not the frequency of mislabeled posts in
+the corpus.
+VII. DISCUSSION AND THREATS TO VALIDITY
+A. Meaning for software-update triage
+The three studies answer different questions. Purpose classi-
+ﬁcation locates likely troubleshooting within reviewed update
+scope. Diagnostic coding describes available facts. The case
+study examines how readers interpret those facts relative to an
+initial action. Their combination shows why a purpose label
+or a count of visible ﬁelds should not be treated as an action
+recommendation.
+The practical implication is a possible organizing workﬂow:
+surface a relevant report, preserve its evidence and uncertainty,
+and let an engineer decide whether to investigate, clarify, or
+monitor. A useful representation would retain the relationship
+between an update, a symptom, a comparison, and a reported
+remedy, rather than only counting ﬁeld names. This is an
+implication for future design, not an evaluated system. The
+present study observes neither issue resolution nor engineering
+time saved.
+B. Validity boundaries
+Collection and generalization. Keyword/API selection,
+source–class associations, the 30 source-metadata conﬂicts,
+and restriction to reviewed scope limit representativeness.
+Source-restricted development checks preserve the broad clas-
+siﬁer conclusion but do not revalidate the historical tests on
+a corrected corpus. Neither class proportions nor qualitative
+action frequencies estimate Reddit-wide behavior. Fresh IDs
+are not necessarily later events, and developers of the affected
+products were not recruited as incident owners.
+Labels and construct validity. Annotation includes assisted
+and joint review. A selected independent check cannot estab-
+lish corpus-wide reliability, and diagnostic reconﬁrmation ex-
+posed scope discrepancies. A visible version, error, or remedy
+is not a veriﬁed cause or a usefulness measure. Other update
+combines heterogeneous discussion types. The classiﬁer does
+not predict ﬁrst actions or independently determine update
+scope.
+
+Evaluation and conclusion validity. Development selec-
+tion, subsequent audits, and different ﬁts require explicit
+version boundaries. Bootstrap intervals condition on the saved
+labels and predictions; they do not resolve correlated incidents
+or annotation uncertainty. Duplicate controls reduce obvious
+overlap but may miss paraphrased reports. The fresh minority
+class is small. Grouped and representation comparisons remain
+development-only. The absence of a reliable MiniLM gain
+does not establish equivalence of all lexical and semantic
+models.
+Human-study validity. Two reviewers and 30 deliberately
+varied cases support an exploratory account, not saturation,
+population reliability, correct decisions, or causal inﬂuence
+of evidence. Independence and qualiﬁcations are coordinator-
+reported process facts. Investigator interpretation may favor
+the proposed purpose/evidence/action distinction; contrary and
+negative cases were retained to challenge it. Saved bodies can
+include later ﬁxes, omit comments or inaccessible media, and
+differ from the information available at ﬁrst publication. No
+passage was experimentally removed and no real queue was
+observed.
+C. Research ethics and reproducibility
+Reviewer ﬁles use study IDs, and the manuscript para-
+phrases examples without usernames or direct post links. The
+qualitative task used saved text and did not contact post
+authors. Versioned manifests, source hashes, review guides,
+analysis outputs, and model settings support internal traceabil-
+ity. We make no claim here that raw text or reviewer responses
+are publicly redistributable.
+Author conﬁrmation required: Insert the name of the in-
+stitutional oversight body, its actual determination, and the
+reviewer-consent statement from the private study record be-
+fore submission. Completion of these checks has been reported
+by the study coordinator; exact wording has not yet been
+supplied.
+VIII. CONCLUSION
+Within human-established software-update scope, title/body
+TF-IDF logistic regression separated troubleshooting from
+other discussion more effectively than majority and keyword
+rules, reaching macro-F1 0.792 on a fresh unseen-ID sample.
+Diagnostic coding showed that reproduction context and error
+evidence were often not visible in saved troubleshooting text.
+In 30 intact cases, two external reviewers sometimes selected
+different ﬁrst actions while citing similar facts. Together, these
+ﬁndings distinguish discussion purpose from the interpreta-
+tion of diagnostic evidence: identifying troubleshooting can
+organize feedback, while ﬁrst-pass engineering decisions also
+reﬂect uncertainty and judgments about whether the evidence
+is sufﬁcient. The study supports this bounded distinction, not
+an automated or causally validated triage policy.
+ACKNOWLEDGMENT
+OpenAI Codex assisted with prose drafting and organization
+throughout the manuscript, LaTeX preparation, and plotting
+code for ﬁgures drawn from saved research results. The
+authors are responsible for verifying the claims, citations,
+and ﬁnal manuscript. Annotation provenance is described
+separately in the methods.
+REFERENCES
+[1] S. Hassan, C.-P. Bezemer, and A. E. Hassan, “Studying bad updates
+of top free-to-download apps in the Google Play store,” IEEE
+Transactions on Software Engineering, vol. 46, pp. 773–793, 2020.
+[Online]. Available: https://doi.org/10.1109/TSE.2018.2869395
+[2] A. Tkalich, E. Klotins, T. Sporsem, V. Stray, N. B. Moe, and A. Barbala,
+“User feedback in continuous software engineering: revealing the state-
+of-practice,” Empirical Software Engineering, vol. 30, 2025. [Online].
+Available: https://doi.org/10.1007/s10664-024-10557-2
+[3] T. Iqbal, M. Khan, K. Taveter, and N. Seyff, “Mining Reddit as a new
+source for software requirements,” in 2021 IEEE 29th International
+Requirements
+Engineering
+Conference
+(RE),
+2021,
+pp.
+128–138.
+[Online]. Available: https://doi.org/10.1109/RE51729.2021.00019
+[4] H. Wang, P. Devine, J. Tizard, S. R. Shahamiri, and K. Blincoe,
+“Conversation in forums: How software forum posts discuss potential
+development insights,” Journal of Systems and Software, vol. 215,
+p. 112108, 2024. [Online]. Available: https://doi.org/10.1016/j.jss.2024.
+112108
+[5] O. Chaparro, J. Lu, F. Zampetti, L. Moreno, M. D. Penta, A. Marcus,
+G. Bavota, and V. Ng, “Detecting missing information in bug
+descriptions,” in Proceedings of the 2017 11th Joint Meeting on
+Foundations of Software Engineering, 2017, pp. 396–407. [Online].
+Available: https://doi.org/10.1145/3106237.3106285
+[6] Z.
+Wang,
+J.
+Li,
+X.
+Guo,
+and
+T.
+Tsuchiya,
+“From
+noisy
+feedback
+to
+evidence-aware
+issue
+speciﬁcations:
+an
+agent-
+governed
+retrieval-augmented
+generation
+approach,”
+Automated
+Software
+Engineering,
+vol.
+33,
+2026.
+[Online].
+Available:
+https://doi.org/10.1007/s10515-026-00640-x
+[7] M. Laiq and F. Dobslaw, “Automatic techniques for issue report
+classiﬁcation: A systematic mapping study,” Automated Software
+Engineering, vol. 33, 2026. [Online]. Available: https://doi.org/10.1007/
+s10515-026-00616-x
+[8] J. Tizard, H. Wang, L. Yohannes, and K. Blincoe, “Can a conversation
+paint a picture? mining requirements in software forums,” in 2019 IEEE
+27th International Requirements Engineering Conference (RE), 2019,
+pp. 17–27. [Online]. Available: https://doi.org/10.1109/RE.2019.00014
+[9] A. Zegers, N. Preciado, J. Duchnowski, F. Madeiral, and E. Guzmán,
+“Irresponsibility killed the cat: Software accountability concerns,” in
+2025 IEEE/ACM 18th International Conference on Cooperative and
+Human Aspects of Software Engineering (CHASE), 2025, pp. 131–142.
+[Online]. Available: https://doi.org/10.1109/CHASE66643.2025.00024
+[10] B. Singh, S. Daftary, M. Rudra, S. Veed, S. Berhe, M. Maynard,
+and F. Khomh, “Enriching release notes with Reddit feedback:
+Understanding how user feedback can augment maintaining software
+updates,” in Chronicle of Computing, 2024. [Online]. Available:
+https://doi.org/10.55432/978-1-6692-0007-9_7
+[11] N. Bettenburg, S. Just, A. Schröter, C. Weiss, R. Premraj, and T. Zim-
+mermann, “What makes a good bug report?” in Proceedings of the 16th
+ACM SIGSOFT International Symposium on Foundations of Software
+Engineering, 2008, pp. 308–318.
+[12] M. Soltani, F. Hermans, and T. Bäck, “The signiﬁcance of bug report
+elements,” Empirical Software Engineering, vol. 25, pp. 5255–5294,
+2020.
+[13] D. Wang, M. Galster, and M. Morales-Trujillo, “Information needs in
+bug reports for web applications,” Journal of Systems and Software, vol.
+219, p. 112230, 2025.
+[14] L. Bo, W. Ji, X. Sun, T. Zhang, X. Wu, and Y. Wei, “ChatBR:
+Automated assessment and improvement of bug report quality using
+ChatGPT,” in Proceedings of the 39th IEEE/ACM International
+Conference on Automated Software Engineering, 2024, pp. 1472–1483.
+[Online]. Available: https://doi.org/10.1145/3691620.3695518
+[15] X. Tang, H. Tian, P. Kong, S. Ezzini, K. Liu, X. Xia, J. Klein,
+and T. F. Bissyandé, “App review driven collaborative bug ﬁnding,”
+Empirical Software Engineering, vol. 29, 2024. [Online]. Available:
+https://doi.org/10.1007/s10664-024-10489-x
+
+[16] M. Laiq, N. bin Ali, J. Börstler, and E. Engström, “Industrial adoption
+of machine learning techniques for early identiﬁcation of invalid bug
+reports,” Empirical Software Engineering, vol. 29, 2024. [Online].
+Available: https://doi.org/10.1007/s10664-024-10502-3
+[17] P. K C and M. Bokaei Hosseini, “From community forums to issue track-
+ers: A Moodle case study,” 2026, author manuscript reports acceptance
+at IEEE RE 2026.
+[18] P. Devine, Y. S. Koh, and K. Blincoe, “Evaluating software user
+feedback classiﬁer performance on unseen apps, datasets, and metadata,”
+Empirical Software Engineering, vol. 28, 2023. [Online]. Available:
+https://doi.org/10.1007/s10664-022-10254-y
+[19] N. Reimers and I. Gurevych, “Sentence-BERT: Sentence embeddings
+using siamese bert-networks,” in Proceedings of the 2019 Conference
+on Empirical Methods in Natural Language Processing and the
+9th International Joint Conference on Natural Language Processing
+(EMNLP-IJCNLP), 2019, pp. 3980–3990. [Online]. Available: https:
+//doi.org/10.18653/v1/D19-1410

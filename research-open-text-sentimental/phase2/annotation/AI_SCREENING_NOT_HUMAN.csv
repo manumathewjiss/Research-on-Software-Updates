@@ -1,0 +1,101 @@
+pilot_id,sheet_order,about_software,update_related,discussion_type,confidence,reason,annotation_source
+P2-11F02DF321,1,yes,yes,technical_troubleshooting,high,Reports recurring disconnections after a named upgrade and asks for a solution.,Codex AI analytical review
+P2-E432B15CE6,2,yes,yes,technical_troubleshooting,high,Chrome began flickering after an update and the poster asks for help.,Codex AI analytical review
+P2-96F4031ED8,3,yes,yes,general_dissatisfaction,medium,Criticizes the timing of a Netgear software upgrade rather than seeking a repair.,Codex AI analytical review
+P2-03847675DD,4,yes,unclear,general_dissatisfaction,medium,Invites criticism of Chrome without presenting a problem to diagnose.,Codex AI analytical review
+P2-3CE8A60B51,5,no,no,na,high,The main request is advice on purchasing different Mac hardware.,Codex AI analytical review
+P2-F18F2264FF,6,yes,yes,technical_troubleshooting,high,The lock screen fails after an iOS update despite attempted fixes.,Codex AI analytical review
+P2-F56B0BD72C,7,yes,yes,technical_troubleshooting,high,Angular behavior broke during a version upgrade and the author seeks diagnosis.,Codex AI analytical review
+P2-49724B1547,8,yes,yes,technical_troubleshooting,high,ComfyUI crashes on startup after an automatic update.,Codex AI analytical review
+P2-7635C058EF,9,yes,unclear,technical_troubleshooting,medium,A Chrome feature is missing and the author asks how to restore it; update causation is unclear.,Codex AI analytical review
+P2-3625406D8A,10,yes,no,technical_troubleshooting,high,The author asks how to correct a VS Code color rendering problem.,Codex AI analytical review
+P2-B6FDB0760B,11,yes,unclear,technical_troubleshooting,medium,Edge repeatedly loses scroll position and the author asks how to stop it; no update is named.,Codex AI analytical review
+P2-B1D2F8A9EC,12,unclear,unclear,na,low,The title lacks a subject and the short replies do not establish the original problem.,Codex AI analytical review
+P2-D22E356884,13,yes,yes,technical_troubleshooting,high,ChromeOS Linux terminal fails after an update with error details.,Codex AI analytical review
+P2-29A51BCD2B,14,yes,yes,technical_troubleshooting,high,KOrganizer fails after the Fedora upgrade and attempted fixes are listed.,Codex AI analytical review
+P2-1F860734B2,15,no,no,na,high,The post shows collectible display shelves rather than software.,Codex AI analytical review
+P2-7F4F5E1DE9,16,no,no,na,low,"The visible discussion concerns a personal story, not a software problem.",Codex AI analytical review
+P2-720895588C,17,yes,yes,technical_troubleshooting,high,Edge executable disappears after an update and the post describes the failure.,Codex AI analytical review
+P2-ABCA0F691D,18,yes,yes,other,medium,The author asks for an update policy rather than reporting a failed update.,Codex AI analytical review
+P2-CD26452AFA,19,yes,yes,technical_troubleshooting,high,Jitsi audio and video fail with newer Edge versions and a comparison is provided.,Codex AI analytical review
+P2-F954592B7A,20,yes,no,technical_troubleshooting,medium,App installation fails on a Mac and the author seeks diagnosis; no causal update link is shown.,Codex AI analytical review
+P2-1CBC9AC76C,21,yes,no,technical_troubleshooting,medium,Qwen image editing fails to follow a requested edit and the author asks for settings help.,Codex AI analytical review
+P2-048950C904,22,yes,unclear,general_dissatisfaction,low,The saved post is a vague complaint about editor focus with no clear repair request.,Codex AI analytical review
+P2-8D0211B0DC,23,no,no,na,high,The discussion concerns collectible figures and their price.,Codex AI analytical review
+P2-8B6DF3243B,24,yes,no,other,medium,The visible discussion debates criticism of Python rather than seeking a fix.,Codex AI analytical review
+P2-F0437C538D,25,yes,yes,technical_troubleshooting,medium,"Despite frustration, the author asks how to reverse a changed tab behavior.",Codex AI analytical review
+P2-C177162D55,26,yes,yes,technical_troubleshooting,high,Immich upgrade fails and the author asks others for help.,Codex AI analytical review
+P2-9C5AB9C860,27,yes,unclear,technical_troubleshooting,medium,The recently closed tabs feature fails and the post describes the symptoms.,Codex AI analytical review
+P2-2B345ACE8C,28,yes,yes,technical_troubleshooting,medium,Phone features and heat changed after an OS update; hardware cause remains possible.,Codex AI analytical review
+P2-87FAE07515,29,yes,yes,technical_troubleshooting,medium,WordPress editor fonts changed after an update and the poster asks for a fix.,Codex AI analytical review
+P2-35FC99AE59,30,yes,yes,other,medium,A beta release is being discussed without an active failure in the saved text.,Codex AI analytical review
+P2-1121DA5C8B,31,no,no,na,high,The post concerns consumer purchases of phone hardware.,Codex AI analytical review
+P2-342F5843CC,32,yes,unclear,technical_troubleshooting,medium,Copilot sidebar memory behavior stopped working and the author seeks an explanation.,Codex AI analytical review
+P2-51B348922B,33,yes,yes,other,medium,The poster asks what a newly shown interface symbol means rather than reporting failure.,Codex AI analytical review
+P2-8537ABB7E8,34,yes,yes,technical_troubleshooting,high,The post documents Fedora and Wayland memory leaks around version changes.,Codex AI analytical review
+P2-EFEDF4947F,35,yes,unclear,technical_troubleshooting,high,Chrome video playback fails and the author asks how to fix it; timing does not prove an update link.,Codex AI analytical review
+P2-63F036F094,36,yes,unclear,technical_troubleshooting,medium,Chrome opens and types unexpectedly and replies discuss diagnosis; update link is absent.,Codex AI analytical review
+P2-53BB90AE07,37,no,no,na,high,The replies discuss a collectible toy and its price.,Codex AI analytical review
+P2-328B3F2EB2,38,yes,yes,technical_troubleshooting,high,Edge Canary stops rendering text after a specific version update.,Codex AI analytical review
+P2-C69333C751,39,yes,yes,other,high,The main post announces a Google Maps feature rollout.,Codex AI analytical review
+P2-6F95F1C7E1,40,no,no,na,high,The saved discussion is about finance sentiment rather than software.,Codex AI analytical review
+P2-C9C0241638,41,yes,yes,other,medium,"The author asks for general Fedora upgrade instructions, not repair of a failure.",Codex AI analytical review
+P2-378FB7C757,42,yes,unclear,technical_troubleshooting,medium,The author seeks a setting to remove an unwanted Chrome interface button.,Codex AI analytical review
+P2-49F339CF3C,43,yes,yes,technical_troubleshooting,high,Home Assistant integration lost a feature after an update and the author asks for a workaround.,Codex AI analytical review
+P2-650A3FFFD1,44,yes,yes,other,medium,The main post promotes a tool for update monitoring rather than diagnosing an active incident.,Codex AI analytical review
+P2-347AE5AEB9,45,yes,no,technical_troubleshooting,medium,The author seeks recovery steps for an Apple account access problem.,Codex AI analytical review
+P2-EF940CF358,46,yes,yes,technical_troubleshooting,high,Apple Music playlist content disappeared during an update and the author asks how to recover it.,Codex AI analytical review
+P2-49BE3D0F7F,47,yes,yes,technical_troubleshooting,high,Ansible failures recurred after a macOS upgrade despite prior workarounds.,Codex AI analytical review
+P2-89E92C62FB,48,yes,no,other,high,"The post reports curl bug bounty program news, not a software failure to repair.",Codex AI analytical review
+P2-CA71FA54F4,49,yes,yes,technical_troubleshooting,high,Immich photo deletion synchronization changed after updates and the author asks for help.,Codex AI analytical review
+P2-E888CBD286,50,yes,unclear,general_dissatisfaction,low,The visible title is criticism and the limited replies do not establish the original defect.,Codex AI analytical review
+P2-C8D0AA39F0,51,yes,yes,other,high,The post announces a plugin store upgrade.,Codex AI analytical review
+P2-68DE1A87F4,52,yes,no,other,medium,The saved post showcases a desktop appearance without a repair request.,Codex AI analytical review
+P2-134AE3A3FE,53,yes,no,technical_troubleshooting,high,A row-level security error is shown and the poster asks how to solve it.,Codex AI analytical review
+P2-F151D05099,54,yes,unclear,technical_troubleshooting,medium,Chrome cannot be reinstalled because an update check fails; no prior update link is clear.,Codex AI analytical review
+P2-8B2F024B65,55,yes,unclear,technical_troubleshooting,high,The post describes recurring PipeWire lag and diagnostic attempts.,Codex AI analytical review
+P2-46452A1E0C,56,yes,yes,other,high,The main post lists Firefox release features and fixes.,Codex AI analytical review
+P2-94CEF35920,57,yes,no,other,medium,The author asks whether a planned multi-device sync setup is suitable.,Codex AI analytical review
+P2-FF30CB391C,58,yes,unclear,technical_troubleshooting,high,YouTube memory usage overheats a Chromebook and the author seeks a fix.,Codex AI analytical review
+P2-793DDD1B8A,59,no,yes,na,medium,The main question is phone trade-in value despite complaints after an iOS update.,Codex AI analytical review
+P2-7793FA3CC2,60,yes,yes,technical_troubleshooting,medium,The post identifies a concrete kernel regression and offers avoidance advice.,Codex AI analytical review
+P2-57EA3A20E4,61,yes,no,other,high,The post is news about an unreleased Android interface.,Codex AI analytical review
+P2-50069BB6DB,62,yes,yes,other,medium,"The author asks general setup questions following Immich stable release, not about a failure.",Codex AI analytical review
+P2-4B60C58DE1,63,yes,no,technical_troubleshooting,high,Fedora install boots to an error and an original-poster reply gives the fix.,Codex AI analytical review
+P2-2A6596383E,64,yes,yes,technical_troubleshooting,high,External links fail after moving to Windows 11 and the poster describes diagnostics.,Codex AI analytical review
+P2-E50D18879F,65,yes,unclear,technical_troubleshooting,medium,Immich thumbnails fail and replies discuss possible causes and fixes.,Codex AI analytical review
+P2-9701983452,66,yes,unclear,technical_troubleshooting,low,Title reports Google Search failure but useful details are missing.,Codex AI analytical review
+P2-C73F36B166,67,yes,yes,technical_troubleshooting,high,An iMessage feature is missing after an iOS device upgrade and the author seeks an explanation.,Codex AI analytical review
+P2-01DD19ECB9,68,yes,unclear,technical_troubleshooting,high,Entra sign-in fails with a certificate error and the author has checked likely causes.,Codex AI analytical review
+P2-0085182FDF,69,yes,no,technical_troubleshooting,medium,The author asks how to correct unwanted 3D generation behavior.,Codex AI analytical review
+P2-185F344030,70,yes,unclear,technical_troubleshooting,high,Several iPhone apps crash despite repair attempts; the author does not tie onset to an update.,Codex AI analytical review
+P2-727D97CFFC,71,yes,yes,technical_troubleshooting,high,Guided Access freezes after an iPad update and the author seeks a fix.,Codex AI analytical review
+P2-28DB4CF2D9,72,yes,yes,technical_troubleshooting,high,Home Assistant stopped receiving dimmer events after an update.,Codex AI analytical review
+P2-FC18D436EF,73,yes,yes,technical_troubleshooting,high,A version-specific Edge regression is described with steps to reproduce it.,Codex AI analytical review
+P2-CDD3EF7A75,74,yes,yes,technical_troubleshooting,high,FaceDetailer broke after an update and the post shares a solution.,Codex AI analytical review
+P2-6456172E2D,75,yes,no,technical_troubleshooting,high,Laravel package tests fail and the post asks how to configure the test setup.,Codex AI analytical review
+P2-9D46B222BD,76,yes,yes,other,medium,The main post presents a script made to handle recurring ComfyUI update failures.,Codex AI analytical review
+P2-981AB235BB,77,no,no,na,high,Replies show a collectible Transformers post without software content.,Codex AI analytical review
+P2-BDCCE9F90B,78,no,no,na,high,The post concerns inflation and economics.,Codex AI analytical review
+P2-6FC496FB89,79,yes,unclear,technical_troubleshooting,medium,RustDesk connection failures are diagnosed in replies; no update link is visible.,Codex AI analytical review
+P2-411923F724,80,yes,unclear,technical_troubleshooting,high,Preview repeatedly crashes and the author has tried several remedies.,Codex AI analytical review
+P2-ABA5C12A12,81,yes,yes,technical_troubleshooting,medium,A ComfyUI node display changed and the author asks which package update fixes it.,Codex AI analytical review
+P2-7F371D4371,82,yes,yes,technical_troubleshooting,high,The author asks how to restore a ComfyUI interface option changed by an update.,Codex AI analytical review
+P2-A5318A8ACD,83,yes,yes,technical_troubleshooting,high,OpenClaw cannot select the requested model after its update and the author asks for help.,Codex AI analytical review
+P2-7A30093BCA,84,yes,yes,technical_troubleshooting,medium,"The post gives a measurable Firefox memory regression, though the main text does not explicitly request a fix.",Codex AI analytical review
+P2-FC6F1891AE,85,yes,unclear,technical_troubleshooting,medium,Chrome repeatedly opens an unwanted tab and the author has tried remedies.,Codex AI analytical review
+P2-1EEB3DA3B0,86,yes,yes,technical_troubleshooting,high,Audio stuttering began immediately after an operating-system upgrade.,Codex AI analytical review
+P2-8C79A393D4,87,no,no,na,high,The post concerns a prospective phone battery hardware upgrade.,Codex AI analytical review
+P2-331800B3AF,88,yes,unclear,technical_troubleshooting,medium,The Facebook app still glitches after an update; the update may not have caused it.,Codex AI analytical review
+P2-15269C607E,89,yes,yes,technical_troubleshooting,high,Chrome navigation bar behavior changed after an update and the author asks if others see it.,Codex AI analytical review
+P2-D0AD03899D,90,yes,yes,technical_troubleshooting,medium,The author seeks a way to reverse an unwanted Firefox tab design change.,Codex AI analytical review
+P2-F4F0D67542,91,yes,yes,technical_troubleshooting,medium,The author investigates apparent storage and cache growth after a phone security update.,Codex AI analytical review
+P2-FB241D1A96,92,no,no,na,high,The saved discussion is a joke about toy characters.,Codex AI analytical review
+P2-9FBAA4CCD8,93,yes,yes,other,high,The post reports Android version adoption statistics.,Codex AI analytical review
+P2-9DA7E897EC,94,yes,yes,other,high,The post announces a macOS point release.,Codex AI analytical review
+P2-C5F7FD41B8,95,yes,no,technical_troubleshooting,medium,The author seeks further steps to improve poor WordPress mobile performance.,Codex AI analytical review
+P2-C5F18F9994,96,yes,yes,other,high,The post announces the stable release of a game engine.,Codex AI analytical review
+P2-8390DF6232,97,yes,yes,technical_troubleshooting,medium,ComfyUI update appears incomplete and modules are missing from the installation.,Codex AI analytical review
+P2-35FF439145,98,yes,yes,technical_troubleshooting,low,"Title suggests a Chrome feature vanished after an update, but no body or replies are saved.",Codex AI analytical review
+P2-B01B2B3805,99,yes,yes,other,high,The post reports features in an Android update rollout.,Codex AI analytical review
+P2-C14AB31671,100,yes,yes,other,high,The post reports a proposed Windows app-update platform.,Codex AI analytical review

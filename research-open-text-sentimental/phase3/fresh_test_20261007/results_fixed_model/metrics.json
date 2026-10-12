@@ -1,0 +1,266 @@
+{
+  "evaluated_once": true,
+  "evaluated_at_utc": "2026-10-08T01:18:17.038641+00:00",
+  "model": "title_body TF-IDF logistic regression",
+  "C": 4.0,
+  "threshold": 0.5877137791150834,
+  "development_n": 2080,
+  "test_n": 344,
+  "development_sha256": "287995b6b8b529c145591108d9a77f88f1e515185d38810910066ffba21fa781",
+  "frozen_test_sha256": "7f2f716746480c22f9d0c5bb4c5ca1130684bf36af1851cc5f79f739208c89b0",
+  "model_metrics": {
+    "n": 344,
+    "support": {
+      "other_update_0": 67,
+      "troubleshooting_1": 277
+    },
+    "accuracy": 0.8662790697674418,
+    "balanced_accuracy": 0.7981572282989385,
+    "macro_f1": 0.7915151515151515,
+    "class_0_other_update": {
+      "precision": 0.647887323943662,
+      "recall": 0.6865671641791045,
+      "f1": 0.6666666666666666
+    },
+    "class_1_troubleshooting": {
+      "precision": 0.9230769230769231,
+      "recall": 0.9097472924187726,
+      "f1": 0.9163636363636364
+    },
+    "confusion_matrix_labels_[0,1]": [
+      [
+        46,
+        21
+      ],
+      [
+        25,
+        252
+      ]
+    ],
+    "average_precision_troubleshooting": 0.9716387357850673,
+    "precision_at_10": 1.0,
+    "precision_at_20": 1.0,
+    "bootstrap": {
+      "macro_f1": {
+        "point": 0.7915151515151515,
+        "ci95": [
+          0.7309639658975722,
+          0.844506989010629
+        ]
+      },
+      "other_update_f1": {
+        "point": 0.6666666666666666,
+        "ci95": [
+          0.5619490358126722,
+          0.7545029147004004
+        ]
+      },
+      "troubleshooting_f1": {
+        "point": 0.9163636363636364,
+        "ci95": [
+          0.8913443830570903,
+          0.9397173801589336
+        ]
+      }
+    }
+  },
+  "baselines": {
+    "majority": {
+      "n": 344,
+      "support": {
+        "other_update_0": 67,
+        "troubleshooting_1": 277
+      },
+      "accuracy": 0.8052325581395349,
+      "balanced_accuracy": 0.5,
+      "macro_f1": 0.44605475040257647,
+      "class_0_other_update": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "class_1_troubleshooting": {
+        "precision": 0.8052325581395349,
+        "recall": 1.0,
+        "f1": 0.8921095008051529
+      },
+      "confusion_matrix_labels_[0,1]": [
+        [
+          0,
+          67
+        ],
+        [
+          0,
+          277
+        ]
+      ]
+    },
+    "fixed_keyword": {
+      "n": 344,
+      "support": {
+        "other_update_0": 67,
+        "troubleshooting_1": 277
+      },
+      "accuracy": 0.48546511627906974,
+      "balanced_accuracy": 0.6295867234225981,
+      "macro_f1": 0.47390158551864175,
+      "class_0_other_update": {
+        "precision": 0.25663716814159293,
+        "recall": 0.8656716417910447,
+        "f1": 0.39590443686006827
+      },
+      "class_1_troubleshooting": {
+        "precision": 0.923728813559322,
+        "recall": 0.3935018050541516,
+        "f1": 0.5518987341772152
+      },
+      "confusion_matrix_labels_[0,1]": [
+        [
+          58,
+          9
+        ],
+        [
+          168,
+          109
+        ]
+      ]
+    }
+  },
+  "by_body": {
+    "title_only": {
+      "n": 6,
+      "support": {
+        "other_update_0": 3,
+        "troubleshooting_1": 3
+      },
+      "accuracy": 0.6666666666666666,
+      "balanced_accuracy": 0.6666666666666666,
+      "macro_f1": 0.6666666666666666,
+      "class_0_other_update": {
+        "precision": 0.6666666666666666,
+        "recall": 0.6666666666666666,
+        "f1": 0.6666666666666666
+      },
+      "class_1_troubleshooting": {
+        "precision": 0.6666666666666666,
+        "recall": 0.6666666666666666,
+        "f1": 0.6666666666666666
+      },
+      "confusion_matrix_labels_[0,1]": [
+        [
+          2,
+          1
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "average_precision_troubleshooting": 0.7555555555555555,
+      "precision_at_10": null,
+      "precision_at_20": null
+    },
+    "title_and_body": {
+      "n": 338,
+      "support": {
+        "other_update_0": 64,
+        "troubleshooting_1": 274
+      },
+      "accuracy": 0.8698224852071006,
+      "balanced_accuracy": 0.7999543795620438,
+      "macro_f1": 0.7928921568627451,
+      "class_0_other_update": {
+        "precision": 0.6470588235294118,
+        "recall": 0.6875,
+        "f1": 0.6666666666666666
+      },
+      "class_1_troubleshooting": {
+        "precision": 0.9259259259259259,
+        "recall": 0.9124087591240876,
+        "f1": 0.9191176470588235
+      },
+      "confusion_matrix_labels_[0,1]": [
+        [
+          44,
+          20
+        ],
+        [
+          24,
+          250
+        ]
+      ],
+      "average_precision_troubleshooting": 0.9737288070466275,
+      "precision_at_10": 1.0,
+      "precision_at_20": 1.0
+    }
+  },
+  "by_post_date": {
+    "posted_october_2026": {
+      "n": 54,
+      "support": {
+        "other_update_0": 14,
+        "troubleshooting_1": 40
+      },
+      "accuracy": 0.8518518518518519,
+      "balanced_accuracy": 0.8071428571428572,
+      "macro_f1": 0.8071428571428572,
+      "class_0_other_update": {
+        "precision": 0.7142857142857143,
+        "recall": 0.7142857142857143,
+        "f1": 0.7142857142857143
+      },
+      "class_1_troubleshooting": {
+        "precision": 0.9,
+        "recall": 0.9,
+        "f1": 0.9
+      },
+      "confusion_matrix_labels_[0,1]": [
+        [
+          10,
+          4
+        ],
+        [
+          4,
+          36
+        ]
+      ],
+      "average_precision_troubleshooting": 0.9712844422533472,
+      "precision_at_10": 1.0,
+      "precision_at_20": 1.0
+    },
+    "posted_before_october_2026": {
+      "n": 290,
+      "support": {
+        "other_update_0": 53,
+        "troubleshooting_1": 237
+      },
+      "accuracy": 0.8689655172413793,
+      "balanced_accuracy": 0.7953188440410794,
+      "macro_f1": 0.7868471953578337,
+      "class_0_other_update": {
+        "precision": 0.631578947368421,
+        "recall": 0.6792452830188679,
+        "f1": 0.6545454545454545
+      },
+      "class_1_troubleshooting": {
+        "precision": 0.927038626609442,
+        "recall": 0.9113924050632911,
+        "f1": 0.9191489361702128
+      },
+      "confusion_matrix_labels_[0,1]": [
+        [
+          36,
+          17
+        ],
+        [
+          21,
+          216
+        ]
+      ],
+      "average_precision_troubleshooting": 0.9713171344686976,
+      "precision_at_10": 1.0,
+      "precision_at_20": 1.0
+    }
+  },
+  "label_provenance": "User reports Manu and Professor Berhe wrote all labels together; no independent first-pass agreement can be estimated"
+}

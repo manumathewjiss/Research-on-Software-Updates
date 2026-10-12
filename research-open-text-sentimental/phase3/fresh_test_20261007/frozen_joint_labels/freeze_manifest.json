@@ -1,0 +1,22 @@
+{
+  "status": "frozen_before_model_scoring",
+  "provenance": "User reports Manu and Professor Berhe wrote all labels together; no independent first-pass agreement can be estimated",
+  "source_workbooks": {
+    "manu_test": "4f8f8ec4690fa1623251f1ac604c4f241409f1d35640765e008a6209c6df6332",
+    "berhe_test": "0b3ee34898649a17855d62d14cb113b753202bd5ecdd398a354ba2d8f8d16496",
+    "diagnostic": "4ffd63e8b335443e53d774ca2b8600a6c902c5ec7dc8380f4e7e62577d2fc9ad"
+  },
+  "candidate_n": 500,
+  "s2_n": 344,
+  "s2_class_counts": {
+    "1": 277,
+    "0": 67
+  },
+  "shared_review_n": 100,
+  "shared_label_disagreement_n": 0,
+  "development_id_overlap_n": 0,
+  "development_snapshot_sha256": "287995b6b8b529c145591108d9a77f88f1e515185d38810910066ffba21fa781",
+  "all_reviewed_sha256": "b9ad1898ac7b160a6382e35d6387fdf548a1d06cd0c252981d57ad2c736f804f",
+  "s2_test_sha256": "7f2f716746480c22f9d0c5bb4c5ca1130684bf36af1851cc5f79f739208c89b0",
+  "note": "Earlier mistaken AI_Assisted attachments had the same cell values but were withdrawn. Corrected workbooks are authoritative. Label-generation process is user-reported, not independently verifiable from files."
+}

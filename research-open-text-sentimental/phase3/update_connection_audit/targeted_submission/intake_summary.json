@@ -1,0 +1,78 @@
+{
+  "source_workbook_sha256": "33de8f46b09b13520ae022ddb32f6597360896458f6fb674a6c9237c3e8062eb",
+  "targeted_rows": 254,
+  "unique_targeted_ids": 254,
+  "adjudicated_rows": 22,
+  "all_276_in_development": true,
+  "reserved_overlap": 0,
+  "targeted_update_answers": {
+    "no": 172,
+    "yes": 80,
+    "unclear": 2
+  },
+  "targeted_selection_by_update_answer": {
+    "phrase_flagged/no": 125,
+    "phrase_flagged/unclear": 2,
+    "phrase_flagged/yes": 77,
+    "random_unflagged/no": 47,
+    "random_unflagged/yes": 3
+  },
+  "targeted_software_answers": {
+    "yes": 234,
+    "no": 3,
+    "unclear": 17
+  },
+  "targeted_discussion_answers": {
+    "technical_troubleshooting": 198,
+    "other": 30,
+    "general_dissatisfaction": 6,
+    "na": 20
+  },
+  "changed_targeted_update_no_to_yes": 80,
+  "changed_targeted_update_no_to_unclear": 2,
+  "dev_s2_before": 2082,
+  "dev_s2_after": 2168,
+  "dev_s2_class_before": {
+    "technical_troubleshooting": 1687,
+    "general_dissatisfaction": 68,
+    "other": 327
+  },
+  "dev_s2_class_after": {
+    "technical_troubleshooting": 1762,
+    "general_dissatisfaction": 70,
+    "other": 336
+  },
+  "all_dev_class_counts_before": {
+    "('yes', 'yes', 'technical_troubleshooting')": 1687,
+    "('yes', 'yes', 'general_dissatisfaction')": 68,
+    "('no', 'no', 'na')": 228,
+    "('yes', 'no', 'technical_troubleshooting')": 661,
+    "('yes', 'no', 'other')": 104,
+    "('yes', 'yes', 'other')": 327,
+    "('yes', 'no', 'general_dissatisfaction')": 26,
+    "('yes', 'unclear', 'technical_troubleshooting')": 19,
+    "('unclear', 'no', 'na')": 22,
+    "('unclear', 'unclear', 'na')": 6,
+    "('yes', 'unclear', 'general_dissatisfaction')": 1,
+    "('yes', 'unclear', 'other')": 1,
+    "('no', 'yes', 'na')": 1
+  },
+  "all_dev_class_counts_after": {
+    "('yes', 'yes', 'technical_troubleshooting')": 1762,
+    "('yes', 'yes', 'general_dissatisfaction')": 70,
+    "('no', 'no', 'na')": 231,
+    "('yes', 'no', 'technical_troubleshooting')": 568,
+    "('yes', 'no', 'other')": 92,
+    "('yes', 'yes', 'other')": 336,
+    "('yes', 'no', 'general_dissatisfaction')": 20,
+    "('yes', 'unclear', 'technical_troubleshooting')": 21,
+    "('unclear', 'no', 'na')": 40,
+    "('unclear', 'unclear', 'na')": 8,
+    "('yes', 'unclear', 'general_dissatisfaction')": 1,
+    "('yes', 'unclear', 'other')": 1,
+    "('no', 'yes', 'na')": 1
+  },
+  "historical_master_overwritten": false,
+  "historical_tests_overwritten": false,
+  "model_retrained": false
+}

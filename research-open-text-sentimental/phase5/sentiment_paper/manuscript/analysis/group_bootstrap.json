@@ -1,0 +1,35 @@
+{
+  "tests_scored": false,
+  "models_refit": false,
+  "full_thread_797_group_bootstrap": {
+    "definition": "hybrid minus text; groups drawn with replacement, posts kept together",
+    "n_posts": 797,
+    "n_groups": 790,
+    "n_multi_post_groups": 7,
+    "n_posts_in_multi_post_groups": 14,
+    "point": -0.026828994614003676,
+    "ci95": [
+      -0.05147666973972438,
+      -0.0048932408920277694
+    ],
+    "includes_zero": false,
+    "n_boot": 1000,
+    "seed": 42
+  },
+  "pre_discussion_2050_group_bootstrap": {
+    "definition": "hybrid minus text; groups drawn with replacement, posts kept together",
+    "n_posts": 2050,
+    "n_groups": 2016,
+    "n_multi_post_groups": 32,
+    "n_posts_in_multi_post_groups": 66,
+    "point": 0.0011980545326599756,
+    "ci95": [
+      -0.012563484358767363,
+      0.01537774769958068
+    ],
+    "includes_zero": true,
+    "n_boot": 1000,
+    "seed": 42
+  },
+  "claim_rule": "If a group-level interval includes zero, do not describe the post-level interval as establishing a reliable difference."
+}

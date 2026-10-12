@@ -1,0 +1,511 @@
+{
+  "design": "Simple random sample of 250 from 1658 Reddit-only reviewed troubleshooting development posts",
+  "review_provenance": "User reports joint human review; no independent agreement estimate",
+  "original_sample_n": 250,
+  "check_counts": {
+    "yes": 237,
+    "no": 4,
+    "unclear": 9
+  },
+  "conditional_n_yes": 237,
+  "conditional_field_rates": {
+    "software_product": {
+      "n": 237,
+      "present": 218,
+      "rate": 0.919831223628692,
+      "wilson_95": [
+        0.8781915571291388,
+        0.9480781431725647
+      ],
+      "unclear": 0
+    },
+    "identifiable_release": {
+      "n": 237,
+      "present": 122,
+      "rate": 0.5147679324894515,
+      "wilson_95": [
+        0.4514125284791958,
+        0.5776522348479999
+      ],
+      "unclear": 0
+    },
+    "environment": {
+      "n": 237,
+      "present": 137,
+      "rate": 0.5780590717299579,
+      "wilson_95": [
+        0.514428912148082,
+        0.6391991225813806
+      ],
+      "unclear": 0
+    },
+    "specific_symptom": {
+      "n": 237,
+      "present": 237,
+      "rate": 1.0,
+      "wilson_95": [
+        0.9840498440779082,
+        1.0
+      ],
+      "unclear": 0
+    },
+    "reproduction_context": {
+      "n": 237,
+      "present": 108,
+      "rate": 0.45569620253164556,
+      "wilson_95": [
+        0.3935003037890802,
+        0.5193054062293329
+      ],
+      "unclear": 0
+    },
+    "error_evidence": {
+      "n": 237,
+      "present": 40,
+      "rate": 0.16877637130801687,
+      "wilson_95": [
+        0.1264614076569615,
+        0.22165747200450858
+      ],
+      "unclear": 7
+    },
+    "attempted_remedy": {
+      "n": 237,
+      "present": 118,
+      "rate": 0.4978902953586498,
+      "wilson_95": [
+        0.43477753527744734,
+        0.5610703556758105
+      ],
+      "unclear": 0
+    },
+    "help_request": {
+      "n": 237,
+      "present": 168,
+      "rate": 0.7088607594936709,
+      "wilson_95": [
+        0.6480590035176591,
+        0.7629997921098216
+      ],
+      "unclear": 0
+    }
+  },
+  "body_missing_n": 24,
+  "by_body": {
+    "title_only": {
+      "n": 20,
+      "fields": {
+        "software_product": {
+          "n": 20,
+          "present": 15,
+          "rate": 0.75,
+          "wilson_95": [
+            0.531299122381256,
+            0.8881382985923343
+          ],
+          "unclear": 0
+        },
+        "identifiable_release": {
+          "n": 20,
+          "present": 7,
+          "rate": 0.35,
+          "wilson_95": [
+            0.18119182410108206,
+            0.5671457233147638
+          ],
+          "unclear": 0
+        },
+        "environment": {
+          "n": 20,
+          "present": 4,
+          "rate": 0.2,
+          "wilson_95": [
+            0.08065766257979806,
+            0.41601743225189364
+          ],
+          "unclear": 0
+        },
+        "specific_symptom": {
+          "n": 20,
+          "present": 20,
+          "rate": 1.0,
+          "wilson_95": [
+            0.8388748419471806,
+            1.0
+          ],
+          "unclear": 0
+        },
+        "reproduction_context": {
+          "n": 20,
+          "present": 2,
+          "rate": 0.1,
+          "wilson_95": [
+            0.027866481213768224,
+            0.3010336452284873
+          ],
+          "unclear": 0
+        },
+        "error_evidence": {
+          "n": 20,
+          "present": 3,
+          "rate": 0.15,
+          "wilson_95": [
+            0.052368745896216595,
+            0.36041886474075696
+          ],
+          "unclear": 0
+        },
+        "attempted_remedy": {
+          "n": 20,
+          "present": 2,
+          "rate": 0.1,
+          "wilson_95": [
+            0.027866481213768224,
+            0.3010336452284873
+          ],
+          "unclear": 0
+        },
+        "help_request": {
+          "n": 20,
+          "present": 5,
+          "rate": 0.25,
+          "wilson_95": [
+            0.11186170140766569,
+            0.468700877618744
+          ],
+          "unclear": 0
+        }
+      }
+    },
+    "title_and_body": {
+      "n": 217,
+      "fields": {
+        "software_product": {
+          "n": 217,
+          "present": 203,
+          "rate": 0.9354838709677419,
+          "wilson_95": [
+            0.8946339453907133,
+            0.9611836216968739
+          ],
+          "unclear": 0
+        },
+        "identifiable_release": {
+          "n": 217,
+          "present": 115,
+          "rate": 0.5299539170506913,
+          "wilson_95": [
+            0.46360487873342526,
+            0.5952608798493189
+          ],
+          "unclear": 0
+        },
+        "environment": {
+          "n": 217,
+          "present": 133,
+          "rate": 0.6129032258064516,
+          "wilson_95": [
+            0.546668120877137,
+            0.6752105076270524
+          ],
+          "unclear": 0
+        },
+        "specific_symptom": {
+          "n": 217,
+          "present": 217,
+          "rate": 1.0,
+          "wilson_95": [
+            0.9826053548042667,
+            1.0
+          ],
+          "unclear": 0
+        },
+        "reproduction_context": {
+          "n": 217,
+          "present": 106,
+          "rate": 0.48847926267281105,
+          "wilson_95": [
+            0.422752484464213,
+            0.5546068391578086
+          ],
+          "unclear": 0
+        },
+        "error_evidence": {
+          "n": 217,
+          "present": 37,
+          "rate": 0.17050691244239632,
+          "wilson_95": [
+            0.12630788938002513,
+            0.22616876620978993
+          ],
+          "unclear": 7
+        },
+        "attempted_remedy": {
+          "n": 217,
+          "present": 116,
+          "rate": 0.5345622119815668,
+          "wilson_95": [
+            0.46817162313659727,
+            0.5997504059973383
+          ],
+          "unclear": 0
+        },
+        "help_request": {
+          "n": 217,
+          "present": 163,
+          "rate": 0.7511520737327189,
+          "wilson_95": [
+            0.6895947505736553,
+            0.803971994466276
+          ],
+          "unclear": 0
+        }
+      }
+    }
+  },
+  "pilot_overlap_n": 10,
+  "excluding_pilot_overlap": {
+    "n": 228,
+    "fields": {
+      "software_product": {
+        "n": 228,
+        "present": 209,
+        "rate": 0.9166666666666666,
+        "wilson_95": [
+          0.8735222363504687,
+          0.9460033177349452
+        ],
+        "unclear": 0
+      },
+      "identifiable_release": {
+        "n": 228,
+        "present": 119,
+        "rate": 0.5219298245614035,
+        "wilson_95": [
+          0.45726640496336735,
+          0.5858665189358648
+        ],
+        "unclear": 0
+      },
+      "environment": {
+        "n": 228,
+        "present": 130,
+        "rate": 0.5701754385964912,
+        "wilson_95": [
+          0.5052781619392047,
+          0.6327471945383386
+        ],
+        "unclear": 0
+      },
+      "specific_symptom": {
+        "n": 228,
+        "present": 228,
+        "rate": 1.0,
+        "wilson_95": [
+          0.9834306649024968,
+          1.0000000000000002
+        ],
+        "unclear": 0
+      },
+      "reproduction_context": {
+        "n": 228,
+        "present": 102,
+        "rate": 0.4473684210526316,
+        "wilson_95": [
+          0.38423114945775605,
+          0.5122498331840865
+        ],
+        "unclear": 0
+      },
+      "error_evidence": {
+        "n": 228,
+        "present": 39,
+        "rate": 0.17105263157894737,
+        "wilson_95": [
+          0.127726709291979,
+          0.22527943221953645
+        ],
+        "unclear": 7
+      },
+      "attempted_remedy": {
+        "n": 228,
+        "present": 114,
+        "rate": 0.5,
+        "wilson_95": [
+          0.4356390353212768,
+          0.5643609646787232
+        ],
+        "unclear": 0
+      },
+      "help_request": {
+        "n": 228,
+        "present": 162,
+        "rate": 0.7105263157894737,
+        "wilson_95": [
+          0.6485561835447681,
+          0.7655198858878621
+        ],
+        "unclear": 0
+      }
+    }
+  },
+  "field_count_distribution": {
+    "6": 55,
+    "5": 65,
+    "8": 7,
+    "7": 21,
+    "4": 41,
+    "3": 33,
+    "1": 3,
+    "2": 12
+  },
+  "input_hashes": {
+    "review": "b4f2cc6810deb0c620253d1a9c1cc5af85d10d07c119852af8cb28d72b7a2edf",
+    "mapping": "666717037270955155d0860fae48353f79c56cfd65245b70e83bd6311ed2415a",
+    "development": "287995b6b8b529c145591108d9a77f88f1e515185d38810910066ffba21fa781"
+  },
+  "grouped_development_oof": {
+    "method": "Fixed model/threshold, StratifiedGroupKFold (exact and near-duplicate text grouped)",
+    "metrics": {
+      "n": 2080,
+      "support": {
+        "other_update_0": 394,
+        "troubleshooting_1": 1686
+      },
+      "accuracy": 0.895673076923077,
+      "balanced_accuracy": 0.8442337915710749,
+      "macro_f1": 0.834741184469567,
+      "class_0_other_update": {
+        "precision": 0.7092198581560284,
+        "recall": 0.7614213197969543,
+        "f1": 0.7343941248470012
+      },
+      "class_1_troubleshooting": {
+        "precision": 0.9432709716354858,
+        "recall": 0.9270462633451957,
+        "f1": 0.9350882440921329
+      },
+      "confusion_matrix_labels_[0,1]": [
+        [
+          300,
+          94
+        ],
+        [
+          123,
+          1563
+        ]
+      ]
+    },
+    "diagnostic_yes_join_n": 237,
+    "diagnostic_yes_missed_n": 16,
+    "field_miss_table": {
+      "software_product": {
+        "present": {
+          "n": 218,
+          "misses": 16,
+          "miss_rate": 0.07339449541284404
+        },
+        "not_observed": {
+          "n": 19,
+          "misses": 0,
+          "miss_rate": 0.0
+        }
+      },
+      "identifiable_release": {
+        "present": {
+          "n": 122,
+          "misses": 6,
+          "miss_rate": 0.04918032786885246
+        },
+        "not_observed": {
+          "n": 115,
+          "misses": 10,
+          "miss_rate": 0.08695652173913043
+        }
+      },
+      "environment": {
+        "present": {
+          "n": 137,
+          "misses": 6,
+          "miss_rate": 0.043795620437956206
+        },
+        "not_observed": {
+          "n": 100,
+          "misses": 10,
+          "miss_rate": 0.1
+        }
+      },
+      "specific_symptom": {
+        "present": {
+          "n": 237,
+          "misses": 16,
+          "miss_rate": 0.06751054852320675
+        }
+      },
+      "reproduction_context": {
+        "present": {
+          "n": 108,
+          "misses": 3,
+          "miss_rate": 0.027777777777777776
+        },
+        "not_observed": {
+          "n": 129,
+          "misses": 13,
+          "miss_rate": 0.10077519379844961
+        }
+      },
+      "error_evidence": {
+        "present": {
+          "n": 40,
+          "misses": 1,
+          "miss_rate": 0.025
+        },
+        "not_observed": {
+          "n": 190,
+          "misses": 15,
+          "miss_rate": 0.07894736842105263
+        },
+        "unclear": {
+          "n": 7,
+          "misses": 0,
+          "miss_rate": 0.0
+        }
+      },
+      "attempted_remedy": {
+        "present": {
+          "n": 118,
+          "misses": 4,
+          "miss_rate": 0.03389830508474576
+        },
+        "not_observed": {
+          "n": 119,
+          "misses": 12,
+          "miss_rate": 0.10084033613445378
+        }
+      },
+      "help_request": {
+        "present": {
+          "n": 168,
+          "misses": 9,
+          "miss_rate": 0.05357142857142857
+        },
+        "not_observed": {
+          "n": 69,
+          "misses": 7,
+          "miss_rate": 0.10144927536231885
+        }
+      }
+    },
+    "by_body": {
+      "title_only": {
+        "n": 20,
+        "misses": 8
+      },
+      "title_and_body": {
+        "n": 217,
+        "misses": 8
+      }
+    },
+    "interpretation": "Exploratory association within development. Diagnostic fields were not labeled on the fresh test, so fresh-test errors cannot be joined to these fields."
+  }
+}

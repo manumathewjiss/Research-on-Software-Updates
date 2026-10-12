@@ -1,0 +1,1041 @@
+﻿review_id,subreddit,title,post_body,discussion_context,text_availability,proposed_about_software,proposed_update_related,proposed_discussion_type,proposed_confidence,proposed_reason,decision,final_about_software,final_update_related,final_discussion_type,reviewer_note,reviewed_at,source_url
+B3-001,react,"I am getting error from react-mux-player ,called gotErrorFromhsl",,"[1:reply] We could probably help more if you added the actual error message…
+[2:OP] Error: Playback stalling at @9.912391 due to low buffer ({""len"":0.026276000000001076,""start"":0,""end"":9.938667,""buffered"":[{""start"":0,""end"":9.938667}],""bufferedIndex"":0}) at Jet._reportStall
+[3:OP] You can check it",title_plus_comments,yes,no,other,low,The text may be discussion rather than an active repair request; please check its main purpose.,,,,,,,https://reddit.com/r/react/comments/1nqvh11/i_am_getting_error_from_reactmuxplayer_called/
+B3-002,debian,Qt/Plasma 6 themes broken after upgrading to Debian 14 Forky,"I just upgraded my system from Debian Trixie to Debian 14 Forky (Testing) with Nvidia drivers installed. The base system updated successfully and I'm now running KDE Plasma 6.6.5. However, the Qt theme engine is completely broken. Even though I have the Breeze theme installed and applied in System Settings, all Qt applications and system dialogs are stuck rendering in a basic fallback/retro style.
+
+The settings tool claims Breeze is applied, but the actual UI rendering refuses to hook into the KDE platform theme backend.
+
+How can i fix this, please help i already tried resetting themes.","[1:reply] You're using a test build. Submit a bug report and then I would recommend using stable software.
+[2:reply] It's called testing for a reason... If you're prepared to deal with the caveats that come with it, perhaps you shouldn't be using testing...
+
+The information you provided is not enough for anyone to help you... You need to be able to diagnose what's going on... Check debian's bu…
+[3:reply] Debian 14 is the current testing, so things can break. Use stable (13) and less likely you will have such issues.
+[4:reply] It's is in testing, you should expect things to break.
+[5:OP] I updated from trixie, and i didnt do a backup because i dont have enough space, also i dont have nothing important just games, everything i have its Synchronised",title_body_comments,yes,yes,technical_troubleshooting,medium,The post describes a concrete malfunction or asks how to diagnose or fix one.,,,,,,,https://reddit.com/r/debian/comments/1ua4emd/qtplasma_6_themes_broken_after_upgrading_to/
+B3-003,linux,Bcachefs 1.33 Delivers Its Biggest Upgrade Yet With Full Reconcile Support,,"[1:reply] Don't have much confidence in this project, seeing how the lead developer (Kent Overstreet) handled collaboration with the rest of the kernel developers and how he's constantly trash talked other devs (mainly devs working on Btrfs)
+[2:reply] Good to see Bcachefs forging ahead. Hoping to see it back in-tree in the future.
+[3:reply] A file system is such a thing that if it crashes or even just an little error, you can lose all your data. Somebody known if bcachefs even has a stable release? All we read about are experimental features.
+[4:reply] *shrug* If I didn't use software written by anti-social developers I wouldn't use Linux.
+
+
+I think its an exciting project technically but not being in mainline is definitely inconvenient enough to delay my usage and was absolutely a self-own.
+
+
+However Btfs has let a lot of peo…
+[5:reply] Has Kent learned to work with the rest of the kernel community yet?
+
+**EDIT**:  Also, has he also learned to not try to gaslight people into being on ""his side""?",title_plus_comments,yes,yes,other,medium,The post discusses software without a clear repair request or chiefly negative opinion.,,,,,,,https://reddit.com/r/linux/comments/1phz3nr/bcachefs_133_delivers_its_biggest_upgrade_yet/
+B3-004,homeassistant,Latest HA Core update,Did anyone else have a ton of stuff break with this last update?  Wondering if others are having the same experience.  Thank you!,"[1:reply] nope. all is well here!
+[2:reply] Nothing broke for me.
+[3:reply] no, none for me
+[4:reply] The update actually fixed an issue I was having connecting to my solar inverters. 😁
+[5:OP] Happy to report that [http://wheels.home-assistant.io/](http://wheels.home-assistant.io/) is back up and so is the rest of my HA system.  Thank you for the tip u/puffpants !!",title_body_comments,yes,yes,technical_troubleshooting,low,The text may describe a problem to diagnose; check whether its main purpose is troubleshooting.,,,,,,,https://reddit.com/r/homeassistant/comments/1ulp9y2/latest_ha_core_update/
+B3-005,Android,We went hands-on with the Galaxy Z TriFold. Here’s the good and bad,,"[1:reply] TL;DR:  
+**Good:** weight, display
+
+**Bad:** Can only be used fully open or fully closed.
+[2:reply] **Bad**: price
+[3:reply] I can tell you after using the mate XT for over 6 months this is a non-issue and it's completely overblown. I have used my mate XT in dual screen mode less than five times probably in 6 months. It just never happens. You never want to. Why would you use it that way when one more…
+[4:reply] This is certainly the best form factor in my opinion as far as folding devices are concerned. The aim is to have a phone and a tablet experience on the same device. I would love to get rid of my tablet for this, but they don't support a stylus for the big screen, and that signif…
+[5:reply] Or maybe this is how technology works and that everything they learn from the product will applied to the successor. How are you this ignorant especially considering you own a foldable phone that's benefitted from multiple years of evolution.",title_plus_comments,yes,no,other,low,The text does not clearly show a troubleshooting request or a mainly negative opinion.,,,,,,,https://reddit.com/r/Android/comments/1plnbq6/we_went_handson_with_the_galaxy_z_trifold_heres/
+B3-006,Android,Sony XM6 vs. XM5 Earbuds - Worth the $330 upgrade? - SoundGuys,,"[1:reply] Xm5 earbuds came out in 2023. So it's been almost 3 years since the last release.
+[2:reply] I certainly thought the XM5s were worse than my XM4s, namely in noise canceling performance, so I doubt I'll be upgrading.
+[3:reply] Check rtings reviews, you do get better sound quality, better ANC and better transparency
+[4:reply] For the price I was expecting the XM5 earbuds to be better. I agree on noise cancelling capabilities. Wasn't that impressed with the noise cancelling ability.
+[5:reply] from the M5? hell no, from the M1, M3, maybe the M4's, if they busted. 
+
+Upgrading every revision will leave you disappointed, as good stays good and everything is marginal improvements.",title_plus_comments,yes,yes,other,medium,The post discusses software without a clear repair request or chiefly negative opinion.,,,,,,,https://reddit.com/r/Android/comments/1rifybi/sony_xm6_vs_xm5_earbuds_worth_the_330_upgrade/
+B3-007,angular,I still can't get used to it 😀,,"[1:reply] I definitely had to do some reading on why it was suddenly okay to have methods in the html when signals came about. 
+
+But using those “methods” (signals) actually should mean your change detection cycles are low so of course it’s okay. 
+
+I think the early advice on why not to u…
+[2:reply] It makes fun of the fact that function calls in templates were a no-go before signals, but it's neither funny nor well presented. Also the correct syntax would be &lt;p&gt;{{ userName() }}&lt;/p&gt;...
+[3:reply] I don't get the meme at all… 😑🤔
+[4:reply] Performance issues related to function calls in templates are overblown anyway.
+
+""Don't you dare call a function in our 50 loc modal 😡😡😡 btw it's in a module with 50 declarations and 100 dependencies 🤗""
+[5:reply] Ugly. Everyone seeing it will wonder why not just username? Or username.value?",title_plus_comments,yes,no,technical_troubleshooting,low,The text may describe a problem to diagnose; check whether its main purpose is troubleshooting.,,,,,,,https://reddit.com/r/angular/comments/1ozp5qj/i_still_cant_get_used_to_it/
+B3-008,Android,"New Android Theft Protection Feature Updates: Smarter, Stronger",,"[1:reply] CTRL-F ""Stop thieves turning the device off after stealing it without entering the pin code to stop find my device working.""
+
+""No matches.""
+[2:reply] I remember Cerberus had a feature where it would take photos of every attempt to unlock your phone.
+
+Wish I could get that back
+[3:reply] That ""feature"" is pointless since you can still do the button combo to reboot into bootloader mode while locked and shutdown from there.
+[4:reply] I remember Cerberus selling lifetime licenses, then taking them away and forcing a subscription anyway. Yes, I know it's unsustainable... 
+
+I deeply miss Cerberus for its anti-theft features, but their rug pull on early adopters really pissed me off.
+[5:reply] Brazil has the best system in my opinion. It's a tool made by the govt where you register your devices' IMEI. If stolen, you just login, flag it as stolen, and the device is forever bricked (unless you flag it as recovered, for exemple).
+
+It's not a tool to recover the device, b…",title_plus_comments,yes,yes,other,medium,The post discusses software without a clear repair request or chiefly negative opinion.,,,,,,,https://reddit.com/r/Android/comments/1qojnrn/new_android_theft_protection_feature_updates/
+B3-009,tailwindcss,Tailwindcss v4 config problem,"I'm facing problems with the tailwindcss v4, whenever I try to use a custom class or config that I have created it won't work normally. I'm hoping that someone in here could relate to that issue and help me with a solution. I have tried the tailwind.config.js file but it won't be created I think that is because the new tailwindcss v4 update.",,title_and_body,yes,yes,technical_troubleshooting,medium,The post describes a concrete malfunction or asks how to diagnose or fix one.,,,,,,,https://reddit.com/r/tailwindcss/comments/1pfvqgd/tailwindcss_v4_config_problem/
+B3-010,chrome,Chrome fucked my phone tabs,"it must be a new update or something, all grouped tabs got displaced. Now they are mixed, missing things, repeated on other tab groups with no name, things i closed open again....Im guessing its some AI shit.",,title_and_body,yes,yes,technical_troubleshooting,low,The text may describe a problem to diagnose; check whether its main purpose is troubleshooting.,,,,,,,https://reddit.com/r/chrome/comments/1o0dxam/chrome_fucked_my_phone_tabs/
+B3-011,chrome,How to recover the tab groups after the update,I had grouped tabs before the update today and now they’re gone. The only thing I can recover was the recent tabs I was using. They were literally there when I booted up the laptop and now it’s gone.,"[1:reply] Thank you for your submission to /r/Chrome! We hope you'll find the help you need. Once you've found a solution to your issue, please comment ""**!solved**"" under this comment to mark the post as solved. Thanks!
+
+
+*I am a bot, and this action was performed automatically. Please […
+[2:reply] Two different things get called a tab group, and they look the same.
+
+If you hit Save group on it, its tied to your profile. Sign in, press Ctrl+Shift+B, and it comes back as a chip on the bookmarks bar.
+
+If you never saved it, the group only lived in a session file here. Ctrl+S…",title_body_comments,yes,yes,technical_troubleshooting,low,The text may describe a problem to diagnose; check whether its main purpose is troubleshooting.,,,,,,,https://reddit.com/r/chrome/comments/1vok17d/how_to_recover_the_tab_groups_after_the_update/
+B3-012,Android,"MotionCam Pro V4 update - Now with Apple Log, Samsung Log, False Color, Highlight Reconstruction and more!",,,title_only,yes,yes,other,low,The post discusses software without a clear repair request or chiefly negative opinion.,,,,,,,https://reddit.com/r/Android/comments/1knf1y4/motioncam_pro_v4_update_now_with_apple_log/
+B3-013,Android,Motorola ignores EU regulation on security updates for smartphones. Will this end well?,,"[1:OP] &gt; EU regulation introduced in June 2025 requires that all smartphones sold on the European market receive software updates for a long time. The directive does not specify a minimum price for this rule to take effect. The EU explicitly states that software updates must be avai…
+[2:reply] Motorola is in no position to be using these  anti-consumer practices. Do they really want this company to die?
+[3:reply] They are broke as hell and can’t afford to play the long game.
+[4:reply] Idk, Xiaomi seems to provide 4 years of Android updates and 6 years of security patches for smartphones released in 2025. Haven't found much on others like iqoo, though.
+[5:reply] https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32023R1670
+
+On page 214/63, there's the (6) section that says that they have to release the update if the OS provider does.
+
+IMHO, if the Court says the OS provider is Google / AOSP, then Motorola has to release it. O…",title_plus_comments,yes,yes,other,medium,The post discusses software without a clear repair request or chiefly negative opinion.,,,,,,,https://reddit.com/r/Android/comments/1p2liee/motorola_ignores_eu_regulation_on_security/
+B3-014,applehelp,iPhone 14 Pro Max ultra wide not working after latest iOS update,"After updating, my ultrawide became unavailable in my camera. My phone claimed my camera wasn’t Apple genuine even though I never got it changed. Is this a software bug I need to just wait out?",,title_and_body,yes,yes,technical_troubleshooting,medium,The post describes a concrete malfunction or asks how to diagnose or fix one.,,,,,,,https://reddit.com/r/applehelp/comments/1rivx6k/iphone_14_pro_max_ultra_wide_not_working_after/
+B3-015,chrome,"Chrome Update - Cant highlight and copy text from search result anymore, because i am forced to click",,,title_only,yes,yes,technical_troubleshooting,low,The text may describe a problem to diagnose; check whether its main purpose is troubleshooting.,,,,,,,https://reddit.com/r/chrome/comments/1l0uoop/chrome_update_cant_highlight_and_copy_text_from/
+B3-016,Bitcoin,What’s going on?,,"[1:reply] The price is rising basically
+[2:reply] Wouldn’t have been able to tell without your comment mate, thanks!
+[3:reply] Are we asking for a reason on a 1 hour interval? What has this sub become, lol.
+[4:reply] Green color good. Red color bad.
+[5:reply] Small dopamine hit. Carry on",title_plus_comments,no,no,na,low,The saved post does not describe software.,,,,,,,https://reddit.com/r/Bitcoin/comments/1pib08s/whats_going_on/
+B3-017,MacOS,"so sneaky, trying to trick me into an accidental Tahoe upgrade",,"[1:reply] Yeah, whenever I just click ( i ) next to Sequoia to check if command line tools or safari update is available or not, Tahoe gets checked and Sequoia gets unchecked.
+I almost clicked upgrade yesterday
+[2:reply] The installer will download, but it won’t install without going through the guided installer.  Just a heads up.
+[3:reply] was the same for me. ms levels of piss taking.
+[4:reply] WTF.... Can Apple really do that? I mean they lie all the time but this is just... next level.
+[5:reply] Yea I’ve been waiting for someone to post this lol. They almost got me several times even while knowing.",title_plus_comments,yes,yes,other,medium,The post discusses software without a clear repair request or chiefly negative opinion.,,,,,,,https://reddit.com/r/MacOS/comments/1pngt1r/so_sneaky_trying_to_trick_me_into_an_accidental/
+B3-018,comfyui,Looking for old version of comfyui desktop,"I have made the mistake of updating my comfyui desktop, and it went and broke all of my workflows. I have looked around, but I could not find a way to revert the update. I eventually started from scratch to install the latest version, but my workflows still ended up not working. I was able to find a repository site that had old versions, but the oldest version I could find is 0.4.75. I was eventually able to get my workflows working again on that version, but there are still some minor issues such as the mask editor not working properly when switching to the paint bucket (I cannot set the tolerance, so using the paint bucket won't fully fill an area), and the general layout is inferior to what I had before.
+
+The specific version I am looking for is 0.4.58 or 0.4.59. I guess either would work since they were released within the same day of each other. I can find the source code on the github, but it's just the source code. Even if I do compile it to get it to run, it has to be ran via command line and used within a browser which is not how I want use it. I'd rather run the application and use it within it's own window like how I used to do so.
+
+Does anyone happen to have the installer for either version of comfyui that I mentioned?",,title_and_body,yes,yes,technical_troubleshooting,medium,The post describes a concrete malfunction or asks how to diagnose or fix one.,,,,,,,https://reddit.com/r/comfyui/comments/1rmbir6/looking_for_old_version_of_comfyui_desktop/
+B3-019,chrome,Chrome auto updated despite being disabled in Chrome and Windows,,,title_only,yes,yes,technical_troubleshooting,low,The text may describe a problem to diagnose; check whether its main purpose is troubleshooting.,,,,,,,https://reddit.com/r/chrome/comments/1lp3xs0/chrome_auto_updated_despite_being_disabled_in/
+B3-020,arduino,MKR 1010 board -frozen over the air update on arduino cloud,"hey everyone
+
+went to do an over the air upadte to an MKR 1010 board and i guess the board became unplugged while uploading so the console has been stuck like this for hours: 
+
+https://preview.redd.it/cbom5f45rirg1.png?width=1213&amp;format=png&amp;auto=webp&amp;s=58e56a220d03df4af39a7a27eddb8de02915fa31
+
+ive tried resetting the board , uploading blink to it through the arduino ide but nothing has worked",,title_and_body,unclear,unclear,na,low,The saved text does not identify the software topic clearly enough.,,,,,,,https://reddit.com/r/arduino/comments/1s4ur9e/mkr_1010_board_frozen_over_the_air_update_on/
+B3-021,chrome,"Small ""recent websites / tabs"" Button issue","https://preview.redd.it/1gg92l73tlch1.png?width=1080&amp;format=png&amp;auto=webp&amp;s=d5b35a2a4cf638f4a4f740f610aeecf6ef93fe0b
+
+Good morning
+
+My phone was working fine until I got up this AM.
+
+Now the small ""tabs / recent websites"" button that's normally at the top right corner has shifted to the bottom right.
+
+My address bar is fine.....still at the top
+
+Any idea how to fix this?
+
+It literally happened overnight....no update or anything that I know of
+
+Thank you
+
+Below is how it looks now
+
+The address bar looks weird and the small tabs button is on the bottom of the screen now
+
+https://preview.redd.it/dst6z1auslch1.png?width=1080&amp;format=png&amp;auto=webp&amp;s=5ab5ad7c7bf8e2c47b39c8c2aa6a3996a97aa43c","[1:reply] I came to complain about this too! Haven't found answer
+[2:reply] Also came to look for this. I have no use for a home button or Gemini button, so this update is taking away viewing space for me",title_body_comments,yes,yes,technical_troubleshooting,medium,The post describes a concrete malfunction or asks how to diagnose or fix one.,,,,,,,https://reddit.com/r/chrome/comments/1utjzgi/small_recent_websites_tabs_button_issue/
+B3-022,anime,A double victory(Chivalry of a Failed Knight),,"[1:reply] It was a really great anime, I wish it had continued.
+[2:reply] Using the OP for the climax of the arc never misses! I fucking love this song and it genuinely made the scene just peak hype!
+[3:reply] Stella is definitely top tier tsundere
+[4:reply] My soul still yearns for a season 2
+[5:reply] Criminal this didn't get a 2nd season",title_plus_comments,no,no,na,low,The saved post does not describe software.,,,,,,,https://reddit.com/r/anime/comments/1r3x2hb/a_double_victorychivalry_of_a_failed_knight/
+B3-023,transformers,They really made a skele-tonne of these didn't they...,,"[1:reply] Indeed! I loved the Fossilizers; it's a shame HasTak still hasn't done a Wingfinger repaint or retool.
+[2:reply] And I somehow ended up with 12 of them. (2x Skelivore, 2x Ractonite, 2x Tricranius, 2x Paleotrex)
+
+
+At some point I really ought to get them all together and make one giant Transmutate.
+[3:reply] Paleotrex was like the coolest thing I ever saw 
+
+It’s a shame his T. rex form poses like shit
+[4:reply] I made a combiner out of mine. I call it Skelatron the relic of the primes.
+[5:reply] All you’d need is a sabertooth tiger and you could get a really neat Power Rangers collab.",title_plus_comments,no,no,na,medium,The saved post does not describe software.,,,,,,,https://reddit.com/r/transformers/comments/1phvztr/they_really_made_a_skeletonne_of_these_didnt_they/
+B3-024,transformers,What figures would you want an update for?,After completing the 13 and Bruticus I don’t know what’s next for my collection. A new version of Polar Claw and Animated Magnus would be great.,,title_and_body,no,no,na,medium,The saved post does not describe software.,,,,,,,https://reddit.com/r/transformers/comments/1q46xiy/what_figures_would_you_want_an_update_for/
+B3-025,chrome,Chrome on iOS 26 better than safari?,"So normally I’m a safari user but after iOS 26 I’m finding chrome to be so much better than safari ,I’m using MacBook Pro .iPhone 17 or and iPad Pro m4.
+Anyone else noticing this ?","[1:reply] Thank you for your submission to /r/Chrome! We hope you'll find the help you need. Once you've found a solution to your issue, please comment ""**!solved**"" under this comment to mark the post as solved. Thanks!
+
+
+*I am a bot, and this action was performed automatically. Please […
+[2:reply] Hi,
+
+I've been a Chrome user for several years, but now with Tahoe 26, I'm starting to notice latency and minor bugs. I'm going to switch to Firefox until this is resolved. Maybe it's just an isolated case, but I have a MacBook Pro M1 16GB.
+[3:reply] Almost always been the case.
+[4:OP] Thanks for that input",title_body_comments,yes,no,technical_troubleshooting,low,The text may describe a problem to diagnose; check whether its main purpose is troubleshooting.,,,,,,,https://reddit.com/r/chrome/comments/1ntjtzi/chrome_on_ios_26_better_than_safari/
+B3-026,transformers,Animated Ultra Magnus and Blurr,,"[1:reply] They look nice. Animated figures continue to hit the mark. Thank you for sharing.
+[2:reply] Love these guys! I wanna start a Animated Collection!!!
+[3:reply] Man Blur looks so good
+[4:reply] Nice shots! 
+
+
+To this day I am simply amazed by the beauty of these figures. Definitely my personal favorite continuity to collect
+[5:reply] Correct.",title_plus_comments,no,no,na,low,The saved post does not describe software.,,,,,,,https://reddit.com/r/transformers/comments/1rmcwf6/animated_ultra_magnus_and_blurr/
+B3-027,applehelp,Website unblocking,"I have a problem with my iPhone I blocked ph website on my iPhone before the new update, after the new update it pops up in my search bar and I tested this by blocking another website and now that one pops up as well I browse in private mode so it’s not my search history but the website that is blocked. Right now I am trying to unblock the website so I don’t see ph every time I search something and now the new update made it difficult to swipe left on blocked websites.",,title_and_body,yes,yes,technical_troubleshooting,low,The text may describe a problem to diagnose; check whether its main purpose is troubleshooting.,,,,,,,https://reddit.com/r/applehelp/comments/1wvjgnv/website_unblocking/
+B3-028,tailwindcss,570+ installs and 70 paying customers for Tail Lens after 4 months,"**Quick update on Tailwind Lens (Tail Lens)**  
+I built it because tweaking Tailwind classes in DevTools kept killing my flow. I hated jumping between the browser and the editor just to test a small style change.
+
+Huge thanks to everyone here who gave early feedback. It shaped the roadmap more than you’d think.
+
+**What Tail Lens does:**
+
+* Edit Tailwind classes *directly on the page* with instant, context-aware suggestions (`gap-5`, `gap-x-6`, `space-y-4`, etc)
+* Copy the final class list straight into your code
+* Inspect any Tailwind site and grab an element’s utility stack
+
+**Since my last post (\~4 months):**
+
+* 570+ installs, 70 paid users 🎉
+* Added an affiliate program (30% commission) and already seeing some traction
+* New features: element navigator, CSS style search, and lots of QoL tweaks from user feedback
+* Pricing lesson: I tried a free trial but it did nothing. More than 95% of customers bought without ever using it. I removed it. Turns out the live demo on the site is all people need
+
+**What’s next:**
+
+* Exploring visual editing on any website with smart, relevant suggestions
+* A bigger bet: an AI app builder (think Lovable but with real design sensibility and a cleaner dev workflow). I’m bootstrapping it and committing the next 12 months to build it If that sounds interesting, DM me. I can share a short demo and would love your feedback
+
+👉 Try Tail Lens: [taillens.io](http://taillens.io)","[1:reply] This looks like exactly what I’ve been looking for! Definitely doing to check it out
+[2:reply] This looks really cool.  
+  
+Interested in the code sync, will that work with frameworks like react? Also we often use helpers like \`tailwind-merge\` for more dynamic class list building, do you plan to support these as well?
+[3:OP] Yes, this should be possible to implement 😊
+[4:OP] Great, let me know what you think ;)
+[5:reply] I would try a free trial if there was one. My main concern if it works well on my projects",title_body_comments,yes,yes,technical_troubleshooting,low,The text may describe a problem to diagnose; check whether its main purpose is troubleshooting.,,,,,,,https://reddit.com/r/tailwindcss/comments/1nzifki/570_installs_and_70_paying_customers_for_tail/
+B3-029,windows,"I hate that selecting ""update and shutdown"" doesn't reliably work 100% of the time.",,,title_only,yes,yes,general_dissatisfaction,low,The main message criticizes software without a clear request to diagnose or fix it.,,,,,,,https://reddit.com/r/windows/comments/1lw4if9/i_hate_that_selecting_update_and_shutdown_doesnt/
+B3-030,Nuxt,Weird prod-only Error,,"[1:reply] I’m guessing since this is an initialisation error, it’s occurred when trying to initialise that particular route, which might be why you have two different errors; 500 for the first attempt and then 403 for subsequent attempts?
+
+Without knowing what your ~~files or code or~~  (…
+[2:OP] Thanks for the tip! I did end up figuring it out though, it was having issues finding the `.env` file containing the JWT secret and therefore the auth endpoint was failing.
+[3:OP] &gt; I’m guessing since this is an initialisation error, it’s occurred when trying to initialise that particular route, which might be why you have two different errors; 500 for the first attempt and then 403 for subsequent attempts? 
+
+Yeah, that's what's happening. If I re-go t…
+[4:reply] I would double check that url ‘https://auth.itinerary.eu.org/api/auth/verifyToken?privateCode’ is accessible on your remote production server. 
+
+Also, putting some try/catch statements around the code wouldn’t be a bad idea, try to catch the error object and console.log it.
+[5:reply] I will say that in your code, your `error.vue` file..
+
+1. Uses the `layouts/default.vue`
+
+2. This imports `Navbar.vue`
+
+3. Navbar has a lot of dependencies on Auth and user data.
+
+Try commenting out your Navbar and see if the kinds of issues you're getting change. It's probably…",title_plus_comments,unclear,unclear,na,low,The saved text does not identify the software topic clearly enough.,,,,,,,https://reddit.com/r/Nuxt/comments/1np2nmm/weird_prodonly_error/
+B3-031,MicrosoftEdge,Google Address Bar Gone???,"So it seems my MS Edge updated overnight and now Google is no longer an option in the drop down of ""Search engine used in the address bar"".  I only see Bing before I used to see Google, DuckDuckGo and I think one other. 
+
+It also seemed to have kicked me off of all my website logins, but that was easy to fix.",,title_and_body,yes,yes,technical_troubleshooting,low,The text may describe a problem to diagnose; check whether its main purpose is troubleshooting.,,,,,,,https://reddit.com/r/MicrosoftEdge/comments/1s1yijx/google_address_bar_gone/
+B3-032,Bitcoin,True or False?,,"[1:reply] Why not both?
+[2:reply] Okay boys! I volunteer as tribute. I’ll take option 1 and y’all can have option 2. 🫡
+[3:reply] This kind of ""humour"" is probably doing wonders for getting more women into crypto.
+[4:reply] Yeah. I’d be happy with both
+[5:reply] Second and then the first will naturally happen",title_plus_comments,no,no,na,low,The saved post does not describe software.,,,,,,,https://reddit.com/r/Bitcoin/comments/1qmuy4i/true_or_false/
+B3-033,transformers,OPTIMUS PRIMARIS 2.0!,,"[1:reply] matrix bearers chapter
+[2:reply] Purity seal that just has the entire Cybertron opening on it
+[3:OP] Name goes hard!
+[4:reply] I’d love to see an official Transformers/40K collab. Goliath Truck Optimus, Lightning Fighter Seekers, the options are endless!
+[5:reply] Blood Angel? Optimus is too much of a boy scout to not be Ultramarine related",title_plus_comments,no,no,na,low,The saved post does not describe software.,,,,,,,https://reddit.com/r/transformers/comments/1q521p0/optimus_primaris_20/
+B3-034,Fedora,Wifi Network Issue On Fedora.,"Some context here.
+
+I have been using fedora for quite some time now. Absolutely love it, upgraded from 43 to 44. Everything was working fine. Untill the last few updates. Idk what happend in those updates but my wifi stopped working the way it was used to do. 
+
+What i have on my system.
+
+A bunch of stuff. Really hard to know what broke or what happened. I have a dns setup. Nextdns. I got auto cpu frequency set up but i am mostly connected with an adapter. And never really on power saver mode. AI believes that this problem occurs because of power saver mode.
+
+So the problem is.
+
+1. Even when the wifi is connected after sometime i cannot use data. Like the wifi icon is there. It says its connected but there is no internet connection or data. This is very weird and idk how to properly describe it.
+
+2. Nothing works when this happens. Tried Loading a site on brave origin. Thought maybe a browser issue so switched browsers had the same issue. Tried running the speedtest cli to see if my wifi is slow or connected at all. It failed. Tried ping [google.com](http://google.com) it failed.
+
+3. At first i believe this could be a hardware issue. Did some debugging using claude and chatgpt. They got tired (ran out of tokens) but the problem didn't got fixed.
+
+So where I am right now ?
+
+1. Claude wasn't able to fix the problem completely however it manged to fix the ping issue. So now whenever this problem occurs nothing works except ping. The ping commands always works in the back and i can see packets leaving.
+
+2. I still can't sometimes use the browser it does not load a site.
+
+3. Speedtest cli does not works.
+
+So what did it fixed ?
+
+Well it did fixed the ping issue, so that makes me believe its not an hardware faliure. Thank god.
+
+Temporary fix
+
+1. A system reboot fixes it temporarily. 
+
+2. If i turn of my wifi and turn it on again it fixes it for a few more minutes but then the issue persists. And i have to keep doing this in a loop to do anything. 
+
+One more thing that i have figured out. This is not just the wifi issue. It happens with mobile data as well. Lets say i am using Hotspot from my phone via a cable connection. It works for a few mins and then the same problem happens and then I have to turn it off and on again.
+
+But now how do i fix this problem completely. 
+
+I asked AI they say I am not the only one with this issue others have this issues as well. However there is not really any credible source or solution of it.
+
+Ai couldn't help me. And idk what to do.
+
+What i can really do ?
+
+As far as i know is completely wipe my ssd and reinstall fedora which i do not want to do since i have a lot of important data on it.
+
+Why does it happen? 
+
+What could be the cause of it and is it a know bug in recent kernel drivers update or anything. Because a few weeks or a month ago everything was fine. Now I don't know why this is happening. Must've been an broken package or an update. I didn't installed anything that could cause this. Has anyone else faced this and what was your solution to this problem. 
+
+If this info is necessary or needed. 
+
+I have a HP laptop. With nvidia gtx 1650 and ryzen 5 5 5600H. I don't know sometimes Nvidia drivers causes issues. Honestly i am clueless anything could be the issue here.","[1:reply] What did you do on Claude's instructions? What was the output of ping? There should be 0% packet loss.
+
+```
+$ ping -c4 google.com
+
+...
+
+--- google.com ping statistics ---
+4 packets transmitted, 4 received, 0% packet loss, time 3006ms
+rtt min/avg/max/mdev = 23.022/24.991/29.227/2…
+[2:reply] It sounds like you're looking for help. Please note that r/Fedora is not an official support channel for the Fedora Project.
+
+For best results, be sure to include all relevant details in your post, such as your Fedora edition, version, and hardware specs. You can edit your origi…
+[3:OP] I did a bunch of things there is a whole conversation between me and him and i do get packets 
+
+    ❯
+     
+    ping
+     -c4 google.com
+    PING google.com (142.250.143.101) 56(84) bytes of data.
+    64 bytes from pt-in-f101.1e100.net (142.250.143.101): icmp_seq=1 ttl=115 time=…",title_body_comments,yes,yes,technical_troubleshooting,medium,The post describes a concrete malfunction or asks how to diagnose or fix one.,,,,,,,https://reddit.com/r/Fedora/comments/1uwfokf/wifi_network_issue_on_fedora/
+B3-035,Ubiquiti,UniFi 16 port POE Switch LITE and Bell Giga Hub 2.0 modem compatability,"After about three days of troubleshooting, I’ve discovered that the UniFi switch does not work with Bell’s new Giga Hub 2.0 modem. It worked with the previous version of the modem, but does not work with this new modem. 
+
+Has anyone else in Canada run into this issue after upgrading?
+
+I’m looking for simple solutions or alternative products that work with this Bell modem. I’m not interested in changing ISP, or changing my advanced network settings because I’m an idiot and will probably eff up my whole network. 
+
+Thanks","[1:reply] Are you using it as your gateway? Because if you put it in bridge mode and just attach a switch, you're gonna have a bad time.
+[2:reply] What port are you using on the Giga Hub? Are you getting activity lights on either end?
+[3:reply] Hello!  Thanks for posting on r/Ubiquiti!
+
+This subreddit is here to provide unofficial technical support to people who use or want to dive into the world of Ubiquiti products.  If you haven’t already been descriptive in your post, please take the time to edit it and add as many…
+[4:OP] No, it’s not acting as a gateway. It’s just a switch.
+
+The setup is:
+
+Bell Giga Hub 2.0 → UniFi Lite 16 PoE switch → client devices
+
+DHCP is enabled on the Bell modem and devices connected directly to the modem get IP addresses and work normally.
+
+The issue is that anything conn…
+[5:OP] The Giga Hub is in normal gateway mode.",title_body_comments,yes,yes,technical_troubleshooting,low,The text may describe a problem to diagnose; check whether its main purpose is troubleshooting.,,,,,,,https://reddit.com/r/Ubiquiti/comments/1u5sg2z/unifi_16_port_poe_switch_lite_and_bell_giga_hub/
+B3-036,immich,iOS app won’t show content,"Do I have to update? I’m having update problems, otherwise it runs, so I really have to? Or is or possibly not working because something else?","[1:reply] You need to update.
+[2:reply] Your server to be clear.
+[3:reply] You need to update your server. Be sure to not update from 135 to 14c in one run. Carefully read each breaking change and upgrade incrementally. Also, make sure to keep your server up to date especially during active development phase or wait for stable.
+[4:OP] I did and it works. Thanks!
+[5:OP] I did and it works. Thanks!",title_body_comments,yes,yes,technical_troubleshooting,medium,The post describes a concrete malfunction or asks how to diagnose or fix one.,,,,,,,https://reddit.com/r/immich/comments/1nu6glg/ios_app_wont_show_content/
+B3-037,openclaw,New iOS update broke the app,It says disconnected on chat eventhough the gateway is connected,"[1:OP] Ok repairing fixes it
+[2:reply] Repairing what?
+[3:reply] Re - pair it   
+Under openclaw app there is a tab for  
+Mobile",title_body_comments,yes,yes,technical_troubleshooting,low,The post describes a concrete malfunction or asks how to diagnose or fix one.,,,,,,,https://reddit.com/r/openclaw/comments/1uw2ky9/new_ios_update_broke_the_app/
+B3-038,chrome,Chrome Update Version 145.0.7632.117 (Official Build) (x86_64) is broken,"Chrome Update Version 145.0.7632.117 (Official Build) (x86\_64) has broken my website due to their aggressive caching, it is makes websites behave as if it has bugs. Some directories would trigger a 404 when it was previously working good.
+
+Google always forces untested patches and updates on Chrome. Annoying. Google has turned from a fine tech company into a tech barbarian.
+
+I am switching to Edge.",,title_and_body,yes,yes,technical_troubleshooting,low,The text may describe a problem to diagnose; check whether its main purpose is troubleshooting.,,,,,,,https://reddit.com/r/chrome/comments/1rhlwb3/chrome_update_version_14507632117_official_build/
+B3-039,Dell,Alert! tpm device not detected on Dell XPS 8940.,"Since day one I got this shitbox computer I got this message every time I boot it up. Computer has always been particularly hard to boot up, falling into a boot loop sequence if I don't hold the power button in a specific manner. I've always ignored those problems like an absolute dumbass but now the fact it can't detect a tpm device is preventing me from ""upgrading"" my pc to windows 11. Computer is out of warranty its a 2021. 
+
+Steps I've taken sor far: 
+-try to find tpm setting in bios. TPM device settings are absent from the bios
+-updated the bios, still no tpm ddevice settings
+-download a dell patch that was supposed to fix the bug that tpm settings are absent from bios, didn't work
+- reseted bios to default settings. still no tpm settings in bios. 
+-changed the mother board battery. 
+-contacted dell support, absolute waste of time, the agent sent me a link to the windows 11 webpage to check if my computer was compatible. they told my top contact sale team. 
+
+What else can I try ? could the mother board just be fried ? thanks!!","[1:OP] Yeah, there's no PTT either sadly.
+[2:reply] Try searching for PTT in the bios under Security, its not called TPM anywhere in the uefi as far as I know.
+[3:reply] Download and install TPM 2.0 should be all you need to do.
+[4:OP] Done already, didn't work 😔",title_body_comments,yes,yes,technical_troubleshooting,medium,The post describes a concrete malfunction or asks how to diagnose or fix one.,,,,,,,https://reddit.com/r/Dell/comments/1o1cbch/alert_tpm_device_not_detected_on_dell_xps_8940/
+B3-040,Ubiquiti,Alarm Manager is still broken,"I’ve seen a few other posts from people recently saying their alarms aren’t working etc, I think it’s quite common, despite Ubiquiti seemingly burying their head in the sand about it.
+
+I’ve got 2 sites - just upgraded to a G2 pro UNVR and moved the old G1 UNVR to the other site (set it up as new). Setting up new alarms in the G1 just straight up doesn’t work. The alarms save ok, the detections hit, but the alarm doesn’t fire. The only way to get it to work is to restart the console. Really embarrassing when you advocate for a product line and encourage someone to spend a few hundred on equipment, and it doesn’t even work without a reboot. Whatever I guess.
+
+So now on to the G2 pro - something I’ve never seen before. This is a residential setting with only 2 of us as admins. One line crossing alarm set to notify the only other admin on the system, not me. Guess who it notifies and who it doesn’t? Yup. Deleted it and recreated it, restarted the console, still broken. Guess we won’t be using that then.
+
+I don’t understand how a relatively simple system is so fundamentally broken and why anyone at Ubiquiti wants to acknowledge it or fix it.","[1:reply] Damn, though it was just me.. So unreliable alarms, firing some days, and some days not even though the activity log in UniFi Access shows an event that should have triggered. Cannot use it like it is right now :/
+[2:reply] Not making excuses but you are looking at some of the newer features which are still in their infancy. We know ubiquiti don't get it right first, second and often third time. It takes them a while to get stability and I think the whole Alarm manager thing showed the older hardwa…
+[3:reply] I was going to set up webhooks for network, but I couldn't even get client disconnections to reliably detect let alone trigger. Not that I care about client disconnects per se, but with no test function that would have been the easiest way to test webhooks.
+
+
+Honestly, stats see…
+[4:reply] Hello!  Thanks for posting on r/Ubiquiti!
+
+This subreddit is here to provide unofficial technical support to people who use or want to dive into the world of Ubiquiti products.  If you haven’t already been descriptive in your post, please take the time to edit it and add as many…
+[5:OP] Yeah that’s fair. Just a bit disappointed is all. Here’s hoping they can squash these bugs soon :)",title_body_comments,unclear,unclear,na,low,The saved text does not identify the software topic clearly enough.,,,,,,,https://reddit.com/r/Ubiquiti/comments/1tihd36/alarm_manager_is_still_broken/
+B3-041,MacOS,macos tahoe 26.1 3rd party browsers no longer working,"I got a macbook that's configured for a domain at our company that was recently updated to tahoe 26.1 today. After the update, with the exception of safari, no 3rd party browsers seem to be working at all. I keep getting errors along the lines of ""This site can't be reached"", ""The connection was reset"", ect.   
+  
+I'm able to connect to internal websites and able to get the DNS to resolve names on these browsers but unable to connect to any external websites even with just the IP address enter that I got from the said DNS resolutions, and I keep getting the same errors. Even in safe mode, reinstalling the browser in question, installing a different 3rd part browser, and even checking if chromium was the issue and installed a not chromium browser. same issue.   
+  
+There are no proxy settings, the firewall has been switched off, all filter have been switched off, tried this on different accounts, different routers, and different networks. no luck. Has anyone else ran into this error? Did Apple add a new security feature that only safari is configured for? 
+
+  
+Please let me know what you guys know as all solutions I keep finding don't work, are too old, or just random configs that doesn't seem to be doing anything after trying.",,title_and_body,yes,yes,technical_troubleshooting,medium,The post describes a concrete malfunction or asks how to diagnose or fix one.,,,,,,,https://reddit.com/r/MacOS/comments/1onvuzk/macos_tahoe_261_3rd_party_browsers_no_longer/
+B3-042,github,Excuse me? WTF?,https://preview.redd.it/1qt1os9fyzrf1.png?width=894&amp;format=png&amp;auto=webp&amp;s=60aa344cf71dae1a0a85f6c51e40986a1b35c5fe,"[1:reply] It's spam. Report it and move on.
+[2:reply] r/lostgithubbers
+[3:reply] Good thing there's no unhinged people on GitHub and all of of our open source work is appreciated and kindly encouraged in issues 👍
+[4:reply] Looks like someone with a gang-stalking delusion stumbled upon your repo. I wouldn’t put much thought into it — it’s a sad situation, but it has basically nothing to do with you.
+[5:reply] I need a bit more context for this",title_body_comments,unclear,unclear,na,low,The saved text does not identify the software topic clearly enough.,,,,,,,https://reddit.com/r/github/comments/1nt3yn3/excuse_me_wtf/
+B3-043,transformers,Got my SS86 Prowl juuuust right.,,"[1:reply] sigh if only they gave him orange light piping
+[2:reply] instruments of destruuuuctiooon
+[3:OP] I'll probably pop his head apart and repaint the eyes. It's definitely missing that je ne sais quoi. Been also considering getting a smoke effect from marvel legends to give him the smoking mouth.
+[4:reply] Oof hasbro really needs to make new Datsun bros molds. That earth rise mold needs to go
+[5:reply] Haha..... [*childhood trauma surfaces*](https://www.tfw2005.com/boards/attachments/prowl-gif.29972301/)",title_plus_comments,no,no,na,low,The saved post does not describe software.,,,,,,,https://reddit.com/r/transformers/comments/1nq82np/got_my_ss86_prowl_juuuust_right/
+B3-044,Android,"Lenovo says upcoming Android PCs will have ""limited desktop features, app compatibility issues"" and more problems when compared to Windows PCs",,"[1:reply] I don't see how it wouldn't be true.
+[2:reply] I'm confused on what people expect from day 1.   
+  
+If the specs are good enough, then the Linux environment, Winlator and/or Gamehub will bridge the gap for power users that insist on buying an Android PC.
+[3:reply] Alternative headline: Lenovo to release alpha Android PC hardware so the community of tech enthusiasts will hopefully do the work for them of making it something the average person would pay $1000-$1500 for.
+[4:reply] Android PC vs Steam Machine
+[5:reply] Also this is really a mixed group of ""problems"", because these are also all things that directly cause a lot of the issues Windows is having today. If Android laptops can't use SMB or run 32 bit x86 apps last updated in 2005 I *think* I'll live as long as actually modern apps en…",title_plus_comments,yes,no,other,medium,The post discusses software without a clear repair request or chiefly negative opinion.,,,,,,,https://reddit.com/r/Android/comments/1ow2abx/lenovo_says_upcoming_android_pcs_will_have/
+B3-045,vscode,I AM CRASHING OUT,"PLEASE Someone help I WANT to start but this DAMN thing wont recognise the code ive been at this for like TWO DAYS. ty
+
+https://preview.redd.it/8iqurvbt6xsf1.png?width=774&amp;format=png&amp;auto=webp&amp;s=504551245ec4b50997220d58921bf9a03b4073eb","[1:reply] How do you expect anyone to help you if you don't give any kind of information about your issue?
+What are you exactly trying to do? What errors are you exactly getting?
+[2:reply] Too much detail here to go through.
+[3:reply] What?
+[4:reply] Don't skip class, don't skip reading
+[5:reply] The thing! The DAMN thing! Didn't you read the post? It's the thing he's crashing out over. Stop asking questions and help him! With the thing, the DAMN thing!",title_body_comments,yes,no,technical_troubleshooting,medium,The post describes a concrete malfunction or asks how to diagnose or fix one.,,,,,,,https://reddit.com/r/vscode/comments/1nx30l4/i_am_crashing_out/
+B3-046,MicrosoftEdge,"Where's the ""new tab"" button?! Edge on Android is so broken it's not funny.",,"[1:reply] I can confirm this issue. Not funny
+[2:reply] As much as I like Edge, it struggles on Android.  I had to switch to Brave.  I still use Edge on laptop and desktop.
+[3:reply] Did you try it in a vertical layout? It's here on my PC.
+[4:reply] Noticed this yesterday on my tab, keeps popping up and disappearing.
+[5:reply] On the National Common Documentary (NCD), 
+
+You see this common specimen on a website call reddit, known as a redditor, specifically a kind of redditor who never read the whole thing and always end up coming up with generic wrong answer like a terrible ""Ai"". Despite the this sit…",title_plus_comments,yes,no,technical_troubleshooting,low,The text may describe a problem to diagnose; check whether its main purpose is troubleshooting.,,,,,,,https://reddit.com/r/MicrosoftEdge/comments/1p1ccv4/wheres_the_new_tab_button_edge_on_android_is_so/
+B3-047,software,Update 2.3.1 is now live,Enjoy the latest update,,title_and_body,yes,yes,other,low,The post discusses software without a clear repair request or chiefly negative opinion.,,,,,,,https://reddit.com/r/software/comments/1wwrzr6/update_231_is_now_live/
+B3-048,AndroidQuestions,Google stopped allowing screenshots. Google chrome. Of the most mundane things.,"Had to uninstall updates to return to normal, wtf?","[1:reply] Probably a security policy, plenty of other people seem to be complain of this sporadically over the last few years.
+
+I dumped Chrome and main Zen now.
+[2:OP] Yeah I have been researching it a lot right now. I hate when things like this crash or change especially because it's actually the first time it has ever happened to me really.
+
+Turns out there was an update yesterday that caused a miscommunication error between the Google chrom…
+[3:reply] I use brave. F google
+[4:OP] Cool thanks",title_body_comments,yes,yes,technical_troubleshooting,low,The text may describe a problem to diagnose; check whether its main purpose is troubleshooting.,,,,,,,https://reddit.com/r/AndroidQuestions/comments/1u9f7e6/google_stopped_allowing_screenshots_google_chrome/
+B3-049,comfyui,"main.exe appeared to Windows users folder after updating with ComfyUI-Manager, wants to access internet",,,title_only,yes,yes,technical_troubleshooting,low,The text may describe a problem to diagnose; check whether its main purpose is troubleshooting.,,,,,,,https://reddit.com/r/comfyui/comments/1kerxt0/mainexe_appeared_to_windows_users_folder_after/
+B3-050,transformers,They didn't have that trademarked?? Dang,,"[1:reply] That's interesting. I'm trying to remember what it was but I heard it within the last week in some unrelated show and was like wait what? I'll try remember what it was and edit if I do. 
+
+Also, I feel like I remember either the G1 series or movie using the very distinctive r2-d2…
+[2:reply] I've been working my way through G1. They used a bunch of Star Wars sounds.
+[3:reply] I dont blame them for this one. 
+
+Nintendo on the other hand.... fuck those guys.
+[4:reply] Lucasfilm made the sounds available as archive sound effects. It's a lot more than just lightsaber sounds. The sounds created for X-Wing and TIE Fighter engines, blaster sound effects, even seemingly mundane sounds like the goopy, splattery sounds of the Dianoga in the Death Sta…
+[5:reply] There's also the same explosion noise in Transformers that was used in Star Wars during Tie fighter fights and space fights in general.",title_plus_comments,no,no,na,low,The saved post does not describe software.,,,,,,,https://reddit.com/r/transformers/comments/1npz15e/they_didnt_have_that_trademarked_dang/
+B3-051,godot,"Been awhile since I posted an update about the skateboarding game, it's mostly been backend work",,"[1:reply] Never failing to amaze me, how do you go about detecting the inputs and matching them to a trick on the right stick. It's always amazed me how they detect this stuff in skate.
+[2:reply] This is amazing. Really shows this engine can do great things.
+[3:OP] ours is more or less set up to listen for specific positions on the stick, plus a flick in a specific direction  
+usually the start position + flick direction is how we figure out which trick would be which
+[4:reply] I play Session now and have played Skate 1/2/3/reboot, lmk if you want playtesters yet!
+[5:reply] Now I am not 100 percent sure, but if I remember correctly session used a different trick system because this system is heavily copyrighted by EA. Might want to check before you put to much effort into this, unless you plan to never release it.",title_plus_comments,yes,yes,technical_troubleshooting,low,The text may describe a problem to diagnose; check whether its main purpose is troubleshooting.,,,,,,,https://reddit.com/r/godot/comments/1ridipg/been_awhile_since_i_posted_an_update_about_the/
+B3-052,Android,"Uninstalling Google Play System updates is finally possible, right from your phone",,"[1:reply] *For now™️*
+[2:reply] Of course I'd then have to go through the 200+ apps on my phone (less than a dozen of which I actually downloaded) to reset permissions (especially battery usage, modify system settings and, most importantly usage access) that the update turned on, same as I have to do after eve…
+[3:reply] I'm sorry, but why would someone do that? 
+It's critical for the phone's security, right?! Errrrr
+[4:reply] Not giving users freedom of choice because some people might get scammed is a really terrible way to view consumer products.
+
+""Those who would give up essential Liberty, to purchase a little temporary Safety, deserve neither Liberty nor Safety""
+[5:reply] That permission reset process after updates is a real pain, especially with so many apps to manage.",title_plus_comments,yes,yes,other,medium,The post discusses software without a clear repair request or chiefly negative opinion.,,,,,,,https://reddit.com/r/Android/comments/1oz5675/uninstalling_google_play_system_updates_is/
+B3-053,Magisk,[HELP] after updating magisk i go in to bootloop,,,title_only,unclear,unclear,na,low,The saved text does not identify the software topic clearly enough.,,,,,,,https://reddit.com/r/Magisk/comments/1kjzegx/help_after_updating_magisk_i_go_in_to_bootloop/
+B3-054,FastAPI,"PostgreSQL with Alembic and psycopg2, psycopg3, or asyncpg","I previously wrote a [review of Leapcell](https://www.reddit.com/r/FastAPI/comments/1nvfucq/assessment_of_leapcell_for_student_free_hosting/) that incorrectly listed a problem I had using asyncpg with Leapcell.  u/OfficeAccomplished45 took the time to help me understand that asyncpg works with Leapcell. Thanks. The problem was in my app.  I have since updated the original post.
+
+The solution was simple, but I learned something about mixing async access with sync migrations. My learnings are in this blog: [Architectural Consistency When Working with a PostgreSQL Async Database](https://oppkey.github.io/fastopp/2025/10/07/postgresql-async/)
+
+I paused my learning journey after implementing asyncpg with async alembic. I am new to alembic and have some questions, which will help me continue my journey.
+
+1. is there a downside to async alembic?
+
+```python
+connectable = async_engine_from_config(...)  # ASYNC engine 
+async with connectable.connect() as connection:  # ASYNC connection await  
+    connection.run_sync(do_run_migrations)  # It works!
+```
+
+This was not working in my app.
+
+```python
+connectable = engine_from_config(...)  # SYNC engine
+with connectable.connect() as connection:  # SYNC connection
+    context.configure(connection=connection, ...)
+```
+
+2. I heard that psycopg3 works with async and can replace asyncpg.  Is psycopg3 better?
+
+# use cases for async database access
+
+I am building a tool for education and want to include async database access for students who are more creative and smarter than me.  However, I'm not sure of the specific use cases, such as many joins, where the async database access is needed instead running a sync database connection with something like Celery for background tasks.
+
+If people have examples of when async database access really shines as opposed to Celery, let me know.
+
+I think most of the examples students find on the Internet or AI will be with psycopg2...
+
+# Legitimacy of async and sync confusion
+
+I've spent spent the last few years working with Dart, which is async by default, or Django, which is sync by default.  In order to handle LLM asynchronous chat and agent tasks, I moved from Django to FastAPI.  This is going well.  However, as the Python language seems to live in two worlds, I'm getting confused by things like SQLAlchemy and Alembic that have examples for both async and sync.  To keep my simple brain from having to switch back and forth, I'm trying to make the FastAPI async-first by convention.  However, it is tough.
+
+I'm already trying to set my Python &gt; Analysis: Type Checking Mode to strict to help with the types that I got used to from Dart.
+
+Any advice?","[1:reply] Mmm, it's a lot to get your head around, be patient with yourself getting to grips with it. 
+
+
+Firstly, the word ""async"" is infact heavily loaded, and your comparison of celery to asyncio is comparing two different  . While you might use asyncio and celery both in pursuit of the…
+[2:reply] I just spent a couple hours working through u/cloudster314's tutorial installing Leapcell. [Free Deploy to Leapcell with FastAPI, PostgreSQL and Object Storage](https://youtu.be/GoKpQTHE-1A?si=X37acBjMZflAJVez) It's a good way to see Leapcell in action. I've done the same with […
+[3:OP] thanks for the help.  
+
+\&gt; And fundamentally the library underneath it needs to support awaiting instead of blocking when it does IO, which is why we have this awkward world of parallel aio versions of things.
+
+Oh, this is one of the puzzling issues when the underlying Python…
+[4:OP] \&gt; Leapcell's Hobby plan is generous: you can create a free PostgreSQL database up to 100 MB and use built-in Object Storage. 
+
+I agree this is nice.
+
+Have you figured out a way to see what your database usage is against the 100MB limit?
+
+For the Object Storage, it shows at t…
+[5:reply] A practical annoyance of working with both asyncio SQLAlchemy (say with FastAPI or Flask) along with Celery is having to maintain two boilerplates for sync and asyncio SQLAlchemy engines and sessions. And further, if you want to reuse any functions between your web framework and…",title_body_comments,yes,yes,technical_troubleshooting,medium,The post describes a concrete malfunction or asks how to diagnose or fix one.,,,,,,,https://reddit.com/r/FastAPI/comments/1o0sfq3/postgresql_with_alembic_and_psycopg2_psycopg3_or/
+B3-055,MacOS,Some welcome improvements On the new MacOS,"With all the hate recently, I just want to admire two things that have been top notch for me after updating:
+
+  
+1. Sound switching between iPhone and MacOS is way way more reliable now
+
+2. Personal hotspot connection is now instantly connecting and seems to stay solid for hours on end without disconnecting.
+
+Overall device communication seems to have improved as well like shared clipboard, switching FaceTime between devices, etc... 
+
+These problems were bugging me a lot previously and really made the quality of life experience horrible and cheap. Now it feels much much better.","[1:reply] Hotspot always a problematic case since Sequioa for me.  
+Mac mini M2 - XR, using cable.  
+When I ping google, periodically, ping always jump up from 20-50 ms to 3000-5000 ms.
+
+    64 bytes from 74.125.24.113: icmp_seq=36312 ttl=102 time=34.535 ms
+    64 bytes from 74.125.24.113…
+[2:reply] There are definitely moment of elegance as well with Liquid Glass, like beautiful little moment of interactions. I just wish the overall picture wasn't so half baked, so unnecessarily rushed out
+[3:reply] Personal hotspot never was a problem for me, connection was always stable. M1 macbook pro.",title_body_comments,yes,yes,other,low,The title presents news or release information rather than a problem to diagnose.,,,,,,,https://reddit.com/r/MacOS/comments/1o0arcd/some_welcome_improvements_on_the_new_macos/
+B3-056,google,this ai is just bad.,,"[1:reply] Don't know why but like 80% of the time it will give me right answers...
+[2:reply] For years, you could just Google this or that. Lately, the sheer volume of people claiming they've googled the answer only to be regurgitating some asinine AI hallucination Google now pleases as the first result is beyond scary. 
+
+Stop contributing to Idiocracy Google. It's amaz…
+[3:reply] I say AI is correct about 80-90% of the time. But if you aren't familiar with the material, you don't know what 90% to trust as accurate and what 10% to not trust as accurate.
+[4:reply] While it would be great for Google to step in and not show AI results unless it had a high degree of confidence it's correct, the better solution is to find a way to teach people critical thinking and how to avoid bad information.
+[5:reply] Wait till you realize all it does is regurgitate the top results from searching for what you asked.
+
+It's only as good as the information people have posted on the internet about the subject. It doesn't actually know anything.",title_plus_comments,unclear,unclear,na,low,The saved text does not identify the software topic clearly enough.,,,,,,,https://reddit.com/r/google/comments/1nznizy/this_ai_is_just_bad/
+B3-057,applehelp,The new update messed up the full screen shot,Whenever I screenshot my email order it turns it into pages and then when I click on “full page” it turns it into a single picture but it still leaves the space in between as if it was still pages. It wasn’t used to be like this. I am on the latest update.,,title_and_body,yes,yes,technical_troubleshooting,low,The text may describe a problem to diagnose; check whether its main purpose is troubleshooting.,,,,,,,https://reddit.com/r/applehelp/comments/1s8lap4/the_new_update_messed_up_the_full_screen_shot/
+B3-058,openclaw,How to fix?  Error: Config validation failed:,"Post update I'm getting this error:
+
+ plugins.entries.memory-lancedb.config.embedding: invalid config: must have required property 'embedding'
+
+AI steers me here: This is a clear config validation error — the memory-lancedb plugin upgraded and now requires an explicit embedding field that didn't exist in your old config. Here's how to fix it:
+
+1. Find your config file
+
+  
+I go here:  $ cat /home/alex/node\_modules/openclaw/package.json
+
+...and do NOT find any ""embedding"" or ""memory-lancedb"" within the file
+
+  
+Recommended text to add for fix
+
+""memory-lancedb""""memory-lancedb"": { ""config"": { ""embedding"": { ""model"": ""text-embedding-3-small"", ""provider"": ""openai"" } } }
+
+  
+Bumps of direction please?",,title_and_body,yes,yes,technical_troubleshooting,medium,The post describes a concrete malfunction or asks how to diagnose or fix one.,,,,,,,https://reddit.com/r/openclaw/comments/1sgqjk6/how_to_fix_error_config_validation_failed/
+B3-059,MicrosoftEdge,Video playback issues in Edge when subtitles are enabled,"Hi everyone, I’ve been experiencing a strange issue in Microsoft Edge across multiple streaming sites (YouTube, Netflix, Prime Video, etc.). Whenever I enable subtitles, the video image seems to “jump,” flicker, or get slightly cut whenever new lines of subtitles appear.
+
+This doesn’t happen in Chrome or Firefox — only in Edge. I’ve already tried:
+
+* Updating Edge to the latest version
+* Adjusting subtitle styles in the streaming site
+* Disabling hardware acceleration in Edge
+
+Has anyone else run into this exact issue recently? Is there a confirmed fix or setting that can stabilize video playback with subtitles in Edge?
+
+Thanks in advance for any suggestions!",,title_and_body,yes,yes,technical_troubleshooting,medium,The post describes a concrete malfunction or asks how to diagnose or fix one.,,,,,,,https://reddit.com/r/MicrosoftEdge/comments/1p2h7pk/video_playback_issues_in_edge_when_subtitles_are/
+B3-060,applehelp,Activation problem on iPhone 12,"So I got this iphone 12 recently and before I bought it I was using it and used Face ID on it and checked everything out and everything was working. And the only thing that doesn’t work on this phone is mobile data, or 4g/5g. It’s not bypassed because before i reseted it it had an iCloud account and the owner removed it in front of me. Anyways, I’ve tried everything and stayed up until 5 am and still nothing. It was on ios18 and it still had the same problem and then I flashed it with the iOS 26.5 and still the same problem. Please help (no I didn’t do any beta updates)","[1:reply] The baseband chip is dead. Fixing it requires a complex and expensive hardware repair (not worth it)
+[2:OP] Ok so it’s brick? Can I bypass the check or bypass it or smth? Can’t I just use it without it? Or do i just let it collect dust",title_body_comments,yes,yes,technical_troubleshooting,low,The text may describe a problem to diagnose; check whether its main purpose is troubleshooting.,,,,,,,https://reddit.com/r/applehelp/comments/1uddeks/activation_problem_on_iphone_12/
+B3-061,Ubiquiti,Suricata 8 enabled in Network 10.5.51 (Early Access),"Finally!
+
+[https://community.ui.com/releases/UniFi-Network-Application-10-5-51/0d962347-1a65-4e7f-8594-ed81f34da894](https://community.ui.com/releases/UniFi-Network-Application-10-5-51/0d962347-1a65-4e7f-8594-ed81f34da894)
+
+# Improvements
+
+* Added SD-WAN Underlay support in Port Manager, allowing direct underlay connections between SD-WAN hubs for low-latency traffic when available.
+* Configuration support will be available in a future Site Manager release.
+* Added PPPoE 1500 MTU support.
+* Added migration support from Suricata 6 to Suricata 8.
+* Requires UniFi OS 5.1.20 or newer.
+* The upgrade may take up to 1 hour after updating the Network Application.
+* On consoles with high resource usage, the automatic upgrade is skipped and a manual upgrade option is available in CyberSecure settings.
+* Added an infrared status indicator for EAV Bridge.
+* Requires firmware version 1.0.9 or newer.
+* Added Last Seen information to anomaly tooltips in Port Manager.
+* Added Hits and Last Hits columns to the Policy Table and predefined policy side panel.
+* Added a Person filter to the Clients page.
+* Requires One-Click WiFi.
+* Added Data Plane Protection option under SafeOps.
+* Improved device adoption resiliency.
+* Improved Safe Mode triggering logic.
+* Improved Network Application stability under high load.
+* Improved IPsec Policy-Based Routing configuration by excluding WireGuard and OpenVPN clients from Local Network selection.
+* Improved the Observability user experience.
+* Improved Auto STP Edge behavior by excluding Sonos devices from automatic BPDU Guard assignment.
+
+# Bugfixes
+
+* Fixed an issue where the WiFi Speed Limit appeared as selected in the WiFi Broadcast settings when it was not enabled.
+* Fixed an issue where disabling a LAN port on UX7 could prevent configuration from being provisioned to other meshed access points.
+* Fixed an issue where Port Profiles were not respected when using Auto STP Edge.
+* Fixed an issue where AV Manager was not displayed when no switches were adopted on the site.
+* Fixed an issue where jumbo frames were not correctly applied to EF-Core LAG ports.
+* Fixed an issue where switches could fail to adopt in rare cases.","[1:reply] Interesting notes about Sonos. Does that mean no more separate edge profile to create and assign?
+[2:reply] - Added PPPoE 1500 MTU support
+
+This took way too long
+[3:reply] Sonos fixed things on their end now that you can disable SonosNet within the app without having to disable WiFi on the devices that are wired.
+[4:reply] Requires one click WiFi?
+[5:OP] Definitely significant security updates (https://suricata.io/2026/05/19/suricata-8-0-5-and-7-0-16-released/), but also DPDK and hardware offloading (https://www.dpdk.org/elevating-network-security-performance-suricatas-integration-with-dpdk/), though it's not yet clear whether U…",title_body_comments,yes,yes,technical_troubleshooting,low,The post describes a concrete malfunction or asks how to diagnose or fix one.,,,,,,,https://reddit.com/r/Ubiquiti/comments/1udzyh7/suricata_8_enabled_in_network_10551_early_access/
+B3-062,firefox,"Firefox 145.0, See All New Features, Updates and Fixes",,"[1:reply] MKV support is huge
+[2:reply] The tab list when hovering over a group is such a small tweak but such a huge usability improvement at the same time. Great idea. I hope they keep adding little features like that to tab groups to make them the best the can be. (double click on tab to expand and collapse pls 🙏)…
+[3:reply] All those contributed to this, love you folks and thank you for your efforts.
+[4:reply] I hope Firefox get a better wallpaper section like Google Chrome.
+[5:reply] Firefox code contributors and volunteers, unsung heroes of open source and freedom.",title_plus_comments,yes,yes,other,medium,The title presents news or release information rather than a problem to diagnose.,,,,,,,https://reddit.com/r/firefox/comments/1oualta/firefox_1450_see_all_new_features_updates_and/
+B3-063,ios,What should I do? Before I can’t anymore?,"I’m on iOS 17.5 still I’ve stayed on iOS 17 on purpose because the newer iOS versions are the more I hate em. My gf had updated her 14 to iOS 26 on accident (she didn’t know it was on auto update) and I really hate it as i figured I would. Im asking now because I can still get iOS 18.7.3 threw the iOS beta option, however im a huge music head and still put music on my iPhone from the Music app on my MacBook just as if it was an iPod, I will always keep my music offline rather than using streaming apps I’m just wondering if iOS 18.7.3 will be able to sync fine still if I were to update. Really mad i didn’t update a few weeks ago when iOS 18 still showed up under iOS 26 and if there is anything else I should know about updating to iOS 18.7.3 threw the public beta way please let me know asap. Thanks a lot in advance I’d really appreciate the helpful info 🙏🏼",,title_and_body,yes,yes,general_dissatisfaction,low,The main message criticizes software without a clear request to diagnose or fix it.,,,,,,,https://reddit.com/r/ios/comments/1pnjv09/what_should_i_do_before_i_cant_anymore/
+B3-064,transformers,One year ago today...,Transformers One mainline DLX warrior class Optimus Prime,"[1:reply] Never seen someone use the arms to give him proper truck stacks! That’s genius!
+
+Always liked this guy, he was similar enough in size and timing to the SS that many skipped him, but I always thought he had a couple genuine qualities better, like the colors and lack of a detachab…
+[2:reply] A legitimately fun toy
+[3:reply] I have it, It is missing one smokestacks, because someone stole it in the shop. Like... why?
+[4:reply] First thing I did out of the box",title_body_comments,no,no,na,medium,The saved post does not describe software.,,,,,,,https://reddit.com/r/transformers/comments/1nuk7eq/one_year_ago_today/
+B3-065,angular,Angular Update 18 -&gt; 20 ESM Require Error,"After updating from angular 18 -&gt; 20 I am getting an error.   
+  
+require() of ES Module ../node\_modules/ora/index.js from ../node\_modules/@angular-devkit/build-angular/src/utils/spinner.json
+
+When i went from 18 -&gt; 19 it was fine, but 19 -&gt; 20 it was not.
+
+After looking at dependencies, i saw that angular devkit switched from ora v5.4.1 to v8 when going to version 20 for angular from 19.
+
+by overriding ora in my package.json i am able to serve/build fine.
+
+  
+I also updated typescript from 5.4 to 5.9.3.
+
+node: V22.12.0  
+typescript: V5.9.3  
+NX: V21.6.6  
+
+
+I am wondering if anyone else had this issue and if so how was it resolved?",,title_and_body,yes,yes,technical_troubleshooting,medium,The post describes a concrete malfunction or asks how to diagnose or fix one.,,,,,,,https://reddit.com/r/angular/comments/1odmjic/angular_update_18_20_esm_require_error/
+B3-066,chrome,Latest update finally fixed the bug closing bookmarks when you hit CMD!,,,title_only,yes,yes,other,low,The title presents news or release information rather than a problem to diagnose.,,,,,,,https://reddit.com/r/chrome/comments/1n1mncc/latest_update_finally_fixed_the_bug_closing/
+B3-067,immich,Failed to deploy,,"[1:reply] It sounds like you're using an older version of docker compose. Your best bet going forward might be to upgrade to compose v2.
+[2:reply] Care to share your compose?
+[3:OP] I'm using the yml file from immich portainer install (on Portainer inside QNAP nas)
+[4:OP] I'm using the yml file from immich portainer install (on Portainer inside QNAP nas)",title_plus_comments,unclear,unclear,na,low,The saved text does not identify the software topic clearly enough.,,,,,,,https://reddit.com/r/immich/comments/1nqptsb/failed_to_deploy/
+B3-068,linux,"Is there a compelling reason for Fedora to perform updates in this Windows-style manner? Why can’t the system apply updates while it’s running, so that the reboot doesn’t involve any waiting because everything has already been completed?",,"[1:reply] There is. If you update on the fly, apps might stop opening and services may stop being able to launch. Doing it this was makes sure that people who are not acquainted with how Linux updates work won't be confused by LibreOffice not wanting to start. Advanced users can easily di…
+[2:reply] They do app an some security updates while running but there are other system updates which require services to be off due to stability. Same reason windows does it.
+[3:reply] It's an offline upgrade.
+
+If you use gnome, it can download updates in the background and apply them on the reboot. You can turn this off in the settings. 
+
+KDE discover also does this, and so does using the offline-upgrqde option in dnf. 
+
+You can turn off automatic upgrades an…
+[4:reply] Windows needs it for more basic reasons, as it can't overwrite opened files.
+[5:reply] &gt; If you update on the fly, apps might stop opening and services may stop being able to launch
+
+Yep - when I use ~~pacman -Syyu~~ on Arch and Firefox gets an update, it actually stops me from opening new tabs and demands I restart the entire application _now!_
+
+Plus, whenever…",title_plus_comments,yes,yes,technical_troubleshooting,low,The text may describe a problem to diagnose; check whether its main purpose is troubleshooting.,,,,,,,https://reddit.com/r/linux/comments/1piwkia/is_there_a_compelling_reason_for_fedora_to/
+B3-069,applehelp,Weird Browser Issue - MacOS,"Hello all, 
+
+Forgive me as I am not the most technically savvy when it comes to the way that the internet works, and this is a rather long post.
+
+I have an M1 Macbook pro and it is currently running MacOS 14.4.1 (I know that I need to update). I use google chrome, no browser extensions, I am signed in to my google account/chrome profile. It is my personal computer that I use mostly for University, as well as for various photo/video/music projects. 
+
+I have recently started having a very bizarre issue with the internet. Last week on Thursday I was in a class and we were instructed by a professor to go to [monster.com](http://monster.com) and look for job internships in our major. 
+
+When I input a search, it redirected first to a page where it said that it was ""verifying my device"" - it made me slide a slider to confirm that I am not a bot - after which it told me that my access was temporarily restricted. 
+
+no problem, i just assumed it was a weird error, and decided to use Indeed instead. I remember for the rest of my class that it felt like the internet was slow, and I couldn't figure out why indeed kept reloading while I was just sitting idle on the webpage. 
+
+I was home later that day and was trying to do some various homework - my browser was behaving oddly, until finally I was trying to use sparknotes (I am lazy sometimes) and suddenly it was like Chrome just broke - Sparknotes would just reload and throw various errors about not being able to display the webpage properly or just timing out. the internet was working fine on my other devices. In addition to this, Desire2Learn (""D2L"") and my schools website, MyIUP were working fine. 
+
+I wasn't sure what to do, so I tried opening a private browsing window in chrome, typed in ""Beowulf Sparknotes"", tried to open the page I was looking for, and it was still doing the same thing. Then I closed that chrome window, opened safari and tried it, and it started throwing the SAME assortment of errors - the most common was an ""error 400"" but it would throw me other weird looking errors as well. I regret not taking screenshots. 
+
+At that point I closed safari, right clicked on chrome, and noticed that I had several windows open, one of which had been from the class that I had been in, and [monster.com](http://monster.com) was still open in a tab and loaded into the ""access temporarily restricted"" - I saved some of the writing I had in D2L and closed all chrome windows, and tried again, and while it still seemed like chrome was being buggy (oddly slow, and would weirdly refresh even though I was just sitting idle, I have gigabit internet and use my own modem and router, the internet has yet to be slow in this apartment). 
+
+Friday I was active again a lot on chrome finishing up schoolwork, and I continued to notice what seemed like very odd page loading/occasional refreshes, only on certain websites, and I recall getting one error 400, I don't remember what website I was on. things like YouTube, D2L, MyIUP, gmail, and google docs are all working just fine, with no weird issues. Reddit seems perfectly normal as I am typing this out. At that point on Friday I started googling the ""error 400"" issue, tried a bunch of the recommended fixes (clearing all browser data, cookies, browser cache, DNS cache, ETC) and it was to no avail. It was at this point in chrome's setting's that I noticed that it now said for some reason that my browser is managed by my organization - this is my personal computer though. 
+
+Today I was just using YouTube and haven't encountered any issues but started thinking more about it and was just kinda concerned, and also really just wanted to figure out why I seemingly couldn't access the monster job search website of all things. I had my mac plugged in to an external monitor with both displays on, and opened monster in a new window on my macbook screen. I made a search, the same things that I described earlier happened, and all of a sudden I noticed on the chrome my monitor that the Sparknotes tab I had open had suddenly started to reload after I hadn't touched a thing. 
+
+I clicked on the tab, and suddenly the entire page had been scaled down, and bordering the entire contents of the page was a massive national guard advertisement??? it looked like it loaded an entire image of a national guard ad the size of the whole webpage, with the contents of the normal sparknotes page scaled down about 25% and just slapped over top. Again, I regret not screenshotting. 
+
+I stopped the page from fully reloading, tried to reload it again, and it did the same thing - loaded in normal, then refreshed to a scaled down version of the webpage with a huge national guard image in the back (identifiable as such only by the characteristic white black and yellow emblem with the national guard text that was partially visible at the top of the page). 
+
+At that point, I immediately thought ""certainly this is adware"" and installed malwarebytes, ran a full scan and followed all of the recommended steps, and it came back fully clean, with nothing to report. 
+
+I left MWB running, restarted chrome for the MWB extension, and tried the same thing I just described with Monster and Sparknotes again, and this time nothing weird happened other than some of the same odd refreshes while sitting idle that I was describing earlier. 
+
+Does anyone on here have any idea what is going on? this is a recent issue, I have not had any sort of issues like this with my computer until last week in my class on Friday. I don't really do much with chrome outside of schoolwork. Does this sound like a common piece of adware? Is there any actual malware that is effecting newer macs right now that this is reminiscent of? Have I somehow been ""hacked"" ??
+
+All signs point to adware, but several unsuccessful scans have now left me with my hands up. I am also just very confused because I would assume that if I had somehow downloaded some piece of adware at some point that the issues would be more ""malicious"" seeming, and less just simply odd. what good is adware that doesn't display advertisements other than an unclickable poster for the US army that won't display properly? 
+
+If anyone has any insight as to whether or not my computer has been compromised in some way/to what extent if it has been, and potential ways to get rid of it/next steps that i should take/things to look out for if I can't be certain for now, any advice would be greatly appreciated.",,title_and_body,yes,yes,technical_troubleshooting,medium,The post describes a concrete malfunction or asks how to diagnose or fix one.,,,,,,,https://reddit.com/r/applehelp/comments/1r62nm3/weird_browser_issue_macos/
+B3-070,Android,Snapdragon-powered Galaxy S26 Ultra smashes Exynos-powered S26 in single-core performance,,"[1:reply] Base model vs Ultra, with their differences in cooling. This would make sense if it were the S26 base model (Exynos) vs S26 base model (Snapdragon)
+[2:reply] dont care, please give me efficiency and modem tests instead
+[3:reply] Do you ALWAYS talk like THIS because it is really ANNOYING and makes you LOOK like a BOOOMER.
+
+And that's not how you use ""hold my beer"".
+[4:reply] Becayse the S26 base 1. Has a smaller vapor chamber 2. Has a smaller body, so less heat dissipation 3. Is not an Ultra so why would a base be better
+[5:reply] Geekerwan used to do efficiency tests, but I have no idea if it's possible anymore due to unlocking the bootloader being impossible on One UI 8",title_plus_comments,yes,no,other,low,The post discusses software without a clear repair request or chiefly negative opinion.,,,,,,,https://reddit.com/r/Android/comments/1r69zno/snapdragonpowered_galaxy_s26_ultra_smashes/
+B3-071,Fedora,Fedora 44 NVIDIA,How’re the drivers holding up on Fedora 44? I’m talking specifically 5060/5070. Has it improved or gotten worse with the new update?,,title_and_body,yes,yes,other,medium,The post discusses software without a clear repair request or chiefly negative opinion.,,,,,,,https://reddit.com/r/Fedora/comments/1t2qe0r/fedora_44_nvidia/
+B3-072,Ubuntu,What the heck did 26.04 do to my PC?!,"Ever since I updated from 25.10 to 26.04 I've been experiencing a series of issues. 
+
+At first it was just a bit of micro-stutter, no big deal, I can live with that. Next my Wireless Card is no longer detected, whatever, I'll just use a USB Adapter. But now my PC is taking upwards of 2 minutes to boot, and when I try to play games on it, they run like they're underwater with tons of slowdown. 
+
+Worst of all, even after reverting back to 25.10, the performance issues persist. Wi-Fi is working again, but the PC still takes upwards of 2 minutes to boot up Ubuntu, games still run poorly, and now Snaps has disappeared from my toolbar and I can't get it to open at all. 
+
+I haven't a clue what's going on here, but I would really like to fix it. Problem is, I haven't a clue how to do that, because whatever 26.04 did to my PC has persisted even after reverting back to 25.10. 
+
+Now it's looking like I'm going to have to do a clean reinstallation of 25.10 just to get it running smoothly again, because rolling back to an earlier version doesn't work.","[1:reply] The upgrade probably messed with your boot partition or left some configuration files behind that didn't get cleaned up when you rolled back. I had similar issue few months ago where rolling back wasn't enough because some system files got corrupted during upgrade process.
+
+  
+C…
+[2:reply] I also recommend to do clean install with 26.04. It has no sense to install 25.10 again since its near to end of support.",title_body_comments,yes,yes,technical_troubleshooting,medium,The post describes a concrete malfunction or asks how to diagnose or fix one.,,,,,,,https://reddit.com/r/Ubuntu/comments/1tl3rm8/what_the_heck_did_2604_do_to_my_pc/
+B3-073,Android,Samsung Galaxy Z Flip6 gets a new feature with the latest One UI 8 beta update,,,title_only,yes,yes,other,low,The post discusses software without a clear repair request or chiefly negative opinion.,,,,,,,https://reddit.com/r/Android/comments/1n3dhh9/samsung_galaxy_z_flip6_gets_a_new_feature_with/
+B3-074,transformers,"So Hasbro sent me my omega prime replacement, again? So I have 3 of them now lol",,"[1:reply] Damn I haven’t even gotten my first replacement boo
+[2:reply] That’s actually perfect. One for Omega Prime, One for Battle mode and then a base Optimus Prime. That’s what I would’ve done if this figure was retail.
+[3:reply] Also it would be really funny seeing someone make a post on here saying “so someone donated the RID prime haslab to the place I work???”
+[4:OP] It will come eventually, they’re getting like 300 replacements in per week iirc
+[5:reply] If one or more will eventually just gather dust, consider donating to a  local children's ward at a hospital or so. Could make a difference for something you got for nothing.",title_plus_comments,no,no,na,medium,The saved post does not describe software.,,,,,,,https://reddit.com/r/transformers/comments/1ox9zpa/so_hasbro_sent_me_my_omega_prime_replacement/
+B3-075,kubernetes,Question: How to transfer information from one custom resource to another while not falling victim to concurrency.,"Hi All,
+
+  
+Im new-ish to k8s. Ive been working on a project dealing with custom resources which map to resources on the cloud. All of that isnt too important ive summarized my issue below. Ive been working with these custom resources in `go`.
+
+&gt; The problem below has been shorted to keep the important parts. Didnt want to bore you all with impl details 
+
+
+So suppose I have 3 custom resources ill call them A, B and X. Now A and B have a parent and child relationship where when I create A a corresponding B will be created. X is is an independent resource.
+
+Now X represents a request to join a group. X has many fields but here are the important ones.
+
+  
+```yaml
+
+Spec:  
+    groupId: ..  # this will identify the A resource which can get me to the B   resource
+    joinerId: ..  # this will identity the joining resource, this is something I need   to have on here with the project requirements I have
+```
+
+Now at any point in time inside B, I need a list of all joiner_id and the order is not important to me. Here are the issues I run in to.
+
+- X resource type can be deployed at anytime so there are concurrency issues if I take X and write into the status/spec of B or A (am I correct here?)
+
+Here are some ideas Ive some up with but gave up due to an issue
+- using locks inside A-resource and each time `X` wants to ""associate"" with B-resource I can capture it in an array. I planned to update the spec of B where B would hold an array of joinerIds and I would append to it but it seems like if I use locks in this manner, I may get memory leaks?
+
+- Querying inside B to get all X-resources where the X.spec.groupId was meant to go to that B resource. This seems to be very wasteful of resources and kinda slow if many X-resources get made and each reconcile will get super expensive
+
+---
+
+All in all, Im really feeling stuck and the ideas I come up with just like bad practice and I feel like if I actually manage to implement what I said above I will be hurting the future devs on this project.
+
+
+Thanks for reading if you made it this far. Thanks for you help on this one :)","[1:reply] This feels like an x y problem, I want the boring details
+[2:reply] That way you phrase this makes me think that a, b, and x are all instances of the same CRD, is this correct? If so I think this is where your implementation starts to fall apart. X should be a different CRD. And the controller should be aware of status changes to b.
+
+Though to b…
+[3:reply] No A B and X are different CRDs each with different managers. A and B are parent and child respectively where is X is alone. 
+
+Let me know if that’s a bad explanation I’m happy to elaborate
+[4:reply] Reconciliation is eventually consistent in Kubernetes. It may absolutely be that one reconciliation run will perform suboptimal actions, but the next reconciliation run will correct that since you (at least conceptually) evaluate the state of all resources on every reconciliatio…
+[5:reply] da fuck you are trying to do? none of it makes much sense",title_body_comments,yes,yes,technical_troubleshooting,medium,The post describes a concrete malfunction or asks how to diagnose or fix one.,,,,,,,https://reddit.com/r/kubernetes/comments/1nxiq9t/question_how_to_transfer_information_from_one/
+B3-076,Wordpress,Imaginate solutions is a SCAM,,"[1:reply] This is why I use virtual card numbers for subscription stuff.
+
+I can set one up with a limit on how much can be charged. After that they can keep trying to charge it but it won't work. I had to do this with another company that kept charging me after I cancelled with them.
+
+I s…
+[2:reply] Just wondering, have you tried contacting them via their contact form (https://imaginate-solutions.com/contact-us/)? It looks like their contact form is a ticking based so they should resolve it via that.
+[3:reply] They have phone number on site, call them up. Also if you are charged and did not allow for it simply file a chargeback with Credit Card ( 99% you will win the chargeback ) .   
+  
+If the chargeback rate is above a certain rate then most small vendors get kicked off payment gate…
+[4:reply] A virtual card for every subscription? a lot of admin, considering maybe like 10 subscriptions.
+[5:OP] I'm not located in India. ""Call them up"" will be very expensive and an annoyance. Why don't they have a cancel button in their platform to cancel payments as any non-shady company do?  
+Not to mention about my data, which there is no way to delete and I doubt they will if contac…",title_plus_comments,unclear,unclear,na,low,The saved text does not identify the software topic clearly enough.,,,,,,,https://reddit.com/r/Wordpress/comments/1nodn9g/imaginate_solutions_is_a_scam/
+B3-077,Fedora,Why Do They Keep BREAKING The Spotify App?,"Just updated my flatpak Spotify and it's broken again doesn't open, fourth fucking time now. The first time I had a spotify-flags file with:
+
+    --ozone-platform=x11
+    --disable-features=UseOzonePlatform
+
+That stopped working two updates ago. Most recently I have `ELECTRON_OZONE_PLATFORM_HINT=wayland` under environment in Flatseal. Now that doesn't work and if I don't use Wayland Spotify won't even launch. Now I'm back to the old shitty Windows XP title bar. 
+
+Does anyone at all know how to fix this? I have had enough of their constant fuck ups. Are there any other apps that provide the same functionality? I would just use the browser for Spotify if it allowed me to sort by date.","[1:reply] I'm on Fedora KDE and my Spotify never broke... Is it a GNOME thing?
+[2:reply] same
+[3:reply] I just use the web, but don't recall having issues in gnome when I used the app. I'll tinker after work.
+[4:reply] I ended up installing snap version
+[5:reply] I just reverted to the last one I know worked and then used mask command so it didn't auto update. Once in a while I check on a VM I use for other ish to see it they fixed it lol",title_body_comments,yes,yes,technical_troubleshooting,medium,The post describes a concrete malfunction or asks how to diagnose or fix one.,,,,,,,https://reddit.com/r/Fedora/comments/1u6ng69/why_do_they_keep_breaking_the_spotify_app/
+B3-078,ios,Charging on hold,Has anyone else noticed this a lot more after updating to iOS 26? My phone isn’t even all that warm and I get this notification often.,,title_and_body,yes,yes,technical_troubleshooting,low,The text may describe a problem to diagnose; check whether its main purpose is troubleshooting.,,,,,,,https://reddit.com/r/ios/comments/1pniqmm/charging_on_hold/
+B3-079,docker,After os updates I get `Error response from daemon: client version 1.42 is too old`,"After apt update && apt upgrade I get docker compose issues: DOCKER_API_VERSION=1.52 docker compose ps # has expected result docker compose ps Error response from daemon: client version 1.42 is too old. Minimum supported API version is 1.44, please upgrade your client to a newer version cat /etc/os-release PRETTY_NAME=""Debian GNU/Linux 12 (bookworm)"" NAME=""Debian GNU/Linux"" VERSION_ID=""12"" VERSION=""12 (bookworm)"" VERSION_CODENAME=bookworm ID=debian HOME_URL=""https://www.debian.org/"" SUPPORT_URL=""https://www.debian.org/support"" BUG_REPORT_URL=""https://bugs.debian.org/"" docker version Client: Docker Engine - Community Version: 29.0.0 API version: 1.52 Go version: go1.25.4 Git commit: 3d4129b Built: Mon Nov 10 21:46:24 2025 OS/Arch: linux/amd64 Context: default Server: Docker Engine - Community Engine: Version: 29.0.0 API version: 1.52 (minimum version 1.44) Go version: go1.25.4 Git commit: d105562 Built: Mon Nov 10 21:46:24 2025 OS/Arch: linux/amd64 Experimental: false containerd: Version: v2.1.5 GitCommit: fcd43222d6b07379a4be9786bda52438f0dd16a1 runc: Version: 1.3.3 GitCommit: v1.3.3-0-gd842d771 docker-init: Version: 0.19.0 GitCommit: de40ad0",,title_and_body,yes,yes,other,low,The text may be discussion rather than an active repair request; please check its main purpose.,,,,,,,https://stackoverflow.com/questions/79818856/after-os-updates-i-get-error-response-from-daemon-client-version-1-42-is-too-o
+B3-080,EndeavourOS,initrd failed after update,How can I go about fixing this? Thanks in advance.,,title_and_body,unclear,unclear,na,low,The saved text does not identify the software topic clearly enough.,,,,,,,https://reddit.com/r/EndeavourOS/comments/1p8r5z6/initrd_failed_after_update/
+B3-081,rust,crates.io: an update to the malicious crate notification policy,,"[1:OP] Two typo-squatting crates for `polymarket-client-sdk`:
+
+ - `polymarket-clients-sdk`
+ - `polymarket-client-sdks`
+
+I _really_ feel like crates.io should just prevent the creation of any crate within too small an edit distance of an existing crate.
+
+Even they're not a typo-squattin…
+[2:reply] If you introduce that, please also include namespaces at the same time. And maybe a namespace import system so you can just include trusted namespaces and then not have to write out full dependency names.
+[3:reply] &gt; I really feel like crates.io should just prevent the creation of any crate within too small an edit distance of an existing crate.
+
+I guess but what counts as ""too close""? There are tons of pairs of english dictionary words with completely distinct meanings but an edit dist…
+[4:reply] The need for namespaces strikes again. 
+
+Btw, can crates be digitally signed by the uploader ?
+[5:reply] We do have some detection of this already, but for signal:noise reasons it only looks for crate names that are close to the top 3,000 most popular crates, and `polymarket-client-sdk` is nowhere near that. It's a tricky problem to solve in a single, flat namespace.",title_plus_comments,yes,yes,other,low,The post discusses software without a clear repair request or chiefly negative opinion.,,,,,,,https://reddit.com/r/rust/comments/1r3wa64/cratesio_an_update_to_the_malicious_crate/
+B3-082,transformers,"RID15 wasn't a bad show, it just wasn't a good Prime sequel.",,"[1:reply] I can never hate it because the figures were awesome and the designs more so.
+
+
+But not calling it perfect.
+
+
+I remember when I saw they were doing a figure of Bisk and thought ""Oh, oh you are bringing creativity to help table.""
+[2:reply] That's true, and I think the big problem is that it came at an odd time in the life of the franchise.
+
+In the leadup to 2015, Hasbro began getting rid of the ""one size fits all"" approach to the brand and started targeting different things at different audiences. Prime was design…
+[3:reply] its certainly better as its own thing compared to a prime sequel, but as its own thing? its kinda not great still
+[4:reply] Arguably without the connections to Prime, I think the show would be far worse. 
+The Starscream mini-arc and the Soundwave episode in season 2 were pretty decent for what they were, but solely because the show finally decided to commit to being a proper sequel to the show before…
+[5:reply] No no, it's also a bad show
+
+As a person who defends RID15 and thinks TFP was kind of a bad show, RID15 also just fails on its own merits as well",title_plus_comments,no,no,na,medium,The saved post does not describe software.,,,,,,,https://reddit.com/r/transformers/comments/1o0not3/rid15_wasnt_a_bad_show_it_just_wasnt_a_good_prime/
+B3-083,union,"WGA Staff Authorizes a Strike, Accuses Guild Leaders of Bargaining in Bad Faith",,"[1:reply] I am continuously disappointed by AFL-CIO unions constantly being shitheads to their staffs and refusing to let them organize. 
+
+Honestly if we want a real labor movement in this country, we need our locals to start overhauling their international offices.
+[2:reply] The haunting of Gompers in the labor movement must be snuffed out. Militant rank and file union organizing and building up more solidarity between unions will be greatly important. Also, yall gotta start talking real class politic in the hall, correct our misguided brothers and…
+[3:reply] Interestingly in my country the most left-wing and most generally competent guy ever to lead our public sector union busted multiple attempts of his unions staffers to organise.
+
+
+Essentially he was a workaholic totally dedicated to the cause, and prepared to work as hard as pos…
+[4:reply] Kinda hard to fix a system with a track record as fucked as the AFL. You could however drop their organizing strategy entirely and try some industrial unionism 🥺",title_plus_comments,no,no,na,low,The saved post does not describe software.,,,,,,,https://reddit.com/r/union/comments/1qqvc44/wga_staff_authorizes_a_strike_accuses_guild/
+B3-084,chrome,My chrome won't load videos and sites.,"Hi, this is an issue i have been having since yesterday. I could use chrome without any problems before yesterday but now, some websites wont load or even if they do, the page is just blank or gives a massage 'no internet connection' or **www.reddit.com**’s DNS address could not be found.' i have tested on different search engines like firefox or edge avd there seems to be no such issue with these sites regarding no internet or address not being found.I have tried removing all my extentions, reinstalling chrome and checking for updates.Please help.","[1:reply] Thank you for your submission to /r/Chrome! We hope you'll find the help you need. Once you've found a solution to your issue, please comment ""**!solved**"" under this comment to mark the post as solved. Thanks!
+
+
+*I am a bot, and this action was performed automatically. Please […
+[2:reply] It's compromised. Try to ping and tracert [8.8.8.8](http://8.8.8.8) and [1.1.1.1](http://1.1.1.1)
+[3:OP] Thank you. It does work but only sometimes. I have to refresh the page 2-3 times for it to load properly. Would like a more permanent solution but you have done enough service that I can now use it so thank you. !solved",title_body_comments,yes,yes,technical_troubleshooting,medium,The post describes a concrete malfunction or asks how to diagnose or fix one.,,,,,,,https://reddit.com/r/chrome/comments/1nu9iny/my_chrome_wont_load_videos_and_sites/
+B3-085,rust,"The Good, the Bad, and the Leaky: jemalloc, bumpalo, and mimalloc in meilisearch",,"[1:reply] Super interesting read - thanks for that.
+[2:OP] Sorry, I clarified the sentence in the post. I was talking about the mimalloc's override feature.
+[3:reply] This is awesome! We are using meili in prod, and I love seeing it evolve. I somehow have weird latency issues running it on AWS, frequently takes 500ms+ to respond for no reason, but with a bit of caching it's still been super reliable and a pleasure to work with. 
+
+Are there pl…
+[4:reply] Assuming you have a workload you can use to repro locally, a tool like heaptrack let's you see right away whether you have a true leak in your code, or whether the ""leaked"" memory is from your malloc implementation (an effect of fragmentation, for instance). You have to pay atte…
+[5:reply] Great writeup. The bumpalo approach for indexing is clever — using an arena allocator for a phase where you know all allocations share the same lifetime makes perfect sense. The traditional problem with arenas is that you pay for the high-water mark in memory, but if your indexi…",title_plus_comments,yes,no,other,low,The post discusses software without a clear repair request or chiefly negative opinion.,,,,,,,https://reddit.com/r/rust/comments/1rzzy7w/the_good_the_bad_and_the_leaky_jemalloc_bumpalo/
+B3-086,chrome,Chrome on macOS shows a black bar at the bottom after navigating via the address bar (tried everything),"I'm experiencing a strange issue with Google Chrome on my MacBook.
+
+I use Chrome with a signed-in profile. Whenever I navigate to a website by typing a URL or search query into the address bar, a black bar appears at the bottom of the browser window. The only way to make it disappear is to switch to another tab (or create a new tab) and then return to the original tab.
+
+The issue also occurs:
+
+* In Incognito mode.
+* When I'm signed in to any Chrome profile.
+
+However, it **does not** occur in the following situations:
+
+* When Chrome is **not maximized**.
+* When using **Guest mode**.
+* When I **right-click a link and choose ""Open link in new tab""** instead of navigating via the address bar.
+
+# Troubleshooting I've already tried
+
+* Uninstalled and reinstalled Google Chrome.
+* Updated Chrome to the latest version.
+* Disabled **""Use hardware acceleration when available.""**
+* Cleared **Cached images and files**.
+* Signed out of my Chrome profile and signed back in.
+* Disabled all extensions.
+
+The issue still persists despite all of the above. What other things I can do?","[1:reply] Thank you for your submission to /r/Chrome! We hope you'll find the help you need. Once you've found a solution to your issue, please comment ""**!solved**"" under this comment to mark the post as solved. Thanks!
+
+
+*I am a bot, and this action was performed automatically. Please […
+[2:reply] Me too bro and I made a report on Chromium Issues. But no one has been able to fix it sadly :(
+[3:OP] Hopefully the Google team sees this post and acts on it.
+[4:OP] Thanks, I would consider moving to Edge. If there is no solution for this.   
+I also use the same Chrome profile every day on my Windows laptop, and the issue never occurs there. It only happens on my MacBook, which makes the behavior even more puzzling.
+[5:reply] Are you open to trying Microsoft Edge? I think you might be pleasantly surprised by it.
+
+[https://www.windowslatest.com/2026/06/28/microsoft-edge-claps-back-at-users-mocking-mac-usage-calls-itself-the-best-browser/](https://www.windowslatest.com/2026/06/28/microsoft-edge-claps-b…",title_body_comments,yes,yes,technical_troubleshooting,low,The text may describe a problem to diagnose; check whether its main purpose is troubleshooting.,,,,,,,https://reddit.com/r/chrome/comments/1ui3nra/chrome_on_macos_shows_a_black_bar_at_the_bottom/
+B3-087,Dell,The Laptop that Aged Like Wine: 11 Years in with my Inspiron 15 3542. (x-post r/pcmasterrace),"* Greetings everyone, My story starts with a laptop that was never meant to see the light of day after 5 years let alone the 11 years till now that it survived. A peice of plastic and metal most would look at and say, “What is this” or “i should get something better”. But i would say, it was a background, almost a legacy that has lived for 11 years and more of my life. The Inspiron 15 3542, manufactured on January 12th 2015. 
+* Fun Fact: The laptop has never been opened, cleaned or any oem parts replaced except the hdd(which was converted to an external drive) and the ram (upgraded from 4gb to 8gb). And the max recorded temperature was 83C because the cpu was pushing 20w to increase the headroom that the igpu and the cpu have. Otherwise avg highs were 80C.
+* **Specs :** 
+   * **2015-2017ish (Aprox.) -**
+      * **Cpu:** i3 4005u (2 cores 4 threads)
+      * **Gpu:** iGPU
+      * **Ram:** 4gb samsung 1600mhz (oem)
+      * **Storage:** 1tb hdd
+      * **OS:** Linux - windows 10
+      * **Charger:** OEM 65W dell
+      * **Battery:** 66.6Whr
+      * **Screen:** 15.6” 720p TN panel
+   * **2026 -**
+      * **Cpu:** i3 4005u (2 cores 4 threads)
+      * **Gpu:** iGPU
+      * **Ram:** 8gb crucial 1600mhz ddr3
+      * **Storage:** 256gb ssd
+      * **OS:** Windows 11
+      * **Charger:** OEM 65W dell
+      * **Battery:** 66.6Whr \~65% battery health (\~43whr)
+      * **Screen:** 15.6” 720p TN panel
+* Back to the story, The laptop was immediately put in a shop for a OS change to windows 10 in 2016 or after it. 4 years were uneventful, it was mostly used for house work, and 7-8 year old me was just playing roblox on it. When i was 9 years old, microsoft somehow offered a “free windows 11 update” which shouldn't be possible considering my cpu doesn't have TPM 2.0 . but i clicked it anyways. It updated to 21H2, and microsoft stopped giving updates. 
+* When i became 9 - 10 years old, i began to code, first it was scratch, html, then python as i grew older. Without this laptop, I wouldn't have been able to code. As i grew older, i started to become more interested in technology, pc parts. And to be honest? It was due to the laptop,as it was rreeaaallly slow, and for some reason it was locked at 0.8 ghz and i managed to unlock it to its full 1.7ghz, tons for debloating. It was at its peak in 2024 - 25 years. At that time i removed battery while plugged in and put it back in, and the bios/OS did not like that and the bios forgot its own oem charger. It could still browse, do work, very light gaming, touched piracy because i cant buy games, i played COD Modern warfare, COD 2, Sniper Elite V2 original, NFS Most Wanted, GT4 (pcsx2) and more.
+* Unfortunately, the heavy debloating damaged the OS to badly, and slowly but surely, all microsoft apps and OS features began to die, Windows 11 started to look like windows 10, most features breaking. Fortunately, Bios finally managed to identify its own oem charger, and could charge the battery at last. The Apps work, i have installed, e.g browsers, games, cmd, task manager, etc.   Below are the few images ranging from oldest images first to latest.
+* I mean yea, the hinges are basically dead, the plastic is broken, had to do tapes stuff, But the Laptop still stands, works, even after pirating, getting a virus, running the impossible windows 11, almost corrupting the OS, drops and falls, sudden power loss, etc.
+* As for my upcoming plans? I'm going to go with either windows 10 ltsc or mint XFCE. and retiring this as soon as possible, to let it rest, as a symbol and legacy.
+* What crazy things should I try on this piece of history? (remember the fact i only have 50gb free from the ssd, and 100gb on the hdd)
+* P.S. I wrote this on the laptop, and the battery can still last like \~5 hours of light browsing on power saving mode (65% health battery).
+
+https://preview.redd.it/v2nqikna33yg1.jpg?width=3024&amp;format=pjpg&amp;auto=webp&amp;s=e0031981c5aa88cd876f9c633ebcfff1f627c133
+
+https://preview.redd.it/u4lg6kna33yg1.jpg?width=4032&amp;format=pjpg&amp;auto=webp&amp;s=788fc13f54405797c88716ea9489e2b38eb7f48e
+
+https://preview.redd.it/ojsqrkna33yg1.jpg?width=4032&amp;format=pjpg&amp;auto=webp&amp;s=aa50569b7afd195b19bd23c7741bae0581cf265d
+
+https://preview.redd.it/d86lcjna33yg1.jpg?width=4032&amp;format=pjpg&amp;auto=webp&amp;s=513bf4b13d7b3cc6a644211f4f2372a4f4f4000e
+
+[Current screenshot](https://preview.redd.it/a5e3qkna33yg1.jpg?width=1365&amp;format=pjpg&amp;auto=webp&amp;s=e0b0b66c3544ab82396a6796dc4844f4518ee74d)
+
+https://preview.redd.it/oahtukna33yg1.png?width=1366&amp;format=png&amp;auto=webp&amp;s=d2bcdb049db03a0d20b39ba0fa6276f04f235c38
+
+https://preview.redd.it/0odvllna33yg1.png?width=1366&amp;format=png&amp;auto=webp&amp;s=ee830009469ca1a43974648620dc33da9e862add
+
+https://preview.redd.it/b476tpna33yg1.jpg?width=4026&amp;format=pjpg&amp;auto=webp&amp;s=471ed98f915cf3a1162d066c695211e1be19a077
+
+https://preview.redd.it/8pbrdlna33yg1.png?width=1366&amp;format=png&amp;auto=webp&amp;s=82eae59cdfa98aa2e471a207b9dc085a87a67286
+
+https://preview.redd.it/ous45mna33yg1.png?width=1366&amp;format=png&amp;auto=webp&amp;s=cd4d0d34441985630fc6aca59749e653857056ea
+
+https://preview.redd.it/zi2wgnna33yg1.png?width=1366&amp;format=png&amp;auto=webp&amp;s=a1baa1d87e4105062d2844a9600b4274b8fd14ff",,title_and_body,yes,yes,technical_troubleshooting,low,The text may describe a problem to diagnose; check whether its main purpose is troubleshooting.,,,,,,,https://reddit.com/r/Dell/comments/1sz034y/the_laptop_that_aged_like_wine_11_years_in_with/
+B3-088,chrome,I somehow broke my Chrome?!,,"[1:reply] Thank you for your submission to /r/Chrome! We hope you'll find the help you need. Once you've found a solution to your issue, please comment ""**!solved**"" under this comment to mark the post as solved. Thanks!
+
+
+*I am a bot, and this action was performed automatically. Please […
+[2:reply] Looks like you're the latest victim of the newtab page hijacking. Can you determine where that search button takes you (without actually pressing it obviously)? There's a shedload of possible solutions going about in this sub and elsewhere so I suggest you start with a search (…
+[3:reply] You see the puzzle icon at the top right? That means extensions. Can you try remove all of them?
+[4:OP] With everything i search i just end up on some yahoo site...
+[5:OP] I removed them all. Nothing happened.",title_plus_comments,yes,no,other,low,The post discusses software without a clear repair request or chiefly negative opinion.,,,,,,,https://reddit.com/r/chrome/comments/1nq718r/i_somehow_broke_my_chrome/
+B3-089,Wordpress,CSS issue after WP Site update,,,title_only,unclear,unclear,na,low,The saved text does not identify the software topic clearly enough.,,,,,,,https://reddit.com/r/Wordpress/comments/1k9pp61/css_issue_after_wp_site_update/
+B3-090,transformers,He's called Optimus Prime because he turns into a truck,,"[1:reply] Isn’t he called “convoy” because he turns into a truck, and Optimus is just a cool space name?-
+[2:reply] Optimus Prime is Latin for ""Best First""
+
+Make of that what you will.
+[3:reply] Ah! I love MS Light of Victory! Not a day goes by that I don’t hope for a CHUG scale release. Like Romulus and MP-10V.
+[4:reply] I want this color way so bad and I can’t find him with the transparent windows 😭
+[5:reply] it's a Magic Square Optimus prime",title_plus_comments,no,no,na,medium,The saved post does not describe software.,,,,,,,https://reddit.com/r/transformers/comments/1p8d99y/hes_called_optimus_prime_because_he_turns_into_a/
+B3-091,chrome,Windows Explorer &amp; Taskbar Freeze When Sharing Windows in Chrome and other Chromium browsers,"Hey everyone,
+
+I’ve been dealing with a strange issue that’s driving me nuts. Every time I share my screen (a window, not a tab) in a **Chromium-based browser** like Chrome, Edge, or Brave — for example in a Google Meet session — **Windows Explorer and specifically the taskbar starts lagging and partially freezes**. The taskbar becomes unresponsive, along with the start menu and basically everything within taskbar (desktop and file manager remains unaffected). If I **restart Windows Explorer** from Task Manager, everything immediately goes back to normal… until I share a window again. And when it happens it won't go away until I restart Windows Explorer; not even after I close my Meet session and stop sharing screen. I have noticed that this issue has something to do with **Service Host: CaptureService** and the **immersive shell process** (immersiveshell.dll). I believe something happens between this thing and Windows Explorer that triggers the freeze and unresponsiveness.  Here are the things I’ve tried so far and the things I’ve noticed:
+
+\- Clean graphics driver reinstall using DDU, then installed an older version → issue persists.
+
+\- Updating my graphics driver to the latest version → issue persists
+
+\- Disabling all the Shell Extensions → issue persists
+
+\- Trying in Clean Boot → issue persists
+
+\- Uninstalling Antivirus software (ESET) → issue persists
+
+\- Trying different powershell and cmd commands such as sfc /scannow, DISM, etc.
+
+\- Updating Windows → issue persists
+
+\- Uninstalling Windows updates → issue persists
+
+\- Uninstalling Windows itself and performing a completely clean install of Windows → issue persists
+
+ And this **doesn’t happen on non-Chromium browsers like Firefox**. But using Google Meet on those browsers gives me a super laggy experience for certain reasons that only Google knows.
+
+**It also doesn’t happen** if I just share Chrome (or browsers) tabs. Only when I share a window on my desktop environment.
+
+Here’s my system info:
+
+Windows 10 Pro 22H2 – 19045.6456
+
+32 GB of RAM
+
+CPU: Intel Core i5 12400F
+
+GPU: Nvidia GeForce RTX 4060
+
+1TB of SSD
+
+  
+And my PC isn’t even one year old. I’ve checked my hardware components like my SSD and they’re fine.
+
+I didn’t have this problem before, but since a couple of months ago it’s been happening and I basically don’t know what else to do.  
+  
+
+
+Thanks for your helps and ideas in advance.",,title_and_body,yes,yes,technical_troubleshooting,medium,The post describes a concrete malfunction or asks how to diagnose or fix one.,,,,,,,https://reddit.com/r/chrome/comments/1owv5cc/windows_explorer_taskbar_freeze_when_sharing/
+B3-092,applehelp,Why does Apple want to uninstall my apps?,"Why does the new iOS 18.7.7 update want to uninstall 9.5 GB worth of apps to free up space, when the update itself is 386 MB?",,title_and_body,yes,yes,technical_troubleshooting,low,The text may describe a problem to diagnose; check whether its main purpose is troubleshooting.,,,,,,,https://reddit.com/r/applehelp/comments/1s38rsd/why_does_apple_want_to_uninstall_my_apps/
+B3-093,MicrosoftEdge,EdgeWebView does not update with Microsoft Edge during updates.,"During Microsoft Edge updates, everything gets updated. Except the EdgeWebView component. It remains at the previous version compared to the current version of Edge, taking up space on my SSD and causing Edge to keep the files from the previous version. And they are impossible to delete until EdgeWebView decides to update randomly one day. Is this normal Edge behavior or is there a problem?","[1:reply] Edge webview is independent from Edge itself. Like android webview. Every major OS has this for developers to use website codes such as Html, CSS, Javascript and etc.
+
+For example people who want a ""native YTM"" client but sadly not very possible and has to use a webview compoten…
+[2:reply] WebView2 is a windows component. Several applications on your device are running because of WebView2. 
+
+  
+WebView2 updates happen on a periodic basis. see- [Evergreen vs. fixed version of the WebView2 Runtime - Microsoft Edge Developer documentation | Microsoft Learn](https://l…
+[3:reply] For the love of all that is Holy, leave WebView components alone. The space taken is probably 500 MB including cache and language packs.
+[4:OP] I didn't touch them. I just asked. And anyway, I solved the problem by manually updating by downloading the installer and running it as administrator. There's no need to answer like that. I simply asked.",title_body_comments,yes,yes,technical_troubleshooting,low,The text may describe a problem to diagnose; check whether its main purpose is troubleshooting.,,,,,,,https://reddit.com/r/MicrosoftEdge/comments/1wsw8jg/edgewebview_does_not_update_with_microsoft_edge/
+B3-094,node,Express + typescript + nodejs tutorial?,"I cant find it, does anyone have a good, recent updated youtube tutorial for express + typescript setup from 0 and some examples? Even a text not youtube if its like really best practice , recent and updated.",,title_and_body,yes,yes,technical_troubleshooting,low,The text may describe a problem to diagnose; check whether its main purpose is troubleshooting.,,,,,,,https://reddit.com/r/node/comments/1pnapx3/express_typescript_nodejs_tutorial/
+B3-095,apache,upgrade to latest version,,,title_only,unclear,unclear,na,low,The saved text does not identify the software topic clearly enough.,,,,,,,https://reddit.com/r/apache/comments/1m7du3f/upgrade_to_latest_version/
+B3-096,Fedora,so installed fedora,,"[1:OP] theres an extension in firefox called progressive web apps so i installed apple music as web app
+[2:reply] Congrats, btw how did you get Apple music working here?
+[3:reply] Welcome to the club.
+
+I'm on Fedora KDE for about a month now as my daily driver and it has been rock solid. Went from Garuda Mokka to Bazzite to Fedora and finally found my home.
+
+Everything I need and the games I play just work. According to Proton DB 90% of my library is gold…
+[4:reply] I have a noob question. If I get the fedora43 and when the 44 comes out, can I simply update it without redoing everything?  Also, have you tried steam with KDE? Does it work well enough?
+[5:OP] Yes you j's simply update it",title_plus_comments,yes,no,other,medium,The post discusses software without a clear repair request or chiefly negative opinion.,,,,,,,https://reddit.com/r/Fedora/comments/1rzl7os/so_installed_fedora/
+B3-097,chrome,"""Keep For Now"" Button Not Working --- Can't Re-Enable uBlock Origin. Help? (Console Error Attached""",,"[1:reply] Use UBO lite or any other mv3 extension instead of dragging out your suffering even more than it already has been. Or just change browsers.
+[2:reply] Thank you for your submission to /r/Chrome! We hope you'll find the help you need. Once you've found a solution to your issue, please comment ""**!solved**"" under this comment to mark the post as solved. Thanks!
+
+
+*I am a bot, and this action was performed automatically. Please […
+[3:OP] First, every time it's shut down, I AM switching to uBOL until I find a way to re-activate it.
+
+Second, this is the first time I've hit a wall like this, so it's not exactly been ""suffering"" like you think it's been. Up to this point it's always been a simple google search and t…",title_plus_comments,yes,no,technical_troubleshooting,medium,The post describes a concrete malfunction or asks how to diagnose or fix one.,,,,,,,https://reddit.com/r/chrome/comments/1pb0n21/keep_for_now_button_not_working_cant_reenable/
+B3-098,github,I have GitHub Pro from Education. Why do I still need to upgrade to get GitHub Copilot Pro?,,"[1:reply] GitHub pro and GitHub copilot pro are 2 separate products. GitHub pro gives your more GitHub actions minutes, more storage etc. GitHub copilot pro is an agentic coding tool with better model support
+[2:reply] Yes but GH Copilot Pro is free for educational users (verified teachers, students, etc)
+[3:reply] https://github.com/github-copilot/free_signup
+[4:reply] Thank you very much 🙏. I ran through my tokens for a school project, and thought I already had GitHub Copilot Pro, but that wasn't the case apparently.
+[5:reply] Off shore some of your peers and feel the vibe.",title_plus_comments,yes,yes,other,low,The post discusses software without a clear repair request or chiefly negative opinion.,,,,,,,https://reddit.com/r/github/comments/1omcf23/i_have_github_pro_from_education_why_do_i_still/
+B3-099,Android,"Pixel 10 finally gets its long-promised GPU driver upgrade, but the real test starts now [August driver release that brings Android 16 and Vulkan 1.4 support]",,"[1:reply] No better scores on benchmarks so idk if something changed
+[2:reply] Likely improved performance in some intensive games. Which if you didn't play up until now, you wouldn't know it even changed something.
+[3:reply] &gt;Game developers, such as those behind Genshin Impact, dropped support for PowerVR hardware earlier this year, with Pixel 10 users reporting inconsistent performance and GPU-related issues. However, Google previously clarified to Android Authority that Genshin Impact has not…
+[4:reply] Meanwhile the Pixel 7/7a just sit in the dust with poor network chipsets that constantly drop or lose signal.
+
+Not sure I can ever bother with a Pixel again.
+[5:reply] Vulkan 1.4",title_plus_comments,yes,yes,other,medium,The post discusses software without a clear repair request or chiefly negative opinion.,,,,,,,https://reddit.com/r/Android/comments/1ppmlq9/pixel_10_finally_gets_its_longpromised_gpu_driver/
+B3-100,neovim,neotest-golang 2.0.0,,"[1:reply] Thats a pregnant gopher
+[2:reply] Nice, great job!
+[3:reply] Sweet will give it a go!
+[4:reply] You can run the test directly while you already inside Neovim
+
+For me in python when you have multiple tests you can navigate with telescope and just have a keymap to execute the nearest test without having to switch to a tmux pane then adjust the cli command to run the correct…
+[5:reply] For those that use neotest, could people explain their workflows? Does it really shine when you're also using a DAP? IDK but I have issues getting DAP to correctly work, and neotest by itself doesn't seem that useful with a tmux based workflow (another window runs has the tests…",title_plus_comments,unclear,unclear,na,low,The saved text does not identify the software topic clearly enough.,,,,,,,https://reddit.com/r/neovim/comments/1nny826/neotestgolang_200/
